@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:34:51.864Z",
-    "mensajes": 45,
+    "ultimoContacto": "2026-08-07T15:34:57.138Z",
+    "mensajes": 46,
     "conversacion": [
       {
         "rol": "cliente",
@@ -394,9 +394,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-08-07T15:34:51.100Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Espinal",
+        "fecha": "2026-08-07T15:34:56.510Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-08-07T15:34:56.511Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -404,7 +414,8 @@
       "telefono": "573148628327",
       "nombreCliente": "Wendy rojas",
       "celular": "314862832",
-      "departamento": "Tolima"
+      "departamento": "Tolima",
+      "ciudad": "Espinal"
     }
   },
   {
