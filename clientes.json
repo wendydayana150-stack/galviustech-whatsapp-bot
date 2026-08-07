@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:35:05.486Z",
-    "mensajes": 47,
+    "ultimoContacto": "2026-08-07T15:35:21.729Z",
+    "mensajes": 48,
     "conversacion": [
       {
         "rol": "cliente",
@@ -414,9 +414,19 @@
         "rol": "bot",
         "texto": "En que barrio queda esa direccion?",
         "fecha": "2026-08-07T15:35:04.775Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Prados",
+        "fecha": "2026-08-07T15:35:20.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-08-07T15:35:20.944Z"
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -426,7 +436,8 @@
       "celular": "314862832",
       "departamento": "Tolima",
       "ciudad": "Espinal",
-      "direccion": "MZ 13 CS 16"
+      "direccion": "MZ 13 CS 16",
+      "barrio": "Prados"
     }
   },
   {
