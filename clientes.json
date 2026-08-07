@@ -34,7 +34,44 @@
     "telefono": "573151468128",
     "nombre": "Galviustech",
     "primerContacto": "2026-08-05T18:55:09.805Z",
-    "ultimoContacto": "2026-08-05T18:56:21.058Z",
-    "mensajes": 2
+    "ultimoContacto": "2026-08-07T16:01:16.284Z",
+    "mensajes": 3,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "Hola impresora",
+        "fecha": "2026-08-07T16:01:13.525Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T16:01:13.525Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T16:01:14.155Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T16:01:14.716Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nImpresora termica portatil, no necesita tinta ni toner. Bluetooth, compatible con Android e iPhone, bateria recargable. Ideal para emprendedores, tiendas, restaurantes y oficinas. Imprime facturas, recibos, cotizaciones, etiquetas y guias.",
+        "fecha": "2026-08-07T16:01:15.198Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
+        "fecha": "2026-08-07T16:01:15.627Z"
+      }
+    ],
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
+    "pausado": false
   }
 ]
