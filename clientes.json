@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:33:06.209Z",
-    "mensajes": 38,
+    "ultimoContacto": "2026-08-07T15:33:25.555Z",
+    "mensajes": 39,
     "conversacion": [
       {
         "rol": "cliente",
@@ -279,11 +279,46 @@
         "rol": "bot",
         "texto": "¡Hola! 👋 Bienvenido a GalviusTech, con gusto te ayudo.\n\nPara poder recomendarte el producto ideal, cuéntame:\n\n1. ¿En qué ciudad o municipio te encuentras?\n2. ¿Qué operador móvil usas (Claro, Movistar, Tigo, WOM o ETB)?\n3. ¿Para qué lo necesitas? (trabajo, estudio, hogar, viajes o negocio)\n\nCon esa info te doy la mejor recomendación 😊",
         "fecha": "2026-08-07T15:33:05.061Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem 4g",
+        "fecha": "2026-08-07T15:33:22.355Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T15:33:22.355Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T15:33:22.878Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T15:33:23.280Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T15:33:23.741Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 4G*\n$ 239.900\n\nModem portatil con conexion 4G LTE, compatible con SIM Card de todos los operadores en Colombia. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-07T15:33:24.233Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
+        "fecha": "2026-08-07T15:33:24.852Z"
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-portatil-5g"
+      "productoId": "modem-4g"
     }
   },
   {
