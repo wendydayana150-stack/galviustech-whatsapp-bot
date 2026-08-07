@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T02:04:52.265Z",
-    "mensajes": 33,
+    "ultimoContacto": "2026-08-07T02:05:37.927Z",
+    "mensajes": 34,
     "conversacion": [
       {
         "rol": "cliente",
@@ -174,10 +174,47 @@
         "rol": "bot",
         "texto": "¡Hola! 😊 Bienvenido a GalviusTech.\n\nVeo que mencionas \"Imágenes\", pero no logré recibir ninguna imagen adjunta en tu mensaje. ¿Podrías intentar enviarla de nuevo?\n\nMientras tanto, cuéntame un poco para poder ayudarte mejor:\n📍 ¿En qué ciudad o municipio te encuentras?\n📶 ¿Qué operador móvil usas (Claro, Movistar, Tigo, WOM, ETB)?\n💡 ¿Para qué necesitas el modem o la impresora? (trabajo, estudio, hogar, negocio, viajes...)\n\nCon esa info te recomiendo la mejor opción para ti.",
         "fecha": "2026-08-07T02:04:51.320Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imágenes del Modem 4g",
+        "fecha": "2026-08-07T02:05:34.290Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T02:05:34.290Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T02:05:34.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T02:05:35.454Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-07T02:05:36.037Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 4G*\n$ 239.900\n\nModem portatil con conexion 4G LTE, compatible con SIM Card de todos los operadores en Colombia. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-07T02:05:36.668Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
+        "fecha": "2026-08-07T02:05:37.210Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {}
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "modem-4g"
+    }
   },
   {
     "telefono": "573151468128",
