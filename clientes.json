@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:33:35.935Z",
-    "mensajes": 40,
+    "ultimoContacto": "2026-08-07T15:34:17.156Z",
+    "mensajes": 41,
     "conversacion": [
       {
         "rol": "cliente",
@@ -324,11 +324,41 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-07T15:33:35.186Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Termica",
+        "fecha": "2026-08-07T15:34:13.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T15:34:13.275Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T15:34:14.214Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-07T15:34:14.838Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nImpresora termica portatil, no necesita tinta ni toner. Bluetooth, compatible con Android e iPhone, bateria recargable. Ideal para emprendedores, tiendas, restaurantes y oficinas. Imprime facturas, recibos, cotizaciones, etiquetas y guias.",
+        "fecha": "2026-08-07T15:34:15.709Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
+        "fecha": "2026-08-07T15:34:16.354Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-4g"
+      "productoId": "impresora-termica"
     }
   },
   {
