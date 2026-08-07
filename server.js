@@ -120,7 +120,7 @@ async function enviarListaCatalogo(telefono) {
               title: "Productos",
               rows: catalogo.map((p) => ({
                 id: `producto_${p.id}`,
-                title: p.nombre,
+                title: p.nombreCorto || p.nombre,
                 description: formatearPrecio(p.precio),
               })),
             },
@@ -152,7 +152,7 @@ async function enviarListaModems(telefono) {
               title: "Modems",
               rows: modems.map((p) => ({
                 id: `producto_${p.id}`,
-                title: p.nombre,
+                title: p.nombreCorto || p.nombre,
                 description: formatearPrecio(p.precio),
               })),
             },
