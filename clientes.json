@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T02:06:49.686Z",
-    "mensajes": 36,
+    "ultimoContacto": "2026-08-07T02:09:03.569Z",
+    "mensajes": 37,
     "conversacion": [
       {
         "rol": "cliente",
@@ -259,9 +259,19 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
         "fecha": "2026-08-07T02:06:49.049Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Preguntar algo",
+        "fecha": "2026-08-07T02:09:02.753Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya le avise a Michell que quieres hablar directamente. En breve te va a escribir por aqui mismo.",
+        "fecha": "2026-08-07T02:09:02.753Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-portatil-5g"
     }
