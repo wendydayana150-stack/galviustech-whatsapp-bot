@@ -3,8 +3,8 @@
     "telefono": "573214579158",
     "nombre": "Proveedora B&L",
     "primerContacto": "2026-08-07T19:54:25.207Z",
-    "ultimoContacto": "2026-08-07T20:01:03.947Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-07T20:01:16.219Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,13 +85,23 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
         "fecha": "2026-08-07T20:01:03.235Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Preguntar algo",
+        "fecha": "2026-08-07T20:01:15.381Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, dame un momento y te sigo ayudando yo misma por aqui 😊",
+        "fecha": "2026-08-07T20:01:15.381Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica"
     },
-    "pausado": false
+    "pausado": true
   },
   {
     "telefono": "573147982725",
