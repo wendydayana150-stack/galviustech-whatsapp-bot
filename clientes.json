@@ -3,8 +3,8 @@
     "telefono": "573147982725",
     "nombre": "Sara Cristina",
     "primerContacto": "2026-08-07T19:34:44.284Z",
-    "ultimoContacto": "2026-08-07T19:37:34.001Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-08-07T19:37:45.261Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -100,11 +100,21 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-07T19:37:33.416Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Hablar con Michell",
+        "fecha": "2026-08-07T19:37:44.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, dame un momento y te sigo ayudando yo misma por aqui 😊",
+        "fecha": "2026-08-07T19:37:44.512Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false
+    "pausado": true
   },
   {
     "telefono": "573108106817",
