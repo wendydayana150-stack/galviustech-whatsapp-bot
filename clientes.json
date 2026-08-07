@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:34:45.991Z",
-    "mensajes": 44,
+    "ultimoContacto": "2026-08-07T15:34:51.864Z",
+    "mensajes": 45,
     "conversacion": [
       {
         "rol": "cliente",
@@ -384,16 +384,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-08-07T15:34:45.130Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tolima",
+        "fecha": "2026-08-07T15:34:51.100Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-08-07T15:34:51.100Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 289900,
       "telefono": "573148628327",
       "nombreCliente": "Wendy rojas",
-      "celular": "314862832"
+      "celular": "314862832",
+      "departamento": "Tolima"
     }
   },
   {
