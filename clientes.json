@@ -17,8 +17,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T15:35:21.729Z",
-    "mensajes": 48,
+    "ultimoContacto": "2026-08-07T15:35:30.656Z",
+    "mensajes": 49,
     "conversacion": [
       {
         "rol": "cliente",
@@ -424,9 +424,19 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-08-07T15:35:20.944Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Transferencia",
+        "fecha": "2026-08-07T15:35:29.872Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
+        "fecha": "2026-08-07T15:35:29.872Z"
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "esperando_confirmacion_envio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -437,7 +447,8 @@
       "departamento": "Tolima",
       "ciudad": "Espinal",
       "direccion": "MZ 13 CS 16",
-      "barrio": "Prados"
+      "barrio": "Prados",
+      "medioPago": "Transferencia"
     }
   },
   {
