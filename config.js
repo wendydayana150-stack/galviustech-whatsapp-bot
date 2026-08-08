@@ -111,6 +111,18 @@ const mensajeDatosTransferencia =
     "@3023890578\n\n" +
     "Cuando hagas la transferencia, envianos el comprobante por aqui mismo.";
 
+const mensajeRecordatorio30Min = (precio) =>
+        "Hola! 😊 Solo quería saber si aún estás interesado(a)\n" +
+        `Recuerda que está en promoción por solo ${precio}. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n` +
+        "📲 Si deseas reservar la tuya, estoy aquí para ayudarte.";
+
+const mensajeRecordatorio2Horas = (precio) =>
+        "¡Hola de nuevo! 👋\n" +
+        `Quería avisarte que la promoción de ${precio} sigue disponible por el momento, pero las unidades son limitadas.\n` +
+        "Si tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊";
+
+const mensajeRemarketing2Dias = mensajeRecordatorio30Min;
+
 module.exports = {
     nombreNegocio,
     nombreAsistente,
@@ -122,4 +134,7 @@ module.exports = {
     mensajeConfirmacionPedido,
     mensajePedidoConfirmado,
     mensajeDatosTransferencia,
+      mensajeRecordatorio30Min,
+      mensajeRecordatorio2Horas,
+      mensajeRemarketing2Dias,
 };
