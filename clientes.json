@@ -3,8 +3,8 @@
     "telefono": "573112922396",
     "nombre": "Egas Montenegro",
     "primerContacto": "2026-08-08T20:06:50.872Z",
-    "ultimoContacto": "2026-08-08T20:08:59.777Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-08-08T20:09:16.538Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -105,6 +105,16 @@
         "rol": "bot",
         "texto": "¡Ay, disculpa la confusión! Se me repitió el mensaje 😅\n\nCuéntame, ¿qué es lo que no te sirve o qué duda te quedó? ¿Es sobre cómo funciona con la SIM, o hay algo puntual que necesitas que te explique mejor?\n\nAsí te ayudo a resolverlo bien 😊",
         "fecha": "2026-08-08T20:08:59.061Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo pensé no tocaba incertar sim",
+        "fecha": "2026-08-08T20:09:09.297Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah, ya entiendo! 😊 No, tranquilo, sí es necesario insertarle una SIM Card para que el modem tenga señal y te dé internet. Es como el chip que le da la \"vida\" al equipo, usando la señal del operador que tú elijas.\n\nNo viene con un plan de datos incluido, tú le pones la SIM con el plan que ya tengas o que compres (prepago o pospago, el que prefieras).\n\nCuéntame, ¿tú ya tienes SIM con datos, o la idea era buscar algo que no necesitara ponerle nada? Así te oriento mejor según lo que realmente necesitas 🙌",
+        "fecha": "2026-08-08T20:09:15.765Z"
       }
     ],
     "paso": "confirmar_producto",
