@@ -527,7 +527,7 @@ async function enviarRecordatoriosPendientes() {
                         await enviarTexto(c.telefono, config.mensajeRecordatorio2Horas(precioTexto));
                         c.recordatorios.horas2 = true;
                         cambios = true;
-                  } else if (transcurrido >= 2 * 24 * 60 * 60 * 1000 && !c.recordatorios.dias2) {
+                  } else if (transcurrido >= 18 * 60 * 60 * 1000 && !c.recordatorios.dias2) {
                         await enviarTexto(c.telefono, config.mensajeRemarketing2Dias(precioTexto));
                         c.recordatorios.dias2 = true;
                         cambios = true;
