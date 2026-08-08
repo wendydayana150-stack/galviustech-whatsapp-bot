@@ -68,8 +68,8 @@
     "telefono": "573228246201",
     "nombre": "ropero ortega",
     "primerContacto": "2026-08-08T20:30:39.798Z",
-    "ultimoContacto": "2026-08-08T20:34:21.609Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-08T21:35:54.287Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -120,6 +120,21 @@
         "rol": "bot",
         "texto": "¡Hola! Gracias por escribirme 😊 Soy Michell, de GalviusTech.\n\nDisculpa, no me quedó clara tu pregunta, ¿me la puedes repetir con calma? Entiendo que me dices que en tu casa no tienes señal, ¿es así?\n\nSi es así, cuéntame: tu celular normalmente ¿logra tener señal ahí (aunque sea poquita), o de plano no entra nada de ningún operador?\n\nEsto es clave porque el modem funciona con una SIM card, entonces necesita que exista cobertura móvil de algún operador (Claro, Movistar, Tigo, WOM) en la zona donde vives. Si tu celular capta señal de alguno de esos operadores ahí, muy probablemente el modem también podría funcionar.\n\n¿Me cuentas en qué municipio o vereda queda tu casa y qué operador usas en tu celular? Así te confirmo mejor si el modem sería la solución para ti 📶",
         "fecha": "2026-08-08T20:34:20.817Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-08T21:33:56.184Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero  en la casa N me agarra señal",
+        "fecha": "2026-08-08T21:35:46.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por la claridad 🙏 Eso es importante saberlo.\n\nMira, te cuento con toda honestidad: el modem funciona por medio de una SIM card, entonces si en tu casa el celular tampoco agarra señal de ningún operador, muy probablemente el modem tampoco lograría conectarse ahí. No te quiero prometer algo que no te pueda garantizar 😔\n\nPero antes de descartarlo del todo, cuéntame:\n- ¿Ya probaste con varios operadores (Claro, Movistar, Tigo, WOM) o solo con el que usas normalmente?\n- ¿Cerca de tu casa, aunque sea afuera o en un punto alto, logras tener algo de señal?\n\nA veces cambiando de operador sí hay cobertura, aunque tu SIM actual no la tenga. ¿Me confirmas tu municipio o vereda para orientarte mejor? 📍",
+        "fecha": "2026-08-08T21:35:53.495Z"
       }
     ],
     "paso": "confirmar_producto",
