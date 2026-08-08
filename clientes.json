@@ -3,8 +3,8 @@
     "telefono": "573112922396",
     "nombre": "Egas Montenegro",
     "primerContacto": "2026-08-08T20:06:50.872Z",
-    "ultimoContacto": "2026-08-08T20:08:12.879Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-08T20:08:57.836Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,21 @@
         "rol": "bot",
         "texto": "¡Buena pregunta! Te cuento cómo funciona 👇\n\nEl modem WiFi portátil funciona con SIM Card, tú le insertas la SIM del operador que prefieras (Claro, Movistar, Tigo, WOM o ETB), lo enciendes, y listo, ya tienes WiFi para conectar hasta 10 dispositivos al mismo tiempo. Es superfácil, no necesita instalación técnica ni nada complicado.\n\nPara poder recomendarte el modelo ideal, cuéntame:\n📍 ¿En qué ciudad o municipio estarías usándolo?\n📱 ¿Con qué operador tienes servicio o cobertura por allá?\n💻 ¿Lo necesitarías para trabajo, estudio, negocio o para tu casa?",
         "fecha": "2026-08-08T20:08:12.118Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No sirve",
+        "fecha": "2026-08-08T20:08:50.797Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Asi",
+        "fecha": "2026-08-08T20:08:53.633Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ay, cuéntame un poco más porque quiero ayudarte bien 🙏\n\n¿Te refieres a que en tu zona no te ha funcionado el internet con SIM, o es que ya tienes un modem y no te está sirviendo?\n\nCuéntame en qué ciudad o municipio estás y con qué operador tienes cobertura, para revisar juntos qué está pasando y ver si el modem portátil es una buena opción para ti.",
+        "fecha": "2026-08-08T20:08:56.987Z"
       }
     ],
     "paso": "confirmar_producto",
