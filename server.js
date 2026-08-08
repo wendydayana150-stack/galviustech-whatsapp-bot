@@ -1076,10 +1076,10 @@ app.post("/webhook", async (req, res) => {
                   }
             }
 
-            guardarCliente(telefono, nombreCliente);
-            limpiarClientesAntiguos();
-            enviarRecordatoriosPendientes();
-
+			await guardarCliente(telefono, nombreCliente);
+              			await limpiarClientesAntiguos();
+              			await enviarRecordatoriosPendientes();
+              
             res.sendStatus(200);
       } catch (error) {
             console.error("Error procesando mensaje:", error.response?.data || error.message);
