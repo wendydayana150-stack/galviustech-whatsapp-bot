@@ -3,8 +3,8 @@
     "telefono": "573142346669",
     "nombre": "Mieles",
     "primerContacto": "2026-08-08T20:37:09.258Z",
-    "ultimoContacto": "2026-08-08T20:37:09.258Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-08T20:38:39.567Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-08T20:37:08.598Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto rregargo mensual",
+        "fecha": "2026-08-08T20:38:28.819Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro, te explico 😊\n\nEl modem lo compras una sola vez con GalviusTech, no es un servicio mensual nuestro. Lo que sí debes hacer despues es recargar datos en la SIM card que le instales (puede ser de Claro, Movistar, Tigo, WOM, etc.), igual que recargas datos a un celular. Ese costo depende del plan que elijas con tu operador, no de nosotros.\n\nPara orientarte mejor: ¿en qué municipio o vereda estarías usando el modem, y para qué lo necesitarías principalmente (trabajo, estudio, hogar, negocio)? Así te cuento qué tanto dato suele necesitar alguien en tu situación y evitamos que pagues de más o te quedes corto 📶",
+        "fecha": "2026-08-08T20:38:38.730Z"
       }
     ],
     "paso": "confirmar_producto",
