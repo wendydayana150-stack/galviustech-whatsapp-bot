@@ -258,8 +258,8 @@
     "telefono": "573108400852",
     "nombre": "Yiresar❤️☺️",
     "primerContacto": "2026-08-07T22:41:09.897Z",
-    "ultimoContacto": "2026-08-08T00:43:41.285Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-08T00:44:17.022Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -330,10 +330,42 @@
         "rol": "bot",
         "texto": "¡Claro que sí! 😊 Contraentrega es una de nuestras formas de pago más usadas, así puedes recibir tu producto y pagar en el momento sin ningún problema.\n\nPara poder armar tu pedido, cuéntame: ¿qué producto te interesa? ¿El modem WiFi portátil (4G, 4G/5G o 5G) o la impresora térmica? Y de una vez, cuéntame en qué ciudad o municipio estás y qué operador manejas para confirmar que tengas buena cobertura. 📍📶",
         "fecha": "2026-08-08T00:43:40.387Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede imprimir una hoja de Blok normal",
+        "fecha": "2026-08-08T00:44:14.337Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-08T00:44:14.338Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-08T00:44:14.869Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-08-08T00:44:15.458Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nImpresora termica portatil, no necesita tinta ni toner. Bluetooth, compatible con Android e iPhone, bateria recargable. Ideal para emprendedores, tiendas, restaurantes y oficinas. Imprime facturas, recibos, cotizaciones, etiquetas y guias.",
+        "fecha": "2026-08-08T00:44:15.967Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
+        "fecha": "2026-08-08T00:44:16.482Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
     "pausado": false
   },
   {
