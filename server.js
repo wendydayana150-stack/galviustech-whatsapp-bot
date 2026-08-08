@@ -423,6 +423,31 @@ function calcularEtapa(cliente, telefonosConPedido) {
     return "Contacto inicial";
 }
 
+let ultimaLimpieza = 0;
+
+async function limpiarConversacionesAntiguas() {
+      const ahora = Date.now();
+      if (ahora - ultimaLimpieza < 24 * 60 * 60 * 1000) return;
+      ultimaLimpieza = ahora;
+      try {
+            const { datos, sha } = await leerJSON(CLIENTES_API);
+            const limiteMs = 5 * 24 * 60 * 60 * 1000;
+            let cambios = false;
+            datos.forEach((c) => {
+                  const ultimo = new Date(c.ultimoContacto).getTime();
+                  if (!isNaN(ultimo) && ahora - ultimo > limiteMs && c.conversacion && c.conversacion.length > 0) {
+                        c.conversacion = [];
+                        cambios = true;
+                  }
+            });
+            if (cambios) {
+                  await guardarJSON(CLIENTES_API, datos, sha, "Limpieza de conversaciones de mas de 5 dias");
+            }
+      } catch (error) {
+            console.error("Error limpiando conversaciones antiguas:", error.response?.data || error.message);
+      }
+}
+
 async function preguntarleALaIA(sesion, mensajeCliente) {
     sesion.historial.push({ role: "user", content: mensajeCliente });
     if (sesion.historial.length > 16) {
@@ -1016,6 +1041,7 @@ app.post("/webhook", async (req, res) => {
     }
 
     guardarCliente(telefono, nombreCliente);
+          limpiarConversacionesAntiguas();
 
     res.sendStatus(200);
     } catch (error) {
