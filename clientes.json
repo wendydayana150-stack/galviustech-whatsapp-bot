@@ -1266,58 +1266,33 @@
     "telefono": "573229417114",
     "nombre": "Erika",
     "primerContacto": "2026-08-08T01:10:42.583Z",
-    "ultimoContacto": "2026-08-08T01:15:56.343Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-08T16:50:40.971Z",
+    "mensajes": 3,
     "conversacion": [
       {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-08T16:30:01.986Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-08T16:41:54.462Z"
+      },
+      {
         "rol": "cliente",
-        "texto": "¡Hola! Quiero más información",
-        "fecha": "2026-08-08T01:10:40.891Z"
+        "texto": "imprime a color",
+        "fecha": "2026-08-08T16:50:39.537Z"
       },
       {
         "rol": "bot",
         "texto": "Hola Erika! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
-        "fecha": "2026-08-08T01:10:40.891Z"
+        "fecha": "2026-08-08T16:50:39.537Z"
       },
       {
         "rol": "bot",
         "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
-        "fecha": "2026-08-08T01:10:41.858Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "[Selecciono] Impresora",
-        "fecha": "2026-08-08T01:15:53.477Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Envio fotos y caracteristicas de la impresora]",
-        "fecha": "2026-08-08T01:15:53.477Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-08T01:15:53.477Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-08T01:15:54.157Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-08T01:15:54.772Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nNo necesita tinta ni toner, ahorras dinero desde la primera impresion\nBluetooth, compatible con Android e iPhone\nPortatil, bateria recargable, impresion rapida\nIdeal para emprendedores, tiendas, restaurantes, mensajeros y oficinas\nImprime facturas, recibos, cotizaciones, etiquetas y guias\nGarantia de 30 dias y soporte de GalviusTech",
-        "fecha": "2026-08-08T01:15:55.278Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
-        "fecha": "2026-08-08T01:15:55.752Z"
+        "fecha": "2026-08-08T16:50:40.257Z"
       }
     ],
     "paso": "conversando",
@@ -1325,7 +1300,8 @@
     "pausado": false,
     "recordatorios": {
       "min30": true
-    }
+    },
+    "etapaManual": null
   },
   {
     "telefono": "573015945303",
