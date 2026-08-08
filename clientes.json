@@ -670,104 +670,17 @@
     "telefono": "573214579158",
     "nombre": "Proveedora B&L",
     "primerContacto": "2026-08-07T19:54:25.207Z",
-    "ultimoContacto": "2026-08-07T20:01:16.219Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-08T01:55:46.105Z",
+    "mensajes": 6,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¡Hola! Quiero más información",
-        "fecha": "2026-08-07T19:54:23.599Z"
-      },
-      {
         "rol": "bot",
-        "texto": "Hola Proveedora B&L! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
-        "fecha": "2026-08-07T19:54:23.600Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
-        "fecha": "2026-08-07T19:54:24.538Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "[Selecciono] Impresora",
-        "fecha": "2026-08-07T19:58:29.026Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Envio fotos y caracteristicas de la impresora]",
-        "fecha": "2026-08-07T19:58:29.026Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T19:58:29.027Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T19:58:29.509Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T19:58:30.079Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nNo necesita tinta ni toner, ahorras dinero desde la primera impresion\nBluetooth, compatible con Android e iPhone\nPortatil, bateria recargable, impresion rapida\nIdeal para emprendedores, tiendas, restaurantes, mensajeros y oficinas\nImprime facturas, recibos, cotizaciones, etiquetas y guias\nGarantia de 30 dias y soporte de GalviusTech",
-        "fecha": "2026-08-07T19:58:30.552Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
-        "fecha": "2026-08-07T19:58:31.072Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Para imprimir estas imágenes",
-        "fecha": "2026-08-07T20:01:01.099Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T20:01:01.099Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T20:01:01.645Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-08-07T20:01:02.141Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\nImpresora termica portatil, no necesita tinta ni toner. Bluetooth, compatible con Android e iPhone, bateria recargable. Ideal para emprendedores, tiendas, restaurantes y oficinas. Imprime facturas, recibos, cotizaciones, etiquetas y guias.",
-        "fecha": "2026-08-07T20:01:02.647Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros | Preguntar algo]",
-        "fecha": "2026-08-07T20:01:03.235Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "[Selecciono] Preguntar algo",
-        "fecha": "2026-08-07T20:01:15.381Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Listo, dame un momento y te sigo ayudando yo misma por aqui 😊",
-        "fecha": "2026-08-07T20:01:15.381Z"
+        "texto": "Hola, buenas noches",
+        "fecha": "2026-08-08T01:55:44.661Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {
-      "productoId": "impresora-termica"
-    },
+    "paso": "inicio",
+    "pedido": {},
     "pausado": true
   },
   {
