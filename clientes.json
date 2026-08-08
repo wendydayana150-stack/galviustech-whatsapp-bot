@@ -52,7 +52,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573136439359",
@@ -158,7 +159,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573234693434",
@@ -215,7 +218,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -273,7 +277,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -514,7 +519,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -997,7 +1003,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -1514,7 +1521,8 @@
     "pedido": {},
     "pausado": false,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     },
     "etapaManual": null
   },
@@ -1621,7 +1629,8 @@
     "pausado": false,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -1652,7 +1661,8 @@
     "pausado": false,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -1959,7 +1969,8 @@
     "pausado": false,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
