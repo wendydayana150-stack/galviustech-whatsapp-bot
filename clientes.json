@@ -3,8 +3,8 @@
     "telefono": "573502491300",
     "nombre": "Gonzalo",
     "primerContacto": "2026-08-08T15:16:20.075Z",
-    "ultimoContacto": "2026-08-08T15:28:15.841Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-08-08T15:30:39.884Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -120,6 +120,16 @@
         "rol": "bot",
         "texto": "Exacto, así es 👍 Serían dos SIM Cards independientes: una para tu celular con tu plan normal, y otra para el modem con su propio plan o recargas de datos. Puedes usar el mismo operador en ambas o operadores distintos, como prefieras. Cada una funciona por separado, así que no se descuentan los datos entre sí.\n\nAhora, cuéntame algo: cuando dices \"cualquiera de los dos me serviría\", ¿te refieres al modem y la impresora, o a dos modelos de modem en específico? Así te ayudo a aterrizar mejor cuál te conviene más 😊\n\nY aprovechando, cuéntame: ¿en qué ciudad o municipio estás, y para qué lo necesitarías principalmente (trabajo, estudio, negocio, viajes)?",
         "fecha": "2026-08-08T15:28:15.133Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "El modem.",
+        "fecha": "2026-08-08T15:30:33.499Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Entonces nos enfocamos en el modem 📶\n\nPara poder recomendarte el modelo exacto que más te conviene, cuéntame:\n\n1. ¿En qué ciudad o municipio (y vereda si aplica) lo usarías?\n2. ¿Qué operador manejas o pensarías usar para la SIM del modem (Claro, Movistar, Tigo, WOM, ETB)?\n3. ¿Para qué lo necesitas principalmente? (trabajo, estudio, hogar, negocio, viajes)\n\nCon esto te digo cuál te conviene más y si hay algo puntual que debamos verificar de cobertura en tu zona 😊",
+        "fecha": "2026-08-08T15:30:39.152Z"
       }
     ],
     "paso": "conversando",
