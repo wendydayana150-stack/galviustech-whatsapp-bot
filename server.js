@@ -641,7 +641,8 @@ if (detectarPreguntaUso(texto)) {
     return;
 }
 
-const especifico = detectarProductoEspecifico(texto);
+if (sesion.historial.length === 0) {
+      const especifico = detectarProductoEspecifico(texto);
     if (especifico) {
         await manejarSeleccionProducto(telefono, especifico);
         return;
@@ -656,6 +657,7 @@ const deteccion = detectarProductoPorPalabraClave(texto);
         await enviarInfoModems(telefono);
         return;
     }
+}
 
 try {
     const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto);
