@@ -3,8 +3,8 @@
     "telefono": "573112922396",
     "nombre": "Egas Montenegro",
     "primerContacto": "2026-08-08T20:06:50.872Z",
-    "ultimoContacto": "2026-08-08T20:07:19.421Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-08T20:08:07.213Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -65,6 +65,21 @@
         "rol": "bot",
         "texto": "¡Claro que sí! Pero cuéntame, ¿de cuál producto me hablas? ¿Del modem WiFi portátil o de la impresora térmica? 😊\n\nAsí te explico bien cómo se maneja y para qué te serviría mejor.",
         "fecha": "2026-08-08T20:07:18.785Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q le digo este funciona con sim",
+        "fecha": "2026-08-08T20:07:59.539Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "O ya es directo",
+        "fecha": "2026-08-08T20:08:05.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Sí señor! El modem WiFi portátil funciona con SIM Card 📶, es súper fácil de usar:\n\n1️⃣ Le insertas la SIM del operador que tú elijas (es compatible con Claro, Movistar, Tigo, WOM, ETB).\n2️⃣ Lo encienden.\n3️⃣ Te conectas por WiFi desde tu celular, tablet o computador (hasta 10 dispositivos al mismo tiempo).\n\nY ya, ¡tienes internet donde estés! 🙌\n\nPara orientarte mejor, cuéntame: ¿en qué ciudad o municipio estarías usándolo, y con qué operador tienes pensado meterle la SIM? Así te confirmo bien el tema de cobertura.",
+        "fecha": "2026-08-08T20:08:06.405Z"
       }
     ],
     "paso": "confirmar_producto",
