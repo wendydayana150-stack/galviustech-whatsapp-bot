@@ -3,8 +3,8 @@
     "telefono": "573009051147",
     "nombre": "Julieth",
     "primerContacto": "2026-08-08T22:24:44.603Z",
-    "ultimoContacto": "2026-08-08T23:14:03.205Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-08T23:14:28.181Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,16 @@
         "rol": "bot",
         "texto": "¡Claro que sí! Manejamos pago contraentrega, así que pagas cuando recibes tu equipo en la puerta de tu casa, sin líos 😊\n\nPara armar tu pedido bien, cuéntame: ¿qué producto te interesa, el módem WiFi portátil o la impresora térmica? Y de una vez dime en qué ciudad o municipio estarías recibiendo, para confirmarte cobertura y tiempos.",
         "fecha": "2026-08-08T23:14:02.361Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tigo",
+        "fecha": "2026-08-08T23:14:22.570Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Tigo! 👍 Buen operador, tiene bastante cobertura en varias zonas de Colombia.\n\nAhora cuéntame, ¿en qué ciudad, municipio o vereda estarías usando el equipo? Así verificamos que haya buena señal Tigo en tu zona.\n\nY también quisiera saber: ¿es para el módem de internet portátil o para la impresora térmica? ¿Para qué lo necesitas principalmente (trabajo, estudio, negocio, viajes)? 😊",
+        "fecha": "2026-08-08T23:14:27.372Z"
       }
     ],
     "paso": "confirmar_producto",
