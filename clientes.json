@@ -969,18 +969,29 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-08-05T18:57:06.935Z",
-    "ultimoContacto": "2026-08-07T16:00:08.148Z",
-    "mensajes": 52,
+    "ultimoContacto": "2026-08-08T02:49:31.829Z",
+    "mensajes": 53,
     "conversacion": [
       {
+        "rol": "cliente",
+        "texto": "hola",
+        "fecha": "2026-08-08T02:49:30.293Z"
+      },
+      {
         "rol": "bot",
-        "texto": "hola buen dia",
-        "fecha": "2026-08-07T16:00:07.134Z"
+        "texto": "Hola 🫶🏻! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-08-08T02:49:30.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
+        "fecha": "2026-08-08T02:49:31.224Z"
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
-    "pausado": false
+    "pausado": false,
+    "etapaManual": null
   },
   {
     "telefono": "573151468128",
