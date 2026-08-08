@@ -58,8 +58,8 @@
     "telefono": "573009051147",
     "nombre": "Julieth",
     "primerContacto": "2026-08-08T22:24:44.603Z",
-    "ultimoContacto": "2026-08-08T23:19:56.439Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-08-08T23:20:39.871Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -215,6 +215,16 @@
         "rol": "bot",
         "texto": "¡Ah, listo! Entonces sería en Bolívar, Cauca donde vas a estar usando el módem 📍\n\nCuéntame, ¿es el barrio o vereda específica de Bolívar donde te vas a quedar? Así te confirmo mejor cómo suele ser la cobertura Tigo en esa zona antes de dejar tu pedido listo.\n\nY una cosita: ¿esto es algo temporal (solo por un tiempo en Bolívar) o ya te vas a quedar viviendo ahí con tu familia? Eso me ayuda a asegurarme de recomendarte bien 😊",
         "fecha": "2026-08-08T23:19:55.600Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una vereda llamada la estrella corregimiento de la carbonera",
+        "fecha": "2026-08-08T23:20:30.716Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, gracias por contarme! La Estrella, en La Carbonera 📍\n\nTe cuento que nuestros modems están hechos justamente para zonas como esa, donde muchas veces el celular solo no agarra buena señal. La antena del modem es más potente, entonces capta mejor la cobertura que tienes ahí en la vereda y te la reparte en tu casa por WiFi.\n\nCuéntame, ¿actualmente cómo te estás conectando allá? ¿Usas los datos del celular, buscas WiFi de algún vecino, o no tienes ninguna conexión por ahora? Y una cosa más: ¿qué operador te marca señal en esa zona (Claro, Movistar, Tigo, WOM)? Así te recomiendo el modem que mejor te sirva 😊",
+        "fecha": "2026-08-08T23:20:38.962Z"
       }
     ],
     "paso": "confirmar_producto",
