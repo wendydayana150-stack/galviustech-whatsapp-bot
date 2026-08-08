@@ -504,7 +504,6 @@ await enviarTexto(
     await enviarBotones(telefono, "Quieres pedir este producto?", [
         { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
         { id: "ver_catalogo", titulo: "Ver otros" },
-        { id: "hablar_asesor", titulo: "Preguntar algo" },
         ]);
 }
 
