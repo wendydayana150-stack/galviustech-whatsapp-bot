@@ -3,8 +3,8 @@
     "telefono": "573228246201",
     "nombre": "ropero ortega",
     "primerContacto": "2026-08-08T20:30:39.798Z",
-    "ultimoContacto": "2026-08-08T20:30:39.798Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-08T20:34:21.609Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-08T20:30:39.214Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "En mi casa N tengo señal de nd así sirve",
+        "fecha": "2026-08-08T20:34:08.744Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Gracias por escribirme 😊 Soy Michell, de GalviusTech.\n\nDisculpa, no me quedó clara tu pregunta, ¿me la puedes repetir con calma? Entiendo que me dices que en tu casa no tienes señal, ¿es así?\n\nSi es así, cuéntame: tu celular normalmente ¿logra tener señal ahí (aunque sea poquita), o de plano no entra nada de ningún operador?\n\nEsto es clave porque el modem funciona con una SIM card, entonces necesita que exista cobertura móvil de algún operador (Claro, Movistar, Tigo, WOM) en la zona donde vives. Si tu celular capta señal de alguno de esos operadores ahí, muy probablemente el modem también podría funcionar.\n\n¿Me cuentas en qué municipio o vereda queda tu casa y qué operador usas en tu celular? Así te confirmo mejor si el modem sería la solución para ti 📶",
+        "fecha": "2026-08-08T20:34:20.817Z"
       }
     ],
     "paso": "confirmar_producto",
