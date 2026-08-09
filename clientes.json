@@ -3,8 +3,8 @@
     "telefono": "573122004478",
     "nombre": "Telecomunicaciones",
     "primerContacto": "2026-08-09T18:07:49.261Z",
-    "ultimoContacto": "2026-08-09T18:07:49.261Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T18:08:32.248Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T18:07:48.506Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-09T18:08:31.378Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-09T18:08:31.378Z"
       }
     ],
     "paso": "confirmar_producto",
