@@ -3,8 +3,8 @@
     "telefono": "573116999080",
     "nombre": "auden Cardenas",
     "primerContacto": "2026-08-09T18:46:31.208Z",
-    "ultimoContacto": "2026-08-09T18:46:31.208Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T18:53:09.645Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T18:46:30.604Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero este",
+        "fecha": "2026-08-09T18:53:07.752Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Promo especial",
+        "fecha": "2026-08-09T18:53:07.752Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar el *Modem WiFi Portatil + Reloj Smartwatch* de regalo por solo $ 309.900.\n\nTe llevas el mismo modem que ya viste, mas un reloj inteligente de regalo, por muy poquito mas.\n\nTe animas a aprovechar la promocion?",
+        "fecha": "2026-08-09T18:53:08.248Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
+        "fecha": "2026-08-09T18:53:08.848Z"
       }
     ],
     "paso": "confirmar_producto",
