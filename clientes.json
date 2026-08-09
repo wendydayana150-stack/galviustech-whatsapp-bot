@@ -61,8 +61,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T16:10:05.015Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-08-09T16:10:24.557Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -213,6 +213,31 @@
         "rol": "bot",
         "texto": "¡Buenísimo! 🌴\n\n6️⃣ Y por último, ¿cómo prefieres el pago: contraentrega o transferencia?",
         "fecha": "2026-08-09T16:10:04.047Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-08-09T16:10:16.965Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Jovanys! Ya tengo todo tu pedido listo 🎉\n\n📋 **Resumen de tu pedido:**\n- Producto: Módem WiFi Portátil 4G\n- Nombre: Jovanys Guisado Ramos\n- Celular: 301 849 0965\n- Dirección: Calle la 30 #25-42, Barrio Las Palmas, Nechí, Antioquia\n- Pago: Contraentrega\n\nMuchas gracias por tu confianza 🙏 En cuanto te llegue el equipo, con toda la confianza me escribes y te ayudo paso a paso con la instalación y configuración para que quede funcionando perfecto desde el primer momento.\n\n¿Alguna otra duda que te pueda resolver mientras te llega tu pedido? 😊",
+        "fecha": "2026-08-09T16:10:21.978Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Promo especial",
+        "fecha": "2026-08-09T16:10:22.705Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar el *Modem WiFi Portatil + Reloj Smartwatch* de regalo por solo $ 309.900.\n\nTe llevas el mismo modem que ya viste, mas un reloj inteligente de regalo, por muy poquito mas.\n\nTe animas a aprovechar la promocion?",
+        "fecha": "2026-08-09T16:10:23.228Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
+        "fecha": "2026-08-09T16:10:23.803Z"
       }
     ],
     "paso": "confirmar_producto",
