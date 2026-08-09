@@ -58,8 +58,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T15:32:26.656Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-09T15:38:30.819Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,6 +110,26 @@
         "rol": "bot",
         "texto": "¡Claro que sí! 😊 Justo para eso están hechos nuestros módems, para dar buena señal en zonas donde el celular normalmente batalla. Tienen una antena de mayor potencia y alcance, así que captan señal mucho más fuerte que un celular común en veredas, fincas o zonas apartadas.\n\nPara poder orientarte bien y confirmarte cómo te funcionaría en tu caso puntual, cuéntame:\n\n¿En qué municipio o vereda estás ubicado, y con qué operador tienes mejor señal por allá (Claro, Movistar, Tigo, WOM)?",
         "fecha": "2026-08-09T15:32:25.428Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nechi Antioquia , zona ruaral",
+        "fecha": "2026-08-09T15:38:24.116Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tigo.",
+        "fecha": "2026-08-09T15:38:25.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Nechí! Zona rural allá en el Bajo Cauca antioqueño 🙌 Muchos clientes de esa zona nos compran justo porque el celular les da señal débil o intermitente, y el módem les mejora bastante la conexión gracias a su antena de mayor alcance.\n\nPara recomendarte el modelo ideal, cuéntame:\n\n1️⃣ ¿Con qué operador tienes algo de señal en tu vereda (Claro, Movistar, Tigo, WOM)?\n2️⃣ ¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio de tus hijos, tu negocio, o comunicación general?\n\nAsí te armo la mejor recomendación para tu caso 📶",
+        "fecha": "2026-08-09T15:38:29.952Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, gracias por contarme! Nechí zona rural con Tigo, listo, con esa información ya te puedo orientar bien 👍\n\nTe cuento que el módem está diseñado justo para mejorar la señal en zonas como la tuya, capta mucho mejor que un celular solo porque su antena tiene mayor potencia y alcance. Así que aunque el celular ande fallando por allá, con el módem la conexión mejora bastante.\n\nAhora cuéntame para entender mejor tu caso:\n\n¿Actualmente cómo te estás conectando allá? ¿Compartes datos del celular, buscas WiFi de algún vecino, o no tienes ninguna conexión estable? Y principalmente, ¿para qué lo necesitarías: trabajo, estudio, negocio, o uso en el hogar?",
+        "fecha": "2026-08-09T15:38:30.743Z"
       }
     ],
     "paso": "confirmar_producto",
