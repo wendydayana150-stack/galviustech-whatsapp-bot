@@ -59,8 +59,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T15:58:55.669Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-08-09T16:07:26.123Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -181,6 +181,16 @@
         "rol": "bot",
         "texto": "¡Perfecto! 📱\n\n3️⃣ Me confirmas el departamento (Antioquia, cierto?) y el municipio o vereda exacta donde te llegaría el pedido:",
         "fecha": "2026-08-09T15:58:54.672Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antioquia \nNechí",
+        "fecha": "2026-08-09T16:07:21.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, Antioquia - Nechí! ✅\n\n4️⃣ Ahora la dirección completa (o si es zona rural, la vereda y algún punto de referencia para ubicarte bien):",
+        "fecha": "2026-08-09T16:07:25.182Z"
       }
     ],
     "paso": "confirmar_producto",
