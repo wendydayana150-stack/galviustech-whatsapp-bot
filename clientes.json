@@ -568,79 +568,32 @@
     "telefono": "573228246201",
     "nombre": "ropero ortega",
     "primerContacto": "2026-08-08T20:30:39.798Z",
-    "ultimoContacto": "2026-08-08T21:35:54.287Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-09T02:41:24.232Z",
+    "mensajes": 4,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
-        "fecha": "2026-08-08T20:30:35.816Z"
-      },
-      {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-08T20:30:35.816Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-08T20:30:36.563Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-08T20:30:37.081Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-08T20:30:37.713Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-08T20:30:38.211Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Modem WiFi Portatil 4G/5G*\n$ 249.900\n\nModem con compatibilidad 4G y 5G, mayor velocidad de navegacion. Conecta hasta 10 dispositivos al mismo tiempo.",
-        "fecha": "2026-08-08T20:30:38.762Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-08-08T20:30:39.214Z"
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-09T02:38:11.825Z"
       },
       {
         "rol": "cliente",
-        "texto": "En mi casa N tengo señal de nd así sirve",
-        "fecha": "2026-08-08T20:34:08.744Z"
+        "texto": "N gracias",
+        "fecha": "2026-08-09T02:41:22.798Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Hola! Gracias por escribirme 😊 Soy Michell, de GalviusTech.\n\nDisculpa, no me quedó clara tu pregunta, ¿me la puedes repetir con calma? Entiendo que me dices que en tu casa no tienes señal, ¿es así?\n\nSi es así, cuéntame: tu celular normalmente ¿logra tener señal ahí (aunque sea poquita), o de plano no entra nada de ningún operador?\n\nEsto es clave porque el modem funciona con una SIM card, entonces necesita que exista cobertura móvil de algún operador (Claro, Movistar, Tigo, WOM) en la zona donde vives. Si tu celular capta señal de alguno de esos operadores ahí, muy probablemente el modem también podría funcionar.\n\n¿Me cuentas en qué municipio o vereda queda tu casa y qué operador usas en tu celular? Así te confirmo mejor si el modem sería la solución para ti 📶",
-        "fecha": "2026-08-08T20:34:20.817Z"
+        "texto": "Hola ropero ortega! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-08-09T02:41:22.799Z"
       },
       {
         "rol": "bot",
-        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
-        "fecha": "2026-08-08T21:33:56.184Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Pero  en la casa N me agarra señal",
-        "fecha": "2026-08-08T21:35:46.185Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Entiendo, gracias por la claridad 🙏 Eso es importante saberlo.\n\nMira, te cuento con toda honestidad: el modem funciona por medio de una SIM card, entonces si en tu casa el celular tampoco agarra señal de ningún operador, muy probablemente el modem tampoco lograría conectarse ahí. No te quiero prometer algo que no te pueda garantizar 😔\n\nPero antes de descartarlo del todo, cuéntame:\n- ¿Ya probaste con varios operadores (Claro, Movistar, Tigo, WOM) o solo con el que usas normalmente?\n- ¿Cerca de tu casa, aunque sea afuera o en un punto alto, logras tener algo de señal?\n\nA veces cambiando de operador sí hay cobertura, aunque tu SIM actual no la tenga. ¿Me confirmas tu municipio o vereda para orientarte mejor? 📍",
-        "fecha": "2026-08-08T21:35:53.495Z"
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
+        "fecha": "2026-08-09T02:41:23.468Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "modem-4g5g"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
