@@ -760,8 +760,8 @@
     "telefono": "573202431549",
     "nombre": "🙏😇",
     "primerContacto": "2026-08-09T02:38:08.172Z",
-    "ultimoContacto": "2026-08-09T13:15:25.760Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-08-09T13:15:50.906Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -952,15 +952,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-08-09T13:15:24.861Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3202431549",
+        "fecha": "2026-08-09T13:15:50.040Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-08-09T13:15:50.040Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573202431549",
-      "nombreCliente": "Sumerce  ese moden como maneja con sim car o como sumerce"
+      "nombreCliente": "Sumerce  ese moden como maneja con sim car o como sumerce",
+      "celular": "3202431549"
     },
     "pausado": false,
     "etapaManual": null,
