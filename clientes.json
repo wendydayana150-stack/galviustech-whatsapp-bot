@@ -3,8 +3,8 @@
     "telefono": "573122004478",
     "nombre": "Telecomunicaciones",
     "primerContacto": "2026-08-09T18:07:49.261Z",
-    "ultimoContacto": "2026-08-09T18:08:32.248Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-09T18:08:50.343Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,11 +55,46 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-09T18:08:31.378Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Modem + Smartwatch",
+        "fecha": "2026-08-09T18:08:46.719Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem + Smartwatch",
+        "fecha": "2026-08-09T18:08:46.719Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem + Smartwatch",
+        "fecha": "2026-08-09T18:08:47.343Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem + Smartwatch",
+        "fecha": "2026-08-09T18:08:47.867Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem + Smartwatch",
+        "fecha": "2026-08-09T18:08:48.419Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil + Reloj Smartwatch*\n$ 309.900\n\nCombo especial: Modem WiFi Portatil GalviusTech + Reloj Smartwatch de regalo.",
+        "fecha": "2026-08-09T18:08:48.932Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-08-09T18:08:49.512Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-smartwatch"
     },
     "pausado": false,
     "etapaManual": null
