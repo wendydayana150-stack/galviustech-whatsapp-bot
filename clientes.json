@@ -3,8 +3,8 @@
     "telefono": "573226395808",
     "nombre": "Dios Es Mi Fortaleza",
     "primerContacto": "2026-08-09T21:16:19.966Z",
-    "ultimoContacto": "2026-08-09T21:16:19.966Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T21:16:29.997Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T21:16:19.295Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-09T21:16:29.196Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-09T21:16:29.196Z"
       }
     ],
     "paso": "confirmar_producto",
