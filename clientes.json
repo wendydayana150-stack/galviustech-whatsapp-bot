@@ -182,8 +182,8 @@
     "telefono": "573114726393",
     "nombre": "🥰🥰🥰",
     "primerContacto": "2026-08-09T12:45:36.742Z",
-    "ultimoContacto": "2026-08-09T13:30:09.428Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-09T13:30:58.942Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -249,6 +249,16 @@
         "rol": "bot",
         "texto": "¡Hola! Que bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCuéntame, ¿qué es lo que quieres saber? Puede ser sobre el módem de internet portátil, la impresora térmica, precios, cobertura... lo que necesites, con confianza pregúntame.",
         "fecha": "2026-08-09T13:30:08.650Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una zona q no hay señal sirve",
+        "fecha": "2026-08-09T13:30:49.319Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo la preocupación, y quiero ser sincera contigo porque eso es lo más importante 🙏\n\nEl módem funciona con señal de un operador móvil (Claro, Movistar, Tigo, WOM), pero tiene una antena mucho más potente que la de un celular, entonces capta señal donde el celular normal no logra o la tiene muy débil. Por eso en veredas y zonas rurales funciona mucho mejor que un celular común.\n\nAhora, si en tu zona literalmente NO llega ninguna señal de ningún operador (cero barritas ni con el celular), ahí sí sería honesta contigo: ningún equipo puede generar señal de la nada.\n\nPara orientarte bien, cuéntame:\n📍 ¿En qué municipio o vereda estás?\n📱 ¿Qué operador tienes ahora en tu celular (aunque sea señal débil)?\n\nAsí te confirmo con seguridad si el módem te va a mejorar la conexión en tu zona.",
+        "fecha": "2026-08-09T13:30:57.974Z"
       }
     ],
     "paso": "confirmar_producto",
