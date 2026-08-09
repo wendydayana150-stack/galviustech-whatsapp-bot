@@ -59,8 +59,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T16:07:26.123Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-08-09T16:09:35.241Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -191,6 +191,16 @@
         "rol": "bot",
         "texto": "¡Listo, Antioquia - Nechí! ✅\n\n4️⃣ Ahora la dirección completa (o si es zona rural, la vereda y algún punto de referencia para ubicarte bien):",
         "fecha": "2026-08-09T16:07:25.182Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle la 30#25/42",
+        "fecha": "2026-08-09T16:09:32.149Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, gracias! 📍\n\n5️⃣ ¿Me confirmas el barrio, por favor?",
+        "fecha": "2026-08-09T16:09:34.237Z"
       }
     ],
     "paso": "confirmar_producto",
