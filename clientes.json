@@ -760,8 +760,8 @@
     "telefono": "573202431549",
     "nombre": "🙏😇",
     "primerContacto": "2026-08-09T02:38:08.172Z",
-    "ultimoContacto": "2026-08-09T13:12:51.296Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-09T13:13:13.965Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -872,11 +872,51 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-09T13:12:50.416Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:09.595Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:09.595Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:10.247Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:10.844Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:11.350Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-09T13:13:11.879Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 4G/5G*\n$ 249.900\n\nModem con compatibilidad 4G y 5G, mayor velocidad de navegacion. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-09T13:13:12.482Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-08-09T13:13:13.034Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-smartwatch"
+      "productoId": "modem-4g5g"
     },
     "pausado": false,
     "etapaManual": null,
