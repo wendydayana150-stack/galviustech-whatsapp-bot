@@ -3,8 +3,8 @@
     "telefono": "573116999080",
     "nombre": "auden Cardenas",
     "primerContacto": "2026-08-09T18:46:31.208Z",
-    "ultimoContacto": "2026-08-09T18:53:09.645Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-09T19:26:30.931Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -65,6 +65,16 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
         "fecha": "2026-08-09T18:53:08.848Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es de simcard",
+        "fecha": "2026-08-09T19:26:25.611Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 El modem funciona con SIM Card de cualquier operador en Colombia (Claro, Movistar, Tigo, WOM o ETB), solo la insertas, lo enciendes y listo, ya tienes tu propia señal WiFi lista para conectar hasta 10 dispositivos.\n\nPara poder recomendarte el modelo ideal, cuéntame: ¿en qué municipio o vereda lo usarías, y con qué operador tienes mejor señal por allá? Así te confirmo cuál te va a funcionar mejor 📶",
+        "fecha": "2026-08-09T19:26:29.914Z"
       }
     ],
     "paso": "confirmar_producto",
