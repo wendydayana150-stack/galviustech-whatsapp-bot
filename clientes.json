@@ -58,8 +58,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T15:38:30.819Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-09T15:40:00.842Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,6 +130,21 @@
         "rol": "bot",
         "texto": "¡Perfecto, gracias por contarme! Nechí zona rural con Tigo, listo, con esa información ya te puedo orientar bien 👍\n\nTe cuento que el módem está diseñado justo para mejorar la señal en zonas como la tuya, capta mucho mejor que un celular solo porque su antena tiene mayor potencia y alcance. Así que aunque el celular ande fallando por allá, con el módem la conexión mejora bastante.\n\nAhora cuéntame para entender mejor tu caso:\n\n¿Actualmente cómo te estás conectando allá? ¿Compartes datos del celular, buscas WiFi de algún vecino, o no tienes ninguna conexión estable? Y principalmente, ¿para qué lo necesitarías: trabajo, estudio, negocio, o uso en el hogar?",
         "fecha": "2026-08-09T15:38:30.743Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Uso hogar",
+        "fecha": "2026-08-09T15:39:53.327Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, para el hogar! 🏡 Eso está muy bueno, así toda la familia puede tener internet estable sin depender de estar buscando señal por todos lados.\n\nCuéntame algo más para recomendarte el modelo justo:\n\n¿Cuántas personas o dispositivos se conectarían en la casa (celulares, tablets, computador, smart TV)? Y ahora mismo, ¿cómo hacen para conectarse, comparten datos del celular o no tienen ninguna conexión fija?\n\nCon eso te confirmo el módem ideal para que en Nechí tengan internet estable en casa sin tantas vueltas 📶",
+        "fecha": "2026-08-09T15:39:59.926Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo compro datos , pero la señal es muy intermitente",
+        "fecha": "2026-08-09T15:40:00.031Z"
       }
     ],
     "paso": "confirmar_producto",
