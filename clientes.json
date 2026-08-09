@@ -3,8 +3,8 @@
     "telefono": "573145451513",
     "nombre": "Jaime",
     "primerContacto": "2026-08-09T13:37:17.080Z",
-    "ultimoContacto": "2026-08-09T13:37:17.080Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T13:37:19.546Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -50,6 +50,11 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T13:37:16.282Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que gusto tenerte por aquí 😊 Soy Michell de GalviusTech.\n\nCon gusto te ayudo con el precio, pero antes déjame entender bien qué necesitas para recomendarte el producto correcto (tenemos modems de internet portátil e impresoras térmicas, así que quiero asegurarme de orientarte bien).\n\nCuéntame: ¿lo que buscas es internet portátil (modem WiFi) o una impresora térmica? Y de paso dime, ¿en qué ciudad o municipio estás?",
+        "fecha": "2026-08-09T13:37:18.782Z"
       }
     ],
     "paso": "confirmar_producto",
