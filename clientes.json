@@ -3,8 +3,8 @@
     "telefono": "573233263106",
     "nombre": "Aroo Croos",
     "primerContacto": "2026-08-09T17:34:53.946Z",
-    "ultimoContacto": "2026-08-09T17:34:53.946Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T17:36:44.707Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,46 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T17:34:53.221Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "me gustaría conocer más sobre el módem y su funcionamiento",
+        "fecha": "2026-08-09T17:36:41.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas de modems]",
+        "fecha": "2026-08-09T17:36:41.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G - $ 239.900",
+        "fecha": "2026-08-09T17:36:41.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G - $ 249.900",
+        "fecha": "2026-08-09T17:36:41.848Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G - $ 269.900",
+        "fecha": "2026-08-09T17:36:42.367Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem + Smartwatch - $ 309.900",
+        "fecha": "2026-08-09T17:36:42.873Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestros Modems WiFi Portatiles*\n\nCompatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConectan hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-08-09T17:36:43.301Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-08-09T17:36:43.879Z"
       }
     ],
     "paso": "confirmar_producto",
