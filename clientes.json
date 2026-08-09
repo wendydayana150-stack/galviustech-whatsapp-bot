@@ -171,8 +171,8 @@
     "telefono": "573122004478",
     "nombre": "Telecomunicaciones",
     "primerContacto": "2026-08-09T18:07:49.261Z",
-    "ultimoContacto": "2026-08-09T18:08:50.343Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-09T18:46:39.211Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -258,6 +258,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T18:08:49.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-09T18:46:32.321Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy pronto te responderé ✌🏻",
+        "fecha": "2026-08-09T18:46:35.103Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale, tranquilo/a! 😊 Aquí estaré pendiente.\n\nMientras tanto, cuéntame algo rapidito para ir avanzando: ¿en qué ciudad o vereda estás y para qué necesitarías el modem o la impresora? Así cuando vuelvas ya tengo lista la mejor recomendación para ti 🙌",
+        "fecha": "2026-08-09T18:46:38.369Z"
       }
     ],
     "paso": "confirmar_producto",
