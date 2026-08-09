@@ -138,8 +138,8 @@
     "telefono": "573176712815",
     "nombre": "gilber",
     "primerContacto": "2026-08-09T12:59:31.765Z",
-    "ultimoContacto": "2026-08-09T13:42:57.561Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-08-09T13:43:21.648Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -320,6 +320,16 @@
         "rol": "bot",
         "texto": "¡Claro que sí! 😊 Veo que ya estás listo para avanzar con tu pedido, así que vamos con los datos.\n\nPara dejarlo bien registrado, necesito:\n1️⃣ Nombre completo\n2️⃣ Número de celular\n3️⃣ Departamento\n4️⃣ Ciudad o municipio (y vereda)\n5️⃣ Dirección completa\n6️⃣ Barrio\n7️⃣ Medio de pago preferido (contraentrega o transferencia)\n\n¿Me compartes primero tu nombre completo y tu número de celular? 📝",
         "fecha": "2026-08-09T13:42:56.770Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene foto",
+        "fecha": "2026-08-09T13:43:15.289Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Tengo fotos del modem para que veas cómo es 📸 Apenas terminemos de dejar tu pedido te las comparto para que veas el equipo antes de que te llegue.\n\nRetomando tus datos, ¿me confirmas tu nombre completo y tu número de celular para ir avanzando con el pedido? 😊",
+        "fecha": "2026-08-09T13:43:20.849Z"
       }
     ],
     "paso": "confirmar_producto",
