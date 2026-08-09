@@ -61,8 +61,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T16:10:24.557Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-08-09T16:11:07.912Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -238,11 +238,24 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
         "fecha": "2026-08-09T16:10:23.803Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, solo el modem",
+        "fecha": "2026-08-09T16:11:06.941Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 239.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-08-09T16:11:06.942Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 239900,
+      "telefono": "573018490965"
     },
     "pausado": false,
     "etapaManual": null,
