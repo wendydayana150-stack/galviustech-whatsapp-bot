@@ -3,8 +3,8 @@
     "telefono": "573176712815",
     "nombre": "gilber",
     "primerContacto": "2026-08-09T12:59:31.765Z",
-    "ultimoContacto": "2026-08-09T13:04:59.260Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-09T13:06:00.500Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,11 +55,46 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-09T13:04:58.382Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Modem 4G",
+        "fecha": "2026-08-09T13:05:56.954Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-09T13:05:56.954Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-09T13:05:57.524Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-09T13:05:58.039Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-08-09T13:05:58.641Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 4G*\n$ 239.900\n\nModem portatil con conexion 4G LTE, compatible con SIM Card de todos los operadores en Colombia. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-09T13:05:59.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-08-09T13:05:59.772Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-4g"
     },
     "pausado": false,
     "etapaManual": null,
