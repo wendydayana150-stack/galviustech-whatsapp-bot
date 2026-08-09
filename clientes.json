@@ -52,7 +52,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573122004478",
@@ -152,7 +153,8 @@
       "productoId": "modem-smartwatch"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573233263106",
@@ -277,7 +279,10 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573016100483",
@@ -334,7 +339,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -539,7 +545,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573228648507",
@@ -639,7 +647,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -1339,7 +1348,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -2147,7 +2157,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -2391,7 +2402,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -2520,7 +2532,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -2791,7 +2804,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
