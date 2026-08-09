@@ -61,8 +61,8 @@
     "telefono": "573018490965",
     "nombre": ".?",
     "primerContacto": "2026-08-09T15:11:17.533Z",
-    "ultimoContacto": "2026-08-09T16:09:35.241Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-08-09T16:10:05.015Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,6 +203,16 @@
         "rol": "bot",
         "texto": "¡Perfecto, gracias! 📍\n\n5️⃣ ¿Me confirmas el barrio, por favor?",
         "fecha": "2026-08-09T16:09:34.237Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las palmas",
+        "fecha": "2026-08-09T16:10:01.940Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenísimo! 🌴\n\n6️⃣ Y por último, ¿cómo prefieres el pago: contraentrega o transferencia?",
+        "fecha": "2026-08-09T16:10:04.047Z"
       }
     ],
     "paso": "confirmar_producto",
