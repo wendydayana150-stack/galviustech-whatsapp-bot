@@ -3,8 +3,8 @@
     "telefono": "573004526794",
     "nombre": "Yair Sanchez",
     "primerContacto": "2026-08-09T12:41:25.215Z",
-    "ultimoContacto": "2026-08-09T12:41:25.215Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T12:42:40.251Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T12:41:24.452Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-09T12:42:39.303Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-09T12:42:39.303Z"
       }
     ],
     "paso": "confirmar_producto",
