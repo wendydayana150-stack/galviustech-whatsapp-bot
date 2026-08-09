@@ -3,8 +3,8 @@
     "telefono": "573153108963",
     "nombre": "Rosalba Rodríguez",
     "primerContacto": "2026-08-09T19:52:44.563Z",
-    "ultimoContacto": "2026-08-09T19:52:44.563Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-09T19:53:35.844Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-09T19:52:43.921Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio de mensualidad",
+        "fecha": "2026-08-09T19:53:29.530Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nMira, aquí hay algo que te va a encantar: nuestros modems **no manejan mensualidad ni planes fijos con nosotros**. Tú compras el equipo una sola vez, y luego simplemente le metes la SIM del operador que prefieras (Claro, Movistar, Tigo, WOM o ETB) con el plan de datos o recargas que tú elijas. Así tienes control total de cuánto gastas cada mes, sin ataduras ni contratos.\n\nPara poder orientarte mejor, cuéntame:\n📍 ¿En qué ciudad o vereda estás ubicado?\n📶 ¿Qué operador te sirve mejor por allá?\n💡 ¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio, negocio, o para tener internet en casa/finca?",
+        "fecha": "2026-08-09T19:53:34.936Z"
       }
     ],
     "paso": "confirmar_producto",
