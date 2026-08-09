@@ -3,8 +3,8 @@
     "telefono": "573233263106",
     "nombre": "Aroo Croos",
     "primerContacto": "2026-08-09T17:34:53.946Z",
-    "ultimoContacto": "2026-08-09T17:36:44.707Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-09T17:37:54.999Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-08-09T17:36:43.879Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "rural",
+        "fecha": "2026-08-09T17:37:48.440Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno saludarte 😊 Soy Michell, de GalviusTech.\n\nVeo que me escribes \"rural\" - cuéntame, ¿tienes o conoces alguna finca o vereda donde el internet no llega bien o simplemente no hay señal de fibra óptica?\n\nPara poder ayudarte mejor, cuéntame:\n📍 ¿En qué municipio o vereda estarías usando el internet?\n📱 ¿Qué operador tienes actualmente (Claro, Movistar, Tigo, WOM)?\n💻 ¿Para qué lo necesitarías principalmente? (trabajo, estudio, negocio, comunicarte con la familia)\n\nCon esa info te puedo recomendar exactamente lo que necesitas, porque nuestros módems están hechos justamente para dar buena cobertura en esas zonas donde el celular solo no alcanza. ¿Me cuentas un poco de tu situación?",
+        "fecha": "2026-08-09T17:37:54.055Z"
       }
     ],
     "paso": "confirmar_producto",
