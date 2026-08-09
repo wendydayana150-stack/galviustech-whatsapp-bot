@@ -760,8 +760,8 @@
     "telefono": "573202431549",
     "nombre": "🙏😇",
     "primerContacto": "2026-08-09T02:38:08.172Z",
-    "ultimoContacto": "2026-08-09T13:15:50.906Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-08-09T13:16:00.320Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -962,16 +962,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-08-09T13:15:50.040Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Neiva huila",
+        "fecha": "2026-08-09T13:15:59.406Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-08-09T13:15:59.406Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573202431549",
       "nombreCliente": "Sumerce  ese moden como maneja con sim car o como sumerce",
-      "celular": "3202431549"
+      "celular": "3202431549",
+      "departamento": "Neiva huila"
     },
     "pausado": false,
     "etapaManual": null,
