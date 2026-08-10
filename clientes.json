@@ -3,8 +3,8 @@
     "telefono": "573148602977",
     "nombre": "Maria Fernanda Villafaña",
     "primerContacto": "2026-08-10T17:01:44.520Z",
-    "ultimoContacto": "2026-08-10T17:01:44.520Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-10T17:02:23.486Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-10T17:01:43.754Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Onde no ahí señal",
+        "fecha": "2026-08-10T17:02:12.262Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-08-10T17:02:15.571Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech 😊\n\nEntiendo tu duda, y quiero ser honesta contigo: el modem funciona captando la señal de algún operador (Claro, Movistar, Tigo, WOM, ETB), pero con una antena mucho más potente que la de un celular normal. Por eso en zonas rurales o veredas donde el celular casi no agarra señal, el modem sí logra conectar porque tiene mayor alcance y sensibilidad.\n\nAhora, si en tu zona literalmente NO llega señal de ningún operador (cero barras en cualquier celular), ahí ningún equipo va a poder captar algo de la nada. Pero eso es bastante raro, casi siempre hay algo de señal débil que el modem sí puede aprovechar mucho mejor que un celular común.\n\nPara orientarte bien, ¿me cuentas en qué municipio o vereda estás ubicado? Así te confirmo con más seguridad si el modem te va a mejorar la conexión que tienes ahora 📍",
+        "fecha": "2026-08-10T17:02:22.610Z"
       }
     ],
     "paso": "confirmar_producto",
