@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T18:31:49.944Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-10T18:32:02.243Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,21 @@
         "rol": "bot",
         "texto": "¡Perfecto, gracias por contarme! Santa Rosa del Sur, vereda La Unión, zona rural de Bolívar 📍\n\nAhí te confirmo con toda seguridad que el módem es justo lo que necesitas. Está diseñado especialmente para dar mejor cobertura que un celular en veredas y zonas rurales, gracias a su antena de mayor potencia y alcance. Así que no dependes de que llegue la fibra óptica algún día ni de buscar señal por todos lados.\n\nCuéntame, ¿actualmente cómo te estás conectando ahí? ¿Usas los datos de tu celular, buscas wifi prestado, o no tienes ninguna conexión por ahora? Y principalmente, ¿lo necesitarías para trabajar, estudiar, o para el hogar? 🏡",
         "fecha": "2026-08-10T18:31:48.764Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo una antena de Tigo que la pucieron",
+        "fecha": "2026-08-10T18:31:54.794Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ase un año",
+        "fecha": "2026-08-10T18:32:00.160Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah listo, ya veo! Y esa antena de Tigo, ¿es de internet fijo (como fibra o wifi de casa) o es la señal normal de celular? Porque muchas veces esas antenas rurales dan señal, pero se saturan o se vuelven lentas cuando varias personas se conectan a la vez.\n\nCuéntame cómo te está funcionando eso actualmente, ¿te da buena velocidad o se te pone lenta o inestable? Y aparte de esa antena, ¿usas también los datos de tu celular para conectarte? 📶",
+        "fecha": "2026-08-10T18:32:01.358Z"
       }
     ],
     "paso": "confirmar_producto",
