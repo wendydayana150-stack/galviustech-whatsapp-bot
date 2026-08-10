@@ -3,8 +3,8 @@
     "telefono": "573132066522",
     "nombre": "Diana😍",
     "primerContacto": "2026-08-10T14:23:14.275Z",
-    "ultimoContacto": "2026-08-10T14:24:18.794Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-10T14:30:18.322Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,16 @@
         "rol": "bot",
         "texto": "¡Hola! Qué bueno que me escribes 😊 Con gusto te ayudo a revisar eso.\n\nPara poder decirte con seguridad si nuestro modem te va a funcionar bien, necesito saber:\n\n📍 ¿En qué municipio o vereda estarías usándolo?\n📱 ¿Qué operador tienes actualmente (Claro, Movistar, Tigo, WOM)?\n\nTe cuento algo importante: nuestros modems están diseñados especialmente para zonas rurales, con una antena de mayor potencia que la de un celular normal. Así que aunque tu celular capte señal débil, el modem suele mejorar bastante esa conexión gracias a su alcance.\n\nCuéntame, ¿ahorita cómo te estás conectando allá? ¿Usas datos del celular, WiFi de algún vecino, o no tienes ninguna opción por el momento?",
         "fecha": "2026-08-10T14:24:17.853Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio del playón Santander, vereda Córdoba \nUtilizo datos con Claro",
+        "fecha": "2026-08-10T14:30:09.477Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, gracias por contarme! 🙌\n\nPlayón, Santander, vereda Córdoba, con Claro. Aunque no tengo forma de confirmarte el % exacto de señal en ese punto específico, sí te puedo asegurar que nuestro modem capta señal con mucha más fuerza que un celular común, gracias a su antena de mayor potencia. Muchos clientes en veredas similares nos cuentan que con el celular apenas les carga algo y con el modem ya pueden trabajar, ver videos o hacer videollamadas sin tanto problema.\n\nAhora cuéntame algo importante:\n👉 ¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio, el negocio, o para tener internet en casa?\n👉 ¿Cuántas personas o dispositivos se conectarían (celulares, computador, tablet)?\n\nAsí te recomiendo el modelo exacto que más te conviene 😊",
+        "fecha": "2026-08-10T14:30:17.372Z"
       }
     ],
     "paso": "confirmar_producto",
