@@ -3,8 +3,8 @@
     "telefono": "573217315379",
     "nombre": "Estefy",
     "primerContacto": "2026-08-10T03:26:00.346Z",
-    "ultimoContacto": "2026-08-10T03:26:00.346Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-10T03:28:49.574Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-10T03:25:59.710Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo funciona",
+        "fecha": "2026-08-10T03:28:46.725Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-08-10T03:28:46.726Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-08-10T03:28:48.802Z"
       }
     ],
     "paso": "confirmar_producto",
