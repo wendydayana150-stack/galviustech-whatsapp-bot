@@ -117,8 +117,8 @@
     "telefono": "573128332161",
     "nombre": "Morelia Muñoz",
     "primerContacto": "2026-08-10T00:49:10.224Z",
-    "ultimoContacto": "2026-08-10T02:00:07.926Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-10T02:00:56.961Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -189,6 +189,16 @@
         "rol": "bot",
         "texto": "¡Tranquilo/a, no hay problema! 😊 Igual quedo atenta por si más adelante te animas o te surge alguna duda.\n\nSolo por curiosidad, ¿ya cuentas con alguna solución de internet o de impresión actualmente, o simplemente no era el momento?",
         "fecha": "2026-08-10T02:00:07.074Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No todavía no tengo internet",
+        "fecha": "2026-08-10T02:00:51.173Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah, ¡entonces sí te puedo ayudar bastante! 🙌 No tener internet en casa o donde te muevas puede ser bien complicado, sobre todo si necesitas estar conectado para trabajar, estudiar o simplemente comunicarte.\n\nCuéntame, ¿en qué ciudad, municipio o vereda estarías necesitando la conexión? Y una cosa importante: ¿actualmente qué operador te funciona mejor ahí, Claro, Movistar, Tigo, WOM o ETB?\n\nAsí te recomiendo el módem que mejor cobertura te va a dar en tu zona 📶",
+        "fecha": "2026-08-10T02:00:56.232Z"
       }
     ],
     "paso": "confirmar_producto",
