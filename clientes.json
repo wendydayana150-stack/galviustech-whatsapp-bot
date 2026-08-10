@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T19:17:00.997Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-08-10T19:20:01.709Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -335,6 +335,31 @@
         "rol": "bot",
         "texto": "¡Perfecto, Bolívar confirmado! ✅\n\nYa con esto tengo casi todo tu pedido, Israel. Solo me falta el barrio o vereda cerca a la oficina de Interrapidísimo, para que quede bien completa la dirección 😊\n\n¿Me lo confirmas para dejar tu pedido listo?",
         "fecha": "2026-08-10T19:17:00.077Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "calle 11 n 13  52",
+        "fecha": "2026-08-10T19:19:51.232Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Israel! Ya tengo toda la información completa para tu pedido 🙌\n\n📋 Resumen de tu pedido:\n- Producto: Módem WiFi Portátil 4G/5G - $249.900\n- Nombre: Israel Pabón Sierra\n- Celular: 3024295331\n- Departamento: Bolívar\n- Ciudad: Santa Rosa del Sur\n- Dirección: Oficina Interrapidísimo, Calle 11 N 13-52\n- Pago: Contraentrega\n- Envío: a cargo del cliente (te lo confirma la transportadora)\n\nMuchas gracias por tu confianza 🙏 Cuando te llegue el equipo, con gusto te ayudo a configurarlo para que quede funcionando perfecto con tu SIM de Tigo.\n\n¿Necesitas algo más por ahora o quedamos así con el pedido confirmado? 😊",
+        "fecha": "2026-08-10T19:19:59.050Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Promo especial",
+        "fecha": "2026-08-10T19:19:59.746Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar el *Modem WiFi Portatil + Reloj Smartwatch* de regalo por solo $ 309.900.\n\nTe llevas el mismo modem que ya viste, mas un reloj inteligente de regalo, por muy poquito mas.\n\nTe animas a aprovechar la promocion?",
+        "fecha": "2026-08-10T19:20:00.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
+        "fecha": "2026-08-10T19:20:00.836Z"
       }
     ],
     "paso": "confirmar_producto",
