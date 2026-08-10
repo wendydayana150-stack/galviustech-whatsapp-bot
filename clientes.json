@@ -3,8 +3,8 @@
     "telefono": "573133180155",
     "nombre": "Salomón Gaitán Umaña",
     "primerContacto": "2026-08-10T21:18:36.656Z",
-    "ultimoContacto": "2026-08-10T21:18:36.656Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-10T21:19:13.953Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-10T21:18:36.009Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-10T21:19:13.179Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-10T21:19:13.179Z"
       }
     ],
     "paso": "confirmar_producto",
