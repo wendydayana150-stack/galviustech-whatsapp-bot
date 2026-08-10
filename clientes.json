@@ -2462,8 +2462,8 @@
     "telefono": "573004526794",
     "nombre": "Yair Sanchez",
     "primerContacto": "2026-08-09T12:41:25.215Z",
-    "ultimoContacto": "2026-08-09T15:10:37.620Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-10T01:26:57.772Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2589,6 +2589,31 @@
         "rol": "bot",
         "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 239.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-08-09T15:10:36.404Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-09T15:10:39.339Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-09T17:34:56.505Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-09T18:07:52.265Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-09T18:19:17.349Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 239.900). Para generar tu pedido necesito algunos datos.  Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-08-10T01:26:56.742Z"
       }
     ],
     "paso": "pedido_nombre",
@@ -2598,7 +2623,7 @@
       "precio": 239900,
       "telefono": "573004526794"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
