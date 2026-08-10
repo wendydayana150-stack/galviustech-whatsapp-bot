@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T19:10:57.073Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-08-10T19:11:07.021Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -265,6 +265,16 @@
         "rol": "bot",
         "texto": "El envío corre por cuenta del cliente, se cobra aparte según la transportadora y tu ciudad, pero eso te lo confirman al momento de coordinar el envío, es un valor adicional al del módem.\n\nLo bueno es que como el pago es contraentrega, ahí mismo cancelas todo junto cuando te llega el paquete a Santa Rosa del Sur 😊\n\n¿Seguimos con tus datos entonces? Me hace falta tu nombre completo para ir avanzando con el pedido 🙌",
         "fecha": "2026-08-10T19:10:56.167Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Está un poco lento la señal",
+        "fecha": "2026-08-10T19:10:59.833Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese es justo el problema que resuelve el módem 😊 Si ahora sientes que la señal del celular se pone lenta o inestable, es porque el celular no tiene una antena tan potente. El módem está hecho justo para capturar mejor la señal de Tigo, dándote una conexión mucho más estable para que no se te trabe ni el juego ni nada que estés haciendo.\n\nAsí que en vez de seguir luchando con esa señal lenta, ya tendrías una solución hecha para tu zona 🙌\n\n¿Seguimos entonces con tus datos para dejarte el pedido listo? Me hace falta tu nombre completo para continuar 😊",
+        "fecha": "2026-08-10T19:11:06.212Z"
       }
     ],
     "paso": "confirmar_producto",
