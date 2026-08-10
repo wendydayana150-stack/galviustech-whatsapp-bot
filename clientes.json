@@ -3,8 +3,8 @@
     "telefono": "573217315379",
     "nombre": "Estefy",
     "primerContacto": "2026-08-10T03:26:00.346Z",
-    "ultimoContacto": "2026-08-10T03:44:41.613Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-08-10T03:45:01.696Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -160,6 +160,16 @@
         "rol": "bot",
         "texto": "¡Genial! 😊 Vamos entonces con los datos para dejar tu pedido listo.\n\nPara empezar, cuéntame: ¿cuál es tu **nombre completo**?",
         "fecha": "2026-08-10T03:44:40.767Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estefania Díaz",
+        "fecha": "2026-08-10T03:44:57.554Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Mucho gusto, Estefanía! 😊 Vamos con el siguiente dato.\n\n¿Cuál es tu **número de celular** de contacto?",
+        "fecha": "2026-08-10T03:45:00.885Z"
       }
     ],
     "paso": "confirmar_producto",
