@@ -824,8 +824,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T21:34:28.107Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-08-10T21:35:48.401Z",
+    "mensajes": 35,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1236,6 +1236,21 @@
         "rol": "bot",
         "texto": "¡Ah listo, ya entiendo tu pregunta! 😊\n\nTe refieres a confirmar la dirección de envío, ¿cierto? Esa que me diste (oficina de Interrapidísimo, Calle 11 N 13-52) es la que quedó registrada para tu pedido del **módem 4G/5G**.\n\n¿Esa es la dirección donde quieres recibirlo, o prefieres que sea en tu casa o algún otro lugar? 😊",
         "fecha": "2026-08-10T21:34:27.043Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción de $ 289.900 sigue disponible por el momento, pero las unidades son limitadas.\nSi tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-08-10T21:34:30.615Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si a esa no ay más en santa rosa solo una la principal",
+        "fecha": "2026-08-10T21:35:41.062Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entendido Israel 👍 Entonces queda confirmado: la oficina principal de Interrapidísimo en Santa Rosa del Sur.\n\nTu pedido queda así, todo completo y listo:\n\n📋 **Pedido confirmado:**\n- Producto: Módem WiFi Portátil 4G/5G - $249.900\n- Nombre: Israel Pabón Sierra\n- Celular: 3024295331\n- Departamento: Bolívar\n- Ciudad: Santa Rosa del Sur\n- Dirección: Oficina principal Interrapidísimo, Calle 11 N 13-52\n- Pago: Contraentrega\n- Envío: a cargo del cliente\n\nMuchísimas gracias por tu confianza 🙏 Cuando te llegue el equipo me escribes y te ayudo con la configuración para que quede funcionando perfecto con tu SIM.\n\n¿Todo bien así, Israel? 😊",
+        "fecha": "2026-08-10T21:35:47.566Z"
       }
     ],
     "paso": "confirmar_producto",
