@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T18:28:39.178Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-10T18:30:04.064Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -50,6 +50,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-10T18:28:38.456Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Qué gusto tenerte por aquí, soy Michell de GalviusTech.\n\nPara poder ayudarte mejor, cuéntame: ¿me escribes por el módem de internet portátil o por la impresora térmica? Y de paso, ¿en qué ciudad o municipio te encuentras? 📍",
+        "fecha": "2026-08-10T18:28:40.713Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero eso sirve para el campo",
+        "fecha": "2026-08-10T18:29:56.676Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 El módem está hecho justamente para eso, para zonas rurales y veredas donde el celular normalmente no agarra buena señal. Tiene una antena más potente que capta mejor la señal que un celular común, así que te da mejor cobertura ahí donde más la necesitas.\n\nCuéntame, ¿en qué municipio o vereda estarías usándolo? Y una preguntita más: ¿actualmente cómo te estás conectando ahí, usas los datos del celular o no tienes ninguna señal? Así te recomiendo el modelo que mejor te funcione 📶",
+        "fecha": "2026-08-10T18:30:03.209Z"
       }
     ],
     "paso": "confirmar_producto",
