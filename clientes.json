@@ -3,8 +3,8 @@
     "telefono": "573209392685",
     "nombre": "😎 Fernando A Torres B 😎",
     "primerContacto": "2026-08-10T18:08:01.555Z",
-    "ultimoContacto": "2026-08-10T18:08:05.577Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-10T18:10:01.256Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,16 @@
         "rol": "bot",
         "texto": "¡Hola! Soy Michell, de GalviusTech 😊 Con gusto te doy todos los detalles que necesites.\n\nPara poder contarte bien y no marearte con info que no te sirve, cuéntame: ¿estás buscando información sobre el módem de internet portátil o sobre la impresora térmica?\n\nY de una vez, ¿en qué ciudad o municipio estarías usándolo?",
         "fecha": "2026-08-10T18:08:04.677Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa información sobre el módem de Internet portatil",
+        "fecha": "2026-08-10T18:09:55.260Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Los módems son justo mi especialidad 🙌\n\nPara recomendarte el que mejor te sirva, cuéntame:\n\n1️⃣ ¿En qué ciudad, municipio o vereda lo usarías?\n2️⃣ ¿Con qué operador tienes servicio actualmente (Claro, Movistar, Tigo, WOM, ETB)?\n3️⃣ ¿Para qué lo necesitas principalmente? (trabajo, estudio, hogar, viajes, negocio)\n\nCon eso te digo exactamente cuál te conviene y por qué 😉",
+        "fecha": "2026-08-10T18:10:00.392Z"
       }
     ],
     "paso": "confirmar_producto",
