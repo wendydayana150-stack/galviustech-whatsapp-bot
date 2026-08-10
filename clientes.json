@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T19:14:56.594Z",
-    "mensajes": 28,
+    "ultimoContacto": "2026-08-10T19:16:09.253Z",
+    "mensajes": 29,
     "conversacion": [
       {
         "rol": "cliente",
@@ -315,6 +315,16 @@
         "rol": "bot",
         "texto": "Perfecto, anotado: dirección oficina Interrapidísimo principal en Santa Rosa del Sur 📦\n\nYa casi terminamos, solo me faltan estos datos:\n\n3️⃣ Departamento: ¿es Bolívar?\n5️⃣ Barrio o vereda cerca a esa oficina\n6️⃣ Medio de pago: ¿contraentrega o transferencia?\n\n¿Me confirmas esos últimos datos, Israel? 😊",
         "fecha": "2026-08-10T19:14:55.756Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "6 contraentrega",
+        "fecha": "2026-08-10T19:16:03.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial, contraentrega quedó! 👍\n\nYa tengo casi todo Israel, solo me faltan estos dos detallitos para dejar tu pedido completo:\n\n3️⃣ Departamento: ¿confirmas que es Bolívar?\n5️⃣ Barrio o vereda cerca a la oficina de Interrapidísimo\n\n¿Me confirmas esos dos datos para cerrar tu pedido? 😊",
+        "fecha": "2026-08-10T19:16:08.350Z"
       }
     ],
     "paso": "confirmar_producto",
