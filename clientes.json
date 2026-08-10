@@ -3,8 +3,8 @@
     "telefono": "573024295331",
     "nombre": "sin nombre",
     "primerContacto": "2026-08-10T18:28:39.178Z",
-    "ultimoContacto": "2026-08-10T19:16:09.253Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-08-10T19:17:00.997Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "cliente",
@@ -325,6 +325,16 @@
         "rol": "bot",
         "texto": "¡Genial, contraentrega quedó! 👍\n\nYa tengo casi todo Israel, solo me faltan estos dos detallitos para dejar tu pedido completo:\n\n3️⃣ Departamento: ¿confirmas que es Bolívar?\n5️⃣ Barrio o vereda cerca a la oficina de Interrapidísimo\n\n¿Me confirmas esos dos datos para cerrar tu pedido? 😊",
         "fecha": "2026-08-10T19:16:08.350Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3 bolivar",
+        "fecha": "2026-08-10T19:16:54.923Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Bolívar confirmado! ✅\n\nYa con esto tengo casi todo tu pedido, Israel. Solo me falta el barrio o vereda cerca a la oficina de Interrapidísimo, para que quede bien completa la dirección 😊\n\n¿Me lo confirmas para dejar tu pedido listo?",
+        "fecha": "2026-08-10T19:17:00.077Z"
       }
     ],
     "paso": "confirmar_producto",
