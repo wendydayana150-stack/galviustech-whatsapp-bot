@@ -3,8 +3,8 @@
     "telefono": "573209392685",
     "nombre": "😎 Fernando A Torres B 😎",
     "primerContacto": "2026-08-10T18:08:01.555Z",
-    "ultimoContacto": "2026-08-10T18:10:01.256Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-10T18:11:04.368Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -65,6 +65,16 @@
         "rol": "bot",
         "texto": "¡Perfecto! Los módems son justo mi especialidad 🙌\n\nPara recomendarte el que mejor te sirva, cuéntame:\n\n1️⃣ ¿En qué ciudad, municipio o vereda lo usarías?\n2️⃣ ¿Con qué operador tienes servicio actualmente (Claro, Movistar, Tigo, WOM, ETB)?\n3️⃣ ¿Para qué lo necesitas principalmente? (trabajo, estudio, hogar, viajes, negocio)\n\nCon eso te digo exactamente cuál te conviene y por qué 😉",
         "fecha": "2026-08-10T18:10:00.392Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tauramena\nVereda chitamena \nClaro \nHogar",
+        "fecha": "2026-08-10T18:10:56.378Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, gracias por contarme! 😊 Tauramena, vereda Chitamena, con Claro, para el hogar.\n\nCuéntame algo importante: ¿ahí en la vereda actualmente cómo hacen para conectarse? ¿Comparten los datos del celular, usan algún WiFi vecino, o de plano no tienen ninguna conexión estable?\n\nY otra cosa: ¿cuántas personas serían las que se conectarían en casa (para ver, estudiar, trabajar, etc.)?\n\nTe pregunto esto porque en zonas rurales como la tuya, nuestro módem está diseñado justamente para captar señal mucho más fuerte que un celular normal, gracias a su antena de mayor potencia. Así que muy probablemente sea la solución perfecta para tu caso 💪",
+        "fecha": "2026-08-10T18:11:03.400Z"
       }
     ],
     "paso": "confirmar_producto",
