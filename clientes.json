@@ -52,7 +52,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573107749050",
@@ -117,7 +118,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573053362676",
@@ -172,7 +174,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573023140751",
@@ -297,7 +300,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573207642751",
@@ -409,7 +413,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573103833568",
@@ -710,7 +716,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
