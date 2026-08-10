@@ -3,8 +3,8 @@
     "telefono": "573148602977",
     "nombre": "Maria Fernanda Villafaña",
     "primerContacto": "2026-08-10T17:01:44.520Z",
-    "ultimoContacto": "2026-08-10T17:02:23.486Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-10T17:06:12.601Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -60,6 +60,21 @@
         "rol": "bot",
         "texto": "¡Hola! Soy Michell de GalviusTech 😊\n\nEntiendo tu duda, y quiero ser honesta contigo: el modem funciona captando la señal de algún operador (Claro, Movistar, Tigo, WOM, ETB), pero con una antena mucho más potente que la de un celular normal. Por eso en zonas rurales o veredas donde el celular casi no agarra señal, el modem sí logra conectar porque tiene mayor alcance y sensibilidad.\n\nAhora, si en tu zona literalmente NO llega señal de ningún operador (cero barras en cualquier celular), ahí ningún equipo va a poder captar algo de la nada. Pero eso es bastante raro, casi siempre hay algo de señal débil que el modem sí puede aprovechar mucho mejor que un celular común.\n\nPara orientarte bien, ¿me cuentas en qué municipio o vereda estás ubicado? Así te confirmo con más seguridad si el modem te va a mejorar la conexión que tienes ahora 📍",
         "fecha": "2026-08-10T17:02:22.610Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, de GalviusTech 😊\n\nEntiendo perfectamente, eso de estar en zona rural sin señal es súper frustrante, ¿verdad? Muchas veces uno necesita comunicarse, trabajar o que los niños estudien, y la señal del celular ahí simplemente no da.\n\nJusto para eso están hechos nuestros modems: tienen una antena mucho más potente que capta señal donde un celular normal no logra conectarse bien. Así que si en tu zona hay algo de cobertura de operador (aunque sea poquita), el modem puede aprovecharla mucho mejor.\n\nCuéntame:\n📍 ¿En qué municipio o vereda estás ubicado?\n📱 ¿Qué operador tiene mejor señal por ahí (Claro, Movistar, Tigo, WOM)?\n🎯 ¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio, negocio, comunicación con la familia?\n\nCon esos datos te puedo orientar mejor y decirte con seguridad si te va a funcionar 🙌",
+        "fecha": "2026-08-10T17:02:23.637Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi pueblo no agarra señal ni gun operador",
+        "fecha": "2026-08-10T17:06:02.179Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, y te agradezco que me lo cuentes tan claro 🙏\n\nVoy a ser honesta contigo: si en tu pueblo *ningún* operador tiene señal (ni Claro, ni Movistar, ni Tigo, ni WOM, ni ETB), el modem no podría generar conexión de la nada, porque necesita captar la señal de alguna red para luego amplificarla y compartirla en WiFi. Ningún equipo, por potente que sea, puede crear señal donde no existe absolutamente nada.\n\nAhora bien, muchas veces pasa esto: en el pueblo mismo no hay señal, pero unos metros más arriba, en una loma, cerca de una torre, o en cierto punto de la finca, sí llega algo de señal débil que el celular no logra aprovechar pero el modem sí, gracias a su antena de mayor alcance.\n\nPor eso te pregunto:\n📍 ¿Has notado si en algún punto cercano (un cerro, una loma, otra parte de la vereda) el celular agarra aunque sea 1 rayita de señal?\n📱 ¿Con qué operador has probado?\n\nSi me confirmas eso, te puedo orientar con seguridad si el modem te funcionaría ahí 🙌",
+        "fecha": "2026-08-10T17:06:11.820Z"
       }
     ],
     "paso": "confirmar_producto",
