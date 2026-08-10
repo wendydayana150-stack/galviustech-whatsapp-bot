@@ -52,7 +52,8 @@
       "productoId": "modem-4g5g"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573009789074",
@@ -80,7 +81,8 @@
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573148602977",
@@ -176,7 +178,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573135058921",
@@ -232,7 +236,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573006927063",
@@ -288,7 +294,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573108573585",
@@ -1007,7 +1015,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -2929,7 +2938,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
@@ -2988,7 +2998,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "dias2": true
     }
   },
   {
