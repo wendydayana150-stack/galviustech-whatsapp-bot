@@ -3,8 +3,8 @@
     "telefono": "573132066522",
     "nombre": "Diana😍",
     "primerContacto": "2026-08-10T14:23:14.275Z",
-    "ultimoContacto": "2026-08-10T14:23:14.275Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-10T14:24:18.794Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-10T14:23:13.580Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como se si para acá hay cobertura",
+        "fecha": "2026-08-10T14:24:11.190Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Con gusto te ayudo a revisar eso.\n\nPara poder decirte con seguridad si nuestro modem te va a funcionar bien, necesito saber:\n\n📍 ¿En qué municipio o vereda estarías usándolo?\n📱 ¿Qué operador tienes actualmente (Claro, Movistar, Tigo, WOM)?\n\nTe cuento algo importante: nuestros modems están diseñados especialmente para zonas rurales, con una antena de mayor potencia que la de un celular normal. Así que aunque tu celular capte señal débil, el modem suele mejorar bastante esa conexión gracias a su alcance.\n\nCuéntame, ¿ahorita cómo te estás conectando allá? ¿Usas datos del celular, WiFi de algún vecino, o no tienes ninguna opción por el momento?",
+        "fecha": "2026-08-10T14:24:17.853Z"
       }
     ],
     "paso": "confirmar_producto",
