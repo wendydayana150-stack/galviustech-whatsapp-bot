@@ -3,8 +3,8 @@
     "telefono": "573217315379",
     "nombre": "Estefy",
     "primerContacto": "2026-08-10T03:26:00.346Z",
-    "ultimoContacto": "2026-08-10T03:29:05.145Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-10T03:32:36.382Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,6 +70,21 @@
         "rol": "bot",
         "texto": "¡Hola! Que bueno que preguntas eso 😊 Te cuento clarito:\n\nEl modem de GalviusTech es un pago único por el equipo, **no tiene mensualidad con nosotros**. Tú compras el modem una sola vez y luego simplemente le pones la SIM Card del operador que prefieras (Claro, Movistar, Tigo, WOM o ETB), igual que le pondrías la SIM a tu celular. Ahí ya tú decides si le metes un plan prepago o pospago según lo que más te convenga o el uso que le vayas a dar.\n\nOsea, nosotros no te cobramos nada mensual, tú solo pagas el equipo y listo, es tuyo 📶\n\nPara orientarte mejor, cuéntame: ¿en qué municipio o vereda estarías usando el modem, y para qué lo necesitarías principalmente? ¿Trabajo, estudio, o para tener internet en casa?",
         "fecha": "2026-08-10T03:29:04.247Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para internet en casa",
+        "fecha": "2026-08-10T03:32:29.814Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una finca",
+        "fecha": "2026-08-10T03:32:33.772Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, para internet en casa el modem es una excelente opción! 🏠📶\n\nCuéntame, ¿en qué ciudad o vereda vives? Eso es importante para poder orientarte bien, ya que si estás en zona rural el modem te va a dar mucha mejor cobertura que un celular, gracias a su antena de mayor potencia.\n\nY otra cosa, ¿actualmente cómo tienes el internet en casa? ¿Estás compartiendo datos del celular, usando el WiFi de un vecino, o simplemente no tienes ninguna conexión ahorita? Así te recomiendo el modem que mejor se ajuste a lo que necesitas y a cuántas personas o dispositivos se van a conectar en tu hogar 😊",
+        "fecha": "2026-08-10T03:32:35.419Z"
       }
     ],
     "paso": "confirmar_producto",
