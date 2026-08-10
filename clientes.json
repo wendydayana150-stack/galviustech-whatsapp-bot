@@ -3,8 +3,8 @@
     "telefono": "573205485205",
     "nombre": "Jovito",
     "primerContacto": "2026-08-10T17:40:28.543Z",
-    "ultimoContacto": "2026-08-10T17:41:46.853Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-10T17:43:49.419Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,16 @@
         "rol": "bot",
         "texto": "¡Hola! Qué gusto que estés interesado 😊 Soy Michell, de GalviusTech.\n\nAntes de darte el precio exacto, cuéntame un poquito para poder recomendarte bien: ¿me dices en qué municipio o vereda estarías usando el modem, y para qué lo necesitas principalmente? ¿Trabajo, estudio, negocio, o para tener internet en casa?\n\nAsí te digo cuál te conviene más y el precio exacto según lo que necesites 👍",
         "fecha": "2026-08-10T17:41:45.962Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para tener interne en casa",
+        "fecha": "2026-08-10T17:43:43.798Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para tener internet en casa es una excelente decisión 🙌\n\nCuéntame un poco más:\n- ¿En qué ciudad o municipio vives?\n- ¿Actualmente tienes algún tipo de internet o estás usando datos del celular?\n- ¿Cuántas personas o dispositivos se conectarían en tu casa (celulares, tablets, computador, smart TV)?\n\nCon eso te recomiendo el modem ideal y te doy el precio justo 😊",
+        "fecha": "2026-08-10T17:43:48.484Z"
       }
     ],
     "paso": "confirmar_producto",
