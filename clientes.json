@@ -3,8 +3,8 @@
     "telefono": "573205485205",
     "nombre": "Jovito",
     "primerContacto": "2026-08-10T17:40:28.543Z",
-    "ultimoContacto": "2026-08-10T17:45:03.902Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-10T17:45:26.653Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,6 +75,16 @@
         "rol": "bot",
         "texto": "¡Ah, Barbacoas! Zona donde muchas veces la fibra óptica no llega o la señal del celular es débil, ¿cierto? 📶\n\nJusto para eso está hecho nuestro modem: tiene una antena de mayor potencia que capta señal más fuerte que un celular normal, así que te puede dar internet en casa aunque ahí la cobertura sea limitada.\n\nCuéntame:\n- ¿Ahora mismo cómo te estás conectando? ¿Datos del celular, WiFi de algún vecino, o no tienes nada estable?\n- ¿Cuántas personas en tu casa usarían el internet (para estudiar, trabajar, redes sociales)?\n\nCon eso te digo exactamente cuál modem te conviene y el precio 😊",
         "fecha": "2026-08-10T17:45:03.085Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "uso datos en el celular",
+        "fecha": "2026-08-10T17:45:20.644Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, y seguramente los datos se te acaban rápido o la señal no es tan estable para todos en casa, ¿cierto? 😅\n\nImagínate ya no depender de eso: llegar a casa y que todos tengan su propia conexión estable, sin gastar el plan de datos del celular.\n\nCuéntame, ¿cuántas personas o dispositivos se conectarían en tu casa? Así te recomiendo el modem exacto y te paso el precio 👍",
+        "fecha": "2026-08-10T17:45:25.881Z"
       }
     ],
     "paso": "confirmar_producto",
