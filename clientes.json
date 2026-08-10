@@ -3,8 +3,8 @@
     "telefono": "573148602977",
     "nombre": "Maria Fernanda Villafaña",
     "primerContacto": "2026-08-10T17:01:44.520Z",
-    "ultimoContacto": "2026-08-10T17:06:12.601Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-10T17:06:52.141Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,6 +75,16 @@
         "rol": "bot",
         "texto": "Entiendo, y te agradezco que me lo cuentes tan claro 🙏\n\nVoy a ser honesta contigo: si en tu pueblo *ningún* operador tiene señal (ni Claro, ni Movistar, ni Tigo, ni WOM, ni ETB), el modem no podría generar conexión de la nada, porque necesita captar la señal de alguna red para luego amplificarla y compartirla en WiFi. Ningún equipo, por potente que sea, puede crear señal donde no existe absolutamente nada.\n\nAhora bien, muchas veces pasa esto: en el pueblo mismo no hay señal, pero unos metros más arriba, en una loma, cerca de una torre, o en cierto punto de la finca, sí llega algo de señal débil que el celular no logra aprovechar pero el modem sí, gracias a su antena de mayor alcance.\n\nPor eso te pregunto:\n📍 ¿Has notado si en algún punto cercano (un cerro, una loma, otra parte de la vereda) el celular agarra aunque sea 1 rayita de señal?\n📱 ¿Con qué operador has probado?\n\nSi me confirmas eso, te puedo orientar con seguridad si el modem te funcionaría ahí 🙌",
         "fecha": "2026-08-10T17:06:11.820Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Absolutamente no ahí señal",
+        "fecha": "2026-08-10T17:06:41.670Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo completamente, y de verdad te agradezco la sinceridad 🙏\n\nVoy a serte totalmente honesta: si confirmas que absolutamente no hay señal de ningún operador en ningún punto cercano a tu pueblo, en ese caso específico el modem no te funcionaría, porque necesita captar aunque sea una señal mínima de algún operador para poder generar la conexión WiFi. Prefiero decírtelo con claridad antes que hacerte una venta que no te sirva.\n\nAhora, antes de descartarlo del todo, te pregunto algo importante: ¿has probado en TODOS los puntos cercanos? A veces hay zonas específicas (una loma, cerca de una carretera, un punto alto) donde de repente sí llega señal débil aunque en el pueblo mismo no haya nada. Muchas familias en veredas han encontrado ese \"punto mágico\" cerca de su casa.\n\n¿Tienes la posibilidad de revisar con el celular en distintos puntos alrededor de tu casa o finca, subiendo un poco a algún lugar alto? Si logras encontrar aunque sea una rayita de señal en algún punto, ahí sí te puedo asegurar que el modem te va a dar mucha mejor conexión que el celular 📶",
+        "fecha": "2026-08-10T17:06:51.237Z"
       }
     ],
     "paso": "confirmar_producto",
