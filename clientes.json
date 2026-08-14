@@ -3,8 +3,8 @@
     "telefono": "573156157249",
     "nombre": "Maria Pacheco",
     "primerContacto": "2026-08-14T23:06:30.385Z",
-    "ultimoContacto": "2026-08-14T23:07:18.610Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T23:07:26.448Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,16 @@
         "rol": "bot",
         "texto": "¡Hola! 😊 Soy Michell, de GalviusTech.\n\nManejamos soluciones de conectividad e internet portátil para que tengas señal donde la necesites, sin depender de WiFi ajeno ni quedarte sin datos. También tenemos impresoras térmicas portátiles para quienes necesitan imprimir documentos, facturas o recibos sin ir a una papelería.\n\nPara orientarte mejor, cuéntame: ¿en qué ciudad o municipio estás, y qué necesitas resolver? ¿Es para internet en tu casa/finca/trabajo, o para poder imprimir algo mientras te mueves? 📶🖨️",
         "fecha": "2026-08-14T23:07:17.709Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes explicar",
+        "fecha": "2026-08-14T23:07:18.700Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te explico con gusto 😊\n\nEn GalviusTech vendemos dos tipos de productos:\n\n📶 **Modem WiFi portátil**: es un aparatico pequeño donde le metes una SIM card (de Claro, Movistar, Tigo, WOM o ETB) y te da internet WiFi para conectar hasta 10 dispositivos (celular, PC, tablet, smart TV). Es ideal si estás en una zona donde no llega buena señal, o si quieres tener tu propio internet portátil sin depender del WiFi de otros. Además, en zonas rurales o veredas capta señal mucho más fuerte que un celular normal.\n\n🖨️ **Impresora térmica portátil**: es una impresora chiquita que llevas contigo, se conecta por Bluetooth a tu celular, y te permite imprimir facturas, recibos, cotizaciones o documentos al instante, sin necesitar tinta ni ir a una papelería.\n\nPara saber cuál te conviene más, cuéntame: ¿lo que necesitas es tener internet en algún lugar específico (casa, finca, trabajo), o necesitas poder imprimir algo mientras te mueves? 🙂",
+        "fecha": "2026-08-14T23:07:25.567Z"
       }
     ],
     "paso": "confirmar_producto",
