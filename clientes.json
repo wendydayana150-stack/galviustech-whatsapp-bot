@@ -3,8 +3,8 @@
     "telefono": "573505189974",
     "nombre": "Tr",
     "primerContacto": "2026-08-14T22:15:01.116Z",
-    "ultimoContacto": "2026-08-14T22:18:16.347Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-14T22:18:36.750Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,11 +85,51 @@
         "rol": "bot",
         "texto": "[Envio el catalogo de productos]",
         "fecha": "2026-08-14T22:18:15.490Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Modem 5G",
+        "fecha": "2026-08-14T22:18:33.131Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-08-14T22:18:33.131Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-08-14T22:18:33.667Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-08-14T22:18:34.121Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-08-14T22:18:34.573Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-08-14T22:18:35.018Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 5G*\n$ 269.900\n\nModem 5G portatil, ideal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-14T22:18:35.509Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-08-14T22:18:35.941Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-portatil-5g"
     },
     "pausado": false,
     "etapaManual": null
