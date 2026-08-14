@@ -3,8 +3,8 @@
     "telefono": "573505189974",
     "nombre": "Tr",
     "primerContacto": "2026-08-14T22:15:01.116Z",
-    "ultimoContacto": "2026-08-14T22:15:13.548Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T22:15:23.264Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,21 @@
         "rol": "bot",
         "texto": "¡Hola! Soy Michell, de GalviusTech 😊 Con gusto te explico, pero para orientarte mejor cuéntame: ¿me preguntas cómo funciona el módem de internet portátil o la impresora térmica?\n\nY para darte una explicación bien completa, ¿en qué ciudad o municipio estás y para qué lo necesitarías principalmente (trabajo, estudio, negocio, viajes)?",
         "fecha": "2026-08-14T22:15:12.935Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "el internet",
+        "fecha": "2026-08-14T22:15:16.272Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-14T22:15:19.996Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento cómo funciona 📶\n\nEs un módem WiFi portátil, súper sencillo:\n1. Le insertas una SIM Card (de Claro, Movistar, Tigo, WOM o el operador que tengas).\n2. Lo enciendes.\n3. Buscas la red WiFi que genera desde tu celular o computador y te conectas.\n\n¡Y listo! Ya tienes internet donde estés, sin cables ni instalaciones. Además puedes conectar hasta 10 dispositivos al mismo tiempo, y tiene batería recargable por USB-C, así que lo llevas a donde quieras.\n\nLo bueno es que está diseñado para captar señal más fuerte que un celular normal, así que funciona muy bien incluso en zonas donde el celular batalla para tener señal 💪\n\nPara recomendarte el modelo ideal, cuéntame: ¿en qué ciudad o vereda lo usarías, y actualmente cómo resuelves el tema de internet (datos del celular, WiFi prestado, o no tienes nada)?",
+        "fecha": "2026-08-14T22:15:22.385Z"
       }
     ],
     "paso": "confirmar_producto",
