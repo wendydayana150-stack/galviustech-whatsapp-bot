@@ -86,8 +86,8 @@
     "telefono": "573241665728",
     "nombre": "Que Mirás Bobo???.🧐🧐",
     "primerContacto": "2026-08-14T23:15:53.811Z",
-    "ultimoContacto": "2026-08-14T23:15:53.811Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-14T23:34:25.925Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T23:15:52.953Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-14T23:34:25.054Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-14T23:34:25.054Z"
       }
     ],
     "paso": "confirmar_producto",
