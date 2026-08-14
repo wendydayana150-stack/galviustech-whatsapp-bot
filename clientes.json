@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T18:01:08.409Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-14T18:01:55.843Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -265,14 +265,36 @@
         "rol": "bot",
         "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-08-14T18:01:07.679Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jennifer paola gomez",
+        "fecha": "2026-08-14T18:01:42.207Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-08-14T18:01:42.207Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3103082315",
+        "fecha": "2026-08-14T18:01:55.046Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-08-14T18:01:55.046Z"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
-      "telefono": "573103082315"
+      "telefono": "573103082315",
+      "nombreCliente": "Jennifer paola gomez",
+      "celular": "3103082315"
     },
     "pausado": false,
     "etapaManual": null
