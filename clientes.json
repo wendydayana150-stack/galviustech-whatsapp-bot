@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:58:06.050Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-08-14T20:58:25.537Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -105,9 +105,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-08-14T20:58:05.259Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valledupar",
+        "fecha": "2026-08-14T20:58:24.709Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-08-14T20:58:24.709Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -115,7 +125,8 @@
       "telefono": "573122906952",
       "nombreCliente": "Cómo funciona ?",
       "celular": "3122906952",
-      "departamento": "César"
+      "departamento": "César",
+      "ciudad": "Valledupar"
     },
     "pausado": false,
     "etapaManual": null
