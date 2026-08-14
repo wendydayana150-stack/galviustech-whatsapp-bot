@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T18:01:55.843Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-08-14T18:02:17.222Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -285,16 +285,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-08-14T18:01:55.046Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Caldas",
+        "fecha": "2026-08-14T18:02:16.403Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-08-14T18:02:16.403Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573103082315",
       "nombreCliente": "Jennifer paola gomez",
-      "celular": "3103082315"
+      "celular": "3103082315",
+      "departamento": "Caldas"
     },
     "pausado": false,
     "etapaManual": null
