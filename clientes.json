@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:59:31.466Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-08-14T20:59:56.460Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -145,6 +145,16 @@
         "rol": "bot",
         "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
         "fecha": "2026-08-14T20:59:30.640Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo funciona ?",
+        "fecha": "2026-08-14T20:59:55.640Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sin problema, cuando quieras confirmar solo responde Si, confirmo y despachamos tu pedido.",
+        "fecha": "2026-08-14T20:59:55.640Z"
       }
     ],
     "paso": "esperando_confirmacion_envio",
