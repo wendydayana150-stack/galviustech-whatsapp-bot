@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T17:59:20.175Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T17:59:41.651Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -220,6 +220,16 @@
         "rol": "bot",
         "texto": "¡Listo! Me encanta esa actitud 😄 Vamos a dejar tu pedido en marcha.\n\nPara no confundirme y mandarte el producto correcto, cuéntame: ¿estamos hablando del modem WiFi portátil o de la impresora térmica? Y si es el modem, ¿cuál de las versiones (4G, 4G/5G, 5G o el combo con smartwatch)?",
         "fecha": "2026-08-14T17:59:19.336Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Toca pagar de una",
+        "fecha": "2026-08-14T17:59:36.695Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale, vamos con toda! 🙌 Pero para no equivocarme en tu pedido necesito saber puntualmente qué vas a llevar:\n\n📶 **Modems WiFi portátil:**\n1. Modem 4G – $239.900\n2. Modem 4G/5G – $249.900\n3. Modem 5G – $269.900\n4. Combo Modem + Smartwatch – $309.900\n\n🖨️ Impresora Térmica Portátil – $289.900\n\n¿Cuál de estos es el que quieres pagar ahora mismo?",
+        "fecha": "2026-08-14T17:59:40.867Z"
       }
     ],
     "paso": "confirmar_producto",
