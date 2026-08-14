@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:57:43.850Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-14T20:57:57.253Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,15 +85,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-08-14T20:57:43.106Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3122906952",
+        "fecha": "2026-08-14T20:57:56.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-08-14T20:57:56.398Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573122906952",
-      "nombreCliente": "Cómo funciona ?"
+      "nombreCliente": "Cómo funciona ?",
+      "celular": "3122906952"
     },
     "pausado": false,
     "etapaManual": null
