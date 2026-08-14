@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T17:59:41.651Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-14T18:00:29.516Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -230,6 +230,31 @@
         "rol": "bot",
         "texto": "¡Dale, vamos con toda! 🙌 Pero para no equivocarme en tu pedido necesito saber puntualmente qué vas a llevar:\n\n📶 **Modems WiFi portátil:**\n1. Modem 4G – $239.900\n2. Modem 4G/5G – $249.900\n3. Modem 5G – $269.900\n4. Combo Modem + Smartwatch – $309.900\n\n🖨️ Impresora Térmica Portátil – $289.900\n\n¿Cuál de estos es el que quieres pagar ahora mismo?",
         "fecha": "2026-08-14T17:59:40.867Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "2",
+        "fecha": "2026-08-14T18:00:23.843Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Vamos con el **Modem WiFi Portátil 4G/5G** por $249.900 💪 Excelente elección, conecta hasta 10 dispositivos y te da muy buena cobertura donde la necesites.\n\nPara dejar tu pedido listo necesito estos datos, uno por uno:\n\n1️⃣ Nombre completo, por favor 😊",
+        "fecha": "2026-08-14T18:00:26.945Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Promo especial",
+        "fecha": "2026-08-14T18:00:27.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar el *Modem WiFi Portatil + Reloj Smartwatch* de regalo por solo $ 309.900.\n\nTe llevas el mismo modem que ya viste, mas un reloj inteligente de regalo, por muy poquito mas.\n\nTe animas a aprovechar la promocion?",
+        "fecha": "2026-08-14T18:00:27.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
+        "fecha": "2026-08-14T18:00:28.399Z"
       }
     ],
     "paso": "confirmar_producto",
