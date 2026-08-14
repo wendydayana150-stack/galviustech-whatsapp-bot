@@ -1142,8 +1142,8 @@
     "telefono": "573136433624",
     "nombre": "MAR",
     "primerContacto": "2026-08-14T05:13:32.600Z",
-    "ultimoContacto": "2026-08-14T12:27:25.858Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T12:27:30.666Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1244,6 +1244,16 @@
         "rol": "bot",
         "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
         "fecha": "2026-08-14T12:27:24.916Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-08-14T12:27:29.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T12:27:29.893Z"
       }
     ],
     "paso": "confirmar_producto",
