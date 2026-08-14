@@ -3,8 +3,8 @@
     "telefono": "573022287705",
     "nombre": "francisco19873",
     "primerContacto": "2026-08-14T05:04:15.679Z",
-    "ultimoContacto": "2026-08-14T05:04:38.271Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T05:05:39.764Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T05:04:37.443Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Información",
+        "fecha": "2026-08-14T05:05:38.688Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T05:05:38.862Z"
       }
     ],
     "paso": "confirmar_producto",
