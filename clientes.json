@@ -3,8 +3,8 @@
     "telefono": "573125428518",
     "nombre": "Carlos Campusano",
     "primerContacto": "2026-08-14T23:54:00.454Z",
-    "ultimoContacto": "2026-08-14T23:59:10.076Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-14T23:59:39.215Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "¡Ah, Puerto Rico, Caquetá! Por ahí manejamos muy bien la cobertura con nuestros módems, están hechos justo para dar buena señal en zonas como esa donde a veces el celular solo no alcanza 📶\n\nCuéntame:\n📶 ¿Con qué operador manejas ahí (Claro, Movistar, Tigo, WOM)?\n💻 ¿Y actualmente cómo te estás conectando a internet, usas datos del celular o no tienes ninguna conexión estable?\n\nAsí te recomiendo el módem que mejor te sirva 😊",
         "fecha": "2026-08-14T23:59:09.123Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mí operador es de tigo",
+        "fecha": "2026-08-14T23:59:35.139Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Tigo tiene buena cobertura por esa zona 👍\n\nY cuéntame, Carlos, ¿actualmente cómo te estás conectando? ¿Usas los datos de tu celular, buscas WiFi prestado, o simplemente no tienes internet estable por ahora?\n\nY algo importante: ¿para qué lo necesitarías principalmente? ¿Trabajo, estudio, negocio o para tener internet en casa/finca? 🏡",
+        "fecha": "2026-08-14T23:59:38.400Z"
       }
     ],
     "paso": "confirmar_producto",
