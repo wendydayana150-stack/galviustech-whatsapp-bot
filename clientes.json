@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:57:57.253Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-14T20:58:06.050Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -95,16 +95,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-08-14T20:57:56.398Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "César",
+        "fecha": "2026-08-14T20:58:05.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-08-14T20:58:05.259Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573122906952",
       "nombreCliente": "Cómo funciona ?",
-      "celular": "3122906952"
+      "celular": "3122906952",
+      "departamento": "César"
     },
     "pausado": false,
     "etapaManual": null
