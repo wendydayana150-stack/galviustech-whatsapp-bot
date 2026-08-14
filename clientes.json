@@ -3,8 +3,8 @@
     "telefono": "573226449157",
     "nombre": "quien",
     "primerContacto": "2026-08-14T13:25:10.047Z",
-    "ultimoContacto": "2026-08-14T13:25:32.644Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T13:28:41.625Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T13:25:31.717Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cm funciona eso",
+        "fecha": "2026-08-14T13:28:40.345Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T13:28:40.527Z"
       }
     ],
     "paso": "confirmar_producto",
