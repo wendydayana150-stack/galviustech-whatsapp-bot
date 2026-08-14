@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T18:03:27.177Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-08-14T18:04:03.724Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -335,22 +335,20 @@
         "rol": "bot",
         "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
         "fecha": "2026-08-14T18:03:26.270Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-08-14T18:04:02.082Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto! Tu pedido ha sido confirmado y pasara a despacho. Muchas gracias por confiar en GalviusTech.",
+        "fecha": "2026-08-14T18:04:02.082Z"
       }
     ],
-    "paso": "esperando_confirmacion_envio",
-    "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 249900,
-      "telefono": "573103082315",
-      "nombreCliente": "Jennifer paola gomez",
-      "celular": "3103082315",
-      "departamento": "Caldas",
-      "ciudad": "Santa rosal de cabal",
-      "direccion": "No es finca",
-      "barrio": "La esperamza",
-      "medioPago": "Contraentrega"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
