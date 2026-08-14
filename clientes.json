@@ -3,8 +3,8 @@
     "telefono": "573150479549",
     "nombre": "oni0576 nnnk",
     "primerContacto": "2026-08-14T05:54:52.515Z",
-    "ultimoContacto": "2026-08-14T05:54:52.515Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-14T05:55:01.797Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T05:54:51.866Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto cuesta",
+        "fecha": "2026-08-14T05:55:00.747Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T05:55:00.914Z"
       }
     ],
     "paso": "confirmar_producto",
