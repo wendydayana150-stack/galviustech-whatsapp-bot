@@ -3,8 +3,8 @@
     "telefono": "573156157249",
     "nombre": "Maria Pacheco",
     "primerContacto": "2026-08-14T23:06:30.385Z",
-    "ultimoContacto": "2026-08-14T23:06:30.385Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-14T23:07:18.610Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T23:06:29.614Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No sé q es",
+        "fecha": "2026-08-14T23:07:11.685Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Soy Michell, de GalviusTech.\n\nManejamos soluciones de conectividad e internet portátil para que tengas señal donde la necesites, sin depender de WiFi ajeno ni quedarte sin datos. También tenemos impresoras térmicas portátiles para quienes necesitan imprimir documentos, facturas o recibos sin ir a una papelería.\n\nPara orientarte mejor, cuéntame: ¿en qué ciudad o municipio estás, y qué necesitas resolver? ¿Es para internet en tu casa/finca/trabajo, o para poder imprimir algo mientras te mueves? 📶🖨️",
+        "fecha": "2026-08-14T23:07:17.709Z"
       }
     ],
     "paso": "confirmar_producto",
