@@ -251,8 +251,8 @@
     "telefono": "573223209114",
     "nombre": "John Lozada",
     "primerContacto": "2026-08-14T09:37:49.140Z",
-    "ultimoContacto": "2026-08-14T10:23:36.462Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-14T10:23:55.980Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -348,6 +348,16 @@
         "rol": "bot",
         "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
         "fecha": "2026-08-14T10:23:35.430Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No, gracias",
+        "fecha": "2026-08-14T10:23:54.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T10:23:55.005Z"
       }
     ],
     "paso": "confirmar_producto",
