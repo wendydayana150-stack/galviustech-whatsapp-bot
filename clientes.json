@@ -3,8 +3,8 @@
     "telefono": "573003147083",
     "nombre": "fernando27paerez",
     "primerContacto": "2026-08-14T03:53:08.651Z",
-    "ultimoContacto": "2026-08-14T03:53:08.651Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-14T03:53:19.874Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T03:53:07.979Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tine",
+        "fecha": "2026-08-14T03:53:18.711Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T03:53:18.989Z"
       }
     ],
     "paso": "confirmar_producto",
