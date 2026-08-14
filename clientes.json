@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:58:44.766Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-08-14T20:59:22.325Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -125,9 +125,19 @@
         "rol": "bot",
         "texto": "En que barrio queda esa direccion?",
         "fecha": "2026-08-14T20:58:43.928Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Urbanización los mayales",
+        "fecha": "2026-08-14T20:59:21.573Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-08-14T20:59:21.573Z"
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -137,7 +147,8 @@
       "celular": "3122906952",
       "departamento": "César",
       "ciudad": "Valledupar",
-      "direccion": "Mayales"
+      "direccion": "Mayales",
+      "barrio": "Urbanización los mayales"
     },
     "pausado": false,
     "etapaManual": null
