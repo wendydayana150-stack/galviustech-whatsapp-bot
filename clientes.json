@@ -3,8 +3,8 @@
     "telefono": "573122906952",
     "nombre": "A_P",
     "primerContacto": "2026-08-14T20:55:44.303Z",
-    "ultimoContacto": "2026-08-14T20:58:25.537Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-08-14T20:58:44.766Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -115,9 +115,19 @@
         "rol": "bot",
         "texto": "Cual es tu direccion completa?",
         "fecha": "2026-08-14T20:58:24.709Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mayales",
+        "fecha": "2026-08-14T20:58:43.928Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-08-14T20:58:43.928Z"
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -126,7 +136,8 @@
       "nombreCliente": "Cómo funciona ?",
       "celular": "3122906952",
       "departamento": "César",
-      "ciudad": "Valledupar"
+      "ciudad": "Valledupar",
+      "direccion": "Mayales"
     },
     "pausado": false,
     "etapaManual": null
