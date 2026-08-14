@@ -3,8 +3,8 @@
     "telefono": "573224088166",
     "nombre": "jorge piraban",
     "primerContacto": "2026-08-14T14:59:32.591Z",
-    "ultimoContacto": "2026-08-14T14:59:55.169Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-14T15:10:24.822Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T14:59:54.345Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sasaima",
+        "fecha": "2026-08-14T15:10:23.670Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-08-14T15:10:23.908Z"
       }
     ],
     "paso": "confirmar_producto",
