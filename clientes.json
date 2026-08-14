@@ -1,5 +1,60 @@
 [
   {
+    "telefono": "573115930770",
+    "nombre": "Elmar",
+    "primerContacto": "2026-08-14T10:00:43.691Z",
+    "ultimoContacto": "2026-08-14T10:00:43.691Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?con cual operador funciona",
+        "fecha": "2026-08-14T10:00:39.810Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-14T10:00:39.810Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-14T10:00:40.451Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-14T10:00:40.961Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-14T10:00:41.470Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-08-14T10:00:41.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Modem WiFi Portatil 4G/5G*\n$ 249.900\n\nModem con compatibilidad 4G y 5G, mayor velocidad de navegacion. Conecta hasta 10 dispositivos al mismo tiempo.",
+        "fecha": "2026-08-14T10:00:42.531Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-08-14T10:00:43.019Z"
+      }
+    ],
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "modem-4g5g"
+    },
+    "pausado": false,
+    "etapaManual": null
+  },
+  {
     "telefono": "573218675733",
     "nombre": "Donilso Vega",
     "primerContacto": "2026-08-14T09:51:24.730Z",
