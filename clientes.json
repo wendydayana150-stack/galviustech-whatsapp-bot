@@ -163,8 +163,8 @@
     "telefono": "573103082315",
     "nombre": "Jhon Fredy 🤪",
     "primerContacto": "2026-08-14T17:05:54.865Z",
-    "ultimoContacto": "2026-08-14T17:05:54.865Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-14T17:59:20.175Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -205,6 +205,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-14T17:05:54.316Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-14T17:45:57.484Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Toca pagar de una",
+        "fecha": "2026-08-14T17:59:13.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Me encanta esa actitud 😄 Vamos a dejar tu pedido en marcha.\n\nPara no confundirme y mandarte el producto correcto, cuéntame: ¿estamos hablando del modem WiFi portátil o de la impresora térmica? Y si es el modem, ¿cuál de las versiones (4G, 4G/5G, 5G o el combo con smartwatch)?",
+        "fecha": "2026-08-14T17:59:19.336Z"
       }
     ],
     "paso": "confirmar_producto",
