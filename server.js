@@ -713,24 +713,7 @@ async function manejarTextoLibre(telefono, texto) {
             return;
       }
 
-      if (sesion.historial.length === 0) {
-            const especifico = detectarProductoEspecifico(texto);
-            if (especifico) {
-                  await manejarSeleccionProducto(telefono, especifico);
-                  return;
-            }
-
-            const deteccion = detectarProductoPorPalabraClave(texto);
-            if (deteccion === "impresora") {
-                  await enviarInfoImpresora(telefono);
-                  return;
-            }
-            if (deteccion === "modem") {
-                  await enviarInfoModems(telefono);
-                  return;
-            }
-      }
-
+      
       try {
             const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto);
 
