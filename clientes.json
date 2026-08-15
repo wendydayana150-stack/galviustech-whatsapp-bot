@@ -3,8 +3,8 @@
     "telefono": "573176183929",
     "nombre": "Darwin Guerrero",
     "primerContacto": "2026-08-15T17:00:12.466Z",
-    "ultimoContacto": "2026-08-15T17:00:12.466Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T17:00:32.736Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T17:00:11.786Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en San Pablo sur de bolivar",
+        "fecha": "2026-08-15T17:00:26.801Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T17:00:31.384Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Qué bueno saber que estás en San Pablo! 😊\n\nCuéntame, ¿ahí en tu zona cómo estás actualmente con el internet? ¿Usas datos del celular, tratas de conectarte a algún WiFi prestado, o de plano no tienes ninguna conexión estable?\n\nY también cuéntame, ¿qué operador manejas ahí (Claro, Movistar, Tigo, WOM)? Esto me ayuda a orientarte mejor, porque en zonas como San Pablo, que es más rural, el modem funciona muchísimo mejor que un celular normal, ya que tiene una antena más potente que capta señal donde el celular solo no logra estabilizarse.\n\n¿Para qué lo necesitarías principalmente? ¿Es para trabajar, estudiar, un negocio, o para tener conexión en el hogar? 📶",
+        "fecha": "2026-08-15T17:00:31.947Z"
       }
     ],
     "paso": "confirmar_producto",
