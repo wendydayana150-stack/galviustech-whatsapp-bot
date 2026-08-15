@@ -3,8 +3,8 @@
     "telefono": "573117264398",
     "nombre": "Camilo Lara 👍🏾",
     "primerContacto": "2026-08-15T21:33:04.954Z",
-    "ultimoContacto": "2026-08-15T21:33:04.954Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T21:33:27.450Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T21:33:04.266Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T21:33:23.083Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que te interesa el módem 4G/5G 😊 Sí tenemos disponibilidad de ese modelo.\n\nAntes de confirmarte el envío, cuéntame: ¿desde qué ciudad o municipio me escribes y para qué lo necesitarías principalmente? ¿Es para tu casa, trabajo, estudio o quizás para una zona donde la señal no es tan buena?\n\nAsí te confirmo bien los tiempos de envío según tu ubicación y te oriento con el modelo que mejor te sirva.",
+        "fecha": "2026-08-15T21:33:26.613Z"
       }
     ],
     "paso": "confirmar_producto",
