@@ -3,8 +3,8 @@
     "telefono": "573176183929",
     "nombre": "Darwin Guerrero",
     "primerContacto": "2026-08-15T17:00:12.466Z",
-    "ultimoContacto": "2026-08-15T17:02:36.739Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-15T17:04:52.411Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Te entiendo, eso es bien común en zonas como San Pablo 😔 Pero mira, justo para esos casos es que el módem marca la diferencia.\n\nTe explico con honestidad: el módem no puede captar señal donde hay CERO señal de ningún operador (eso ningún equipo lo logra, ni el nuestro ni ningún otro). Pero su antena es mucho más potente que la de un celular, así que si a 300 metros de tu casa SÍ hay señal de Claro (aunque sea débil), el módem tiene muchas más probabilidades de captarla y estabilizarla que tu celular, que tiene una antena mucho más limitada.\n\nPara orientarte mejor, cuéntame:\n📍 Esos 300 metros donde hay señal, ¿es en algún punto alto, cerca de una carretera, o en un",
         "fecha": "2026-08-15T17:02:35.963Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es como cien metros arriva de la casa",
+        "fecha": "2026-08-15T17:04:41.409Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, eso ya es un poco más retador 😊 Te soy honesta: si la señal más cercana está a 100 metros de la casa, ningún equipo (ni el nuestro ni de otra marca) puede \"traer\" señal desde tan lejos como por arte de magia. Pero el módem sí tiene mucha mejor capacidad de captar y estabilizar esa señal débil que un celular normal, gracias a su antena.\n\nPor eso te pregunto: ¿en la casa hay algún punto alto, una ventana o un lugar más cercano a esos 100 metros donde la señal se sienta un poquito mejor, aunque sea leve en el celular? Muchas veces con ubicar el módem en ese punto específico (por ejemplo, en la parte más alta de la casa o cerca de esa dirección) se logra una mejora importante frente a lo que capta el celular.\n\n¿Me cuentas si hay algún lugar así cerca de la casa? Así te doy una recomendación bien honesta de qué esperar 📶",
+        "fecha": "2026-08-15T17:04:51.613Z"
       }
     ],
     "paso": "confirmar_producto",
