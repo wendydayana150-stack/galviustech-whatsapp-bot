@@ -841,6 +841,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
             <body>
             <h1>Panel - Galviustech</h1>
 			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a></p>
+			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 
             <h2>Clientes por etapa</h2>
             <div class="tablero">${columnas}</div>
@@ -859,7 +860,17 @@ app.get("/admin", requiereLogin, async (req, res) => {
             </tr>
             ${filasPedidos}
             </table>
-            </body>
+            <script>
+			function filtrarClientes() {
+			var q = document.getElementById("buscador").value.toLowerCase();
+			var tarjetas = document.getElementsByClassName("tarjeta");
+			for (var i = 0; i < tarjetas.length; i++) {
+			var texto = tarjetas[i].textContent.toLowerCase();
+			tarjetas[i].style.display = texto.indexOf(q) !== -1 ? "" : "none";
+			}
+			}
+			</script>
+			</body>
             </html>
             `);
       } catch (error) {
