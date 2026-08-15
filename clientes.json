@@ -3,8 +3,8 @@
     "telefono": "573207890813",
     "nombre": "Elkin",
     "primerContacto": "2026-08-15T21:08:17.942Z",
-    "ultimoContacto": "2026-08-15T21:08:17.942Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T21:08:40.976Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T21:08:17.330Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T21:08:36.458Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno tenerte por acá, soy Michell 😊\n\nSí, tenemos disponibilidad del módem 4G/5G, así que podemos gestionar tu pedido sin problema.\n\nAntes de confirmarte el envío, cuéntame: ¿desde qué ciudad o municipio me escribes y para qué lo necesitarías principalmente? ¿Es para tu casa, trabajo, estudio o quizás para llevarlo en tus viajes? Así te confirmo que sea la mejor opción para tu caso y coordinamos todo rapidito.",
+        "fecha": "2026-08-15T21:08:40.102Z"
       }
     ],
     "paso": "confirmar_producto",
