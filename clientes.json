@@ -3,8 +3,8 @@
     "telefono": "573176183929",
     "nombre": "Darwin Guerrero",
     "primerContacto": "2026-08-15T17:00:12.466Z",
-    "ultimoContacto": "2026-08-15T17:00:41.469Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-08-15T17:02:36.739Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,6 +75,16 @@
         "rol": "bot",
         "texto": "¡Claro que sí! Nuestro modem está diseñado justamente para eso: dar mejor cobertura que un celular normal en zonas como San Pablo, gracias a su antena de mayor potencia y alcance. Así que puedes estar tranquilo, no vas a depender de si el celular capta o no señal ahí.\n\nPara asegurarme de recomendarte el mejor modelo, cuéntame:\n📍 ¿Qué operador tienes disponible en tu zona (Claro, Movistar, Tigo, WOM)?\n💻 ¿Para qué lo usarías principalmente? ¿Trabajo, estudio, negocio, o conexión para la familia en casa?\n\nAsí te confirmo si te conviene más el 4G, el 4G/5G o el 5G. ¿Me cuentas? 😊",
         "fecha": "2026-08-15T17:00:40.829Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Manejo claro pero la señal llega 300 metros de la casa y es muy mala ningun operador tiene cobertura",
+        "fecha": "2026-08-15T17:02:24.388Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, eso es bien común en zonas como San Pablo 😔 Pero mira, justo para esos casos es que el módem marca la diferencia.\n\nTe explico con honestidad: el módem no puede captar señal donde hay CERO señal de ningún operador (eso ningún equipo lo logra, ni el nuestro ni ningún otro). Pero su antena es mucho más potente que la de un celular, así que si a 300 metros de tu casa SÍ hay señal de Claro (aunque sea débil), el módem tiene muchas más probabilidades de captarla y estabilizarla que tu celular, que tiene una antena mucho más limitada.\n\nPara orientarte mejor, cuéntame:\n📍 Esos 300 metros donde hay señal, ¿es en algún punto alto, cerca de una carretera, o en un",
+        "fecha": "2026-08-15T17:02:35.963Z"
       }
     ],
     "paso": "confirmar_producto",
