@@ -273,74 +273,37 @@
     "telefono": "573217922972",
     "nombre": "Dàńįél Pàléńçîą",
     "primerContacto": "2026-08-15T15:58:01.169Z",
-    "ultimoContacto": "2026-08-15T16:33:16.336Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-15T19:04:33.245Z",
+    "mensajes": 3,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
-        "fecha": "2026-08-15T15:57:56.942Z"
-      },
-      {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T15:57:56.942Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T15:57:57.610Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T15:57:58.184Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T15:57:58.855Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T15:57:59.397Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Modem WiFi Portatil 4G/5G*\n$ 249.900\n\nModem con compatibilidad 4G y 5G, mayor velocidad de navegacion. Conecta hasta 10 dispositivos al mismo tiempo.",
-        "fecha": "2026-08-15T15:57:59.928Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-08-15T15:58:00.485Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
-        "fecha": "2026-08-15T16:27:22.338Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T18:42:07.053Z"
       },
       {
         "rol": "bot",
         "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
-        "fecha": "2026-08-15T16:32:00.860Z"
+        "fecha": "2026-08-15T18:57:52.257Z"
       },
       {
         "rol": "cliente",
-        "texto": "Bueno gracias",
-        "fecha": "2026-08-15T16:33:10.585Z"
+        "texto": "No gracias",
+        "fecha": "2026-08-15T19:04:31.713Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Con mucho gusto! 😊 Cualquier duda que tengas sobre el modem o la impresora, aquí estoy para ayudarte.\n\nOye, antes de que te vayas, cuéntame: ¿ya tienes claro si lo que necesitas es internet para tu zona o para moverte, o era más por el tema de imprimir documentos? Así te dejo la info más precisa y vemos qué te conviene más 🙂",
-        "fecha": "2026-08-15T16:33:15.506Z"
+        "texto": "Hola Dàńįél Pàléńçîą! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-08-15T19:04:31.713Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
+        "fecha": "2026-08-15T19:04:32.342Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "modem-4g5g"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "reactivado": true
