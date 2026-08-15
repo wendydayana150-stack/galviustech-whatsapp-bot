@@ -2297,8 +2297,8 @@
     "telefono": "573156157249",
     "nombre": "Maria Pacheco",
     "primerContacto": "2026-08-14T23:06:30.385Z",
-    "ultimoContacto": "2026-08-15T16:42:35.539Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-08-15T16:43:35.670Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "bot",
@@ -2569,10 +2569,25 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
         "fecha": "2026-08-15T16:42:34.874Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, solo el modem",
+        "fecha": "2026-08-15T16:43:34.793Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-08-15T16:43:34.793Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 249900,
+      "telefono": "573156157249"
+    },
     "pausado": false,
     "etapaManual": null,
     "reactivado": true
