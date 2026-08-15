@@ -3,8 +3,8 @@
     "telefono": "573165264904",
     "nombre": "Marly",
     "primerContacto": "2026-08-15T12:13:16.739Z",
-    "ultimoContacto": "2026-08-15T12:13:16.739Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T12:13:39.751Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T12:13:16.055Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T12:13:35.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nSí, claro que manejamos disponibilidad del módem 4G/5G, es uno de los más pedidos justo por su versatilidad entre las dos tecnologías.\n\nAntes de confirmarte todo el tema de envío, cuéntame un poquito para orientarte mejor: ¿en qué ciudad o municipio estarías usándolo, y para qué lo necesitas principalmente (trabajo, estudio, hogar, negocio o viajes)?",
+        "fecha": "2026-08-15T12:13:38.848Z"
       }
     ],
     "paso": "confirmar_producto",
