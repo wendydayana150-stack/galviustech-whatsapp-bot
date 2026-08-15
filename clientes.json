@@ -2297,8 +2297,8 @@
     "telefono": "573156157249",
     "nombre": "Maria Pacheco",
     "primerContacto": "2026-08-14T23:06:30.385Z",
-    "ultimoContacto": "2026-08-15T16:44:08.939Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-08-15T16:44:18.132Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "bot",
@@ -2599,16 +2599,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-08-15T16:44:08.071Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sucre",
+        "fecha": "2026-08-15T16:44:17.299Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-08-15T16:44:17.299Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573156157249",
       "nombreCliente": "Maria Elba Pacheco Sanchez",
-      "celular": "3156157249"
+      "celular": "3156157249",
+      "departamento": "Sucre"
     },
     "pausado": false,
     "etapaManual": null,
