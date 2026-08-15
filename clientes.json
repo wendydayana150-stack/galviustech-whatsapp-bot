@@ -3,8 +3,8 @@
     "telefono": "573208234505",
     "nombre": "Orfilia Cerquera Andrade",
     "primerContacto": "2026-08-15T02:47:54.997Z",
-    "ultimoContacto": "2026-08-15T02:47:54.997Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T02:48:18.566Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T02:47:54.366Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T02:48:13.513Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nSí, claro que sí, en este momento tenemos disponibilidad del módem 4G/5G. Ese modelo es uno de los más pedidos porque se adapta tanto a zonas urbanas como rurales, con muy buena cobertura.\n\nAntes de confirmarte el envío, cuéntame un poquito:\n¿En qué ciudad o municipio lo estarías usando, y principalmente para qué lo necesitas (trabajo, estudio, negocio, viajes)? Así te confirmo que es la mejor opción para tu caso y te ayudo con el resto del proceso 📶",
+        "fecha": "2026-08-15T02:48:17.569Z"
       }
     ],
     "paso": "confirmar_producto",
