@@ -2297,8 +2297,8 @@
     "telefono": "573156157249",
     "nombre": "Maria Pacheco",
     "primerContacto": "2026-08-14T23:06:30.385Z",
-    "ultimoContacto": "2026-08-15T16:44:18.132Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-08-15T16:44:26.403Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "bot",
@@ -2609,9 +2609,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-08-15T16:44:17.299Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sincelejo",
+        "fecha": "2026-08-15T16:44:25.582Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-08-15T16:44:25.582Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -2619,7 +2629,8 @@
       "telefono": "573156157249",
       "nombreCliente": "Maria Elba Pacheco Sanchez",
       "celular": "3156157249",
-      "departamento": "Sucre"
+      "departamento": "Sucre",
+      "ciudad": "Sincelejo"
     },
     "pausado": false,
     "etapaManual": null,
