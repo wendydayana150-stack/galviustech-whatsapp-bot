@@ -840,6 +840,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
             </head>
             <body>
             <h1>Panel - Galviustech</h1>
+			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a></p>
 
             <h2>Clientes por etapa</h2>
             <div class="tablero">${columnas}</div>
@@ -1068,6 +1069,49 @@ app.post("/webhook", async (req, res) => {
             console.error("Error procesando mensaje:", error.response?.data || error.message);
             res.sendStatus(200);
       }
+});
+
+async function reactivarConversaciones() {
+	let reactivados = 0;
+	try {
+		const { datos, sha } = await leerJSON(CLIENTES_API);
+		const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+		const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
+		let cambios = false;
+		
+		for (const c of datos) {
+			if (c.pausado) continue;
+			if (telefonosConPedido.has(c.telefono)) continue;
+			if (c.reactivado) continue;
+			if (!c.conversacion || c.conversacion.length === 0) continue;
+			
+			try {
+				await enviarTexto(c.telefono, config.mensajeReactivacion);
+				c.reactivado = true;
+				cambios = true;
+				reactivados++;
+			} catch (errorEnvio) {
+				console.error(`Error reactivando a ${c.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
+			}
+		}
+		
+		if (cambios) {
+			await guardarJSON(CLIENTES_API, datos, sha, "Conversaciones reactivadas manualmente");
+		}
+	} catch (error) {
+		console.error("Error reactivando conversaciones:", error.response?.data || error.message);
+	}
+	return reactivados;
+}
+
+app.get("/admin/reactivar", requiereLogin, async (req, res) => {
+	try {
+		await reactivarConversaciones();
+		res.redirect("/admin");
+	} catch (error) {
+		console.error("Error en ruta de reactivacion:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error reactivando las conversaciones.");
+	}
 });
 
 app.get("/", (req, res) => {
