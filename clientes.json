@@ -3,8 +3,8 @@
     "telefono": "573104628406",
     "nombre": "Francisco",
     "primerContacto": "2026-08-15T20:54:21.675Z",
-    "ultimoContacto": "2026-08-15T20:54:42.446Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-15T20:55:11.555Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -65,11 +65,24 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Si, quiero el combo | No, solo el modem]",
         "fecha": "2026-08-15T20:54:41.516Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero el combo",
+        "fecha": "2026-08-15T20:55:10.634Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil + Reloj Smartwatch* ($ 309.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-08-15T20:55:10.634Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-smartwatch",
+      "nombreProducto": "Modem WiFi Portatil + Reloj Smartwatch",
+      "precio": 309900,
+      "telefono": "573104628406"
     },
     "pausado": false,
     "etapaManual": null
