@@ -930,64 +930,52 @@
     "telefono": "573147492949",
     "nombre": "ar negocio",
     "primerContacto": "2026-08-15T13:27:14.434Z",
-    "ultimoContacto": "2026-08-15T13:27:37.641Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-15T19:37:32.259Z",
+    "mensajes": 3,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
-        "fecha": "2026-08-15T13:27:09.404Z"
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T17:00:17.483Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T13:27:09.404Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T18:42:11.728Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T13:27:10.537Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T18:57:56.629Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T13:27:11.121Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T19:09:05.425Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T13:27:11.860Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Modem 4G/5G",
-        "fecha": "2026-08-15T13:27:12.479Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Modem WiFi Portatil 4G/5G*\n$ 249.900\n\nModem con compatibilidad 4G y 5G, mayor velocidad de navegacion. Conecta hasta 10 dispositivos al mismo tiempo.",
-        "fecha": "2026-08-15T13:27:13.028Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-08-15T13:27:13.643Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que está en promoción por solo $ 289.900. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n📲 Si deseas reservar la tuya, estoy aquí para ayudarte.",
+        "fecha": "2026-08-15T19:19:47.108Z"
       },
       {
         "rol": "cliente",
-        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
-        "fecha": "2026-08-15T13:27:32.319Z"
+        "texto": "No gracias",
+        "fecha": "2026-08-15T19:37:30.258Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nSí, claro que manejamos el Módem 4G/5G, y normalmente tenemos disponibilidad para procesar tu pedido rapidito. Eso sí, para confirmarte bien los tiempos de envío según tu zona, cuéntame: ¿en qué ciudad o municipio estarías recibiéndolo?\n\nY para asegurarme de recomendarte el equipo que mejor te sirva, ¿me cuentas para qué lo necesitarías principalmente? ¿Es para el hogar, trabajo, estudio o quizás para una zona rural o finca? 🙂",
-        "fecha": "2026-08-15T13:27:36.606Z"
+        "texto": "Hola ar negocio! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem de Internet portatil e Impresora Termica.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-08-15T19:37:30.258Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora]",
+        "fecha": "2026-08-15T19:37:31.441Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "modem-4g5g"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "reactivado": true
