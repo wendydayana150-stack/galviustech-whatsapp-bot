@@ -3,8 +3,8 @@
     "telefono": "573228246201",
     "nombre": "ropero ortega",
     "primerContacto": "2026-08-15T21:44:28.172Z",
-    "ultimoContacto": "2026-08-15T21:44:28.172Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-15T21:44:52.119Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-15T21:44:27.446Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-15T21:44:47.632Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué tal, soy Michell de GalviusTech 😊\n\nSí, tenemos disponibilidad del módem 4G/5G. Justo es uno de los que más rotan porque se adapta bien tanto a zonas con buena cobertura como a lugares donde la señal es más limitada.\n\nAntes de confirmarte el envío, cuéntame: ¿en qué ciudad o municipio estarías usándolo, y para qué lo necesitas principalmente? ¿Trabajo, estudio, negocio o para tener internet en casa?\n\nAsí te confirmo que es la mejor opción para tu caso y seguimos con todo listo 🙌",
+        "fecha": "2026-08-15T21:44:51.212Z"
       }
     ],
     "paso": "confirmar_producto",
