@@ -3,8 +3,8 @@
     "telefono": "573182274493",
     "nombre": "Mercedes Aguirre",
     "primerContacto": "2026-08-15T12:54:37.836Z",
-    "ultimoContacto": "2026-08-15T12:55:04.762Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-08-15T12:55:16.875Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -65,6 +65,21 @@
         "rol": "bot",
         "texto": "¡Guaviare, qué buena zona! 🌿 Por ahí seguramente hay lugares donde la señal no es la mejor, ¿cierto?\n\nCuéntame, ¿qué operador manejas ahí (Claro, Movistar, Tigo, WOM)? Y sobre todo, ¿me confirmas si estás en el casco urbano o en alguna vereda/finca? Eso me ayuda mucho para saber qué tan buena cobertura tienes ahora.\n\nY cuéntame también, ¿para qué necesitarías el internet? ¿Es para trabajo, estudio, el negocio, o para tener conexión en casa/finca? 📶",
         "fecha": "2026-08-15T12:55:03.789Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Retorno guaviare",
+        "fecha": "2026-08-15T12:55:11.094Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos dias",
+        "fecha": "2026-08-15T12:55:14.399Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah, El Retorno! Perfecto, ya ubicándome mejor 😊\n\nCuéntame, ¿me confirmas si estás en el pueblo o en alguna vereda/finca cerca de El Retorno? Y también, ¿qué operador te capta señal ahí, Claro, Movistar, Tigo?\n\nLo pregunto porque en esas zonas de Guaviare muchas veces el celular capta señal muy débil o nula, y justo nuestros modems están diseñados con antena de mayor potencia para captar mejor señal que un celular normal en zonas rurales.\n\n¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio, el negocio, o simplemente tener internet en casa/finca? 📶",
+        "fecha": "2026-08-15T12:55:16.008Z"
       }
     ],
     "paso": "confirmar_producto",
