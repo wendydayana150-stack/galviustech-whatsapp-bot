@@ -3,8 +3,8 @@
     "telefono": "573016683068",
     "nombre": "Luis Eduardo",
     "primerContacto": "2026-08-16T02:36:36.273Z",
-    "ultimoContacto": "2026-08-16T02:36:42.047Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-08-16T02:37:00.945Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -55,6 +55,21 @@
         "rol": "bot",
         "texto": "¡Hola! Buenas noches 😊 Que bueno tenerte por aquí, soy Michell de GalviusTech.\n\nCuéntame, ¿en qué te puedo ayudar hoy? ¿Estás buscando internet portátil para tu casa, trabajo o tal vez para una zona rural, o te interesa más una impresora térmica para tu negocio?",
         "fecha": "2026-08-16T02:36:41.248Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-08-16T02:36:54.564Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quisiera poder tener mas información",
+        "fecha": "2026-08-16T02:36:59.997Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Manejamos el Módem WiFi 4G/5G de forma regular, así que en cuanto confirmes tu pedido lo procesamos enseguida para que te llegue lo antes posible 🚀 (los tiempos exactos de entrega dependen de tu ciudad, pero te confirmamos apenas quede el pedido listo).\n\nPara asegurarme de que este es el modelo ideal para ti, cuéntame:\n📍 ¿En qué ciudad o municipio estarías usándolo?\n📱 ¿Con qué operador tienes pensado usarlo (Claro, Movistar, Tigo, WOM)?\n💻 ¿Es para trabajo, estudio, hogar o para una zona donde el internet normal no llega bien?",
+        "fecha": "2026-08-16T02:37:00.027Z"
       }
     ],
     "paso": "confirmar_producto",
