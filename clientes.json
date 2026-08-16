@@ -3,8 +3,8 @@
     "telefono": "573112779799",
     "nombre": "Elkin",
     "primerContacto": "2026-08-16T00:01:56.486Z",
-    "ultimoContacto": "2026-08-16T00:04:46.514Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-08-16T00:05:03.903Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "¡Excelente uso! La domótica necesita una conexión estable las 24 horas para que tus cámaras, cerraduras y luces funcionen sin cortes, así que vamos por buen camino 📹🔒💡\n\nPara recomendarte el módem ideal, cuéntame:\n\n1️⃣ ¿En qué ciudad o municipio está la casa?\n2️⃣ ¿Hoy en día ya tienes algún internet ahí (fibra, datos, etc.) o sería la primera conexión?\n3️⃣ ¿Cuántos dispositivos conectarías en total? (cámaras, cerraduras, luces, más tu celular y otros equipos)\n\nEsto es clave porque si vas a tener varias cámaras funcionando todo el día, te conviene un módem con buena capacidad simultánea de conexión para que no se te caiga el sistema justo cuando más lo necesitas. ¿Me cuentas esos datos?",
         "fecha": "2026-08-16T00:04:45.478Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy en el municipio de Girón vereda del filo de los amores",
+        "fecha": "2026-08-16T00:04:55.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, gracias por contarme! Girón, vereda El Filo de los Amores 📍\n\nTe cuento con seguridad: nuestro módem está hecho justo para zonas como esa, donde el celular capta señal débil. Gracias a su antena de mayor potencia, logra aprovechar mejor la señal disponible y darte una conexión más estable que la de un celular normal, ideal para que tu sistema de domótica (cámaras, cerraduras, luces) funcione sin cortes.\n\nAhora, para no dejarte con dudas: imagínate poder revisar tus cámaras desde el celular, abrir la cerradura remotamente o prender las luces, todo sin que se te caiga la conexión justo cuando más lo necesitas (por ejemplo si sales de viaje). Eso es justo lo que buscamos evitar con una buena señal en tu casa.\n\nPara recomendarte el modelo exacto, cuéntame:\n1️⃣ ¿Hoy en día ya tienes algún tipo de internet ahí, o sería la primera conexión?\n2️⃣ ¿Qué operador tiene mejor señal en tu zona? (Claro, Movistar, Tigo, WOM)\n3️⃣ ¿Cuántos dispositivos en total conectarías? (cámaras, cerraduras, luces, celulares, etc.)",
+        "fecha": "2026-08-16T00:05:03.032Z"
       }
     ],
     "paso": "confirmar_producto",
