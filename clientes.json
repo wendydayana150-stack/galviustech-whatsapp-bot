@@ -3,8 +3,8 @@
     "telefono": "573028479482",
     "nombre": "",
     "primerContacto": "2026-08-16T00:29:28.138Z",
-    "ultimoContacto": "2026-08-16T00:29:28.138Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-16T00:31:17.352Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-16T00:29:27.252Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-08-16T00:31:16.490Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-08-16T00:31:16.490Z"
       }
     ],
     "paso": "confirmar_producto",
