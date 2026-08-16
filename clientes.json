@@ -3,8 +3,8 @@
     "telefono": "573012283326",
     "nombre": "Alex Mejia",
     "primerContacto": "2026-08-16T02:42:00.712Z",
-    "ultimoContacto": "2026-08-16T02:42:00.712Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-08-16T02:45:25.120Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-08-16T02:41:59.995Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero información",
+        "fecha": "2026-08-16T02:45:20.818Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento todo lo que necesites. Para poder recomendarte lo mejor, cuéntame:\n\n📍 ¿En qué ciudad o municipio estás?\n📱 ¿Qué operador manejas (Claro, Movistar, Tigo, WOM, ETB)?\n🎯 ¿Lo que necesitas es internet portátil (módem WiFi) o una impresora térmica para tu negocio?\n\nCuéntame un poco más para orientarte bien, ¿cómo lo usarías principalmente?",
+        "fecha": "2026-08-16T02:45:24.165Z"
       }
     ],
     "paso": "confirmar_producto",
