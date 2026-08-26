@@ -423,6 +423,23 @@ function calcularEtapa(cliente, telefonosConPedido) {
       return "Contacto inicial";
 }
 
+function filtrarClientesPorFecha(clientes, filtro) {
+	if (!filtro || filtro === "todos") return clientes;
+	const ahora = new Date();
+	const inicioHoy = new Date(ahora.getFullYear(), ahora.getMonth(), ahora.getDate());
+	const inicioAyer = new Date(inicioHoy);
+	inicioAyer.setDate(inicioAyer.getDate() - 1);
+	const hace7dias = new Date(ahora.getTime() - 7 * 24 * 60 * 60 * 1000);
+	return clientes.filter((c) => {
+		if (!c.ultimoContacto) return false;
+		const fecha = new Date(c.ultimoContacto);
+		if (filtro === "hoy") return fecha >= inicioHoy;
+		if (filtro === "ayer") return fecha >= inicioAyer && fecha < inicioHoy;
+		if (filtro === "7dias") return fecha >= hace7dias;
+		return true;
+	});
+}
+
 let ultimaLimpieza = 0;
 
 async function limpiarClientesAntiguos() {
@@ -759,13 +776,15 @@ app.get("/admin", requiereLogin, async (req, res) => {
       try {
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const { datos: clientes } = await leerJSON(CLIENTES_API);
+		  const filtroActivo = req.query.filtro || "todos";
+		  const clientesFiltrados = filtrarClientesPorFecha(clientes, filtroActivo);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
 
             const grupos = {};
             ETAPAS.forEach((e) => {
                   grupos[e.id] = [];
             });
-            clientes.forEach((c) => {
+            clientesFiltrados.forEach((c) => {
                   const etapa = calcularEtapa(c, telefonosConPedido);
                   if (!grupos[etapa]) grupos[etapa] = [];
                   grupos[etapa].push(c);
@@ -842,6 +861,12 @@ app.get("/admin", requiereLogin, async (req, res) => {
             <h1>Panel - Galviustech</h1>
 			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a></p>
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
+			<div style="margin-bottom:15px;">
+			<a href="/admin?filtro=hoy" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
+			<a href="/admin?filtro=ayer" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "ayer" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ayer</a>
+			<a href="/admin?filtro=7dias" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "7dias" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ultimos 7 dias</a>
+			<a href="/admin?filtro=todos" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "todos" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Todos</a>
+			</div>
 
             <h2>Clientes por etapa</h2>
             <div class="tablero">${columnas}</div>
