@@ -796,9 +796,12 @@ app.get("/admin", requiereLogin, async (req, res) => {
                   .map(
                         (c) => `
                         <div class="tarjeta">
+						<input type="checkbox" class="check-eliminar" value="${c.telefono}" style="float:right;">
+						
                         <div class="tarjeta-nombre">${c.nombre || "(sin nombre)"}</div>
                         <div class="tarjeta-tel">${c.telefono}</div>
                         <a href="/admin/chat/${encodeURIComponent(c.telefono)}">Ver / Escribir</a>
+						<a href="/admin/eliminar/${encodeURIComponent(c.telefono)}" onclick="return confirm('Eliminar a ${(c.nombre || c.telefono).replace(/'/g, "")}? Esta accion no se puede deshacer.');" style="color:#c0392b;">Eliminar</a>
                         <form method="POST" action="/admin/etapa/${encodeURIComponent(c.telefono)}">
                         <select name="etapa" onchange="this.form.submit()">
                         <option value="auto" ${!c.etapaManual ? "selected" : ""}>Automatico</option>
@@ -866,6 +869,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			<a href="/admin?filtro=ayer" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "ayer" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ayer</a>
 			<a href="/admin?filtro=7dias" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "7dias" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ultimos 7 dias</a>
 			<a href="/admin?filtro=todos" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "todos" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Todos</a>
+			<button type="button" onclick="eliminarSeleccionados()" style="margin-left:12px;padding:6px 12px;border-radius:6px;font-size:13px;background:#c0392b;color:white;border:none;cursor:pointer;">Eliminar seleccionados</button>
 			</div>
 
             <h2>Clientes por etapa</h2>
@@ -893,6 +897,28 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			var texto = tarjetas[i].textContent.toLowerCase();
 			tarjetas[i].style.display = texto.indexOf(q) !== -1 ? "" : "none";
 			}
+			}
+			function eliminarSeleccionados() {
+			var checks = document.querySelectorAll(".check-eliminar:checked");
+			if (checks.length === 0) {
+			alert("Selecciona al menos un cliente");
+			return;
+			}
+			if (!confirm("Seguro que quieres eliminar " + checks.length + " cliente(s)? Esta accion no se puede deshacer.")) {
+			return;
+			}
+			var form = document.createElement("form");
+			form.method = "POST";
+			form.action = "/admin/eliminar-varios";
+			for (var i = 0; i < checks.length; i++) {
+			var input = document.createElement("input");
+			input.type = "hidden";
+			input.name = "telefonos";
+			input.value = checks[i].value;
+			form.appendChild(input);
+			}
+			document.body.appendChild(form);
+			form.submit();
 			}
 			</script>
 			</body>
@@ -1147,6 +1173,39 @@ app.get("/admin/reactivar", requiereLogin, async (req, res) => {
 	} catch (error) {
 		console.error("Error en ruta de reactivacion:", error.response?.data || error.message);
 		res.status(500).send("Hubo un error reactivando las conversaciones.");
+	}
+});
+
+app.get("/admin/eliminar/:telefono", requiereLogin, async (req, res) => {
+	try {
+		const { datos, sha } = await leerJSON(CLIENTES_API);
+		const datosFiltrados = datos.filter((c) => c.telefono !== req.params.telefono);
+		if (datosFiltrados.length !== datos.length) {
+			delete sesiones[req.params.telefono];
+			await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Cliente eliminado manualmente");
+		}
+		res.redirect("/admin");
+	} catch (error) {
+		console.error("Error eliminando cliente:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error eliminando el cliente.");
+	}
+});
+
+app.post("/admin/eliminar-varios", requiereLogin, async (req, res) => {
+	try {
+		let telefonos = req.body.telefonos || [];
+		if (!Array.isArray(telefonos)) telefonos = [telefonos];
+		const telefonosSet = new Set(telefonos);
+		const { datos, sha } = await leerJSON(CLIENTES_API);
+		const datosFiltrados = datos.filter((c) => !telefonosSet.has(c.telefono));
+		if (datosFiltrados.length !== datos.length) {
+			for (const telefono of telefonosSet) delete sesiones[telefono];
+			await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Clientes eliminados manualmente en lote");
+		}
+		res.redirect("/admin");
+	} catch (error) {
+		console.error("Error eliminando clientes en lote:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error eliminando los clientes.");
 	}
 });
 
