@@ -42,7 +42,8 @@
       "productoId": "impresora-termica"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573112663741",
@@ -97,7 +98,8 @@
       "productoId": "impresora-termica"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573226609764",
@@ -152,7 +154,8 @@
       "productoId": "impresora-termica"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573144167070",
@@ -260,7 +263,9 @@
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573132333801",
@@ -316,7 +321,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573137281747",
@@ -372,7 +379,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573114105527",
@@ -428,7 +437,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573175357779",
@@ -1070,7 +1081,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -1148,7 +1160,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -1196,7 +1209,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
