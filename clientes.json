@@ -3,8 +3,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:50:41.408Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-04T21:51:03.721Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,10 +130,25 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con reloj de regalo | Con camara de regalo | No, gracias]",
         "fecha": "2026-09-04T21:50:38.575Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con camara de regalo",
+        "fecha": "2026-09-04T21:51:02.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Camara de seguridad* ($ 289.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-04T21:51:02.898Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "combo-modem-wifi-camara-de-seguridad",
+      "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
+      "precio": 289900,
+      "telefono": "573137265996"
+    },
     "pausado": false,
     "etapaManual": null
   },
