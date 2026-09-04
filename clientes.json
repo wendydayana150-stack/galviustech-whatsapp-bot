@@ -182,8 +182,8 @@
     "telefono": "573018347000",
     "nombre": "luiyi",
     "primerContacto": "2026-09-04T12:19:24.903Z",
-    "ultimoContacto": "2026-09-04T12:19:24.903Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T13:43:28.685Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -214,6 +214,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T12:19:24.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-04T13:00:11.664Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-04T13:43:20.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí, sin ningún problema! 😊 Respeto tu decisión.\n\nCuéntame, ¿hay algo puntual que te generó duda? A veces es el precio, otras veces no se sabe bien si el producto se ajusta a lo que se necesita. Si me cuentas qué buscabas (internet en alguna zona, imprimir documentos, iluminación para tu casa o negocio), con gusto te ayudo a ver qué opción te conviene más.\n\n¿Me cuentas un poco qué necesitabas resolver?",
+        "fecha": "2026-09-04T13:43:27.498Z"
       }
     ],
     "paso": "confirmar_producto",
