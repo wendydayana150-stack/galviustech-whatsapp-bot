@@ -3,8 +3,8 @@
     "telefono": "573112839150",
     "nombre": "DIANA YALENI SIERRA VELAS",
     "primerContacto": "2026-09-04T14:37:14.279Z",
-    "ultimoContacto": "2026-09-04T14:37:14.279Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T14:40:21.090Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T14:37:13.580Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y las hojas son fáciles de conseguir",
+        "fecha": "2026-09-04T14:40:14.539Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-04T14:40:20.154Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-04T14:40:20.155Z"
       }
     ],
     "paso": "confirmar_producto",
