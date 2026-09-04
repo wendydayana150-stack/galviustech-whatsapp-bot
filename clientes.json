@@ -51,8 +51,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:52:01.127Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-04T21:52:14.684Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -218,9 +218,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-04T21:52:00.405Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio unión panamericana las animas",
+        "fecha": "2026-09-04T21:52:13.960Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-04T21:52:13.960Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -228,7 +238,8 @@
       "telefono": "573137265996",
       "nombreCliente": "Jhoan Aparicio pineda",
       "celular": "3004656904",
-      "departamento": "Departamento del choco"
+      "departamento": "Departamento del choco",
+      "ciudad": "Municipio unión panamericana las animas"
     },
     "pausado": false,
     "etapaManual": null
