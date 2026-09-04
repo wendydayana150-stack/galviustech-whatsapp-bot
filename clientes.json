@@ -199,8 +199,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:55:27.879Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-09-04T21:55:56.669Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -466,6 +466,16 @@
         "rol": "bot",
         "texto": "¡Listo! ¿Me confirmas la dirección exacta de esas oficinas de Interrapidísimo (calle o carrera, número) y el barrio donde quedan, para que el envío llegue sin problema? 📦",
         "fecha": "2026-09-04T21:55:27.041Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle central",
+        "fecha": "2026-09-04T21:55:50.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, calle central en las oficinas de Interrapidísimo 📦\n\n¿Y el barrio o vereda donde quedan esas oficinas, para completar la dirección?",
+        "fecha": "2026-09-04T21:55:51.955Z"
       }
     ],
     "paso": "conversando",
