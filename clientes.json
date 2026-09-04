@@ -3,8 +3,8 @@
     "telefono": "573007037498",
     "nombre": "Marcela Sandoval",
     "primerContacto": "2026-09-04T22:17:33.521Z",
-    "ultimoContacto": "2026-09-04T22:19:12.617Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-04T22:19:21.051Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -90,16 +90,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-09-04T22:19:11.257Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soacha",
+        "fecha": "2026-09-04T22:19:20.187Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-04T22:19:20.187Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573007037498",
       "nombreCliente": "Olga Marcela Sandoval Suárez",
-      "celular": "3007037498"
+      "celular": "3007037498",
+      "departamento": "Soacha"
     },
     "pausado": false,
     "etapaManual": null
