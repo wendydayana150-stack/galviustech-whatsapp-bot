@@ -103,8 +103,8 @@
     "telefono": "573132123643",
     "nombre": "D",
     "primerContacto": "2026-09-04T16:53:29.598Z",
-    "ultimoContacto": "2026-09-04T16:53:29.598Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T17:01:49.207Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,6 +140,16 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-09-04T16:53:28.975Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-09-04T17:01:42.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah, listo! Vivir en vereda es justo para lo que están hechos nuestros módems 🙌 Tienen mejor cobertura que un celular normal, porque cuentan con una antena más potente pensada exactamente para captar señal en zonas rurales donde la señal normal no es tan buena.\n\nCuéntame, ¿en qué municipio o vereda estás ubicado? Así te confirmo mejor la cobertura de la zona.\n\nY algo importante: ¿para qué lo necesitarías principalmente? ¿Trabajo, estudio, negocio, o para tener internet en el hogar? 📶",
+        "fecha": "2026-09-04T17:01:48.314Z"
       }
     ],
     "paso": "conversando",
