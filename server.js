@@ -28,6 +28,7 @@ const ANTHROPIC_URL = "https://api.anthropic.com/v1/messages";
 const ANTHROPIC_MODEL = "claude-sonnet-5";
 const PEDIDOS_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/pedidos.json`;
 const CLIENTES_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/clientes.json`;
+const CATALOGO_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/catalog.json`;
 
 const ETAPAS = [
       { id: "Contacto inicial", emoji: "🔵" },
@@ -337,6 +338,39 @@ async function guardarJSON(url, datos, sha, mensaje) {
             },
             { headers: { Authorization: `token ${GITHUB_TOKEN}` } }
             );
+}
+
+function actualizarCatalogoEnMemoria(nuevoCatalogo) {
+      catalogo.length = 0;
+      catalogo.push(...nuevoCatalogo);
+}
+
+function generarIdProducto(nombre, existentes) {
+      const base = String(nombre || "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .replace(/[^a-z0-9]+/g, "-")
+            .replace(/(^-+|-+$)/g, "") || "producto";
+      let id = base;
+      let contador = 2;
+      while (existentes.includes(id)) {
+            id = `${base}-${contador}`;
+            contador++;
+      }
+      return id;
+}
+
+function parsearPrecio(valor) {
+      const limpio = String(valor || "").replace(/[^0-9]/g, "");
+      return limpio ? parseInt(limpio, 10) : 0;
+}
+
+function parsearLineas(texto) {
+      return String(texto || "")
+            .split("\n")
+            .map((linea) => linea.trim())
+            .filter(Boolean);
 }
 
 async function guardarPedido(pedido) {
@@ -862,7 +896,8 @@ app.get("/admin", requiereLogin, async (req, res) => {
             </head>
             <body>
             <h1>Panel - Galviustech</h1>
-			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a></p>
+			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a>
+			<a href="/admin/productos" style="display:inline-block;background:#0a6ed1;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Productos y precios</a></p>
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 			<div style="margin-bottom:15px;">
 			<a href="/admin?filtro=hoy" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
@@ -1206,6 +1241,233 @@ app.post("/admin/eliminar-varios", requiereLogin, async (req, res) => {
 	} catch (error) {
 		console.error("Error eliminando clientes en lote:", error.response?.data || error.message);
 		res.status(500).send("Hubo un error eliminando los clientes.");
+	}
+});
+
+function estiloPaginaProductos(titulo) {
+	return `
+	<!DOCTYPE html>
+	<html lang="es">
+	<head>
+	<meta charset="UTF-8">
+	<title>${titulo} - Galviustech</title>
+	<style>
+	body { font-family: Arial, sans-serif; margin: 30px; background: #f7f7f7; }
+	h1 { color: #222; }
+	a { color: #0a6ed1; }
+	table { border-collapse: collapse; width: 100%; background: white; margin-top: 15px; }
+	th, td { border: 1px solid #ddd; padding: 10px; text-align: left; font-size: 14px; vertical-align: top; }
+	th { background: #222; color: white; }
+	tr:nth-child(even) { background: #f2f2f2; }
+	.boton { display: inline-block; background: #25D366; color: white; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; border: none; cursor: pointer; }
+	.boton-secundario { display: inline-block; background: #eee; color: #222; padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 14px; }
+	.form-campo { margin-bottom: 14px; max-width: 600px; }
+	.form-campo label { display: block; font-weight: bold; margin-bottom: 4px; font-size: 14px; }
+	.form-campo input, .form-campo textarea { width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; box-sizing: border-box; }
+	.form-campo textarea { min-height: 80px; font-family: Arial, sans-serif; }
+	.ayuda { color: #666; font-size: 12px; margin-top: 4px; }
+	.acciones a, .acciones button { margin-right: 10px; }
+	</style>
+	</head>
+	<body>`;
+}
+
+app.get("/admin/productos", requiereLogin, async (req, res) => {
+	try {
+		const { datos: productos } = await leerJSON(CATALOGO_API);
+		const filas = productos
+			.map(
+				(p) => `
+				<tr>
+				<td>${p.nombre || ""}${p.nombreCorto ? `<br><span style="color:#666;font-size:12px;">${p.nombreCorto}</span>` : ""}</td>
+				<td>${formatearPrecio(p.precio || 0)}</td>
+				<td>${p.color || ""}</td>
+				<td>${(p.imagenes || []).length} imagen(es)${p.video ? " + video" : ""}</td>
+				<td class="acciones">
+				<a href="/admin/productos/${encodeURIComponent(p.id)}/editar">Editar</a>
+				<a href="/admin/productos/${encodeURIComponent(p.id)}/eliminar" onclick="return confirm('Eliminar el producto \\'${(p.nombre || p.id).replace(/'/g, "")}\\'? Esta accion no se puede deshacer.');" style="color:#c0392b;">Eliminar</a>
+				</td>
+				</tr>`
+			)
+			.join("");
+
+		res.send(`
+		${estiloPaginaProductos("Productos y precios")}
+		<p><a href="/admin">&larr; Volver al panel</a></p>
+		<h1>Productos y precios</h1>
+		<p><a href="/admin/productos/nuevo" class="boton">+ Agregar producto</a></p>
+		<table>
+		<tr>
+		<th>Producto</th>
+		<th>Precio</th>
+		<th>Color</th>
+		<th>Multimedia</th>
+		<th>Acciones</th>
+		</tr>
+		${filas || "<tr><td colspan=\"5\">Todavia no hay productos en el catalogo.</td></tr>"}
+		</table>
+		</body>
+		</html>
+		`);
+	} catch (error) {
+		console.error("Error mostrando productos:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error cargando los productos.");
+	}
+});
+
+function formularioProducto(producto, accion, tituloBoton) {
+	const p = producto || {};
+	return `
+	<div class="form-campo">
+	<label>Nombre completo</label>
+	<input type="text" name="nombre" value="${(p.nombre || "").replace(/"/g, "&quot;")}" required>
+	</div>
+	<div class="form-campo">
+	<label>Nombre corto (como se muestra en botones/lista)</label>
+	<input type="text" name="nombreCorto" value="${(p.nombreCorto || "").replace(/"/g, "&quot;")}">
+	</div>
+	<div class="form-campo">
+	<label>Precio (COP)</label>
+	<input type="text" name="precio" value="${p.precio || ""}" placeholder="Ej: 239900" required>
+	<div class="ayuda">Escribe solo numeros, sin puntos ni simbolo de pesos.</div>
+	</div>
+	<div class="form-campo">
+	<label>Color</label>
+	<input type="text" name="color" value="${(p.color || "").replace(/"/g, "&quot;")}">
+	</div>
+	<div class="form-campo">
+	<label>Descripcion</label>
+	<textarea name="descripcion">${(p.descripcion || "").replace(/</g, "&lt;")}</textarea>
+	</div>
+	<div class="form-campo">
+	<label>Imagenes (una URL por linea)</label>
+	<textarea name="imagenes">${(p.imagenes || []).join("\n")}</textarea>
+	<div class="ayuda">Deben ser links directos a imagenes ya subidas (por ejemplo a GitHub). Este formulario no sube archivos.</div>
+	</div>
+	<div class="form-campo">
+	<label>Video (URL, opcional)</label>
+	<input type="text" name="video" value="${(p.video || "").replace(/"/g, "&quot;")}">
+	</div>
+	<button type="submit" class="boton">${tituloBoton}</button>
+	<a href="/admin/productos" class="boton-secundario">Cancelar</a>
+	`;
+}
+
+app.get("/admin/productos/nuevo", requiereLogin, async (req, res) => {
+	res.send(`
+	${estiloPaginaProductos("Nuevo producto")}
+	<p><a href="/admin/productos">&larr; Volver a productos</a></p>
+	<h1>Agregar producto</h1>
+	<form method="POST" action="/admin/productos/nuevo">
+	${formularioProducto(null, "/admin/productos/nuevo", "Guardar producto")}
+	</form>
+	</body>
+	</html>
+	`);
+});
+
+app.post("/admin/productos/nuevo", requiereLogin, async (req, res) => {
+	try {
+		const { datos, sha } = await leerJSON(CATALOGO_API);
+		const nombre = (req.body.nombre || "").trim();
+		if (!nombre) {
+			return res.status(400).send("El nombre del producto es obligatorio.");
+		}
+		const nuevoProducto = {
+			id: generarIdProducto(nombre, datos.map((p) => p.id)),
+			nombre,
+			nombreCorto: (req.body.nombreCorto || "").trim() || nombre,
+			precio: parsearPrecio(req.body.precio),
+			color: (req.body.color || "").trim(),
+			descripcion: (req.body.descripcion || "").trim(),
+			imagenes: parsearLineas(req.body.imagenes),
+		};
+		const video = (req.body.video || "").trim();
+		if (video) nuevoProducto.video = video;
+
+		const nuevoCatalogo = [...datos, nuevoProducto];
+		await guardarJSON(CATALOGO_API, nuevoCatalogo, sha, `Producto agregado: ${nombre}`);
+		actualizarCatalogoEnMemoria(nuevoCatalogo);
+		res.redirect("/admin/productos");
+	} catch (error) {
+		console.error("Error agregando producto:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error guardando el producto.");
+	}
+});
+
+app.get("/admin/productos/:id/editar", requiereLogin, async (req, res) => {
+	try {
+		const { datos } = await leerJSON(CATALOGO_API);
+		const producto = datos.find((p) => p.id === req.params.id);
+		if (!producto) {
+			return res.status(404).send("Producto no encontrado.");
+		}
+		res.send(`
+		${estiloPaginaProductos("Editar producto")}
+		<p><a href="/admin/productos">&larr; Volver a productos</a></p>
+		<h1>Editar producto</h1>
+		<form method="POST" action="/admin/productos/${encodeURIComponent(producto.id)}/editar">
+		${formularioProducto(producto, `/admin/productos/${encodeURIComponent(producto.id)}/editar`, "Guardar cambios")}
+		</form>
+		</body>
+		</html>
+		`);
+	} catch (error) {
+		console.error("Error mostrando formulario de edicion:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error cargando el producto.");
+	}
+});
+
+app.post("/admin/productos/:id/editar", requiereLogin, async (req, res) => {
+	try {
+		const { datos, sha } = await leerJSON(CATALOGO_API);
+		const indice = datos.findIndex((p) => p.id === req.params.id);
+		if (indice === -1) {
+			return res.status(404).send("Producto no encontrado.");
+		}
+		const nombre = (req.body.nombre || "").trim();
+		if (!nombre) {
+			return res.status(400).send("El nombre del producto es obligatorio.");
+		}
+		const productoActualizado = {
+			...datos[indice],
+			nombre,
+			nombreCorto: (req.body.nombreCorto || "").trim() || nombre,
+			precio: parsearPrecio(req.body.precio),
+			color: (req.body.color || "").trim(),
+			descripcion: (req.body.descripcion || "").trim(),
+			imagenes: parsearLineas(req.body.imagenes),
+		};
+		const video = (req.body.video || "").trim();
+		if (video) {
+			productoActualizado.video = video;
+		} else {
+			delete productoActualizado.video;
+		}
+
+		const nuevoCatalogo = [...datos];
+		nuevoCatalogo[indice] = productoActualizado;
+		await guardarJSON(CATALOGO_API, nuevoCatalogo, sha, `Producto actualizado: ${nombre}`);
+		actualizarCatalogoEnMemoria(nuevoCatalogo);
+		res.redirect("/admin/productos");
+	} catch (error) {
+		console.error("Error actualizando producto:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error guardando los cambios.");
+	}
+});
+
+app.get("/admin/productos/:id/eliminar", requiereLogin, async (req, res) => {
+	try {
+		const { datos, sha } = await leerJSON(CATALOGO_API);
+		const nuevoCatalogo = datos.filter((p) => p.id !== req.params.id);
+		if (nuevoCatalogo.length !== datos.length) {
+			await guardarJSON(CATALOGO_API, nuevoCatalogo, sha, `Producto eliminado: ${req.params.id}`);
+			actualizarCatalogoEnMemoria(nuevoCatalogo);
+		}
+		res.redirect("/admin/productos");
+	} catch (error) {
+		console.error("Error eliminando producto:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error eliminando el producto.");
 	}
 });
 
