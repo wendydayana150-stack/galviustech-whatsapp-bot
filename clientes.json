@@ -61,8 +61,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:52:40.645Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-04T21:53:16.576Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -248,9 +248,19 @@
         "rol": "bot",
         "texto": "En que barrio queda esa direccion?",
         "fecha": "2026-09-04T21:52:39.919Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso queda por la carretera hacia el municipio de tado",
+        "fecha": "2026-09-04T21:53:15.658Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-04T21:53:15.658Z"
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -260,7 +270,8 @@
       "celular": "3004656904",
       "departamento": "Departamento del choco",
       "ciudad": "Municipio unión panamericana las animas",
-      "direccion": "Vivo en una zona rural"
+      "direccion": "Vivo en una zona rural",
+      "barrio": "Eso queda por la carretera hacia el municipio de tado"
     },
     "pausado": false,
     "etapaManual": null
