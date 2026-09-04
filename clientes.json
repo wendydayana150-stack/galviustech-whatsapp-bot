@@ -51,8 +51,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:51:23.298Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-04T21:51:51.540Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,15 +198,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-04T21:51:22.522Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3004656904",
+        "fecha": "2026-09-04T21:51:50.882Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-04T21:51:50.882Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573137265996",
-      "nombreCliente": "Jhoan Aparicio pineda"
+      "nombreCliente": "Jhoan Aparicio pineda",
+      "celular": "3004656904"
     },
     "pausado": false,
     "etapaManual": null
