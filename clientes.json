@@ -49,8 +49,8 @@
     "telefono": "573162472846",
     "nombre": "Administración de Propiedad Horizontal",
     "primerContacto": "2026-09-04T15:26:15.092Z",
-    "ultimoContacto": "2026-09-04T15:26:15.092Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T15:45:38.626Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,6 +81,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T15:26:14.456Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que papel usa?",
+        "fecha": "2026-09-04T15:45:30.622Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí 😊 La impresora térmica portátil funciona con **papel térmico especial** (rollos térmicos), el mismo tipo que usan las impresoras de recibos en tiendas y restaurantes. Lo mejor es que **no necesita tinta ni tóner**, así que te ahorras esa compra constante y el mantenimiento de una impresora normal.\n\nEs un rollo pequeño, facil de conseguir y de recargar, ideal para que la lleves contigo sin complicaciones.\n\nCuéntame, ¿para qué la necesitarías principalmente? ¿Facturas, recibos, cotizaciones, etiquetas para tu negocio? Así te confirmo bien si es la solución perfecta para lo que haces 📋✨",
+        "fecha": "2026-09-04T15:45:37.868Z"
       }
     ],
     "paso": "confirmar_producto",
