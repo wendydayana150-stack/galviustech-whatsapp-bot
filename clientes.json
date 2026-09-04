@@ -3,8 +3,8 @@
     "telefono": "573028285819",
     "nombre": "Ruben",
     "primerContacto": "2026-09-04T22:36:09.373Z",
-    "ultimoContacto": "2026-09-04T22:36:09.373Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T22:36:35.212Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T22:36:08.864Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "B tarde imprime a color?'",
+        "fecha": "2026-09-04T22:36:27.352Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenas tardes! 😊\n\nTe cuento con toda honestidad: la impresora térmica portátil imprime en blanco y negro (bueno, en realidad es en un solo tono, tipo negro sobre el papel térmico), no maneja color. Es el mismo sistema que usan las impresoras de recibos y facturas en tiendas y negocios.\n\nLo bueno es que justo por ser térmica, no necesitas comprar tinta ni tóner nunca, así que te ahorras esos gastos desde la primera impresión, y es superrápida para imprimir facturas, cotizaciones, recibos, guías o notas al momento. 📄⚡\n\nCuéntame, ¿para qué la necesitarías principalmente? ¿Es para un negocio, para imprimir facturas o notas de venta, o para otro tipo de documentos? Así te confirmo si se ajusta perfecto a lo que buscas 🙂",
+        "fecha": "2026-09-04T22:36:34.491Z"
       }
     ],
     "paso": "confirmar_producto",
