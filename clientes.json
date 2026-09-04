@@ -169,8 +169,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:55:02.896Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-09-04T21:55:27.879Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -416,6 +416,26 @@
         "rol": "bot",
         "texto": "Perfecto, ya tengo tu número 📱\n\nAhora dime, ¿en qué departamento y ciudad o municipio te llega el pedido? (Ya sé que mencionaste Unión Panamericana, Chocó, ¿confirmamos esa dirección?)",
         "fecha": "2026-09-04T21:55:02.123Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-04T21:55:14.424Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Chocó - Unión Panamericana! 📍\n\nAhora necesito la dirección completa donde te lo enviamos (calle, número, referencia) y el barrio o vereda, por favor 🙏",
+        "fecha": "2026-09-04T21:55:16.775Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Alas oficinas de interrrapidisimo",
+        "fecha": "2026-09-04T21:55:24.492Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! ¿Me confirmas la dirección exacta de esas oficinas de Interrapidísimo (calle o carrera, número) y el barrio donde quedan, para que el envío llegue sin problema? 📦",
+        "fecha": "2026-09-04T21:55:27.041Z"
       }
     ],
     "paso": "conversando",
