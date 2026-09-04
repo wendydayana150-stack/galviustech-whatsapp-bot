@@ -246,8 +246,8 @@
     "telefono": "573005001170",
     "nombre": "Marinella",
     "primerContacto": "2026-09-04T19:19:06.198Z",
-    "ultimoContacto": "2026-09-04T19:19:06.198Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T20:22:04.811Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -278,6 +278,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T19:19:05.496Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-04T20:07:33.677Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-04T20:18:31.247Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y vendes las hojas térmicas?",
+        "fecha": "2026-09-04T20:21:58.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que pena, no manejamos hojas térmicas de repuesto como producto individual en el catálogo 😅 Nos enfocamos en la impresora térmica portátil como equipo completo.\n\nAhora, dato importante: los rollos de papel térmico para este tipo de impresoras los consigues fácilmente en papelerías o tiendas de insumos de oficina, son bastante comunes y económicos.\n\nCuéntame, ¿ya tienes la impresora o estás pensando en adquirirla? Si es lo segundo, me encantaría contarte cómo te puede resolver el tema de imprimir documentos, facturas o cotizaciones sin depender de una papelería. ¿En qué trabajas o qué necesitarías imprimir principalmente? 😊",
+        "fecha": "2026-09-04T20:22:04.028Z"
       }
     ],
     "paso": "confirmar_producto",
