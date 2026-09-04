@@ -3,8 +3,8 @@
     "telefono": "573007037498",
     "nombre": "Marcela Sandoval",
     "primerContacto": "2026-09-04T22:17:33.521Z",
-    "ultimoContacto": "2026-09-04T22:18:43.859Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-04T22:19:12.617Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,15 +80,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-04T22:18:43.040Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3007037498",
+        "fecha": "2026-09-04T22:19:11.257Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-04T22:19:11.257Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573007037498",
-      "nombreCliente": "Olga Marcela Sandoval Suárez"
+      "nombreCliente": "Olga Marcela Sandoval Suárez",
+      "celular": "3007037498"
     },
     "pausado": false,
     "etapaManual": null
