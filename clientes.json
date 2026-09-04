@@ -48,8 +48,8 @@
     "telefono": "573234898111",
     "nombre": "Les Herrera Bermejo",
     "primerContacto": "2026-09-04T16:34:35.607Z",
-    "ultimoContacto": "2026-09-04T16:40:05.485Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-04T16:40:37.556Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -90,6 +90,16 @@
         "rol": "bot",
         "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento los precios, pero antes déjame ubicarte bien para recomendarte el producto correcto y que no gastes en algo que no te sirva.\n\nCuéntame: ¿me escribes porque necesitas internet portátil (módem), una impresora térmica, o algo de iluminación/seguridad (lámparas)? 🤔\n\nY ya que estamos, ¿en qué ciudad o municipio estás y para qué lo necesitarías principalmente (trabajo, estudio, negocio, viajes)?",
         "fecha": "2026-09-04T16:40:04.650Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barranquilla",
+        "fecha": "2026-09-04T16:40:31.025Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Barranquilla, buenísimo! 📍\n\nAhora cuéntame, ¿qué es lo que andas buscando? ¿Necesitas internet portátil para tu casa, trabajo o negocio (módem), una impresora térmica para imprimir facturas o documentos, o te interesan las lámparas de iluminación/seguridad? 🤔\n\nY si es el módem, dime también: ¿qué operador manejas (Claro, Movistar, Tigo, WOM) y para qué lo usarías principalmente? Así te doy el precio exacto y te recomiendo el que mejor te sirva 💪",
+        "fecha": "2026-09-04T16:40:35.588Z"
       }
     ],
     "paso": "confirmar_producto",
