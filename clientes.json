@@ -42,7 +42,8 @@
       "productoId": "impresora-termica"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "recordatorios": {}
   },
   {
     "telefono": "573218944295",
@@ -312,7 +313,9 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "recordatorios": {}
+    "recordatorios": {
+      "min30": true
+    }
   },
   {
     "telefono": "573043259794",
@@ -826,7 +829,8 @@
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
-      "min30": true
+      "min30": true,
+      "horas2": true
     }
   },
   {
@@ -1725,7 +1729,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "horas6": true
     }
   },
   {
@@ -1774,7 +1779,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "horas6": true
     }
   },
   {
@@ -2012,7 +2018,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "horas6": true
     }
   },
   {
@@ -2317,7 +2324,8 @@
     "etapaManual": null,
     "recordatorios": {
       "min30": true,
-      "horas2": true
+      "horas2": true,
+      "horas6": true
     }
   },
   {
