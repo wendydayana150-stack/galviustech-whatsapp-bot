@@ -3,8 +3,8 @@
     "telefono": "573007037498",
     "nombre": "Marcela Sandoval",
     "primerContacto": "2026-09-04T22:17:33.521Z",
-    "ultimoContacto": "2026-09-04T22:18:03.415Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-04T22:18:22.221Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -60,11 +60,24 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
         "fecha": "2026-09-04T22:18:02.382Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-09-04T22:18:21.290Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Reloj* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-04T22:18:21.291Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "combo-impresora-termica-portatil-reloj",
+      "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
+      "precio": 299900,
+      "telefono": "573007037498"
     },
     "pausado": false,
     "etapaManual": null
