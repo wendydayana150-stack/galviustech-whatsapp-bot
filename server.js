@@ -198,55 +198,108 @@ async function enviarListaCatalogo(telefono) {
             );
 }
 
-async function enviarInfoModems(telefono) {
-      registrarMensaje(telefono, "bot", "[Envio fotos y caracteristicas de modems]");
-      const modems = catalogo.filter((p) => p.id.startsWith("modem"));
-      for (const p of modems) {
-            if (p.imagenes && p.imagenes[0]) {
-                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto} - ${formatearPrecio(p.precio)}`);
+// Metadata de las categorias de producto que el catalogo puede tener. Nueva
+// categoria = agregar aqui (opcional: si no esta aqui, igual funciona con
+// valores por defecto en infoCategoria()).
+const CATEGORIA_INFO = {
+      modem: {
+            titulo: "Modem",
+            emoji: "📶",
+            palabras: ["modem", "módem", "internet", "wifi", "wi-fi"],
+            resumen:
+                  "*Nuestros Modems WiFi Portatiles*\n\n" +
+                  "Compatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\n" +
+                  "Conectan hasta 10 dispositivos al mismo tiempo\n" +
+                  "Instalacion facil: insertas la SIM, enciendes y listo\n" +
+                  "Bateria recargable\n" +
+                  "Ideales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\n" +
+                  "Garantia de 30 dias y soporte de GalviusTech",
+            pregunta: "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+      },
+      impresora: {
+            titulo: "Impresora",
+            emoji: "🖨️",
+            palabras: ["impresora", "imprimir"],
+            resumen: null,
+            pregunta: "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
+      },
+      lampara: {
+            titulo: "Lamparas",
+            emoji: "💡",
+            palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar"],
+            resumen: null,
+            pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+      },
+      camara: {
+            titulo: "Camaras",
+            emoji: "📹",
+            palabras: ["camara", "cámara", "vigilancia", "seguridad"],
+            resumen: null,
+            pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+      },
+};
+
+function infoCategoria(categoria) {
+      return (
+            CATEGORIA_INFO[categoria] || {
+                  titulo: categoria.charAt(0).toUpperCase() + categoria.slice(1),
+                  emoji: "🛒",
+                  palabras: [categoria],
+                  resumen: null,
+                  pregunta: "Cuentame, para que lo necesitas? Y en que ciudad estas?",
             }
-      }
-      await enviarTexto(
-            telefono,
-            "*Nuestros Modems WiFi Portatiles*\n\n" +
-            "Compatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\n" +
-            "Conectan hasta 10 dispositivos al mismo tiempo\n" +
-            "Instalacion facil: insertas la SIM, enciendes y listo\n" +
-            "Bateria recargable\n" +
-            "Ideales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\n" +
-            "Garantia de 30 dias y soporte de GalviusTech"
-            );
-      await enviarTexto(
-            telefono,
-            "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?"
-            );
+      );
 }
 
-async function enviarInfoImpresora(telefono) {
+// Devuelve las categorias con al menos un producto (no combo), en el orden
+// en que aparecen en el catalogo. Se recalcula siempre a partir de catalogo,
+// asi que un producto nuevo que ella agregue en /admin/productos aparece
+// automaticamente aqui apenas tenga una categoria asignada.
+function categoriasDisponibles() {
+      const vistas = new Set();
+      const lista = [];
+      for (const p of catalogo) {
+            if (p.id.startsWith("combo-")) continue;
+            const cat = (p.categoria || "").trim().toLowerCase();
+            if (!cat || vistas.has(cat)) continue;
+            vistas.add(cat);
+            lista.push(cat);
+      }
+      return lista;
+}
+
+async function enviarInfoCategoria(telefono, categoria) {
       const sesion = obtenerSesion(telefono);
-      sesion.ultimoProducto = "impresora-termica";
-      const producto = catalogo.find((p) => p.id === "impresora-termica");
-      registrarMensaje(telefono, "bot", "[Envio fotos y caracteristicas de la impresora]");
-      if (producto?.imagenes) {
-            for (const url of producto.imagenes) {
-                  await enviarImagen(telefono, url, producto.nombreCorto);
+      const productos = catalogo.filter(
+            (p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === categoria
+      );
+      if (productos.length === 0) {
+            await manejarSaludo(telefono, null);
+            return;
+      }
+      const info = infoCategoria(categoria);
+      registrarMensaje(telefono, "bot", `[Envio fotos y caracteristicas: ${info.titulo}]`);
+
+      for (const p of productos) {
+            if (p.imagenes && p.imagenes[0]) {
+                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
             }
       }
-      await enviarTexto(
-            telefono,
-            `*${producto.nombre}*\n${formatearPrecio(producto.precio)}\n\n` +
-            "No necesita tinta ni toner, ahorras dinero desde la primera impresion\n" +
-            "Bluetooth, compatible con Android e iPhone\n" +
-            "Portatil, bateria recargable, impresion rapida\n" +
-            "Ideal para emprendedores, tiendas, restaurantes, mensajeros y oficinas\n" +
-            "Imprime facturas, recibos, cotizaciones, etiquetas y guias\n" +
-            "Garantia de 30 dias y soporte de GalviusTech"
-            );
-      await enviarTexto(
-            telefono,
-            "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?"
-            );
+
+      if (productos.length === 1) {
+            const p = productos[0];
+            sesion.ultimoProducto = p.id;
+            await enviarTexto(telefono, `*${p.nombre}*\n${formatearPrecio(p.precio)}\n\n${p.descripcion || ""}`.trim());
+      } else if (info.resumen) {
+            await enviarTexto(telefono, info.resumen);
+      } else {
+            const lineas = productos.map((p) => `*${p.nombreCorto || p.nombre}* - ${formatearPrecio(p.precio)}`).join("\n");
+            await enviarTexto(telefono, `*${info.emoji} ${info.titulo}*\n\n${lineas}`);
+      }
+
+      await enviarTexto(telefono, info.pregunta);
 }
+
 
 const OFERTAS_COMBO_POR_CATEGORIA = {
       modem: ["combo-modem-wifi-reloj-inteligente", "combo-modem-wifi-camara-de-seguridad"],
@@ -267,9 +320,9 @@ function etiquetaBotonCombo(combo) {
 }
 
 async function ofrecerComboPromocion(telefono, productoIdOriginal) {
-      const esImpresora = productoIdOriginal.startsWith("impresora");
-      const categoria = esImpresora ? "impresora" : "modem";
-      const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria];
+      const productoBase = catalogo.find((p) => p.id === productoIdOriginal);
+      const categoria = (productoBase?.categoria || "").trim().toLowerCase();
+      const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria] || [];
       const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
 
       if (combos.length === 0) {
@@ -347,6 +400,73 @@ const instrucciones = esImpresora
       : "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.";
 
 await enviarTexto(telefono, instrucciones);
+}
+
+function detectarPreguntaFotos(texto) {
+      const t = texto.toLowerCase();
+      return (
+            t.includes("foto") ||
+            t.includes("imagen") ||
+            t.includes("imágen") ||
+            t.includes("como se ve") ||
+            t.includes("cómo se ve") ||
+            t.includes("muestrame") ||
+            t.includes("muéstrame") ||
+            t.includes("mandame") ||
+            t.includes("mándame") ||
+            t.includes("enviame") ||
+            t.includes("envíame") ||
+            t.includes("pasame") ||
+            t.includes("pásame")
+            );
+}
+
+async function enviarFotosProducto(telefono, texto) {
+      const sesion = obtenerSesion(telefono);
+
+      const especifico = detectarProductoEspecifico(texto);
+      const categoriaMencionada = detectarProductoPorPalabraClave(texto);
+      const productoIdSesion = sesion.pedido?.productoId || sesion.ultimoProducto || null;
+
+      let productos = [];
+      let unSoloProducto = false;
+
+      if (especifico) {
+            const p = catalogo.find((prod) => prod.id === especifico);
+            if (p) {
+                  productos = [p];
+                  unSoloProducto = true;
+            }
+      } else if (categoriaMencionada) {
+            productos = catalogo.filter(
+                  (p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === categoriaMencionada
+                  );
+      } else if (productoIdSesion) {
+            const p = catalogo.find((prod) => prod.id === productoIdSesion);
+            if (p) {
+                  productos = [p];
+                  unSoloProducto = true;
+            }
+      }
+
+      const conFotos = productos.filter((p) => p.imagenes && p.imagenes.length > 0);
+
+      if (conFotos.length === 0) {
+            await enviarTexto(
+                  telefono,
+                  "Claro que si! Cuentame de cual producto quieres ver fotos: modem, impresora, lampara o camara?"
+                  );
+            return;
+      }
+
+      registrarMensaje(telefono, "bot", "[Envio fotos solicitadas]");
+      for (const p of conFotos) {
+            const urls = unSoloProducto || conFotos.length === 1 ? p.imagenes : [p.imagenes[0]];
+            for (const url of urls) {
+                  await enviarImagen(telefono, url, p.nombreCorto || p.nombre);
+            }
+      }
+      await enviarTexto(telefono, "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?");
 }
 
 async function leerJSON(url) {
@@ -549,7 +669,7 @@ const respuesta = await axios.post(
       {
             model: ANTHROPIC_MODEL,
             max_tokens: 700,
-            system: config.SYSTEM_PROMPT,
+            system: config.construirSystemPrompt(catalogo),
             messages: sesion.historial,
       },
       {
@@ -630,14 +750,58 @@ async function enviarRecordatoriosPendientes() {
       }
 }
 
+async function enviarListaCategorias(telefono, categorias) {
+      registrarMensaje(telefono, "bot", "[Envio menu de categorias]");
+      await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "interactive",
+                  interactive: {
+                        type: "list",
+                        header: { type: "text", text: "Que te interesa?" },
+                        body: { text: "Elige una opcion para ver los productos disponibles" },
+                        action: {
+                              button: "Ver opciones",
+                              sections: [
+                                    {
+                                          title: "Categorias",
+                                          rows: categorias.map((c) => {
+                                                const info = infoCategoria(c);
+                                                return {
+                                                      id: `cat_${c}`,
+                                                      title: `${info.emoji} ${info.titulo}`.slice(0, 24),
+                                                };
+                                          }),
+                                    },
+                                    ],
+                        },
+                  },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+}
+
 async function manejarSaludo(telefono, nombreCliente) {
       const sesion = obtenerSesion(telefono);
       sesion.paso = "conversando";
-      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente));
-      await enviarBotones(telefono, "Que te interesa?", [
-            { id: "cat_modem", titulo: "Modem" },
-            { id: "cat_impresora", titulo: "Impresora" },
-            ]);
+      const categorias = categoriasDisponibles();
+      const titulos = categorias.map((c) => infoCategoria(c).titulo);
+      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, titulos));
+
+      if (categorias.length === 0) {
+            return;
+      }
+      if (categorias.length <= 3) {
+            await enviarBotones(
+                  telefono,
+                  "Que te interesa?",
+                  categorias.map((c) => ({ id: `cat_${c}`, titulo: infoCategoria(c).titulo.slice(0, 20) }))
+                  );
+      } else {
+            await enviarListaCategorias(telefono, categorias);
+      }
 }
 
 async function manejarSeleccionProducto(telefono, productoId) {
@@ -778,11 +942,11 @@ function detectarProductoEspecifico(texto) {
 
 function detectarProductoPorPalabraClave(texto) {
       const t = texto.toLowerCase();
-      if (t.includes("impresora") || t.includes("imprimir")) {
-            return "impresora";
-      }
-      if (t.includes("modem") || t.includes("módem") || t.includes("internet") || t.includes("wifi") || t.includes("wi-fi")) {
-            return "modem";
+      for (const categoria of categoriasDisponibles()) {
+            const info = infoCategoria(categoria);
+            if (info.palabras.some((palabra) => t.includes(palabra))) {
+                  return categoria;
+            }
       }
       return null;
 }
@@ -798,7 +962,12 @@ async function manejarTextoLibre(telefono, texto) {
             return;
       }
 
-      
+      if (detectarPreguntaFotos(texto)) {
+            await enviarFotosProducto(telefono, texto);
+            return;
+      }
+
+
       try {
             const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto);
 
@@ -810,10 +979,10 @@ async function manejarTextoLibre(telefono, texto) {
                   const existe = catalogo.find((p) => p.id === productoId);
                   if (existe) {
                         sesion.ultimoProducto = productoId;
-                        if (!productoId.startsWith("combo-") && (productoId.startsWith("modem") || productoId === "impresora-termica")) {
-                              await ofrecerComboPromocion(telefono, productoId);
-                        } else {
+                        if (productoId.startsWith("combo-")) {
                               await iniciarPedido(telefono, productoId);
+                        } else {
+                              await ofrecerComboPromocion(telefono, productoId);
                         }
                   }
             }
@@ -1150,10 +1319,8 @@ app.post("/webhook", async (req, res) => {
                         sesion.paso = "conversando";
                         if (especifico) {
                               await manejarSeleccionProducto(telefono, especifico);
-                        } else if (deteccion === "impresora") {
-                              await enviarInfoImpresora(telefono);
-                        } else if (deteccion === "modem") {
-                              await enviarInfoModems(telefono);
+                        } else if (deteccion) {
+                              await enviarInfoCategoria(telefono, deteccion);
                         } else {
                               await manejarSaludo(telefono, nombreCliente);
                         }
@@ -1169,10 +1336,8 @@ app.post("/webhook", async (req, res) => {
                         mensaje.interactive?.button_reply?.title || mensaje.interactive?.list_reply?.title;
                   registrarMensaje(telefono, "cliente", `[Selecciono] ${tituloBoton || idBoton}`);
 
-                  if (idBoton === "cat_modem") {
-                        await enviarInfoModems(telefono);
-                  } else if (idBoton === "cat_impresora") {
-                        await enviarInfoImpresora(telefono);
+                  if (idBoton?.startsWith("cat_")) {
+                        await enviarInfoCategoria(telefono, idBoton.replace("cat_", ""));
                   } else if (idBoton === "ver_catalogo") {
                         await enviarListaCatalogo(telefono);
                   } else if (idBoton?.startsWith("combo_")) {
@@ -1184,10 +1349,10 @@ app.post("/webhook", async (req, res) => {
                         await manejarSeleccionProducto(telefono, idBoton.replace("producto_", ""));
                   } else if (idBoton?.startsWith("pedir_")) {
                         const pid = idBoton.replace("pedir_", "");
-                        if (!pid.startsWith("combo-") && (pid.startsWith("modem") || pid === "impresora-termica")) {
-                              await ofrecerComboPromocion(telefono, pid);
-                        } else {
+                        if (pid.startsWith("combo-")) {
                               await iniciarPedido(telefono, pid);
+                        } else {
+                              await ofrecerComboPromocion(telefono, pid);
                         }
                   }
             }
@@ -1315,6 +1480,7 @@ app.get("/admin/productos", requiereLogin, async (req, res) => {
 				(p) => `
 				<tr>
 				<td>${p.nombre || ""}${p.nombreCorto ? `<br><span style="color:#666;font-size:12px;">${p.nombreCorto}</span>` : ""}</td>
+				<td>${p.id.startsWith("combo-") ? "Combo" : (p.categoria || "<span style=\"color:#999;\">(sin categoria)</span>")}</td>
 				<td>${formatearPrecio(p.precio || 0)}</td>
 				<td>${p.color || ""}</td>
 				<td>${(p.imagenes || []).length} imagen(es)${p.video ? " + video" : ""}</td>
@@ -1334,12 +1500,13 @@ app.get("/admin/productos", requiereLogin, async (req, res) => {
 		<table>
 		<tr>
 		<th>Producto</th>
+		<th>Categoria</th>
 		<th>Precio</th>
 		<th>Color</th>
 		<th>Multimedia</th>
 		<th>Acciones</th>
 		</tr>
-		${filas || "<tr><td colspan=\"5\">Todavia no hay productos en el catalogo.</td></tr>"}
+		${filas || "<tr><td colspan=\"6\">Todavia no hay productos en el catalogo.</td></tr>"}
 		</table>
 		</body>
 		</html>
@@ -1350,8 +1517,11 @@ app.get("/admin/productos", requiereLogin, async (req, res) => {
 	}
 });
 
-function formularioProducto(producto, accion, tituloBoton) {
+function formularioProducto(producto, accion, tituloBoton, categoriasExistentes) {
 	const p = producto || {};
+	const opcionesCategoria = (categoriasExistentes || [])
+		.map((c) => `<option value="${c.replace(/"/g, "&quot;")}">`)
+		.join("");
 	return `
 	<div class="form-campo">
 	<label>Nombre completo</label>
@@ -1365,6 +1535,12 @@ function formularioProducto(producto, accion, tituloBoton) {
 	<label>Precio (COP)</label>
 	<input type="text" name="precio" value="${p.precio || ""}" placeholder="Ej: 239900" required>
 	<div class="ayuda">Escribe solo numeros, sin puntos ni simbolo de pesos.</div>
+	</div>
+	<div class="form-campo">
+	<label>Categoria</label>
+	<input type="text" name="categoria" list="lista-categorias" value="${(p.categoria || "").replace(/"/g, "&quot;")}" placeholder="Ej: modem, impresora, lampara, camara">
+	<datalist id="lista-categorias">${opcionesCategoria}</datalist>
+	<div class="ayuda">Agrupa productos parecidos (ej: "lampara") para que el bot los ofrezca juntos en el saludo inicial. Dejalo vacio si es un producto combo/promocion.</div>
 	</div>
 	<div class="form-campo">
 	<label>Color</label>
@@ -1388,17 +1564,35 @@ function formularioProducto(producto, accion, tituloBoton) {
 	`;
 }
 
+function categoriasExistentesDeCatalogo(datos) {
+	const vistas = new Set();
+	const lista = [];
+	for (const p of datos) {
+		const cat = (p.categoria || "").trim();
+		if (!cat || vistas.has(cat.toLowerCase())) continue;
+		vistas.add(cat.toLowerCase());
+		lista.push(cat);
+	}
+	return lista;
+}
+
 app.get("/admin/productos/nuevo", requiereLogin, async (req, res) => {
-	res.send(`
-	${estiloPaginaProductos("Nuevo producto")}
-	<p><a href="/admin/productos">&larr; Volver a productos</a></p>
-	<h1>Agregar producto</h1>
-	<form method="POST" action="/admin/productos/nuevo">
-	${formularioProducto(null, "/admin/productos/nuevo", "Guardar producto")}
-	</form>
-	</body>
-	</html>
-	`);
+	try {
+		const { datos } = await leerJSON(CATALOGO_API);
+		res.send(`
+		${estiloPaginaProductos("Nuevo producto")}
+		<p><a href="/admin/productos">&larr; Volver a productos</a></p>
+		<h1>Agregar producto</h1>
+		<form method="POST" action="/admin/productos/nuevo">
+		${formularioProducto(null, "/admin/productos/nuevo", "Guardar producto", categoriasExistentesDeCatalogo(datos))}
+		</form>
+		</body>
+		</html>
+		`);
+	} catch (error) {
+		console.error("Error mostrando formulario de producto nuevo:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error cargando el formulario.");
+	}
 });
 
 app.post("/admin/productos/nuevo", requiereLogin, async (req, res) => {
@@ -1413,6 +1607,7 @@ app.post("/admin/productos/nuevo", requiereLogin, async (req, res) => {
 			nombre,
 			nombreCorto: (req.body.nombreCorto || "").trim() || nombre,
 			precio: parsearPrecio(req.body.precio),
+			categoria: (req.body.categoria || "").trim(),
 			color: (req.body.color || "").trim(),
 			descripcion: (req.body.descripcion || "").trim(),
 			imagenes: parsearLineas(req.body.imagenes),
@@ -1442,7 +1637,7 @@ app.get("/admin/productos/:id/editar", requiereLogin, async (req, res) => {
 		<p><a href="/admin/productos">&larr; Volver a productos</a></p>
 		<h1>Editar producto</h1>
 		<form method="POST" action="/admin/productos/${encodeURIComponent(producto.id)}/editar">
-		${formularioProducto(producto, `/admin/productos/${encodeURIComponent(producto.id)}/editar`, "Guardar cambios")}
+		${formularioProducto(producto, `/admin/productos/${encodeURIComponent(producto.id)}/editar`, "Guardar cambios", categoriasExistentesDeCatalogo(datos))}
 		</form>
 		</body>
 		</html>
@@ -1469,6 +1664,7 @@ app.post("/admin/productos/:id/editar", requiereLogin, async (req, res) => {
 			nombre,
 			nombreCorto: (req.body.nombreCorto || "").trim() || nombre,
 			precio: parsearPrecio(req.body.precio),
+			categoria: (req.body.categoria || "").trim(),
 			color: (req.body.color || "").trim(),
 			descripcion: (req.body.descripcion || "").trim(),
 			imagenes: parsearLineas(req.body.imagenes),
