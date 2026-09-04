@@ -61,8 +61,8 @@
     "telefono": "573137265996",
     "nombre": "Blakc",
     "primerContacto": "2026-09-04T21:46:53.571Z",
-    "ultimoContacto": "2026-09-04T21:53:27.863Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-04T21:54:07.197Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -268,22 +268,20 @@
         "rol": "bot",
         "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
         "fecha": "2026-09-04T21:53:27.092Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede alas oficinas de interrrapidisimo",
+        "fecha": "2026-09-04T21:54:05.391Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto! Tu pedido ha sido confirmado y pasara a despacho. Muchas gracias por confiar en GalviusTech.",
+        "fecha": "2026-09-04T21:54:05.391Z"
       }
     ],
-    "paso": "esperando_confirmacion_envio",
-    "pedido": {
-      "productoId": "combo-modem-wifi-camara-de-seguridad",
-      "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
-      "precio": 289900,
-      "telefono": "573137265996",
-      "nombreCliente": "Jhoan Aparicio pineda",
-      "celular": "3004656904",
-      "departamento": "Departamento del choco",
-      "ciudad": "Municipio unión panamericana las animas",
-      "direccion": "Vivo en una zona rural",
-      "barrio": "Eso queda por la carretera hacia el municipio de tado",
-      "medioPago": "Contra entrega"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
