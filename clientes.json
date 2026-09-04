@@ -3399,8 +3399,8 @@
     "telefono": "573015945303",
     "nombre": "Alexander",
     "primerContacto": "2026-09-04T14:27:53.805Z",
-    "ultimoContacto": "2026-09-04T22:09:52.621Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-04T22:10:11.147Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3486,6 +3486,16 @@
         "rol": "bot",
         "texto": "¡Hola! Claro que sí 😊 Te cuento: esta impresora es térmica portátil, funciona con rollos de papel térmico (tipo recibo/ticket), no es de hojas tamaño carta como las de oficina normales. Es ideal para imprimir facturas, cotizaciones, recibos, notas o etiquetas rápido y sin complicarte con cartuchos de tinta.\n\nSi necesitas el tamaño exacto del rollo para algo puntual, con gusto te confirmo el dato preciso antes de que hagas el pedido.\n\nCuéntame, ¿para qué la usarías principalmente? ¿Tienes un negocio, trabajas de forma independiente o necesitas imprimir documentos mientras te mueves? Así te confirmo si es la solución perfecta para ti 🙌\n\nY cuént",
         "fecha": "2026-09-04T22:09:51.686Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Homa me interesa. Esa impresora en que tamaño de hoja imprime???",
+        "fecha": "2026-09-04T22:10:05.779Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Sí, te cuento 😊 Esta impresora es térmica, o sea que no usa hojas normales sino rollos de papel térmico (tipo recibo/ticket), no tamaño carta. Es justo lo que la hace tan práctica: no necesita tinta ni toner y la llevas a donde sea.\n\nSe usa mucho para imprimir facturas, cotizaciones, recibos, notas o etiquetas al instante, sin depender de una papelería.\n\nCuéntame, ¿la necesitas para un negocio, para trabajo independiente o para imprimir documentos mientras viajas? Así te confirmo que es la ideal para tu caso y vemos cómo dejarte el pedido listo 🙌",
+        "fecha": "2026-09-04T22:10:10.325Z"
       }
     ],
     "paso": "confirmar_producto",
