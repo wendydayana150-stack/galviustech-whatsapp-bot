@@ -79,7 +79,7 @@ const SYSTEM_PROMPT =
             "DATOS COMPLETOS PARA EL PEDIDO (solo cuando el cliente confirme que quiere comprar, pide TODOS estos datos uno por uno, no avances sin ellos): nombre completo, numero de celular, departamento, ciudad o municipio, direccion completa, barrio, medio de pago preferido (contraentrega, transferencia u otro disponible).\n\n" +
             "IMPORTANTE - ACCION DE PEDIDO: Cuando el cliente confirme explicitamente que quiere COMPRAR un producto especifico Y ya sabes cual producto es, termina tu respuesta en una linea NUEVA y FINAL con exactamente este formato (sin nada mas en esa linea):\n" +
             "ACCION_PEDIDO: <id>\n" +
-            "donde <id> es uno de: modem-4g, modem-4g5g, modem-portatil-5g, modem-smartwatch, impresora-termica.\n" +
+            "donde <id> es uno de: modem-4g, modem-4g5g, modem-portatil-5g, impresora-termica.\n" +
             "No incluyas esa linea si el cliente todavia no ha confirmado que quiere comprar, o si aun no sabes cual producto quiere.\n" +
             "El resto de tu respuesta (antes de esa linea) es el mensaje que vera el cliente; la linea ACCION_PEDIDO nunca la vera el cliente, el sistema la procesa por separado.";
 

@@ -182,11 +182,13 @@ async function enviarListaCatalogo(telefono) {
                               sections: [
                                     {
                                           title: "Productos",
-                                          rows: catalogo.map((p) => ({
-                                                id: `producto_${p.id}`,
-                                                title: p.nombreCorto || p.nombre,
-                                                description: formatearPrecio(p.precio),
-                                          })),
+                                          rows: catalogo
+                                                .filter((p) => !p.id.startsWith("combo-"))
+                                                .map((p) => ({
+                                                      id: `producto_${p.id}`,
+                                                      title: p.nombreCorto || p.nombre,
+                                                      description: formatearPrecio(p.precio),
+                                                })),
                                     },
                                     ],
                         },
@@ -246,26 +248,61 @@ async function enviarInfoImpresora(telefono) {
             );
 }
 
+const OFERTAS_COMBO_POR_CATEGORIA = {
+      modem: ["combo-modem-wifi-reloj-inteligente", "combo-modem-wifi-camara-de-seguridad"],
+      impresora: ["combo-impresora-termica-portatil-camara-de-seguridad", "combo-impresora-termica-portatil-reloj"],
+};
+
+// WhatsApp limita el titulo de los botones a 20 caracteres, por eso usamos
+// etiquetas cortas propias en vez del nombreCorto completo del catalogo.
+const ETIQUETAS_BOTON_COMBO = {
+      "combo-modem-wifi-reloj-inteligente": "Con reloj de regalo",
+      "combo-modem-wifi-camara-de-seguridad": "Con camara de regalo",
+      "combo-impresora-termica-portatil-camara-de-seguridad": "Con camara de regalo",
+      "combo-impresora-termica-portatil-reloj": "Con reloj de regalo",
+};
+
+function etiquetaBotonCombo(combo) {
+      return ETIQUETAS_BOTON_COMBO[combo.id] || (combo.nombreCorto || combo.nombre || "Ver oferta").slice(0, 20);
+}
+
 async function ofrecerComboPromocion(telefono, productoIdOriginal) {
-      const combo = catalogo.find((p) => p.id === "modem-smartwatch");
-      if (!combo) {
+      const esImpresora = productoIdOriginal.startsWith("impresora");
+      const categoria = esImpresora ? "impresora" : "modem";
+      const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria];
+      const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+
+      if (combos.length === 0) {
             await iniciarPedido(telefono, productoIdOriginal);
             return;
       }
-      if (combo.imagenes && combo.imagenes[0]) {
-            await enviarImagen(telefono, combo.imagenes[0], "Promo especial");
+
+      for (const combo of combos) {
+            if (combo.imagenes && combo.imagenes[0]) {
+                  await enviarImagen(telefono, combo.imagenes[0], combo.nombreCorto);
+            }
       }
+
+      const lineasOfertas = combos
+            .map((combo) => `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`)
+            .join("\n\n");
+
       await enviarTexto(
             telefono,
             "Antes de confirmar tu pedido... 🎁\n\n" +
-            `Por tiempo limitado puedes llevar el *Modem WiFi Portatil + Reloj Smartwatch* de regalo por solo ${formatearPrecio(combo.precio)}.\n\n` +
-            "Te llevas el mismo modem que ya viste, mas un reloj inteligente de regalo, por muy poquito mas.\n\n" +
-            "Te animas a aprovechar la promocion?"
+            `Por tiempo limitado puedes llevar:\n\n${lineasOfertas}\n\n` +
+            "Te animas a aprovechar alguna promocion?"
             );
-      await enviarBotones(telefono, "Que prefieres?", [
-            { id: `combosi_${productoIdOriginal}`, titulo: "Si, quiero el combo" },
-            { id: `pedirfinal_${productoIdOriginal}`, titulo: "No, solo el modem" },
-            ]);
+
+      const botones = combos.map((combo) => ({
+            id: `combo_${combo.id}_${productoIdOriginal}`,
+            titulo: etiquetaBotonCombo(combo),
+            }));
+      botones.push({
+            id: `pedirfinal_${productoIdOriginal}`,
+            titulo: "No, gracias",
+            });
+      await enviarBotones(telefono, "Que prefieres?", botones);
 }
 
 function detectarPreguntaUso(texto) {
@@ -722,9 +759,6 @@ async function manejarFlujoPedido(telefono, texto) {
 
 function detectarProductoEspecifico(texto) {
       const t = texto.toLowerCase();
-      if (t.includes("smartwatch") || t.includes("combo") || t.includes("reloj")) {
-            return "modem-smartwatch";
-      }
       if (t.includes("impresora") || t.includes("imprimir")) {
             return "impresora-termica";
       }
@@ -776,7 +810,7 @@ async function manejarTextoLibre(telefono, texto) {
                   const existe = catalogo.find((p) => p.id === productoId);
                   if (existe) {
                         sesion.ultimoProducto = productoId;
-                        if (productoId.startsWith("modem") && productoId !== "modem-smartwatch") {
+                        if (!productoId.startsWith("combo-") && (productoId.startsWith("modem") || productoId === "impresora-termica")) {
                               await ofrecerComboPromocion(telefono, productoId);
                         } else {
                               await iniciarPedido(telefono, productoId);
@@ -1141,15 +1175,16 @@ app.post("/webhook", async (req, res) => {
                         await enviarInfoImpresora(telefono);
                   } else if (idBoton === "ver_catalogo") {
                         await enviarListaCatalogo(telefono);
-                  } else if (idBoton?.startsWith("combosi_")) {
-                        await iniciarPedido(telefono, "modem-smartwatch");
+                  } else if (idBoton?.startsWith("combo_")) {
+                        const [comboId] = idBoton.replace("combo_", "").split("_");
+                        await iniciarPedido(telefono, comboId);
                   } else if (idBoton?.startsWith("pedirfinal_")) {
                         await iniciarPedido(telefono, idBoton.replace("pedirfinal_", ""));
                   } else if (idBoton?.startsWith("producto_")) {
                         await manejarSeleccionProducto(telefono, idBoton.replace("producto_", ""));
                   } else if (idBoton?.startsWith("pedir_")) {
                         const pid = idBoton.replace("pedir_", "");
-                        if (pid.startsWith("modem") && pid !== "modem-smartwatch") {
+                        if (!pid.startsWith("combo-") && (pid.startsWith("modem") || pid === "impresora-termica")) {
                               await ofrecerComboPromocion(telefono, pid);
                         } else {
                               await iniciarPedido(telefono, pid);
