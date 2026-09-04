@@ -3,8 +3,8 @@
     "telefono": "573137571925",
     "nombre": "Jorge Alvis",
     "primerContacto": "2026-09-04T16:56:54.253Z",
-    "ultimoContacto": "2026-09-04T16:56:54.253Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T16:58:21.615Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T16:56:53.588Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Deseaba saber el precio\nGracias, por el momento no",
+        "fecha": "2026-09-04T16:58:17.829Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con mucho gusto te ayudo! 😊\n\nPara darte el precio correcto, cuéntame ¿qué producto tenías en mente? Tengo módems de internet portátil, impresora térmica, lámparas solares...\n\nY para orientarte mejor, ¿me cuentas en qué ciudad o municipio estás y para qué lo necesitarías principalmente? Así te recomiendo justo lo que necesitas, sin hacerte perder tiempo 👍",
+        "fecha": "2026-09-04T16:58:20.799Z"
       }
     ],
     "paso": "confirmar_producto",
