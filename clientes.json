@@ -220,8 +220,8 @@
     "telefono": "573208336760",
     "nombre": "Miguel Angel Valencia C",
     "primerContacto": "2026-09-04T16:18:55.349Z",
-    "ultimoContacto": "2026-09-04T16:18:55.349Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T16:55:33.619Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -252,6 +252,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T16:18:54.633Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-04T16:53:31.020Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si estoy interesado y me gustaría saber dónde están ubicados ustedes",
+        "fecha": "2026-09-04T16:55:27.845Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que bueno que estés interesado 😊\n\nTe cuento: nosotros trabajamos de forma virtual y hacemos envíos a nivel nacional, así que no importa en qué ciudad o vereda estés, te podemos hacer llegar el producto directo a tu dirección. No necesitas desplazarte a ningún punto físico, nosotros te lo llevamos hasta la puerta.\n\nPara poder orientarte mejor y recomendarte el equipo que más te conviene, cuéntame:\n📍 ¿En qué ciudad o municipio te encuentras?\n📱 ¿Qué operador manejas (Claro, Movistar, Tigo, WOM, ETB)?\n💻 ¿Para qué lo necesitarías principalmente? ¿Internet para el hogar/trabajo, o imprimir documentos en movimiento?\n\nCuéntame un poco de tu situación y te ayudo a encontrar la solución perfecta 👍",
+        "fecha": "2026-09-04T16:55:32.651Z"
       }
     ],
     "paso": "confirmar_producto",
