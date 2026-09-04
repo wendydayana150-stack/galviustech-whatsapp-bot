@@ -358,6 +358,24 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
       await enviarBotones(telefono, "Que prefieres?", botones);
 }
 
+function estaEnHorarioComercial() {
+      const ahoraUtc = new Date();
+      const horaBogota = (ahoraUtc.getUTCHours() - 5 + 24) % 24;
+      return horaBogota >= 6 && horaBogota < 20;
+}
+
+function imagenesPromoParaProducto(productoId) {
+      const productoBase = productoId ? catalogo.find((p) => p.id === productoId) : null;
+      const categoria = (productoBase?.categoria || "").trim().toLowerCase();
+      let combos = (OFERTAS_COMBO_POR_CATEGORIA[categoria] || [])
+            .map((id) => catalogo.find((p) => p.id === id))
+            .filter((c) => c && c.imagenes && c.imagenes[0]);
+      if (combos.length === 0) {
+            combos = catalogo.filter((p) => p.id.startsWith("combo-") && p.imagenes && p.imagenes[0]);
+      }
+      return combos.slice(0, 2);
+}
+
 function detectarPreguntaUso(texto) {
       const t = texto.toLowerCase();
       return (
@@ -711,12 +729,11 @@ async function enviarRecordatoriosPendientes() {
       const ahora = Date.now();
       if (ahora - ultimaRevisionRecordatorios < 10 * 60 * 1000) return;
       ultimaRevisionRecordatorios = ahora;
+      if (!estaEnHorarioComercial()) return;
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-            const precioImpresora = catalogo.find((p) => p.id === "impresora-termica")?.precio || 0;
-            const precioTexto = formatearPrecio(precioImpresora);
             let cambios = false;
 
             for (const c of datos) {
@@ -726,17 +743,28 @@ async function enviarRecordatoriosPendientes() {
                   if (!c.recordatorios) c.recordatorios = {};
 
                   const transcurrido = ahora - new Date(c.ultimoContacto).getTime();
+                  const productoId = c.pedido?.productoId || null;
+                  const producto = productoId ? catalogo.find((p) => p.id === productoId) : null;
+                  const nombreProducto = producto?.nombre || null;
+                  const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
                   if (transcurrido >= 30 * 60 * 1000 && !c.recordatorios.min30) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio30Min(precioTexto));
+                        await enviarTexto(c.telefono, config.mensajeRecordatorio30Min(nombreProducto, precioTexto));
                         c.recordatorios.min30 = true;
                         cambios = true;
                   } else if (transcurrido >= 2 * 60 * 60 * 1000 && !c.recordatorios.horas2) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio2Horas(precioTexto));
+                        await enviarTexto(c.telefono, config.mensajeRecordatorio2Horas(nombreProducto, precioTexto));
+                        for (const combo of imagenesPromoParaProducto(productoId)) {
+                              await enviarImagen(c.telefono, combo.imagenes[0], combo.nombreCorto || combo.nombre);
+                        }
                         c.recordatorios.horas2 = true;
                         cambios = true;
+                  } else if (transcurrido >= 6 * 60 * 60 * 1000 && !c.recordatorios.horas6) {
+                        await enviarTexto(c.telefono, config.mensajeRemarketing6Horas(nombreProducto, precioTexto));
+                        c.recordatorios.horas6 = true;
+                        cambios = true;
                   } else if (transcurrido >= 18 * 60 * 60 * 1000 && !c.recordatorios.dias2) {
-                        await enviarTexto(c.telefono, config.mensajeRemarketing2Dias(precioTexto));
+                        await enviarTexto(c.telefono, config.mensajeRemarketing2Dias(nombreProducto, precioTexto));
                         c.recordatorios.dias2 = true;
                         cambios = true;
                   }

@@ -170,17 +170,40 @@ const mensajeDatosTransferencia =
             "@3023890578\n\n" +
             "Cuando hagas la transferencia, envianos el comprobante por aqui mismo.";
 
-const mensajeRecordatorio30Min = (precio) =>
-              "Hola! 😊 Solo quería saber si aún estás interesado(a)\n" +
-              `Recuerda que está en promoción por solo ${precio}. Es ideal para estudiantes, emprendedores, oficinas y cualquier persona que quiera imprimir sin gastar en tinta.\n` +
-              "📲 Si deseas reservar la tuya, estoy aquí para ayudarte.";
+const mensajeRecordatorio30Min = (nombreProducto, precio) => {
+              const detalle = nombreProducto && precio
+                            ? `Recuerda que el ${nombreProducto} está en promoción por solo ${precio}.`
+                            : "Recuerda que tenemos promociones activas en nuestros productos.";
+              return (
+                            "Hola! 😊 Solo quería saber si aún estás interesado(a)\n" +
+                            detalle + "\n" +
+                            "📲 Si deseas reservar el tuyo, estoy aquí para ayudarte."
+              );
+};
 
-const mensajeRecordatorio2Horas = (precio) =>
-              "¡Hola de nuevo! 👋\n" +
-              `Quería avisarte que la promoción de ${precio} sigue disponible por el momento, pero las unidades son limitadas.\n` +
-              "Si tienes alguna duda sobre la impresora, pregunta con confianza. Estaré encantada de ayudarte. 😊";
+const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
+              const detalle = nombreProducto && precio
+                            ? `la promoción del ${nombreProducto} por ${precio} sigue disponible por el momento, pero las unidades son limitadas`
+                            : "todavía tenemos promociones disponibles, pero las unidades son limitadas";
+              return (
+                            "¡Hola de nuevo! 👋\n" +
+                            `Quería avisarte que ${detalle}.\n` +
+                            "Además te dejo estas fotos de un combo con regalo incluido 🎁\n" +
+                            "Si tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊"
+              );
+};
 
-const mensajeRemarketing2Dias = mensajeRecordatorio30Min;
+const mensajeRemarketing6Horas = (nombreProducto, precio) => {
+              const detalle = nombreProducto && precio
+                            ? `sigues interesado(a) en el ${nombreProducto} (${precio})`
+                            : "sigues interesado(a) en alguno de nuestros productos";
+              return (
+                            "Hola! 👋 Pasando a ver si " + detalle + ".\n" +
+                            "Cuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊"
+              );
+};
+
+const mensajeRemarketing2Dias = (nombreProducto, precio) => mensajeRecordatorio30Min(nombreProducto, precio);
 
 const mensajeReactivacion =
             "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\n" +
@@ -199,6 +222,7 @@ module.exports = {
             mensajeDatosTransferencia,
             mensajeRecordatorio30Min,
             mensajeRecordatorio2Horas,
+            mensajeRemarketing6Horas,
             mensajeRemarketing2Dias,
             mensajeReactivacion,
 };
