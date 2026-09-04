@@ -3,8 +3,8 @@
     "telefono": "573147982725",
     "nombre": "Sara Cristina",
     "primerContacto": "2026-09-04T20:07:31.629Z",
-    "ultimoContacto": "2026-09-04T20:07:31.629Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-04T20:07:38.102Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-04T20:07:30.880Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio por favor",
+        "fecha": "2026-09-04T20:07:33.886Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te ayudo con el precio, pero antes cuéntame: ¿el precio lo necesitas para un módem de internet, para la impresora térmica portátil, o para alguna de las lámparas? Así te doy el valor exacto y te asesoro mejor según lo que necesitas.\n\n¿Cuál de esos productos te interesa? 📶🖨️💡",
+        "fecha": "2026-09-04T20:07:37.378Z"
       }
     ],
     "paso": "confirmar_producto",
