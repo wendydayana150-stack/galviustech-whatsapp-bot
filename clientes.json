@@ -3,8 +3,8 @@
     "telefono": "573168649414",
     "nombre": "3168649414",
     "primerContacto": "2026-09-05T12:18:37.456Z",
-    "ultimoContacto": "2026-09-05T12:18:46.025Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-05T12:19:45.359Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "¡Hola! Claro que sí, con gusto te cuento 😊\n\nAntes de darte el precio exacto, cuéntame: ¿qué producto te interesa? Tenemos módems de internet portátil (4G, 4G/5G y 5G), impresora térmica portátil, y lámparas solares con sensor.\n\nY para orientarte mejor, ¿me cuentas en qué municipio o ciudad estarías usándolo, y para qué lo necesitas principalmente (trabajo, estudio, hogar, negocio o viajes)?",
         "fecha": "2026-09-05T12:18:45.165Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "4G santa Marta",
+        "fecha": "2026-09-05T12:19:39.342Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Santa Marta! 🙌 El Módem WiFi Portátil 4G tiene un valor de **$199.900**.\n\nAhora cuéntame, para orientarte mejor: ¿lo necesitarías para el hogar, trabajo, estudio o negocio? Y otra cosa importante, ¿estás en zona urbana de Santa Marta o más bien en una vereda/corregimiento donde la señal es más complicada?\n\nAsí te confirmo si este módem es el que mejor le va a resolver la conexión a tu caso, porque tiene mucha mejor cobertura que un celular normal 📶",
+        "fecha": "2026-09-05T12:19:44.463Z"
       }
     ],
     "paso": "confirmar_producto",
