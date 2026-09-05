@@ -215,8 +215,8 @@
     "telefono": "584126503210",
     "nombre": "minervagomez189a",
     "primerContacto": "2026-09-05T19:18:39.533Z",
-    "ultimoContacto": "2026-09-05T20:36:11.705Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-05T20:38:13.237Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -367,6 +367,16 @@
         "rol": "bot",
         "texto": "¡Qué bueno Minerva, me alegra mucho! 😊 Ya casi lo tenemos listo, solo necesito estos 2 datos para poder despachar tu impresora térmica:\n\n🏘️ **Barrio** donde queda el Servientrega\n📍 **Dirección exacta** (calle o carrera y número) del Servientrega en Maicao\n\nCon eso ya completamos tu pedido y lo enviamos a confirmar despacho 📦 ¿Me los compartes?",
         "fecha": "2026-09-05T20:36:10.741Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una servi entrega de maicao p retirarlo",
+        "fecha": "2026-09-05T20:38:08.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Entendido Minerva! Perfecto que lo retires en un Servientrega, eso hace todo más fácil 📦\n\nPara dejarlo enviado a ese punto, necesito el **nombre completo del Servientrega o la dirección exacta** (calle/carrera, número, barrio) donde funciona esa sede en Maicao, para que el envío llegue directo ahí y puedas reclamarlo sin problema.\n\n¿Me ayudas con esa dirección para terminar de confirmar tu pedido? 😊",
+        "fecha": "2026-09-05T20:38:12.432Z"
       }
     ],
     "paso": "confirmar_producto",
