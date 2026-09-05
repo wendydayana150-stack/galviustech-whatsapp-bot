@@ -3,8 +3,8 @@
     "telefono": "573232822351",
     "nombre": "Luz Sanchez",
     "primerContacto": "2026-09-05T19:01:43.036Z",
-    "ultimoContacto": "2026-09-05T19:03:26.602Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-05T19:04:14.310Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Claro que sí, te doy un resumen rápido de precios para que tengas una idea 👇\n\n📶 **Módems WiFi portátil:**\n- 4G: $199.900\n- 4G/5G: $239.900\n- 5G: $249.900\n\n🖨️ **Impresora térmica portátil:** $289.900\n\n💡 **Lámparas solares (x2 unidades):**\n- 3 lentes: $170.000\n- Con sensor de movimiento: $119.900\n\nPara darte la recomendación más acertada y que no pagues por algo que no necesitas, cuéntame: ¿cuál de estos te llama más la atención, el módem para internet, la impresora, o las lámparas? 😊\n\n¿Y para qué lo usarías principalmente (trabajo, estudio, hogar, negocio)?",
         "fecha": "2026-09-05T19:03:25.775Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Módem más Internet",
+        "fecha": "2026-09-05T19:04:08.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! El módem es una excelente opción para tener tu propio internet sin depender de nadie más 📶\n\nPara recomendarte el modelo correcto (4G, 4G/5G o 5G), cuéntame:\n\n1️⃣ ¿En qué ciudad, municipio o vereda lo usarías?\n2️⃣ ¿Qué operador tienes disponible ahí (Claro, Movistar, Tigo, WOM)?\n3️⃣ ¿Para qué lo necesitas principalmente? (trabajo, estudio, hogar, negocio, viajes)\n\nCuéntame un poco de tu situación actual, ¿ahora mismo cómo te estás conectando? ¿Compartes datos del celular, usas WiFi de algún vecino, o no tienes ninguna conexión por ahí? 😊",
+        "fecha": "2026-09-05T19:04:13.195Z"
       }
     ],
     "paso": "confirmar_producto",
