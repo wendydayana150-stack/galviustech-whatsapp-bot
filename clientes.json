@@ -3,8 +3,8 @@
     "telefono": "573118706929",
     "nombre": "Maritza Bedoya",
     "primerContacto": "2026-09-05T01:36:41.912Z",
-    "ultimoContacto": "2026-09-05T01:36:41.912Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T01:36:52.834Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T01:36:41.152Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio x favor",
+        "fecha": "2026-09-05T01:36:49.328Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Con gusto te cuento los precios, pero antes cuéntame: ¿qué producto te interesa? ¿Es el módem para internet o la impresora térmica?\n\nY de paso, cuéntame en qué municipio o ciudad estarías usándolo y para qué lo necesitarías principalmente (trabajo, estudio, negocio, viajes), así te recomiendo la mejor opción para ti 🙌",
+        "fecha": "2026-09-05T01:36:52.038Z"
       }
     ],
     "paso": "confirmar_producto",
