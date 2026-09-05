@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:11:58.336Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-05T23:14:34.184Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -170,14 +170,25 @@
         "rol": "bot",
         "texto": "Genial, elegiste *COMBO Modem Wifi + Camara de seguridad* ($ 289.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-09-05T23:11:57.501Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega",
+        "fecha": "2026-09-05T23:14:33.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-05T23:14:33.359Z"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
-      "telefono": "573216906288"
+      "telefono": "573216906288",
+      "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega"
     },
     "pausado": false,
     "etapaManual": null
