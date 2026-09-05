@@ -8223,64 +8223,32 @@
     "telefono": "573005001170",
     "nombre": "Marinella",
     "primerContacto": "2026-09-04T19:19:06.198Z",
-    "ultimoContacto": "2026-09-04T20:22:04.811Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-05T17:45:08.823Z",
+    "mensajes": 3,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¡Hola! Quiero más información de Impresora termica",
-        "fecha": "2026-09-04T19:19:02.923Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-04T19:19:02.923Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-04T19:19:03.844Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-04T19:19:04.390Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
-        "fecha": "2026-09-04T19:19:04.859Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-09-04T19:19:05.496Z"
-      },
-      {
         "rol": "bot",
         "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
-        "fecha": "2026-09-04T20:07:33.677Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
-        "fecha": "2026-09-04T20:18:31.247Z"
+        "fecha": "2026-09-05T17:43:57.937Z"
       },
       {
         "rol": "cliente",
-        "texto": "Y vendes las hojas térmicas?",
-        "fecha": "2026-09-04T20:21:58.975Z"
+        "texto": "Gracias no estoy interesada",
+        "fecha": "2026-09-05T17:45:07.387Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Hola! Que pena, no manejamos hojas térmicas de repuesto como producto individual en el catálogo 😅 Nos enfocamos en la impresora térmica portátil como equipo completo.\n\nAhora, dato importante: los rollos de papel térmico para este tipo de impresoras los consigues fácilmente en papelerías o tiendas de insumos de oficina, son bastante comunes y económicos.\n\nCuéntame, ¿ya tienes la impresora o estás pensando en adquirirla? Si es lo segundo, me encantaría contarte cómo te puede resolver el tema de imprimir documentos, facturas o cotizaciones sin depender de una papelería. ¿En qué trabajas o qué necesitarías imprimir principalmente? 😊",
-        "fecha": "2026-09-04T20:22:04.028Z"
+        "texto": "Hola Marinella! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-05T17:45:07.387Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-05T17:45:07.980Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "impresora-termica"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
