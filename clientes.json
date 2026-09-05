@@ -4646,16 +4646,31 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T18:00:20.117Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-05T18:01:11.699Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "bot",
         "texto": "Hola, me confirmas el nombre",
         "fecha": "2026-09-05T18:00:18.929Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tatiana",
+        "fecha": "2026-09-05T18:01:10.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Maria Martha! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-05T18:01:10.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-05T18:01:10.852Z"
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null
