@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:09:31.273Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-05T13:09:58.860Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6287,6 +6287,36 @@
         "rol": "bot",
         "texto": "¡Hola! Que bueno que ya quieras hacer tu pedido 🙌\n\nPara dejarlo listo, cuéntame primero: ¿cuál de nuestros productos te interesa? Tenemos:\n\n📶 Módem WiFi Portátil (4G, 4G/5G o 5G)\n🖨️ Impresora Térmica Portátil\n💡 Lámparas solares (3 lentes o con sensor)\n\n¿Cuál de estos necesitas?",
         "fecha": "2026-09-05T13:09:30.258Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-09-05T13:09:47.447Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente elección! 🖨️ La Impresora Térmica Portátil Bluetooth tiene un precio de $289.900, y sin duda es de lo mejor que puedes tener para no depender de una papelería cuando algo te urge imprimir.\n\nNo necesita tinta ni tóner, así que te ahorras dinero desde la primera impresión, y funciona desde tu celular por Bluetooth. Muchos emprendedores, mensajeros y personas que trabajan fuera de oficina ya la están usando y les ha cambiado el día a día 💪\n\nPara dejarte el pedido listo, ¿me regalas tu nombre completo?",
+        "fecha": "2026-09-05T13:09:55.536Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-05T13:09:56.293Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-05T13:09:56.873Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-05T13:09:57.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-05T13:09:57.974Z"
       }
     ],
     "paso": "confirmar_producto",
