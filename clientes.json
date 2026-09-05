@@ -4539,8 +4539,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T18:04:34.503Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-09-05T18:04:43.118Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "bot",
@@ -4706,9 +4706,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-05T18:04:33.759Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Monteria",
+        "fecha": "2026-09-05T18:04:42.289Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-05T18:04:42.289Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -4716,7 +4726,8 @@
       "telefono": "573206975750",
       "nombreCliente": "Tatiana López",
       "celular": "3206975750",
-      "departamento": "Córdoba"
+      "departamento": "Córdoba",
+      "ciudad": "Monteria"
     },
     "pausado": false,
     "etapaManual": null
