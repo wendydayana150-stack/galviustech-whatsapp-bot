@@ -941,16 +941,31 @@
     "telefono": "573026558192",
     "nombre": "stivenson Sarmiento",
     "primerContacto": "2026-09-05T16:01:50.781Z",
-    "ultimoContacto": "2026-09-05T17:43:59.654Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-05T18:17:29.552Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
         "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que tenemos promociones activas en nuestros productos.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
-        "fecha": "2026-09-05T17:43:07.163Z"
+        "fecha": "2026-09-05T18:17:03.561Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-09-05T18:17:27.709Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola stivenson Sarmiento! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-05T18:17:27.709Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-05T18:17:28.544Z"
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null
