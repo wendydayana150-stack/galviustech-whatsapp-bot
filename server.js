@@ -922,27 +922,13 @@ async function manejarFlujoPedido(telefono, texto) {
 
       if (sesion.paso === "pedido_pago") {
             sesion.pedido.medioPago = texto;
-            sesion.paso = "esperando_confirmacion_envio";
             if (texto.toLowerCase().includes("transf")) {
                   await enviarTexto(telefono, config.mensajeDatosTransferencia);
             }
-            await enviarTexto(telefono, config.mensajeConfirmacionPedido);
-            return true;
-      }
-
-      if (sesion.paso === "esperando_confirmacion_envio") {
-            const textoLower = texto.toLowerCase();
-            if (textoLower.includes("confirmo") || textoLower.includes("si")) {
-                  await enviarTexto(telefono, config.mensajePedidoConfirmado);
-                  await guardarPedido(sesion.pedido);
-                  sesion.paso = "conversando";
-                  sesion.pedido = {};
-            } else {
-                  await enviarTexto(
-                        telefono,
-                        "Sin problema, cuando quieras confirmar solo responde Si, confirmo y despachamos tu pedido."
-                        );
-            }
+            await enviarTexto(telefono, config.mensajeResumenPedido(sesion.pedido));
+            await guardarPedido(sesion.pedido);
+            sesion.paso = "conversando";
+            sesion.pedido = {};
             return true;
       }
 

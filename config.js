@@ -143,20 +143,27 @@ const mensajeDespedida =
 const mensajeAsesorHumano =
             "Listo, dame un momento y te sigo ayudando yo misma por aqui 😊";
 
-const mensajeConfirmacionPedido =
-            "Confirmacion de Pedido - GalviusTech\n\n" +
-            "Muchas gracias por confiar en GalviusTech!\n\n" +
-            "Antes de procesar tu pedido, queremos pedirte un ultimo favor.\n\n" +
-            "Cada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\n" +
-            "Al confirmar tu pedido, te comprometes a:\n" +
-            "- Recibir el producto en la direccion registrada.\n" +
-            "- Estar pendiente de las llamadas o mensajes de la transportadora.\n" +
-            "- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\n" +
-            "Este compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\n" +
-            "Confirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.";
+const mensajeResumenPedido = (pedido) => {
+            const linea = (etiqueta, valor) => `*${etiqueta}:* ${valor || "-"}`;
+            const resumen = [
+                        linea("Nombre", pedido.nombreCliente),
+                        linea("Celular", pedido.celular),
+                        linea("Departamento", pedido.departamento),
+                        linea("Ciudad", pedido.ciudad),
+                        linea("Direccion", pedido.direccion),
+                        linea("Barrio", pedido.barrio),
+                        linea("Producto", pedido.nombreProducto),
+                        linea("Medio de pago", pedido.medioPago),
+            ].join("\n");
 
-const mensajePedidoConfirmado =
-            "Perfecto! Tu pedido ha sido confirmado y pasara a despacho. Muchas gracias por confiar en GalviusTech.";
+            return (
+                        "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n" +
+                        resumen + "\n\n" +
+                        "Muchas gracias por confiar en GalviusTech! 😊\n\n" +
+                        "Cada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\n" +
+                        "Tu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte."
+            );
+};
 
 const mensajeDatosTransferencia =
             "Estos son los datos para tu transferencia:\n\n" +
@@ -217,8 +224,7 @@ module.exports = {
             mensajeBienvenida,
             mensajeDespedida,
             mensajeAsesorHumano,
-            mensajeConfirmacionPedido,
-            mensajePedidoConfirmado,
+            mensajeResumenPedido,
             mensajeDatosTransferencia,
             mensajeRecordatorio30Min,
             mensajeRecordatorio2Horas,
