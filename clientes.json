@@ -3,8 +3,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T03:08:49.248Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-05T03:08:54.589Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -100,9 +100,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-05T03:08:48.533Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Monteros",
+        "fecha": "2026-09-05T03:08:53.946Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-05T03:08:53.946Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -110,7 +120,8 @@
       "telefono": "573206975750",
       "nombreCliente": "No hay más barata",
       "celular": "3206975750",
-      "departamento": "Córdoba"
+      "departamento": "Córdoba",
+      "ciudad": "Monteros"
     },
     "pausado": false,
     "etapaManual": null
