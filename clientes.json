@@ -48,8 +48,8 @@
     "telefono": "573232291465",
     "nombre": "federicomartinezcordero",
     "primerContacto": "2026-09-05T01:48:17.205Z",
-    "ultimoContacto": "2026-09-05T01:55:25.545Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-05T01:56:31.159Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -175,6 +175,16 @@
         "rol": "bot",
         "texto": "Sí, exacto 😊 La SIM card debe tener un **plan de datos activo** (como el que usarías normalmente en un celular), porque el módem lo que hace es tomar esa señal de datos móviles y convertirla en WiFi para tus dispositivos.\n\nPuedes usar un plan pospago, prepago, o paquetes de datos que recargues, lo que más te convenga o lo que ya tengas contratado con tu operador. El módem no trae datos incluidos, tú eliges el plan que más se ajuste a tu bolsillo y a tu uso 📶\n\n¿Tienes ya una idea de qué operador usarías, o normalmente recargas datos por paquetes? Así te confirmo que todo va a funcionar perfecto para ti.\n\nY bueno, ¿seguimos con tu pedido? Contame tu nombre completo para ir tomando los datos del envío 📦",
         "fecha": "2026-09-05T01:55:24.873Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y que tal es en partes en donde no hay nada de cobertura",
+        "fecha": "2026-09-05T01:56:23.904Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta, y te la respondo con toda honestidad 😊 El módem funciona captando la señal 4G/5G que exista en la zona, así sea débil, y gracias a su antena más potente la aprovecha mucho mejor que el celular. Pero si en el punto exacto **no hay absolutamente nada de señal** (ni siquiera una rayita en el celular), ningún equipo puede generar cobertura de la nada, eso ya dependería de que la operadora tenga alguna torre cerca.\n\nLo que sí te puedo asegurar es que en la gran mayoría de veredas donde el celular capta algo de señal, aunque sea poquita o intermitente, el módem la aprovecha muchísimo mejor y te da una conexión más estable 📶\n\nCuéntame, en el punto exacto donde lo usarías normalmente, ¿tu celular alcanza a mostrar aunque sea una o dos rayitas de señal en algún momento? Así te confirmo con más seguridad cómo te funcionaría.",
+        "fecha": "2026-09-05T01:56:30.476Z"
       }
     ],
     "paso": "conversando",
