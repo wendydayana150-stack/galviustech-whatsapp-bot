@@ -3,8 +3,8 @@
     "telefono": "573222015689",
     "nombre": "Elsy",
     "primerContacto": "2026-09-05T14:47:17.742Z",
-    "ultimoContacto": "2026-09-05T14:47:17.742Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T14:48:19.524Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T14:47:16.879Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo le aviso cuando tenga la plata para Aser el pedido gracias",
+        "fecha": "2026-09-05T14:48:14.848Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí, no hay ningún problema! 😊\n\nEntiendo perfectamente, cuando tengas la platica lista aquí voy a estar para ayudarte a completar tu pedido sin complicaciones.\n\nSolo para tenerlo presente y no perder el hilo: ¿era el módem o la impresora la que te interesaba? Así, cuando me escribas, retomamos directo sin que tengas que explicarme todo de nuevo.\n\nY aprovechando, cuéntame ¿en qué municipio o vereda estás? Así ya te tengo todo listo para cuando decidas dar el paso 🙌",
+        "fecha": "2026-09-05T14:48:18.578Z"
       }
     ],
     "paso": "confirmar_producto",
