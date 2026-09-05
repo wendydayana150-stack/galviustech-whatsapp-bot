@@ -1346,9 +1346,18 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             📎
             <input type="file" name="archivo" accept="image/*,video/*" onchange="document.getElementById('nombreArchivo').textContent = this.files[0] ? 'Adjunto: ' + this.files[0].name : '';">
             </label>
-            <input type="text" name="mensaje" placeholder="Escribe tu mensaje o agrega una foto/video..." autocomplete="off">
+            <input type="text" name="mensaje" id="campoMensaje" placeholder="Escribe tu mensaje o agrega una foto/video..." autocomplete="off">
             <button type="submit">Enviar</button>
             </form>
+            <script>
+            function irAlFinal() {
+                  window.scrollTo(0, document.body.scrollHeight);
+            }
+            window.addEventListener("load", irAlFinal);
+            document.getElementById("campoMensaje").addEventListener("focus", function () {
+                  setTimeout(irAlFinal, 300);
+            });
+            </script>
             </body>
             </html>
             `);
