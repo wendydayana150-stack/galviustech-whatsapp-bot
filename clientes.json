@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:16:23.250Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-05T23:16:46.259Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,9 +200,29 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-05T23:16:22.359Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Llorente Nariño pero vivo en finca",
+        "fecha": "2026-09-05T23:16:45.454Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-05T23:16:45.454Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tumaco",
+        "fecha": "2026-09-05T23:16:46.068Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-05T23:16:46.068Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -210,7 +230,9 @@
       "telefono": "573216906288",
       "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega",
       "celular": "Número de celular 3044171127",
-      "departamento": "Llorente Nariño pero vivo en finca"
+      "departamento": "Llorente Nariño pero vivo en finca",
+      "ciudad": "Llorente Nariño pero vivo en finca",
+      "direccion": "Tumaco"
     },
     "pausado": false,
     "etapaManual": null
