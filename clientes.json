@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:10:29.889Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-05T13:10:38.533Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6337,15 +6337,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-05T13:10:29.049Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3112664741",
+        "fecha": "2026-09-05T13:10:37.700Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-05T13:10:37.700Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
       "telefono": "573112663741",
-      "nombreCliente": "Brian Stiven pinzón castro"
+      "nombreCliente": "Brian Stiven pinzón castro",
+      "celular": "3112664741"
     },
     "pausado": false,
     "etapaManual": null,
