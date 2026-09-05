@@ -3,8 +3,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T03:08:54.589Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-05T03:10:01.831Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,9 +110,19 @@
         "rol": "bot",
         "texto": "Cual es tu direccion completa?",
         "fecha": "2026-09-05T03:08:53.946Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Monteria Calle 64a#704 el refugio segundo conjunto la primera casa",
+        "fecha": "2026-09-05T03:10:01.052Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-05T03:10:01.052Z"
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -121,7 +131,8 @@
       "nombreCliente": "No hay más barata",
       "celular": "3206975750",
       "departamento": "Córdoba",
-      "ciudad": "Monteros"
+      "ciudad": "Monteros",
+      "direccion": "Monteria Calle 64a#704 el refugio segundo conjunto la primera casa"
     },
     "pausado": false,
     "etapaManual": null
