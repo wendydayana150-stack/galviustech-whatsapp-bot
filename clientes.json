@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:11:09.056Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-05T23:11:58.336Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -160,10 +160,25 @@
         "rol": "bot",
         "texto": "¡Buena pregunta! Sobre la cámara que va en los combos, la verdad no tengo el detalle 100% confirmado de si es recargable o si funciona conectada, así que no quiero decirte algo que no esté seguro y luego te lleves una sorpresa. Si quieres, en cuanto avancemos con tu pedido te confirmo esa info exacta con nuestro equipo 🙏\n\nPor ahora sigamos avanzando con tu Módem WiFi 4G/5G que ya vamos a dejar listo para que lo tengas pronto contigo en el campo 💪\n\n¿Me regalas tu nombre completo y número de celular para continuar con el pedido?",
         "fecha": "2026-09-05T23:11:08.243Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con camara de regalo",
+        "fecha": "2026-09-05T23:11:57.501Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Camara de seguridad* ($ 289.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-05T23:11:57.501Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "combo-modem-wifi-camara-de-seguridad",
+      "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
+      "precio": 289900,
+      "telefono": "573216906288"
+    },
     "pausado": false,
     "etapaManual": null
   },
