@@ -1,12 +1,18 @@
 require("dotenv").config();
 const express = require("express");
 const axios = require("axios");
+const multer = require("multer");
 const catalogo = require("./catalog.json");
 const config = require("./config.js");
 
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+
+const subirArchivoChat = multer({
+      storage: multer.memoryStorage(),
+      limits: { fileSize: 16 * 1024 * 1024 },
+});
 
 const {
         META_TOKEN,
@@ -136,6 +142,50 @@ async function enviarVideo(telefono, urlVideo, caption) {
                   to: telefono,
                   type: "video",
                   video: { link: urlVideo, caption: caption || "" },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+}
+
+async function subirMediaWhatsApp(buffer, mimetype) {
+      const formData = new FormData();
+      formData.append("messaging_product", "whatsapp");
+      formData.append("file", new Blob([buffer], { type: mimetype }));
+      const respuesta = await fetch(`https://graph.facebook.com/v20.0/${PHONE_NUMBER_ID}/media`, {
+            method: "POST",
+            headers: { Authorization: `Bearer ${META_TOKEN}` },
+            body: formData,
+      });
+      const datos = await respuesta.json();
+      if (!datos.id) {
+            throw new Error("No se pudo subir el archivo a WhatsApp: " + JSON.stringify(datos));
+      }
+      return datos.id;
+}
+
+async function enviarImagenPorId(telefono, mediaId, caption) {
+      registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
+      await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "image",
+                  image: { id: mediaId, caption: caption || "" },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+}
+
+async function enviarVideoPorId(telefono, mediaId, caption) {
+      registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
+      await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "video",
+                  video: { id: mediaId, caption: caption || "" },
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
@@ -619,6 +669,20 @@ async function enviarMensajeManual(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
       await enviarTexto(telefono, texto);
+      await guardarCliente(telefono);
+}
+
+async function enviarArchivoManual(telefono, archivo, caption) {
+      const sesion = obtenerSesion(telefono);
+      sesion.pausado = true;
+      const mediaId = await subirMediaWhatsApp(archivo.buffer, archivo.mimetype);
+      if (archivo.mimetype.startsWith("image/")) {
+            await enviarImagenPorId(telefono, mediaId, caption);
+      } else if (archivo.mimetype.startsWith("video/")) {
+            await enviarVideoPorId(telefono, mediaId, caption);
+      } else {
+            throw new Error("Solo se permiten imagenes o videos.");
+      }
       await guardarCliente(telefono);
 }
 
@@ -1203,16 +1267,18 @@ app.post("/admin/etapa/:telefono", requiereLogin, async (req, res) => {
       }
 });
 
-app.post("/admin/chat/:telefono/enviar", requiereLogin, async (req, res) => {
+app.post("/admin/chat/:telefono/enviar", requiereLogin, subirArchivoChat.single("archivo"), async (req, res) => {
       try {
             const mensaje = (req.body.mensaje || "").trim();
-            if (mensaje) {
+            if (req.file) {
+                  await enviarArchivoManual(req.params.telefono, req.file, mensaje);
+            } else if (mensaje) {
                   await enviarMensajeManual(req.params.telefono, mensaje);
             }
             res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
       } catch (error) {
             console.error("Error enviando mensaje manual:", error.response?.data || error.message);
-            res.status(500).send("Hubo un error enviando el mensaje.");
+            res.status(500).send("Hubo un error enviando el mensaje. " + (error.message || ""));
       }
 });
 
@@ -1252,9 +1318,12 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             .burbuja.bot { background: #dcf8c6; margin-left: auto; }
             .hora { font-size: 11px; color: #888; margin-top: 4px; text-align: right; }
             .pausa { background: #fff3cd; padding: 10px 16px; text-align: center; font-size: 14px; }
-            .escribir { position: fixed; bottom: 0; left: 0; right: 0; background: white; padding: 12px; display: flex; gap: 8px; max-width: 700px; margin: 0 auto; box-shadow: 0 -2px 6px rgba(0,0,0,0.1); }
-            .escribir input { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; }
+            .escribir { position: fixed; bottom: 0; left: 0; right: 0; background: white; padding: 12px; display: flex; gap: 8px; align-items: center; max-width: 700px; margin: 0 auto; box-shadow: 0 -2px 6px rgba(0,0,0,0.1); }
+            .escribir input[type="text"] { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; }
+            .escribir label.adjuntar { padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 18px; cursor: pointer; background: #f5f5f5; }
+            .escribir input[type="file"] { display: none; }
             .escribir button { padding: 10px 18px; background: #25D366; color: white; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; }
+            .archivo-nombre { font-size: 12px; color: #666; max-width: 700px; margin: 0 auto 6px; padding: 0 16px; }
             .aviso { max-width: 700px; margin: 10px auto; padding: 0 16px; font-size: 12px; color: #666; text-align: center; }
             </style>
             </head>
@@ -1271,8 +1340,13 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             ${burbujas || "<p>Todavia no hay mensajes guardados de esta conversacion.</p>"}
             </div>
             <div class="aviso">${cliente.pausado ? "El bot esta pausado, tus mensajes se enviaran directamente al cliente." : "Al escribir aqui, el bot se pausara automaticamente para este cliente."}</div>
-            <form class="escribir" method="POST" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/enviar">
-            <input type="text" name="mensaje" placeholder="Escribe tu mensaje..." autocomplete="off" required>
+            <div class="archivo-nombre" id="nombreArchivo"></div>
+            <form class="escribir" method="POST" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/enviar" enctype="multipart/form-data">
+            <label class="adjuntar" title="Adjuntar foto o video">
+            📎
+            <input type="file" name="archivo" accept="image/*,video/*" onchange="document.getElementById('nombreArchivo').textContent = this.files[0] ? 'Adjunto: ' + this.files[0].name : '';">
+            </label>
+            <input type="text" name="mensaje" placeholder="Escribe tu mensaje o agrega una foto/video..." autocomplete="off">
             <button type="submit">Enviar</button>
             </form>
             </body>
