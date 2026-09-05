@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:15:49.631Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-05T23:16:23.250Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -190,16 +190,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-09-05T23:15:48.572Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Llorente Nariño pero vivo en finca",
+        "fecha": "2026-09-05T23:16:22.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-05T23:16:22.359Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573216906288",
       "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega",
-      "celular": "Número de celular 3044171127"
+      "celular": "Número de celular 3044171127",
+      "departamento": "Llorente Nariño pero vivo en finca"
     },
     "pausado": false,
     "etapaManual": null
