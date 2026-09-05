@@ -3,8 +3,8 @@
     "telefono": "573194701288",
     "nombre": "ALVARO RIOS SINING",
     "primerContacto": "2026-09-05T00:27:19.097Z",
-    "ultimoContacto": "2026-09-05T00:27:19.097Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T00:27:47.090Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T00:27:18.395Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-05T00:27:46.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-05T00:27:46.331Z"
       }
     ],
     "paso": "confirmar_producto",
