@@ -3,8 +3,8 @@
     "telefono": "573232822351",
     "nombre": "Luz Sanchez",
     "primerContacto": "2026-09-05T19:01:43.036Z",
-    "ultimoContacto": "2026-09-05T19:02:52.839Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-05T19:03:26.602Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,6 +75,16 @@
         "rol": "bot",
         "texto": "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?",
         "fecha": "2026-09-05T19:02:51.984Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio",
+        "fecha": "2026-09-05T19:03:20.726Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te doy un resumen rápido de precios para que tengas una idea 👇\n\n📶 **Módems WiFi portátil:**\n- 4G: $199.900\n- 4G/5G: $239.900\n- 5G: $249.900\n\n🖨️ **Impresora térmica portátil:** $289.900\n\n💡 **Lámparas solares (x2 unidades):**\n- 3 lentes: $170.000\n- Con sensor de movimiento: $119.900\n\nPara darte la recomendación más acertada y que no pagues por algo que no necesitas, cuéntame: ¿cuál de estos te llama más la atención, el módem para internet, la impresora, o las lámparas? 😊\n\n¿Y para qué lo usarías principalmente (trabajo, estudio, hogar, negocio)?",
+        "fecha": "2026-09-05T19:03:25.775Z"
       }
     ],
     "paso": "confirmar_producto",
