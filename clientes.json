@@ -4539,8 +4539,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T18:05:07.919Z",
-    "mensajes": 32,
+    "ultimoContacto": "2026-09-05T18:05:19.777Z",
+    "mensajes": 33,
     "conversacion": [
       {
         "rol": "bot",
@@ -4736,21 +4736,20 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-09-05T18:05:07.059Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-09-05T18:05:18.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Tatiana López\n*Celular:* 3206975750\n*Departamento:* Córdoba\n*Ciudad:* Monteria\n*Direccion:* 3206975750\n*Barrio:* Calle 64a#704 el Refugio segundo conjunto\n*Producto:* Impresora Termica Portatil Bluetooth\n*Medio de pago:* Contra entrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-05T18:05:18.200Z"
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "impresora-termica",
-      "nombreProducto": "Impresora Termica Portatil Bluetooth",
-      "precio": 289900,
-      "telefono": "573206975750",
-      "nombreCliente": "Tatiana López",
-      "celular": "3206975750",
-      "departamento": "Córdoba",
-      "ciudad": "Monteria",
-      "direccion": "3206975750",
-      "barrio": "Calle 64a#704 el Refugio segundo conjunto"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
