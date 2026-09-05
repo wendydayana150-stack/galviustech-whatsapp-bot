@@ -3,8 +3,8 @@
     "telefono": "573232822351",
     "nombre": "Luz Sanchez",
     "primerContacto": "2026-09-05T19:01:43.036Z",
-    "ultimoContacto": "2026-09-05T19:01:43.036Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T19:01:54.397Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T19:01:41.625Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-09-05T19:01:49.208Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento los precios, pero para recomendarte bien y que no gastes de más en algo que no necesitas, cuéntame:\n\n¿Qué producto te interesa? ¿Buscas internet portátil (módem), una impresora para documentos/facturas, o algo de iluminación/seguridad (lámparas)?\n\nY cuéntame también, ¿para qué lo necesitarías principalmente? Así te doy el precio justo y te explico por qué te conviene 📶🖨️💡",
+        "fecha": "2026-09-05T19:01:53.521Z"
       }
     ],
     "paso": "confirmar_producto",
