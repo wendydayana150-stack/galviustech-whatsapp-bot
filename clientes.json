@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:14:34.184Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-05T23:15:49.631Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -180,15 +180,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-05T23:14:33.359Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Número de celular 3044171127",
+        "fecha": "2026-09-05T23:15:48.571Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-05T23:15:48.572Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573216906288",
-      "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega"
+      "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega",
+      "celular": "Número de celular 3044171127"
     },
     "pausado": false,
     "etapaManual": null
