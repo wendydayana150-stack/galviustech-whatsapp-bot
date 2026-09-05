@@ -4539,8 +4539,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T18:04:10.494Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-09-05T18:04:21.606Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "bot",
@@ -4686,15 +4686,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-05T18:04:09.650Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3206975750",
+        "fecha": "2026-09-05T18:04:20.899Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-05T18:04:20.899Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 289900,
       "telefono": "573206975750",
-      "nombreCliente": "Tatiana López"
+      "nombreCliente": "Tatiana López",
+      "celular": "3206975750"
     },
     "pausado": false,
     "etapaManual": null
