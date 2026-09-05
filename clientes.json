@@ -3,8 +3,8 @@
     "telefono": "573122417218",
     "nombre": "josealtamidermoreno",
     "primerContacto": "2026-09-05T13:18:47.167Z",
-    "ultimoContacto": "2026-09-05T13:18:47.167Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T13:19:10.840Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,31 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T13:18:46.539Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero este",
+        "fecha": "2026-09-05T13:19:08.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-05T13:19:08.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-05T13:19:08.606Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-05T13:19:09.163Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-05T13:19:09.785Z"
       }
     ],
     "paso": "confirmar_producto",
