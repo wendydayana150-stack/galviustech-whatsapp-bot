@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:17:14.214Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-05T23:17:35.028Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -230,21 +230,20 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-09-05T23:17:13.537Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contraentrega",
+        "fecha": "2026-09-05T23:17:33.517Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega\n*Celular:* Número de celular 3044171127\n*Departamento:* Llorente Nariño pero vivo en finca\n*Ciudad:* Llorente Nariño pero vivo en finca\n*Direccion:* Tumaco\n*Barrio:* Oficina interrapidismo \nCalle principal las palmas\n*Producto:* COMBO Modem Wifi + Camara de seguridad\n*Medio de pago:* Contraentrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-05T23:17:33.517Z"
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-modem-wifi-camara-de-seguridad",
-      "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
-      "precio": 289900,
-      "telefono": "573216906288",
-      "nombreCliente": "Camilo Pai Pascal \n3044171127\nNariño \nLlorente \nOficina interrapidismo \nCalle principal las palmas \nContraentrega",
-      "celular": "Número de celular 3044171127",
-      "departamento": "Llorente Nariño pero vivo en finca",
-      "ciudad": "Llorente Nariño pero vivo en finca",
-      "direccion": "Tumaco",
-      "barrio": "Oficina interrapidismo \nCalle principal las palmas"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
