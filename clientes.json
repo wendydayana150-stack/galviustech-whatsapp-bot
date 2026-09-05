@@ -3,8 +3,8 @@
     "telefono": "573113481173",
     "nombre": "CRONOS",
     "primerContacto": "2026-09-05T02:34:01.134Z",
-    "ultimoContacto": "2026-09-05T02:34:01.134Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T02:34:05.290Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T02:34:00.535Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-05T02:34:02.145Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te ayudo con el precio, pero primero cuéntame para saber recomendarte bien: ¿qué producto te interesa, el módem de internet portátil o la impresora térmica? Y de una vez me cuentas, ¿en qué ciudad o municipio estás?",
+        "fecha": "2026-09-05T02:34:04.710Z"
       }
     ],
     "paso": "confirmar_producto",
