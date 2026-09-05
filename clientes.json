@@ -246,8 +246,8 @@
     "telefono": "573232921703",
     "nombre": "Gh",
     "primerContacto": "2026-09-05T02:37:53.089Z",
-    "ultimoContacto": "2026-09-05T03:10:29.814Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-05T03:13:02.823Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -303,6 +303,16 @@
         "rol": "bot",
         "texto": "Entiendo, y te agradezco la sinceridad 🙏\n\nTe cuento con toda honestidad: el módem funciona captando señal móvil (4G/5G) de algún operador, pero con una antena mucho más potente que la de un celular, así que logra conectar en zonas donde el celular no marca nada porque la señal ahí sí existe, solo que muy débil para el celular. Pero si en tu zona literalmente NO llega ninguna señal de ningún operador (ni Claro, ni Movistar, ni Tigo, ni WOM), ahí sí sería honesta contigo: el módem tampoco podría generar internet de la nada.\n\nPor eso es importante confirmar bien tu ubicación. ¿Me regalas el nombre de tu municipio y vereda? Muchas veces hay operadores que sí llegan (aunque sea uno solo) y el cliente no lo sabe porque solo ha probado con su operador actual. Con esa info te puedo orientar con seguridad si el módem te serviría o no. ¿Cuál es tu operador actual y en qué municipio/vereda estás? 📍",
         "fecha": "2026-09-05T03:10:29.024Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio combension vereda aguablanca",
+        "fecha": "2026-09-05T03:12:55.749Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la info 😊 Combension, vereda Aguablanca, anotado.\n\nCon honestidad te digo: no tengo forma de confirmarte al 100% desde aquí si en esa vereda específica hay señal de algún operador, eso lo sabremos mejor probando el módem directamente en el lugar, porque la cobertura real puede variar punto a punto (a veces con subir un poco el módem, ponerlo cerca de una ventana o en la parte más alta de la casa, capta señal donde el celular no la capta).\n\nCuéntame, ¿cuál es tu operador actual en el celular (Claro, Movistar, Tigo, WOM)? Y otra cosa importante, ¿alguna vez has visto que a alguien en tu vereda o zona cercana le funcione el celular aunque sea con una rayita de señal? Eso me ayuda mucho a orientarte mejor antes de que decidas si te conviene el módem 📶",
+        "fecha": "2026-09-05T03:13:01.872Z"
       }
     ],
     "paso": "conversando",
