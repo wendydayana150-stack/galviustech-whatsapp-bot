@@ -449,64 +449,32 @@
     "telefono": "573215353428",
     "nombre": "Ursina Figueroa 💞",
     "primerContacto": "2026-09-05T13:03:51.363Z",
-    "ultimoContacto": "2026-09-05T13:04:18.848Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-05T13:43:38.860Z",
+    "mensajes": 4,
     "conversacion": [
       {
-        "rol": "cliente",
-        "texto": "¡Hola! Quiero más información de Impresora termica",
-        "fecha": "2026-09-05T13:03:48.610Z"
-      },
-      {
         "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-05T13:03:48.610Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-05T13:03:49.233Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-05T13:03:49.594Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 289.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
-        "fecha": "2026-09-05T13:03:50.199Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-09-05T13:03:50.715Z"
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 289.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-05T13:42:17.788Z"
       },
       {
         "rol": "cliente",
-        "texto": "Que precio tiene",
-        "fecha": "2026-09-05T13:03:54.379Z"
+        "texto": "No no me sirve es muy pequeña",
+        "fecha": "2026-09-05T13:43:37.370Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Hola! Qué bueno que te intereses 😊 Soy Michell de GalviusTech.\n\nPara darte el precio correcto, cuéntame: ¿qué producto tenías en mente? Tenemos módems de internet portátil (4G, 4G/5G y 5G), impresora térmica portátil, y lámparas solares.\n\nY de paso cuéntame, ¿para qué lo necesitarías? Así te recomiendo justo lo que te conviene y no gastas de más 🙌",
-        "fecha": "2026-09-05T13:03:57.900Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "¡Hola! Quiero más información de Impresora termica",
-        "fecha": "2026-09-05T13:04:11.546Z"
+        "texto": "Hola Ursina Figueroa 💞! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-05T13:43:37.370Z"
       },
       {
         "rol": "bot",
-        "texto": "¡Con gusto! La impresora térmica portátil Bluetooth es una maravilla para no depender de una papelería cuando algo urge 🖨️✨\n\nTe cuento lo que tiene:\n✅ No usa tinta ni tóner (te ahorras esa plata desde la primera impresión)\n✅ Se conecta por Bluetooth a tu celular (Android o iPhone)\n✅ Es portátil, cabe en el bolso o mochila\n✅ Batería recargable\n✅ Imprime facturas, recibos, cotizaciones, guías, etiquetas, documentos...\n\nImagínate esto: estás fuera de la oficina, un cliente te pide una cotización o factura ya mismo, y en vez de salir corriendo a buscar dónde imprimir, la sacas de tu bolso y la resuelves ahí mismo, sin perder tiempo ni el negocio 💼🔥\n\nCuéntame, ¿en qué trabajas o qué tipo de documentos necesitarías imprimir con ella? ¿Eres emprendedor, repartidor, manejas un negocio? Así te confirmo si es la ideal para tu caso 😊",
-        "fecha": "2026-09-05T13:04:18.101Z"
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-05T13:43:37.952Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "impresora-termica"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
