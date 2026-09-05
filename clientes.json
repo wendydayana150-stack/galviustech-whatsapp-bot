@@ -3,8 +3,8 @@
     "telefono": "573166040097",
     "nombre": "Jorge Humberto Holguín Lo",
     "primerContacto": "2026-09-05T20:58:54.233Z",
-    "ultimoContacto": "2026-09-05T20:58:54.233Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-05T20:59:01.290Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-05T20:58:53.700Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-05T20:58:56.772Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nClaro que si te cuento el precio, pero antes cuentame un poco: ¿qué producto es el que te interesa? ¿Estás buscando internet portátil (módem), una impresora térmica, o algo para iluminación/seguridad (lámparas)?\n\nY de paso cuéntame, ¿en qué ciudad o municipio estarías usándolo? Así te doy el precio exacto y te recomiendo la mejor opción para lo que necesitas 📶🖨️💡",
+        "fecha": "2026-09-05T20:59:00.607Z"
       }
     ],
     "paso": "confirmar_producto",
