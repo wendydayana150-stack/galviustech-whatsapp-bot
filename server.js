@@ -65,25 +65,18 @@ async function cargarSesionSiNueva(telefono) {
         try {
                   const { datos } = await leerJSON(CLIENTES_API);
                   const cliente = datos.find((c) => c.telefono === telefono);
-                  if (cliente && cliente.paso && cliente.paso !== "inicio") {
+                  if (cliente) {
+                              const enFlujoDePedido = cliente.paso && cliente.paso !== "inicio";
                               sesiones[telefono] = {
-                                            paso: cliente.paso,
+                                            paso: enFlujoDePedido ? cliente.paso : (cliente.pausado ? "conversando" : "inicio"),
                                             pedido: cliente.pedido || {},
                                             historial: [],
+                                            // Siempre recuperamos el historial guardado, sin importar en que paso
+                                            // quedo el cliente, para que el chat del panel nunca pierda mensajes
+                                            // anteriores (por ejemplo despues de un reinicio del servidor).
                                             transcripcion: cliente.conversacion || [],
                                             pausado: !!cliente.pausado,
                                             ultimoProducto: cliente.pedido?.productoId || null,
-                              };
-                              return;
-                  }
-                  if (cliente && cliente.pausado) {
-                              sesiones[telefono] = {
-                                            paso: "conversando",
-                                            pedido: {},
-                                            historial: [],
-                                            transcripcion: cliente.conversacion || [],
-                                            pausado: true,
-                                            ultimoProducto: null,
                               };
                               return;
                   }
@@ -666,6 +659,7 @@ async function alternarEtapa(telefono, etapa) {
 }
 
 async function enviarMensajeManual(telefono, texto) {
+      await cargarSesionSiNueva(telefono);
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
       await enviarTexto(telefono, texto);
@@ -673,6 +667,7 @@ async function enviarMensajeManual(telefono, texto) {
 }
 
 async function enviarArchivoManual(telefono, archivo, caption) {
+      await cargarSesionSiNueva(telefono);
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
       const mediaId = await subirMediaWhatsApp(archivo.buffer, archivo.mimetype);
