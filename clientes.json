@@ -722,8 +722,8 @@
     "telefono": "573142539012",
     "nombre": "D",
     "primerContacto": "2026-09-04T21:54:49.397Z",
-    "ultimoContacto": "2026-09-05T00:01:48.232Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-05T00:02:30.871Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -859,6 +859,41 @@
         "rol": "bot",
         "texto": "Perdona, creo que se cortó tu mensaje 😅 ¿Me contabas en qué trabajas? Quiero saber si usas la impresora para facturas, recibos, cotizaciones o algún otro tipo de documento, así te oriento mejor y te muestro cómo te la puede hacer más fácil el día a día 📄👍",
         "fecha": "2026-09-05T00:01:47.347Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-05T00:02:18.663Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 🙌 Entonces vamos a dejarte todo listo con tu impresora térmica portátil, la vas a poder usar para lo que necesites: facturas, recibos, cotizaciones, lo que se te presente, sin depender de nadie más.\n\nPara ir avanzando con tu pedido, cuéntame:\n📌 ¿Cuál es tu nombre completo?\n\nY ya después seguimos con los demás datos para que te llegue lo antes posible 😊",
+        "fecha": "2026-09-05T00:02:27.724Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-05T00:02:28.341Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto vale",
+        "fecha": "2026-09-05T00:02:28.742Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-05T00:02:28.958Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-05T00:02:29.453Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-05T00:02:29.995Z"
       }
     ],
     "paso": "conversando",
