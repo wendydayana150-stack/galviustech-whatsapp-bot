@@ -1503,8 +1503,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T03:12:15.174Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-05T13:16:55.353Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1690,11 +1690,16 @@
         "rol": "bot",
         "texto": "¡Claro que sí! 😊 Pero para poder darte el número de guía primero necesito que tengamos tu pedido completo registrado, porque veo que aún no hemos cerrado los datos de tu compra.\n\n¿Te gustaria que te ayude a dejar tu pedido listo ahora mismo? Así en cuanto quede confirmado, te llega el número de guía para que puedas hacerle seguimiento a tu impresora 📦\n\nCuéntame, ¿cuál es tu nombre completo y tu número de celular para ir registrando el pedido?",
         "fecha": "2026-09-05T03:12:14.464Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, buen dia.",
+        "fecha": "2026-09-05T13:16:54.600Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null
   },
   {
