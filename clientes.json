@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:12:18.202Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-05T13:13:00.311Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6407,22 +6407,20 @@
         "rol": "bot",
         "texto": "Sin problema, cuando quieras confirmar solo responde Si, confirmo y despachamos tu pedido.",
         "fecha": "2026-09-05T13:12:17.272Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-05T13:12:58.703Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto! Tu pedido ha sido confirmado y pasara a despacho. Muchas gracias por confiar en GalviusTech.",
+        "fecha": "2026-09-05T13:12:58.703Z"
       }
     ],
-    "paso": "esperando_confirmacion_envio",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
-      "precio": 299900,
-      "telefono": "573112663741",
-      "nombreCliente": "Brian Stiven pinzón castro",
-      "celular": "3112664741",
-      "departamento": "Cundinamarca",
-      "ciudad": "Soacha compartir",
-      "direccion": "CRA 12 d 15 22 sur",
-      "barrio": "Villa Sofia 2",
-      "medioPago": "Contra entrega"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "recordatorios": {
