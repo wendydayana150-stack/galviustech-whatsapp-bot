@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:11:12.267Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-05T13:11:25.309Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6387,9 +6387,19 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-09-05T13:11:11.385Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-09-05T13:11:24.330Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
+        "fecha": "2026-09-05T13:11:24.330Z"
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "esperando_confirmacion_envio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
@@ -6400,7 +6410,8 @@
       "departamento": "Cundinamarca",
       "ciudad": "Soacha compartir",
       "direccion": "CRA 12 d 15 22 sur",
-      "barrio": "Villa Sofia 2"
+      "barrio": "Villa Sofia 2",
+      "medioPago": "Contra entrega"
     },
     "pausado": false,
     "etapaManual": null,
