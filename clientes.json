@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:10:44.907Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-05T13:10:53.207Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6357,9 +6357,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-05T13:10:43.960Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soacha compartir",
+        "fecha": "2026-09-05T13:10:52.361Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-05T13:10:52.361Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
@@ -6367,7 +6377,8 @@
       "telefono": "573112663741",
       "nombreCliente": "Brian Stiven pinzón castro",
       "celular": "3112664741",
-      "departamento": "Cundinamarca"
+      "departamento": "Cundinamarca",
+      "ciudad": "Soacha compartir"
     },
     "pausado": false,
     "etapaManual": null,
