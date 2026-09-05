@@ -5920,8 +5920,8 @@
     "telefono": "573112663741",
     "nombre": "Brian Stiven Pinzón Castr",
     "primerContacto": "2026-09-04T18:37:26.131Z",
-    "ultimoContacto": "2026-09-05T13:10:14.927Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-05T13:10:29.889Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6327,14 +6327,25 @@
         "rol": "bot",
         "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Camara de seguridad* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-09-05T13:10:13.953Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Brian Stiven pinzón castro",
+        "fecha": "2026-09-05T13:10:29.049Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-05T13:10:29.049Z"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
-      "telefono": "573112663741"
+      "telefono": "573112663741",
+      "nombreCliente": "Brian Stiven pinzón castro"
     },
     "pausado": false,
     "etapaManual": null,
