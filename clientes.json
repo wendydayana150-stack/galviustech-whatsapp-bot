@@ -3,8 +3,8 @@
     "telefono": "573216906288",
     "nombre": "clmvl253",
     "primerContacto": "2026-09-05T22:22:52.545Z",
-    "ultimoContacto": "2026-09-05T23:16:46.259Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-05T23:17:14.214Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -220,9 +220,19 @@
         "rol": "bot",
         "texto": "En que barrio queda esa direccion?",
         "fecha": "2026-09-05T23:16:46.068Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina interrapidismo \nCalle principal las palmas",
+        "fecha": "2026-09-05T23:17:13.537Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-05T23:17:13.537Z"
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -232,7 +242,8 @@
       "celular": "Número de celular 3044171127",
       "departamento": "Llorente Nariño pero vivo en finca",
       "ciudad": "Llorente Nariño pero vivo en finca",
-      "direccion": "Tumaco"
+      "direccion": "Tumaco",
+      "barrio": "Oficina interrapidismo \nCalle principal las palmas"
     },
     "pausado": false,
     "etapaManual": null
