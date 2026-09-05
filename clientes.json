@@ -3,8 +3,8 @@
     "telefono": "573206975750",
     "nombre": "Maria Martha",
     "primerContacto": "2026-09-05T03:07:38.174Z",
-    "ultimoContacto": "2026-09-05T03:10:19.090Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-05T03:10:56.581Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,22 +140,20 @@
         "rol": "bot",
         "texto": "Confirmacion de Pedido - GalviusTech\n\nMuchas gracias por confiar en GalviusTech!\n\nAntes de procesar tu pedido, queremos pedirte un ultimo favor.\n\nCada envio genera un costo logistico desde el momento en que sale de nuestra bodega. Por eso, te agradecemos confirmar que recibiras el producto en la direccion indicada y que habra una persona disponible para atender a la transportadora.\n\nAl confirmar tu pedido, te comprometes a:\n- Recibir el producto en la direccion registrada.\n- Estar pendiente de las llamadas o mensajes de la transportadora.\n- Informarnos con anticipacion si necesitas cambiar la direccion o la fecha de entrega.\n\nEste compromiso nos ayuda a evitar devoluciones y costos innecesarios, permitiendonos seguir ofreciendo un mejor servicio a todos nuestros clientes.\n\nConfirmas que recibiras tu pedido cuando llegue la transportadora? Responde con Si, confirmo para continuar con el despacho.",
         "fecha": "2026-09-05T03:10:18.343Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si confirmo",
+        "fecha": "2026-09-05T03:10:54.806Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto! Tu pedido ha sido confirmado y pasara a despacho. Muchas gracias por confiar en GalviusTech.",
+        "fecha": "2026-09-05T03:10:54.806Z"
       }
     ],
-    "paso": "esperando_confirmacion_envio",
-    "pedido": {
-      "productoId": "impresora-termica",
-      "nombreProducto": "Impresora Termica Portatil Bluetooth",
-      "precio": 289900,
-      "telefono": "573206975750",
-      "nombreCliente": "No hay más barata",
-      "celular": "3206975750",
-      "departamento": "Córdoba",
-      "ciudad": "Monteros",
-      "direccion": "Monteria Calle 64a#704 el refugio segundo conjunto la primera casa",
-      "barrio": "El refugio",
-      "medioPago": "Contra entrega"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null
   },
