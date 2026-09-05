@@ -154,8 +154,8 @@
     "telefono": "573222015689",
     "nombre": "Elsy",
     "primerContacto": "2026-09-05T14:47:17.742Z",
-    "ultimoContacto": "2026-09-05T15:32:33.136Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-05T15:34:08.249Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -246,6 +246,16 @@
         "rol": "bot",
         "texto": "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?",
         "fecha": "2026-09-05T15:32:32.125Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo le aviso cuando tenga la plata para Aser el pedido gracias",
+        "fecha": "2026-09-05T15:34:03.745Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, perfecto, quedo pendiente entonces 🙌\n\nDe todas formas te dejo mi contacto guardado por acá, y en cuanto tengas todo listo me escribes y avanzamos rapidito con tu pedido, sin vueltas.\n\n¿Me confirmas al menos qué producto era el que te interesó, el módem o la impresora? Así ya te tengo la info lista para cuando decidas dar el paso.",
+        "fecha": "2026-09-05T15:34:06.985Z"
       }
     ],
     "paso": "confirmar_producto",
