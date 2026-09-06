@@ -5590,8 +5590,8 @@
     "telefono": "573332828039",
     "nombre": "Cesar Bohórquez",
     "primerContacto": "2026-09-05T04:49:30.277Z",
-    "ultimoContacto": "2026-09-06T00:19:42.992Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-06T00:19:51.881Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -5697,9 +5697,24 @@
         "rol": "bot",
         "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que tenemos promociones activas en nuestros productos.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
         "fecha": "2026-09-06T00:11:01.569Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este no lo manejas",
+        "fecha": "2026-09-06T00:19:50.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Cesar Bohórquez! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-06T00:19:50.665Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-06T00:19:51.212Z"
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null
