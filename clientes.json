@@ -1479,8 +1479,8 @@
     "telefono": "573246622962",
     "nombre": "Arq Rutherford Grisales",
     "primerContacto": "2026-09-09T18:29:27.404Z",
-    "ultimoContacto": "2026-09-09T19:21:07.503Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-09-09T20:42:57.594Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1691,11 +1691,16 @@
         "rol": "bot",
         "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Las especificaciones y las dimensiones y la foto del producto?\n*Celular:* Tienen el panel solar adicional\n*Departamento:* O es incorporado\n*Ciudad:* Risaralda\n*Direccion:* ?\n*Barrio:* Primero 🥇 debí saber las especificaciones generales\n*Producto:* Lamparas 3 lentes X3\n*Medio de pago:* Contraentrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
         "fecha": "2026-09-09T19:21:05.729Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Me falta estos datos",
+        "fecha": "2026-09-09T20:42:56.541Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "lamparas-3-lentes-x-2-2"
   },
