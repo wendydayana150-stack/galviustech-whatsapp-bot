@@ -1089,8 +1089,8 @@
     "telefono": "573192569845",
     "nombre": "Titohernandez",
     "primerContacto": "2026-09-09T17:43:54.963Z",
-    "ultimoContacto": "2026-09-09T18:33:26.023Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-09T18:33:44.239Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1176,15 +1176,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-09T18:33:25.345Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3192569845",
+        "fecha": "2026-09-09T18:33:43.471Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-09T18:33:43.471Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573192569845",
-      "nombreCliente": "Por hay la otra semana les escribo gracias"
+      "nombreCliente": "Por hay la otra semana les escribo gracias",
+      "celular": "3192569845"
     },
     "pausado": false,
     "etapaManual": null,
