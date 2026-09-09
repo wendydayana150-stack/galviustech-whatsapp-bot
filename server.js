@@ -763,7 +763,7 @@ async function limpiarClientesAntiguos() {
       }
 }
 
-async function preguntarleALaIA(sesion, mensajeCliente) {
+async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
       sesion.historial.push({ role: "user", content: mensajeCliente });
       if (sesion.historial.length > 16) {
             sesion.historial = sesion.historial.slice(-16);
@@ -774,7 +774,7 @@ const respuesta = await axios.post(
       {
             model: ANTHROPIC_MODEL,
             max_tokens: 700,
-            system: config.construirSystemPrompt(catalogo),
+            system: config.construirSystemPrompt(catalogo, enfoqueProducto),
             messages: sesion.historial,
       },
       {
@@ -1068,9 +1068,20 @@ async function manejarTextoLibre(telefono, texto) {
             return;
       }
 
+      const productoDetectado = detectarProductoEspecifico(texto);
+      const categoriaDetectada = !productoDetectado ? detectarProductoPorPalabraClave(texto) : null;
+      let enfoqueProducto = null;
+      if (productoDetectado) {
+            enfoqueProducto = { tipo: "producto", valor: productoDetectado };
+            sesion.ultimoProducto = productoDetectado;
+      } else if (categoriaDetectada) {
+            enfoqueProducto = { tipo: "categoria", valor: categoriaDetectada };
+      } else if (sesion.pedido?.productoId || sesion.ultimoProducto) {
+            enfoqueProducto = { tipo: "producto", valor: sesion.pedido?.productoId || sesion.ultimoProducto };
+      }
 
       try {
-            const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto);
+            const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
 
             if (mensajeVisible) {
                   await enviarTexto(telefono, mensajeVisible);
