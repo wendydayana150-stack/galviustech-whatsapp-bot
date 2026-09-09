@@ -707,44 +707,35 @@
     "telefono": "573124707415",
     "nombre": "Miller",
     "primerContacto": "2026-09-09T15:58:16.755Z",
-    "ultimoContacto": "2026-09-09T15:58:16.755Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T17:00:38.021Z",
+    "mensajes": 2,
     "conversacion": [
       {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que tenemos promociones activas en nuestros productos.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-09T16:59:26.055Z"
+      },
+      {
         "rol": "cliente",
-        "texto": "¡Hola! 👋 Quisiera más detalles. Promoción Lamparas 3 lentes X3 Unidades",
-        "fecha": "2026-09-09T15:58:14.037Z"
+        "texto": "No gracias",
+        "fecha": "2026-09-09T17:00:36.638Z"
       },
       {
         "rol": "bot",
-        "texto": "[Envio fotos y caracteristicas: Lamparas]",
-        "fecha": "2026-09-09T15:58:14.037Z"
+        "texto": "Hola Miller! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-09T17:00:36.640Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Lamparas 3 lentes X 2 - $ 160.000",
-        "fecha": "2026-09-09T15:58:14.037Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Lampara Solar 2 Unidades - $ 119.900",
-        "fecha": "2026-09-09T15:58:14.684Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*💡 Lamparas*\n\n*Lamparas 3 lentes X 2* - $ 160.000\n*Lampara Solar 2 Unidades* - $ 119.900\n*LAMPARA PANEL SOLAR x 3 unid.* - $ 139.900\n*Lampara 3 lentes x3 unidades* - $ 199.900",
-        "fecha": "2026-09-09T15:58:15.385Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
-        "fecha": "2026-09-09T15:58:15.996Z"
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-09T17:00:37.225Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "ultimoProducto": null
   },
   {
     "telefono": "573212960016",
