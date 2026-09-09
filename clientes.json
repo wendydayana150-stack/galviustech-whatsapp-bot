@@ -3,8 +3,8 @@
     "telefono": "573150639105",
     "nombre": ".",
     "primerContacto": "2026-09-09T11:25:31.024Z",
-    "ultimoContacto": "2026-09-09T11:25:31.024Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T11:25:56.830Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T11:25:30.410Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-09T11:25:51.369Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué tal 😊 Soy Michell de GalviusTech, con mucho gusto te cuento todo sobre la impresora térmica.\n\nEs una impresora portátil, súper compacta, que no necesita tinta ni tóner (imprime por calor), así que te ahorras esa plata desde la primera impresión. Se conecta por Bluetooth a tu celular (Android o iPhone) y puedes imprimir facturas, recibos, cotizaciones, guías, etiquetas, lo que necesites, en el momento, sin depender de estar en una oficina.\n\nSu precio es de $249.900, con garantía y soporte de GalviusTech.\n\nPara orientarte mejor, cuéntame: ¿en qué trabajas o qué tipo de negocio tienes? ¿Y sueles moverte o trabajar fuera de un lugar fijo? Así te digo exactamente cómo te la imaginas usando en tu día a día 📲",
+        "fecha": "2026-09-09T11:25:56.147Z"
       }
     ],
     "paso": "confirmar_producto",
