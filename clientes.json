@@ -3,8 +3,8 @@
     "telefono": "573243942108",
     "nombre": "Melany y Toby",
     "primerContacto": "2026-09-09T18:50:04.442Z",
-    "ultimoContacto": "2026-09-09T18:50:04.442Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T18:50:42.906Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T18:50:03.666Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-09T18:50:37.212Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa impresora térmica portátil Bluetooth no necesita tinta ni tóner (así que te ahorras esos gastos desde la primera impresión), es súper compacta para llevarla en el bolso, y funciona directo desde tu celular por Bluetooth, tanto Android como iPhone.\n\nLa inversión es de **$249.900**, y créeme que se paga sola rapidísimo si dejas de depender de papelerías para imprimir algo urgente.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajo o para estudio? Así te confirmo si es la ideal para tu caso 📲",
+        "fecha": "2026-09-09T18:50:41.929Z"
       }
     ],
     "paso": "confirmar_producto",
