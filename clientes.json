@@ -48,8 +48,8 @@
     "telefono": "573122372388",
     "nombre": "Anyi",
     "primerContacto": "2026-09-09T12:42:50.907Z",
-    "ultimoContacto": "2026-09-09T12:42:50.907Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T12:46:51.568Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T12:42:50.189Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-09T12:46:24.449Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-09T12:46:48.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué gusto que me escribas 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento los precios, pero para recomendarte bien y que no gastes de más, cuéntame primero:\n\n📍 ¿En qué ciudad o municipio estás?\n📱 ¿Con qué operador tienes servicio (Claro, Movistar, Tigo, WOM, ETB)?\n🎯 ¿Es para internet (modem), para imprimir documentos (impresora), o para iluminación/seguridad (lámparas)?\n\nAsí te digo exactamente cuál te conviene y su precio justo. ¿Qué necesitas principalmente?",
+        "fecha": "2026-09-09T12:46:50.522Z"
       }
     ],
     "paso": "confirmar_producto",
