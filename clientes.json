@@ -1683,8 +1683,8 @@
     "telefono": "573144930829",
     "nombre": "Nohora",
     "primerContacto": "2026-09-09T14:12:08.533Z",
-    "ultimoContacto": "2026-09-09T14:12:08.533Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T16:50:44.552Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1715,6 +1715,36 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T14:12:07.728Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero solo funciona para impresiones o fotocopias también",
+        "fecha": "2026-09-09T16:50:41.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-09-09T16:50:41.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-09T16:50:41.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-09T16:50:42.686Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-09T16:50:43.236Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?",
+        "fecha": "2026-09-09T16:50:43.790Z"
       }
     ],
     "paso": "confirmar_producto",
@@ -1722,7 +1752,8 @@
       "productoId": "impresora-termica"
     },
     "pausado": false,
-    "etapaManual": null
+    "etapaManual": null,
+    "ultimoProducto": "impresora-termica"
   },
   {
     "telefono": "573125630043",
