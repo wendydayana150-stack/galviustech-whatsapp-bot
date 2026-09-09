@@ -277,8 +277,8 @@
     "telefono": "573246622962",
     "nombre": "Arq Rutherford Grisales",
     "primerContacto": "2026-09-09T18:29:27.404Z",
-    "ultimoContacto": "2026-09-09T18:59:01.551Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-09T18:59:22.272Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -404,13 +404,33 @@
         "rol": "bot",
         "texto": "Entiendo que quieras tener ese dato claro antes de decidir 🙏 Te confirmo que para las lámparas no tengo especificado un número exacto de años, así que prefiero no inventarte una cifra. Lo que sí es seguro es que cuentas con garantía y soporte de GalviusTech ante cualquier falla de fábrica, y con gusto te confirmo el tiempo exacto en cuanto avancemos con tu pedido.\n\nPara no dejarte con dudas, ¿te gustaría que dejemos armado el pedido de las 3 lámparas por $199.900 y yo te confirmo el detalle exacto de garantía antes de que se despache?",
         "fecha": "2026-09-09T18:59:00.660Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si debo ser muy claro que compraría gracias",
+        "fecha": "2026-09-09T18:59:16.645Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Me alegra mucho, vas a poder iluminar bien esa valla sin gastar en electricidad 🙌\n\nPara dejarte el pedido listo, ¿me regalas estos datos?\n\n1. Nombre completo\n2. Número de celular\n3. Departamento\n4. Ciudad o municipio\n5. Dirección completa\n6. Barrio\n7. Forma de pago: ¿contraentrega o transferencia?",
+        "fecha": "2026-09-09T18:59:20.849Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Lamparas 3 lentes X3* ($ 199.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-09T18:59:21.418Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "lamparas-3-lentes-x-2-2",
+      "nombreProducto": "Lamparas 3 lentes X3",
+      "precio": 199900,
+      "telefono": "573246622962"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null
+    "ultimoProducto": "lamparas-3-lentes-x-2-2"
   },
   {
     "telefono": "573151003249",
