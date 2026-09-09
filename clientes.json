@@ -48,8 +48,8 @@
     "telefono": "573208317577",
     "nombre": "T",
     "primerContacto": "2026-09-09T13:13:52.243Z",
-    "ultimoContacto": "2026-09-09T13:13:52.243Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T13:15:47.817Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,16 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-09-09T13:13:51.358Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-09-09T13:15:40.319Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué gusto tenerte por aquí 😊 Soy Michell, de GalviusTech.\n\nCuéntame, ¿en qué municipio o vereda estás ubicado? Y aprovecho para preguntarte: ¿actualmente tienes algún tipo de conexión a internet allá (datos del celular, wifi de un vecino) o no tienes ninguna en este momento?\n\nAsí te puedo orientar bien, porque nuestros módems están hechos justamente para dar mejor cobertura que un celular normal en zonas rurales donde la señal suele ser complicada 📶",
+        "fecha": "2026-09-09T13:15:46.805Z"
       }
     ],
     "paso": "conversando",
