@@ -105,8 +105,8 @@
     "telefono": "573133779814",
     "nombre": "ocampoherreramariayolanda",
     "primerContacto": "2026-09-09T19:18:34.709Z",
-    "ultimoContacto": "2026-09-09T19:18:34.709Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T19:28:17.375Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -137,6 +137,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T19:18:34.019Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes necesito una impresora para imprimir órdenes médicas con papel tamaño carta",
+        "fecha": "2026-09-09T19:28:09.556Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenas tardes! Soy Michell, con gusto te ayudo 😊\n\nTe cuento con toda honestidad: nuestra impresora térmica portátil trabaja con rollo de papel térmico (como los recibos o tickets), no con hojas tamaño carta. Así que para imprimir órdenes médicas en formato carta completo, esta no sería la indicada.\n\nCuéntame, ¿eres médico o trabajas en una clínica? Quiero entender bien qué necesitas imprimir (si son recibos, notas cortas, o sí o sí requieres el formato carta completo) para poder orientarte de la mejor forma y no hacerte perder tiempo ni dinero en algo que no te sirva.",
+        "fecha": "2026-09-09T19:28:16.506Z"
       }
     ],
     "paso": "confirmar_producto",
