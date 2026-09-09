@@ -105,8 +105,8 @@
     "telefono": "573116615785",
     "nombre": "HUFOME",
     "primerContacto": "2026-09-09T18:25:29.285Z",
-    "ultimoContacto": "2026-09-09T18:25:29.285Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T18:28:33.472Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -137,6 +137,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T18:25:28.422Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede imprimir en media carta ?",
+        "fecha": "2026-09-09T18:28:23.828Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Te cuento: esta impresora es térmica tipo recibo/ticket, funciona con rollo de papel (no maneja hojas como media carta o carta, eso seria mas de una impresora convencional con tinta) 😊\n\nEs ideal para imprimir facturas, recibos, cotizaciones, guías, etiquetas y notas rápidas desde el celular, sin cargar cables ni depender de una impresora grande.\n\nCuéntame, ¿para qué la necesitarías principalmente? ¿Facturas de un negocio, recibos, guías de envío u otro documento? Así te confirmo si se ajusta perfecto a lo que buscas 📱🖨️",
+        "fecha": "2026-09-09T18:28:32.582Z"
       }
     ],
     "paso": "confirmar_producto",
