@@ -3,8 +3,8 @@
     "telefono": "573003329780",
     "nombre": "Ferney",
     "primerContacto": "2026-09-09T17:15:17.233Z",
-    "ultimoContacto": "2026-09-09T17:15:17.233Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T17:15:35.378Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20,6 +20,41 @@
         "rol": "bot",
         "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
         "fecha": "2026-09-09T17:15:16.549Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Modem",
+        "fecha": "2026-09-09T17:15:32.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem]",
+        "fecha": "2026-09-09T17:15:32.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G - $ 199.900",
+        "fecha": "2026-09-09T17:15:32.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G - $ 239.900",
+        "fecha": "2026-09-09T17:15:33.194Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G - $ 249.900",
+        "fecha": "2026-09-09T17:15:33.732Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestros Modems WiFi Portatiles*\n\nCompatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConectan hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-09T17:15:34.234Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-09T17:15:34.646Z"
       }
     ],
     "paso": "conversando",
