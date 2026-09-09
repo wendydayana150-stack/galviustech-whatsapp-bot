@@ -638,8 +638,8 @@
     "telefono": "573222203853",
     "nombre": "Gonzalo",
     "primerContacto": "2026-09-09T11:33:52.247Z",
-    "ultimoContacto": "2026-09-09T11:33:52.247Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T12:15:16.588Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -670,6 +670,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T11:33:51.445Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 249.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-09T12:10:43.523Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y estos dispositivos tienen forma de recarga?",
+        "fecha": "2026-09-09T12:15:10.157Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buena pregunta! 😊 Te cuento cómo funciona cada uno:\n\n**Módems WiFi portátiles**: Traen batería recargable, se cargan por cable USB-C (el mismo tipo que usan muchos celulares hoy en día). Los cargas, los llevas contigo y listo, tienes varias horas de uso sin depender de estar conectado a la corriente todo el tiempo.\n\n**Impresora térmica**: También tiene batería recargable, así que la cargas una vez y la puedes usar de forma inalámbrica por Bluetooth desde tu celular, sin cables enredados ni estar pegada a un tomacorriente.\n\nAhora cuéntame, ¿cuál de los dos te interesa más? ¿Es para tener internet donde vives o trabajas, o más bien para imprimir documentos cuando lo necesites? Así te oriento mejor según tu caso 📶🖨️",
+        "fecha": "2026-09-09T12:15:15.494Z"
       }
     ],
     "paso": "confirmar_producto",
