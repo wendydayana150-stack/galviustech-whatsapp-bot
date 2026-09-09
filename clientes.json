@@ -49,8 +49,8 @@
     "telefono": "573053931794",
     "nombre": "🍀💵🍀💰🍀777🪬💶🪬🧧🪬",
     "primerContacto": "2026-09-09T17:39:17.597Z",
-    "ultimoContacto": "2026-09-09T17:40:34.793Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-09T17:43:56.525Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -106,15 +106,28 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
         "fecha": "2026-09-09T17:40:33.875Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con camara de regalo",
+        "fecha": "2026-09-09T17:43:55.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Camara de seguridad* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-09T17:43:55.674Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
+      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
+      "precio": 299900,
+      "telefono": "573053931794"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica"
+    "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad"
   },
   {
     "telefono": "573122382346",
