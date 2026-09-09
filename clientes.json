@@ -49,8 +49,8 @@
     "telefono": "573175573996",
     "nombre": "ㅤ",
     "primerContacto": "2026-09-09T17:35:25.891Z",
-    "ultimoContacto": "2026-09-09T17:35:25.891Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T17:36:18.296Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,6 +81,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T17:35:25.118Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-09T17:35:44.439Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa Impresora Térmica Portátil es justo para no quedarte atascado buscando dónde imprimir cuando algo urge: una factura, un contrato, una cotización. Imprime directo desde tu celular por Bluetooth, no necesita tinta (te ahorras esos gastos), y es tan pequeña que cabe en el bolso o la maleta.\n\nCuéntame, ¿la usarías para tu negocio, para trabajo de oficina o viajas seguido y necesitas imprimir sobre la marcha?",
+        "fecha": "2026-09-09T17:35:47.864Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-09T17:36:14.508Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 😊 Cuéntame un poco más para asesorarte bien: ¿la necesitarías más para tu negocio (facturas, pedidos), para tu trabajo de oficina, o para cuando viajas y te toca imprimir fuera de casa?",
+        "fecha": "2026-09-09T17:36:17.369Z"
       }
     ],
     "paso": "confirmar_producto",
