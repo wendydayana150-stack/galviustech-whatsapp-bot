@@ -3,8 +3,8 @@
     "telefono": "573126828710",
     "nombre": "Lina Marcela Polanco",
     "primerContacto": "2026-09-09T13:24:20.328Z",
-    "ultimoContacto": "2026-09-09T13:24:20.328Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T13:25:24.580Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T13:24:19.590Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprime en todo tamaño de papel???",
+        "fecha": "2026-09-09T13:25:15.718Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-09T13:25:21.597Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-09T13:25:21.597Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que preguntas eso 😊\n\nMira, la impresora térmica portátil de GalviusTech funciona con rollos de papel térmico (el mismo tipo que usan las papelerías para facturas y recibos), no es para hojas tamaño carta u oficio como una impresora normal de oficina.\n\nEs ideal para imprimir:\n📄 Facturas y recibos\n📋 Cotizaciones\n🏷️ Etiquetas\n📦 Guías de envío\n📝 Notas y listas\n\nCuéntame, ¿para qué la necesitarías principalmente? ¿Tienes un negocio, trabajas de forma independiente, o la necesitas para algo específico? Así te confirmo si es justo lo que buscas o te oriento mejor 📲",
+        "fecha": "2026-09-09T13:25:23.643Z"
       }
     ],
     "paso": "confirmar_producto",
