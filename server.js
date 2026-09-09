@@ -60,6 +60,32 @@ function obtenerSesion(telefono) {
         return sesiones[telefono];
 }
 
+// Reconstruye el historial que le pasamos a la IA (Claude) a partir de la
+// transcripcion guardada, para que despues de un reinicio del servidor la IA
+// siga teniendo el contexto de la conversacion (por ejemplo, para entender a
+// que se refiere un cliente cuando responde algo corto como "no gracias").
+function construirHistorialDesdeTranscripcion(conversacion) {
+        const mensajes = [];
+        for (const m of conversacion || []) {
+                  if (!m || !m.texto) continue;
+                  const role = m.rol === "cliente" ? "user" : "assistant";
+                  const ultimo = mensajes[mensajes.length - 1];
+                  // La API de Claude exige que los mensajes alternen user/assistant,
+                  // asi que si hay varios mensajes seguidos del mismo rol (ej. el bot
+                  // manda texto y luego una imagen) los combinamos en uno solo.
+                  if (ultimo && ultimo.role === role) {
+                              ultimo.content += "\n" + m.texto;
+                  } else {
+                              mensajes.push({ role, content: m.texto });
+                  }
+        }
+        // El primer mensaje siempre debe ser del cliente ("user").
+        while (mensajes.length > 0 && mensajes[0].role !== "user") {
+                  mensajes.shift();
+        }
+        return mensajes.slice(-16);
+}
+
 async function cargarSesionSiNueva(telefono) {
         if (sesiones[telefono]) return;
         try {
@@ -70,7 +96,9 @@ async function cargarSesionSiNueva(telefono) {
                               sesiones[telefono] = {
                                             paso: enFlujoDePedido ? cliente.paso : (cliente.pausado ? "conversando" : "inicio"),
                                             pedido: cliente.pedido || {},
-                                            historial: [],
+                                            // Reconstruimos el historial para la IA a partir de la transcripcion
+                                            // guardada, para que no pierda el contexto tras un reinicio.
+                                            historial: construirHistorialDesdeTranscripcion(cliente.conversacion),
                                             // Siempre recuperamos el historial guardado, sin importar en que paso
                                             // quedo el cliente, para que el chat del panel nunca pierda mensajes
                                             // anteriores (por ejemplo despues de un reinicio del servidor).
