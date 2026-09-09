@@ -306,8 +306,8 @@
     "telefono": "573246622962",
     "nombre": "Arq Rutherford Grisales",
     "primerContacto": "2026-09-09T18:29:27.404Z",
-    "ultimoContacto": "2026-09-09T18:59:22.272Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-09T19:00:42.859Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -448,14 +448,25 @@
         "rol": "bot",
         "texto": "Genial, elegiste *Lamparas 3 lentes X3* ($ 199.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-09-09T18:59:21.418Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las especificaciones y las dimensiones y la foto del producto?",
+        "fecha": "2026-09-09T19:00:41.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-09T19:00:41.944Z"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2-2",
       "nombreProducto": "Lamparas 3 lentes X3",
       "precio": 199900,
-      "telefono": "573246622962"
+      "telefono": "573246622962",
+      "nombreCliente": "Las especificaciones y las dimensiones y la foto del producto?"
     },
     "pausado": false,
     "etapaManual": null,
