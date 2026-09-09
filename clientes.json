@@ -306,8 +306,8 @@
     "telefono": "573246622962",
     "nombre": "Arq Rutherford Grisales",
     "primerContacto": "2026-09-09T18:29:27.404Z",
-    "ultimoContacto": "2026-09-09T19:01:10.921Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-09T19:01:22.407Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -478,9 +478,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-09T19:01:09.963Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Risaralda",
+        "fecha": "2026-09-09T19:01:21.498Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-09T19:01:21.498Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2-2",
       "nombreProducto": "Lamparas 3 lentes X3",
@@ -488,7 +498,8 @@
       "telefono": "573246622962",
       "nombreCliente": "Las especificaciones y las dimensiones y la foto del producto?",
       "celular": "Tienen el panel solar adicional",
-      "departamento": "O es incorporado"
+      "departamento": "O es incorporado",
+      "ciudad": "Risaralda"
     },
     "pausado": false,
     "etapaManual": null,
