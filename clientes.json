@@ -3,8 +3,8 @@
     "telefono": "573118050134",
     "nombre": "te amo hermanito",
     "primerContacto": "2026-09-09T13:56:50.082Z",
-    "ultimoContacto": "2026-09-09T13:56:57.557Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-09T13:57:07.369Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -50,6 +50,36 @@
         "rol": "bot",
         "texto": "¡Buenos días! 😊 Qué gusto tenerte por aquí, soy Michell de GalviusTech.\n\nCuéntame, ¿en qué ciudad o municipio te encuentras y qué andas buscando? ¿Necesitas internet portátil para tu casa, trabajo o estudio, o más bien algo como una impresora portátil o iluminación para tu hogar/negocio? 🙌",
         "fecha": "2026-09-09T13:56:56.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenos días! 😊 Soy Michell de GalviusTech, con gusto te ayudo.\n\nPara darte el precio correcto necesito saber un poquito más de tu situación, ¿me cuentas qué producto te interesa? Tenemos módems de internet portátil, impresora térmica y lámparas solares con sensor.\n\nY cuéntame, ¿en qué ciudad o vereda estás y para qué lo necesitarías principalmente (trabajo, estudio, hogar o negocio)?",
+        "fecha": "2026-09-09T13:56:57.610Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero este",
+        "fecha": "2026-09-09T13:57:04.742Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-09T13:57:04.743Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-09T13:57:05.314Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-09T13:57:05.884Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-09T13:57:06.489Z"
       }
     ],
     "paso": "confirmar_producto",
