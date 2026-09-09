@@ -3,8 +3,8 @@
     "telefono": "573167954418",
     "nombre": "evelinggarcia245",
     "primerContacto": "2026-09-09T14:31:49.126Z",
-    "ultimoContacto": "2026-09-09T14:31:49.126Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T14:33:22.240Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T14:31:48.344Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con que tipo de hoja imprime",
+        "fecha": "2026-09-09T14:33:15.889Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que buena pregunta 😊\n\nLa impresora térmica portátil funciona con **papel térmico** (el mismo tipo que usan las facturas de tiendas o recibos de datáfono), no necesita tinta ni tóner. Viene en rollos, generalmente de 58mm de ancho, muy fáciles de conseguir y economicos.\n\nEso es justo lo que la hace tan práctica: no tienes que estar comprando cartuchos ni preocuparte por que se seque la tinta, solo repones el rollo de papel y listo, sigues imprimiendo donde sea que estés. 🖨️✨\n\nCuéntame, ¿para qué la usarías principalmente? ¿Es para tu negocio, para imprimir facturas o recibos, o para algo más como documentos o etiquetas? Así te confirmo si es la ideal para tu caso 😉",
+        "fecha": "2026-09-09T14:33:21.283Z"
       }
     ],
     "paso": "confirmar_producto",
