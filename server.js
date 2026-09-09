@@ -104,7 +104,7 @@ async function cargarSesionSiNueva(telefono) {
                                             // anteriores (por ejemplo despues de un reinicio del servidor).
                                             transcripcion: cliente.conversacion || [],
                                             pausado: !!cliente.pausado,
-                                            ultimoProducto: cliente.pedido?.productoId || null,
+                                            ultimoProducto: cliente.pedido?.productoId || cliente.ultimoProducto || null,
                               };
                               return;
                   }
@@ -644,6 +644,7 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.paso = sesion.paso;
             existente.pedido = sesion.pedido;
             existente.pausado = !!sesion.pausado;
+            existente.ultimoProducto = sesion.pedido?.productoId || sesion.ultimoProducto || existente.ultimoProducto || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
       } else {
             datos.unshift({
@@ -657,6 +658,7 @@ async function guardarCliente(telefono, nombreCliente) {
                   pedido: sesion.pedido,
                   pausado: !!sesion.pausado,
                   etapaManual: null,
+                  ultimoProducto: sesion.pedido?.productoId || sesion.ultimoProducto || null,
             });
       }
 
@@ -717,6 +719,24 @@ function calcularEtapa(cliente, telefonosConPedido) {
       if (paso.startsWith("pedido_") || paso === "esperando_confirmacion_envio") return "Cliente potencial";
       if (paso === "conversando" && (cliente.mensajes || 1) > 1) return "Interaccion con IA";
       return "Contacto inicial";
+}
+
+// Devuelve la categoria (ej. "modem", "impresora", "lampara") del ultimo
+// producto por el que un cliente mostro interes, buscandolo en el catalogo.
+// Si el cliente aun no ha mostrado interes por ningun producto especifico,
+// devuelve null.
+function categoriaDeInteresCliente(cliente) {
+	const productoId = cliente.pedido?.productoId || cliente.ultimoProducto || null;
+	if (!productoId) return null;
+	const producto = catalogo.find((p) => p.id === productoId);
+	if (!producto) return null;
+	if (producto.id.startsWith("combo-")) return "combo";
+	return (producto.categoria || "").trim().toLowerCase() || null;
+}
+
+function filtrarClientesPorCategoria(clientes, categoria) {
+	if (!categoria || categoria === "todas") return clientes;
+	return clientes.filter((c) => categoriaDeInteresCliente(c) === categoria);
 }
 
 function filtrarClientesPorFecha(clientes, filtro) {
@@ -1126,7 +1146,9 @@ app.get("/admin", requiereLogin, async (req, res) => {
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const { datos: clientes } = await leerJSON(CLIENTES_API);
 		  const filtroActivo = req.query.filtro || "todos";
-		  const clientesFiltrados = filtrarClientesPorFecha(clientes, filtroActivo);
+		  const categoriaActiva = req.query.categoria || "todas";
+		  const clientesFiltradosPorFecha = filtrarClientesPorFecha(clientes, filtroActivo);
+		  const clientesFiltrados = filtrarClientesPorCategoria(clientesFiltradosPorFecha, categoriaActiva);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
 
             const grupos = {};
@@ -1215,11 +1237,17 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			<a href="/admin/productos" style="display:inline-block;background:#0a6ed1;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Productos y precios</a></p>
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 			<div style="margin-bottom:15px;">
-			<a href="/admin?filtro=hoy" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
-			<a href="/admin?filtro=ayer" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "ayer" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ayer</a>
-			<a href="/admin?filtro=7dias" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "7dias" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ultimos 7 dias</a>
-			<a href="/admin?filtro=todos" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "todos" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Todos</a>
+			<a href="/admin?filtro=hoy&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
+			<a href="/admin?filtro=ayer&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "ayer" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ayer</a>
+			<a href="/admin?filtro=7dias&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "7dias" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ultimos 7 dias</a>
+			<a href="/admin?filtro=todos&categoria=${categoriaActiva}" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "todos" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Todos</a>
 			<button type="button" onclick="eliminarSeleccionados()" style="margin-left:12px;padding:6px 12px;border-radius:6px;font-size:13px;background:#c0392b;color:white;border:none;cursor:pointer;">Eliminar seleccionados</button>
+			</div>
+			<div style="margin-bottom:15px;">
+			<span style="font-size:13px;color:#555;margin-right:6px;">Interes:</span>
+			<a href="/admin?filtro=${filtroActivo}&categoria=todas" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${categoriaActiva === "todas" ? "background:#0a6ed1;color:white;" : "background:#eee;color:#222;"}">Todas</a>
+			${categoriasDisponibles().map((cat) => `<a href="/admin?filtro=${filtroActivo}&categoria=${encodeURIComponent(cat)}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${categoriaActiva === cat ? "background:#0a6ed1;color:white;" : "background:#eee;color:#222;"}">${infoCategoria(cat).emoji} ${infoCategoria(cat).titulo}</a>`).join("")}
+			<a href="/admin?filtro=${filtroActivo}&categoria=combo" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${categoriaActiva === "combo" ? "background:#0a6ed1;color:white;" : "background:#eee;color:#222;"}">🎁 Combos</a>
 			</div>
 
             <h2>Clientes por etapa</h2>
