@@ -3,8 +3,8 @@
     "telefono": "573218555385",
     "nombre": "Luis mario",
     "primerContacto": "2026-09-09T14:49:55.707Z",
-    "ultimoContacto": "2026-09-09T14:49:55.707Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T14:50:20.830Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T14:49:54.921Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-09T14:50:15.078Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Soy Michell, de GalviusTech, mucho gusto.\n\nQue bueno que preguntas por la impresora térmica, es un producto que le ha resuelto la vida a muchos emprendedores y personas que trabajan fuera de una oficina. No necesita tinta ni tóner (imprime por calor), es portátil, se conecta por Bluetooth a tu celular (Android o iPhone) y es ideal para imprimir facturas, recibos, cotizaciones, guías, etiquetas y documentos en el momento que los necesites, sin depender de una papelería.\n\nCuéntame, ¿en qué trabajas o para qué la usarías principalmente? ¿Eres de los que se mueve seguido o trabaja fuera de una oficina? Así te oriento mejor para saber si es lo que necesitas 🙂",
+        "fecha": "2026-09-09T14:50:19.957Z"
       }
     ],
     "paso": "confirmar_producto",
