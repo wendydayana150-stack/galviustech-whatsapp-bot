@@ -3,8 +3,8 @@
     "telefono": "573212790254",
     "nombre": "Germán tapiero",
     "primerContacto": "2026-09-09T10:59:57.583Z",
-    "ultimoContacto": "2026-09-09T10:59:57.583Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T11:00:13.134Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T10:59:56.878Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto vale",
+        "fecha": "2026-09-09T11:00:05.661Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, de GalviusTech 😊 Con gusto te cuento los precios, pero para recomendarte bien primero necesito saber un poquito más de tu situación.\n\n¿Me cuentas en qué ciudad o vereda estás y qué necesitas exactamente? Por ejemplo, si buscas internet portátil (módem), una impresora térmica para tu negocio, o alguna de nuestras lámparas solares.\n\nAsí te doy el precio justo y te explico cuál te conviene más según tu necesidad. ¿Cuál de estos te interesa? 📶🖨️💡",
+        "fecha": "2026-09-09T11:00:12.317Z"
       }
     ],
     "paso": "confirmar_producto",
