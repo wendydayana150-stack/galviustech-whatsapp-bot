@@ -3,8 +3,8 @@
     "telefono": "573212960016",
     "nombre": "Milena González",
     "primerContacto": "2026-09-09T15:54:55.988Z",
-    "ultimoContacto": "2026-09-09T15:54:55.988Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T15:55:03.100Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T15:54:55.242Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio por fa",
+        "fecha": "2026-09-09T15:54:59.226Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, con gusto te cuento 😊\n\nAntes de darte el precio exacto, cuéntame: ¿qué producto te interesa? ¿Estás buscando internet portátil (módem), la impresora térmica, o alguna de las lámparas de seguridad?\n\nY de una vez, ¿en qué ciudad o municipio estarías usándolo? Así te recomiendo la mejor opción para lo que necesitas 📶",
+        "fecha": "2026-09-09T15:55:02.178Z"
       }
     ],
     "paso": "confirmar_producto",
