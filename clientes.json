@@ -304,8 +304,8 @@
     "telefono": "573115676252",
     "nombre": "LEYDE BULLA",
     "primerContacto": "2026-09-09T12:43:34.851Z",
-    "ultimoContacto": "2026-09-09T12:43:34.851Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T13:21:24.453Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -336,6 +336,21 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T12:43:34.087Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 249.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-09T13:13:53.865Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes regalar más información",
+        "fecha": "2026-09-09T13:21:19.182Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Con gusto te cuento 😊\n\nPara poder recomendarte lo mejor y no marearte con info de todo el catálogo, cuéntame un poquito:\n\n¿Qué es lo que estás buscando principalmente? Por ejemplo:\n- 📶 **Internet portátil** (para tu casa, finca, trabajo o viajes)\n- 🖨️ **Impresora térmica** (para emprendimiento, facturas, negocio)\n- 💡 **Lámparas solares** (para iluminar y dar seguridad a tu casa o negocio)\n\nCuéntame también en qué ciudad o municipio estás, así te doy información bien precisa y ajustada a lo que necesitas. ¿Cuál de esas opciones se acerca más a lo que buscas?",
+        "fecha": "2026-09-09T13:21:23.329Z"
       }
     ],
     "paso": "confirmar_producto",
