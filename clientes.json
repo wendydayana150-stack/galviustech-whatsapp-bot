@@ -1089,8 +1089,8 @@
     "telefono": "573192569845",
     "nombre": "Titohernandez",
     "primerContacto": "2026-09-09T17:43:54.963Z",
-    "ultimoContacto": "2026-09-09T18:34:12.247Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-09T18:35:04.238Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1206,9 +1206,19 @@
         "rol": "bot",
         "texto": "Cual es tu direccion completa?",
         "fecha": "2026-09-09T18:34:11.343Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cto les mando los datos la otra semana que tenga la plata",
+        "fecha": "2026-09-09T18:35:03.255Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-09T18:35:03.255Z"
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -1217,7 +1227,8 @@
       "nombreCliente": "Por hay la otra semana les escribo gracias",
       "celular": "3192569845",
       "departamento": "Soacha Cundinamarca",
-      "ciudad": "Bogotá"
+      "ciudad": "Bogotá",
+      "direccion": "Cto les mando los datos la otra semana que tenga la plata"
     },
     "pausado": false,
     "etapaManual": null,
