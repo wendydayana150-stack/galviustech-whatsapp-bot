@@ -3,8 +3,8 @@
     "telefono": "573146554907",
     "nombre": "jhonsebastianalbacgavez",
     "primerContacto": "2026-09-09T15:00:47.029Z",
-    "ultimoContacto": "2026-09-09T15:00:50.473Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-09T15:01:23.740Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -45,6 +45,16 @@
         "rol": "bot",
         "texto": "¡Hola! Qué gusto saludarte 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento los precios, pero primero cuéntame: ¿qué producto te interesa? Tenemos módems de internet portátil, impresora térmica, lámparas solares...\n\nY si es el módem, cuéntame también en qué municipio o vereda estarías y para qué lo necesitarías (trabajo, estudio, hogar), así te recomiendo el que mejor le sirve a tu caso. ¿Cuál de estos te llamó la atención?",
         "fecha": "2026-09-09T15:00:49.595Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto es el presio",
+        "fecha": "2026-09-09T15:01:19.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dame un segundito y te cuento bien 😊\n\nPara darte el precio correcto necesito saber cuál producto te interesa, porque manejamos varios:\n\n📶 Módems de internet portátil (4G, 4G/5G y 5G)\n🖨️ Impresora térmica portátil\n💡 Lámparas solares\n\n¿Cuál de estos es el que buscas? Y cuéntame para qué lo necesitarías, así te doy el precio y también te confirmo que sea el ideal para tu caso.",
+        "fecha": "2026-09-09T15:01:22.806Z"
       }
     ],
     "paso": "confirmar_producto",
