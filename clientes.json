@@ -306,8 +306,8 @@
     "telefono": "573246622962",
     "nombre": "Arq Rutherford Grisales",
     "primerContacto": "2026-09-09T18:29:27.404Z",
-    "ultimoContacto": "2026-09-09T19:00:42.859Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-09T19:01:01.766Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -458,15 +458,26 @@
         "rol": "bot",
         "texto": "Gracias. Cual es tu numero de celular?",
         "fecha": "2026-09-09T19:00:41.944Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienen el panel solar adicional",
+        "fecha": "2026-09-09T19:01:00.872Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-09T19:01:00.872Z"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2-2",
       "nombreProducto": "Lamparas 3 lentes X3",
       "precio": 199900,
       "telefono": "573246622962",
-      "nombreCliente": "Las especificaciones y las dimensiones y la foto del producto?"
+      "nombreCliente": "Las especificaciones y las dimensiones y la foto del producto?",
+      "celular": "Tienen el panel solar adicional"
     },
     "pausado": false,
     "etapaManual": null,
