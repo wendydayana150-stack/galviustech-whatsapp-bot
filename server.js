@@ -563,7 +563,22 @@ async function leerJSON(url) {
             const respuesta = await axios.get(url, {
                   headers: { Authorization: `token ${GITHUB_TOKEN}` },
             });
-            const contenido = Buffer.from(respuesta.data.content, "base64").toString("utf-8");
+            let contenido;
+            if (respuesta.data && respuesta.data.content) {
+                  contenido = Buffer.from(respuesta.data.content, "base64").toString("utf-8");
+            } else {
+                  // Archivos mayores a 1MB: la API de contenidos de GitHub no incluye "content" en este caso,
+                  // asi que se pide el contenido crudo del archivo por separado (funciona hasta 100MB).
+                  const respuestaCruda = await axios.get(url, {
+                        headers: {
+                              Authorization: `token ${GITHUB_TOKEN}`,
+                              Accept: "application/vnd.github.raw",
+                        },
+                        responseType: "text",
+                        transformResponse: (data) => data,
+                  });
+                  contenido = respuestaCruda.data;
+            }
             return { datos: JSON.parse(contenido), sha: respuesta.data.sha };
       } catch (error) {
             if (error.response?.status === 404) {
