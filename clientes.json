@@ -3,8 +3,8 @@
     "telefono": "573223825878",
     "nombre": "Lady Montaña",
     "primerContacto": "2026-09-09T05:05:40.958Z",
-    "ultimoContacto": "2026-09-09T05:05:40.958Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-09T05:05:56.142Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-09T05:05:40.205Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto cuesta ?",
+        "fecha": "2026-09-09T05:05:51.869Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento los precios, pero para poder recomendarte lo mejor y que no gastes de mas en algo que no necesitas, cuéntame:\n\n¿Qué es lo que estás buscando? ¿Un módem para tener internet, una impresora portátil, o unas lámparas de seguridad? 📶🖨️💡\n\nY de paso, cuéntame en qué ciudad o municipio estás, para orientarte mejor.",
+        "fecha": "2026-09-09T05:05:55.252Z"
       }
     ],
     "paso": "confirmar_producto",
