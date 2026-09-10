@@ -215,6 +215,16 @@ const mensajeResumenPedido = (pedido) => {
             );
 };
 
+const mensajeResponsabilidadPedido =
+            "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\n" +
+            "Estimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n" +
+            "📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\n" +
+            "Por eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n" +
+            "❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n" +
+            "✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n" +
+            "💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n" +
+            "¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚";
+
 const mensajeDatosTransferencia =
             "Estos son los datos para tu transferencia:\n\n" +
             "*BANCOLOMBIA*\n" +
@@ -313,6 +323,7 @@ module.exports = {
             mensajeDespedida,
             mensajeAsesorHumano,
             mensajeResumenPedido,
+            mensajeResponsabilidadPedido,
             mensajeDatosTransferencia,
             mensajeRecordatorio2Horas,
             mensajeRecordatorio5Horas,

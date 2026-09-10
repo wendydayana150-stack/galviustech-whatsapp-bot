@@ -1183,6 +1183,7 @@ async function manejarFlujoPedido(telefono, texto) {
                   await enviarTexto(telefono, config.mensajeDatosTransferencia);
             }
             await enviarTexto(telefono, config.mensajeResumenPedido(sesion.pedido));
+            await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
             await guardarPedido(sesion.pedido);
             sesion.paso = "conversando";
             sesion.pedido = {};
