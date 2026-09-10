@@ -3463,8 +3463,8 @@
     "telefono": "573106831514",
     "nombre": "デュヴァン",
     "primerContacto": "2026-09-10T11:56:09.990Z",
-    "ultimoContacto": "2026-09-10T19:18:53.767Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-10T19:19:04.400Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "bot",
@@ -3635,21 +3635,25 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-09-10T19:18:52.779Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-09-10T19:19:02.116Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Me interesa este combo\n*Celular:* Duvan Martinez \n\n3106831514\n*Departamento:* Antioquia\n*Ciudad:* Amalfi\n*Direccion:* Carrera 19 Restrepo joyería los socios\n*Barrio:* Restrepo\n*Producto:* COMBO Impresora Termica Portatil + Camara de seguridad\n*Medio de pago:* Contra entrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-10T19:19:02.116Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-10T19:19:02.586Z"
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
-      "precio": 299900,
-      "telefono": "573106831514",
-      "nombreCliente": "Me interesa este combo",
-      "celular": "Duvan Martinez \n\n3106831514",
-      "departamento": "Antioquia",
-      "ciudad": "Amalfi",
-      "direccion": "Carrera 19 Restrepo joyería los socios",
-      "barrio": "Restrepo"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
