@@ -49,8 +49,8 @@
     "telefono": "573044217514",
     "nombre": "polomondragon",
     "primerContacto": "2026-09-10T16:32:28.575Z",
-    "ultimoContacto": "2026-09-10T16:33:43.909Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-10T16:42:26.126Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,11 +86,16 @@
         "rol": "bot",
         "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
         "fecha": "2026-09-10T16:33:42.753Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Nuestra promoción",
+        "fecha": "2026-09-10T16:42:24.684Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null
   },
