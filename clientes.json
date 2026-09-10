@@ -3,8 +3,8 @@
     "telefono": "573017161533",
     "nombre": "Marleny Taborda",
     "primerContacto": "2026-09-10T15:38:39.681Z",
-    "ultimoContacto": "2026-09-10T15:38:39.681Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T15:38:55.325Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T15:38:38.806Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "precio por favor",
+        "fecha": "2026-09-10T15:38:50.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento sobre la impresora térmica portátil:\n\n🖨️ No necesita tinta ni tóner (te ahorras esos gastos siempre), es 100% portátil con batería recargable, y funciona por Bluetooth desde tu celular (Android o iPhone). Ideal para imprimir facturas, cotizaciones o recibos en el momento que lo necesites, sin depender de una papelería.\n\nLa inversión es de $249.900.\n\nCuéntame, ¿la necesitarías para tu negocio, para imprimir documentos de trabajo, o viajas seguido y por eso te urge tenerla siempre a la mano?",
+        "fecha": "2026-09-10T15:38:54.283Z"
       }
     ],
     "paso": "confirmar_producto",
