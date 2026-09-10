@@ -3,8 +3,8 @@
     "telefono": "573224092599",
     "nombre": "Hector Gomez",
     "primerContacto": "2026-09-10T01:49:31.270Z",
-    "ultimoContacto": "2026-09-10T01:50:10.361Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-10T01:50:27.677Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,6 +70,21 @@
         "rol": "bot",
         "texto": "¡Hola! Qué bueno que me escribes 😊 Soy Michell, de GalviusTech.\n\nCuéntame, ¿esa finca queda en zona rural o vereda? ¿Y actualmente tienes algún tipo de internet allá, o te toca usar los datos del celular?",
         "fecha": "2026-09-10T01:50:09.213Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-09-10T01:50:23.074Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para las veredas es justo donde más rinde nuestro módem, porque tiene mejor cobertura que un celular normal 📶\n\nCuéntame un poco más:\n- ¿En qué municipio o vereda estás?\n- ¿Qué operador te llega mejor allá (Claro, Movistar, Tigo, WOM)?\n- ¿Para qué lo necesitarías principalmente? ¿Trabajo, estudio, o para todos en la casa?",
+        "fecha": "2026-09-10T01:50:26.693Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Datos",
+        "fecha": "2026-09-10T01:50:27.177Z"
       }
     ],
     "paso": "conversando",
