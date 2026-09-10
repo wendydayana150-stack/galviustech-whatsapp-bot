@@ -3,8 +3,8 @@
     "telefono": "573138778993",
     "nombre": "Alberto Vargas Guerrero",
     "primerContacto": "2026-09-10T15:45:04.530Z",
-    "ultimoContacto": "2026-09-10T15:45:46.760Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-10T15:46:36.965Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,11 +70,24 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
         "fecha": "2026-09-10T15:45:45.715Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-09-10T15:46:35.994Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Termica Portatil Bluetooth* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-10T15:46:35.994Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Termica Portatil Bluetooth",
+      "precio": 249900,
+      "telefono": "573138778993"
     },
     "pausado": false,
     "etapaManual": null,
