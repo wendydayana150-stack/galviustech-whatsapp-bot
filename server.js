@@ -1531,6 +1531,12 @@ app.post("/admin/chat/:telefono/enviar", requiereLogin, subirArchivoChat.single(
       }
 });
 
+// Si por una recarga, doble clic o boton "atras" del navegador se termina pidiendo esta URL con
+// GET (en vez de POST), evitamos el error crudo "Cannot GET" y devolvemos a la conversacion.
+app.get("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
+      res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
+});
+
 app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
       try {
             const { datos: clientes } = await leerJSON(CLIENTES_API);
