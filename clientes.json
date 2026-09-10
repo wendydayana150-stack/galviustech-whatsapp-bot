@@ -3,8 +3,8 @@
     "telefono": "573218364461",
     "nombre": "Luis  Miguel fuentes",
     "primerContacto": "2026-09-10T10:54:09.532Z",
-    "ultimoContacto": "2026-09-10T10:54:09.532Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T10:54:31.492Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T10:54:08.724Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto sale la impresora",
+        "fecha": "2026-09-10T10:54:25.034Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell 😊 Con gusto te cuento.\n\nLa impresora térmica portátil Bluetooth es ideal si necesitas resolver la impresión de documentos, facturas o recibos sin depender de una papelería ni de una impresora grande: no usa tinta (te ahorras esos gastos), es compacta para llevarla en el bolso, y funciona directo desde tu celular por Bluetooth.\n\nLa inversión es de **$249.900**, y viene con garantía y soporte de GalviusTech.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajo de oficina, o te toca moverte seguido y por eso te urge tenerla a la mano?",
+        "fecha": "2026-09-10T10:54:30.532Z"
       }
     ],
     "paso": "confirmar_producto",
