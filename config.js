@@ -227,7 +227,7 @@ const mensajeDatosTransferencia =
             "@3023890578\n\n" +
             "Cuando hagas la transferencia, envianos el comprobante por aqui mismo.";
 
-const mensajeRecordatorio30Min = (nombreProducto, precio) => {
+const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
               const detalle = nombreProducto && precio
                             ? `Recuerda que el ${nombreProducto} está en promoción por solo ${precio}.`
                             : "Recuerda que tenemos promociones activas en nuestros productos.";
@@ -238,7 +238,7 @@ const mensajeRecordatorio30Min = (nombreProducto, precio) => {
               );
 };
 
-const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
+const mensajeRecordatorio5Horas = (nombreProducto, precio) => {
               const detalle = nombreProducto && precio
                             ? `la promoción del ${nombreProducto} por ${precio} sigue disponible por el momento, pero las unidades son limitadas`
                             : "todavía tenemos promociones disponibles, pero las unidades son limitadas";
@@ -250,7 +250,7 @@ const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
               );
 };
 
-const mensajeRemarketing6Horas = (nombreProducto, precio) => {
+const mensajeRecordatorio8Horas = (nombreProducto, precio) => {
               const detalle = nombreProducto && precio
                             ? `sigues interesado(a) en el ${nombreProducto} (${precio})`
                             : "sigues interesado(a) en alguno de nuestros productos";
@@ -260,7 +260,15 @@ const mensajeRemarketing6Horas = (nombreProducto, precio) => {
               );
 };
 
-const mensajeRemarketing2Dias = (nombreProducto, precio) => mensajeRecordatorio30Min(nombreProducto, precio);
+const mensajeRecordatorio11Horas = (nombreProducto, precio) => {
+              const detalle = nombreProducto && precio
+                            ? `del ${nombreProducto} (${precio})`
+                            : "de nuestros productos";
+              return (
+                            `Hola! 😊 No quiero saturarte de mensajes, así que este será el último recordatorio por ahora ${detalle}.\n` +
+                            "Si mas adelante te interesa retomarlo, aquí voy a estar lista para ayudarte con tu pedido cuando quieras. 👋"
+              );
+};
 
 const mensajeReactivacion =
             "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\n" +
@@ -276,9 +284,9 @@ module.exports = {
             mensajeAsesorHumano,
             mensajeResumenPedido,
             mensajeDatosTransferencia,
-            mensajeRecordatorio30Min,
             mensajeRecordatorio2Horas,
-            mensajeRemarketing6Horas,
-            mensajeRemarketing2Dias,
+            mensajeRecordatorio5Horas,
+            mensajeRecordatorio8Horas,
+            mensajeRecordatorio11Horas,
             mensajeReactivacion,
 };

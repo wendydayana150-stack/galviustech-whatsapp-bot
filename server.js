@@ -870,24 +870,24 @@ async function enviarRecordatoriosPendientes() {
                   const nombreProducto = producto?.nombre || null;
                   const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
-                  if (transcurrido >= 30 * 60 * 1000 && !c.recordatorios.min30) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio30Min(nombreProducto, precioTexto));
-                        c.recordatorios.min30 = true;
-                        cambios = true;
-                  } else if (transcurrido >= 2 * 60 * 60 * 1000 && !c.recordatorios.horas2) {
+                  if (transcurrido >= 2 * 60 * 60 * 1000 && !c.recordatorios.horas2) {
                         await enviarTexto(c.telefono, config.mensajeRecordatorio2Horas(nombreProducto, precioTexto));
+                        c.recordatorios.horas2 = true;
+                        cambios = true;
+                  } else if (transcurrido >= 5 * 60 * 60 * 1000 && !c.recordatorios.horas5) {
+                        await enviarTexto(c.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                         for (const combo of imagenesPromoParaProducto(productoId)) {
                               await enviarImagen(c.telefono, combo.imagenes[0], combo.nombreCorto || combo.nombre);
                         }
-                        c.recordatorios.horas2 = true;
+                        c.recordatorios.horas5 = true;
                         cambios = true;
-                  } else if (transcurrido >= 6 * 60 * 60 * 1000 && !c.recordatorios.horas6) {
-                        await enviarTexto(c.telefono, config.mensajeRemarketing6Horas(nombreProducto, precioTexto));
-                        c.recordatorios.horas6 = true;
+                  } else if (transcurrido >= 8 * 60 * 60 * 1000 && !c.recordatorios.horas8) {
+                        await enviarTexto(c.telefono, config.mensajeRecordatorio8Horas(nombreProducto, precioTexto));
+                        c.recordatorios.horas8 = true;
                         cambios = true;
-                  } else if (transcurrido >= 18 * 60 * 60 * 1000 && !c.recordatorios.dias2) {
-                        await enviarTexto(c.telefono, config.mensajeRemarketing2Dias(nombreProducto, precioTexto));
-                        c.recordatorios.dias2 = true;
+                  } else if (transcurrido >= 11 * 60 * 60 * 1000 && !c.recordatorios.horas11) {
+                        await enviarTexto(c.telefono, config.mensajeRecordatorio11Horas(nombreProducto, precioTexto));
+                        c.recordatorios.horas11 = true;
                         cambios = true;
                   }
             }
