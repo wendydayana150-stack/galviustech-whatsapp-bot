@@ -958,15 +958,16 @@ async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
       }
 }
 
-// Promocion diaria "solo por hoy" para clientes que escribieron AYER y no compraron, segun en que
-// producto mostraron interes. Corre como maximo una vez por dia calendario en hora de Bogota.
-const PROMOS_DIA_ANTERIOR_POR_CATEGORIA = {
+// Promocion diaria "solo por hoy" para TODOS los clientes que aun no han comprado, segun en que
+// producto mostraron interes. El envio automatico corre como maximo una vez por dia calendario en
+// hora de Bogota; ademas hay un disparador manual (/admin/promo-diaria) para enviarla al instante.
+const PROMOS_DIARIAS_POR_CATEGORIA = {
       lampara: () => config.mensajePromoLamparasDiaAnterior,
       impresora: () => config.mensajePromoImpresoraDiaAnterior,
       modem: () => config.mensajePromoModemDiaAnterior,
 };
 
-function categoriaPromoDiaAnterior(cliente) {
+function categoriaPromoDiaria(cliente) {
       const productoId = cliente.pedido?.productoId || cliente.ultimoProducto || null;
       if (!productoId) return null;
       const producto = catalogo.find((p) => p.id === productoId);
@@ -985,54 +986,87 @@ function fechaBogotaTexto(fecha) {
       return `${bogota.getUTCFullYear()}-${bogota.getUTCMonth() + 1}-${bogota.getUTCDate()}`;
 }
 
-let ultimaFechaPromoDiaAnterior = null;
+const promoDiariaEnviadaEnProceso = new Set();
 
-async function enviarPromoDiaAnterior() {
-      if (!estaEnHorarioComercial()) return;
-      const ahora = new Date();
-      const hoyBogota = fechaBogotaTexto(ahora);
-      if (ultimaFechaPromoDiaAnterior === hoyBogota) return;
-      ultimaFechaPromoDiaAnterior = hoyBogota;
-
+// Recorre a TODOS los clientes que no han comprado (sin restringir por cuando escribieron por
+// ultima vez) y les envia la promo de su categoria, una sola vez por dia calendario en Bogota.
+// La usan tanto el envio automatico como el boton manual del panel admin.
+async function ejecutarPromoDiaria() {
       try {
             const { datos } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
+            const hoyBogota = fechaBogotaTexto(new Date());
 
-            // Rango de "ayer" en hora de Bogota, expresado en ms UTC reales.
-            const bogotaAhora = new Date(ahora.getTime() - 5 * 60 * 60 * 1000);
-            const inicioHoyBogotaMs =
-                  Date.UTC(bogotaAhora.getUTCFullYear(), bogotaAhora.getUTCMonth(), bogotaAhora.getUTCDate()) + 5 * 60 * 60 * 1000;
-            const inicioAyerBogotaMs = inicioHoyBogotaMs - 24 * 60 * 60 * 1000;
-
-            const pendientes = [];
+            const enviados = [];
             for (const c of datos) {
                   if (c.pausado) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
                   if (!c.ultimoContacto) continue;
-                  if (c.recordatorios?.promoDiaAnterior) continue;
+                  if (c.recordatorios?.promoDiariaFecha === hoyBogota) continue;
+                  if (promoDiariaEnviadaEnProceso.has(`${c.telefono}|${hoyBogota}`)) continue;
 
-                  const t = new Date(c.ultimoContacto).getTime();
-                  if (t < inicioAyerBogotaMs || t >= inicioHoyBogotaMs) continue;
-
-                  const categoria = categoriaPromoDiaAnterior(c);
-                  const obtenerMensaje = categoria ? PROMOS_DIA_ANTERIOR_POR_CATEGORIA[categoria] : null;
+                  const categoria = categoriaPromoDiaria(c);
+                  const obtenerMensaje = categoria ? PROMOS_DIARIAS_POR_CATEGORIA[categoria] : null;
                   if (!obtenerMensaje) continue;
 
                   try {
                         await enviarTexto(c.telefono, obtenerMensaje());
-                        pendientes.push({ telefono: c.telefono, tier: "promoDiaAnterior" });
+                        promoDiariaEnviadaEnProceso.add(`${c.telefono}|${hoyBogota}`);
+                        enviados.push(c.telefono);
                   } catch (errorEnvio) {
-                        console.error(`Error enviando promo del dia anterior a ${c.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
+                        console.error(`Error enviando promo diaria a ${c.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
                   }
             }
 
-            if (pendientes.length > 0) {
-                  await marcarRecordatoriosEnviados(pendientes);
+            if (enviados.length > 0) {
+                  await marcarPromoDiariaEnviada(enviados, hoyBogota);
             }
+            return enviados.length;
       } catch (error) {
-            console.error("Error enviando promo del dia anterior:", error.response?.data || error.message);
+            console.error("Error enviando promo diaria:", error.response?.data || error.message);
+            return 0;
       }
+}
+
+async function marcarPromoDiariaEnviada(telefonos, fechaTexto, intentosRestantes = 4) {
+      try {
+            const { datos, sha } = await leerJSON(CLIENTES_API);
+            let cambios = false;
+            for (const telefono of telefonos) {
+                  const cliente = datos.find((c) => c.telefono === telefono);
+                  if (!cliente) continue;
+                  if (!cliente.recordatorios) cliente.recordatorios = {};
+                  if (cliente.recordatorios.promoDiariaFecha !== fechaTexto) {
+                        cliente.recordatorios.promoDiariaFecha = fechaTexto;
+                        cambios = true;
+                  }
+            }
+            if (!cambios) return;
+            await guardarJSON(CLIENTES_API, datos, sha, "Promo diaria enviada");
+      } catch (error) {
+            const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+            if (esConflicto && intentosRestantes > 0) {
+                  await marcarPromoDiariaEnviada(telefonos, fechaTexto, intentosRestantes - 1);
+                  return;
+            }
+            console.error(
+                  "Error guardando bandera de promo diaria (los mensajes ya se enviaron; el respaldo en memoria evita que se repitan):",
+                  error.response?.data || error.message
+                  );
+      }
+}
+
+let ultimaFechaPromoDiaria = null;
+
+// Disparo automatico: se intenta en cada webhook entrante, pero solo se ejecuta de verdad una vez
+// por dia calendario en Bogota y dentro del horario comercial.
+async function enviarPromoDiariaAutomatica() {
+      if (!estaEnHorarioComercial()) return;
+      const hoyBogota = fechaBogotaTexto(new Date());
+      if (ultimaFechaPromoDiaria === hoyBogota) return;
+      ultimaFechaPromoDiaria = hoyBogota;
+      await ejecutarPromoDiaria();
 }
 
 async function enviarListaCategorias(telefono, categorias) {
@@ -1385,7 +1419,9 @@ app.get("/admin", requiereLogin, async (req, res) => {
             <body>
             <h1>Panel - Galviustech</h1>
 			<p><a href="/admin/reactivar" style="display:inline-block;background:#25D366;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;">Reactivar conversaciones pendientes</a>
+			<a href="/admin/promo-diaria" style="display:inline-block;background:#e67e22;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Enviar promo del dia a todos</a>
 			<a href="/admin/productos" style="display:inline-block;background:#0a6ed1;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Productos y precios</a></p>
+			${req.query.promoDiariaEnviada !== undefined ? `<p style="color:#e67e22;font-weight:bold;">Promo del dia enviada a ${parseInt(req.query.promoDiariaEnviada, 10) || 0} cliente(s).</p>` : ""}
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 			<div style="margin-bottom:15px;">
 			<a href="/admin?filtro=hoy&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
@@ -1670,7 +1706,7 @@ app.post("/webhook", async (req, res) => {
 			await guardarCliente(telefono, nombreCliente);
               			await limpiarClientesAntiguos();
               			await enviarRecordatoriosPendientes();
-              			await enviarPromoDiaAnterior();
+              			await enviarPromoDiariaAutomatica();
               
             res.sendStatus(200);
       } catch (error) {
@@ -1719,6 +1755,16 @@ app.get("/admin/reactivar", requiereLogin, async (req, res) => {
 	} catch (error) {
 		console.error("Error en ruta de reactivacion:", error.response?.data || error.message);
 		res.status(500).send("Hubo un error reactivando las conversaciones.");
+	}
+});
+
+app.get("/admin/promo-diaria", requiereLogin, async (req, res) => {
+	try {
+		const cantidad = await ejecutarPromoDiaria();
+		res.redirect(`/admin?promoDiariaEnviada=${cantidad}`);
+	} catch (error) {
+		console.error("Error en ruta de promo diaria:", error.response?.data || error.message);
+		res.status(500).send("Hubo un error enviando la promocion diaria.");
 	}
 });
 
