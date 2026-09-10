@@ -42,8 +42,8 @@
     "telefono": "573144252669",
     "nombre": "Fredes Diaz",
     "primerContacto": "2026-09-10T16:31:50.664Z",
-    "ultimoContacto": "2026-09-10T16:31:50.664Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T16:33:06.643Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,6 +74,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T16:31:49.693Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que papel usa",
+        "fecha": "2026-09-10T16:33:05.438Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-10T16:33:05.636Z"
       }
     ],
     "paso": "confirmar_producto",
