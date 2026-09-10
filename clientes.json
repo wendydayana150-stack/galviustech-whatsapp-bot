@@ -3,8 +3,8 @@
     "telefono": "573173355326",
     "nombre": "Jaime Dalmacio",
     "primerContacto": "2026-09-10T14:38:19.917Z",
-    "ultimoContacto": "2026-09-10T14:38:19.917Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T14:38:44.313Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T14:38:19.108Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-10T14:38:39.095Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué gusto saludarte 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento sobre nuestra impresora térmica portátil, pero antes cuéntame un poco de ti: ¿en qué trabajas o para qué la necesitarías principalmente? ¿Es para emprendimiento, oficina, domicilios o algo más?\n\nY algo clave: ¿te ha pasado que necesitas imprimir algo urgente (una factura, cotización, recibo) y no tienes una impresora a la mano? Justo para eso está pensada esta impresora 📲🖨️\n\nCuéntame tu caso y te oriento mejor para ver si es lo que necesitas.",
+        "fecha": "2026-09-10T14:38:43.432Z"
       }
     ],
     "paso": "confirmar_producto",
