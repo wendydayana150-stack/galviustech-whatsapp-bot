@@ -853,22 +853,32 @@ async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
             sesion.historial = sesion.historial.slice(-16);
       }
 
-const respuesta = await axios.post(
-      ANTHROPIC_URL,
-      {
-            model: ANTHROPIC_MODEL,
-            max_tokens: 700,
-            system: config.construirSystemPrompt(catalogo, enfoqueProducto),
-            messages: sesion.historial,
-      },
-      {
-            headers: {
-                  "x-api-key": ANTHROPIC_API_KEY,
-                  "anthropic-version": "2023-06-01",
-                  "content-type": "application/json",
+let respuesta;
+try {
+      respuesta = await axios.post(
+            ANTHROPIC_URL,
+            {
+                  model: ANTHROPIC_MODEL,
+                  max_tokens: 700,
+                  system: config.construirSystemPrompt(catalogo, enfoqueProducto),
+                  messages: sesion.historial,
             },
-      }
-      );
+            {
+                  headers: {
+                        "x-api-key": ANTHROPIC_API_KEY,
+                        "anthropic-version": "2023-06-01",
+                        "content-type": "application/json",
+                  },
+            }
+            );
+} catch (error) {
+      // Si la llamada a la IA falla, sacamos del historial el mensaje del cliente que acabamos de
+      // agregar. Si no lo hacemos, el historial queda con dos mensajes "user" seguidos, y la API de
+      // Anthropic rechaza TODAS las llamadas siguientes con este mismo cliente (no solo esta),
+      // causando que el bot responda "tuve un problema" a cada mensaje de ahi en adelante.
+      sesion.historial.pop();
+      throw error;
+}
 
 const bloques = respuesta.data.content || [];
       const textoCompleto = bloques
@@ -1193,6 +1203,51 @@ async function iniciarPedido(telefono, productoId) {
             await enviarTexto(telefono, "No encontre ese producto en el catalogo, puedes elegir otro?");
             return;
       }
+
+      // Si este cliente ya tiene un pedido registrado antes (con datos completos de envio), no le
+      // volvemos a pedir todo de nuevo: reutilizamos esos datos para este nuevo pedido y registramos
+      // de una vez, dejandole claro que puede corregir algo si cambio.
+      let pedidoAnterior = null;
+      try {
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            pedidoAnterior = pedidos.find((p) => p.telefono === telefono) || null;
+      } catch (error) {
+            console.error("Error revisando pedidos anteriores:", error.response?.data || error.message);
+      }
+
+      const tieneDatosCompletos =
+            pedidoAnterior && pedidoAnterior.nombreCliente && pedidoAnterior.celular && pedidoAnterior.direccion;
+
+      if (tieneDatosCompletos) {
+            sesion.paso = "conversando";
+            sesion.ultimoProducto = producto.id;
+            sesion.pedido = {};
+            const nuevoPedido = {
+                  productoId,
+                  nombreProducto: producto.nombre,
+                  precio: producto.precio,
+                  telefono,
+                  nombreCliente: pedidoAnterior.nombreCliente,
+                  celular: pedidoAnterior.celular,
+                  departamento: pedidoAnterior.departamento,
+                  ciudad: pedidoAnterior.ciudad,
+                  direccion: pedidoAnterior.direccion,
+                  barrio: pedidoAnterior.barrio,
+                  medioPago: pedidoAnterior.medioPago,
+            };
+            await enviarTexto(
+                  telefono,
+                  `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Como ya tengo tus datos de un pedido anterior, los voy a usar para este nuevo pedido. Si necesitas cambiar algo (direccion, celular, etc.) dime cual y te lo corrijo.`
+                  );
+            if ((nuevoPedido.medioPago || "").toLowerCase().includes("transf")) {
+                  await enviarTexto(telefono, config.mensajeDatosTransferencia);
+            }
+            await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
+            await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+            await guardarPedido(nuevoPedido);
+            return;
+      }
+
       sesion.paso = "pedido_nombre";
       sesion.ultimoProducto = producto.id;
       sesion.pedido = { productoId, nombreProducto: producto.nombre, precio: producto.precio, telefono };
