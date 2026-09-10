@@ -195,8 +195,8 @@
     "telefono": "573016309045",
     "nombre": "Porfirio",
     "primerContacto": "2026-09-10T15:38:12.321Z",
-    "ultimoContacto": "2026-09-10T15:53:30.491Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-10T16:05:23.568Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -362,11 +362,16 @@
         "rol": "bot",
         "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Porfirio Castillo\nCalle 8 numero 7-40 Manatí Atlantico\n*Celular:* 3016309045\n*Departamento:* Ya te di ese dato\n*Ciudad:* Gfh\n*Direccion:* Gfg\n*Barrio:* Hgf\n*Producto:* Impresora Termica Portatil Bluetooth\n*Medio de pago:* Ontraebtrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
         "fecha": "2026-09-10T15:53:28.538Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📦 Mensaje para enviar al cliente cuando ya envío sus datos y antes de despachar ⚠️ IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO Estimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo. 📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística. Por eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏 ❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio. ✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue. 💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio. ¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-10T16:05:22.265Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica"
   },
