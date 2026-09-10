@@ -3463,8 +3463,8 @@
     "telefono": "573106831514",
     "nombre": "デュヴァン",
     "primerContacto": "2026-09-10T11:56:09.990Z",
-    "ultimoContacto": "2026-09-10T19:24:19.417Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-09-10T19:46:51.399Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "bot",
@@ -3730,6 +3730,11 @@
         "rol": "bot",
         "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Camara de seguridad* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
         "fecha": "2026-09-10T19:24:18.117Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Carrera 19 Restrepo joyería los socios me confirmas dirección completa",
+        "fecha": "2026-09-10T19:46:50.239Z"
       }
     ],
     "paso": "pedido_nombre",
@@ -3739,7 +3744,7 @@
       "precio": 299900,
       "telefono": "573106831514"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "recordatorios": {
