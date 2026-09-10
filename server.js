@@ -859,6 +859,10 @@ return { mensajeVisible, productoId };
 }
 
 let ultimaRevisionRecordatorios = 0;
+// Respaldo en memoria: aunque el guardado en clientes.json falle (por ejemplo por una escritura
+// simultanea de otra conversacion), esto evita reenviar el mismo recordatorio al mismo cliente
+// una y otra vez cada 10 minutos mientras el proceso siga corriendo.
+const recordatoriosEnviadosEnProceso = new Set();
 
 async function enviarRecordatoriosPendientes() {
       const ahora = Date.now();
@@ -866,50 +870,91 @@ async function enviarRecordatoriosPendientes() {
       ultimaRevisionRecordatorios = ahora;
       if (!estaEnHorarioComercial()) return;
       try {
-            const { datos, sha } = await leerJSON(CLIENTES_API);
+            const { datos } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-            let cambios = false;
 
+            const pendientes = [];
             for (const c of datos) {
                   if (c.pausado) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
                   if (!c.ultimoContacto) continue;
-                  if (!c.recordatorios) c.recordatorios = {};
-
+                  const recordatorios = c.recordatorios || {};
                   const transcurrido = ahora - new Date(c.ultimoContacto).getTime();
-                  const productoId = c.pedido?.productoId || null;
-                  const producto = productoId ? catalogo.find((p) => p.id === productoId) : null;
-                  const nombreProducto = producto?.nombre || null;
-                  const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
-                  if (transcurrido >= 2 * 60 * 60 * 1000 && !c.recordatorios.horas2) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio2Horas(nombreProducto, precioTexto));
-                        c.recordatorios.horas2 = true;
-                        cambios = true;
-                  } else if (transcurrido >= 5 * 60 * 60 * 1000 && !c.recordatorios.horas5) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
-                        for (const combo of imagenesPromoParaProducto(productoId)) {
-                              await enviarImagen(c.telefono, combo.imagenes[0], combo.nombreCorto || combo.nombre);
+                  let tier = null;
+                  if (transcurrido >= 2 * 60 * 60 * 1000 && !recordatorios.horas2) tier = "horas2";
+                  else if (transcurrido >= 5 * 60 * 60 * 1000 && !recordatorios.horas5) tier = "horas5";
+                  else if (transcurrido >= 8 * 60 * 60 * 1000 && !recordatorios.horas8) tier = "horas8";
+                  else if (transcurrido >= 11 * 60 * 60 * 1000 && !recordatorios.horas11) tier = "horas11";
+                  if (!tier) continue;
+
+                  if (recordatoriosEnviadosEnProceso.has(`${c.telefono}|${tier}`)) continue;
+                  pendientes.push({ telefono: c.telefono, tier, productoId: c.pedido?.productoId || null });
+            }
+
+            for (const p of pendientes) {
+                  const clave = `${p.telefono}|${p.tier}`;
+                  try {
+                        const producto = p.productoId ? catalogo.find((prod) => prod.id === p.productoId) : null;
+                        const nombreProducto = producto?.nombre || null;
+                        const precioTexto = producto ? formatearPrecio(producto.precio) : null;
+
+                        if (p.tier === "horas2") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio2Horas(nombreProducto, precioTexto));
+                        } else if (p.tier === "horas5") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
+                              for (const combo of imagenesPromoParaProducto(p.productoId)) {
+                                    await enviarImagen(p.telefono, combo.imagenes[0], combo.nombreCorto || combo.nombre);
+                              }
+                        } else if (p.tier === "horas8") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio8Horas(nombreProducto, precioTexto));
+                        } else if (p.tier === "horas11") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio11Horas(nombreProducto, precioTexto));
                         }
-                        c.recordatorios.horas5 = true;
-                        cambios = true;
-                  } else if (transcurrido >= 8 * 60 * 60 * 1000 && !c.recordatorios.horas8) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio8Horas(nombreProducto, precioTexto));
-                        c.recordatorios.horas8 = true;
-                        cambios = true;
-                  } else if (transcurrido >= 11 * 60 * 60 * 1000 && !c.recordatorios.horas11) {
-                        await enviarTexto(c.telefono, config.mensajeRecordatorio11Horas(nombreProducto, precioTexto));
-                        c.recordatorios.horas11 = true;
-                        cambios = true;
+                        recordatoriosEnviadosEnProceso.add(clave);
+                  } catch (errorEnvio) {
+                        console.error(`Error enviando recordatorio ${p.tier} a ${p.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
                   }
             }
 
-            if (cambios) {
-                  await guardarJSON(CLIENTES_API, datos, sha, "Recordatorios de remarketing enviados");
+            if (pendientes.length > 0) {
+                  await marcarRecordatoriosEnviados(pendientes);
             }
       } catch (error) {
             console.error("Error enviando recordatorios:", error.response?.data || error.message);
+      }
+}
+
+// Guarda las banderas de recordatorios enviados directamente sobre la version MAS RECIENTE de
+// clientes.json (no sobre la copia que se leyo al inicio), y reintenta si otra escritura
+// simultanea invalido el sha. Asi no se pisan cambios que otra conversacion haya guardado mientras
+// se enviaban los mensajes.
+async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
+      try {
+            const { datos, sha } = await leerJSON(CLIENTES_API);
+            let cambios = false;
+            for (const p of pendientes) {
+                  const cliente = datos.find((c) => c.telefono === p.telefono);
+                  if (!cliente) continue;
+                  if (!cliente.recordatorios) cliente.recordatorios = {};
+                  if (!cliente.recordatorios[p.tier]) {
+                        cliente.recordatorios[p.tier] = true;
+                        cambios = true;
+                  }
+            }
+            if (!cambios) return;
+            await guardarJSON(CLIENTES_API, datos, sha, "Recordatorios de remarketing enviados");
+      } catch (error) {
+            const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+            if (esConflicto && intentosRestantes > 0) {
+                  await marcarRecordatoriosEnviados(pendientes, intentosRestantes - 1);
+                  return;
+            }
+            console.error(
+                  "Error guardando banderas de recordatorios (los mensajes ya se enviaron; el respaldo en memoria evita que se repitan):",
+                  error.response?.data || error.message
+                  );
       }
 }
 
