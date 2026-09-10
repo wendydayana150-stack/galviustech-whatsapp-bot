@@ -62,8 +62,8 @@
     "telefono": "573123128672",
     "nombre": "Jaime Parra",
     "primerContacto": "2026-09-10T15:13:09.693Z",
-    "ultimoContacto": "2026-09-10T15:15:10.048Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-10T15:15:14.024Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,6 +109,16 @@
         "rol": "bot",
         "texto": "¡Buenos días! 😊 Soy Michell, de GalviusTech.\n\nCuéntame, ¿en qué andas buscando ayuda hoy? ¿Necesitas internet portátil, una impresora, cámaras de seguridad o lámparas solares? Y cuéntame también, ¿de qué ciudad o municipio me escribes?",
         "fecha": "2026-09-10T15:15:08.994Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad",
+        "fecha": "2026-09-10T15:15:10.647Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Pero cuéntame, ¿cuál es el nombre de tu ciudad o municipio? Así te oriento mejor según la cobertura de tu zona 😊\n\nY cuéntame también, ¿qué es lo que necesitas: internet portátil, impresora, cámaras de seguridad o lámparas solares?",
+        "fecha": "2026-09-10T15:15:13.144Z"
       }
     ],
     "paso": "conversando",
