@@ -213,8 +213,8 @@
     "telefono": "573207706426",
     "nombre": "Manuel Velez🤩",
     "primerContacto": "2026-09-10T15:17:09.731Z",
-    "ultimoContacto": "2026-09-10T15:17:09.731Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T15:35:55.555Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -245,6 +245,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T15:17:08.838Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-10T15:35:40.028Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-10T15:35:40.028Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-10T15:35:49.078Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nEsta impresora funciona sin tinta (imprime térmico), es portátil, se conecta por Bluetooth a tu celular y la puedes cargar en el bolso o la mochila para tenerla lista donde la necesites, sin depender de buscar una papelería cuando algo te urge.\n\nLa inversión es de **$249.900**.\n\nCuéntame, ¿la usarías para tu negocio, para trabajo de oficina o te mueves seguido y necesitas imprimir en la calle? Así te confirmo que es justo lo que necesitas 📲",
+        "fecha": "2026-09-10T15:35:54.399Z"
       }
     ],
     "paso": "confirmar_producto",
