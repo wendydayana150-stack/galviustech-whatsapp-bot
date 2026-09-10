@@ -3478,8 +3478,8 @@
     "telefono": "573106831514",
     "nombre": "デュヴァン",
     "primerContacto": "2026-09-10T11:56:09.990Z",
-    "ultimoContacto": "2026-09-10T19:17:11.841Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-10T19:17:17.987Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "bot",
@@ -3620,9 +3620,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-10T19:17:10.862Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Amalfi",
+        "fecha": "2026-09-10T19:17:16.608Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-10T19:17:16.608Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
@@ -3630,7 +3640,8 @@
       "telefono": "573106831514",
       "nombreCliente": "Me interesa este combo",
       "celular": "Duvan Martinez \n\n3106831514",
-      "departamento": "Antioquia"
+      "departamento": "Antioquia",
+      "ciudad": "Amalfi"
     },
     "pausado": false,
     "etapaManual": null,
