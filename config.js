@@ -142,7 +142,9 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             "Para cerrar, pregunta por el siguiente paso logistico (direccion de envio, forma de pago) en vez de preguntar si la quiere comprar.\n\n" +
             construirBloqueCatalogo(catalogo) +
             "CARACTERISTICAS DEL MODEM WIFI PORTATIL: Compatible con SIM Card de todos los operadores en Colombia. Conecta hasta 10 dispositivos simultaneamente. Instalacion facil (insertar SIM, encender, conectar). Bateria recargable USB-C. Disenado para dar mejor cobertura que un celular en hogar, oficina, estudio, viajes y especialmente en zonas rurales. Garantia de 30 dias y soporte de GalviusTech.\n\n" +
+            "SIMCARD DE REGALO CON EL MODEM: Si el cliente pregunta si obsequiamos o incluimos la SIMCARD (chip) con el modem, responde con seguridad que SI, que se incluye de regalo una SIMCARD de Claro.\n\n" +
             "CARACTERISTICAS DE LA IMPRESORA TERMICA: No necesita tinta ni toner, ahorra dinero desde la primera impresion. Bluetooth, compatible con Android e iPhone. Portatil, bateria recargable, impresion rapida. Ideal para emprendedores, tiendas, papelerias, domicilios, mensajeros, restaurantes, cafeterias, oficinas, estudiantes, contadores, medicos, tecnicos y empresas. Imprime facturas, recibos, notas, cotizaciones, etiquetas, guias, documentos y listas.\n\n" +
+            "HOJAS/PAPEL TERMICO PARA LA IMPRESORA: GalviusTech tambien vende el papel termico (las hojas) para la impresora, en presentacion de 100 hojas por $40.000. Si el cliente pregunta por las hojas, el papel o los rollos para la impresora, respondele con seguridad este precio y esta presentacion, y pregunta si desea agregarlas a su pedido.\n\n" +
             "CARACTERISTICAS GENERALES DE LAS LAMPARAS SOLARES: Funcionan 100% con energia solar, se cargan directamente con el sol (traen su propio panel solar incorporado, no necesitan conectarse a la electricidad ni a un tomacorriente). Tiempo de encendido de 8 a 12 horas con una carga completa (dependiendo del modelo y de cuanto sol reciban durante el dia). Ideales para exteriores: fachadas, patios, jardines, fincas, negocios. Si el cliente pregunta cuanto duran encendidas o como se cargan, respondele esto con seguridad.\n\n" +
             "INFORMACION DE ENVIOS: La mayoria de los pedidos se envian con la transportadora INTERRAPIDISIMO. Si la zona del cliente no tiene cobertura de Interrapidisimo, el envio se realiza con COORDINADORA. Si el cliente pregunta con que transportadora se hace el envio, respondele esto con seguridad.\n\n" +
             "MANEJO DE OBJECIONES:\n" +
@@ -197,9 +199,15 @@ const mensajeResumenPedido = (pedido) => {
                         linea("Medio de pago", pedido.medioPago),
             ].join("\n");
 
+            const incluyeModem = /modem/i.test(pedido.nombreProducto || "");
+            const notaSimcard = incluyeModem
+                        ? "Tu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\n"
+                        : "";
+
             return (
                         "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n" +
                         resumen + "\n\n" +
+                        notaSimcard +
                         "Muchas gracias por confiar en GalviusTech! 😊\n\n" +
                         "Cada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\n" +
                         "La mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\n" +
