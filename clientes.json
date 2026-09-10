@@ -3,8 +3,8 @@
     "telefono": "573117902293",
     "nombre": "Eliecer Fernandez",
     "primerContacto": "2026-09-10T11:42:21.114Z",
-    "ultimoContacto": "2026-09-10T11:42:21.114Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T11:42:45.845Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T11:42:20.224Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-10T11:42:40.629Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que escribes 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento sobre la impresora térmica portátil bluetooth, pero antes cuéntame: ¿la necesitas para tu negocio, para trabajar de forma independiente, o para qué la usarías principalmente? Y ¿en qué ciudad o municipio estás?\n\nAsí te recomiendo bien y te explico cómo te puede ahorrar tiempo cuando necesitas imprimir algo urgente sin ir hasta una papelería 📲🖨️",
+        "fecha": "2026-09-10T11:42:44.774Z"
       }
     ],
     "paso": "confirmar_producto",
