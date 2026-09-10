@@ -288,8 +288,8 @@
     "telefono": "573207725450",
     "nombre": "omarfragozodiaz2017@gmail",
     "primerContacto": "2026-09-10T00:11:57.005Z",
-    "ultimoContacto": "2026-09-10T00:30:10.207Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-10T00:35:59.266Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -435,10 +435,35 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con reloj de regalo | Con camara de regalo | No, gracias]",
         "fecha": "2026-09-10T00:30:09.025Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno gracias solo nesesito el router ,pregunta este lleva chip del operador?",
+        "fecha": "2026-09-10T00:35:53.575Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-09-10T00:35:55.533Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-10T00:35:55.534Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 👍 El módem no viene con el chip incluido, tú le insertas tu propia SIM Card (en tu caso la de Claro) y listo, queda funcionando. Es compatible con SIM de todos los operadores en Colombia, así que con tu chip actual de Claro debería funcionar sin problema.\n\n¿Ya tienes esa SIM lista para usar en el módem, o necesitas gestionar una aparte?\n\nPara dejarte el pedido en camino, ¿me confirmas tu nombre completo y número de celular? 📦",
+        "fecha": "2026-09-10T00:35:58.265Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 199900,
+      "telefono": "573207725450"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g"
