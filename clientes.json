@@ -195,8 +195,8 @@
     "telefono": "573016309045",
     "nombre": "Porfirio",
     "primerContacto": "2026-09-10T15:38:12.321Z",
-    "ultimoContacto": "2026-09-10T15:50:57.536Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-10T15:51:44.549Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -282,11 +282,24 @@
         "rol": "bot",
         "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
         "fecha": "2026-09-10T15:50:56.465Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-09-10T15:51:43.319Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Termica Portatil Bluetooth* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-10T15:51:43.319Z"
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Termica Portatil Bluetooth",
+      "precio": 249900,
+      "telefono": "573016309045"
     },
     "pausado": false,
     "etapaManual": null,
