@@ -3,8 +3,8 @@
     "telefono": "573007308836",
     "nombre": "kisbelrodiguez",
     "primerContacto": "2026-09-10T15:23:50.180Z",
-    "ultimoContacto": "2026-09-10T15:23:50.180Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T15:24:15.670Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,26 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T15:23:49.184Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-10T15:24:09.421Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-10T15:24:09.421Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-10T15:24:10.026Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Que gusto saludarte 😊 Soy Michell, de GalviusTech.\n\nCon gusto te cuento sobre nuestra Impresora Térmica Portátil Bluetooth. Es ideal para no depender de una papelería cuando necesitas imprimir algo urgente: se conecta por Bluetooth a tu celular, no necesita tinta ni tóner (ahorras desde la primera impresión), y es tan compacta que la llevas en el bolso o la mochila.\n\nPara orientarte mejor, cuéntame: ¿en qué trabajas o para qué la necesitarías principalmente? ¿Documentos, facturas, cotizaciones, guías de envío? Y si viajas o te mueves seguido fuera de una oficina, esta impresora te cambia el juego 📲🖨️",
+        "fecha": "2026-09-10T15:24:14.727Z"
       }
     ],
     "paso": "confirmar_producto",
