@@ -1202,10 +1202,46 @@ async function iniciarPedido(telefono, productoId) {
             );
 }
 
+// Valida que la respuesta del cliente durante el flujo de pedido tenga un minimo de sentido para
+// el campo que se esta pidiendo, para no avanzar el pedido con datos que claramente son basura
+// (ej. "Gfh", "asdf", una respuesta de pago que no es ninguna de las opciones). No puede detectar
+// TODO dato invalido (una direccion real puede tener cualquier forma), pero si filtra los casos
+// obvios de texto sin sentido.
+function pareceRespuestaValidaPedido(texto, tipo) {
+      const limpio = (texto || "").trim();
+      if (!limpio) return false;
+
+      const tieneVocal = /[aeiouáéíóúAEIOUÁÉÍÓÚ]/.test(limpio);
+      const soloLetrasYEspacios = /^[a-zA-ZÀ-ÿ\s.'-]+$/.test(limpio);
+
+      switch (tipo) {
+            case "nombre":
+                  return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
+            case "celular": {
+                  const digitos = limpio.replace(/\D/g, "");
+                  return digitos.length >= 7;
+            }
+            case "departamento":
+            case "ciudad":
+            case "barrio":
+                  return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
+            case "direccion":
+                  return limpio.length >= 5;
+            case "pago":
+                  return /contra|entrega|efectiv|transf|nequi|davipl|bancol|pse|tarjeta|otro|giro/i.test(limpio);
+            default:
+                  return true;
+      }
+}
+
 async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
       if (sesion.paso === "pedido_nombre") {
+            if (!pareceRespuestaValidaPedido(texto, "nombre")) {
+                  await enviarTexto(telefono, "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?");
+                  return true;
+            }
             sesion.pedido.nombreCliente = texto;
             sesion.paso = "pedido_celular";
             await enviarTexto(telefono, "Gracias. Cual es tu numero de celular?");
@@ -1213,6 +1249,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_celular") {
+            if (!pareceRespuestaValidaPedido(texto, "celular")) {
+                  await enviarTexto(telefono, "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?");
+                  return true;
+            }
             sesion.pedido.celular = texto;
             sesion.paso = "pedido_departamento";
             await enviarTexto(telefono, "En que departamento vives?");
@@ -1220,6 +1260,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_departamento") {
+            if (!pareceRespuestaValidaPedido(texto, "departamento")) {
+                  await enviarTexto(telefono, "Disculpa, no entendi bien ese departamento. Me lo confirmas de nuevo?");
+                  return true;
+            }
             sesion.pedido.departamento = texto;
             sesion.paso = "pedido_ciudad";
             await enviarTexto(telefono, "Y en que ciudad o municipio?");
@@ -1227,6 +1271,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_ciudad") {
+            if (!pareceRespuestaValidaPedido(texto, "ciudad")) {
+                  await enviarTexto(telefono, "No logre entender la ciudad o municipio. Me la puedes escribir de nuevo?");
+                  return true;
+            }
             sesion.pedido.ciudad = texto;
             sesion.paso = "pedido_direccion";
             await enviarTexto(telefono, "Cual es tu direccion completa?");
@@ -1234,6 +1282,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_direccion") {
+            if (!pareceRespuestaValidaPedido(texto, "direccion")) {
+                  await enviarTexto(telefono, "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)?");
+                  return true;
+            }
             sesion.pedido.direccion = texto;
             sesion.paso = "pedido_barrio";
             await enviarTexto(telefono, "En que barrio queda esa direccion?");
@@ -1241,6 +1293,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_barrio") {
+            if (!pareceRespuestaValidaPedido(texto, "barrio")) {
+                  await enviarTexto(telefono, "No logre entender el barrio. Me lo puedes confirmar de nuevo?");
+                  return true;
+            }
             sesion.pedido.barrio = texto;
             sesion.paso = "pedido_pago";
             await enviarTexto(telefono, "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)");
@@ -1248,6 +1304,10 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       if (sesion.paso === "pedido_pago") {
+            if (!pareceRespuestaValidaPedido(texto, "pago")) {
+                  await enviarTexto(telefono, "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia u otro?");
+                  return true;
+            }
             sesion.pedido.medioPago = texto;
             if (texto.toLowerCase().includes("transf")) {
                   await enviarTexto(telefono, config.mensajeDatosTransferencia);
