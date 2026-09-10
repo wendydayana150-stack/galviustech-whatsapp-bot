@@ -3478,8 +3478,8 @@
     "telefono": "573106831514",
     "nombre": "デュヴァン",
     "primerContacto": "2026-09-10T11:56:09.990Z",
-    "ultimoContacto": "2026-09-10T19:17:04.086Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-10T19:17:11.841Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "bot",
@@ -3610,16 +3610,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-09-10T19:17:03.043Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antioquia",
+        "fecha": "2026-09-10T19:17:10.861Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-10T19:17:10.862Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
       "telefono": "573106831514",
       "nombreCliente": "Me interesa este combo",
-      "celular": "Duvan Martinez \n\n3106831514"
+      "celular": "Duvan Martinez \n\n3106831514",
+      "departamento": "Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
