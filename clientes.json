@@ -3,8 +3,8 @@
     "telefono": "573504251577",
     "nombre": "Cesar Augusto Bejarano Pi",
     "primerContacto": "2026-09-10T16:11:26.871Z",
-    "ultimoContacto": "2026-09-10T16:11:26.871Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T16:11:52.087Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T16:11:25.996Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-10T16:11:47.000Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, con gusto te cuento 😊\n\nEsta impresora es ideal si necesitas sacar documentos, facturas o cotizaciones sin depender de una papelería. Lo mejor es que no usa tinta, es compacta, se conecta por Bluetooth a tu celular y la puedes llevar en el bolso a donde vayas.\n\nContame, ¿la necesitas para tu negocio, para trabajo o estudio? Y ¿te toca moverte seguido o trabajas casi siempre en un mismo lugar? Así te oriento mejor sobre cómo sacarle el máximo provecho 📲",
+        "fecha": "2026-09-10T16:11:51.134Z"
       }
     ],
     "paso": "confirmar_producto",
