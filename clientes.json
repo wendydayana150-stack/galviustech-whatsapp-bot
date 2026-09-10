@@ -195,8 +195,8 @@
     "telefono": "573016309045",
     "nombre": "Porfirio",
     "primerContacto": "2026-09-10T15:38:12.321Z",
-    "ultimoContacto": "2026-09-10T15:52:44.626Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-10T15:52:58.717Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -312,16 +312,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-09-10T15:52:43.441Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya te di ese dato",
+        "fecha": "2026-09-10T15:52:57.670Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-10T15:52:57.670Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573016309045",
       "nombreCliente": "Porfirio Castillo\nCalle 8 numero 7-40 Manatí Atlantico",
-      "celular": "3016309045"
+      "celular": "3016309045",
+      "departamento": "Ya te di ese dato"
     },
     "pausado": false,
     "etapaManual": null,
