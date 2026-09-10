@@ -2251,44 +2251,47 @@
     "telefono": "573193587877",
     "nombre": "i love You money",
     "primerContacto": "2026-09-10T14:32:38.487Z",
-    "ultimoContacto": "2026-09-10T14:32:38.487Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T21:20:27.252Z",
+    "mensajes": 2,
     "conversacion": [
       {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
+        "fecha": "2026-09-10T21:16:35.022Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción del Impresora Termica Portatil Bluetooth por $ 249.900 sigue disponible por el momento, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-10T21:19:28.240Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-10T21:19:28.724Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-10T21:19:29.158Z"
+      },
+      {
         "rol": "cliente",
-        "texto": "¡Hola! Quiero más información de Impresora termica",
-        "fecha": "2026-09-10T14:32:35.014Z"
+        "texto": "Precio",
+        "fecha": "2026-09-10T21:20:25.780Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-10T14:32:35.014Z"
+        "texto": "Hola i love You money! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem, Impresora y Lamparas.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-10T21:20:25.781Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-10T14:32:35.770Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-10T14:32:36.436Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 249.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
-        "fecha": "2026-09-10T14:32:36.938Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-09-10T14:32:37.492Z"
+        "texto": "Que te interesa?\n[Opciones: Modem | Impresora | Lamparas]",
+        "fecha": "2026-09-10T21:20:26.330Z"
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "impresora-termica"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
