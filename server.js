@@ -122,6 +122,16 @@ function registrarMensaje(telefono, rol, texto) {
         }
 }
 
+function escaparHtml(texto) {
+        return String(texto || "").replace(/[&<>"']/g, (c) => ({
+                "&": "&amp;",
+                "<": "&lt;",
+                ">": "&gt;",
+                '"': "&quot;",
+                "'": "&#39;",
+        }[c]));
+}
+
 function formatearPrecio(numero) {
         return numero.toLocaleString("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 });
 }
@@ -192,7 +202,13 @@ async function subirMediaWhatsApp(buffer, mimetype) {
       });
       const datos = await respuesta.json();
       if (!datos.id) {
-            throw new Error("No se pudo subir el archivo a WhatsApp: " + JSON.stringify(datos));
+            const detalle = datos?.error?.error_data?.details || datos?.error?.message || JSON.stringify(datos);
+            const error = new Error("No se pudo subir el archivo a WhatsApp: " + detalle);
+            if (/demasiado grande/i.test(detalle)) {
+                  error.esMensajeAmigable = true;
+                  error.message = "El archivo es demasiado pesado para WhatsApp (imagenes hasta 5 MB, videos hasta 16 MB). Comprimelo o envia uno mas liviano.";
+            }
+            throw error;
       }
       return datos.id;
 }
@@ -724,17 +740,37 @@ async function enviarMensajeManual(telefono, texto) {
       await guardarCliente(telefono);
 }
 
+// Limites reales de WhatsApp para adjuntos (mas alla de esto, la API de Meta los rechaza).
+const LIMITES_TAMANO_ARCHIVO = {
+      imagen: 5 * 1024 * 1024,
+      video: 16 * 1024 * 1024,
+};
+
 async function enviarArchivoManual(telefono, archivo, caption) {
       await cargarSesionSiNueva(telefono);
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
+
+      if (archivo.mimetype.startsWith("image/") && archivo.size > LIMITES_TAMANO_ARCHIVO.imagen) {
+            const error = new Error("La imagen pesa demasiado (maximo 5 MB en WhatsApp). Comprimela o envia una mas liviana.");
+            error.esMensajeAmigable = true;
+            throw error;
+      }
+      if (archivo.mimetype.startsWith("video/") && archivo.size > LIMITES_TAMANO_ARCHIVO.video) {
+            const error = new Error("El video pesa demasiado (maximo 16 MB en WhatsApp). Comprimelo o envia uno mas liviano.");
+            error.esMensajeAmigable = true;
+            throw error;
+      }
+
       const mediaId = await subirMediaWhatsApp(archivo.buffer, archivo.mimetype);
       if (archivo.mimetype.startsWith("image/")) {
             await enviarImagenPorId(telefono, mediaId, caption);
       } else if (archivo.mimetype.startsWith("video/")) {
             await enviarVideoPorId(telefono, mediaId, caption);
       } else {
-            throw new Error("Solo se permiten imagenes o videos.");
+            const error = new Error("Solo se permiten imagenes o videos.");
+            error.esMensajeAmigable = true;
+            throw error;
       }
       await guardarCliente(telefono);
 }
@@ -1516,19 +1552,35 @@ app.post("/admin/etapa/:telefono", requiereLogin, async (req, res) => {
       }
 });
 
-app.post("/admin/chat/:telefono/enviar", requiereLogin, subirArchivoChat.single("archivo"), async (req, res) => {
-      try {
-            const mensaje = (req.body.mensaje || "").trim();
-            if (req.file) {
-                  await enviarArchivoManual(req.params.telefono, req.file, mensaje);
-            } else if (mensaje) {
-                  await enviarMensajeManual(req.params.telefono, mensaje);
+app.post("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
+      subirArchivoChat.single("archivo")(req, res, async (errorSubida) => {
+            const volverConError = (mensajeError) =>
+                  res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}?error=${encodeURIComponent(mensajeError)}`);
+
+            if (errorSubida) {
+                  console.error("Error subiendo archivo del chat:", errorSubida.message);
+                  if (errorSubida.code === "LIMIT_FILE_SIZE") {
+                        return volverConError("El archivo pesa mas de 16 MB, que es el maximo permitido. Comprimelo o envia uno mas liviano.");
+                  }
+                  return volverConError("Hubo un error subiendo el archivo. Intenta de nuevo.");
             }
-            res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
-      } catch (error) {
-            console.error("Error enviando mensaje manual:", error.response?.data || error.message);
-            res.status(500).send("Hubo un error enviando el mensaje. " + (error.message || ""));
-      }
+
+            try {
+                  const mensaje = (req.body.mensaje || "").trim();
+                  if (req.file) {
+                        await enviarArchivoManual(req.params.telefono, req.file, mensaje);
+                  } else if (mensaje) {
+                        await enviarMensajeManual(req.params.telefono, mensaje);
+                  }
+                  res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
+            } catch (error) {
+                  console.error("Error enviando mensaje manual:", error.response?.data || error.message);
+                  const mensajeError = error.esMensajeAmigable
+                        ? error.message
+                        : "Hubo un error enviando el mensaje. Intenta de nuevo.";
+                  volverConError(mensajeError);
+            }
+      });
 });
 
 // Si por una recarga, doble clic o boton "atras" del navegador se termina pidiendo esta URL con
@@ -1580,6 +1632,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             .escribir button { padding: 10px 18px; background: #25D366; color: white; border: none; border-radius: 6px; font-size: 14px; cursor: pointer; }
             .archivo-nombre { font-size: 12px; color: #666; max-width: 700px; margin: 0 auto 6px; padding: 0 16px; }
             .aviso { max-width: 700px; margin: 10px auto; padding: 0 16px; font-size: 12px; color: #666; text-align: center; }
+            .error-envio { max-width: 700px; margin: 10px auto; padding: 10px 16px; font-size: 13px; color: #842029; background: #f8d7da; border-radius: 6px; }
             </style>
             </head>
             <body>
@@ -1587,6 +1640,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             <a href="/admin">&larr; Volver al panel</a>
             <h2>${cliente.nombre || "(sin nombre)"} - ${cliente.telefono}</h2>
             </div>
+            ${req.query.error ? `<div class="error-envio">${escaparHtml(req.query.error)}</div>` : ""}
             <div class="pausa">
             Estado del bot: <strong>${cliente.pausado ? "Pausado" : "Activo"}</strong> -
             <a href="/admin/pausa/${encodeURIComponent(cliente.telefono)}">${cliente.pausado ? "Reanudar bot" : "Pausar bot"}</a>
