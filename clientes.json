@@ -3,8 +3,8 @@
     "telefono": "573192729852",
     "nombre": "villamilpaez nelson1",
     "primerContacto": "2026-09-10T17:03:02.365Z",
-    "ultimoContacto": "2026-09-10T17:03:02.365Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T17:03:12.897Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T17:03:01.440Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuál es el valor",
+        "fecha": "2026-09-10T17:03:11.586Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-10T17:03:11.887Z"
       }
     ],
     "paso": "confirmar_producto",
