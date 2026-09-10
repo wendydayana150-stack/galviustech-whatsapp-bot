@@ -3463,8 +3463,8 @@
     "telefono": "573106831514",
     "nombre": "デュヴァン",
     "primerContacto": "2026-09-10T11:56:09.990Z",
-    "ultimoContacto": "2026-09-10T19:23:52.142Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-09-10T19:24:19.417Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "bot",
@@ -3720,10 +3720,25 @@
         "rol": "bot",
         "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
         "fecha": "2026-09-10T19:23:51.252Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con camara de regalo",
+        "fecha": "2026-09-10T19:24:18.116Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Camara de seguridad* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-10T19:24:18.117Z"
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
+      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
+      "precio": 299900,
+      "telefono": "573106831514"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
