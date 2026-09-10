@@ -126,6 +126,19 @@ function formatearPrecio(numero) {
         return numero.toLocaleString("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 });
 }
 
+function formatearFechaHora(fechaIso) {
+        if (!fechaIso) return "-";
+        return new Date(fechaIso).toLocaleString("es-CO", {
+                timeZone: "America/Bogota",
+                day: "2-digit",
+                month: "2-digit",
+                year: "numeric",
+                hour: "2-digit",
+                minute: "2-digit",
+                hour12: true,
+        });
+}
+
 async function enviarTexto(telefono, texto) {
       registrarMensaje(telefono, "bot", texto);
       await axios.post(
@@ -1208,7 +1221,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
             .map(
                   (p) => `
                   <tr>
-                  <td>${new Date(p.fecha).toLocaleString("es-CO")}</td>
+                  <td>${formatearFechaHora(p.fecha)}</td>
                   <td>${p.nombreCliente || ""}</td>
                   <td>${p.celular || ""}</td>
                   <td>${p.nombreProducto || ""}</td>
@@ -1374,7 +1387,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
                   (m) => `
                   <div class="burbuja ${m.rol === "bot" ? "bot" : "cliente"}">
                   <div class="texto">${(m.texto || "").replace(/\n/g, "<br>")}</div>
-                  <div class="hora">${new Date(m.fecha).toLocaleString("es-CO")}</div>
+                  <div class="hora">${formatearFechaHora(m.fecha)}</div>
                   </div>`
                   )
             .join("");
