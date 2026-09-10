@@ -1,5 +1,51 @@
 [
   {
+    "telefono": "573216405563",
+    "nombre": "La Hermosa",
+    "primerContacto": "2026-09-10T14:25:43.030Z",
+    "ultimoContacto": "2026-09-10T14:25:43.030Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-10T14:25:39.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-10T14:25:39.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-10T14:25:40.476Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-10T14:25:41.150Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 249.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
+        "fecha": "2026-09-10T14:25:41.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-10T14:25:42.228Z"
+      }
+    ],
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": "impresora-termica"
+  },
+  {
     "telefono": "573188132391",
     "nombre": "Luis Cabarcas",
     "primerContacto": "2026-09-10T14:21:24.417Z",
