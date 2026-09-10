@@ -3,8 +3,8 @@
     "telefono": "573223780659",
     "nombre": "Paula Andrea Salazar Rive",
     "primerContacto": "2026-09-10T15:03:10.994Z",
-    "ultimoContacto": "2026-09-10T15:03:10.994Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-10T15:03:20.453Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-10T15:03:10.057Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-09-10T15:03:16.430Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con mucho gusto! 😊\n\nCuéntame, ¿en qué trabajas o para qué necesitarías la impresora? Así te confirmo si es la solución ideal para tu día a día, y de paso vemos si te conviene llevarla ya.",
+        "fecha": "2026-09-10T15:03:19.442Z"
       }
     ],
     "paso": "confirmar_producto",
