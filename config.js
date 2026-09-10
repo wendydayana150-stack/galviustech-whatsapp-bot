@@ -274,6 +274,36 @@ const mensajeReactivacion =
             "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\n" +
             "Sigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋";
 
+const mensajePromoLamparasDiaAnterior =
+            "🔥 ¡Hola! Te escribo para recordarte tu promoción 😊\n" +
+            "La promoción del PACK x3 LÁMPARAS SOLARES + ENVÍO GRATIS está vigente únicamente hasta HOY ⏰\n" +
+            "💡 Son ideales para iluminar y reforzar la seguridad de tu casa, finca, negocio o entrada, ¡sin pagar instalación eléctrica!\n" +
+            "⚠️ Después de hoy la promoción puede cambiar.\n" +
+            "Si todavía estás interesado(a), hoy es el momento de aprovecharla. 🔥";
+
+const mensajePromoImpresoraDiaAnterior =
+            "🔥 ¡Hola! 😊 Te escribo porque hoy es el último día de la promoción de la impresora portátil.\n" +
+            "🖨️ IMPRESORA TÉRMICA SIN TINTA\n" +
+            "✅ Imprime desde tu celular\n" +
+            "✅ Práctica y portátil\n" +
+            "✅ Ideal para tareas, documentos, etiquetas y más\n" +
+            "🎁 Además, incluye obsequio\n" +
+            "🚚 Envío gratis\n" +
+            "⏰ La promoción es válida solamente HASTA HOY.\n" +
+            "Después de hoy puede volver a su precio normal.\n" +
+            '👉 Si todavía la quieres aprovechar, dime "LA QUIERO" y te ayudo a realizar tu pedido. 🔥';
+
+const mensajePromoModemDiaAnterior =
+            "🔥 ¡Hola! 😊 Paso por aquí para recordarte la promoción del MÓDEM 📶\n" +
+            "⏰ ¡HOY ES EL ÚLTIMO DÍA PARA APROVECHARLA!\n" +
+            "📡 Una excelente alternativa para tener internet donde no llega la fibra óptica, ideal para la casa, finca, trabajo, estudio o para llevar contigo.\n" +
+            "✅ Conexión 4G\n" +
+            "✅ Úsalo donde tengas cobertura móvil\n" +
+            "✅ Ideal para zonas rurales y veredas\n" +
+            "🎁 Promoción especial + envío gratis\n" +
+            "⚠️ La promoción es válida únicamente hasta HOY. Después puede cambiar el precio o las condiciones.\n" +
+            '👉 Si todavía estás interesado(a), dime "LO QUIERO" y te ayudo a realizar el pedido. 🔥📲';
+
 module.exports = {
             nombreNegocio,
             nombreAsistente,
@@ -289,4 +319,7 @@ module.exports = {
             mensajeRecordatorio8Horas,
             mensajeRecordatorio11Horas,
             mensajeReactivacion,
+            mensajePromoLamparasDiaAnterior,
+            mensajePromoImpresoraDiaAnterior,
+            mensajePromoModemDiaAnterior,
 };

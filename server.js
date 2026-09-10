@@ -958,6 +958,83 @@ async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
       }
 }
 
+// Promocion diaria "solo por hoy" para clientes que escribieron AYER y no compraron, segun en que
+// producto mostraron interes. Corre como maximo una vez por dia calendario en hora de Bogota.
+const PROMOS_DIA_ANTERIOR_POR_CATEGORIA = {
+      lampara: () => config.mensajePromoLamparasDiaAnterior,
+      impresora: () => config.mensajePromoImpresoraDiaAnterior,
+      modem: () => config.mensajePromoModemDiaAnterior,
+};
+
+function categoriaPromoDiaAnterior(cliente) {
+      const productoId = cliente.pedido?.productoId || cliente.ultimoProducto || null;
+      if (!productoId) return null;
+      const producto = catalogo.find((p) => p.id === productoId);
+      if (!producto) return null;
+      // Se revisa el id/nombre (no solo "categoria") para que tambien capture combos que incluyan
+      // ese producto, por ejemplo un combo de impresora + obsequio.
+      const texto = `${producto.id} ${producto.nombre}`.toLowerCase();
+      if (texto.includes("impresora")) return "impresora";
+      if (texto.includes("modem")) return "modem";
+      if (texto.includes("lampara")) return "lampara";
+      return null;
+}
+
+function fechaBogotaTexto(fecha) {
+      const bogota = new Date(fecha.getTime() - 5 * 60 * 60 * 1000);
+      return `${bogota.getUTCFullYear()}-${bogota.getUTCMonth() + 1}-${bogota.getUTCDate()}`;
+}
+
+let ultimaFechaPromoDiaAnterior = null;
+
+async function enviarPromoDiaAnterior() {
+      if (!estaEnHorarioComercial()) return;
+      const ahora = new Date();
+      const hoyBogota = fechaBogotaTexto(ahora);
+      if (ultimaFechaPromoDiaAnterior === hoyBogota) return;
+      ultimaFechaPromoDiaAnterior = hoyBogota;
+
+      try {
+            const { datos } = await leerJSON(CLIENTES_API);
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
+
+            // Rango de "ayer" en hora de Bogota, expresado en ms UTC reales.
+            const bogotaAhora = new Date(ahora.getTime() - 5 * 60 * 60 * 1000);
+            const inicioHoyBogotaMs =
+                  Date.UTC(bogotaAhora.getUTCFullYear(), bogotaAhora.getUTCMonth(), bogotaAhora.getUTCDate()) + 5 * 60 * 60 * 1000;
+            const inicioAyerBogotaMs = inicioHoyBogotaMs - 24 * 60 * 60 * 1000;
+
+            const pendientes = [];
+            for (const c of datos) {
+                  if (c.pausado) continue;
+                  if (telefonosConPedido.has(c.telefono)) continue;
+                  if (!c.ultimoContacto) continue;
+                  if (c.recordatorios?.promoDiaAnterior) continue;
+
+                  const t = new Date(c.ultimoContacto).getTime();
+                  if (t < inicioAyerBogotaMs || t >= inicioHoyBogotaMs) continue;
+
+                  const categoria = categoriaPromoDiaAnterior(c);
+                  const obtenerMensaje = categoria ? PROMOS_DIA_ANTERIOR_POR_CATEGORIA[categoria] : null;
+                  if (!obtenerMensaje) continue;
+
+                  try {
+                        await enviarTexto(c.telefono, obtenerMensaje());
+                        pendientes.push({ telefono: c.telefono, tier: "promoDiaAnterior" });
+                  } catch (errorEnvio) {
+                        console.error(`Error enviando promo del dia anterior a ${c.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
+                  }
+            }
+
+            if (pendientes.length > 0) {
+                  await marcarRecordatoriosEnviados(pendientes);
+            }
+      } catch (error) {
+            console.error("Error enviando promo del dia anterior:", error.response?.data || error.message);
+      }
+}
+
 async function enviarListaCategorias(telefono, categorias) {
       registrarMensaje(telefono, "bot", "[Envio menu de categorias]");
       await axios.post(
@@ -1592,6 +1669,7 @@ app.post("/webhook", async (req, res) => {
 			await guardarCliente(telefono, nombreCliente);
               			await limpiarClientesAntiguos();
               			await enviarRecordatoriosPendientes();
+              			await enviarPromoDiaAnterior();
               
             res.sendStatus(200);
       } catch (error) {
