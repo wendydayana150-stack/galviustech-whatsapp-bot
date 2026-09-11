@@ -107,8 +107,8 @@
     "telefono": "573007037498",
     "nombre": "Marcela Sandoval",
     "primerContacto": "2026-09-11T02:54:49.389Z",
-    "ultimoContacto": "2026-09-11T16:57:18.553Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-11T17:11:33.898Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -229,11 +229,16 @@
         "rol": "bot",
         "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que tenemos promociones activas en nuestros productos.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
         "fecha": "2026-09-11T16:54:50.723Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Se llama hojas termicas para impresor",
+        "fecha": "2026-09-11T17:11:32.196Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "recordatorios": {
