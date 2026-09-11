@@ -621,8 +621,8 @@
     "telefono": "573192729852",
     "nombre": "villamilpaez nelson1",
     "primerContacto": "2026-09-10T17:03:02.365Z",
-    "ultimoContacto": "2026-09-10T17:03:12.897Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-11T21:49:13.190Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -663,13 +663,18 @@
         "rol": "bot",
         "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
         "fecha": "2026-09-10T17:03:11.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth* $ 249.900",
+        "fecha": "2026-09-11T21:49:11.797Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "impresora-termica"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "recordatorios": {
