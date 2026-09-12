@@ -3,8 +3,8 @@
     "telefono": "573202324029",
     "nombre": "zurka",
     "primerContacto": "2026-09-12T21:58:05.773Z",
-    "ultimoContacto": "2026-09-12T21:58:05.773Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T21:59:10.690Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T21:58:04.807Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "cuanto vale",
+        "fecha": "2026-09-12T21:59:05.239Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa Impresora Térmica Portátil Bluetooth es ideal si necesitas imprimir facturas, recibos o documentos sin depender de una papelería ni cargar cartuchos de tinta (funciona con papel térmico, así que te ahorras esa vuelta). Es compacta, se conecta por Bluetooth a tu celular y ya viene con papel incluido.\n\nLa inversión es de $249.900.\n\nCuéntame, ¿la usarías para tu negocio, para trabajar fuera de oficina, o para qué la necesitas principalmente? Así te confirmo si es la opción ideal para ti.",
+        "fecha": "2026-09-12T21:59:09.548Z"
       }
     ],
     "paso": "confirmar_producto",
