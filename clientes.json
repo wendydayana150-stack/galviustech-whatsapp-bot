@@ -1828,8 +1828,8 @@
     "telefono": "573118582726",
     "nombre": "Jose Alfredo Benitez",
     "primerContacto": "2026-09-12T19:19:38.263Z",
-    "ultimoContacto": "2026-09-12T19:19:38.263Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T21:33:40.210Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1860,6 +1860,46 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T19:19:37.624Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que el Impresora Termica Portatil Bluetooth está en promoción por solo $ 249.900.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-12T21:20:19.264Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero este",
+        "fecha": "2026-09-12T21:33:37.667Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-12T21:33:37.667Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-12T21:33:38.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-12T21:33:39.021Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-12T21:33:39.169Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-12T21:33:39.169Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-12T21:33:39.399Z"
       }
     ],
     "paso": "confirmar_producto",
