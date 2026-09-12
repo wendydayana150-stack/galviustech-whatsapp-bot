@@ -32,8 +32,8 @@
     "telefono": "573107345363",
     "nombre": "Roberto García Barrios",
     "primerContacto": "2026-09-12T18:03:00.479Z",
-    "ultimoContacto": "2026-09-12T18:03:00.479Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T18:04:14.147Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -64,6 +64,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T18:02:59.715Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No.",
+        "fecha": "2026-09-12T18:04:07.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Todo bien, sin afán 😊. ¿Te genera duda el precio, el uso que le darías, o simplemente no era lo que buscabas en este momento?\n\nCuéntame qué necesitas exactamente y con gusto te ayudo a encontrar la mejor opción, ¿te parece?",
+        "fecha": "2026-09-12T18:04:13.028Z"
       }
     ],
     "paso": "confirmar_producto",
