@@ -1115,8 +1115,18 @@ async function enviarPromoDiariaAutomatica() {
       await ejecutarPromoDiaria();
 }
 
-async function enviarListaCategorias(telefono, categorias) {
+async function enviarListaCategorias(telefono, categorias, opcionesExtra) {
       registrarMensaje(telefono, "bot", "[Envio menu de categorias]");
+      const rows = categorias.map((c) => {
+            const info = infoCategoria(c);
+            return {
+                  id: `cat_${c}`,
+                  title: `${info.emoji} ${info.titulo}`.slice(0, 24),
+            };
+      });
+      if (opcionesExtra && opcionesExtra.length > 0) {
+            rows.push(...opcionesExtra.map((o) => ({ id: o.id, title: o.titulo.slice(0, 24) })));
+      }
       await axios.post(
             GRAPH_URL,
             {
@@ -1132,13 +1142,45 @@ async function enviarListaCategorias(telefono, categorias) {
                               sections: [
                                     {
                                           title: "Categorias",
-                                          rows: categorias.map((c) => {
-                                                const info = infoCategoria(c);
-                                                return {
-                                                      id: `cat_${c}`,
-                                                      title: `${info.emoji} ${info.titulo}`.slice(0, 24),
-                                                };
-                                          }),
+                                          rows,
+                                    },
+                                    ],
+                        },
+                  },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+}
+
+// Lista de solo los combos (productos cuyo id empieza con "combo-"), para cuando
+// el cliente toca el boton/opcion "Combos" en el saludo inicial.
+async function enviarListaCombos(telefono) {
+      const combos = catalogo.filter((p) => p.id.startsWith("combo-"));
+      registrarMensaje(telefono, "bot", "[Envio lista de combos]");
+      if (combos.length === 0) {
+            await enviarTexto(telefono, "Por el momento no tenemos combos disponibles, pero cuentame que producto te interesa y te ayudo con gusto.");
+            return;
+      }
+      await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "interactive",
+                  interactive: {
+                        type: "list",
+                        header: { type: "text", text: "Nuestros Combos" },
+                        body: { text: "Estos son los combos disponibles con descuento. Toca uno para ver mas detalles" },
+                        action: {
+                              button: "Ver combos",
+                              sections: [
+                                    {
+                                          title: "Combos",
+                                          rows: combos.map((p) => ({
+                                                id: `producto_${p.id}`,
+                                                title: (p.nombreCorto || p.nombre).slice(0, 24),
+                                                description: formatearPrecio(p.precio),
+                                          })),
                                     },
                                     ],
                         },
@@ -1153,19 +1195,26 @@ async function manejarSaludo(telefono, nombreCliente) {
       sesion.paso = "conversando";
       const categorias = categoriasDisponibles();
       const titulos = categorias.map((c) => infoCategoria(c).titulo);
-      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, titulos));
+      const hayCombos = catalogo.some((p) => p.id.startsWith("combo-"));
+      const tituloBienvenida = hayCombos ? [...titulos, "Combos"] : titulos;
+      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, tituloBienvenida));
 
-      if (categorias.length === 0) {
+      if (categorias.length === 0 && !hayCombos) {
             return;
       }
-      if (categorias.length <= 3) {
+      const opcionesExtra = hayCombos ? [{ id: "ver_combos", titulo: "Combos" }] : [];
+      const totalOpciones = categorias.length + opcionesExtra.length;
+      if (totalOpciones <= 3) {
             await enviarBotones(
                   telefono,
                   "Que te interesa?",
-                  categorias.map((c) => ({ id: `cat_${c}`, titulo: infoCategoria(c).titulo.slice(0, 20) }))
+                  [
+                        ...categorias.map((c) => ({ id: `cat_${c}`, titulo: infoCategoria(c).titulo.slice(0, 20) })),
+                        ...opcionesExtra,
+                  ]
                   );
       } else {
-            await enviarListaCategorias(telefono, categorias);
+            await enviarListaCategorias(telefono, categorias, opcionesExtra);
       }
 }
 
@@ -1861,6 +1910,8 @@ app.post("/webhook", async (req, res) => {
                         await enviarInfoCategoria(telefono, idBoton.replace("cat_", ""));
                   } else if (idBoton === "ver_catalogo") {
                         await enviarListaCatalogo(telefono);
+                  } else if (idBoton === "ver_combos") {
+                        await enviarListaCombos(telefono);
                   } else if (idBoton?.startsWith("combo_")) {
                         const [comboId] = idBoton.replace("combo_", "").split("_");
                         await iniciarPedido(telefono, comboId);
