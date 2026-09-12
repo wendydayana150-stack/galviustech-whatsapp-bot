@@ -49,8 +49,8 @@
     "telefono": "573158848003",
     "nombre": "Salome(yovany)",
     "primerContacto": "2026-09-12T23:54:14.128Z",
-    "ultimoContacto": "2026-09-12T23:54:14.128Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T23:55:45.446Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,6 +81,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T23:54:13.396Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Garantía",
+        "fecha": "2026-09-12T23:55:41.594Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! La impresora tiene garantía de 30 días con soporte directo de GalviusTech, así que si algo llega a fallar, no quedas sola/o con el problema, te acompañamos.\n\nCuéntame, ¿la necesitas para tu negocio, para llevarla contigo cuando trabajas fuera, o para qué la tienes pensada? Así te confirmo que es justo lo que necesitas 😊",
+        "fecha": "2026-09-12T23:55:44.640Z"
       }
     ],
     "paso": "confirmar_producto",
