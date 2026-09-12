@@ -3,8 +3,8 @@
     "telefono": "573504803991",
     "nombre": "Henry",
     "primerContacto": "2026-09-12T20:37:25.560Z",
-    "ultimoContacto": "2026-09-12T20:37:25.560Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T20:37:57.172Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T20:37:24.737Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola precio de la impresora \nPrecio del rollo de papel",
+        "fecha": "2026-09-12T20:37:49.680Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que preguntas 😊\n\nAntes de darte el precio, cuéntame: ¿la usarías para tu negocio, para tu trabajo o vas de un lado a otro y necesitas imprimir sobre la marcha? Así te oriento mejor.\n\nDe todas formas te cuento: esta impresora térmica no necesita tinta ni tóner (eso ya te ahorra plata desde el primer uso), es portátil, se conecta por Bluetooth a tu celular sea Android o iPhone, y te sirve para facturas, recibos, cotizaciones, etiquetas, guías, lo que necesites imprimir al momento sin depender de una papelería. Ya viene con papel térmico incluido para que arranques de una vez.\n\nLa inversión es de $249.900.\n\nY sobre el papel: la impresora trae su rollo incluido, pero si más adelante necesitas repuesto, manejamos el papel térmico en presentación de 50 hojas por $38.000 más envío.\n\n¿Para qué la usarías principalmente, documentos, facturas o etiquetas? Así te digo si te conviene pedir de una vez papel extra.",
+        "fecha": "2026-09-12T20:37:56.150Z"
       }
     ],
     "paso": "confirmar_producto",
