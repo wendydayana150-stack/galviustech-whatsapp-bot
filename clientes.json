@@ -49,8 +49,8 @@
     "telefono": "573158848003",
     "nombre": "Salome(yovany)",
     "primerContacto": "2026-09-12T23:54:14.128Z",
-    "ultimoContacto": "2026-09-12T23:58:34.449Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-12T23:59:33.390Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,6 +111,16 @@
         "rol": "bot",
         "texto": "¡Ah perfecto, eso ya es bastante seguido! Con esa frecuencia, no depender de buscar una papelería o esperar a volver a la oficina te ahorra tiempo valioso en cada viaje. Solo la llevas en el bolso y listo, resuelves ahí mismo cualquier documento, factura o cotización que te pidan.\n\n¿Ya tienes claro que te gustaría llevarla contigo en tus próximos viajes? Si quieres te ayudo a dejar el pedido listo para que la tengas antes de tu próxima salida 😉",
         "fecha": "2026-09-12T23:58:33.426Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con cuánto papel viene",
+        "fecha": "2026-09-12T23:59:29.056Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Viene incluido el papel térmico listo para que la uses desde que te llega, así arrancas imprimiendo de una vez sin comprar nada extra al principio.\n\nY si más adelante se te acaba o quieres tener de repuesto para tus viajes, manejamos rollos de papel térmico adicional, presentación de 50 hojas por $38.000 más envío.\n\n¿Quieres que te la deje agendada con el papel que ya trae incluido, o prefieres que agreguemos de una vez el paquete extra para que no te falte en tus próximos viajes?",
+        "fecha": "2026-09-12T23:59:32.510Z"
       }
     ],
     "paso": "confirmar_producto",
