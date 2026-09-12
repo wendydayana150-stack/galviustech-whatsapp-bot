@@ -522,8 +522,8 @@
     "telefono": "573017002492",
     "nombre": "Hugo Montoya",
     "primerContacto": "2026-09-12T19:04:32.661Z",
-    "ultimoContacto": "2026-09-12T19:04:32.661Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T19:28:56.880Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -554,6 +554,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T19:04:31.763Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-12T19:28:50.654Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, sin problema! 😊 Cuéntame, ¿la impresora la necesitarías más que todo para tu negocio, para documentos de trabajo, o para algo en particular? Así te oriento mejor en cómo sacarle el máximo provecho.",
+        "fecha": "2026-09-12T19:28:55.748Z"
       }
     ],
     "paso": "confirmar_producto",
