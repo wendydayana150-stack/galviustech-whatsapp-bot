@@ -115,8 +115,8 @@
     "telefono": "573205303444",
     "nombre": "Cesar",
     "primerContacto": "2026-09-12T23:52:14.239Z",
-    "ultimoContacto": "2026-09-12T23:55:41.518Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-12T23:56:32.152Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -192,13 +192,23 @@
         "rol": "bot",
         "texto": "¡Dale! Tuchín es zona rural, así que ahí el módem te va a rendir mucho mejor que el celular solo, gracias a su antena de mayor alcance 📶\n\nEn esa zona lo más seguro es que tengas buena cobertura 4G, así que te serviría muy bien el **Módem WiFi Portátil 4G**. Si quieres ya ir pensando a futuro con 5G, también tenemos esa opción.\n\nPara trabajar, ¿cuántos dispositivos necesitarías conectar (solo tu celular/PC, o también los de tu familia)? Así te confirmo cuál te conviene más.",
         "fecha": "2026-09-12T23:55:40.532Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo el celular",
+        "fecha": "2026-09-12T23:56:26.732Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con solo tu celular, el **Módem WiFi Portátil 4G** te queda perfecto, conecta hasta 10 dispositivos así que te sobra capacidad si más adelante conectas algo más 📶\n\nTrae batería recargable, es súper fácil de instalar (metes la SIM, lo enciendes y listo), y te llega con SIMCARD de Claro de regalo. Además tiene garantía de 30 días con nosotros.\n\nLa inversión es de $199.900 y con eso ya tienes tu propia conexión en Tuchín sin depender de datos del celular.\n\n¿Me confirmas tu nombre completo y dirección para dejarte el pedido listo?",
+        "fecha": "2026-09-12T23:56:31.123Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null
+    "ultimoProducto": "modem-4g"
   },
   {
     "telefono": "573168760125",
