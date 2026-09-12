@@ -3,8 +3,8 @@
     "telefono": "573218738716",
     "nombre": "trespalaciosyennis0",
     "primerContacto": "2026-09-12T18:41:28.838Z",
-    "ultimoContacto": "2026-09-12T18:41:28.838Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T18:41:55.925Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T18:41:28.086Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto cuesta",
+        "fecha": "2026-09-12T18:41:50.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, con gusto te cuento 😊\n\nLa Impresora Térmica Portátil Bluetooth tiene una inversión de $249.900. Y ojo, no es solo \"una impresora más\": no necesita tinta ni tóner (así que ya te ahorras esa plata desde la primera impresión), se conecta por Bluetooth con tu celular Android o iPhone, y es tan compacta que cabe en el bolso o la mochila.\n\nPiénsalo así: si algún día estás fuera de la oficina y te urge sacar una factura, cotización o recibo, no tienes que salir corriendo a buscar una papelería, la sacas del bolso y listo.\n\nCuéntame, ¿en qué trabajas o para qué la necesitarías principalmente? Así te confirmo si es la solución ideal para tu caso.",
+        "fecha": "2026-09-12T18:41:54.959Z"
       }
     ],
     "paso": "confirmar_producto",
