@@ -3,8 +3,8 @@
     "telefono": "573205303444",
     "nombre": "Cesar",
     "primerContacto": "2026-09-12T23:52:14.239Z",
-    "ultimoContacto": "2026-09-12T23:52:14.239Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-12T23:53:23.699Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -40,6 +40,16 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-09-12T23:52:13.372Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-09-12T23:53:17.363Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Las veredas son justo donde nuestro módem marca la diferencia, porque tiene mejor cobertura que un celular normal en esas zonas 📶\n\nCuéntame, ¿en qué municipio o vereda estarías usándolo? Y ahora mismo, ¿cómo te estás conectando allá... con datos del celular, buscando señal de algún vecino, o no tienes nada de internet?",
+        "fecha": "2026-09-12T23:53:22.658Z"
       }
     ],
     "paso": "conversando",
