@@ -49,8 +49,8 @@
     "telefono": "573167005698",
     "nombre": "Diana V.",
     "primerContacto": "2026-09-12T20:27:56.373Z",
-    "ultimoContacto": "2026-09-12T20:30:51.483Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-12T20:31:35.990Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -146,6 +146,16 @@
         "rol": "bot",
         "texto": "Listo, entendido 👍 Vamos a resolverte eso.\n\nPara recomendarte el módem exacto, dime rapidito:\n1️⃣ ¿Cuántos dispositivos conectarías (celular, laptop, tablet)?\n2️⃣ ¿Sabes si por esa zona hay señal 4G o incluso 5G en tu celular?\n\nCon esa info te digo cuál modelo te conviene más para que en tus viajes tengas internet asegurado sin depender de nadie 📶✈️",
         "fecha": "2026-09-12T20:30:50.592Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se conectarían máximo 4 celulares, 2 computadoras y un TV",
+        "fecha": "2026-09-12T20:31:31.354Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, con 6 dispositivos el módem te queda perfecto, ya que soporta hasta 10 conectados al tiempo sin que se te ponga lento. 📶💻📺\n\nAhora, para saber si te recomiendo el 4G o si podemos ir por el 4G/5G (más rápido), cuéntame: ¿en esa zona tu celular normalmente capta señal 4G o ya te marca 5G?",
+        "fecha": "2026-09-12T20:31:35.178Z"
       }
     ],
     "paso": "conversando",
