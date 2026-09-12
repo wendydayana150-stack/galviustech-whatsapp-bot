@@ -303,7 +303,7 @@ async function enviarListaCatalogo(telefono) {
 // valores por defecto en infoCategoria()).
 const CATEGORIA_INFO = {
       modem: {
-            titulo: "Modem",
+            titulo: "Modem Portatiles",
             emoji: "📶",
             palabras: ["modem", "módem", "internet", "wifi", "wi-fi"],
             resumen:
@@ -317,21 +317,21 @@ const CATEGORIA_INFO = {
             pregunta: "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
       },
       impresora: {
-            titulo: "Impresora",
+            titulo: "IMPRESORA TERMICA",
             emoji: "🖨️",
             palabras: ["impresora", "imprimir"],
             resumen: null,
             pregunta: "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
       },
       lampara: {
-            titulo: "Lamparas",
+            titulo: "Lamparas Solares",
             emoji: "💡",
             palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar"],
             resumen: null,
             pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
       },
       camara: {
-            titulo: "Camaras",
+            titulo: "Camara de Seguridad",
             emoji: "📹",
             palabras: ["camara", "cámara", "vigilancia", "seguridad"],
             resumen: null,
@@ -889,19 +889,33 @@ const bloques = respuesta.data.content || [];
 
 sesion.historial.push({ role: "assistant", content: textoCompleto });
 
-const lineas = textoCompleto.split("\n");
-      const ultimaLinea = lineas[lineas.length - 1].trim();
-      const match = ultimaLinea.match(/^ACCION_PEDIDO:\s*(\S+)/i);
-
-let mensajeVisible = textoCompleto;
+let lineas = textoCompleto.split("\n");
       let productoId = null;
+      let productoActual = null;
 
-if (match) {
-      productoId = match[1].trim();
-      mensajeVisible = lineas.slice(0, -1).join("\n").trim();
-}
+      // La IA puede terminar su respuesta con hasta dos lineas de control (nunca visibles
+      // para el cliente): primero PRODUCTO_ACTUAL (que producto especifico se esta hablando,
+      // para poder enviar fotos/videos correctos despues) y despues ACCION_PEDIDO (si el
+      // cliente ya confirmo que quiere comprar). Se leen desde el final hacia atras.
+      let ultimaLinea = lineas[lineas.length - 1].trim();
+      let match = ultimaLinea.match(/^ACCION_PEDIDO:\s*(\S+)/i);
+      if (match) {
+            productoId = match[1].trim();
+            lineas = lineas.slice(0, -1);
+      }
 
-return { mensajeVisible, productoId };
+      if (lineas.length > 0) {
+            const posiblePenultima = lineas[lineas.length - 1].trim();
+            const matchProducto = posiblePenultima.match(/^PRODUCTO_ACTUAL:\s*(\S+)/i);
+            if (matchProducto) {
+                  productoActual = matchProducto[1].trim();
+                  lineas = lineas.slice(0, -1);
+            }
+      }
+
+      const mensajeVisible = lineas.join("\n").trim();
+
+return { mensajeVisible, productoId, productoActual };
 }
 
 let ultimaRevisionRecordatorios = 0;
@@ -1196,13 +1210,13 @@ async function manejarSaludo(telefono, nombreCliente) {
       const categorias = categoriasDisponibles();
       const titulos = categorias.map((c) => infoCategoria(c).titulo);
       const hayCombos = catalogo.some((p) => p.id.startsWith("combo-"));
-      const tituloBienvenida = hayCombos ? [...titulos, "Combos"] : titulos;
+      const tituloBienvenida = hayCombos ? [...titulos, "PROMOCION COMBOS"] : titulos;
       await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, tituloBienvenida));
 
       if (categorias.length === 0 && !hayCombos) {
             return;
       }
-      const opcionesExtra = hayCombos ? [{ id: "ver_combos", titulo: "Combos" }] : [];
+      const opcionesExtra = hayCombos ? [{ id: "ver_combos", titulo: "PROMOCION COMBOS" }] : [];
       const totalOpciones = categorias.length + opcionesExtra.length;
       if (totalOpciones <= 3) {
             await enviarBotones(
@@ -1210,7 +1224,7 @@ async function manejarSaludo(telefono, nombreCliente) {
                   "Que te interesa?",
                   [
                         ...categorias.map((c) => ({ id: `cat_${c}`, titulo: infoCategoria(c).titulo.slice(0, 20) })),
-                        ...opcionesExtra,
+                        ...opcionesExtra.map((o) => ({ id: o.id, titulo: o.titulo.slice(0, 20) })),
                   ]
                   );
       } else {
@@ -1486,10 +1500,14 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+            const { mensajeVisible, productoId, productoActual } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
 
             if (mensajeVisible) {
                   await enviarTexto(telefono, mensajeVisible);
+            }
+
+            if (productoActual && catalogo.some((p) => p.id === productoActual)) {
+                  sesion.ultimoProducto = productoActual;
             }
 
             if (productoId) {
