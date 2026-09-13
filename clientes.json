@@ -3104,53 +3104,48 @@
     "telefono": "573108518111",
     "nombre": "Ceci",
     "primerContacto": "2026-09-13T05:17:32.836Z",
-    "ultimoContacto": "2026-09-13T05:18:03.987Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-13T14:25:12.973Z",
+    "mensajes": 3,
     "conversacion": [
       {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-13T13:19:21.878Z"
+      },
+      {
         "rol": "cliente",
-        "texto": "¡Hola! Quiero más información de Modem WiFi",
-        "fecha": "2026-09-13T05:17:30.143Z"
+        "texto": "Yo quiero saber todo del módem WiFi portstil",
+        "fecha": "2026-09-13T14:25:09.456Z"
       },
       {
         "rol": "bot",
         "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
-        "fecha": "2026-09-13T05:17:30.144Z"
+        "fecha": "2026-09-13T14:25:09.456Z"
       },
       {
         "rol": "bot",
         "texto": "[Imagen] Modem 4G - $ 199.900",
-        "fecha": "2026-09-13T05:17:30.144Z"
+        "fecha": "2026-09-13T14:25:09.456Z"
       },
       {
         "rol": "bot",
         "texto": "[Imagen] Modem 4G/5G - $ 239.900",
-        "fecha": "2026-09-13T05:17:30.700Z"
+        "fecha": "2026-09-13T14:25:10.179Z"
       },
       {
         "rol": "bot",
         "texto": "[Imagen] Modem 5G - $ 249.900",
-        "fecha": "2026-09-13T05:17:31.131Z"
+        "fecha": "2026-09-13T14:25:10.685Z"
       },
       {
         "rol": "bot",
         "texto": "*Nuestros Modems WiFi Portatiles*\n\nCompatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConectan hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
-        "fecha": "2026-09-13T05:17:31.617Z"
+        "fecha": "2026-09-13T14:25:11.323Z"
       },
       {
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
-        "fecha": "2026-09-13T05:17:32.093Z"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Urbano",
-        "fecha": "2026-09-13T05:17:55.801Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "¡Listo! Y en qué ciudad estás ubicado? Así te confirmo bien la cobertura y te recomiendo la mejor opción 😊\n\nTambién cuéntame, ¿qué operador manejas (Claro, Movistar, Tigo, WOM) y para qué lo necesitarías principalmente? ¿Trabajo, estudio, negocio o para el hogar?",
-        "fecha": "2026-09-13T05:18:02.993Z"
+        "fecha": "2026-09-13T14:25:11.879Z"
       }
     ],
     "paso": "conversando",
@@ -3162,7 +3157,9 @@
       "horas2": true,
       "horas5": true,
       "horas8": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573122374217",
