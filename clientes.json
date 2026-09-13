@@ -320,8 +320,8 @@
     "telefono": "573226805909",
     "nombre": "Dairon",
     "primerContacto": "2026-09-13T12:23:03.316Z",
-    "ultimoContacto": "2026-09-13T12:29:31.919Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-13T12:55:47.930Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -367,13 +367,25 @@
         "rol": "bot",
         "texto": "¡Buenos días! 😊 Con gusto te ayudo.\n\nCuéntame, ¿en qué municipio queda tu vereda? Y una cosa importante: ¿actualmente tienes algún tipo de internet ahí, o te toca compartir datos del celular o buscar señal como se pueda?\n\nAsí te recomiendo el módem que mejor te sirva para tu zona 📶",
         "fecha": "2026-09-13T12:29:30.948Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "en el choco pero me toca buscar la señal",
+        "fecha": "2026-09-13T12:55:42.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, te entiendo, eso es súper incómodo cuando necesitas conectarte y toca estar buscando dónde hay señal 😩 Justo para eso está hecho nuestro módem: tiene una antena más potente que capta mejor la señal que un celular normal, así que en tu vereda te daría una conexión mucho más estable que la que consigues ahora buscando señal.\n\nCuéntame, ¿qué operador te agarra algo de señal allá (Claro, Movistar, Tigo, WOM)? Y principalmente ¿para qué lo necesitarías? ¿trabajo, estudio, el negocio, o para toda la familia en casa?",
+        "fecha": "2026-09-13T12:55:46.820Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null
+    "ultimoProducto": null,
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573144385949",
