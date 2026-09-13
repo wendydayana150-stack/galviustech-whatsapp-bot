@@ -3104,8 +3104,8 @@
     "telefono": "573108518111",
     "nombre": "Ceci",
     "primerContacto": "2026-09-13T05:17:32.836Z",
-    "ultimoContacto": "2026-09-13T14:25:12.973Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-13T14:26:09.103Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -3146,13 +3146,23 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-09-13T14:25:11.879Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural, pero se me sale del presupuesto",
+        "fecha": "2026-09-13T14:25:59.151Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, y tranquilo que no es para menos pensarlo bien antes de invertir 😊\n\nJusto por eso tenemos el Módem 4G que es el más económico de la línea, $199.900, y para zona rural funciona muy bien porque tiene una antena que capta mucha mejor señal que un celular normal.\n\nCuéntame algo: ahorita, ¿cómo te estás conectando en tu finca o vereda? ¿Compartiendo datos del celular, o simplemente sin internet? Y más o menos ¿cuánto gastas al mes en datos o recargas para tratar de tener señal?\n\nCon eso te puedo mostrar si en realidad te sale más rentable tener tu propio módem en vez de seguir luchando con el celular.",
+        "fecha": "2026-09-13T14:26:08.016Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "recordatorios": {
       "horas2": true,
       "horas5": true,
