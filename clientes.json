@@ -67,8 +67,8 @@
     "telefono": "573242001930",
     "nombre": "Carlos Miranda",
     "primerContacto": "2026-09-13T02:59:43.826Z",
-    "ultimoContacto": "2026-09-13T03:01:37.969Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-13T03:01:54.265Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -119,6 +119,16 @@
         "rol": "bot",
         "texto": "El papel térmico de repuesto lo manejamos directamente aquí con nosotros en GalviusTech, no necesitas buscarlo en otro lado. Viene en presentación de 50 hojas por $38.000 + envío.\n\nAsí, cuando se te acabe el que trae la impresora, ya sabes que nosotros mismos te lo enviamos sin que tengas que salir a buscarlo en una papelería. 😊\n\n¿Quieres que te lo vaya agregando a tu pedido junto con la impresora, o prefieres pedirlo más adelante cuando se te acabe el que ya viene incluido?",
         "fecha": "2026-09-13T03:01:37.018Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "La resma térmica cuánto vale?",
+        "fecha": "2026-09-13T03:01:50.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Es la misma que te comenté: el papel térmico (no es resma normal, es especial para impresoras térmicas) viene en presentación de 50 hojas y la inversión es de $38.000 más el envío.\n\n¿La quieres ir agregando desde ya a tu pedido de la impresora, o prefieres esperar a que se te acabe la que viene incluida? 😊",
+        "fecha": "2026-09-13T03:01:53.390Z"
       }
     ],
     "paso": "confirmar_producto",
