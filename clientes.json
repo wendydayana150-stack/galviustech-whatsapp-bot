@@ -1827,8 +1827,8 @@
     "telefono": "573203777053",
     "nombre": "hay q ganar y perder",
     "primerContacto": "2026-09-13T05:56:48.968Z",
-    "ultimoContacto": "2026-09-13T06:38:51.066Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-13T13:35:24.922Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2029,6 +2029,16 @@
         "rol": "bot",
         "texto": "Apenas quede confirmado tu pedido, te compartimos un número directo de soporte de GalviusTech para que lo guardes y nos escribas cuando lo necesites (ya sea para configuración o cualquier tema de garantía). Así tienes siempre a quién recurrir, no te dejamos solo después de la compra 😊\n\n¿Te parece si avanzamos ya con tus datos? Cuéntame tu nombre completo para ir registrando el envío 📦",
         "fecha": "2026-09-13T06:38:49.984Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo así",
+        "fecha": "2026-09-13T13:35:17.310Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perdona si no me expliqué bien 😊 Te cuento: una vez tengas tu módem confirmado y en camino, quedas con el respaldo directo de nuestro equipo de soporte de GalviusTech, para que si necesitas ayuda con la configuración o algo de garantía, nos escribas y te atendamos personalmente. No es que quedes sin contacto, simplemente ese soporte se activa una vez el pedido está en proceso.\n\nAhorita mismo estás hablando conmigo, así que cualquier duda me la puedes seguir escribiendo por aquí sin problema, antes y después de tu compra 👍\n\n¿Seguimos entonces con tu pedido? Me regalas tu nombre completo para ir dejándolo en camino 📦",
+        "fecha": "2026-09-13T13:35:23.570Z"
       }
     ],
     "paso": "conversando",
@@ -2040,7 +2050,9 @@
       "promoDiariaFecha": "2026-9-13",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573023019983",
