@@ -1,5 +1,38 @@
 [
   {
+    "telefono": "573126029739",
+    "nombre": ".3126029739",
+    "primerContacto": "2026-09-13T18:28:28.583Z",
+    "ultimoContacto": "2026-09-13T18:28:28.583Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-13T18:28:27.253Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-13T18:28:27.253Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-13T18:28:28.241Z"
+      }
+    ],
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": "impresora-termica",
+    "necesitaAtencion": false,
+    "motivoAtencion": null
+  },
+  {
     "telefono": "573105449545",
     "nombre": "☕",
     "primerContacto": "2026-09-13T18:13:34.202Z",
