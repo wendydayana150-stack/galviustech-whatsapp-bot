@@ -431,8 +431,8 @@
     "telefono": "573222531352",
     "nombre": "Javier Bernal",
     "primerContacto": "2026-09-13T16:08:37.184Z",
-    "ultimoContacto": "2026-09-13T16:08:37.184Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-13T18:39:48.919Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -468,13 +468,28 @@
         "rol": "bot",
         "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
         "fecha": "2026-09-13T16:08:36.225Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Solo quería saber si aún estás interesado(a)\nRecuerda que tenemos promociones activas en nuestros productos.\n📲 Si deseas reservar el tuyo, estoy aquí para ayudarte.",
+        "fecha": "2026-09-13T18:12:34.601Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "El módem 4G",
+        "fecha": "2026-09-13T18:39:44.217Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! El de 4G es una excelente opción, muy solicitado por su facilidad para llevar internet a donde lo necesites 📶\n\nAntes de contarte más, cuéntame: ¿en qué municipio o vereda lo usarías? Y ¿es para tu casa, para trabajar, estudiar o viajar seguido? Así te recomiendo bien si es el ideal para tu caso.",
+        "fecha": "2026-09-13T18:39:47.389Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
