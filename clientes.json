@@ -8040,8 +8040,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-09-12T20:29:44.504Z",
-    "ultimoContacto": "2026-09-13T16:49:16.099Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-09-13T18:06:29.624Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8177,13 +8177,18 @@
         "rol": "bot",
         "texto": "Claro que sí, Arnaldo, entiendo perfectamente 🙏 Tu caso ya quedó registrado y en breve te dan la solución correspondiente para que puedas seguir trabajando tranquilo con tu Impresora Térmica Portátil Bluetooth.\n\nGracias por tu paciencia y por seguir confiando en GalviusTech. En cuanto tengas novedad de la solución, cualquier otra cosa que necesites aquí estoy para ayudarte.",
         "fecha": "2026-09-13T16:49:14.958Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia Arnoldo",
+        "fecha": "2026-09-13T18:06:28.274Z"
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "impresora-termica"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "recordatorios": {
@@ -8193,8 +8198,8 @@
       "horas8": true,
       "horas11": true
     },
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Esperar la solución.y seguir trabajando con la empresa.\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573167005698",
