@@ -52,8 +52,8 @@
     "telefono": "573242001930",
     "nombre": "Carlos Miranda",
     "primerContacto": "2026-09-13T02:59:43.826Z",
-    "ultimoContacto": "2026-09-13T02:59:43.826Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-13T03:01:25.857Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -84,6 +84,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T02:59:43.099Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y el papel?",
+        "fecha": "2026-09-13T03:01:20.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Tranquilo! La impresora ya viene con papel térmico incluido, así que apenas te llegue puedes empezar a usarla de una vez, sin comprar nada adicional. 🙌\n\nY si más adelante se te acaba, manejamos rollos de repuesto (presentación de 50 hojas) por $38.000 + envío, para que siempre tengas de reserva.\n\nContándome, ¿para qué la usarías principalmente? ¿Facturas, recibos, cotizaciones...? Así te confirmo que te sirve perfecto y vemos cómo dejamos listo tu pedido 😊",
+        "fecha": "2026-09-13T03:01:24.779Z"
       }
     ],
     "paso": "confirmar_producto",
