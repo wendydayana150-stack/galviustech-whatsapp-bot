@@ -105,8 +105,8 @@
     "telefono": "573203777053",
     "nombre": "hay q ganar y perder",
     "primerContacto": "2026-09-13T05:56:48.968Z",
-    "ultimoContacto": "2026-09-13T06:28:23.816Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-13T06:32:08.171Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -267,6 +267,16 @@
         "rol": "bot",
         "texto": "Correcto, así es. La recarga se hace a la SIM que va dentro del módem (no a tu celular), esa SIM Claro te la enviamos de regalo ya instalada en el equipo, y ahí es donde le vas metiendo los datos que necesites.\n\nTu celular sigue funcionando aparte, normal, con su propia línea si la tienes. El módem simplemente crea su propia señal WiFi para que se conecten los 10 dispositivos de la casa 📶\n\n¿Te queda claro así? ¿Seguimos con tu pedido? Cuéntame tu nombre completo para ir registrando el envío 😊",
         "fecha": "2026-09-13T06:28:22.792Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo ago para q mi celular coga señal desde el",
+        "fecha": "2026-09-13T06:32:02.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah, te refieres a conectar tu celular al WiFi que genera el módem, ¡sencillísimo! 😊\n\nCuando enciendes el módem, este crea su propia red WiFi (como si fuera un router). Tú solo vas a los ajustes de WiFi de tu celular, buscas el nombre de esa red, la seleccionas, pones la contraseña que trae el equipo, y listo, tu celular ya queda conectado a internet a través del módem.\n\nEs igual de fácil que conectarte a cualquier WiFi de casa o de un negocio, no tiene ciencia. Así todos en la finca (los 10 dispositivos) se conectan a esa misma red.\n\n¿Te parece? ¿Me confirmas tu nombre completo para dejar tu pedido en camino? 📦",
+        "fecha": "2026-09-13T06:32:07.106Z"
       }
     ],
     "paso": "conversando",
