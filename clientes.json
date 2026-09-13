@@ -3,8 +3,8 @@
     "telefono": "573114393495",
     "nombre": "Cris Y Harold",
     "primerContacto": "2026-09-13T19:43:09.232Z",
-    "ultimoContacto": "2026-09-13T19:43:09.232Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-13T19:44:22.542Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T19:43:08.098Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienda física tienen?",
+        "fecha": "2026-09-13T19:44:18.240Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Por ahora manejamos ventas 100% online, sin tienda física para visitar. Pero tranquilo, eso no es problema: hacemos envíos a todo el país y puedes pagar contraentrega, así que solo pagas cuando ya tengas tu impresora en las manos 😊\n\nJustamente para orientarte mejor, ¿en qué trabajas o para qué la necesitarías principalmente? ¿Facturas, cotizaciones, documentos?",
+        "fecha": "2026-09-13T19:44:21.344Z"
       }
     ],
     "paso": "confirmar_producto",
