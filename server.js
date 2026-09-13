@@ -55,7 +55,7 @@ const sesiones = {};
 
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
-                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null };
+                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, necesitaAtencion: false, motivoAtencion: null };
         }
         return sesiones[telefono];
 }
@@ -105,6 +105,8 @@ async function cargarSesionSiNueva(telefono) {
                                             transcripcion: cliente.conversacion || [],
                                             pausado: !!cliente.pausado,
                                             ultimoProducto: cliente.pedido?.productoId || cliente.ultimoProducto || null,
+                                            necesitaAtencion: !!cliente.necesitaAtencion,
+                                            motivoAtencion: cliente.motivoAtencion || null,
                               };
                               return;
                   }
@@ -689,6 +691,8 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.pedido = sesion.pedido;
             existente.pausado = !!sesion.pausado;
             existente.ultimoProducto = sesion.pedido?.productoId || sesion.ultimoProducto || existente.ultimoProducto || null;
+            existente.necesitaAtencion = !!sesion.necesitaAtencion;
+            existente.motivoAtencion = sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
       } else {
             datos.unshift({
@@ -703,6 +707,8 @@ async function guardarCliente(telefono, nombreCliente) {
                   pausado: !!sesion.pausado,
                   etapaManual: null,
                   ultimoProducto: sesion.pedido?.productoId || sesion.ultimoProducto || null,
+                  necesitaAtencion: !!sesion.necesitaAtencion,
+                  motivoAtencion: sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null,
             });
       }
 
@@ -732,10 +738,29 @@ async function alternarEtapa(telefono, etapa) {
       await guardarJSON(CLIENTES_API, datos, sha, "Etapa de cliente actualizada");
 }
 
+// Quita a un cliente de la casilla de "Necesitan tu respuesta" sin necesidad de escribirle
+// (por si Wendy ya lo resolvio por fuera del panel, o solo quiere descartar el aviso).
+async function marcarAtencionResuelta(telefono) {
+      const { datos, sha } = await leerJSON(CLIENTES_API);
+      const cliente = datos.find((c) => c.telefono === telefono);
+      if (!cliente) return;
+      cliente.necesitaAtencion = false;
+      cliente.motivoAtencion = null;
+      await guardarJSON(CLIENTES_API, datos, sha, "Aviso de atencion resuelto");
+      if (sesiones[telefono]) {
+            sesiones[telefono].necesitaAtencion = false;
+            sesiones[telefono].motivoAtencion = null;
+      }
+}
+
 async function enviarMensajeManual(telefono, texto) {
       await cargarSesionSiNueva(telefono);
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
+      // Wendy ya esta respondiendo este chat personalmente, asi que deja de aparecer
+      // en la casilla de "necesitan tu respuesta".
+      sesion.necesitaAtencion = false;
+      sesion.motivoAtencion = null;
       await enviarTexto(telefono, texto);
       await guardarCliente(telefono);
 }
@@ -750,6 +775,8 @@ async function enviarArchivoManual(telefono, archivo, caption) {
       await cargarSesionSiNueva(telefono);
       const sesion = obtenerSesion(telefono);
       sesion.pausado = true;
+      sesion.necesitaAtencion = false;
+      sesion.motivoAtencion = null;
 
       if (archivo.mimetype.startsWith("image/") && archivo.size > LIMITES_TAMANO_ARCHIVO.imagen) {
             const error = new Error("La imagen pesa demasiado (maximo 5 MB en WhatsApp). Comprimela o envia una mas liviana.");
@@ -892,30 +919,41 @@ sesion.historial.push({ role: "assistant", content: textoCompleto });
 let lineas = textoCompleto.split("\n");
       let productoId = null;
       let productoActual = null;
+      let necesitaAsesor = false;
 
-      // La IA puede terminar su respuesta con hasta dos lineas de control (nunca visibles
-      // para el cliente): primero PRODUCTO_ACTUAL (que producto especifico se esta hablando,
-      // para poder enviar fotos/videos correctos despues) y despues ACCION_PEDIDO (si el
-      // cliente ya confirmo que quiere comprar). Se leen desde el final hacia atras.
-      let ultimaLinea = lineas[lineas.length - 1].trim();
-      let match = ultimaLinea.match(/^ACCION_PEDIDO:\s*(\S+)/i);
-      if (match) {
-            productoId = match[1].trim();
-            lineas = lineas.slice(0, -1);
-      }
+      // La IA puede terminar su respuesta con hasta 3 lineas de control (nunca visibles para
+      // el cliente, el sistema las procesa por separado): PRODUCTO_ACTUAL (que producto
+      // especifico se esta hablando, para enviar fotos/videos correctos despues), ACCION_PEDIDO
+      // (si el cliente ya confirmo que quiere comprar) y NECESITA_ASESOR (si la IA no pudo
+      // resolverle algo con seguridad al cliente). No asumimos un orden fijo entre ellas: se
+      // van revisando desde la ultima linea hacia atras hasta que una no coincida con ninguna.
+      let siguioQuitando = true;
+      while (siguioQuitando && lineas.length > 0) {
+            siguioQuitando = false;
+            const ultimaLinea = lineas[lineas.length - 1].trim();
 
-      if (lineas.length > 0) {
-            const posiblePenultima = lineas[lineas.length - 1].trim();
-            const matchProducto = posiblePenultima.match(/^PRODUCTO_ACTUAL:\s*(\S+)/i);
-            if (matchProducto) {
+            const matchPedido = ultimaLinea.match(/^ACCION_PEDIDO:\s*(\S+)/i);
+            const matchProducto = ultimaLinea.match(/^PRODUCTO_ACTUAL:\s*(\S+)/i);
+            const matchAsesor = ultimaLinea.match(/^NECESITA_ASESOR:\s*(\S+)/i);
+
+            if (matchPedido && !productoId) {
+                  productoId = matchPedido[1].trim();
+                  lineas = lineas.slice(0, -1);
+                  siguioQuitando = true;
+            } else if (matchProducto && !productoActual) {
                   productoActual = matchProducto[1].trim();
                   lineas = lineas.slice(0, -1);
+                  siguioQuitando = true;
+            } else if (matchAsesor) {
+                  necesitaAsesor = /^s[ií]$/i.test(matchAsesor[1].trim());
+                  lineas = lineas.slice(0, -1);
+                  siguioQuitando = true;
             }
       }
 
       const mensajeVisible = lineas.join("\n").trim();
 
-return { mensajeVisible, productoId, productoActual };
+return { mensajeVisible, productoId, productoActual, necesitaAsesor };
 }
 
 let ultimaRevisionRecordatorios = 0;
@@ -1500,7 +1538,7 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId, productoActual } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+            const { mensajeVisible, productoId, productoActual, necesitaAsesor } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
 
             if (mensajeVisible) {
                   await enviarTexto(telefono, mensajeVisible);
@@ -1521,8 +1559,21 @@ async function manejarTextoLibre(telefono, texto) {
                         }
                   }
             }
+
+            // La propia IA nos avisa cuando no puede resolverle algo al cliente con seguridad
+            // (por ejemplo pide hablar con una persona, o pregunta algo fuera de lo que sabe).
+            // Lo marcamos para que aparezca en la casilla de "Necesitan tu respuesta" del panel.
+            if (necesitaAsesor) {
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = `El cliente pregunto algo que la IA no pudo resolver con seguridad: "${texto.slice(0, 100)}"`;
+            }
       } catch (error) {
             console.error("Error consultando la IA:", error.response?.data || error.message);
+            // Fallo tecnico consultando la IA (ej. saldo de Anthropic agotado, caida de red).
+            // Marcamos el chat para que aparezca en la casilla de "Necesitan tu respuesta" del
+            // panel, asi Wendy sabe cuales clientes quedaron sin una respuesta real del bot.
+            sesion.necesitaAtencion = true;
+            sesion.motivoAtencion = `El bot no pudo procesar este mensaje: "${texto.slice(0, 100)}"`;
             await enviarTexto(
                   telefono,
                   "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?"
@@ -1553,6 +1604,13 @@ app.get("/admin", requiereLogin, async (req, res) => {
 		  const clientesFiltradosPorFecha = filtrarClientesPorFecha(clientes, filtroActivo);
 		  const clientesFiltrados = filtrarClientesPorCategoria(clientesFiltradosPorFecha, categoriaActiva);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
+
+            // Chats donde el bot no pudo responder (fallo tecnico o la IA no supo resolverlo con
+            // seguridad) y que por eso necesitan que Wendy responda personalmente. Se muestran
+            // siempre, sin importar los filtros de fecha/categoria de arriba, porque son urgentes.
+            const clientesNecesitanAtencion = clientes
+                  .filter((c) => c.necesitaAtencion)
+                  .sort((a, b) => new Date(b.ultimoContacto || 0) - new Date(a.ultimoContacto || 0));
 
             const grupos = {};
             ETAPAS.forEach((e) => {
@@ -1591,6 +1649,22 @@ app.get("/admin", requiereLogin, async (req, res) => {
                   ${tarjetas}
                   </div>`;
             }).join("");
+
+            const bloqueAtencion = clientesNecesitanAtencion.length === 0 ? "" : `
+            <div class="atencion-caja">
+            <div class="atencion-titulo">🆘 Necesitan tu respuesta (${clientesNecesitanAtencion.length})</div>
+            <div class="atencion-lista">
+            ${clientesNecesitanAtencion.map((c) => `
+                  <div class="atencion-tarjeta">
+                  <div class="tarjeta-nombre">${escaparHtml(c.nombre || "(sin nombre)")}</div>
+                  <div class="tarjeta-tel">${escaparHtml(c.telefono)} · ${formatearFechaHora(c.ultimoContacto)}</div>
+                  <div class="atencion-motivo">${escaparHtml(c.motivoAtencion || "El bot no pudo responderle.")}</div>
+                  <a href="/admin/chat/${encodeURIComponent(c.telefono)}" style="color:#c0392b;font-weight:bold;">Ver / Responder</a>
+                  <a href="/admin/atencion/${encodeURIComponent(c.telefono)}/resolver" onclick="return confirm('Marcar este chat como resuelto? Desaparecera de esta lista.');">Marcar como resuelto</a>
+                  </div>`
+                  ).join("")}
+            </div>
+            </div>`;
 
             const filasPedidos = pedidos
             .map(
@@ -1632,6 +1706,12 @@ app.get("/admin", requiereLogin, async (req, res) => {
             .tarjeta-tel { color: #666; font-size: 12px; margin-bottom: 4px; }
             .tarjeta a { display: block; margin-bottom: 6px; }
             .tarjeta select { width: 100%; font-size: 12px; padding: 3px; }
+            .atencion-caja { background: #fdecea; border: 2px solid #c0392b; border-radius: 8px; padding: 14px; margin-bottom: 20px; }
+            .atencion-titulo { font-weight: bold; font-size: 16px; color: #c0392b; margin-bottom: 10px; }
+            .atencion-lista { display: flex; gap: 12px; overflow-x: auto; padding-bottom: 6px; }
+            .atencion-tarjeta { background: white; border-radius: 6px; padding: 10px; min-width: 220px; max-width: 260px; flex-shrink: 0; font-size: 13px; box-shadow: 0 1px 2px rgba(0,0,0,0.15); }
+            .atencion-tarjeta a { display: block; margin-top: 6px; font-size: 12px; }
+            .atencion-motivo { color: #555; font-size: 12px; margin: 4px 0 6px 0; }
             </style>
             </head>
             <body>
@@ -1640,6 +1720,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			<a href="/admin/promo-diaria" style="display:inline-block;background:#e67e22;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Enviar promo del dia a todos</a>
 			<a href="/admin/productos" style="display:inline-block;background:#0a6ed1;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Productos y precios</a></p>
 			${req.query.promoDiariaEnviada !== undefined ? `<p style="color:#e67e22;font-weight:bold;">Promo del dia enviada a ${parseInt(req.query.promoDiariaEnviada, 10) || 0} cliente(s).</p>` : ""}
+			${bloqueAtencion}
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 			<div style="margin-bottom:15px;">
 			<a href="/admin?filtro=hoy&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
@@ -1720,6 +1801,16 @@ app.get("/admin/pausa/:telefono", requiereLogin, async (req, res) => {
       } catch (error) {
             console.error("Error alternando pausa:", error.response?.data || error.message);
             res.status(500).send("Hubo un error cambiando el estado del bot.");
+      }
+});
+
+app.get("/admin/atencion/:telefono/resolver", requiereLogin, async (req, res) => {
+      try {
+            await marcarAtencionResuelta(req.params.telefono);
+            res.redirect("/admin");
+      } catch (error) {
+            console.error("Error marcando atencion resuelta:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error actualizando el aviso.");
       }
 });
 

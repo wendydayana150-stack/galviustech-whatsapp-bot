@@ -164,8 +164,11 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             "IMPORTANTE - ACCION DE PEDIDO: Cuando el cliente confirme explicitamente que quiere COMPRAR un producto especifico Y ya sabes cual producto es, termina tu respuesta en una linea NUEVA y FINAL (despues de la linea PRODUCTO_ACTUAL si tambien aplica) con exactamente este formato (sin nada mas en esa linea):\n" +
             "ACCION_PEDIDO: <id>\n" +
             `donde <id> es uno de: ${construirIdsValidos(catalogo)}.\n` +
-            "No incluyas esa linea si el cliente todavia no ha confirmado que quiere comprar, o si aun no sabes cual producto quiere.\n" +
-            "El resto de tu respuesta (antes de esas lineas) es el mensaje que vera el cliente; las lineas PRODUCTO_ACTUAL y ACCION_PEDIDO nunca las vera el cliente, el sistema las procesa por separado."
+            "No incluyas esa linea si el cliente todavia no ha confirmado que quiere comprar, o si aun no sabes cual producto quiere.\n\n" +
+            "IMPORTANTE - NECESITA ASESOR: Wendy (la dueña de GalviusTech) revisa un panel donde puede ver que chats necesitan su respuesta personal. Agrega una linea NUEVA y FINAL con exactamente este formato (sin nada mas en esa linea):\n" +
+            "NECESITA_ASESOR: SI\n" +
+            "unicamente cuando pase algo de esto: (1) el cliente pide explicitamente hablar con una persona, un asesor humano, o dice que no quiere seguir hablando con un bot; (2) el cliente tiene una queja, un reclamo, un problema con un pedido ya enviado o entregado (no llego, llego dañado, se equivocaron de producto, quiere una devolucion o cambio); (3) el cliente pregunta algo puntual que genuinamente no sabes responder con la informacion que tienes arriba (por ejemplo un detalle tecnico muy especifico que no esta en el catalogo, o una condicion especial que no manejas); (4) el cliente parece molesto, frustrado o esta a punto de irse por una mala experiencia. NO agregues esta linea por preguntas normales de ventas que si puedes responder (precio, caracteristicas, envio, forma de pago, disponibilidad), aunque el cliente insista o compare con la competencia. Cuando SI agregues esta linea, tu mensaje visible (el que ve el cliente) debe sonar tranquilizador y humano: avisale que ya se le va a dar seguimiento personal a su caso y que en breve tiene respuesta, sin inventar soluciones, plazos ni promesas que no puedas cumplir.\n\n" +
+            "El resto de tu respuesta (antes de esas lineas) es el mensaje que vera el cliente; las lineas PRODUCTO_ACTUAL, ACCION_PEDIDO y NECESITA_ASESOR nunca las vera el cliente, el sistema las procesa por separado."
             );
 }
 
