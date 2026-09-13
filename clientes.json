@@ -3,8 +3,8 @@
     "telefono": "573052083261",
     "nombre": "dolan",
     "primerContacto": "2026-09-13T04:14:42.779Z",
-    "ultimoContacto": "2026-09-13T04:14:42.779Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-13T04:14:52.366Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T04:14:41.934Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-13T04:14:47.029Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí 😊\n\nLa Impresora Térmica Portátil Bluetooth es una maravilla para no depender de una papelería cuando te urge sacar un documento, factura o cotización. No necesita tinta (así que ahorras desde el primer uso), se conecta por Bluetooth a tu celular (Android o iPhone) y ya viene con su papel térmico incluido para que la uses de una vez.\n\nLa inversión es de $249.900.\n\nCuéntame, ¿la necesitas para tu negocio, para el trabajo o viajas seguido y te toca imprimir sobre la marcha? Así te confirmo si es la ideal para tu caso 📌",
+        "fecha": "2026-09-13T04:14:51.298Z"
       }
     ],
     "paso": "confirmar_producto",
