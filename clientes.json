@@ -724,8 +724,8 @@
     "telefono": "573142863466",
     "nombre": "cristianarcos1001",
     "primerContacto": "2026-09-13T12:55:40.574Z",
-    "ultimoContacto": "2026-09-13T15:30:23.665Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-13T15:30:35.763Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -806,6 +806,16 @@
         "rol": "bot",
         "texto": "Ah ok, ya entendí 👍 Osea que Claro no te coge señal, pero de otro operador sí te llega buena señal en tu zona, ¿cierto?\n\nEso es justo lo que necesitamos saber. Si me confirmas cuál operador sí te coge bien (Movistar, Tigo, WOM, ETB), le ponemos esa SIM al módem y ya con eso él te va a dar una señal mucho más fuerte y estable que la que capta tu celular solo, gracias a su antena de mayor potencia 📶\n\n¿En qué municipio o vereda vives? Así te confirmo bien y vemos qué necesitas: es para trabajar, estudiar, o para tener internet en casa/finca?",
         "fecha": "2026-09-13T15:30:22.616Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo cogue para llamar",
+        "fecha": "2026-09-13T15:30:25.055Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ya veo, o sea que tu celular capta señal de voz pero no te navega bien con datos ahí, ¿cierto? Eso también es muy común en zonas rurales, y es justo la parte que el módem puede mejorar 📶\n\nTe cuento con honestidad: el módem necesita que en la zona haya algo de señal de datos (3G/4G) de algún operador, aunque sea débil, para poder captarla y potenciarla con su antena. Como su antena es mucho más fuerte que la de un celular, muchas veces logra \"enganchar\" datos donde el teléfono normal no puede.\n\nPara poder confirmarte con seguridad si en tu caso funcionaría bien, necesito que me digas:\n📍 ¿En qué municipio y vereda vives exactamente?\n📱 ¿Qué operador es el que te deja hacer llamadas ahí (Claro, Movistar, Tigo, etc.)?\n\nCon esos dos datos te oriento bien y sin mentirte sobre si te serviría o no.",
+        "fecha": "2026-09-13T15:30:34.578Z"
       }
     ],
     "paso": "conversando",
