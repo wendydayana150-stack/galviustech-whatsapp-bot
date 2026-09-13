@@ -1590,8 +1590,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-09-13T05:51:23.649Z",
-    "ultimoContacto": "2026-09-13T05:51:23.649Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-13T12:52:59.981Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1622,6 +1622,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T05:51:22.782Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-13T12:52:54.891Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, con gusto te cuento 😊\n\nEsta impresora funciona sin tinta (es térmica, o sea que ahorras desde el primer uso), es portátil con batería recargable y se conecta por Bluetooth a tu celular. Muy usada por emprendedores, tiendas, domicilios, gente que necesita imprimir facturas, recibos o cotizaciones al instante, sin depender de una papelería.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajo o algo más puntual? Así te oriento mejor en cómo aprovecharla 📱🖨️",
+        "fecha": "2026-09-13T12:52:58.755Z"
       }
     ],
     "paso": "confirmar_producto",
@@ -1635,7 +1645,9 @@
       "promoDiariaFecha": "2026-9-13",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573122149149",
