@@ -7019,8 +7019,8 @@
     "telefono": "573188470940",
     "nombre": "albavillegas",
     "primerContacto": "2026-09-12T22:13:28.886Z",
-    "ultimoContacto": "2026-09-12T22:19:14.804Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-13T17:43:17.981Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7081,6 +7081,16 @@
         "rol": "bot",
         "texto": "¡Armenia, qué bien! 🙌 Por acá ya hemos enviado a varios estudiantes y papás en el Quindío.\n\nCuéntame, ¿la usarías tú para imprimir tus trabajos del colegio, o es más para imprimir guías, talleres o apuntes seguido? Así te confirmo si te conviene tenerla contigo para no depender de la papelería cada vez que hay una tarea de última hora 📚",
         "fecha": "2026-09-12T22:17:23.090Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-13T17:43:13.043Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo/a, no hay problema 😊 De todas formas te cuento: con esta impresora ya no tendrías que salir a buscar dónde imprimir un trabajo de última hora, la llevas contigo y listo.\n\nLa inversión es de $249.900 e incluye papel térmico para que empieces a usarla apenas te llegue.\n\n¿Te gustaria que te ayude a dejar tu pedido listo para Armenia?",
+        "fecha": "2026-09-13T17:43:16.740Z"
       }
     ],
     "paso": "conversando",
@@ -7094,7 +7104,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573209307502",
