@@ -724,8 +724,8 @@
     "telefono": "573142863466",
     "nombre": "cristianarcos1001",
     "primerContacto": "2026-09-13T12:55:40.574Z",
-    "ultimoContacto": "2026-09-13T15:29:34.495Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-13T15:30:20.362Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -786,6 +786,21 @@
         "rol": "bot",
         "texto": "Oye, disculpa, no te entendí muy bien esa parte 😅\n\n¿Te refieres a qué operador tienes en tu celular? Eso me sirve mucho, porque normalmente si tu teléfono capta señal de cierto operador en tu zona (así sea débil), con el módem esa misma señal se potencia y te da mejor conexión que el celular solo.\n\nCuéntame: ¿qué operador usas en tu teléfono y en qué municipio o vereda vives? Así te confirmo cuál te conviene más 📶",
         "fecha": "2026-09-13T15:29:33.533Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea no cogue señal",
+        "fecha": "2026-09-13T15:30:14.057Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy buena",
+        "fecha": "2026-09-13T15:30:17.908Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, o sea que ahí donde vives el celular casi no agarra señal de ningún operador, ¿cierto? Eso es súper común en veredas y fincas apartadas, y es justo para esos casos que está hecho el módem 💪\n\nLa diferencia es que el módem trae una antena mucho más potente que la de un celular normal, entonces puede captar señal donde tu teléfono no logra hacerlo, o mejorarla bastante si hay algo de cobertura débil.\n\nPara orientarte bien, cuéntame:\n📍 ¿En qué municipio o vereda vives?\n📱 ¿Qué operador es el que menos mala señal te da ahí (Claro, Movistar, Tigo, WOM)?\n\nCon eso te confirmo si tu zona tiene alguna cobertura que el módem pueda aprovechar y potenciar.",
+        "fecha": "2026-09-13T15:30:19.131Z"
       }
     ],
     "paso": "conversando",
