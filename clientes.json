@@ -105,8 +105,8 @@
     "telefono": "573142993762",
     "nombre": "Alfredo Romero",
     "primerContacto": "2026-09-13T17:17:35.055Z",
-    "ultimoContacto": "2026-09-13T18:15:31.372Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-13T18:16:29.608Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -192,6 +192,16 @@
         "rol": "bot",
         "texto": "Listo, gracias por confirmarme, Vereda San Luis 📍\n\nCon la señal Claro que mencionas, el módem debería mejorar bastante esa conexión para que las 5 personas en tu casa puedan navegar, estudiar y hacer sus cosas sin tanto corte de señal.\n\n¿Te ayudo a dejar el pedido listo ya mismo para que te llegue a la vereda? Solo necesito algunos datos tuyos para el envío 😊",
         "fecha": "2026-09-13T18:15:30.198Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y se tiene que recargar la simcard o se saca un plan",
+        "fecha": "2026-09-13T18:16:24.422Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 👍\n\nLa SIMCARD que te enviamos de regalo con el módem funciona igual que un chip Claro normal: tú le haces recargas o le activas un plan de datos como lo harías con la SIM de tu celular. El módem no tiene planes propios, simplemente usa los datos de esa SIM (o de cualquier otra que le pongas) para generar el WiFi.\n\nAsí que tú decides si le recargas paquetes de datos cuando lo necesites, o si prefieres activarle algún plan mensual de Claro, lo que más te convenga según tu consumo.\n\n¿Te parece si avanzamos con tu pedido? Cuéntame tu nombre completo y tu número de celular para ir dejando todo listo 📦",
+        "fecha": "2026-09-13T18:16:28.560Z"
       }
     ],
     "paso": "conversando",
