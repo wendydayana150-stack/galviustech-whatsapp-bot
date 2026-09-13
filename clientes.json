@@ -744,7 +744,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573233942058",
@@ -792,7 +795,10 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573023451028",
@@ -840,7 +846,10 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573153892932",
@@ -889,7 +898,10 @@
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null
+    "ultimoProducto": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573176980343",
@@ -1010,7 +1022,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573226805909",
@@ -1877,7 +1892,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "recordatorios": {
-      "promoDiariaFecha": "2026-9-13"
+      "promoDiariaFecha": "2026-9-13",
+      "horas2": true
     },
     "necesitaAtencion": false,
     "motivoAtencion": null
@@ -2081,7 +2097,8 @@
     "ultimoProducto": "impresora-termica",
     "recordatorios": {
       "promoDiariaFecha": "2026-9-13",
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -2132,7 +2149,8 @@
     "recordatorios": {
       "promoDiariaFecha": "2026-9-13",
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     }
   },
   {
