@@ -8524,8 +8524,8 @@
     "telefono": "573195561152",
     "nombre": "Mayeli 🇦🇲🐕💻",
     "primerContacto": "2026-09-12T19:19:42.050Z",
-    "ultimoContacto": "2026-09-12T19:36:37.259Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-13T13:36:38.951Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8556,6 +8556,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-12T19:19:41.242Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días, una pregunta solo la impresión es a blanco y negro?",
+        "fecha": "2026-09-13T13:36:34.931Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenos días! 😊 Sí, la impresión térmica es solo en blanco y negro (no maneja tinta a color), pero la calidad es muy nítida, ideal para textos, recibos, facturas, cotizaciones, etiquetas y documentos en general.\n\nCuéntame, ¿para qué la usarías principalmente? ¿Facturación de un negocio, documentos de trabajo, o algo de estudio? Así te confirmo que es justo lo que necesitas.",
+        "fecha": "2026-09-13T13:36:37.922Z"
       }
     ],
     "paso": "confirmar_producto",
@@ -8571,7 +8581,9 @@
       "promoDiariaFecha": "2026-9-13",
       "horas8": true,
       "horas11": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573118582726",
