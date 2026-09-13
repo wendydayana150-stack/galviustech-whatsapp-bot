@@ -431,8 +431,8 @@
     "telefono": "573222531352",
     "nombre": "Javier Bernal",
     "primerContacto": "2026-09-13T16:08:37.184Z",
-    "ultimoContacto": "2026-09-13T18:43:41.702Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-13T18:45:32.403Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -513,6 +513,36 @@
         "rol": "bot",
         "texto": "Perfecto, con 3 dispositivos el módem 4G te queda sobrado, aguanta hasta 10 conectados sin problema 💪\n\nEs justo lo que necesitas: te olvidas de gastar datos del celular y tienes internet estable para todos en casa. Trae batería recargable, es fácil de instalar (solo insertas la SIM y listo) y además tiene garantía de 30 días con soporte de nosotros.\n\nLa inversión es de $199.900, incluyendo la SIMCARD de regalo.\n\n¿Te ayudo a dejar tu pedido listo para que empieces a disfrutarlo cuanto antes? 😊",
         "fecha": "2026-09-13T18:43:40.638Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuantos días llega el pedido?",
+        "fecha": "2026-09-13T18:45:24.257Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Normalmente los envíos con Interrapidísimo (o Coordinadora si tu zona no tiene cobertura) suelen llegar en pocos días hábiles, pero el tiempo exacto puede variar según la zona, así que prefiero no darte un número fijo para no comprometerme con algo que no pueda cumplir 🙏\n\nLo que sí te puedo asegurar es que en cuanto confirmes tus datos, tu pedido se despacha de inmediato para que te llegue lo antes posible.\n\n¿Me confirmas tu nombre completo y número de celular para ir dejando listo el pedido?",
+        "fecha": "2026-09-13T18:45:28.984Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem WiFi + Reloj",
+        "fecha": "2026-09-13T18:45:29.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem WiFi + Camara",
+        "fecha": "2026-09-13T18:45:30.344Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Modem Wifi + Reloj Inteligente* por solo $ 299.900\n\n🎁 *COMBO Modem Wifi + Camara de seguridad* por solo $ 289.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-13T18:45:30.878Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con reloj de regalo | Con camara de regalo | No, gracias]",
+        "fecha": "2026-09-13T18:45:31.426Z"
       }
     ],
     "paso": "conversando",
