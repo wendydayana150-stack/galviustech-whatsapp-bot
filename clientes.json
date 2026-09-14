@@ -305,7 +305,10 @@
     "ultimoProducto": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "reactivado": true
+    "reactivado": true,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573216533228",
@@ -355,7 +358,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "promoDiariaFecha": "2026-9-14"
+      "promoDiariaFecha": "2026-9-14",
+      "horas2": true
     },
     "reactivado": true
   },
