@@ -8137,8 +8137,8 @@
     "telefono": "573233709900",
     "nombre": "Lineth Ospino Zambrano",
     "primerContacto": "2026-09-13T00:14:33.064Z",
-    "ultimoContacto": "2026-09-13T00:14:33.064Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-14T01:13:42.138Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8169,6 +8169,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T00:14:32.227Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas Noches Muchas Gracias por su información.\nAún tenga el recurso económico; me comunico nuevamente con ustedes.",
+        "fecha": "2026-09-14T01:13:37.076Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto! No hay afán 😊 Aquí quedo pendiente para cuando decidas dar el paso.\n\nSolo te comento algo: la impresora ya viene con papel térmico incluido, funciona por Bluetooth con Android e iPhone, y no gasta tinta, así que a la larga se paga sola con lo que te ahorras en cartuchos y en ir a la papelería.\n\n¿Me confirmas para qué la usarías principalmente (facturas, cotizaciones, notas de negocio)? Así cuando estés lista/o, ya tengo clarísimo cómo ayudarte rápido.",
+        "fecha": "2026-09-14T01:13:41.091Z"
       }
     ],
     "paso": "confirmar_producto",
@@ -8184,7 +8194,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573217025576",
