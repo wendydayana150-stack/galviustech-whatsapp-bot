@@ -393,7 +393,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573208544475",
@@ -451,7 +454,10 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573166582529",
@@ -1247,7 +1253,8 @@
     "motivoAtencion": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-14",
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     },
     "reactivado": true
   },
