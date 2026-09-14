@@ -863,7 +863,7 @@ async function limpiarClientesAntiguos() {
       ultimaLimpieza = ahora;
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
-            const limiteMs = 5 * 24 * 60 * 60 * 1000;
+            const limiteMs = 7 * 24 * 60 * 60 * 1000;
             const cantidadOriginal = datos.length;
             const datosFiltrados = datos.filter((c) => {
                   const ultimo = new Date(c.ultimoContacto).getTime();
@@ -875,7 +875,7 @@ async function limpiarClientesAntiguos() {
                         const sigueExistiendo = datosFiltrados.some((c) => c.telefono === telefono);
                         if (!sigueExistiendo) delete sesiones[telefono];
                   }
-                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 5 dias sin contacto");
+                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 7 dias sin contacto");
             }
       } catch (error) {
             console.error("Error eliminando clientes antiguos:", error.response?.data || error.message);
