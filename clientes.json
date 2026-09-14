@@ -410,7 +410,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573223218170",
@@ -891,7 +894,8 @@
     "motivoAtencion": null,
     "reactivado": true,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -943,7 +947,8 @@
     "motivoAtencion": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-14",
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     },
     "reactivado": true
   },
@@ -1808,7 +1813,8 @@
     "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     },
     "reactivado": true
   },
