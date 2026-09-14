@@ -646,7 +646,10 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573102996243",
@@ -1181,7 +1184,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -1235,7 +1239,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -1993,7 +1998,8 @@
     "reactivado": true,
     "recordatorios": {
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     }
   },
   {
@@ -2604,7 +2610,8 @@
     "recordatorios": {
       "horas2": true,
       "horas5": true,
-      "horas8": true
+      "horas8": true,
+      "horas11": true
     },
     "reactivado": true
   },
