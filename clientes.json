@@ -3501,8 +3501,8 @@
     "telefono": "573118149713",
     "nombre": "Gloria Diaz",
     "primerContacto": "2026-09-13T13:13:42.719Z",
-    "ultimoContacto": "2026-09-13T13:13:42.719Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-14T01:59:52.055Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3533,6 +3533,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-13T13:13:41.610Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Combo no",
+        "fecha": "2026-09-14T01:59:45.699Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 😊 Sin combo, seguimos solo con la impresora térmica entonces.\n\nContame, ¿para qué la usarías principalmente? ¿Facturas, cotizaciones, recibos de un negocio, o algo de estudio? Y ¿en qué ciudad o municipio estás para confirmar el envío?",
+        "fecha": "2026-09-14T01:59:50.986Z"
       }
     ],
     "paso": "confirmar_producto",
