@@ -142,8 +142,8 @@
     "telefono": "573145681361",
     "nombre": "Yoli",
     "primerContacto": "2026-09-14T01:08:40.180Z",
-    "ultimoContacto": "2026-09-14T01:18:16.318Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-14T01:20:14.121Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -294,13 +294,43 @@
         "rol": "bot",
         "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
         "fecha": "2026-09-14T01:18:14.586Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-14T01:20:06.881Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Entonces te separo el combo de Impresora Térmica Portátil + Cámara de seguridad.\n\nCon esto tienes doble beneficio: imprimes documentos, facturas o cotizaciones donde estés sin depender de una papelería, Y además puedes ver tu casa o negocio desde el celular en cualquier momento, con la tranquilidad de tener respaldo grabado.\n\nLa inversión por el combo completo es de $299.900, con envío incluido en el proceso.\n\nPara dejarte el pedido listo, ¿me regalas tu nombre completo y número de celular? 📝",
+        "fecha": "2026-09-14T01:20:10.649Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-14T01:20:11.272Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-14T01:20:11.861Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Antes de confirmar tu pedido... 🎁\n\nPor tiempo limitado puedes llevar:\n\n🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 299.900\n\n🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 299.900\n\nTe animas a aprovechar alguna promocion?",
+        "fecha": "2026-09-14T01:20:12.450Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | No, gracias]",
+        "fecha": "2026-09-14T01:20:13.022Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
+    "ultimoProducto": "impresora-termica",
     "necesitaAtencion": false,
     "motivoAtencion": null
   },
