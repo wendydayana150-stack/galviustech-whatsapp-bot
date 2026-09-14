@@ -5210,8 +5210,8 @@
     "telefono": "573027620284",
     "nombre": "Armando Romero",
     "primerContacto": "2026-09-13T10:41:49.699Z",
-    "ultimoContacto": "2026-09-13T11:35:16.377Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-14T10:05:47.579Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5267,6 +5267,16 @@
         "rol": "bot",
         "texto": "Listo, ya me quedó claro que necesitas algo que te funcione tanto en la vereda como en la ciudad, eso es clave para elegir bien el equipo 👍\n\nPara poder recomendarte el modelo exacto (tenemos 4G, 4G/5G y 5G), cuéntame:\n📍 ¿En qué municipio y vereda te mueves más seguido?\n📱 ¿Qué operador te da mejor señal ahí, Claro, Movistar, Tigo o WOM?\n\nCon eso te digo cuál te conviene más para no quedarte sin conexión en ninguna de las dos partes.",
         "fecha": "2026-09-13T11:35:15.397Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tunja, a los 123 municipios de Boyacá",
+        "fecha": "2026-09-14T10:05:42.336Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Jajaja entiendo, te mueves bastante por todo Boyacá 😄 Eso hace aún más valioso tener tu propio módem, así no dependes de la cobertura fija de un solo lugar.\n\nPara afinar la recomendación, dime: ¿qué operador te suele dar mejor señal cuando estás en esas veredas, Claro, Movistar, Tigo o WOM? Y aproximadamente, ¿cuántos dispositivos conectarías al mismo tiempo (celular, computador, tablet)?\n\nCon eso te recomiendo si te conviene más el 4G, el 4G/5G o el 5G.",
+        "fecha": "2026-09-14T10:05:46.364Z"
       }
     ],
     "paso": "conversando",
@@ -5279,7 +5289,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573028179099",
