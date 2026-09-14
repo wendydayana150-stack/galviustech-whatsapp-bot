@@ -132,8 +132,8 @@
     "telefono": "573145681361",
     "nombre": "Yoli",
     "primerContacto": "2026-09-14T01:08:40.180Z",
-    "ultimoContacto": "2026-09-14T01:17:48.207Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-14T01:18:16.318Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -269,21 +269,25 @@
         "rol": "bot",
         "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
         "fecha": "2026-09-14T01:17:46.948Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-09-14T01:18:13.954Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Yoleidis\n*Celular:* 3145681361\n*Departamento:* Combenio\n*Ciudad:* Tolima\n*Direccion:* Una pregunta ustedes asen entregas por inter rapidicimo\n*Barrio:* Dirección kra 2 # 8_35 pasos arriba de la estación de policia\n*Producto:* COMBO Impresora Termica Portatil + Camara de seguridad\n*Medio de pago:* Contra entrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-14T01:18:13.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-14T01:18:14.586Z"
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
-      "precio": 299900,
-      "telefono": "573145681361",
-      "nombreCliente": "Yoleidis",
-      "celular": "3145681361",
-      "departamento": "Combenio",
-      "ciudad": "Tolima",
-      "direccion": "Una pregunta ustedes asen entregas por inter rapidicimo",
-      "barrio": "Dirección kra 2 # 8_35 pasos arriba de la estación de policia"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
