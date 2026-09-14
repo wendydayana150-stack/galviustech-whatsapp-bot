@@ -519,8 +519,8 @@
     "telefono": "573152521932",
     "nombre": "Martin Estrada",
     "primerContacto": "2026-09-14T01:00:52.485Z",
-    "ultimoContacto": "2026-09-14T01:00:52.485Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-14T01:29:48.393Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -551,6 +551,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-14T01:00:51.588Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias ya los contactaré.",
+        "fecha": "2026-09-14T01:29:44.094Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Quedo pendiente por acá.\n\nSolo recuerda que la impresora térmica te ahorra esos momentos de apuro cuando necesitas sacar un documento, factura o recibo y no tienes papelería cerca. Con batería recargable y sin gastar en tinta, es súper práctica para el día a día.\n\nCualquier duda que te surja, aquí estoy. ¿Trabajas de forma independiente o tienes un negocio? Así te oriento mejor cuando decidas dar el paso 🙂",
+        "fecha": "2026-09-14T01:29:47.504Z"
       }
     ],
     "paso": "confirmar_producto",
