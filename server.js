@@ -675,7 +675,7 @@ async function guardarPedido(pedido) {
       }
 }
 
-async function guardarCliente(telefono, nombreCliente) {
+async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const ahora = new Date().toISOString();
@@ -714,6 +714,14 @@ async function guardarCliente(telefono, nombreCliente) {
 
       await guardarJSON(CLIENTES_API, datos, sha, "Registro de cliente actualizado");
       } catch (error) {
+            // Conflicto: otra conversacion guardo clientes.json al mismo tiempo y el sha con el
+            // que leimos quedo desactualizado. Reintentamos leyendo la version mas reciente en
+            // vez de perder esta actualizacion del cliente (mismo patron que los recordatorios).
+            const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+            if (esConflicto && intentosRestantes > 0) {
+                  await guardarCliente(telefono, nombreCliente, intentosRestantes - 1);
+                  return;
+            }
             console.error("Error guardando cliente:", error.response?.data || error.message);
       }
 }
@@ -1574,10 +1582,17 @@ async function manejarTextoLibre(telefono, texto) {
             // panel, asi Wendy sabe cuales clientes quedaron sin una respuesta real del bot.
             sesion.necesitaAtencion = true;
             sesion.motivoAtencion = `El bot no pudo procesar este mensaje: "${texto.slice(0, 100)}"`;
-            await enviarTexto(
-                  telefono,
-                  "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?"
-                  );
+            try {
+                  await enviarTexto(
+                        telefono,
+                        "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?"
+                        );
+            } catch (errorAviso) {
+                  // Si tampoco se pudo avisar al cliente (ej. WhatsApp rechazo el envio), no
+                  // dejamos que este segundo error se propague y tumbe el procesamiento del
+                  // webhook completo; ya quedo marcado como "necesita atencion" arriba.
+                  console.error("Error avisando fallo al cliente:", errorAviso.response?.data || errorAviso.message);
+            }
       }
 }
 
@@ -1972,6 +1987,14 @@ app.post("/webhook", async (req, res) => {
 
             const telefono = mensaje.from;
             const nombreCliente = change.value.contacts?.[0]?.profile?.name;
+
+            if (!telefono) {
+                  // Sin numero de telefono no hay a quien responder: WhatsApp rechaza cualquier
+                  // envio con "(#100) The parameter to is required". Se ignora este mensaje en
+                  // vez de intentar procesarlo, dejando registro del payload para revisarlo.
+                  console.error("Webhook recibido sin numero de telefono (mensaje.from vacio):", JSON.stringify(mensaje));
+                  return res.sendStatus(200);
+            }
 
             await cargarSesionSiNueva(telefono);
             const sesionActual = obtenerSesion(telefono);
