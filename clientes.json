@@ -467,8 +467,8 @@
     "telefono": "573186114480",
     "nombre": "Des Conocido",
     "primerContacto": "2026-09-14T18:46:03.612Z",
-    "ultimoContacto": "2026-09-14T18:46:03.612Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-14T20:41:30.000Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -509,6 +509,16 @@
         "rol": "bot",
         "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
         "fecha": "2026-09-14T18:46:02.753Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio vale",
+        "fecha": "2026-09-14T20:41:19.821Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nEl Módem WiFi Portátil 4G/5G te permite conectar hasta 10 dispositivos a la vez y tiene mejor cobertura que un celular normal, ideal si estás en zona rural o sin fibra óptica. La inversión es de $239.900, e incluye SIMCARD de regalo para que lo actives de una vez.\n\nPara recomendarte bien, cuéntame: ¿en qué municipio o vereda lo usarías y para qué lo necesitas principalmente (trabajo, estudio, hogar)?\n\nPRODUCTO_",
+        "fecha": "2026-09-14T20:41:28.815Z"
       }
     ],
     "paso": "confirmar_producto",
