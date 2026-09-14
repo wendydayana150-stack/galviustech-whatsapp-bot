@@ -102,8 +102,8 @@
     "telefono": "573145681361",
     "nombre": "Yoli",
     "primerContacto": "2026-09-14T01:08:40.180Z",
-    "ultimoContacto": "2026-09-14T01:15:30.111Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-14T01:15:41.755Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -209,9 +209,19 @@
         "rol": "bot",
         "texto": "Y en que ciudad o municipio?",
         "fecha": "2026-09-14T01:15:29.103Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tolima",
+        "fecha": "2026-09-14T01:15:40.624Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-14T01:15:40.624Z"
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
@@ -219,7 +229,8 @@
       "telefono": "573145681361",
       "nombreCliente": "Yoleidis",
       "celular": "3145681361",
-      "departamento": "Combenio"
+      "departamento": "Combenio",
+      "ciudad": "Tolima"
     },
     "pausado": false,
     "etapaManual": null,
