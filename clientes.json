@@ -102,8 +102,8 @@
     "telefono": "573145681361",
     "nombre": "Yoli",
     "primerContacto": "2026-09-14T01:08:40.180Z",
-    "ultimoContacto": "2026-09-14T01:15:10.210Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-14T01:15:30.111Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -199,16 +199,27 @@
         "rol": "bot",
         "texto": "En que departamento vives?",
         "fecha": "2026-09-14T01:15:08.951Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Combenio",
+        "fecha": "2026-09-14T01:15:29.103Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-14T01:15:29.103Z"
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
       "telefono": "573145681361",
       "nombreCliente": "Yoleidis",
-      "celular": "3145681361"
+      "celular": "3145681361",
+      "departamento": "Combenio"
     },
     "pausado": false,
     "etapaManual": null,
