@@ -547,7 +547,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573125714543",
@@ -1894,7 +1897,8 @@
     "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     },
     "reactivado": true
   },
