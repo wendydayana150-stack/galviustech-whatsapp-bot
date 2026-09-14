@@ -1,5 +1,53 @@
 [
   {
+    "telefono": "573165364333",
+    "nombre": "Arturo",
+    "primerContacto": "2026-09-14T00:13:33.220Z",
+    "ultimoContacto": "2026-09-14T00:13:33.220Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica. Gracias.",
+        "fecha": "2026-09-14T00:13:29.457Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-14T00:13:29.457Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-14T00:13:30.582Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-14T00:13:31.101Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 249.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
+        "fecha": "2026-09-14T00:13:31.654Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-14T00:13:32.243Z"
+      }
+    ],
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": "impresora-termica",
+    "necesitaAtencion": false,
+    "motivoAtencion": null
+  },
+  {
     "telefono": "573214659289",
     "nombre": "Libardo Palacios",
     "primerContacto": "2026-09-13T23:47:18.529Z",
