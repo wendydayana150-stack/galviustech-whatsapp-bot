@@ -714,7 +714,10 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573246881512",
@@ -1208,7 +1211,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -1259,7 +1263,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -1885,7 +1890,8 @@
     "reactivado": true,
     "recordatorios": {
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     }
   },
   {
@@ -1950,7 +1956,8 @@
     "motivoAtencion": null,
     "reactivado": true,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     }
   },
   {
@@ -2003,7 +2010,8 @@
     "recordatorios": {
       "promoDiariaFecha": "2026-9-14",
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     },
     "reactivado": true
   },
@@ -2067,7 +2075,8 @@
     "recordatorios": {
       "promoDiariaFecha": "2026-9-14",
       "horas2": true,
-      "horas5": true
+      "horas5": true,
+      "horas8": true
     },
     "reactivado": true
   },
@@ -2659,7 +2668,8 @@
       "horas2": true,
       "promoDiariaFecha": "2026-9-14",
       "horas5": true,
-      "horas8": true
+      "horas8": true,
+      "horas11": true
     },
     "reactivado": true
   },
