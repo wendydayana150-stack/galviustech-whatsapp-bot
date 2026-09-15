@@ -117,13 +117,29 @@ async function cargarSesionSiNueva(telefono) {
         obtenerSesion(telefono);
 }
 
+// Devuelve el registro que acaba de guardar (no solo lo empuja al arreglo) para que quien envia
+// un mensaje del bot pueda, despues de que WhatsApp confirme el envio, anotarle el wamid (el id
+// que WhatsApp le da a ese mensaje) en registro.wamid. Ese wamid es lo que despues llega en los
+// webhooks de "statuses" (sent/delivered/read) y es la unica forma de saber a cual mensaje
+// puntual de la conversacion corresponde cada check. Los mensajes del bot arrancan en estado
+// "enviado"; los del cliente no llevan estado (WhatsApp no le muestra "vistos" a uno mismo).
 function registrarMensaje(telefono, rol, texto) {
         const sesion = obtenerSesion(telefono);
-        sesion.transcripcion.push({ rol, texto, fecha: new Date().toISOString() });
+        const registro = { rol, texto, fecha: new Date().toISOString() };
+        if (rol === "bot") registro.estado = "enviado";
+        sesion.transcripcion.push(registro);
         if (sesion.transcripcion.length > 200) {
                   sesion.transcripcion = sesion.transcripcion.slice(-200);
         }
+        return registro;
 }
+
+// Jerarquia de estados de un mensaje saliente, igual que los "checks" de WhatsApp: enviado (1
+// check) -> entregado (2 checks grises) -> leido (2 checks azules). fallido es aparte. Los
+// webhooks de "statuses" no siempre llegan en orden perfecto, asi que al actualizar un mensaje
+// nunca se debe "retroceder" el estado (por ejemplo, un "delivered" tardio que llega despues de
+// que ya sabiamos que lo leyo no debe hacerlo volver a mostrar solo 2 checks grises).
+const RANGO_ESTADO_MENSAJE = { enviado: 1, entregado: 2, leido: 3, fallido: 0 };
 
 function escaparHtml(texto) {
         return String(texto || "").replace(/[&<>"']/g, (c) => ({
@@ -137,6 +153,17 @@ function escaparHtml(texto) {
 
 function formatearPrecio(numero) {
         return numero.toLocaleString("es-CO", { style: "currency", currency: "COP", minimumFractionDigits: 0 });
+}
+
+// Devuelve el "check" estilo WhatsApp para un mensaje que nosotros enviamos (rol "bot"), segun
+// su estado guardado por marcarEstadoMensaje(): 1 palomita gris = enviado, 2 palomitas gris =
+// entregado, 2 palomitas azules = leido, "!" rojo = fallo el envio. Los mensajes guardados antes
+// de este feature no tienen "estado", asi que se muestran como "enviado" por defecto.
+function iconoEstadoMensaje(estado) {
+      if (estado === "leido") return '<span class="check check-leido" title="Leido">&#10003;&#10003;</span>';
+      if (estado === "entregado") return '<span class="check" title="Entregado">&#10003;&#10003;</span>';
+      if (estado === "fallido") return '<span class="check check-fallido" title="No se pudo entregar">&#33;</span>';
+      return '<span class="check" title="Enviado">&#10003;</span>';
 }
 
 function formatearFechaHora(fechaIso) {
@@ -153,8 +180,8 @@ function formatearFechaHora(fechaIso) {
 }
 
 async function enviarTexto(telefono, texto) {
-      registrarMensaje(telefono, "bot", texto);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", texto);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -164,6 +191,7 @@ async function enviarTexto(telefono, texto) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 // Envia la plantilla de marketing "reactivacion_cliente_galviustech" (aprobada por Meta el 15
@@ -177,12 +205,12 @@ async function enviarTexto(telefono, texto) {
 // Si cambia el nombre o el idioma de la plantilla en el Administrador de WhatsApp, hay que
 // actualizar esos mismos valores aqui.
 async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProducto) {
-      registrarMensaje(
+      const registro = registrarMensaje(
             telefono,
             "bot",
             `[Plantilla reactivacion_cliente_galviustech] Hola ${nombreCliente}, sobre ${nombreProducto}`
             );
-      await axios.post(
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -204,11 +232,12 @@ async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProduc
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function enviarImagen(telefono, urlImagen, caption) {
-      registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -218,11 +247,12 @@ async function enviarImagen(telefono, urlImagen, caption) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function enviarVideo(telefono, urlVideo, caption) {
-      registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -232,6 +262,7 @@ async function enviarVideo(telefono, urlVideo, caption) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function subirMediaWhatsApp(buffer, mimetype) {
@@ -257,8 +288,8 @@ async function subirMediaWhatsApp(buffer, mimetype) {
 }
 
 async function enviarImagenPorId(telefono, mediaId, caption) {
-      registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -268,11 +299,12 @@ async function enviarImagenPorId(telefono, mediaId, caption) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function enviarVideoPorId(telefono, mediaId, caption) {
-      registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -282,12 +314,13 @@ async function enviarVideoPorId(telefono, mediaId, caption) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function enviarBotones(telefono, texto, botones) {
       const listaBotones = botones.map((b) => b.titulo).join(" | ");
-      registrarMensaje(telefono, "bot", `${texto}\n[Opciones: ${listaBotones}]`);
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", `${texto}\n[Opciones: ${listaBotones}]`);
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -306,11 +339,12 @@ async function enviarBotones(telefono, texto, botones) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function enviarListaCatalogo(telefono) {
-      registrarMensaje(telefono, "bot", "[Envio el catalogo de productos]");
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", "[Envio el catalogo de productos]");
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -339,6 +373,7 @@ async function enviarListaCatalogo(telefono) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 // Metadata de las categorias de producto que el catalogo puede tener. Nueva
@@ -794,6 +829,38 @@ async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
                   return;
             }
             console.error("Error guardando cliente:", error.response?.data || error.message);
+      }
+}
+
+// Actualiza el estado de un mensaje ya enviado (enviado -> entregado -> leido) cuando llega el
+// webhook de "statuses" de Meta. Usa RANGO_ESTADO_MENSAJE para que un evento atrasado (ej. un
+// "delivered" que llega despues de que ya se registro "read") nunca retroceda el estado mostrado.
+async function marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestantes = 4) {
+      if (!telefono || !wamid) return;
+      // Actualiza primero la sesion en memoria: es lo que ve el panel si esta conversacion ya
+      // esta cargada, sin tener que esperar a la lectura/escritura de clientes.json.
+      const sesion = sesiones[telefono];
+      if (sesion?.transcripcion) {
+            const msjMemoria = sesion.transcripcion.find((m) => m.wamid === wamid);
+            if (msjMemoria && (RANGO_ESTADO_MENSAJE[nuevoEstado] || 0) > (RANGO_ESTADO_MENSAJE[msjMemoria.estado] || 0)) {
+                  msjMemoria.estado = nuevoEstado;
+            }
+      }
+      try {
+            const { datos, sha } = await leerJSON(CLIENTES_API);
+            const cliente = datos.find((c) => c.telefono === telefono);
+            const msj = cliente?.conversacion?.find((m) => m.wamid === wamid);
+            if (!msj) return;
+            if ((RANGO_ESTADO_MENSAJE[nuevoEstado] || 0) <= (RANGO_ESTADO_MENSAJE[msj.estado] || 0)) return;
+            msj.estado = nuevoEstado;
+            await guardarJSON(CLIENTES_API, datos, sha, "Estado de mensaje actualizado");
+      } catch (error) {
+            const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+            if (esConflicto && intentosRestantes > 0) {
+                  await marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestantes - 1);
+                  return;
+            }
+            console.error("Error actualizando estado de mensaje:", error.response?.data || error.message);
       }
 }
 
@@ -1255,7 +1322,7 @@ async function enviarPromoDiariaAutomatica() {
 }
 
 async function enviarListaCategorias(telefono, categorias, opcionesExtra) {
-      registrarMensaje(telefono, "bot", "[Envio menu de categorias]");
+      const registro = registrarMensaje(telefono, "bot", "[Envio menu de categorias]");
       const rows = categorias.map((c) => {
             const info = infoCategoria(c);
             return {
@@ -1266,7 +1333,7 @@ async function enviarListaCategorias(telefono, categorias, opcionesExtra) {
       if (opcionesExtra && opcionesExtra.length > 0) {
             rows.push(...opcionesExtra.map((o) => ({ id: o.id, title: o.titulo.slice(0, 24) })));
       }
-      await axios.post(
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -1289,18 +1356,20 @@ async function enviarListaCategorias(telefono, categorias, opcionesExtra) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 // Lista de solo los combos (productos cuyo id empieza con "combo-"), para cuando
 // el cliente toca el boton/opcion "Combos" en el saludo inicial.
 async function enviarListaCombos(telefono) {
       const combos = catalogo.filter((p) => p.id.startsWith("combo-"));
-      registrarMensaje(telefono, "bot", "[Envio lista de combos]");
       if (combos.length === 0) {
+            registrarMensaje(telefono, "bot", "[Envio lista de combos]");
             await enviarTexto(telefono, "Por el momento no tenemos combos disponibles, pero cuentame que producto te interesa y te ayudo con gusto.");
             return;
       }
-      await axios.post(
+      const registro = registrarMensaje(telefono, "bot", "[Envio lista de combos]");
+      const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
@@ -1327,6 +1396,7 @@ async function enviarListaCombos(telefono) {
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
 async function manejarSaludo(telefono, nombreCliente) {
@@ -1976,7 +2046,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
                   (m) => `
                   <div class="burbuja ${m.rol === "bot" ? "bot" : "cliente"}">
                   <div class="texto">${(m.texto || "").replace(/\n/g, "<br>")}</div>
-                  <div class="hora">${formatearFechaHora(m.fecha)}</div>
+                  <div class="hora">${formatearFechaHora(m.fecha)}${m.rol === "bot" ? iconoEstadoMensaje(m.estado) : ""}</div>
                   </div>`
                   )
             .join("");
@@ -1996,6 +2066,9 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             .burbuja.cliente { background: white; margin-right: auto; }
             .burbuja.bot { background: #dcf8c6; margin-left: auto; }
             .hora { font-size: 11px; color: #888; margin-top: 4px; text-align: right; }
+            .check { font-size: 13px; margin-left: 4px; letter-spacing: -2px; }
+            .check-leido { color: #53bdeb; }
+            .check-fallido { color: #d32f2f; letter-spacing: normal; font-weight: bold; }
             .pausa { background: #fff3cd; padding: 10px 16px; text-align: center; font-size: 14px; }
             .escribir { position: fixed; bottom: 0; left: 0; right: 0; background: white; padding: 12px; display: flex; gap: 8px; align-items: center; max-width: 700px; margin: 0 auto; box-shadow: 0 -2px 6px rgba(0,0,0,0.1); }
             .escribir input[type="text"] { flex: 1; padding: 10px; border: 1px solid #ccc; border-radius: 6px; font-size: 14px; }
@@ -2064,6 +2137,18 @@ app.post("/webhook", async (req, res) => {
             const entry = req.body.entry?.[0];
             const change = entry?.changes?.[0];
             const mensaje = change?.value?.messages?.[0];
+
+            // Estos son los "recibos" de WhatsApp (enviado/entregado/leido/fallido) de un mensaje
+            // que YA mandamos nosotros - vienen en un payload separado al de mensajes entrantes.
+            // No traen "messages", asi que sin este bloque el "if (!mensaje) return" de abajo los
+            // descartaba en silencio y el panel nunca se enteraba de que un mensaje fue leido.
+            const estados = change?.value?.statuses;
+            if (estados && estados.length > 0) {
+                  for (const est of estados) {
+                        await marcarEstadoMensaje(est.recipient_id, est.id, est.status);
+                  }
+                  return res.sendStatus(200);
+            }
 
             if (!mensaje) {
                   return res.sendStatus(200);
