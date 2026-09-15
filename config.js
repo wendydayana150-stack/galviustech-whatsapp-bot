@@ -298,35 +298,38 @@ const mensajeReactivacion =
             "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\n" +
             "Sigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋";
 
-const mensajePromoLamparasDiaAnterior =
-            "🔥 ¡Hola! Te escribo para recordarte tu promoción 😊\n" +
-            "La promoción del PACK x3 LÁMPARAS SOLARES + ENVÍO GRATIS está vigente únicamente hasta HOY ⏰\n" +
-            "💡 Son ideales para iluminar y reforzar la seguridad de tu casa, finca, negocio o entrada, ¡sin pagar instalación eléctrica!\n" +
-            "⚠️ Después de hoy la promoción puede cambiar.\n" +
-            "Si todavía estás interesado(a), hoy es el momento de aprovecharla. 🔥";
+// Mensajes de reactivacion para clientes que ya hablaron con Michell pero no compraron.
+// Antes decian "HOY ES EL ULTIMO DIA" siempre, incluso cuando se disparaban varios dias
+// distintos para el mismo cliente sin que nada cambiara de verdad - eso es la misma urgencia
+// falsa que se le pidio corregir en el copy de los anuncios. Ahora son un gancho llamativo
+// pero honesto (retoman el producto puntual + una pregunta directa), y reciben el nombre del
+// cliente cuando se conoce para que se sienta un mensaje personal, no una plantilla generica.
+const mensajePromoLamparasDiaAnterior = (nombreCliente) => {
+            const saludo = nombreCliente ? `¡Hola ${nombreCliente}! 😊` : "¡Hola! 😊";
+            return (
+                        `${saludo} Soy Michell, de GalviusTech.\n` +
+                        "Vi que te habías interesado en nuestras lámparas solares 💡 y quería saber si sigues buscando iluminar tu casa, finca o negocio sin pagar instalación eléctrica ni factura de luz.\n" +
+                        "¿Seguimos con tu pedido, o te quedó alguna duda? Cuéntame y te ayudo. 🙋‍♀️"
+            );
+};
 
-const mensajePromoImpresoraDiaAnterior =
-            "🔥 ¡Hola! 😊 Te escribo porque hoy es el último día de la promoción de la impresora portátil.\n" +
-            "🖨️ IMPRESORA TÉRMICA SIN TINTA\n" +
-            "✅ Imprime desde tu celular\n" +
-            "✅ Práctica y portátil\n" +
-            "✅ Ideal para tareas, documentos, etiquetas y más\n" +
-            "🎁 Además, incluye obsequio\n" +
-            "🚚 Envío gratis\n" +
-            "⏰ La promoción es válida solamente HASTA HOY.\n" +
-            "Después de hoy puede volver a su precio normal.\n" +
-            '👉 Si todavía la quieres aprovechar, dime "LA QUIERO" y te ayudo a realizar tu pedido. 🔥';
+const mensajePromoImpresoraDiaAnterior = (nombreCliente) => {
+            const saludo = nombreCliente ? `¡Hola ${nombreCliente}! 😊` : "¡Hola! 😊";
+            return (
+                        `${saludo} Soy Michell, de GalviusTech.\n` +
+                        "Sigo teniendo disponible la impresora térmica portátil 🖨️ que estabas viendo: sin tinta, sin cartuchos, imprime directo desde tu celular.\n" +
+                        "¿Seguimos con tu pedido, o te quedó alguna duda? Aquí estoy para ayudarte. 🙋‍♀️"
+            );
+};
 
-const mensajePromoModemDiaAnterior =
-            "🔥 ¡Hola! 😊 Paso por aquí para recordarte la promoción del MÓDEM 📶\n" +
-            "⏰ ¡HOY ES EL ÚLTIMO DÍA PARA APROVECHARLA!\n" +
-            "📡 Una excelente alternativa para tener internet donde no llega la fibra óptica, ideal para la casa, finca, trabajo, estudio o para llevar contigo.\n" +
-            "✅ Conexión 4G\n" +
-            "✅ Úsalo donde tengas cobertura móvil\n" +
-            "✅ Ideal para zonas rurales y veredas\n" +
-            "🎁 Promoción especial + envío gratis\n" +
-            "⚠️ La promoción es válida únicamente hasta HOY. Después puede cambiar el precio o las condiciones.\n" +
-            '👉 Si todavía estás interesado(a), dime "LO QUIERO" y te ayudo a realizar el pedido. 🔥📲';
+const mensajePromoModemDiaAnterior = (nombreCliente) => {
+            const saludo = nombreCliente ? `¡Hola ${nombreCliente}! 😊` : "¡Hola! 😊";
+            return (
+                        `${saludo} Soy Michell, de GalviusTech.\n` +
+                        "Sigo teniendo disponible tu modem WiFi portátil 📶 para que tengas internet donde lo necesites, sin depender de que llegue la fibra óptica a tu zona.\n" +
+                        "¿Seguimos con tu pedido, o te quedó alguna duda? Cuéntame y te ayudo ahora mismo. 🙋‍♀️"
+            );
+};
 
 module.exports = {
             nombreNegocio,

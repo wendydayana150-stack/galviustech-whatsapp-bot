@@ -1098,10 +1098,12 @@ async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
 // Promocion diaria "solo por hoy" para TODOS los clientes que aun no han comprado, segun en que
 // producto mostraron interes. El envio automatico corre como maximo una vez por dia calendario en
 // hora de Bogota; ademas hay un disparador manual (/admin/promo-diaria) para enviarla al instante.
+// Cada funcion recibe el nombre del cliente (o null si no se conoce) y lo pasa al mensaje de
+// config.js correspondiente, que ahora es personalizable (ver mensajePromoXDiaAnterior en config.js).
 const PROMOS_DIARIAS_POR_CATEGORIA = {
-      lampara: () => config.mensajePromoLamparasDiaAnterior,
-      impresora: () => config.mensajePromoImpresoraDiaAnterior,
-      modem: () => config.mensajePromoModemDiaAnterior,
+      lampara: (nombreCliente) => config.mensajePromoLamparasDiaAnterior(nombreCliente),
+      impresora: (nombreCliente) => config.mensajePromoImpresoraDiaAnterior(nombreCliente),
+      modem: (nombreCliente) => config.mensajePromoModemDiaAnterior(nombreCliente),
 };
 
 function categoriaPromoDiaria(cliente) {
@@ -1148,7 +1150,7 @@ async function ejecutarPromoDiaria() {
                   if (!obtenerMensaje) continue;
 
                   try {
-                        await enviarTexto(c.telefono, obtenerMensaje());
+                        await enviarTexto(c.telefono, obtenerMensaje(c.nombre || null));
                         promoDiariaEnviadaEnProceso.add(`${c.telefono}|${hoyBogota}`);
                         enviados.push(c.telefono);
                   } catch (errorEnvio) {
