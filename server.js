@@ -166,6 +166,46 @@ async function enviarTexto(telefono, texto) {
             );
 }
 
+// Envia la plantilla de marketing "reactivacion_cliente_galviustech" (aprobada por Meta el 15
+// sep 2026, categoria Marketing, idioma Spanish (COL)). A diferencia de enviarTexto (que solo
+// funciona si el cliente escribio en las ultimas 24h), una plantilla SI le puede llegar a
+// cualquier cliente sin importar cuanto tiempo lleve sin escribir - por eso se usa aqui para que
+// la reactivacion le llegue de verdad a "todos" los clientes pendientes, no solo a los que
+// escribieron hoy. El cuerpo aprobado es exactamente:
+// "Hola {{1}} 👋 Soy Michell, de GalviusTech. Vi que te interesó nuestro {{2}} y no quise
+// dejarte sin respuesta. ¿Seguimos con tu pedido, o tienes alguna duda? Escríbeme y te ayudo."
+// Si cambia el nombre o el idioma de la plantilla en el Administrador de WhatsApp, hay que
+// actualizar esos mismos valores aqui.
+async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProducto) {
+      registrarMensaje(
+            telefono,
+            "bot",
+            `[Plantilla reactivacion_cliente_galviustech] Hola ${nombreCliente}, sobre ${nombreProducto}`
+            );
+      await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "template",
+                  template: {
+                        name: "reactivacion_cliente_galviustech",
+                        language: { code: "es_CO" },
+                        components: [
+                              {
+                                    type: "body",
+                                    parameters: [
+                                          { type: "text", text: nombreCliente },
+                                          { type: "text", text: nombreProducto },
+                                    ],
+                              },
+                        ],
+                  },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+}
+
 async function enviarImagen(telefono, urlImagen, caption) {
       registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
       await axios.post(
@@ -1098,12 +1138,18 @@ async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
 // Promocion diaria "solo por hoy" para TODOS los clientes que aun no han comprado, segun en que
 // producto mostraron interes. El envio automatico corre como maximo una vez por dia calendario en
 // hora de Bogota; ademas hay un disparador manual (/admin/promo-diaria) para enviarla al instante.
-// Cada funcion recibe el nombre del cliente (o null si no se conoce) y lo pasa al mensaje de
-// config.js correspondiente, que ahora es personalizable (ver mensajePromoXDiaAnterior en config.js).
-const PROMOS_DIARIAS_POR_CATEGORIA = {
-      lampara: (nombreCliente) => config.mensajePromoLamparasDiaAnterior(nombreCliente),
-      impresora: (nombreCliente) => config.mensajePromoImpresoraDiaAnterior(nombreCliente),
-      modem: (nombreCliente) => config.mensajePromoModemDiaAnterior(nombreCliente),
+// Como el envio ahora usa la plantilla de WhatsApp reactivacion_cliente_galviustech (ver
+// enviarPlantillaReactivacion), la variable {{2}} de esa plantilla necesita concordar en genero
+// y numero con la palabra fija "nuestro" del texto ya aprobado ("Vi que te interesó nuestro
+// {{2}}"). Por eso aqui NO se usa el nombre corto tal cual del producto (por ejemplo "lamparas
+// solares" o "impresora termica" no encajarian: "nuestro lamparas..."/"nuestro impresora..." es
+// gramaticalmente incorrecto), sino una frase masculina singular que sigue siendo clara para el
+// cliente. Los mensajes de config.js (mensajePromoXDiaAnterior) quedan sin usar en este flujo,
+// pero se dejan por si se necesitan en otro lado.
+const NOMBRE_PRODUCTO_PLANTILLA_POR_CATEGORIA = {
+      lampara: "sistema de iluminación solar",
+      impresora: "equipo de impresión térmica portátil",
+      modem: "modem WiFi portátil",
 };
 
 function categoriaPromoDiaria(cliente) {
@@ -1146,11 +1192,11 @@ async function ejecutarPromoDiaria() {
                   if (promoDiariaEnviadaEnProceso.has(`${c.telefono}|${hoyBogota}`)) continue;
 
                   const categoria = categoriaPromoDiaria(c);
-                  const obtenerMensaje = categoria ? PROMOS_DIARIAS_POR_CATEGORIA[categoria] : null;
-                  if (!obtenerMensaje) continue;
+                  const nombreProductoPlantilla = categoria ? NOMBRE_PRODUCTO_PLANTILLA_POR_CATEGORIA[categoria] : null;
+                  if (!nombreProductoPlantilla) continue;
 
                   try {
-                        await enviarTexto(c.telefono, obtenerMensaje(c.nombre || null));
+                        await enviarPlantillaReactivacion(c.telefono, c.nombre || "cliente", nombreProductoPlantilla);
                         promoDiariaEnviadaEnProceso.add(`${c.telefono}|${hoyBogota}`);
                         enviados.push(c.telefono);
                   } catch (errorEnvio) {
