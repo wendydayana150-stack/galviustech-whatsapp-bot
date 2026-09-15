@@ -55,7 +55,7 @@ const sesiones = {};
 
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
-                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, necesitaAtencion: false, motivoAtencion: null };
+                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null };
         }
         return sesiones[telefono];
 }
@@ -105,6 +105,7 @@ async function cargarSesionSiNueva(telefono) {
                                             transcripcion: cliente.conversacion || [],
                                             pausado: !!cliente.pausado,
                                             ultimoProducto: cliente.pedido?.productoId || cliente.ultimoProducto || null,
+                                            ultimaCategoria: cliente.ultimaCategoria || null,
                                             necesitaAtencion: !!cliente.necesitaAtencion,
                                             motivoAtencion: cliente.motivoAtencion || null,
                               };
@@ -379,6 +380,12 @@ async function enviarInfoCategoria(telefono, categoria) {
             await manejarSaludo(telefono, null);
             return;
       }
+      // Se guarda la categoria aunque haya varias variantes (ej. los 3 modems) y todavia no
+      // sepamos cual especifica quiere. Sin esto, si el cliente no llega a decir cual variante
+      // le interesa y luego responde algo corto como "precio" o "este", el sistema no tenia
+      // ningun producto/categoria que pasarle a la IA como contexto, y esta terminaba
+      // pidiendole que repitiera el nombre del producto en vez de responder directo.
+      sesion.ultimaCategoria = categoria;
       const info = infoCategoria(categoria);
       registrarMensaje(telefono, "bot", `[Envio fotos y caracteristicas: ${info.titulo}]`);
 
@@ -691,6 +698,7 @@ async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
             existente.pedido = sesion.pedido;
             existente.pausado = !!sesion.pausado;
             existente.ultimoProducto = sesion.pedido?.productoId || sesion.ultimoProducto || existente.ultimoProducto || null;
+            existente.ultimaCategoria = sesion.ultimaCategoria || existente.ultimaCategoria || null;
             existente.necesitaAtencion = !!sesion.necesitaAtencion;
             existente.motivoAtencion = sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
@@ -707,6 +715,7 @@ async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
                   pausado: !!sesion.pausado,
                   etapaManual: null,
                   ultimoProducto: sesion.pedido?.productoId || sesion.ultimoProducto || null,
+                  ultimaCategoria: sesion.ultimaCategoria || null,
                   necesitaAtencion: !!sesion.necesitaAtencion,
                   motivoAtencion: sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null,
             });
@@ -1543,6 +1552,11 @@ async function manejarTextoLibre(telefono, texto) {
             enfoqueProducto = { tipo: "categoria", valor: categoriaDetectada };
       } else if (sesion.pedido?.productoId || sesion.ultimoProducto) {
             enfoqueProducto = { tipo: "producto", valor: sesion.pedido?.productoId || sesion.ultimoProducto };
+      } else if (sesion.ultimaCategoria) {
+            // Ultimo recurso: no hay un producto puntual identificado, pero si sabemos de que
+            // categoria se estaba hablando (ej. le mostramos los 3 modems y aun no dijo cual).
+            // Sin esto, una respuesta corta como "precio" o "este" quedaba sin ningun contexto.
+            enfoqueProducto = { tipo: "categoria", valor: sesion.ultimaCategoria };
       }
 
       try {
@@ -2019,7 +2033,19 @@ app.post("/webhook", async (req, res) => {
                         const especifico = detectarProductoEspecifico(texto);
                         const deteccion = detectarProductoPorPalabraClave(texto);
                         sesion.paso = "conversando";
-                        if (especifico) {
+                        // En el PRIMER mensaje (normalmente el texto automatico de un anuncio, ej.
+                        // "Quiero mas informacion de Impresora termica") nunca saltamos directo a
+                        // mostrar fotos+precio+boton de compra: es demasiado de golpe para alguien
+                        // que recien hizo clic en un anuncio y todavia no genera ninguna confianza.
+                        // En vez de manejarSeleccionProducto (que cierra con "quieres pedirlo?"),
+                        // usamos el mismo camino que ya funciona bien para categorias (fotos +
+                        // caracteristicas + UNA pregunta de descubrimiento antes de pedir la venta).
+                        const categoriaDelEspecifico = especifico
+                              ? (catalogo.find((p) => p.id === especifico)?.categoria || "").trim().toLowerCase()
+                              : null;
+                        if (categoriaDelEspecifico) {
+                              await enviarInfoCategoria(telefono, categoriaDelEspecifico);
+                        } else if (especifico) {
                               await manejarSeleccionProducto(telefono, especifico);
                         } else if (deteccion) {
                               await enviarInfoCategoria(telefono, deteccion);

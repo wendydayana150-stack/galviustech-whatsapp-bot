@@ -62,7 +62,8 @@ function construirBloqueEnfoqueProducto(catalogo, enfoqueProducto) {
             return (
                         "PRODUCTO QUE EL CLIENTE ESTA CONSULTANDO JUSTO AHORA: " + nombres + ". " +
                         "Para responder este mensaje, usa EXCLUSIVAMENTE el precio, la descripcion y las caracteristicas de este/estos producto(s) especifico(s) (los que estan detallados abajo bajo su propio nombre). " +
-                        "NUNCA le atribuyas a este producto caracteristicas, precio o descripcion de otro producto distinto del catalogo, aunque aparezcan mas abajo como referencia general de todo el negocio. Si el cliente cambia de tema hacia otro producto, ahi si usa la descripcion de ese otro producto.\n\n"
+                        "NUNCA le atribuyas a este producto caracteristicas, precio o descripcion de otro producto distinto del catalogo, aunque aparezcan mas abajo como referencia general de todo el negocio. Si el cliente cambia de tema hacia otro producto, ahi si usa la descripcion de ese otro producto. " +
+                        "Si el mensaje del cliente es corto o ambiguo (ej. 'precio', 'cuanto', 'este', 'y ese?'), NO le pidas que repita o aclare de cual producto habla: se refiere a esto que esta arriba (lo ultimo que se le mostro), asi que respondele directo usando esta informacion.\n\n"
             );
 }
 
