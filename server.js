@@ -310,14 +310,20 @@ const CATEGORIA_INFO = {
             emoji: "📶",
             palabras: ["modem", "módem", "internet", "wifi", "wi-fi"],
             resumen:
-                  "*Nuestros Modems WiFi Portatiles*\n\n" +
-                  "Compatibles con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\n" +
-                  "Conectan hasta 10 dispositivos al mismo tiempo\n" +
+                  "*Nuestro Modem WiFi Portatil*\n\n" +
+                  "Compatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\n" +
+                  "Conecta hasta 10 dispositivos al mismo tiempo\n" +
                   "Instalacion facil: insertas la SIM, enciendes y listo\n" +
                   "Bateria recargable\n" +
-                  "Ideales para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\n" +
+                  "Ideal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\n" +
                   "Garantia de 30 dias y soporte de GalviusTech",
             pregunta: "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+            // Variante que se muestra de entrada (1 sola foto) cuando la categoria tiene
+            // varias variantes con precios distintos. Ver nota en enviarInfoCategoria: antes
+            // se mandaban las 3 fotos del modem (4G, 4G/5G y 5G) con sus 3 precios de una vez,
+            // lo cual abrumaba al cliente apenas entraba. El 4G/5G es la opcion "segura" que
+            // funciona tanto en zonas con solo 4G como en zonas con 5G.
+            variantePorDefecto: "modem-4g5g",
       },
       impresora: {
             titulo: "IMPRESORA TERMICA",
@@ -389,21 +395,37 @@ async function enviarInfoCategoria(telefono, categoria) {
       const info = infoCategoria(categoria);
       registrarMensaje(telefono, "bot", `[Envio fotos y caracteristicas: ${info.titulo}]`);
 
-      for (const p of productos) {
-            if (p.imagenes && p.imagenes[0]) {
-                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+      // Cuando la categoria tiene varias variantes con precios distintos (ej. los 3 modems:
+      // 4G, 4G/5G y 5G) y ademas define un resumen general (o sea, no son productos que se
+      // vendan de a uno sino "versiones" de lo mismo), mandar las 3 fotos con sus 3 precios de
+      // una sola vez apenas el cliente entra lo empuja a comparar precio en frio en vez de
+      // conversar. En su lugar mostramos 1 sola foto generica + las caracteristicas comunes, y
+      // dejamos que la pregunta de descubrimiento (abajo) y la conversacion con la IA lleven a
+      // recomendar la variante puntual mas adelante (la IA la marca con PRODUCTO_ACTUAL).
+      const esVariantesConResumen = productos.length > 1 && info.resumen;
+      if (esVariantesConResumen) {
+            const destacado = productos.find((p) => p.id === info.variantePorDefecto) || productos[0];
+            if (destacado.imagenes && destacado.imagenes[0]) {
+                  await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
             }
-      }
-
-      if (productos.length === 1) {
-            const p = productos[0];
-            sesion.ultimoProducto = p.id;
-            await enviarTexto(telefono, `*${p.nombre}*\n${formatearPrecio(p.precio)}\n\n${p.descripcion || ""}`.trim());
-      } else if (info.resumen) {
             await enviarTexto(telefono, info.resumen);
       } else {
-            const lineas = productos.map((p) => `*${p.nombreCorto || p.nombre}* - ${formatearPrecio(p.precio)}`).join("\n");
-            await enviarTexto(telefono, `*${info.emoji} ${info.titulo}*\n\n${lineas}`);
+            for (const p of productos) {
+                  if (p.imagenes && p.imagenes[0]) {
+                        await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+                  }
+            }
+
+            if (productos.length === 1) {
+                  const p = productos[0];
+                  sesion.ultimoProducto = p.id;
+                  await enviarTexto(telefono, `*${p.nombre}*\n${formatearPrecio(p.precio)}\n\n${p.descripcion || ""}`.trim());
+            } else if (info.resumen) {
+                  await enviarTexto(telefono, info.resumen);
+            } else {
+                  const lineas = productos.map((p) => `*${p.nombreCorto || p.nombre}* - ${formatearPrecio(p.precio)}`).join("\n");
+                  await enviarTexto(telefono, `*${info.emoji} ${info.titulo}*\n\n${lineas}`);
+            }
       }
 
       await enviarTexto(telefono, info.pregunta);

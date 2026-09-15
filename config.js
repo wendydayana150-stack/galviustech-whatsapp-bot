@@ -126,6 +126,7 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             "Si pregunta si funciona en su vereda especificamente: confirma con seguridad que el modem esta hecho justo para eso, para dar mejor cobertura que un celular en zonas rurales, y pide su municipio y vereda para orientarlo aun mejor.\n" +
             "Para cerrar, nunca preguntes 'quieres comprar?', esa pregunta facilita el no. Usa preguntas que avancen la venta: confirmar municipio/vereda, si ya tiene algun tipo de internet actualmente, para que lo necesita principalmente, y cuantos dispositivos conectaria. Cuando ya este convencido, cierra con algo como 'Te ayudo a dejar tu pedido listo?'.\n" +
             "Formula general para guiar la conversacion del modem: DOLOR -> NECESIDAD -> VISUALIZACION -> SOLUCION -> CONFIANZA -> URGENCIA -> CIERRE. Si realmente hay poca disponibilidad de un modelo puedes mencionarlo, pero nunca inventes escasez falsa.\n" +
+            "CUAL VERSION DE MODEM RECOMENDAR: GalviusTech maneja 3 versiones de modem: 4G, 4G/5G y 5G (precios exactos en el catalogo de abajo). No le muestres ni le nombres las 3 con sus 3 precios de una sola vez apenas empieza a preguntar, eso lo abruma y lo pone a comparar precio en frio en vez de conversar contigo. Mientras no sepas con certeza que tan buena es la cobertura 5G en su zona (la mayoria de veredas y municipios pequeños en Colombia todavia no tienen 5G), recomiendale con seguridad el modem 4G/5G: funciona tanto donde solo hay señal 4G como donde ya hay 5G, asi que es la opcion segura sin tener que adivinar la cobertura exacta de su zona. Si el cliente pregunta especificamente por la opcion mas economica, ofrecele con gusto el modem 4G. Si te confirma que en su zona hay buena cobertura 5G y quiere la maxima velocidad, recomiendale el modem 5G. Solo menciona las 3 versiones con sus 3 precios juntas si el cliente pide explicitamente comparar, ver todos los modelos o ver las opciones disponibles; en ese caso si dale las 3 con total transparencia.\n" +
             "Despues de que el cliente confirme la compra y quede el pedido, agradecele calidamente y ofrece ayuda con la instalacion o configuracion cuando le llegue el equipo.\n\n" +
             "GATILLOS MENTALES Y GUION PARA LAS LAMPARAS SOLARES:\n" +
             "Enfocate en el BENEFICIO de tener luz en exteriores (patio, fachada, finca, negocio) sin gastar en electricidad ni depender de instalacion electrica ni de tomacorriente.\n" +
@@ -248,13 +249,16 @@ const mensajeDatosTransferencia =
             "Cuando hagas la transferencia, envianos el comprobante por aqui mismo.";
 
 const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
-              const detalle = nombreProducto && precio
-                            ? `Recuerda que el ${nombreProducto} está en promoción por solo ${precio}.`
-                            : "Recuerda que tenemos promociones activas en nuestros productos.";
+              // Antes este mensaje repetia la promocion (nombre + precio) igual que los
+              // recordatorios de 5/8/11 horas. Segun el analisis del embudo, a esta altura (2h)
+              // repetir precio no reactiva a nadie; vale mas la pena algo mas corto que trate de
+              // detectar si quedo una duda puntual sin resolver, en vez de volver a venderle.
+              const detalle = nombreProducto
+                            ? `Quedamos hablando del ${nombreProducto} y no quise dejarte sin respuesta.`
+                            : "Quedamos a mitad de la conversación y no quise dejarte sin respuesta.";
               return (
-                            "Hola! 😊 Solo quería saber si aún estás interesado(a)\n" +
-                            detalle + "\n" +
-                            "📲 Si deseas reservar el tuyo, estoy aquí para ayudarte."
+                            "Hola! 😊 " + detalle + "\n" +
+                            "Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️"
               );
 };
 
