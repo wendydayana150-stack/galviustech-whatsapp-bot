@@ -52,8 +52,8 @@
     "telefono": "573011551681",
     "nombre": "Lukas Andrés",
     "primerContacto": "2026-09-17T14:16:36.217Z",
-    "ultimoContacto": "2026-09-17T14:16:54.484Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-17T14:17:02.572Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,13 +110,25 @@
         "fecha": "2026-09-17T14:16:53.607Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExNTUxNjgxFQIAERgSOUUyODI3RENDRjZCOEI0MURGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-09-17T14:16:55.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, tenemos disponibilidad del módem 4G/5G para despacho inmediato 🚀 Es de los que más pedimos porque se adapta tanto a zonas con señal 4G como donde ya hay 5G, así que es una apuesta segura.\n\nPara confirmarte todo el proceso, cuéntame: ¿lo usarías en tu casa, para trabajo o negocio? Y actualmente en Barranquilla, ¿cómo te estás conectando (datos del celular, wifi de otro lado, o no tienes nada fijo)?",
+        "fecha": "2026-09-17T14:17:00.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExNTUxNjgxFQIAERgSNEU2M0EwMDRFQjVDM0UxNTZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
