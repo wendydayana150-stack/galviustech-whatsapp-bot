@@ -537,8 +537,11 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
       }
 
       for (const combo of combos) {
-            if (combo.imagenes && combo.imagenes[0]) {
-                  await enviarImagen(telefono, combo.imagenes[0], combo.nombreCorto);
+            // Se mandan todas las fotos del combo (no solo la primera), igual que se hace con las
+            // del producto individual: con 1 sola foto muchas veces solo se alcanza a ver el
+            // producto principal y el regalo del combo queda invisible.
+            for (const url of combo.imagenes || []) {
+                  await enviarImagen(telefono, url, combo.nombreCorto);
             }
       }
 
@@ -1466,8 +1469,11 @@ async function manejarSeleccionProducto(telefono, productoId) {
 
       if (combos.length > 0) {
             for (const combo of combos) {
-                  if (combo.imagenes && combo.imagenes[0]) {
-                        await enviarImagen(telefono, combo.imagenes[0], combo.nombreCorto);
+                  // Se mandan todas las fotos del combo (no solo la primera), igual que se hace con
+                  // las del producto individual arriba: con 1 sola foto muchas veces solo se alcanza
+                  // a ver el producto principal y el regalo del combo queda invisible.
+                  for (const url of combo.imagenes || []) {
+                        await enviarImagen(telefono, url, combo.nombreCorto);
                   }
             }
             const lineasOfertas = combos
