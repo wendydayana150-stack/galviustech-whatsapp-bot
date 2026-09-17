@@ -3,8 +3,8 @@
     "telefono": "573218806654",
     "nombre": "☺️",
     "primerContacto": "2026-09-17T13:19:55.642Z",
-    "ultimoContacto": "2026-09-17T13:19:55.642Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-17T13:20:20.259Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-09-17T13:19:54.677Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4ODA2NjU0FQIAERgSQTMxOEQ5NTE1RDY4QjhDNTQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-09-17T13:20:16.321Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, tenemos disponibilidad del módem 4G/5G para despachar de una vez que confirmemos tu pedido 📶\n\nAntes de darte todos los detalles, cuéntame ¿en qué municipio o vereda lo usarías y para qué lo necesitas principalmente? Así te confirmo bien cómo te funcionaría en tu zona y qué tan rápido te llegaría.",
+        "fecha": "2026-09-17T13:20:19.296Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4ODA2NjU0FQIAERgSODE5OTZGREM1NEFEM0I0OEE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
