@@ -1454,10 +1454,43 @@ async function manejarSeleccionProducto(telefono, productoId) {
             telefono,
             `*${producto.nombre}*\n${formatearPrecio(producto.precio)}\n\n${producto.descripcion}`
             );
-      await enviarBotones(telefono, "Quieres pedir este producto?", [
-            { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
-            { id: "ver_catalogo", titulo: "Ver otros" },
-            ]);
+
+      // Ademas de mostrar el producto puntual que pidio, se le ensenan de una vez los combos con
+      // descuento de su categoria (si tiene) para que los conozca desde este primer momento, no
+      // solo como "ultima oportunidad" cuando ya dijo que si al producto suelto. ofrecerComboPromocion
+      // sigue existiendo como respaldo para cuando el cliente llega a "quiero pedir" por otro camino
+      // (ej. la IA en texto libre), asi que no queda duplicado si de todos modos pasa por ahi.
+      const categoria = (producto.categoria || "").trim().toLowerCase();
+      const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria] || [];
+      const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+
+      if (combos.length > 0) {
+            for (const combo of combos) {
+                  if (combo.imagenes && combo.imagenes[0]) {
+                        await enviarImagen(telefono, combo.imagenes[0], combo.nombreCorto);
+                  }
+            }
+            const lineasOfertas = combos
+                  .map((combo) => `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`)
+                  .join("\n\n");
+            await enviarTexto(
+                  telefono,
+                  `Tambien tenemos estas promociones que incluyen el ${producto.nombreCorto || producto.nombre}:\n\n${lineasOfertas}`
+                  );
+            const botones = combos.map((combo) => ({
+                  id: `combo_${combo.id}_${producto.id}`,
+                  titulo: etiquetaBotonCombo(combo),
+                  }));
+            // pedirfinal_ va directo a iniciarPedido (sin volver a pasar por ofrecerComboPromocion):
+            // el cliente ya vio los combos aqui mismo, repetirselos justo despues seria redundante.
+            botones.push({ id: `pedirfinal_${producto.id}`, titulo: "Solo este producto" });
+            await enviarBotones(telefono, "Que prefieres?", botones);
+      } else {
+            await enviarBotones(telefono, "Quieres pedir este producto?", [
+                  { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
+                  { id: "ver_catalogo", titulo: "Ver otros" },
+                  ]);
+      }
 }
 
 async function iniciarPedido(telefono, productoId) {
