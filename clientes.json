@@ -3,15 +3,48 @@
     "telefono": "573247015087",
     "nombre": "yosmandavidbotoneroestrad",
     "primerContacto": "2026-09-17T14:16:39.677Z",
-    "ultimoContacto": "2026-09-17T14:16:39.677Z",
-    "mensajes": 1,
-    "conversacion": [],
-    "paso": "inicio",
+    "ultimoContacto": "2026-09-17T14:17:00.795Z",
+    "mensajes": 2,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¿Tienen disponibilidad del módem 4G/5G para envío inmediato?",
+        "fecha": "2026-09-17T14:16:59.021Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-17T14:16:59.021Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-17T14:16:59.021Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3MDE1MDg3FQIAERgSNURENDMxNDU1N0EyOTg5RkIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-17T14:16:59.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3MDE1MDg3FQIAERgSMUEzNDBCMjhBNkI4MTA0QzE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-17T14:17:00.110Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3MDE1MDg3FQIAERgSNzY4NzJBOTA0MjUyRTc4MTk3AA=="
+      }
+    ],
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
   },
