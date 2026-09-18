@@ -10440,54 +10440,50 @@
     "telefono": "573106183517",
     "nombre": "Diana Paola Gomez Moreno",
     "primerContacto": "2026-09-12T23:02:57.709Z",
-    "ultimoContacto": "2026-09-14T18:05:48.341Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-18T01:10:16.009Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
-        "texto": "🔥 ¡Hola! 😊 Te escribo porque hoy es el último día de la promoción de la impresora portátil.\n🖨️ IMPRESORA TÉRMICA SIN TINTA\n✅ Imprime desde tu celular\n✅ Práctica y portátil\n✅ Ideal para tareas, documentos, etiquetas y más\n🎁 Además, incluye obsequio\n🚚 Envío gratis\n⏰ La promoción es válida solamente HASTA HOY.\nDespués de hoy puede volver a su precio normal.\n👉 Si todavía la quieres aprovechar, dime \"LA QUIERO\" y te ayudo a realizar tu pedido. 🔥",
-        "fecha": "2026-09-14T11:04:37.713Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
-        "fecha": "2026-09-14T15:20:28.489Z"
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Diana Paola Gomez Moreno, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-17T22:57:36.620Z",
+        "estado": "enviado"
       },
       {
         "rol": "cliente",
         "texto": "¡Hola! Quiero más información de Impresora termica",
-        "fecha": "2026-09-14T18:05:44.549Z"
+        "fecha": "2026-09-18T01:10:13.343Z"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-14T18:05:44.549Z"
+        "texto": "[Envio fotos y caracteristicas: IMPRESORA TERMICA]",
+        "fecha": "2026-09-18T01:10:13.343Z",
+        "estado": "enviado"
       },
       {
         "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-14T18:05:45.347Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "[Imagen] Impresora Termica",
-        "fecha": "2026-09-14T18:05:46.088Z"
+        "texto": "[Imagen] Impresora Termica - $ 249.900",
+        "fecha": "2026-09-18T01:10:13.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MTgzNTE3FQIAERgSODM0MDgwOUMxN0FGRkY2OEZFAA=="
       },
       {
         "rol": "bot",
         "texto": "*Impresora Termica Portatil Bluetooth*\n$ 249.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
-        "fecha": "2026-09-14T18:05:46.713Z"
+        "fecha": "2026-09-18T01:10:14.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MTgzNTE3FQIAERgSMTA5Qjk2MEQ2RENDNzBGMkUyAA=="
       },
       {
         "rol": "bot",
-        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
-        "fecha": "2026-09-14T18:05:47.276Z"
+        "texto": "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
+        "fecha": "2026-09-18T01:10:14.991Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MTgzNTE3FQIAERgSRTk4MkY3NkVFOUQ1Q0FFMjY4AA=="
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "impresora-termica"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -10500,7 +10496,8 @@
     },
     "reactivado": true,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "ultimaCategoria": "impresora"
   },
   {
     "telefono": "573118582726",
