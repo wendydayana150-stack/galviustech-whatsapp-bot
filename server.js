@@ -2227,19 +2227,54 @@ app.get("/webhook", (req, res) => {
 
 app.post("/webhook", async (req, res) => {
       try {
+            // DIAGNOSTICO TEMPORAL (sep-2026): desde que se agrego la confirmacion de lectura
+            // (checks estilo WhatsApp, commit e70dfab del 15-sep) NINGUNO de los 300+ mensajes del
+            // bot enviados desde entonces llego a mostrar "entregado" ni "leido": todos se quedan
+            // en un solo check para siempre. Como enviarTexto/enviarBotones/etc nunca tiran error
+            // al mandar (Meta acepta el envio), la sospecha es que a este webhook nunca le esta
+            // llegando el evento de "statuses" (recibo de entrega/lectura) de Meta, solo los
+            // mensajes entrantes de los clientes. Este log deja ver, la proxima vez que llegue
+            // cualquier payload que no sea un mensaje de texto/interactivo normal, exactamente que
+            // trae, para poder confirmar si el problema es que Meta no esta mandando esos eventos
+            // a esta URL (revisar la suscripcion de webhooks en Meta for Developers) o si los manda
+            // en una forma distinta a la que este codigo espera. Quitar este log una vez resuelto.
+            const entradas = Array.isArray(req.body.entry) ? req.body.entry : [];
+            let seEncontroMensajeOEstado = false;
+
+            for (const entry of entradas) {
+                  const cambios = Array.isArray(entry.changes) ? entry.changes : [];
+                  for (const change of cambios) {
+                        const estadosDeEsteCambio = change?.value?.statuses;
+                        if (estadosDeEsteCambio && estadosDeEsteCambio.length > 0) {
+                              seEncontroMensajeOEstado = true;
+                              console.log(
+                                    "[diagnostico-checks] Llego evento de estado de mensaje:",
+                                    JSON.stringify(estadosDeEsteCambio)
+                                    );
+                              for (const est of estadosDeEsteCambio) {
+                                    await marcarEstadoMensaje(est.recipient_id, est.id, est.status);
+                              }
+                        }
+                        if (change?.value?.messages?.[0]) {
+                              seEncontroMensajeOEstado = true;
+                        }
+                  }
+            }
+
+            if (!seEncontroMensajeOEstado && entradas.length > 0) {
+                  console.log(
+                        "[diagnostico-checks] Webhook recibido sin messages ni statuses reconocidos:",
+                        JSON.stringify(req.body)
+                        );
+            }
+
+            // Si el unico contenido de este payload eran recibos de estado, ya se procesaron arriba
+            // y no hay ningun mensaje entrante que responder.
             const entry = req.body.entry?.[0];
             const change = entry?.changes?.[0];
             const mensaje = change?.value?.messages?.[0];
-
-            // Estos son los "recibos" de WhatsApp (enviado/entregado/leido/fallido) de un mensaje
-            // que YA mandamos nosotros - vienen en un payload separado al de mensajes entrantes.
-            // No traen "messages", asi que sin este bloque el "if (!mensaje) return" de abajo los
-            // descartaba en silencio y el panel nunca se enteraba de que un mensaje fue leido.
             const estados = change?.value?.statuses;
             if (estados && estados.length > 0) {
-                  for (const est of estados) {
-                        await marcarEstadoMensaje(est.recipient_id, est.id, est.status);
-                  }
                   return res.sendStatus(200);
             }
 
