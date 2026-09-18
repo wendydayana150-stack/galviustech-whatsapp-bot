@@ -248,8 +248,8 @@
     "telefono": "573144193969",
     "nombre": "Anyi Urbano",
     "primerContacto": "2026-09-18T06:08:38.291Z",
-    "ultimoContacto": "2026-09-18T11:00:50.543Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-18T11:01:13.065Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -306,6 +306,24 @@
         "fecha": "2026-09-18T11:00:49.756Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MTkzOTY5FQIAERgSQTM3NkIxNDkwODdCOTEwQkI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Anyi Urbano, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-18T11:00:53.594Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-09-18T11:01:08.708Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te confirmo: la impresora térmica portátil tiene una inversión de $249.900 💰\n\nIncluye papel térmico de una vez, funciona por Bluetooth y no gasta tinta.\n\n¿Te gustaría que te ayude a dejar tu pedido listo? Cuéntame en qué ciudad estás para confirmar el envío 📦",
+        "fecha": "2026-09-18T11:01:12.271Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MTkzOTY5FQIAERgSOUVFMDEwOTNEMUQ3RTg2MEM0AA=="
       }
     ],
     "paso": "conversando",
