@@ -3,8 +3,8 @@
     "telefono": "573163989800",
     "nombre": "Hjct",
     "primerContacto": "2026-09-18T15:06:47.869Z",
-    "ultimoContacto": "2026-09-18T15:07:13.928Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-18T15:25:40.991Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,25 @@
         "fecha": "2026-09-18T15:07:12.946Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYzOTg5ODAwFQIAERgSQUI1NDIyN0ExM0MwQzBGRkRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de Impresora termica",
+        "fecha": "2026-09-18T15:25:35.404Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 😊 Con gusto te cuento sobre la impresora térmica portátil.\n\nLo mejor que tiene: no necesita tinta ni tóner (ahorro desde el primer uso), se conecta por Bluetooth a tu celular (Android o iPhone) y es tan pequeña que la llevas a donde vayas para imprimir en el momento que lo necesites, sin depender de una papelería.\n\nPara darte una recomendación más puntual: ¿la usarías para un negocio, para trabajo independiente, o para algo específico como facturas, cotizaciones o guías de envío?",
+        "fecha": "2026-09-18T15:25:39.385Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzOTg5ODAwFQIAERgSNkZBQkNDQURDMEZGOEVGNzMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-18T15:25:40.061Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzOTg5ODAwFQIAERgSODNEOTc2RTFBODM5RUVDMEIxAA=="
       }
     ],
     "paso": "conversando",
