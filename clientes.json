@@ -3,8 +3,8 @@
     "telefono": "573217630008",
     "nombre": "Luis Hernando",
     "primerContacto": "2026-09-18T04:17:00.393Z",
-    "ultimoContacto": "2026-09-18T04:17:00.393Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-18T04:17:34.648Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,9 +37,28 @@
         "fecha": "2026-09-18T04:16:59.693Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3NjMwMDA4FQIAERgSM0E4NTk0RkQ4QTkxRENFMzMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuál es el valor y las características que tiene. Gracias",
+        "fecha": "2026-09-18T04:17:33.124Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Luis Hernando! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares y PROMOCION COMBOS.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-18T04:17:33.125Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjMwMDA4FQIAERgSM0Q5NjMxNjI5N0Q5MzM5Q0IwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-09-18T04:17:33.794Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjMwMDA4FQIAERgSMzZEOTdCMEE1OTk1NTZENTU2AA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
