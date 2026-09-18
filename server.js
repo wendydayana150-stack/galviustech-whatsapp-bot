@@ -55,7 +55,7 @@ const sesiones = {};
 
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
-                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null };
+                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, preguntasPorProducto: {}, botonesOfrecidos: {} };
         }
         return sesiones[telefono];
 }
@@ -108,6 +108,14 @@ async function cargarSesionSiNueva(telefono) {
                                             ultimaCategoria: cliente.ultimaCategoria || null,
                                             necesitaAtencion: !!cliente.necesitaAtencion,
                                             motivoAtencion: cliente.motivoAtencion || null,
+                                            // Contadores en memoria (no se persisten en clientes.json): cuantas
+                                            // veces ha preguntado sobre cada producto puntual en esta sesion, y
+                                            // si ya se le ofrecieron los botones de "Si, quiero este / Ver otros"
+                                            // para ese producto. Se reinician tras un reinicio del servidor, lo
+                                            // cual esta bien: en el peor caso el cliente recibe los botones un
+                                            // poco despues de lo ideal, nunca antes.
+                                            preguntasPorProducto: {},
+                                            botonesOfrecidos: {},
                               };
                               return;
                   }
@@ -1266,6 +1274,13 @@ async function ejecutarPromoDiaria() {
                   if (!c.ultimoContacto) continue;
                   if (c.recordatorios?.promoDiariaFecha === hoyBogota) continue;
                   if (promoDiariaEnviadaEnProceso.has(`${c.telefono}|${hoyBogota}`)) continue;
+                  // Si el cliente escribio en los ultimos 15 minutos, esta en plena conversacion
+                  // activa ahora mismo: mandarle la plantilla de reactivacion en ese momento se ve
+                  // como que el bot esta fallando o repitiendose (se detectaron casos reales donde
+                  // le llego en medio de una conversacion, a los pocos segundos de que preguntara
+                  // algo). Se le manda la promo diaria otro dia si sigue sin comprar.
+                  const minutosDesdeUltimoContacto = (Date.now() - new Date(c.ultimoContacto).getTime()) / 60000;
+                  if (minutosDesdeUltimoContacto < 15) continue;
 
                   const categoria = categoriaPromoDiaria(c);
                   const nombreProductoPlantilla = categoria ? NOMBRE_PRODUCTO_PLANTILLA_POR_CATEGORIA[categoria] : null;
@@ -1744,6 +1759,18 @@ async function manejarTextoLibre(telefono, texto) {
             enfoqueProducto = { tipo: "categoria", valor: sesion.ultimaCategoria };
       }
 
+      // Cuenta cuantas veces el cliente ha preguntado algo sobre este MISMO producto puntual sin
+      // haber avanzado a pedirlo. La IA ya trae instrucciones de cierre en su guion, pero en
+      // conversaciones largas tiende a quedarse respondiendo de forma informativa indefinidamente
+      // (ver estudio de conversion de sep-2026). Este contador es un respaldo mecanico: no depende
+      // de que la IA decida cerrar por su cuenta.
+      if (!sesion.preguntasPorProducto) sesion.preguntasPorProducto = {};
+      if (!sesion.botonesOfrecidos) sesion.botonesOfrecidos = {};
+      const idProductoEnfocado = enfoqueProducto?.tipo === "producto" ? enfoqueProducto.valor : null;
+      if (idProductoEnfocado) {
+            sesion.preguntasPorProducto[idProductoEnfocado] = (sesion.preguntasPorProducto[idProductoEnfocado] || 0) + 1;
+      }
+
       try {
             const { mensajeVisible, productoId, productoActual, necesitaAsesor } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
 
@@ -1764,6 +1791,27 @@ async function manejarTextoLibre(telefono, texto) {
                         } else {
                               await ofrecerComboPromocion(telefono, productoId);
                         }
+                  }
+            }
+
+            // RESPALDO MECANICO DE CIERRE: si la IA ya respondio 2 o mas veces sobre el mismo
+            // producto puntual sin que ella misma haya decidido pasar a pedirlo (osea, sin
+            // ACCION_PEDIDO), le mandamos de una vez los botones directos de "Si, quiero este /
+            // Ver otros" para esa segunda respuesta en adelante. Solo se ofrecen una vez por
+            // producto por conversacion para no repetir los botones en cada mensaje siguiente.
+            if (
+                  idProductoEnfocado &&
+                  !productoId &&
+                  sesion.preguntasPorProducto[idProductoEnfocado] >= 2 &&
+                  !sesion.botonesOfrecidos[idProductoEnfocado]
+                  ) {
+                  const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
+                  if (productoEnfocado) {
+                        sesion.botonesOfrecidos[idProductoEnfocado] = true;
+                        await enviarBotones(telefono, "Te ayudo a dejar tu pedido listo?", [
+                              { id: `pedir_${idProductoEnfocado}`, titulo: "Si, quiero este" },
+                              { id: "ver_catalogo", titulo: "Ver otros" },
+                              ]);
                   }
             }
 
