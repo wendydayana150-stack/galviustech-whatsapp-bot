@@ -3,8 +3,8 @@
     "telefono": "573018162626",
     "nombre": "crea",
     "primerContacto": "2026-09-19T22:17:26.512Z",
-    "ultimoContacto": "2026-09-19T22:22:39.369Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-19T22:24:03.917Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,13 +85,25 @@
         "fecha": "2026-09-19T22:22:38.554Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4MTYyNjI2FQIAERgSQzUxNkY1MTc5NDQyMjFBMDJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y todos los meses debo recargar esta sim con  ese valor",
+        "fecha": "2026-09-19T22:23:57.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡No, tranquila! 😊 Los $239.900 son el pago único por el módem (el equipo), no es una mensualidad.\n\nLo único que pagas cada mes es la recarga de datos de la SIM, y ese valor tú lo eliges según el plan que necesites (puede ser uno económico o uno más amplio, dependiendo de cuánto uses internet para trabajo y TV). Eso es totalmente aparte e independiente al valor del equipo.\n\nOsea que compras el módem una sola vez, y luego solo te preocupas por recargar los datos como si fuera un chip normal. ¿Te gustaría que te ayude a dejar tu pedido listo con el módem 4G/5G?",
+        "fecha": "2026-09-19T22:24:03.061Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4MTYyNjI2FQIAERgSMUM3MjBGQjIzRkM1NDFDRjQ5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
