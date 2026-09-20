@@ -374,8 +374,8 @@
     "telefono": "573123159393",
     "nombre": "Sombra",
     "primerContacto": "2026-09-18T20:37:56.419Z",
-    "ultimoContacto": "2026-09-20T19:44:51.771Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-20T19:45:34.693Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -457,6 +457,30 @@
         "fecha": "2026-09-20T19:44:51.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzMTU5MzkzFQIAERgSOUM1Q0NERDlCNUFCRDZFQ0IwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual es la impresora",
+        "fecha": "2026-09-20T19:45:27.884Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Térmica",
+        "fecha": "2026-09-20T19:45:32.395Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí, dame un segundito y te cuento 😊\n\nEs una **Impresora Térmica Portátil con Bluetooth**, pensada para que imprimas donde estés sin depender de una impresora grande ni de cartuchos de tinta (funciona por calor, así que te ahorras esa plata desde el primer uso). Se conecta por Bluetooth a tu celular (Android o iPhone), es liviana, cabe en el bolso, y sirve para imprimir facturas, recibos, cotizaciones, guías, etiquetas, lo que necesites en el momento.\n\nLa inversión es de **$249.900**, e incluye el papel térmico para que empieces a usarla apenas te llegue.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajo o para algo específico? Así te confirmo que es justo lo que te conviene 📦",
+        "fecha": "2026-09-20T19:45:33.488Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzMTU5MzkzFQIAERgSQjA5MEYxM0REQjIxNkFEQUI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-20T19:45:33.971Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzMTU5MzkzFQIAERgSQzgyMjQyQzI5NTcwNzM2NUM0AA=="
       }
     ],
     "paso": "conversando",
