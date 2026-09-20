@@ -5289,8 +5289,8 @@
     "telefono": "573028662596",
     "nombre": "George Baz",
     "primerContacto": "2026-09-17T16:05:57.492Z",
-    "ultimoContacto": "2026-09-20T20:51:39.776Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-20T20:54:40.071Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -5337,6 +5337,38 @@
         "fecha": "2026-09-20T20:51:39.062Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI4NjYyNTk2FQIAERgSQkQ0QzY3QUFBM0EzRjNBRTlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-09-20T20:54:38.141Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-20T20:54:38.141Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-20T20:54:38.141Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4NjYyNTk2FQIAERgSRDk0REM1Rjc2M0EwNTZGQTNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-20T20:54:38.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4NjYyNTk2FQIAERgSOTMxMEVENkYwQThFM0REODk4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-20T20:54:39.245Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4NjYyNTk2FQIAERgSN0I1NjlBMDRGMEFDRUZFMkM3AA=="
       }
     ],
     "paso": "conversando",
@@ -5344,7 +5376,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
-    "ultimaCategoria": "impresora",
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
