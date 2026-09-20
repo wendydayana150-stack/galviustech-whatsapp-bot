@@ -981,8 +981,8 @@
     "telefono": "573107470246",
     "nombre": "Rosa González",
     "primerContacto": "2026-09-18T19:36:21.259Z",
-    "ultimoContacto": "2026-09-20T20:00:03.988Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-20T20:01:21.986Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -1024,9 +1024,28 @@
         "fecha": "2026-09-20T19:43:41.323Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSODU1N0MzMzcyRTUxODBCMDVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rosa González celular 3107470246 barrio Nelson Mandela sector nueva Colombia calle la y manzana b lote 7 por la batea antes de la siclo Yunior frente a la farmacia elizabeth cartagena bolivar",
+        "fecha": "2026-09-20T20:01:20.915Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Rosa González! Soy Michell, de GalviusTech 🫂\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares y PROMOCION COMBOS.\n\nToca una opcion para ver la info al instante:",
+        "fecha": "2026-09-20T20:01:20.915Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSMDFDREVDN0U0ODUxMzExNTVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-09-20T20:01:21.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSMEIyQUJBMDgzMzBCRkI2N0ZGAA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
