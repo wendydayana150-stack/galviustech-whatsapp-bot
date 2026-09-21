@@ -2505,8 +2505,8 @@
     "telefono": "573052345019",
     "nombre": "Martin Carvajalino Castro",
     "primerContacto": "2026-09-21T13:09:10.248Z",
-    "ultimoContacto": "2026-09-21T16:33:56.677Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-21T19:10:56.620Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2623,16 +2623,23 @@
         "fecha": "2026-09-21T16:33:55.703Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSN0ZCQjY5RUM2QTM4M0NENzQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.",
+        "fecha": "2026-09-21T19:10:55.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSNEVEODQ1N0U0MzNBNUE2MkY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Dame más información sobre el mantenimiento y posibles repuestos o es un dispositivo desechable...\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-21",
       "horas2": true
