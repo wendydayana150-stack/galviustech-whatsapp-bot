@@ -64,8 +64,8 @@
     "telefono": "573204468919",
     "nombre": "arce",
     "primerContacto": "2026-09-21T22:12:37.486Z",
-    "ultimoContacto": "2026-09-21T22:33:24.670Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-21T22:35:17.154Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -146,6 +146,25 @@
         "fecha": "2026-09-21T22:33:23.851Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSMjAwRUZFN0I2NDhDRjE0MjlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con cuántos gigas viene la sim",
+        "fecha": "2026-09-21T22:35:06.725Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, la verdad ese dato específico de los gigas no lo tengo confirmado en este momento, no quiero decirte un número que no sea exacto 🙏\n\nVoy a validarlo bien para darte la información correcta y enseguida te cuento. Mientras tanto, ¿seguimos con tu pedido del modem para ir alistando tus datos y que no se te atrase?",
+        "fecha": "2026-09-21T22:35:15.783Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSOEQ2MjQ2NkYyMjBGNjM3OEU0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-21T22:35:16.327Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSMEJCQzVEM0Y5OUYxNDYyNzM0AA=="
       }
     ],
     "paso": "conversando",
@@ -154,8 +173,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Con cuántos gigas viene la sim\""
   },
   {
     "telefono": "573042136018",
