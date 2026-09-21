@@ -297,8 +297,8 @@
     "telefono": "573204468919",
     "nombre": "arce",
     "primerContacto": "2026-09-21T22:12:37.486Z",
-    "ultimoContacto": "2026-09-21T22:35:39.669Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-21T22:51:14.097Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -410,16 +410,23 @@
         "fecha": "2026-09-21T22:35:38.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSOTNGMzAzM0E1QUM1MDUzRjg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ya te confirmo lo de la simcard: se entrega sin plan y sin datos activados, nosotros solo te enviamos la tarjeta SIM fisica de regalo. Tu mismo la activas con Claro y le pones la recarga o el plan que prefieras segun lo que necesites 😊",
+        "fecha": "2026-09-21T22:51:13.031Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSNzFENTQ0MkZDRTM0M0U1NEU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Con cuántos gigas viene la sim\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573042136018",
