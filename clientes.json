@@ -177,8 +177,8 @@
     "telefono": "573222378167",
     "nombre": "Estiven & Lucia & Yainer",
     "primerContacto": "2026-09-21T15:57:30.991Z",
-    "ultimoContacto": "2026-09-21T16:01:36.843Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-21T16:02:04.349Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -247,6 +247,18 @@
         "fecha": "2026-09-21T16:01:36.210Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSQTQ4QTkwRjg3MzFGQkUxMEU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-21T16:02:03.401Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T16:02:03.584Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSMDhEODhDQ0VEQjBENjg5QzVBAA=="
       }
     ],
     "paso": "conversando",
@@ -256,7 +268,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cuanto cuesta\""
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Precio\""
   },
   {
     "telefono": "573027304476",
