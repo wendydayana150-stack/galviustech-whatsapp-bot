@@ -150,8 +150,8 @@
     "telefono": "573152816455",
     "nombre": "Edwing B",
     "primerContacto": "2026-09-21T14:06:30.739Z",
-    "ultimoContacto": "2026-09-21T14:08:24.275Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-21T14:33:25.436Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -196,13 +196,25 @@
         "fecha": "2026-09-21T14:08:23.146Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyODE2NDU1FQIAERgSQ0U5MzhBQzcwQTFBQkMzQzgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Datos del celular",
+        "fecha": "2026-09-21T14:33:17.701Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah listo, entonces ahorita dependes de que el plan de datos alcance y de que la señal del celular no se ponga mala, ¿cierto? Eso es incómodo porque si se te acaban los datos o hay mala señal, te quedas sin nada 😕\n\nCon el módem WiFi 4G/5G eso se soluciona: tiene una antena más potente que capta mejor señal que tu celular, y ahí conectas todos tus dispositivos (celular, compu, tablet) al mismo tiempo, sin que se te acaben \"los datos\" como en un plan normal de celular.\n\nLa inversión es de $239.900, y con eso tienes conexión estable en tu vereda, sin depender del celular. Además te regalamos la SIMCARD de Claro para que la actives de una vez.\n\n¿Cuántos dispositivos conectarías normalmente en tu casa? Así te confirmo que esta versión te va a rendir bien.",
+        "fecha": "2026-09-21T14:33:24.599Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyODE2NDU1FQIAERgSMjA5NDZERjk5QkIzNThFQzE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
