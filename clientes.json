@@ -76,8 +76,8 @@
     "telefono": "573206572176",
     "nombre": "JORGE MARIO MENDOZA VILLA",
     "primerContacto": "2026-09-21T17:39:32.397Z",
-    "ultimoContacto": "2026-09-21T17:39:32.397Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-21T18:49:40.718Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,6 +110,18 @@
         "fecha": "2026-09-21T17:39:31.791Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSRTNEMjgxOTg2QjIyNkJBM0MxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precios tiene",
+        "fecha": "2026-09-21T18:49:39.572Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T18:49:39.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSMDZGNkUzNzNFODJFN0Q1RkY0AA=="
       }
     ],
     "paso": "conversando",
@@ -118,8 +130,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Que precios tiene\""
   },
   {
     "telefono": "573504585148",
