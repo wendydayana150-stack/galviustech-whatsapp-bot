@@ -77,8 +77,8 @@
     "telefono": "573145717098",
     "nombre": "mapi",
     "primerContacto": "2026-09-21T17:47:04.024Z",
-    "ultimoContacto": "2026-09-21T19:06:12.716Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-21T19:10:01.367Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -154,13 +154,25 @@
         "fecha": "2026-09-21T19:06:11.951Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSQTc2NDI0OTkwMDlEOEVENTgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pijiño del Carmen Magdalena \nVereda la candelaria",
+        "fecha": "2026-09-21T19:09:52.832Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! La Candelaria, en Pijiño del Carmen 📍 Zonas como esa son justo donde más se nota la diferencia del modem, porque muchas veces el celular ahí capta señal débil o intermitente, y el modem con su antena más potente te da una conexión mucho más estable.\n\nTe recomiendo el **Modem WiFi 4G/5G** 🚀, funciona tanto si en tu zona hay 4G como si más adelante llega 5G, así que no te arriesgas con la cobertura. Conecta hasta 10 dispositivos a la vez, trae batería recargable y viene con SIMCARD de Claro de regalo.\n\nCuéntame, ¿ahorita cómo te estás conectando allá, con datos del celular o sin nada de internet? Y ¿para qué lo usarías más, trabajo, estudio o el hogar en general?",
+        "fecha": "2026-09-21T19:10:00.697Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSQTkxNzZBMjJBRjk0MTJCRDlFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El bot no pudo procesar este mensaje: \"Rural\"",
