@@ -1256,7 +1256,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "reactivado": true
+    "reactivado": true,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573166080699",
@@ -1306,7 +1309,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "reactivado": true
+    "reactivado": true,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573112352094",
@@ -1720,7 +1726,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "promoDiariaFecha": "2026-9-21"
+      "promoDiariaFecha": "2026-9-21",
+      "horas2": true
     },
     "reactivado": true
   },
@@ -2816,7 +2823,8 @@
     "motivoAtencion": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-21",
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     },
     "reactivado": true
   },
