@@ -4780,8 +4780,8 @@
     "telefono": "573213951293",
     "nombre": "rodolfomedinaestupinan",
     "primerContacto": "2026-09-18T20:11:32.708Z",
-    "ultimoContacto": "2026-09-20T23:53:04.095Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T18:36:07.718Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -4854,6 +4854,25 @@
         "fecha": "2026-09-20T23:53:03.422Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTUxMjkzFQIAERgSOEIwQTNGNzVFMDIwQjEzQzlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola rodolfomedinaestupinan, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-21T11:23:21.297Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTUxMjkzFQIAERgSM0Y5NzA5OTg0MTk1QjA2RERBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no gracias.",
+        "fecha": "2026-09-21T18:36:06.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T18:36:06.644Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTUxMjkzFQIAERgSNjcwQjUzOEY5MTQ3Qzg3NUE2AA=="
       }
     ],
     "paso": "conversando",
@@ -4862,8 +4881,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Por ahora no gracias.\"",
     "recordatorios": {
       "horas2": true,
       "horas5": true,
