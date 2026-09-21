@@ -3,8 +3,8 @@
     "telefono": "573145015132",
     "nombre": "I Am a student",
     "primerContacto": "2026-09-21T12:31:55.798Z",
-    "ultimoContacto": "2026-09-21T12:31:55.798Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-21T12:34:56.153Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-09-21T12:31:55.172Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSRkY4NjBCQzI5MUY3QkEyNjE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una zona sin señal \nY también coge señal ok.uno de los dos",
+        "fecha": "2026-09-21T12:34:47.534Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, claro que sí 😊 Te cuento algo importante para que tengas total claridad: el módem funciona captando la señal móvil (4G o 5G) que exista en la zona y la convierte en WiFi para tus dispositivos. Eso sí, si en tu vereda no llega **ninguna** señal de ningún operador, ningún equipo (ni módem ni celular) puede generar señal de la nada.\n\nLo que sí te puedo asegurar con seguridad es que el módem tiene una antena más potente que la de un celular normal, entonces en zonas donde la señal es débil o intermitente (que es lo más común en veredas), el módem la capta mejor y te da una conexión más estable que la que tendrías con el celular solo.\n\nPara orientarte bien: ¿en qué municipio y vereda estarías usándolo? Así te confirmo qué tan probable es que tengas señal ahí 📶",
+        "fecha": "2026-09-21T12:34:55.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSRTc0M0MxRThBOTYxRDBBNDY1AA=="
       }
     ],
     "paso": "conversando",
