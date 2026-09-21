@@ -3,8 +3,8 @@
     "telefono": "573143254685",
     "nombre": "Lizeth Fernández",
     "primerContacto": "2026-09-21T20:40:49.556Z",
-    "ultimoContacto": "2026-09-21T20:42:09.631Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T20:42:52.947Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,6 +54,18 @@
         "fecha": "2026-09-21T20:42:08.783Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMjU0Njg1FQIAERgSNUNGNzQ4QjYzQTE5RDYwOTRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si no coje nada de señal no sirve",
+        "fecha": "2026-09-21T20:42:46.543Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes toda la razón, y quiero ser honesta contigo: el módem funciona captando la señal 4G o 5G que exista en la zona, no crea señal de la nada. Si en tu vereda no llega absolutamente ninguna señal de ningún operador, ningún equipo (ni módem ni celular) va a poder conectar.\n\nPero la buena noticia es que muchas veces el celular no capta nada o muy poquito, y el módem sí logra tomar esa señal débil gracias a su antena más potente. Por eso hay clientes en veredas donde el celular casi no sirve, y con el módem sí logran conectarse bien.\n\n¿Tu celular ahí capta algo de señal, aunque sea poquita o intermitente? Eso me ayuda a confirmarte si el módem te funcionaría 🙂",
+        "fecha": "2026-09-21T20:42:52.175Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMjU0Njg1FQIAERgSMzMxNzU0RjA4QzVERkE2QjhCAA=="
       }
     ],
     "paso": "conversando",
