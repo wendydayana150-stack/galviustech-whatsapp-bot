@@ -769,8 +769,8 @@
     "telefono": "573202840622",
     "nombre": "Fercho 😎✌🏻",
     "primerContacto": "2026-09-21T15:08:05.570Z",
-    "ultimoContacto": "2026-09-21T17:37:39.307Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T17:38:12.861Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -841,6 +841,18 @@
         "fecha": "2026-09-21T17:37:38.596Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSNEMyNjNFOEEzMkUxRUYwODNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q velocidad maneja",
+        "fecha": "2026-09-21T17:38:11.851Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T17:38:12.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSMjE3NTA0NEM2MTMwOERBMDg4AA=="
       }
     ],
     "paso": "conversando",
@@ -850,7 +862,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Q velocidad alcanza\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Q velocidad maneja\"",
     "reactivado": true,
     "recordatorios": {
       "horas2": true
