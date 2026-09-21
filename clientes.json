@@ -917,8 +917,8 @@
     "telefono": "573012813175",
     "nombre": "Adrian Mejia",
     "primerContacto": "2026-09-21T13:00:32.423Z",
-    "ultimoContacto": "2026-09-21T13:17:38.829Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-21T14:20:21.819Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1065,16 +1065,23 @@
         "fecha": "2026-09-21T13:17:37.947Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyODEzMTc1FQIAERgSNjk1MjE0NTA5ODdBN0I0RkNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-09-21T14:20:20.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyODEzMTc1FQIAERgSQjZEQkUzQkE4QTg2NDY1MURDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"La sim de claro \nMe la entregan con cuantas megas \nY como sería el plan\nPospago o recarga\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573171166841",
