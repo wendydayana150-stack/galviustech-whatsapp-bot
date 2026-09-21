@@ -52,8 +52,8 @@
     "telefono": "573194546026",
     "nombre": "IVÁN",
     "primerContacto": "2026-09-21T22:40:15.086Z",
-    "ultimoContacto": "2026-09-21T22:43:09.782Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-21T22:43:57.020Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -209,6 +209,18 @@
         "fecha": "2026-09-21T22:43:09.085Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk0NTQ2MDI2FQIAERgSRkMwNDU5RTZFRjJGRTgxQTNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aaa pero es de claro?",
+        "fecha": "2026-09-21T22:43:52.457Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, el módem funciona con SIM de cualquier operador (Claro, Movistar, Tigo, WOM, ETB), es libre 📶 Lo que te regalamos es una SIMCARD de Claro para que lo actives de una sin tener que comprar chip aparte, pero si prefieres usar otro operador también puedes.\n\n¿Ya tienes claro con cuál operador prefieres trabajar, o te sirve la de Claro que te regalamos?",
+        "fecha": "2026-09-21T22:43:56.153Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NTQ2MDI2FQIAERgSNDRDOEFDRjA4RTJCNjFEMDRFAA=="
       }
     ],
     "paso": "conversando",
