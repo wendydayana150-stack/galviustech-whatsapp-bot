@@ -2421,8 +2421,8 @@
     "telefono": "573171166841",
     "nombre": "Marbel Gutiérrez Bustos",
     "primerContacto": "2026-09-21T12:57:58.517Z",
-    "ultimoContacto": "2026-09-21T17:10:38.843Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-21T17:10:53.375Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2620,16 +2620,29 @@
         "fecha": "2026-09-21T17:10:37.989Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSRTVCODk3OEU1NkUwRkFEOTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santa Isabel Tolima",
+        "fecha": "2026-09-21T17:10:52.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-21T17:10:52.552Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSQjgzNDlGQzRGREQ5N0VDRTQ2AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573171166841",
       "nombreCliente": "Marbel",
-      "celular": "3202521464"
+      "celular": "3202521464",
+      "departamento": "Santa Isabel Tolima"
     },
     "pausado": false,
     "etapaManual": null,
