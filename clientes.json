@@ -903,7 +903,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "reactivado": true
+    "reactivado": true,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573187678919",
@@ -952,7 +955,10 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "reactivado": true
+    "reactivado": true,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573187194829",
@@ -3461,7 +3467,8 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "recordatorios": {
-      "horas2": true
+      "horas2": true,
+      "horas5": true
     },
     "reactivado": true
   },
