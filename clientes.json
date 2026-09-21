@@ -3,8 +3,8 @@
     "telefono": "573145015132",
     "nombre": "I Am a student",
     "primerContacto": "2026-09-21T12:31:55.798Z",
-    "ultimoContacto": "2026-09-21T12:37:20.865Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T12:38:31.459Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-21T12:37:20.161Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSNDNEMEM0RUFCNDRFMjdGMzM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual el precio",
+        "fecha": "2026-09-21T12:38:25.379Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El Módem WiFi 4G/5G tiene una inversión de $239.900 💻📶\n\nY viene con varios beneficios pensados justo para tu caso:\n✅ Conecta hasta 10 dispositivos al mismo tiempo\n✅ Antena de mayor potencia, capta mejor la señal que un celular en zonas como la tuya\n✅ Fácil de instalar, solo pones la SIM y listo\n✅ Incluye SIMCARD de Claro de regalo 🎁\n✅ Garantía de 30 días con soporte de GalviusTech\n\nAsí que ya no dependes de buscar señal desesperadamente, tienes tu propia conexión lista en casa. ¿Actualmente tienes algún tipo de internet ahí o dependes solo de datos del celular?",
+        "fecha": "2026-09-21T12:38:30.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSMEJBQTZCOTkyQjIwNEFDNUE2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
