@@ -3,8 +3,8 @@
     "telefono": "573118247727",
     "nombre": "Ale",
     "primerContacto": "2026-09-21T13:58:42.346Z",
-    "ultimoContacto": "2026-09-21T14:01:00.867Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T14:01:59.079Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-21T14:01:00.015Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4MjQ3NzI3FQIAERgSQzQ0OUI4NEY4NTVDRTQzNENFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene envió a leticia",
+        "fecha": "2026-09-21T14:01:53.233Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí claro, hacemos envíos a Leticia 📦 Por lo general se maneja con Interrapidísimo, y si en tu zona no hay cobertura de entrega a domicilio, el pedido queda disponible para que lo recojas en la oficina de la transportadora más cercana en el municipio, sin problema.\n\nPara dejarte todo listo, ¿me confirmas tu nombre completo y número de celular? Así avanzamos con tu pedido del módem 4G/5G 😊",
+        "fecha": "2026-09-21T14:01:58.258Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4MjQ3NzI3FQIAERgSQjE1Njc3NzUzOERBN0QxQzI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
