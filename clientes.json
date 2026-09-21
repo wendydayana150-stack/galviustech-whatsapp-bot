@@ -2421,8 +2421,8 @@
     "telefono": "573171166841",
     "nombre": "Marbel Gutiérrez Bustos",
     "primerContacto": "2026-09-21T12:57:58.517Z",
-    "ultimoContacto": "2026-09-21T16:49:33.804Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-21T17:10:38.843Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2608,15 +2608,28 @@
         "fecha": "2026-09-21T16:49:32.985Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSMzAyN0E0NEFDMzhGRTZGRUM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3202521464",
+        "fecha": "2026-09-21T17:10:37.988Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-21T17:10:37.989Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSRTVCODk3OEU1NkUwRkFEOTQ3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573171166841",
-      "nombreCliente": "Marbel"
+      "nombreCliente": "Marbel",
+      "celular": "3202521464"
     },
     "pausado": false,
     "etapaManual": null,
