@@ -3,8 +3,8 @@
     "telefono": "573145717098",
     "nombre": "mapi",
     "primerContacto": "2026-09-21T17:47:04.024Z",
-    "ultimoContacto": "2026-09-21T17:47:04.024Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-21T17:47:49.479Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-09-21T17:47:03.518Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSMjQ2RjcxODI2QTBGNzQ0OUM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural",
+        "fecha": "2026-09-21T17:47:48.520Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T17:47:48.789Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSMjlDRUYxNUYxNTk0NTBCOEU3AA=="
       }
     ],
     "paso": "conversando",
@@ -45,8 +57,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Rural\""
   },
   {
     "telefono": "573206572176",
