@@ -77,8 +77,8 @@
     "telefono": "573145717098",
     "nombre": "mapi",
     "primerContacto": "2026-09-21T17:47:04.024Z",
-    "ultimoContacto": "2026-09-21T19:10:12.218Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-21T19:11:03.702Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -178,6 +178,25 @@
         "fecha": "2026-09-21T19:10:11.543Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSQ0VGMzk3OTQzQTc2NzNDNUU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene tienda física",
+        "fecha": "2026-09-21T19:10:57.484Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Manejamos todo por venta en línea, así que no tenemos un local físico para atención presencial, pero no te preocupes 😊 Hacemos el envío directo a tu vereda (o a la oficina de la transportadora más cercana si allá no llega a domicilio), con toda la garantía y el soporte de GalviusTech por si necesitas ayuda con la instalación.\n\nAsí que no tienes que desplazarte a ningún lado, te llega directo a Pijiño del Carmen. ¿Te ayudo a dejar tu pedido listo con tus datos para el envío?",
+        "fecha": "2026-09-21T19:11:02.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSNDg0MEU5MUFCOTdBQzY2QkFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-21T19:11:03.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NzE3MDk4FQIAERgSQ0JDQzNFQUMwNkQzNjZBMzA2AA=="
       }
     ],
     "paso": "conversando",
