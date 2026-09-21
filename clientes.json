@@ -1978,8 +1978,8 @@
     "telefono": "573052345019",
     "nombre": "Martin Carvajalino Castro",
     "primerContacto": "2026-09-21T13:09:10.248Z",
-    "ultimoContacto": "2026-09-21T13:47:18.072Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T16:33:56.677Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2063,6 +2063,39 @@
         "fecha": "2026-09-21T13:47:17.435Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSQjEyQ0U1MDlFQTk5Qzc2QzIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Martin Carvajalino Castro, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-21T14:28:09.177Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSQjhCRkE5RjZBNDIzMzlEMTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
+        "fecha": "2026-09-21T15:14:38.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSOEY1OEQwRUNFMjRGRjFCQkY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-21T15:52:31.747Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSRDE1MUMwMzc2MkYxREY4QjVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dame más información sobre el mantenimiento y posibles repuestos o es un dispositivo desechable...",
+        "fecha": "2026-09-21T16:33:55.405Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T16:33:55.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSN0ZCQjY5RUM2QTM4M0NENzQzAA=="
       }
     ],
     "paso": "conversando",
@@ -2071,8 +2104,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Dame más información sobre el mantenimiento y posibles repuestos o es un dispositivo desechable...\"",
     "recordatorios": {
       "promoDiariaFecha": "2026-9-21",
       "horas2": true
