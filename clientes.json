@@ -838,8 +838,8 @@
     "telefono": "573222378167",
     "nombre": "Estiven & Lucia & Yainer",
     "primerContacto": "2026-09-21T15:57:30.991Z",
-    "ultimoContacto": "2026-09-21T18:38:41.619Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-21T19:56:49.668Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -951,11 +951,25 @@
         "fecha": "2026-09-21T18:38:40.864Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSQTZFQUZGODhERURBODgxQzUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
+        "fecha": "2026-09-21T19:05:44.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSQ0IxOUM0NTJCQUZGQkRENzMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola de nuevo! 😊 Disculpa la demora, ya solucionamos el problema tecnico que teniamos. Me contabas que el modem lo necesitas para una vereda, cuentame en que municipio o vereda estas para recomendarte la mejor opcion y pasarte el precio 👋",
+        "fecha": "2026-09-21T19:56:48.782Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSRDdGREVBRThCRjFEQjU0Q0I1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
