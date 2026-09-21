@@ -3,8 +3,8 @@
     "telefono": "573107087498",
     "nombre": "marisolgarciadavila73",
     "primerContacto": "2026-09-21T15:58:43.463Z",
-    "ultimoContacto": "2026-09-21T16:01:40.358Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-21T16:01:57.921Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -148,6 +148,18 @@
         "fecha": "2026-09-21T16:01:39.610Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSOEM2QjU1MzRGNzhFNUY5Rjc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto cuesta",
+        "fecha": "2026-09-21T16:01:56.771Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T16:01:57.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSMkFFRTlCN0NBN0VCNEVEMDExAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -158,8 +170,8 @@
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cuanto cuesta\""
   },
   {
     "telefono": "573222378167",
