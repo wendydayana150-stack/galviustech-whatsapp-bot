@@ -3,8 +3,8 @@
     "telefono": "573107087498",
     "nombre": "marisolgarciadavila73",
     "primerContacto": "2026-09-21T15:58:43.463Z",
-    "ultimoContacto": "2026-09-21T16:00:39.038Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T16:01:31.046Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,13 +68,55 @@
         "fecha": "2026-09-21T16:00:38.201Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSQUJCNTgyQUMxQzZFOEIzNTY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] COMBO Impresora Termical",
+        "fecha": "2026-09-21T16:01:28.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-21T16:01:28.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSNUEyQkU2QjkxMEEzN0Q5MTA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-21T16:01:28.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSMUE4N0E3NzIzQTkxNkQ5NEY4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-21T16:01:29.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSMjhGRkQ3MDQ0QzE2MDg3MjdEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*COMBO Impresora Termica Portatil + Reloj*\n$ 299.900\n\n🎁🔥 ¡TE LLEVAS MÁS POR EL MISMO PRECIO! 🔥🎁\r\n\r\n🖨️ IMPRESORA TÉRMICA PORTÁTIL + ⌚ RELOJ DE REGALO\r\n\r\n¿Necesitas imprimir desde cualquier lugar? 📲\r\nLleva tu impresora contigo y olvídate de los cartuchos de tinta. 😍\r\n\r\n✅ Impresora térmica SIN TINTA\r\n✅ Compacta y fácil de transportar\r\n✅ Imprime desde tu celular\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Y además te llevas un RELOJ DE REGALO 🎁⌚\r\n\r\n💥 UNA PROMOCIÓN 2 EN 1 QUE NO TE PUEDES PERDER\r\n\r\n📦 Pide tu impresora hoy y RECIBE TU RELOJ DE REGALO.\r\n\r\n⚠️ Promoción por tiempo limitado y unidades disponibles.",
+        "fecha": "2026-09-21T16:01:29.851Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSNDdEMDZGRkU1QTQ5OUFFN0I2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-21T16:01:30.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSODhBRjUyRjBEMDNERTI2QzA4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "combo-impresora-termica-portatil-reloj"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null
