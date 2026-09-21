@@ -64,8 +64,8 @@
     "telefono": "573204468919",
     "nombre": "arce",
     "primerContacto": "2026-09-21T22:12:37.486Z",
-    "ultimoContacto": "2026-09-21T22:25:41.000Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T22:29:26.915Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,13 +122,25 @@
         "fecha": "2026-09-21T22:25:40.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSMUYyOEIxQTY3MTY2MDI4MDRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El internet está lento \nCon los datos de el celular",
+        "fecha": "2026-09-21T22:29:19.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, eso de depender de los datos del celular es desesperante, se acaba rápido y encima anda lento 😩\n\nPara tu caso te recomiendo el Modem WiFi Portátil 4G/5G. La ventaja es que en zonas rurales como la tuya suele haber señal 4G fuerte y estable, y este modem la capta con una antena mucho más potente que la de un celular, dándote mejor cobertura real. Además:\n\n✅ Conectas hasta 10 dispositivos al tiempo (celular, tv, computador)\n✅ Fácil de usar, solo insertas la SIM y listo\n✅ Viene con SIMCARD de Claro de regalo\n✅ Garantía de 30 días con soporte de GalviusTech\n\nImagínate ya sin esperar a que cargue una página, con internet propio en tu casa sin depender del celular. La inversión es de $239.900.\n\n¿Cuántas personas usarían el internet en tu casa? Así confirmamos que esta es la opción perfecta para ti 📶",
+        "fecha": "2026-09-21T22:29:25.924Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NDY4OTE5FQIAERgSNzk2Njg1N0VGNDZBRTNFNDY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
