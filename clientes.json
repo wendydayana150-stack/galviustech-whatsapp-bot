@@ -186,8 +186,8 @@
     "telefono": "573012813175",
     "nombre": "Adrian Mejia",
     "primerContacto": "2026-09-21T13:00:32.423Z",
-    "ultimoContacto": "2026-09-21T13:11:31.205Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-21T13:13:11.994Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -268,16 +268,28 @@
         "fecha": "2026-09-21T13:11:30.360Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyODEzMTc1FQIAERgSMUU2MzY5RTk1QTBFMTYzMENEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La sim de claro \nMe la entregan con cuantas megas \nY como sería el plan\nPospago o recarga",
+        "fecha": "2026-09-21T13:13:01.696Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Mira, la SIM de Claro que te enviamos de regalo es para que actives el plan de datos que más te convenga (puedes recargar con los paquetes que Claro tenga disponibles, funciona como una SIM normal de prepago). El plan específico de megas y valor ya depende de lo que tú elijas directamente con Claro según tu consumo 📶\n\nLo que sí te aseguro es que el módem viene listo para que insertes la SIM y funcione de inmediato, sin trámites complicados de nuestro lado.\n\nPara confirmarte el detalle exacto de planes que manejan actualmente, voy a hacer que alguien de mi equipo te confirme eso puntual. Mientras tanto, ¿seguimos dejando listo tu pedido del módem 4G/5G para que lo tengas ya en Medellín?",
+        "fecha": "2026-09-21T13:13:11.088Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyODEzMTc1FQIAERgSREYwNjE3MEFGOTFGMjQyNDg5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"La sim de claro \nMe la entregan con cuantas megas \nY como sería el plan\nPospago o recarga\""
   },
   {
     "telefono": "573171166841",
