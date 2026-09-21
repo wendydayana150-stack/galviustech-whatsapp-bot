@@ -5037,8 +5037,8 @@
     "telefono": "573213951293",
     "nombre": "rodolfomedinaestupinan",
     "primerContacto": "2026-09-18T20:11:32.708Z",
-    "ultimoContacto": "2026-09-21T18:36:36.020Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-21T19:12:40.719Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "bot",
@@ -5154,16 +5154,23 @@
         "fecha": "2026-09-21T18:36:35.269Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTUxMjkzFQIAERgSMkE0NkIyN0Y2MzEyNjA5ODQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.",
+        "fecha": "2026-09-21T19:12:39.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTUxMjkzFQIAERgSMzhBMDhEODEzODNGMkZGQTExAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Por ahora no gracias\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
       "horas5": true,
