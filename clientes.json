@@ -213,8 +213,8 @@
     "telefono": "573206572176",
     "nombre": "JORGE MARIO MENDOZA VILLA",
     "primerContacto": "2026-09-21T17:39:32.397Z",
-    "ultimoContacto": "2026-09-21T19:10:14.557Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T19:13:07.429Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -278,13 +278,25 @@
         "fecha": "2026-09-21T19:10:13.892Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSMUY2MkUyQjVCODQ5RTU2MkEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio de Arboletes Antioquia pafa estudiar en mi casa",
+        "fecha": "2026-09-21T19:12:58.547Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Yuli... bueno, gracias por contarme! Para estudiar desde casa en Arboletes te recomiendo el **Módem WiFi 4G/5G** 📶\n\n¿Por qué? Porque capta señal 4G con mejor cobertura que un celular normal (tiene antena más potente), y si en algún momento tu zona mejora a 5G, el mismo equipo ya te sirve sin tener que comprar otro. Así no dependes de WiFi ajeno ni de que se acabe el saldo de datos para entrar a tus clases o enviar tareas.\n\nAdemás conecta hasta 10 dispositivos, así que si en casa hay más personas estudiando o trabajando, todos se conectan sin problema.\n\nLa inversión es de $239.900, e incluye SIMCARD de Claro de regalo, lista para usar. Trae garantía de 30 días y soporte de GalviusTech.\n\n¿Actualmente usas los datos de tu celular para conectarte, o no tienes ninguna forma de internet en casa todavía?",
+        "fecha": "2026-09-21T19:13:05.577Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSNTRGMTE0OTBBRkZCODUxMTI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El bot no pudo procesar este mensaje: \"Que precios tiene\"",
