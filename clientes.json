@@ -3,8 +3,8 @@
     "telefono": "573004720892",
     "nombre": "La Morena Ruiz",
     "primerContacto": "2026-09-21T19:56:52.089Z",
-    "ultimoContacto": "2026-09-21T19:58:38.259Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-21T19:59:03.555Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-21T19:58:37.491Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzIwODkyFQIAERgSN0ZDQjEyRjEyMkZDMzkyRkEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barranquilla",
+        "fecha": "2026-09-21T19:58:55.481Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Barranquilla la cobertura es buena 📶. Para el hogar te recomiendo el **Módem WiFi 4G/5G**: conecta hasta 10 dispositivos a la vez, así que toda la familia puede estar conectada sin problema, sea viendo redes, trabajando o en clases virtuales, y sin depender de que llegue fibra a tu casa.\n\nLa inversión es de **$239.900**, e incluye SIMCARD de Claro de regalo, garantía de 30 días y soporte de GalviusTech.\n\nSi quieres, también tenemos la versión 5G a $249.900 con más velocidad si en tu sector ya hay buena señal 5G. ¿Cuántos dispositivos conectarías tú en casa? Así te confirmo si te va mejor la 4G/5G o directo la 5G.",
+        "fecha": "2026-09-21T19:59:02.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzIwODkyFQIAERgSMUE1Q0MyMUE1M0FBQjc1RTk4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
