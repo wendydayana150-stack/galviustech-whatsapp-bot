@@ -769,8 +769,8 @@
     "telefono": "573202840622",
     "nombre": "Fercho 😎✌🏻",
     "primerContacto": "2026-09-21T15:08:05.570Z",
-    "ultimoContacto": "2026-09-21T15:08:50.085Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-21T17:37:39.307Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -815,6 +815,32 @@
         "fecha": "2026-09-21T15:08:49.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSNzAwMzYwRDU4NjBCMjM3Q0MzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\nSigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋",
+        "fecha": "2026-09-21T15:14:25.447Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSQjg1MTAwNzFCQjcxODc4ODE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-21T17:36:42.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSQzBBODNGRDM5OThBQzlGNzZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q velocidad alcanza",
+        "fecha": "2026-09-21T17:37:38.297Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T17:37:38.596Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODQwNjIyFQIAERgSNEMyNjNFOEEzMkUxRUYwODNBAA=="
       }
     ],
     "paso": "conversando",
@@ -823,8 +849,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Q velocidad alcanza\"",
     "reactivado": true,
     "recordatorios": {
       "horas2": true
