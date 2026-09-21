@@ -464,8 +464,8 @@
     "telefono": "573222378167",
     "nombre": "Estiven & Lucia & Yainer",
     "primerContacto": "2026-09-21T15:57:30.991Z",
-    "ultimoContacto": "2026-09-21T16:02:12.646Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-21T18:38:41.619Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -558,6 +558,25 @@
         "fecha": "2026-09-21T16:02:11.974Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSQkQ0Qjk4NzZFMkIwQjA2MTIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-21T18:36:10.806Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSOTI4MkQxMzQwQTkxMkY4M0E0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-21T18:38:40.671Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-21T18:38:40.864Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzc4MTY3FQIAERgSQTZFQUZGODhERURBODgxQzUwAA=="
       }
     ],
     "paso": "conversando",
@@ -567,7 +586,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cha\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Precio\"",
     "recordatorios": {
       "horas2": true
     }
