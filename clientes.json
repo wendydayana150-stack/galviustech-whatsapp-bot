@@ -1,5 +1,54 @@
 [
   {
+    "telefono": "573145015132",
+    "nombre": "I Am a student",
+    "primerContacto": "2026-09-21T12:31:55.798Z",
+    "ultimoContacto": "2026-09-21T12:31:55.798Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información del Modem WiFi",
+        "fecha": "2026-09-21T12:31:54.050Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-21T12:31:54.050Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-21T12:31:54.051Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSOTBFNjg3RjEzQzcxQ0U3QkU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-21T12:31:54.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSQUUzREQ3QTk0RjQ5QUU0N0E1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-21T12:31:55.172Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE1MTMyFQIAERgSRkY4NjBCQzI5MUY3QkEyNjE1AA=="
+      }
+    ],
+    "paso": "conversando",
+    "pedido": {},
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": null,
+    "ultimaCategoria": "modem",
+    "necesitaAtencion": false,
+    "motivoAtencion": null
+  },
+  {
     "telefono": "573186468469",
     "nombre": "Clau 13",
     "primerContacto": "2026-09-21T12:18:41.189Z",
