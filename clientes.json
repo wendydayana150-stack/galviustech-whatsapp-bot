@@ -3222,8 +3222,8 @@
     "telefono": "573168241816",
     "nombre": "Ana Lulu",
     "primerContacto": "2026-09-18T02:48:50.364Z",
-    "ultimoContacto": "2026-09-20T00:18:08.702Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-21T02:46:50.881Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "bot",
@@ -3326,16 +3326,30 @@
         "fecha": "2026-09-20T00:18:08.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4MjQxODE2FQIAERgSOEMyQzFFNDJBQTg4RDMxQUM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Ana Lulu, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-20T19:43:59.692Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4MjQxODE2FQIAERgSMUVDNUEzNDY5Nzc5RTQ2OUMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenas noches",
+        "fecha": "2026-09-21T02:46:49.628Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4MjQxODE2FQIAERgSMzc5RUFCOTUwNkIwREY4QzE5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Pero el papel que manejan que medidas tienen\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
       "horas5": true,
