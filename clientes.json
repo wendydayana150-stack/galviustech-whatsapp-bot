@@ -3,8 +3,8 @@
     "telefono": "573153804508",
     "nombre": "Ovidio Zuluaga",
     "primerContacto": "2026-09-22T19:43:45.658Z",
-    "ultimoContacto": "2026-09-22T19:45:00.568Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-22T19:46:36.762Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-22T19:44:59.628Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzODA0NTA4FQIAERgSMDc2RDFDNDcyNTYxMkVGNzg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Costo?",
+        "fecha": "2026-09-22T19:46:30.146Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con el Módem WiFi 4G/5G la inversión es de $239.900. Incluye SIMCARD de Claro de regalo, conecta hasta 10 dispositivos a la vez y tiene batería recargable para llevarlo a donde quieras dentro de tu finca o vereda.\n\nCuéntame, ¿ahora mismo tienes algún tipo de internet en tu casa o dependes solo de los datos del celular? Así te confirmo cómo te ayudaría mejor 😊",
+        "fecha": "2026-09-22T19:46:35.829Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzODA0NTA4FQIAERgSMkNEN0I3RkM0RDUyNTNFQTk0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
