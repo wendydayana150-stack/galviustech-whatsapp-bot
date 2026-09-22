@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:28:46.326Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-22T20:29:22.692Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -363,6 +363,18 @@
         "fecha": "2026-09-22T20:28:45.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSM0I1QjIyNDY3NjREMTdFREJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina principal de interapidisimo",
+        "fecha": "2026-09-22T20:29:21.651Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?",
+        "fecha": "2026-09-22T20:29:21.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSQzNBM0Y2M0I2MDBFRDM5QzBFAA=="
       }
     ],
     "paso": "pedido_celular",
