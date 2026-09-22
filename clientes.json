@@ -558,8 +558,8 @@
     "telefono": "573114839876",
     "nombre": "Henry Velasquez",
     "primerContacto": "2026-09-22T14:28:55.981Z",
-    "ultimoContacto": "2026-09-22T14:28:55.981Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-22T18:27:02.373Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -592,6 +592,32 @@
         "fecha": "2026-09-22T14:28:55.229Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0ODM5ODc2FQIAERgSNTAxNDZEODJBM0QzNzZBQ0FGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-22T16:57:36.267Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODM5ODc2FQIAERgSQTQ1MDc0MjlCRkFFMjlBMUIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La verdad no entiendo como funciona",
+        "fecha": "2026-09-22T18:27:00.554Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona (modelo similar)",
+        "fecha": "2026-09-22T18:27:00.554Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODM5ODc2FQIAERgSNTg3N0RFODVFOEQ3N0Q3RTRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-09-22T18:27:01.428Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODM5ODc2FQIAERgSREJBMURENDlCMzg2MkZCNTZFAA=="
       }
     ],
     "paso": "conversando",
