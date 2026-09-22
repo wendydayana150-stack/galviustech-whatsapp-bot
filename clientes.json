@@ -3192,8 +3192,8 @@
     "telefono": "573145572177",
     "nombre": "omarortiz12234",
     "primerContacto": "2026-09-21T16:47:45.458Z",
-    "ultimoContacto": "2026-09-22T02:03:36.563Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-22T04:02:08.671Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3494,6 +3494,13 @@
         "fecha": "2026-09-22T02:03:35.797Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NTcyMTc3FQIAERgSQjZEMTE0RTlFRjhFMjREQzk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial, Omar! Tu pedido del Módem WiFi 4G/5G ya queda confirmado y en proceso 🙌 Cualquier duda que te surja mientras te llega, aquí estoy para ayudarte. ¡Gracias por confiar en GalviusTech! 😊",
+        "fecha": "2026-09-22T04:02:07.760Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTcyMTc3FQIAERgSNTgwRDAwN0U3MzdDMjQ5MzZBAA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -3506,7 +3513,7 @@
       "celular": "3145572177",
       "departamento": "Antioquia"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": "Datos completados",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
