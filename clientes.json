@@ -959,8 +959,8 @@
     "telefono": "573117590292",
     "nombre": "medinaaydee256",
     "primerContacto": "2026-09-22T13:46:03.543Z",
-    "ultimoContacto": "2026-09-22T16:04:44.231Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-22T18:34:20.878Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1134,16 +1134,23 @@
         "fecha": "2026-09-22T16:04:43.370Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NTkwMjkyFQIAERgSNzI0MkY0QzQ5MTVCNTcxNEY0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! Disculpa en serio si sentiste que te insistí demasiado con lo del pueblo, no era mi intención para nada. 🙏 Respondiendo tu pregunta: además de la impresora, en GalviusTech también manejamos módems de internet portátil, lámparas solares y cámaras de seguridad, por si te interesa ver alguna otra opción. Y sobre la impresora, tranquila, no hay ningún afán, cuando tú quieras retomamos el tema. Que tengas muy buen día 💛",
+        "fecha": "2026-09-22T18:34:19.777Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NTkwMjkyFQIAERgSQjFCMTBDOTc3ODdGNEE1NkZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Joden mucho y tanta joda a la hora el cliente se mama\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-22",
       "horas2": true
