@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:29:22.692Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-22T20:29:58.583Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -375,15 +375,28 @@
         "fecha": "2026-09-22T20:29:21.652Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSQzNBM0Y2M0I2MDBFRDM5QzBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3136089088",
+        "fecha": "2026-09-22T20:29:57.733Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-22T20:29:57.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSMDIwRTYzMDVGQ0U0RkY1MDk1AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
       "telefono": "573136089088",
-      "nombreCliente": "Jhon salinas cc 71054443\nBetulia Antioquia\n3136089088"
+      "nombreCliente": "Jhon salinas cc 71054443\nBetulia Antioquia\n3136089088",
+      "celular": "3136089088"
     },
     "pausado": false,
     "etapaManual": null,
