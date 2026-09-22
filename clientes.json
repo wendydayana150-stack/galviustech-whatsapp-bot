@@ -3,8 +3,8 @@
     "telefono": "573143496505",
     "nombre": "Isabel Chavez",
     "primerContacto": "2026-09-22T21:41:07.310Z",
-    "ultimoContacto": "2026-09-22T21:41:07.310Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-22T21:42:36.276Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-09-22T21:41:06.609Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNDk2NTA1FQIAERgSQUY4MEY1MjI4MjhCQ0VBRUQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si no hay señal telefónica??",
+        "fecha": "2026-09-22T21:42:26.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta, y te la respondo con toda honestidad 🙏\n\nEl módem funciona a través de la red móvil (usando una SIM, igual que un celular), asi que necesita que en la zona llegue señal de algún operador. Lo que sí te puedo asegurar es que su antena es mucho más potente que la de un celular, entonces si tu celular capta algo de señal aunque sea débil o intermitente, el módem la va a aprovechar mejor y te va a dar una conexión más estable de la que tienes ahora.\n\nSi en tu zona no llega absolutamente ninguna señal de ningún operador, ahí sí ningún equipo (ni módem ni celular) podría conectarse, porque no hay red disponible.\n\nCuéntame, ¿en qué municipio o vereda estás? Y con qué operador tienes algo de señal ahí, aunque sea débil, para orientarte mejor 😊",
+        "fecha": "2026-09-22T21:42:35.429Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNDk2NTA1FQIAERgSODAwMUI3NDk3NzlCRTZGMEFBAA=="
       }
     ],
     "paso": "conversando",
