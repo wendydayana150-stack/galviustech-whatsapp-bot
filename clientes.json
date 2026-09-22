@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:31:42.600Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-22T20:31:56.779Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -423,9 +423,21 @@
         "fecha": "2026-09-22T20:31:41.770Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSNTBDRTUxMTIyNzI4MzVBRDU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Villa nueva",
+        "fecha": "2026-09-22T20:31:55.893Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-22T20:31:55.894Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSRjNFQkQyNzA4MTUwNTJEMzBCAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -435,7 +447,8 @@
       "celular": "3136089088",
       "departamento": "Antioquia",
       "ciudad": "Betulia Antioquia",
-      "direccion": "Es mejor en la oficina principal xq como la dirección es muy complicada para dar con ella ya no queda en la principal"
+      "direccion": "Es mejor en la oficina principal xq como la dirección es muy complicada para dar con ella ya no queda en la principal",
+      "barrio": "Villa nueva"
     },
     "pausado": false,
     "etapaManual": null,
