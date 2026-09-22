@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:21:46.468Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-22T20:24:53.632Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -233,6 +233,25 @@
         "fecha": "2026-09-22T20:21:45.576Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSMjc1QzhENDg0MTU5MERCMzA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo una pregunta si noay senial 5G",
+        "fecha": "2026-09-22T20:24:46.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta, y te la respondo con toda honestidad: el módem 5G puro necesita que en tu zona ya haya cobertura 5G para funcionar a su máxima capacidad. Si por donde te mueves normalmente no hay 5G, no te lo recomendaría, porque no le sacarías el provecho.\n\nPor eso para tu caso (que te mueves en carro por distintas zonas) lo más seguro es el 4G/5G ($239.900): funciona tanto donde solo hay señal 4G como donde ya hay 5G, así que nunca te quedas sin conexión sin importar por dónde manejes.\n\n¿Nos vamos con esa opción para que no tengas ningún riesgo de quedarte sin señal en el carro?",
+        "fecha": "2026-09-22T20:24:52.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSQzlFMDI2MzE4REM2NEVCN0U0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-22T20:24:52.766Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSOTA1NkFCN0RGQTA0RDgwRTc3AA=="
       }
     ],
     "paso": "conversando",
