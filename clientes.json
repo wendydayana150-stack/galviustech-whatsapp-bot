@@ -51,8 +51,8 @@
     "telefono": "573204383045",
     "nombre": "Leonardo Rincon ortiz",
     "primerContacto": "2026-09-21T23:02:51.989Z",
-    "ultimoContacto": "2026-09-22T00:02:10.094Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-22T00:04:34.692Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -152,6 +152,18 @@
         "fecha": "2026-09-22T00:02:09.369Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MzgzMDQ1FQIAERgSNUNBQUU4Q0Q5MzBFRENDRjNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sabes algo de los planes claro",
+        "fecha": "2026-09-22T00:04:25.572Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Mira, los planes y tarifas exactas de recargas los maneja directamente Claro y suelen variar seguido, así que no me arriesgo a darte un dato que no esté actualizado. Lo que sí te aseguro es que puedes elegir el plan de datos que más se ajuste a tu bolsillo y consumo, desde la App Mi Claro o en cualquier punto de recarga.\n\nVoy a hacer que alguien de mi equipo te confirme el detalle exacto de planes vigentes para que tengas la info más precisa 👍\n\nMientras tanto, ¿seguimos con tu pedido del módem para que lo tengas listo y actives la SIM en cuanto llegue?",
+        "fecha": "2026-09-22T00:04:33.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzgzMDQ1FQIAERgSOUE5OURCRUU2QUI1RDZCOEExAA=="
       }
     ],
     "paso": "conversando",
@@ -160,8 +172,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Sabes algo de los planes claro\""
   },
   {
     "telefono": "573025752271",
