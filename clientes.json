@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:24:53.632Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-22T20:25:15.215Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -252,13 +252,25 @@
         "fecha": "2026-09-22T20:24:52.766Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSOTA1NkFCN0RGQTA0RDgwRTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo pasa el muchas partes",
+        "fecha": "2026-09-22T20:25:08.235Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu punto 😊 Justamente por eso el modem 4G/5G es la mejor opción para ti: el equipo detecta automáticamente la señal disponible en cada zona por la que pasas y se conecta solo, ya sea 4G o 5G, sin que tengas que hacer nada manualmente.\n\nAsí que aunque manejes por muchas zonas distintas (unas con 5G, otras solo con 4G, o incluso zonas rurales), el modem siempre va a buscar la mejor señal disponible ahí mismo y mantener tu radio conectado sin cortes.\n\n¿Te parece si dejamos ese (el 4G/5G, $239.900) listo para tu carro?",
+        "fecha": "2026-09-22T20:25:14.365Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSQjFCNDQ4NDUzRjIwMkYyNTVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-portatil-5g",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
