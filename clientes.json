@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:30:29.715Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-22T20:31:42.600Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -411,9 +411,21 @@
         "fecha": "2026-09-22T20:30:28.742Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSMjE1ODI5OTkxODdGM0NCQzE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es mejor en la oficina principal xq como la dirección es muy complicada para dar con ella ya no queda en la principal",
+        "fecha": "2026-09-22T20:31:41.770Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-22T20:31:41.770Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSNTBDRTUxMTIyNzI4MzVBRDU2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -422,7 +434,8 @@
       "nombreCliente": "Jhon salinas cc 71054443\nBetulia Antioquia\n3136089088",
       "celular": "3136089088",
       "departamento": "Antioquia",
-      "ciudad": "Betulia Antioquia"
+      "ciudad": "Betulia Antioquia",
+      "direccion": "Es mejor en la oficina principal xq como la dirección es muy complicada para dar con ella ya no queda en la principal"
     },
     "pausado": false,
     "etapaManual": null,
