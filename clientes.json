@@ -52,8 +52,8 @@
     "telefono": "573223077321",
     "nombre": "👑IAN GAEL🥰🩵26/02/2025❤️‍🩹",
     "primerContacto": "2026-09-22T23:19:41.639Z",
-    "ultimoContacto": "2026-09-22T23:25:18.499Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-22T23:25:34.880Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -344,9 +344,21 @@
         "fecha": "2026-09-22T23:25:17.771Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSOUJBMEQ4MzE4NDBENzY2QTY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esmeralda nariño",
+        "fecha": "2026-09-22T23:25:34.008Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-22T23:25:34.008Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSMDNBOEM2ODcyRDc2MUNBMzc5AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -355,7 +367,8 @@
       "nombreCliente": "Sandra",
       "celular": "322307732q",
       "departamento": "Nariño",
-      "ciudad": "Esmeralda"
+      "ciudad": "Esmeralda",
+      "direccion": "Esmeralda nariño"
     },
     "pausado": false,
     "etapaManual": null,
