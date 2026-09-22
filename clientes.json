@@ -3,8 +3,8 @@
     "telefono": "573224839443",
     "nombre": "Alejandra",
     "primerContacto": "2026-09-22T21:24:23.424Z",
-    "ultimoContacto": "2026-09-22T21:24:23.424Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-22T21:29:41.903Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,23 @@
         "fecha": "2026-09-22T21:24:22.728Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODM5NDQzFQIAERgSMEY2OTk1QkVCQkZCNTBGMTA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad",
+        "fecha": "2026-09-22T21:29:33.869Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bogotá",
+        "fecha": "2026-09-22T21:29:37.581Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto 😊 ¿Me confirmas cuál es tu ciudad o municipio (y si es vereda, cuál)? Así te puedo orientar mejor sobre la cobertura del módem en tu zona.\n\nY cuéntame, ¿lo necesitarías para el hogar, trabajo, estudio o viajas seguido? 📶",
+        "fecha": "2026-09-22T21:29:41.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODM5NDQzFQIAERgSQTNCMzQ0NEZGOTdBN0M0QkRCAA=="
       }
     ],
     "paso": "conversando",
