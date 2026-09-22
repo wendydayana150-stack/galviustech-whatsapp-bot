@@ -5810,8 +5810,8 @@
     "telefono": "573052345019",
     "nombre": "Martin Carvajalino Castro",
     "primerContacto": "2026-09-21T13:09:10.248Z",
-    "ultimoContacto": "2026-09-22T03:48:57.522Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-22T04:23:03.628Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6074,6 +6074,13 @@
         "fecha": "2026-09-22T03:48:56.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSMTcyQjEzRDZFMThGNEJENDM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-22T04:23:02.497Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSOThCRjlCREZDRDJEMEY4MDA1AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -6084,7 +6091,7 @@
       "telefono": "573052345019",
       "nombreCliente": "Ha lame del sistema d impresión y repuestos para la impresora.."
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
