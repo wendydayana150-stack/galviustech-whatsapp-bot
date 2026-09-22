@@ -3,8 +3,8 @@
     "telefono": "573147204896",
     "nombre": "Luis Fernando Velasquez",
     "primerContacto": "2026-09-22T21:36:43.156Z",
-    "ultimoContacto": "2026-09-22T21:36:43.156Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-22T21:37:26.056Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,30 @@
         "fecha": "2026-09-22T21:36:42.439Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3MjA0ODk2FQIAERgSRTVERTRBNUFBRjQwMjgyMTQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad",
+        "fecha": "2026-09-22T21:37:15.657Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que costo tiene ?",
+        "fecha": "2026-09-22T21:37:18.662Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell 😊 Veo que escribiste \"Ciudad\", cuéntame cuál es tu ciudad o municipio para poder orientarte bien con la cobertura del modem.\n\nY cuéntame, ¿para qué lo necesitarías principalmente? ¿Trabajo, estudio, o es para tu casa/finca? Así te recomiendo la mejor opción 📶",
+        "fecha": "2026-09-22T21:37:25.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MjA0ODk2FQIAERgSNkYxN0RCQ0E4ODdBQjRFRUUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nAntes de darte el precio exacto, cuéntame: ¿para qué lo necesitarías principalmente (trabajo, estudio, hogar, negocio) y en qué ciudad o vereda estarías usando el módem? Así te recomiendo la versión que mejor le sirva a tu caso.",
+        "fecha": "2026-09-22T21:37:25.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MjA0ODk2FQIAERgSMzlFMUQ4MjZGQTc2REI0RkZFAA=="
       }
     ],
     "paso": "conversando",
