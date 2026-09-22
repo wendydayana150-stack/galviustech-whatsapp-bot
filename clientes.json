@@ -3,8 +3,8 @@
     "telefono": "573204318791",
     "nombre": "Mariana Salazar",
     "primerContacto": "2026-09-22T02:06:18.368Z",
-    "ultimoContacto": "2026-09-22T02:15:38.760Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-22T02:16:03.194Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -96,6 +96,25 @@
         "fecha": "2026-09-22T02:15:37.938Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MzE4NzkxFQIAERgSQjMzMDY3NEJDNUQ4Q0IxQzUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A bueno",
+        "fecha": "2026-09-22T02:15:58.712Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenísimo! 🙌 Entonces para dejarte el pedido listo y que se despache lo antes posible, pásame estos datos:\n\n- Nombre completo\n- Número de celular\n- Departamento\n- Ciudad o municipio (ya sé que es Puerto Asís, pero confírmame)\n- Dirección completa o vereda\n- Barrio o referencia\n- ¿Cómo prefieres pagar: contraentrega o transferencia?\n\nCon eso te dejo todo listo para el envío 📦",
+        "fecha": "2026-09-22T02:16:02.101Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzE4NzkxFQIAERgSNjcwOUYyMjc4MkRDNkU1NjgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-22T02:16:02.541Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzE4NzkxFQIAERgSMjQxRjhERDFCNEFDOTU5MTQ3AA=="
       }
     ],
     "paso": "conversando",
