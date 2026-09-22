@@ -436,8 +436,8 @@
     "telefono": "573117590292",
     "nombre": "medinaaydee256",
     "primerContacto": "2026-09-22T13:46:03.543Z",
-    "ultimoContacto": "2026-09-22T16:03:41.468Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-22T16:04:13.202Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -587,6 +587,18 @@
         "fecha": "2026-09-22T16:03:40.573Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NTkwMjkyFQIAERgSREIxMkRBODAyNTE0MUM5MTEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mejor dicho no tiene más equipos no jodamos mas",
+        "fecha": "2026-09-22T16:04:06.255Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquila, no hay problema 😊 Entiendo que quieras pensarlo con calma, no hay ningún afán de mi parte.\n\nLa impresora es el único modelo que manejamos en esa línea, con todo lo que te comenté: batería recargable, sin tinta, papel incluido y garantía de GalviusTech.\n\nQuedo pendiente por si más adelante decides dar el paso o tienes alguna otra duda, con gusto te ayudo 🙏",
+        "fecha": "2026-09-22T16:04:12.260Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NTkwMjkyFQIAERgSNzgyODhFOEFGRjE4RTJBMTE1AA=="
       }
     ],
     "paso": "conversando",
@@ -595,8 +607,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Mejor dicho no tiene más equipos no jodamos mas\"",
     "recordatorios": {
       "promoDiariaFecha": "2026-9-22",
       "horas2": true
