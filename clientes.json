@@ -623,8 +623,8 @@
     "telefono": "573143369529",
     "nombre": "Wilson",
     "primerContacto": "2026-09-22T23:07:14.596Z",
-    "ultimoContacto": "2026-09-22T23:07:14.596Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-22T23:54:27.067Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -644,6 +644,38 @@
         "fecha": "2026-09-22T23:07:13.955Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMzY5NTI5FQIAERgSNkNBMTZFN0Q4RTZGQzEzRjhDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-09-22T23:54:25.172Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-22T23:54:25.172Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-22T23:54:25.172Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMzY5NTI5FQIAERgSMkVDMUZCN0IyNkM5QUFDMTVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-22T23:54:25.715Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMzY5NTI5FQIAERgSNUE4RjkwMEI3MTkyNzRBRjFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-22T23:54:26.245Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMzY5NTI5FQIAERgSNTY0QzVBMzIwQ0U3Qjc0MDc4AA=="
       }
     ],
     "paso": "conversando",
@@ -651,7 +683,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
   },
