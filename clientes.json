@@ -52,8 +52,8 @@
     "telefono": "573207163636",
     "nombre": "Fidel Carvajal",
     "primerContacto": "2026-09-22T19:24:44.416Z",
-    "ultimoContacto": "2026-09-22T19:27:26.813Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-22T19:28:45.715Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,13 +98,25 @@
         "fecha": "2026-09-22T19:27:25.956Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3MTYzNjM2FQIAERgSRjYxNzE0MTBCMTBENzU2OEIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar, estudio y trabajo en la vereda no hay señal ni con el celular",
+        "fecha": "2026-09-22T19:28:38.504Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, eso debe ser bien complicado para el estudio y el trabajo diario 😕 La buena noticia es que justo para casos así está hecho nuestro módem: tiene una antena más potente que capta señal donde el celular no logra, así que puede mejorar bastante esa conexión en tu vereda.\n\nTe recomiendo el **Módem WiFi Portátil 4G/5G**: conecta hasta 10 dispositivos a la vez (para que toda la familia estudie, trabaje y esté conectada), funciona con SIM de cualquier operador, y viene con SIMCARD de Claro de regalo. Además trae garantía de 30 días y soporte de nosotros.\n\nLa inversión es de $239.900. Imagínate ya no depender de buscar señal, sino tenerla ahí mismo en tu casa para trabajar y que estudien sin problema.\n\n¿Te ayudo a dejar tu pedido listo para que empieces a usarlo pronto?",
+        "fecha": "2026-09-22T19:28:44.890Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3MTYzNjM2FQIAERgSQjFGMzkyQUJCMzQ2MUNFRDYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
