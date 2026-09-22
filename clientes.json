@@ -52,8 +52,8 @@
     "telefono": "573223077321",
     "nombre": "👑IAN GAEL🥰🩵26/02/2025❤️‍🩹",
     "primerContacto": "2026-09-22T23:19:41.639Z",
-    "ultimoContacto": "2026-09-22T23:24:39.918Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-22T23:24:52.864Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -296,14 +296,27 @@
         "fecha": "2026-09-22T23:24:39.213Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSRTAxMTg1MDY5MzFFRDc0MzMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sandra",
+        "fecha": "2026-09-22T23:24:52.091Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-22T23:24:52.092Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSNUQ2NUNERDAyNEFGOTg0NkE3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
-      "telefono": "573223077321"
+      "telefono": "573223077321",
+      "nombreCliente": "Sandra"
     },
     "pausado": false,
     "etapaManual": null,
