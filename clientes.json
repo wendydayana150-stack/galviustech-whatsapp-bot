@@ -3,8 +3,8 @@
     "telefono": "573004060324",
     "nombre": "Yecid Valencia",
     "primerContacto": "2026-09-22T11:40:39.194Z",
-    "ultimoContacto": "2026-09-22T11:41:04.480Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-22T11:41:28.244Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,25 @@
         "fecha": "2026-09-22T11:41:03.580Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MDYwMzI0FQIAERgSNEZCMzcxRjZGOUJGMzg3RUVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información de la Impresora",
+        "fecha": "2026-09-22T11:41:22.362Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento un poco más 😊\n\nEs una impresora térmica portátil, se conecta por Bluetooth a tu celular (Android o iPhone) y no necesita tinta ni cartuchos, así que te ahorras esa plata desde la primera impresión. Es ideal para imprimir facturas, recibos, cotizaciones, etiquetas o guías en el momento, sin depender de una papelería.\n\nPara recomendarte bien, ¿la usarías para tu negocio, trabajo o estudio? ¿Y te mueves seguido fuera de casa u oficina?",
+        "fecha": "2026-09-22T11:41:27.087Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MDYwMzI0FQIAERgSQkUzQTA0MjQ2OEYxODUwN0MzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-22T11:41:27.631Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MDYwMzI0FQIAERgSMjlDNDAzMzVDMDIyNTA5MDAxAA=="
       }
     ],
     "paso": "conversando",
