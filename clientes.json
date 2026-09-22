@@ -3,8 +3,8 @@
     "telefono": "573204318791",
     "nombre": "Mariana Salazar",
     "primerContacto": "2026-09-22T02:06:18.368Z",
-    "ultimoContacto": "2026-09-22T02:13:40.189Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-22T02:14:13.547Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -72,13 +72,25 @@
         "fecha": "2026-09-22T02:13:39.459Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MzE4NzkxFQIAERgSOEQ1NjFFRkM3MjVGNjc0RjgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Del moden",
+        "fecha": "2026-09-22T02:14:08.638Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Me cuentas un poquito más qué quieres saber del módem? 😊 Si es por el precio, ya te comenté que la inversión del 4G/5G es de $239.900 con SIM de regalo incluida. O si prefieres, te cuento sus características técnicas (batería, cuántos dispositivos conecta, cómo se instala). ¿Qué te gustaría confirmar?",
+        "fecha": "2026-09-22T02:14:12.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzE4NzkxFQIAERgSMzIwOEY5QUYxNzJGNkFGQzk0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null
