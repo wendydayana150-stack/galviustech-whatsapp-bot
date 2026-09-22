@@ -5681,8 +5681,8 @@
     "telefono": "573052345019",
     "nombre": "Martin Carvajalino Castro",
     "primerContacto": "2026-09-21T13:09:10.248Z",
-    "ultimoContacto": "2026-09-22T03:10:52.103Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-22T03:47:51.130Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5924,6 +5924,13 @@
         "fecha": "2026-09-22T03:10:51.406Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSNTMxNDIwM0RFQkQ1NTIxRUYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora como es termica, solo necesita las hojas",
+        "fecha": "2026-09-22T03:47:50.204Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyMzQ1MDE5FQIAERgSNjVGRTI1NTU4OTY4MDJBNjREAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -5934,7 +5941,7 @@
       "telefono": "573052345019",
       "nombreCliente": "Ha lame del sistema d impresión y repuestos para la impresora.."
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
