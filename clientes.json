@@ -52,8 +52,8 @@
     "telefono": "573223077321",
     "nombre": "👑IAN GAEL🥰🩵26/02/2025❤️‍🩹",
     "primerContacto": "2026-09-22T23:19:41.639Z",
-    "ultimoContacto": "2026-09-22T23:25:02.731Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-22T23:25:12.098Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -320,16 +320,29 @@
         "fecha": "2026-09-22T23:25:01.899Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSNTQwQjJCNjM4NDIzRERFMThDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nariño",
+        "fecha": "2026-09-22T23:25:11.269Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-22T23:25:11.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMDc3MzIxFQIAERgSOTUxNTYzMzg4RkZDOEE3QUIwAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573223077321",
       "nombreCliente": "Sandra",
-      "celular": "322307732q"
+      "celular": "322307732q",
+      "departamento": "Nariño"
     },
     "pausado": false,
     "etapaManual": null,
