@@ -6210,8 +6210,8 @@
     "telefono": "573171166841",
     "nombre": "Marbel Gutiérrez Bustos",
     "primerContacto": "2026-09-21T12:57:58.517Z",
-    "ultimoContacto": "2026-09-21T17:11:07.538Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-22T03:52:01.214Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6433,6 +6433,34 @@
         "fecha": "2026-09-21T17:11:06.745Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSNjA0MkM5OTYzQUQwNEI0NTNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que la promoción del Impresora Termica Portatil Bluetooth por $ 249.900 sigue disponible por el momento, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-21T22:19:35.654Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSMTE3NzA3RjQzMEIwMjhBQzYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-21T22:19:36.459Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSRUY1REIwRjBDRjZCREI0MzhGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-21T22:19:36.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSREVDNEExQjE5QzNBNTQ2NDFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes dirección de vivienda? o donde te hacemos llegar el pedido?",
+        "fecha": "2026-09-22T03:52:00.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTY2ODQxFQIAERgSRUJFOEEwMEU2QkMzRUY3NzIxAA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -6446,7 +6474,7 @@
       "departamento": "Santa Isabel Tolima",
       "ciudad": "Santa Isabel Tolima"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
