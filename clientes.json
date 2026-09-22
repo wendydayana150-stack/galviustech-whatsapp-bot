@@ -3,8 +3,8 @@
     "telefono": "573105093399",
     "nombre": "Cesar Alonso",
     "primerContacto": "2026-09-22T21:17:12.964Z",
-    "ultimoContacto": "2026-09-22T21:17:43.998Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-22T21:18:55.005Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-22T21:17:43.250Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MDkzMzk5FQIAERgSNkM5NTA4MDY3OTQ1QzAwRjIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el hogar y estoy compartiendo datos del celular",
+        "fecha": "2026-09-22T21:18:48.619Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah listo, eso ya lo entiendo bien 😊 Compartir datos del celular se vuelve incómodo, se acaban rápido y encima la señal del celular no siempre alcanza bien en la casa.\n\nPara tu caso te recomiendo el **Módem WiFi 4G/5G**: capta señal mucho más fuerte que el celular (ideal para zona rural), y desde ahí generás WiFi para conectar hasta 10 dispositivos en tu hogar (celulares, tablets, smart TV, lo que necesites), sin depender de fibra óptica. Además viene con SIMCARD de Claro de regalo, así ya no toca compartir datos de tu celular personal.\n\nLa inversión es de $239.900, con garantía de 30 días y soporte de GalviusTech.\n\n¿Cuántas personas o dispositivos se conectarían normalmente en tu casa? Así te confirmo que esta es la opción perfecta para vos.",
+        "fecha": "2026-09-22T21:18:54.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MDkzMzk5FQIAERgSNzg1QUM5OUEzQzQ5QjA1QUVGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
