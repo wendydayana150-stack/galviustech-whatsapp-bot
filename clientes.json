@@ -64,8 +64,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-09-22T19:57:54.371Z",
-    "ultimoContacto": "2026-09-22T20:18:50.164Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-22T20:21:46.468Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,13 +221,25 @@
         "fecha": "2026-09-22T20:18:49.317Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSM0EzODFBRTBGOTEzMzIxODIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El de 5G",
+        "fecha": "2026-09-22T20:21:35.583Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Solo para confirmarte bien: el Módem 5G puro tiene una inversión de $249.900, y te da la máxima velocidad, pero funciona únicamente en zonas donde ya ha",
+        "fecha": "2026-09-22T20:21:45.576Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSMjc1QzhENDg0MTU5MERCMzA3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
