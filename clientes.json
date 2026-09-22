@@ -1,5 +1,54 @@
 [
   {
+    "telefono": "573239312426",
+    "nombre": "Juan",
+    "primerContacto": "2026-09-22T01:19:20.770Z",
+    "ultimoContacto": "2026-09-22T01:19:20.770Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información del Modem WiFi",
+        "fecha": "2026-09-22T01:19:19.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-22T01:19:19.227Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-22T01:19:19.227Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MzEyNDI2FQIAERgSNDM2NTAyQjUyRkVGNjI4MTg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-22T01:19:19.661Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MzEyNDI2FQIAERgSMjBFRjUzMDVENjI4ODYxMTBBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-22T01:19:20.083Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MzEyNDI2FQIAERgSN0U0NzI0MkRGOTYxREE4QjZBAA=="
+      }
+    ],
+    "paso": "conversando",
+    "pedido": {},
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": null,
+    "ultimaCategoria": "modem",
+    "necesitaAtencion": false,
+    "motivoAtencion": null
+  },
+  {
     "telefono": "573244371842",
     "nombre": "Jairo Rodríguez",
     "primerContacto": "2026-09-22T00:55:19.774Z",
