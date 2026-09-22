@@ -18840,8 +18840,8 @@
     "telefono": "573116615785",
     "nombre": "HUFOME",
     "primerContacto": "2026-09-17T20:41:49.769Z",
-    "ultimoContacto": "2026-09-22T23:42:57.030Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-22T23:43:16.912Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "bot",
@@ -19047,6 +19047,18 @@
         "fecha": "2026-09-22T23:42:56.106Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NjE1Nzg1FQIAERgSM0NBQzRGMUUzMThCRkVCNzBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y tamaño de impresora",
+        "fecha": "2026-09-22T23:43:06.545Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Es bien compacta, del tamaño de un control remoto pequeño, ideal para llevarla en el bolso o la cartera sin que estorbe 📱\n\nPara darte la medida exacta en centímetros, dame un segundito que te confirmo el dato preciso y en breve te tengo la respuesta detallada.\n\nMientras tanto, ¿qué tipo de negocio manejas? Así te confirmo si el tamaño se ajusta bien a lo que necesitas imprimir.",
+        "fecha": "2026-09-22T23:43:15.911Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjE1Nzg1FQIAERgSRDRGMzFDMEY0MjFDQTI2REZBAA=="
       }
     ],
     "paso": "conversando",
@@ -19055,8 +19067,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Y tamaño de impresora\"",
     "recordatorios": {
       "horas2": true,
       "horas5": true,
