@@ -4991,8 +4991,8 @@
     "telefono": "573145572177",
     "nombre": "omarortiz12234",
     "primerContacto": "2026-09-21T16:47:45.458Z",
-    "ultimoContacto": "2026-09-22T04:02:08.671Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-22T14:41:52.837Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5300,6 +5300,20 @@
         "fecha": "2026-09-22T04:02:07.760Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NTcyMTc3FQIAERgSNTgwRDAwN0U3MzdDMjQ5MzZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola omarortiz12234, sobre modem WiFi portátil",
+        "fecha": "2026-09-22T11:41:17.474Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTcyMTc3FQIAERgSREM1RjY2RUE2N0Y1NjQ4QkZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia don Omar",
+        "fecha": "2026-09-22T14:41:51.885Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTcyMTc3FQIAERgSNDFEMjE1N0I5QjhBQTM2RUQyAA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -5312,7 +5326,7 @@
       "celular": "3145572177",
       "departamento": "Antioquia"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": "Datos completados",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
