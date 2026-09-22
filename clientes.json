@@ -3,8 +3,8 @@
     "telefono": "573224839443",
     "nombre": "Alejandra",
     "primerContacto": "2026-09-22T21:24:23.424Z",
-    "ultimoContacto": "2026-09-22T21:32:57.464Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-22T21:35:33.824Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,13 +73,25 @@
         "fecha": "2026-09-22T21:32:56.722Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODM5NDQzFQIAERgSNjQ4Mjg5MzFDQTY5M0IxNEEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "2",
+        "fecha": "2026-09-22T21:35:28.505Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con 2 dispositivos el módem 4G/5G te queda perfecto, tiene capacidad hasta para 10 así que te sobra margen si más adelante conectas alguno más. 👌\n\nAdemás viene con SIMCARD de Claro de regalo, así que puedes empezar a usarlo apenas te llegue, sin vueltas.\n\nLa inversión es de $239.900, y con eso te llevas la tranquilidad de tener tu propia conexión para trabajar sin depender de WiFi ajeno ni de que se te acaben los datos del celular.\n\n¿Te ayudo a dejar tu pedido listo para que lo tengas cuanto antes? 📦",
+        "fecha": "2026-09-22T21:35:33.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODM5NDQzFQIAERgSNkQ4RDgwNUNBNTFENkYwMzc3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
