@@ -3,8 +3,8 @@
     "telefono": "573135503932",
     "nombre": "Teo",
     "primerContacto": "2026-09-23T15:00:46.685Z",
-    "ultimoContacto": "2026-09-23T15:01:28.500Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T15:03:41.192Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-09-23T15:01:27.662Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTAzOTMyFQIAERgSNUEyNkQwMTMzOTFBMzY4OTBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que tamaño de papel usa",
+        "fecha": "2026-09-23T15:03:32.663Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 😊 el tamaño exacto del rollo no lo tengo a la mano ahora mismo, pero lo que sí te puedo confirmar es que la impresora ya viene con su papel térmico incluido, lista para usar apenas te llegue, y que compatible es con rollos térmicos estándar para este tipo de impresoras portátiles.\n\nVoy a confirmar ese dato exacto para darte la medida precisa y te aviso enseguida. Mientras tanto, cuéntame, ¿la usarías más para facturas, recibos o etiquetas de tu negocio?",
+        "fecha": "2026-09-23T15:03:40.178Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTAzOTMyFQIAERgSMDM1NzJENzBEQ0Y1REI3NjYxAA=="
       }
     ],
     "paso": "conversando",
@@ -64,8 +76,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Que tamaño de papel usa\""
   },
   {
     "telefono": "573135357607",
