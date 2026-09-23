@@ -13971,8 +13971,8 @@
     "telefono": "573107087498",
     "nombre": "marisolgarciadavila73",
     "primerContacto": "2026-09-21T15:58:43.463Z",
-    "ultimoContacto": "2026-09-21T16:02:08.953Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-23T03:47:40.372Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14140,13 +14140,20 @@
         "fecha": "2026-09-21T16:02:08.187Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSNzlFODIzODg0MTcwNjNCNkRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! Disculpa la demora 🙏 El COMBO Módem WiFi + Cámara de seguridad que estabas viendo tiene un precio de $289.900 (incluye el módem de internet portátil y la cámara de seguridad de regalo). ¿Te animas a llevarlo, o prefieres ver otra opción?",
+        "fecha": "2026-09-23T03:47:39.341Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDg3NDk4FQIAERgSMjEwRkYzOEJGMUU5MjYzRUJBAA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "impresora",
