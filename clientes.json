@@ -64,8 +64,8 @@
     "telefono": "573233961710",
     "nombre": "H",
     "primerContacto": "2026-09-23T02:33:25.975Z",
-    "ultimoContacto": "2026-09-23T02:37:04.324Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-23T02:38:11.093Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -158,6 +158,25 @@
         "fecha": "2026-09-23T02:37:03.288Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzOTYxNzEwFQIAERgSRjI4NzZBQTAyMThCQUI3NDMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La antena queda al frente pero es mui mala la ceñal",
+        "fecha": "2026-09-23T02:38:03.987Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah listo, eso es buena noticia en realidad 👍 Si la antena de Claro te queda al frente, aunque tu celular la capte mal, es muy probable que sea porque el celular tiene una antena muy limitada comparada con la del módem.\n\nEl módem tiene una antena bastante más potente, hecha justo para aprovechar mejor esa señal que el celular no logra captar bien. Muchos clientes en veredas con la torre cerca pero mala señal en el celular, con el módem mejoran muchísimo la conexión.\n\nCon la antena tan cerca, tienes muy buenas probabilidades de que te funcione bien 🙌 ¿Te gustaria que te ayude a dejar tu pedido listo para que lo pruebes en tu vereda?",
+        "fecha": "2026-09-23T02:38:09.565Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzOTYxNzEwFQIAERgSQkFBMjhFNDQ3NzdEN0RCNTlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-23T02:38:10.158Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzOTYxNzEwFQIAERgSQUUzM0RDRTc4MTk0OTc1NUNEAA=="
       }
     ],
     "paso": "conversando",
