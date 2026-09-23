@@ -3,8 +3,8 @@
     "telefono": "573219442763",
     "nombre": "😎",
     "primerContacto": "2026-09-23T00:44:29.380Z",
-    "ultimoContacto": "2026-09-23T00:44:29.380Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-23T00:45:44.247Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,24 @@
         "fecha": "2026-09-23T00:44:28.732Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5NDQyNzYzFQIAERgSQzJBRDMwRThGRDI0QkJGRUMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-09-23T00:45:37.031Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Justo para eso están hechos nuestros módems 📶 Tienen mejor cobertura que un celular normal, así que en zona rural funcionan muy bien donde la señal del cel a veces no alcanza.\n\nCuéntame, ¿en qué municipio o vereda estás ubicado? Y ¿para qué lo necesitarías principalmente, trabajo, estudio o el hogar? Así te recomiendo la versión ideal para ti 😊",
+        "fecha": "2026-09-23T00:45:42.912Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-23T00:45:43.424Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5NDQyNzYzFQIAERgSOTYzMzgwOURDNTNCQjZFQkI2AA=="
       }
     ],
     "paso": "conversando",
@@ -45,8 +63,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Vereda\""
   },
   {
     "telefono": "573504295593",
