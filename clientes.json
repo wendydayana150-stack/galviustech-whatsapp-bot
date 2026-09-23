@@ -100,8 +100,8 @@
     "telefono": "573128572075",
     "nombre": "tristeza",
     "primerContacto": "2026-09-23T02:30:32.444Z",
-    "ultimoContacto": "2026-09-23T02:32:13.360Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T02:36:54.922Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -146,13 +146,25 @@
         "fecha": "2026-09-23T02:32:12.397Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4NTcyMDc1FQIAERgSMDVGODc5QjIwNDlEQzJFNUQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sur. De Bolívar para  la casa",
+        "fecha": "2026-09-23T02:36:47.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, Sur de Bolívar para tu casa 🏡 Zona rural, así que el módem le cae como anillo al dedo, porque ahí seguro la fibra óptica ni asoma.\n\nTe recomiendo el **Módem WiFi 4G/5G**: capta señal móvil y la convierte en WiFi para toda tu casa, conecta hasta 10 dispositivos (celulares, tablets, portátil, lo que necesites), y como capta tanto 4G como 5G no dependes de adivinar qué cobertura hay exacto en tu zona, siempre queda cubierto. La inversión es de $249.900, con SIMCARD de Claro de regalo incluida.\n\nImagínate ya no tener que buscar dónde hay señal ni depender del dato del celular, con internet fijo en tu casa para todos 📶\n\n¿Actualmente tienes algún tipo de conexión ahí o dependes solo del celular? Y para avanzar, ¿me confirmas el nombre del municipio o vereda exacta donde vives?",
+        "fecha": "2026-09-23T02:36:54.085Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4NTcyMDc1FQIAERgSQzU5QTA4QUZCMzQxREVGOEM3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
