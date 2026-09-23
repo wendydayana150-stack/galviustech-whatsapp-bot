@@ -3,8 +3,8 @@
     "telefono": "573011112020",
     "nombre": "josejoaquinmelobustos",
     "primerContacto": "2026-09-23T03:28:03.143Z",
-    "ultimoContacto": "2026-09-23T03:29:37.369Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T03:30:11.786Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-23T03:29:36.430Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExMTEyMDIwFQIAERgSMjZCOUJCQjMzMTMzMTdCNjYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-23T03:30:06.036Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con el módem 4G/5G la inversión es de $249.900. Es la opción más segura para carretera y finca porque funciona tanto donde solo hay señal 4G como donde ya llega 5G, así que no dependes de adivinar la cobertura de la zona.\n\nAdemás conecta hasta 10 dispositivos a la vez y trae SIMCARD de Claro de regalo, lista para usar apenas la enciendes.\n\n¿Me confirmas tu municipio o vereda para asegurarte que llegue sin problema?",
+        "fecha": "2026-09-23T03:30:10.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExMTEyMDIwFQIAERgSNzRFQUYwNzI3NjQ2MkY1QzBEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
