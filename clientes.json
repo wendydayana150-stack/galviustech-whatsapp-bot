@@ -10157,8 +10157,8 @@
     "telefono": "573046427275",
     "nombre": "...",
     "primerContacto": "2026-09-22T13:34:39.657Z",
-    "ultimoContacto": "2026-09-23T12:22:50.574Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-23T12:22:52.406Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "bot",
@@ -10311,13 +10311,30 @@
         "fecha": "2026-09-23T12:22:49.697Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSRUUzQ0U3REE1NTE3QzM0Q0YyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-09-23T12:22:50.835Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Reloj* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-23T12:22:50.987Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSRUQwQzREQzM2OTJEMjkxRjUyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "combo-impresora-termica-portatil-reloj",
+      "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
+      "precio": 299900,
+      "telefono": "573046427275"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
