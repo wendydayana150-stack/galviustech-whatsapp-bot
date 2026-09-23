@@ -10803,8 +10803,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-22T18:14:11.102Z",
-    "ultimoContacto": "2026-09-23T00:44:31.258Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-23T17:47:58.042Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11286,6 +11286,67 @@
         "fecha": "2026-09-23T00:44:30.291Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSNEIwNTI1NDk1MUExQTU4MURFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola venta de chimo al detal, sobre modem WiFi portátil",
+        "fecha": "2026-09-23T11:02:12.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSNDlGMEIzRDIwNkUyODIxQUEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-23T11:02:40.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMjRFNkZFREVERjQ4NkYyNzY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-23T11:02:41.386Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSOTAyODcxMjk2NTFDM0QxREI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-23T11:02:41.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSOTZDMjY1QzlCRDk5NTNCNzQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-23T11:13:26.169Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMkU4NUNGRTA1NTk1NUNCMUFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 No quiero saturarte de mensajes, así que este será el último recordatorio por ahora de nuestros productos.\nSi mas adelante te interesa retomarlo, aquí voy a estar lista para ayudarte con tu pedido cuando quieras. 👋",
+        "fecha": "2026-09-23T11:45:41.089Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSQUE2RTQ1REE5MDQwNzk1QzVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola ya encargué el 5G y cm cuando llega",
+        "fecha": "2026-09-23T17:47:51.424Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! Los tiempos de envío dependen de la transportadora (Interrapidisimo) y pueden variar según la zona, así que no manejo una fecha exacta para darte con certeza. Pero tranquilo, en cuanto tu pedido esté en camino deberías recibir la notificación de la transportadora con el estado del envío.\n\nSi quieres, me confirmas de nuevo tus datos (nombre y celular) y te ayudo a verificar el estado de tu pedido con el equipo encargado 🙌",
+        "fecha": "2026-09-23T17:47:56.607Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMDVCNDAzNEU3RDg4RkZGOTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-23T17:47:57.145Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSRjU0MDVDNEQ2OEI2RUZFNUY4AA=="
       }
     ],
     "paso": "conversando",
@@ -11294,8 +11355,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Hola ya encargué el 5G y cm cuando llega\"",
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-23",
