@@ -3,8 +3,8 @@
     "telefono": "573135503932",
     "nombre": "Teo",
     "primerContacto": "2026-09-23T15:00:46.685Z",
-    "ultimoContacto": "2026-09-23T15:03:41.192Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-23T15:04:46.044Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,16 +68,23 @@
         "fecha": "2026-09-23T15:03:40.178Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTAzOTMyFQIAERgSMDM1NzJENzBEQ0Y1REI3NjYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "tamaño carta y oficio",
+        "fecha": "2026-09-23T15:04:44.974Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTAzOTMyFQIAERgSNTY2NjJCNTA0MjQ1RDc3RjNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Que tamaño de papel usa\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573135357607",
