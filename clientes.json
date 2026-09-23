@@ -2359,8 +2359,8 @@
     "telefono": "573245684411",
     "nombre": "Hernando Acevedo Rincon",
     "primerContacto": "2026-09-23T12:15:12.706Z",
-    "ultimoContacto": "2026-09-23T18:50:32.896Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T18:51:27.638Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2420,13 +2420,25 @@
         "fecha": "2026-09-23T18:50:31.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1Njg0NDExFQIAERgSRjhCMTRGMzlBNTE2ODFERDYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora más reloj",
+        "fecha": "2026-09-23T18:51:17.880Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale! Dese ese combo de Impresora Térmica + Reloj la inversión es de $299.900 con envío incluido 📦\n\nY la impresora es una maravilla porque no necesita tinta, imprime por Bluetooth desde tu celular y es perfecta para tener listas las facturas, recibos o cotizaciones al instante, sin depender de una papelería.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajo o para algún emprendimiento? Así te confirmo bien todo antes de dejarte el pedido listo 😊",
+        "fecha": "2026-09-23T18:51:26.642Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1Njg0NDExFQIAERgSMkNDRTlDMjBBMUQ1RjREOEFCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
