@@ -11468,8 +11468,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-22T18:14:11.102Z",
-    "ultimoContacto": "2026-09-23T17:55:07.225Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-09-23T19:27:47.420Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12084,16 +12084,23 @@
         "fecha": "2026-09-23T17:55:06.346Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSQkIxODEyQjAwNUQ3OUJERThCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO* Estimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo. 📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística. Por eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏 ❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio. ✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue. 💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio. ¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-23T19:27:46.349Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMzA1QzYwRTAxNjU4RkQ0ODhCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"José Gabriel Díaz Gutiérrez \n3223166509\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-23",
