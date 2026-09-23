@@ -3407,8 +3407,8 @@
     "telefono": "573127905868",
     "nombre": "Camilo Robles",
     "primerContacto": "2026-09-23T01:49:53.085Z",
-    "ultimoContacto": "2026-09-23T11:05:00.345Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-23T14:42:25.923Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3594,16 +3594,23 @@
         "fecha": "2026-09-23T11:04:59.278Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSQTc5MkIzQUY0QzNGRkVCMzRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Camilo, disculpa en serio, tienes toda la razón. Soy Wendy, te escribo yo directamente. Ya anoté que me avisas tú cuando decidas sobre el módem, así que no te voy a volver a escribir por este tema. Cualquier cosa, aquí estoy. Que estés muy bien.",
+        "fecha": "2026-09-23T14:42:24.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSQUE4NTIwQjNCNTYxN0I1OUQ1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No saben leer o q\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-23"
