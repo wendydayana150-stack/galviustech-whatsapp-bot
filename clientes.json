@@ -10864,8 +10864,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-22T18:14:11.102Z",
-    "ultimoContacto": "2026-09-23T17:47:58.042Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-09-23T17:50:20.002Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11408,6 +11408,18 @@
         "fecha": "2026-09-23T17:47:57.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSRjU0MDVDNEQ2OEI2RUZFNUY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y la guia no me la an enviado",
+        "fecha": "2026-09-23T17:50:14.731Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación José Gabriel, disculpa la demora 🙏 Voy a escalar tu caso para que revisen el estado de tu guía y te den una respuesta puntual lo antes posible. En breve tendrás seguimiento personalizado sobre tu pedido.",
+        "fecha": "2026-09-23T17:50:19.083Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMjgxOEFGQTlEQUY1ODc5ODUzAA=="
       }
     ],
     "paso": "conversando",
@@ -11417,7 +11429,7 @@
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Hola ya encargué el 5G y cm cuando llega\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Y la guia no me la an enviado\"",
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-23",
