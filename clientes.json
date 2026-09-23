@@ -198,8 +198,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T00:04:41.025Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-23T00:05:18.940Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -502,9 +502,21 @@
         "fecha": "2026-09-23T00:04:40.135Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSMTdBMjBCNTM4N0E1MjgwQTVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Llorente nariño hay una oficina de interrapidicimo",
+        "fecha": "2026-09-23T00:05:17.996Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-23T00:05:17.996Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSRDJBODg3REM1MENEQzQ2MTk1AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -514,7 +526,8 @@
       "celular": "1087805591",
       "departamento": "Llorente nariño",
       "ciudad": "Llorente",
-      "direccion": "Llorente nariño"
+      "direccion": "Llorente nariño",
+      "barrio": "En Llorente nariño hay una oficina de interrapidicimo"
     },
     "pausado": false,
     "etapaManual": null,
