@@ -174,8 +174,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T00:03:24.283Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-23T00:03:44.509Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -418,14 +418,27 @@
         "fecha": "2026-09-23T00:03:23.474Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSMDRFMjg1OTdGQ0Q1RDczQTZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Erika jazmín Ramírez mesías",
+        "fecha": "2026-09-23T00:03:43.486Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-23T00:03:43.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSQkQzMEJENDk3NjA4N0Q4RTNCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
       "precio": 289900,
-      "telefono": "573114344103"
+      "telefono": "573114344103",
+      "nombreCliente": "Erika jazmín Ramírez mesías"
     },
     "pausado": false,
     "etapaManual": null,
