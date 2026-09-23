@@ -210,8 +210,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T00:05:37.951Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-23T00:06:41.575Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -545,13 +545,25 @@
         "fecha": "2026-09-23T00:05:35.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSODE1RTJCOUQ2MEJENEYzMTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Confirmado",
+        "fecha": "2026-09-23T00:06:37.732Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, vamos con todo entonces! 🙌\n\nPara dejar tu pedido listo necesito estos datos:\n1. Nombre completo\n2. Número de celular\n3. Departamento\n4. Ciudad o municipio (y vereda)\n5. Dirección completa\n6. Barrio\n7. Cómo prefieres pagar: ¿contraentrega o transferencia?\n\nMe los puedes escribir todos juntos o uno por uno, como prefieras 😊",
+        "fecha": "2026-09-23T00:06:40.517Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSQTY1NzdGQUZEODgyNkVCQ0VDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
