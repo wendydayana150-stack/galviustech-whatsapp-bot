@@ -198,8 +198,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T00:04:22.413Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-23T00:04:41.025Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -490,9 +490,21 @@
         "fecha": "2026-09-23T00:04:21.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSRjVDNDRCNUVFMTc4RDZGRjgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Llorente nariño",
+        "fecha": "2026-09-23T00:04:40.135Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-23T00:04:40.135Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSMTdBMjBCNTM4N0E1MjgwQTVFAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -501,7 +513,8 @@
       "nombreCliente": "Erika jazmín Ramírez mesías",
       "celular": "1087805591",
       "departamento": "Llorente nariño",
-      "ciudad": "Llorente"
+      "ciudad": "Llorente",
+      "direccion": "Llorente nariño"
     },
     "pausado": false,
     "etapaManual": null,
