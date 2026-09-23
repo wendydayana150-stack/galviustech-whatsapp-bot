@@ -3,8 +3,8 @@
     "telefono": "573151123000",
     "nombre": "dayronprada17",
     "primerContacto": "2026-09-23T20:41:41.514Z",
-    "ultimoContacto": "2026-09-23T20:48:53.277Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-23T20:49:14.037Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -239,16 +239,23 @@
         "fecha": "2026-09-23T20:48:52.376Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxMTIzMDAwFQIAERgSNjlGNjRDN0M1NjY1Qzk4QkEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-09-23T20:49:13.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxMTIzMDAwFQIAERgSM0NDQzhEOThDMEM0NjlENTgyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Y si no coje señal si me regresan la plata\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573106245202",
