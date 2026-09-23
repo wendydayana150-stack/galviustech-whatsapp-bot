@@ -3,8 +3,8 @@
     "telefono": "573243349331",
     "nombre": "San jerónimo",
     "primerContacto": "2026-09-23T12:53:17.858Z",
-    "ultimoContacto": "2026-09-23T12:57:52.557Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T12:59:08.441Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-23T12:57:51.628Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzMzQ5MzMxFQIAERgSMEY5REE3RDY1QkE2NzA0ODBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-23T12:59:01.193Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, te cuento 😊 El módem que más te recomiendo para zona rural es el **4G/5G**, porque funciona tanto donde hay señal 4G como si más adelante llega 5G a tu zona, así no te quedas corto.\n\nLo bueno es que:\n✅ Conecta hasta 10 dispositivos a la vez\n✅ Capta mejor señal que un celular normal, ideal para veredas\n✅ Trae SIMCARD de Claro de regalo\n\nLa inversión es de **$249.900**, con garantía de 30 días y soporte de GalviusTech.\n\n¿Ya tienes algún tipo de conexión ahora mismo (datos del celular, WiFi prestado) o estás totalmente sin internet en tu zona?",
+        "fecha": "2026-09-23T12:59:07.557Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzMzQ5MzMxFQIAERgSOTY2NTJCMzc3REI3QjUxQjU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
