@@ -2422,8 +2422,8 @@
     "telefono": "573153310489",
     "nombre": "Idalit Bolaños",
     "primerContacto": "2026-09-22T22:49:46.145Z",
-    "ultimoContacto": "2026-09-22T22:49:46.145Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-23T01:32:34.874Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2456,13 +2456,25 @@
         "fecha": "2026-09-22T22:49:45.666Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzMzEwNDg5FQIAERgSMUU3MkQxNzc3QzQwREM2RTI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto cuesta ?",
+        "fecha": "2026-09-23T01:32:26.460Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto te cuento 😊\n\nPensando en que te sirva sin importar si en tu zona ya hay 5G o solo hay señal 4G, la opción más segura es el Modem 4G/5G: conecta hasta 10 dispositivos, tiene mejor cobertura que un celular normal (ideal si estás en zona rural) y trae SIM de regalo.\n\nLa inversión de este modem es de $249.900.\n\nCuéntame, ¿en qué ciudad o vereda lo usarías y para qué lo necesitas principalmente (trabajo, estudio, hogar)? Así te confirmo si es la mejor opción para ti 📶",
+        "fecha": "2026-09-23T01:32:33.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzMzEwNDg5FQIAERgSNkM4RTUyREYyRTcyRDI1RDg3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
