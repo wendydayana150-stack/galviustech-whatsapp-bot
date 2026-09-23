@@ -3,8 +3,8 @@
     "telefono": "573018992863",
     "nombre": "Estefania RH",
     "primerContacto": "2026-09-23T16:03:12.209Z",
-    "ultimoContacto": "2026-09-23T16:06:46.285Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T16:07:09.093Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-09-23T16:06:45.379Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4OTkyODYzFQIAERgSNjUwNzg1NzAyRkQzREZBNTAyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y quiciera saber que cobertura tiene ya que las de claro Tigo Movistar ETB no cubren la zona",
+        "fecha": "2026-09-23T16:06:58.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación, y te lo digo con toda honestidad: el módem funciona captando la señal de las redes móviles (Claro, Tigo, Movistar, WOM), así que si en ese punto exacto de la vereda **no llega absolutamente ninguna señal** de ningún operador, el módem no podría generar conexión, porque no puede crear señal donde no existe.\n\nAhora bien, lo que sí te puedo asegurar es que si hay aunque sea una señal débil o intermitente de alguno de esos operadores (por ejemplo que el celular a veces marca una rayita o \"sin servicio\" mientras camina), el módem la capta y la aprovecha mucho mejor que el celular, porque tiene una antena de mayor potencia. Muchas veces en la casa no hay señal pero unos metros más arriba o en un punto más alto sí llega algo.\n\n¿Me confirmas si en algún punto cercano a tu vivienda (un lote más alto, cerca de la carretera, etc.) el celular llega a marcar algo de señal aunque sea débil de Claro o Tigo? Así te oriento con seguridad si el módem sería una buena solución para ustedes 🙏",
+        "fecha": "2026-09-23T16:07:08.320Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4OTkyODYzFQIAERgSMjc1MUNGQ0MyQkI0ODg1MDk5AA=="
       }
     ],
     "paso": "conversando",
