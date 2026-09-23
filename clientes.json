@@ -241,8 +241,8 @@
     "telefono": "573028688449",
     "nombre": "Marcos",
     "primerContacto": "2026-09-23T03:15:12.947Z",
-    "ultimoContacto": "2026-09-23T03:30:10.067Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-23T03:30:15.150Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -316,13 +316,25 @@
         "fecha": "2026-09-23T03:30:09.077Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI4Njg4NDQ5FQIAERgSRDE3NUUyMjY5QTU0NUY5MjNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Norte de Santander",
+        "fecha": "2026-09-23T03:30:13.148Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En Cúcuta la cobertura de los operadores es buena, así que el módem 4G/5G te funcionaría muy bien 👍\n\nSobre el plan: el módem no viene con un plan fijo de nosotros, funciona con la SIMCARD (te regalamos una de Claro) y tú le recargas o contratas un plan de datos según cuánto vayas a usar internet en casa. Te recomiendo buscar con el operador un plan de datos por megas/GB (entre más alto mejor para varios dispositivos), ya que entre más recargues, más navegación tienes disponible.\n\nCuéntame, ¿cuántas personas o dispositivos se conectarían en tu casa? Así te doy una idea de cuántos GB te convendría manejar.",
+        "fecha": "2026-09-23T03:30:14.384Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4Njg4NDQ5FQIAERgSQkRCNEJERjBEMzFBMjQ4OTY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
