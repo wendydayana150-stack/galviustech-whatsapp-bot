@@ -64,8 +64,8 @@
     "telefono": "573233961710",
     "nombre": "H",
     "primerContacto": "2026-09-23T02:33:25.975Z",
-    "ultimoContacto": "2026-09-23T02:39:01.688Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-23T02:40:30.741Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -256,13 +256,25 @@
         "fecha": "2026-09-23T02:39:00.878Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzOTYxNzEwFQIAERgSRDBGQzlBNTEyMzc5RURDMDkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tiene uno que valga menos",
+        "fecha": "2026-09-23T02:40:25.366Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 Tenemos el Modem WiFi 4G, que es la opción más económica.\n\nLa inversión es de $219.900. Funciona igual de fácil (insertas la SIM, lo enciendes y ya tienes tu WiFi), conecta varios dispositivos y también trae su antena potente para captar mejor señal que un celular en zona rural. La única diferencia es que este es solo 4G, mientras que el 4G/5G también te sirve si en algún momento llega 5G a tu zona.\n\nCon la señal Claro que tienes cerca de la antena, el 4G te alcanza perfecto sin problema.\n\n¿Quieres que te deje el pedido con esta versión de $219.900?",
+        "fecha": "2026-09-23T02:40:29.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzOTYxNzEwFQIAERgSODI2NkM2MThDMzlDRDM5QzEzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
