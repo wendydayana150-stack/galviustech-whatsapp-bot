@@ -10886,8 +10886,8 @@
     "telefono": "573046427275",
     "nombre": "...",
     "primerContacto": "2026-09-22T13:34:39.657Z",
-    "ultimoContacto": "2026-09-23T13:56:12.761Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-09-23T13:56:57.067Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "bot",
@@ -11100,9 +11100,21 @@
         "fecha": "2026-09-23T13:56:11.641Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSRDlDNkE5NjQzRjI4QTc4NkQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 32#4-35 barrio arriba",
+        "fecha": "2026-09-23T13:56:56.111Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-23T13:56:56.111Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSRjlFNkQ4NUY4NjhBMDU4QkY0AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -11111,7 +11123,8 @@
       "nombreCliente": "Rosa sierra parra",
       "celular": "3216997070",
       "departamento": "Bolivar",
-      "ciudad": "Calamar bolivar"
+      "ciudad": "Calamar bolivar",
+      "direccion": "Calle 32#4-35 barrio arriba"
     },
     "pausado": false,
     "etapaManual": null,
