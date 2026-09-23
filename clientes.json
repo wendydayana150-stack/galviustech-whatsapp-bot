@@ -2162,8 +2162,8 @@
     "telefono": "573127905868",
     "nombre": "Camilo Robles",
     "primerContacto": "2026-09-23T01:49:53.085Z",
-    "ultimoContacto": "2026-09-23T11:04:41.609Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-23T11:04:54.881Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2325,6 +2325,18 @@
         "fecha": "2026-09-23T11:04:40.488Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSNjZEOERCQ0Y3MzY3NTcxNzQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No saben leer o q",
+        "fecha": "2026-09-23T11:04:50.406Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes razón, disculpa la insistencia 🙏 Ya quedo tranquila esperando tu mensaje cuando tú decidas escribirme. Que tengas un buen día.",
+        "fecha": "2026-09-23T11:04:53.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSMjUxNjVEMURBMjZBRkY3RkFEAA=="
       }
     ],
     "paso": "conversando",
@@ -2333,8 +2345,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No saben leer o q\"",
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-23"
