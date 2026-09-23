@@ -3,8 +3,8 @@
     "telefono": "573003636590",
     "nombre": "luz",
     "primerContacto": "2026-09-23T10:59:45.548Z",
-    "ultimoContacto": "2026-09-23T11:01:55.737Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-23T11:02:11.133Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,13 +73,25 @@
         "fecha": "2026-09-23T11:01:54.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzNjM2NTkwFQIAERgSNkU0ODdCNjFFMEE3QTk0NEQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para la Bogotá",
+        "fecha": "2026-09-23T11:02:05.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, con Bogotá tienes muy buena cobertura, así que no hay problema. 📶\n\nTe recomiendo el **Módem WiFi 4G/5G**: funciona tanto en 4G como en 5G, conecta hasta 10 dispositivos a la vez, es fácil de transportar y trae SIM card de regalo. Así tienes tu propia conexión sin depender del WiFi de nadie más.\n\nLa inversión es de $249.900, con garantía de 30 días y soporte de GalviusTech.\n\n¿Te ayudo a dejar tu pedido listo? Así me confirmas tu dirección y forma de pago (contraentrega o transferencia) 😊",
+        "fecha": "2026-09-23T11:02:10.377Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzNjM2NTkwFQIAERgSRUJCMjlCNjM5RkRBREE0NTdGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
