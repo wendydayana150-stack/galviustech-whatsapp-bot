@@ -3,8 +3,8 @@
     "telefono": "573151123000",
     "nombre": "dayronprada17",
     "primerContacto": "2026-09-23T20:41:41.514Z",
-    "ultimoContacto": "2026-09-23T20:44:45.922Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-23T20:45:19.031Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,6 +109,25 @@
         "fecha": "2026-09-23T20:44:45.083Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxMTIzMDAwFQIAERgSNTZDNEI4MjQ4OTlDOUEyQzg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si no coje señal si me regresan la plata",
+        "fecha": "2026-09-23T20:45:12.633Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación, es válido preguntarlo antes de decidir 😊\n\nComo te comentaba, en tu casa ya confirmaste que el celular capta señal de Tigo en algunas partes, así que el módem ahí sí va a funcionar y de hecho mucho mejor que el celular, por su antena más potente. Ese es un buen indicio de que te va a servir.\n\nAhora, sobre garantías: el módem tiene garantía de 30 días con GalviusTech por defectos de fábrica o mal funcionamiento del equipo. Para el tema puntual de devoluciones por cobertura te voy a confirmar bien las condiciones exactas con mi compañera para darte una respuesta 100% clara, no quiero decirte algo a medias.\n\nMientras tanto, ¿quieres que te vaya adelantando el pedido con tus datos para que en cuanto confirmemos eso ya esté todo listo para enviarte? 😊",
+        "fecha": "2026-09-23T20:45:17.616Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxMTIzMDAwFQIAERgSMkUwMTY2NkFCMkFENjNEQzk5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-23T20:45:18.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxMTIzMDAwFQIAERgSMzMzMEFFMDhFNzc0OTRFRDlEAA=="
       }
     ],
     "paso": "conversando",
@@ -117,8 +136,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Y si no coje señal si me regresan la plata\""
   },
   {
     "telefono": "573106245202",
