@@ -3,8 +3,8 @@
     "telefono": "573127905868",
     "nombre": "Camilo Robles",
     "primerContacto": "2026-09-23T01:49:53.085Z",
-    "ultimoContacto": "2026-09-23T01:52:32.106Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-23T01:54:21.925Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,13 +73,25 @@
         "fecha": "2026-09-23T01:52:30.536Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSRUQ0QUUzRUEzMEU5MjZDNzcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tiene uno más económico",
+        "fecha": "2026-09-23T01:54:17.024Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tenemos el Módem WiFi 4G que es la opción más económica, la inversión sería de $219.900.\n\nFunciona muy bien con red 4G de Claro, conecta varios dispositivos y también es portátil, ideal para trabajo diario. La diferencia con el 4G/5G es que este último te cubre también si en algún momento hay 5G disponible en alguna de tus zonas.\n\nPara tu caso, ¿alguna de las dos zonas donde te mueves ya tiene cobertura 5G, o realmente usas más la señal 4G normal?",
+        "fecha": "2026-09-23T01:54:20.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSMkJFREJBQTIzQTdDNTNEOUU5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
