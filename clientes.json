@@ -3,8 +3,8 @@
     "telefono": "573127905868",
     "nombre": "Camilo Robles",
     "primerContacto": "2026-09-23T01:49:53.085Z",
-    "ultimoContacto": "2026-09-23T01:51:34.536Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-23T01:52:32.106Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-23T01:51:33.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSOTI0M0MwNkJFM0EyNUE2Q0M1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy operador claro lo necesito para trabajos normales",
+        "fecha": "2026-09-23T01:52:25.367Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, con Claro tienes buena cobertura 👍\n\nPara trabajo diario en las dos zonas te recomiendo el Módem WiFi 4G/5G. Es la opción más segura porque funciona tanto donde solo hay señal 4G como donde ya hay 5G, así no dependes de adivinar la cobertura exacta de cada zona. Conecta hasta 10 dispositivos, es portátil y con su batería puedes llevarlo a donde te muevas, ideal si trabajas entre dos lugares distintos.\n\nLa inversión es de $249.900, e incluye SIMCARD de Claro de regalo 🎁, garantía de 30 días y soporte de nuestra parte.\n\n¿Ya tienes algún tipo de internet ahora mismo en esas zonas, o estarías empezando desde cero con el módem?",
+        "fecha": "2026-09-23T01:52:30.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTA1ODY4FQIAERgSRUQ0QUUzRUEzMEU5MjZDNzcyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
