@@ -52,8 +52,8 @@
     "telefono": "573103087816",
     "nombre": "Cristobal Rincon",
     "primerContacto": "2026-09-23T02:24:41.527Z",
-    "ultimoContacto": "2026-09-23T02:31:09.447Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-23T02:31:50.031Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -228,14 +228,27 @@
         "fecha": "2026-09-23T02:31:08.516Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMDg3ODE2FQIAERgSMzBBOEU3MDQyQjA2M0Y0RDU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mañana le confirmo  consulto con la familia",
+        "fecha": "2026-09-23T02:31:48.958Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-23T02:31:48.958Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDg3ODE2FQIAERgSNzFCODE2RDE5QUY0OEEyQTUzAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
-      "telefono": "573103087816"
+      "telefono": "573103087816",
+      "nombreCliente": "Mañana le confirmo  consulto con la familia"
     },
     "pausado": false,
     "etapaManual": null,
