@@ -52,8 +52,8 @@
     "telefono": "573217540180",
     "nombre": "sara",
     "primerContacto": "2026-09-23T02:20:49.936Z",
-    "ultimoContacto": "2026-09-23T02:22:47.444Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-23T02:23:04.124Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,13 +122,25 @@
         "fecha": "2026-09-23T02:22:46.373Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3NTQwMTgwFQIAERgSNjJBQTYyODE4NzEwNzUyMDNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El difícil ariguani magdalena",
+        "fecha": "2026-09-23T02:22:57.564Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, anotado: El Difícil (Ariguani), Magdalena. Como es zona rural, el envío llega para recoger en la oficina de Interrapidísimo (o Coordinadora si no hay cobertura ahí) más cercana a tu municipio, no directo a la finca.\n\n¿Seguimos entonces con tu pedido del Módem 4G/5G? Si es así, pásame tu nombre completo y número de celular para ir armando el envío 😊",
+        "fecha": "2026-09-23T02:23:03.038Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NTQwMTgwFQIAERgSMUQzMTc3Q0YxMUZFM0E5ODM3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
