@@ -10886,8 +10886,8 @@
     "telefono": "573046427275",
     "nombre": "...",
     "primerContacto": "2026-09-22T13:34:39.657Z",
-    "ultimoContacto": "2026-09-23T13:55:50.821Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-09-23T13:55:59.314Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "bot",
@@ -11076,16 +11076,29 @@
         "fecha": "2026-09-23T13:55:49.834Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSNkE2Qjc0NjBBNjNFNDJBRTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bolivar",
+        "fecha": "2026-09-23T13:55:58.308Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-23T13:55:58.309Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSOTMzOTkyRTA0MUEwREZDNThDAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573046427275",
       "nombreCliente": "Rosa sierra parra",
-      "celular": "3216997070"
+      "celular": "3216997070",
+      "departamento": "Bolivar"
     },
     "pausado": false,
     "etapaManual": null,
