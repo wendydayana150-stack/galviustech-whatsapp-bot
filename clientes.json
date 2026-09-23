@@ -52,8 +52,8 @@
     "telefono": "573126731747",
     "nombre": "fince horacio",
     "primerContacto": "2026-09-23T12:07:41.234Z",
-    "ultimoContacto": "2026-09-23T12:07:41.234Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-23T12:13:03.993Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,6 +86,18 @@
         "fecha": "2026-09-23T12:07:40.291Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NzMxNzQ3FQIAERgSMTE1OTg1OUVCNEVBNjcyQjg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En este momento estoy en maicao pero yo quiero para la rencheria yo pedí una y no me sirve no tiene cobertura para nada",
+        "fecha": "2026-09-23T12:12:55.912Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ay, lamento mucho escuchar eso 😔 Entiendo la frustración de haber comprado el módem esperando solucionar el tema de conexión en la ranchería y que no te esté dando cobertura.\n\nEsto ya es un caso puntual que requiere que lo revisemos con detalle (puede ser tema de la zona, de configuración, o algo con el equipo). Voy a escalar tu caso para que te den seguimiento personalizado y revisen bien qué está pasando con tu pedido.\n\nEn breve te contactamos para darle solución. ¿Me confirmas el número con el que hiciste el pedido o el nombre completo con el que compraste, para ubicarlo más rápido?",
+        "fecha": "2026-09-23T12:13:02.981Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NzMxNzQ3FQIAERgSMjg1QTQ3MjMxMkMyQTdBMjJGAA=="
       }
     ],
     "paso": "conversando",
@@ -94,8 +106,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"En este momento estoy en maicao pero yo quiero para la rencheria yo pedí una y no me sirve no tiene \""
   },
   {
     "telefono": "573137962375",
