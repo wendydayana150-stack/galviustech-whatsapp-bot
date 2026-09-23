@@ -1129,8 +1129,8 @@
     "telefono": "34695198113",
     "nombre": "Marilyn Ponzón",
     "primerContacto": "2026-09-23T20:13:54.036Z",
-    "ultimoContacto": "2026-09-23T20:14:51.606Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-23T22:29:26.181Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1187,6 +1187,25 @@
         "fecha": "2026-09-23T20:14:50.604Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMzQ2OTUxOTgxMTMVAgARGBJEQzJFQzU0MjE1OTc5RTUzQTIA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-23T22:28:18.731Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMzQ2OTUxOTgxMTMVAgARGBI3MTE5REMxRTM4MDk2MjE2NzUA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tengo claro lo de la SIM. Con los mismos planes de celular funciona?",
+        "fecha": "2026-09-23T22:29:19.712Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 👍 En general, sí funciona con el mismo plan de datos que tienes en tu celular, ya que el módem simplemente usa la SIM para conectarse a la red del operador, igual que lo haría tu celular.\n\nLo único que te recomiendo confirmar es que tu plan no tenga alguna restricción especial de \"solo datos para el celular\" (algunos operadores manejan eso en ciertos planes prepago). Si tienes un plan normal de datos, ya sea pospago o prepago, no deberías tener problema.\n\n¿Con qué operador tienes tu plan? Así te confirmo mejor si te aplicaría alguna restricción.",
+        "fecha": "2026-09-23T22:29:25.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMzQ2OTUxOTgxMTMVAgARGBJERTI2NjcyMTgyRjg1QTQzNEYA"
       }
     ],
     "paso": "conversando",
