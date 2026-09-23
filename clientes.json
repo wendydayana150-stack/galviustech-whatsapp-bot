@@ -3,8 +3,8 @@
     "telefono": "573103087816",
     "nombre": "Cristobal Rincon",
     "primerContacto": "2026-09-23T02:24:41.527Z",
-    "ultimoContacto": "2026-09-23T02:25:40.270Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T02:26:52.463Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-23T02:25:39.177Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMDg3ODE2FQIAERgSNEQyQkQwN0RERjYxQ0VENTBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Datos celular",
+        "fecha": "2026-09-23T02:26:45.170Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, o sea que ahorita dependes de los datos del celular... eso se agota rápido y en vereda la señal casi siempre es debilita 📵\n\nCon el módem WiFi 4G/5G resuelves eso: capta mejor señal que el celular (antena más potente, pensada justo para zonas rurales) y de ahí conectas varios dispositivos a la vez sin gastar tus datos del celular.\n\nCuéntame, ¿lo usarías más para trabajar, estudiar o para conectar a toda la familia en casa? Así te confirmo si te sirve la versión que te recomiendo.",
+        "fecha": "2026-09-23T02:26:51.535Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDg3ODE2FQIAERgSRDgwMTM5MDdGM0EwOTMwRTc2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
