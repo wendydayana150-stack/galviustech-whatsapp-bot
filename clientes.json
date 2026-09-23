@@ -624,7 +624,10 @@
     "ultimoProducto": null,
     "ultimaCategoria": null,
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573207513025",
@@ -673,7 +676,10 @@
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
-    "motivoAtencion": null
+    "motivoAtencion": null,
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573126731747",
@@ -734,7 +740,10 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"En este momento estoy en maicao pero yo quiero para la rencheria yo pedí una y no me sirve no tiene \""
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"En este momento estoy en maicao pero yo quiero para la rencheria yo pedí una y no me sirve no tiene \"",
+    "recordatorios": {
+      "horas2": true
+    }
   },
   {
     "telefono": "573137962375",
@@ -2022,7 +2031,8 @@
       "horas2": true,
       "promoDiariaFecha": "2026-9-23",
       "horas5": true,
-      "horas8": true
+      "horas8": true,
+      "horas11": true
     }
   },
   {
