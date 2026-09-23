@@ -52,8 +52,8 @@
     "telefono": "573005213646",
     "nombre": "Liliana",
     "primerContacto": "2026-09-23T03:12:45.300Z",
-    "ultimoContacto": "2026-09-23T03:19:56.517Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T03:21:02.757Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,13 +98,25 @@
         "fecha": "2026-09-23T03:19:55.634Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSOUVFOTU2RDBBQkE1RkI0NjgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio trabajo",
+        "fecha": "2026-09-23T03:20:54.661Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para uso de trabajo en tu barrio, te recomiendo el **Módem WiFi 4G/5G** 📶 — es la opción más segura porque funciona tanto con señal 4G como 5G, así que no importa cuál tengas más fuerte en tu zona, siempre te conecta.\n\nCon él puedes:\n✅ Conectar hasta 10 dispositivos a la vez\n✅ Trabajar sin depender del WiFi de otros lugares\n✅ Llevarlo a donde vayas, fácil de transportar\n\nLa inversión es de $249.900, incluye SIMCARD de Claro de regalo y garantía de 30 días con soporte de GalviusTech.\n\n¿Actualmente cómo te estás conectando para trabajar? ¿Datos del celular o WiFi de algún vecino?",
+        "fecha": "2026-09-23T03:21:01.716Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSRDlGMUQxMzI4RjQyNzE0OTFEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
