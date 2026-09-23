@@ -210,8 +210,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T00:05:18.940Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-23T00:05:37.951Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -526,21 +526,29 @@
         "fecha": "2026-09-23T00:05:17.996Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSRDJBODg3REM1MENEQzQ2MTk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contraentrega",
+        "fecha": "2026-09-23T00:05:35.056Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Erika jazmín Ramírez mesías\n*Celular:* 1087805591\n*Departamento:* Llorente nariño\n*Ciudad:* Llorente\n*Direccion:* Llorente nariño\n*Barrio:* En Llorente nariño hay una oficina de interrapidicimo\n*Producto:* COMBO Modem Wifi + Reloj Inteligente\n*Medio de pago:* Contraentrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-23T00:05:35.057Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSQ0QyNUE3MjE0QjJBNUNEMzhCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-23T00:05:35.622Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSODE1RTJCOUQ2MEJENEYzMTlEAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-modem-wifi-reloj-inteligente",
-      "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
-      "precio": 289900,
-      "telefono": "573114344103",
-      "nombreCliente": "Erika jazmín Ramírez mesías",
-      "celular": "1087805591",
-      "departamento": "Llorente nariño",
-      "ciudad": "Llorente",
-      "direccion": "Llorente nariño",
-      "barrio": "En Llorente nariño hay una oficina de interrapidicimo"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
