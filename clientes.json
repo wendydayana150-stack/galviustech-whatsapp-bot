@@ -3,8 +3,8 @@
     "telefono": "573207786812",
     "nombre": "Rey De Justicia",
     "primerContacto": "2026-09-23T18:46:05.919Z",
-    "ultimoContacto": "2026-09-23T18:47:08.081Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-23T18:49:14.437Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-09-23T18:47:07.219Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3Nzg2ODEyFQIAERgSMTdEQzkwRTkyNUUxNUExODk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo necesito para tda ocasión",
+        "fecha": "2026-09-23T18:49:03.607Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial, para eso te sirve perfecto! 🙌\n\nTe recomiendo el **Módem WiFi 4G/5G**: capta señal tanto en zonas donde solo hay 4G como donde ya hay 5G, así que sea donde sea que estés (finca, viaje, casa, trabajo) siempre tienes conexión lista, sin depender de instalaciones ni de fibra óptica. Conecta hasta 10 dispositivos y trae batería recargable para que lo lleves a cualquier lado.\n\nLa inversión es de $249.900, incluye SIMCARD de Claro de regalo y garantía de 30 días con soporte de GalviusTech.\n\nCuéntame, ¿en qué municipio o vereda te encuentras para confirmarte el envío, y cuántos dispositivos conectarías normalmente?",
+        "fecha": "2026-09-23T18:49:13.587Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3Nzg2ODEyFQIAERgSQjRDNzJDNjQ2RTY1RTAwNTM3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
