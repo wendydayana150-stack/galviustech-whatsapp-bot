@@ -7513,8 +7513,8 @@
     "telefono": "573114344103",
     "nombre": "Negrita 🥰🥰",
     "primerContacto": "2026-09-22T23:56:11.208Z",
-    "ultimoContacto": "2026-09-23T20:18:10.679Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-09-23T20:18:38.511Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7939,6 +7939,18 @@
         "fecha": "2026-09-23T20:18:09.609Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSMEZDNjIyNDkxOTg4QzI4QURGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero me a llegado un mensaje que son 299900",
+        "fecha": "2026-09-23T20:18:31.747Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ay, qué raro Érika 😳 el valor correcto de tu pedido es $249.900 contraentrega, tal cual te lo confirmé. No debiste recibir ningún mensaje con un valor distinto de nuestra parte.\n\nPara revisar bien qué pasó con ese mensaje de los $299.900, ya le voy a pasar tu caso a mi compañera para que lo revise contigo directamente y aclaremos esto rapidito. No te preocupes, tu pedido sigue confirmado por $249.900. 🙏",
+        "fecha": "2026-09-23T20:18:37.330Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzQ0MTAzFQIAERgSQUMyRkVCQzNDMDU2NTk1MUI2AA=="
       }
     ],
     "paso": "conversando",
@@ -7947,8 +7959,8 @@
     "etapaManual": "Datos completados",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Pero me a llegado un mensaje que son 299900\""
   },
   {
     "telefono": "573004772960",
