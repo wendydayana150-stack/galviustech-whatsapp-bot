@@ -10877,8 +10877,8 @@
     "telefono": "573046427275",
     "nombre": "...",
     "primerContacto": "2026-09-22T13:34:39.657Z",
-    "ultimoContacto": "2026-09-23T12:40:44.920Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-09-23T13:55:50.821Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "bot",
@@ -11055,15 +11055,28 @@
         "fecha": "2026-09-23T12:40:43.927Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSN0NFQkQ4QTk4OEJBQzBENEJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3216997070",
+        "fecha": "2026-09-23T13:55:49.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-23T13:55:49.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSNkE2Qjc0NjBBNjNFNDJBRTlEAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573046427275",
-      "nombreCliente": "Rosa sierra parra"
+      "nombreCliente": "Rosa sierra parra",
+      "celular": "3216997070"
     },
     "pausado": false,
     "etapaManual": null,
