@@ -10886,8 +10886,8 @@
     "telefono": "573046427275",
     "nombre": "...",
     "primerContacto": "2026-09-22T13:34:39.657Z",
-    "ultimoContacto": "2026-09-23T13:57:12.978Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-09-23T13:57:56.669Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "bot",
@@ -11124,21 +11124,29 @@
         "fecha": "2026-09-23T13:57:11.934Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSNTczMDUzODk5OUNCMEQ4QjVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contraentrega",
+        "fecha": "2026-09-23T13:57:54.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Rosa sierra parra\n*Celular:* 3216997070\n*Departamento:* Bolivar\n*Ciudad:* Calamar bolivar\n*Direccion:* Calle 32#4-35 barrio arriba\n*Barrio:* Barrio arriba\n*Producto:* COMBO Impresora Termica Portatil + Reloj\n*Medio de pago:* Contraentrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 3 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-23T13:57:54.143Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSNzk4NzczNkU1RTJFNzYzNkIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-23T13:57:54.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NDI3Mjc1FQIAERgSRjE1NEM5RTVBNjJGRjU0ODcwAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-reloj",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
-      "precio": 299900,
-      "telefono": "573046427275",
-      "nombreCliente": "Rosa sierra parra",
-      "celular": "3216997070",
-      "departamento": "Bolivar",
-      "ciudad": "Calamar bolivar",
-      "direccion": "Calle 32#4-35 barrio arriba",
-      "barrio": "Barrio arriba"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
