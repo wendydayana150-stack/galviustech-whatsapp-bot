@@ -3,8 +3,8 @@
     "telefono": "573209773826",
     "nombre": "..¿?...",
     "primerContacto": "2026-09-23T11:24:28.110Z",
-    "ultimoContacto": "2026-09-23T11:24:28.110Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-23T11:24:54.773Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,29 @@
         "fecha": "2026-09-23T11:24:27.383Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NzczODI2FQIAERgSNjNCNjc2REM3NEEzOTg1NTJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Chitaga",
+        "fecha": "2026-09-23T11:24:44.945Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información del Modem WiFi",
+        "fecha": "2026-09-23T11:24:49.297Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Chitagá, qué bueno! 🙌 Por ahí es zona donde normalmente no llega fibra óptica, así que el módem le cae perfecto: capta señal móvil con mejor potencia que un celular normal y la convierte en WiFi para tus dispositivos.\n\nCuéntame, ¿para qué lo necesitarías principalmente? ¿Trabajo, estudio, o para tener internet en casa/finca? Y ahorita mismo, ¿cómo estás conectándote, con datos del celular o sin nada fijo?",
+        "fecha": "2026-09-23T11:24:53.917Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzczODI2FQIAERgSMkU1MTRGREE2Mjg5RkI1MEQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, de GalviusTech 😊\n\nChitagá es zona rural, así que nuestro módem le va a servir muy bien ahí, capta mejor señal que un celular normal gracias a su antena.\n\nCuéntame, ¿qué operador maneja más señal en tu vereda (Claro, Movistar, Tigo, WOM)? Y ¿para qué lo necesitarías principalmente, trabajo, estudio, negocio u hogar?",
+        "fecha": "2026-09-23T11:24:54.531Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
