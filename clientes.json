@@ -3,8 +3,8 @@
     "telefono": "573225358200",
     "nombre": "Mary",
     "primerContacto": "2026-09-24T12:46:20.333Z",
-    "ultimoContacto": "2026-09-24T12:46:20.333Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-24T12:47:50.184Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-09-24T12:46:19.601Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1MzU4MjAwFQIAERgSN0VBRTBFMUJCNjVCQkM3MUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días para trabajo",
+        "fecha": "2026-09-24T12:47:42.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenos días! 😊 Qué bueno saber que la necesitas para el trabajo.\n\nCuéntame, ¿en qué tipo de trabajo la usarías? Por ejemplo, si eres de los que anda por fuera de la oficina visitando clientes, haciendo entregas, o si necesitas sacar facturas y cotizaciones al momento sin depender de ir a una papelería.\n\nCon esta impresora te la llevas en el bolso y en segundos tienes tu documento listo, ahí mismo donde estés, sin perder tiempo buscando dónde imprimir. 🖨️\n\n¿Me cuentas un poco más de tu trabajo para orientarte mejor?",
+        "fecha": "2026-09-24T12:47:48.779Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MzU4MjAwFQIAERgSMTRCNTg2QkE2MUQ2MjQ3OEM1AA=="
       }
     ],
     "paso": "conversando",
