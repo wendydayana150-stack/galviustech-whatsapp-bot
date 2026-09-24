@@ -39,8 +39,8 @@
     "telefono": "573124200468",
     "nombre": "MARY🥰",
     "primerContacto": "2026-09-24T13:27:03.018Z",
-    "ultimoContacto": "2026-09-24T13:29:48.027Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-24T13:31:33.509Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-09-24T13:29:47.055Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjAwNDY4FQIAERgSM0JEQUM1OEQ4QjRDODk2ODg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-09-24T13:31:28.533Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Vamos a dejar tu pedido listo. Necesito estos datos:\n\n1. Nombre completo\n2. Número de celular\n3. Departamento\n4. Ciudad o municipio (ya sé que es Pamplona, Norte de Santander)\n5. Dirección completa (o referencia si es zona rural)\n6. Barrio o vereda (ya tengo: vereda El Naranjo)\n7. Forma de pago: ¿contraentrega o transferencia?\n\nMe confirmas tu nombre completo y celular para ir avanzando? 😊",
+        "fecha": "2026-09-24T13:31:32.438Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjAwNDY4FQIAERgSN0UxM0ExQjhCNDcyQjhDQzY5AA=="
       }
     ],
     "paso": "conversando",
