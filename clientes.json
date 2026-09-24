@@ -3456,8 +3456,8 @@
     "telefono": "573222874458",
     "nombre": "Marlene Suarez",
     "primerContacto": "2026-09-24T17:00:46.454Z",
-    "ultimoContacto": "2026-09-24T17:04:17.760Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T22:58:51.710Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3495,6 +3495,46 @@
         "rol": "cliente",
         "texto": "Para vereda",
         "fecha": "2026-09-24T17:04:06.736Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-24T22:12:34.121Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODc0NDU4FQIAERgSQzgxNUU4NTc4M0U2RjI4NzNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-24T22:12:34.695Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODc0NDU4FQIAERgSODJFNjI5MzNFRkVFNEQwRTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T22:12:35.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODc0NDU4FQIAERgSNDUzMDQ5RjEzRjk2MUM5NEJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo funciona la impresora",
+        "fecha": "2026-09-24T22:58:50.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona (modelo similar)",
+        "fecha": "2026-09-24T22:58:50.383Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODc0NDU4FQIAERgSNzU1RDNDQ0JCQzlCQzYxMkFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-09-24T22:58:50.884Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODc0NDU4FQIAERgSRUIxMUREMjIyQjZDRTQ5RkJEAA=="
       }
     ],
     "paso": "conversando",
@@ -3508,7 +3548,8 @@
     "recordatorios": {
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573225647034",
