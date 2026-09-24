@@ -55,7 +55,7 @@ const sesiones = {};
 
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
-                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, preguntasPorProducto: {}, botonesOfrecidos: {} };
+                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, pausarSeguimiento: false, preguntasPorProducto: {}, botonesOfrecidos: {} };
         }
         return sesiones[telefono];
 }
@@ -108,6 +108,7 @@ async function cargarSesionSiNueva(telefono) {
                                             ultimaCategoria: cliente.ultimaCategoria || null,
                                             necesitaAtencion: !!cliente.necesitaAtencion,
                                             motivoAtencion: cliente.motivoAtencion || null,
+                                            pausarSeguimiento: !!cliente.pausarSeguimiento,
                                             // Contadores en memoria (no se persisten en clientes.json): cuantas
                                             // veces ha preguntado sobre cada producto puntual en esta sesion, y
                                             // si ya se le ofrecieron los botones de "Si, quiero este / Ver otros"
@@ -492,6 +493,23 @@ async function enviarInfoCategoria(telefono, categoria) {
                   await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
             }
             await enviarTexto(telefono, info.resumen);
+            // ANCLA DE PRECIO (sep-2026): antes esta categoria (ej. modem, con 3 versiones) no
+            // mostraba NINGUN precio hasta despues de la pregunta de descubrimiento, a proposito,
+            // para no empujar al cliente a comparar precio en frio (ver nota arriba). Pero el
+            // estudio del embudo de ventas mostro que ESE es, con diferencia, el punto donde mas
+            // clientes desaparecen: preguntan y se van sin saber siquiera el precio aproximado.
+            // Ahora se manda un precio "desde" de una vez (sin los 3 precios completos, para
+            // seguir sin invitar a comparar en frio) como ancla, antes de la pregunta.
+            const precios = productos.map((p) => p.precio).filter((n) => typeof n === "number").sort((a, b) => a - b);
+            if (precios.length > 0) {
+                  const precioDesde = precios[0];
+                  const precioHasta = precios[precios.length - 1];
+                  const lineaPrecio =
+                        precioDesde === precioHasta
+                              ? `Precio: ${formatearPrecio(precioDesde)}`
+                              : `Precio desde ${formatearPrecio(precioDesde)} (tenemos varias versiones, te recomiendo la que mejor te sirva segun tu caso)`;
+                  await enviarTexto(telefono, lineaPrecio);
+            }
       } else {
             for (const p of productos) {
                   if (p.imagenes && p.imagenes[0]) {
@@ -544,25 +562,21 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
             return;
       }
 
+      await enviarTexto(telefono, "Antes de confirmar tu pedido... 🎁 Por tiempo limitado puedes llevar:");
+
       for (const combo of combos) {
-            // Se mandan todas las fotos del combo (no solo la primera), igual que se hace con las
-            // del producto individual: con 1 sola foto muchas veces solo se alcanza a ver el
-            // producto principal y el regalo del combo queda invisible.
+            // Cada combo manda primero sus fotos (todas, no solo la primera: con 1 sola foto muchas
+            // veces solo se alcanza a ver el producto principal y el regalo del combo queda
+            // invisible) y JUSTO DESPUES su propio nombre y precio, para que quede clarisimo a cual
+            // combo pertenecen esas fotos, en vez de mandar todas las fotos de todos los combos
+            // primero y despues un solo resumen junto al final (ahi se pierde cual foto era de cual).
             for (const url of combo.imagenes || []) {
                   await enviarImagen(telefono, url, combo.nombreCorto);
             }
+            await enviarTexto(telefono, `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`);
       }
 
-      const lineasOfertas = combos
-            .map((combo) => `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`)
-            .join("\n\n");
-
-      await enviarTexto(
-            telefono,
-            "Antes de confirmar tu pedido... 🎁\n\n" +
-            `Por tiempo limitado puedes llevar:\n\n${lineasOfertas}\n\n` +
-            "Te animas a aprovechar alguna promocion?"
-            );
+      await enviarTexto(telefono, "Te animas a aprovechar alguna promocion?");
 
       const botones = combos.map((combo) => ({
             id: `combo_${combo.id}_${productoIdOriginal}`,
@@ -747,6 +761,54 @@ async function guardarJSON(url, datos, sha, mensaje) {
             );
 }
 
+// Cola de escritura por archivo (clientes.json / pedidos.json): cada actualizacion hace su propio
+// ciclo "leer -> modificar -> guardar" contra la API de GitHub, que solo permite un commit a la vez
+// por archivo (usa el sha como control de version). Antes, cuando dos de esas actualizaciones se
+// disparaban casi al mismo tiempo (por ejemplo: llega el webhook de "leido" de un mensaje justo
+// cuando el recordatorio automatico tambien esta guardando, o dos clientes escriben a la vez), las
+// dos leian el mismo sha, la primera en guardar ganaba y la segunda chocaba con un error 409/422.
+// Cada funcion reintentaba unas pocas veces (leyendo de nuevo), pero con tantas funciones tocando
+// el mismo archivo (guardarCliente, marcarEstadoMensaje, recordatorios, promo diaria, limpieza,
+// reactivacion, etc.) - y ahora ademas con los recordatorios y la promo corriendo tambien por
+// reloj (setInterval) y no solo cuando llega un mensaje - a veces se agotaban los reintentos y la
+// actualizacion se perdia en silencio. Esa perdida silenciosa fue la causa real de que el estado
+// "leido" (los chulos azules) casi nunca quedara guardado de forma permanente: WhatsApp SI avisaba
+// que el cliente habia leido el mensaje, pero la escritura a clientes.json chocaba y se descartaba.
+// Esta cola obliga a que todas las operaciones sobre el MISMO archivo se hagan una por una, en
+// orden, para que cada una lea siempre la version mas reciente y practicamente nunca choque consigo
+// misma (dentro de este mismo proceso).
+const colasEscrituraPorArchivo = new Map();
+function conColaDeArchivo(url, tarea) {
+      const anterior = colasEscrituraPorArchivo.get(url) || Promise.resolve();
+      const actual = anterior.then(tarea, tarea);
+      // Si "tarea" fallo, guardamos una version ya "atrapada" en el mapa para que el siguiente en
+      // la fila no se quede esperando una promesa rechazada (pero el error real se sigue
+      // propagando a quien llamo esta vez, mas abajo con "return actual").
+      colasEscrituraPorArchivo.set(url, actual.catch(() => {}));
+      return actual;
+}
+
+// Cola en memoria por numero de telefono (diagnostico sep-2026): cuando un mismo cliente manda
+// varios mensajes de WhatsApp seguidos y muy rapido (algo comun: la gente escribe en varios
+// mensajitos cortos en vez de uno solo), Meta manda un webhook POST distinto por cada uno, y este
+// servidor los procesaba en paralelo. Dos llamadas a preguntarleALaIA para el MISMO cliente
+// corriendo al tiempo pueden alternar sus pasos y dejar sesion.historial con dos mensajes "user"
+// seguidos sin un "assistant" en medio (ej. si el mensaje B alcanza a empujarse al historial antes
+// de que la respuesta de la IA para el mensaje A se haya guardado). La API de Anthropic exige que
+// los roles alternen estrictamente, asi que en cuanto el historial queda asi, esa llamada (y muchas
+// veces TODAS las siguientes con ese mismo cliente, porque el catch de preguntarleALaIA hace
+// historial.pop() y a veces termina borrando la respuesta buena en vez de la entrada danada) fallan,
+// y el cliente se queda viendo "Disculpa, tuve un problema para procesar tu mensaje" una y otra vez.
+// Esta cola obliga a que los mensajes de un mismo numero se procesen uno por uno, en el orden en que
+// llegaron, nunca en paralelo, eliminando la condicion de carrera de raiz.
+const colasPorTelefono = new Map();
+function conColaPorTelefono(telefono, tarea) {
+      const anterior = colasPorTelefono.get(telefono) || Promise.resolve();
+      const actual = anterior.then(tarea, tarea);
+      colasPorTelefono.set(telefono, actual.catch(() => {}));
+      return actual;
+}
+
 function actualizarCatalogoEnMemoria(nuevoCatalogo) {
       catalogo.length = 0;
       catalogo.push(...nuevoCatalogo);
@@ -780,17 +842,42 @@ function parsearLineas(texto) {
             .filter(Boolean);
 }
 
+// CRITICO: a diferencia de guardarCliente/marcarRecordatoriosEnviados/marcarPromoDiariaEnviada,
+// esta funcion NO reintentaba si otra escritura simultanea a pedidos.json dejaba el "sha" viejo
+// (error 409/422) - simplemente lo registraba en consola y se rendia, perdiendo el pedido EN
+// SILENCIO. Esto le paso de verdad a Jose Gabriel Diaz Gutierrez (584261736349, "venta de chimo al
+// detal"): el bot le confirmo "tu pedido queda completo", pero el pedido nunca quedo guardado en
+// pedidos.json. Ahora reintenta igual que las demas funciones, y devuelve true/false para que quien
+// llama sepa si de verdad quedo guardado antes de confirmarle al cliente que todo esta listo.
 async function guardarPedido(pedido) {
+      let exito = false;
+      await conColaDeArchivo(PEDIDOS_API, async () => {
+      let intentosRestantes = 4;
+      while (true) {
       try {
             const { datos, sha } = await leerJSON(PEDIDOS_API);
             datos.unshift({ ...pedido, fecha: new Date().toISOString() });
             await guardarJSON(PEDIDOS_API, datos, sha, "Nuevo pedido registrado");
+            exito = true;
+            return;
       } catch (error) {
+            const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+            if (esConflicto && intentosRestantes > 0) {
+                  intentosRestantes--;
+                  continue;
+            }
             console.error("Error guardando pedido:", error.response?.data || error.message);
+            return;
       }
+      }
+      });
+      return exito;
 }
 
-async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
+async function guardarCliente(telefono, nombreCliente) {
+      await conColaDeArchivo(CLIENTES_API, async () => {
+      let intentosRestantes = 4;
+      while (true) {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const ahora = new Date().toISOString();
@@ -809,6 +896,7 @@ async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
             existente.ultimaCategoria = sesion.ultimaCategoria || existente.ultimaCategoria || null;
             existente.necesitaAtencion = !!sesion.necesitaAtencion;
             existente.motivoAtencion = sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null;
+            existente.pausarSeguimiento = !!sesion.pausarSeguimiento || !!existente.pausarSeguimiento;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
       } else {
             datos.unshift({
@@ -826,27 +914,34 @@ async function guardarCliente(telefono, nombreCliente, intentosRestantes = 4) {
                   ultimaCategoria: sesion.ultimaCategoria || null,
                   necesitaAtencion: !!sesion.necesitaAtencion,
                   motivoAtencion: sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null,
+                  pausarSeguimiento: !!sesion.pausarSeguimiento,
             });
       }
 
       await guardarJSON(CLIENTES_API, datos, sha, "Registro de cliente actualizado");
+      return;
       } catch (error) {
-            // Conflicto: otra conversacion guardo clientes.json al mismo tiempo y el sha con el
-            // que leimos quedo desactualizado. Reintentamos leyendo la version mas reciente en
-            // vez de perder esta actualizacion del cliente (mismo patron que los recordatorios).
+            // Conflicto: otra escritura guardo clientes.json al mismo tiempo y el sha con el que
+            // leimos quedo desactualizado. Reintentamos leyendo la version mas reciente en vez de
+            // perder esta actualizacion del cliente (mismo patron que los recordatorios). Con la
+            // cola de arriba esto ya casi no deberia pasar dentro de este mismo proceso, pero se
+            // deja como respaldo por si la escritura choca con algo externo.
             const esConflicto = error.response?.status === 409 || error.response?.status === 422;
             if (esConflicto && intentosRestantes > 0) {
-                  await guardarCliente(telefono, nombreCliente, intentosRestantes - 1);
-                  return;
+                  intentosRestantes--;
+                  continue;
             }
             console.error("Error guardando cliente:", error.response?.data || error.message);
+            return;
       }
+      }
+      });
 }
 
 // Actualiza el estado de un mensaje ya enviado (enviado -> entregado -> leido) cuando llega el
 // webhook de "statuses" de Meta. Usa RANGO_ESTADO_MENSAJE para que un evento atrasado (ej. un
 // "delivered" que llega despues de que ya se registro "read") nunca retroceda el estado mostrado.
-async function marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestantes = 4) {
+async function marcarEstadoMensaje(telefono, wamid, nuevoEstado) {
       if (!telefono || !wamid) return;
       // Actualiza primero la sesion en memoria: es lo que ve el panel si esta conversacion ya
       // esta cargada, sin tener que esperar a la lectura/escritura de clientes.json.
@@ -857,6 +952,9 @@ async function marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestant
                   msjMemoria.estado = nuevoEstado;
             }
       }
+      await conColaDeArchivo(CLIENTES_API, async () => {
+      let intentosRestantes = 4;
+      while (true) {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const cliente = datos.find((c) => c.telefono === telefono);
@@ -865,17 +963,22 @@ async function marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestant
             if ((RANGO_ESTADO_MENSAJE[nuevoEstado] || 0) <= (RANGO_ESTADO_MENSAJE[msj.estado] || 0)) return;
             msj.estado = nuevoEstado;
             await guardarJSON(CLIENTES_API, datos, sha, "Estado de mensaje actualizado");
+            return;
       } catch (error) {
             const esConflicto = error.response?.status === 409 || error.response?.status === 422;
             if (esConflicto && intentosRestantes > 0) {
-                  await marcarEstadoMensaje(telefono, wamid, nuevoEstado, intentosRestantes - 1);
-                  return;
+                  intentosRestantes--;
+                  continue;
             }
             console.error("Error actualizando estado de mensaje:", error.response?.data || error.message);
+            return;
       }
+      }
+      });
 }
 
 async function alternarPausa(telefono) {
+      return await conColaDeArchivo(CLIENTES_API, async () => {
       const { datos, sha } = await leerJSON(CLIENTES_API);
       const cliente = datos.find((c) => c.telefono === telefono);
       if (!cliente) return null;
@@ -885,19 +988,23 @@ async function alternarPausa(telefono) {
             sesiones[telefono].pausado = cliente.pausado;
       }
       return cliente.pausado;
+      });
 }
 
 async function alternarEtapa(telefono, etapa) {
+      await conColaDeArchivo(CLIENTES_API, async () => {
       const { datos, sha } = await leerJSON(CLIENTES_API);
       const cliente = datos.find((c) => c.telefono === telefono);
       if (!cliente) return;
       cliente.etapaManual = etapa === "auto" ? null : etapa;
       await guardarJSON(CLIENTES_API, datos, sha, "Etapa de cliente actualizada");
+      });
 }
 
 // Quita a un cliente de la casilla de "Necesitan tu respuesta" sin necesidad de escribirle
 // (por si Wendy ya lo resolvio por fuera del panel, o solo quiere descartar el aviso).
 async function marcarAtencionResuelta(telefono) {
+      await conColaDeArchivo(CLIENTES_API, async () => {
       const { datos, sha } = await leerJSON(CLIENTES_API);
       const cliente = datos.find((c) => c.telefono === telefono);
       if (!cliente) return;
@@ -908,6 +1015,7 @@ async function marcarAtencionResuelta(telefono) {
             sesiones[telefono].necesitaAtencion = false;
             sesiones[telefono].motivoAtencion = null;
       }
+      });
 }
 
 async function enviarMensajeManual(telefono, texto) {
@@ -1010,11 +1118,12 @@ async function limpiarClientesAntiguos() {
       const ahora = Date.now();
       if (ahora - ultimaLimpieza < 24 * 60 * 60 * 1000) return;
       ultimaLimpieza = ahora;
+      await conColaDeArchivo(CLIENTES_API, async () => {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-            const limiteMs = 4 * 24 * 60 * 60 * 1000;
+            const limiteMs = 3 * 24 * 60 * 60 * 1000;
             const cantidadOriginal = datos.length;
             const datosFiltrados = datos.filter((c) => {
                   // Los clientes que ya compraron no se borran nunca, sin importar cuanto lleven sin
@@ -1030,11 +1139,12 @@ async function limpiarClientesAntiguos() {
                         const sigueExistiendo = datosFiltrados.some((c) => c.telefono === telefono);
                         if (!sigueExistiendo) delete sesiones[telefono];
                   }
-                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 4 dias sin contacto");
+                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 3 dias sin contacto");
             }
       } catch (error) {
             console.error("Error eliminando clientes antiguos:", error.response?.data || error.message);
       }
+      });
 }
 
 async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
@@ -1083,13 +1193,16 @@ let lineas = textoCompleto.split("\n");
       let productoId = null;
       let productoActual = null;
       let necesitaAsesor = false;
+      let pausarSeguimiento = false;
 
-      // La IA puede terminar su respuesta con hasta 3 lineas de control (nunca visibles para
+      // La IA puede terminar su respuesta con hasta 4 lineas de control (nunca visibles para
       // el cliente, el sistema las procesa por separado): PRODUCTO_ACTUAL (que producto
       // especifico se esta hablando, para enviar fotos/videos correctos despues), ACCION_PEDIDO
-      // (si el cliente ya confirmo que quiere comprar) y NECESITA_ASESOR (si la IA no pudo
-      // resolverle algo con seguridad al cliente). No asumimos un orden fijo entre ellas: se
-      // van revisando desde la ultima linea hacia atras hasta que una no coincida con ninguna.
+      // (si el cliente ya confirmo que quiere comprar), NECESITA_ASESOR (si la IA no pudo
+      // resolverle algo con seguridad al cliente) y PAUSAR_SEGUIMIENTO (si el cliente dijo
+      // explicitamente que el mismo va a avisar despues, o que no le escriban mas por ahora).
+      // No asumimos un orden fijo entre ellas: se van revisando desde la ultima linea hacia
+      // atras hasta que una no coincida con ninguna.
       let siguioQuitando = true;
       while (siguioQuitando && lineas.length > 0) {
             siguioQuitando = false;
@@ -1098,6 +1211,7 @@ let lineas = textoCompleto.split("\n");
             const matchPedido = ultimaLinea.match(/^ACCION_PEDIDO:\s*(\S+)/i);
             const matchProducto = ultimaLinea.match(/^PRODUCTO_ACTUAL:\s*(\S+)/i);
             const matchAsesor = ultimaLinea.match(/^NECESITA_ASESOR:\s*(\S+)/i);
+            const matchPausar = ultimaLinea.match(/^PAUSAR_SEGUIMIENTO:\s*(\S+)/i);
 
             if (matchPedido && !productoId) {
                   productoId = matchPedido[1].trim();
@@ -1111,12 +1225,16 @@ let lineas = textoCompleto.split("\n");
                   necesitaAsesor = /^s[ií]$/i.test(matchAsesor[1].trim());
                   lineas = lineas.slice(0, -1);
                   siguioQuitando = true;
+            } else if (matchPausar) {
+                  pausarSeguimiento = /^s[ií]$/i.test(matchPausar[1].trim());
+                  lineas = lineas.slice(0, -1);
+                  siguioQuitando = true;
             }
       }
 
       const mensajeVisible = lineas.join("\n").trim();
 
-return { mensajeVisible, productoId, productoActual, necesitaAsesor };
+return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento };
 }
 
 let ultimaRevisionRecordatorios = 0;
@@ -1138,6 +1256,12 @@ async function enviarRecordatoriosPendientes() {
             const pendientes = [];
             for (const c of datos) {
                   if (c.pausado) continue;
+                  // Si el cliente tiene un caso escalado pendiente de que Wendy responda,
+                  // no le mandamos recordatorios automaticos de venta encima de eso.
+                  if (c.necesitaAtencion) continue;
+                  // Si el cliente ya dijo explicitamente "yo aviso" / "no insistas" (PAUSAR_SEGUIMIENTO),
+                  // respetamos eso y no lo seguimos contactando automaticamente.
+                  if (c.pausarSeguimiento) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
                   if (!c.ultimoContacto) continue;
                   const recordatorios = c.recordatorios || {};
@@ -1151,12 +1275,41 @@ async function enviarRecordatoriosPendientes() {
                   if (!tier) continue;
 
                   if (recordatoriosEnviadosEnProceso.has(`${c.telefono}|${tier}`)) continue;
-                  pendientes.push({ telefono: c.telefono, tier, productoId: c.pedido?.productoId || null });
+                  pendientes.push({ telefono: c.telefono, tier, productoId: c.pedido?.productoId || null, paso: c.paso || null });
             }
 
             for (const p of pendientes) {
                   const clave = `${p.telefono}|${p.tier}`;
                   try {
+                        // CRITICO: si todavia no existe una sesion en memoria para este cliente (por
+                        // ejemplo justo despues de que el servidor reinicio), hay que cargarla desde
+                        // clientes.json ANTES de mandarle cualquier mensaje. Si no, el primer
+                        // enviarTexto() de aqui abajo crea sin querer una sesion en blanco (via
+                        // obtenerSesion), y esa sesion en blanco (paso "inicio", sin historial) le
+                        // "gana" para siempre a la real: cuando el cliente responda, cargarSesionSiNueva
+                        // ya no hace nada porque la sesion "ya existe", y el bot lo trata como si fuera
+                        // nuevo (le manda el saludo genérico) y ademas termina SOBREESCRIBIENDO su
+                        // conversacion guardada con la version en blanco la proxima vez que se guarde.
+                        // Este fue el bug que le paso a Marbel Gutierrez Bustos (573171166841).
+                        await cargarSesionSiNueva(p.telefono);
+                        // Si el cliente se quedo A MITAD del flujo de pedido (ya dio varios de sus
+                        // datos, ej. nombre/celular/ciudad, y solo falta uno o dos), un recordatorio
+                        // generico de "sigues interesado" lo hace sentir que tiene que empezar de
+                        // cero. Es mucho mas efectivo decirle exactamente cual es el unico dato que
+                        // falta para despachar su pedido.
+                        const definicionFaltante = p.paso
+                              ? DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === p.paso)
+                              : null;
+
+                        if (definicionFaltante) {
+                              await enviarTexto(
+                                    p.telefono,
+                                    config.mensajeRecordatorioPedidoPendiente(definicionFaltante.pregunta, p.tier)
+                                    );
+                              recordatoriosEnviadosEnProceso.add(clave);
+                              continue;
+                        }
+
                         const producto = p.productoId ? catalogo.find((prod) => prod.id === p.productoId) : null;
                         const nombreProducto = producto?.nombre || null;
                         const precioTexto = producto ? formatearPrecio(producto.precio) : null;
@@ -1191,7 +1344,10 @@ async function enviarRecordatoriosPendientes() {
 // clientes.json (no sobre la copia que se leyo al inicio), y reintenta si otra escritura
 // simultanea invalido el sha. Asi no se pisan cambios que otra conversacion haya guardado mientras
 // se enviaban los mensajes.
-async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
+async function marcarRecordatoriosEnviados(pendientes) {
+      await conColaDeArchivo(CLIENTES_API, async () => {
+      let intentosRestantes = 4;
+      while (true) {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             let cambios = false;
@@ -1206,17 +1362,21 @@ async function marcarRecordatoriosEnviados(pendientes, intentosRestantes = 4) {
             }
             if (!cambios) return;
             await guardarJSON(CLIENTES_API, datos, sha, "Recordatorios de remarketing enviados");
+            return;
       } catch (error) {
             const esConflicto = error.response?.status === 409 || error.response?.status === 422;
             if (esConflicto && intentosRestantes > 0) {
-                  await marcarRecordatoriosEnviados(pendientes, intentosRestantes - 1);
-                  return;
+                  intentosRestantes--;
+                  continue;
             }
             console.error(
                   "Error guardando banderas de recordatorios (los mensajes ya se enviaron; el respaldo en memoria evita que se repitan):",
                   error.response?.data || error.message
                   );
+            return;
       }
+      }
+      });
 }
 
 // Promocion diaria "solo por hoy" para TODOS los clientes que aun no han comprado, segun en que
@@ -1287,6 +1447,10 @@ async function ejecutarPromoDiaria() {
                   if (!nombreProductoPlantilla) continue;
 
                   try {
+                        // Cargar la sesion real ANTES de mandar la plantilla, para no crear sin
+                        // querer una sesion en blanco que despues le gane a la real (ver comentario
+                        // detallado en enviarRecordatoriosPendientes, mismo bug).
+                        await cargarSesionSiNueva(c.telefono);
                         await enviarPlantillaReactivacion(c.telefono, c.nombre || "cliente", nombreProductoPlantilla);
                         promoDiariaEnviadaEnProceso.add(`${c.telefono}|${hoyBogota}`);
                         enviados.push(c.telefono);
@@ -1305,7 +1469,10 @@ async function ejecutarPromoDiaria() {
       }
 }
 
-async function marcarPromoDiariaEnviada(telefonos, fechaTexto, intentosRestantes = 4) {
+async function marcarPromoDiariaEnviada(telefonos, fechaTexto) {
+      await conColaDeArchivo(CLIENTES_API, async () => {
+      let intentosRestantes = 4;
+      while (true) {
       try {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             let cambios = false;
@@ -1320,17 +1487,21 @@ async function marcarPromoDiariaEnviada(telefonos, fechaTexto, intentosRestantes
             }
             if (!cambios) return;
             await guardarJSON(CLIENTES_API, datos, sha, "Promo diaria enviada");
+            return;
       } catch (error) {
             const esConflicto = error.response?.status === 409 || error.response?.status === 422;
             if (esConflicto && intentosRestantes > 0) {
-                  await marcarPromoDiariaEnviada(telefonos, fechaTexto, intentosRestantes - 1);
-                  return;
+                  intentosRestantes--;
+                  continue;
             }
             console.error(
                   "Error guardando bandera de promo diaria (los mensajes ya se enviaron; el respaldo en memoria evita que se repitan):",
                   error.response?.data || error.message
                   );
+            return;
       }
+      }
+      });
 }
 
 let ultimaFechaPromoDiaria = null;
@@ -1483,21 +1654,21 @@ async function manejarSeleccionProducto(telefono, productoId) {
       const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
 
       if (combos.length > 0) {
+            await enviarTexto(
+                  telefono,
+                  `Tambien tenemos estas promociones que incluyen el ${producto.nombreCorto || producto.nombre}:`
+                  );
             for (const combo of combos) {
-                  // Se mandan todas las fotos del combo (no solo la primera), igual que se hace con
-                  // las del producto individual arriba: con 1 sola foto muchas veces solo se alcanza
-                  // a ver el producto principal y el regalo del combo queda invisible.
+                  // Cada combo manda primero sus fotos (todas, no solo la primera: con 1 sola foto
+                  // muchas veces solo se alcanza a ver el producto principal y el regalo del combo
+                  // queda invisible) y JUSTO DESPUES su propio nombre y precio, para que quede
+                  // clarisimo a cual combo pertenecen esas fotos, en vez de mandar todas las fotos de
+                  // todos los combos primero y un solo resumen junto al final.
                   for (const url of combo.imagenes || []) {
                         await enviarImagen(telefono, url, combo.nombreCorto);
                   }
+                  await enviarTexto(telefono, `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`);
             }
-            const lineasOfertas = combos
-                  .map((combo) => `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`)
-                  .join("\n\n");
-            await enviarTexto(
-                  telefono,
-                  `Tambien tenemos estas promociones que incluyen el ${producto.nombreCorto || producto.nombre}:\n\n${lineasOfertas}`
-                  );
             const botones = combos.map((combo) => ({
                   id: `combo_${combo.id}_${producto.id}`,
                   titulo: etiquetaBotonCombo(combo),
@@ -1557,12 +1728,23 @@ async function iniciarPedido(telefono, productoId) {
                   telefono,
                   `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Como ya tengo tus datos de un pedido anterior, los voy a usar para este nuevo pedido. Si necesitas cambiar algo (direccion, celular, etc.) dime cual y te lo corrijo.`
                   );
-            if ((nuevoPedido.medioPago || "").toLowerCase().includes("transf")) {
-                  await enviarTexto(telefono, config.mensajeDatosTransferencia);
+            // Mismo fix que en manejarFlujoPedido: guardar PRIMERO, confirmar solo si de verdad
+            // quedo guardado (ver comentario detallado junto a guardarPedido).
+            const guardadoExitoso = await guardarPedido(nuevoPedido);
+            if (guardadoExitoso) {
+                  if ((nuevoPedido.medioPago || "").toLowerCase().includes("transf")) {
+                        await enviarTexto(telefono, config.mensajeDatosTransferencia);
+                  }
+                  await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
+                  await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+            } else {
+                  await enviarTexto(
+                        telefono,
+                        "Ya tengo todos tus datos, pero tuve un problema tecnico dejando tu pedido registrado en el sistema. Dame un momento para confirmarte que quedo todo listo, no te preocupes que tus datos no se pierden."
+                        );
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = "No se pudo guardar el pedido automaticamente por un fallo tecnico (repeticion de pedido con datos anteriores). Revisar y registrar el pedido manualmente.";
             }
-            await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
-            await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
-            await guardarPedido(nuevoPedido);
             return;
       }
 
@@ -1575,6 +1757,128 @@ async function iniciarPedido(telefono, productoId) {
             );
 }
 
+// Lista de departamentos de Colombia (incluye Bogota, aunque tecnicamente es un distrito
+// capital y no un departamento) usada para detectar el departamento en cualquier parte de un
+// mensaje del cliente, sin importar tildes o mayusculas/minusculas.
+const DEPARTAMENTOS_COLOMBIA = [
+      "Amazonas", "Antioquia", "Arauca", "Atlantico", "Bogota", "Bolivar", "Boyaca", "Caldas",
+      "Caqueta", "Casanare", "Cauca", "Cesar", "Choco", "Cordoba", "Cundinamarca", "Guainia",
+      "Guaviare", "Huila", "La Guajira", "Guajira", "Magdalena", "Meta", "Narino",
+      "Norte de Santander", "Putumayo", "Quindio", "Risaralda", "San Andres", "Santander",
+      "Sucre", "Tolima", "Valle del Cauca", "Valle", "Vaupes", "Vichada",
+];
+
+function quitarTildes(texto) {
+      return (texto || "").normalize("NFD").replace(/[̀-ͯ]/g, "");
+}
+
+// Cuando un cliente manda varios datos del pedido juntos en un solo mensaje (ej. "Yoleidis rios
+// 3145681361 Tolima combenio kra2#8-35 pasos arriba de la estacion de policia"), esta funcion
+// intenta rescatar el celular, el departamento y el medio de pago sin importar en que parte del
+// mensaje esten, para no tener que volver a pedirlos si ya vinieron ahi. Tambien devuelve el
+// texto ANTES del primer dato encontrado, que sirve para aislar el nombre del resto del mensaje
+// (en el ejemplo de arriba, "Yoleidis rios"). Deliberadamente NO intenta separar ciudad,
+// direccion o barrio de un mensaje mixto: eso es mucho mas ambiguo y el riesgo de guardar mal
+// esos datos es mayor que el de simplemente volver a preguntarlos.
+function extraerCamposPedido(texto) {
+      const original = texto || "";
+      const resultado = { celular: null, departamento: null, medioPago: null, posicionPrimerDato: null };
+
+      const marcarPosicion = (indice) => {
+            if (indice === -1 || indice === undefined) return;
+            if (resultado.posicionPrimerDato === null || indice < resultado.posicionPrimerDato) {
+                  resultado.posicionPrimerDato = indice;
+            }
+      };
+
+      const matchCelular = original.match(/(?:\+?57[\s-]*)?(\d[\d\s-]{5,12}\d)/);
+      if (matchCelular) {
+            const digitos = matchCelular[1].replace(/\D/g, "");
+            if (digitos.length >= 7 && digitos.length <= 10) {
+                  resultado.celular = digitos;
+                  marcarPosicion(matchCelular.index);
+            }
+      }
+
+      const textoSinTildes = quitarTildes(original).toLowerCase();
+      for (const depto of DEPARTAMENTOS_COLOMBIA) {
+            const deptoSinTildes = quitarTildes(depto).toLowerCase();
+            const indice = textoSinTildes.indexOf(deptoSinTildes);
+            if (indice !== -1) {
+                  resultado.departamento = depto === "Guajira" ? "La Guajira" : depto === "Valle" ? "Valle del Cauca" : depto;
+                  marcarPosicion(indice);
+                  break;
+            }
+      }
+
+      const matchPago = original.match(/contra\s*entrega|efectivo|transferencia|nequi|daviplata|bancolombia|\bpse\b|tarjeta|\bgiro\b/i);
+      if (matchPago) {
+            resultado.medioPago = matchPago[0];
+            marcarPosicion(matchPago.index);
+      }
+
+      resultado.textoAntesDelPrimerDato =
+            resultado.posicionPrimerDato !== null ? original.slice(0, resultado.posicionPrimerDato).trim() : null;
+
+      return resultado;
+}
+
+// Define, en orden, cada campo que necesita el flujo de pedido: en que paso se pide, con que
+// "tipo" se valida (ver pareceRespuestaValidaPedido), que pregunta se manda y que mensaje de
+// error se manda si la respuesta no parece valida. manejarFlujoPedido usa esta lista para saber
+// dinamicamente cual es el siguiente dato que falta, en lugar de avanzar paso por paso a ciegas.
+const DEFINICIONES_CAMPOS_PEDIDO = [
+      {
+            campo: "nombreCliente",
+            paso: "pedido_nombre",
+            tipo: "nombre",
+            pregunta: "Para empezar, cual es tu nombre completo?",
+            mensajeError: "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+      },
+      {
+            campo: "celular",
+            paso: "pedido_celular",
+            tipo: "celular",
+            pregunta: "Cual es tu numero de celular?",
+            mensajeError: "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?",
+      },
+      {
+            campo: "departamento",
+            paso: "pedido_departamento",
+            tipo: "departamento",
+            pregunta: "En que departamento vives?",
+            mensajeError: "Disculpa, no entendi bien ese departamento. Me lo confirmas de nuevo?",
+      },
+      {
+            campo: "ciudad",
+            paso: "pedido_ciudad",
+            tipo: "ciudad",
+            pregunta: "Y en que ciudad o municipio?",
+            mensajeError: "No logre entender la ciudad o municipio. Me la puedes escribir de nuevo?",
+      },
+      {
+            campo: "direccion",
+            paso: "pedido_direccion",
+            tipo: "direccion",
+            pregunta: "Cual es tu direccion completa?",
+            mensajeError: "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)?",
+      },
+      {
+            campo: "barrio",
+            paso: "pedido_barrio",
+            tipo: "barrio",
+            pregunta: "En que barrio queda esa direccion?",
+            mensajeError: "No logre entender el barrio. Me lo puedes confirmar de nuevo?",
+      },
+      {
+            campo: "medioPago",
+            paso: "pedido_pago",
+            tipo: "pago",
+            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+            mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia u otro?",
+      },
+];
+
 // Valida que la respuesta del cliente durante el flujo de pedido tenga un minimo de sentido para
 // el campo que se esta pidiendo, para no avanzar el pedido con datos que claramente son basura
 // (ej. "Gfh", "asdf", una respuesta de pago que no es ninguna de las opciones). No puede detectar
@@ -1586,10 +1890,13 @@ function pareceRespuestaValidaPedido(texto, tipo) {
 
       const tieneVocal = /[aeiouáéíóúAEIOUÁÉÍÓÚ]/.test(limpio);
       const soloLetrasYEspacios = /^[a-zA-ZÀ-ÿ\s.'-]+$/.test(limpio);
+      const tieneLetra = /[a-zA-ZÀ-ÿ]/.test(limpio);
 
       switch (tipo) {
             case "nombre":
-                  return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
+                  // tieneLetra evita que un numero de celular u otro texto sin ninguna letra
+                  // (que no es "solo letras y espacios") se cuele como si fuera un nombre valido.
+                  return limpio.length >= 3 && tieneLetra && (!soloLetrasYEspacios || tieneVocal);
             case "celular": {
                   const digitos = limpio.replace(/\D/g, "");
                   return digitos.length >= 7;
@@ -1607,93 +1914,157 @@ function pareceRespuestaValidaPedido(texto, tipo) {
       }
 }
 
+// Detecta si, en medio del flujo de pedido, el cliente en realidad esta preguntando algo (por
+// ejemplo sobre el producto, el envio o un repuesto) en vez de responder el dato que se le pidio.
+// No puede detectar toda pregunta posible (algunas no llevan signos ni palabras interrogativas
+// claras), pero cubre los casos mas comunes sin generar falsos positivos sobre respuestas cortas
+// normales como "Contraentrega" o "Envigado".
+// tipoEsperado (opcional) es el tipo de dato que se le pidio (ver DEFINICIONES_CAMPOS_PEDIDO): para
+// el celular, que tiene un formato muy especifico (digitos), lo usamos como señal extra: un mensaje
+// con letras y sin ni siquiera un numero parecido a un celular es mucho mas probable que sea un
+// comentario o pregunta metida en medio del flujo, que un intento real de responder el celular.
+function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
+      const limpio = (texto || "").trim();
+      if (!limpio) return false;
+      if (/[?¿]/.test(limpio)) return true;
+
+      const palabras = limpio.toLowerCase().split(/\s+/).filter(Boolean);
+
+      const inicios = [
+            "que", "qué", "cual", "cuál", "cuales", "cuáles", "como", "cómo", "cuando", "cuándo",
+            "donde", "dónde", "cuanto", "cuánto", "cuantos", "cuántos", "cuantas", "cuántas",
+            "tiene", "tienen", "hay", "cuentame", "cuéntame", "explicame", "explícame",
+            "hablame", "háblame", "dime", "dígame", "digame",
+            // Abreviaturas muy comunes al escribir rapido en Colombia ("q" por "que", "xq"/"pq" por
+            // "por que"), que sin esto se cuelan como si fueran una respuesta normal del pedido.
+            "q", "xq", "pq",
+            ];
+      // Revisamos las primeras 2 palabras (no solo la primera) para cubrir preguntas como "Con
+      // cuantos gigas viene" o "De que color es", sin llegar a revisar todo el mensaje (eso ya
+      // subiria el riesgo de falsos positivos sobre datos reales del pedido).
+      if (palabras.length >= 3 && palabras.slice(0, 2).some((palabra) => inicios.includes(palabra))) {
+            return true;
+      }
+
+      // Preguntas frecuentes sobre el producto que NO empiezan con una palabra interrogativa
+      // clasica (ej. "Y las hojas las envian", "Eso incluye envio", "Trae cargador") tampoco las
+      // detecta el chequeo de arriba, y se colaban como si fueran la respuesta al dato que se
+      // estaba pidiendo. Asi paso con un pedido real: "Y las hojas las envian" quedo guardado
+      // como si fuera el nombre completo del cliente (24-sep-2026, Constanza). Buscamos estos
+      // verbos tipicos de pregunta sobre el producto en cualquier parte de un mensaje corto (hasta
+      // 6 palabras), sin exigir que esten al inicio.
+      const verbosDePregunta = [
+            "envian", "envía", "envia", "incluye", "incluyen", "trae", "traen", "viene", "vienen",
+            "cabe", "caben", "sirve", "sirven", "dura", "duran", "demora", "demoran",
+            ];
+      if (palabras.length <= 6 && palabras.some((palabra) => verbosDePregunta.includes(palabra))) {
+            return true;
+      }
+
+      if (tipoEsperado === "celular" && palabras.length >= 2) {
+            const digitos = limpio.replace(/\D/g, "");
+            const tieneLetra = /[a-zA-ZÀ-ÿ]/.test(limpio);
+            // Menos de 7 digitos y con letras: no es un intento razonable de dar el numero, es otra
+            // cosa (duda, comentario, pregunta sin signos ni palabra interrogativa reconocida).
+            if (digitos.length < 7 && tieneLetra) return true;
+      }
+
+      return false;
+}
+
 async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
+      const definicionActual = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === sesion.paso);
+      if (!definicionActual) return false;
 
-      if (sesion.paso === "pedido_nombre") {
-            if (!pareceRespuestaValidaPedido(texto, "nombre")) {
-                  await enviarTexto(telefono, "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?");
-                  return true;
+      // Si en medio del flujo de pedido el cliente en realidad esta haciendo una pregunta (no
+      // dando el dato que se le pidio), no la tratemos como si fuera la respuesta del campo
+      // actual (eso guardaria basura como "nombre" y dejaria la pregunta sin contestar). En su
+      // lugar, respondemos la pregunta con la IA (con el catalogo completo disponible) y despues
+      // volvemos a hacer la misma pregunta del campo pendiente, sin perder el avance del pedido.
+      if (pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
+            const productoIdEnfoque = sesion.pedido?.productoId || sesion.ultimoProducto || null;
+            const enfoqueProducto = productoIdEnfoque ? { tipo: "producto", valor: productoIdEnfoque } : null;
+            try {
+                  const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+                  if (mensajeVisible) {
+                        await enviarTexto(telefono, mensajeVisible);
+                  }
+            } catch (error) {
+                  console.error("Error respondiendo pregunta durante el flujo de pedido:", error.response?.data || error.message);
             }
-            sesion.pedido.nombreCliente = texto;
-            sesion.paso = "pedido_celular";
-            await enviarTexto(telefono, "Gracias. Cual es tu numero de celular?");
+            await enviarTexto(telefono, definicionActual.pregunta);
             return true;
       }
 
-      if (sesion.paso === "pedido_celular") {
-            if (!pareceRespuestaValidaPedido(texto, "celular")) {
-                  await enviarTexto(telefono, "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?");
+      // Intenta rescatar datos que el cliente haya mandado todos juntos en un solo mensaje
+      // (celular, departamento, medio de pago), sin importar en que paso del flujo estemos. Solo
+      // los llena si todavia no los teniamos, para no pisar un dato ya confirmado antes con un
+      // falso positivo de un mensaje posterior (ej. una direccion que por casualidad contenga una
+      // secuencia de numeros parecida a un celular).
+      const extraidos = extraerCamposPedido(texto);
+      if (!sesion.pedido.celular && extraidos.celular) sesion.pedido.celular = extraidos.celular;
+      if (!sesion.pedido.departamento && extraidos.departamento) sesion.pedido.departamento = extraidos.departamento;
+      if (!sesion.pedido.medioPago && extraidos.medioPago) sesion.pedido.medioPago = extraidos.medioPago;
+
+      // Si el campo del paso actual sigue vacio (no vino en la extraccion de arriba), lo
+      // validamos y lo llenamos con la respuesta de este mensaje, igual que antes.
+      if (!sesion.pedido[definicionActual.campo]) {
+            // Para el nombre: si en el mismo mensaje detectamos otros datos (celular, departamento,
+            // etc.), usamos solo el texto ANTES del primer dato encontrado, para no guardar el
+            // mensaje completo como si fuera el nombre.
+            let textoParaValidar = texto;
+            if (definicionActual.campo === "nombreCliente" && extraidos.textoAntesDelPrimerDato) {
+                  textoParaValidar = extraidos.textoAntesDelPrimerDato;
+            }
+
+            if (!pareceRespuestaValidaPedido(textoParaValidar, definicionActual.tipo)) {
+                  await enviarTexto(telefono, definicionActual.mensajeError);
                   return true;
             }
-            sesion.pedido.celular = texto;
-            sesion.paso = "pedido_departamento";
-            await enviarTexto(telefono, "En que departamento vives?");
-            return true;
+
+            sesion.pedido[definicionActual.campo] = textoParaValidar;
       }
 
-      if (sesion.paso === "pedido_departamento") {
-            if (!pareceRespuestaValidaPedido(texto, "departamento")) {
-                  await enviarTexto(telefono, "Disculpa, no entendi bien ese departamento. Me lo confirmas de nuevo?");
-                  return true;
-            }
-            sesion.pedido.departamento = texto;
-            sesion.paso = "pedido_ciudad";
-            await enviarTexto(telefono, "Y en que ciudad o municipio?");
-            return true;
-      }
+      // Busca cual es el siguiente campo que todavia falta, saltando los que ya se llenaron (por
+      // ejemplo porque el cliente los mando todos juntos en un solo mensaje), en lugar de avanzar
+      // paso por paso a ciegas.
+      const siguienteFaltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => !sesion.pedido[d.campo]);
 
-      if (sesion.paso === "pedido_ciudad") {
-            if (!pareceRespuestaValidaPedido(texto, "ciudad")) {
-                  await enviarTexto(telefono, "No logre entender la ciudad o municipio. Me la puedes escribir de nuevo?");
-                  return true;
-            }
-            sesion.pedido.ciudad = texto;
-            sesion.paso = "pedido_direccion";
-            await enviarTexto(telefono, "Cual es tu direccion completa?");
-            return true;
-      }
+      if (!siguienteFaltante) {
+            // Guardamos el pedido ANTES de decirle al cliente que "ya quedo listo": si le
+            // confirmamos primero y el guardado falla despues, el cliente se queda tranquilo
+            // pensando que ya compro, pero el pedido nunca llega a Dropi/despacho. Asi fue como se
+            // perdio la venta de Jose Gabriel Diaz Gutierrez (584261736349) el 22/09.
+            const pedidoAGuardar = sesion.pedido;
+            const guardadoExitoso = await guardarPedido(pedidoAGuardar);
 
-      if (sesion.paso === "pedido_direccion") {
-            if (!pareceRespuestaValidaPedido(texto, "direccion")) {
-                  await enviarTexto(telefono, "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)?");
-                  return true;
+            if (guardadoExitoso) {
+                  if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
+                        await enviarTexto(telefono, config.mensajeDatosTransferencia);
+                  }
+                  await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
+                  await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+            } else {
+                  // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
+                  // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
+                  // para que lo registre manualmente con los datos que ya quedaron en el chat.
+                  await enviarTexto(
+                        telefono,
+                        "Ya tengo todos tus datos, pero tuve un problema tecnico dejando tu pedido registrado en el sistema. Dame un momento para confirmarte que quedo todo listo, no te preocupes que tus datos no se pierden."
+                        );
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = "No se pudo guardar el pedido automaticamente por un fallo tecnico. Los datos completos del cliente ya estan en esta conversacion: revisar y registrar el pedido manualmente.";
             }
-            sesion.pedido.direccion = texto;
-            sesion.paso = "pedido_barrio";
-            await enviarTexto(telefono, "En que barrio queda esa direccion?");
-            return true;
-      }
 
-      if (sesion.paso === "pedido_barrio") {
-            if (!pareceRespuestaValidaPedido(texto, "barrio")) {
-                  await enviarTexto(telefono, "No logre entender el barrio. Me lo puedes confirmar de nuevo?");
-                  return true;
-            }
-            sesion.pedido.barrio = texto;
-            sesion.paso = "pedido_pago";
-            await enviarTexto(telefono, "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)");
-            return true;
-      }
-
-      if (sesion.paso === "pedido_pago") {
-            if (!pareceRespuestaValidaPedido(texto, "pago")) {
-                  await enviarTexto(telefono, "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia u otro?");
-                  return true;
-            }
-            sesion.pedido.medioPago = texto;
-            if (texto.toLowerCase().includes("transf")) {
-                  await enviarTexto(telefono, config.mensajeDatosTransferencia);
-            }
-            await enviarTexto(telefono, config.mensajeResumenPedido(sesion.pedido));
-            await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
-            await guardarPedido(sesion.pedido);
             sesion.paso = "conversando";
             sesion.pedido = {};
             return true;
       }
 
-      return false;
+      sesion.paso = siguienteFaltante.paso;
+      await enviarTexto(telefono, siguienteFaltante.pregunta);
+      return true;
 }
 
 function detectarProductoEspecifico(texto) {
@@ -1772,10 +2143,17 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId, productoActual, necesitaAsesor } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+
+            // Se pone en true apenas el cliente reciba ALGO (texto, botones, o se le inicie un
+            // pedido/combo). Sirve para detectar el caso en que la IA respondio sin lanzar ningun
+            // error pero tampoco genero nada que enviarle al cliente (ver bug de silencio total
+            // mas abajo).
+            let seLeRespondioAlgo = false;
 
             if (mensajeVisible) {
                   await enviarTexto(telefono, mensajeVisible);
+                  seLeRespondioAlgo = true;
             }
 
             if (productoActual && catalogo.some((p) => p.id === productoActual)) {
@@ -1791,6 +2169,13 @@ async function manejarTextoLibre(telefono, texto) {
                         } else {
                               await ofrecerComboPromocion(telefono, productoId);
                         }
+                        seLeRespondioAlgo = true;
+                  } else {
+                        // La IA devolvio un id de producto que no existe en el catalogo (ej. "modem"
+                        // en vez de "modem-4g5g"): no se rompe nada, pero tampoco se le manda nada al
+                        // cliente por esta via. Se deja registrado para poder detectar el patron si se
+                        // repite.
+                        console.error(`ACCION_PEDIDO con producto invalido "${productoId}" para ${telefono}`);
                   }
             }
 
@@ -1802,6 +2187,7 @@ async function manejarTextoLibre(telefono, texto) {
             if (
                   idProductoEnfocado &&
                   !productoId &&
+                  !pausarSeguimiento &&
                   sesion.preguntasPorProducto[idProductoEnfocado] >= 2 &&
                   !sesion.botonesOfrecidos[idProductoEnfocado]
                   ) {
@@ -1812,7 +2198,31 @@ async function manejarTextoLibre(telefono, texto) {
                               { id: `pedir_${idProductoEnfocado}`, titulo: "Si, quiero este" },
                               { id: "ver_catalogo", titulo: "Ver otros" },
                               ]);
+                        seLeRespondioAlgo = true;
                   }
+            }
+
+            // RESPALDO CONTRA SILENCIO TOTAL (bug detectado sep-2026): al menos 3 clientes
+            // distintos (Widmark, Carlos Eduardo Cordon, y otro) contestaron la pregunta del modem
+            // sobre zona rural/ciudad con un mensaje que empezaba con "Vereda" o "Zona rural", la IA
+            // respondio sin ningun texto visible para el cliente (probablemente solo con lineas de
+            // control como PRODUCTO_ACTUAL/ACCION_PEDIDO con un id invalido o similar) y ninguna de
+            // las ramas de arriba le mando nada al cliente. Como ademas no hubo ningun error, el
+            // catch de mas abajo tampoco se disparaba: el cliente se quedaba esperando una respuesta
+            // para siempre y el chat ni siquiera aparecia en "Necesitan tu respuesta". En vez de
+            // asumir que la IA siempre genera algo util, si al final de todo esto no se le mando
+            // nada en absoluto al cliente, lo tratamos igual que un fallo tecnico: se escala a Wendy
+            // y se le avisa al cliente que puede intentar de nuevo, en lugar de dejarlo en silencio.
+            if (!seLeRespondioAlgo) {
+                  console.error(
+                        `La IA no genero ninguna respuesta visible para ${telefono}. Mensaje del cliente: "${texto}"`
+                        );
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = `El bot no genero ninguna respuesta para este mensaje: "${texto.slice(0, 100)}"`;
+                  await enviarTexto(
+                        telefono,
+                        "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas."
+                        );
             }
 
             // La propia IA nos avisa cuando no puede resolverle algo al cliente con seguridad
@@ -1821,6 +2231,14 @@ async function manejarTextoLibre(telefono, texto) {
             if (necesitaAsesor) {
                   sesion.necesitaAtencion = true;
                   sesion.motivoAtencion = `El cliente pregunto algo que la IA no pudo resolver con seguridad: "${texto.slice(0, 100)}"`;
+            }
+
+            // El cliente dijo explicitamente que el mismo va a avisar despues, o que no le
+            // escriban mas por ahora. Lo guardamos para que enviarRecordatoriosPendientes (los
+            // mensajes automaticos de 2/5/8/11 horas y la plantilla de reactivacion) deje de
+            // escribirle solo, sin necesidad de que Wendy lo pause manualmente uno por uno.
+            if (pausarSeguimiento) {
+                  sesion.pausarSeguimiento = true;
             }
       } catch (error) {
             console.error("Error consultando la IA:", error.response?.data || error.message);
@@ -2293,88 +2711,104 @@ app.post("/webhook", async (req, res) => {
                   return res.sendStatus(200);
             }
 
-            await cargarSesionSiNueva(telefono);
-            const sesionActual = obtenerSesion(telefono);
+            await conColaPorTelefono(telefono, async () => {
+                  await cargarSesionSiNueva(telefono);
+                  const sesionActual = obtenerSesion(telefono);
 
-            if (sesionActual.pausado) {
+                  if (sesionActual.pausado) {
+                        if (mensaje.type === "text") {
+                              registrarMensaje(telefono, "cliente", mensaje.text.body);
+                        } else if (mensaje.type === "interactive") {
+                              const tituloBoton =
+                                    mensaje.interactive?.button_reply?.title || mensaje.interactive?.list_reply?.title;
+                              registrarMensaje(telefono, "cliente", `[Selecciono] ${tituloBoton || ""}`);
+                        }
+                        guardarCliente(telefono, nombreCliente);
+                        return;
+                  }
+
                   if (mensaje.type === "text") {
-                        registrarMensaje(telefono, "cliente", mensaje.text.body);
-                  } else if (mensaje.type === "interactive") {
+                        const texto = mensaje.text.body;
+                        registrarMensaje(telefono, "cliente", texto);
+                        const sesion = obtenerSesion(telefono);
+                        if (sesion.paso === "inicio") {
+                              const especifico = detectarProductoEspecifico(texto);
+                              const deteccion = detectarProductoPorPalabraClave(texto);
+                              sesion.paso = "conversando";
+                              // En el PRIMER mensaje (normalmente el texto automatico de un anuncio, ej.
+                              // "Quiero mas informacion de Impresora termica") nunca saltamos directo a
+                              // mostrar fotos+precio+boton de compra: es demasiado de golpe para alguien
+                              // que recien hizo clic en un anuncio y todavia no genera ninguna confianza.
+                              // En vez de manejarSeleccionProducto (que cierra con "quieres pedirlo?"),
+                              // usamos el mismo camino que ya funciona bien para categorias (fotos +
+                              // caracteristicas + UNA pregunta de descubrimiento antes de pedir la venta).
+                              const categoriaDelEspecifico = especifico
+                                    ? (catalogo.find((p) => p.id === especifico)?.categoria || "").trim().toLowerCase()
+                                    : null;
+                              if (categoriaDelEspecifico) {
+                                    await enviarInfoCategoria(telefono, categoriaDelEspecifico);
+                              } else if (especifico) {
+                                    await manejarSeleccionProducto(telefono, especifico);
+                              } else if (deteccion) {
+                                    await enviarInfoCategoria(telefono, deteccion);
+                              } else {
+                                    await manejarSaludo(telefono, nombreCliente);
+                              }
+                        } else {
+                              await manejarTextoLibre(telefono, texto);
+                        }
+                  }
+
+                  if (mensaje.type === "interactive") {
+                        const idBoton =
+                              mensaje.interactive?.button_reply?.id || mensaje.interactive?.list_reply?.id;
                         const tituloBoton =
                               mensaje.interactive?.button_reply?.title || mensaje.interactive?.list_reply?.title;
-                        registrarMensaje(telefono, "cliente", `[Selecciono] ${tituloBoton || ""}`);
-                  }
-                  guardarCliente(telefono, nombreCliente);
-                  return res.sendStatus(200);
-            }
+                        registrarMensaje(telefono, "cliente", `[Selecciono] ${tituloBoton || idBoton}`);
 
-            if (mensaje.type === "text") {
-                  const texto = mensaje.text.body;
-                  registrarMensaje(telefono, "cliente", texto);
-                  const sesion = obtenerSesion(telefono);
-                  if (sesion.paso === "inicio") {
-                        const especifico = detectarProductoEspecifico(texto);
-                        const deteccion = detectarProductoPorPalabraClave(texto);
-                        sesion.paso = "conversando";
-                        // En el PRIMER mensaje (normalmente el texto automatico de un anuncio, ej.
-                        // "Quiero mas informacion de Impresora termica") nunca saltamos directo a
-                        // mostrar fotos+precio+boton de compra: es demasiado de golpe para alguien
-                        // que recien hizo clic en un anuncio y todavia no genera ninguna confianza.
-                        // En vez de manejarSeleccionProducto (que cierra con "quieres pedirlo?"),
-                        // usamos el mismo camino que ya funciona bien para categorias (fotos +
-                        // caracteristicas + UNA pregunta de descubrimiento antes de pedir la venta).
-                        const categoriaDelEspecifico = especifico
-                              ? (catalogo.find((p) => p.id === especifico)?.categoria || "").trim().toLowerCase()
-                              : null;
-                        if (categoriaDelEspecifico) {
-                              await enviarInfoCategoria(telefono, categoriaDelEspecifico);
-                        } else if (especifico) {
-                              await manejarSeleccionProducto(telefono, especifico);
-                        } else if (deteccion) {
-                              await enviarInfoCategoria(telefono, deteccion);
+                        if (idBoton?.startsWith("cat_")) {
+                              await enviarInfoCategoria(telefono, idBoton.replace("cat_", ""));
+                        } else if (idBoton === "ver_catalogo") {
+                              await enviarListaCatalogo(telefono);
+                        } else if (idBoton === "ver_combos") {
+                              await enviarListaCombos(telefono);
+                        } else if (idBoton?.startsWith("combo_")) {
+                              const [comboId] = idBoton.replace("combo_", "").split("_");
+                              await iniciarPedido(telefono, comboId);
+                        } else if (idBoton?.startsWith("pedirfinal_")) {
+                              await iniciarPedido(telefono, idBoton.replace("pedirfinal_", ""));
+                        } else if (idBoton?.startsWith("producto_")) {
+                              await manejarSeleccionProducto(telefono, idBoton.replace("producto_", ""));
+                        } else if (idBoton?.startsWith("pedir_")) {
+                              const pid = idBoton.replace("pedir_", "");
+                              if (pid.startsWith("combo-")) {
+                                    await iniciarPedido(telefono, pid);
+                              } else {
+                                    await ofrecerComboPromocion(telefono, pid);
+                              }
                         } else {
-                              await manejarSaludo(telefono, nombreCliente);
-                        }
-                  } else {
-                        await manejarTextoLibre(telefono, texto);
-                  }
-            }
-
-            if (mensaje.type === "interactive") {
-                  const idBoton =
-                        mensaje.interactive?.button_reply?.id || mensaje.interactive?.list_reply?.id;
-                  const tituloBoton =
-                        mensaje.interactive?.button_reply?.title || mensaje.interactive?.list_reply?.title;
-                  registrarMensaje(telefono, "cliente", `[Selecciono] ${tituloBoton || idBoton}`);
-
-                  if (idBoton?.startsWith("cat_")) {
-                        await enviarInfoCategoria(telefono, idBoton.replace("cat_", ""));
-                  } else if (idBoton === "ver_catalogo") {
-                        await enviarListaCatalogo(telefono);
-                  } else if (idBoton === "ver_combos") {
-                        await enviarListaCombos(telefono);
-                  } else if (idBoton?.startsWith("combo_")) {
-                        const [comboId] = idBoton.replace("combo_", "").split("_");
-                        await iniciarPedido(telefono, comboId);
-                  } else if (idBoton?.startsWith("pedirfinal_")) {
-                        await iniciarPedido(telefono, idBoton.replace("pedirfinal_", ""));
-                  } else if (idBoton?.startsWith("producto_")) {
-                        await manejarSeleccionProducto(telefono, idBoton.replace("producto_", ""));
-                  } else if (idBoton?.startsWith("pedir_")) {
-                        const pid = idBoton.replace("pedir_", "");
-                        if (pid.startsWith("combo-")) {
-                              await iniciarPedido(telefono, pid);
-                        } else {
-                              await ofrecerComboPromocion(telefono, pid);
+                              // RESPALDO CONTRA SILENCIO TOTAL: si llega un boton/opcion de lista con
+                              // un id que no coincide con ninguna de las ramas de arriba (por ejemplo un
+                              // boton viejo de una conversacion de hace dias, o un id inesperado), antes
+                              // no se le respondia nada al cliente. Mismo criterio que se aplico para
+                              // manejarTextoLibre (ver RESPALDO CONTRA SILENCIO TOTAL mas abajo): mejor
+                              // avisarle algo y escalar, que dejarlo sin ninguna respuesta.
+                              console.error(`Boton/opcion sin manejar para ${telefono}: id="${idBoton}" titulo="${tituloBoton}"`);
+                              sesionActual.necesitaAtencion = true;
+                              sesionActual.motivoAtencion = `El cliente selecciono una opcion que el bot no supo procesar: "${tituloBoton || idBoton}"`;
+                              await enviarTexto(
+                                    telefono,
+                                    "Disculpa, no pude procesar esa opcion. Cuentame directamente que necesitas y te ayudo."
+                                    );
                         }
                   }
-            }
 
-			await guardarCliente(telefono, nombreCliente);
-              			await limpiarClientesAntiguos();
-              			await enviarRecordatoriosPendientes();
-              			await enviarPromoDiariaAutomatica();
-              
+                  await guardarCliente(telefono, nombreCliente);
+                  await limpiarClientesAntiguos();
+                  await enviarRecordatoriosPendientes();
+                  await enviarPromoDiariaAutomatica();
+            });
+
             res.sendStatus(200);
       } catch (error) {
             console.error("Error procesando mensaje:", error.response?.data || error.message);
@@ -2382,33 +2816,73 @@ app.post("/webhook", async (req, res) => {
       }
 });
 
+// Guarda la bandera "reactivado" directamente sobre la version MAS RECIENTE de clientes.json (no
+// sobre la copia que se leyo al principio de reactivarConversaciones, que para cuando termina de
+// mandarle el mensaje a los 100+ clientes ya puede estar vieja). Se hace en un paso aparte, por
+// cola, para no bloquear el resto de escrituras (por ejemplo los "chulos" de leido) durante todo
+// el rato que toma enviar los mensajes uno por uno.
+async function marcarReactivados(telefonos) {
+	if (telefonos.length === 0) return;
+	await conColaDeArchivo(CLIENTES_API, async () => {
+	let intentosRestantes = 4;
+	while (true) {
+	try {
+		const { datos, sha } = await leerJSON(CLIENTES_API);
+		let cambios = false;
+		for (const telefono of telefonos) {
+			const cliente = datos.find((c) => c.telefono === telefono);
+			if (cliente && !cliente.reactivado) {
+				cliente.reactivado = true;
+				cambios = true;
+			}
+		}
+		if (!cambios) return;
+		await guardarJSON(CLIENTES_API, datos, sha, "Conversaciones reactivadas manualmente");
+		return;
+	} catch (error) {
+		const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+		if (esConflicto && intentosRestantes > 0) {
+			intentosRestantes--;
+			continue;
+		}
+		console.error(
+			"Error guardando banderas de reactivacion (los mensajes ya se enviaron; no se repetiran en lo que dure este proceso):",
+			error.response?.data || error.message
+			);
+		return;
+	}
+	}
+	});
+}
+
 async function reactivarConversaciones() {
 	let reactivados = 0;
 	try {
-		const { datos, sha } = await leerJSON(CLIENTES_API);
+		const { datos } = await leerJSON(CLIENTES_API);
 		const { datos: pedidos } = await leerJSON(PEDIDOS_API);
 		const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-		let cambios = false;
-		
+		const telefonosReactivados = [];
+
 		for (const c of datos) {
 			if (c.pausado) continue;
 			if (telefonosConPedido.has(c.telefono)) continue;
 			if (c.reactivado) continue;
 			if (!c.conversacion || c.conversacion.length === 0) continue;
-			
+
 			try {
+				// Mismo bug que en enviarRecordatoriosPendientes y ejecutarPromoDiaria: cargar la
+				// sesion real antes de enviar, para no crear una sesion en blanco que despues
+				// sobreescriba el historial real del cliente.
+				await cargarSesionSiNueva(c.telefono);
 				await enviarTexto(c.telefono, config.mensajeReactivacion);
-				c.reactivado = true;
-				cambios = true;
+				telefonosReactivados.push(c.telefono);
 				reactivados++;
 			} catch (errorEnvio) {
 				console.error(`Error reactivando a ${c.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
 			}
 		}
-		
-		if (cambios) {
-			await guardarJSON(CLIENTES_API, datos, sha, "Conversaciones reactivadas manualmente");
-		}
+
+		await marcarReactivados(telefonosReactivados);
 	} catch (error) {
 		console.error("Error reactivando conversaciones:", error.response?.data || error.message);
 	}
@@ -2437,12 +2911,14 @@ app.get("/admin/promo-diaria", requiereLogin, async (req, res) => {
 
 app.get("/admin/eliminar/:telefono", requiereLogin, async (req, res) => {
 	try {
-		const { datos, sha } = await leerJSON(CLIENTES_API);
-		const datosFiltrados = datos.filter((c) => c.telefono !== req.params.telefono);
-		if (datosFiltrados.length !== datos.length) {
-			delete sesiones[req.params.telefono];
-			await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Cliente eliminado manualmente");
-		}
+		await conColaDeArchivo(CLIENTES_API, async () => {
+			const { datos, sha } = await leerJSON(CLIENTES_API);
+			const datosFiltrados = datos.filter((c) => c.telefono !== req.params.telefono);
+			if (datosFiltrados.length !== datos.length) {
+				delete sesiones[req.params.telefono];
+				await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Cliente eliminado manualmente");
+			}
+		});
 		res.redirect("/admin");
 	} catch (error) {
 		console.error("Error eliminando cliente:", error.response?.data || error.message);
@@ -2455,12 +2931,14 @@ app.post("/admin/eliminar-varios", requiereLogin, async (req, res) => {
 		let telefonos = req.body.telefonos || [];
 		if (!Array.isArray(telefonos)) telefonos = [telefonos];
 		const telefonosSet = new Set(telefonos);
-		const { datos, sha } = await leerJSON(CLIENTES_API);
-		const datosFiltrados = datos.filter((c) => !telefonosSet.has(c.telefono));
-		if (datosFiltrados.length !== datos.length) {
-			for (const telefono of telefonosSet) delete sesiones[telefono];
-			await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Clientes eliminados manualmente en lote");
-		}
+		await conColaDeArchivo(CLIENTES_API, async () => {
+			const { datos, sha } = await leerJSON(CLIENTES_API);
+			const datosFiltrados = datos.filter((c) => !telefonosSet.has(c.telefono));
+			if (datosFiltrados.length !== datos.length) {
+				for (const telefono of telefonosSet) delete sesiones[telefono];
+				await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Clientes eliminados manualmente en lote");
+			}
+		});
 		res.redirect("/admin");
 	} catch (error) {
 		console.error("Error eliminando clientes en lote:", error.response?.data || error.message);
@@ -2732,6 +3210,24 @@ app.get("/", (req, res) => {
 
 app.listen(PUERTO, () => {
       console.log(`Servidor escuchando en el puerto ${PUERTO}`);
+
+      // Antes, enviarRecordatoriosPendientes() y enviarPromoDiariaAutomatica() SOLO se ejecutaban
+      // como efecto secundario de un mensaje entrante en /webhook. Si no llegaba trafico de
+      // clientes, los recordatorios de 2h/5h/8h/11h y la promo del dia simplemente no se
+      // disparaban. Ambas funciones ya tienen su propio throttle interno (10 minutos y 1 vez por
+      // dia respectivamente), asi que aqui les damos un reloj real para que se evaluen
+      // periodicamente sin depender de que un cliente escriba primero.
+      setInterval(() => {
+            enviarRecordatoriosPendientes().catch((error) => {
+                  console.error("Error en revision periodica de recordatorios:", error.response?.data || error.message);
+            });
+      }, 5 * 60 * 1000);
+
+      setInterval(() => {
+            enviarPromoDiariaAutomatica().catch((error) => {
+                  console.error("Error en revision periodica de promo diaria:", error.response?.data || error.message);
+            });
+      }, 30 * 60 * 1000);
 });
 
 
