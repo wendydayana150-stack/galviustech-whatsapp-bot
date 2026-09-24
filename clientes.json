@@ -174,8 +174,8 @@
     "telefono": "573024368046",
     "nombre": "Santa Marta🙏",
     "primerContacto": "2026-09-24T18:05:18.853Z",
-    "ultimoContacto": "2026-09-24T18:13:45.291Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-24T18:14:26.296Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -335,6 +335,18 @@
         "fecha": "2026-09-24T18:13:44.322Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSOUIyRTIyN0I0MDlFMzVFNDk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero con cuántas megas y ahí que recargar la SIM",
+        "fecha": "2026-09-24T18:14:19.299Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 🙏 La verdad no tengo el dato exacto de cuántos megas trae la SIM ni las condiciones de recarga para confirmártelo con seguridad ahora mismo, no quiero darte una cifra que no sea precisa.\n\nLo que sí te confirmo es que el modem funciona con cualquier SIM (la que viene de regalo o una tuya), así que si necesitas más datos, puedes recargarla como cualquier chip de Claro.\n\nDame un momento que reviso bien ese detalle para darte la info exacta, ¿de acuerdo? Mientras tanto, ¿algo más te preocupa antes de dejar el pedido?",
+        "fecha": "2026-09-24T18:14:25.426Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSREI2NUUyOEU2REE1MkIyNTI5AA=="
       }
     ],
     "paso": "conversando",
@@ -343,8 +355,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Pero con cuántas megas y ahí que recargar la SIM\""
   },
   {
     "telefono": "573158180352",
