@@ -5789,8 +5789,8 @@
     "telefono": "573007447217",
     "nombre": "robertoconrra88@gmail.com",
     "primerContacto": "2026-09-24T13:05:10.803Z",
-    "ultimoContacto": "2026-09-24T17:46:32.940Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-24T21:21:01.207Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5872,6 +5872,18 @@
         "fecha": "2026-09-24T17:46:31.797Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3NDQ3MjE3FQIAERgSMzk4MTVDMkYxNEUwRTNFNjgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Listo 👍👍",
+        "fecha": "2026-09-24T21:20:53.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Quedo pendiente entonces 😊 Cuando ya tengas todo listo me escribes y te ayudo con tu pedido de una vez.",
+        "fecha": "2026-09-24T21:21:00.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3NDQ3MjE3FQIAERgSRDZCMTExOTkzRDE2MkQ3OUY2AA=="
       }
     ],
     "paso": "conversando",
@@ -5885,7 +5897,8 @@
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-24"
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573225358200",
