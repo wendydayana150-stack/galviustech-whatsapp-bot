@@ -3,8 +3,8 @@
     "telefono": "573008332122",
     "nombre": "Jose Angel Perilla",
     "primerContacto": "2026-09-24T11:02:51.852Z",
-    "ultimoContacto": "2026-09-24T11:03:45.345Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T11:04:36.706Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-24T11:03:44.320Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4MzMyMTIyFQIAERgSNkQzNjZDOUMwNDc4MDYxMDc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-09-24T11:04:31.504Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! La impresora térmica portátil es una excelente opción si necesitas imprimir sin depender de una papelería 🖨️✨\n\nEs Bluetooth, no usa tinta (te ahorras los cartuchos) y se conecta directo desde tu celular para imprimir facturas, recibos, cotizaciones, guías, etc.\n\nContame, ¿para qué la usarías principalmente? ¿Tienes un negocio, trabajas fuera de oficina, eres estudiante? Y cuéntame también, ¿vives en algún municipio o ciudad en particular? Así te oriento mejor 😊",
+        "fecha": "2026-09-24T11:04:35.665Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4MzMyMTIyFQIAERgSRjBBRUQxRkUzNkQxNTg1MkNDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null
