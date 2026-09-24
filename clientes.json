@@ -1425,8 +1425,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-09-24T12:21:16.554Z",
-    "ultimoContacto": "2026-09-24T12:24:44.314Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-24T15:03:23.751Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1580,6 +1580,20 @@
         "fecha": "2026-09-24T12:24:43.281Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNzA1QjdDMEQ4OTRGOUNBNEYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos hablando del COMBO Impresora Termica Portatil + Camara de seguridad y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-24T14:26:03.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNjY4OEMwNTBBMjQ2RDQ3RTIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Si sr, si es el paquete de 52 hojas por $38.000",
+        "fecha": "2026-09-24T15:03:22.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNzE2NThBODkyN0MzQzY1NEI4AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -1590,7 +1604,7 @@
       "telefono": "573023019983",
       "nombreCliente": "Y las hojas las envian"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": "impresora",
