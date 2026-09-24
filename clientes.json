@@ -1085,8 +1085,8 @@
     "telefono": "573133914396",
     "nombre": "Flaquita R🫠🥹",
     "primerContacto": "2026-09-24T02:05:33.920Z",
-    "ultimoContacto": "2026-09-24T11:15:20.640Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T11:15:45.640Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1138,13 +1138,30 @@
         "fecha": "2026-09-24T11:15:19.816Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzOTE0Mzk2FQIAERgSOTQ3MDE4RDJDQTkxQzBFOUQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q precio tiene",
+        "fecha": "2026-09-24T11:15:36.766Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-09-24T11:15:42.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto! Antes de darte el número exacto, te cuento: el módem que más te conviene para conectar el televisor y otros dispositivos es el **4G/5G**, porque funciona tanto en zonas con señal 4G como donde ya hay 5G, así no importa qué tan buena sea la cobertura en tu zona, siempre te va a dar conexión. Además conecta hasta 10 dispositivos a la vez y trae mejor cobertura que un celular normal. 📶\n\nLa inversión para este módem es de **$249.900**, e incluye SIMCARD de regalo para que lo actives de una vez.\n\n¿Me confirmas tu municipio o vereda para saber si te conviene este o si prefieres ver otras opciones? 😊",
+        "fecha": "2026-09-24T11:15:44.374Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzOTE0Mzk2FQIAERgSNTAxRTlBOTRCMDg3QzBCNjRFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
