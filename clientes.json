@@ -1552,8 +1552,8 @@
     "telefono": "573229420392",
     "nombre": "🫣",
     "primerContacto": "2026-09-24T01:21:23.814Z",
-    "ultimoContacto": "2026-09-24T10:58:42.017Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T10:59:31.937Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1598,13 +1598,25 @@
         "fecha": "2026-09-24T10:58:41.005Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5NDIwMzkyFQIAERgSQkY2QUY3MENBQzIwMUQ0NThFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Internet en casa",
+        "fecha": "2026-09-24T10:59:23.569Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Para tener internet en casa en zona rural, te recomiendo el **Módem WiFi 4G/5G** 🙌 Es la opción más segura porque funciona tanto con señal 4G como 5G, así que no importa cuál tengas en tu vereda, igual te conecta.\n\nCon él puedes conectar hasta 10 dispositivos a la vez (celulares, tablet, smart TV), así que toda la casa queda conectada sin depender de que llegue la fibra óptica algún día.\n\n¿Actualmente tienes algún tipo de conexión en casa (datos del celular, WiFi prestado) o estarías empezando desde cero? Así te confirmo si esta es la mejor opción para ti 😊",
+        "fecha": "2026-09-24T10:59:31.109Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NDIwMzkyFQIAERgSOUM0QzE0NTc0Q0FBMzBCODY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
