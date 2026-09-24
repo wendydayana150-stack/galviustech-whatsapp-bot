@@ -771,8 +771,8 @@
     "telefono": "573028377232",
     "nombre": "♥️🌹🌹",
     "primerContacto": "2026-09-24T01:16:46.776Z",
-    "ultimoContacto": "2026-09-24T01:18:20.353Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T02:36:59.431Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -810,11 +810,18 @@
         "rol": "cliente",
         "texto": "Vereda  en manzanillo del mar cartagena",
         "fecha": "2026-09-24T01:18:11.104Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Disculpa la demora. Para Manzanillo del Mar (Cartagena) manejamos 3 versiones del modem: Modem 4G $199.900, Modem 4G/5G $239.900 (la mas recomendada, funciona tanto con 4G como si ya llega 5G a tu zona) y Modem 5G $249.900. Te ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-24T02:36:58.328Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4Mzc3MjMyFQIAERgSOUQ5QzA3NTM1M0IzQTk0RkMyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
