@@ -76,8 +76,8 @@
     "telefono": "573138619537",
     "nombre": "Isaias",
     "primerContacto": "2026-09-24T17:18:43.630Z",
-    "ultimoContacto": "2026-09-24T17:19:49.383Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T17:20:08.168Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -121,13 +121,41 @@
         "fecha": "2026-09-24T17:19:48.289Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NjE5NTM3FQIAERgSNDBERTNGNDMwNkU2OTEwMTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] COMBO Impresora Termica ",
+        "fecha": "2026-09-24T17:20:04.025Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T17:20:04.025Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NjE5NTM3FQIAERgSRkU4Mjg0MUUwMzA5NjkwRUNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*COMBO Impresora Termica Portatil + Camara de seguridad*\n$ 299.900\n\n🔥🎁 ¡COMBO ESPECIAL: IMPRIME Y PROTEGE! 🎁🔥\r\n\r\n🖨️ IMPRESORA TÉRMICA PORTÁTIL + 📹 CÁMARA DE SEGURIDAD\r\n\r\n¡Dos productos que puedes necesitar en tu día a día! 😍\r\n\r\n🖨️ IMPRESORA TÉRMICA\r\n✅ Sin tinta\r\n✅ Portátil y fácil de llevar\r\n✅ Imprime desde tu celular\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n\r\n📹 CÁMARA DE SEGURIDAD (DE REGALO)\r\n📡 5 antenas externas — ayudan a mantener una conexión inalámbrica estable.\r\n🎥 Cámara motorizada — su diseño permite ajustar la orientación para ampliar el área de vigilancia.\r\n🌙 Visión nocturna — cuenta con iluminación infrarroja alrededor del lente para visualizar en condiciones de poca luz.\r\n📱 Monitoreo desde el celular — permite revisar la cámara remotamente mediante la aplicación compatible.\r\n🔊 Audio bidireccional — si tu modelo incluye micrófono y altavoz, permite escuchar y hablar desde el celular.\r\n🚨 Detección de movimiento — puede enviar alertas cuando detecta actividad, dependiendo de la configuración y aplicación.\r\n💾 Grabación — puede permitir almacenamiento de grabaciones mediante tarjeta de memoria, si el modelo cuenta con ranura compatible.\r\n🏠 Ideal para: casa, negocio, oficina, finca, entrada, patio o zonas que quieras mantener vigiladas.\r\n\r\n💥 ¡LLÉVATE EL COMBO Y APROVECHA LA PROMOCIÓN!\r\n\r\nUna para ayudarte a trabajar y organizarte 🖨️\r\nOtra para ayudarte a vigilar y proteger tus espacios 📹\r\n\r\n⚠️ UNIDADES LIMITADAS",
+        "fecha": "2026-09-24T17:20:04.583Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NjE5NTM3FQIAERgSQkU0NTdBMDg4NjNBQTNCMjFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-24T17:20:05.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NjE5NTM3FQIAERgSMjJCMDlDREZFQTIxNTQ3RkEzAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null
