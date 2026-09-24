@@ -3,8 +3,8 @@
     "telefono": "573114189581",
     "nombre": "Dios",
     "primerContacto": "2026-09-24T15:18:30.656Z",
-    "ultimoContacto": "2026-09-24T15:18:30.656Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-24T15:19:04.634Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-09-24T15:18:29.839Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MTg5NTgxFQIAERgSODE5Q0MyNjcwQ0UzMjNBQjNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora esta",
+        "fecha": "2026-09-24T15:18:58.831Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa impresora térmica portátil no necesita tinta ni tóner (ahorras desde el primer uso), se conecta por Bluetooth a tu celular y ya viene con papel térmico incluido, lista para usar.\n\nLa inversión es de $249.900.\n\nCuéntame, ¿la necesitarías para tu negocio, para imprimir facturas o recibos, o más para uso personal/estudio? Así te confirmo si es justo lo que necesitas 📲",
+        "fecha": "2026-09-24T15:19:03.642Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTg5NTgxFQIAERgSRjJCRDJGRTJDMzgyQjEwRjFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null
