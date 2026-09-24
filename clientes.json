@@ -3726,8 +3726,8 @@
     "telefono": "573113040242",
     "nombre": "Caleño",
     "primerContacto": "2026-09-23T17:22:10.205Z",
-    "ultimoContacto": "2026-09-23T23:51:25.438Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-24T00:11:06.522Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3803,13 +3803,25 @@
         "fecha": "2026-09-23T23:51:24.313Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMDQwMjQyFQIAERgSNTY2Q0JEQjMwRDc1NzY4RUQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La verdad aquí se necesita para todo porque la señal de claro es muy mala\nEn este mes no e Mos tenido señal",
+        "fecha": "2026-09-24T00:10:55.644Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, te entiendo, sin señal todo un mes es supremamente complicado, más si lo necesitas para todo 😔\n\nJusto para casos así es que existe el módem: tiene una antena bastante más potente que la de un celular, así que capta señal donde el chip del teléfono ya no da más. No te prometo lo imposible, pero sí te digo con seguridad que la cobertura que logra es muy superior a la de un celular normal.\n\nTe recomiendo el **Módem WiFi 4G/5G**: funciona tanto si hay señal 4G como si más adelante llega 5G a la zona, así que no te quedas corta. Además:\n✅ Conecta hasta 10 dispositivos a la vez\n✅ Es compatible con SIM de cualquier operador (no solo Claro), así que si en tu zona otro operador agarra mejor, puedes probar con esa\n✅ Batería recargable, fácil de instalar\n✅ Garantía de 30 días con soporte de GalviusTech\n\nLa inversión es de $249.900, e incluye SIM de Claro de regalo para que arranques de una vez.\n\n¿Te gustaría que te ayude a dejar tu pedido listo para que no sigas otro mes sin conexión? 📶",
+        "fecha": "2026-09-24T00:11:05.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMDQwMjQyFQIAERgSRkYxOThGNjVFRTRGMTM5QTY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
