@@ -2038,8 +2038,8 @@
     "telefono": "573155138703",
     "nombre": "Adri",
     "primerContacto": "2026-09-24T04:16:28.950Z",
-    "ultimoContacto": "2026-09-24T13:37:27.097Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T13:46:21.756Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2124,13 +2124,25 @@
         "fecha": "2026-09-24T13:37:25.902Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1MTM4NzAzFQIAERgSODVGRTc1OTcwRjI2NjlCNEE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la casa",
+        "fecha": "2026-09-24T13:46:15.402Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para el hogar en zona rural te recomiendo el **Módem WiFi 4G/5G** 📶, porque:\n\n✅ Capta señal 4G o 5G, mejor cobertura que un celular normal en veredas\n✅ Conecta hasta 10 dispositivos a la vez (para toda la familia)\n✅ Fácil de instalar, sin depender de fibra óptica ni técnicos\n\nLa inversión es de **$249.900**, y de regalo te llega con una SIMCARD de Claro incluida 🎁\n\nCuéntame, ¿ahora mismo como hacen para conectarse en casa? ¿Usan datos del celular o no tienen internet todavía?",
+        "fecha": "2026-09-24T13:46:20.843Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1MTM4NzAzFQIAERgSQkZFMjRDRDUyNUNBNzY3QzA5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
