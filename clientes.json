@@ -1096,8 +1096,8 @@
     "telefono": "573104291904",
     "nombre": "Sanchez",
     "primerContacto": "2026-09-24T18:09:45.188Z",
-    "ultimoContacto": "2026-09-24T19:30:48.138Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-24T19:32:01.425Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1180,13 +1180,25 @@
         "fecha": "2026-09-24T19:30:47.124Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjkxOTA0FQIAERgSMzBFNURENTQyRjBERUI5NTQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Máximo 3",
+        "fecha": "2026-09-24T19:31:56.281Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, con 3 dispositivos el módem 4G/5G te va sobrado, sin problema de lentitud ni de que se sature. 👌\n\nAsí que ya tienes internet estable en casa para que tú y los tuyos naveguen, estudien o trabajen sin salir a buscar señal.\n\n¿Te ayudo a dejar tu pedido listo? Pásame estos datos y lo dejamos programado:\n- Nombre completo\n- Número de celular\n- Departamento y municipio\n- Dirección completa y barrio\n- Cómo prefieres pagar: ¿contraentrega o transferencia?",
+        "fecha": "2026-09-24T19:32:00.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjkxOTA0FQIAERgSOUMwMTIyQkNGRDc0MThEOEU4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
