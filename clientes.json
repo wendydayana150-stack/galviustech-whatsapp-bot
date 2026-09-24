@@ -266,8 +266,8 @@
     "telefono": "573133925652",
     "nombre": "Dana✨",
     "primerContacto": "2026-09-24T19:44:28.127Z",
-    "ultimoContacto": "2026-09-24T20:20:28.592Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T20:21:37.371Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -312,13 +312,30 @@
         "fecha": "2026-09-24T20:20:26.013Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzOTI1NjUyFQIAERgSNEVEQjdDRDIxNzM3RTBDNThFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Conexión General",
+        "fecha": "2026-09-24T20:21:30.263Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, entendido! Para uso general en la finca (varios celulares, tv, tablets conectados) el que mejor te sirve es el **Módem WiFi 4G/5G**: capta señal tanto 4G como 5G, así que sin importar la cobertura exacta que llegue a tu zona, siempre vas a tener conexión estable. Conecta hasta 10 dispositivos a la vez, así que toda la familia puede estar conectada sin problema 🙌\n\nAdemás viene con SIMCARD de Claro de regalo, y trae garantía de 30 días con soporte de nosotros.\n\nLa inversión es de $249.900.\n\n¿Me confirmas en qué municipio o vereda queda la finca, para verificar bien cómo te llegaría el envío? 📦",
+        "fecha": "2026-09-24T20:21:36.382Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzOTI1NjUyFQIAERgSN0QyQUU2NUJBRTY4NjVCNDI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio Orito",
+        "fecha": "2026-09-24T20:21:36.737Z"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
