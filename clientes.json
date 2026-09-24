@@ -3,8 +3,8 @@
     "telefono": "573159716124",
     "nombre": "liz",
     "primerContacto": "2026-09-24T07:29:35.911Z",
-    "ultimoContacto": "2026-09-24T07:29:35.911Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-24T07:30:48.945Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,23 @@
         "fecha": "2026-09-24T07:29:35.105Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU5NzE2MTI0FQIAERgSM0U3MTEwODc0MEZGRjY2MUFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio",
+        "fecha": "2026-09-24T07:30:39.503Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Fundación Magdalena",
+        "fecha": "2026-09-24T07:30:46.249Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Cuéntame, ¿cuál es el nombre de tu municipio (o si es vereda, dime cuál)? Así te confirmo cómo te podría funcionar el módem en tu zona 📶",
+        "fecha": "2026-09-24T07:30:48.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5NzE2MTI0FQIAERgSN0U1NTJFRDhDQjkwRTAyRjlEAA=="
       }
     ],
     "paso": "conversando",
