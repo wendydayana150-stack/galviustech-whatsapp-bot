@@ -448,8 +448,8 @@
     "telefono": "573152921072",
     "nombre": "berthaineshoyosdeberni",
     "primerContacto": "2026-09-24T13:25:30.960Z",
-    "ultimoContacto": "2026-09-24T13:39:37.627Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-24T14:42:16.804Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -597,16 +597,23 @@
         "fecha": "2026-09-24T13:39:36.744Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyOTIxMDcyFQIAERgSQ0ZEREE1QjQ0MjM2OEYxNjBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia Sra Bertha",
+        "fecha": "2026-09-24T14:42:15.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyOTIxMDcyFQIAERgSMDJDODVCRkVEQjgxRDRFNzAyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"315-292-10-72\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573209114183",
