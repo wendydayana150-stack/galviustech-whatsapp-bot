@@ -52,8 +52,8 @@
     "telefono": "573009435932",
     "nombre": "Wendy",
     "primerContacto": "2026-09-24T01:20:49.232Z",
-    "ultimoContacto": "2026-09-24T01:22:30.458Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T01:22:36.969Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,13 +110,25 @@
         "fecha": "2026-09-24T01:22:29.441Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NDM1OTMyFQIAERgSQkJDQzY0NEYwQzIxRDE4RjJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el trabajo",
+        "fecha": "2026-09-24T01:22:31.157Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, para trabajo es clave tener una conexión estable sin depender del WiFi de otros o de quedarte sin datos a media tarea 💪\n\nEl Módem WiFi 4G/5G te deja conectado a tu computador, celular y hasta el de tu familia al mismo tiempo, sin cortes ni tener que salir a buscar señal. Imagínate respondiendo tus correos o reuniones sin esa preocupación constante.\n\n¿Cuántos dispositivos conectarías normalmente? Y de una vez, ¿te ayudo a dejar tu pedido listo para que empieces a trabajar tranquilo desde ya?",
+        "fecha": "2026-09-24T01:22:36.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NDM1OTMyFQIAERgSOUMyMjQwM0QwREZBMkU1NDIxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
