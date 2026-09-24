@@ -295,8 +295,8 @@
     "telefono": "573024368046",
     "nombre": "Santa Marta🙏",
     "primerContacto": "2026-09-24T18:05:18.853Z",
-    "ultimoContacto": "2026-09-24T18:15:06.162Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-24T18:20:57.624Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -480,16 +480,23 @@
         "fecha": "2026-09-24T18:15:05.099Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSQTdDODI5NzgzNjBEMjk4MzZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Usted puede recargar lo que usted desee, es internet para una semana o 15 dias, o el mes, depende el operador que le coloques asi mismo",
+        "fecha": "2026-09-24T18:20:56.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSNDI4RDRCM0QyNEY3NTdCQTYzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Pero con cuántas megas y ahí que recargar la SIM\""
+    "necesitaAtencion": false,
+    "motivoAtencion": null
   },
   {
     "telefono": "573158180352",
