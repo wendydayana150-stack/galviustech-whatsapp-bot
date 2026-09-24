@@ -1535,8 +1535,8 @@
     "telefono": "573136800224",
     "nombre": "k",
     "primerContacto": "2026-09-24T11:13:51.242Z",
-    "ultimoContacto": "2026-09-24T11:14:16.977Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T14:26:20.064Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1581,13 +1581,32 @@
         "fecha": "2026-09-24T11:14:16.164Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2ODAwMjI0FQIAERgSOTEyM0RGQ0E0ODNGMDQ1MDg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-24T13:21:21.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2ODAwMjI0FQIAERgSMTU2RDMyMTg0QkM0MkNBRkRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo necesito para la zona rural del municipio de la Merced Caldas",
+        "fecha": "2026-09-24T14:26:13.010Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, La Merced es una zona donde el modem realmente hace la diferencia 🙌\n\nTe recomiendo el **Módem WiFi 4G/5G**: capta señal con mucha más potencia que un celular normal, así que aunque en tu vereda solo llegue 4G, el equipo te da una conexión estable para conectar varios dispositivos (celular, portátil, tablet) sin depender de que llegue fibra óptica.\n\nCuéntame, ¿ahora mismo cómo te estás conectando allá? ¿Usas datos del celular o no tienes ninguna conexión estable?",
+        "fecha": "2026-09-24T14:26:18.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2ODAwMjI0FQIAERgSMzBCMDczOTRBMDM0NkYyRTA2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
