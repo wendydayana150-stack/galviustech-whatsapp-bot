@@ -4201,8 +4201,8 @@
     "telefono": "573224374519",
     "nombre": "Diana",
     "primerContacto": "2026-09-24T16:03:45.208Z",
-    "ultimoContacto": "2026-09-24T16:11:15.272Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T22:35:14.435Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4254,6 +4254,39 @@
         "fecha": "2026-09-24T16:11:14.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSNkFBRDhFOTBDQ0ZGMDA2MzAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-24T21:21:11.596Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSRDI1NDc4NjVFMUMwNzYxRDYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-24T21:21:12.297Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSQzZCOUQ0NUNBN0RENUY3MDgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T21:21:12.713Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSNEFEQ0VGNjUzMzVEQTdDRjM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto bale  ece coMBo",
+        "fecha": "2026-09-24T22:35:08.192Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Tenemos dos combos con la impresora térmica 🙌\n\n🖨️ **Impresora + Reloj inteligente**: inversión de $299.900\n🖨️ **Impresora + Cámara de seguridad**: inversión de $299.900\n\nOsea que por solo $50.000 más del precio de la impresora sola ($249.900), te llevas un accesorio extra de regalo 😍\n\n¿Cuál de los dos combos te llama más la atención, el del reloj o el de la cámara? Y cuéntame, para qué usarías la impresora principalmente (negocio, domicilios, facturación)?",
+        "fecha": "2026-09-24T22:35:13.459Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSRkFDNjZGMzc0RkY4N0Y3OTdBAA=="
       }
     ],
     "paso": "conversando",
@@ -4268,7 +4301,8 @@
       "horas2": true,
       "promoDiariaFecha": "2026-9-24",
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573007363017",
