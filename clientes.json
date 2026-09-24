@@ -52,8 +52,8 @@
     "telefono": "573158180352",
     "nombre": "Jose Ivan Gonzalez Martin",
     "primerContacto": "2026-09-24T18:05:01.348Z",
-    "ultimoContacto": "2026-09-24T18:05:01.348Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-24T18:06:24.116Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,13 +86,25 @@
         "fecha": "2026-09-24T18:05:00.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4MTgwMzUyFQIAERgSMzE2RThFQjc5RDUyQkJEQkY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo necesito para ciudad y rural en tauramena Casanare, q costo tiene",
+        "fecha": "2026-09-24T18:06:13.244Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Qué bueno que me cuentas, Tauramena es una zona donde muchos clientes nuestros ya están conectados gracias al modem 📶\n\nComo manejas parte rural y parte ciudad, te recomiendo el **Modem WiFi Portátil 4G/5G**: capta señal más fuerte que un celular normal (ideal para esas zonas donde el 4G es más estable que el 5G todavía), conecta hasta 10 dispositivos a la vez, y no necesitas instalación ni depender de fibra óptica.\n\nLa inversión es de **$249.900**, e incluye SIMCARD de Claro de regalo para que actives de una vez 🎁\n\nCuéntame, ¿lo usarías más para trabajo, estudio o el hogar? Así te confirmo que quede perfecto para lo que necesitas.",
+        "fecha": "2026-09-24T18:06:23.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4MTgwMzUyFQIAERgSRUI5MjUyRkM0QUIwRjM2MTUxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
