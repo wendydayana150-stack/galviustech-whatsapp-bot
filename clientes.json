@@ -3,8 +3,8 @@
     "telefono": "573102499578",
     "nombre": "More🥰",
     "primerContacto": "2026-09-24T23:56:02.131Z",
-    "ultimoContacto": "2026-09-24T23:56:02.131Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-24T23:57:07.578Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-09-24T23:56:01.288Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk5NTc4FQIAERgSODJEODA3ODdEREMxNERBQURBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "para inirida guania",
+        "fecha": "2026-09-24T23:56:56.258Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-24T23:57:06.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk5NTc4FQIAERgSNjBGN0Q1RjYyNkJCNUVDNzJDAA=="
       }
     ],
     "paso": "conversando",
@@ -52,8 +64,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"para inirida guania\"",
     "pausarSeguimiento": false
   },
   {
