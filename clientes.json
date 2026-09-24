@@ -71,8 +71,8 @@
     "telefono": "573046282652",
     "nombre": "Diana",
     "primerContacto": "2026-09-24T16:08:47.509Z",
-    "ultimoContacto": "2026-09-24T16:10:40.753Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-24T16:11:04.441Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,13 +141,25 @@
         "fecha": "2026-09-24T16:10:39.808Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2MjgyNjUyFQIAERgSODdFM0Q5MTZEMjAxRkMxMTY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tengo",
+        "fecha": "2026-09-24T16:10:57.827Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, sin internet en casa toca depender del celular o salir a buscar WiFi, y eso es bien incómodo para el día a día 😩\n\nCon el Módem WiFi 4G/5G resuelves eso de una vez: lo enciendes, conectas tus dispositivos y ya tienes internet en toda la casa, sin cables ni instalaciones. La inversión es de **$249.900**, incluye batería recargable, garantía de 30 días y soporte de GalviusTech, y además te regalamos la SIMCARD de Claro para que actives de inmediato.\n\nMuchas familias en Medellín ya lo están usando así, como solución principal en casa 🙌\n\n¿Te ayudo a dejar tu pedido listo para que lo tengas funcionando lo antes posible?",
+        "fecha": "2026-09-24T16:11:03.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MjgyNjUyFQIAERgSQzUxNUFFMEE0MjhCRDBBNEVGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
