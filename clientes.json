@@ -961,8 +961,8 @@
     "telefono": "573208101515",
     "nombre": "Esnel",
     "primerContacto": "2026-09-23T21:52:42.281Z",
-    "ultimoContacto": "2026-09-24T00:05:03.973Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-24T00:05:54.538Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1038,13 +1038,25 @@
         "fecha": "2026-09-24T00:05:02.866Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MTAxNTE1FQIAERgSRDM4QUU2OTI1Njc5OUU1QTM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que valen",
+        "fecha": "2026-09-24T00:05:49.625Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem 4G/5G te queda como anillo al dedo para el campo: capta señal 4G y 5G donde la haya, conecta hasta 10 dispositivos, es fácil de transportar y trae batería recargable, así que llevas tu propio internet a donde vayas 🌾📶\n\nLa inversión es de $249.900, con garantía de 30 días y soporte de GalviusTech.\n\n¿Te ayudo a dejar tu pedido listo? Cuéntame tu nombre completo y a qué dirección lo enviamos 😊",
+        "fecha": "2026-09-24T00:05:53.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MTAxNTE1FQIAERgSOTJBNjY0OEMzNEM1NjkyRkNFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
