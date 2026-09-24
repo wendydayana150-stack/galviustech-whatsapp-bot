@@ -52,8 +52,8 @@
     "telefono": "573133393376",
     "nombre": "DARIS ISABEL",
     "primerContacto": "2026-09-24T14:31:44.025Z",
-    "ultimoContacto": "2026-09-24T14:33:08.054Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T14:38:35.381Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,13 +98,25 @@
         "fecha": "2026-09-24T14:33:07.014Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMzkzMzc2FQIAERgSOEQ4QzlEMEE2MDE4NTI3QjhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Uso del hogar \nConexión con datos del celular",
+        "fecha": "2026-09-24T14:38:28.142Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, eso de depender solo de los datos del celular se vuelve costoso y limitado, sobre todo cuando varios en la casa necesitan conectarse al tiempo 📱💸\n\nPara tu caso te recomiendo el **Módem WiFi 4G/5G**: capta señal donde ya funcione el 4G y también aprovecha 5G si más adelante llega a tu zona, así que no dependes de adivinar la cobertura. Conecta hasta 10 dispositivos a la vez, viene con batería recargable y es muy fácil de usar (insertas la SIM, lo enciendes y listo).\n\nLa inversión es de $249.900, e incluye SIMCARD de Claro de regalo para que quede listo para usar apenas te llegue.\n\nImagínate tener WiFi en toda la casa sin gastar tus datos del celular cada mes 🙌 ¿Cuántas personas o dispositivos se conectarían normalmente en tu hogar?",
+        "fecha": "2026-09-24T14:38:34.316Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzkzMzc2FQIAERgSMzEwN0I2MDE2ODIzQjA4MEI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
