@@ -2722,8 +2722,8 @@
     "telefono": "573203035217",
     "nombre": "rodriguezwainer81",
     "primerContacto": "2026-09-24T17:51:37.898Z",
-    "ultimoContacto": "2026-09-24T17:52:14.868Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T23:09:49.206Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2775,6 +2775,39 @@
         "fecha": "2026-09-24T17:52:13.960Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzMDM1MjE3FQIAERgSRjM0NEI1OThGNEQxODI3M0NFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-24T22:52:31.717Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDM1MjE3FQIAERgSRjlEMzAyODc3NkY2NDkwMTQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-24T22:52:32.513Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDM1MjE3FQIAERgSRkNBNDIzNEU2NjZGM0NEQzZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T22:52:32.973Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDM1MjE3FQIAERgSNjI5RjFDQzY1MjE2MUYzNUNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cámara sola si la tiene aque precio la tiene",
+        "fecha": "2026-09-24T23:09:41.728Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ahora manejamos la cámara únicamente dentro de combos, no como producto individual 📦\n\nTenemos: Impresora Térmica + Cámara de seguridad por $299.900, o Módem WiFi + Cámara por $289.900.\n\n¿Te interesaría alguno de esos combos, o prefieres seguir viendo la impresora sola? Cuéntame para qué la necesitas (negocio, domicilios, estudio) y te oriento mejor 😊",
+        "fecha": "2026-09-24T23:09:48.355Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDM1MjE3FQIAERgSQzFCQjlBNzMxMzJERjkxNjgwAA=="
       }
     ],
     "paso": "conversando",
@@ -2789,7 +2822,8 @@
       "promoDiariaFecha": "2026-9-24",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573233888793",
