@@ -1026,8 +1026,8 @@
     "telefono": "573126880781",
     "nombre": "VALENCIA VASQUEZ BRAYAN 🤓",
     "primerContacto": "2026-09-24T03:09:26.762Z",
-    "ultimoContacto": "2026-09-24T11:24:35.954Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-24T11:24:42.138Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1142,6 +1142,13 @@
         "fecha": "2026-09-24T11:24:34.774Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2ODgwNzgxFQIAERgSMEM5NjIzMUVDQzBGRUJDQ0MwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa verdad las medidas exactas en centímetros no las tengo a la mano en este momento, pero te confirmo que es bien compacta, del tamaño que cabe facilmente en un bolso o mochila sin problema, pensada justo para que la lleves a donde sea. Voy a verificar la medida precisa para darte el dato exacto y confirmartelo.\n\nPara uso personal, ¿la necesitarías para imprimir documentos, recibos, o algo en especial? Así te oriento mejor si esta impresora se ajusta a lo que buscas 📲",
+        "fecha": "2026-09-24T11:24:39.235Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2ODgwNzgxFQIAERgSMDkyNjIyMjQ0MDQyMjlBRTM5AA=="
       }
     ],
     "paso": "conversando",
@@ -1150,8 +1157,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Que medidas tiene la impresora?\"",
     "recordatorios": {
       "horas2": true
     }
