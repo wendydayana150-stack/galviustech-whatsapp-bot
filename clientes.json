@@ -3,8 +3,8 @@
     "telefono": "573053204080",
     "nombre": "Nohora",
     "primerContacto": "2026-09-24T06:05:15.580Z",
-    "ultimoContacto": "2026-09-24T06:08:01.335Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T06:10:43.956Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-24T06:08:00.448Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzMjA0MDgwFQIAERgSQzQxRjkyRDQyNDhBNEZFNkRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información del Modem WiFi",
+        "fecha": "2026-09-24T06:10:35.851Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento un poco más 😊\n\nEl **Módem WiFi 4G/5G** es la opción que te recomiendo para tu caso, porque:\n\n✅ Capta señal móvil con mucha más potencia que un celular, ideal cuando en la zona la señal es débil\n✅ Conecta hasta 10 dispositivos al mismo tiempo (celulares, tablets, PC)\n✅ Es plug and play: insertas la SIM, lo enciendes y ya tienes WiFi\n✅ Funciona con batería recargable, así que lo puedes llevar a donde vayas\n✅ Incluye SIMCARD de Claro de regalo\n✅ Garantía de 30 días y soporte de GalviusTech\n\nLa inversión es de $249.900, y con eso tendrías internet en casa sin depender de que llegue fibra óptica algún día.\n\n¿Te gustaría que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-09-24T06:10:43.017Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzMjA0MDgwFQIAERgSMURCQzAwMDFBQ0I4NjUyRjc4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
