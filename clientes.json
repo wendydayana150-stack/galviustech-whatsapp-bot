@@ -125,8 +125,8 @@
     "telefono": "573024368046",
     "nombre": "Santa Marta🙏",
     "primerContacto": "2026-09-24T18:05:18.853Z",
-    "ultimoContacto": "2026-09-24T18:10:02.012Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-24T18:11:20.638Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,13 +207,25 @@
         "fecha": "2026-09-24T18:10:00.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSQURGOTM1OUVBMEZDQzNGQkQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si en estos momentos no tengo internet hogar",
+        "fecha": "2026-09-24T18:11:15.446Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah listo, entonces ahora mismo estás sin conexión en casa 😩 Eso es justo lo que resuelve este modem: llegas, lo enciendes, y ya tienes WiFi para todos en la casa, sin esperar instalaciones ni depender de que llegue la fibra.\n\nCon el 4G/5G conectas hasta 10 dispositivos al tiempo, así que celular, compu, tablet, todo funciona sin problema.\n\n¿Te ayudo a dejar tu pedido listo para que tengas internet en casa lo antes posible?",
+        "fecha": "2026-09-24T18:11:19.648Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzY4MDQ2FQIAERgSNzU3M0M5MDFFQkZBRjQ2ODNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
