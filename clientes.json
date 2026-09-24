@@ -3,8 +3,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-09-24T12:21:16.554Z",
-    "ultimoContacto": "2026-09-24T12:24:11.194Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-24T12:24:44.314Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -146,14 +146,27 @@
         "fecha": "2026-09-24T12:24:10.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSMjI3NkI1MDFCOEJEQkZFOURCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y las hojas las envian",
+        "fecha": "2026-09-24T12:24:43.281Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias. Cual es tu numero de celular?",
+        "fecha": "2026-09-24T12:24:43.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNzA1QjdDMEQ4OTRGOUNBNEYyAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
-      "telefono": "573023019983"
+      "telefono": "573023019983",
+      "nombreCliente": "Y las hojas las envian"
     },
     "pausado": false,
     "etapaManual": null,
