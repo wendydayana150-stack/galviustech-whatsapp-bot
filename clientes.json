@@ -3,8 +3,8 @@
     "telefono": "573196848170",
     "nombre": "Juan FCO",
     "primerContacto": "2026-09-24T14:53:50.674Z",
-    "ultimoContacto": "2026-09-24T14:56:18.394Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T14:56:33.744Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-09-24T14:56:17.465Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2ODQ4MTcwFQIAERgSQ0Y4OEU4NUU4QTNBODdEOUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y eso cuánto demora en llegar",
+        "fecha": "2026-09-24T14:56:27.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los tiempos varían según tu ciudad, normalmente se despacha rápido apenas confirmamos el pedido, pero el tiempo exacto de entrega depende de la transportadora (Interrapidísimo o Coordinadora según tu zona) 📦\n\nPara darte una idea más precisa, ¿en qué ciudad o municipio estarías recibiendo el pedido? Así también te cuento si te llega a domicilio o debes recogerlo en oficina.",
+        "fecha": "2026-09-24T14:56:32.166Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2ODQ4MTcwFQIAERgSRjk2MDgyNjMzMDNENTFEOTA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-24T14:56:32.676Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2ODQ4MTcwFQIAERgSM0MzQTY5QUFFMTExRUJBMkMxAA=="
       }
     ],
     "paso": "conversando",
