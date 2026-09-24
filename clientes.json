@@ -1491,8 +1491,8 @@
     "telefono": "573107023117",
     "nombre": "Yeison becerra",
     "primerContacto": "2026-09-24T18:29:21.332Z",
-    "ultimoContacto": "2026-09-24T18:44:07.784Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-24T21:49:49.497Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1775,6 +1775,25 @@
         "fecha": "2026-09-24T18:44:06.678Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSQzAwNDk1ODAyRUM2OEI0MjlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-24T21:00:10.347Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSMjczNTlCNTA4OUVGMzdCQjhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no solo espero q mi hermano me diga por q el está en la finca",
+        "fecha": "2026-09-24T21:49:46.266Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, sin afán 😊 Aquí quedo atenta a lo que te confirme tu hermano para terminar de dejar todo listo. Cuando tengas la info, me escribes y avanzamos.",
+        "fecha": "2026-09-24T21:49:48.446Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSQzAxMTU2Mzc4QkFFOTJGQjI2AA=="
       }
     ],
     "paso": "conversando",
@@ -1788,7 +1807,8 @@
     "recordatorios": {
       "promoDiariaFecha": "2026-9-24",
       "horas2": true
-    }
+    },
+    "pausarSeguimiento": true
   },
   {
     "telefono": "573107237834",
