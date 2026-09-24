@@ -4905,8 +4905,8 @@
     "telefono": "573173153107",
     "nombre": "Katherine Y Tomas",
     "primerContacto": "2026-09-24T15:44:33.106Z",
-    "ultimoContacto": "2026-09-24T15:45:20.440Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T23:57:30.128Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4958,6 +4958,46 @@
         "fecha": "2026-09-24T15:45:19.440Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSMjZCNkQ0RkZGRkRENkNGQ0ZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-24T21:00:13.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSRjY2MDA5RTA1MDY2RkQyMDBDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-24T21:00:13.959Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSMTQ2OTdBREZFMkQwMkQ2NUMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T21:00:14.364Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSQjMyQjBDQzIyNThDOTAzMDAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-24T23:52:34.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSMjlDODU5MEZFMEJDMzYwNDJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias por tu atención si estoy intereza pero para la otra quincena",
+        "fecha": "2026-09-24T23:57:21.244Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto! No hay problema, para la otra quincena la dejamos lista sin afán 😊\n\nAprovecho y te cuento: es bien pequeñita, mide solo 27.5 cm de largo (como un control remoto delgado), así que te cabe facilísimo en el bolso o la maleta. Ya viene con papel térmico incluido, y si más adelante necesitas repuesto tenemos paquete de 52 hojas carta por $38.000 o rollo de 9 metros por $10.000.\n\nMientras tanto, cuéntame para qué la usarías principalmente (facturas, recibos, cotizaciones...) así te asesoro mejor y cuando llegue la quincena ya tienes todo clarito para hacer el pedido rapidito. ¿Te parece?",
+        "fecha": "2026-09-24T23:57:29.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSNjNCQThFNzVEMzhGMjc2QjNGAA=="
       }
     ],
     "paso": "conversando",
@@ -4973,7 +5013,8 @@
       "promoDiariaFecha": "2026-9-24",
       "horas5": true,
       "horas8": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573144332761",
