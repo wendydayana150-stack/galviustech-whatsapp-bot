@@ -1310,8 +1310,8 @@
     "telefono": "573007447217",
     "nombre": "robertoconrra88@gmail.com",
     "primerContacto": "2026-09-24T13:05:10.803Z",
-    "ultimoContacto": "2026-09-24T13:09:48.239Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T16:00:30.794Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1343,13 +1343,32 @@
         "fecha": "2026-09-24T13:09:47.113Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3NDQ3MjE3FQIAERgSQzJGODhDMkQwODdCMDVDODFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-24T15:18:33.258Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3NDQ3MjE3FQIAERgSREREODRENDM2NkY4MjA2MDlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy arquitecto necesito una impresora para imprimir oficios rápidos",
+        "fecha": "2026-09-24T16:00:22.679Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para un arquitecto que necesita resolver oficios y documentos rápido, esta impresora te cae como anillo al dedo 👌\n\nEs térmica portátil, sin tinta ni cartuchos (te ahorras esa vuelta), se conecta por Bluetooth a tu celular y en segundos imprimes el oficio, cotización o documento que necesites, estés en obra, en una reunión con el cliente o donde sea.\n\nLa inversión es de $249.900, e incluye el papel térmico para que empieces a usarla de una vez.\n\nCuéntame, ¿sueles moverte mucho entre obras o reuniones fuera de la oficina? Así te confirmo que esta es justo la solución para no depender de buscar dónde imprimir cuando te urge algo.",
+        "fecha": "2026-09-24T16:00:29.546Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3NDQ3MjE3FQIAERgSQjdEMTgzNjdBMTZEMzk5NzJBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
