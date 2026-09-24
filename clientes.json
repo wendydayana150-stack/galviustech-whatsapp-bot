@@ -52,8 +52,8 @@
     "telefono": "573107023117",
     "nombre": "Yeison becerra",
     "primerContacto": "2026-09-24T18:29:21.332Z",
-    "ultimoContacto": "2026-09-24T18:30:48.013Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T18:32:24.095Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,13 +98,25 @@
         "fecha": "2026-09-24T18:30:46.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSNEE0ODBFQ0FDODNFNTY5NUYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para San Alberto la cierra aya no ay señal o bueno si ay pero es mala para datos",
+        "fecha": "2026-09-24T18:32:15.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, eso es súper común en veredas donde el celular capta señal débil para navegar 📶\n\nLa buena noticia es que nuestro Módem WiFi 4G/5G está hecho justo para eso: tiene una antena más potente que la de un celular, así que capta mejor la señal que tienes ahí en La Cierra y la convierte en WiFi para conectar tus dispositivos (hasta 10 al tiempo). Además viene con SIMCARD de Claro de regalo, así que no tienes que conseguir chip aparte.\n\nLa inversión es de $249.900, con garantía de 30 días y soporte de GalviusTech si necesitas ayuda configurándolo.\n\n¿Actualmente no tienes ningún tipo de conexión en tu casa, o usas solo los datos del celular? Y cuéntame, ¿cuántas personas o dispositivos se conectarían?",
+        "fecha": "2026-09-24T18:32:23.058Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSOTQ3OUU3MzA2QUYzRTJDRTAxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
