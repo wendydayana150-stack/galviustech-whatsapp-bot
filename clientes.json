@@ -75,8 +75,8 @@
     "telefono": "573216506533",
     "nombre": "teranortizwilliam3",
     "primerContacto": "2026-09-24T18:40:30.914Z",
-    "ultimoContacto": "2026-09-24T18:48:55.971Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-24T18:51:49.134Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -251,6 +251,29 @@
         "fecha": "2026-09-24T18:48:55.082Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSNjY1RjgwMDg5NTI0M0Q0OEJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-09-24T18:51:45.652Z"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya le mando los datos",
+        "fecha": "2026-09-24T18:51:46.418Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Quedo atenta a tus datos para dejar todo listo y avanzar con el envío 😊",
+        "fecha": "2026-09-24T18:51:48.103Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSQ0I5QURCMUY4MjI4QzMxQjMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta a que me compartas esos datos: nombre completo, número de celular, departamento y municipio, dirección o punto de referencia, y barrio si aplica.\n\nEn cuanto los tenga listo dejamos tu pedido en camino 🚚📶",
+        "fecha": "2026-09-24T18:51:48.605Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
