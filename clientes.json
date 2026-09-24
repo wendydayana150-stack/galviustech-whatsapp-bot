@@ -3,8 +3,8 @@
     "telefono": "573144277850",
     "nombre": "transporte",
     "primerContacto": "2026-09-24T11:19:27.731Z",
-    "ultimoContacto": "2026-09-24T11:24:13.836Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-24T11:24:39.280Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-09-24T11:24:12.754Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0Mjc3ODUwFQIAERgSMUY0RTFCQTZDQ0Y4MTZDRjg3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para todo",
+        "fecha": "2026-09-24T11:24:31.539Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entiendo 🙂 Como no sabemos si tu zona tiene 5G, te recomiendo el **Módem WiFi 4G/5G**: capta señal más fuerte que un celular normal, conecta hasta 10 dispositivos a la vez y sirve tanto para trabajo, estudio como para el hogar.\n\nLa inversión es de **$249.900**, incluye SIMCARD de Claro de regalo y garantía de 30 días con soporte de GalviusTech.\n\n¿Me confirmas tu ciudad o vereda para verificarte la cobertura y dejamos tu pedido listo?",
+        "fecha": "2026-09-24T11:24:36.225Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0Mjc3ODUwFQIAERgSMTZDOTI3QTBFRkQ5QkMwODU4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null
