@@ -3028,8 +3028,8 @@
     "telefono": "573126880781",
     "nombre": "VALENCIA VASQUEZ BRAYAN 🤓",
     "primerContacto": "2026-09-24T03:09:26.762Z",
-    "ultimoContacto": "2026-09-24T11:24:42.138Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-24T14:57:38.870Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3151,16 +3151,23 @@
         "fecha": "2026-09-24T11:24:39.235Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2ODgwNzgxFQIAERgSMDkyNjIyMjQ0MDQyMjlBRTM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] ",
+        "fecha": "2026-09-24T14:57:37.630Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2ODgwNzgxFQIAERgSRDM5ODU0QUNGRTRGOTg5REUzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Que medidas tiene la impresora?\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true
     }
