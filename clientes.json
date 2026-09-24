@@ -3,8 +3,8 @@
     "telefono": "573112393488",
     "nombre": "Jeml",
     "primerContacto": "2026-09-24T20:18:28.299Z",
-    "ultimoContacto": "2026-09-24T20:19:18.074Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-24T20:19:53.465Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-09-24T20:19:17.172Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSN0U3NDRFQjUzRURGNzVCQjYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene que haber señal para utilizarse",
+        "fecha": "2026-09-24T20:19:43.914Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, necesita que haya algo de señal móvil en la zona (de cualquier operador), pero tranquilo: el módem tiene una antena más potente que la de un celular normal, así que si tu celular agarra aunque sea señal débil ahí, el módem la capta mucho mejor y te da una conexión más estable 📶\n\n¿Qué operador te llega mejor en tu vereda, Claro, Movistar, Tigo o WOM? Así te confirmo con más seguridad cómo te funcionaría.",
+        "fecha": "2026-09-24T20:19:52.501Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSRUM1QjI5QTYxMzlDQjhGRUZCAA=="
       }
     ],
     "paso": "conversando",
