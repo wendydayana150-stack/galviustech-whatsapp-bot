@@ -3,8 +3,8 @@
     "telefono": "573112393488",
     "nombre": "Jeml",
     "primerContacto": "2026-09-24T20:18:28.299Z",
-    "ultimoContacto": "2026-09-24T20:20:57.735Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-24T20:24:33.349Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,6 +73,18 @@
         "fecha": "2026-09-24T20:20:56.796Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSQ0YyQzRFQUI5OEIzRjQ1RTBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La SIM tiene que contar con datos?",
+        "fecha": "2026-09-24T20:24:28.326Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, la SIMCARD que te regalamos necesita que le recargues datos (como harías con cualquier chip de celular) para poder navegar. Nosotros te la damos de regalo, pero la recarga de datos corre por tu cuenta, igual que le recargas minutos o internet a un celular normal.\n\n¿Ya tienes alguna recarga en mente o la idea es meter la SIM y recargar apenas te llegue el equipo?",
+        "fecha": "2026-09-24T20:24:32.354Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSQkJEOTk3RUI4NDg2OEE3ODNEAA=="
       }
     ],
     "paso": "conversando",
