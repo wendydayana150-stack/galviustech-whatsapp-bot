@@ -1187,8 +1187,8 @@
     "telefono": "573043332574",
     "nombre": "Lucia",
     "primerContacto": "2026-09-25T09:09:31.101Z",
-    "ultimoContacto": "2026-09-25T09:09:31.101Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T12:57:34.613Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1208,13 +1208,39 @@
         "fecha": "2026-09-25T09:09:30.300Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQzMzMyNTc0FQIAERgSM0M3MkY3RTUwQjU1NkJENzlDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:04:00.100Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzMzMyNTc0FQIAERgSODBERjZBMDUzNzM0MTYwM0ExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T12:13:58.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzMzMyNTc0FQIAERgSMDVDQTlERTg5RTU1MkU1NTA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que vale la impresora",
+        "fecha": "2026-09-25T12:57:28.048Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa impresora térmica portátil es una maravilla para no depender de una papelería cuando necesitas imprimir algo urgente: una factura, un recibo, una cotización... la sacas de tu bolso y listo, resuelto ahí mismo. No usa tinta ni tóner (ahorras desde la primera impresión) y funciona por Bluetooth desde tu celular. Es pequeñita, mide unos 27.5 cm de largo, o sea que cabe facilísimo en un bolso o maletín.\n\nLa inversión es de $249.900, e incluye envío gratis.\n\nCuéntame, ¿la necesitas para tu negocio, trabajo o estudio? Así te oriento mejor 🙂",
+        "fecha": "2026-09-25T12:57:33.726Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzMzMyNTc0FQIAERgSQTg5MjIyOEFFNDAwMzE0NDlFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
