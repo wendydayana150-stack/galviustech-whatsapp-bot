@@ -2578,8 +2578,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T00:35:45.273Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-25T11:09:30.457Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2713,6 +2713,32 @@
         "fecha": "2026-09-25T00:35:44.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSMDZCNDBCRTM5NDAxM0QyMDExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:04:22.309Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSNTIzM0ExQzA0ODgwQTU0OTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Herman Quevedo, sobre modem WiFi portátil",
+        "fecha": "2026-09-25T11:07:53.086Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQjlCODQ0RTgyQUVDQ0NCODg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi cámara tiene puerto de cable",
+        "fecha": "2026-09-25T11:08:55.094Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por la claridad 🙏\n\nTe soy honesta: el módem trabaja generando señal WiFi, no tiene puerto de red (ethernet) para conectar por cable directo. Si tu cámara solo tiene puerto de cable, no podría conectarse directamente al módem sin un adaptador aparte, y eso no es algo que te pueda garantizar que funcione bien.\n\nAhora, para que tengas una alternativa completa: nosotros también manejamos cámaras de seguridad que sí funcionan por WiFi, así podrías vigilar tu casa desde el celular sin ese problema de cable. ¿Quieres que te cuente de esa opción, o prefieres revisar primero si tu cámara actual tiene también la opción de conectarse por WiFi?",
+        "fecha": "2026-09-25T11:09:02.930Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRkQ1NDg3NjcwNUU1OTgzRjNFAA=="
       }
     ],
     "paso": "conversando",
@@ -2723,7 +2749,8 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573239026136",
