@@ -6158,8 +6158,8 @@
     "telefono": "573136036983",
     "nombre": "Breiner Andrés",
     "primerContacto": "2026-09-24T23:03:31.467Z",
-    "ultimoContacto": "2026-09-24T23:03:31.467Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T14:41:25.379Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6179,6 +6179,46 @@
         "fecha": "2026-09-24T23:03:30.651Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSNzJGRjA3RTZDNzQwQjQ4QURCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T14:21:27.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSQkFFRTgxOEQxOEEzQ0EzMjkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-25T14:32:38.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSNTA5N0ExNjc3RjM2QkZDQTcwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-25T14:32:39.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSMDgzNzUxMzE2NkU5QjczNzFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-25T14:32:40.609Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSMjREMkExM0JCMkQ4Rjg4ODlGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto es el  valor ?",
+        "fecha": "2026-09-25T14:41:20.952Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Para darte el precio exacto, cuéntame ¿de cuál te interesa saber el valor? 😊\n\nTenemos:\n📶 Modem WiFi Portátil (internet donde quieras)\n🖨️ Impresora Térmica Portátil\n💡 Lámparas Solares\n📦 Combos especiales\n\n¿Cuál te llama más la atención?",
+        "fecha": "2026-09-25T14:41:24.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSMEM2MkQ0OUUwNDhCNUQ5MUQxAA=="
       }
     ],
     "paso": "conversando",
@@ -6194,7 +6234,8 @@
       "horas1": true,
       "horas3": true,
       "horas5": true
-    }
+    },
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573015659407",
