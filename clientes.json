@@ -17952,8 +17952,8 @@
     "telefono": "573114393677",
     "nombre": "3114393677",
     "primerContacto": "2026-09-23T19:42:17.669Z",
-    "ultimoContacto": "2026-09-24T11:15:22.762Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-25T12:38:39.494Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18144,6 +18144,39 @@
         "fecha": "2026-09-24T11:15:21.950Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzkzNjc3FQIAERgSNTU4N0FEQzY5NkYxQjA0Njg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:06:30.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzkzNjc3FQIAERgSNTU3RTAwQkVCMTU5N0E3NDVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola 3114393677, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:08:37.178Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzkzNjc3FQIAERgSQjIwMjM4OTY1NDAxODRGNkU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T11:15:35.066Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzkzNjc3FQIAERgSMzEzMTA5QkQwMDg4NjlCREFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias no me alcanza el dinero",
+        "fecha": "2026-09-25T12:38:35.919Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo perfectamente, gracias por contarme 🙏 No hay ningún problema.\n\nSi más adelante te organizas y sigue interesándote, aquí quedo atenta para ayudarte con la impresora o cualquier otra cosa que necesites. ¡Que tengas muy buen día! 😊",
+        "fecha": "2026-09-25T12:38:38.493Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzkzNjc3FQIAERgSMDY3NkMyMDUwMDIzNDY2NTlGAA=="
       }
     ],
     "paso": "conversando",
@@ -18161,7 +18194,9 @@
       "horas8": true,
       "horas11": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": true,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573112560361",
