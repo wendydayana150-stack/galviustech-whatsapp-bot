@@ -6884,8 +6884,8 @@
     "telefono": "573144332761",
     "nombre": "Jorge E Castellanos R",
     "primerContacto": "2026-09-24T15:27:52.357Z",
-    "ultimoContacto": "2026-09-24T15:29:17.668Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:15:43.449Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6968,11 +6968,18 @@
         "fecha": "2026-09-24T15:29:16.715Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzMyNzYxFQIAERgSQjIzNTMzMzExNTcyMUE3RjZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:15:42.404Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzMyNzYxFQIAERgSODY1Q0RCNjAwMEVDN0M4ODYzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -6983,7 +6990,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas5": true,
       "horas8": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573114189581",
