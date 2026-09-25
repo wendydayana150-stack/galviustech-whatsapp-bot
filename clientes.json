@@ -3581,8 +3581,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T11:23:16.579Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-25T12:55:10.747Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3859,6 +3859,18 @@
         "fecha": "2026-09-25T11:23:15.618Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRjU5NTM1MjNDMzcxNjJBRDc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi cámara tiene puerto de cable",
+        "fecha": "2026-09-25T12:55:06.002Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te escucho 🙏 Ya te confirmé con toda seguridad que el módem no tiene puerto de cable, solo funciona por WiFi, así que para tu cámara actual no sería compatible.\n\nYa dejé anotado tu caso para que un asesor te contacte y revise si hay alguna otra alternativa para tu situación particular. No quiero seguir dándote la misma respuesta una y otra vez sin avanzar.\n\n¿Prefieres que mientras tanto te muestre la cámara WiFi como opción, o prefieres esperar el contacto del asesor?",
+        "fecha": "2026-09-25T12:55:09.690Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSM0E4NjhCQTI1NDJDQUM5NEZBAA=="
       }
     ],
     "paso": "conversando",
@@ -3868,7 +3880,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Mi cámara tiene puerto de cable\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
