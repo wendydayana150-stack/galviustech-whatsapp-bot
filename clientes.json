@@ -3,8 +3,8 @@
     "telefono": "573144691822",
     "nombre": "Pulsar NS",
     "primerContacto": "2026-09-25T17:29:02.760Z",
-    "ultimoContacto": "2026-09-25T17:35:10.805Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T17:35:28.845Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-09-25T17:35:09.800Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSRjdENDQzMDZDMDFEOEE2NDJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Están es robando alas las personas",
+        "fecha": "2026-09-25T17:35:24.070Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Diego, lamento mucho que sientas eso 😞 Para nada es nuestra intención, y quiero que sepas que tu comentario lo voy a escalar para que lo revisen personalmente contigo.\n\nEn breve alguien de nuestro equipo te va a contactar para conversar sobre esto con calma. Gracias por decírmelo directamente.",
+        "fecha": "2026-09-25T17:35:27.865Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSQjg1NzEwNTNCOTI3RjAyNzYyAA=="
       }
     ],
     "paso": "conversando",
@@ -101,7 +113,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Sogamoso Boyacá\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Están es robando alas las personas\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
