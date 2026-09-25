@@ -620,8 +620,8 @@
     "telefono": "573105947689",
     "nombre": "Ayda",
     "primerContacto": "2026-09-25T12:52:23.294Z",
-    "ultimoContacto": "2026-09-25T14:04:39.323Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-25T14:04:52.185Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -896,21 +896,36 @@
         "fecha": "2026-09-25T14:04:37.296Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNUQ1RjY3N0QzODc2RDhBOUQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Transferencia",
+        "fecha": "2026-09-25T14:04:49.089Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estos son los datos para tu transferencia:\n\n*BANCOLOMBIA*\nCuenta de ahorros\n41100042485\n\n*NEQUI*\n3023890578\nHector Rojas\n\n*BRE-B*\n@3023890578\n\nCuando hagas la transferencia, envianos el comprobante por aqui mismo.",
+        "fecha": "2026-09-25T14:04:50.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSQjQ0NjY3RTgxRjI1Qjg2RUM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Ayda Gutiérrez\n*Celular:* 3105947689\n*Departamento:* Antioquia\n*Ciudad:* Medellín\n*Direccion:* Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia\n*Barrio:* Granizal\nMedellín\n*Producto:* Modem WiFi Portatil 4G/5G\n*Medio de pago:* Transferencia\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-25T14:04:50.728Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNzY4OTZFODQ0MzJCMTA2QTFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-25T14:04:51.262Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSOTJEQjg0RTI5QkQ2MTdDNEI1AA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 249900,
-      "telefono": "573105947689",
-      "nombreCliente": "Ayda Gutiérrez",
-      "celular": "3105947689",
-      "departamento": "Antioquia",
-      "ciudad": "Medellín",
-      "direccion": "Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia",
-      "barrio": "Granizal\nMedellín"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
