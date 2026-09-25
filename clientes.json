@@ -35672,8 +35672,8 @@
     "telefono": "573113481173",
     "nombre": "CRONOS",
     "primerContacto": "2026-09-22T05:20:43.678Z",
-    "ultimoContacto": "2026-09-25T12:55:17.932Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T14:16:14.426Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35776,16 +35776,23 @@
         "fecha": "2026-09-25T12:55:17.091Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSRjNFODFCQzA0MTMzN0NFRDg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "https://galviustech.cercia.co  Nuestra pagina donde encontraras de todos los productos",
+        "fecha": "2026-09-25T14:16:13.287Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSQTQ3Q0YwQkM0NzQ5NDJDRkVGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "recordatorios": {
       "horas2": true,
       "promoDiariaFecha": "2026-9-25",
