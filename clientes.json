@@ -7662,8 +7662,8 @@
     "telefono": "573124200468",
     "nombre": "MARY🥰",
     "primerContacto": "2026-09-24T13:27:03.018Z",
-    "ultimoContacto": "2026-09-24T13:34:40.412Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T02:20:15.838Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7806,11 +7806,18 @@
         "fecha": "2026-09-24T13:34:39.473Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjAwNDY4FQIAERgSMEFDRjFEN0VDMzFCQUU3N0ZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:20:15.034Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjAwNDY4FQIAERgSNjg3QkVDMUIyNTZCRDg4OTgzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -7822,7 +7829,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas8": true,
       "horas11": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573152921072",
