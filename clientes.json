@@ -37433,8 +37433,8 @@
     "telefono": "573107466103",
     "nombre": "Kennier Duque",
     "primerContacto": "2026-09-15T20:14:08.756Z",
-    "ultimoContacto": "2026-09-25T11:41:52.375Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T11:42:28.863Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "bot",
@@ -37644,6 +37644,24 @@
         "fecha": "2026-09-25T11:41:51.423Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSODk3MDBBQjk5NDM4NTlCNjYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-25T11:42:27.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-25T11:42:27.721Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-09-25T11:42:27.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSMTRENTZBMzQ1NzBCQjA0NTc4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -37657,8 +37675,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "recordatorios": {
       "horas2": true,
       "horas5": true,
