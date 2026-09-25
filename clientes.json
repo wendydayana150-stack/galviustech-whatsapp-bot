@@ -10701,8 +10701,8 @@
     "telefono": "573236313169",
     "nombre": "Lorena Muñoz",
     "primerContacto": "2026-09-24T16:47:12.719Z",
-    "ultimoContacto": "2026-09-24T17:07:23.737Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T14:45:24.588Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10785,6 +10785,39 @@
         "fecha": "2026-09-24T17:07:22.836Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MzEzMTY5FQIAERgSQkUyRDMxNEI2MDRDMEU5MDg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T14:21:55.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MzEzMTY5FQIAERgSNzE1MEQ5RERBNDA1NzhFRDFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-25T14:33:07.667Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MzEzMTY5FQIAERgSNEQwMEExMDMwQkMxNzU1MkRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo por aquí pendiente de nuestros productos, por si se te ofrece algo o te quedo alguna duda.\nCuéntame y con gusto te ayudo a dejarlo listo. 🙋‍♀️",
+        "fecha": "2026-09-25T14:44:09.746Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MzEzMTY5FQIAERgSQkVENjNFMjc0QzFENjU5RTVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-25T14:45:18.812Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! La inversión de la impresora es de $249.900 📌\n\nRecuerda que ya incluye papel térmico para que empieces a usarla apenas te llegue, no necesita tinta ni cartuchos (ahorro a largo plazo), y es tan compacta (mide 27.5 x 6.5 x 5 cm, como un control remoto delgado) que te cabe hasta en la cartera o el bolso.\n\nAh, y si más adelante necesitas papel adicional, manejamos paquete de 52 hojas tamaño carta por $38.000, o rollo de 9 metros por $10.000, con envío gratis igual.\n\n¿Te la enviamos ya o tienes alguna otra duda antes de confirmar? 😊",
+        "fecha": "2026-09-25T14:45:23.484Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MzEzMTY5FQIAERgSNkU2Q0NBMDlBMEQ3MThBNjc0AA=="
       }
     ],
     "paso": "conversando",
@@ -10802,7 +10835,9 @@
       "horas1": true,
       "horas3": true,
       "horas7": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573155651278",
