@@ -3,8 +3,8 @@
     "telefono": "573105947689",
     "nombre": "Ayda",
     "primerContacto": "2026-09-25T12:52:23.294Z",
-    "ultimoContacto": "2026-09-25T13:02:42.099Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-25T13:02:49.783Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -236,9 +236,21 @@
         "fecha": "2026-09-25T13:02:41.055Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSMzhBQjMyM0ExODlFMTE0NEQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Medellín",
+        "fecha": "2026-09-25T13:02:48.918Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-25T13:02:48.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSOTQ5NzkzNzBEN0Y2MzA5RDk5AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -246,7 +258,8 @@
       "telefono": "573105947689",
       "nombreCliente": "Ayda Gutiérrez",
       "celular": "3105947689",
-      "departamento": "Antioquia"
+      "departamento": "Antioquia",
+      "ciudad": "Medellín"
     },
     "pausado": false,
     "etapaManual": null,
