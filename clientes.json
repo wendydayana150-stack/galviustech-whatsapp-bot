@@ -6577,8 +6577,8 @@
     "telefono": "573165553443",
     "nombre": "rudarisalazar1954",
     "primerContacto": "2026-09-24T15:53:36.334Z",
-    "ultimoContacto": "2026-09-24T17:08:06.855Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-25T02:14:49.827Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6713,11 +6713,18 @@
         "fecha": "2026-09-24T17:08:05.684Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY1NTUzNDQzFQIAERgSNDczRjhBQjY2MzVBRjhFMzE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:14:48.716Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY1NTUzNDQzFQIAERgSMUM0M0Q1NjIzNUY1NEI0ODBCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -6727,7 +6734,9 @@
       "horas2": true,
       "promoDiariaFecha": "2026-9-24",
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573173153107",
