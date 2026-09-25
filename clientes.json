@@ -4304,8 +4304,8 @@
     "telefono": "573112393488",
     "nombre": "Jeml",
     "primerContacto": "2026-09-24T20:18:28.299Z",
-    "ultimoContacto": "2026-09-24T20:24:33.349Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T12:03:53.650Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4386,6 +4386,44 @@
         "fecha": "2026-09-24T20:24:32.354Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSQkJEOTk3RUI4NDg2OEE3ODNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:04:36.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSNUFENzI0Q0YzNTAwNUEyMEE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T11:14:22.177Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSOERFODM2QTE5NkEzNTAxMjI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no estoy interesado",
+        "fecha": "2026-09-25T11:15:47.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, no hay ningún problema 🙌 Igual quedo atenta si más adelante cambias de opinión o si en tu vereda te toca lidiar con la señal y quieres retomar el tema.\n\n¿Te ayudo con alguna otra duda mientras tanto?",
+        "fecha": "2026-09-25T11:15:51.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSNjZBRUE4OEQ1NEMyRjQ4RkUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no estoy interesado",
+        "fecha": "2026-09-25T12:03:49.703Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entendido 🙏 No te voy a insistir más con el tema. Quedo atenta por si en algún momento me necesitas.\n\n¡Que tengas muy buen día!",
+        "fecha": "2026-09-25T12:03:52.514Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzkzNDg4FQIAERgSREEwQjMxQzZGNzUzNjQ5REFEAA=="
       }
     ],
     "paso": "conversando",
@@ -4399,7 +4437,9 @@
     "recordatorios": {
       "horas2": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": true,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573142171651",
