@@ -2726,8 +2726,8 @@
     "telefono": "573216506533",
     "nombre": "teranortizwilliam3",
     "primerContacto": "2026-09-24T18:40:30.914Z",
-    "ultimoContacto": "2026-09-24T18:51:51.447Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T02:02:04.841Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2926,11 +2926,18 @@
         "fecha": "2026-09-24T18:51:48.605Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSMjRBQzhBMzBENTRBMTcwMjQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, estoy atenta a que me compartas esos datos: nombre completo, número de celular, departamento y municipio, dirección o punto de referencia, y barrio si aplica.",
+        "fecha": "2026-09-25T02:02:03.736Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSRTlFRDRFNjgxQzgxOEREM0NCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2940,7 +2947,8 @@
       "promoDiariaFecha": "2026-9-24",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573022329968",
