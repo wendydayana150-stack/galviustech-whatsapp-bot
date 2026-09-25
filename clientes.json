@@ -9687,8 +9687,8 @@
     "telefono": "573116742817",
     "nombre": "ALAIN PLASMAS",
     "primerContacto": "2026-09-24T10:48:56.892Z",
-    "ultimoContacto": "2026-09-24T10:50:47.684Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:21:18.842Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9757,11 +9757,18 @@
         "fecha": "2026-09-24T10:50:46.692Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NzQyODE3FQIAERgSQkE0QTk4Mzg0MEU1RThGMTg1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:21:17.940Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NzQyODE3FQIAERgSRjlGMEVCMUFBNDI5MjZENUEyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
@@ -9772,7 +9779,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573159716124",
