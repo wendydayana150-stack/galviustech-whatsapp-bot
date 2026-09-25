@@ -1135,8 +1135,8 @@
     "telefono": "573102499578",
     "nombre": "More🥰",
     "primerContacto": "2026-09-24T23:56:02.131Z",
-    "ultimoContacto": "2026-09-25T01:49:53.250Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T01:55:10.727Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1214,11 +1214,18 @@
         "fecha": "2026-09-25T01:49:52.237Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk5NTc4FQIAERgSMjA1MEFEOEExODlBNUU0NjQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "para el envio necesito los siguientes datos: Nombres, correo, dirección exacta, teléfono",
+        "fecha": "2026-09-25T01:55:09.573Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk5NTc4FQIAERgSRjg1OEI2MjIzNjI2MEI5ODVGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
