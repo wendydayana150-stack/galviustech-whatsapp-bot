@@ -17578,8 +17578,8 @@
     "telefono": "573235282112",
     "nombre": "Cristian René Campo",
     "primerContacto": "2026-09-23T22:59:45.487Z",
-    "ultimoContacto": "2026-09-24T19:24:26.543Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-25T14:25:00.895Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17760,6 +17760,25 @@
         "fecha": "2026-09-24T19:24:25.616Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MjgyMTEyFQIAERgSMDRBRUZFQzdDRTkwQzQ4NEU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T14:23:11.050Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjgyMTEyFQIAERgSMDI1NUI3RUZBOEUwNzgwMzE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me mandaron el vídeo",
+        "fecha": "2026-09-25T14:24:54.379Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perdón por eso, a veces la plataforma falla con los videos 😔 No te preocupes, te explico bien por acá para que no te quedes sin info.\n\nLa impresora es térmica, blanco y negro, ideal para recibos, notas, cotizaciones y etiquetas sencillas. Para lo que me contabas (dibujos y stickers), te sirve solo si es algo simple sin colores.\n\n¿Quieres que te muestre fotos del tamaño y de cómo imprime, para que te hagas una idea más clara?",
+        "fecha": "2026-09-25T14:25:00.018Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjgyMTEyFQIAERgSOUUzRkFCOTkzNUUxRThFRjA3AA=="
       }
     ],
     "paso": "conversando",
@@ -17777,7 +17796,9 @@
       "horas8": true,
       "horas11": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573194359923",
