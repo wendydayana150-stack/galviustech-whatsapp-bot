@@ -2689,8 +2689,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T11:13:28.128Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T11:14:57.221Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2881,6 +2881,25 @@
         "fecha": "2026-09-25T11:10:57.011Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSMDM0ODAxOUY2NDA2MzRGN0ZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi cámara tiene puerto de cable",
+        "fecha": "2026-09-25T11:13:29.367Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Veo que me repites lo mismo, disculpa si no me estoy explicando bien 🙏\n\nPara no dejarte con la duda y revisar bien si hay alguna forma de adaptar tu cámara actual, prefiero que uno de nuestros asesores técnicos te contacte directamente y te confirme con certeza esa parte específica de conexión por cable.\n\nEn un momento te dan respuesta personalizada. Mientras tanto, ¿quieres que te muestre la cámara WiFi como alternativa segura?",
+        "fecha": "2026-09-25T11:13:37.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQjMxOUU5RjlGNzRENzJCRUUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T11:13:37.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRjc2QUFBRDg5NTQ3ODYyNUM3AA=="
       }
     ],
     "paso": "conversando",
@@ -2889,8 +2908,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Mi cámara tiene puerto de cable\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
