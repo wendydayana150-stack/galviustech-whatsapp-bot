@@ -155,7 +155,7 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             "HOJAS/PAPEL TERMICO PARA LA IMPRESORA: La impresora YA INCLUYE papel termico, y como es termica NO necesita tinta, toner, cartuchos ni ningun otro repuesto para imprimir; lo unico que llega a necesitar con el tiempo es mas papel. Si el cliente pregunta si la impresora trae papel o hojas incluidas, respondele con seguridad que SI, que ya viene incluido. Ademas, GalviusTech vende papel termico adicional por separado (se llama PAPEL TERMICO, no 'hojas normales' ni resma de papel comun) en 2 presentaciones: paquete de 52 hojas tamaño carta por $38.000, o rollo de papel tamaño carta de 9 metros por $10.000 (envio gratis en ambos casos, ver INFORMACION DE ENVIOS). SIEMPRE que presentes o estes vendiendo la impresora (no solo si el cliente pregunta), ofrece de una vez estas 2 presentaciones de papel con sus precios como un extra que puede agregar a su pedido, y pregunta cual de las 2 le sirve o si no necesita por ahora. Si el cliente pregunta como se llama el papel de la impresora, por el sistema de impresion, por que repuestos necesita, o por comprar mas hojas, papel o rollos aparte, ofrecele con seguridad estas 2 opciones y precios, y pregunta cual quiere agregar a su pedido. Si el cliente pregunta por el TAMAÑO del papel/hojas o del rollo, respondele con seguridad que ambos son tamaño carta.\n\n" +
             "CARACTERISTICAS GENERALES DE LAS LAMPARAS SOLARES: Funcionan 100% con energia solar, se cargan directamente con el sol (traen su propio panel solar incorporado, no necesitan conectarse a la electricidad ni a un tomacorriente). Tiempo de encendido de 8 a 12 horas con una carga completa (dependiendo del modelo y de cuanto sol reciban durante el dia). Ideales para exteriores: fachadas, patios, jardines, fincas, negocios. Si el cliente pregunta cuanto duran encendidas o como se cargan, respondele esto con seguridad.\n\n" +
             "COSTO DE ENVIO: El envio SIEMPRE es gratis para el cliente, sin importar el producto, la cantidad o la zona. Nunca digas que el envio tiene un costo aparte, que se calcula segun la ciudad, o que se confirma despues; el envio esta incluido en el precio siempre. Si el cliente pregunta cuanto cuesta el envio o si el envio es gratis, respondele con seguridad y de forma corta que si, que el envio va incluido sin costo adicional.\n\n" +
-            "TIEMPO DE ENTREGA: El pedido se despacha en las horas de la tarde del dia en que se confirma (o el siguiente dia habil si se confirma tarde) y llega en un plazo de 2 a 4 dias habiles despues del despacho. Si el cliente pregunta cuanto se demora en llegar o cuando le llega, respondele esto directo y en pocas lineas (2 a 4 dias habiles), sin dar rodeos ni explicaciones largas sobre por que no puedes confirmar un numero exacto: este plazo SI esta confirmado y lo puedes dar con seguridad. Aclarale, solo si pregunta especificamente por su zona o si vive en vereda, que en zonas sin cobertura de entrega a domicilio el plazo cuenta desde que el pedido queda disponible en la oficina de la transportadora de su municipio.\n\n" +
+            "TIEMPO DE ENTREGA: El pedido se despacha en las horas de la tarde del dia en que se confirma (o el siguiente dia habil si se confirma tarde) y llega en un plazo de 2 a 4 dias habiles despues del despacho. Si el cliente pregunta cuanto se demora en llegar o cuando le llega (ej. 'y eso cuanto demora en llegar?', 'cuando me llega?'), respondele ESE NUMERO (2 a 4 dias habiles) EN LA PRIMERA LINEA de tu respuesta, siempre, sin excepcion. IMPORTANTE (caso real detectado sep-2026, cliente 'Juan FCO'): esta PROHIBIDO responder solo con 'los tiempos varian segun tu ciudad' o 'depende de la transportadora' y luego preguntarle en que ciudad esta, dejando la pregunta original sin responder - eso es exactamente el rodeo que esta regla prohibe, aunque la intencion sea buena (conseguir su ciudad para el pedido). El plazo de 2 a 4 dias habiles YA esta confirmado para practicamente todo el pais y lo puedes dar con seguridad ANTES de preguntar nada mas. Ejemplo de respuesta CORRECTA: 'Llega en 2 a 4 dias habiles despues de que se despache el pedido. Por cierto, en que ciudad o municipio estas? Asi te confirmo si te llega a domicilio o debes recogerlo en oficina.' - primero el numero, la pregunta de ciudad es un extra despues, nunca un reemplazo. Aclarale, solo si pregunta especificamente por su zona o si vive en vereda, que en zonas sin cobertura de entrega a domicilio el plazo cuenta desde que el pedido queda disponible en la oficina de la transportadora de su municipio.\n\n" +
             "INFORMACION DE ENVIOS: La mayoria de los pedidos se envian con la transportadora INTERRAPIDISIMO. Si la zona del cliente no tiene cobertura de Interrapidisimo, el envio se realiza con COORDINADORA. Si el cliente pregunta con que transportadora se hace el envio, respondele esto con seguridad.\n\n" +
             "RECOGIDA EN OFICINA (veredas / zonas rurales): Muchos clientes viven en vereda o zona rural donde la transportadora no hace entrega a domicilio. En esos casos el pedido se envia para que el cliente lo recoja en la oficina de Interrapidisimo (o Coordinadora, segun cobertura) mas cercana a su zona, no a la puerta de su casa. Si el cliente pregunta si puede recoger en oficina, o si vive en vereda y preguntas si le llega, respondele con seguridad que si: en zonas sin cobertura de entrega a domicilio el pedido queda disponible para recoger en la oficina de la transportadora en su municipio.\n\n" +
             "CLIENTE QUE DICE QUE NO HAY SEÑAL DE NINGUN OPERADOR (caso real sep-2026, cliente jhdiazbetancur): si el cliente dice que en su zona no hay señal de NINGUN operador (ni Claro, ni Movistar, ni Tigo, etc.) y que solo tendria internet satelital, se honesta: el modem funciona con una SIM de un operador celular, asi que si de verdad no llega señal de ningun operador ahi, el modem no le va a servir (GalviusTech no vende internet satelital). No le digas que si le sirve solo por cerrar la venta. Dicho eso, antes de descartarlo del todo, pregunta con curiosidad: la antena del modem es bastante mas sensible que la de un celular normal, asi que a veces SI capta señal debil donde el celular muestra 'sin servicio' - preguntale si es que su celular no tiene señal ahi mismo, o si ya confirmo con alguien mas en esa vereda que de verdad no hay señal de ningun operador ni siquiera intermitente. Si el cliente confirma que de verdad no hay nada de señal, agradecele la honestidad de haber preguntado y no insistas en venderle el modem.\n\n" +
@@ -262,17 +262,30 @@ const mensajeDatosTransferencia =
             "@3023890578\n\n" +
             "Cuando hagas la transferencia, envianos el comprobante por aqui mismo.";
 
-const mensajeRecordatorio2Horas = (nombreProducto, precio) => {
-              // Antes este mensaje repetia la promocion (nombre + precio) igual que los
-              // recordatorios de 5/8/11 horas. Segun el analisis del embudo, a esta altura (2h)
-              // repetir precio no reactiva a nadie; vale mas la pena algo mas corto que trate de
-              // detectar si quedo una duda puntual sin resolver, en vez de volver a venderle.
+// CADENCIA DE RECORDATORIOS (actualizada sep-2026 a pedido de Wendy): antes eran 4 avisos a las
+// 2/5/8/11 horas. Ahora son 6, cada 2 horas empezando a la 1 hora (1/3/5/7/9/11h), sin correrse
+// mas alla del mismo dia (mismo tope de 11h que antes, solo que con mas puntos de contacto en el
+// camino en vez de dejar huecos de 3 horas entre uno y otro).
+const mensajeRecordatorio1Hora = (nombreProducto, precio) => {
+              // Antes este era el primer recordatorio a las 2h. Segun el analisis del embudo,
+              // a esta altura repetir precio no reactiva a nadie; vale mas la pena algo mas corto
+              // que trate de detectar si quedo una duda puntual sin resolver, en vez de venderle.
               const detalle = nombreProducto
                             ? `Quedamos hablando del ${nombreProducto} y no quise dejarte sin respuesta.`
                             : "Quedamos a mitad de la conversación y no quise dejarte sin respuesta.";
               return (
                             "Hola! 😊 " + detalle + "\n" +
                             "Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️"
+              );
+};
+
+const mensajeRecordatorio3Horas = (nombreProducto, precio) => {
+              const detalle = nombreProducto
+                            ? `sigues por ahí? Quedamos viendo el ${nombreProducto} y quiero asegurarme de que te haya quedado clara toda la info`
+                            : "sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info";
+              return (
+                            "¡Hola de nuevo! 👋 " + detalle + ".\n" +
+                            "Si tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️"
               );
 };
 
@@ -288,13 +301,23 @@ const mensajeRecordatorio5Horas = (nombreProducto, precio) => {
               );
 };
 
-const mensajeRecordatorio8Horas = (nombreProducto, precio) => {
+const mensajeRecordatorio7Horas = (nombreProducto, precio) => {
               const detalle = nombreProducto && precio
                             ? `sigues interesado(a) en el ${nombreProducto} (${precio})`
                             : "sigues interesado(a) en alguno de nuestros productos";
               return (
                             "Hola! 👋 Pasando a ver si " + detalle + ".\n" +
                             "Cuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊"
+              );
+};
+
+const mensajeRecordatorio9Horas = (nombreProducto, precio) => {
+              const detalle = nombreProducto && precio
+                            ? `del ${nombreProducto} (${precio})`
+                            : "de nuestros productos";
+              return (
+                            `Hola! 😊 Sigo por aquí pendiente ${detalle}, por si se te ofrece algo o te quedo alguna duda.\n` +
+                            "Cuéntame y con gusto te ayudo a dejarlo listo. 🙋‍♀️"
               );
 };
 
@@ -311,13 +334,19 @@ const mensajeRecordatorio11Horas = (nombreProducto, precio) => {
 // Recordatorio especifico para un cliente que se quedo A MITAD del flujo de pedido (ya dio
 // varios de sus datos, solo falta uno o dos para completarlo). Es mas efectivo que el recordatorio
 // generico de "sigues interesado" porque le dice exactamente que falta, en vez de hacerlo repetir
-// datos que ya dio.
+// datos que ya dio. Sigue la misma cadencia de 1/3/5/7/9/11 horas que los recordatorios generales.
 const mensajeRecordatorioPedidoPendiente = (preguntaFaltante, tier) => {
             const pregunta = preguntaFaltante || "el ultimo dato que falta";
-            if (tier === "horas2") {
+            if (tier === "horas1") {
                         return (
                                     "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\n" +
                                     "Solo me falta este dato para dejarlo listo: " + pregunta
+                        );
+            }
+            if (tier === "horas3") {
+                        return (
+                                    "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\n" +
+                                    pregunta
                         );
             }
             if (tier === "horas5") {
@@ -326,9 +355,15 @@ const mensajeRecordatorioPedidoPendiente = (preguntaFaltante, tier) => {
                                     pregunta
                         );
             }
-            if (tier === "horas8") {
+            if (tier === "horas7") {
                         return (
                                     "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\n" +
+                                    pregunta
+                        );
+            }
+            if (tier === "horas9") {
+                        return (
+                                    "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\n" +
                                     pregunta
                         );
             }
@@ -398,9 +433,11 @@ module.exports = {
             mensajeResumenPedido,
             mensajeResponsabilidadPedido,
             mensajeDatosTransferencia,
-            mensajeRecordatorio2Horas,
+            mensajeRecordatorio1Hora,
+            mensajeRecordatorio3Horas,
             mensajeRecordatorio5Horas,
-            mensajeRecordatorio8Horas,
+            mensajeRecordatorio7Horas,
+            mensajeRecordatorio9Horas,
             mensajeRecordatorio11Horas,
             mensajeRecordatorioPedidoPendiente,
             mensajeRecordatorioDatosPedidoLibre,

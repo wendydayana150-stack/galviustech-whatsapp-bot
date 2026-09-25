@@ -1272,7 +1272,7 @@ async function enviarRecordatoriosPendientes() {
                   // Cliente que prometio mandar sus datos de pedido en conversacion libre (ver
                   // esperandoDatosPedidoLibre en manejarTextoLibre) y no llegaron: un solo
                   // recordatorio puntual a las 2 horas, independiente del ciclo normal de
-                  // horas2/5/8/11 (que es para el flujo ESTRUCTURADO de pedido, este caso es antes
+                  // horas1/3/5/7/9/11 (que es para el flujo ESTRUCTURADO de pedido, este caso es antes
                   // de eso). Se revisa antes que el resto para no perder el caso si por alguna razon
                   // ultimoContacto tambien coincidiera con otro tier.
                   if (c.esperandoDatosPedidoLibre && !recordatorios.datosLibre2h) {
@@ -1289,10 +1289,15 @@ async function enviarRecordatoriosPendientes() {
                   if (!c.ultimoContacto) continue;
                   const transcurrido = ahora - new Date(c.ultimoContacto).getTime();
 
+                  // Cadencia actualizada sep-2026 a pedido de Wendy: antes eran 4 avisos (2/5/8/11h),
+                  // ahora son 6, cada 2 horas empezando a la 1 hora (1/3/5/7/9/11h), sin correrse mas
+                  // alla del mismo tope de 11h que ya existia.
                   let tier = null;
-                  if (transcurrido >= 2 * 60 * 60 * 1000 && !recordatorios.horas2) tier = "horas2";
+                  if (transcurrido >= 1 * 60 * 60 * 1000 && !recordatorios.horas1) tier = "horas1";
+                  else if (transcurrido >= 3 * 60 * 60 * 1000 && !recordatorios.horas3) tier = "horas3";
                   else if (transcurrido >= 5 * 60 * 60 * 1000 && !recordatorios.horas5) tier = "horas5";
-                  else if (transcurrido >= 8 * 60 * 60 * 1000 && !recordatorios.horas8) tier = "horas8";
+                  else if (transcurrido >= 7 * 60 * 60 * 1000 && !recordatorios.horas7) tier = "horas7";
+                  else if (transcurrido >= 9 * 60 * 60 * 1000 && !recordatorios.horas9) tier = "horas9";
                   else if (transcurrido >= 11 * 60 * 60 * 1000 && !recordatorios.horas11) tier = "horas11";
                   if (!tier) continue;
 
@@ -1342,15 +1347,19 @@ async function enviarRecordatoriosPendientes() {
                         const nombreProducto = producto?.nombre || null;
                         const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
-                        if (p.tier === "horas2") {
-                              await enviarTexto(p.telefono, config.mensajeRecordatorio2Horas(nombreProducto, precioTexto));
+                        if (p.tier === "horas1") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
+                        } else if (p.tier === "horas3") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
                                     await enviarImagen(p.telefono, combo.imagenes[0], combo.nombreCorto || combo.nombre);
                               }
-                        } else if (p.tier === "horas8") {
-                              await enviarTexto(p.telefono, config.mensajeRecordatorio8Horas(nombreProducto, precioTexto));
+                        } else if (p.tier === "horas7") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio7Horas(nombreProducto, precioTexto));
+                        } else if (p.tier === "horas9") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorio9Horas(nombreProducto, precioTexto));
                         } else if (p.tier === "horas11") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio11Horas(nombreProducto, precioTexto));
                         }
