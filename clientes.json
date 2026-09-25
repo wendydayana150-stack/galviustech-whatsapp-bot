@@ -1188,8 +1188,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T14:33:26.427Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-09-25T14:34:04.439Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1572,6 +1572,18 @@
         "fecha": "2026-09-25T14:33:10.236Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSMDM4RjVGNDkyRDMxQjA2MjJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "más tarde le confirmo",
+        "fecha": "2026-09-25T14:33:53.752Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, sin afán 😊 Quedo atenta a tu confirmación cuando estés list@. Cualquier otra duda que te surja, aquí estoy.",
+        "fecha": "2026-09-25T14:33:55.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSM0REOEE0QTI2MTY0QjMxQUUwAA=="
       }
     ],
     "paso": "conversando",
@@ -1582,7 +1594,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"y cincar tiene que tener uno plan\"",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true
