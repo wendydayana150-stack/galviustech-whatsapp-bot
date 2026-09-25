@@ -4170,8 +4170,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T18:08:10.162Z",
-    "mensajes": 39,
+    "ultimoContacto": "2026-09-25T22:44:51.801Z",
+    "mensajes": 40,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4669,16 +4669,23 @@
         "fecha": "2026-09-25T18:08:09.318Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSQ0VDODU4QjQyNDhEQUY5M0VEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "La bateria le dura hasta 14 horas en uso continuo",
+        "fecha": "2026-09-25T22:44:50.546Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSQUFBOTcxRjI4OTZBRUZBRTIwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"si claro\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
