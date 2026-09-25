@@ -6742,8 +6742,8 @@
     "telefono": "573173153107",
     "nombre": "Katherine Y Tomas",
     "primerContacto": "2026-09-24T15:44:33.106Z",
-    "ultimoContacto": "2026-09-25T00:05:20.815Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:15:16.965Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6854,11 +6854,18 @@
         "fecha": "2026-09-25T00:05:19.942Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSOTYwMkEwNEYwMUU5QjdCMDI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:15:16.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMTUzMTA3FQIAERgSNzVCMDM2RDA3Q0Y2REJGMkNDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -6870,7 +6877,8 @@
       "horas5": true,
       "horas8": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573144332761",
