@@ -6998,8 +6998,8 @@
     "telefono": "573114189581",
     "nombre": "Dios",
     "primerContacto": "2026-09-24T15:18:30.656Z",
-    "ultimoContacto": "2026-09-24T15:19:04.634Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-25T02:16:09.759Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7031,11 +7031,18 @@
         "fecha": "2026-09-24T15:19:03.642Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MTg5NTgxFQIAERgSRjJCRDJGRTJDMzgyQjEwRjFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:16:08.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTg5NTgxFQIAERgSRDBFRUM2MjY5OEVBQTc4ODk3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
@@ -7046,7 +7053,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas5": true,
       "horas8": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573196848170",
