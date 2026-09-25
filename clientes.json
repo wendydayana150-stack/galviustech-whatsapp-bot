@@ -36338,8 +36338,8 @@
     "telefono": "573104183292",
     "nombre": "Hms Diseños e Inversiones",
     "primerContacto": "2026-09-17T22:48:18.255Z",
-    "ultimoContacto": "2026-09-24T11:15:14.437Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-25T11:10:19.098Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "bot",
@@ -36385,6 +36385,32 @@
         "fecha": "2026-09-24T11:15:13.588Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTgzMjkyFQIAERgSOUY0NzVFREJDQjdDMzlGNTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:09:10.616Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTgzMjkyFQIAERgSMzE2QTJCRTU3Mjc4RkY4NTI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible.",
+        "fecha": "2026-09-25T11:09:19.579Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, aquí sigo pendiente 😊 Vi que te había escrito sobre la impresora térmica portátil, la que te permite imprimir facturas, recibos o cotizaciones desde tu celular sin depender de una papelería.\n\n¿Sigues interesado en ella? Cuéntame para qué la necesitarías (tu negocio, domicilios, facturación...) y te cuento cómo te puede ayudar 📲",
+        "fecha": "2026-09-25T11:09:25.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTgzMjkyFQIAERgSRjM5MkE1MUI1RUVBMTc0NkFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Hms Diseños e Inversiones, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:09:32.717Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTgzMjkyFQIAERgSNDE3REQ3MDZCN0E2QkY5RDg4AA=="
       }
     ],
     "paso": "conversando",
@@ -36403,7 +36429,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas1": true
     },
-    "reactivado": true
+    "reactivado": true,
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573116615785",
