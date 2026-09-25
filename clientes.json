@@ -8181,8 +8181,8 @@
     "telefono": "573209689370",
     "nombre": "Yuli🥰",
     "primerContacto": "2026-09-24T13:17:32.443Z",
-    "ultimoContacto": "2026-09-24T18:20:52.512Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:22:47.829Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8293,11 +8293,18 @@
         "fecha": "2026-09-24T18:20:51.550Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5Njg5MzcwFQIAERgSQTMxOTZFNzc1MjQzREI5M0VBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:22:46.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njg5MzcwFQIAERgSQjhBMkM4MzkyRTQ4RDFCQzUxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -8307,7 +8314,9 @@
       "horas2": true,
       "horas5": true,
       "promoDiariaFecha": "2026-9-24"
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573007447217",
