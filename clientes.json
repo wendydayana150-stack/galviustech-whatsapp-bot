@@ -4217,8 +4217,8 @@
     "telefono": "573152212463",
     "nombre": "jhdiazbetancur",
     "primerContacto": "2026-09-24T18:00:00.498Z",
-    "ultimoContacto": "2026-09-24T18:03:41.044Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T02:06:10.427Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4268,11 +4268,18 @@
         "rol": "cliente",
         "texto": "Acá no hay señal, de ningún operador \nSólo podemos tener Internet satelital",
         "fecha": "2026-09-24T18:03:30.819Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Disculpa la demora en responderte. Cuéntame algo: en tu celular normal, aunque sea débil, te aparece algo de señal de Claro, Movistar, Tigo o WOM ahí en la vereda, o de verdad no hay nada de nada, ni siquiera intermitente? Nuestro módem tiene una antena más sensible que un celular y a veces sí capta señal donde el celular no muestra nada, por eso te pregunto. Si en tu zona de verdad no llega señal de ningún operador, te cuento con toda honestidad que el módem no te va a funcionar, porque necesita una SIM de algún operador celular para conectarse (nosotros no manejamos internet satelital).",
+        "fecha": "2026-09-25T02:06:09.382Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyMjEyNDYzFQIAERgSMDc4NzJGOTAwNjE2N0I0QzkzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
@@ -4281,7 +4288,9 @@
     "recordatorios": {
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573203035217",
