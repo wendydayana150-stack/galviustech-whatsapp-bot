@@ -55,7 +55,7 @@ const sesiones = {};
 
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
-                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, pausarSeguimiento: false, preguntasPorProducto: {}, botonesOfrecidos: {} };
+                  sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, pausarSeguimiento: false, preguntasPorProducto: {}, botonesOfrecidos: {}, esperandoDatosPedidoLibre: null };
         }
         return sesiones[telefono];
 }
@@ -117,6 +117,7 @@ async function cargarSesionSiNueva(telefono) {
                                             // poco despues de lo ideal, nunca antes.
                                             preguntasPorProducto: {},
                                             botonesOfrecidos: {},
+                                            esperandoDatosPedidoLibre: cliente.esperandoDatosPedidoLibre || null,
                               };
                               return;
                   }
@@ -897,6 +898,7 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.necesitaAtencion = !!sesion.necesitaAtencion;
             existente.motivoAtencion = sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null;
             existente.pausarSeguimiento = !!sesion.pausarSeguimiento || !!existente.pausarSeguimiento;
+            existente.esperandoDatosPedidoLibre = sesion.esperandoDatosPedidoLibre || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
       } else {
             datos.unshift({
@@ -915,6 +917,7 @@ async function guardarCliente(telefono, nombreCliente) {
                   necesitaAtencion: !!sesion.necesitaAtencion,
                   motivoAtencion: sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null,
                   pausarSeguimiento: !!sesion.pausarSeguimiento,
+                  esperandoDatosPedidoLibre: sesion.esperandoDatosPedidoLibre || null,
             });
       }
 
@@ -1263,8 +1266,27 @@ async function enviarRecordatoriosPendientes() {
                   // respetamos eso y no lo seguimos contactando automaticamente.
                   if (c.pausarSeguimiento) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
-                  if (!c.ultimoContacto) continue;
+
                   const recordatorios = c.recordatorios || {};
+
+                  // Cliente que prometio mandar sus datos de pedido en conversacion libre (ver
+                  // esperandoDatosPedidoLibre en manejarTextoLibre) y no llegaron: un solo
+                  // recordatorio puntual a las 2 horas, independiente del ciclo normal de
+                  // horas2/5/8/11 (que es para el flujo ESTRUCTURADO de pedido, este caso es antes
+                  // de eso). Se revisa antes que el resto para no perder el caso si por alguna razon
+                  // ultimoContacto tambien coincidiera con otro tier.
+                  if (c.esperandoDatosPedidoLibre && !recordatorios.datosLibre2h) {
+                        const transcurridoDatosLibre = ahora - new Date(c.esperandoDatosPedidoLibre).getTime();
+                        if (transcurridoDatosLibre >= 2 * 60 * 60 * 1000) {
+                              const clave = `${c.telefono}|datosLibre2h`;
+                              if (!recordatoriosEnviadosEnProceso.has(clave)) {
+                                    pendientes.push({ telefono: c.telefono, tier: "datosLibre2h", productoId: null, paso: null });
+                              }
+                              continue;
+                        }
+                  }
+
+                  if (!c.ultimoContacto) continue;
                   const transcurrido = ahora - new Date(c.ultimoContacto).getTime();
 
                   let tier = null;
@@ -1306,6 +1328,12 @@ async function enviarRecordatoriosPendientes() {
                                     p.telefono,
                                     config.mensajeRecordatorioPedidoPendiente(definicionFaltante.pregunta, p.tier)
                                     );
+                              recordatoriosEnviadosEnProceso.add(clave);
+                              continue;
+                        }
+
+                        if (p.tier === "datosLibre2h") {
+                              await enviarTexto(p.telefono, config.mensajeRecordatorioDatosPedidoLibre);
                               recordatoriosEnviadosEnProceso.add(clave);
                               continue;
                         }
@@ -2142,7 +2170,13 @@ async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
       const manejado = await manejarFlujoPedido(telefono, texto);
-      if (manejado) return;
+      if (manejado) {
+            // Si el flujo estructurado de pedido ya se hizo cargo de este mensaje, cualquier
+            // espera pendiente de "me prometio mandar los datos en conversacion libre" queda
+            // obsoleta (ver esperandoDatosPedidoLibre mas abajo).
+            sesion.esperandoDatosPedidoLibre = null;
+            return;
+      }
 
       if (detectarPreguntaUso(texto)) {
             await enviarModoDeUso(telefono);
@@ -2195,6 +2229,25 @@ async function manejarTextoLibre(telefono, texto) {
             if (mensajeVisible) {
                   await enviarTexto(telefono, mensajeVisible);
                   seLeRespondioAlgo = true;
+
+                  // RECORDATORIO PARA DATOS PROMETIDOS EN CONVERSACION LIBRE (caso real sep-2026,
+                  // cliente teranortizwilliam3): la IA a veces pide nombre/celular/direccion ella
+                  // misma en texto libre en vez de agregar ACCION_PEDIDO (ver REGLA DE CIERRE
+                  // GARANTIZADO en config.js), y si el cliente contesta "ok, ya te los mando" pero
+                  // nunca llegan, ese chat queda en el limbo: no esta en el flujo estructurado de
+                  // pedido (paso "conversando"), asi que los recordatorios de 2/5/8/11h de
+                  // enviarRecordatoriosPendientes no lo cubren, y nadie lo vuelve a contactar. Si
+                  // detectamos que este mensaje le esta pidiendo esos datos, guardamos la marca de
+                  // tiempo para que a las 2 horas, si sigue sin responder con datos reales, le
+                  // llegue un recordatorio puntual pidiendo que los mande.
+                  const pideDatosDePedidoEnTextoLibre =
+                        !productoId &&
+                        /nombre completo/i.test(mensajeVisible) &&
+                        /(celular|tel[eé]fono)/i.test(mensajeVisible) &&
+                        /direcci[oó]n/i.test(mensajeVisible);
+                  if (pideDatosDePedidoEnTextoLibre) {
+                        sesion.esperandoDatosPedidoLibre = new Date().toISOString();
+                  }
             }
 
             if (productoActual && catalogo.some((p) => p.id === productoActual)) {
@@ -2205,6 +2258,11 @@ async function manejarTextoLibre(telefono, texto) {
                   const existe = catalogo.find((p) => p.id === productoId);
                   if (existe) {
                         sesion.ultimoProducto = productoId;
+                        // El cliente ya paso al flujo estructurado de pedido (ACCION_PEDIDO): cualquier
+                        // espera pendiente de "prometio mandar los datos en conversacion libre" ya no
+                        // aplica, porque de aqui en adelante el flujo de pedido y sus propios
+                        // recordatorios (2/5/8/11h) se hacen cargo.
+                        sesion.esperandoDatosPedidoLibre = null;
                         if (productoId.startsWith("combo-")) {
                               await iniciarPedido(telefono, productoId);
                         } else {

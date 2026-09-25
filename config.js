@@ -338,6 +338,17 @@ const mensajeRecordatorioPedidoPendiente = (preguntaFaltante, tier) => {
             );
 };
 
+// Recordatorio para el cliente que dijo que ya iba a mandar sus datos de envio (nombre, celular,
+// direccion) en la conversacion libre, ya confirmo que queria comprar, pero se quedo sin
+// mandarlos (ej. "ok", "ya le mando los datos" y nunca llegaron). Caso real sep-2026 (cliente
+// teranortizwilliam3): a diferencia del flujo estructurado de ACCION_PEDIDO (que ya tiene sus
+// propios recordatorios de 2/5/8/11h por cada dato puntual que falta), esto pasa ANTES de eso,
+// cuando el cliente prometio mandar todo pero no llego nada. Un solo recordatorio a las 2 horas,
+// pidiendole retomar puntualmente donde quedo.
+const mensajeRecordatorioDatosPedidoLibre =
+            "¡Hola! 😊 Vi que ibas a enviarme tus datos para dejar tu pedido en camino y no me llegaron, no vaya a ser que se te haya pasado.\n\n" +
+            "Cuando puedas, mandame: nombre completo, numero de celular, departamento y municipio, direccion o punto de referencia, y barrio si aplica. Asi te lo despacho de una vez. 🚚";
+
 const mensajeReactivacion =
             "Hola! 😊 Disculpa la demora en respondente, tuvimos un inconveniente tecnico momentaneo que ya solucionamos.\n\n" +
             "Sigues interesado(a)? Aqui estoy para ayudarte con lo que necesites 👋";
@@ -391,6 +402,7 @@ module.exports = {
             mensajeRecordatorio8Horas,
             mensajeRecordatorio11Horas,
             mensajeRecordatorioPedidoPendiente,
+            mensajeRecordatorioDatosPedidoLibre,
             mensajeReactivacion,
             mensajePromoLamparasDiaAnterior,
             mensajePromoImpresoraDiaAnterior,
