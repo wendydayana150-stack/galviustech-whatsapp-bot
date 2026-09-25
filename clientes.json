@@ -22919,8 +22919,8 @@
     "telefono": "573027720700",
     "nombre": "Claudia Janet",
     "primerContacto": "2026-09-23T02:21:48.455Z",
-    "ultimoContacto": "2026-09-24T19:22:34.967Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T11:08:23.339Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23009,6 +23009,13 @@
         "fecha": "2026-09-24T19:22:04.205Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3NzIwNzAwFQIAERgSRDc4NkVCQzY2RTIyNUFGRkJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:07:29.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3NzIwNzAwFQIAERgSQTIwODhFRjM1RDAyNzNGNzE1AA=="
       }
     ],
     "paso": "conversando",
@@ -23024,7 +23031,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573217540180",
