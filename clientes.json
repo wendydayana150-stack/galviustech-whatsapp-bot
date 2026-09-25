@@ -14538,8 +14538,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-09-24T12:21:16.554Z",
-    "ultimoContacto": "2026-09-25T13:03:12.461Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-25T15:06:59.042Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14754,6 +14754,13 @@
         "fecha": "2026-09-25T13:03:11.589Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSQ0NCMDI1REFGRDM0QjlFRjYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T15:06:58.014Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNzI3RDVDNjQzOUEwNThCODY4AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -14764,7 +14771,7 @@
       "telefono": "573023019983",
       "nombreCliente": "Y las hojas las envian"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": "impresora",
