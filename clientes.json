@@ -581,7 +581,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573043652742",
@@ -1141,7 +1144,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-25",
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -3508,7 +3512,8 @@
     "recordatorios": {
       "horas1": true,
       "horas3": true,
-      "horas5": true
+      "horas5": true,
+      "horas7": true
     }
   },
   {
