@@ -866,8 +866,8 @@
     "telefono": "573214573911",
     "nombre": "mia",
     "primerContacto": "2026-09-25T13:40:22.857Z",
-    "ultimoContacto": "2026-09-25T16:22:58.517Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-25T16:24:03.512Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -995,6 +995,25 @@
         "fecha": "2026-09-25T16:22:57.430Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0NTczOTExFQIAERgSMUJBN0QwOTI1RkM4NDMzQUQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes enviar el vídeo",
+        "fecha": "2026-09-25T16:23:58.052Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Dame un segundito que te lo comparto 📹\n\nAhí puedes ver bien cómo se coloca el papel y cómo se usa en general, para que te quede clarísimo antes de que te llegue.\n\nMientras tanto, ¿me confirmas tu ciudad o municipio para ir dejando tu pedido en camino? 😊",
+        "fecha": "2026-09-25T16:24:02.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NTczOTExFQIAERgSOTQ5MkZGOTJDMzQ3MTQ4NTQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T16:24:02.520Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NTczOTExFQIAERgSNzI4OTBDODVEODRGRTcwREY0AA=="
       }
     ],
     "paso": "conversando",
