@@ -7229,8 +7229,8 @@
     "telefono": "573133393376",
     "nombre": "DARIS ISABEL",
     "primerContacto": "2026-09-24T14:31:44.025Z",
-    "ultimoContacto": "2026-09-24T20:00:38.621Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-25T02:17:22.503Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7391,11 +7391,18 @@
         "fecha": "2026-09-24T20:00:37.584Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMzkzMzc2FQIAERgSQUVBNzYwNkFFMzZENTFCM0IzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:17:21.447Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzkzMzc2FQIAERgSMTU4MTQxNjNERUFCMkE3NTM5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -7405,7 +7412,9 @@
       "horas2": true,
       "promoDiariaFecha": "2026-9-24",
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573161375679",
