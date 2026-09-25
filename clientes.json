@@ -3,8 +3,8 @@
     "telefono": "573144691822",
     "nombre": "Pulsar NS",
     "primerContacto": "2026-09-25T17:29:02.760Z",
-    "ultimoContacto": "2026-09-25T17:29:02.760Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T17:31:22.400Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-09-25T17:29:01.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSOEJEMjA3QzJDQzM1RDlDN0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sogamoso Boyacá",
+        "fecha": "2026-09-25T17:31:11.923Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-25T17:31:21.457Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSQ0REQjM3OTNGNEEyMjMxOTQ2AA=="
       }
     ],
     "paso": "conversando",
@@ -52,8 +64,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Sogamoso Boyacá\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
