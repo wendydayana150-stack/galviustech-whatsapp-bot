@@ -41,8 +41,8 @@
     "telefono": "573225841502",
     "nombre": "luis.A.M.H😑",
     "primerContacto": "2026-09-25T05:36:54.536Z",
-    "ultimoContacto": "2026-09-25T05:44:03.793Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T05:44:34.627Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -234,9 +234,21 @@
         "fecha": "2026-09-25T05:44:02.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSMzRBNThFRTIyMTMxQTc0NkNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "podría enviar a la oficina principal",
+        "fecha": "2026-09-25T05:44:33.738Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-25T05:44:33.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSRDZEMUUxN0U4MzcxNjBCODNBAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -245,7 +257,8 @@
       "nombreCliente": "Luis Alberto Murillo Hernández",
       "celular": "3225841502",
       "departamento": "Choco",
-      "ciudad": "quibdo"
+      "ciudad": "quibdo",
+      "direccion": "podría enviar a la oficina principal"
     },
     "pausado": false,
     "etapaManual": null,
