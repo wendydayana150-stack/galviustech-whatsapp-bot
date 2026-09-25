@@ -3134,8 +3134,8 @@
     "telefono": "573107023117",
     "nombre": "Yeison becerra",
     "primerContacto": "2026-09-24T18:29:21.332Z",
-    "ultimoContacto": "2026-09-24T21:49:49.497Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-25T02:04:37.004Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3437,11 +3437,18 @@
         "fecha": "2026-09-24T21:49:48.446Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSQzAxMTU2Mzc4QkFFOTJGQjI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:04:35.714Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDIzMTE3FQIAERgSQjc1MTlFQjM3MkNFOTk2MTU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -3451,7 +3458,8 @@
       "promoDiariaFecha": "2026-9-24",
       "horas2": true
     },
-    "pausarSeguimiento": true
+    "pausarSeguimiento": true,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573107237834",
