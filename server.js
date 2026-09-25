@@ -369,11 +369,21 @@ async function enviarListaCatalogo(telefono) {
                               sections: [
                                     {
                                           title: "Productos",
+                                          // BUG REAL sep-2026 (cliente Kennier Duque, "sigue presentando fallas"): a
+                                          // diferencia de las otras 2 listas interactivas del bot (categorias y
+                                          // combos, mas abajo), a esta le faltaba el .slice(0, 24). WhatsApp exige
+                                          // que el "title" de cada fila de una lista tenga 24 caracteres o menos; si
+                                          // se pasa de eso, Meta rechaza TODA la llamada con un error 400 y el catch
+                                          // de mas arriba la trata como fallo tecnico (le manda el mensaje generico
+                                          // de "tuve un problema tecnico" y escala el chat). 3 de los 8 productos
+                                          // del catalogo (ej. "LAMPARA PANEL SOLAR x 3 unid.", 29 caracteres) superan
+                                          // el limite, asi que CUALQUIER cliente que tocara "Ver otros" fallaba
+                                          // siempre, de forma 100% reproducible, no intermitente.
                                           rows: catalogo
                                                 .filter((p) => !p.id.startsWith("combo-"))
                                                 .map((p) => ({
                                                       id: `producto_${p.id}`,
-                                                      title: p.nombreCorto || p.nombre,
+                                                      title: (p.nombreCorto || p.nombre).slice(0, 24),
                                                       description: formatearPrecio(p.precio),
                                                 })),
                                     },
