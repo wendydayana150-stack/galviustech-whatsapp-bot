@@ -7061,8 +7061,8 @@
     "telefono": "573196848170",
     "nombre": "Juan FCO",
     "primerContacto": "2026-09-24T14:53:50.674Z",
-    "ultimoContacto": "2026-09-24T14:56:33.744Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:16:54.145Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7145,11 +7145,18 @@
         "fecha": "2026-09-24T14:56:32.676Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2ODQ4MTcwFQIAERgSM0MzQTY5QUFFMTExRUJBMkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:16:52.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2ODQ4MTcwFQIAERgSQ0NDQTQ5QzM5QjJEOEIzQTM0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -7160,7 +7167,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas5": true,
       "horas8": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573114875846",
