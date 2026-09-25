@@ -3,8 +3,8 @@
     "telefono": "573222309934",
     "nombre": "Tatiana  mongui🥰🥰🥰🥰🥰❤",
     "primerContacto": "2026-09-25T02:45:56.312Z",
-    "ultimoContacto": "2026-09-25T02:51:31.992Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T02:53:52.123Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -95,6 +95,18 @@
         "fecha": "2026-09-25T02:51:31.026Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzA5OTM0FQIAERgSRjZGRTQyN0IwREI5MUY0MzNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San Pablo sur de Bolívar colombia",
+        "fecha": "2026-09-25T02:53:42.079Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-25T02:53:51.064Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzA5OTM0FQIAERgSRTg2QjgwNjFDNzc2NUUxMjJCAA=="
       }
     ],
     "paso": "conversando",
@@ -103,8 +115,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"San Pablo sur de Bolívar colombia\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
