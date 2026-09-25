@@ -6862,8 +6862,8 @@
     "telefono": "573216506533",
     "nombre": "teranortizwilliam3",
     "primerContacto": "2026-09-24T18:40:30.914Z",
-    "ultimoContacto": "2026-09-25T02:02:04.841Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-25T14:19:39.967Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7069,6 +7069,13 @@
         "fecha": "2026-09-25T02:02:03.736Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSRTlFRDRFNjgxQzgxOEREM0NCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, estoy atenta a que me compartas esos datos: nombre completo, número de celular, departamento y municipio, dirección o punto de referencia, y barrio si aplica.",
+        "fecha": "2026-09-25T14:19:38.809Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NTA2NTMzFQIAERgSNTRDQzBBMDZDRkY1ODRGQTEyAA=="
       }
     ],
     "paso": "conversando",
@@ -7084,7 +7091,8 @@
       "horas2": true,
       "horas5": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573022329968",
