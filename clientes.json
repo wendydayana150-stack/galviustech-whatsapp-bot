@@ -26930,8 +26930,8 @@
     "telefono": "573243079171",
     "nombre": "josecitopalomino30",
     "primerContacto": "2026-09-23T16:23:57.036Z",
-    "ultimoContacto": "2026-09-23T16:23:57.036Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T23:53:11.498Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -26964,6 +26964,18 @@
         "fecha": "2026-09-23T16:23:56.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzMDc5MTcxFQIAERgSQTY1REFFNTM0MTcwNDFGNjMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no",
+        "fecha": "2026-09-25T23:53:07.822Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, sin afán 😊 Cualquier duda que te surja mas adelante sobre la impresora (precio, para que sirve, envíos) aquí estoy. ¿Te gustaría que te muestre algún otro producto mientras tanto, como los módems o las lámparas solares?",
+        "fecha": "2026-09-25T23:53:10.539Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzMDc5MTcxFQIAERgSODdBNDRGREI0Q0M1NERGNEQyAA=="
       }
     ],
     "paso": "conversando",
@@ -26984,7 +26996,9 @@
       "horas3": true,
       "horas7": true,
       "horas9": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573018992863",
