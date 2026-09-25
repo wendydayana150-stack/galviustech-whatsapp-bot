@@ -22669,8 +22669,8 @@
     "telefono": "573202872249",
     "nombre": "Eliecer",
     "primerContacto": "2026-09-23T01:08:25.621Z",
-    "ultimoContacto": "2026-09-23T01:08:25.621Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T02:55:04.647Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22703,6 +22703,18 @@
         "fecha": "2026-09-23T01:08:24.842Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODcyMjQ5FQIAERgSRDY2Q0FFQUJENzMxNzg4QUI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-09-25T02:54:58.252Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Claro que sí 😊\n\nEsta impresora te saca de apuros donde sea: es la Impresora Térmica Portátil Bluetooth, mide 27.5 x 6.5 x 5 cm (te cabe en el bolso, del tamaño de un control remoto), no usa tinta ni tóner (imprime en térmico, blanco y negro) y se conecta por Bluetooth a tu celular (Android o iPhone).\n\nYa viene con papel térmico incluido, y si necesitas más adelante manejo dos presentaciones: paquete de 52 hojas tamaño carta por $38.000, o rollo de 9 metros por $10.000, con envío gratis.\n\nCuéntame, ¿la necesitas para negocio, facturación, domicilios, o para uso personal/estudio? Así te oriento mejor 🙌",
+        "fecha": "2026-09-25T02:55:03.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODcyMjQ5FQIAERgSQTMzQjQwNDZBNjU4MUY1RUE0AA=="
       }
     ],
     "paso": "conversando",
@@ -22719,7 +22731,9 @@
       "horas5": true,
       "horas8": true,
       "horas11": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573232811855",
