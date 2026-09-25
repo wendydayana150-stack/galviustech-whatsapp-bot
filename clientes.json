@@ -6282,8 +6282,8 @@
     "telefono": "573136036983",
     "nombre": "Breiner Andrés",
     "primerContacto": "2026-09-24T23:03:31.467Z",
-    "ultimoContacto": "2026-09-25T14:41:25.379Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-25T14:47:54.803Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6343,13 +6343,25 @@
         "fecha": "2026-09-25T14:41:24.422Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSMEM2MkQ0OUUwNDhCNUQ5MUQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero saber el precio de dos \n* Combos especiales \n* Impresora térmica portátil",
+        "fecha": "2026-09-25T14:47:45.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale, con gusto! Vamos por partes 😊\n\n🖨️ **Impresora Térmica Portátil Bluetooth**\nNo necesita tinta ni tóner (ahorras desde la primera impresión), es súper compacta (cabe en cualquier bolso, mide como un control remoto delgado) y te conecta directo desde el celular por Bluetooth. Ideal si trabajas fuera de oficina y necesitas imprimir una factura o cotización al instante.\nLa inversión es de **$249.900**.\n\nY ya que hablamos de ella: también manejamos papel térmico extra, paquete de 52 hojas carta por $38.000 o rollo de 9 metros por $10.000, por si necesitas repuesto.\n\n📦 **Combos especiales** (todos con envío gratis):\n- Impresora Térmica + Reloj Inteligente: **$299.900**\n- Impresora Térmica + Cámara de Seguridad: **$299.900**\n- Modem WiFi + Cámara de Seguridad: **$289.900**\n- Modem WiFi + Reloj Inteligente: **$289.900**\n\n¿La impresora la necesitarías para tu negocio, para imprimir documentos, o para qué la usarías principalmente? Así te oriento mejor cuál te conviene más 🙌",
+        "fecha": "2026-09-25T14:47:53.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDM2OTgzFQIAERgSN0REQjdFMkU2OUU2RjQ1Q0VGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
