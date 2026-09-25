@@ -3558,8 +3558,8 @@
     "telefono": "573004138332",
     "nombre": "Raquel Díaz Rivera",
     "primerContacto": "2026-09-24T21:02:56.786Z",
-    "ultimoContacto": "2026-09-24T21:03:15.752Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-25T11:10:58.048Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3611,6 +3611,32 @@
         "fecha": "2026-09-24T21:03:14.639Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSM0Y4MUQ0RTc5NjhFMTUzNTRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:04:33.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSNUI1RkU3OTIzNTVCNUIwOTMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Raquel Díaz Rivera, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:07:55.084Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSNEQ4NThDOTRDMUEzNUYzOEMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no la nesesito",
+        "fecha": "2026-09-25T11:09:38.097Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, tranquila 🙂 No hay problema.\n\nSi más adelante te animas o necesitas algo distinto (modem de internet, cámaras, lámparas solares), aquí estoy para ayudarte. ¿Quieres que te muestre alguna otra categoría por si te sirve?",
+        "fecha": "2026-09-25T11:09:41.372Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSQkY1RjZDODAwQkY4MjBEQUY2AA=="
       }
     ],
     "paso": "conversando",
@@ -3626,7 +3652,8 @@
       "horas2": true,
       "horas1": true,
       "promoDiariaFecha": "2026-9-25"
-    }
+    },
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573203720135",
