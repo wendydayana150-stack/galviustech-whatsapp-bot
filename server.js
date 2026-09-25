@@ -2097,6 +2097,47 @@ function detectarProductoPorPalabraClave(texto) {
       return null;
 }
 
+// Respaldo determinista de "que categoria estamos enfocando" cuando la IA no genero ninguna
+// respuesta (ver RESPALDO CONTRA SILENCIO TOTAL en manejarTextoLibre). enfoqueProducto puede venir
+// como {tipo:"categoria", valor} directo, o como {tipo:"producto", valor: idProducto} - en ese
+// caso hay que ir al catalogo a buscar de que categoria es ese producto puntual.
+function categoriaDeEnfoque(enfoqueProducto) {
+      if (!enfoqueProducto) return null;
+      if (enfoqueProducto.tipo === "categoria") return enfoqueProducto.valor;
+      if (enfoqueProducto.tipo === "producto") {
+            const p = catalogo.find((prod) => prod.id === enfoqueProducto.valor);
+            return p ? (p.categoria || "").trim().toLowerCase() : null;
+      }
+      return null;
+}
+
+// RESPALDO DETERMINISTA PARA EL MODEM (sep-2026): el caso mas comun de "silencio total" de la IA
+// pasa justo despues de la pregunta de zona rural/ciudad del modem, cuando el cliente responde algo
+// corto (una vereda, un municipio) - ver RESPALDO CONTRA SILENCIO TOTAL. En vez de solo evitar el
+// silencio con un mensaje generico que le vuelve a preguntar lo mismo (dejando al cliente sin la
+// info que realmente necesita), en este caso puntual le mandamos directamente las 3 versiones del
+// modem con sus precios reales del catalogo: es exactamente lo que la IA deberia haberle mandado.
+async function enviarVersionesModem(telefono) {
+      const versiones = catalogo
+            .filter((p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === "modem")
+            .slice()
+            .sort((a, b) => (a.precio || 0) - (b.precio || 0));
+      if (versiones.length === 0) {
+            await enviarTexto(telefono, "Cuentame un poco mas para poder ayudarte mejor.");
+            return;
+      }
+      const lineas = versiones.map((p) => `*${p.nombreCorto || p.nombre}* - ${formatearPrecio(p.precio)}`).join("\n");
+      const infoModem = infoCategoria("modem");
+      const destacado = versiones.find((p) => p.id === infoModem.variantePorDefecto);
+      const recomendacion = destacado
+            ? `Si no estas seguro de la cobertura en tu zona, te recomiendo el *${destacado.nombreCorto || destacado.nombre}*: funciona tanto donde solo hay 4G como donde ya llega 5G.`
+            : "";
+      await enviarTexto(
+            telefono,
+            `Estas son nuestras 3 versiones del modem:\n\n${lineas}\n\n${recomendacion}\n\nTe ayudo a dejar tu pedido listo con cual de las 3?`.trim()
+            );
+}
+
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
@@ -2219,10 +2260,19 @@ async function manejarTextoLibre(telefono, texto) {
                         );
                   sesion.necesitaAtencion = true;
                   sesion.motivoAtencion = `El bot no genero ninguna respuesta para este mensaje: "${texto.slice(0, 100)}"`;
-                  await enviarTexto(
-                        telefono,
-                        "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas."
-                        );
+                  // Se sigue escalando SIEMPRE (para que Wendy vea el patron si se repite), pero en
+                  // vez de un mensaje generico que solo repite la pregunta, si el contexto es el
+                  // modem le mandamos de una vez las 3 versiones con precios reales: es justo lo que
+                  // la IA no logro escribir, y asi el cliente si avanza en vez de quedar en el mismo
+                  // punto muerto otra vez (ver enviarVersionesModem).
+                  if (categoriaDeEnfoque(enfoqueProducto) === "modem") {
+                        await enviarVersionesModem(telefono);
+                  } else {
+                        await enviarTexto(
+                              telefono,
+                              "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas."
+                              );
+                  }
             }
 
             // La propia IA nos avisa cuando no puede resolverle algo al cliente con seguridad
