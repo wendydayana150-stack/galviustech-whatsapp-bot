@@ -5222,8 +5222,8 @@
     "telefono": "573225647034",
     "nombre": "OSEALA",
     "primerContacto": "2026-09-24T16:53:38.480Z",
-    "ultimoContacto": "2026-09-25T01:39:12.291Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-25T02:09:40.119Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5589,11 +5589,18 @@
         "fecha": "2026-09-25T01:39:11.598Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSQ0VBMDY5QjQ0RkRGNzk4Q0U1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:09:39.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSNDJDOTJBRUQ1ODY0MTU4RUY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -5603,7 +5610,8 @@
       "horas2": true,
       "horas5": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573133120996",
