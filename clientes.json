@@ -41,8 +41,8 @@
     "telefono": "573225841502",
     "nombre": "luis.A.M.H😑",
     "primerContacto": "2026-09-25T05:36:54.536Z",
-    "ultimoContacto": "2026-09-25T05:44:34.627Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-25T05:45:29.597Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -246,9 +246,21 @@
         "fecha": "2026-09-25T05:44:33.738Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSRDZEMUUxN0U4MzcxNjBCODNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "calle 3ra con 23",
+        "fecha": "2026-09-25T05:45:28.611Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-25T05:45:28.611Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSMjM5MDBFNjJGOTkzOUM3QzVBAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -258,7 +270,8 @@
       "celular": "3225841502",
       "departamento": "Choco",
       "ciudad": "quibdo",
-      "direccion": "podría enviar a la oficina principal"
+      "direccion": "podría enviar a la oficina principal",
+      "barrio": "calle 3ra con 23"
     },
     "pausado": false,
     "etapaManual": null,
