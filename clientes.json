@@ -37433,8 +37433,8 @@
     "telefono": "573107466103",
     "nombre": "Kennier Duque",
     "primerContacto": "2026-09-15T20:14:08.756Z",
-    "ultimoContacto": "2026-09-25T11:41:09.214Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-25T11:41:52.375Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "bot",
@@ -37632,10 +37632,27 @@
         "fecha": "2026-09-25T11:41:08.270Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSOUNCNUVCRjBBNTBBMzAxM0NDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-09-25T11:41:51.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Termica Portatil Bluetooth* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-25T11:41:51.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSODk3MDBBQjk5NDM4NTlCNjYwAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Termica Portatil Bluetooth",
+      "precio": 249900,
+      "telefono": "573107466103"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
