@@ -18926,8 +18926,8 @@
     "telefono": "573162274342",
     "nombre": "Daniela",
     "primerContacto": "2026-09-23T23:00:46.289Z",
-    "ultimoContacto": "2026-09-23T23:10:02.433Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T15:07:32.319Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19112,6 +19112,34 @@
         "fecha": "2026-09-23T23:10:01.617Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyMjc0MzQyFQIAERgSMEMzMjBBNzgxOTYzQ0YxRkY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-25T14:23:09.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjc0MzQyFQIAERgSQjU2RTI1MjA3NThGRDcyQTQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-25T14:33:57.070Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjc0MzQyFQIAERgSNTZBMTNFRDgxRUIxRjRBRkEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-25T14:44:57.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjc0MzQyFQIAERgSMkVEMjZBNjMxNzNGMjc1NTU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T15:07:31.135Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjc0MzQyFQIAERgSNDVBNTQxMzI4MDdEQ0Q5OENEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -19121,7 +19149,7 @@
       "precio": 249900,
       "telefono": "573162274342"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -19137,7 +19165,9 @@
       "horas3": true,
       "horas7": true,
       "horas9": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573235282112",
