@@ -620,8 +620,8 @@
     "telefono": "573105947689",
     "nombre": "Ayda",
     "primerContacto": "2026-09-25T12:52:23.294Z",
-    "ultimoContacto": "2026-09-25T13:03:15.311Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-25T14:04:39.323Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -877,9 +877,28 @@
         "fecha": "2026-09-25T13:03:12.473Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNUNBRjg5MDk1MjZFMTRCQjdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: En que barrio queda esa direccion?",
+        "fecha": "2026-09-25T14:03:58.244Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSOURDNjQyNDRDQzJBOTQwNTJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Granizal\nMedellín",
+        "fecha": "2026-09-25T14:04:37.296Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-25T14:04:37.296Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNUQ1RjY3N0QzODc2RDhBOUQyAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -889,7 +908,8 @@
       "celular": "3105947689",
       "departamento": "Antioquia",
       "ciudad": "Medellín",
-      "direccion": "Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia"
+      "direccion": "Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia",
+      "barrio": "Granizal\nMedellín"
     },
     "pausado": false,
     "etapaManual": null,
