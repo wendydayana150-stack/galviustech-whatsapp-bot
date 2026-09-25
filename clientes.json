@@ -3,8 +3,8 @@
     "telefono": "573105947689",
     "nombre": "Ayda",
     "primerContacto": "2026-09-25T12:52:23.294Z",
-    "ultimoContacto": "2026-09-25T13:02:49.783Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-25T13:03:15.311Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -248,9 +248,21 @@
         "fecha": "2026-09-25T13:02:48.918Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSOTQ5NzkzNzBEN0Y2MzA5RDk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia",
+        "fecha": "2026-09-25T13:03:12.473Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-25T13:03:12.473Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNUNBRjg5MDk1MjZFMTRCQjdGAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -259,7 +271,8 @@
       "nombreCliente": "Ayda Gutiérrez",
       "celular": "3105947689",
       "departamento": "Antioquia",
-      "ciudad": "Medellín"
+      "ciudad": "Medellín",
+      "direccion": "Carrera 37aa # 104-30, Granizal, Medellín, Medellin, Antioquia, Colombia"
     },
     "pausado": false,
     "etapaManual": null,
