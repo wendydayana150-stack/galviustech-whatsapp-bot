@@ -3,8 +3,8 @@
     "telefono": "573225634550",
     "nombre": "Narca",
     "primerContacto": "2026-09-25T04:06:03.085Z",
-    "ultimoContacto": "2026-09-25T04:09:20.133Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T04:11:20.359Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-09-25T04:09:19.255Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NjM0NTUwFQIAERgSRTkxNkE4MUVERTRCNDA3NDk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No Hay Señal Normal",
+        "fecha": "2026-09-25T04:11:13.583Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ok, te entiendo 🙏 Solo para estar seguros y no venderte algo que no te sirva: ¿tu celular ahí muestra 0 rayitas de señal con TODOS los operadores (Claro, Movistar, Tigo, etc.), o es que la señal es débil/inestable pero sí aparece algo de vez en cuando?\n\nEsa diferencia es clave, porque si de plano no hay nada de ningún operador, el módem tampoco captaría nada (funciona con señal celular, no es internet satelital). Pero si hay algo débil o intermitente, el módem sí puede mejorar mucho esa conexión 📶",
+        "fecha": "2026-09-25T04:11:19.443Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjM0NTUwFQIAERgSMzg2OTAzOTQ1RDlGMEZCRUQxAA=="
       }
     ],
     "paso": "conversando",
