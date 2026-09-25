@@ -1022,8 +1022,8 @@
     "telefono": "573206354019",
     "nombre": ".",
     "primerContacto": "2026-09-25T14:17:55.791Z",
-    "ultimoContacto": "2026-09-25T17:30:53.458Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T17:33:28.822Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1094,13 +1094,25 @@
         "fecha": "2026-09-25T17:30:51.602Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MzU0MDE5FQIAERgSQjhDMjU0OUEzOTI2MTkyNDhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me sirve ilimitado",
+        "fecha": "2026-09-25T17:33:24.706Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente elección! Con un plan ilimitado en la SIM y el modem 4G/5G, vas a tener conexión estable en tu vereda para todo lo que necesites, sin preocuparte por gastar megas 🙌\n\nAsí que te confirmo: el Modem 4G/5G con SIM de Claro de regalo, listo para que actives tu plan ilimitado apenas te llegue.\n\n¿Te ayudo a dejar tu pedido listo de una vez? 📦",
+        "fecha": "2026-09-25T17:33:27.757Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU0MDE5FQIAERgSRTgzRDI3M0Y5MzY5N0MxQTRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
