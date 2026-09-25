@@ -2800,8 +2800,8 @@
     "telefono": "573145699181",
     "nombre": "ari isa1227",
     "primerContacto": "2026-09-25T05:41:50.934Z",
-    "ultimoContacto": "2026-09-25T14:45:41.713Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-25T14:46:46.946Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2955,6 +2955,25 @@
         "fecha": "2026-09-25T14:45:40.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1Njk5MTgxFQIAERgSOTQ4MkI2QjM2OTA5RTdFODM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como se carga y cuanto dura la batería",
+        "fecha": "2026-09-25T14:46:41.040Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La verdad ese dato exacto de tiempo de carga y duración de batería no lo tengo confirmado con precisión, no quiero inventarte un número 🙏 Lo que sí te aseguro es que trae batería recargable y está diseñada para uso portátil todo el día sin que te deje colgado a medio trabajo.\n\nSi quieres, apenas confirmes tu pedido te ayudo a verificar ese dato exacto antes de que te llegue. ¿Seguimos con tu pedido de la impresora + el paquete de 52 hojas para Barranquilla?",
+        "fecha": "2026-09-25T14:46:45.514Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1Njk5MTgxFQIAERgSRkFDRTMyRENGMEQ2NjAzQ0JCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T14:46:46.120Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1Njk5MTgxFQIAERgSMjcwNTlENEIwQzYxMTE1RDFFAA=="
       }
     ],
     "paso": "conversando",
@@ -2963,8 +2982,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Como se carga y cuanto dura la batería\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
