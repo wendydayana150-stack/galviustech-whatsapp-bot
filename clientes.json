@@ -4466,8 +4466,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T13:59:02.414Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-25T14:11:54.240Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4775,16 +4775,23 @@
         "fecha": "2026-09-25T13:59:01.570Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSNENDMzhENDgwNEQxNTlEMzIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "La camara solo via Wifi",
+        "fecha": "2026-09-25T14:11:52.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSNkVCNUIyQUU1QkFFRDk2NzEwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Mi cámara tiene puerto de cable\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
