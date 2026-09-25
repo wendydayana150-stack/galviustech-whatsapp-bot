@@ -35982,8 +35982,8 @@
     "telefono": "573147971813",
     "nombre": "Liana GUTiERREZ👣",
     "primerContacto": "2026-09-21T23:51:07.731Z",
-    "ultimoContacto": "2026-09-22T11:59:53.733Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T13:43:11.634Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36055,6 +36055,32 @@
         "fecha": "2026-09-22T11:59:52.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3OTcxODEzFQIAERgSRURFOUYzNkJERjkyRjhDOTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:08:53.218Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTcxODEzFQIAERgSQzVGOUI2MTZBNDNBQjRBNzNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T11:17:09.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTcxODEzFQIAERgSNTBGOTExRjhDNEVFN0QzNkIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-09-25T13:43:07.872Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 😊 Claro que sí, cuéntame qué te llamó la atención.\n\n¿Buscas internet portátil (módem), una impresora térmica, iluminación con lámparas solares o una cámara de seguridad? Así te doy toda la info exacta de ese producto.",
+        "fecha": "2026-09-25T13:43:10.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTcxODEzFQIAERgSMUM5RUFCMjM1ODM0RUUxRjlDAA=="
       }
     ],
     "paso": "conversando",
@@ -36071,7 +36097,9 @@
       "horas8": true,
       "horas11": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573147440949",
