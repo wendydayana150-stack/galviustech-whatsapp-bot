@@ -73,8 +73,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T12:47:14.736Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T12:47:48.737Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -150,6 +150,18 @@
         "fecha": "2026-09-25T12:47:13.749Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSNzI1NkI4M0FGNTA4NzZGMUNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "en la finca no llega señal",
+        "fecha": "2026-09-25T12:47:41.203Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ojo con eso, vale la pena aclararlo bien antes de seguir 🙏 ¿A qué te refieres exactamente: que tu celular no tiene señal de ningún operador ahí en la finca, o que sí hay señal pero el internet que pagas actualmente (por otra vía) llega mal o lento?\n\nTe pregunto esto porque el modem funciona con SIM de un operador (Claro, Movistar, Tigo, etc). Si tu celular capta aunque sea señal débil de alguno de esos operadores en la finca, el modem sí te sirve porque su antena es bastante más potente que la de un celular normal. Pero si de verdad no llega nada de señal celular ahí, prefiero ser honesta contigo: en ese caso no te funcionaría, porque no manejamos internet satelital.\n\n¿Cómo está la señal de tu celular cuando estás en la finca?",
+        "fecha": "2026-09-25T12:47:47.824Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSRUM4NkVCNEUxRTdGN0QzOTVEAA=="
       }
     ],
     "paso": "conversando",
