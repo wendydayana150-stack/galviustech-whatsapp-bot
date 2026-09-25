@@ -275,8 +275,8 @@
     "telefono": "573242101751",
     "nombre": "eulides",
     "primerContacto": "2026-09-25T19:43:58.443Z",
-    "ultimoContacto": "2026-09-25T19:45:05.058Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-25T20:54:37.055Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -328,6 +328,25 @@
         "fecha": "2026-09-25T19:45:04.152Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyMTAxNzUxFQIAERgSOEI5MTE1MkE5Qjc2NUQ2MEZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T20:50:45.905Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMTAxNzUxFQIAERgSNjg2QTg0QzlGOTI4Qzg1MTc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No todo está bien sino q es cn SIM y x acá no hay señal de operador",
+        "fecha": "2026-09-25T20:54:29.883Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, y te agradezco que me lo digas así de claro 🙏\n\nTe cuento la verdad: el módem funciona con una SIM de operador celular (Claro, Movistar, Tigo, etc), así que si de verdad no llega señal de ningún operador ahí, el módem no te va a servir. No sería justo venderte algo que no te va a funcionar.\n\nAhora, antes de descartarlo del todo: la antena del módem es bastante más sensible que la de un celular normal, así que a veces sí logra captar una señal débil donde el celular muestra \"sin servicio\". \n\nCuéntame: ¿tu celular ahí mismo no tiene nada de señal (ni una rayita) de ningún operador? ¿O ya alguien más en esa vereda te confirmó que de verdad no hay señal de ninguno, ni siquiera intermitente?",
+        "fecha": "2026-09-25T20:54:36.114Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMTAxNzUxFQIAERgSMzQ1QjIwQkE0MEVDRDQ3NTFFAA=="
       }
     ],
     "paso": "conversando",
