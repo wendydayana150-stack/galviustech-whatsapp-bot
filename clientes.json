@@ -781,8 +781,8 @@
     "telefono": "573105947689",
     "nombre": "Ayda",
     "primerContacto": "2026-09-25T12:52:23.294Z",
-    "ultimoContacto": "2026-09-25T14:07:08.708Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-25T14:22:54.116Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1083,11 +1083,18 @@
         "fecha": "2026-09-25T14:04:51.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSOTJEQjg0RTI5QkQ2MTdDNEI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, confirmado el pago. Ya te envio la GUIA para que le hagas seguimiento",
+        "fecha": "2026-09-25T14:22:53.079Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1OTQ3Njg5FQIAERgSNUYzQzMwQUNCNDlGRUI0NTcxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
