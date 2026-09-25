@@ -11516,8 +11516,8 @@
     "telefono": "573182527459",
     "nombre": "Juan",
     "primerContacto": "2026-09-24T12:42:45.873Z",
-    "ultimoContacto": "2026-09-25T00:03:06.905Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T12:57:30.620Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11600,6 +11600,39 @@
         "fecha": "2026-09-24T23:52:36.010Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSQThCRjk5RkM2RUZFM0VBNUZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:05:22.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSNTlBMTI0RjZFQzEwRjE3NjYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Juan, sobre modem WiFi portátil",
+        "fecha": "2026-09-25T11:08:13.441Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSNzg1MDZFNUFCMzhGOEYwQzQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T11:14:51.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSREUzMDE4RTdBMzJDNkQ0NkYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No se que hacer, es que llega lo que uno no pide, o no sirve",
+        "fecha": "2026-09-25T12:57:21.465Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo esa preocupación, es súper válida 😊 Por eso en GalviusTech somos claros con lo que vendemos: te mando fotos reales del producto, tienes 30 días de garantía y soporte directo conmigo si algo no funciona como debe.\n\nEl módem que te mencioné (4G/5G) es justo el que necesitas para tu caso del carro, no te vamos a mandar otra cosa. Y si al recibirlo tienes cualquier problema, te acompañamos hasta resolverlo, no te dejamos solo con el equipo.\n\n¿Qué es lo que más te preocupa puntualmente, que no llegue el producto correcto o que no funcione bien en tu zona? Así te explico mejor y avanzamos con confianza.",
+        "fecha": "2026-09-25T12:57:29.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSNTI5NkJCOEExMEI0N0FBMkVCAA=="
       }
     ],
     "paso": "conversando",
@@ -11618,7 +11651,8 @@
       "horas11": true,
       "horas1": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573123216032",
