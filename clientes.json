@@ -180,8 +180,8 @@
     "telefono": "573122339099",
     "nombre": "Jazmin",
     "primerContacto": "2026-09-25T13:35:23.785Z",
-    "ultimoContacto": "2026-09-25T13:38:56.065Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T13:39:58.645Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -245,6 +245,24 @@
         "fecha": "2026-09-25T13:38:55.226Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSODQyNDJDMTk0QUE4RDI0NTM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-25T13:39:57.546Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-25T13:39:57.546Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-09-25T13:39:57.782Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSRUU3Q0ZFQzlBOUQ1MkM4QzE1AA=="
       }
     ],
     "paso": "conversando",
@@ -253,8 +271,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
