@@ -5617,8 +5617,8 @@
     "telefono": "573133120996",
     "nombre": "te amo amor 💗💗",
     "primerContacto": "2026-09-24T16:49:14.271Z",
-    "ultimoContacto": "2026-09-25T00:56:25.111Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T02:10:23.449Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5710,11 +5710,18 @@
         "fecha": "2026-09-25T00:56:23.921Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMTIwOTk2FQIAERgSRjg4RkUzMjc3QUVCN0NBMzNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:10:22.528Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMTIwOTk2FQIAERgSNjY3RTA5RDhBMEJCMTE5REIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -5726,7 +5733,8 @@
       "horas5": true,
       "horas8": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573236313169",
