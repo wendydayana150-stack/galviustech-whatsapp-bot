@@ -2534,8 +2534,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T18:06:16.177Z",
-    "mensajes": 36,
+    "ultimoContacto": "2026-09-25T18:07:02.569Z",
+    "mensajes": 37,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2990,13 +2990,25 @@
         "fecha": "2026-09-25T18:06:15.212Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSODgwQUE3NzBEMTdDRDE1QzIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "tiene un vídeo",
+        "fecha": "2026-09-25T18:06:58.483Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dame un segundito y te comparto un video para que veas cómo funciona 📹\n\n¿Es del modem 4G/5G del que quieres ver el video, cierto? Así te lo envío directo.",
+        "fecha": "2026-09-25T18:07:01.753Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSNEM0OTY1MDZBREM2MDk2MDQyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"y cincar tiene que tener uno plan\"",
