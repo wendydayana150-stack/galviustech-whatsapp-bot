@@ -11613,8 +11613,8 @@
     "telefono": "573114875846",
     "nombre": "manolo502002",
     "primerContacto": "2026-09-24T14:36:10.274Z",
-    "ultimoContacto": "2026-09-24T14:36:10.274Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T14:28:02.225Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11647,13 +11647,32 @@
         "fecha": "2026-09-24T14:36:09.301Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0ODc1ODQ2FQIAERgSN0QxM0FDNDYwNEQwOUVGNjFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T14:22:08.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODc1ODQ2FQIAERgSQUVBQzE4OTJFOENFQzM1MkMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio de la impresora",
+        "fecha": "2026-09-25T14:27:56.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento un poco de la impresora antes del precio:\n\nEs térmica portátil (no necesita tinta ni tóner, así que ahorras desde la primera impresión), se conecta por Bluetooth a tu celular y es del tamaño de un control remoto delgado (27.5 x 6.5 x 5 cm), así que la llevas en el bolso o la cartera sin problema.\n\nLa inversión es de $249.900, y de una vez te cuento que ya incluye papel térmico. Si más adelante necesitas repuesto, manejamos paquete de 52 hojas carta por $38.000 o rollo de 9 metros por $10.000.\n\nCuéntame, ¿la necesitas para tu negocio, para trabajar fuera de oficina o para qué la usarías principalmente? Así te confirmo si es la solución perfecta para ti 😊",
+        "fecha": "2026-09-25T14:28:01.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODc1ODQ2FQIAERgSQTlFREZENjdGNEE0MDVCODJBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -11663,7 +11682,9 @@
       "horas8": true,
       "horas1": true,
       "horas3": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573133393376",
