@@ -462,8 +462,8 @@
     "telefono": "573122339099",
     "nombre": "Jazmin",
     "primerContacto": "2026-09-25T13:35:23.785Z",
-    "ultimoContacto": "2026-09-25T13:39:58.645Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T14:13:46.884Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -545,16 +545,23 @@
         "fecha": "2026-09-25T13:39:57.782Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSRUU3Q0ZFQzlBOUQ1MkM4QzE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-09-25T14:13:45.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSNzk5NzRGRDg3MUJEMzE3QkJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
