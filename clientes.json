@@ -12091,8 +12091,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-09-24T12:21:16.554Z",
-    "ultimoContacto": "2026-09-24T15:03:59.664Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T13:03:12.461Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12267,6 +12267,46 @@
         "fecha": "2026-09-24T15:03:58.643Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSOTg0NkRGQUE3QURBMDBDNEI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu numero de celular?",
+        "fecha": "2026-09-25T11:05:25.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSQ0EyQ0M3MTMwNTFCQjFEMDBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Constanza, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:08:14.530Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSMkUwQjAzMkFCNzZBRkQwNEZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-25T11:14:54.228Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSOEI1QzgwREVFNzBFQjJCQjIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto seria todo",
+        "fecha": "2026-09-25T13:03:05.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con el combo (Impresora + Cámara) más el papel adicional te quedaría así:\n\n📦 Combo completo: $299.900\n+ Paquete 52 hojas: $38.000 → total $337.900\n+ Rollo 9 mts: $10.000 → total $309.900\n\n¿Cuál de los dos papeles prefieres que te incluya, el paquete de hojas o el rollo? Así te dejo el total exacto y seguimos con tus datos para el envío 😊",
+        "fecha": "2026-09-25T13:03:10.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNjNBREM2ODRCQkVGMTBCMDdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-25T13:03:11.589Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSQ0NCMDI1REFGRDM0QjlFRjYzAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -12289,7 +12329,9 @@
       "horas5": true,
       "horas8": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573188854556",
