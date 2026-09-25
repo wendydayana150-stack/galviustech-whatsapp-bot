@@ -35854,8 +35854,8 @@
     "telefono": "573107470246",
     "nombre": "Rosa González",
     "primerContacto": "2026-09-18T19:36:21.259Z",
-    "ultimoContacto": "2026-09-22T14:22:57.259Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-25T11:14:31.322Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "bot",
@@ -36012,6 +36012,20 @@
         "fecha": "2026-09-22T14:22:56.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSODk5QjcyRkIxMzk5RjA3MDA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:09:04.981Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSRTMwMTc2RDlFNjI0OERBN0RFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Rosa González, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:09:29.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDcwMjQ2FQIAERgSMzgyREJERjIyNTcxMjY2N0Y2AA=="
       }
     ],
     "paso": "conversando",
@@ -36030,7 +36044,9 @@
       "horas11": true,
       "horas1": true
     },
-    "reactivado": true
+    "reactivado": true,
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573044179079",
