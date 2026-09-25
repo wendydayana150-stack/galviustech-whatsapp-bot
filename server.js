@@ -2929,6 +2929,36 @@ app.post("/webhook", async (req, res) => {
             res.sendStatus(200);
       } catch (error) {
             console.error("Error procesando mensaje:", error.response?.data || error.message);
+            // RESPALDO UNIVERSAL CONTRA SILENCIO TOTAL (sep-2026, caso real: cliente jhdiazbetancur,
+            // 573152212463, escribio "Aca no hay señal, de ningun operador. Solo podemos tener
+            // Internet satelital" y se quedo sin ninguna respuesta ni alerta durante horas). Los
+            // respaldos contra silencio total que ya existen (ver mas arriba en manejarTextoLibre y
+            // en el manejo de botones/listas) solo cubren errores que pasan DENTRO de esos bloques.
+            // Si algo lanza una excepcion ANTES de llegar ahi (por ejemplo en la deteccion de
+            // categoria/producto, o en manejarFlujoPedido), el error caia directo aqui, que solo
+            // hacia console.error y respondia 200 sin avisarle nada al cliente ni marcar el chat
+            // para Wendy: el caso mas silencioso de todos, porque ni siquiera queda un motivoAtencion
+            // visible en el panel. Igual que los demas respaldos, en vez de dejarlo asi, se marca el
+            // chat como que necesita atencion y se le avisa algo al cliente.
+            try {
+                  const telefonoDelError = req.body?.entry?.[0]?.changes?.[0]?.value?.messages?.[0]?.from;
+                  if (telefonoDelError) {
+                        const sesionDeError = obtenerSesion(telefonoDelError);
+                        sesionDeError.necesitaAtencion = true;
+                        sesionDeError.motivoAtencion =
+                              "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).";
+                        await enviarTexto(
+                              telefonoDelError,
+                              "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?"
+                              );
+                        await guardarCliente(telefonoDelError);
+                  }
+            } catch (errorRespaldo) {
+                  console.error(
+                        "Error en respaldo universal contra silencio total:",
+                        errorRespaldo.response?.data || errorRespaldo.message
+                        );
+            }
             res.sendStatus(200);
       }
 });
