@@ -2857,8 +2857,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T11:16:43.097Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-25T11:23:16.579Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3080,6 +3080,61 @@
         "fecha": "2026-09-25T11:15:01.830Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSMDExRTlDMDQ3QzQ4ODFEMTY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi cámara tiene puerto de cable",
+        "fecha": "2026-09-25T11:16:44.337Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación y quiero ser bien clara para que no quede ninguna duda 🙏\n\nEl módem SOLO tiene salida WiFi, no cuenta con puerto de red para cable. Esa es una característica fija del equipo, no depende de un asesor confirmarlo: técnicamente no se puede conectar una cámara que únicamente tenga puerto de cable a este módem.\n\nPor eso te propongo la alternativa real que sí te funcionaría: nuestra cámara de seguridad WiFi, que se conecta directo sin necesidad de cable de red.\n\n¿Te muestro esa cámara para que puedas vigilar tu casa sin ese problema?",
+        "fecha": "2026-09-25T11:16:49.341Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRjAyMEIzRkJERTVDRDlFMTQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T11:16:49.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQzU1NTYzRDMzMjBFNzQxMDI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-25T11:18:19.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-25T11:18:19.259Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-09-25T11:18:19.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRDczMkIxMkY0ODY5RkNBNTk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-25T11:23:15.433Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-25T11:23:15.433Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-09-25T11:23:15.618Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRjU5NTM1MjNDMzcxNjJBRDc5AA=="
       }
     ],
     "paso": "conversando",
@@ -3089,7 +3144,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Mi cámara tiene puerto de cable\"",
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
