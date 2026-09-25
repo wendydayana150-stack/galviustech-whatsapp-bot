@@ -2223,18 +2223,27 @@ async function manejarTextoLibre(telefono, texto) {
             // RESPALDO MECANICO DE CIERRE: si la IA ya respondio 2 o mas veces sobre el mismo
             // producto puntual sin que ella misma haya decidido pasar a pedirlo (osea, sin
             // ACCION_PEDIDO), le mandamos de una vez los botones directos de "Si, quiero este /
-            // Ver otros" para esa segunda respuesta en adelante. Solo se ofrecen una vez por
-            // producto por conversacion para no repetir los botones en cada mensaje siguiente.
+            // Ver otros" para esa segunda respuesta en adelante.
+            // IMPORTANTE (sep-2026): antes esto se ofrecia UNA sola vez por producto en toda la
+            // conversacion (flag booleano). Se detecto en vivo (clientes "MI$T€R" y "More") que un
+            // cliente con intencion de compra clara (ya eligio version, ya dijo si quiere recoger en
+            // oficina o que se lo envien) se puede quedar dando vueltas mas de 2 mensajes despues de
+            // ese primer ofrecimiento, sin que la IA agregue ACCION_PEDIDO, y como el flag ya estaba
+            // en true nunca se le volvia a ofrecer un cierre directo: quedaba "a mitad del pedido"
+            // hasta que Wendy lo rescataba a mano. Ahora en vez de un flag booleano se guarda EN QUE
+            // conteo se ofrecio la ultima vez, y se vuelve a ofrecer cada 2 mensajes adicionales sin
+            // cierre (conteo 2, 4, 6, 8...) mientras la IA siga sin cerrar.
             if (
                   idProductoEnfocado &&
                   !productoId &&
                   !pausarSeguimiento &&
                   sesion.preguntasPorProducto[idProductoEnfocado] >= 2 &&
-                  !sesion.botonesOfrecidos[idProductoEnfocado]
+                  sesion.preguntasPorProducto[idProductoEnfocado] % 2 === 0 &&
+                  sesion.botonesOfrecidos[idProductoEnfocado] !== sesion.preguntasPorProducto[idProductoEnfocado]
                   ) {
                   const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
                   if (productoEnfocado) {
-                        sesion.botonesOfrecidos[idProductoEnfocado] = true;
+                        sesion.botonesOfrecidos[idProductoEnfocado] = sesion.preguntasPorProducto[idProductoEnfocado];
                         await enviarBotones(telefono, "Te ayudo a dejar tu pedido listo?", [
                               { id: `pedir_${idProductoEnfocado}`, titulo: "Si, quiero este" },
                               { id: "ver_catalogo", titulo: "Ver otros" },
