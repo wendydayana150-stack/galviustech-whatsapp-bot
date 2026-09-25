@@ -2534,8 +2534,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T18:07:24.425Z",
-    "mensajes": 38,
+    "ultimoContacto": "2026-09-25T18:08:10.162Z",
+    "mensajes": 39,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3014,6 +3014,25 @@
         "fecha": "2026-09-25T18:07:23.546Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSNDE2NEYyMjY3RTE3RDM0NDAzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "si claro",
+        "fecha": "2026-09-25T18:08:01.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, es importante saber cuánto te dura para el tiempo que pasas trabajando fuera 😊 Ese dato específico no lo tengo confirmado en este momento, pero te lo voy a verificar para darte la información exacta.\n\nMientras tanto, ¿qué te parece si dejamos avanzando tu pedido del modem 4G/5G? Así en cuanto tengas la confirmación de la batería, ya tienes tu equipo en camino y no pierdes tiempo esperando.",
+        "fecha": "2026-09-25T18:08:08.839Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSRkUxN0UyMTM3NUY4MkRFQkNDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T18:08:09.318Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSQ0VDODU4QjQyNDhEQUY5M0VEAA=="
       }
     ],
     "paso": "conversando",
@@ -3023,7 +3042,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"y cincar tiene que tener uno plan\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"si claro\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
