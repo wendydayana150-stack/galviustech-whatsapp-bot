@@ -3983,8 +3983,8 @@
     "telefono": "573004138332",
     "nombre": "Raquel Díaz Rivera",
     "primerContacto": "2026-09-24T21:02:56.786Z",
-    "ultimoContacto": "2026-09-25T11:10:58.048Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T11:49:09.364Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4062,6 +4062,18 @@
         "fecha": "2026-09-25T11:09:41.372Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSQkY1RjZDODAwQkY4MjBEQUY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no la nesesito",
+        "fecha": "2026-09-25T11:49:05.813Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquila Raquel, entendido, no insisto más con la impresora 🙏\n\nCualquier cosa que necesites más adelante (internet portátil, cámaras, lámparas), aquí me encuentras. ¡Que estés muy bien!",
+        "fecha": "2026-09-25T11:49:08.154Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MTM4MzMyFQIAERgSQUY1N0VBMjMyMjFDRDQwMENCAA=="
       }
     ],
     "paso": "conversando",
@@ -4072,7 +4084,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "recordatorios": {
       "horas2": true,
       "horas1": true,
