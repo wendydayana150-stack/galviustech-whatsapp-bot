@@ -3,8 +3,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T00:32:52.446Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T00:34:21.121Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,45 @@
         "fecha": "2026-09-25T00:32:51.504Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQUMwMkNCQjVCNkRDQ0UzQUQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes enviar una foto del módem",
+        "fecha": "2026-09-25T00:34:18.544Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-09-25T00:34:18.544Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-09-25T00:34:18.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQzA5RTY4NEE5MEE5QjI0RkI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-09-25T00:34:19.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSMDFDNDgwQ0M2NjI4OUVCNDg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-09-25T00:34:19.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSNTUzNTU5MEM1QjExMDRBODQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?",
+        "fecha": "2026-09-25T00:34:20.143Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQzIyRjVFNjZFMUQ5QjFEMUI1AA=="
       }
     ],
     "paso": "conversando",
