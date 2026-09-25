@@ -6667,8 +6667,8 @@
     "telefono": "573182527459",
     "nombre": "Juan",
     "primerContacto": "2026-09-24T12:42:45.873Z",
-    "ultimoContacto": "2026-09-24T12:45:36.875Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T00:03:06.905Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6737,6 +6737,20 @@
         "fecha": "2026-09-24T12:45:36.027Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSNjkyMkI2QjQ2QkU5MjY3MjkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-24T21:00:16.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSMTRBODg2RjNCODhCMDVFODNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 No quiero saturarte de mensajes, así que este será el último recordatorio por ahora de nuestros productos.\nSi mas adelante te interesa retomarlo, aquí voy a estar lista para ayudarte con tu pedido cuando quieras. 👋",
+        "fecha": "2026-09-24T23:52:36.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNTI3NDU5FQIAERgSQThCRjk5RkM2RUZFM0VBNUZDAA=="
       }
     ],
     "paso": "conversando",
@@ -6753,7 +6767,8 @@
       "promoDiariaFecha": "2026-9-24",
       "horas8": true,
       "horas11": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573123216032",
