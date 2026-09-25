@@ -3,8 +3,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T00:34:21.121Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T00:35:45.273Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -119,6 +119,25 @@
         "fecha": "2026-09-25T00:34:20.143Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSQzIyRjVFNjZFMUQ5QjFEMUI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se lo puede conectar por medio de cable o únicamente por wife",
+        "fecha": "2026-09-25T00:35:40.279Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta. El módem funciona generando una red WiFi para conectar tus dispositivos, así que si tu cámara es tipo IP que se conecta por WiFi, no tendrías ningún problema.\n\nSi tu cámara necesita conexión por cable de red (ethernet), te confirmo con honestidad que este módem está pensado principalmente para conexión WiFi, así que lo ideal es que verifiques si tu cámara tiene la opción de conectarse por WiFi.\n\n¿Sabes si tu cámara se conecta por WiFi o solo trae puerto de cable?",
+        "fecha": "2026-09-25T00:35:43.861Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSOEUxQjY1Njg1NjY2NkEyMEI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T00:35:44.388Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSMDZCNDBCRTM5NDAxM0QyMDExAA=="
       }
     ],
     "paso": "conversando",
