@@ -469,8 +469,8 @@
     "telefono": "573153076366",
     "nombre": "Patricia",
     "primerContacto": "2026-09-25T11:46:31.541Z",
-    "ultimoContacto": "2026-09-25T11:52:01.529Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T12:54:39.538Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -534,6 +534,32 @@
         "fecha": "2026-09-25T11:52:00.686Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzMDc2MzY2FQIAERgSNkRDMEQ2OTEzQjMzNjlFNDZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T12:53:58.615Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzMDc2MzY2FQIAERgSRUY2NTkwN0QwOTFGMjE5MTc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Está muy caro",
+        "fecha": "2026-09-25T12:54:29.998Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, es una inversión y quiero que la sientas bien aprovechada 🙌\n\nPero pensemos esto: cada vez que necesitas imprimir algo urgente (una factura, un recibo, un documento) y no tienes papelería cerca, ¿cuánto tiempo pierdes desplazándote o cuánto te cobran por esa impresión?\n\nCon esta impresora imprimes al instante desde tu celular, sin tinta ni cartuchos que reponer, y te dura años de uso. La inversión es de $249.900 y con eso ya no dependes de nadie más para resolver algo urgente.\n\nCuéntame, ¿la usarías seguido para tu trabajo o negocio? Así vemos juntos si realmente te compensa el gasto 😊",
+        "fecha": "2026-09-25T12:54:38.162Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzMDc2MzY2FQIAERgSQUI5RTBBNDVDRDBBMkFGQjI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-25T12:54:38.670Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzMDc2MzY2FQIAERgSMTMzNkZFQkI0QzhFMjYzOThEAA=="
       }
     ],
     "paso": "conversando",
