@@ -3849,8 +3849,8 @@
     "telefono": "573103794001",
     "nombre": "morolynm",
     "primerContacto": "2026-09-24T18:07:42.182Z",
-    "ultimoContacto": "2026-09-24T18:10:22.254Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T02:06:15.436Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3907,11 +3907,18 @@
         "fecha": "2026-09-24T18:10:21.139Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzk0MDAxFQIAERgSMUU3NzM4OTJGNDFCMjQyNjkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:06:14.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzk0MDAxFQIAERgSQTkwMzVCODY5RkE5Nzc3NkM4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -3921,7 +3928,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573024368046",
