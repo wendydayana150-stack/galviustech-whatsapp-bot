@@ -3,8 +3,8 @@
     "telefono": "573187486325",
     "nombre": "Herman Quevedo",
     "primerContacto": "2026-09-25T00:22:34.170Z",
-    "ultimoContacto": "2026-09-25T00:24:51.767Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-25T00:29:00.123Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,25 @@
         "fecha": "2026-09-25T00:24:50.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSRjYzODc4N0Q1MjYxMkE1MjE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual me recomiendas",
+        "fecha": "2026-09-25T00:28:52.757Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento las 3 opciones que manejamos, con su inversión:\n\n📶 **Módem 4G** – $219.900 (el más económico, funciona muy bien con cobertura 4G)\n📶 **Módem 4G/5G** – $249.900 (se adapta tanto a 4G como a 5G, sin importar qué tan buena señal haya en la zona)\n📶 **Módem 5G** – $249.900 (máxima velocidad, pero requiere que ya haya cobertura 5G en la zona)\n\nPara una vereda como El Contadero en Nariño, lo más seguro es que la señal 5G todavía no esté tan desarrollada. Por eso te recomiendo el **4G/5G**: capta la mejor señal disponible sin que te quedes limitado, y si en algún momento llega 5G a la zona, tu equipo ya está listo para aprovecharla.\n\nAdemás conecta hasta 10 dispositivos y tiene mejor cobertura que un celular común en zonas rurales, con garantía de 30 días y soporte de GalviusTech.\n\n¿Actualmente tienes algo de internet allá o estarías empezando desde cero con el módem?",
+        "fecha": "2026-09-25T00:28:59.110Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg3NDg2MzI1FQIAERgSNzE1RTBFREIwNDRENzQ4NTVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
