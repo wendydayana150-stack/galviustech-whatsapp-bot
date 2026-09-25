@@ -33506,8 +33506,8 @@
     "telefono": "573113481173",
     "nombre": "CRONOS",
     "primerContacto": "2026-09-22T05:20:43.678Z",
-    "ultimoContacto": "2026-09-22T05:20:43.678Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T11:14:14.553Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -33540,6 +33540,32 @@
         "fecha": "2026-09-22T05:20:43.063Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSNEQ4RkU5NjYwQzNERjEyNEMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:08:48.053Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSREQ5MUQ3RkQ5OTEzNjg3NzVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola CRONOS, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-25T11:09:22.612Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSMzcyRUIwQzIwNkY0MkVBNzRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No ya lo compre en menos Precio gracias 👍",
+        "fecha": "2026-09-25T11:11:56.908Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah, listo! Que bueno que ya conseguiste tu impresora 🙌 No hay problema, gracias por avisarme.\n\nIgual quedo por aquí si más adelante necesitas algo, ya sea papel térmico, un modem para internet, cámaras o lámparas solares. Que la disfrutes! 😊",
+        "fecha": "2026-09-25T11:11:59.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDgxMTczFQIAERgSMzlCMjAyQzc2QkZBNDgwNkRDAA=="
       }
     ],
     "paso": "conversando",
@@ -33557,7 +33583,9 @@
       "horas8": true,
       "horas11": true,
       "horas1": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573194130618",
