@@ -41,8 +41,8 @@
     "telefono": "573225841502",
     "nombre": "luis.A.M.H😑",
     "primerContacto": "2026-09-25T05:36:54.536Z",
-    "ultimoContacto": "2026-09-25T05:43:38.768Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-25T05:43:52.140Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -210,16 +210,29 @@
         "fecha": "2026-09-25T05:43:37.782Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSNzg0NEJFODBCMkNDQkUzRjVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "el choco",
+        "fecha": "2026-09-25T05:43:51.336Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-25T05:43:51.336Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQxNTAyFQIAERgSRUY4NDg1MTM3NjZDMjYyQzdBAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573225841502",
       "nombreCliente": "Luis Alberto Murillo Hernández",
-      "celular": "3225841502"
+      "celular": "3225841502",
+      "departamento": "Choco"
     },
     "pausado": false,
     "etapaManual": null,
