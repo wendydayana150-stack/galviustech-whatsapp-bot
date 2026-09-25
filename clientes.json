@@ -3724,8 +3724,8 @@
     "telefono": "573104291904",
     "nombre": "Sanchez",
     "primerContacto": "2026-09-24T18:09:45.188Z",
-    "ultimoContacto": "2026-09-24T19:32:01.425Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-25T02:05:55.353Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3820,11 +3820,18 @@
         "fecha": "2026-09-24T19:32:00.356Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjkxOTA0FQIAERgSOUMwMTIyQkNGRDc0MThEOEU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:05:54.345Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjkxOTA0FQIAERgSMTQ2MjA5NzJEN0VEMkM5MjY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -3834,7 +3841,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573103794001",
