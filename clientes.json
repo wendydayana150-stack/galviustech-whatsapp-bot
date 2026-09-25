@@ -85,8 +85,8 @@
     "telefono": "573004294465",
     "nombre": "Rosa Vergara",
     "primerContacto": "2026-09-25T20:12:37.454Z",
-    "ultimoContacto": "2026-09-25T20:12:37.454Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-25T20:18:21.442Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,13 +126,25 @@
         "fecha": "2026-09-25T20:12:36.534Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0Mjk0NDY1FQIAERgSMTJBQTM5MTlBQkUwMThGNkUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-09-25T20:18:11.063Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! En vereda es justo donde nuestro módem marca la diferencia 🙌 Tiene una antena mucho más potente que la de un celular normal, así que capta señal donde el celular a veces no logra conectar bien.\n\nTe cuento las 3 opciones que manejamos:\n\n📶 **Módem 4G** – $219.900 (el más económico, ideal si en tu zona hay buena señal 4G)\n📶 **Módem 4G/5G** – $249.900 (la opción más segura, funciona tanto en 4G como en 5G, sin importar cuál te llegue)\n📶 **Módem 5G** – $249.900 (máxima velocidad, si sabes que en tu vereda ya hay cobertura 5G)\n\nComo en veredas normalmente hay 4G y todavía es raro tener 5G, te recomendaría el **4G/5G**, para que no te quedes corto sin importar qué señal llegue a tu zona.\n\n¿Sabes qué operador tiene mejor señal por tu vereda (Claro, Movistar, Tigo)? Así te confirmo cuál te conviene más 😊",
+        "fecha": "2026-09-25T20:18:20.401Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0Mjk0NDY1FQIAERgSNTYyRDIyNUFFRDY0MjU0MEEyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
