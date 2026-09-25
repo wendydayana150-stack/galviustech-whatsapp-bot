@@ -1183,8 +1183,8 @@
     "telefono": "573124814446",
     "nombre": "Eriberto Gonzales",
     "primerContacto": "2026-09-25T12:41:40.830Z",
-    "ultimoContacto": "2026-09-25T14:27:20.565Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-09-25T14:27:28.076Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1471,6 +1471,18 @@
         "fecha": "2026-09-25T14:27:19.786Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSQ0Y1N0REQzlBNUE1MEMyMkRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "y cincar tiene que tener uno plan",
+        "fecha": "2026-09-25T14:27:22.068Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, confirmado: la simcard llega sin ningún plan, solo la tarjeta. Debes activarla tú mismo con Claro y ponerle el plan o recarga que quieras usar. 📶\n\nSi tienes alguna otra inquietud diferente con gusto te ayudo, o si prefieres que alguien de nuestro equipo te llame para explicarte mejor, también podemos hacerlo.",
+        "fecha": "2026-09-25T14:27:26.271Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODE0NDQ2FQIAERgSODdBNTUzOUM5NUNBRkZBMUU4AA=="
       }
     ],
     "paso": "conversando",
@@ -1479,8 +1491,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"y cincar tiene que tener uno plan\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
