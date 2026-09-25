@@ -3,8 +3,8 @@
     "telefono": "573225228055",
     "nombre": "Keiner",
     "primerContacto": "2026-09-25T01:41:03.313Z",
-    "ultimoContacto": "2026-09-25T01:43:21.845Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T01:43:53.348Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,13 +68,25 @@
         "fecha": "2026-09-25T01:43:20.872Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1MjI4MDU1FQIAERgSRUIwNkZBNjAzQ0Y2QTk3NDAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "4g",
+        "fecha": "2026-09-25T01:43:46.808Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buena elección! Te vas por la versión **4G/5G** a $249.900, la más completa: te asegura conexión tanto si en tu vereda hay 4G como si más adelante llega 5G a la zona 📶\n\nIncluye SIMCARD de regalo de Claro (eso sí, la envío solo la tarjeta física, tú la activas y le pones el plan o recarga que prefieras). Garantía de 30 días y soporte de nuestra parte.\n\n¿Te ayudo a dejar tu pedido listo para enviártelo?",
+        "fecha": "2026-09-25T01:43:52.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MjI4MDU1FQIAERgSRDYwRkM5OEI2RUI5MjgwRjBEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
