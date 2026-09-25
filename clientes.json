@@ -5940,8 +5940,8 @@
     "telefono": "573233753685",
     "nombre": "⚽",
     "primerContacto": "2026-09-24T16:17:06.630Z",
-    "ultimoContacto": "2026-09-24T19:32:29.400Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-25T02:13:14.039Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6019,11 +6019,18 @@
         "fecha": "2026-09-24T19:32:28.392Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNzUzNjg1FQIAERgSOTg1OTg4NTFBQjU2MEFEQUM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:13:13.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNzUzNjg1FQIAERgSRkZCNjMyRThCMzRBQzRCOEQ3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
@@ -6032,7 +6039,9 @@
     "recordatorios": {
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573022957021",
