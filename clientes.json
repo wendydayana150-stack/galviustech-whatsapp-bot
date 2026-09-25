@@ -2881,8 +2881,8 @@
     "telefono": "573145699181",
     "nombre": "ari isa1227",
     "primerContacto": "2026-09-25T05:41:50.934Z",
-    "ultimoContacto": "2026-09-25T14:46:46.946Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-25T14:59:28.360Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3055,16 +3055,23 @@
         "fecha": "2026-09-25T14:46:46.120Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1Njk5MTgxFQIAERgSMjcwNTlENEIwQzYxMTE1RDFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, la durabilidad es hasta 30 horas en uso continuo",
+        "fecha": "2026-09-25T14:59:27.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1Njk5MTgxFQIAERgSQzBCNjVDMThDMjhBRDJGNERDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Como se carga y cuanto dura la batería\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
