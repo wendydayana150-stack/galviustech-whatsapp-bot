@@ -37433,8 +37433,8 @@
     "telefono": "573107466103",
     "nombre": "Kennier Duque",
     "primerContacto": "2026-09-15T20:14:08.756Z",
-    "ultimoContacto": "2026-09-25T11:42:28.863Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-25T11:42:45.007Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "bot",
@@ -37662,14 +37662,27 @@
         "fecha": "2026-09-25T11:42:27.925Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSMTRENTZBMzQ1NzBCQjA0NTc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-09-25T11:42:44.064Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-25T11:42:44.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NDY2MTAzFQIAERgSRjk3QUUwNENFMDZGMzI1QTIzAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
-      "telefono": "573107466103"
+      "telefono": "573107466103",
+      "nombreCliente": "Gracias"
     },
     "pausado": false,
     "etapaManual": null,
