@@ -4484,8 +4484,8 @@
     "telefono": "573202124042",
     "nombre": "🔥 MI$T€R 🔥",
     "primerContacto": "2026-09-25T00:38:55.120Z",
-    "ultimoContacto": "2026-09-25T01:53:08.713Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-25T14:19:03.498Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4604,11 +4604,39 @@
         "fecha": "2026-09-25T01:53:07.603Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyMTI0MDQyFQIAERgSMjk2Q0FDNUVBNEIwOEI4QjQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T11:04:21.438Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMTI0MDQyFQIAERgSRDRCMzk0NDRENEFCRjQ3NzFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola 🔥 MI$T€R 🔥, sobre modem WiFi portátil",
+        "fecha": "2026-09-25T11:07:52.597Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMTI0MDQyFQIAERgSODRFOEM3RjQyQ0YyNzc2MzZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-25T11:14:13.667Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMTI0MDQyFQIAERgSNURBRDFDMkM1QzFEREFDNDk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenos dias, cuentame alguna duda? hacemos pedido?",
+        "fecha": "2026-09-25T14:19:02.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMTI0MDQyFQIAERgSN0Y5QTgzNDI0NTFDNjZGQTFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": "No automatizado",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -4618,7 +4646,8 @@
     "recordatorios": {
       "horas1": true,
       "promoDiariaFecha": "2026-9-25"
-    }
+    },
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573187486325",
