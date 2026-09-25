@@ -3,8 +3,8 @@
     "telefono": "573144691822",
     "nombre": "Pulsar NS",
     "primerContacto": "2026-09-25T17:29:02.760Z",
-    "ultimoContacto": "2026-09-25T17:35:05.820Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T17:35:10.805Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,18 @@
         "fecha": "2026-09-25T17:35:04.705Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSQkRGMjA3REExMzZEMkJDNjJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias  señor   prefiero sacar un plan que pagó mensual de 50 mil",
+        "fecha": "2026-09-25T17:35:07.683Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entendido, Diego, respeto totalmente tu decisión 🙏\n\nQuedo atenta por si más adelante cambias de opinión o necesitas algo más. ¡Que tengas buen día!",
+        "fecha": "2026-09-25T17:35:09.800Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NjkxODIyFQIAERgSRjdENDQzMDZDMDFEOEE2NDJEAA=="
       }
     ],
     "paso": "conversando",
@@ -90,7 +102,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Sogamoso Boyacá\"",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
