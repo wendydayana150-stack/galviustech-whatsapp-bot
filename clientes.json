@@ -6422,8 +6422,8 @@
     "telefono": "573007363017",
     "nombre": "alexigome122",
     "primerContacto": "2026-09-24T16:03:33.900Z",
-    "ultimoContacto": "2026-09-24T16:06:20.845Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T02:14:28.645Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6492,11 +6492,18 @@
         "fecha": "2026-09-24T16:06:19.574Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3MzYzMDE3FQIAERgSOTMyRjQzMzc3NEREMkQ0MUE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-25T02:14:27.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3MzYzMDE3FQIAERgSOTYxRjYwMjEzODBFNTdBNEYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -6507,7 +6514,9 @@
       "promoDiariaFecha": "2026-9-24",
       "horas5": true,
       "horas8": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573027278273",
