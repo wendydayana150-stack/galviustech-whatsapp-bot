@@ -4742,8 +4742,8 @@
     "telefono": "573225647034",
     "nombre": "OSEALA",
     "primerContacto": "2026-09-24T16:53:38.480Z",
-    "ultimoContacto": "2026-09-24T17:45:33.898Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-25T01:25:33.757Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4788,6 +4788,39 @@
         "fecha": "2026-09-24T16:57:07.059Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSMzc3RTYzM0FDQ0IxQjJFNzRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-24T22:52:33.640Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSMTE5NjNGRjg0NDIwMURGMEI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-24T22:52:34.401Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSMUQwM0ZCOUM0QUIxNTFBNDIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-24T22:52:34.744Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSNUUxNTIwMDg4NDc2RDAyNDcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa el internet",
+        "fecha": "2026-09-25T01:25:25.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 😊 Como te mueves entre veredas y el Valle, lo mejor es que lleves tu propia conexión contigo, sin depender de si hay fibra o no en el sitio donde estés.\n\nTenemos 3 versiones de modem:\n\n📶 **Modem 4G** – $219.900 (la más económica, con muy buena cobertura)\n📶 **Modem 4G/5G** – $249.900 (funciona tanto en 4G como en 5G, la más versátil)\n📶 **Modem 5G** – $249.900 (máxima velocidad, ideal si tienes buena señal 5G)\n\nComo te mueves entre veredas y ciudad, y en zonas rurales todavía no siempre hay 5G, te recomiendo el **4G/5G**: te da la seguridad de conectarte bien en cualquiera de los dos escenarios, sin quedarte corta en ningún viaje.\n\n¿Te gustaría que te dejemos listo el pedido del 4G/5G, o prefieres el 4G más económico?",
+        "fecha": "2026-09-25T01:25:32.885Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NjQ3MDM0FQIAERgSNUVGOTkyMDYwM0VGMEQyNjlDAA=="
       }
     ],
     "paso": "conversando",
@@ -4801,7 +4834,8 @@
     "recordatorios": {
       "horas2": true,
       "horas5": true
-    }
+    },
+    "pausarSeguimiento": false
   },
   {
     "telefono": "573133120996",
