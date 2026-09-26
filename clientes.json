@@ -3,8 +3,8 @@
     "telefono": "573012544408",
     "nombre": "Katya",
     "primerContacto": "2026-09-26T11:30:21.265Z",
-    "ultimoContacto": "2026-09-26T11:31:08.440Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-26T11:32:52.773Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-09-26T11:31:07.363Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSM0U4MUJDREU0MEE1MjkxNDJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para trabajar soy docente",
+        "fecha": "2026-09-26T11:32:45.518Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Qué bueno! Como docente seguro te sirve un montón para imprimir listas de asistencia, talleres cortos, notas o hasta reportes cuando estás fuera del salón o en una reunión y no tienes impresora a la mano.\n\nImagínate: estás calificando o necesitas entregar algo urgente y en vez de correr a buscar una papelería, sacas la impresora, la conectas por Bluetooth a tu celular y listo, resuelto ahí mismo. 📄✨\n\nLa inversión es de $249.900, e incluye papel térmico de una vez para que empieces a usarla sin comprar nada extra.\n\n¿Te gustaría que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-09-26T11:32:51.265Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSQUQyNUQ2RUI1MDExQUZCRUEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-26T11:32:51.827Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSMDI5Q0VENjEzM0ZGODUwRjMxAA=="
       }
     ],
     "paso": "conversando",
