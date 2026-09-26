@@ -25659,8 +25659,8 @@
     "telefono": "573159716124",
     "nombre": "liz",
     "primerContacto": "2026-09-24T07:29:35.911Z",
-    "ultimoContacto": "2026-09-26T11:57:47.625Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-26T20:35:59.341Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -25899,6 +25899,13 @@
         "fecha": "2026-09-26T11:57:46.616Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU5NzE2MTI0FQIAERgSQTQyMjE5MTA4MTQ4MjZGODFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola de nuevo! Perdon por no contestarte antes lo de la cobertura. Fundacion (Magdalena) es un municipio, no una vereda aislada, asi que ahi si hay señal normal de los operadores (Claro, Movistar, Tigo), y el modem funciona incluso mejor que un celular porque su antena es mas potente. O sea que en tu caso si te va a servir sin problema.",
+        "fecha": "2026-09-26T20:35:58.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5NzE2MTI0FQIAERgSQjFBNjEzNjZFMUNDMTZBODNBAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -25909,7 +25916,7 @@
       "telefono": "573159716124",
       "nombreCliente": "Primero quiero saber si hay cobertura"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
