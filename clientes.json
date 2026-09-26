@@ -861,8 +861,8 @@
     "telefono": "573229619180",
     "nombre": "Mi Rayito",
     "primerContacto": "2026-09-26T16:24:31.195Z",
-    "ultimoContacto": "2026-09-26T19:55:36.166Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-26T20:49:39.212Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -921,6 +921,25 @@
         "fecha": "2026-09-26T19:55:35.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5NjE5MTgwFQIAERgSMzk0MzE4NDM1NTg4QUFCNEQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Mi Rayito, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-26T20:48:51.873Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NjE5MTgwFQIAERgSMjY4NzhDMEJDMEQ0NTIzNjk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si pero todavía no tengo toda las plata gracias",
+        "fecha": "2026-09-26T20:49:34.871Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, no hay problema 🙏 entiendo perfectamente.\n\nCuando tengas lista la plata aquí estoy para ayudarte con tu pedido. Mientras tanto, si quieres te dejo la info por si quieres consultarla de nuevo o si te surge alguna otra duda, con gusto te ayudo.\n\n¿Te gustaría que te cuente sobre alguna otra opción del catálogo mientras tanto, o prefieres que quedemos así por ahora?",
+        "fecha": "2026-09-26T20:49:38.359Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NjE5MTgwFQIAERgSQUZBNzQwMkExMDEyQ0ExODBBAA=="
       }
     ],
     "paso": "conversando",
@@ -931,7 +950,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
