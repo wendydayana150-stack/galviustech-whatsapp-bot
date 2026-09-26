@@ -3,8 +3,8 @@
     "telefono": "573204951655",
     "nombre": "Elena Bernal",
     "primerContacto": "2026-09-26T12:07:25.463Z",
-    "ultimoContacto": "2026-09-26T12:21:38.751Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-26T12:23:39.695Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,18 @@
         "fecha": "2026-09-26T12:21:37.830Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0OTUxNjU1FQIAERgSNDI0MkQwMjMwMzM0MDEwMTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "X k si se maneja un ejemplo con la antena k hay aqui n me sirve x k a esa antena k es una torre le falta mantenimiento además es con energía solar seguiría en las mismas y no seria justo",
+        "fecha": "2026-09-26T12:23:28.537Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación, y prefiero ser honesta contigo 🙏\n\nEl módem no genera señal de la nada, capta la que exista de esa torre/antena del operador. Si la torre en si tiene fallas de mantenimiento y a veces se queda sin transmitir nada, el módem no puede \"crear\" señal donde no hay absolutamente ninguna.\n\nPero la diferencia está en esto: si la torre SÍ transmite algo, aunque sea débil (por ejemplo tu celular marca 1 rayita o señal intermitente), el módem con su antena más potente capta y aprovecha mucho mejor esa señal débil que tu celular. Ahí sí notarías una mejora real.\n\nEntonces la pregunta clave es: ¿tu celular en Guamal llega a marcar aunque sea señal débil o intermitente en algún momento, o de verdad hay horas donde no hay absolutamente nada de ningún operador? Así te digo con seguridad si te serviría o no 😊",
+        "fecha": "2026-09-26T12:23:38.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTUxNjU1FQIAERgSQjdBOTk0NDk5MDEyRkM3N0M1AA=="
       }
     ],
     "paso": "conversando",
