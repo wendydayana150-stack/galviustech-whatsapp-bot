@@ -61,8 +61,8 @@
     "telefono": "573115885653",
     "nombre": "RuthDayanaGarcíaDePuerta💐",
     "primerContacto": "2026-09-26T14:00:14.088Z",
-    "ultimoContacto": "2026-09-26T14:22:56.847Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-26T14:23:08.718Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -378,15 +378,28 @@
         "fecha": "2026-09-26T14:22:55.691Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSMDhCQ0Y0N0FBMzFGMTNBNzExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3115885653",
+        "fecha": "2026-09-26T14:23:07.461Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-26T14:23:07.461Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSQzA3NDM2ODNGOEREOUQ2MjM5AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
       "telefono": "573115885653",
-      "nombreCliente": "Ruth Dayana García Florian"
+      "nombreCliente": "Ruth Dayana García Florian",
+      "celular": "3115885653"
     },
     "pausado": false,
     "etapaManual": null,
