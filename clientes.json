@@ -1023,8 +1023,8 @@
     "telefono": "573208362548",
     "nombre": "Jorge",
     "primerContacto": "2026-09-25T23:14:21.911Z",
-    "ultimoContacto": "2026-09-25T23:16:03.851Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-26T00:27:42.002Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1100,6 +1100,25 @@
         "fecha": "2026-09-25T23:16:02.475Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MzYyNTQ4FQIAERgSRDM1RURGOTZFOEZGOTNGRjA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-26T00:16:54.828Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MzYyNTQ4FQIAERgSOTZDQTFGRjI0QTkxOEQ1MDUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La verdad tengo mucha duda",
+        "fecha": "2026-09-26T00:27:38.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, es normal tener dudas antes de invertir en algo así 🙂 Contame, ¿qué es puntualmente lo que te genera esa duda? ¿Es por si realmente va a captar señal en tu vereda, por el precio, o por cómo funciona el tema de la garantía?\n\nAsí te explico justo eso y quedas más tranquilo(a) para decidir.",
+        "fecha": "2026-09-26T00:27:40.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MzYyNTQ4FQIAERgSN0JBNUUwOTRCMzcxRjYzM0I1AA=="
       }
     ],
     "paso": "conversando",
