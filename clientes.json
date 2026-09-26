@@ -3,8 +3,8 @@
     "telefono": "573103185146",
     "nombre": "Benavides",
     "primerContacto": "2026-09-26T01:45:14.627Z",
-    "ultimoContacto": "2026-09-26T01:45:14.627Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-26T01:55:09.717Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-09-26T01:45:13.913Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMTg1MTQ2FQIAERgSN0JEREUzNEZEOEY4MjY1RTBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad Bogotá",
+        "fecha": "2026-09-26T01:54:59.130Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-26T01:55:08.693Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMTg1MTQ2FQIAERgSMzBEOUZDQjBGQjhBMkMxRURFAA=="
       }
     ],
     "paso": "conversando",
@@ -52,8 +64,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Ciudad Bogotá\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
