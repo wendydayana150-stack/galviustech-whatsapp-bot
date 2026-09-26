@@ -37434,8 +37434,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-09-21T12:55:31.407Z",
-    "ultimoContacto": "2026-09-24T14:55:47.412Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-26T16:50:10.668Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37573,6 +37573,13 @@
         "fecha": "2026-09-24T14:55:46.285Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSMEJCMUZFRjFCRDQzRkQxNUJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Arnaldo Ulloa Gaitán 🇨🇴, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-26T11:13:51.596Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSNUVEMjE5NzdENDFGMUQzQkU1AA=="
       }
     ],
     "paso": "conversando",
@@ -37594,7 +37601,9 @@
       "horas7": true,
       "horas9": true
     },
-    "reactivado": true
+    "reactivado": true,
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573107470246",
