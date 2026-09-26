@@ -1268,16 +1268,37 @@ async function enviarRecordatoriosPendientes() {
 
             const pendientes = [];
             for (const c of datos) {
-                  if (c.pausado) continue;
+                  // CRITICO (encontrado 26-sep-2026 revisando clientes reales: Edgar Leon, Emilse
+                  // Rada, Eriberto Gonzales): clientes.json se lee de la API de GitHub, que a veces
+                  // devuelve una version un pelin desactualizada justo despues de un guardado muy
+                  // reciente (ej. Wendy le acaba de escribir manualmente o lo acaba de pausar). Eso
+                  // dejaba pasar un recordatorio automatico justo a un cliente que Wendy ya habia
+                  // resuelto o pausado a mano segundos antes, viendose muy mal (ej. a una clienta que
+                  // reclamaba una estafa y Wendy ya le habia contestado, el bot le siguio insistiendo
+                  // "sigues interesada?"). La sesion en memoria (sesiones{}) se actualiza al instante
+                  // en el mismo proceso, sin esperar la escritura a GitHub, asi que la usamos como
+                  // chequeo adicional mas confiable que la lectura fresca del JSON.
+                  const sesionViva = sesiones[c.telefono];
+                  if (c.pausado || sesionViva?.pausado) continue;
                   // Si el cliente tiene un caso escalado pendiente de que Wendy responda,
                   // no le mandamos recordatorios automaticos de venta encima de eso.
-                  if (c.necesitaAtencion) continue;
+                  if (c.necesitaAtencion || sesionViva?.necesitaAtencion) continue;
                   // Si el cliente ya dijo explicitamente "yo aviso" / "no insistas" (PAUSAR_SEGUIMIENTO),
                   // respetamos eso y no lo seguimos contactando automaticamente.
-                  if (c.pausarSeguimiento) continue;
+                  if (c.pausarSeguimiento || sesionViva?.pausarSeguimiento) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
 
                   const recordatorios = c.recordatorios || {};
+                  // Compatibilidad con la cadencia anterior a la de sep-2026 (era 2/5/8/11 horas;
+                  // ahora es 1/3/5/7/9/11). Un cliente que ya tenia marcado un tier de la cadencia
+                  // vieja (horas2 u horas8, nombres que ya no existen en la nueva) nunca llegaba a
+                  // tener marcado el tier nuevo mas cercano, asi que el chequeo de abajo lo trataba
+                  // como si nunca hubiera recibido NINGUN recordatorio y le repetia el de 1 hora una
+                  // y otra vez sin avanzar nunca (caso real: Yeison Becerra, mismo mensaje "Quedamos
+                  // a mitad de la conversacion" repetido durante mas de un dia). Si ya tiene el tier
+                  // viejo equivalente, damos por bueno el nuevo tambien.
+                  if (recordatorios.horas2 && !recordatorios.horas1) recordatorios.horas1 = true;
+                  if (recordatorios.horas8 && !recordatorios.horas7) recordatorios.horas7 = true;
 
                   // Cliente que prometio mandar sus datos de pedido en conversacion libre (ver
                   // esperandoDatosPedidoLibre en manejarTextoLibre) y no llegaron: un solo
@@ -1990,6 +2011,17 @@ function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
       // cuantos gigas viene" o "De que color es", sin llegar a revisar todo el mensaje (eso ya
       // subiria el riesgo de falsos positivos sobre datos reales del pedido).
       if (palabras.length >= 3 && palabras.slice(0, 2).some((palabra) => inicios.includes(palabra))) {
+            return true;
+      }
+      // Caso real (26-sep-2026, liz): "Primero quiero saber si hay cobertura" no arranca con
+      // palabra interrogativa (arranca con "primero quiero saber"), asi que el chequeo de arriba
+      // no la detectaba y quedo guardada como si fuera su NOMBRE COMPLETO, dejando su pregunta de
+      // cobertura sin respuesta y arruinando el resto del flujo de pedido. Para mensajes cortos (el
+      // tipo de frase donde se cuela una pregunta metida a la mitad, ej. "primero quiero saber si
+      // hay cobertura", "antes que nada dime si tiene garantia"), revisamos TODAS las palabras, no
+      // solo las 2 primeras. Los datos reales de pedido (nombre, ciudad, direccion) casi nunca usan
+      // estas palabras dentro de una frase tan corta, asi que el riesgo de falso positivo es bajo.
+      if (palabras.length >= 3 && palabras.length <= 6 && palabras.some((palabra) => inicios.includes(palabra))) {
             return true;
       }
 
