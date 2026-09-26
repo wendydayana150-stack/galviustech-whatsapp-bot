@@ -787,8 +787,8 @@
     "telefono": "573212728621",
     "nombre": "vgjasa",
     "primerContacto": "2026-09-26T16:42:10.920Z",
-    "ultimoContacto": "2026-09-26T17:46:53.121Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-26T20:50:05.649Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -871,6 +871,32 @@
         "fecha": "2026-09-26T17:46:52.231Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyNzI4NjIxFQIAERgSQjdBQjY3QTgzOTVEMDcyOTAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-26T20:47:35.067Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNzI4NjIxFQIAERgSMDk0M0I5NDAzNjdCMTk5RDkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola vgjasa, sobre modem WiFi portátil",
+        "fecha": "2026-09-26T20:48:51.132Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNzI4NjIxFQIAERgSNzhFODIzNTEzMTkyNDE0Mjk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mamita mi esposo llega de viaje mañana y eso lo hablamos en persona",
+        "fecha": "2026-09-26T20:50:00.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale, tranquila! Que buen viaje tenga tu esposo 😊\n\nCuando ya lo hablen y estén list@s, aquí estaré para ayudarte con el pedido del módem que mejor les sirva. Que tengan una buena conversación!",
+        "fecha": "2026-09-26T20:50:04.792Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNzI4NjIxFQIAERgSNkNDMTYwNEFDRjU0MENCN0Y4AA=="
       }
     ],
     "paso": "conversando",
@@ -881,7 +907,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
