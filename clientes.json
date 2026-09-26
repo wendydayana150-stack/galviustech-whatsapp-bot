@@ -61,8 +61,8 @@
     "telefono": "573115885653",
     "nombre": "RuthDayanaGarcíaDePuerta💐",
     "primerContacto": "2026-09-26T14:00:14.088Z",
-    "ultimoContacto": "2026-09-26T14:23:45.940Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-26T14:23:56.601Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -426,9 +426,21 @@
         "fecha": "2026-09-26T14:23:45.004Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSOEVGMzFERUJEMzQ1NTA2QThFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio cabañas del rio",
+        "fecha": "2026-09-26T14:23:55.550Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-26T14:23:55.550Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSQTI5MTNDQTk3RjNBREI0MUVEAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -438,7 +450,8 @@
       "celular": "3115885653",
       "departamento": "Arauca",
       "ciudad": "Arauca",
-      "direccion": "CRA 30 #24a25"
+      "direccion": "CRA 30 #24a25",
+      "barrio": "Barrio cabañas del rio"
     },
     "pausado": false,
     "etapaManual": null,
