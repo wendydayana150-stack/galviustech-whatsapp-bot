@@ -34582,8 +34582,8 @@
     "telefono": "573027720700",
     "nombre": "Claudia Janet",
     "primerContacto": "2026-09-23T02:21:48.455Z",
-    "ultimoContacto": "2026-09-25T21:50:01.621Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-26T11:58:17.456Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -34686,6 +34686,25 @@
         "fecha": "2026-09-25T21:49:41.873Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3NzIwNzAwFQIAERgSNzY2ODIzRERBMjdFMjhGNkY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo por aquí pendiente de nuestros productos, por si se te ofrece algo o te quedo alguna duda.\nCuéntame y con gusto te ayudo a dejarlo listo. 🙋‍♀️",
+        "fecha": "2026-09-26T11:02:03.099Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3NzIwNzAwFQIAERgSREUyREJEMzM1MTE4MEIzQ0NEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias por s.hora no voy a comprar",
+        "fecha": "2026-09-26T11:58:13.914Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí, tranquilo/a! 😊 No hay ningún problema, entiendo perfecto.\n\nQuedo atenta por si más adelante te animas o si te surge alguna otra duda sobre el modem u otro producto. Que tengas un excelente día! 🙋‍♀️",
+        "fecha": "2026-09-26T11:58:16.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3NzIwNzAwFQIAERgSNjIxMkY0OUQ2QzQ5REREODk4AA=="
       }
     ],
     "paso": "conversando",
@@ -34706,7 +34725,7 @@
       "horas7": true,
       "horas9": true
     },
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
