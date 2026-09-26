@@ -61,8 +61,8 @@
     "telefono": "573115885653",
     "nombre": "RuthDayanaGarcíaDePuerta💐",
     "primerContacto": "2026-09-26T14:00:14.088Z",
-    "ultimoContacto": "2026-09-26T14:23:17.185Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-26T14:23:24.160Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -402,9 +402,21 @@
         "fecha": "2026-09-26T14:23:15.738Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSNUI2MkE5MzUzREJDOTMyRDk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Arauca",
+        "fecha": "2026-09-26T14:23:23.211Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-26T14:23:23.212Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSMjNBMzk1NDFGOTdCMDRENzQ4AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -412,7 +424,8 @@
       "telefono": "573115885653",
       "nombreCliente": "Ruth Dayana García Florian",
       "celular": "3115885653",
-      "departamento": "Arauca"
+      "departamento": "Arauca",
+      "ciudad": "Arauca"
     },
     "pausado": false,
     "etapaManual": null,
