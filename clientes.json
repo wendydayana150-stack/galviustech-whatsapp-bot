@@ -3,8 +3,8 @@
     "telefono": "573204951655",
     "nombre": "Elena Bernal",
     "primerContacto": "2026-09-26T12:07:25.463Z",
-    "ultimoContacto": "2026-09-26T12:18:22.701Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-26T12:18:43.934Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-09-26T12:18:21.541Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0OTUxNjU1FQIAERgSMzBGQzFGNDREN0E2MDMxOTEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta eso de pende de antena como los celulares",
+        "fecha": "2026-09-26T12:18:38.291Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 👍 Sí, el módem usa la misma red de los operadores (como Claro, Movistar, etc.), o sea que depende de que haya cobertura de esas antenas en tu zona.\n\nLa diferencia es que el módem tiene una antena mucho más potente y sensible que la de un celular, entonces donde tu celular capta señal débil o se le va, el módem sigue captando esa señal y la mantiene estable. Por eso en tu caso, donde el celular se pone \"muerto\" en la noche, el módem tiene mucha más capacidad de mantener la conexión.\n\n¿Te parece si avanzamos con el 4G/5G para que ya no dependas de esos cortes? 📶",
+        "fecha": "2026-09-26T12:18:43.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTUxNjU1FQIAERgSREJBNDY1QTk5MzdBNEMxRjAwAA=="
       }
     ],
     "paso": "conversando",
