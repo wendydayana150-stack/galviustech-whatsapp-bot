@@ -3,8 +3,8 @@
     "telefono": "573126179659",
     "nombre": "Jorge Arango",
     "primerContacto": "2026-09-26T04:26:00.163Z",
-    "ultimoContacto": "2026-09-26T04:26:07.873Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-26T04:26:52.500Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-26T04:26:07.013Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MTc5NjU5FQIAERgSRTMxNjMzNkY2NUY5RENDQUM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora termica",
+        "fecha": "2026-09-26T04:26:46.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento sobre la impresora térmica portátil 🖨️\n\nEs pequeñita (mide 27.5 cm, del tamaño de un control remoto delgado), no necesita tinta ni tóner, y funciona con Bluetooth desde tu celular. Ideal para no depender de una papelería cuando te urge sacar una factura, cotización o documento en el momento.\n\nLa inversión es de $249.900, y ya viene con papel térmico incluido.\n\nCuéntame, ¿la necesitas para trabajo, negocio o algo personal? ¿Sueles moverte o trabajar fuera de casa?",
+        "fecha": "2026-09-26T04:26:51.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MTc5NjU5FQIAERgSNkM5OTg0M0Y5ODU2M0ZFRUU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
