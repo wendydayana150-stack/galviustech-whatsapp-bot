@@ -3,8 +3,8 @@
     "telefono": "573213289166",
     "nombre": "Yoyo",
     "primerContacto": "2026-09-26T00:07:57.479Z",
-    "ultimoContacto": "2026-09-26T00:15:06.541Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-26T00:15:13.962Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -219,6 +219,25 @@
         "fecha": "2026-09-26T00:15:05.690Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMjg5MTY2FQIAERgSNTIzMTYzOUMxNzc1MjQ4NTdDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el celular",
+        "fecha": "2026-09-26T00:15:07.979Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, tienes el plan activo en la SIM de tu celular 📱\n\nPara el módem necesitarías una SIM físicamente puesta en él (puede ser la misma que sacas de tu celular, o la que te regalamos y le activas ahí tu propio plan con Claro). No puedes usar las dos a la vez en el mismo chip, tocaría elegir una.\n\nLo más práctico normalmente es usar la SIM de regalo que te enviamos y activarle un plan de datos aparte, así no te quedas sin señal en el celular.\n\n¿Te parece bien así? ¿Seguimos con tu pedido para dejarlo listo? 🙌",
+        "fecha": "2026-09-26T00:15:12.803Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjg5MTY2FQIAERgSQkM2OTZBMEFDODlBRUJCNjY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-26T00:15:13.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjg5MTY2FQIAERgSMTg3NkQ3NDNDQTQ3RDk4QjVDAA=="
       }
     ],
     "paso": "conversando",
