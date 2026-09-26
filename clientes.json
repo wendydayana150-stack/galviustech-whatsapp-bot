@@ -3,8 +3,8 @@
     "telefono": "573012544408",
     "nombre": "Katya",
     "primerContacto": "2026-09-26T11:30:21.265Z",
-    "ultimoContacto": "2026-09-26T11:33:31.023Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-26T11:34:58.145Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,6 +99,25 @@
         "fecha": "2026-09-26T11:33:30.135Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSMDQyRTMwQjZGQUFFMTJFNEQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo ustedes comercializan ese papel o se consigue en otro lugar?",
+        "fecha": "2026-09-26T11:34:51.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta. El papel térmico no es exclusivo nuestro, es un insumo que también se consigue en papelerías o tiendas de suministros de oficina.\n\nLa ventaja de comprarlo con nosotros es que ya sabes que es la medida y presentación exacta para tu impresora (tamaño carta), con envío gratis y sin tener que salir a buscarlo. Muchos profes prefieren llevar de una vez su repuesto para no quedarse sin papel a mitad de semana 😉\n\n¿Te gustaría que dejemos lista tu impresora y de una vez el paquete de 52 hojas o el rollo, para que no te falte?",
+        "fecha": "2026-09-26T11:34:56.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSQTMxOTk0RTNFOTc2QUUwMEIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-26T11:34:57.191Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNTQ0NDA4FQIAERgSNUUzRTQyNzRBRkU4NDcwRjI1AA=="
       }
     ],
     "paso": "conversando",
