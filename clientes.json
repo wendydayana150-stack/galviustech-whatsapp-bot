@@ -672,7 +672,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573239262603",
@@ -730,7 +733,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573157232044",
@@ -1795,7 +1801,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -2609,7 +2616,8 @@
       "promoDiariaFecha": "2026-9-26",
       "horas5": true,
       "horas7": true,
-      "horas9": true
+      "horas9": true,
+      "horas11": true
     }
   },
   {
@@ -2666,7 +2674,8 @@
       "horas3": true,
       "horas5": true,
       "horas7": true,
-      "horas9": true
+      "horas9": true,
+      "horas11": true
     }
   },
   {
