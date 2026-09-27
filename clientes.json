@@ -4249,8 +4249,8 @@
     "telefono": "573216872249",
     "nombre": "Tumaco Es Colombia",
     "primerContacto": "2026-09-27T14:25:36.697Z",
-    "ultimoContacto": "2026-09-27T14:29:17.514Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-27T22:05:20.229Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4326,16 +4326,23 @@
         "fecha": "2026-09-27T14:29:16.536Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODcyMjQ5FQIAERgSQTc2QUZDQTc2NkRBQUIwRDM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "para imprimir desde computador conectando desde Bluetooth",
+        "fecha": "2026-09-27T22:05:18.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODcyMjQ5FQIAERgSMjhBQzlGODgxOUVBODJCMDY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Otro uso \nPara Tumaco Nariño \nSe puede para computadores? Y el tamaño de la impresión es normal ?\nIm\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
