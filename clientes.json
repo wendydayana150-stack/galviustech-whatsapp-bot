@@ -177,8 +177,8 @@
     "telefono": "573185370797",
     "nombre": "Bellanirarojas",
     "primerContacto": "2026-09-27T15:22:43.708Z",
-    "ultimoContacto": "2026-09-27T15:29:30.249Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-27T15:29:58.087Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -341,14 +341,27 @@
         "fecha": "2026-09-27T15:29:29.244Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSOUQ1RUY5NUFGMzg4NkFBQzNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bellanira rojas",
+        "fecha": "2026-09-27T15:29:57.058Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-27T15:29:57.059Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSQTQ2QzU5MTU2MzJCNzAxMTEwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
-      "telefono": "573185370797"
+      "telefono": "573185370797",
+      "nombreCliente": "Bellanira rojas"
     },
     "pausado": false,
     "etapaManual": null,
