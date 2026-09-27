@@ -3,8 +3,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-27T22:21:32.359Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-27T22:21:42.384Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -167,14 +167,27 @@
         "fecha": "2026-09-27T22:21:31.578Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSNThEOTQ3NUU2RUFDRUZENjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santiago jose manga perez",
+        "fecha": "2026-09-27T22:21:41.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-27T22:21:41.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSOUVEQjAxNUFFMDMzMzRBNjUxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
-      "telefono": "573113957253"
+      "telefono": "573113957253",
+      "nombreCliente": "Santiago jose manga perez"
     },
     "pausado": false,
     "etapaManual": null,
