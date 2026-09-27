@@ -724,8 +724,8 @@
     "telefono": "573052571753",
     "nombre": "Ferchodurango1976",
     "primerContacto": "2026-09-27T21:37:02.586Z",
-    "ultimoContacto": "2026-09-27T22:29:57.276Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-27T22:30:51.412Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -801,6 +801,18 @@
         "fecha": "2026-09-27T22:29:56.389Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUyNTcxNzUzFQIAERgSOUIzM0FFODcxQzE3OTI3QTk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno, yo te aviso",
+        "fecha": "2026-09-27T22:30:48.743Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, tranquilo 😊 Aquí quedo atenta para cuando estés list@, sin problema.\n\nCualquier duda que te surja mientras tanto, me escribes.",
+        "fecha": "2026-09-27T22:30:50.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUyNTcxNzUzFQIAERgSNjg3RjdGNTkwM0QwNUU5RDkzAA=="
       }
     ],
     "paso": "conversando",
@@ -811,7 +823,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
