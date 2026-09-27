@@ -177,8 +177,8 @@
     "telefono": "573185370797",
     "nombre": "Bellanirarojas",
     "primerContacto": "2026-09-27T15:22:43.708Z",
-    "ultimoContacto": "2026-09-27T15:31:01.962Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-27T15:31:23.065Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -401,9 +401,21 @@
         "fecha": "2026-09-27T15:31:01.047Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSQjU5ODI4NjE0NEQ1MzNEQjE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 15 5 55",
+        "fecha": "2026-09-27T15:31:22.096Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-27T15:31:22.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSMEI2QUVFNDA1Njk4NUU0N0UwAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -413,7 +425,8 @@
       "celular": "3185370797",
       "departamento": "Quindio",
       "ciudad": "Montenegro",
-      "direccion": "Interrapidisimo"
+      "direccion": "Interrapidisimo",
+      "barrio": "Calle 15 5 55"
     },
     "pausado": false,
     "etapaManual": null,
