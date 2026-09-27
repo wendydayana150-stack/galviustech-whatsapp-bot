@@ -61,8 +61,8 @@
     "telefono": "573166033871",
     "nombre": "Bayron",
     "primerContacto": "2026-09-27T01:36:55.972Z",
-    "ultimoContacto": "2026-09-27T01:46:50.376Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T01:47:54.002Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -114,6 +114,25 @@
         "fecha": "2026-09-27T01:46:49.295Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY2MDMzODcxFQIAERgSQ0ZDNjVGMTU4QjA0NzJERTBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como es la instalación?",
+        "fecha": "2026-09-27T01:47:52.248Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona (modelo similar)",
+        "fecha": "2026-09-27T01:47:52.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2MDMzODcxFQIAERgSRUNEMEU0NjJFRTM5NTEyMkFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-09-27T01:47:52.960Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2MDMzODcxFQIAERgSMEM1QzA0QjkyQ0JBNUJGREFCAA=="
       }
     ],
     "paso": "conversando",
