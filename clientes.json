@@ -99,8 +99,8 @@
     "telefono": "573014399829",
     "nombre": "William",
     "primerContacto": "2026-09-27T12:51:36.878Z",
-    "ultimoContacto": "2026-09-27T12:54:39.908Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-27T12:56:07.789Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,17 +176,29 @@
         "fecha": "2026-09-27T12:54:38.743Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE0Mzk5ODI5FQIAERgSMTBDM0ZEODRFQ0QyMDI1MEE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esperemos un momento",
+        "fecha": "2026-09-27T12:56:04.479Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tómate tu tiempo 😊 Cualquier duda que te surja sobre el módem, aquí estoy para ayudarte.",
+        "fecha": "2026-09-27T12:56:06.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE0Mzk5ODI5FQIAERgSRTczRjlDQjcwMjkxOTA0RDRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
