@@ -770,7 +770,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573136801556",
@@ -3201,7 +3204,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
-      "horas3": true
+      "horas3": true,
+      "horas5": true
     }
   },
   {
