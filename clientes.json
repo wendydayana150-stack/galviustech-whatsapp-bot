@@ -3,8 +3,8 @@
     "telefono": "573209702716",
     "nombre": "Javier Hernandez",
     "primerContacto": "2026-09-27T17:47:23.403Z",
-    "ultimoContacto": "2026-09-27T17:48:31.844Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T17:50:32.220Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-27T17:48:30.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSN0I4Rjk0NkRBMTZBNTc2QzRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Haa y uno no puede escoger x ejemplo la impresora más el reloj y qué medidas tiene la impresora",
+        "fecha": "2026-09-27T17:50:25.597Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😄 Ese combo si lo manejamos: **Impresora Térmica + Reloj Inteligente por $299.900**, te sale muy bien porque llevas los dos productos en un solo pedido.\n\nY sobre las medidas: la impresora es bien compacta, mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, prácticamente el tamaño de un control remoto delgado. Te cabe facilísimo en el bolso o la cartera, la llevas a donde vayas.\n\n¿Te gustaría que te dejemos listo ese combo de impresora + reloj? Cuéntame para qué usarías principalmente la impresora (facturas, pedidos, cotizaciones) así te confirmo que te sirve perfecto.",
+        "fecha": "2026-09-27T17:50:31.333Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSNTZDMzQxOTE4ODA0RkJFMDhBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
