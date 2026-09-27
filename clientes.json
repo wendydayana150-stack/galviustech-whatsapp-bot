@@ -3,8 +3,8 @@
     "telefono": "573132579455",
     "nombre": "Joshep Castro",
     "primerContacto": "2026-09-27T22:14:11.469Z",
-    "ultimoContacto": "2026-09-27T22:15:26.796Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-27T22:15:35.233Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-09-27T22:15:25.616Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNTc5NDU1FQIAERgSMTFGRUEzOTk1NTlFMjdBRkE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué tamaño imprime?",
+        "fecha": "2026-09-27T22:15:28.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Imprime en tamaño carta 📄 (tanto en rollo como en hojas). Y para que te des una idea, la impresora en sí es bien compacta: mide 27.5 x 6.5 x 5 cm, como del tamaño de un control remoto delgado, así que te cabe fácil en el bolso o la cartera.\n\nYa viene con papel incluido, y si más adelante necesitas repuesto tengo 2 opciones: paquete de 52 hojas carta por $38.000, o rollo de 9 metros por $10.000. ¿Para qué la usarías principalmente, facturas, cotizaciones o etiquetas?",
+        "fecha": "2026-09-27T22:15:33.567Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNTc5NDU1FQIAERgSRTUxMkEwNjRDNjI2QzVERkRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-27T22:15:34.268Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNTc5NDU1FQIAERgSN0NBQUVFMEUzNzU4OThCMDI4AA=="
       }
     ],
     "paso": "conversando",
