@@ -3,8 +3,8 @@
     "telefono": "573108404924",
     "nombre": "Angelita Merchán",
     "primerContacto": "2026-09-27T21:47:57.637Z",
-    "ultimoContacto": "2026-09-27T21:59:45.318Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-27T22:04:27.616Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -96,16 +96,23 @@
         "fecha": "2026-09-27T21:59:43.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NDA0OTI0FQIAERgSNTcyNTEyNjVENDUxMUM3RkM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tiene un alcance de 10 Mtrs a la redonda",
+        "fecha": "2026-09-27T22:04:26.688Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NDA0OTI0FQIAERgSRkFCNUVBMkY2NTI5NjI1NDFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": null,
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Antes de eso qie alcance de metros a la redonda tiene el modem\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
