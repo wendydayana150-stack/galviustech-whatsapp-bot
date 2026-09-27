@@ -31730,8 +31730,8 @@
     "telefono": "573143581904",
     "nombre": "Rositamun",
     "primerContacto": "2026-09-24T01:23:32.982Z",
-    "ultimoContacto": "2026-09-27T13:20:54.560Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-27T13:22:08.923Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -31837,6 +31837,18 @@
         "fecha": "2026-09-27T13:20:53.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNTgxOTA0FQIAERgSRTA2M0FGMkQ3QkEzRDZBQUM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok. Gracias me comunico con usted cuando reciba mi salario",
+        "fecha": "2026-09-27T13:22:05.375Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que si, con toda calma 🙂\n\nCuando estes list@ aqui estare para ayudarte a dejar tu pedido y resolver cualquier otra duda que te surja. Que tengas un excelente dia!",
+        "fecha": "2026-09-27T13:22:07.869Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTgxOTA0FQIAERgSQkNFODM2QjExRTFFQ0ZDMjY5AA=="
       }
     ],
     "paso": "conversando",
@@ -31858,7 +31870,7 @@
       "horas7": true,
       "horas9": true
     },
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
