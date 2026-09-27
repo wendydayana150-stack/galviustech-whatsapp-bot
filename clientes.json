@@ -20507,8 +20507,8 @@
     "telefono": "573145746450",
     "nombre": "Nati Ramirez.",
     "primerContacto": "2026-09-25T00:57:50.429Z",
-    "ultimoContacto": "2026-09-27T14:33:10.322Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-27T14:33:19.939Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20643,6 +20643,18 @@
         "fecha": "2026-09-27T14:33:09.453Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NzQ2NDUwFQIAERgSOTI2NkQ2NTI2Q0IwMTYzNTBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya dicho lo valla a pedir les escribo",
+        "fecha": "2026-09-27T14:33:15.871Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, perfecto 😊 Aquí quedo atenta a lo que decidas, sin afán.\n\nCualquier cosa que te surja sobre la impresora o el pedido, me escribes y con gusto te ayudo. ¡Que tengas buen día! 🙌",
+        "fecha": "2026-09-27T14:33:18.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NzQ2NDUwFQIAERgSNkZDRDYwQTFBMzZCQjNEQ0IyAA=="
       }
     ],
     "paso": "conversando",
@@ -20653,7 +20665,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "recordatorios": {
       "horas1": true,
       "promoDiariaFecha": "2026-9-27",
