@@ -578,7 +578,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573208842433",
@@ -647,7 +650,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573004505163",
@@ -1651,7 +1657,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -3949,7 +3956,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
-      "horas3": true
+      "horas3": true,
+      "horas5": true
     }
   },
   {
