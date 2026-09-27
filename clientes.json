@@ -73,8 +73,8 @@
     "telefono": "573213000555",
     "nombre": "Jairo C.H",
     "primerContacto": "2026-09-27T17:51:29.034Z",
-    "ultimoContacto": "2026-09-27T17:52:52.577Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T17:57:11.691Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,6 +126,18 @@
         "fecha": "2026-09-27T17:52:51.716Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMDAwNTU1FQIAERgSN0E3RDdDNDI4QTQzMDkxMDA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias yo le confirmó para cuando",
+        "fecha": "2026-09-27T17:57:03.747Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Quedo atenta a tu mensaje 😊\n\nCualquier duda que te surja sobre la impresora (tamaño, batería, papel térmico) me escribes y con gusto te ayudo. Que tengas buen día!",
+        "fecha": "2026-09-27T17:57:10.558Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMDAwNTU1FQIAERgSOUE4MTRFQ0U3QUZFRTY4RjYyAA=="
       }
     ],
     "paso": "conversando",
@@ -136,7 +148,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
