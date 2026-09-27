@@ -310,7 +310,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "584129190995",
@@ -368,7 +371,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573015644184",
@@ -1386,7 +1392,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -3937,7 +3944,8 @@
     "recordatorios": {
       "horas1": true,
       "horas3": true,
-      "horas5": true
+      "horas5": true,
+      "horas7": true
     }
   },
   {
