@@ -31730,8 +31730,8 @@
     "telefono": "573143581904",
     "nombre": "Rositamun",
     "primerContacto": "2026-09-24T01:23:32.982Z",
-    "ultimoContacto": "2026-09-24T11:59:35.196Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T13:20:54.560Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -31818,6 +31818,25 @@
         "fecha": "2026-09-24T11:59:34.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNTgxOTA0FQIAERgSNjM2QjhBNTE4OUQ5Q0E4NjdEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Rositamun, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-27T11:04:50.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTgxOTA0FQIAERgSNkIzRjEwQTcyNUIwOTA2RDYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-27T13:20:48.406Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora tiene bateria para hasta 30 horas de uso, imprime sin necesidad de tinta ni toner (te ahorras esos gastos desde el primer dia), y es tan pequeña que cabe en un bolso (mide 27.5 x 6.5 x 5 cm, como un control remoto delgado).\n\nLa inversion es de $249.900, y ya viene con papel termico incluido para que arranques a imprimir apenas la recibas.\n\nSi necesitas mas papel despues, tambien manejamos paquete de 52 hojas por $38.000 o rollo de 9 metros por $10.000.\n\nCuentame, para que la usarias principalmente: facturas, recibos, cotizaciones? Asi te confirmo que es justo lo que necesitas 😊",
+        "fecha": "2026-09-27T13:20:53.569Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTgxOTA0FQIAERgSRTA2M0FGMkQ3QkEzRDZBQUM0AA=="
       }
     ],
     "paso": "conversando",
@@ -31838,7 +31857,9 @@
       "horas3": true,
       "horas7": true,
       "horas9": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573229420392",
