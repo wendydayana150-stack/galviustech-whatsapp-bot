@@ -25258,8 +25258,8 @@
     "telefono": "573224374519",
     "nombre": "Diana",
     "primerContacto": "2026-09-24T16:03:45.208Z",
-    "ultimoContacto": "2026-09-24T22:35:14.435Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-27T12:26:32.295Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -25344,6 +25344,25 @@
         "fecha": "2026-09-24T22:35:13.459Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSRkFDNjZGMzc0RkY4N0Y3OTdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Diana, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-27T11:04:10.772Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSNjVCRTIxMTg1OUQ4RDU4MTQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué pedio es",
+        "fecha": "2026-09-27T12:26:26.703Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto te aclaro! 😊\n\nTe refieres al precio de los combos, cierto? Te resumo:\n\n🖨️ Impresora + Reloj: inversión de $299.900\n🖨️ Impresora + Cámara: inversión de $299.900\n\nO si prefieres solo la impresora sin combo, la inversión es de $249.900.\n\n¿Cuál te interesa llevar, alguno de los combos o la impresora sola? Así te ayudo a dejar tu pedido listo 📦",
+        "fecha": "2026-09-27T12:26:31.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc0NTE5FQIAERgSNjRENEVDNDY0MTU1NzYyODc0AA=="
       }
     ],
     "paso": "conversando",
@@ -25364,7 +25383,8 @@
       "horas9": true,
       "horas11": true
     },
-    "pausarSeguimiento": false
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573007363017",
