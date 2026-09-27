@@ -3,8 +3,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-27T22:19:25.224Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T22:20:29.877Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-09-27T22:19:24.244Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSNUFENzMzREQ2QkMyNTRDNzVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Becerril cesar",
+        "fecha": "2026-09-27T22:20:19.395Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-27T22:20:28.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSNjAzODg5RTQzMTNDNDkxNDdFAA=="
       }
     ],
     "paso": "conversando",
@@ -64,8 +76,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Becerril cesar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
