@@ -61,8 +61,8 @@
     "telefono": "573216872249",
     "nombre": "Tumaco Es Colombia",
     "primerContacto": "2026-09-27T14:25:36.697Z",
-    "ultimoContacto": "2026-09-27T14:26:36.747Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-27T14:29:17.514Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,6 +126,18 @@
         "fecha": "2026-09-27T14:26:36.042Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODcyMjQ5FQIAERgSNTVCMENCQTM5QTFBQzcwQTlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Otro uso \nPara Tumaco Nariño \nSe puede para computadores? Y el tamaño de la impresión es normal ?\nImprime a color ?",
+        "fecha": "2026-09-27T14:29:06.786Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-27T14:29:16.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODcyMjQ5FQIAERgSQTc2QUZDQTc2NkRBQUIwRDM2AA=="
       }
     ],
     "paso": "conversando",
@@ -134,8 +146,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Otro uso \nPara Tumaco Nariño \nSe puede para computadores? Y el tamaño de la impresión es normal ?\nIm\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
