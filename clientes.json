@@ -177,8 +177,8 @@
     "telefono": "573185370797",
     "nombre": "Bellanirarojas",
     "primerContacto": "2026-09-27T15:22:43.708Z",
-    "ultimoContacto": "2026-09-27T15:30:30.386Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-27T15:30:39.717Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -377,9 +377,21 @@
         "fecha": "2026-09-27T15:30:29.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSNDBGMkZDQTBGREMxN0IyRUVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Montenegro",
+        "fecha": "2026-09-27T15:30:38.822Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-27T15:30:38.823Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MzcwNzk3FQIAERgSRjkzN0YxNzZGQ0M3NEE2OTY0AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -387,7 +399,8 @@
       "telefono": "573185370797",
       "nombreCliente": "Bellanira rojas",
       "celular": "3185370797",
-      "departamento": "Quindio"
+      "departamento": "Quindio",
+      "ciudad": "Montenegro"
     },
     "pausado": false,
     "etapaManual": null,
