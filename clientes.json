@@ -3,8 +3,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-27T22:22:06.674Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-27T22:22:21.443Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,9 +203,21 @@
         "fecha": "2026-09-27T22:22:05.797Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSRkJFMTI3MjkzQTI3OThBODQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio  becerril cesar",
+        "fecha": "2026-09-27T22:22:20.748Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-27T22:22:20.749Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSQzAxREQ1RDM5RTc4MEYzMjM4AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -213,7 +225,8 @@
       "telefono": "573113957253",
       "nombreCliente": "Santiago jose manga perez",
       "celular": "3113957253",
-      "departamento": "Cesar"
+      "departamento": "Cesar",
+      "ciudad": "Municipio  becerril cesar"
     },
     "pausado": false,
     "etapaManual": null,
