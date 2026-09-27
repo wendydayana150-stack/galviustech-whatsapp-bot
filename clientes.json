@@ -135,8 +135,8 @@
     "telefono": "573157520699",
     "nombre": "Francisco",
     "primerContacto": "2026-09-27T21:38:07.147Z",
-    "ultimoContacto": "2026-09-27T21:39:16.161Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-27T21:53:38.611Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,6 +188,18 @@
         "fecha": "2026-09-27T21:39:15.142Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3NTIwNjk5FQIAERgSRDI4MTMwOUY1MjVDQTY1ODg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "donde no se cuenta con señal de ningún operador ?",
+        "fecha": "2026-09-27T21:53:32.982Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu preocupación 😊 Te cuento con honestidad: el módem funciona con una SIM de operador celular (Claro, Movistar, Tigo, etc.), así que si de verdad en tu zona no llega señal de NINGÚN operador, el módem no te va a servir. Nosotros no manejamos internet satelital.\n\nAhora bien, antes de descartarlo: la antena del módem es bastante más sensible que la de un celular normal, así que a veces SÍ capta señal débil donde el celular muestra \"sin servicio\".\n\n¿Tu celular tampoco marca señal ahí mismo? ¿O ya confirmaste con alguien más de esa zona que de verdad no hay nada, ni siquiera intermitente?",
+        "fecha": "2026-09-27T21:53:37.721Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3NTIwNjk5FQIAERgSNzlCQkY2ODZCQzBDMkJGMkU3AA=="
       }
     ],
     "paso": "conversando",
