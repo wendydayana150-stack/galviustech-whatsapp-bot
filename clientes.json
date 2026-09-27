@@ -61,8 +61,8 @@
     "telefono": "573041692238",
     "nombre": "Alfonso Figueroa Ojeda",
     "primerContacto": "2026-09-27T14:22:14.425Z",
-    "ultimoContacto": "2026-09-27T14:24:17.435Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-27T14:25:25.186Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,13 +118,25 @@
         "fecha": "2026-09-27T14:24:16.444Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQxNjkyMjM4FQIAERgSMEEzQTU1MTFGQ0EyM0Y0NkQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito es una impresora.",
+        "fecha": "2026-09-27T14:25:18.033Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, la impresora térmica portátil es justo lo que necesitas! 🖨️\n\nCuéntame, ¿la usarías más para facturas y recibos de un negocio, documentos de trabajo, o algo de estudio? Así te confirmo que te sirve al 100%.\n\nTe cuento un poco de ella: no usa tinta ni tóner (te ahorras ese gasto desde el día 1), se conecta por Bluetooth a tu celular, y es bien compacta, mide 27.5 cm de largo, cabe perfecto en un bolso o mochila. Ideal para no depender de una papelería cuando algo urge.\n\nLa inversión es de $249.900. Y de una vez te cuento: ya viene con papel incluido, pero si necesitas más adelante manejamos paquete de 52 hojas por $38.000 o rollo de 9 metros por $10.000.\n\n¿Para qué la usarías principalmente?",
+        "fecha": "2026-09-27T14:25:24.037Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQxNjkyMjM4FQIAERgSMDkyMkRFMjE3QkExNUNERjQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
