@@ -3,8 +3,8 @@
     "telefono": "573023941931",
     "nombre": "......",
     "primerContacto": "2026-09-27T14:14:07.459Z",
-    "ultimoContacto": "2026-09-27T14:14:07.459Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-27T14:14:59.168Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,45 @@
         "fecha": "2026-09-27T14:14:06.319Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzOTQxOTMxFQIAERgSN0M2RjJBRDU1NTk5MUFGMUUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-09-27T14:14:56.395Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Modem Portatiles]",
+        "fecha": "2026-09-27T14:14:56.395Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-09-27T14:14:56.395Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzOTQxOTMxFQIAERgSM0M3NjEwNUYyMzdBNkM2QTdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Nuestro Modem WiFi Portatil*\n\nCompatible con SIM de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB)\nConecta hasta 10 dispositivos al mismo tiempo\nInstalacion facil: insertas la SIM, enciendes y listo\nBateria recargable\nIdeal para hogar, oficina, estudio, viajes y zonas rurales con cobertura movil\nGarantia de 30 dias y soporte de GalviusTech",
+        "fecha": "2026-09-27T14:14:57.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzOTQxOTMxFQIAERgSMDlDNzE0QjY2NjY0NkUzNkE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Precio desde $ 219.900 (tenemos varias versiones, te recomiendo la que mejor te sirva segun tu caso)",
+        "fecha": "2026-09-27T14:14:57.579Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzOTQxOTMxFQIAERgSRjMwOUU2QjE5MUE1MTczNzRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte el modem ideal, cuentame: lo necesitas para una zona rural (vereda) o para la ciudad? Y en que ciudad o municipio estas?",
+        "fecha": "2026-09-27T14:14:58.162Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzOTQxOTMxFQIAERgSNEE3NDc0NjY1MjBBMUMzOUM0AA=="
       }
     ],
     "paso": "conversando",
@@ -31,7 +70,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
