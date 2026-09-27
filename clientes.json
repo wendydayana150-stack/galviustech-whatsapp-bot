@@ -143,8 +143,8 @@
     "telefono": "573209702716",
     "nombre": "Javier Hernandez",
     "primerContacto": "2026-09-27T17:47:23.403Z",
-    "ultimoContacto": "2026-09-27T17:50:32.220Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-27T17:54:42.326Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,6 +188,25 @@
         "fecha": "2026-09-27T17:50:31.333Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSNTZDMzQxOTE4ODA0RkJFMDhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ésa impresora es cómo para meter una hoja tamaño carta o como",
+        "fecha": "2026-09-27T17:54:34.550Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No es como meterle una hoja normal a una impresora de oficina, esta funciona con papel térmico que se va alimentando internamente (en rollo o en hojas térmicas), no se inserta como una hoja suelta tradicional. 📄\n\nY sí, maneja tamaño carta: justamente el papel térmico que vendemos viene en paquete de 52 hojas tamaño carta por $38.000, o en rollo de 9 metros tamaño carta por $10.000. La impresora ya viene con papel incluido para que empieces a usarla apenas te llegue.\n\n¿Cuál de esos dos te serviría más para cuando se te acabe el que trae? Y contame, ya decidiste llevar el combo con el reloj o la impresora sola? 😊",
+        "fecha": "2026-09-27T17:54:40.869Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSMDg3Qzg4NUIwQzRGQzY3RUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-27T17:54:41.373Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSMEVBMkY2N0Y1QURDQUVGMUU4AA=="
       }
     ],
     "paso": "conversando",
