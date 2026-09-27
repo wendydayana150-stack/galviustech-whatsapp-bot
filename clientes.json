@@ -14575,8 +14575,8 @@
     "telefono": "573122339099",
     "nombre": "Jazmin",
     "primerContacto": "2026-09-25T13:35:23.785Z",
-    "ultimoContacto": "2026-09-25T15:05:18.417Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-27T13:20:21.199Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14698,6 +14698,25 @@
         "fecha": "2026-09-25T15:05:09.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSMkNCQUY0QUZGMzE5ODgyNjExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jazmin, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-27T11:03:24.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSOTVCRjI4Nzc2MDNENzNFOUQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No  mi esposo dejo que no",
+        "fecha": "2026-09-27T13:20:17.560Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquila, entiendo 🙂 No hay problema, tómense el tiempo que necesiten.\n\nQuedo atenta por si más adelante quieren retomarlo o si surge alguna otra duda. Que estés muy bien 💛",
+        "fecha": "2026-09-27T13:20:20.203Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMzM5MDk5FQIAERgSQ0NCMUE2MzgxNDI3QzFDMzlEAA=="
       }
     ],
     "paso": "conversando",
@@ -14708,7 +14727,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-27",
