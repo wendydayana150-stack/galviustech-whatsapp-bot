@@ -3,8 +3,8 @@
     "telefono": "573108404924",
     "nombre": "Angelita Merchán",
     "primerContacto": "2026-09-27T21:47:57.637Z",
-    "ultimoContacto": "2026-09-27T21:56:57.962Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-27T21:59:45.318Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -84,6 +84,18 @@
         "fecha": "2026-09-27T21:56:57.061Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NDA0OTI0FQIAERgSOUE5NjEwRTQwMkEwNDg3MDNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antes de eso qie alcance de metros a la redonda tiene el modem",
+        "fecha": "2026-09-27T21:59:34.524Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-27T21:59:43.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NDA0OTI0FQIAERgSNTcyNTEyNjVENDUxMUM3RkM5AA=="
       }
     ],
     "paso": "conversando",
@@ -92,8 +104,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": null,
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Antes de eso qie alcance de metros a la redonda tiene el modem\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
