@@ -3,8 +3,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-27T22:21:08.978Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-27T22:21:32.359Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -155,10 +155,27 @@
         "fecha": "2026-09-27T22:21:08.020Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSMUMxRDNBMkVCMTEzRDNEQzc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-09-27T22:21:31.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Termica Portatil Bluetooth* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-27T22:21:31.578Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSNThEOTQ3NUU2RUFDRUZENjRBAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Termica Portatil Bluetooth",
+      "precio": 249900,
+      "telefono": "573113957253"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
