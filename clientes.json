@@ -32993,8 +32993,8 @@
     "telefono": "573223464575",
     "nombre": "Oscar Javier",
     "primerContacto": "2026-09-24T04:56:16.064Z",
-    "ultimoContacto": "2026-09-24T19:10:01.020Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-27T17:36:00.263Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -33092,6 +33092,25 @@
         "fecha": "2026-09-24T19:09:59.778Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNDY0NTc1FQIAERgSMkJEMjg0RDVFQjk2MEZFOTc1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Oscar Javier, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-27T11:04:35.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNDY0NTc1FQIAERgSRDQ2RDM2QkM5QjUwNzkxODgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y por el combo cuánto cuesta",
+        "fecha": "2026-09-27T17:35:56.587Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tenemos dos combos con la impresora 😊\n\n- Impresora Térmica + Reloj Inteligente: $299.900\n- Impresora Térmica + Cámara de seguridad: $299.900\n\nPor solo $50.000 mas te llevas un regalo extra. ¿Cuál de los dos te llama más la atención?",
+        "fecha": "2026-09-27T17:35:59.092Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNDY0NTc1FQIAERgSQkEwODNBM0YzNTUwRURGNDA5AA=="
       }
     ],
     "paso": "conversando",
@@ -33112,7 +33131,9 @@
       "horas3": true,
       "horas7": true,
       "horas9": true
-    }
+    },
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
   },
   {
     "telefono": "573155138703",
