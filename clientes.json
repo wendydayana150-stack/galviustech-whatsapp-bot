@@ -3520,8 +3520,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:46:03.958Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-28T19:46:26.598Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3791,9 +3791,21 @@
         "fecha": "2026-09-28T19:46:02.919Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSMTdGRDkxQUE4RjI5MzU2RjYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio centro",
+        "fecha": "2026-09-28T19:46:25.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-28T19:46:25.552Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSOUU5M0M1MjJCM0E0RUNGRUU1AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -3803,7 +3815,8 @@
       "celular": "3219289948",
       "departamento": "Norte de Santander",
       "ciudad": "Tibú",
-      "direccion": "Oficina inter rapidísimo"
+      "direccion": "Oficina inter rapidísimo",
+      "barrio": "Barrio centro"
     },
     "pausado": false,
     "etapaManual": null,
