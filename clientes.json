@@ -456,8 +456,8 @@
     "telefono": "573232492976",
     "nombre": "Madrecita solo una..",
     "primerContacto": "2026-09-28T14:47:01.121Z",
-    "ultimoContacto": "2026-09-28T14:52:04.150Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T15:38:07.218Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -509,16 +509,23 @@
         "fecha": "2026-09-28T14:52:00.838Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSN0MwNkQzNTMyODkwNEJFNjBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que si, ya que nuestros Modem son diseñados para eso. Tenemos el modem 4g $219.900 o Modem 4g/5g en $249.900",
+        "fecha": "2026-09-28T15:38:05.906Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSNjkzMkE5MjY4QzI4RDY5NEJFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Es para mejorar la señal  en una vereda\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
