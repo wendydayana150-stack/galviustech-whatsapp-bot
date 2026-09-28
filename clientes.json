@@ -2085,8 +2085,8 @@
     "telefono": "573232492976",
     "nombre": "Madrecita solo una..",
     "primerContacto": "2026-09-28T14:47:01.121Z",
-    "ultimoContacto": "2026-09-28T15:40:23.276Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T18:01:53.504Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2176,11 +2176,25 @@
         "fecha": "2026-09-28T15:40:22.081Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSRDJDODIxMDU0MzM5MDU2RkYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-28T16:47:36.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSRUI2RUIzMTYyNkNCMUMwNzFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola de nuevo, disculpa la confusion del mensaje anterior. Te confirmo: si en esa vereda de verdad no llega señal de NINGUN operador (Claro, Movistar, Tigo), el modem lastimosamente no te va a funcionar ahi, porque el necesita esa señal celular para poder darte internet, y nosotros no manejamos internet satelital. Prefiero ser honesta contigo antes que venderte algo que no te sirva.",
+        "fecha": "2026-09-28T18:01:52.242Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSNkI4QjlDRjAzRjk2MTYyMERGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
