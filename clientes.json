@@ -505,8 +505,8 @@
     "telefono": "573245931009",
     "nombre": "Laurita",
     "primerContacto": "2026-09-28T17:12:56.300Z",
-    "ultimoContacto": "2026-09-28T17:59:01.324Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-28T18:39:06.530Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -769,14 +769,34 @@
         "fecha": "2026-09-28T17:59:00.261Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSRTBGMDVDNzEyN0M5QjkxNkNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Laurita, sobre modem WiFi portátil",
+        "fecha": "2026-09-28T18:38:39.301Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSRjA4NjBFRTMxOURBQzI5ODhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy esperando que digan si lo van a encargar",
+        "fecha": "2026-09-28T18:39:05.490Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T18:39:05.492Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSM0Y0ODAyNjVERTlFNTVERDBFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
       "precio": 289900,
-      "telefono": "573245931009"
+      "telefono": "573245931009",
+      "nombreCliente": "Estoy esperando que digan si lo van a encargar"
     },
     "pausado": false,
     "etapaManual": null,
