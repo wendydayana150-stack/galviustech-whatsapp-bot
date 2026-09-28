@@ -3,8 +3,8 @@
     "telefono": "573147240558",
     "nombre": "Evelyn",
     "primerContacto": "2026-09-28T13:54:07.220Z",
-    "ultimoContacto": "2026-09-28T13:54:23.760Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T13:55:17.382Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-28T13:54:22.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3MjQwNTU4FQIAERgSOUE0NkIxNkYyRjk0MTcwRTM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora sin tinta",
+        "fecha": "2026-09-28T13:55:10.776Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Esta impresora es justo eso: térmica, así que no necesita tinta ni tóner nunca, imprimes directo desde tu celular por Bluetooth y es tan compacta (mide 27.5 x 6.5 x 5 cm, como un control remoto delgado) que la llevas en el bolso o mochila a donde sea.\n\nLa inversión es de $249.900, y ya viene con papel térmico incluido para que empieces a usarla de una vez.\n\nDe hecho también manejamos papel térmico adicional por si necesitas más adelante: paquete de 52 hojas carta por $38.000, o rollo de 9 metros por $10.000.\n\nCuéntame, ¿la usarías para tu negocio, facturas, o trabajas fuera de oficina y necesitas imprimir sobre la marcha?",
+        "fecha": "2026-09-28T13:55:16.159Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MjQwNTU4FQIAERgSMjhGRjhENzM5QzA1MkYwNzI1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
