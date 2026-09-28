@@ -155,8 +155,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-28T20:58:02.490Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T20:59:06.717Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -352,6 +352,18 @@
         "fecha": "2026-09-28T20:58:01.703Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSNzU1RTkyQkVGRTM3QUQ4OUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y hay que pagar mensualidad?",
+        "fecha": "2026-09-28T20:59:02.598Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, ninguna mensualidad con nosotros. El módem lo pagas una sola vez ($249.900) y es tuyo. Lo único que corre por tu cuenta es el plan o recarga que le actives a la SIM de Claro (eso ya depende de ti, según cuántos megas quieras usar al mes), pero eso es igual que con cualquier celular, no es algo que te cobremos nosotros.\n\n¿Seguimos con tus datos para dejar el pedido listo?",
+        "fecha": "2026-09-28T20:59:05.790Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSNDc5OUI2QzQ4MEMwQ0MzNjM5AA=="
       }
     ],
     "paso": "conversando",
