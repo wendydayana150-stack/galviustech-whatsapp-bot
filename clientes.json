@@ -4989,8 +4989,8 @@
     "telefono": "573115735079",
     "nombre": "rosanaelvi15",
     "primerContacto": "2026-09-28T13:57:21.912Z",
-    "ultimoContacto": "2026-09-28T20:15:37.600Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-28T20:18:33.785Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5031,6 +5031,18 @@
         "fecha": "2026-09-28T18:57:34.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NzM1MDc5FQIAERgSQjQ1Qzk4RTA3MzRFMjdFMDBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no muchas gracias",
+        "fecha": "2026-09-28T20:18:26.647Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, tranquila! Cualquier cosa que necesites, aquí estoy. Que tengas un buen día 😊",
+        "fecha": "2026-09-28T20:18:31.763Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NzM1MDc5FQIAERgSREZGNUZBNUNERUU2MDM5MjY4AA=="
       }
     ],
     "paso": "conversando",
@@ -5041,7 +5053,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
