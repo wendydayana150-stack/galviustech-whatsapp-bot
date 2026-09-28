@@ -5249,8 +5249,8 @@
     "telefono": "573134770959",
     "nombre": "Luz Mari",
     "primerContacto": "2026-09-28T17:22:04.805Z",
-    "ultimoContacto": "2026-09-28T23:20:09.548Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-28T23:23:30.519Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5467,6 +5467,13 @@
         "fecha": "2026-09-28T23:20:08.556Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSNEEwQUZFNkFDOEU0MDk0ODM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "$299.900",
+        "fecha": "2026-09-28T23:23:29.407Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSNEMxNjNBODk5M0VDMkMwMkMwAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -5477,7 +5484,7 @@
       "telefono": "573134770959",
       "nombreCliente": "Cuanto vale"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": "impresora",
