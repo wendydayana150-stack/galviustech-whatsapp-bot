@@ -283,8 +283,8 @@
     "telefono": "573145950388",
     "nombre": "Jair Torres.",
     "primerContacto": "2026-09-28T19:59:28.614Z",
-    "ultimoContacto": "2026-09-28T20:15:47.436Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-28T20:16:11.917Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -468,14 +468,27 @@
         "fecha": "2026-09-28T20:15:46.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTUwMzg4FQIAERgSREQzQkZFNDdDRDQzNENBNjBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "jair antonio torres perez",
+        "fecha": "2026-09-28T20:16:10.338Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T20:16:10.339Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTUwMzg4FQIAERgSNDEwOTc2MEE3OTc1NTc5N0U5AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
-      "telefono": "573145950388"
+      "telefono": "573145950388",
+      "nombreCliente": "jair antonio torres perez"
     },
     "pausado": false,
     "etapaManual": null,
