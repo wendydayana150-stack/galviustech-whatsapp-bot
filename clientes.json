@@ -3,8 +3,8 @@
     "telefono": "573158811616",
     "nombre": ".",
     "primerContacto": "2026-09-28T14:52:01.436Z",
-    "ultimoContacto": "2026-09-28T14:56:18.272Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-28T14:56:35.275Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,6 +87,18 @@
         "fecha": "2026-09-28T14:56:17.152Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODExNjE2FQIAERgSNDc5Nzk5MEE4MDZDOUU2M0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias de todas maneras",
+        "fecha": "2026-09-28T14:56:31.365Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con toda confianza, entiendo que lo quieras pensar bien 🙏\n\nSi más adelante te animas, aquí estoy para ayudarte con el 4G/5G o cualquier duda que te surja sobre el módem. ¿Te parece si te dejo esta info y me escribes cuando estés list@?",
+        "fecha": "2026-09-28T14:56:34.357Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODExNjE2FQIAERgSQzc1QUMwMTE5MUVCNEEwQTYzAA=="
       }
     ],
     "paso": "conversando",
@@ -97,7 +109,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
