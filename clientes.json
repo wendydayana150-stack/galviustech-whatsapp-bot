@@ -3520,8 +3520,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:45:32.224Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-28T19:46:03.958Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3779,9 +3779,21 @@
         "fecha": "2026-09-28T19:45:31.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSQUY4RTUxMzI1QjM2MDhCMTZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina inter rapidísimo",
+        "fecha": "2026-09-28T19:46:02.919Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-28T19:46:02.919Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSMTdGRDkxQUE4RjI5MzU2RjYzAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -3790,7 +3802,8 @@
       "nombreCliente": "Luis Fernando Rincón Gordillo",
       "celular": "3219289948",
       "departamento": "Norte de Santander",
-      "ciudad": "Tibú"
+      "ciudad": "Tibú",
+      "direccion": "Oficina inter rapidísimo"
     },
     "pausado": false,
     "etapaManual": null,
