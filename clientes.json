@@ -380,8 +380,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:58:11.064Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-09-28T21:58:15.590Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "cliente",
@@ -910,6 +910,18 @@
         "fecha": "2026-09-28T21:58:10.294Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSMDE5MUI2QTYxNTNBQjNFQUY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me lo avisas",
+        "fecha": "2026-09-28T21:58:12.346Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo pendiente 😊 Cuando quieras retomamos y me pasas tu nombre y celular para dejar lista tu Lámpara 3 Lentes X2.\n\nCualquier cosita aquí estoy, sin afán.",
+        "fecha": "2026-09-28T21:58:14.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNUUyMEI0NEY5NTFFNTZGNzlCAA=="
       }
     ],
     "paso": "conversando",
@@ -920,7 +932,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
