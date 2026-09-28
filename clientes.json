@@ -131,8 +131,8 @@
     "telefono": "573232492976",
     "nombre": "Madrecita solo una..",
     "primerContacto": "2026-09-28T14:47:01.121Z",
-    "ultimoContacto": "2026-09-28T14:47:01.121Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-28T14:52:04.150Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,18 @@
         "fecha": "2026-09-28T14:46:59.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSNzFFNURGQ0ZFMDhDRThDRThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para mejorar la señal  en una vereda",
+        "fecha": "2026-09-28T14:52:00.323Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-09-28T14:52:00.838Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyNDkyOTc2FQIAERgSN0MwNkQzNTMyODkwNEJFNjBGAA=="
       }
     ],
     "paso": "conversando",
@@ -180,8 +192,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Es para mejorar la señal  en una vereda\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
