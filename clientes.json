@@ -3,8 +3,8 @@
     "telefono": "573135579467",
     "nombre": "benjaminblancorivero313",
     "primerContacto": "2026-09-28T09:42:32.645Z",
-    "ultimoContacto": "2026-09-28T09:42:32.645Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-28T09:44:06.565Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-09-28T09:42:31.760Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSMTdENDY2MTQ5RDc4NDZFODhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuando tenga el dinero le envió el mensaje para autorizar el pedido",
+        "fecha": "2026-09-28T09:43:58.849Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Sin afán, aquí quedo pendiente de tu mensaje. 😊\n\nCuando estés lista, me escribes y te ayudo a dejar todo listo para que la recibas rapidito. Si en el mientras tienes alguna otra duda sobre la impresora, con gusto te ayudo.",
+        "fecha": "2026-09-28T09:44:05.520Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSQ0MyNTY2Q0QyMTdCMTI0QkM3AA=="
       }
     ],
     "paso": "conversando",
@@ -47,7 +59,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
