@@ -120,7 +120,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573134770959",
@@ -1756,7 +1759,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -2725,7 +2729,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
-      "promoDiariaFecha": "2026-9-28"
+      "promoDiariaFecha": "2026-9-28",
+      "horas3": true
     }
   },
   {
