@@ -5249,8 +5249,8 @@
     "telefono": "573134770959",
     "nombre": "Luz Mari",
     "primerContacto": "2026-09-28T17:22:04.805Z",
-    "ultimoContacto": "2026-09-28T23:19:07.163Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-28T23:19:28.578Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5443,14 +5443,27 @@
         "fecha": "2026-09-28T23:19:05.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSNjgzQzJCRUE1RUMyNDgyNTRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto vale",
+        "fecha": "2026-09-28T23:19:27.598Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T23:19:27.599Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSNDE2NDBCMUE0NjQ1REVENkU4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
       "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
       "precio": 299900,
-      "telefono": "573134770959"
+      "telefono": "573134770959",
+      "nombreCliente": "Cuanto vale"
     },
     "pausado": false,
     "etapaManual": null,
