@@ -5,6 +5,11 @@
 const nombreNegocio = "Galviustech";
 const nombreAsistente = "Michell";
 
+// Link de la pagina/tienda (a pedido de Wendy, 28-sep-2026): se manda en el primer recordatorio
+// (1 hora de silencio) a los clientes que quedaron viendo el catalogo sin decidirse por nada en
+// concreto, para que mientras tanto sigan mirando mas opciones por su cuenta.
+const LINK_TIENDA = "https://galviustech.cercia.co";
+
 function construirBloqueCatalogo(catalogo) {
             const productos = (catalogo || []).filter((p) => !p.id.startsWith("combo-"));
             const combos = (catalogo || []).filter((p) => p.id.startsWith("combo-"));
@@ -277,7 +282,8 @@ const mensajeRecordatorio1Hora = (nombreProducto, precio) => {
                             : "Quedamos a mitad de la conversación y no quise dejarte sin respuesta.";
               return (
                             "Hola! 😊 " + detalle + "\n" +
-                            "Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️"
+                            "Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\n" +
+                            "Mientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: " + LINK_TIENDA
               );
 };
 
