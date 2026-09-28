@@ -3009,8 +3009,8 @@
     "telefono": "573125750452",
     "nombre": "Luis Felipe Cabrera",
     "primerContacto": "2026-09-28T14:48:28.103Z",
-    "ultimoContacto": "2026-09-28T14:50:29.416Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T20:10:46.256Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3062,13 +3062,46 @@
         "fecha": "2026-09-28T14:50:28.353Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSQjU2REYyOUZGOEU1OEIyM0NEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-28T19:57:38.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSMzg2RUUzMzQzOTQ4NjAzM0Y5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-28T19:57:38.987Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSRENDQkVEQjg0QkU2ODg5MzVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-28T19:57:39.709Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSMjBCMTgyMDM1RjAzQzEzOTZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuál es el precio de la impresora+cámara?",
+        "fecha": "2026-09-28T20:10:38.281Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Ese combo de Impresora Térmica + Cámara de seguridad te da dos soluciones en una: por un lado imprimes documentos, facturas o recibos en cualquier momento sin depender de una papelería, y por otro tienes la tranquilidad de ver tu casa o negocio desde el celular estés donde estés.\n\nLa inversión de este combo es de $299.900, con envío gratis incluido.\n\nCuéntame, ¿es para tu negocio o para tu casa principalmente? Así te oriento mejor en cómo sacarle el máximo provecho a los dos productos 😊",
+        "fecha": "2026-09-28T20:10:45.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSQTFBMkE5OUZDNkYwRDY5QkVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
