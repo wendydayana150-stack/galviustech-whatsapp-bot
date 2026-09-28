@@ -1432,8 +1432,8 @@
     "telefono": "573227002869",
     "nombre": "Yaneth Viviescas",
     "primerContacto": "2026-09-28T15:37:04.126Z",
-    "ultimoContacto": "2026-09-28T17:59:58.299Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-28T18:01:27.400Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1622,14 +1622,27 @@
         "fecha": "2026-09-28T17:59:57.156Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MDAyODY5FQIAERgSMzg5RTVGQ0M3ODIxODg3M0M1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias ya realice la compra",
+        "fecha": "2026-09-28T18:01:26.395Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T18:01:26.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MDAyODY5FQIAERgSMjQzRTNENDYzRjQ2OUQ3MTZFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
-      "telefono": "573227002869"
+      "telefono": "573227002869",
+      "nombreCliente": "No gracias ya realice la compra"
     },
     "pausado": false,
     "etapaManual": null,
