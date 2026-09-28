@@ -518,8 +518,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T22:01:29.605Z",
-    "mensajes": 39,
+    "ultimoContacto": "2026-09-28T22:02:33.084Z",
+    "mensajes": 40,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1234,13 +1234,46 @@
         "fecha": "2026-09-28T22:01:28.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSQzdGMkYzOTE4RjUyQTkxRDc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy Esteban Moscote Zarabata y el número es 3218150839",
+        "fecha": "2026-09-28T22:02:26.076Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias Esteban! Ya con eso te dejo el pedido en marcha 🙌\n\nCuando esté listo el envío te confirmamos para que lo recojas en la oficina de la transportadora en Mingueo. ¿Cómo prefieres pagar, contraentrega o por transferencia?",
+        "fecha": "2026-09-28T22:02:29.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSOTkzQTA0MUUwRkMwQUQ4QTE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Lamparas 3 lentes X3* ($ 199.900). Como ya tengo tus datos de un pedido anterior, los voy a usar para este nuevo pedido. Si necesitas cambiar algo (direccion, celular, etc.) dime cual y te lo corrijo.",
+        "fecha": "2026-09-28T22:02:29.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSMkMzMDYxNUY2NTkxRDk4NDA2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Esteban Moscote Zarabata\n*Celular:* 3218150839\n*Departamento:* Eso me lo puedes enviar en Mingueo hay en la entrada de sierra\n*Ciudad:* Guajira\n*Direccion:* Soy de la sierra  Nevada de Santa Marta y quiero que me lo envíes en el corregimiento Mingueo\n*Barrio:* Dumingueka\n*Producto:* Lamparas 3 lentes X3\n*Medio de pago:* Contra entrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-28T22:02:31.612Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSMDg3OUUzOEQ5RURGQzY4NTc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-28T22:02:32.022Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNzU2MDlBQjlBRDE1QzEzQjREAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "lamparas-3-lentes-x-2",
+    "ultimoProducto": "lamparas-3-lentes-x-2-2",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
