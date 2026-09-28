@@ -4059,8 +4059,8 @@
     "telefono": "573146724539",
     "nombre": "🙏🏻",
     "primerContacto": "2026-09-28T02:03:39.827Z",
-    "ultimoContacto": "2026-09-28T02:12:31.164Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T16:00:34.919Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4256,6 +4256,62 @@
         "fecha": "2026-09-28T02:12:30.151Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSMDFDM0YyQzRBRDdDRTc5OUY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola 🙏🏻, sobre modem WiFi portátil",
+        "fecha": "2026-09-28T11:02:10.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSREMwMzhCNTExMTI5Njk5MjcwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu numero de celular?",
+        "fecha": "2026-09-28T11:07:44.493Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSRTEwRDZGNkRFNUY2RkE0OTZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-28T11:17:44.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSRkYzOTlCMUZCQjA4MUIyRkYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu pedido esta casi listo, solo falta un ultimo dato para poder despacharlo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-28T11:27:57.414Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSMUIyQUQ0MUE2RkU2QUZGMkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-28T11:37:43.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSMTU5NTlFMTk1RTRFQzk1NTJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-28T11:47:39.533Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSRTRFNzhBQjM5Q0FGNEQ1MjAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Ultimo aviso por ahora: tu pedido sigue guardado, solo falta este dato para poder despacharlo.\n\nCual es tu numero de celular?\n\nSi mas adelante quieres retomarlo, aqui voy a estar lista para ayudarte. 👋",
+        "fecha": "2026-09-28T13:17:37.803Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSQkI5RUY3NUFGNTJEMUZGMjQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenos dias",
+        "fecha": "2026-09-28T16:00:33.728Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzI0NTM5FQIAERgSNkRFRjE4MjgxRUY0OTNCOUY4AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -4266,7 +4322,7 @@
       "telefono": "573146724539",
       "nombreCliente": "Me estaré comunicando para hacer el pedido voy a consultar primero"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
