@@ -3520,8 +3520,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:46:26.598Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-28T19:46:46.813Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3803,21 +3803,36 @@
         "fecha": "2026-09-28T19:46:25.552Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSOUU5M0M1MjJCM0E0RUNGRUU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Transferencia",
+        "fecha": "2026-09-28T19:46:43.145Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estos son los datos para tu transferencia:\n\n*BANCOLOMBIA*\nCuenta de ahorros\n41100042485\n\n*NEQUI*\n3023890578\nHector Rojas\n\n*BRE-B*\n@3023890578\n\nCuando hagas la transferencia, envianos el comprobante por aqui mismo.",
+        "fecha": "2026-09-28T19:46:44.219Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSODdGNEFDMUQ1MjFGOEZFODA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Luis Fernando Rincón Gordillo\n*Celular:* 3219289948\n*Departamento:* Norte de Santander\n*Ciudad:* Tibú\n*Direccion:* Oficina inter rapidísimo\n*Barrio:* Barrio centro\n*Producto:* COMBO Impresora Termica Portatil + Reloj\n*Medio de pago:* Transferencia\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-28T19:46:44.857Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSRDJCNkE1MDMzQUU5MTZEQkE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-28T19:46:45.589Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSQUYzNTY1NDExNkEwQTk3QzRBAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-reloj",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
-      "precio": 299900,
-      "telefono": "573219289948",
-      "nombreCliente": "Luis Fernando Rincón Gordillo",
-      "celular": "3219289948",
-      "departamento": "Norte de Santander",
-      "ciudad": "Tibú",
-      "direccion": "Oficina inter rapidísimo",
-      "barrio": "Barrio centro"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
