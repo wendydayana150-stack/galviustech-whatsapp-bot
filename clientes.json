@@ -6586,8 +6586,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-28T15:36:28.016Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-28T16:01:20.996Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6812,6 +6812,13 @@
         "fecha": "2026-09-28T15:36:26.689Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSN0VDQUJDOTZEQjk3QUExNkM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "?????",
+        "fecha": "2026-09-28T16:01:19.693Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSRDJDNUEzQUJEMDJGODc2NTEyAA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -6825,7 +6832,7 @@
       "departamento": "Cesar",
       "ciudad": "Municipio  becerril cesar"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
