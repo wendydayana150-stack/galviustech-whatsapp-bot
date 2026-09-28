@@ -3,8 +3,8 @@
     "telefono": "573013374920",
     "nombre": "Johana",
     "primerContacto": "2026-09-28T23:14:39.018Z",
-    "ultimoContacto": "2026-09-28T23:16:25.505Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-28T23:17:05.501Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,6 +87,18 @@
         "fecha": "2026-09-28T23:16:24.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzMzc0OTIwFQIAERgSREM0RThFRjY5MTYwMDU2NjE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el transcurso de la semana te confirmo si , cuando me paguen la quincena",
+        "fecha": "2026-09-28T23:17:01.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, tranquila 😊 no hay ningún afán, apenas te llegue tu quincena me escribes y te dejo el pedido listo enseguida.\n\nCualquier otra duda que te surja de la impresora mientras tanto, aquí estoy pendiente.",
+        "fecha": "2026-09-28T23:17:04.554Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzMzc0OTIwFQIAERgSNzk4RDAxREJBQzRCRDdBOUFEAA=="
       }
     ],
     "paso": "conversando",
@@ -97,7 +109,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
