@@ -418,8 +418,8 @@
     "telefono": "573245931009",
     "nombre": "Laurita",
     "primerContacto": "2026-09-28T17:12:56.300Z",
-    "ultimoContacto": "2026-09-28T17:20:12.297Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-28T17:59:01.324Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -675,6 +675,13 @@
         "fecha": "2026-09-28T17:20:11.185Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSNjNBNDJGQTdCQjkwRDM5Qzg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-28T17:59:00.261Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSRTBGMDVDNzEyN0M5QjkxNkNFAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -684,7 +691,7 @@
       "precio": 289900,
       "telefono": "573245931009"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
