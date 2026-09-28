@@ -287,8 +287,8 @@
     "telefono": "573203168735",
     "nombre": "Belisariño",
     "primerContacto": "2026-09-28T14:45:55.275Z",
-    "ultimoContacto": "2026-09-28T14:45:55.275Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-28T15:02:04.332Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -328,6 +328,18 @@
         "fecha": "2026-09-28T14:45:53.614Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzMTY4NzM1FQIAERgSRjM4QjczQ0ZFMjgzOTFENEJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero tienes que utilizar dónde hay buena señal por ejemplo de claro, Movistar etc,",
+        "fecha": "2026-09-28T15:01:52.197Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-28T15:02:03.114Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMTY4NzM1FQIAERgSNEM0QjY3QTJCNzQ2MTA3MUIyAA=="
       }
     ],
     "paso": "conversando",
@@ -336,8 +348,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Pero tienes que utilizar dónde hay buena señal por ejemplo de claro, Movistar etc,\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
