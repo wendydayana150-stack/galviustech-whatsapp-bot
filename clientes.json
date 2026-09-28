@@ -85,8 +85,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-28T20:17:28.866Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T20:19:15.033Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,6 +138,18 @@
         "fecha": "2026-09-28T20:17:27.990Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSRjJBNEJGMjMyN0UwMjE4MDczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que no requiere depender de ningún operador, o sea independiente",
+        "fecha": "2026-09-28T20:19:09.019Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, te comento con toda honestidad: nuestro módem funciona con una SIM card de un operador (Claro, Movistar, Tigo, etc.), o sea que sí necesita señal celular para darte internet. No es internet satelital ni algo 100% independiente de operadores, eso no lo manejamos en GalviusTech.\n\nLo que sí te puedo asegurar es que la antena del módem es mucho más sensible que la de un celular normal, así que capta señal donde muchos celulares ya no la tienen. ¿En tu zona hay señal de algún operador, aunque sea débil? Así te confirmo si te serviría igual.",
+        "fecha": "2026-09-28T20:19:14.051Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSQjZEMDAxMUEzMjQ5RUNGMDREAA=="
       }
     ],
     "paso": "conversando",
