@@ -61,8 +61,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:44:24.351Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-28T21:44:57.390Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -226,14 +226,27 @@
         "fecha": "2026-09-28T21:44:23.546Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNzI5NkE3RDFBNzNBMzgwREE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esteban Moscote Zarabata",
+        "fecha": "2026-09-28T21:44:56.464Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T21:44:56.465Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSQjI1Mzc5MkZEOENGMDJBQjAwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2",
       "nombreProducto": "Lamparas 3 lentes X 2",
       "precio": 160000,
-      "telefono": "573218150839"
+      "telefono": "573218150839",
+      "nombreCliente": "Esteban Moscote Zarabata"
     },
     "pausado": false,
     "etapaManual": null,
