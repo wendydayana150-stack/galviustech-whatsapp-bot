@@ -1,5 +1,43 @@
 [
   {
+    "telefono": "573001003179",
+    "nombre": "Alex",
+    "primerContacto": "2026-09-28T17:40:44.989Z",
+    "ultimoContacto": "2026-09-28T17:40:44.989Z",
+    "mensajes": 1,
+    "conversacion": [
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-09-28T17:40:43.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Alex! Soy Michell, de GalviusTech 👋\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares y PROMOCION COMBOS. Hacemos envíos a toda Colombia (¡hasta veredas!), todo con garantía incluida.\n\nElige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇",
+        "fecha": "2026-09-28T17:40:43.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMDAzMTc5FQIAERgSMTRGMjMxOTE2QTE4REFCN0RDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-09-28T17:40:44.195Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMDAzMTc5FQIAERgSOTQ1RjRDRjU0RTg3ODg0RkFCAA=="
+      }
+    ],
+    "paso": "conversando",
+    "pedido": {},
+    "pausado": false,
+    "etapaManual": null,
+    "ultimoProducto": null,
+    "ultimaCategoria": null,
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
+    "pausarSeguimiento": false,
+    "esperandoDatosPedidoLibre": null
+  },
+  {
     "telefono": "573016072322",
     "nombre": "kabod",
     "primerContacto": "2026-09-28T17:31:28.953Z",
