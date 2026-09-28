@@ -6135,8 +6135,8 @@
     "telefono": "573113957253",
     "nombre": "Perez",
     "primerContacto": "2026-09-27T22:19:06.008Z",
-    "ultimoContacto": "2026-09-27T22:22:21.443Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-28T15:36:28.016Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6347,6 +6347,20 @@
         "fecha": "2026-09-27T22:22:20.749Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSQzAxREQ1RDM5RTc4MEYzMjM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Perez, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-28T11:02:18.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSNzIyNTdEMTIyRDE3QkVENTVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia. Me confirmas dirección o lo reclamas en la oficina de interrapidisimo?",
+        "fecha": "2026-09-28T15:36:26.689Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzOTU3MjUzFQIAERgSN0VDQUJDOTZEQjk3QUExNkM4AA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -6360,12 +6374,12 @@
       "departamento": "Cesar",
       "ciudad": "Municipio  becerril cesar"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Becerril cesar\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
