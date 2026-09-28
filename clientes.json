@@ -206,8 +206,8 @@
     "telefono": "573143554380",
     "nombre": "siesseguridad2024",
     "primerContacto": "2026-09-28T22:26:18.680Z",
-    "ultimoContacto": "2026-09-28T22:28:16.749Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-28T22:41:31.465Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -271,6 +271,25 @@
         "fecha": "2026-09-28T22:28:15.737Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSODM4RTE5MTIyRUZFMkUxQzFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el portatil",
+        "fecha": "2026-09-28T22:41:21.880Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, para uso desde portátil. Sinceramente ese dato de compatibilidad con computador no lo tengo 100% confirmado, y prefiero no inventarte algo que después no te funcione 🙏\n\nLo que sí te puedo asegurar es que por Bluetooth con celular funciona perfecto y es lo que más usan mis clientes (emprendedores, mensajeros, oficinas). Voy a validar bien el tema del portátil para darte una respuesta segura y en breve te cuento.\n\nMientras tanto, cuéntame: ¿el uso que le darías es más para imprimir desde el celular en el día a día, o realmente necesitas que sea sí o sí desde el computador?",
+        "fecha": "2026-09-28T22:41:29.766Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSNzhGMjBFQTU4RUE1RjkyREQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-28T22:41:30.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSNkY5RTZBNkE5ODdFQjNCMThBAA=="
       }
     ],
     "paso": "conversando",
@@ -279,8 +298,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Para el portatil\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
