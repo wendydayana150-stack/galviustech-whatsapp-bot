@@ -1432,8 +1432,8 @@
     "telefono": "573227002869",
     "nombre": "Yaneth Viviescas",
     "primerContacto": "2026-09-28T15:37:04.126Z",
-    "ultimoContacto": "2026-09-28T15:42:40.864Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T17:59:58.299Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1608,6 +1608,20 @@
         "fecha": "2026-09-28T15:42:39.810Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MDAyODY5FQIAERgSQjIwODA4MUY2ODY5MkJGM0NBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-28T16:47:36.287Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MDAyODY5FQIAERgSREQ0OUY1RDMyREY5Q0I2OTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta. Te quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-28T17:59:57.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MDAyODY5FQIAERgSMzg5RTVGQ0M3ODIxODg3M0M1AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1617,7 +1631,7 @@
       "precio": 299900,
       "telefono": "573227002869"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
