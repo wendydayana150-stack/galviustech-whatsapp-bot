@@ -339,8 +339,8 @@
     "telefono": "573132846543",
     "nombre": "cheli Vanesa",
     "primerContacto": "2026-09-28T00:12:36.613Z",
-    "ultimoContacto": "2026-09-28T00:32:22.310Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-28T00:36:11.085Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -408,6 +408,18 @@
         "fecha": "2026-09-28T00:32:20.933Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODQ2NTQzFQIAERgSQkEwMzAwN0QwOTQ3MTZBQ0YyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "cuando yo tenga la plata yo les aviso",
+        "fecha": "2026-09-28T00:36:07.380Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, tranquilo 😊 quedo atenta para cuando estés list@.\n\nCualquier duda que te surja mientras tanto (precio, características, envío) me escribes con toda confianza. ¡Con gusto te ayudo! 🙌",
+        "fecha": "2026-09-28T00:36:10.034Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODQ2NTQzFQIAERgSRUM2RUVGMUFGRDExNTgwNzZCAA=="
       }
     ],
     "paso": "conversando",
@@ -418,7 +430,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
