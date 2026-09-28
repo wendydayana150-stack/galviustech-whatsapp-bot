@@ -73,8 +73,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-28T20:09:55.541Z",
-    "ultimoContacto": "2026-09-28T20:09:55.541Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-28T20:12:21.809Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -114,6 +114,18 @@
         "fecha": "2026-09-28T20:09:54.481Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSRDAyNUZBMjAxRjA2MEQ1MTJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya yo retire el que encargué y ese no era",
+        "fecha": "2026-09-28T20:12:15.734Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ay, mil disculpas por esto que te paso 🙏 Entiendo la molestia de recoger el pedido y que no sea lo que esperabas.\n\nVoy a escalar tu caso de inmediato para que te den una solucion rapida y personalizada. En breve te contactan para revisar que fue lo que paso y como lo solucionamos, ¿listo?",
+        "fecha": "2026-09-28T20:12:20.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSQzU5MUZDQzYzOTJGMDY3RDBDAA=="
       }
     ],
     "paso": "conversando",
@@ -122,8 +134,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Ya yo retire el que encargué y ese no era\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
