@@ -3,8 +3,8 @@
     "telefono": "573167527464",
     "nombre": "Linda",
     "primerContacto": "2026-09-28T23:04:37.108Z",
-    "ultimoContacto": "2026-09-28T23:05:45.500Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-28T23:06:05.584Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-09-28T23:05:44.600Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSMEJGNTM5MTM2QjRCODg5RjU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-09-28T23:06:00.114Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto! Cualquier duda que tengas por ahí me preguntas.\n\nPor cierto, ¿me cuentas para qué estarías buscando el producto? Así te ayudo a elegir la mejor opción (internet portátil, imprimir en cualquier lugar, iluminación solar o seguridad para tu casa/negocio) 😊",
+        "fecha": "2026-09-28T23:06:02.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNEE2NjEzRDdFMDkwNjlGOEU5AA=="
       }
     ],
     "paso": "confirmar_producto",
