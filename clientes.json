@@ -2036,8 +2036,8 @@
     "telefono": "573178681798",
     "nombre": "deuthantonio17",
     "primerContacto": "2026-09-28T13:05:48.101Z",
-    "ultimoContacto": "2026-09-28T13:07:58.590Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T16:28:17.098Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2089,13 +2089,39 @@
         "fecha": "2026-09-28T13:07:57.777Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4NjgxNzk4FQIAERgSRjZBNDI3RUNEQjg1MjI4MDI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️",
+        "fecha": "2026-09-28T14:17:36.241Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4NjgxNzk4FQIAERgSOEFCQkQ1Nzc3Q0JDNkVEQjBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-28T16:17:36.318Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4NjgxNzk4FQIAERgSOUQwMUZBNEFFMEM4M0EyM0Q5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi pregunta de donde le proviene el internet al mode",
+        "fecha": "2026-09-28T16:28:10.408Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buena pregunta 😊 El módem funciona con una **SIM card** (chip) de cualquier operador celular en Colombia (Claro, Movistar, Tigo, WOM, etc). Lo que hace es tomar la señal móvil (4G o 5G) de esa SIM y convertirla en una red WiFi, para que conectes tus celulares, tablets o computadores como si fuera un router normal.\n\nEs decir, no depende de fibra óptica ni de instalaciones: solo necesita que en tu zona haya señal de algún operador celular, y esa señal la aprovecha con más fuerza que un celular normal gracias a su antena.\n\nPor cierto, ¿ya sabes qué operador tiene mejor señal en tu vereda? Así te confirmo cuál SIM te conviene usar 📶",
+        "fecha": "2026-09-28T16:28:16.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4NjgxNzk4FQIAERgSRDY3RDc2MjcxRUY4QkI2QTgzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
