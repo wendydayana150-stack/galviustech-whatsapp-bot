@@ -484,7 +484,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573123131306",
@@ -542,7 +545,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573001003179",
@@ -1296,7 +1302,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "promoDiariaFecha": "2026-9-28"
+      "promoDiariaFecha": "2026-9-28",
+      "horas1": true
     }
   },
   {
@@ -4429,7 +4436,8 @@
     "recordatorios": {
       "horas1": true,
       "horas3": true,
-      "horas5": true
+      "horas5": true,
+      "horas7": true
     }
   },
   {
@@ -4505,7 +4513,8 @@
       "horas1": true,
       "horas3": true,
       "horas5": true,
-      "promoDiariaFecha": "2026-9-28"
+      "promoDiariaFecha": "2026-9-28",
+      "horas7": true
     }
   },
   {
