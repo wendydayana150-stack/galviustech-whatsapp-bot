@@ -3520,8 +3520,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:44:58.203Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-28T19:45:25.337Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3755,16 +3755,29 @@
         "fecha": "2026-09-28T19:44:57.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSMUQxMTQwQzlGRjNENEE0Q0MxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tibú, Norte de Santander",
+        "fecha": "2026-09-28T19:45:22.885Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-28T19:45:22.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSQjNGQ0MyNkMzRjZGQkJCRTBGAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573219289948",
       "nombreCliente": "Luis Fernando Rincón Gordillo",
-      "celular": "3219289948"
+      "celular": "3219289948",
+      "departamento": "Norte de Santander"
     },
     "pausado": false,
     "etapaManual": null,
