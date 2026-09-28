@@ -61,8 +61,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:48:49.451Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-28T21:49:55.095Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -286,9 +286,21 @@
         "fecha": "2026-09-28T21:48:48.602Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNTlDNDFEQ0ZDM0Y4MDgyOTBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dumingueka",
+        "fecha": "2026-09-28T21:49:54.156Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-28T21:49:54.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNzUyODJDMUNEN0Y1RTlDOEZCAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2",
       "nombreProducto": "Lamparas 3 lentes X 2",
@@ -298,7 +310,8 @@
       "celular": "3218150839",
       "departamento": "Eso me lo puedes enviar en Mingueo hay en la entrada de sierra",
       "ciudad": "Guajira",
-      "direccion": "Soy de la sierra  Nevada de Santa Marta y quiero que me lo envíes en el corregimiento Mingueo"
+      "direccion": "Soy de la sierra  Nevada de Santa Marta y quiero que me lo envíes en el corregimiento Mingueo",
+      "barrio": "Dumingueka"
     },
     "pausado": false,
     "etapaManual": null,
