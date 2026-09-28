@@ -61,8 +61,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:46:08.846Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-28T21:47:26.085Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -250,16 +250,29 @@
         "fecha": "2026-09-28T21:46:07.879Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNzg1RDlBNDREMTJCQjhDNzFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso me lo puedes enviar en Mingueo hay en la entrada de sierra",
+        "fecha": "2026-09-28T21:47:25.124Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-28T21:47:25.124Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSRTM5MDNCNDUxOEFBNzAyQUMxAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "lamparas-3-lentes-x-2",
       "nombreProducto": "Lamparas 3 lentes X 2",
       "precio": 160000,
       "telefono": "573218150839",
       "nombreCliente": "Esteban Moscote Zarabata",
-      "celular": "3218150839"
+      "celular": "3218150839",
+      "departamento": "Eso me lo puedes enviar en Mingueo hay en la entrada de sierra"
     },
     "pausado": false,
     "etapaManual": null,
