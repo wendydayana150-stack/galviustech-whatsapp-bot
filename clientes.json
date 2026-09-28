@@ -61,8 +61,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:44:05.930Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-28T21:44:13.725Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,10 +188,34 @@
         "fecha": "2026-09-28T21:44:04.982Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSRDQ4NzM5RTI2MDUyOUY0RkNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-09-28T21:44:09.890Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 😊 Entonces te dejo apartadas las 2 unidades de la Lámpara 3 Lentes por $160.000 con envío gratis.\n\nPara completar tu pedido necesito algunos datos, dame un segundito para dejarlo listo.",
+        "fecha": "2026-09-28T21:44:12.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSOTUzOTZFMEY3QkZFMTMyREE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Lamparas 3 lentes X 2* ($ 160.000). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-28T21:44:12.953Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSMTQwNUFBMUMzNjY5Nzg0MUFEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "lamparas-3-lentes-x-2",
+      "nombreProducto": "Lamparas 3 lentes X 2",
+      "precio": 160000,
+      "telefono": "573218150839"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "lamparas-3-lentes-x-2",
