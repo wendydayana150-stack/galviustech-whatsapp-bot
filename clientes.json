@@ -61,8 +61,8 @@
     "telefono": "573218150839",
     "nombre": "Esteban Moscote Zarabata",
     "primerContacto": "2026-09-28T21:38:18.101Z",
-    "ultimoContacto": "2026-09-28T21:44:13.725Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-28T21:44:24.351Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,6 +207,25 @@
         "fecha": "2026-09-28T21:44:12.953Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSMTQwNUFBMUMzNjY5Nzg0MUFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo te la podría comprar",
+        "fecha": "2026-09-28T21:44:20.164Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Súper fácil 😊 Solo necesito unos datos tuyos (nombre, celular, ciudad, dirección) para dejar tu pedido listo y coordinarte el envío gratis, que llega en 2 a 4 días hábiles.\n\nEl pago lo puedes hacer contraentrega o por transferencia, como prefieras.\n\nVamos a ir completando esos datos uno por uno, ¿te parece? 👇",
+        "fecha": "2026-09-28T21:44:23.113Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNjY5QUQzN0I1NjM1NzEzMkZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-28T21:44:23.546Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTUwODM5FQIAERgSNzI5NkE3RDFBNzNBMzgwREE0AA=="
       }
     ],
     "paso": "pedido_nombre",
