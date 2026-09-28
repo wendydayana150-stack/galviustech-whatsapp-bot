@@ -43048,8 +43048,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-09-21T12:55:31.407Z",
-    "ultimoContacto": "2026-09-28T14:34:27.122Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-28T14:34:40.356Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43319,16 +43319,29 @@
         "fecha": "2026-09-28T14:34:26.007Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSQ0ZDNDg3OUMyOUI0MUMzRTdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Casanare.",
+        "fecha": "2026-09-28T14:34:39.276Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-28T14:34:39.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSMzAzQTU3MzI4RjU1NDhDNURGAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573107776234",
       "nombreCliente": "Arnaldo Ulloa Gaitán",
-      "celular": "3107776234"
+      "celular": "3107776234",
+      "departamento": "Casanare"
     },
     "pausado": false,
     "etapaManual": null,
