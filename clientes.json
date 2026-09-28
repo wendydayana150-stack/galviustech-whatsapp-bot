@@ -3,8 +3,8 @@
     "telefono": "573203946979",
     "nombre": "Juanito Nausil",
     "primerContacto": "2026-09-28T01:51:14.792Z",
-    "ultimoContacto": "2026-09-28T01:53:59.832Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T01:57:30.560Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-09-28T01:53:58.847Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzOTQ2OTc5FQIAERgSQ0JERkM4NjYxRjM0RDk5RjM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Okey ya te estaré informando cuál me interesa okey",
+        "fecha": "2026-09-28T01:57:26.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, sin afán! 😊 Quedo atenta a lo que decidas.\n\nCualquier duda que te surja mientras tanto (precio, cobertura, garantía) me preguntas con confianza. ¿Ya sabes si tu celular ahí capta algo de Claro o Movistar, aunque sea señal débil? Eso me ayuda a orientarte mejor cuando te decidas.",
+        "fecha": "2026-09-28T01:57:29.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzOTQ2OTc5FQIAERgSOEI3M0I2Q0NEMkJBMDI1REFEAA=="
       }
     ],
     "paso": "conversando",
@@ -66,7 +78,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
