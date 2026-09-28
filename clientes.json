@@ -3546,8 +3546,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:46:46.813Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-28T19:48:05.221Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3855,13 +3855,25 @@
         "fecha": "2026-09-28T19:46:45.589Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSQUYzNTY1NDExNkEwQTk3QzRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-28T19:48:01.840Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, vamos con la impresora entonces 🖤\n\nPara dejarte el pedido completo, ¿me confirmas si te la enviamos a domicilio o prefieres recogerla en oficina de transportadora? Y si quieres el papel extra o solo la impresora.",
+        "fecha": "2026-09-28T19:48:04.091Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSMDY4MTFEMjMxMUVBOUUwRkEyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-impresora-termica-portatil-reloj",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
