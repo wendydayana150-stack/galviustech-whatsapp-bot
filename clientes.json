@@ -3520,8 +3520,8 @@
     "telefono": "573219289948",
     "nombre": "🖤",
     "primerContacto": "2026-09-28T14:08:39.089Z",
-    "ultimoContacto": "2026-09-28T19:43:58.636Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T19:44:58.203Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3731,14 +3731,40 @@
         "fecha": "2026-09-28T19:43:57.713Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSNUU2MkVBREM4RjcxNzdCNjM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luis Fernando Rincón Gordillo",
+        "fecha": "2026-09-28T19:44:31.390Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-28T19:44:31.391Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSOUUxQ0RERTQ4MzVEQkY0QkY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "321 9289948",
+        "fecha": "2026-09-28T19:44:57.184Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-28T19:44:57.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5Mjg5OTQ4FQIAERgSMUQxMTQwQzlGRjNENEE0Q0MxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
-      "telefono": "573219289948"
+      "telefono": "573219289948",
+      "nombreCliente": "Luis Fernando Rincón Gordillo",
+      "celular": "3219289948"
     },
     "pausado": false,
     "etapaManual": null,
