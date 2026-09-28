@@ -61,8 +61,8 @@
     "telefono": "573122333864",
     "nombre": "Luzdey",
     "primerContacto": "2026-09-28T18:45:50.019Z",
-    "ultimoContacto": "2026-09-28T18:49:30.411Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-28T18:49:49.434Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,13 +138,25 @@
         "fecha": "2026-09-28T18:49:29.304Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMzMzODY0FQIAERgSMTI5RjI0NzRCRDFFNEUxRTk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene q ser Fondo ay señal",
+        "fecha": "2026-09-28T18:49:42.110Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ah listo, entonces sí hay señal en algún punto! Eso es buena señal (nunca mejor dicho) 😄\n\nCon el modem podrías ubicarlo justo en esa zona donde capta mejor, y desde ahí distribuir el wifi para conectar tus dispositivos, celular, compu, tablet, hasta 10 aparatos al tiempo.\n\nTe recomiendo el 4G/5G ($249.900) porque te da cobertura tanto si por ahí llega 4G como si ya hay 5G, así no te arriesgas. ¿Te gustaría que te ayude a dejar tu pedido listo? 📦",
+        "fecha": "2026-09-28T18:49:48.063Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMzMzODY0FQIAERgSODQwMkMzQjIyMkJBMEY5MTM4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
