@@ -43049,8 +43049,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-09-21T12:55:31.407Z",
-    "ultimoContacto": "2026-09-28T14:35:57.274Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-28T14:38:02.135Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43344,9 +43344,21 @@
         "fecha": "2026-09-28T14:35:56.283Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSOTU1Rjc5OEUyM0ZENjVEODNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se entrega a oficina principal de interrapidicimo de orocue casanare",
+        "fecha": "2026-09-28T14:38:01.027Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-28T14:38:01.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSRTU4N0ZGNEVCRjg2N0QzODFCAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -43355,7 +43367,8 @@
       "nombreCliente": "Arnaldo Ulloa Gaitán",
       "celular": "3107776234",
       "departamento": "Casanare",
-      "ciudad": "Orocue"
+      "ciudad": "Orocue",
+      "direccion": "Se entrega a oficina principal de interrapidicimo de orocue casanare"
     },
     "pausado": false,
     "etapaManual": null,
