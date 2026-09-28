@@ -3,8 +3,8 @@
     "telefono": "573218606245",
     "nombre": "Armando Tigo",
     "primerContacto": "2026-09-28T21:13:13.389Z",
-    "ultimoContacto": "2026-09-28T21:13:29.614Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-28T21:13:55.582Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-28T21:13:28.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjA2MjQ1FQIAERgSNDQzNTdGQTk2MTY4M0QzMTBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora térmica",
+        "fecha": "2026-09-28T21:13:50.112Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! La impresora térmica portátil es ideal si necesitas imprimir sobre la marcha, sin depender de tinta ni de una papelería: mide apenas 27.5 x 6.5 x 5 cm (como un control remoto delgado), se conecta por Bluetooth a tu celular y la batería te rinde hasta 30 horas.\n\nLa inversión es de $249.900, incluye envío gratis a Circasia y pago contraentrega, como me preguntabas.\n\nCuéntame, ¿la necesitarías para negocio, facturas, domicilios o algo de oficina? Así te confirmo si es justo lo que necesitas 😊",
+        "fecha": "2026-09-28T21:13:54.545Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjA2MjQ1FQIAERgSQzAxNUUwOTFFOTI4MUE2MEQ2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
