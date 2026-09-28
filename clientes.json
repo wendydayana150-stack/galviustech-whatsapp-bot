@@ -295,8 +295,8 @@
     "telefono": "573145950388",
     "nombre": "Jair Torres.",
     "primerContacto": "2026-09-28T19:59:28.614Z",
-    "ultimoContacto": "2026-09-28T20:17:14.542Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-28T20:17:45.641Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -528,9 +528,21 @@
         "fecha": "2026-09-28T20:17:13.566Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTUwMzg4FQIAERgSNUM2ODQxMzczMEFFQThEMEVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "calle 6 # 9 -18",
+        "fecha": "2026-09-28T20:17:44.773Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-28T20:17:44.773Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTUwMzg4FQIAERgSNzNDN0M4MzQzODg0QUE5QkQ1AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -539,7 +551,8 @@
       "nombreCliente": "jair antonio torres perez",
       "celular": "3145950388",
       "departamento": "Magdalena",
-      "ciudad": "pivijay, magdalena"
+      "ciudad": "pivijay, magdalena",
+      "direccion": "calle 6 # 9 -18"
     },
     "pausado": false,
     "etapaManual": null,
