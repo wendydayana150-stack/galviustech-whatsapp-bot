@@ -1251,6 +1251,7 @@ return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSegui
 }
 
 let ultimaRevisionRecordatorios = 0;
+let ultimaLimpiezaClientes = 0;
 // Respaldo en memoria: aunque el guardado en clientes.json falle (por ejemplo por una escritura
 // simultanea de otra conversacion), esto evita reenviar el mismo recordatorio al mismo cliente
 // una y otra vez cada 10 minutos mientras el proceso siga corriendo.
@@ -1405,6 +1406,58 @@ async function enviarRecordatoriosPendientes() {
             }
       } catch (error) {
             console.error("Error enviando recordatorios:", error.response?.data || error.message);
+      }
+}
+
+// Limpieza automatica de clientes inactivos (a pedido de Wendy, 28-sep-2026): borra por completo
+// de clientes.json a los clientes cuyo ULTIMO mensaje tiene mas de 4 dias, para no dejar crecer el
+// archivo indefinidamente con conversaciones viejas que ya no sirven.
+//
+// Se saltan (NO se borran, sin importar cuantos dias lleven inactivos) tres casos, para no perder
+// por accidente una venta real o un caso que Wendy esta atendiendo a mano:
+//   1. Clientes pausados (c.pausado): Wendy los esta atendiendo ella misma.
+//   2. Clientes con un caso escalado pendiente (c.necesitaAtencion).
+//   3. Clientes con un PEDIDO A MEDIAS (c.pedido con al menos un dato ya guardado, pero que todavia
+//      no llego a completarse en pedidos.json). Justo el 28-sep-2026, revisando conversacion por
+//      conversacion, encontramos varios clientes asi atascados (ej. Ronald Marroquin, cliente
+//      "🙏🏻") por un bug del flujo de pedido: son exactamente el tipo de venta que se queria
+//      rescatar, no borrar sin dejar rastro. Los pedidos ya COMPLETADOS viven aparte en
+//      pedidos.json, asi que borrar el cliente de clientes.json nunca borra un pedido ya
+//      confirmado, solo el historial de conversacion.
+async function limpiarClientesInactivos() {
+      const ahora = Date.now();
+      // Se revisa maximo una vez cada 24 horas: no hace falta mas seguido, y evita golpear la API
+      // de GitHub sin necesidad (igual que el throttle de enviarRecordatoriosPendientes).
+      if (ahora - ultimaLimpiezaClientes < 24 * 60 * 60 * 1000) return;
+      ultimaLimpiezaClientes = ahora;
+      try {
+            await conColaDeArchivo(CLIENTES_API, async () => {
+                  const { datos, sha } = await leerJSON(CLIENTES_API);
+                  const CUATRO_DIAS_MS = 4 * 24 * 60 * 60 * 1000;
+
+                  const clientesAConservar = datos.filter((c) => {
+                        // Sin fecha de ultimo contacto: no deberia pasar, pero por seguridad no lo tocamos.
+                        if (!c.ultimoContacto) return true;
+                        const inactivo = ahora - new Date(c.ultimoContacto).getTime() > CUATRO_DIAS_MS;
+                        if (!inactivo) return true;
+                        if (c.pausado || c.necesitaAtencion) return true;
+                        if (c.pedido && Object.keys(c.pedido).length > 0) return true;
+                        return false;
+                  });
+
+                  const totalBorrados = datos.length - clientesAConservar.length;
+                  if (totalBorrados > 0) {
+                        await guardarJSON(
+                              CLIENTES_API,
+                              clientesAConservar,
+                              sha,
+                              `Limpieza automatica: ${totalBorrados} cliente(s) inactivo(s) 4+ dias eliminado(s)`
+                              );
+                        console.log(`Limpieza automatica de clientes: ${totalBorrados} eliminado(s) (inactivos 4+ dias).`);
+                  }
+            });
+      } catch (error) {
+            console.error("Error en limpieza automatica de clientes inactivos:", error.response?.data || error.message);
       }
 }
 
@@ -3426,6 +3479,15 @@ app.listen(PUERTO, () => {
                   console.error("Error en revision periodica de promo diaria:", error.response?.data || error.message);
             });
       }, 30 * 60 * 1000);
+
+      // Limpieza de clientes inactivos: tiene su propio throttle interno de 24h, asi que revisar
+      // cada 6 horas es mas que suficiente para que corra 1 vez al dia sin depender de que llegue
+      // trafico de clientes primero.
+      setInterval(() => {
+            limpiarClientesInactivos().catch((error) => {
+                  console.error("Error en limpieza periodica de clientes inactivos:", error.response?.data || error.message);
+            });
+      }, 6 * 60 * 60 * 1000);
 });
 
 
