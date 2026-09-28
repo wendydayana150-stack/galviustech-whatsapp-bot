@@ -5808,8 +5808,8 @@
     "telefono": "573245931009",
     "nombre": "Laurita",
     "primerContacto": "2026-09-28T17:12:56.300Z",
-    "ultimoContacto": "2026-09-28T18:39:06.530Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-28T23:23:58.411Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6091,6 +6091,27 @@
         "fecha": "2026-09-28T18:39:05.492Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSM0Y0ODAyNjVERTlFNTVERDBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu numero de celular?",
+        "fecha": "2026-09-28T19:47:33.843Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSMDkwMjQ2Mzg1QjhDNDExRDg1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-28T21:47:33.894Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSMTU4ODAwM0VFMzQxQzQwOEExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, buenas tardes",
+        "fecha": "2026-09-28T23:23:57.190Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSREU2QjUxRENGOEYxQjBEOUIxAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -6101,7 +6122,7 @@
       "telefono": "573245931009",
       "nombreCliente": "Estoy esperando que digan si lo van a encargar"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
