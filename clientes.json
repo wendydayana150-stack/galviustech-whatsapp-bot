@@ -43048,8 +43048,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-09-21T12:55:31.407Z",
-    "ultimoContacto": "2026-09-28T14:33:04.543Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-28T14:34:27.122Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43307,15 +43307,28 @@
         "fecha": "2026-09-28T14:33:03.679Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSODlDNDA2M0JGREY1RkNBNDdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3107776234",
+        "fecha": "2026-09-28T14:34:26.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-28T14:34:26.007Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSQ0ZDNDg3OUMyOUI0MUMzRTdEAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573107776234",
-      "nombreCliente": "Arnaldo Ulloa Gaitán"
+      "nombreCliente": "Arnaldo Ulloa Gaitán",
+      "celular": "3107776234"
     },
     "pausado": false,
     "etapaManual": null,
