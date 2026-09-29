@@ -6570,8 +6570,8 @@
     "telefono": "573127262735",
     "nombre": "carlosmariobetan772",
     "primerContacto": "2026-09-29T01:41:40.038Z",
-    "ultimoContacto": "2026-09-29T11:17:48.495Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-29T18:25:29.121Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6637,6 +6637,46 @@
         "fecha": "2026-09-29T11:17:47.568Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSMjgyNTAxOTFERDJCMDdEMjc4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-29T16:22:41.413Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSN0JBQzU4RjdBMjZEMEQ0QjA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-29T16:22:42.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSOTAwRTE3QjUxRTdGQTYwNDcxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-29T16:22:43.084Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSNUU3QURBQjgzNkM0MUE2RkZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Pasando a ver si sigues interesado(a) en alguno de nuestros productos.\nCuéntame si tienes alguna pregunta, con gusto te ayudo a resolverla y a dejar tu pedido listo. 😊",
+        "fecha": "2026-09-29T18:22:45.128Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSNkM5MTY0MDU4MUEzNUIzODREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hijo te pregunto por qué atocigan la gente por averiguar algo respeten si uno les dice que no ustedes siguen encima 😡",
+        "fecha": "2026-09-29T18:25:25.327Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tiene toda la razón, disculpe usted. No era mi intención incomodarlo ni presionarlo, entiendo perfectamente su molestia. Quedo atenta por si más adelante necesita algo, sin ninguna insistencia de mi parte. Que tenga muy buen día. 🙏",
+        "fecha": "2026-09-29T18:25:27.934Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjYyNzM1FQIAERgSMjBFOUVBMzAzREM5NTQ5MjRDAA=="
       }
     ],
     "paso": "conversando",
@@ -6645,9 +6685,9 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Hijo te pregunto por qué atocigan la gente por averiguar algo respeten si uno les dice que no ustede\"",
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
