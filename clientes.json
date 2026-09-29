@@ -13549,8 +13549,8 @@
     "telefono": "573134770959",
     "nombre": "Luz Mari",
     "primerContacto": "2026-09-28T17:22:04.805Z",
-    "ultimoContacto": "2026-09-28T23:23:30.519Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-29T14:29:00.067Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13774,6 +13774,41 @@
         "fecha": "2026-09-28T23:23:29.407Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSNEMxNjNBODk5M0VDMkMwMkMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-29T11:04:09.953Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSN0UzNDRBRDNCNUI2QTREQjVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luz Mari, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-29T11:04:46.276Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSQkY5OTFDMkNEMkVBMTQxNTJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-29T11:13:46.523Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSRTc2QzVCNUY4MUE5MjIwNUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Ultimo aviso por ahora: tu pedido sigue guardado, solo falta este dato para poder despacharlo.\n\nCual es tu numero de celular?\n\nSi mas adelante quieres retomarlo, aqui voy a estar lista para ayudarte. 👋",
+        "fecha": "2026-09-29T11:24:10.777Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSQUUxQkNERjEzQTBGMDkxNTAwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.",
+        "fecha": "2026-09-29T14:28:58.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSREY5RUE1QjA4MEUzMkJERTNBAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -13784,7 +13819,7 @@
       "telefono": "573134770959",
       "nombreCliente": "Cuanto vale"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": "impresora",
