@@ -3,8 +3,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-29T14:51:43.430Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T14:52:46.789Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-29T14:51:06.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSMUUwQzc3NjY3MjZDMEE4NzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora portátil",
+        "fecha": "2026-09-29T14:52:39.769Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento de la impresora térmica portátil bluetooth 🖨️\n\nEs ideal para no depender de una papelería cuando te urge imprimir algo (una factura, cotización o documento) estés donde estés. No usa tinta ni tóner, así que ahorras desde la primera impresión, y funciona por bluetooth conectada a tu celular. Además ya viene con papel térmico incluido.\n\nLa inversión es de $249.900, con garantía y soporte de GalviusTech.\n\nCuéntame, ¿la necesitarías para tu negocio, para trabajar fuera de oficina o para qué la usarías principalmente? Así te oriento mejor 😊",
+        "fecha": "2026-09-29T14:52:44.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSMEZGMEVBMTA4QkI5QUQ3QzVFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
