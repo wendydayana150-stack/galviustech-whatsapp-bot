@@ -3,8 +3,8 @@
     "telefono": "573114216217",
     "nombre": "jhonfrero2013@gmail.com",
     "primerContacto": "2026-09-29T12:46:30.057Z",
-    "ultimoContacto": "2026-09-29T12:46:30.057Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T12:48:12.497Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,16 +24,28 @@
         "fecha": "2026-09-29T12:46:29.172Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MjE2MjE3FQIAERgSRDAwNTNFRUNFNUVFNUVBRDIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto vale modem portátil impresora térmica",
+        "fecha": "2026-09-29T12:48:01.760Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-29T12:48:11.318Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MjE2MjE3FQIAERgSOUE1MDZBRkUwMUZFRjYzRUE5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Cuanto vale modem portátil impresora térmica\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
