@@ -1200,8 +1200,8 @@
     "telefono": "573185225239",
     "nombre": "Bëngbe Benach",
     "primerContacto": "2026-09-29T20:37:59.758Z",
-    "ultimoContacto": "2026-09-29T20:57:49.142Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-29T21:32:50.745Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1384,6 +1384,13 @@
         "fecha": "2026-09-29T20:57:48.214Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MjI1MjM5FQIAERgSRUE2OTg3NjEyQTc3Q0YyQTBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Seguimos con tu pedido? Ya lo tengo casi listo 😊",
+        "fecha": "2026-09-29T21:32:49.545Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MjI1MjM5FQIAERgSNjAxOTZBRTk5RDM5RjdEMjE0AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1393,7 +1400,7 @@
       "precio": 299900,
       "telefono": "573185225239"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": null,
