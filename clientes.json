@@ -3,8 +3,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:22:11.200Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-29T21:22:57.885Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -295,6 +295,18 @@
         "fecha": "2026-09-29T21:22:09.964Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMzY0OTcxRjIxNENCOUU3MTJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Foro",
+        "fecha": "2026-09-29T21:22:46.591Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-29T21:22:56.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSQkJCMkU3QjlGQkYxNTcxNUI3AA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -306,7 +318,7 @@
     "ultimoProducto": "lamparas-3-lentes-x-2-2",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Las lámparas tienen buena luz?\"",
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Foro\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
