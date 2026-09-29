@@ -4561,8 +4561,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-28T20:09:55.541Z",
-    "ultimoContacto": "2026-09-29T00:30:32.290Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T00:34:09.124Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4626,6 +4626,18 @@
         "fecha": "2026-09-29T00:30:31.299Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSMjQ5ODE5MDY2MkVFQkMzNTMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches cm hago para cambiar la contraseña del router explíqueme por favor",
+        "fecha": "2026-09-29T00:34:02.507Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches 🌙 Mira, ese detalle especifico de configuracion del router no lo tengo yo a la mano ahora mismo, pero no te preocupes, te voy a poner en contacto con quien te puede guiar paso a paso para cambiar la contraseña sin problema.\n\nEn breve te contactan para ayudarte con eso, ¿vale?",
+        "fecha": "2026-09-29T00:34:07.091Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSNTBDOUJGOEJFMjgwMTE3Nzg3AA=="
       }
     ],
     "paso": "conversando",
@@ -4635,7 +4647,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Ya yo retire el que encargué y ese no era\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Buenas noches cm hago para cambiar la contraseña del router explíqueme por favor\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
