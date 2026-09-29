@@ -3,8 +3,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:20:45.878Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-29T21:21:15.149Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -219,6 +219,18 @@
         "fecha": "2026-09-29T21:20:44.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSNEZEMkM4MjQxMTdGMzFCNTZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las lámparas solares se apagan si no ven movimiento y se prenden cuando hay movimiento",
+        "fecha": "2026-09-29T21:21:05.688Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-29T21:21:14.092Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSM0ZDODgzNURDMDFBOTdFMEM2AA=="
       }
     ],
     "paso": "conversando",
@@ -228,7 +240,7 @@
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Más lámparas solares se apagan si no ven movimiento y se prenden cuando hay movimiento\"",
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Las lámparas solares se apagan si no ven movimiento y se prenden cuando hay movimiento\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
