@@ -4919,8 +4919,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T01:00:33.464Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-29T01:00:42.231Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5322,9 +5322,21 @@
         "fecha": "2026-09-29T01:00:32.525Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSQjMwNTUwQjQyRkFBQ0M1M0ZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto Berrío",
+        "fecha": "2026-09-29T01:00:41.175Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-29T01:00:41.176Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSMTdBNTI2ODM2NTI5NEM1NUZFAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -5332,7 +5344,8 @@
       "telefono": "573217249799",
       "nombreCliente": "José Antonio Alfonso Franco",
       "celular": "3217249799",
-      "departamento": "Antioquia"
+      "departamento": "Antioquia",
+      "ciudad": "Puerto Berrío"
     },
     "pausado": false,
     "etapaManual": null,
