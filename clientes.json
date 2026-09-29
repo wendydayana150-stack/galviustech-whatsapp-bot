@@ -2513,8 +2513,8 @@
     "telefono": "573133649879",
     "nombre": "Mi amor",
     "primerContacto": "2026-09-29T07:41:53.715Z",
-    "ultimoContacto": "2026-09-29T08:07:59.628Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-29T14:54:55.577Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2710,6 +2710,41 @@
         "fecha": "2026-09-29T08:07:58.709Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSQkUyQkVDNjNFMDQ4RDBCN0U0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T11:02:38.003Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSRTVERDAzNzgwQjdBQjZBRTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Mi amor, sobre modem WiFi portátil",
+        "fecha": "2026-09-29T11:04:25.656Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSMEYxRkZDNzFEMzEyQjkyMDQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T11:12:35.460Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSNjYxMDlCNTVCOUExMkQ2RDRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu pedido esta casi listo, solo falta un ultimo dato para poder despacharlo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T13:12:36.428Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSRDg2Qjk4RTY2NDJGMDc4ODBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Reloj Inteligente* ($ 289.900). Para generar tu pedido necesito algunos datos.  Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T14:54:54.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNjQ5ODc5FQIAERgSNzE4Q0U4MkY2MzMzRjREMkE2AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2719,7 +2754,7 @@
       "precio": 289900,
       "telefono": "573133649879"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
