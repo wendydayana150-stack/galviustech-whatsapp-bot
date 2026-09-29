@@ -4875,8 +4875,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T14:10:35.613Z",
-    "mensajes": 32,
+    "ultimoContacto": "2026-09-29T14:19:51.307Z",
+    "mensajes": 33,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5876,6 +5876,13 @@
         "fecha": "2026-09-29T14:09:57.237Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMUJBMDY3QzExOTkzMTI4RjhCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:  Brigadier bailarín cédula de ciudadanía 1040804642 celular 3225840189  Ciudad mutata antioquia en OFICINA DE interrapidisimo.      Tu pedido incluye de regalo una SIMCARD de Claro. 🎁  Muchas gracias por confiar en GalviusTech! 😊  Cada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.  La mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.  Tu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-29T14:19:49.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMUE5NTA1MUMzRUEwQjAwMTZCAA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -5890,12 +5897,12 @@
       "ciudad": "Ciudad mutata antioquia",
       "direccion": "Oficina interrapidisimo"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Tiene reloj color negro\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
