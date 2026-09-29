@@ -123,8 +123,8 @@
     "telefono": "573196694925",
     "nombre": "Marelvis",
     "primerContacto": "2026-09-29T14:49:15.876Z",
-    "ultimoContacto": "2026-09-29T14:51:10.527Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T14:51:49.781Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,16 +188,23 @@
         "fecha": "2026-09-29T14:51:09.254Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSMzlEODhFNjg2M0M5QzUyODYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para allá tenemos ENVIO GRATIS",
+        "fecha": "2026-09-29T14:51:48.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSNDhCMUYzNEVBNUI3QjlCRDcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Valledupar gracias por la información\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
