@@ -73,8 +73,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:29:49.248Z",
-    "mensajes": 21,
+    "ultimoContacto": "2026-09-29T21:30:24.409Z",
+    "mensajes": 22,
     "conversacion": [
       {
         "rol": "cliente",
@@ -501,6 +501,25 @@
         "fecha": "2026-09-29T21:29:47.971Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSNzY5MTQwOTBBN0E5RDkzODY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pago contra entrega?",
+        "fecha": "2026-09-29T21:30:19.499Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que sí 😊 el pago contraentrega lo manejamos sin problema, así que cuando te llegue el pedido a San Andrés de Sotavento pagas ahí mismo.\n\nSobre las lámparas: sí, funcionan justo así, se mantienen apagadas y al detectar movimiento se encienden con buena intensidad de luz, ideal para que sientas más seguridad en la entrada o el patio de tu casa por las noches 💡\n\n¿Cuántas unidades necesitas? Te recuerdo que esta promoción es de 3 lámparas por $139.900 con envío gratis, ¿te dejo el pedido listo con esa cantidad?",
+        "fecha": "2026-09-29T21:30:22.967Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSQUEyMkEwRUJEMDBGNDQ3RDc1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T21:30:23.576Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMTk2Mzg5QkY3MUVDODY0OTE2AA=="
       }
     ],
     "paso": "confirmar_producto",
