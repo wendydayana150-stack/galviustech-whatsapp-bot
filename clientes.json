@@ -3738,8 +3738,8 @@
     "telefono": "573242758828",
     "nombre": "Jimenes",
     "primerContacto": "2026-09-29T00:22:44.737Z",
-    "ultimoContacto": "2026-09-29T11:07:42.614Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-29T11:07:46.565Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3960,6 +3960,18 @@
         "fecha": "2026-09-29T11:07:41.570Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyNzU4ODI4FQIAERgSMENBMUQxNjY0OTA1Q0ZCNzlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No q pena",
+        "fecha": "2026-09-29T11:07:43.931Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, no hay ningún problema 😊 Quedo atenta por si más adelante quieres retomarlo o si tienes alguna otra duda. Que tengas muy buen día.",
+        "fecha": "2026-09-29T11:07:45.525Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNzU4ODI4FQIAERgSRkE5NjA4QTgxOEQ2QzRCQjFEAA=="
       }
     ],
     "paso": "conversando",
@@ -3970,7 +3982,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-28",
