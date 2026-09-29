@@ -4919,8 +4919,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T00:59:34.534Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-29T01:00:05.016Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5286,14 +5286,27 @@
         "fecha": "2026-09-29T00:59:33.537Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSQTI0QkEyODE1MjVDNTA4MDJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "José Antonio Alfonso Franco",
+        "fecha": "2026-09-29T01:00:03.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-29T01:00:03.995Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSMzU1OEU5MUI0MEE4RTc1RkNGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
       "precio": 289900,
-      "telefono": "573217249799"
+      "telefono": "573217249799",
+      "nombreCliente": "José Antonio Alfonso Franco"
     },
     "pausado": false,
     "etapaManual": null,
