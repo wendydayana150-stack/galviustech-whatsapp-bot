@@ -4774,8 +4774,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T14:09:15.682Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-09-29T14:09:59.848Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5763,9 +5763,21 @@
         "fecha": "2026-09-29T14:09:13.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSOEQ0NDJBMEU2Mjc1RDNGRTc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina interrapidisimo",
+        "fecha": "2026-09-29T14:09:57.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-29T14:09:57.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMUJBMDY3QzExOTkzMTI4RjhCAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -5774,7 +5786,8 @@
       "celular": "1040804642",
       "nombreCliente": "Brigadier bailarín cédula de ciudadanía",
       "departamento": "Antioquia",
-      "ciudad": "Ciudad mutata antioquia"
+      "ciudad": "Ciudad mutata antioquia",
+      "direccion": "Oficina interrapidisimo"
     },
     "pausado": false,
     "etapaManual": null,
