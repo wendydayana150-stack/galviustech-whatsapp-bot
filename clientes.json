@@ -1551,8 +1551,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-29T21:37:26.575Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-29T21:38:20.477Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1928,14 +1928,27 @@
         "fecha": "2026-09-29T21:37:25.513Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMUM2NEYxRTBDNkQ2N0M1RjU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Darwin yamid mazo arango",
+        "fecha": "2026-09-29T21:38:19.369Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-29T21:38:19.369Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSOUI0NzdGOTk0MTA1QTlDMEJFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 249900,
-      "telefono": "573176926665"
+      "telefono": "573176926665",
+      "nombreCliente": "Darwin yamid mazo arango"
     },
     "pausado": false,
     "etapaManual": null,
