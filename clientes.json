@@ -4919,8 +4919,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T01:00:20.378Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-29T01:00:33.464Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5310,16 +5310,29 @@
         "fecha": "2026-09-29T01:00:19.174Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSRkU4NDUxRTk5MkU4RTdFMTM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antioquía",
+        "fecha": "2026-09-29T01:00:32.525Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-29T01:00:32.525Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSQjMwNTUwQjQyRkFBQ0M1M0ZFAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
       "precio": 289900,
       "telefono": "573217249799",
       "nombreCliente": "José Antonio Alfonso Franco",
-      "celular": "3217249799"
+      "celular": "3217249799",
+      "departamento": "Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
