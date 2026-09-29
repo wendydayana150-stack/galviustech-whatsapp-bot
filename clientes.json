@@ -432,8 +432,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T22:09:38.827Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-09-29T23:40:11.020Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -929,6 +929,20 @@
         "fecha": "2026-09-29T22:09:37.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMjk2MjgwRDM4MkNCQTEwNDYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T23:17:35.919Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSQkY0RkFFMjIzQjNCQzkxM0FEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?",
+        "fecha": "2026-09-29T23:40:09.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMjYwM0ZBNDZFMDVDNjVBQjc1AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -938,7 +952,7 @@
       "precio": 139900,
       "telefono": "573202889036"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
     "ultimaCategoria": "lampara",
