@@ -3,8 +3,8 @@
     "telefono": "573218387213",
     "nombre": "Jorge Gómez",
     "primerContacto": "2026-09-29T19:48:38.893Z",
-    "ultimoContacto": "2026-09-29T19:48:38.893Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T19:49:52.512Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-09-29T19:48:37.654Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4Mzg3MjEzFQIAERgSRkM5NUFCNjUyQ0JFQUJDNzk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda pero no hay nada de señal",
+        "fecha": "2026-09-29T19:49:45.309Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por contarme eso 🙏 Antes de decirte que no te serviría, déjame preguntarte algo importante: cuando dices que no hay señal, ¿te refieres a que tu celular no marca nada ahí (ni una rayita), o ya confirmaste con vecinos o alguien más de la vereda que ningún operador (Claro, Movistar, Tigo) capta ahí, ni siquiera de forma intermitente?\n\nTe pregunto esto porque la antena del módem es bastante más sensible que la de un celular normal, y a veces sí logra captar una señal débil donde el celular muestra \"sin servicio\". Vale la pena confirmarlo antes de descartarlo del todo.",
+        "fecha": "2026-09-29T19:49:51.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4Mzg3MjEzFQIAERgSREMzQzlDNzU0NTNDNUY0OUFCAA=="
       }
     ],
     "paso": "conversando",
