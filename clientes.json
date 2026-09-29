@@ -3,8 +3,8 @@
     "telefono": "573125755350",
     "nombre": "Fernando",
     "primerContacto": "2026-09-29T00:45:52.017Z",
-    "ultimoContacto": "2026-09-29T00:46:00.608Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-29T00:46:31.572Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-29T00:45:59.564Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1NzU1MzUwFQIAERgSRERBMkI4QjVBODYwOTZFNTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora",
+        "fecha": "2026-09-29T00:46:24.678Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Nuestra impresora térmica portátil es ideal para cuando necesitas imprimir facturas, recibos o documentos sin depender de una papelería ni de una impresora grande y con cables. No usa tinta ni tóner, así que te ahorras esos gastos desde la primera impresión, y es tan compacta que cabe en un bolso (mide unos 27,5 cm, del tamaño de un control remoto delgado). Se conecta por Bluetooth a tu celular, tanto Android como iPhone.\n\nLa inversión es de $249.900, y ya incluye papel térmico para que empieces a usarla apenas te llegue.\n\nCuéntame, ¿la necesitarías para tu negocio, para imprimir documentos de trabajo, o para qué la usarías principalmente? Así te confirmo si es la ideal para tu caso 😊",
+        "fecha": "2026-09-29T00:46:30.220Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzU1MzUwFQIAERgSN0M0MEI2MzNDRTI5NDM2NkVDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
