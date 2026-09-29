@@ -3,8 +3,8 @@
     "telefono": "573207503436",
     "nombre": "Wilder Pino",
     "primerContacto": "2026-09-29T17:58:59.992Z",
-    "ultimoContacto": "2026-09-29T17:58:59.992Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T17:59:23.130Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-09-29T17:58:59.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3NTAzNDM2FQIAERgSREFBNDIyMUEwMTFFQjAwNDQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-09-29T17:59:14.809Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, de GalviusTech 😊\n\nCon gusto te cuento sobre nuestra impresora térmica portátil. Antes de recomendarte bien, cuéntame: ¿la necesitas para tu negocio, para trabajo, o para qué la usarías principalmente? Así te oriento mejor según lo que necesitas imprimir (facturas, recibos, cotizaciones, etc).",
+        "fecha": "2026-09-29T17:59:21.932Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTAzNDM2FQIAERgSMUEyQkU2RDU3OTFGMEVERDVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
