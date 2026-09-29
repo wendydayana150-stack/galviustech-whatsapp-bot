@@ -4919,8 +4919,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T01:00:42.231Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-29T01:01:30.692Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5334,9 +5334,21 @@
         "fecha": "2026-09-29T01:00:41.176Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSMTdBNTI2ODM2NTI5NEM1NUZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Prefiero reclamar en bodega, puede ser Interrapidisimo",
+        "fecha": "2026-09-29T01:01:29.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-29T01:01:29.644Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSRUQ3QUM4OEJDMDc5RkREQzM2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -5345,7 +5357,8 @@
       "nombreCliente": "José Antonio Alfonso Franco",
       "celular": "3217249799",
       "departamento": "Antioquia",
-      "ciudad": "Puerto Berrío"
+      "ciudad": "Puerto Berrío",
+      "direccion": "Prefiero reclamar en bodega, puede ser Interrapidisimo"
     },
     "pausado": false,
     "etapaManual": null,
