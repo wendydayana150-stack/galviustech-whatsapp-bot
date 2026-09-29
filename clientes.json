@@ -1742,8 +1742,8 @@
     "telefono": "573136972723",
     "nombre": "Familia Rivera",
     "primerContacto": "2026-09-29T00:08:09.178Z",
-    "ultimoContacto": "2026-09-29T00:08:09.178Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T01:42:01.796Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1763,14 +1763,46 @@
         "fecha": "2026-09-29T00:08:08.260Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2OTcyNzIzFQIAERgSOUMzQTk1RTNDQjA4NjE2QUQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 🖨️ IMPRESORA TERMICA",
+        "fecha": "2026-09-29T01:41:59.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: IMPRESORA TERMICA]",
+        "fecha": "2026-09-29T01:41:59.674Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica - $ 249.900",
+        "fecha": "2026-09-29T01:41:59.675Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2OTcyNzIzFQIAERgSOTYzQjQyQUEwQjVCNjQ1NDE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Termica Portatil Bluetooth*\n$ 249.900\n\n🖨️✨ **¿NECESITAS IMPRIMIR Y NO QUIERES DEPENDER DE UNA IMPRESORA GRANDE?**\r\n\r\n🔥 **CONOCE LA IMPRESORA TÉRMICA PORTÁTIL** 🔥\r\n\r\nLlévala contigo y ten una solución de impresión **práctica, compacta y lista para usar**. 📲👜\r\n\r\n✅ **Portátil y fácil de transportar**\r\n✅ **Impresión térmica: SIN TINTA** 🖤\r\n✅ Ideal para trabajo, estudio y emprendimientos\r\n✅ Perfecta para llevar en el bolso o mochila\r\n✅ Imprime desde tu celular\r\n✅ Ahorra espacio y evita los cartuchos de tinta\r\n\r\n💼 **Para emprendedores**\r\n🎓 **Para estudiantes**\r\n🚗 **Para quienes trabajan fuera de casa**\r\n📦 **Para organizar pedidos y negocios**\r\n✈️ **Para quienes necesitan imprimir mientras viajan**\r\n\r\n💡 **Pequeña por fuera, pero una gran solución cuando necesitas imprimir y no tienes una impresora cerca.**\r\n\r\n🔥 **NO DEJES PARA DESPUÉS LO QUE PUEDES IMPRIMIR EN EL MOMENTO.**",
+        "fecha": "2026-09-29T01:42:00.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2OTcyNzIzFQIAERgSM0Q3REQxQkExM0U5NzlGQUZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
+        "fecha": "2026-09-29T01:42:00.968Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2OTcyNzIzFQIAERgSQkNCM0FFOUM5NUIwOEZFM0MyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimoProducto": "impresora-termica",
+    "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
