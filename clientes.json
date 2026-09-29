@@ -73,8 +73,8 @@
     "telefono": "573122454930",
     "nombre": ".",
     "primerContacto": "2026-09-29T15:16:06.292Z",
-    "ultimoContacto": "2026-09-29T15:33:28.682Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-29T15:33:52.821Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -323,9 +323,21 @@
         "fecha": "2026-09-29T15:33:27.673Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSOTUzQkUyRkI1NkQ4NzlEMjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Istmina",
+        "fecha": "2026-09-29T15:33:51.624Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-29T15:33:51.624Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSRTkyQjIyRjRCM0MwQzdGQTk3AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -333,7 +345,8 @@
       "telefono": "573122454930",
       "nombreCliente": "Sebastián Gómez Moreno",
       "celular": "3122454930",
-      "departamento": "Choco"
+      "departamento": "Choco",
+      "ciudad": "Istmina"
     },
     "pausado": false,
     "etapaManual": null,
