@@ -5113,8 +5113,8 @@
     "telefono": "573207570147",
     "nombre": "Carlos Andres",
     "primerContacto": "2026-09-28T18:53:59.204Z",
-    "ultimoContacto": "2026-09-28T18:53:59.204Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T00:12:24.199Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5154,6 +5154,53 @@
         "fecha": "2026-09-28T18:53:58.353Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSNjZCNzEyRUU5RjZDQzg4QTA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-09-28T19:57:33.229Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSRkQ4RjExNzM3OERBMzU5MDNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-28T21:57:32.220Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSMDlCMDYzOTM0QThCMjM3OTdDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋\nQuería avisarte que todavía tenemos promociones disponibles, pero las unidades son limitadas.\nAdemás te dejo estas fotos de un combo con regalo incluido 🎁\nSi tienes alguna duda, pregunta con confianza. Estaré encantada de ayudarte. 😊",
+        "fecha": "2026-09-28T23:57:33.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSRDY3MTRDNzIwOTgzODMyQ0U0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-09-28T23:57:33.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSMkJDRjQ1RTZGMDFBMUMwRUM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-09-28T23:57:34.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSMTUyNjEyOTBFQTQzRjI4RkIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-09-29T00:12:13.985Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-29T00:12:22.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3NTcwMTQ3FQIAERgSRjk0MUIzQjk3QThCQjU5MURBAA=="
       }
     ],
     "paso": "conversando",
@@ -5162,8 +5209,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Precio\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
