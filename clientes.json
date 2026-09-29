@@ -143,8 +143,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-29T14:57:38.267Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-29T15:13:08.628Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -250,16 +250,23 @@
         "fecha": "2026-09-29T14:56:32.970Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSNzM3MDdFOUQ5N0YxNjIxMEU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-09-29T15:13:07.261Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSRjc4ODE3NjM4NkU3QkZFOTcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"por yo avía pedido una y lo q me vino fue  esto q le voy a mandar\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
