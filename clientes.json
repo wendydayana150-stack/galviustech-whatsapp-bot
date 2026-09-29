@@ -547,8 +547,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:48:52.790Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-29T00:52:58.892Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -826,6 +826,25 @@
         "fecha": "2026-09-29T00:48:52.065Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMjJGNTRFNDYzN0Q2QTdCQzdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene  video  grabación impresora  si puede  mandarme una sobre  funciona",
+        "fecha": "2026-09-29T00:52:53.150Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dame un segundito y te comparto un video para que veas cómo funciona en la práctica 😊\n\nAhí vas a ver que se conecta por Bluetooth al celular y en segundos empieza a imprimir, sin cables ni complicaciones. ¿Ya la tenías en mente para tu negocio o para uso personal?",
+        "fecha": "2026-09-29T00:52:57.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSOTZCQkUyMUU4QzQ4Q0E3RjJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T00:52:58.106Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNDUyMUQ4NDdFN0MzREREQjU2AA=="
       }
     ],
     "paso": "confirmar_producto",
