@@ -111,8 +111,8 @@
     "telefono": "573502758877",
     "nombre": "restaurante",
     "primerContacto": "2026-09-29T13:10:03.917Z",
-    "ultimoContacto": "2026-09-29T13:17:36.768Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-29T13:18:18.520Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,6 +164,18 @@
         "fecha": "2026-09-29T13:17:35.586Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTAyNzU4ODc3FQIAERgSMEM5MUI0QTgxM0IzNTQwQjMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Porque yo pedí uno de esos y me engañaron",
+        "fecha": "2026-09-29T13:18:13.583Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, lamento mucho escuchar eso 😔 entiendo que te sientas así y quiero ayudarte a resolverlo bien.\n\nCuéntame qué fue exactamente lo que pasó con tu pedido (qué producto era y qué te ofrecieron vs qué te llegó o qué pasó), para darle seguimiento personal a tu caso. Ya te voy a poner en contacto con alguien que revise esto directamente y te dé una respuesta pronto.",
+        "fecha": "2026-09-29T13:18:17.500Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyNzU4ODc3FQIAERgSQTc4N0Q5MDA3MzgxQ0E0NTEzAA=="
       }
     ],
     "paso": "conversando",
@@ -172,8 +184,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Porque yo pedí uno de esos y me engañaron\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
