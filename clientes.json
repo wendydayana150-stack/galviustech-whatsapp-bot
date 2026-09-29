@@ -14123,8 +14123,8 @@
     "telefono": "573245931009",
     "nombre": "Laurita",
     "primerContacto": "2026-09-28T17:12:56.300Z",
-    "ultimoContacto": "2026-09-28T23:23:58.411Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-29T14:28:41.871Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14427,6 +14427,48 @@
         "fecha": "2026-09-28T23:23:57.190Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSREU2QjUxRENGOEYxQjBEOUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu pedido esta casi listo, solo falta un ultimo dato para poder despacharlo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-29T11:04:15.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSMzNGNDZGQkQ2NjM3NDFFMzc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Laurita, sobre modem WiFi portátil",
+        "fecha": "2026-09-29T11:04:47.618Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSNjJDRjI5OTNERDNGNjA5NUI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-29T11:13:50.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSOTg5QkU4N0VDQzAzMDc4Rjg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nCual es tu numero de celular?",
+        "fecha": "2026-09-29T11:24:12.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSMTEwRTZFNjkyNkRDRjEyMzdCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Ultimo aviso por ahora: tu pedido sigue guardado, solo falta este dato para poder despacharlo.\n\nCual es tu numero de celular?\n\nSi mas adelante quieres retomarlo, aqui voy a estar lista para ayudarte. 👋",
+        "fecha": "2026-09-29T11:33:20.551Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSRURCQzc5RTFDMkY2MjBBN0Y3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.",
+        "fecha": "2026-09-29T14:28:40.666Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1OTMxMDA5FQIAERgSRTI1MUM1NzI0QTA1NDc5NTg3AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -14437,7 +14479,7 @@
       "telefono": "573245931009",
       "nombreCliente": "Estoy esperando que digan si lo van a encargar"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
