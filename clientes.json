@@ -5206,8 +5206,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T01:09:50.674Z",
-    "mensajes": 28,
+    "ultimoContacto": "2026-09-29T01:28:34.313Z",
+    "mensajes": 29,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5992,6 +5992,25 @@
         "fecha": "2026-09-29T01:09:49.854Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSMTA0QTMyRjhBMUI5RDg3M0Q0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Requiere la guía, para reclamar el pedido",
+        "fecha": "2026-09-29T01:28:26.926Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, cuando se despache tu pedido te compartimos el número de guía de Interrapidísimo (o Coordinadora, según cobertura en tu zona) para que puedas hacerle seguimiento o reclamarlo en la oficina si es zona sin entrega a domicilio.\n\nRecuerda que llega en 2 a 4 días hábiles después de despachado. ¿Ya me habías confirmado tu ciudad o municipio para verificar si te llega a domicilio o debes recogerlo en oficina?",
+        "fecha": "2026-09-29T01:28:32.502Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSODMyRjM0QTAxMkQwRkNGN0IwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T01:28:33.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSNDNFQTZCNkJFNUMwNDdBRjZCAA=="
       }
     ],
     "paso": "conversando",
