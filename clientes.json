@@ -3,8 +3,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-29T14:55:42.338Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-29T14:56:34.071Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -91,6 +91,25 @@
         "fecha": "2026-09-29T14:55:41.172Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSRUU0QzQwREREQTI0MkQwNzZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "por yo avía pedido una y lo q me vino fue  esto q le voy a mandar",
+        "fecha": "2026-09-29T14:56:28.914Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Uy, disculpa la mala experiencia 😞 Cuéntame, mándame la foto para ver bien qué te llegó.\n\nVoy a darle seguimiento personal a tu caso con nuestra encargada para revisar qué pasó con tu pedido y darte una solución. En un momento tienes respuesta.",
+        "fecha": "2026-09-29T14:56:32.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSQ0JDNUZBNUJGQTVGQURDRENGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T14:56:32.970Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSNzM3MDdFOUQ5N0YxNjIxMEU4AA=="
       }
     ],
     "paso": "conversando",
@@ -99,8 +118,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"por yo avía pedido una y lo q me vino fue  esto q le voy a mandar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
