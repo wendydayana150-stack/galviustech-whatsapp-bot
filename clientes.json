@@ -477,8 +477,8 @@
     "telefono": "573502758877",
     "nombre": "restaurante",
     "primerContacto": "2026-09-29T13:10:03.917Z",
-    "ultimoContacto": "2026-09-29T13:18:18.520Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T14:24:48.614Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -542,16 +542,23 @@
         "fecha": "2026-09-29T13:18:17.500Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTAyNzU4ODc3FQIAERgSQTc4N0Q5MDA3MzgxQ0E0NTEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Pero el pedido no lo compraste con nosotros",
+        "fecha": "2026-09-29T14:24:47.382Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyNzU4ODc3FQIAERgSREFBQ0Y2QTVCQ0RGRENEQjZEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Porque yo pedí uno de esos y me engañaron\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
