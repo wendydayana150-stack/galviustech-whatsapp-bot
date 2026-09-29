@@ -155,8 +155,8 @@
     "telefono": "573122454930",
     "nombre": ".",
     "primerContacto": "2026-09-29T15:16:06.292Z",
-    "ultimoContacto": "2026-09-29T15:36:48.022Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-29T15:36:54.077Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -429,9 +429,21 @@
         "fecha": "2026-09-29T15:36:45.922Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSQ0E1RDk1RkI2NEYxNjFCOEM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Comercio",
+        "fecha": "2026-09-29T15:36:53.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-29T15:36:53.008Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSQTg5QjdFQzdENjEyRUE3NEZDAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -441,7 +453,8 @@
       "celular": "3122454930",
       "departamento": "Choco",
       "ciudad": "Istmina",
-      "direccion": "Carrera 7# 19-76 Pequeñines, Comercio"
+      "direccion": "Carrera 7# 19-76 Pequeñines, Comercio",
+      "barrio": "Comercio"
     },
     "pausado": false,
     "etapaManual": null,
