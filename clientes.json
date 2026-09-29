@@ -7736,8 +7736,8 @@
     "telefono": "584261736349",
     "nombre": "venta de chimo al detal",
     "primerContacto": "2026-09-28T20:09:55.541Z",
-    "ultimoContacto": "2026-09-29T00:34:09.124Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-29T04:16:31.628Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7813,16 +7813,23 @@
         "fecha": "2026-09-29T00:34:07.091Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSNTBDOUJGOEJFMjgwMTE3Nzg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ingresas a GOOGLE colocas este código 192.168.l00.1 y entras con usuario y contraseña que está dentro del modem, cuando le quitas la bateria, ahi sale",
+        "fecha": "2026-09-29T04:16:30.208Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjYxNzM2MzQ5FQIAERgSNUQ2QkM2QkNDQThCREU1ODQ4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Buenas noches cm hago para cambiar la contraseña del router explíqueme por favor\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
