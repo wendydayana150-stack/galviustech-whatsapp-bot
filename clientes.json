@@ -4774,8 +4774,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T14:04:45.954Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-09-29T14:07:34.284Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5727,14 +5727,28 @@
         "fecha": "2026-09-29T14:04:44.957Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNUNDQjAwMUExMzA2RUY1NjIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Brigadier bailarín cédula de ciudadanía 1040804642 celular 3225840189",
+        "fecha": "2026-09-29T14:07:33.011Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-29T14:07:33.012Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSREVGMDVEOTg5NEZCMjg3RDQyAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
-      "telefono": "573225840189"
+      "telefono": "573225840189",
+      "celular": "1040804642",
+      "nombreCliente": "Brigadier bailarín cédula de ciudadanía"
     },
     "pausado": false,
     "etapaManual": null,
