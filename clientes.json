@@ -4774,8 +4774,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T14:07:34.284Z",
-    "mensajes": 28,
+    "ultimoContacto": "2026-09-29T14:08:25.795Z",
+    "mensajes": 29,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5739,16 +5739,29 @@
         "fecha": "2026-09-29T14:07:33.012Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSREVGMDVEOTg5NEZCMjg3RDQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antioquia",
+        "fecha": "2026-09-29T14:08:24.662Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-29T14:08:24.662Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNDA3MDNFMzEyMjU5RENGNjMxAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573225840189",
       "celular": "1040804642",
-      "nombreCliente": "Brigadier bailarín cédula de ciudadanía"
+      "nombreCliente": "Brigadier bailarín cédula de ciudadanía",
+      "departamento": "Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
