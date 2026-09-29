@@ -4919,8 +4919,8 @@
     "telefono": "573217249799",
     "nombre": "José Antonio Alfonso Fran",
     "primerContacto": "2026-09-28T20:13:12.232Z",
-    "ultimoContacto": "2026-09-29T01:01:30.692Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-29T01:01:46.640Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5346,9 +5346,21 @@
         "fecha": "2026-09-29T01:01:29.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSRUQ3QUM4OEJDMDc5RkREQzM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El Carmelo",
+        "fecha": "2026-09-29T01:01:45.594Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-29T01:01:45.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5Nzk5FQIAERgSRDI0MDJBMEZBQjE4MTBFN0Y0AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -5358,7 +5370,8 @@
       "celular": "3217249799",
       "departamento": "Antioquia",
       "ciudad": "Puerto Berrío",
-      "direccion": "Prefiero reclamar en bodega, puede ser Interrapidisimo"
+      "direccion": "Prefiero reclamar en bodega, puede ser Interrapidisimo",
+      "barrio": "El Carmelo"
     },
     "pausado": false,
     "etapaManual": null,
