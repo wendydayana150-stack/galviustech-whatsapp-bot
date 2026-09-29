@@ -73,8 +73,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:25:04.161Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-09-29T21:29:49.248Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -494,18 +494,25 @@
         "fecha": "2026-09-29T21:25:02.914Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMTQ1QzdEQUI4Q0RGMjQ5NUMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para San Andrés Sotavento, tenemos envío gratis. Cuéntame cuántas unidades deseas?",
+        "fecha": "2026-09-29T21:29:47.971Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSNzY5MTQwOTBBN0E5RDkzODY3AA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
     "ultimaCategoria": "lampara",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"San Andrés de sotavento, Córdoba\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
