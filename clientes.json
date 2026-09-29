@@ -123,8 +123,8 @@
     "telefono": "573196694925",
     "nombre": "Marelvis",
     "primerContacto": "2026-09-29T14:49:15.876Z",
-    "ultimoContacto": "2026-09-29T14:49:55.004Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-29T14:51:10.527Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,6 +176,18 @@
         "fecha": "2026-09-29T14:49:53.843Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSNTExQkREQTgxRjAyNzRDMTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valledupar gracias por la información",
+        "fecha": "2026-09-29T14:51:01.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-29T14:51:09.254Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSMzlEODhFNjg2M0M5QzUyODYyAA=="
       }
     ],
     "paso": "conversando",
@@ -184,8 +196,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Valledupar gracias por la información\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
