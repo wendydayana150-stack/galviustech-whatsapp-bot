@@ -505,8 +505,8 @@
     "telefono": "573008022054",
     "nombre": "Jeisson Jaramillo",
     "primerContacto": "2026-09-29T02:12:21.815Z",
-    "ultimoContacto": "2026-09-29T02:19:54.395Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-09-29T02:55:05.601Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -656,6 +656,25 @@
         "fecha": "2026-09-29T02:19:53.364Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4MDIyMDU0FQIAERgSRkVBOUFDMTE3RDEyNDczMDk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienes punto físico?",
+        "fecha": "2026-09-29T02:54:59.099Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ahora no manejamos punto físico de atención, trabajamos con envíos a nivel nacional a través de Interrapidísimo (o Coordinadora si tu zona no tiene cobertura), con envío gratis y garantía de 30 días 📦\n\nAsí que tranquilo, aunque no haya punto físico, tienes todo el soporte y acompañamiento nuestro si algo se presenta.\n\n¿Te parece si dejamos listo tu pedido del módem 4G/5G para que te llegue directo a Rozo, Palmira?",
+        "fecha": "2026-09-29T02:55:03.995Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4MDIyMDU0FQIAERgSMTg0QjEzQjdDNjI3RTU2Mjk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T02:55:04.679Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4MDIyMDU0FQIAERgSODgyMUFDQTAwMzkxN0I4NTBEAA=="
       }
     ],
     "paso": "conversando",
