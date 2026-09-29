@@ -3,8 +3,8 @@
     "telefono": "573016962070",
     "nombre": "JAIME CELIS",
     "primerContacto": "2026-09-29T15:34:33.668Z",
-    "ultimoContacto": "2026-09-29T15:35:11.173Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T15:42:57.745Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,16 +68,23 @@
         "fecha": "2026-09-29T15:35:10.053Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2OTYyMDcwFQIAERgSQ0FCNDlDNTQ5RUM5ODYyRkM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Modo de uso:  1 Inserta una SIM con datos, recarga o plan activos en el módem inalámbrico  2 Espera unos segundos a que el módem tome señal 4 Busca la red WiFi en tu celular, computador o tablet 5 Conéctate con la contraseña que viene en el equipo ¡Y listo! Ya tienes internet portátil Puedes conectar varios dispositivos al mismo tiempo Ideal para casa, viajes, carro, finca, negocios o estudio",
+        "fecha": "2026-09-29T15:42:56.602Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2OTYyMDcwFQIAERgSODNEQjc3MUVEMzVCRjA3MUNFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Necesita tener Internet?\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
