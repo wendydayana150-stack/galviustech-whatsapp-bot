@@ -549,6 +549,44 @@ const OFERTAS_COMBO_POR_CATEGORIA = {
       impresora: ["combo-impresora-termica-portatil-camara-de-seguridad", "combo-impresora-termica-portatil-reloj"],
 };
 
+// Los combos no tienen su propia "categoria" en el catalogo (ver catalog.json: categoria viene
+// vacia para los combo-*), asi que para saber a que categoria pertenece un combo la deducimos
+// buscando en que categoria de OFERTAS_COMBO_POR_CATEGORIA aparece su id.
+function categoriaDeProducto(productoId) {
+      const producto = catalogo.find((p) => p.id === productoId);
+      if (producto?.categoria) return producto.categoria.trim().toLowerCase();
+      for (const [categoria, idsCombo] of Object.entries(OFERTAS_COMBO_POR_CATEGORIA)) {
+            if (idsCombo.includes(productoId)) return categoria;
+      }
+      return "";
+}
+
+// GUARDA CONTRA PEDIDOS DUPLICADOS (caso real 29-sep-2026, Jose Antonio Alfonso Franco: el mismo
+// combo de modem quedo registrado 3 VECES en pedidos.json). Lo que paso: despues de que el pedido
+// ya quedaba completo y confirmado, cualquier respuesta entusiasta del cliente ("Completamente de
+// acuerdo", "Totalmente seguro", "Confirmado") hacia que la IA volviera a interpretar eso como
+// intencion de compra y marcara ACCION_PEDIDO otra vez para el mismo producto (o el boton mecanico
+// de "Si, quiero este" se volvia a ofrecer), reiniciando todo el flujo de "antes de confirmar tu
+// pedido" + oferta de combo, y terminando en un pedido NUEVO reusando los mismos datos de envio
+// (ver iniciarPedido). Antes de arrancar ese flujo de nuevo (o de re-guardar con datos anteriores),
+// revisamos si el cliente ya tiene un pedido de esta MISMA categoria guardado en las ultimas horas;
+// si es asi, no lo repetimos, solo lo tranquilizamos.
+async function yaTienePedidoRecienteEnCategoria(telefono, categoria, ventanaMs = 3 * 60 * 60 * 1000) {
+      if (!categoria) return false;
+      try {
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const ahora = Date.now();
+            return pedidos.some((p) => {
+                  if (p.telefono !== telefono || !p.fecha) return false;
+                  if (categoriaDeProducto(p.productoId) !== categoria) return false;
+                  return ahora - new Date(p.fecha).getTime() < ventanaMs;
+            });
+      } catch (error) {
+            console.error("Error revisando pedidos recientes por categoria:", error.response?.data || error.message);
+            return false;
+      }
+}
+
 // WhatsApp limita el titulo de los botones a 20 caracteres, por eso usamos
 // etiquetas cortas propias en vez del nombreCorto completo del catalogo.
 const ETIQUETAS_BOTON_COMBO = {
@@ -565,6 +603,15 @@ function etiquetaBotonCombo(combo) {
 async function ofrecerComboPromocion(telefono, productoIdOriginal) {
       const productoBase = catalogo.find((p) => p.id === productoIdOriginal);
       const categoria = (productoBase?.categoria || "").trim().toLowerCase();
+
+      if (await yaTienePedidoRecienteEnCategoria(telefono, categoria)) {
+            await enviarTexto(
+                  telefono,
+                  "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía."
+                  );
+            return;
+      }
+
       const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria] || [];
       const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
 
@@ -1814,6 +1861,20 @@ async function iniciarPedido(telefono, productoId) {
             return;
       }
 
+      // Ver comentario junto a yaTienePedidoRecienteEnCategoria: sin esto, un cliente que ya
+      // confirmo su pedido y despues sigue contestando cosas entusiastas ("Confirmado", "Totalmente
+      // seguro") terminaba con el MISMO pedido duplicado varias veces (llego a pasar 3 veces
+      // seguidas con un mismo cliente).
+      if (await yaTienePedidoRecienteEnCategoria(telefono, categoriaDeProducto(productoId))) {
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            await enviarTexto(
+                  telefono,
+                  `Tranquilo, tu pedido del *${producto.nombre}* ya quedó confirmado y registrado, no hace falta confirmarlo de nuevo 😊 En cuanto se despache te comparto el número de guía.`
+                  );
+            return;
+      }
+
       // Si este cliente ya tiene un pedido registrado antes (con datos completos de envio), no le
       // volvemos a pedir todo de nuevo: reutilizamos esos datos para este nuevo pedido y registramos
       // de una vez, dejandole claro que puede corregir algo si cambio.
@@ -2164,6 +2225,20 @@ async function manejarFlujoPedido(telefono, texto) {
       const siguienteFaltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => !sesion.pedido[d.campo]);
 
       if (!siguienteFaltante) {
+            // Misma guarda contra duplicados que en iniciarPedido/ofrecerComboPromocion: cubre el
+            // caso raro en que este flujo manual de recoleccion de datos se dispare de nuevo (por
+            // ejemplo si la lectura de pedidos anteriores fallo en iniciarPedido) para un producto
+            // de una categoria que el cliente ya confirmo hace poco.
+            if (await yaTienePedidoRecienteEnCategoria(telefono, categoriaDeProducto(sesion.pedido.productoId))) {
+                  await enviarTexto(
+                        telefono,
+                        "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía."
+                        );
+                  sesion.paso = "conversando";
+                  sesion.pedido = {};
+                  return true;
+            }
+
             // Guardamos el pedido ANTES de decirle al cliente que "ya quedo listo": si le
             // confirmamos primero y el guardado falla despues, el cliente se queda tranquilo
             // pensando que ya compro, pero el pedido nunca llega a Dropi/despacho. Asi fue como se
