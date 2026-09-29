@@ -189,8 +189,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:35:31.267Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-29T00:38:10.517Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -374,6 +374,18 @@
         "fecha": "2026-09-29T00:35:30.481Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMkZBNTI1NzQyQzM2RjY5OTAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pregunta combo completa  cámara  y reloj cuanto cuesta",
+        "fecha": "2026-09-29T00:38:05.090Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Mira, ese combo puntual de cámara + reloj solo no lo manejamos así. Los combos que sí tenemos disponibles son:\n\n- Impresora Térmica + Reloj Inteligente: $299.900\n- Impresora Térmica + Cámara de seguridad: $299.900\n- Modem WiFi + Cámara de seguridad: $289.900\n- Modem WiFi + Reloj Inteligente: $289.900\n\nComo estabas viendo la impresora, ¿te gustaría que te cuente del combo de Impresora + Reloj o el de Impresora + Cámara? Cualquiera de los dos te sale más económico que comprar por separado 😊",
+        "fecha": "2026-09-29T00:38:09.711Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSRENDOEEzQTI1RERBN0EwMURBAA=="
       }
     ],
     "paso": "confirmar_producto",
