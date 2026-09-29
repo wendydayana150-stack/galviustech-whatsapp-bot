@@ -123,8 +123,8 @@
     "telefono": "573006120602",
     "nombre": "Zoraida",
     "primerContacto": "2026-09-29T02:41:02.587Z",
-    "ultimoContacto": "2026-09-29T02:44:55.491Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T02:46:50.763Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,6 +188,18 @@
         "fecha": "2026-09-29T02:44:54.401Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MTIwNjAyFQIAERgSNTkwNEE3NjgwRDEyMURCQTFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias deja te lo consulto y te hablo se nuevo",
+        "fecha": "2026-09-29T02:46:47.660Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Tómate tu tiempo, ninguna prisa 😊 Aquí quedo atenta para cuando quieras retomar, y con gusto te resuelvo cualquier otra duda que te surja sobre el módem 4G/5G o cualquiera de las otras opciones. ¡Que estés muy bien!",
+        "fecha": "2026-09-29T02:46:49.916Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MTIwNjAyFQIAERgSNTU4ODJENzc2MEVGRjk2QjFCAA=="
       }
     ],
     "paso": "conversando",
@@ -198,7 +210,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
