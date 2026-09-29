@@ -16653,8 +16653,8 @@
     "telefono": "573213271143",
     "nombre": "Tatiana 🌹🖤🌹",
     "primerContacto": "2026-09-28T05:02:14.745Z",
-    "ultimoContacto": "2026-09-28T05:02:40.092Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-29T11:24:04.226Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16706,6 +16706,25 @@
         "fecha": "2026-09-28T05:02:39.245Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSODE3REEwNkExQUEwMzE4RUZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Tatiana 🌹🖤🌹, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-29T11:05:07.747Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSRjg5QkI0NTE5ODExNzkwOUZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si no contesto es que ya conseguí el producto degen de estar saturado de mensajes el este celular que fastidio por eso no tiene clientes",
+        "fecha": "2026-09-29T11:23:56.380Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes toda la razón, Tatiana, disculpa la molestia 🙏 No te escribo más por aquí, quedo pendiente por si más adelante me necesitas. Que tengas buen día.",
+        "fecha": "2026-09-29T11:24:02.026Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSRTY0QjgwRTk2MDUyQzg5REYwAA=="
       }
     ],
     "paso": "conversando",
@@ -16714,9 +16733,9 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Si no contesto es que ya conseguí el producto degen de estar saturado de mensajes el este celular qu\"",
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-29",
