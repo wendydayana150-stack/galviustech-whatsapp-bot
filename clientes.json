@@ -155,8 +155,8 @@
     "telefono": "573122454930",
     "nombre": ".",
     "primerContacto": "2026-09-29T15:16:06.292Z",
-    "ultimoContacto": "2026-09-29T15:38:19.059Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-29T15:41:33.869Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -479,6 +479,25 @@
         "fecha": "2026-09-29T15:38:17.639Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSQzU4RjRFRTdDNzZDRURBMTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El rollo de 9 metros continuo funciona digamos imprimes las planillas y cortas al final y ya?",
+        "fecha": "2026-09-29T15:41:28.616Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, así mismo es 👍 El rollo va continuo, imprimes tu planilla y al terminar simplemente cortas donde termina esa impresión (la impresora suele traer un pequeño borde o cortador para eso). No tienes que recargar hoja por hoja, solo vas cortando cada vez que sacas una planilla nueva.\n\n¿Te lo agrego entonces al pedido que ya estamos dejando listo?",
+        "fecha": "2026-09-29T15:41:31.779Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSNDFDRjlEQkIwNTU0QzgxMDBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T15:41:32.470Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSNkU2QzI1Q0YzQzAyNzhBMjk2AA=="
       }
     ],
     "paso": "conversando",
