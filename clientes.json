@@ -3,8 +3,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:21:56.553Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-29T21:22:11.200Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -255,13 +255,55 @@
         "fecha": "2026-09-29T21:21:55.555Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMjk5MkU4NDhFMTdDNUU5MjJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Lampara 3 lentes x3 unid",
+        "fecha": "2026-09-29T21:22:07.634Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades",
+        "fecha": "2026-09-29T21:22:07.634Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSOUJEOUVCOTFFQzU2QzRCRTM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades",
+        "fecha": "2026-09-29T21:22:08.205Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSNEVGMDZGNDY3ODBGQUJCNkQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades",
+        "fecha": "2026-09-29T21:22:08.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSOUM4Q0IzNjMxNjkxNjNENjEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Lamparas 3 lentes X3*\n$ 199.900\n\n☀️🚨 ¿Y SI PUDIERAS ILUMINAR Y REFORZAR LA SEGURIDAD DE 3 ESPACIOS DE TU CASA CON UNA SOLA COMPRA? 👀\r\n\r\n🔥 ¡APROVECHA ESTA PROMOCIÓN ANTES DE QUE SE AGOTE! 🔥\r\n\r\n📹💡 LÁMPARA SOLAR DE 3 LENTES x 3 Unidades\r\nMás cobertura, más iluminación y mayor tranquilidad durante la noche. 🌙🏡\r\n\r\nImagínate tener una en la entrada de tu casa, otra en el garaje y otra en el patio, finca o negocio. 😍\r\n\r\n✨ ¿POR QUÉ LLEVAR 3?\r\n\r\n☀️ Se alimentan con energía solar\r\n💡 Sus 3 lentes permiten una iluminación más amplia\r\n🚨 Sensor de movimiento para detectar actividad\r\n📹 Diseño tipo cámara que aporta una mayor sensación de seguridad\r\n🌙 Ilumina tus espacios durante la noche\r\n🏡 Perfecta para exteriores\r\n🔋 Sin necesidad de mantenerla conectada a la corriente para aprovechar su funcionamiento solar\r\n🛠️ Fácil de instalar\r\n\r\n💥 Y AQUÍ ESTÁ LO MEJOR...\r\n\r\n🤑 ¡3 LÁMPARAS POR SOLO $199.900!\r\n\r\n🚚 ¡ENVÍO GRATIS! 🇨🇴\r\n\r\nPor el precio de una instalación más costosa, puedes comenzar a iluminar 3 puntos importantes de tu propiedad.\r\n\r\n⚠️ PRECIO PROMOCIONAL — DISPONIBILIDAD LIMITADA.\r\n\r\nNo esperes a que llegue la noche para darte cuenta de que necesitas más iluminación. 💡\r\n\r\n📲 ESCRÍBENOS AHORA Y APROVECHA LAS 3 POR $199.900 CON ENVÍO GRATIS.\r\n\r\n🔥 ¿TE SEPARAMOS TU COMBO?",
+        "fecha": "2026-09-29T21:22:09.433Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSN0VDQjNGQ0Y2QTk1QTU4NzNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T21:22:09.964Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMzY0OTcxRjIxNENCOUU3MTJDAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "lamparas-3-lentes-x-2-2"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "lamparas-3-lentes-x-2-2",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": true,
     "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Las lámparas tienen buena luz?\"",
