@@ -4658,8 +4658,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T13:46:51.809Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-09-29T13:48:21.919Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5241,6 +5241,25 @@
         "fecha": "2026-09-29T13:46:49.173Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSRTY2QUUzOTNFOTMxMUQ1RDcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene reloj color negro",
+        "fecha": "2026-09-29T13:48:18.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dame un segundito para confirmarte el color exacto disponible del reloj del combo 😊\n\nMientras tanto, sigamos con tu pedido: ¿me confirmas tu nombre completo y número de celular para ir dejándolo listo?",
+        "fecha": "2026-09-29T13:48:20.207Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMjZCRUVGMEIxODkzNEFFNzAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T13:48:20.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNUI5NjU1RDEzMjMxNzA3QzUwAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -5251,8 +5270,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Tiene reloj color negro\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
