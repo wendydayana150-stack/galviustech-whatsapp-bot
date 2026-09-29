@@ -353,8 +353,8 @@
     "telefono": "573185225239",
     "nombre": "Bëngbe Benach",
     "primerContacto": "2026-09-29T20:37:59.758Z",
-    "ultimoContacto": "2026-09-29T20:57:30.396Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-29T20:57:49.142Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -525,15 +525,30 @@
         "fecha": "2026-09-29T20:57:29.559Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MjI1MjM5FQIAERgSMzc0RDA1MzVCMjJDRDU4NTRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con camara de regalo",
+        "fecha": "2026-09-29T20:57:47.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Impresora Termica Portatil + Camara de seguridad* ($ 299.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T20:57:48.214Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MjI1MjM5FQIAERgSRUE2OTg3NjEyQTc3Q0YyQTBGAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "combo-impresora-termica-portatil-reloj"
+      "productoId": "combo-impresora-termica-portatil-camara-de-seguridad",
+      "nombreProducto": "COMBO Impresora Termica Portatil + Camara de seguridad",
+      "precio": 299900,
+      "telefono": "573185225239"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-impresora-termica-portatil-reloj",
+    "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
