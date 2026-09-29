@@ -7948,8 +7948,8 @@
     "telefono": "573143554380",
     "nombre": "siesseguridad2024",
     "primerContacto": "2026-09-28T22:26:18.680Z",
-    "ultimoContacto": "2026-09-29T11:35:31.773Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-29T14:26:31.986Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8119,16 +8119,23 @@
         "fecha": "2026-09-29T11:35:30.731Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSQTk1QjgyNkJDMjc3NTg2MkMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, buen dia. Hablas con Wendy",
+        "fecha": "2026-09-29T14:26:30.747Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSM0E4NTdDRTJDNkM5RDY1NzU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No confirman si sirve para conectar a portatil\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
