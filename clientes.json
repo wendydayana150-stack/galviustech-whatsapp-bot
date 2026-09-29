@@ -268,8 +268,8 @@
     "telefono": "573122454930",
     "nombre": ".",
     "primerContacto": "2026-09-29T15:16:06.292Z",
-    "ultimoContacto": "2026-09-29T15:41:33.869Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-29T15:54:26.539Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -611,11 +611,18 @@
         "fecha": "2026-09-29T15:41:32.470Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSNkU2QzI1Q0YzQzAyNzhBMjk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Direccion:* Carrera 7# 19-76 Pequeñines, Comercio esta dirección es suya? es mejor enviarlo a dirección que a la oficina",
+        "fecha": "2026-09-29T15:54:24.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDU0OTMwFQIAERgSNzI3ODhDQjM3N0U3N0JDOUFFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
