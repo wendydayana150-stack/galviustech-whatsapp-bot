@@ -463,8 +463,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:46:42.957Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-29T00:48:52.790Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -730,6 +730,18 @@
         "fecha": "2026-09-29T00:44:45.214Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSQ0RFMDk5NTZFQkJBRkMwOUM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ejemplo  copiar ese  documento  sirve  la impresora",
+        "fecha": "2026-09-29T00:48:48.902Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, para eso específicamente no te sirve. La impresora no escanea ni copia documentos físicos, solo imprime lo que le envíes desde tu celular (fotos, PDF, imágenes que ya tengas guardadas).\n\nSi tu idea es sacar una copia de la cédula tal cual está físicamente, necesitarías primero una foto o escaneo de ella desde el celular, y ahí sí la impresora te la imprime en blanco y negro.\n\n¿Es para algún trámite o documento que necesitas presentar? Cuéntame para orientarte mejor 😊",
+        "fecha": "2026-09-29T00:48:52.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMjJGNTRFNDYzN0Q2QTdCQzdBAA=="
       }
     ],
     "paso": "confirmar_producto",
