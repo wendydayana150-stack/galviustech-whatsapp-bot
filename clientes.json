@@ -259,8 +259,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:40:44.239Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-29T00:42:44.162Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -495,6 +495,25 @@
         "fecha": "2026-09-29T00:40:43.381Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNzVBMEZCMENCNjM4MkMwNkQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esto impresora  sirve  para  sacar  copias  documento  de  cédula",
+        "fecha": "2026-09-29T00:42:37.532Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ojo con eso: esta impresora NO escanea ni saca copias de un documento físico como la cédula. Es decir, no puedes poner la cédula ahí y que saque una copia como una fotocopiadora.\n\nLo que sí hace es imprimir lo que tú le envíes desde tu celular por Bluetooth (por ejemplo si tienes una foto o imagen de la cédula guardada, la puedes mandar a imprimir desde una app), pero el escaneo o la copia como tal no la hace.\n\n¿Para qué necesitabas sacar esa copia, para algún trámite? Cuéntame y te oriento si te sirve o no para tu caso 😊",
+        "fecha": "2026-09-29T00:42:42.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMTFFOEMyMDFCNTQ3NUVBMDI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T00:42:43.336Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSM0RGQkE2QTU1OTQ4OTk2NkYwAA=="
       }
     ],
     "paso": "confirmar_producto",
