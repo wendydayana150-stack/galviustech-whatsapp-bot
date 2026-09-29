@@ -111,8 +111,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T22:06:56.564Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-09-29T22:07:17.823Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -570,6 +570,25 @@
         "fecha": "2026-09-29T22:06:54.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMjQ4RjhFOERDNDREN0Y5NzdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuánto se demora en llegar",
+        "fecha": "2026-09-29T22:07:12.685Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 2 a 4 días hábiles después de que se despache el pedido 📦 Ten en cuenta que en San Andrés de Sotavento puede que quede disponible en la oficina de la transportadora de tu municipio en vez de entrega a domicilio, pero te confirmamos eso apenas tengamos tu pedido en proceso.\n\n¿Te dejo listas las 3 lámparas para pago contraentrega?",
+        "fecha": "2026-09-29T22:07:15.101Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMzkzOTQyODZBODEzRjc5MTI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-29T22:07:15.808Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSQURBNTdCRTk1OEJGRkRBMDYyAA=="
       }
     ],
     "paso": "confirmar_producto",
