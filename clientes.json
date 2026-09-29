@@ -3,8 +3,8 @@
     "telefono": "573205594852",
     "nombre": "Noa Medrano",
     "primerContacto": "2026-09-29T17:49:19.882Z",
-    "ultimoContacto": "2026-09-29T17:50:20.245Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-29T17:51:07.696Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-09-29T17:50:19.267Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTk0ODUyFQIAERgSQzM4NDQzN0E2MkE0QjM3ODM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es primero y no hay señal",
+        "fecha": "2026-09-29T17:50:59.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, seria tu primera conexión ahí 🙌\n\nCuando dices que \"no hay señal\", ¿te refieres a que tu celular tampoco agarra señal de ningún operador ahí? Porque el módem funciona con una antena más potente que capta mejor que un celular normal, pero necesita que exista al menos algo de señal de algún operador (Claro, Movistar, Tigo) en la zona, aunque sea débil.\n\n¿Tu celular muestra \"sin servicio\" total, o sí llega a tener algo de señal aunque sea baja?",
+        "fecha": "2026-09-29T17:51:06.456Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTk0ODUyFQIAERgSRjQ1Mjc2QjBDQzY4NjJDMTU2AA=="
       }
     ],
     "paso": "conversando",
