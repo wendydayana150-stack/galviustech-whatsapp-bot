@@ -2952,8 +2952,8 @@
     "telefono": "573507372497",
     "nombre": ".",
     "primerContacto": "2026-09-29T19:28:56.744Z",
-    "ultimoContacto": "2026-09-29T22:39:23.301Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-29T22:39:27.378Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3062,6 +3062,18 @@
         "fecha": "2026-09-29T22:39:22.257Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA3MzcyNDk3FQIAERgSMkNGMjAzMENBQjMyMzg3ODc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-09-29T22:39:24.940Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con mucho gusto! 😊 Cualquier duda que tengan, aquí estoy para ayudarles. Que estés muy bien.",
+        "fecha": "2026-09-29T22:39:26.244Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA3MzcyNDk3FQIAERgSOTQwQjg3OEY1MjE1MDM0MEM1AA=="
       }
     ],
     "paso": "conversando",
@@ -3072,7 +3084,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
