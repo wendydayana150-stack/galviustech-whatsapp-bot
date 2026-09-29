@@ -547,8 +547,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:52:58.892Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-29T00:53:54.610Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -845,6 +845,18 @@
         "fecha": "2026-09-29T00:52:58.106Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNDUyMUQ4NDdFN0MzREREQjU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-09-29T00:53:53.708Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-09-29T00:53:53.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSQ0NCRTYwM0NBMDhCM0MyNDAxAA=="
       }
     ],
     "paso": "confirmar_producto",
