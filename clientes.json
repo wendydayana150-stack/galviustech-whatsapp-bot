@@ -3,8 +3,8 @@
     "telefono": "573219500713",
     "nombre": "Gina",
     "primerContacto": "2026-09-29T22:45:31.351Z",
-    "ultimoContacto": "2026-09-29T22:45:31.351Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-29T22:46:34.914Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-09-29T22:45:30.289Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5NTAwNzEzFQIAERgSMDVCREY0OUYwQ0VGRUQ1NkREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene y la tinta donde se consigue",
+        "fecha": "2026-09-29T22:46:26.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Con gusto te cuento 😊\n\nLa impresora térmica portátil de GalviusTech justamente no necesita tinta ni toner para funcionar, por eso te ahorras esa vuelta desde el primer día. Trae papel térmico incluido, es Bluetooth (funciona con Android e iPhone) y es pequeñita, del tamaño de un control remoto, para que la lleves a donde quieras.\n\nLa inversión es de $249.900.\n\nCuando se le acaba el papel, manejamos repuesto de papel térmico: paquete de 52 hojas por $38.000 o rollo de 9 metros por $10.000, ambos con envío gratis.\n\nContame, ¿la necesitas para tu negocio, para imprimir facturas/documentos, o para qué la usarías principalmente? Así te confirmo si es la ideal para vos.",
+        "fecha": "2026-09-29T22:46:33.829Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5NTAwNzEzFQIAERgSRjc5OTFBRjg0OUQ0OEQ3OTAwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
