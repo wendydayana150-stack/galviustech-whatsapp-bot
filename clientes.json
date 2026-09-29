@@ -736,8 +736,8 @@
     "telefono": "573167527464",
     "nombre": "Linda",
     "primerContacto": "2026-09-28T23:04:37.108Z",
-    "ultimoContacto": "2026-09-28T23:06:05.584Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-29T00:23:48.519Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -873,6 +873,25 @@
         "fecha": "2026-09-28T23:06:02.837Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNEE2NjEzRDdFMDkwNjlGOEU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos hablando del COMBO Impresora Termica Portatil + Reloj y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-09-29T00:07:32.299Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNDZEOTZCNENBMDZEMjg0MjcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-29T00:23:45.309Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, tranquilo/a 😊 Quedo atenta por si más adelante te animas a preguntar algo o quieres ver alguna opción del catálogo.\n\nQue tengas muy buen día.",
+        "fecha": "2026-09-29T00:23:47.581Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNTQyRDZBRUQ1NzVDNUIyRUVFAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -885,7 +904,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true
