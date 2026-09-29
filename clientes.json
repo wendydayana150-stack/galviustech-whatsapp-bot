@@ -135,8 +135,8 @@
     "telefono": "573196694925",
     "nombre": "Marelvis",
     "primerContacto": "2026-09-29T14:49:15.876Z",
-    "ultimoContacto": "2026-09-29T14:51:49.781Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-29T14:52:50.318Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,6 +207,18 @@
         "fecha": "2026-09-29T14:51:48.639Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSNDhCMUYzNEVBNUI3QjlCRDcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo te escribo nuevamente gracias",
+        "fecha": "2026-09-29T14:52:44.443Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Quedo pendiente por acá, cuando estés list@ retomamos y vemos qué presentación de la impresora te conviene más.\n\nRecuerda que tenés la Impresora Térmica portátil (27.5 x 6.5 x 5 cm, cabe en cualquier bolso) para imprimir donde estés, sin depender de papelería.\n\n¡Aquí estaré cuando me escribas! 👋",
+        "fecha": "2026-09-29T14:52:48.208Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2Njk0OTI1FQIAERgSQUYwNDZBMUE2NDNDNjI5NUU4AA=="
       }
     ],
     "paso": "conversando",
@@ -217,7 +229,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
