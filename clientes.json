@@ -111,8 +111,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T22:07:17.823Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-09-29T22:09:38.827Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -589,11 +589,33 @@
         "fecha": "2026-09-29T22:07:15.808Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSQURBNTdCRTk1OEJGRkRBMDYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me gustaría más en la oficina de la transportadora de interrapidisimo",
+        "fecha": "2026-09-29T22:09:34.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 📦 Entonces te dejamos el pedido para que lo recojas en la oficina de Interrapidísimo en San Andrés de Sotavento, con pago contraentrega.\n\nVoy a dejar todo listo para tu pedido de las 3 lámparas 😊",
+        "fecha": "2026-09-29T22:09:36.762Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSNjc0NkY0N0JDRDU1MzE1MDhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.* ($ 139.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-09-29T22:09:37.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMjk2MjgwRDM4MkNCQTEwNDYyAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid"
+      "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
+      "nombreProducto": "LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.",
+      "precio": 139900,
+      "telefono": "573202889036"
     },
     "pausado": false,
     "etapaManual": null,
