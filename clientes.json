@@ -3,8 +3,8 @@
     "telefono": "573202889036",
     "nombre": "𝒲𝑒𝓃𝒹𝓎",
     "primerContacto": "2026-09-29T21:14:02.560Z",
-    "ultimoContacto": "2026-09-29T21:21:15.149Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-29T21:21:43.282Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,6 +231,18 @@
         "fecha": "2026-09-29T21:21:14.092Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSM0ZDODgzNURDMDFBOTdFMEM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las lámparas tienen buena luz?",
+        "fecha": "2026-09-29T21:21:34.949Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame un poco mas para poder ayudarte mejor, o si prefieres dime directamente en que ciudad o vereda estas y para que lo necesitas.",
+        "fecha": "2026-09-29T21:21:42.101Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyODg5MDM2FQIAERgSMDQwRDgzQkI4NjA5RDczQUFEAA=="
       }
     ],
     "paso": "conversando",
@@ -240,7 +252,7 @@
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Las lámparas solares se apagan si no ven movimiento y se prenden cuando hay movimiento\"",
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Las lámparas tienen buena luz?\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
