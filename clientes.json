@@ -189,8 +189,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-09-29T00:24:31.518Z",
-    "ultimoContacto": "2026-09-29T00:38:10.517Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-29T00:40:44.239Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -386,6 +386,45 @@
         "fecha": "2026-09-29T00:38:09.711Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSRENDOEEzQTI1RERBN0EwMURBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mándame  video  impresora por favor",
+        "fecha": "2026-09-29T00:40:42.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-09-29T00:40:42.200Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-29T00:40:42.201Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSODg5RDIxMTJCRTUwRDE1NTY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-29T00:40:42.641Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSRkVDMEQ4MzBBRkNDNkQzQjIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-09-29T00:40:43.036Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMTIyNEQ3MTA1MDM2QjI0RDI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?",
+        "fecha": "2026-09-29T00:40:43.381Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSNzVBMEZCMENCNjM4MkMwNkQ1AA=="
       }
     ],
     "paso": "confirmar_producto",
