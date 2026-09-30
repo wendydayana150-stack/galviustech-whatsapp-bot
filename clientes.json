@@ -169,8 +169,8 @@
     "telefono": "573128516723",
     "nombre": "Mary Berrio",
     "primerContacto": "2026-09-30T20:46:42.304Z",
-    "ultimoContacto": "2026-09-30T21:08:24.422Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-30T21:09:17.385Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -265,6 +265,25 @@
         "fecha": "2026-09-30T21:08:23.455Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4NTE2NzIzFQIAERgSMUE4ODA2QUNBODc1MzE5QzkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Explicame más por favor",
+        "fecha": "2026-09-30T21:09:14.032Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el módem incluye una tarjeta SIM de Claro sin plan ni datos, para que tú mismo actives el paquete que más te convenga: puede ser un plan mensual, una recarga prepago o paquetes de datos según cuánto uses internet. Así no pagas de más y controlas tu gasto. Puedes activar y recargar desde la app o tienda Claro. Esta libertad de elegir es ideal para zonas rurales o viajes, donde conviene ajustar el plan a tus necesidades. ¿Te interesa que te ayude a dejar el pedido listo y te envío el módem cuanto antes?",
+        "fecha": "2026-09-30T21:09:15.454Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4NTE2NzIzFQIAERgSNTczQ0MwMDI3MkJCQjlFQjJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T21:09:16.044Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4NTE2NzIzFQIAERgSRDhBMDk1NDZGOTUyQTIzOTNGAA=="
       }
     ],
     "paso": "conversando",
