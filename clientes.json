@@ -3,8 +3,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:55:31.159Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-09-30T21:56:02.564Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -329,9 +329,21 @@
         "fecha": "2026-09-30T21:55:30.224Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSRTA1MEExREMxOUE5NDIyMjFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Inspección santa Rita vichada",
+        "fecha": "2026-09-30T21:56:01.532Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-30T21:56:01.533Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSOTVDQUQyOEREM0E5NTI0NDVFAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -340,7 +352,8 @@
       "nombreCliente": "José López Gallardo",
       "celular": "3180352799",
       "departamento": "Vichada",
-      "ciudad": "Municipio cumaribo"
+      "ciudad": "Municipio cumaribo",
+      "direccion": "Inspección santa Rita vichada"
     },
     "pausado": false,
     "etapaManual": null,
