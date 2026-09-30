@@ -17548,8 +17548,8 @@
     "telefono": "573216467415",
     "nombre": "Napoleón Sánchez Cicero",
     "primerContacto": "2026-09-29T02:02:31.204Z",
-    "ultimoContacto": "2026-09-30T19:01:15.962Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T19:02:54.933Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17601,13 +17601,25 @@
         "fecha": "2026-09-30T19:01:14.725Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NDY3NDE1FQIAERgSOEY5QzBBMzk3RTA3RDFBQTUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santana Ramos Vaqueta Colombia",
+        "fecha": "2026-09-30T19:02:50.538Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Santander Ramos Vaqueta tenemos buena cobertura para que tu módem funcione sin problema.\n\nTe presento las 3 versiones que manejamos:\n\n- Modem WiFi Portátil 4G: conexión estable 4G, hasta 10 dispositivos, ideal para zonas rurales. La inversión es de $219.900.\n\n- Modem WiFi Portátil 4G/5G: para conexión 4G y 5G según la cobertura en tu zona, versátil para trabajo y estudios. La inversión es de $249.900.\n\n- Modem WiFi Portátil 5G: máxima velocidad si tu zona tiene buena señal 5G, también para conectar varios dispositivos. La inversión es de $249.900.\n\nTe recomiendo el 4G/5G porque combina buena cobertura y velocidad, es la opción más segura.\n\n¿Quieres que te ayude a dejar tu pedido listo? ¿Lo prefieres con envío a domicilio o recoges en oficina?",
+        "fecha": "2026-09-30T19:02:53.657Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NDY3NDE1FQIAERgSNUMwMDNFQTcwMkEwMjJFRjRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
