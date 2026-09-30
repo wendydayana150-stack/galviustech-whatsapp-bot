@@ -3,8 +3,8 @@
     "telefono": "573019185970",
     "nombre": "jesuscalleperez01",
     "primerContacto": "2026-09-30T00:04:32.665Z",
-    "ultimoContacto": "2026-09-30T00:07:51.128Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T00:08:21.905Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-30T00:07:50.171Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTg1OTcwFQIAERgSMzQwRUQzNTUwNDYwRDMyMDk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-09-30T00:08:16.853Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Nuestra Impresora Térmica Portátil Bluetooth es justo para eso: no depender de una papelería cuando necesitas imprimir algo urgente 🖨️\n\nEs del tamaño de un control remoto delgado (27.5 x 6.5 x 5 cm), cabe en cualquier bolso, no usa tinta ni tóner (imprime en blanco y negro), y funciona por Bluetooth desde tu celular. La batería te rinde hasta 30 horas y se carga completa en 3 horas.\n\nCuéntame, ¿en qué trabajas o para qué la usarías principalmente? ¿Facturas, cotizaciones, documentos, etiquetas?",
+        "fecha": "2026-09-30T00:08:20.985Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTg1OTcwFQIAERgSNEZCNDExMDkzQkJDNTc0QTIxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
