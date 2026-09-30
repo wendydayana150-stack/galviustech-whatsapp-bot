@@ -704,8 +704,8 @@
     "telefono": "573126659668",
     "nombre": "ecabralesh",
     "primerContacto": "2026-09-30T13:05:33.721Z",
-    "ultimoContacto": "2026-09-30T13:07:26.170Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-30T14:55:30.695Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -781,6 +781,32 @@
         "fecha": "2026-09-30T13:07:25.093Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSRDlGM0Q0RUQ4OEMwNzhBOENCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-09-30T14:15:36.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSMDdDNzVBQkM1RDdGNzVBNjBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ando buscando que sea de conexión satelital, ya que en mi zona la señal telefónica es muy muy mala",
+        "fecha": "2026-09-30T14:55:25.028Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo la dificultad que tienes con la señal en tu vereda. El módem que ofrecemos usa SIM de operador móvil, por lo que necesita algo de señal celular para funcionar; si realmente no hay señal de ningún operador, el módem no podrá conectarse porque no es satelital. La antena del módem es más potente que la de un celular y a veces agarra señal donde el celular no, ¿tu celular no tiene señal ahí mismo donde lo usarías? \n\nSi no hay señal en absoluto, puedo ayudarte a explorar otras opciones, ¿quieres que te oriente con algún producto o solución diferente?",
+        "fecha": "2026-09-30T14:55:28.942Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSNjRFRjdENzA1M0YyQTMwN0QzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T14:55:29.730Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSQTczQUYzNDdBMjhGQzlBMzc2AA=="
       }
     ],
     "paso": "conversando",
