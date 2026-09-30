@@ -1114,8 +1114,8 @@
     "telefono": "573165842252",
     "nombre": "Ashley Claush",
     "primerContacto": "2026-09-30T13:18:07.317Z",
-    "ultimoContacto": "2026-09-30T16:34:05.553Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T16:34:20.278Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1186,17 +1186,29 @@
         "fecha": "2026-09-30T16:34:04.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY1ODQyMjUyFQIAERgSNTMzMThFQTg3MDIzQzUyRUY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuando.complete te aviso",
+        "fecha": "2026-09-30T16:34:17.456Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para ayudarte cuando decidas. Recuerda que entre más rápido confirmes, más pronto puedes disfrutar de internet donde lo necesites sin complicaciones. ¿Quieres que te vaya guardando tu información o prefieres avisarme cuando estés listo?",
+        "fecha": "2026-09-30T16:34:19.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY1ODQyMjUyFQIAERgSRjAyQUQ3MzhCMUVGMEYxRjA2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
