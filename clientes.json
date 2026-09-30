@@ -9040,8 +9040,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T19:37:04.581Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-09-30T20:12:51.592Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9657,11 +9657,18 @@
         "fecha": "2026-09-30T19:37:03.652Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRDFGQ0ZBQ0Y3RTczNjhFMkVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia)",
+        "fecha": "2026-09-30T20:12:50.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMDJBQzNGQjIzN0E3NDBGRDVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
