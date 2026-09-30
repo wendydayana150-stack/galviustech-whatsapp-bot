@@ -3,8 +3,8 @@
     "telefono": "573005661488",
     "nombre": "Samuel",
     "primerContacto": "2026-09-30T02:37:03.407Z",
-    "ultimoContacto": "2026-09-30T02:37:03.407Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-30T02:38:00.177Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-09-30T02:37:02.279Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSNjE3QjY5MENDMEZDMTI4RDYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora",
+        "fecha": "2026-09-30T02:37:51.041Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Te cuento de la impresora térmica portátil 🖨️\n\nEs ideal si a veces te toca imprimir algo urgente (una factura, un recibo, un contrato) y no tienes una impresora a la mano. Es pequeñita, del tamaño de un control remoto (27.5 x 6.5 x 5 cm), así que te cabe en el bolso o la cartera sin problema. Se conecta por Bluetooth a tu celular y no necesita tinta ni tóner, ya viene con papel térmico incluido.\n\nCuéntame, ¿la necesitas para tu negocio, para el trabajo o te toca imprimir seguido estando fuera de casa?",
+        "fecha": "2026-09-30T02:37:59.008Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSMkIxRjU4QThBRTI0RjdFMEQ5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
