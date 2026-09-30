@@ -6204,8 +6204,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-30T00:59:15.005Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-09-30T00:59:25.422Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6723,9 +6723,21 @@
         "fecha": "2026-09-30T00:59:14.056Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSQkJGMjEwNTVENjczQTZERjVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "choco",
+        "fecha": "2026-09-30T00:59:24.429Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-30T00:59:24.429Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSQTk0NEMzOUIzRkYyOTE4NDM3AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -6733,7 +6745,8 @@
       "telefono": "573112177900",
       "nombreCliente": "Mary mena",
       "celular": "3112177900",
-      "departamento": "Choco"
+      "departamento": "Choco",
+      "ciudad": "choco"
     },
     "pausado": false,
     "etapaManual": null,
