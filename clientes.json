@@ -41,8 +41,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:56:16.348Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-30T21:56:31.372Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -391,21 +391,29 @@
         "fecha": "2026-09-30T21:56:15.468Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSNDcyN0Y4RDcwNzZFMUEyN0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En nequi",
+        "fecha": "2026-09-30T21:56:28.615Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* José López Gallardo\n*Celular:* 3180352799\n*Departamento:* Vichada\n*Ciudad:* Municipio cumaribo\n*Direccion:* Inspección santa Rita vichada\n*Barrio:* Es un pueblito\n*Producto:* COMBO Impresora Termica Portatil + Reloj\n*Medio de pago:* nequi\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-09-30T21:56:29.985Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSRTAwQTY3OUI0MzEwNUM4MUExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-09-30T21:56:30.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSRDhFQzE5NTFBMkYyQzQzNDFCAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-impresora-termica-portatil-reloj",
-      "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
-      "precio": 299900,
-      "telefono": "573180352799",
-      "nombreCliente": "José López Gallardo",
-      "celular": "3180352799",
-      "departamento": "Vichada",
-      "ciudad": "Municipio cumaribo",
-      "direccion": "Inspección santa Rita vichada",
-      "barrio": "Es un pueblito"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-reloj",
