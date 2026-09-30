@@ -41,8 +41,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:56:31.372Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-30T21:56:47.205Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -410,13 +410,32 @@
         "fecha": "2026-09-30T21:56:30.536Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSRDhFQzE5NTFBMkYyQzQzNDFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-09-30T21:56:43.537Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entonces te dejo el pedido completo para la impresora térmica portátil. El envío es gratis y llega en 2 a 4 días hábiles después de despachar. Cuando te llegue, te ayudo con la configuración si quieres. ¿Me confirmas a qué dirección te lo enviamos para dejar todo en orden?",
+        "fecha": "2026-09-30T21:56:45.715Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSOUYwMzA2Njg0RjA4Qzc4MjkyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-09-30T21:56:46.380Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSNDMwOENDMjc1MTMyMTVDQTgzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-impresora-termica-portatil-reloj",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
