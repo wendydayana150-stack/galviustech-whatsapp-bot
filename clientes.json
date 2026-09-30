@@ -1375,8 +1375,8 @@
     "telefono": "573112322948",
     "nombre": "+57 311 2322948",
     "primerContacto": "2026-09-30T12:53:14.954Z",
-    "ultimoContacto": "2026-09-30T16:04:37.202Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T16:04:42.648Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1454,6 +1454,18 @@
         "fecha": "2026-09-30T16:04:36.077Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzIyOTQ4FQIAERgSMjQ3ODEzQUI1MTcxNEQ3NDdDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me interesa",
+        "fecha": "2026-09-30T16:04:39.993Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta si en el futuro necesitas ayuda con internet, impresión, seguridad o iluminación. Siempre puedes contar con GalviusTech para eso. ¿Quieres que te deje más información para cuando la necesites?",
+        "fecha": "2026-09-30T16:04:41.663Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzIyOTQ4FQIAERgSMUFEMTkwMjJGQUI4Q0I2MDAzAA=="
       }
     ],
     "paso": "conversando",
@@ -1464,7 +1476,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
