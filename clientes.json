@@ -73,8 +73,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:56:47.205Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-09-30T21:59:13.836Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -461,11 +461,18 @@
         "fecha": "2026-09-30T21:56:46.380Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSNDMwOENDMjc1MTMyMTVDQTgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Estos son los datos para tu transferencia: *BANCOLOMBIA* Cuenta de ahorros 41100042485 *NEQUI* 3023890578 Hector Rojas *BRE-B* @3023890578 Cuando hagas la transferencia, envianos el comprobante por aqui mismo.",
+        "fecha": "2026-09-30T21:59:12.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSNzA2OUZENjlENTYxRjYxRTFDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
