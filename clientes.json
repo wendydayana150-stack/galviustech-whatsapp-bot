@@ -3,8 +3,8 @@
     "telefono": "573112812731",
     "nombre": "Cristina",
     "primerContacto": "2026-09-30T20:46:13.961Z",
-    "ultimoContacto": "2026-09-30T20:46:24.855Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T20:46:40.104Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-09-30T20:46:23.679Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyODEyNzMxFQIAERgSRjZFMTIyNjMzOEZDREE2NjA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-09-30T20:46:36.733Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil se recarga con un cable USB y su batería dura hasta 30 horas con una carga completa, que tarda alrededor de 3 horas en cargarse totalmente. Es super práctica porque no necesitas tinta ni cartuchos; imprime rápido y en blanco y negro. Mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, un tamaño ideal para llevar en tu bolso o mochila. ¿Para qué tipo de impresión la usarías normalmente? Así te doy una recomendación más específica.",
+        "fecha": "2026-09-30T20:46:39.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyODEyNzMxFQIAERgSQjU5OUVCOTc5NTI2OENEMjk3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
