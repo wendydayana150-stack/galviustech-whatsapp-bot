@@ -3359,8 +3359,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-29T21:40:49.422Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-30T02:36:09.001Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3772,9 +3772,35 @@
         "fecha": "2026-09-29T21:40:48.452Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMDNFQzU5QkQyNjUzMjEyQ0YxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Y en que ciudad o municipio?",
+        "fecha": "2026-09-29T22:47:36.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSNzY2NDRDRUY2QTM0NzI1QjM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nY en que ciudad o municipio?",
+        "fecha": "2026-09-30T00:47:35.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSOTk4QUZDNkEyRDhDRTlDQjQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad medellín",
+        "fecha": "2026-09-30T02:36:07.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-30T02:36:07.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSNUM1RjE4OEU5RDgxNUQxQjUxAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -3782,7 +3808,8 @@
       "telefono": "573176926665",
       "nombreCliente": "Darwin yamid mazo arango",
       "celular": "3176926665",
-      "departamento": "Antioquia"
+      "departamento": "Antioquia",
+      "ciudad": "Ciudad medellín"
     },
     "pausado": false,
     "etapaManual": null,
