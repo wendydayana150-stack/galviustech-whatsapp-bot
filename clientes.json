@@ -7568,8 +7568,8 @@
     "telefono": "573238762494",
     "nombre": "+573238762494",
     "primerContacto": "2026-09-29T16:27:30.283Z",
-    "ultimoContacto": "2026-09-29T16:27:30.283Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-30T11:08:18.982Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7609,13 +7609,32 @@
         "fecha": "2026-09-29T16:27:29.372Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NzYyNDk0FQIAERgSMjI4NTU5MjU4MjY2Mzk2OENDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo por aquí pendiente de nuestros productos, por si se te ofrece algo o te quedo alguna duda.\nCuéntame y con gusto te ayudo a dejarlo listo. 🙋‍♀️",
+        "fecha": "2026-09-30T11:06:51.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NzYyNDk0FQIAERgSNkUwNjQ4QTQwNEVCMEU5OTM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No lo comprare",
+        "fecha": "2026-09-30T11:07:29.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, que bueno que me lo digas. ¿Hay algo que te genere duda o te gustaría saber para ayudarte mejor? Recuerda que con el modem WiFi portátil puedes tener internet donde no llega la fibra ni un buen WiFi, ideal para estudiar, trabajar o viajar sin contratiempos. ¿Quieres que te muestre las opciones con precios para que compares cuándo quieras?",
+        "fecha": "2026-09-30T11:07:31.997Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NzYyNDk0FQIAERgSQkI1RkE3NDg5QjIxQkYzOEE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
