@@ -3,8 +3,8 @@
     "telefono": "573143228132",
     "nombre": "Krisni",
     "primerContacto": "2026-09-30T20:17:11.188Z",
-    "ultimoContacto": "2026-09-30T20:20:28.930Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T20:21:38.629Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-09-30T20:20:27.944Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSRTdCREVFQUU3NUFFNEJDNTEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias cualquier cosa te aviso",
+        "fecha": "2026-09-30T20:21:36.025Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De acuerdo, quedo atenta para cuando quieras seguir. Recuerda que con el módem 4G/5G de GalviusTech vas a tener internet donde lo necesitas, sin instalaciones complicadas y con mejor cobertura que un celular común. Si cambiás de opinión, aquí estaré para ayudarte.\n\n¡Que tengas un buen día! ¿Querés que te deje alguna información adicional para cuando decidas?",
+        "fecha": "2026-09-30T20:21:37.620Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSRDMzODJFOTNCNzM0NTFBNjRBAA=="
       }
     ],
     "paso": "conversando",
@@ -78,7 +90,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
