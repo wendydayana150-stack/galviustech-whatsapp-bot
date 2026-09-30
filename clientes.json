@@ -21355,8 +21355,8 @@
     "telefono": "573143554380",
     "nombre": "siesseguridad2024",
     "primerContacto": "2026-09-28T22:26:18.680Z",
-    "ultimoContacto": "2026-09-30T15:21:18.898Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-30T15:21:35.269Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -21571,6 +21571,18 @@
         "fecha": "2026-09-30T15:21:18.025Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSMThCNkRDQkNGQTc0ODJCMUI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-30T15:21:33.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando decidas 😊 ¿Quieres que te avise si hay alguna promo especial en impresoras o algún combo?",
+        "fecha": "2026-09-30T15:21:34.145Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNTU0MzgwFQIAERgSNzRFN0I4RTIzNTBBRkIzM0RBAA=="
       }
     ],
     "paso": "conversando",
@@ -21581,7 +21593,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "promoDiariaFecha": "2026-9-30",
