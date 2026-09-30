@@ -37684,8 +37684,8 @@
     "telefono": "573172790225",
     "nombre": "RONALD MARROQUIN LEON",
     "primerContacto": "2026-09-27T18:40:23.762Z",
-    "ultimoContacto": "2026-09-30T11:59:38.690Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-09-30T15:41:45.001Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -38063,6 +38063,13 @@
         "fecha": "2026-09-30T11:59:37.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyNzkwMjI1FQIAERgSRjg5QzMwQzQ5OTY3OEEzNzA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Ronald, disculpa la demora, tuvimos un problema tecnico que ya solucionamos y por eso no podiamos procesar tu solicitud de cancelar. ¿Aun quieres cancelar el pedido de la impresora, o prefieres que lo continuemos? Quedo atenta.",
+        "fecha": "2026-09-30T15:41:43.758Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyNzkwMjI1FQIAERgSMzRGNUI3MTA1QzlCQTQzNEUxAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -38073,7 +38080,7 @@
       "telefono": "573172790225",
       "nombreCliente": "Esa impresora trae papel con la compra"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
