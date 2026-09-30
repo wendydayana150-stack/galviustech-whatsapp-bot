@@ -3,8 +3,8 @@
     "telefono": "573102517549",
     "nombre": "Edena Salas Pacheco",
     "primerContacto": "2026-09-30T11:14:02.443Z",
-    "ultimoContacto": "2026-09-30T11:15:03.240Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T11:15:48.158Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -63,13 +63,25 @@
         "fecha": "2026-09-30T11:14:04.618Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNTE3NTQ5FQIAERgSMTkwNDNDRERDRjY3REQyMzUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me encuentro en boyacá",
+        "fecha": "2026-09-30T11:15:04.611Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Boyacá es una zona donde muchos clientes ya disfrutan de mejor cobertura con nuestro módem. Cuéntame, ¿para qué necesitas el modem? ¿Trabajo, estudio, hogar o viajes? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-09-30T11:15:05.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNTE3NTQ5FQIAERgSNkI0OTgyQTZEQTYwRjY4MUVFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
