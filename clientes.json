@@ -6204,8 +6204,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-30T01:00:52.579Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-09-30T01:01:10.869Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6747,9 +6747,21 @@
         "fecha": "2026-09-30T01:00:51.520Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSNDQzOURDODFERjkzQjYzRTY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "obrero",
+        "fecha": "2026-09-30T01:01:09.769Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-30T01:01:09.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSNEMzRTZCODgxQjBCNkQzOUIwAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -6759,7 +6771,8 @@
       "celular": "3112177900",
       "departamento": "Choco",
       "ciudad": "choco",
-      "direccion": "Obrero  interapidocimo\nAl frente del colegiopedro grao y arola"
+      "direccion": "Obrero  interapidocimo\nAl frente del colegiopedro grao y arola",
+      "barrio": "obrero"
     },
     "pausado": false,
     "etapaManual": null,
