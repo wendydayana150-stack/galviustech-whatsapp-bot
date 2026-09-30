@@ -3,8 +3,8 @@
     "telefono": "573143228132",
     "nombre": "Krisni",
     "primerContacto": "2026-09-30T20:17:11.188Z",
-    "ultimoContacto": "2026-09-30T20:17:11.188Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-30T20:18:08.357Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-09-30T20:17:10.279Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSRDIzNkJEQkNFOUZBNDhDMDE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para la zona rural",
+        "fecha": "2026-09-30T20:18:03.881Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zona rural te recomiendo estos tres modems que tenemos:\n\n- Módem WiFi Portátil 4G a $219.900: conexión estable con mejor cobertura en zonas sin fibra óptica, fácil de llevar.\n- Módem WiFi Portátil 4G/5G a $249.900: funciona con redes 4G y 5G, ideal para tener señal más rápida si llega 5G a tu zona.\n- Módem WiFi Portátil 5G a $249.900: para quienes ya cuentan con buena cobertura 5G y quieren la máxima velocidad.\n\nTodos incluyen SIM Claro sin plan ni recarga activa, y la batería dura hasta 14 horas cargada. Además, la antena del modem tiene mejor alcance que un celular común para que navegues sin interrupciones.\n\n¿Querés que te ayude a dejar listo tu pedido de alguno de estos? ¿Cuántos dispositivos planeás conectar?",
+        "fecha": "2026-09-30T20:18:07.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSNzIyQjYwODRDRDUzQzI4NzRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
