@@ -29660,8 +29660,8 @@
     "telefono": "573213271143",
     "nombre": "Tatiana 🌹🖤🌹",
     "primerContacto": "2026-09-28T05:02:14.745Z",
-    "ultimoContacto": "2026-09-29T11:24:04.226Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T11:15:58.603Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29732,6 +29732,25 @@
         "fecha": "2026-09-29T11:24:02.026Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSRTY0QjgwRTk2MDUyQzg5REYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Tatiana 🌹🖤🌹, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-30T11:07:25.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSNDYzNDEyMTgxRjdCRjIzRjg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dejen la maldita hostigadera hijueputas",
+        "fecha": "2026-09-30T11:15:12.956Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento mucho que te hayas sentido así, Tatiana. No es nuestra intención incomodarte ni molestarte. Quedo atenta si en algún momento decides que podemos ayudarte con algo. Que estés bien.",
+        "fecha": "2026-09-30T11:15:13.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMjcxMTQzFQIAERgSMjU4NjNCQkY5OEYxMjVGMjQzAA=="
       }
     ],
     "paso": "conversando",
@@ -29740,8 +29759,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Dejen la maldita hostigadera hijueputas\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
