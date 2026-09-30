@@ -53,8 +53,8 @@
     "telefono": "573145818474",
     "nombre": "Dios es uno",
     "primerContacto": "2026-09-30T03:28:49.362Z",
-    "ultimoContacto": "2026-09-30T03:30:00.595Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T03:52:37.667Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -106,16 +106,23 @@
         "fecha": "2026-09-30T03:29:59.340Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1ODE4NDc0FQIAERgSMDc3RjdENDUxQzQzQzc4RThFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para Funza tenemos envio GRATIS, que Modem te llamó la atención?",
+        "fecha": "2026-09-30T03:52:36.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1ODE4NDc0FQIAERgSQ0YyQjQ2OTZBOTdERUNBQUJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Funza\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
