@@ -3,8 +3,8 @@
     "telefono": "573016832488",
     "nombre": "luzromerocañon",
     "primerContacto": "2026-09-30T09:16:56.114Z",
-    "ultimoContacto": "2026-09-30T09:33:03.723Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-30T09:34:07.471Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,25 @@
         "fecha": "2026-09-30T09:33:02.804Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2ODMyNDg4FQIAERgSRDZEMUM4MzFCQ0Q1QjM0QUFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienes pago contra entrega",
+        "fecha": "2026-09-30T09:34:04.089Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, obviamente. Podés pagar contra entrega sin problema, y el envío va incluido sin costo adicional. Llega en 2 a 4 días hábiles después de que se despacha el pedido. \n\n¿Me decís la dirección a la que te lo enviamos o preferís recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-09-30T09:34:05.872Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2ODMyNDg4FQIAERgSNjc4RDQ5N0VCMjQ0NTVFNDVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T09:34:06.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2ODMyNDg4FQIAERgSQ0YwRTRDRTgzMzUwODBFNkQ5AA=="
       }
     ],
     "paso": "conversando",
