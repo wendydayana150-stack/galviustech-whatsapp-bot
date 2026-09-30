@@ -18329,8 +18329,8 @@
     "telefono": "573167527464",
     "nombre": "Linda",
     "primerContacto": "2026-09-28T23:04:37.108Z",
-    "ultimoContacto": "2026-09-29T00:23:48.519Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-30T11:19:51.433Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18485,6 +18485,25 @@
         "fecha": "2026-09-29T00:23:47.581Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNTQyRDZBRUQ1NzVDNUIyRUVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Linda, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-09-30T11:06:44.456Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSQUVBODE4MzFDM0E3QTkwRkJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-30T11:17:38.573Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Linda, gracias por tu tiempo. Si en algún momento necesitas algo, aquí estoy para ayudarte.\n\n¿Quieres que te muestre otro producto o prefieres que quedemos para cuando decidas?",
+        "fecha": "2026-09-30T11:17:39.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNTNCQ0YxOTEwODJBNDAwRUQyAA=="
       }
     ],
     "paso": "confirmar_producto",
