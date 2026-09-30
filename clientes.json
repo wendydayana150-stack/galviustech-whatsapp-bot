@@ -61,8 +61,8 @@
     "telefono": "573242855352",
     "nombre": "Elkin",
     "primerContacto": "2026-09-30T11:05:34.896Z",
-    "ultimoContacto": "2026-09-30T11:13:14.004Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T11:14:31.698Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -94,6 +94,18 @@
         "fecha": "2026-09-30T11:10:37.847Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyODU1MzUyFQIAERgSQjUzMDU4NDRGOTEzNkREMjk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Me gustaría conseguir más información sobre esto.",
+        "fecha": "2026-09-30T11:13:15.882Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! Para ayudarte bien, dime en qué ciudad estás y para qué usarías el producto que te interesa. Así te oriento mejor. ¿Qué producto quieres saber más? ¿Modem, impresora, lámpara o cámara?",
+        "fecha": "2026-09-30T11:13:16.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyODU1MzUyFQIAERgSNzBCMTA4QkZDRkNCOTlDNjg1AA=="
       }
     ],
     "paso": "conversando",
