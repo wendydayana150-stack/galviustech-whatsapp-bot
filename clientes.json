@@ -61,8 +61,8 @@
     "telefono": "573016832488",
     "nombre": "luzromerocañon",
     "primerContacto": "2026-09-30T09:16:56.114Z",
-    "ultimoContacto": "2026-09-30T09:34:19.208Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-09-30T09:34:40.978Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -181,6 +181,18 @@
         "fecha": "2026-09-30T09:34:18.197Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2ODMyNDg4FQIAERgSQTU5RjRBRDhBOEMyRTI2RjVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vale déjame consulto",
+        "fecha": "2026-09-30T09:34:38.641Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando decidas. Recuerda que tener tu propio módem 4G/5G de GalviusTech te asegura internet estable para estudiar y viajar sin depender de WiFi ajeno.\n\n¿Quieres que te mande info adicional mientras lo piensas o prefieres que te escriba después?",
+        "fecha": "2026-09-30T09:34:40.027Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2ODMyNDg4FQIAERgSQkRFNDkyMTI2ODU5MUI1MjFBAA=="
       }
     ],
     "paso": "conversando",
@@ -191,7 +203,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
