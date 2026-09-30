@@ -3,8 +3,8 @@
     "telefono": "573145818474",
     "nombre": "Dios es uno",
     "primerContacto": "2026-09-30T03:28:49.362Z",
-    "ultimoContacto": "2026-09-30T03:28:49.362Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-30T03:30:00.595Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-09-30T03:28:48.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1ODE4NDc0FQIAERgSRDY3NTU2MEJBNDZCNzU3Q0RGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Funza",
+        "fecha": "2026-09-30T03:29:50.193Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estas son nuestras 3 versiones del modem:\n\n*Modem 4G* - $ 219.900\n*Modem 4G/5G* - $ 249.900\n*Modem 5G* - $ 249.900\n\nSi no estas seguro de la cobertura en tu zona, te recomiendo el *Modem 4G/5G*: funciona tanto donde solo hay 4G como donde ya llega 5G.\n\nTe ayudo a dejar tu pedido listo con cual de las 3?",
+        "fecha": "2026-09-30T03:29:59.340Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1ODE4NDc0FQIAERgSMDc3RjdENDUxQzQzQzc4RThFAA=="
       }
     ],
     "paso": "conversando",
@@ -52,8 +64,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no genero ninguna respuesta para este mensaje: \"Funza\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null
   },
