@@ -99,8 +99,8 @@
     "telefono": "573128516723",
     "nombre": "Mary Berrio",
     "primerContacto": "2026-09-30T20:46:42.304Z",
-    "ultimoContacto": "2026-09-30T20:46:42.304Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-09-30T21:03:46.080Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,13 +140,25 @@
         "fecha": "2026-09-30T20:46:39.403Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4NTE2NzIzFQIAERgSQTAyMzI2QUUwNkNFMjMzQkU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural",
+        "fecha": "2026-09-30T21:03:42.663Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zona rural te recomiendo el Modem WiFi Portátil 4G/5G, que te permite tener internet estable donde no llega fibra óptica y tiene mejor cobertura que el celular. También está el 4G más económico y el 5G para zonas con buena señal 5G. La inversión para el 4G es de $219.900, para el 4G/5G $249.900 y para el 5G también $249.900. ¿Cuál te gustaría que te explique mejor o quieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-09-30T21:03:45.214Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4NTE2NzIzFQIAERgSRTFFRjkzMzI1QTZCQjJGOUE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
