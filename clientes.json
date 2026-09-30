@@ -6204,8 +6204,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-30T00:59:25.422Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-09-30T01:00:52.579Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6735,9 +6735,21 @@
         "fecha": "2026-09-30T00:59:24.429Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSQTk0NEMzOUIzRkYyOTE4NDM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Obrero  interapidocimo\nAl frente del colegiopedro grao y arola",
+        "fecha": "2026-09-30T01:00:51.520Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-09-30T01:00:51.520Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSNDQzOURDODFERjkzQjYzRTY3AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -6746,7 +6758,8 @@
       "nombreCliente": "Mary mena",
       "celular": "3112177900",
       "departamento": "Choco",
-      "ciudad": "choco"
+      "ciudad": "choco",
+      "direccion": "Obrero  interapidocimo\nAl frente del colegiopedro grao y arola"
     },
     "pausado": false,
     "etapaManual": null,
