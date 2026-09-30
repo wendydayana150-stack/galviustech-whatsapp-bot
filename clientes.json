@@ -2716,8 +2716,8 @@
     "telefono": "573152038646",
     "nombre": "Mario Orduz",
     "primerContacto": "2026-09-29T20:09:55.269Z",
-    "ultimoContacto": "2026-09-29T23:51:30.845Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-30T00:05:49.116Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2831,17 +2831,29 @@
         "fecha": "2026-09-29T23:51:29.710Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyMDM4NjQ2FQIAERgSNzFGNkNGQjA2NEFBQTBGMTZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Después confirmo Gracias",
+        "fecha": "2026-09-30T00:05:43.251Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, sin afán 😊 Quedo atenta por acá cuando estés list@ para confirmar el módem 4G/5G.\n\nCualquier duda que te surja, ya sea de cobertura, del envío o lo que sea, me escribes con toda confianza. ¡Que tengas buen día! 🙌",
+        "fecha": "2026-09-30T00:05:47.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyMDM4NjQ2FQIAERgSNzM0RTNDQ0RBNkIxOUE4NjJDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
