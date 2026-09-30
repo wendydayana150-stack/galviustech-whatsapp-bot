@@ -1670,8 +1670,8 @@
     "telefono": "573125366035",
     "nombre": "Hotel Corral Ok",
     "primerContacto": "2026-09-30T13:54:36.692Z",
-    "ultimoContacto": "2026-09-30T19:15:46.196Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T19:17:07.823Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1743,13 +1743,25 @@
         "fecha": "2026-09-30T19:15:45.063Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MzY2MDM1FQIAERgSMzM2M0MyNkUxRDM2ODExNzk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para imprimir mis trabajos",
+        "fecha": "2026-09-30T19:17:04.587Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que bueno que me dices que necesitas imprimir tus trabajos, eso te ahorra mucho tiempo y no depender de papelerías cuando estás en la calle o afuera.\n\nLa Impresora Térmica Portátil Bluetooth es ideal para eso: la puedes llevar en tu bolso porque mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, imprime rápido sin necesidad de tinta y desde tu celular (Android o iPhone).\n\nLa inversión sería de $249.900.\n\n¿Quieres que te cuente cómo funciona la batería y el papel que incluye? ¿O prefieres que montemos el pedido ya?",
+        "fecha": "2026-09-30T19:17:06.733Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MzY2MDM1FQIAERgSMDhBNUEyMTU1RURDOTcxRTI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
