@@ -3,8 +3,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:55:11.072Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-30T21:55:19.327Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -305,16 +305,29 @@
         "fecha": "2026-09-30T21:55:09.931Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSMEM2NEY3N0NGOUFGMzQ4OTg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vichada",
+        "fecha": "2026-09-30T21:55:18.554Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-09-30T21:55:18.554Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSMjA2QkM1MzYyOTkyMjNFOTBGAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573180352799",
       "nombreCliente": "José López Gallardo",
-      "celular": "3180352799"
+      "celular": "3180352799",
+      "departamento": "Vichada"
     },
     "pausado": false,
     "etapaManual": null,
