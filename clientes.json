@@ -3,8 +3,8 @@
     "telefono": "573126659668",
     "nombre": "ecabralesh",
     "primerContacto": "2026-09-30T13:05:33.721Z",
-    "ultimoContacto": "2026-09-30T13:05:49.211Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T13:06:14.290Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,25 @@
         "fecha": "2026-09-30T13:05:48.182Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSOUExNTk1NDBGOTY5QjQwQkU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "1. Con que operador trabaja este módem",
+        "fecha": "2026-09-30T13:06:11.443Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! El módem funciona con SIM card de todos los operadores en Colombia: Claro, Movistar, Tigo, WOM, ETB, dependiendo de la cobertura en tu zona. Además, incluye una SIM de Claro de regalo, aunque sin plan ni megas activados; tú mismo eliges el plan que prefieras. ¿En qué municipio o vereda lo usarías para asegurarte de recomendarte el que mejor cubra tu zona?",
+        "fecha": "2026-09-30T13:06:13.314Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSQzQwQkVEOEI1ODNCNTFFNTBFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
