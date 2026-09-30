@@ -3,8 +3,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:53:57.342Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-30T21:54:20.900Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -281,14 +281,27 @@
         "fecha": "2026-09-30T21:53:56.474Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSNTA4QjQ3RTA0QUMxQThCMjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "José López Gallardo",
+        "fecha": "2026-09-30T21:54:19.803Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-09-30T21:54:19.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSOTA4NTNFREQ0MDUxOENCNTc2AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
-      "telefono": "573180352799"
+      "telefono": "573180352799",
+      "nombreCliente": "José López Gallardo"
     },
     "pausado": false,
     "etapaManual": null,
