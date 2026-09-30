@@ -8367,8 +8367,8 @@
     "telefono": "573238762494",
     "nombre": "+573238762494",
     "primerContacto": "2026-09-29T16:27:30.283Z",
-    "ultimoContacto": "2026-09-30T11:08:18.982Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T12:24:30.803Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8427,6 +8427,18 @@
         "fecha": "2026-09-30T11:07:31.997Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NzYyNDk0FQIAERgSQkI1RkE3NDg5QjIxQkYzOEE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No lo comprare",
+        "fecha": "2026-09-30T12:24:27.234Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que por ahora no sea el momento. Si en algún futuro necesitas una conexión fiable en zonas donde no hay fibra o un WiFi estable, aquí estaré para ayudarte. ¿Quieres que te muestre también otros productos que tenemos, como impresoras portátiles o lámparas solares? Quizás alguno se ajuste mejor a lo que buscas.",
+        "fecha": "2026-09-30T12:24:29.370Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NzYyNDk0FQIAERgSNzY5Nzk3Q0JBNzBBODFFQjY1AA=="
       }
     ],
     "paso": "conversando",
@@ -8437,7 +8449,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
