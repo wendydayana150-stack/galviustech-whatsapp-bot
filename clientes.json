@@ -1198,8 +1198,8 @@
     "telefono": "573118479148",
     "nombre": "Omar Cruz",
     "primerContacto": "2026-09-30T17:30:42.350Z",
-    "ultimoContacto": "2026-09-30T18:33:58.923Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T21:49:30.937Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1258,13 +1258,32 @@
         "fecha": "2026-09-30T18:33:57.866Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSOTJGNEIyMzczMUFBQzZDNEU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-30T21:43:32.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSQkVBQUVGQjQ2ODQxMEZGRDI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si mil gracias, pero pensé que venía con servicio de internet starlink",
+        "fecha": "2026-09-30T21:49:27.945Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu duda. El módem que tenemos es para conexión móvil con SIM de Claro, no es satelital como Starlink. Eso sí, incluye una SIM gratis pero sin datos activados; tú decides el plan que necesitas luego. \n\nEsta solución es ideal para zonas rurales o donde no llega fibra, con mejor cobertura que un celular normal. ¿Quieres que te cuente las versiones que tengo para que elijas la que mejor se adapte a tu uso? ¿En qué zona la usarías?",
+        "fecha": "2026-09-30T21:49:29.871Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSQzVGRTVCNTM2OTREOTBGMzVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
