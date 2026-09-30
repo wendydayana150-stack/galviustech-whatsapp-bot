@@ -26923,8 +26923,8 @@
     "telefono": "573134770959",
     "nombre": "Luz Mari",
     "primerContacto": "2026-09-28T17:22:04.805Z",
-    "ultimoContacto": "2026-09-29T14:29:00.067Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-09-30T15:42:18.252Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -27183,6 +27183,13 @@
         "fecha": "2026-09-29T14:28:58.910Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSREY5RUE1QjA4MEUzMkJERTNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Luz Mari, disculpa la confusion. El COMBO Impresora Termica Portatil + Camara de seguridad tiene un valor de $299.900. Para continuar con tu pedido necesito confirmar tu nombre completo, me lo puedes escribir?",
+        "fecha": "2026-09-30T15:42:16.945Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzcwOTU5FQIAERgSOTA0NEU5MDVCMUY5QzJEOTE0AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -27193,7 +27200,7 @@
       "telefono": "573134770959",
       "nombreCliente": "Cuanto vale"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-impresora-termica-portatil-camara-de-seguridad",
     "ultimaCategoria": "impresora",
