@@ -913,8 +913,8 @@
     "telefono": "573242107170",
     "nombre": "jq4580287@gmail.Com",
     "primerContacto": "2026-09-30T17:27:08.740Z",
-    "ultimoContacto": "2026-09-30T17:31:10.405Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-30T21:07:15.380Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -997,6 +997,32 @@
         "fecha": "2026-09-30T17:31:09.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyMTA3MTcwFQIAERgSRDBEQ0U3RkY2OEMwMzZGRDMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-09-30T18:33:33.662Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMTA3MTcwFQIAERgSMTQ2RUFEMDA2M0ZGN0VGRDM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-30T20:33:32.678Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMTA3MTcwFQIAERgSRTlERjMzRTk3MEUxQUYzQjg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muchas gracias",
+        "fecha": "2026-09-30T21:07:12.786Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta entonces para cuando decidas 😊 Mientras tanto, cualquier duda que te surja aquí estoy. ¿Te gustaría que te muestre también otras opciones de conectividad o productos que tenemos en GalviusTech?",
+        "fecha": "2026-09-30T21:07:14.436Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMTA3MTcwFQIAERgSMUZCQzk3RDE4NUQ3NzI1MjkzAA=="
       }
     ],
     "paso": "conversando",
@@ -1007,7 +1033,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
