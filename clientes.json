@@ -3,8 +3,8 @@
     "telefono": "573005661488",
     "nombre": "Samuel",
     "primerContacto": "2026-09-30T02:37:03.407Z",
-    "ultimoContacto": "2026-09-30T02:38:00.177Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T02:38:33.777Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,6 +36,25 @@
         "fecha": "2026-09-30T02:37:59.008Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSMkIxRjU4QThBRTI0RjdFMEQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuál es el precio",
+        "fecha": "2026-09-30T02:38:26.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión por la impresora térmica portátil es de $249.900. Y créeme que se paga sola rapidito: no gastas en tinta ni tóner, imprime directo desde tu celular por Bluetooth, y te ahorras esas vueltas a la papelería cuando algo urge 💪\n\nPor cierto, si necesitas papel térmico extra tengo dos opciones: paquete de 52 hojas carta por $38.000, o rollo de 9 metros por $10.000. ¿Alguno te sirve o por ahora solo la impresora?\n\n¿La usarías más para tu negocio, documentos personales o facturación?",
+        "fecha": "2026-09-30T02:38:31.829Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSNzk3NkY0QkZBMEFBMjM4NUJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T02:38:32.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSQkFFN0E3NTcwNDRGMUYyMzdGAA=="
       }
     ],
     "paso": "conversando",
