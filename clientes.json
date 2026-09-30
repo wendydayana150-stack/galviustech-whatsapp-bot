@@ -3,8 +3,8 @@
     "telefono": "573192096333",
     "nombre": "Óscar",
     "primerContacto": "2026-09-30T14:13:55.410Z",
-    "ultimoContacto": "2026-09-30T14:16:17.222Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-09-30T14:16:46.536Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-09-30T14:16:16.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTkyMDk2MzMzFQIAERgSODlDNDk2MTVFMDMyMzk3MTBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hoja normal",
+        "fecha": "2026-09-30T14:16:41.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Esta impresora térmica no usa hojas normales, funciona con papel térmico que ya viene incluido en el equipo. Además, si quieres, puedo ofrecerte papel térmico adicional: un paquete con 52 hojas tamaño carta por $38.000 o un rollo tamaño carta de 9 metros por $10.000, ambos con envío gratis. ¿Quieres que te agregue alguno al pedido?\n\nProducto que te interesa: Impresora térmica portátil bluetooth, ¿verdad? ¿Para qué actividad principalmente la usarías? Así te ayudo mejor.",
+        "fecha": "2026-09-30T14:16:44.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTkyMDk2MzMzFQIAERgSQjAzNEMzODg1RUIxOTY1MDAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T14:16:44.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTkyMDk2MzMzFQIAERgSMUREODk3NjQzRjExM0M4RDNCAA=="
       }
     ],
     "paso": "conversando",
