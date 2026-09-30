@@ -7191,8 +7191,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T04:00:13.643Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-09-30T14:24:02.458Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7649,6 +7649,41 @@
         "fecha": "2026-09-30T04:00:12.303Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRTRENzdFRDYwRjMyODM1MDkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola yamid, sobre modem WiFi portátil",
+        "fecha": "2026-09-30T11:06:00.346Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRTQ1RjEwRUIxMjI3QkUzOEE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu pedido esta casi listo, solo falta un ultimo dato para poder despacharlo.\n\nEn que barrio queda esa direccion?",
+        "fecha": "2026-09-30T11:06:26.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRDVCQjZCRThDNUJGREU0NERFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nEn que barrio queda esa direccion?",
+        "fecha": "2026-09-30T11:16:13.318Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRTE5MTMwQjExMzczODNBOUVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nEn que barrio queda esa direccion?",
+        "fecha": "2026-09-30T13:05:37.461Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSNzMyODI2ODYxNjUxRDc3QTk3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia. Ciudad medellin Antioquia cual es la dirección?",
+        "fecha": "2026-09-30T14:24:01.165Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMThEODkyQkYzNzI0MUM5OEZBAA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -7663,7 +7698,7 @@
       "ciudad": "Ciudad medellín",
       "direccion": "Municipio bello"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
