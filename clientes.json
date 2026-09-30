@@ -3802,8 +3802,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T02:36:11.680Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-09-30T04:00:13.643Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4253,6 +4253,13 @@
         "fecha": "2026-09-30T02:36:10.788Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSNjQxQTk4OTVDNjAxMjQ5MUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, me envias direccion completa para realizar el envio",
+        "fecha": "2026-09-30T04:00:12.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRTRENzdFRDYwRjMyODM1MDkzAA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -4267,7 +4274,7 @@
       "ciudad": "Ciudad medellín",
       "direccion": "Municipio bello"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
