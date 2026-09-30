@@ -19,6 +19,9 @@ const {
         PHONE_NUMBER_ID,
         VERIFY_TOKEN,
         ANTHROPIC_API_KEY,
+        OPENAI_API_KEY,
+        OPENAI_MODEL,
+        AI_PROVIDER,
         GITHUB_TOKEN,
         GITHUB_OWNER,
         GITHUB_REPO,
@@ -32,6 +35,12 @@ const PUERTO = PORT || 3000;
 const GRAPH_URL = `https://graph.facebook.com/v20.0/${PHONE_NUMBER_ID}/messages`;
 const ANTHROPIC_URL = "https://api.anthropic.com/v1/messages";
 const ANTHROPIC_MODEL = "claude-sonnet-5";
+const OPENAI_URL = "https://api.openai.com/v1/chat/completions";
+const MODELO_OPENAI = OPENAI_MODEL || "gpt-4.1-mini";
+// Que IA responde: si existe OPENAI_API_KEY se usa OpenAI. Para volver a Anthropic sin tocar
+// codigo, basta con poner AI_PROVIDER=anthropic en las variables de entorno de Render.
+const USAR_OPENAI = (AI_PROVIDER || "").toLowerCase() !== "anthropic" && !!OPENAI_API_KEY;
+console.log(`IA activa: ${USAR_OPENAI ? "OpenAI (" + MODELO_OPENAI + ")" : "Anthropic (" + ANTHROPIC_MODEL + ")"}`);
 const PEDIDOS_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/pedidos.json`;
 const CLIENTES_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/clientes.json`;
 const CATALOGO_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/catalog.json`;
@@ -1214,7 +1223,28 @@ async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
       }
 
 let respuesta;
+let textoCompleto;
 try {
+      if (USAR_OPENAI) {
+      const r = await axios.post(
+            OPENAI_URL,
+            {
+                  model: MODELO_OPENAI,
+                  max_completion_tokens: 700,
+                  messages: [
+                        { role: "system", content: config.construirSystemPrompt(catalogo, enfoqueProducto) },
+                        ...sesion.historial,
+                  ],
+            },
+            {
+                  headers: {
+                        Authorization: `Bearer ${OPENAI_API_KEY}`,
+                        "content-type": "application/json",
+                  },
+            }
+            );
+      textoCompleto = (r.data.choices?.[0]?.message?.content || "").trim();
+      } else {
       respuesta = await axios.post(
             ANTHROPIC_URL,
             {
@@ -1231,6 +1261,13 @@ try {
                   },
             }
             );
+      const bloques = respuesta.data.content || [];
+      textoCompleto = bloques
+      .filter((b) => b.type === "text")
+      .map((b) => b.text)
+      .join("\n")
+      .trim();
+      }
 } catch (error) {
       // Si la llamada a la IA falla, sacamos del historial el mensaje del cliente que acabamos de
       // agregar. Si no lo hacemos, el historial queda con dos mensajes "user" seguidos, y la API de
@@ -1239,13 +1276,6 @@ try {
       sesion.historial.pop();
       throw error;
 }
-
-const bloques = respuesta.data.content || [];
-      const textoCompleto = bloques
-      .filter((b) => b.type === "text")
-      .map((b) => b.text)
-      .join("\n")
-      .trim();
 
 sesion.historial.push({ role: "assistant", content: textoCompleto });
 
