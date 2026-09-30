@@ -18575,8 +18575,8 @@
     "telefono": "573167527464",
     "nombre": "Linda",
     "primerContacto": "2026-09-28T23:04:37.108Z",
-    "ultimoContacto": "2026-09-30T11:19:51.433Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-09-30T12:06:21.743Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18750,6 +18750,25 @@
         "fecha": "2026-09-30T11:17:39.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSNTNCQ0YxOTEwODJBNDAwRUQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-09-30T12:06:17.795Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo. Si en algún momento tienes otra consulta o necesitas algo, aquí estaré para ayudarte sin problema.\n\n¿Quieres que te deje alguna información adicional o prefieres que te contacte después?",
+        "fecha": "2026-09-30T12:06:20.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSRDMzOUFCMkM0MzREQ0QwQzBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T12:06:21.024Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3NTI3NDY0FQIAERgSRDZEOEYyOUUwN0VDOTk5Q0FBAA=="
       }
     ],
     "paso": "confirmar_producto",
