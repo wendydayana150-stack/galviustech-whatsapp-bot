@@ -335,7 +335,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573216159210",
@@ -435,7 +438,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true
+    }
   },
   {
     "telefono": "573180107003",
@@ -1161,7 +1167,8 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "horas1": true,
+      "horas3": true
     }
   },
   {
@@ -2059,7 +2066,8 @@
     "recordatorios": {
       "horas1": true,
       "horas3": true,
-      "promoDiariaFecha": "2026-9-30"
+      "promoDiariaFecha": "2026-9-30",
+      "horas5": true
     }
   },
   {
@@ -4335,7 +4343,8 @@
     "recordatorios": {
       "horas1": true,
       "promoDiariaFecha": "2026-9-30",
-      "horas3": true
+      "horas3": true,
+      "horas5": true
     }
   },
   {
