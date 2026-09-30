@@ -1049,8 +1049,8 @@
     "telefono": "573143403142",
     "nombre": "Jorsua",
     "primerContacto": "2026-09-30T05:04:36.846Z",
-    "ultimoContacto": "2026-09-30T12:27:09.187Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T12:28:01.011Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1144,13 +1144,25 @@
         "fecha": "2026-09-30T12:27:08.252Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNDAzMTQyFQIAERgSRTg5NTg0MDlEQUZGOUZCNjNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para trabajar",
+        "fecha": "2026-09-30T12:27:57.164Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para trabajo te recomiendo revisar estas opciones: \n\n- Módem WiFi Portátil 4G por 219.900 COP, ideal si quieres ahorrar y tener buena cobertura 4G.  \n- Módem WiFi Portátil 4G/5G por 249.900 COP, la opción más segura porque funciona en zonas con señal 4G o 5G, ideal para zonas urbanas o rurales.  \n- Módem WiFi Portátil 5G por 249.900 COP, si en tu zona ya hay buena cobertura 5G y quieres máxima velocidad.  \n\nTodos conectan varios dispositivos y tienen batería recargable para horas de uso. La inversión para estar siempre conectado sin depender de fibra ni cables es desde 219.900 COP. ¿En qué municipio o vereda estarías usándolo para ayudarte a elegir mejor?",
+        "fecha": "2026-09-30T12:28:00.218Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNDAzMTQyFQIAERgSQUY2QUNEQ0MwMkFDRjlGMDU5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
