@@ -1275,8 +1275,8 @@
     "telefono": "573118479148",
     "nombre": "Omar Cruz",
     "primerContacto": "2026-09-30T17:30:42.350Z",
-    "ultimoContacto": "2026-09-30T21:50:00.370Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-09-30T21:50:21.675Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1366,6 +1366,18 @@
         "fecha": "2026-09-30T21:49:59.200Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSMjIyMjkyMjVCMjU2MjMxQTM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por eso estoy analizando, quedamos pendientes en estos días",
+        "fecha": "2026-09-30T21:50:16.555Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieras pensarlo bien. Si quieres puedo dejarte lista la información completa para que la revises con calma y te cuento los precios y versiones que tenemos. \n\n¿Quieres que te la deje aquí o prefieres que te espere para cuando decidas avanzar y así te dejo el pedido listo en ese momento?",
+        "fecha": "2026-09-30T21:50:18.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSNjgyQ0U5N0MwODVCM0I1MTI1AA=="
       }
     ],
     "paso": "conversando",
@@ -1376,7 +1388,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
