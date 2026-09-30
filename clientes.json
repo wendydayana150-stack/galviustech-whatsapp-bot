@@ -2002,8 +2002,8 @@
     "telefono": "573126659668",
     "nombre": "ecabralesh",
     "primerContacto": "2026-09-30T13:05:33.721Z",
-    "ultimoContacto": "2026-09-30T15:53:31.531Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-09-30T18:54:49.848Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2124,6 +2124,25 @@
         "fecha": "2026-09-30T15:53:30.278Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSRDA3RURDNUM0QzMyQzFFMTBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-09-30T18:53:37.087Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSMzg2Q0ZDQ0QzRDE2RTY5MzhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-09-30T18:54:46.647Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por decirme, comprendo que no sea lo que necesitas. Si cambias de idea o quieres explorar otras soluciones de internet portátil, aquí estoy para ayudarte sin problema. ¿Quieres que te muestre alguna otra categoría de productos como cámaras, lámparas o impresoras portátiles? Así podrás ver otras opciones útiles para tus necesidades. ¿Qué te parece?",
+        "fecha": "2026-09-30T18:54:48.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjU5NjY4FQIAERgSMDMyMUQ4QjhBRTQxRTBENzM5AA=="
       }
     ],
     "paso": "conversando",
@@ -2134,7 +2153,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
