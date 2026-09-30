@@ -2152,9 +2152,12 @@ function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
             "q", "xq", "pq",
             ];
       // Revisamos las primeras 2 palabras (no solo la primera) para cubrir preguntas como "Con
-      // cuantos gigas viene" o "De que color es", sin llegar a revisar todo el mensaje (eso ya
-      // subiria el riesgo de falsos positivos sobre datos reales del pedido).
-      if (palabras.length >= 3 && palabras.slice(0, 2).some((palabra) => inicios.includes(palabra))) {
+      // cuantos gigas viene" o "De que color es". Antes esto exigia al menos 3 palabras en el
+      // mensaje completo, pero eso dejaba pasar preguntas cortas de 1-2 palabras como "Cuanto
+      // vale" o "Que precio" (caso real 28-sep-2026, Luz Mari: "Cuanto vale" quedo guardado como
+      // si fuera su nombre completo). Que el mensaje EMPIECE con una palabra interrogativa es una
+      // señal confiable sin importar cuan corto sea, asi que ya no exigimos un minimo de palabras.
+      if (palabras.slice(0, 2).some((palabra) => inicios.includes(palabra))) {
             return true;
       }
       // Caso real (26-sep-2026, liz): "Primero quiero saber si hay cobertura" no arranca con
@@ -2174,13 +2177,17 @@ function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
       // detecta el chequeo de arriba, y se colaban como si fueran la respuesta al dato que se
       // estaba pidiendo. Asi paso con un pedido real: "Y las hojas las envian" quedo guardado
       // como si fuera el nombre completo del cliente (24-sep-2026, Constanza). Buscamos estos
-      // verbos tipicos de pregunta sobre el producto en cualquier parte de un mensaje corto (hasta
-      // 6 palabras), sin exigir que esten al inicio.
+      // verbos tipicos de pregunta sobre el producto en cualquier parte de un mensaje corto, sin
+      // exigir que esten al inicio. El limite subio de 6 a 10 palabras (28-sep-2026, Ronald
+      // Marroquin: "Esa impresora trae papel con la compra" son 7 palabras y con el limite de 6 no
+      // se detectaba, dejandolo atascado dias enteros pidiendole el celular sin poder avanzar ni
+      // cancelar). Un nombre/direccion real casi nunca usa estos verbos, asi que el riesgo de falso
+      // positivo sigue siendo bajo incluso con el limite mas alto.
       const verbosDePregunta = [
             "envian", "envía", "envia", "incluye", "incluyen", "trae", "traen", "viene", "vienen",
             "cabe", "caben", "sirve", "sirven", "dura", "duran", "demora", "demoran",
             ];
-      if (palabras.length <= 6 && palabras.some((palabra) => verbosDePregunta.includes(palabra))) {
+      if (palabras.length <= 10 && palabras.some((palabra) => verbosDePregunta.includes(palabra))) {
             return true;
       }
 
@@ -2195,10 +2202,35 @@ function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
       return false;
 }
 
+// El cliente pide cancelar/salir del flujo de pedido a medias. Antes NO existia ninguna forma de
+// hacer esto: si el nombre (u otro campo) quedaba mal guardado por cualquier motivo, el cliente
+// quedaba atrapado para siempre repitiendo el mismo error, sin salida posible (caso real
+// 30-sep-2026, Ronald Marroquin: escribio "Cancelar" 7 VECES en dos dias distintos y el bot le
+// siguio respondiendo "Ese numero no me quedo claro" una y otra vez). Se revisa como mensaje
+// corto y exacto (no "no quiero cancelar mi suscripcion" ni nada mas largo) para no confundirlo
+// con otra cosa.
+function pareceCancelacionDePedido(texto) {
+      const limpio = (texto || "").trim().toLowerCase();
+      if (!limpio) return false;
+      const palabras = limpio.split(/\s+/).filter(Boolean);
+      if (palabras.length > 4) return false;
+      return /^(cancelar|cancela|cancelalo|cancelemos)\b/.test(limpio) || /\bcancelar\b.*\bpedido\b/.test(limpio);
+}
+
 async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       const definicionActual = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === sesion.paso);
       if (!definicionActual) return false;
+
+      if (pareceCancelacionDePedido(texto)) {
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            await enviarTexto(
+                  telefono,
+                  "Listo, cancelado sin problema 😊 Si mas adelante quieres retomarlo o ver otra cosa, aqui estoy para ayudarte."
+                  );
+            return true;
+      }
 
       // Si en medio del flujo de pedido el cliente en realidad esta haciendo una pregunta (no
       // dando el dato que se le pidio), no la tratemos como si fuera la respuesta del campo
