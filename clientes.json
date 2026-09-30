@@ -8957,8 +8957,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T19:37:00.118Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-09-30T19:37:04.581Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9562,6 +9562,18 @@
         "fecha": "2026-09-30T19:36:59.060Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSQ0NCOTMxQTBEQ0VGNTBCQkE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias",
+        "fecha": "2026-09-30T19:37:02.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada, Darwin! Estoy para ayudarte siempre que quieras. Que disfrutes tu nuevo módem y tengas excelente conexión donde lo necesites. \n\nSi más adelante necesitas algo, me escribes sin problema.\n\n¡Un abrazo! 😊",
+        "fecha": "2026-09-30T19:37:03.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSRDFGQ0ZBQ0Y3RTczNjhFMkVGAA=="
       }
     ],
     "paso": "conversando",
@@ -9572,7 +9584,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
