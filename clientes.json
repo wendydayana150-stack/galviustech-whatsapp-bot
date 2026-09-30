@@ -3,8 +3,8 @@
     "telefono": "573143228132",
     "nombre": "Krisni",
     "primerContacto": "2026-09-30T20:17:11.188Z",
-    "ultimoContacto": "2026-09-30T20:18:08.357Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-09-30T20:20:28.930Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-09-30T20:18:07.197Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSNzIyQjYwODRDRDUzQzI4NzRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta, o sea que se inserta a la sim como tal y él el módem se hace una recarga para que el módem funcione?",
+        "fecha": "2026-09-30T20:20:25.714Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, vos insertas la SIM en el módem y desde ahí elegís el plan o recarga que más te convenga. El módem en sí no trae megas ni plan activo, solo la tarjeta física para que puedas activar un plan Claro que se ajuste a lo que necesites. Esto te da total libertad de elegir cuánto gastar y cuándo recargar.\n\n¿Querés que te arme ya el pedido para que empieces a usarlo? ¿O querés que te mande las tres opciones de nuevo con sus precios?",
+        "fecha": "2026-09-30T20:20:27.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMjI4MTMyFQIAERgSRTdCREVFQUU3NUFFNEJDNTEyAA=="
       }
     ],
     "paso": "conversando",
