@@ -3,8 +3,8 @@
     "telefono": "573005661488",
     "nombre": "Samuel",
     "primerContacto": "2026-09-30T02:37:03.407Z",
-    "ultimoContacto": "2026-09-30T02:40:10.762Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-09-30T02:41:01.498Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,6 +86,18 @@
         "fecha": "2026-09-30T02:40:09.652Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSQzYzODE5NThDN0FCODRDNjcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nos comunicamos más adelante",
+        "fecha": "2026-09-30T02:40:57.439Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, sin problema 😊 Quedo atenta por acá para cuando estés list@. Cualquier duda que te surja sobre la impresora, me escribes.",
+        "fecha": "2026-09-30T02:41:00.257Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1NjYxNDg4FQIAERgSMzA0NjY2MkUzQ0MxRjZEQjVFAA=="
       }
     ],
     "paso": "conversando",
@@ -96,7 +108,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
