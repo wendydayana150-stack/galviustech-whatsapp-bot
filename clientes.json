@@ -8957,8 +8957,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T14:24:02.458Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-09-30T19:32:04.681Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9450,9 +9450,21 @@
         "fecha": "2026-09-30T14:24:01.165Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMThEODkyQkYzNzI0MUM5OEZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La dirección es calle20d carrera 79-339 interior 155 bello Antioquia",
+        "fecha": "2026-09-30T19:32:02.567Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-09-30T19:32:02.568Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSNjNFNTcwNkM3ODdFMjQzNUFCAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -9462,7 +9474,8 @@
       "celular": "3176926665",
       "departamento": "Antioquia",
       "ciudad": "Ciudad medellín",
-      "direccion": "Municipio bello"
+      "direccion": "Municipio bello",
+      "barrio": "La dirección es calle20d carrera 79-339 interior 155 bello Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
