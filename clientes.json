@@ -8957,8 +8957,8 @@
     "telefono": "573176926665",
     "nombre": "yamid",
     "primerContacto": "2026-09-29T20:23:56.805Z",
-    "ultimoContacto": "2026-09-30T19:34:37.685Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-09-30T19:35:03.373Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9493,6 +9493,25 @@
         "fecha": "2026-09-30T19:34:36.566Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSQzlCRkRFNENBMzgxMTMyMTI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para que me digan en cuál de las oficinas me queda más cercana",
+        "fecha": "2026-09-30T19:34:58.694Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, yo puedo dejar el pedido listo y cuando se despache te avisamos a qué oficina de Coordinadora llegó para que la elijas según te quede más cómoda. \n\nSolo dime si quieres confirmar tu pedido ahora para hacerlo ya y que no se demore más, ¿te parece? ¿O prefieres que te explique algo más antes?",
+        "fecha": "2026-09-30T19:35:01.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSMEQ0RTUzRUM2RkJERkQyOTlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-09-30T19:35:02.274Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2OTI2NjY1FQIAERgSODVCQTkyRUM3NzkxREQzMzYxAA=="
       }
     ],
     "paso": "conversando",
