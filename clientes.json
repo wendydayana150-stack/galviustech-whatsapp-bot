@@ -6204,8 +6204,8 @@
     "telefono": "573112177900",
     "nombre": "Maria",
     "primerContacto": "2026-09-29T14:50:49.901Z",
-    "ultimoContacto": "2026-09-30T00:58:31.360Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-09-30T00:58:55.796Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6699,15 +6699,28 @@
         "fecha": "2026-09-30T00:58:30.284Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSQTMxQzlENzQ1RTAzQUNCMTFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3112177900",
+        "fecha": "2026-09-30T00:58:54.509Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-09-30T00:58:54.510Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTc3OTAwFQIAERgSMDRFMEQzQTFDNEExMjc1NUM1AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
       "precio": 299900,
       "telefono": "573112177900",
-      "nombreCliente": "Mary mena"
+      "nombreCliente": "Mary mena",
+      "celular": "3112177900"
     },
     "pausado": false,
     "etapaManual": null,
