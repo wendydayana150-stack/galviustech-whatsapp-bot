@@ -3,8 +3,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-09-30T21:55:19.327Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-09-30T21:55:31.159Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -317,9 +317,21 @@
         "fecha": "2026-09-30T21:55:18.554Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSMjA2QkM1MzYyOTkyMjNFOTBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio cumaribo",
+        "fecha": "2026-09-30T21:55:30.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-09-30T21:55:30.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSRTA1MEExREMxOUE5NDIyMjFGAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-impresora-termica-portatil-reloj",
       "nombreProducto": "COMBO Impresora Termica Portatil + Reloj",
@@ -327,7 +339,8 @@
       "telefono": "573180352799",
       "nombreCliente": "José López Gallardo",
       "celular": "3180352799",
-      "departamento": "Vichada"
+      "departamento": "Vichada",
+      "ciudad": "Municipio cumaribo"
     },
     "pausado": false,
     "etapaManual": null,
