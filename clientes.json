@@ -3,8 +3,8 @@
     "telefono": "573016127596",
     "nombre": "desconocido",
     "primerContacto": "2026-10-01T16:35:33.918Z",
-    "ultimoContacto": "2026-10-01T16:35:33.918Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T16:36:34.834Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T16:35:32.676Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2MTI3NTk2FQIAERgSQzAwMjNBN0Q3NjcyOTY5RkM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Guadalupe Antioquia",
+        "fecha": "2026-10-01T16:36:30.919Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por el dato, Guadalupe. ¿Para qué necesitas el módem? ¿Es para trabajar, estudiar o uso en casa? Así te recomiendo el modelo ideal para ti. ¿Además, usas Claro, Movistar, Tigo, WOM o ETB?",
+        "fecha": "2026-10-01T16:36:33.567Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MTI3NTk2FQIAERgSRjc5OTkzRjcxRjM0NjYzMDM2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
