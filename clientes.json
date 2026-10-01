@@ -73,8 +73,8 @@
     "telefono": "573248344168",
     "nombre": "ISAI",
     "primerContacto": "2026-10-01T17:26:08.050Z",
-    "ultimoContacto": "2026-10-01T17:30:58.574Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-01T17:32:13.740Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -258,10 +258,27 @@
         "fecha": "2026-10-01T17:30:57.204Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSMzZGMDg0OEJENkRBRDM3QTM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-10-01T17:32:12.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 219.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T17:32:12.752Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSREQ2ODVBOEYxNTk2QjA1N0NCAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 219900,
+      "telefono": "573248344168"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
