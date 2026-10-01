@@ -3,8 +3,8 @@
     "telefono": "573135928300",
     "nombre": "Aurelia Polo",
     "primerContacto": "2026-10-01T12:38:06.466Z",
-    "ultimoContacto": "2026-10-01T12:39:33.582Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T12:41:31.280Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -48,6 +48,18 @@
         "fecha": "2026-10-01T12:39:32.534Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1OTI4MzAwFQIAERgSNDM4QjhCRUFDQ0Q3MjhGQ0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias solo queria saber el precio por ahora si me animo a optenerle le vielvo a escribir",
+        "fecha": "2026-10-01T12:41:27.771Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, cualquier duda que tengas aquí estaré para ayudarte cuando decidas. Recuerda que con esa impresora puedes imprimir al instante y ahorrar tiempo y desplazamientos. ¿Quieres que te pase información también del papel térmico para que tengas todo listo cuando la quieras?",
+        "fecha": "2026-10-01T12:41:30.308Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1OTI4MzAwFQIAERgSNTQxQjMxMjA0NkFEMjYwMzI3AA=="
       }
     ],
     "paso": "conversando",
@@ -58,7 +70,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
