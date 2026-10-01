@@ -830,8 +830,8 @@
     "telefono": "573108285373",
     "nombre": "brostyasados",
     "primerContacto": "2026-10-01T16:14:56.685Z",
-    "ultimoContacto": "2026-10-01T16:14:56.685Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T18:47:09.207Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -871,20 +871,32 @@
         "fecha": "2026-10-01T16:14:55.832Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4Mjg1MzczFQIAERgSRDc5NUYyRTVEOUE2RkU0RDJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo necesito para una zona rural una vereda",
+        "fecha": "2026-10-01T18:47:04.855Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en ese caso lo mejor es un modem que te dé buena señal donde un celular común no alcanza. En vereda y zonas rurales recomendamos nuestros 3 modelos que funcionan con todo operador y tienen mejor antena para captar señal: \n\n- Modem WiFi Portatil 4G por $219.900, es ideal si quieres ahorrar y solo usas 4G.\n- Modem WiFi Portatil 4G/5G por $249.900, la opción más segura porque funciona en zonas con 4G y también donde ya hay 5G.\n- Modem WiFi Portatil 5G por $249.900, la máxima velocidad si confirmas que en tu vereda ya hay cobertura 5G.\n\nLa inversión empieza en $219.900 y te aseguras internet donde antes no podías conectar, para estudiar, trabajar o mantener tu negocio en línea sin depender de fibra óptica ni instalaciones complicadas. ¿Cuántos dispositivos necesitas conectar normalmente? Así vemos cuál te conviene más.",
+        "fecha": "2026-10-01T18:47:08.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4Mjg1MzczFQIAERgSMEY0NUI3Q0ZGNDBEQjE4Q0FCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
