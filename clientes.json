@@ -139,8 +139,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:47:27.894Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-01T12:48:06.490Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -470,6 +470,25 @@
         "fecha": "2026-10-01T12:47:26.868Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSQjQ2MUQ4MkNBRTc3QTExMURCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me lo podrías hacer llegar por interapidicimo a Santana",
+        "fecha": "2026-10-01T12:48:03.468Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, Daizy, enviamos por Interrapidisimo y llega en 2 a 4 días hábiles después del despacho. Solo falta que el sistema registre tu dirección completa y forma de pago para completar el pedido. ¿Quieres que continuemos y te ayude a dar esos datos ahora?",
+        "fecha": "2026-10-01T12:48:04.870Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSNzY3QjEwRUNFOUIyQzhFMTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T12:48:05.449Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSQkQwNUU5QjQ2MzkwOUY2MDc0AA=="
       }
     ],
     "paso": "conversando",
