@@ -3,8 +3,8 @@
     "telefono": "573115388014",
     "nombre": "Jairo",
     "primerContacto": "2026-10-01T13:31:07.678Z",
-    "ultimoContacto": "2026-10-01T13:35:10.299Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-01T13:35:45.634Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,6 +99,25 @@
         "fecha": "2026-10-01T13:35:09.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1Mzg4MDE0FQIAERgSMTU5NTQwMjE1QzU1MzdCODBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Espero",
+        "fecha": "2026-10-01T13:35:42.397Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tomarte tu tiempo está bien. Mientras tanto, si quieres me cuentas para qué lo necesitas o cuántos dispositivos conectarías, así te recomiendo la opción que más te conviene y no pierdes tiempo luego.\n\n¿Quieres que te recuerde las versiones y precios?",
+        "fecha": "2026-10-01T13:35:43.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Mzg4MDE0FQIAERgSMTdGRDlDQzNFMzgxQ0M2MDdDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T13:35:44.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Mzg4MDE0FQIAERgSM0E3RUQ2OEExN0M2QkQyQTI2AA=="
       }
     ],
     "paso": "conversando",
