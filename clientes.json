@@ -3,8 +3,8 @@
     "telefono": "573112194286",
     "nombre": "Yesenia Macualo",
     "primerContacto": "2026-10-01T00:00:15.740Z",
-    "ultimoContacto": "2026-10-01T00:00:15.740Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T00:03:22.839Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T00:00:14.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMTk0Mjg2FQIAERgSNzg5RTcyMDI2QzdDMjBDRTlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural",
+        "fecha": "2026-10-01T00:03:18.375Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, claro que sí. Para zonas rurales como la tuya, lo mejor es que tengas un modem que capte mejor señal que el celular, ideal para fincas o veredas sin fibra óptica. Tengo tres opciones para ti: \n\n1. Modem WiFi Portátil 4G por $219.900, práctico y efectivo para red 4G. \n2. Modem WiFi Portátil 4G/5G por $249.900, funciona tanto en 4G como 5G, muy versátil. \n3. Modem WiFi Portátil 5G por $249.900, para la máxima velocidad si tienes buena cobertura 5G en tu zona. \n\nTodos son fáciles de transportar, te permiten conectar varios dispositivos y tienen batería de hasta 14 horas. ¿Cuál te gustaría conocer más o prefieres que te ayude a dejar el pedido listo con alguna de estas opciones?",
+        "fecha": "2026-10-01T00:03:21.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMTk0Mjg2FQIAERgSQ0FBQUIwNEYzMTBDREM1QTUzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
