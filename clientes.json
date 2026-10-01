@@ -37344,8 +37344,8 @@
     "telefono": "573125750452",
     "nombre": "Luis Felipe Cabrera",
     "primerContacto": "2026-09-28T14:48:28.103Z",
-    "ultimoContacto": "2026-09-28T20:12:45.078Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-01T13:03:49.250Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37461,6 +37461,25 @@
         "fecha": "2026-09-28T20:12:44.133Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSRTI2MTlGMUJFMjY1QzlEQjU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luis Felipe Cabrera, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-10-01T11:20:42.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSMTNDODgxQzNCOUE5RDcwMkU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No insista",
+        "fecha": "2026-10-01T13:03:47.011Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, respeto tu espacio. Cuando quieras me escribes y con gusto te ayudo con lo que necesites. Que tengas un excelente día. 🌟",
+        "fecha": "2026-10-01T13:03:48.359Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NzUwNDUyFQIAERgSQkVEMTFDM0RGMjQyQUZEMTJBAA=="
       }
     ],
     "paso": "conversando",
@@ -37471,7 +37490,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
