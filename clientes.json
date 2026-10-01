@@ -3,8 +3,8 @@
     "telefono": "573135928300",
     "nombre": "Aurelia Polo",
     "primerContacto": "2026-10-01T12:38:06.466Z",
-    "ultimoContacto": "2026-10-01T12:38:14.049Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T12:39:33.582Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-10-01T12:38:13.106Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1OTI4MzAwFQIAERgSNUQ0Q0MxOTFCRTE0NUM4RTUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para imprimir de todo",
+        "fecha": "2026-10-01T12:39:31.045Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para imprimir todo lo que necesites sin depender de una papelería, te recomiendo la Impresora Térmica Portátil Bluetooth. Es compacta, no usa tinta, imprime rápido desde tu celular y funciona ideal para trabajos, estudios o emprendimientos en cualquier lugar. La inversión sería de $249.900. ¿En qué ciudad o municipio estás para decirte cómo te llega y cuánto tardaría?",
+        "fecha": "2026-10-01T12:39:32.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1OTI4MzAwFQIAERgSNDM4QjhCRUFDQ0Q3MjhGQ0Y0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
