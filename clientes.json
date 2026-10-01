@@ -3,8 +3,8 @@
     "telefono": "573118883730",
     "nombre": "PTC",
     "primerContacto": "2026-10-01T13:11:13.136Z",
-    "ultimoContacto": "2026-10-01T13:28:45.433Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T13:29:32.181Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,25 @@
         "fecha": "2026-10-01T13:28:44.439Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4ODgzNzMwFQIAERgSMEYyQ0M0QUI1NkMzN0ZFM0RFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "General",
+        "fecha": "2026-10-01T13:29:28.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso general en finca te recomiendo estas 3 opciones de módem portátil de GalviusTech, todas pensadas para darte mejor cobertura en zona rural:\n\n- Módem WiFi Portátil 4G por $219.900: Conecta varios dispositivos, ideal para sitios sin fibra y uso cotidiano.\n- Módem WiFi Portátil 4G/5G por $249.900: Lo mejor para que funcione donde haya señal 4G o 5G, perfecto para quien quiere seguridad de conexión.\n- Módem WiFi Portátil 5G por $249.900: La opción más rápida si tienes buena cobertura 5G en la zona.\n\nLos tres son fáciles de usar, transportables y tienen batería hasta 14 horas. ¿Quieres que te ayude a elegir el que más te conviene para tu finca?",
+        "fecha": "2026-10-01T13:29:31.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4ODgzNzMwFQIAERgSQTMyREE1RDE4QTdDNTkxOEUzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
