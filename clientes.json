@@ -3,8 +3,8 @@
     "telefono": "573236132380",
     "nombre": "lllllll",
     "primerContacto": "2026-10-01T19:35:37.263Z",
-    "ultimoContacto": "2026-10-01T19:38:09.076Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-01T19:38:22.539Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,14 +164,27 @@
         "fecha": "2026-10-01T19:38:08.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSNjI3MzI0ODZENEU4Q0RGRUUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo una duda",
+        "fecha": "2026-10-01T19:38:21.548Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T19:38:21.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSRENFNEE4ODZCMDc2REIzMjI1AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
-      "telefono": "573236132380"
+      "telefono": "573236132380",
+      "nombreCliente": "Tengo una duda"
     },
     "pausado": false,
     "etapaManual": null,
