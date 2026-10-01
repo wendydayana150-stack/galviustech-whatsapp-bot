@@ -638,8 +638,8 @@
     "telefono": "573134124634",
     "nombre": "elizabeth2023sanchez00",
     "primerContacto": "2026-09-30T23:26:34.369Z",
-    "ultimoContacto": "2026-10-01T00:48:57.590Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T00:51:15.725Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -705,13 +705,25 @@
         "fecha": "2026-10-01T00:48:56.878Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSRUNFQTlFOUMxMEQzQTQ3NjgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-10-01T00:51:12.600Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural es donde nuestro módem portátil tiene ventaja porque tiene una antena potente que capta mejor señal que un celular común. Así podrás tener internet para trabajar, estudiar o simplemente estar conectado sin depender de la fibra óptica ni buscar WiFi ajeno.\n\nPara que tengas opciones claras desde el principio: \n\n- Módem WiFi Portátil 4G por $219.900: buena opción si quieres economía y señal 4G estable.  \n- Módem WiFi Portátil 4G/5G por $249.900: la opción más segura, funciona en zonas con 4G o 5G, ideal si no conoces bien la cobertura.  \n- Módem WiFi Portátil 5G por $249.900: para zonas con cobertura 5G y necesitas la máxima velocidad.\n\n¿Con cuál de estas opciones te gustaría que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-10-01T00:51:14.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNkNEODg0MDcyQThCMUE5QzMxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
