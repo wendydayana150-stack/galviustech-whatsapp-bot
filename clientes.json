@@ -3,8 +3,8 @@
     "telefono": "573132858849",
     "nombre": "Leonel Pulido",
     "primerContacto": "2026-10-01T11:22:58.184Z",
-    "ultimoContacto": "2026-10-01T11:22:58.184Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T11:24:02.906Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T11:22:57.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSQkU2ODcwODUzRkVGRTE4NTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una vereda",
+        "fecha": "2026-10-01T11:23:59.431Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una vereda te recomiendo los modems portátiles que tienen mejor recepción y desempeño en zonas rurales. Te presento las 3 opciones que tenemos:\n\n1️⃣ Modem WiFi Portátil 4G: ideal para fincas y lugares sin fibra óptica, fácil de usar, conecta varios dispositivos y excelente cobertura para veredas. La inversión es de $219.900.\n\n2️⃣ Modem WiFi Portátil 4G/5G: funciona en 4G y 5G, perfecto si en tu vereda ya hay señal 5G o quieres la opción más versátil sin perder cobertura. La inversión es de $249.900.\n\n3️⃣ Modem WiFi Portátil 5G: para zonas con buena cobertura 5G, con la máxima velocidad posible y conexión portátil para varios dispositivos. La inversión sería de $249.900.\n\n¿Quieres que te ayude a dejar listo el pedido de alguno de estos para que empieces a tener internet en tu vereda? Por cierto, ¿en qué operador usas usualmente tu SIM? Claro, Movistar, Tigo, WOM o ETB?",
+        "fecha": "2026-10-01T11:24:02.032Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSNjBDOEIyNTA5RjFFNzcxQTI1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
