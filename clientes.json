@@ -3,8 +3,8 @@
     "telefono": "573188671335",
     "nombre": "Diego Pabon",
     "primerContacto": "2026-10-01T18:59:40.022Z",
-    "ultimoContacto": "2026-10-01T18:59:40.022Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T19:00:36.319Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-01T18:59:38.367Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjcxMzM1FQIAERgSNzhFQUY1QkUzNUVFNkY5Njk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pata zona rural",
+        "fecha": "2026-10-01T19:00:32.811Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zona rural te recomiendo nuestro Módem WiFi Portátil 4G/5G, que funciona excelente en fincas y veredas porque tiene mejor cobertura que un celular común. También tenemos el Módem 4G más económico y el Módem 5G si en tu zona ya tienen buena señal 5G. Los precios son:  \n- 4G: $219.900  \n- 4G/5G: $249.900  \n- 5G: $249.900  \n\nEste equipo te dará internet para conectar varios dispositivos, ideal para trabajar, estudiar o simplemente estar conectado sin depender de que llegue la fibra. ¿En qué municipio o vereda estás para orientarte mejor con la cobertura?",
+        "fecha": "2026-10-01T19:00:34.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjcxMzM1FQIAERgSREI3MTc2MDMyMUE5REIwREZEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135508765",
