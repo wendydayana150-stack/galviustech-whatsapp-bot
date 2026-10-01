@@ -2636,8 +2636,8 @@
     "telefono": "573102497078",
     "nombre": "Jhonja",
     "primerContacto": "2026-10-01T00:26:41.359Z",
-    "ultimoContacto": "2026-10-01T11:19:35.111Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-01T11:21:03.852Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2756,6 +2756,25 @@
         "fecha": "2026-10-01T11:19:34.116Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSMDdGRDhEMUZBRDQyN0VENEY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vale, gracias por la información, no me sirve porque por acá la señal es mala...",
+        "fecha": "2026-10-01T11:20:59.928Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, a veces la señal celular en zonas muy apartadas es complicada. Igual recuerda que el módem tiene una antena mucho más potente que el celular y suele captar señal donde otros dispositivos no llegan. ¿Quieres contarme en qué vereda o municipio estás para darte una opinión más específica antes de descartarlo?",
+        "fecha": "2026-10-01T11:21:02.507Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSNTQxRDE5MEUwMTMzRTUzMENFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T11:21:03.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSMEI2QzZFRTNEMEYyQ0U0NDg4AA=="
       }
     ],
     "paso": "conversando",
