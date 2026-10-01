@@ -3,8 +3,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T04:33:16.701Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-01T04:33:38.073Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -212,6 +212,25 @@
         "fecha": "2026-10-01T04:33:15.549Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSNDgyNzE5NEU2NjYzOEYwNjUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esté de WhatsApp",
+        "fecha": "2026-10-01T04:33:35.448Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, apenas tenga tus datos para el pedido, el sistema te podrá contactar por WhatsApp para confirmarte y ayudarte con cualquier duda. ¿Quieres que te pida ahora nombre y teléfono para dejar todo listo?",
+        "fecha": "2026-10-01T04:33:36.347Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSNjM2Mjk0OTNCRkIzMUIzMTE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T04:33:37.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSQjVCQjIzOUVBNkM1MjNENzk1AA=="
       }
     ],
     "paso": "pedido_celular",
