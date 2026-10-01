@@ -89,8 +89,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:44:03.984Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-01T12:44:39.717Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -346,9 +346,21 @@
         "fecha": "2026-10-01T12:44:02.706Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSODk4MDlDREFDMDY3NjYyRDg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santana Putumayo",
+        "fecha": "2026-10-01T12:44:38.678Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-01T12:44:38.679Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSQzAzOTREMDEwNkU1REJFMjQwAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -357,7 +369,8 @@
       "nombreCliente": "Está no más",
       "celular": "3224720425",
       "departamento": "Putumayo",
-      "ciudad": "Santana"
+      "ciudad": "Santana",
+      "direccion": "Santana Putumayo"
     },
     "pausado": false,
     "etapaManual": null,
