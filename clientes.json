@@ -3,8 +3,8 @@
     "telefono": "573116598167",
     "nombre": "Eduardo",
     "primerContacto": "2026-10-01T11:33:46.218Z",
-    "ultimoContacto": "2026-10-01T11:33:46.218Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T11:33:51.768Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-01T11:33:44.504Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NTk4MTY3FQIAERgSREE2N0I5OTIyREQyRjY1NjIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-01T11:33:47.678Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Me puedes contar para qué lo necesitas y en qué municipio o vereda estarías usando el producto? Así te recomiendo la mejor opción y te cuento la inversión exacta. ¿Será para internet, impresión, iluminación o seguridad?",
+        "fecha": "2026-10-01T11:33:48.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NTk4MTY3FQIAERgSMkE0MDAxRkExQjRGQ0Q0REU1AA=="
       }
     ],
     "paso": "conversando",
