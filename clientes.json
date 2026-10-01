@@ -2548,8 +2548,8 @@
     "telefono": "573015761743",
     "nombre": "Dios",
     "primerContacto": "2026-10-01T14:38:47.124Z",
-    "ultimoContacto": "2026-10-01T14:48:52.015Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-01T22:40:16.637Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2687,6 +2687,18 @@
         "fecha": "2026-10-01T14:48:50.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NzYxNzQzFQIAERgSMDM5OTY3NjgwNjcyNTYzRDYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy manejando tengo interés te llamo",
+        "fecha": "2026-10-01T22:40:13.916Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell. Ahora mismo solo atiendo por chat para ayudarte rápido y sin esperar. ¿Quieres que te explique aquí las opciones de módem que tenemos para que puedas ver cuál te sirve mejor? Puedo enviarte todo el detalle y resolver tus dudas por aquí.\n\n¿En qué ciudad estás y para qué lo quieres usar? Así te ayudo mejor mientras manejas o cuando tengas tiempo.\n\n¿Quieres que te muestre las opciones?",
+        "fecha": "2026-10-01T22:40:15.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NzYxNzQzFQIAERgSMEU4NzRDRkQxOUU2QzY3M0IwAA=="
       }
     ],
     "paso": "conversando",
@@ -2700,11 +2712,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true,
-      "promoDiariaFecha": "2026-10-1",
-      "seguimientosEnviados": 2,
-      "horas5": true
+      "seguimientosEnviados": 0
     }
   },
   {
