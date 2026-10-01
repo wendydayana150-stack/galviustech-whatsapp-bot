@@ -8258,8 +8258,8 @@
     "telefono": "573180352799",
     "nombre": "Lopez",
     "primerContacto": "2026-09-30T21:49:33.454Z",
-    "ultimoContacto": "2026-10-01T15:05:42.143Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-10-01T20:47:21.641Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8667,6 +8667,13 @@
         "fecha": "2026-10-01T15:05:38.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSQkE0RjBGRkU3NUYzNDlGMDQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Estoy atenta",
+        "fecha": "2026-10-01T20:47:20.391Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgwMzUyNzk5FQIAERgSMDVCQ0UwQjI2OTkyQzk1RkYzAA=="
       }
     ],
     "paso": "conversando",
@@ -8678,7 +8685,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573156995331",
