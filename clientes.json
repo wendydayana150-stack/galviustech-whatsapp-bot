@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-01T21:23:38.883Z",
-    "ultimoContacto": "2026-10-01T21:23:38.883Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T21:23:55.905Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-01T21:23:38.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSOTU1RDMwMkM2RTNDNDI3MDRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem",
+        "fecha": "2026-10-01T21:23:52.931Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. Para recomendarte el modem que mejor se adapte, ¿en qué municipio o vereda lo usarías y para qué actividad principalmente, trabajo, estudio o para el hogar? Así te cuento las opciones que tenemos para ti. ¿Me cuentas?",
+        "fecha": "2026-10-01T21:23:54.974Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNTEyREMyMUQ2Qzg4RDc0NjdFAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573002106893",
