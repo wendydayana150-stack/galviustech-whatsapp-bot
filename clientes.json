@@ -2856,8 +2856,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T15:11:19.572Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-01T17:05:32.966Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3176,6 +3176,13 @@
         "fecha": "2026-10-01T15:11:18.415Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSM0NGNjc5RjM2MjFGRkRBOTcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-01T17:05:31.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSODdGMjA2QkMxQjcwQjI5MzU2AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -3186,7 +3193,7 @@
       "telefono": "573126950745",
       "nombreCliente": "Busco algo más económico"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
