@@ -302,8 +302,8 @@
     "telefono": "573132858849",
     "nombre": "Leonel Pulido",
     "primerContacto": "2026-10-01T11:22:58.184Z",
-    "ultimoContacto": "2026-10-01T11:38:19.973Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-01T11:40:14.883Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -403,6 +403,25 @@
         "fecha": "2026-10-01T11:38:18.845Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSNTM0OEY5MjlBNUNDQzQxNUVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para televisión sirve",
+        "fecha": "2026-10-01T11:40:11.295Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem te ofrece conexión WiFi estable para tus dispositivos, incluyendo smart TVs que se conecten por WiFi.\n\nSi tu tele tiene la opción de conectarse a internet por WiFi, podrás usarlo para ver streaming, apps, YouTube y más sin problemas.\n\n¿Quieres que te ayude a dejar el pedido listo y empezar a usar internet en tu tele y otros equipos?",
+        "fecha": "2026-10-01T11:40:13.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSMTY3RjU2MzU4RDI0RjBDODE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T11:40:13.784Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSRkE2OTJERDc3MUFFMjJFRDE2AA=="
       }
     ],
     "paso": "conversando",
