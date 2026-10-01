@@ -89,8 +89,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:42:16.880Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-01T12:43:17.052Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -298,14 +298,27 @@
         "fecha": "2026-10-01T12:42:14.037Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSMjRDRDc1MjM0QkRDNjk2NzFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Está no más",
+        "fecha": "2026-10-01T12:43:15.882Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T12:43:15.882Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSMjNDQ0EyQkJEMjRGM0FDNzJGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
-      "telefono": "573212180994"
+      "telefono": "573212180994",
+      "nombreCliente": "Está no más"
     },
     "pausado": false,
     "etapaManual": null,
