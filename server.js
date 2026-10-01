@@ -1734,6 +1734,10 @@ let ultimaFechaPromoDiaria = null;
 // Disparo automatico: se intenta en cada webhook entrante, pero solo se ejecuta de verdad una vez
 // por dia calendario en Bogota y dentro del horario comercial.
 async function enviarPromoDiariaAutomatica() {
+      // APAGADA (1-oct-2026, a pedido de Wendy): no estaba atrayendo clientes y los mensajes a gente
+      // que no ha escrito generan reportes de spam en Meta. Para volver a activarla poner
+      // PROMO_DIARIA_AUTO=si en Render. El boton manual del panel admin sigue funcionando.
+      if (process.env.PROMO_DIARIA_AUTO !== "si") return;
       if (!estaEnHorarioComercial()) return;
       const hoyBogota = fechaBogotaTexto(new Date());
       if (ultimaFechaPromoDiaria === hoyBogota) return;
