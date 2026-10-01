@@ -6129,8 +6129,8 @@
     "telefono": "573118479148",
     "nombre": "Omar Cruz",
     "primerContacto": "2026-09-30T17:30:42.350Z",
-    "ultimoContacto": "2026-09-30T21:50:51.490Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-01T12:11:32.595Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6244,6 +6244,25 @@
         "fecha": "2026-09-30T21:50:50.371Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSNjVBMDQzQjBGNDU1Q0I0MkYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Omar Cruz, sobre modem WiFi portátil",
+        "fecha": "2026-10-01T11:18:55.960Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSM0RCMzY2ODQ4MDYzNEQyMEY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola gusto en saludarte, ya lo decidí, la insistencia de su IA o de ustedes es incómoda, no dejan ni pensar las cosas, por ello mil gracias pero ya no me encuentro interesado, feliz día y por favor no más mensajes",
+        "fecha": "2026-10-01T12:11:28.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento que te hayas sentido así, de verdad no era nuestra intención incomodarte. Quedo atenta si más adelante deseas retomar o tienes alguna consulta, sin presión alguna. Que tengas un excelente día.",
+        "fecha": "2026-10-01T12:11:31.319Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDc5MTQ4FQIAERgSMjU3MzcxOTM0QUM4MEU0QUNDAA=="
       }
     ],
     "paso": "conversando",
@@ -6252,8 +6271,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Hola gusto en saludarte, ya lo decidí, la insistencia de su IA o de ustedes es incómoda, no dejan ni\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
