@@ -61,8 +61,8 @@
     "telefono": "573234146717",
     "nombre": "🙌",
     "primerContacto": "2026-10-01T19:14:21.335Z",
-    "ultimoContacto": "2026-10-01T19:19:36.266Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T19:20:13.015Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -114,6 +114,18 @@
         "fecha": "2026-10-01T19:19:35.211Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTQ2NzE3FQIAERgSNEU1QkQ4QzlCMzg0OEJDRTlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el lugar debe de haber señal",
+        "fecha": "2026-10-01T19:20:09.662Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para que el módem funcione es necesario que haya señal de algún operador celular, pero la antena del módem es más potente que la de un celular común, por eso capta señal donde el teléfono a veces no lo logra. Si tienes señal incluso débil de Claro, Movistar, Tigo, WOM o ETB ahí, el módem te va a servir perfecto y tendrás mejor internet para conectar varios dispositivos.\n\n¿En qué municipio o vereda estás ubicado? Así te confirmo cuál versión te recomendaría para tu caso.",
+        "fecha": "2026-10-01T19:20:11.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTQ2NzE3FQIAERgSNkIxMzA0MEEyRTQwRUNERkQ0AA=="
       }
     ],
     "paso": "conversando",
