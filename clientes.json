@@ -61,8 +61,8 @@
     "telefono": "573234146717",
     "nombre": "🙌",
     "primerContacto": "2026-10-01T19:14:21.335Z",
-    "ultimoContacto": "2026-10-01T19:14:21.335Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T19:19:36.266Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,18 +102,33 @@
         "fecha": "2026-10-01T19:14:19.871Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTQ2NzE3FQIAERgSRDA0N0YxQzM1Mzc1NkM2QkNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-10-01T19:19:32.055Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural el módem WiFi portátil es ideal porque tiene mejor cobertura que un celular común y te permite conectarte en lugares donde no llega fibra óptica. Para que tengas varias opciones y elijas la que mejor te convenga, acá te dejo las 3 versiones que tenemos:\n\n- Módem WiFi Portátil 4G: ideal si buscas ahorrar y necesitas cobertura 4G, la inversión es de $219.900.\n- Módem WiFi Portátil 4G/5G: la opción más segura porque funciona en zonas con 4G y donde ya haya 5G, inversión $249.900.\n- Módem WiFi Portátil 5G: para zonas con buena cobertura 5G y máxima velocidad, inversión $249.900.\n\nTodos son fáciles de usar, portátiles, permiten conectar varios dispositivos y traen garantía con soporte de GalviusTech. ¿Con cuál de estas versiones te gustaría que te ayude a dejar el pedido listo?",
+        "fecha": "2026-10-01T19:19:35.211Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTQ2NzE3FQIAERgSNEU1QkQ4QzlCMzg0OEJDRTlBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573238530640",
