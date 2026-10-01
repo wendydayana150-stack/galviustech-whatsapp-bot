@@ -3,8 +3,8 @@
     "telefono": "573128141496",
     "nombre": "icr3128141496",
     "primerContacto": "2026-10-01T00:29:47.182Z",
-    "ultimoContacto": "2026-10-01T00:29:47.182Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T00:30:54.629Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T00:29:46.454Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSN0U2OEU3MTRDNDBBQTk3MjBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Urbana bello Antioquía",
+        "fecha": "2026-10-01T00:30:51.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. Para que necesitas el modem, ¿trabajo, estudio, hogar o para viajar? Así te recomiendo la mejor opción para ti. \n\nPor cierto, tenemos 3 modelos: el Modem WiFi Portátil 4G por $219.900, perfecto para lugares sin fibra y conexión 4G estable; el Modem WiFi Portátil 4G/5G por $249.900, que es el más seguro para cubrir tanto 4G como 5G; y el Modem WiFi Portátil 5G también por $249.900, ideal donde ya hay buena cobertura 5G para tener máxima velocidad. Los tres mejoran la señal comparado con un celular y conectan varios dispositivos sin problemas.\n\n¿Con cuál de estos tres te gustaría que te ayude?",
+        "fecha": "2026-10-01T00:30:53.320Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSMzYxRTMwNzdCNDRDOEQ0QjQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
