@@ -3,8 +3,8 @@
     "telefono": "573015761743",
     "nombre": "Dios",
     "primerContacto": "2026-10-01T14:38:47.124Z",
-    "ultimoContacto": "2026-10-01T14:40:17.646Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T14:42:22.746Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-10-01T14:40:16.392Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NzYxNzQzFQIAERgSRkUxMEQzRkJBMUJDOEYyQ0U4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La portátil la usaría para facturas,citas médicas, documentos",
+        "fecha": "2026-10-01T14:42:18.704Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para eso la impresora térmica portátil Bluetooth es ideal. Es compacta (mide 27.5 cm x 6.5 cm x 5 cm, casi como un control remoto delgado), imprime rápido sin tinta ni toner usando Bluetooth desde tu celular, y su batería dura hasta 30 horas con carga completa, tardando 3 horas en recargarse. Así puedes imprimir facturas, citas médicas y documentos en cualquier lugar sin depender de una papelería o impresora fija.\n\nLa inversión para esta impresora es de $249.900, y el envío siempre va incluido y sin costo adicional. ¿Te gustaría que te ayude a dejar tu pedido listo? Ah, y pregunta también si quieres agregar papel térmico extra, tenemos paquetes de 52 hojas por $38.000 o rollo de 9 metros por $10.000, para que siempre tengas a mano.\n\n¿Quieres que te prepare el pedido o tienes otra duda?",
+        "fecha": "2026-10-01T14:42:20.945Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NzYxNzQzFQIAERgSNjFCNDhENjRDMzU3ODBBMzY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T14:42:21.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NzYxNzQzFQIAERgSMDU2QjZCMTA1MEVDQ0EyMzMyAA=="
       }
     ],
     "paso": "conversando",
