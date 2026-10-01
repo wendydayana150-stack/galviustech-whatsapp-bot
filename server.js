@@ -966,6 +966,14 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.pausarSeguimiento = !!sesion.pausarSeguimiento || !!existente.pausarSeguimiento;
             existente.esperandoDatosPedidoLibre = sesion.esperandoDatosPedidoLibre || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
+            // TOPE DE SEGUIMIENTOS (1-oct-2026, a pedido de Wendy: "no saturar a los clientes, por
+            // mucho enviar 2 mensajes"): cada vez que hay actividad nueva en la conversacion (el
+            // cliente escribe, o Wendy le escribe manualmente desde el panel), se reinicia el
+            // conteo de seguimientos automaticos y las banderas de que tier ya se envio. Asi el
+            // tope de 2 mensajes automaticos (ver enviarRecordatoriosPendientes y
+            // ejecutarPromoDiaria, que comparten este mismo contador) aplica por cada silencio
+            // nuevo despues de la ultima vez que hubo actividad, no una sola vez para siempre.
+            existente.recordatorios = { seguimientosEnviados: 0 };
       } else {
             datos.unshift({
                   telefono,
@@ -1378,6 +1386,14 @@ async function enviarRecordatoriosPendientes() {
                   if (recordatorios.horas2 && !recordatorios.horas1) recordatorios.horas1 = true;
                   if (recordatorios.horas8 && !recordatorios.horas7) recordatorios.horas7 = true;
 
+                  // TOPE DE SEGUIMIENTOS (1-oct-2026, a pedido de Wendy): no saturar al cliente,
+                  // maximo 2 mensajes automaticos de seguimiento en total desde la ultima vez que
+                  // hubo actividad en la conversacion. El contador seguimientosEnviados es
+                  // compartido con ejecutarPromoDiaria (cuenta tanto estos recordatorios por horas
+                  // como la plantilla de reactivacion diaria) y se reinicia en guardarCliente cada
+                  // vez que el cliente escribe o Wendy le escribe manualmente.
+                  if ((recordatorios.seguimientosEnviados || 0) >= 2) continue;
+
                   // Cliente que prometio mandar sus datos de pedido en conversacion libre (ver
                   // esperandoDatosPedidoLibre en manejarTextoLibre) y no llegaron: un solo
                   // recordatorio puntual a las 2 horas, independiente del ciclo normal de
@@ -1555,6 +1571,9 @@ async function marcarRecordatoriosEnviados(pendientes) {
                   if (!cliente.recordatorios) cliente.recordatorios = {};
                   if (!cliente.recordatorios[p.tier]) {
                         cliente.recordatorios[p.tier] = true;
+                        // Suma al tope compartido de 2 seguimientos automaticos (ver comentario en
+                        // enviarRecordatoriosPendientes y ejecutarPromoDiaria).
+                        cliente.recordatorios.seguimientosEnviados = (cliente.recordatorios.seguimientosEnviados || 0) + 1;
                         cambios = true;
                   }
             }
@@ -1630,6 +1649,11 @@ async function ejecutarPromoDiaria() {
                   if (c.pausado) continue;
                   if (telefonosConPedido.has(c.telefono)) continue;
                   if (!c.ultimoContacto) continue;
+                  // TOPE DE SEGUIMIENTOS (1-oct-2026, a pedido de Wendy): comparte el mismo
+                  // contador que enviarRecordatoriosPendientes, maximo 2 mensajes automaticos en
+                  // total. Antes esta plantilla se repetia una vez por dia indefinidamente mientras
+                  // el cliente no comprara.
+                  if ((c.recordatorios?.seguimientosEnviados || 0) >= 2) continue;
                   if (c.recordatorios?.promoDiariaFecha === hoyBogota) continue;
                   if (promoDiariaEnviadaEnProceso.has(`${c.telefono}|${hoyBogota}`)) continue;
                   // Si el cliente escribio en los ultimos 15 minutos, esta en plena conversacion
@@ -1680,6 +1704,9 @@ async function marcarPromoDiariaEnviada(telefonos, fechaTexto) {
                   if (!cliente.recordatorios) cliente.recordatorios = {};
                   if (cliente.recordatorios.promoDiariaFecha !== fechaTexto) {
                         cliente.recordatorios.promoDiariaFecha = fechaTexto;
+                        // Suma al tope compartido de 2 seguimientos automaticos (ver comentario en
+                        // enviarRecordatoriosPendientes y ejecutarPromoDiaria).
+                        cliente.recordatorios.seguimientosEnviados = (cliente.recordatorios.seguimientosEnviados || 0) + 1;
                         cambios = true;
                   }
             }
