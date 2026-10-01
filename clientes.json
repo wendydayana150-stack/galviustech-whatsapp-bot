@@ -3,8 +3,8 @@
     "telefono": "573103280681",
     "nombre": "💛",
     "primerContacto": "2026-10-01T02:03:29.514Z",
-    "ultimoContacto": "2026-10-01T02:03:29.514Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T02:04:22.883Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T02:03:28.446Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMjgwNjgxFQIAERgSNzY3RDBFNTM5NEMwQUY0Mzk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-10-01T02:04:19.587Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la info, ¿en qué municipio o vereda estás? Así puedo recomendarte el mejor modem para tu zona y uso. Por cierto, manejamos tres versiones: Modem WiFi Portátil 4G por $219.900, Modem 4G/5G por $249.900 y Modem 5G también por $249.900. El 4G/5G es la opción más segura para zonas rurales porque funciona en lugares con 4G o 5G, mientras el 4G es más económico y el 5G es para zonas con buena cobertura 5G. ¿En qué lo usarás, para trabajo, estudio o algo más?",
+        "fecha": "2026-10-01T02:04:21.790Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMjgwNjgxFQIAERgSOTk2REM0MUMzMUI3MzI5OEZGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
