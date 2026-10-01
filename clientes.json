@@ -113,7 +113,11 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573214996567",
@@ -593,7 +597,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
@@ -4277,7 +4282,9 @@
     "recordatorios": {
       "horas1": true,
       "horas3": true,
-      "horas5": true
+      "horas5": true,
+      "horas7": true,
+      "seguimientosEnviados": 1
     }
   },
   {
@@ -6243,8 +6250,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 2,
+      "horas1": true,
+      "horas3": true
     }
   },
   {
