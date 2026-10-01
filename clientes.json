@@ -3,8 +3,8 @@
     "telefono": "573007397598",
     "nombre": "no tengo",
     "primerContacto": "2026-10-01T01:41:52.435Z",
-    "ultimoContacto": "2026-10-01T01:41:52.435Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T01:42:00.484Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-10-01T01:41:51.640Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3Mzk3NTk4FQIAERgSM0YyMDc1MjQ4QzMxQzU1RkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto bale",
+        "fecha": "2026-10-01T01:41:57.100Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, antes de decirte el precio me cuentas: ¿en qué municipio o vereda estarías usando el módem y para qué lo necesitas? Así te recomiendo el mejor modelo para tu caso y zona. ¿Es para trabajo, estudio, hogar o viajes?",
+        "fecha": "2026-10-01T01:41:59.275Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3Mzk3NTk4FQIAERgSMjhCQUVDRjFCMTA0MzAxNTU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
