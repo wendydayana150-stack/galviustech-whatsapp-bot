@@ -795,8 +795,8 @@
     "telefono": "573103317873",
     "nombre": "hebersalcedosalcedopatino",
     "primerContacto": "2026-10-01T15:10:39.825Z",
-    "ultimoContacto": "2026-10-01T15:10:39.825Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T18:13:44.992Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -836,20 +836,32 @@
         "fecha": "2026-10-01T15:10:38.876Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMzE3ODczFQIAERgSMDI3M0I3Qjg2MkQzRTYzNkMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una vereda",
+        "fecha": "2026-10-01T18:13:41.235Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una vereda te recomiendo especialmente el Modem WiFi Portátil 4G/5G que funciona tanto donde hay señal 4G como 5G, lo que te da más seguridad de conexión y mejor cobertura que un celular común. También puedes escoger el 4G si prefieres ahorrar un poco, o el 5G si en tu zona ya hay buena cobertura 5G y buscas la velocidad máxima.\n\nEl Modem WiFi Portátil 4G cuesta $219.900, el 4G/5G $249.900 y el 5G $249.900.\n\nCon cualquiera puedes conectar hasta 10 dispositivos y la batería dura hasta 14 horas seguidas. Además, todos incluyen una SIM de Claro sin plan ni megas activados, para que uses el plan que prefieras.\n\n¿Quieres que te cuente más detalles de algún modelo o prefieres que te ayude a dejar listo tu pedido ya? ¿En qué municipio queda esa vereda?",
+        "fecha": "2026-10-01T18:13:43.984Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMzE3ODczFQIAERgSOUREREJBOTRFMEZCMUZDQ0MwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
