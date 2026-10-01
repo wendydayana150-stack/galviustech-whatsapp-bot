@@ -3,8 +3,8 @@
     "telefono": "573128141496",
     "nombre": "icr3128141496",
     "primerContacto": "2026-10-01T00:29:47.182Z",
-    "ultimoContacto": "2026-10-01T00:31:34.500Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T00:32:55.980Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-10-01T00:31:33.544Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSQjVGNEU1QjdFRTAzNEE4MThFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como se activa el plan y cuánto vale",
+        "fecha": "2026-10-01T00:32:52.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La SIMCARD que viene incluida es de Claro, sin plan ni megas activados, así que tú eliges y activas el plan que más te convenga directamente con Claro. Puedes hacerlo por su app, línea de atención o en tienda física. Los precios y planes varían según lo que necesites: por ejemplo, puedes comprar recargas prepago para usar solo cuando quieras sin contratos, o planes mensuales con diferentes cantidades de datos.\n\n¿Quieres que te recomiende alguna opción para tu uso en casa o prefieres que te ayude a dejar el pedido del módem listo para que empieces a probar la conexión?",
+        "fecha": "2026-10-01T00:32:54.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSMEJBQTAwREJBRTI3OEQ2MTY2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T00:32:55.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSQzRDRjY3MEZDNDUyMjQwRUY1AA=="
       }
     ],
     "paso": "conversando",
