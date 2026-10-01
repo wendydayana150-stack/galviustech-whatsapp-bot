@@ -9210,8 +9210,8 @@
     "telefono": "573012982232",
     "nombre": "Jhon Sierra",
     "primerContacto": "2026-09-30T00:18:19.690Z",
-    "ultimoContacto": "2026-09-30T00:24:19.982Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T01:21:03.688Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9263,6 +9263,18 @@
         "fecha": "2026-09-30T00:24:18.948Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyOTgyMjMyFQIAERgSQjFBNUEwNUU3MTY4NDk3NTg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias ya conseguí",
+        "fecha": "2026-10-01T01:21:00.151Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto Jhon, cuando necesites algo más aquí estaré para ayudarte sin problema 😊 ¡Un abrazo!\n\nSi en el futuro te hace falta una impresora termica para tus documentos o facturas, GalviusTech es la mejor opción.\n\nQuedo atenta por si quieres ver otros productos o resolver dudas. ¿Quieres que te muestre algo más por ahora?",
+        "fecha": "2026-10-01T01:21:02.683Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyOTgyMjMyFQIAERgSRThFOTdFNUYwRkQ1Q0NGMzIwAA=="
       }
     ],
     "paso": "conversando",
@@ -9273,7 +9285,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
