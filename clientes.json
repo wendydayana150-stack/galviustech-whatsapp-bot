@@ -53,8 +53,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:35:03.714Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T12:39:13.932Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,6 +118,25 @@
         "fecha": "2026-10-01T12:35:02.463Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSOTIwMzM0QjRCNTY3RjA3RjVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para realizar el pedido",
+        "fecha": "2026-10-01T12:39:10.719Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿qué producto quieres pedir hoy? Por ejemplo, la Impresora Térmica Portátil Bluetooth, algún módem, lámpara o cámara. Así te voy guiando para dejar tu pedido listo rápido. ¿Cuál te interesa?",
+        "fecha": "2026-10-01T12:39:11.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSRUJFNzhGODlENUY5QTBBMkM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T12:39:12.637Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSRTJERjUzRjU4RTgxRTcxQzAxAA=="
       }
     ],
     "paso": "conversando",
