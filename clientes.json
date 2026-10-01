@@ -3,8 +3,8 @@
     "telefono": "573236132380",
     "nombre": "lllllll",
     "primerContacto": "2026-10-01T19:35:37.263Z",
-    "ultimoContacto": "2026-10-01T19:38:43.346Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-01T19:39:19.196Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -195,6 +195,25 @@
         "fecha": "2026-10-01T19:38:42.476Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSODJFMkQzRjM0RkEyQjRFNTcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero recibe cualquier operador ?",
+        "fecha": "2026-10-01T19:39:15.978Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el módem 5G es compatible con SIM cards de todos los operadores en Colombia (Claro, Movistar, Tigo, WOM, ETB), solo depende de la cobertura que tengas en Bogotá o donde lo uses. Igual, la SIM que incluimos de regalo es de Claro, pero puedes cambiarla por la de tu operador favorito si prefieres.\n\n¿Quieres que te ayude a dejar el pedido con la SIM de Claro para que empieces a probarlo? ¿O prefieres otra cosa?",
+        "fecha": "2026-10-01T19:39:17.740Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSN0Q4OEYxM0UyMEE3NEU1RkRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T19:39:18.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSNEU1NzFFRjQ3Qzc0Mjg0MDVFAA=="
       }
     ],
     "paso": "pedido_celular",
