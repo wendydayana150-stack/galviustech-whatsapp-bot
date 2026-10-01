@@ -5534,8 +5534,8 @@
     "telefono": "573116507696",
     "nombre": "Nayibe",
     "primerContacto": "2026-10-01T02:19:15.736Z",
-    "ultimoContacto": "2026-10-01T02:19:15.736Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T20:46:06.098Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5575,6 +5575,18 @@
         "fecha": "2026-10-01T02:19:15.005Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NTA3Njk2FQIAERgSNTI2MUJGRDY2QjQ4QTVCQjM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "👍🏽👍🏽👍🏽👍🏽",
+        "fecha": "2026-10-01T20:46:02.651Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que te guste! ¿El modem lo usarías para trabajar, estudiar, en tu hogar o para viajar? Así te doy la mejor opción según tu necesidad. ¿En qué lugar estarías conectándote normalmente?",
+        "fecha": "2026-10-01T20:46:05.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NTA3Njk2FQIAERgSODhCRkZFREU1RjQ3QUQ2MUM2AA=="
       }
     ],
     "paso": "conversando",
@@ -5588,12 +5600,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true,
-      "horas5": true,
-      "horas7": true,
-      "horas9": true,
-      "horas11": true
+      "seguimientosEnviados": 0
     }
   },
   {
