@@ -3,8 +3,8 @@
     "telefono": "573135477228",
     "nombre": "Freddy Mercado",
     "primerContacto": "2026-10-01T17:59:53.978Z",
-    "ultimoContacto": "2026-10-01T17:59:53.978Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T18:00:22.817Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-01T17:59:52.831Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDc3MjI4FQIAERgSOTA4N0E0MjlEQTE0MjczQUY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información del Modem WiFi",
+        "fecha": "2026-10-01T18:00:18.936Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊 Para poder recomendarte el modem ideal, cuéntame para qué lo necesitas o en qué ciudad o municipio estarías usándolo. Así te explico cuál te conviene más para que tengas internet donde lo necesites. ¿Me cuentas?",
+        "fecha": "2026-10-01T18:00:21.740Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDc3MjI4FQIAERgSMjM4MTNCQkNEQUQ2MzgyNTUyAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573012411037",
