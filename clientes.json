@@ -381,8 +381,8 @@
     "telefono": "573016127596",
     "nombre": "desconocido",
     "primerContacto": "2026-10-01T16:35:33.918Z",
-    "ultimoContacto": "2026-10-01T17:52:16.150Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-01T17:52:56.985Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -520,6 +520,18 @@
         "fecha": "2026-10-01T17:52:15.148Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2MTI3NTk2FQIAERgSQUVCRUM1QzFEMDBDRTIxRDU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias no tengo plata",
+        "fecha": "2026-10-01T17:52:54.306Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que el presupuesto puede ser un factor importante. Pero piensa que esta inversión te puede ahorrar tiempo y gastos empeñándote en buscar WiFi de terceros o gastando datos caros en el celular. Además, te da internet en tu vereda, que muchas veces no es fácil de conseguir.\n\nCuando estés listo o tengas alguna duda, aquí estaré para ayudarte. ¿Quieres que te mantenga la info para cuando puedas?",
+        "fecha": "2026-10-01T17:52:55.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MTI3NTk2FQIAERgSMzY1QzZBMEQzOEQ5MUEzNkMwAA=="
       }
     ],
     "paso": "conversando",
@@ -530,7 +542,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true
