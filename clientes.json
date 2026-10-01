@@ -3,8 +3,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T04:33:38.073Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-01T04:33:55.570Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,6 +231,25 @@
         "fecha": "2026-10-01T04:33:37.001Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSQjVCQjIzOUVBNkM1MjNENzk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No estoy agendado nada",
+        "fecha": "2026-10-01T04:33:52.516Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, no te preocupes, vamos a dejar tu pedido listo desde cero. Solo necesito que me confirmes el nombre completo y un número de contacto para que el sistema te informe por WhatsApp todo lo relacionado con tu modem 4G. ¿Me lo puedes enviar para avanzar?",
+        "fecha": "2026-10-01T04:33:53.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSRjYyRDhGNTY1QjlGQTFDRURDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T04:33:54.540Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSNTEzNTZCNDk3M0ZCRDQ5QkMwAA=="
       }
     ],
     "paso": "pedido_celular",
