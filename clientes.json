@@ -131,8 +131,8 @@
     "telefono": "573102497078",
     "nombre": "Jhonja",
     "primerContacto": "2026-10-01T00:26:41.359Z",
-    "ultimoContacto": "2026-10-01T00:28:43.844Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T00:31:10.736Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -196,6 +196,18 @@
         "fecha": "2026-10-01T00:28:42.826Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSNjE0MTlBMkU1MUI4RTM2ODQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este internet es satelital? O toma la señal donde haya antena de claro.",
+        "fecha": "2026-10-01T00:31:08.000Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No es internet satelital, el módem utiliza la señal celular de Claro donde haya cobertura de antenas móviles 4G o 5G. La antena del módem es más potente que la del celular, por eso logra captar mejor la señal en veredas y zonas rurales donde el celular a veces falla. Si en tu zona no hay señal de ningún operador, lamentablemente no podrá conectarse.\n\n¿Quieres que te ayude con el pedido del módem 4G/5G para que puedas tener internet confiable en tu trabajo rural y en el municipio? ¿O prefieres que te explique las diferencias entre las versiones?",
+        "fecha": "2026-10-01T00:31:09.710Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSOUYwOThFNzI4MjQ4MEM1OTcyAA=="
       }
     ],
     "paso": "conversando",
