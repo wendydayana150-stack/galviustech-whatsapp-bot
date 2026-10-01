@@ -10812,8 +10812,8 @@
     "telefono": "573133808677",
     "nombre": "Lizeth Sánchez",
     "primerContacto": "2026-09-30T16:17:03.873Z",
-    "ultimoContacto": "2026-09-30T16:17:27.137Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T22:27:51.829Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10865,6 +10865,18 @@
         "fecha": "2026-09-30T16:17:26.237Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzODA4Njc3FQIAERgSODJBQUMxNjMyMDgxOTI3Njg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "ya no me interesa, gracias",
+        "fecha": "2026-10-01T22:27:48.928Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Lizeth, gracias por escribirme. Si en algún momento quieres retomar o tienes otra pregunta, aquí estaré para ayudarte sin compromiso.\n\nMientras tanto, ¿quieres que te muestre otros productos que podrían servirte mejor, como nuestros modems o lámparas solares? Así tienes más opciones para cuando quieras.",
+        "fecha": "2026-10-01T22:27:50.770Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzODA4Njc3FQIAERgSRURFNjdCNTA2MEQyQTAxNUJBAA=="
       }
     ],
     "paso": "conversando",
@@ -10875,16 +10887,10 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true,
-      "horas5": true,
-      "horas7": true,
-      "horas9": true,
-      "horas11": true,
-      "promoDiariaFecha": "2026-10-1"
+      "seguimientosEnviados": 0
     }
   },
   {
