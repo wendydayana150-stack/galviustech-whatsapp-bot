@@ -3,8 +3,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T04:30:27.231Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T04:31:27.524Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,13 +68,25 @@
         "fecha": "2026-10-01T04:30:26.182Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSQ0YwRTIwQzQ3RUI0NzcwNzRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay alguno más económico",
+        "fecha": "2026-10-01T04:31:24.918Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el más económico es el Modem WiFi Portatil 4G por $219.900. Te da buena cobertura 4G, conecta varios dispositivos y es ideal para uso en casa, trabajo o viajes sin complicaciones ni instalaciones. Es una inversión para no quedarte sin internet justo cuando más lo necesitas. ¿Quieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-10-01T04:31:26.424Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSOEY4RDlGMTRBNUNGOTFDMEEzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
