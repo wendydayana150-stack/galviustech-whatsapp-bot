@@ -3,8 +3,8 @@
     "telefono": "573214996567",
     "nombre": "Conecta y Crece",
     "primerContacto": "2026-10-01T22:37:41.736Z",
-    "ultimoContacto": "2026-10-01T22:37:41.736Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T22:37:45.413Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-01T22:37:40.819Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTk2NTY3FQIAERgSN0E2NUNENzBDQjVGQzEyQzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio. ???",
+        "fecha": "2026-10-01T22:37:43.312Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, antes de darte el precio, me cuentas en qué ciudad o municipio estás y para qué necesitas el modem? Así te oriento mejor.\n\nMientras tanto, te adelanto que nuestros modems portátiles te permiten tener internet donde más lo necesites, compartir conexión con varios dispositivos y son súper fáciles de llevar a cualquier lugar. Quedo pendiente de tu info para recomendarte la mejor opción. ¿Dónde vives?",
+        "fecha": "2026-10-01T22:37:44.670Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTk2NTY3FQIAERgSMkZERUNCNjM0NTU4OTc2RUJCAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573023230664",
