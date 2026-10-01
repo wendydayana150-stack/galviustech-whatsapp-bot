@@ -174,8 +174,8 @@
     "telefono": "573102497078",
     "nombre": "Jhonja",
     "primerContacto": "2026-10-01T00:26:41.359Z",
-    "ultimoContacto": "2026-10-01T00:31:10.736Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-01T00:34:48.936Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -251,13 +251,25 @@
         "fecha": "2026-10-01T00:31:09.710Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSOUYwOThFNzI4MjQ4MEM1OTcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ah vale, muchas gracias, por aquí lo único fijo de Claro, es la factura...",
+        "fecha": "2026-10-01T00:34:46.745Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Jaja, entiendo totalmente esa sensación. Con el módem de GalviusTech te olvidas de depender del WiFi ajeno y la factura fija, ya tienes tu internet independiente para donde vayas en Caquetá y zonas rurales. \n\n¿Quieres que te arme el pedido del módem 4G/5G para que empieces a disfrutar esa libertad de conexión? ¿Te lo enviamos a domicilio o prefieres recogerlo en oficina de Interrapidisimo?",
+        "fecha": "2026-10-01T00:34:47.934Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSRDY1QTc2QTdFMjJBQTIzODM2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
