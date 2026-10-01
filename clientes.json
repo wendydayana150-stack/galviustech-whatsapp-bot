@@ -275,7 +275,11 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573135477228",
@@ -1597,7 +1601,9 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
-      "horas3": true
+      "horas3": true,
+      "horas5": true,
+      "seguimientosEnviados": 1
     }
   },
   {
@@ -1704,7 +1710,8 @@
       "horas1": true,
       "horas3": true,
       "promoDiariaFecha": "2026-10-1",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas5": true
     }
   },
   {
@@ -2146,7 +2153,8 @@
       "horas1": true,
       "horas3": true,
       "promoDiariaFecha": "2026-10-1",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas5": true
     }
   },
   {
