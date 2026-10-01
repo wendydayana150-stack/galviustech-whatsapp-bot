@@ -3,8 +3,8 @@
     "telefono": "573236132380",
     "nombre": "lllllll",
     "primerContacto": "2026-10-01T19:35:37.263Z",
-    "ultimoContacto": "2026-10-01T19:38:22.539Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-01T19:38:43.346Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,6 +176,25 @@
         "fecha": "2026-10-01T19:38:21.549Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSRENFNEE4ODZCMDc2REIzMjI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La sim card cómo se solicita",
+        "fecha": "2026-10-01T19:38:39.873Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem viene con una SIM card de Claro que te obsequiamos, pero solo es la tarjeta física sin plan ni megas activos. Cuando recibas el equipo, tú mismo puedes activarla y elegir el plan o recarga que más te convenga con Claro según tus necesidades.\n\n¿Te gustaría que te deje el pedido listo para que te llegue con la SIM incluida y puedas empezar a usarlo? ¿A qué dirección te lo enviamos?",
+        "fecha": "2026-10-01T19:38:41.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSNDNGMDkxNUIwMjU1NTE2MDg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T19:38:42.476Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSODJFMkQzRjM0RkEyQjRFNTcwAA=="
       }
     ],
     "paso": "pedido_celular",
