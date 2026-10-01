@@ -13502,8 +13502,8 @@
     "telefono": "573125018182",
     "nombre": "Víctor Lozano",
     "primerContacto": "2026-09-30T01:05:14.830Z",
-    "ultimoContacto": "2026-09-30T15:07:36.874Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T14:04:13.309Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13630,6 +13630,25 @@
         "fecha": "2026-09-30T15:07:35.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MDE4MTgyFQIAERgSNEM2QjRBMzVFNzE4QTA2OTY0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Víctor Lozano, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-10-01T11:19:22.211Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MDE4MTgyFQIAERgSREREOEZBNTY0MEQ5MzNGMEZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias.",
+        "fecha": "2026-10-01T14:04:09.823Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto Víctor, quedo atenta para ayudarte cuando decidas. ¡No dudes en escribirme si cambias de opinión! 😊\n\n¿Quieres que te muestre otros productos como modem portátil o lámparas solares para que tengas más opciones?",
+        "fecha": "2026-10-01T14:04:11.404Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MDE4MTgyFQIAERgSOUE4QTgxMTk0MkZBNEVBNzg2AA=="
       }
     ],
     "paso": "conversando",
@@ -13640,7 +13659,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "horas1": true,
