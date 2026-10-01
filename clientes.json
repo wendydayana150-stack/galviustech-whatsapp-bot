@@ -89,8 +89,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:43:56.359Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-01T12:44:03.984Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -334,9 +334,21 @@
         "fecha": "2026-10-01T12:43:55.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSNDEyMjAzMTVENjQ1N0YzRTVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santana",
+        "fecha": "2026-10-01T12:44:02.705Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-01T12:44:02.706Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSODk4MDlDREFDMDY3NjYyRDg0AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -344,7 +356,8 @@
       "telefono": "573212180994",
       "nombreCliente": "Está no más",
       "celular": "3224720425",
-      "departamento": "Putumayo"
+      "departamento": "Putumayo",
+      "ciudad": "Santana"
     },
     "pausado": false,
     "etapaManual": null,
