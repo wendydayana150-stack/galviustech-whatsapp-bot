@@ -3,8 +3,8 @@
     "telefono": "573236132380",
     "nombre": "lllllll",
     "primerContacto": "2026-10-01T19:35:37.263Z",
-    "ultimoContacto": "2026-10-01T19:35:37.263Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-01T19:36:12.510Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-01T19:35:36.516Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSQjE4MkQ1OTg0Rjk3NDlDQzI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bogota",
+        "fecha": "2026-10-01T19:36:09.018Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, me queda claro que estás en Bogotá. Para recomendarte bien, ¿me podrías contar para qué necesitas el modem? ¿Es para trabajo, estudio, hogar o viajes? Esto me ayuda a sugerirte la mejor opción que tenemos. Mientras tanto, te adelanto que tenemos tres modelos: el Modem WiFi Portátil 4G por $219.900, que funciona genial en fincas, veredas y donde no hay fibra; el Modem WiFi Portátil 4G/5G por $249.900, que es ideal si hay cobertura de 5G o 4G y quieres velocidad y estabilidad; y el Módem WiFi Portátil 5G también a $249.900, para quienes tienen señal 5G y buscan lo más rápido al máximo. ¿Con cuál te gustaría que profundicemos según tu necesidad?",
+        "fecha": "2026-10-01T19:36:11.581Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSRTc0RjIxRkNGMEVCMTNEQzlGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214264685",
