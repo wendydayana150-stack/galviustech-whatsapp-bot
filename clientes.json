@@ -89,8 +89,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:44:39.717Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-01T12:45:04.488Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -358,9 +358,21 @@
         "fecha": "2026-10-01T12:44:38.679Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSQzAzOTREMDEwNkU1REJFMjQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Salida a Orito",
+        "fecha": "2026-10-01T12:45:03.280Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
+        "fecha": "2026-10-01T12:45:03.280Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSNjBGQkZCMTlCRjYzMTU5MDU4AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -370,7 +382,8 @@
       "celular": "3224720425",
       "departamento": "Putumayo",
       "ciudad": "Santana",
-      "direccion": "Santana Putumayo"
+      "direccion": "Santana Putumayo",
+      "barrio": "Salida a Orito"
     },
     "pausado": false,
     "etapaManual": null,
