@@ -61,8 +61,8 @@
     "telefono": "573148210541",
     "nombre": "Luchi",
     "primerContacto": "2026-10-01T11:24:41.074Z",
-    "ultimoContacto": "2026-10-01T11:25:38.881Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T11:27:35.484Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,6 +126,25 @@
         "fecha": "2026-10-01T11:25:37.910Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4MjEwNTQxFQIAERgSN0YyNDlFMjlGQjJEMkQ3NDY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que hoja maneja",
+        "fecha": "2026-10-01T11:27:32.376Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil usa papel térmico tamaño carta, y ya viene incluido con la impresora para que puedas empezar a imprimir de una. Además, si quieres, podemos agregar a tu pedido papel extra en dos presentaciones: paquete de 52 hojas por $38.000 o rollo de 9 metros por $10.000, ambos con envío gratis.\n\n¿Quieres que te separe alguna de estas opciones de papel para que no te quedes sin imprimir cuando la uses?",
+        "fecha": "2026-10-01T11:27:33.975Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MjEwNTQxFQIAERgSQ0NDQTg5MkI0OTgyRDBDRUMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T11:27:34.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MjEwNTQxFQIAERgSRjA0Q0E4NkQwMUM2QzZERDUxAA=="
       }
     ],
     "paso": "conversando",
