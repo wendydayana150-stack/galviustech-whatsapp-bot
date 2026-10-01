@@ -119,8 +119,8 @@
     "telefono": "573135477228",
     "nombre": "Freddy Mercado",
     "primerContacto": "2026-10-01T17:59:53.978Z",
-    "ultimoContacto": "2026-10-01T18:24:17.498Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-01T18:48:03.333Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -239,13 +239,25 @@
         "fecha": "2026-10-01T18:24:16.298Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDc3MjI4FQIAERgSRDBBREI1MkI0REQ5MDIxODBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que tan rápido podrán ser",
+        "fecha": "2026-10-01T18:48:00.096Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La velocidad dependerá mucho de la cobertura y la velocidad que tenga el operador en Puerto Libertador. El módem 4G/5G te da la ventaja de conectarte a 5G si está disponible, que es más rápida, y si no, se conecta a 4G que igualmente es bastante estable.\n\nAsí que vas a tener la mejor velocidad posible según la señal que haya en tu zona. Además, podés conectar varios dispositivos al mismo tiempo para que todos tengan internet sin problema.\n\n¿Quieres que te ayude a dejar el pedido listo para enviártelo y mejorar tu conexión? ¿Prefieres pagar contra entrega o por transferencia?",
+        "fecha": "2026-10-01T18:48:02.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDc3MjI4FQIAERgSRDNCRDZDQzFBRDExOEI5RkU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
