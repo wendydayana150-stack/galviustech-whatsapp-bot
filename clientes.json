@@ -1940,8 +1940,8 @@
     "telefono": "573118768674",
     "nombre": "Joha",
     "primerContacto": "2026-10-01T02:01:30.092Z",
-    "ultimoContacto": "2026-10-01T11:55:47.859Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-01T11:56:14.988Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2061,6 +2061,25 @@
         "fecha": "2026-10-01T11:55:46.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NzY4Njc0FQIAERgSNTk3QjRCQjY2MDhFRDMwODU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Negocio",
+        "fecha": "2026-10-01T11:56:10.986Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para un negocio es genial porque imprime rápido, sin tinta y desde tu celular, así no te detienes por falta de papel o tinta y resuelves todo al momento. Además, la batería dura hasta 30 horas y tarda 3 horas en cargarse. ¿En qué ciudad o municipio estás para coordinar el envío sin costo? Y aprovecho para contarte que también puedes agregar papel térmico extra: paquete de 52 hojas tamaño carta por $38.000 o rollo de 9 metros por $10.000, ¿te interesa alguno?",
+        "fecha": "2026-10-01T11:56:13.522Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NzY4Njc0FQIAERgSNDYyQjFBNTkxNzkwQjVFQ0ZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-01T11:56:14.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NzY4Njc0FQIAERgSRkI3MzlGQjY1QkJEMkNDQ0VBAA=="
       }
     ],
     "paso": "conversando",
