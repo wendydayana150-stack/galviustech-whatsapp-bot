@@ -3,8 +3,8 @@
     "telefono": "573128141496",
     "nombre": "icr3128141496",
     "primerContacto": "2026-10-01T00:29:47.182Z",
-    "ultimoContacto": "2026-10-01T00:35:22.831Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-01T00:36:33.496Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,6 +118,18 @@
         "fecha": "2026-10-01T00:35:21.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSOUI0MTQ0RDc3NTEzM0NEMTI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a pensar",
+        "fecha": "2026-10-01T00:36:29.825Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tomate el tiempo que necesites. Cuando quieras, aquí estoy para ayudarte a resolver cualquier duda y dejar tu pedido listo. ¿Hay algo más que quieras saber mientras tanto?",
+        "fecha": "2026-10-01T00:36:31.437Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTQxNDk2FQIAERgSNzk2MkE4MjAwN0Y4OUZCMzdDAA=="
       }
     ],
     "paso": "conversando",
@@ -128,7 +140,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
