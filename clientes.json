@@ -3,8 +3,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T04:32:59.065Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-01T04:33:16.701Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,14 +200,27 @@
         "fecha": "2026-10-01T04:32:58.091Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSMDE1QTM3QzVCNUJDMjg2QjQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Busco algo más económico",
+        "fecha": "2026-10-01T04:33:15.548Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-01T04:33:15.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSNDgyNzE5NEU2NjYzOEYwNjUxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 219900,
-      "telefono": "573126950745"
+      "telefono": "573126950745",
+      "nombreCliente": "Busco algo más económico"
     },
     "pausado": false,
     "etapaManual": null,
