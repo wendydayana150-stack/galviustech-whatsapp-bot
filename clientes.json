@@ -3,8 +3,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:31:21.453Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-01T12:35:03.714Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-10-01T12:31:20.328Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSQTE3MUNCQzhERkFBMUJFNDdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De dónde realizan el envío",
+        "fecha": "2026-10-01T12:35:01.000Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, te habla Michell. Todos nuestros productos incluyen envío GRATIS a todo Colombia, sin importar la zona o la cantidad que compres. Normalmente enviamos con Interrapidisimo, o Coordinadora si tu zona no tiene cobertura de la primera. ¿Qué producto te interesa para darte más detalles y ayudarte con el envío?",
+        "fecha": "2026-10-01T12:35:02.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSOTIwMzM0QjRCNTY3RjA3RjVFAA=="
       }
     ],
     "paso": "conversando",
