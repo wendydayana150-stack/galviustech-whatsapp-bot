@@ -73,8 +73,8 @@
     "telefono": "573248344168",
     "nombre": "ISAI",
     "primerContacto": "2026-10-01T17:26:08.050Z",
-    "ultimoContacto": "2026-10-01T17:32:13.740Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-01T17:33:02.602Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -270,6 +270,25 @@
         "fecha": "2026-10-01T17:32:12.752Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSREQ2ODVBOEYxNTk2QjA1N0NCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto dura la recarga de internet?",
+        "fecha": "2026-10-01T17:32:59.147Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La duración de la recarga depende del plan que elijas con Claro y de cuánto uses el internet. Por ejemplo, si eliges un plan diario o semanal, dura ese tiempo; si es mensual, dura un mes. Pero el módem en sí puede funcionar hasta 14 horas continuas con la batería cargada. ¿Y vos qué uso principal le darías, para saber cuál plan puede convenirte más? Así te ayudo a elegir mejor.",
+        "fecha": "2026-10-01T17:33:00.973Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSMjExM0ZFMjFGNjZFQ0E5QTFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T17:33:01.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSNDU1MEU4RDkwMTE2OTUxNDMzAA=="
       }
     ],
     "paso": "pedido_nombre",
