@@ -89,8 +89,8 @@
     "telefono": "573212180994",
     "nombre": "Mariana",
     "primerContacto": "2026-10-01T12:30:41.729Z",
-    "ultimoContacto": "2026-10-01T12:43:44.148Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-01T12:43:56.359Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -322,16 +322,29 @@
         "fecha": "2026-10-01T12:43:43.215Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSMThCQzg3OEY1N0FCMkI1Rjc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Putumayo",
+        "fecha": "2026-10-01T12:43:55.261Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-01T12:43:55.262Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTgwOTk0FQIAERgSNDEyMjAzMTVENjQ1N0YzRTVDAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573212180994",
       "nombreCliente": "Está no más",
-      "celular": "3224720425"
+      "celular": "3224720425",
+      "departamento": "Putumayo"
     },
     "pausado": false,
     "etapaManual": null,
