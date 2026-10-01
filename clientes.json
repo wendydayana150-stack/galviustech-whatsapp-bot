@@ -1963,8 +1963,8 @@
     "telefono": "573132858849",
     "nombre": "Leonel Pulido",
     "primerContacto": "2026-10-01T11:22:58.184Z",
-    "ultimoContacto": "2026-10-01T11:44:03.190Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-01T15:28:03.896Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2203,6 +2203,27 @@
         "fecha": "2026-10-01T11:44:02.350Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSMDE5RTEyODA3QzAzNTIwQTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T12:53:33.981Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSOTA4Nzk3NEU0MTk1NTBGRjEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T14:53:33.971Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSNDdFNzFCQjc4ODQ2MDEwMTFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, alguna duda? te gustaría pago contraentrega o transferencia?",
+        "fecha": "2026-10-01T15:28:02.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSQTk5OUJGOTU4M0Y1Nzk0MUQ0AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2212,7 +2233,7 @@
       "precio": 289900,
       "telefono": "573132858849"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
