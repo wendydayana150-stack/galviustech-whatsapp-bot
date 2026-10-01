@@ -217,8 +217,8 @@
     "telefono": "573102497078",
     "nombre": "Jhonja",
     "primerContacto": "2026-10-01T00:26:41.359Z",
-    "ultimoContacto": "2026-10-01T00:34:48.936Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-01T00:37:10.450Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -306,6 +306,18 @@
         "fecha": "2026-10-01T00:34:47.934Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSRDY1QTc2QTdFMjJBQTIzODM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No.",
+        "fecha": "2026-10-01T00:37:08.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando decidas. Recuerda que con nuestro módem podrás tener internet donde más lo necesites sin complicaciones. ¿Quieres que te muestre otras opciones de productos para mejorar tu conectividad o seguridad?",
+        "fecha": "2026-10-01T00:37:09.426Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDk3MDc4FQIAERgSNjA5RDFDOTE3QTY3QjQ0OEI5AA=="
       }
     ],
     "paso": "conversando",
@@ -316,7 +328,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null
   },
   {
