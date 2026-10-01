@@ -302,8 +302,8 @@
     "telefono": "573132858849",
     "nombre": "Leonel Pulido",
     "primerContacto": "2026-10-01T11:22:58.184Z",
-    "ultimoContacto": "2026-10-01T11:42:50.593Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-01T11:44:03.190Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -523,6 +523,25 @@
         "fecha": "2026-10-01T11:42:49.621Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSNTcxQUNDNjgxRDRGMDk5Q0UyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como es el pago",
+        "fecha": "2026-10-01T11:44:00.376Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes dos opciones: puedes pagar contraentrega cuando recibas el módem o hacer una transferencia bancaria, como te resulte más cómodo.\n\nRecuerda que el envío siempre es gratis y llega en 2 a 4 días hábiles después de confirmar el pedido.\n\n¿Quieres que te ayude a dejar tu pedido listo para que lo recibas pronto? ¿Prefieres pagar contraentrega o por transferencia?",
+        "fecha": "2026-10-01T11:44:01.822Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSN0QzOTYwNzg0NTE4RjhCMUI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T11:44:02.350Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSMDE5RTEyODA3QzAzNTIwQTlFAA=="
       }
     ],
     "paso": "pedido_nombre",
