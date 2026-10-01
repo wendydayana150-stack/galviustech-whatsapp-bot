@@ -6105,8 +6105,8 @@
     "telefono": "573134124634",
     "nombre": "elizabeth2023sanchez00",
     "primerContacto": "2026-09-30T23:26:34.369Z",
-    "ultimoContacto": "2026-10-01T01:28:21.087Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-01T17:09:25.653Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6292,6 +6292,55 @@
         "fecha": "2026-10-01T01:28:20.223Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNDcwNTk1MjcwRTEzQUIzMkI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T11:04:01.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSMTM3REYxODFBRjc1RDNBOTAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu pedido esta casi listo, solo falta un ultimo dato para poder despacharlo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T11:14:00.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNDMxRjg4OEM4OTc5REQ4ODc5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola elizabeth2023sanchez00, sobre modem WiFi portátil",
+        "fecha": "2026-10-01T11:18:47.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSMUUwNkM2NEYyNDE2MjQ2QzJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 No quiero que se te quede pendiente tu pedido por un solo dato que falta.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T11:24:36.061Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSQzU1Qzg3QjNFMzAyMDkyNkRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Sigo pendiente de ese ultimo dato para dejar tu pedido en camino.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-01T11:33:57.730Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNTA2RkFBNkJGRkU5OTE5QUQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 👋 Ultimo aviso por ahora: tu pedido sigue guardado, solo falta este dato para poder despacharlo.\n\nPara empezar, cual es tu nombre completo?\n\nSi mas adelante quieres retomarlo, aqui voy a estar lista para ayudarte. 👋",
+        "fecha": "2026-10-01T12:33:36.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSRDE2OTNGMEE2QUU5MTdFRjNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia.",
+        "fecha": "2026-10-01T17:09:24.537Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNUQ0OUQzQTM3RDFFM0U5MTE5AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6301,7 +6350,7 @@
       "precio": 289900,
       "telefono": "573134124634"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
