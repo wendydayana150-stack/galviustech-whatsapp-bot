@@ -1678,8 +1678,8 @@
     "telefono": "573332713472",
     "nombre": "Juan Maldonado",
     "primerContacto": "2026-10-02T18:22:34.627Z",
-    "ultimoContacto": "2026-10-02T18:22:34.627Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T23:51:05.822Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1719,22 +1719,46 @@
         "fecha": "2026-10-02T18:22:33.772Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSQzBDRTdBRkYzQzZGMTIwMjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-02T19:24:24.201Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSOTVGNjEyRTczMzAxOEU5MDJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-02T21:24:24.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSNUUxQjc5N0ZBMzA1NkZDMzQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me parece costosa por incierta,es decir no tengo seguridad de que funcione gracias",
+        "fecha": "2026-10-02T23:51:03.426Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo totalmente que quieras estar seguro antes de invertir. Lo bueno es que nuestro módem está diseñado con una antena potente que mejora la señal en zonas rurales, donde los celulares usualmente no agarran bien. Así puedes tener internet para estudiar, trabajar o comunicarte sin depender de la fibra óptica ni instalaciones costosas. ¿Me cuentas en qué municipio o zona lo usarías para decirte cuál modelo te conviene más y cómo te llegaría?",
+        "fecha": "2026-10-02T23:51:04.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSN0Q2MDdEOEZEQjgzMDc4RkYxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
