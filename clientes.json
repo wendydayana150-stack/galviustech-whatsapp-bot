@@ -3,8 +3,8 @@
     "telefono": "573102896458",
     "nombre": "Ana María Jaramillo",
     "primerContacto": "2026-10-02T00:34:30.754Z",
-    "ultimoContacto": "2026-10-02T00:40:00.462Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-02T00:40:08.586Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-10-02T00:39:42.892Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyODk2NDU4FQIAERgSNTQ3OTU3QzkwMjAzRkVDQzhGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-10-02T00:40:05.348Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zona rural en Tabio te recomiendo el módem 4G/5G porque funciona tanto donde hay 4G como donde ya hay cobertura 5G, lo que te da más opciones de conexión. Si quieres ahorrar un poco, el 4G también te funciona bien en zonas rurales, pero el 4G/5G es la opción más segura y versátil. La inversión sería de $249.900 para el 4G/5G y $219.900 para el 4G. ¿Quieres que te ayude a dejar tu pedido listo y te explico cómo te hacemos el envío?",
+        "fecha": "2026-10-02T00:40:07.080Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODk2NDU4FQIAERgSQjAwQjFEMzdFRERGQUEwNUMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-02T00:40:07.607Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODk2NDU4FQIAERgSMUJEN0FDN0E1QTlBMjYzMTg4AA=="
       }
     ],
     "paso": "conversando",
