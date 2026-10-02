@@ -3,8 +3,8 @@
     "telefono": "573244902890",
     "nombre": "Pendiente Con El Trabajo",
     "primerContacto": "2026-10-02T20:23:25.770Z",
-    "ultimoContacto": "2026-10-02T20:23:25.770Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T20:25:08.127Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T20:23:23.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ0OTAyODkwFQIAERgSOTQxNDBFQTE2NjQ3N0M4RjgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Choco \nIstmina",
+        "fecha": "2026-10-02T20:25:04.771Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Istmina en Chocó es una zona donde la cobertura puede variar, pero nuestros módems están diseñados para captar señal mucho mejor que un celular común, especialmente pensado para lugares así. ¿Para qué lo necesitas, más que todo? ¿Trabajo, estudio, viajes o para tu casa? Así te recomiendo el módem que más te conviene.",
+        "fecha": "2026-10-02T20:25:06.958Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0OTAyODkwFQIAERgSMkVDQzYzMjhEMUVCRkM4QzZEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573181518646",
