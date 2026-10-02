@@ -3,8 +3,8 @@
     "telefono": "573128281519",
     "nombre": "Deiro Martinez",
     "primerContacto": "2026-10-02T17:03:20.979Z",
-    "ultimoContacto": "2026-10-02T17:03:20.979Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T17:03:52.547Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T17:03:19.909Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MjgxNTE5FQIAERgSRUE3QzY3ODBGQjBDQ0QyOUE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural de Popayán",
+        "fecha": "2026-10-02T17:03:48.794Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural de Popayán te recomiendo revisar las 3 opciones que tenemos para conectarte sin depender de la fibra, con mejor cobertura que el celular:\n\n- Módem WiFi Portátil 4G por $219.900, ideal si quieres ahorrar y la señal 4G es buena.\n- Módem WiFi Portátil 4G/5G por $249.900, la opción más segura porque funciona en zonas con señal 4G o 5G.\n- Módem WiFi Portátil 5G también por $249.900, si confirmas que ahí ya hay buena cobertura 5G y quieres la máxima velocidad.\n\nTodos los modelos conectan varios dispositivos y son fáciles de llevar. ¿Cuál se adapta mejor a lo que buscas para tu finca o trabajo?",
+        "fecha": "2026-10-02T17:03:51.514Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MjgxNTE5FQIAERgSNzgyRDlEQTBFMEMyMUJDN0RDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223189261",
