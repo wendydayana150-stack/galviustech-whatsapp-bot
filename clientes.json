@@ -1737,8 +1737,8 @@
     "telefono": "573332713472",
     "nombre": "Juan Maldonado",
     "primerContacto": "2026-10-02T18:22:34.627Z",
-    "ultimoContacto": "2026-10-02T23:57:06.039Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-02T23:58:24.097Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1835,6 +1835,18 @@
         "fecha": "2026-10-02T23:57:05.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSOURFOEY4RjRENDNBRTlENTBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No por \nAhora gracias.",
+        "fecha": "2026-10-02T23:58:22.243Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, sin presión. Cuando decidas, aquí estaré para ayudarte a tener internet confiable en donde lo necesites. ¿Quieres que te muestre alguna otra opción en el catálogo, como impresoras o lámparas solares?",
+        "fecha": "2026-10-02T23:58:23.199Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSQUQ2NzA4Q0YwMzM3NEJFNTAxAA=="
       }
     ],
     "paso": "conversando",
@@ -1845,7 +1857,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
