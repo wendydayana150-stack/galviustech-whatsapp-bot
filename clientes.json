@@ -3,8 +3,8 @@
     "telefono": "573102896458",
     "nombre": "Ana María Jaramillo",
     "primerContacto": "2026-10-02T00:34:30.754Z",
-    "ultimoContacto": "2026-10-02T00:34:30.754Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T00:35:20.149Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T00:34:28.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyODk2NDU4FQIAERgSQzI0QUFEMTIxM0ZBRkRDODdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola es como un plan de datos",
+        "fecha": "2026-10-02T00:35:17.742Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. El módem WiFi portátil que tenemos no incluye un plan de datos activo; lo que sí incluye es una SIM de Claro de regalo, pero sin recarga ni plan. Tú mismo puedes activar y elegir el plan o la recarga que mejor te convenga. ¿En qué ciudad estás y para qué lo necesitas principalmente? Así te cuento cómo te puede ayudar.",
+        "fecha": "2026-10-02T00:35:19.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODk2NDU4FQIAERgSQTBGRUYzMTU3NzkwRDY3NDNBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136196441",
