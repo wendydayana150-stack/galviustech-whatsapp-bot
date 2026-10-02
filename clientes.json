@@ -3,8 +3,8 @@
     "telefono": "573181518646",
     "nombre": ".",
     "primerContacto": "2026-10-02T20:04:34.735Z",
-    "ultimoContacto": "2026-10-02T20:04:34.735Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T20:04:42.397Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T20:04:33.921Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNTE4NjQ2FQIAERgSODg1NUMyNDhGQTcxNDEzOTFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa para una finca",
+        "fecha": "2026-10-02T20:04:38.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una finca el módem es ideal porque tiene mejor cobertura que un celular, incluso en zonas rurales donde no llega fibra y necesitas conexión para trabajar, estudiar o simplemente estar comunicado. Te cuento las tres opciones que tenemos:\n\n- Modem WiFi Portatil 4G por $219.900, conexión confiable 4G y fácil de llevar.\n- Modem WiFi Portatil 4G/5G por $249.900, funciona en 4G y 5G, es la opción más segura para buena velocidad y cobertura.\n- Modem WiFi Portatil 5G por $249.900, si en tu finca ya hay señal 5G, obtienes la máxima velocidad.\n\nLa inversión te garantiza internet estable para conectar varios dispositivos, con batería que dura hasta 14 horas y sin instalaciones complicadas. ¿En qué municipio o vereda queda tu finca? Así te ayudo a elegir la mejor opción.",
+        "fecha": "2026-10-02T20:04:41.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNTE4NjQ2FQIAERgSQUMzNDgwRDU4RTc5MjZCOEM4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573043479539",
