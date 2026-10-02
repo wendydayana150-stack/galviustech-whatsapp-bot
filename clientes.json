@@ -3,8 +3,8 @@
     "telefono": "573112322672",
     "nombre": "psicoeducación",
     "primerContacto": "2026-10-02T02:09:52.940Z",
-    "ultimoContacto": "2026-10-02T02:09:52.940Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T02:10:30.314Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T02:09:52.010Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzIyNjcyFQIAERgSOTRERTFEMTJBQjBCQ0VDQjRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural",
+        "fecha": "2026-10-02T02:10:27.615Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, si estás en zona rural te va a encantar tener un módem que te da mejor cobertura que tu celular, sin depender de la fibra óptica. Te cuento que tenemos 3 modelos: \n\n- El Modem WiFi Portátil 4G por $219.900, ideal para conexión estable en zonas donde hay señal 4G.  \n- El Modem WiFi Portátil 4G/5G por $249.900, que funciona tanto en redes 4G como 5G, la opción más segura si no sabes qué cobertura exacta tienes.  \n- El Modem WiFi Portátil 5G por $249.900, para máxima velocidad en zonas con buena señal 5G.  \n\nTodos son fáciles de usar, para conectar varios dispositivos y llevar internet donde lo necesites. ¿Para qué lo necesitas principalmente: trabajo, estudio, hogar o viajar? Así te ayudo a escoger el mejor.",
+        "fecha": "2026-10-02T02:10:29.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzIyNjcyFQIAERgSQjYxNUFERkU0NjU1M0M0MUQ0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215061794",
