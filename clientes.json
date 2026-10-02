@@ -1737,8 +1737,8 @@
     "telefono": "573332713472",
     "nombre": "Juan Maldonado",
     "primerContacto": "2026-10-02T18:22:34.627Z",
-    "ultimoContacto": "2026-10-02T23:52:36.152Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-02T23:57:06.039Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1816,6 +1816,25 @@
         "fecha": "2026-10-02T23:52:35.033Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSNzkxM0IxNUZDRkE4Qzk2RDMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjeme pensar,esta sería la única inversión o existen pagos posteriores?cusl es la vida útil del equipo? Adicional a la sim de mi móvil debo adquirir otra?debo pagar por el uso de una nueva sim?",
+        "fecha": "2026-10-02T23:57:02.681Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que te entiendo, pensar bien la inversión es clave. El equipo tiene una vida útil dura y confiable, porque es un módem portátil con batería, y la garantía es de 30 días con soporte de GalviusTech. En cuanto a la SIM, te incluimos gratis una SIM de Claro, pero sin megas ni recarga; tú mismo decides cuándo y cómo activarla pagando solo lo que uses con el plan que elijas. Así que la única inversión inicial es el módem, los pagos posteriores dependen del plan de datos que tú quieras. ¿Quieres que te ayude a dejar el pedido listo para que empieces a tener internet donde lo necesites?",
+        "fecha": "2026-10-02T23:57:04.662Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSNjZCM0VDQTAwNjUxMkFBN0QxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-02T23:57:05.155Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMzMyNzEzNDcyFQIAERgSOURFOEY4RjRENDNBRTlENTBEAA=="
       }
     ],
     "paso": "conversando",
