@@ -3368,8 +3368,8 @@
     "telefono": "573236132380",
     "nombre": "lllllll",
     "primerContacto": "2026-10-01T19:35:37.263Z",
-    "ultimoContacto": "2026-10-01T19:39:19.196Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-02T14:11:37.220Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3579,6 +3579,13 @@
         "fecha": "2026-10-01T19:39:18.237Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSNEU1NzFFRjQ3Qzc0Mjg0MDVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Espero haberte resuelto las dudas de la SIM card y la compatibilidad. Tu COMBO Modem Wifi + Camara de seguridad ($289.900) sigue guardado, solo falta tu numero de celular (10 digitos) para despacharlo. Me lo compartes?",
+        "fecha": "2026-10-02T14:11:35.825Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTMyMzgwFQIAERgSQ0M4MUY5MDg0MUZDQTIyRTlFAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -3589,7 +3596,7 @@
       "telefono": "573236132380",
       "nombreCliente": "Tengo una duda"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
@@ -3598,9 +3605,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
