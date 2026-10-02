@@ -3,8 +3,8 @@
     "telefono": "573207676507",
     "nombre": "Neiver Arias",
     "primerContacto": "2026-10-02T04:44:48.899Z",
-    "ultimoContacto": "2026-10-02T04:44:48.899Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T04:47:21.485Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T04:44:48.080Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3Njc2NTA3FQIAERgSNTZEREI2MEYyMDUwNEY5N0VGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La necesitamos para la finca pero la cobertura es muy débil",
+        "fecha": "2026-10-02T04:47:18.623Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para tu finca tenemos el módem ideal porque capta señal mucho mejor que un celular común, así que es justo para zonas con señal débil. \n\nMira estas tres opciones:  \n- Módem WiFi Portátil 4G: conexión estable en zonas rurales por $219.900  \n- Módem WiFi Portátil 4G/5G: es la opción más segura porque funciona en zonas con 4G y 5G por $249.900  \n- Módem WiFi Portátil 5G: para los que tienen buena cobertura 5G y buscan la máxima velocidad, por $249.900  \n\nLa inversión vale la pena para tener internet estable donde sea, sin depender de fibra ni conexiones complicadas. ¿Cuál de estas opciones te llama más la atención para tu finca?",
+        "fecha": "2026-10-02T04:47:20.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3Njc2NTA3FQIAERgSQzEzRUQ1QUYxMEJFRDYxNUY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573012762708",
