@@ -76,8 +76,8 @@
     "telefono": "573183629988",
     "nombre": "Carlos Osorio",
     "primerContacto": "2026-10-02T20:36:24.886Z",
-    "ultimoContacto": "2026-10-02T20:42:22.920Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-02T20:44:37.192Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,18 @@
         "fecha": "2026-10-02T20:42:22.000Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzNjI5OTg4FQIAERgSMTA0QUM4OUQxQ0U2ODUxNzgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo que sale caro es la SIM del operador de internet.",
+        "fecha": "2026-10-02T20:44:34.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, la SIM puede ser un gasto aparte, pero en GalviusTech incluimos de regalo una SIMCARD de Claro con el módem, sin costo extra para ti. Eso sí, la SIM viene sin plan ni datos activados; tú mismo eliges y activas el plan que más te convenga según lo que necesites.\n\nAsí que la inversión inicial solo cubre el módem que te da mejor cobertura y WiFi estable, sin preocuparte por la tarjeta SIM. ¿Quieres que te ayude a escoger cuál modelo se ajusta más a donde vives y el uso que le darás?",
+        "fecha": "2026-10-02T20:44:36.316Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzNjI5OTg4FQIAERgSRTlBMkI5NTFCQzA4NUVCMkIyAA=="
       }
     ],
     "paso": "conversando",
