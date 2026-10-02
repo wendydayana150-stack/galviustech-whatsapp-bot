@@ -3692,8 +3692,8 @@
     "telefono": "50762235508",
     "nombre": "Micro Construcciones Sas",
     "primerContacto": "2026-10-01T22:49:48.742Z",
-    "ultimoContacto": "2026-10-02T00:34:17.005Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-02T20:16:00.860Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3752,13 +3752,25 @@
         "fecha": "2026-10-02T00:34:15.765Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLNTA3NjIyMzU1MDgVAgARGBIxNjg3NEQ4OTgwRUFGRkI3RjkA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola Belem de umbría Risaralda",
+        "fecha": "2026-10-02T20:15:56.832Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, Belem de Umbría en Risaralda. Ahí es perfecto un módem portátil porque vas a tener mejor cobertura que con un celular normal, ideal para tu zona si no llega fibra óptica o WiFi estable. \n\nMira las 3 versiones que tenemos:\n- Modem WiFi Portatil 4G: la inversión es de $219.900, funciona muy bien para conexión 4G clásica.\n- Modem WiFi Portatil 4G/5G: inversión de $249.900, es el más recomendado porque agarra 4G y también 5G si hay señal allí.\n- Modem WiFi Portatil 5G: también cuesta $249.900, para usar donde ya la cobertura 5G es fuerte y quieres máxima velocidad.\n\nTodos son fáciles de usar, portátiles y con batería para conectarte hasta 14 horas seguidas. ¿Cuál te interesa más para que te ayude a dejar el pedido listo?",
+        "fecha": "2026-10-02T20:15:59.682Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA3NjIyMzU1MDgVAgARGBIzNjFDRjIzODE5RkI2MUEzNjMA"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
