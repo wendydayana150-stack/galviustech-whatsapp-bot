@@ -3,8 +3,8 @@
     "telefono": "573046590411",
     "nombre": "agregadospetreos",
     "primerContacto": "2026-10-02T01:22:05.544Z",
-    "ultimoContacto": "2026-10-02T01:22:05.544Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T01:24:13.414Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-02T01:22:04.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NTkwNDExFQIAERgSRkRFOUYyRENEMUE4MTEyQzZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noche, estoy en una vereda en Ibagué , tengo 9 camaras ,dos tv,tres celulares ,tenemos operador Tigo.",
+        "fecha": "2026-10-02T01:24:11.320Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿cómo estás? Soy Michell, de GalviusTech. Me cuentas que estás en una vereda en Ibagué con Tigo, y tienes varios dispositivos conectados. ¿Qué uso principal le das a internet ahí, trabajo, estudio o para la casa? Así te puedo recomendar el mejor modem para que todos estén bien conectados sin interrupciones.",
+        "fecha": "2026-10-02T01:24:12.421Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NTkwNDExFQIAERgSRDlBOEUxNUYyRjdBMTlGNUI2AA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104320228",
