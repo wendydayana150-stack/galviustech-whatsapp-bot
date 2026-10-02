@@ -61,8 +61,8 @@
     "telefono": "573045458510",
     "nombre": "Henry Tibaduiza",
     "primerContacto": "2026-10-02T23:41:49.607Z",
-    "ultimoContacto": "2026-10-02T23:44:51.893Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-02T23:59:56.578Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -145,6 +145,18 @@
         "fecha": "2026-10-02T23:44:51.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NDU4NTEwFQIAERgSOTgyQTQwNDI3OUU2ODg3NUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ahora no, gracias.",
+        "fecha": "2026-10-02T23:59:54.920Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema. Cuando estés listo o necesites conectarte con buena señal en Paipa, aquí estoy para ayudarte con el módem 4G/5G que mejor se adapta a tu situación. ¿Quieres que te guarde la info o te muestre alguna otra opción mientras tanto?",
+        "fecha": "2026-10-02T23:59:55.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NDU4NTEwFQIAERgSMTA5MUE4MTI2M0U5OTNBQjNBAA=="
       }
     ],
     "paso": "conversando",
@@ -155,7 +167,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
