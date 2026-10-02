@@ -327,8 +327,8 @@
     "telefono": "50762235508",
     "nombre": "Micro Construcciones Sas",
     "primerContacto": "2026-10-01T22:49:48.742Z",
-    "ultimoContacto": "2026-10-01T22:49:48.742Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T00:34:17.005Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -368,6 +368,25 @@
         "fecha": "2026-10-01T22:49:47.857Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLNTA3NjIyMzU1MDgVAgARGBJENjc1MDM4MTg2NzI4NTE4RDYA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-01T23:54:23.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA3NjIyMzU1MDgVAgARGBJGOUE2Q0RCNzJDMDI0MDZEMDAA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hol",
+        "fecha": "2026-10-02T00:34:14.912Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿en qué ciudad o municipio estás? Así te puedo recomendar el modem portátil que mejor se adapte a tu conexión y uso. ¿Lo necesitas para trabajo, estudio, hogar o viajes?",
+        "fecha": "2026-10-02T00:34:15.765Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA3NjIyMzU1MDgVAgARGBIxNjg3NEQ4OTgwRUFGRkI3RjkA"
       }
     ],
     "paso": "conversando",
@@ -381,8 +400,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
