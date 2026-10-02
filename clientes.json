@@ -3094,8 +3094,8 @@
     "telefono": "573112322672",
     "nombre": "psicoeducación",
     "primerContacto": "2026-10-02T02:09:52.940Z",
-    "ultimoContacto": "2026-10-02T23:46:38.403Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-02T23:47:30.253Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3235,6 +3235,18 @@
         "fecha": "2026-10-02T23:46:37.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzIyNjcyFQIAERgSODdFQTAwMjMxM0Q2NkVBOTU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El lunes defino por favor",
+        "fecha": "2026-10-02T23:47:27.747Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, no hay problema. Quedas tranquila que cuando decidas aquí estaré para ayudarte con tu módem 5G. ¿Quieres que te guarde la info mientras tanto o prefieres que te escriba después para recordarte?",
+        "fecha": "2026-10-02T23:47:29.134Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzIyNjcyFQIAERgSMTY0RjJENjdCOTRGRTU0RDg5AA=="
       }
     ],
     "paso": "conversando",
@@ -3245,7 +3257,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
