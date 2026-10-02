@@ -3,8 +3,8 @@
     "telefono": "573004733854",
     "nombre": "Jesús en ti confío 🙏🏻",
     "primerContacto": "2026-10-02T19:08:36.598Z",
-    "ultimoContacto": "2026-10-02T19:08:36.598Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T19:10:48.123Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T19:08:35.736Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzMzODU0FQIAERgSNkU0MTcxNDZDMTkzQTA3RDJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-10-02T19:10:45.113Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que estás en una vereda. ¿Podrías decirme también para qué necesitas el internet? ¿Trabajo, estudio, para tu hogar o para otra cosa? Así te recomiendo el módem que mejor se adapta a tu caso.",
+        "fecha": "2026-10-02T19:10:47.300Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzMzODU0FQIAERgSODE2RTk5RjYxNTBEMkE0NUU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573219429814",
