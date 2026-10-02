@@ -3,8 +3,8 @@
     "telefono": "573223189261",
     "nombre": "your pets house",
     "primerContacto": "2026-10-02T15:19:18.065Z",
-    "ultimoContacto": "2026-10-02T15:19:18.065Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T15:19:57.592Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-02T15:19:17.120Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTg5MjYxFQIAERgSNjNBNTNFQzQ4N0Q4RDU1QkJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San Raimundo cundinamarca",
+        "fecha": "2026-10-02T15:19:54.469Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, San Raimundo en Cundinamarca. ¿Para qué necesitas el modem? ¿Es para trabajar, estudiar, viajes o para uso en casa? Así te recomiendo el modelo que mejor te funcione. ¿Qué operador usas allí, Claro, Movistar, Tigo, WOM o ETB?",
+        "fecha": "2026-10-02T15:19:56.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTg5MjYxFQIAERgSMUM5MEY1NDA3NDZGNDNCNkZEAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573116333629",
