@@ -61,8 +61,8 @@
     "telefono": "573012762708",
     "nombre": "❤️América ❤️Mi ❤️Pasión❤️❤️❤️❤️✨",
     "primerContacto": "2026-10-02T04:41:39.312Z",
-    "ultimoContacto": "2026-10-02T04:41:39.312Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T04:44:59.425Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,6 +102,18 @@
         "fecha": "2026-10-02T04:41:38.653Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyNzYyNzA4FQIAERgSNDI1NTI1RDJFMEZDM0Q5M0NCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo manejo un taxi \nY muchas veces me piden internet o que si le puedo compartir internet y para la casa \nEn Barranquilla",
+        "fecha": "2026-10-02T04:44:55.470Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Qué bueno que me cuentes eso, justo para tu caso te sirve mucho tener un módem portátil, porque puedes compartir internet con los pasajeros y también en tu casa, sin depender del WiFi ajeno. Además, en Barranquilla la cobertura 4G/5G es bastante buena. Te cuento las opciones que tenemos:\n\n1. Módem WiFi Portátil 4G: conexión confiable para varios dispositivos, ideal si quieres ahorro. Precio $219.900.\n2. Módem WiFi Portátil 4G/5G: para aprovechar 5G si hay cobertura, porque funciona también en 4G. Precio $249.900.\n3. Módem WiFi Portátil 5G: máxima velocidad, si en tu zona ya tienes 5G estable. Precio $249.900.\n\nLa inversión incluye garantía y soporte de GalviusTech, con envío gratuito a Barranquilla. ¿Cuál de estas opciones te interesa más para tener internet siempre a la mano en tu taxi y en la casa?",
+        "fecha": "2026-10-02T04:44:58.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNzYyNzA4FQIAERgSQjk5NUNDN0NENjZGMjZBQzIyAA=="
       }
     ],
     "paso": "conversando",
@@ -113,7 +125,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573006982997",
