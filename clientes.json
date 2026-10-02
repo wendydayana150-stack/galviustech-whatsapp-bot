@@ -61,8 +61,8 @@
     "telefono": "573215061794",
     "nombre": "lancegarcialinamaria50",
     "primerContacto": "2026-10-02T02:08:27.041Z",
-    "ultimoContacto": "2026-10-02T02:08:27.041Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T02:10:27.349Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,6 +102,18 @@
         "fecha": "2026-10-02T02:08:25.938Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDYxNzk0FQIAERgSRjg1NzU1MEM0RUNENUE3OUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa pero acá la señal de sim es bastante mala",
+        "fecha": "2026-10-02T02:10:24.428Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, la señal es clave para que funcione bien el módem. Justo esos modems de GalviusTech tienen antenas potentes para captar señal donde el celular normal apenas la agarra, especialmente en veredas o zonas rurales, mejorando tu conexión.\n\n¿Me puedes contar dónde estás ubicado o en qué municipio? Así te recomiendo cuál de las 3 versiones te vendría mejor: el 4G más económico, el 4G/5G que funciona en lugares con cualquiera de esas señales, o el 5G si ya tienes buena cobertura 5G en tu zona. ¿Qué tal?",
+        "fecha": "2026-10-02T02:10:26.347Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDYxNzk0FQIAERgSRUQxRjg1OTQ5MTkyRDY3MjdFAA=="
       }
     ],
     "paso": "conversando",
@@ -113,7 +125,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104744732",
