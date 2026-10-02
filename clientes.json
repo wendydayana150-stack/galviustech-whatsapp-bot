@@ -61,8 +61,8 @@
     "telefono": "573112239611",
     "nombre": "YGL",
     "primerContacto": "2026-10-02T00:19:34.862Z",
-    "ultimoContacto": "2026-10-02T00:19:34.862Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T00:20:46.519Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,18 +102,33 @@
         "fecha": "2026-10-02T00:19:34.139Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMjM5NjExFQIAERgSOTk0NkQyNEUyMDFDMjMxNjhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una zona rural",
+        "fecha": "2026-10-02T00:20:42.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, que bueno que vivas en zona rural porque nuestros módems están diseñados justamente para darte mejor cobertura que el celular común en esos lugares. No dependes de fibra óptica ni conexiones complicadas. Te recomiendo revisar las tres opciones que tenemos:\n\n1. Módem WiFi Portátil 4G a $219.900: conexión estable para varios dispositivos, ideal para zonas rurales.\n2. Módem WiFi Portátil 4G/5G a $249.900: lo mejor para asegurar cobertura 4G y 5G, perfecto si hay algo de señal 5G en tu zona.\n3. Módem WiFi Portátil 5G a $249.900: máxima velocidad si tienes buena cobertura 5G.\n\nEsta inversión te permitirá conectar tu finca o casa fácilmente, estudiar, trabajar o transmitir contenido sin preocuparte por señal débil. ¿Para qué lo necesitas principalmente? ¿trabajo, estudio, o para el hogar? Así te ayudo a elegir el mejor.",
+        "fecha": "2026-10-02T00:20:45.666Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMjM5NjExFQIAERgSQzVFRjdBQjIwOUI3QTU2RTVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573116740729",
