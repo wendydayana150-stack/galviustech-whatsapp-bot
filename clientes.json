@@ -76,8 +76,8 @@
     "telefono": "573215061794",
     "nombre": "lancegarcialinamaria50",
     "primerContacto": "2026-10-02T02:08:27.041Z",
-    "ultimoContacto": "2026-10-02T02:10:27.349Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-02T02:10:43.744Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -129,13 +129,25 @@
         "fecha": "2026-10-02T02:10:26.347Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDYxNzk0FQIAERgSRUQxRjg1OTQ5MTkyRDY3MjdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay días que no hay nada",
+        "fecha": "2026-10-02T02:10:40.817Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en verdad no hay señal de ningún operador ahí, lamentablemente el módem no va a funcionar porque necesita una SIM con cobertura celular. Pero a veces la antena más potente del módem capta señal débil donde el celular dice “sin servicio”. ¿Confirmaste si tu celular no tiene señal justo en ese lugar? \n\nMientras, te cuento que tenemos 3 modelos: 4G, 4G/5G y 5G; el 4G cuesta $219.900, el 4G/5G y el 5G están en $249.900. Los 3 vienen con SIM de Claro incluida sin plan activo. ¿En qué municipio quedas? Así te ayudo a elegir mejor para que tenga la mejor cobertura posible. ¿Qué me dices?",
+        "fecha": "2026-10-02T02:10:42.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDYxNzk0FQIAERgSMjc4NUUyODEyMjNEODAyMTI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
