@@ -3,8 +3,8 @@
     "telefono": "573148159481",
     "nombre": "Katherine💫🥰",
     "primerContacto": "2026-10-02T21:58:27.023Z",
-    "ultimoContacto": "2026-10-02T21:58:27.023Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T22:02:43.857Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T21:58:26.264Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4MTU5NDgxFQIAERgSRjQ5QjAzQkJBNEY5QTgxQTNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si lo quiero es recargable",
+        "fecha": "2026-10-02T22:02:40.907Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, todos nuestros módems WiFi portátiles son recargables y tienen batería con buena duración. Por ejemplo, el módem WiFi 4G te dura hasta 14 horas con una sola carga completa, así no te quedas sin internet cuando más lo necesitas.\n\n¿En qué zona o municipio planeas usar el módem? Así te asesoro cuál versión te conviene más según la cobertura de internet que tengas allí.",
+        "fecha": "2026-10-02T22:02:43.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MTU5NDgxFQIAERgSNzQzOTE2NUJGODI4QkJCNUVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215354038",
