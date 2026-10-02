@@ -3,8 +3,8 @@
     "telefono": "573045458510",
     "nombre": "Henry Tibaduiza",
     "primerContacto": "2026-10-02T23:41:49.607Z",
-    "ultimoContacto": "2026-10-02T23:41:49.607Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T23:43:00.497Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T23:41:48.861Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NDU4NTEwFQIAERgSRDMzNDMyQTFBRDExQkNDQUI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural-Paipa, Boyaca.",
+        "fecha": "2026-10-02T23:42:56.901Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural como Paipa en Boyacá, lo mejor es que tengas un módem que garantice buena cobertura y velocidad flexible. Te muestro las opciones que tenemos:\n\n1. Modem WiFi Portátil 4G por $219.900 – ideal si quieres ahorrar y tener internet estable con mejor señal que el celular.\n2. Modem WiFi Portátil 4G/5G por $249.900 – la mejor opción para garantizar conexión donde haya 4G o ya tenga 5G.\n3. Modem WiFi Portátil 5G por $249.900 – para maximizar la velocidad si en tu zona ya hay buena cobertura 5G.\n\nTodos vienen con SIM de Claro incluida (sin plan ni recarga, solo la tarjeta física), conectan hasta 10 dispositivos y funcionan sin instalaciones complicadas.\n\n¿Para qué lo quieres principalmente? ¿Trabajo, estudio, negocio o viajes? Así te ayudo a elegir el más adecuado.",
+        "fecha": "2026-10-02T23:42:59.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NDU4NTEwFQIAERgSRTAxNEM3NUM5RjdDODJBODREAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147928848",
