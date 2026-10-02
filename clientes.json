@@ -7141,8 +7141,8 @@
     "telefono": "573132858849",
     "nombre": "Leonel Pulido",
     "primerContacto": "2026-10-01T11:22:58.184Z",
-    "ultimoContacto": "2026-10-01T15:28:03.896Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-02T14:13:08.342Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7402,6 +7402,13 @@
         "fecha": "2026-10-01T15:28:02.451Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSQTk5OUJGOTU4M0Y1Nzk0MUQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Leonel! Como te comente, puedes pagar contraentrega o por transferencia, lo que te quede mas comodo. Para dejarte listo el COMBO Modem Wifi + Camara de seguridad ($289.900) solo me falta tu nombre completo. Me lo confirmas?",
+        "fecha": "2026-10-02T14:13:07.301Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyODU4ODQ5FQIAERgSNTQ0RjhGRkExNzAzODY1NThCAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -7420,8 +7427,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
