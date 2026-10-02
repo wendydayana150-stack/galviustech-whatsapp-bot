@@ -119,8 +119,8 @@
     "telefono": "573148159481",
     "nombre": "Katherine💫🥰",
     "primerContacto": "2026-10-02T21:58:27.023Z",
-    "ultimoContacto": "2026-10-02T22:04:16.116Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-02T22:17:35.894Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,6 +203,18 @@
         "fecha": "2026-10-02T22:04:13.362Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4MTU5NDgxFQIAERgSRjU1MEIyRDNFNEVGRTUxNDZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo le aviso",
+        "fecha": "2026-10-02T22:17:33.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando decidas. Si quieres te puedo mostrar también las otras dos versiones de módem que tenemos para que compares y elijas la que más te convenga.\n\n¿Quieres que te cuente un poco de los modelos 4G/5G y 5G?",
+        "fecha": "2026-10-02T22:17:35.098Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MTU5NDgxFQIAERgSRjkxMkM2RjBDMzQ2RTQxQ0I0AA=="
       }
     ],
     "paso": "conversando",
@@ -213,7 +225,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
