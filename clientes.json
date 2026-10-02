@@ -61,8 +61,8 @@
     "telefono": "573183629988",
     "nombre": "Carlos Osorio",
     "primerContacto": "2026-10-02T20:36:24.886Z",
-    "ultimoContacto": "2026-10-02T20:36:24.886Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T20:38:23.846Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,18 +102,33 @@
         "fecha": "2026-10-02T20:36:24.147Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzNjI5OTg4FQIAERgSM0Y2RjQ3NzZDNDM0MDY1NkM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes. Para zona rural y urbana ambos.",
+        "fecha": "2026-10-02T20:38:20.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, encantada de ayudarte. Para que tengas internet confiable tanto en zona rural como urbana, te recomiendo ver estas opciones de módems portátiles que funcionan perfecto en ambos lugares:\n\n1. Módem WiFi Portátil 4G: ideal para fincas y zonas sin fibra, conecta varios dispositivos y es fácil de llevar. La inversión sería de $219.900.\n2. Módem WiFi Portátil 4G/5G: funciona donde hay señal 4G o 5G, perfecto si quieres máxima compatibilidad y velocidad. Inversión de $249.900.\n3. Módem WiFi Portátil 5G: si en tu zona ya hay buena cobertura 5G, este es el más rápido. También cuesta $249.900.\n\nCon cualquiera de estos tendrás mejor cobertura que el celular, pensado para que no dependas de conexiones fijas ni complicadas instalaciones. ¿Cuál de estas opciones te interesa más para que te cuente más detalles o para ayudarte a dejar tu pedido listo?",
+        "fecha": "2026-10-02T20:38:22.887Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzNjI5OTg4FQIAERgSMTAwRTU2OTJFOENEMjI0ODlCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113039507",
