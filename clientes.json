@@ -3,8 +3,8 @@
     "telefono": "573012067048",
     "nombre": "Adri",
     "primerContacto": "2026-10-02T20:38:16.998Z",
-    "ultimoContacto": "2026-10-02T20:38:16.998Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T20:39:48.072Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-02T20:38:16.098Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDY3MDQ4FQIAERgSRTg4MDYzMkEyN0I1QUQwRjc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estaba averiguando muchas gracias",
+        "fecha": "2026-10-02T20:39:45.442Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, cuando decidas y tengas alguna duda sobre el módem portátil o cualquier otro producto, aquí estaré para ayudarte. ¿Qué zona o ciudad es la que te interesa para el servicio de internet portátil? Así te puedo contar exactamente cuál es la mejor opción para ti.",
+        "fecha": "2026-10-02T20:39:47.053Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDY3MDQ4FQIAERgSM0U5MjkxQTFDQUI4MzZFMDY1AA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573183629988",
