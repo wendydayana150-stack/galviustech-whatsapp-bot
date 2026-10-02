@@ -627,8 +627,8 @@
     "telefono": "573102079340",
     "nombre": "Joguitb TB",
     "primerContacto": "2026-10-02T11:15:40.118Z",
-    "ultimoContacto": "2026-10-02T11:15:40.118Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T19:24:46.482Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -668,6 +668,32 @@
         "fecha": "2026-10-02T11:15:38.863Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMDc5MzQwFQIAERgSQjk2QTA2QjY0OUM1NjQ2QTE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-02T12:24:23.992Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDc5MzQwFQIAERgSQkU3REE0MTI2MkNBMjhCNkMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-02T14:24:24.104Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDc5MzQwFQIAERgSRTA0Q0ZEOEUyMzZDOUU3NTFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes muy amable por la información pero no me da el presupuesto gracias",
+        "fecha": "2026-10-02T19:24:43.204Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, qué tal? Soy Michell de GalviusTech. Entiendo que necesitas saber el precio para valorar la inversión. ¿Me podrías decir para qué lo necesitas o en qué municipio estarías? Así podré recomendarte el módem que más te conviene y darte el presupuesto exacto para que no gastes de más.\n\n¿Cuál es tu necesidad principal con el módem? ¿Estudio, trabajo, viajes, hogar?",
+        "fecha": "2026-10-02T19:24:45.380Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDc5MzQwFQIAERgSQkQxRjJBRjJEODkxNTk4ODJFAA=="
       }
     ],
     "paso": "conversando",
@@ -681,9 +707,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
