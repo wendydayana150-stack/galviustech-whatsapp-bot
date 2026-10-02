@@ -3,8 +3,8 @@
     "telefono": "573223189261",
     "nombre": "your pets house",
     "primerContacto": "2026-10-02T15:19:18.065Z",
-    "ultimoContacto": "2026-10-02T15:19:57.592Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-02T15:21:12.922Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,25 @@
         "fecha": "2026-10-02T15:19:56.564Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTg5MjYxFQIAERgSMUM5MEY1NDA3NDZGNDNCNkZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajar, con ayudar, viajes y uso en casa",
+        "fecha": "2026-10-02T15:21:10.000Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme. Para trabajar, ayudar, viajar y usar en casa, lo ideal es un módem que tenga buena cobertura y velocidad adaptable. Te ofrezco las tres opciones que tenemos: \n\n- Módem WiFi portátil 4G desde $219.900, que te da internet estable y conecta varios dispositivos. \n- Módem WiFi portátil 4G/5G por $249.900, el más recomendado porque funciona bien con señal 4G y 5G (ideal si ya hay 5G en tu zona). \n- Módem WiFi portátil 5G también a $249.900, para máxima velocidad si tienes cobertura 5G fuerte.\n\nEstos modems tienen mejor cobertura que un celular común, batería para hasta 14 horas seguidas y son fáciles de transportar para que estés conectado siempre. ¿Qué opción te parece mejor? ¿Quieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-10-02T15:21:11.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTg5MjYxFQIAERgSRDMyNzQ2NUQyMzRDOEE3MjY3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
