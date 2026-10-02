@@ -61,8 +61,8 @@
     "telefono": "573046590411",
     "nombre": "agregadospetreos",
     "primerContacto": "2026-10-02T01:22:05.544Z",
-    "ultimoContacto": "2026-10-02T01:28:56.337Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-02T01:30:06.656Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -318,6 +318,18 @@
         "fecha": "2026-10-02T01:28:55.496Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NTkwNDExFQIAERgSRjEzNEU1QTFGQjkyRjRCQTQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjame y analiso ,",
+        "fecha": "2026-10-02T01:30:04.233Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tómate tu tiempo para analizarlo. Mientras tanto, si te surge alguna duda o quieres que te cuente más sobre cómo te puede ayudar en la vereda con la señal y dispositivos, aquí estoy para ayudarte. ¿Quieres que te deje la info del modem para que la revises cuando quieras?",
+        "fecha": "2026-10-02T01:30:05.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NTkwNDExFQIAERgSMUMzQTJDMjQwMUI5RkIyM0JDAA=="
       }
     ],
     "paso": "conversando",
@@ -328,7 +340,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
