@@ -3,8 +3,8 @@
     "telefono": "573136196441",
     "nombre": "Juan Pablo Isaza",
     "primerContacto": "2026-10-02T00:20:30.441Z",
-    "ultimoContacto": "2026-10-02T00:20:30.441Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T00:34:06.151Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T00:20:29.733Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MTk2NDQxFQIAERgSQUYzQkQwNDU0NEY4NEQ5QkEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural guarne antioquia",
+        "fecha": "2026-10-02T00:34:02.036Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural como Guarne Antioquia, el módem que te recomiendo es el Modem WiFi Portátil 4G/5G, porque capta mejor la señal donde no hay fibra óptica y funciona tanto en 4G como 5G, así tienes internet fiable para tu hogar o finca. También tienes la opción más económica que es el Modem WiFi Portátil 4G, ideal si solo necesitas 4G, y la opción de Modem WiFi Portátil 5G para la máxima velocidad si ya tienes buena cobertura 5G en tu área.\n\nLos precios actuales son:\n- Modem WiFi Portátil 4G: $219.900\n- Modem WiFi Portátil 4G/5G: $249.900\n- Modem WiFi Portátil 5G: $249.900\n\nTodos incluyen SIM Card de Claro de regalo (sin megas activados) y tienen batería para hasta 14 horas de uso continuo. Conecta varios dispositivos al mismo tiempo y es fácil de transportar. Además, el envío es gratis y tienes garantía y soporte de GalviusTech.\n\n¿Cómo planeas usarlo? ¿Para tu finca, para trabajo o estudio? Así te ayudo mejor a elegir.",
+        "fecha": "2026-10-02T00:34:05.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MTk2NDQxFQIAERgSOEM5QTdDOUFDQkUwMTUwNUVFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573112239611",
