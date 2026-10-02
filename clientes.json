@@ -61,8 +61,8 @@
     "telefono": "573247237952",
     "nombre": "Aleny ❤️",
     "primerContacto": "2026-10-02T01:28:46.977Z",
-    "ultimoContacto": "2026-10-02T01:28:46.977Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T01:37:27.350Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,18 +102,33 @@
         "fecha": "2026-10-02T01:28:45.956Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3MjM3OTUyFQIAERgSNzRDN0NGMzRERERGQTZDRDIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches, vivimos en la vereda Esmeralda en el Municipio de San Pedro, Valle",
+        "fecha": "2026-10-02T01:37:23.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches! Qué bien que estés buscando una solución en San Pedro, Valle. Para conectarte bien en la vereda Esmeralda sin depender de fibra óptica, te tengo tres opciones de módem WiFi portátil que van perfecto para zonas rurales: \n\n1. Módem 4G básico, que da excelente cobertura y conecta varios dispositivos, inversión de $219.900.\n2. Módem 4G/5G, ideal porque funciona en 4G y también es compatible con 5G si hay cobertura, inversión $249.900.\n3. Módem 5G, si en tu zona ya hay buena señal 5G y quieres la máxima velocidad, inversión $249.900.\n\nImagínate tener internet estable para trabajar, estudiar y conectar varios dispositivos en casa o en finca sin preocupaciones. ¿Me cuentas para qué necesitas principalmente el internet allá? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-10-02T01:37:25.641Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3MjM3OTUyFQIAERgSNjUxNjgzMUIwRjk0NDBGMkJDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573046590411",
