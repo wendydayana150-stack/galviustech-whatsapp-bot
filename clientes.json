@@ -3,8 +3,8 @@
     "telefono": "573144884330",
     "nombre": "maricelacarvajalgiraldo47",
     "primerContacto": "2026-10-02T01:19:04.627Z",
-    "ultimoContacto": "2026-10-02T01:19:04.627Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T01:20:12.053Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T01:19:03.459Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0ODg0MzMwFQIAERgSQ0RFMTA1QTQ1N0UxOUZEQ0RGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-10-02T01:20:09.296Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por decirme que estás en una vereda. Para recomendarte el mejor modem, ¿me puedes contar para qué lo necesitas? ¿Para trabajo, estudio, hogar o para viajar? Así te guío mejor.",
+        "fecha": "2026-10-02T01:20:10.954Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0ODg0MzMwFQIAERgSNkIzNDhFNDVFOEJGMENFMTQ4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213127721",
