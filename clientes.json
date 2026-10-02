@@ -3,8 +3,8 @@
     "telefono": "573218063570",
     "nombre": "Lily",
     "primerContacto": "2026-10-02T02:54:55.222Z",
-    "ultimoContacto": "2026-10-02T02:54:55.222Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-02T02:56:02.223Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-02T02:54:54.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MDYzNTcwFQIAERgSNzAxQUU1NTI2MjBENTE5QTNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda, municipio del contadero nariño",
+        "fecha": "2026-10-02T02:55:58.576Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zonas rurales como Contadero en Nariño, te recomiendo nuestro modem WiFi portátil 4G/5G. Te ofrece internet estable y mejor cobertura que el celular, ideal para fincas y veredas donde no llega fibra óptica. Puedes conectar varios dispositivos y llevarlo a donde lo necesites.\n\nAdemás, contamos con otras dos opciones: el modem 4G por $219.900 si quieres ahorrar, y el modem 5G también por $249.900 si en tu zona hay buena cobertura 5G y quieres la máxima velocidad.\n\n¿Quieres que te ayude a dejar tu pedido listo para que no te quedes sin internet?",
+        "fecha": "2026-10-02T02:56:00.931Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDYzNTcwFQIAERgSNTRDMkRFRjZFRUNFQzBGRjQ5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208221050",
