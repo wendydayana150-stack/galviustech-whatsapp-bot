@@ -11131,8 +11131,8 @@
     "telefono": "573134124634",
     "nombre": "elizabeth2023sanchez00",
     "primerContacto": "2026-09-30T23:26:34.369Z",
-    "ultimoContacto": "2026-10-01T17:09:25.653Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-02T14:13:58.100Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11367,6 +11367,13 @@
         "fecha": "2026-10-01T17:09:24.537Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSNUQ0OUQzQTM3RDFFM0U5MTE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Vi que tu pedido del COMBO Modem Wifi + Camara de seguridad ($289.900) quedo pendiente por un solo dato. Me confirmas tu nombre completo para dejarlo listo y despacharlo?",
+        "fecha": "2026-10-02T14:13:56.909Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTI0NjM0FQIAERgSQUJBRjhBMTM5NkZCN0M2MjVGAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11385,13 +11392,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true,
-      "horas5": true,
-      "promoDiariaFecha": "2026-10-1",
-      "horas7": true,
-      "horas9": true,
-      "horas11": true
+      "seguimientosEnviados": 0
     }
   },
   {
