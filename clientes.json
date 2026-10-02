@@ -7858,8 +7858,8 @@
     "telefono": "573126950745",
     "nombre": "Jean ✨❤️‍🔥",
     "primerContacto": "2026-10-01T04:28:51.426Z",
-    "ultimoContacto": "2026-10-01T17:06:23.317Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-02T14:12:28.344Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8192,6 +8192,13 @@
         "fecha": "2026-10-01T17:06:22.044Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSOEU0NUJCRjRBNTlDODI0QTYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Como te comente, nuestro Modem WiFi Portatil 4G ($219.900) incluye SIMCARD de regalo y envio gratis. Para dejarte el pedido listo solo me falta tu numero de celular (10 digitos). Me lo compartes?",
+        "fecha": "2026-10-02T14:12:25.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTUwNzQ1FQIAERgSODc4RjBDMzMxQkVBOTE3MzQyAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -8211,12 +8218,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "horas3": true,
-      "promoDiariaFecha": "2026-10-1",
-      "horas5": true,
-      "horas7": true,
-      "horas9": true
+      "seguimientosEnviados": 0
     }
   },
   {
