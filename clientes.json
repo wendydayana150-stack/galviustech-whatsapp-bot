@@ -4481,8 +4481,8 @@
     "telefono": "573248344168",
     "nombre": "ISAI",
     "primerContacto": "2026-10-01T17:26:08.050Z",
-    "ultimoContacto": "2026-10-01T17:33:02.602Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-02T14:11:01.762Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4697,6 +4697,13 @@
         "fecha": "2026-10-01T17:33:01.570Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSNDU1MEU4RDkwMTE2OTUxNDMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Isai! Espero que te haya servido la info de la recarga. Tu Modem WiFi Portatil 4G ($219.900) sigue guardado, solo falta tu nombre completo para dejarlo listo y despacharlo. Me lo confirmas?",
+        "fecha": "2026-10-02T14:11:00.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ4MzQ0MTY4FQIAERgSOTQ0REQzOUFBNTFCQjcwOTNEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -4706,7 +4713,7 @@
       "precio": 219900,
       "telefono": "573248344168"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
@@ -4715,9 +4722,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "promoDiariaFecha": "2026-10-1",
-      "seguimientosEnviados": 2,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
