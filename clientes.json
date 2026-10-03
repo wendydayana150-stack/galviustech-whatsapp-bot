@@ -3,8 +3,8 @@
     "telefono": "573116862820",
     "nombre": "Olga Urango",
     "primerContacto": "2026-10-03T17:03:15.825Z",
-    "ultimoContacto": "2026-10-03T17:03:15.825Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T17:03:20.695Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-03T17:03:14.766Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODYyODIwFQIAERgSREVDOTM4NTBBNDA3ODZEODNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuentame que valor tiene \nVivo en una vereda",
+        "fecha": "2026-10-03T17:03:17.112Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí. Para poder recomendarte bien, me cuentas para qué necesitas el modem? Trabajo, estudio, viajes, hogar o negocio? Así te ayudo a elegir el mejor para ti.\n\nMientras tanto, te cuento que en GalviusTech tenemos tres modems portátiles: \n\n1) Modem WiFi Portatil 4G, ideal para zonas rurales, fácil de transportar y conectar varios dispositivos. La inversión es de $219.900.\n\n2) Modem WiFi Portatil 4G/5G, que funciona también donde ya hay cobertura 5G, además de 4G, por $249.900.\n\n3) Modem WiFi Portatil 5G, para la máxima velocidad donde ya hay buena cobertura 5G, igualmente $249.900.\n\nLos modems están diseñados precisamente para captar señal más fuerte que un celular común en veredas, para que no te quedes sin internet.\n\n¿Me cuentas para qué lo usarías y cuál municipio o vereda es la tuya? Así te recomiendo el modelo ideal.",
+        "fecha": "2026-10-03T17:03:19.875Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODYyODIwFQIAERgSRUNDNTY4NzI1QTlCOTFEQUQxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573112429336",
