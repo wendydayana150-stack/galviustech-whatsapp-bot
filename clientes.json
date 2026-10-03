@@ -3,8 +3,8 @@
     "telefono": "573148556249",
     "nombre": "Pablo",
     "primerContacto": "2026-10-03T01:21:59.235Z",
-    "ultimoContacto": "2026-10-03T01:21:59.235Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T01:24:29.537Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-03T01:21:58.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTU2MjQ5FQIAERgSQjZENDEyOUI2NzFDMzYyQ0MyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de Chachagui corregimiento Pasizara Nariño",
+        "fecha": "2026-10-03T01:24:26.116Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Chachagüí en corregimiento Pasizara, el mejor equipo para que tengas internet estable y fuerte, incluso en vereda, es nuestro Módem WiFi Portátil 4G/5G. Funciona en 4G y 5G, ideal para zonas sin fibra óptica y con cobertura mejorada que un celular, para que puedas conectar varios dispositivos y usar internet donde lo necesites en tu hogar, finca o mientras viajas. \n\nTambién tenemos el 4G más económico y el 5G para máxima velocidad donde haya cobertura 5G, pero te recomiendo el 4G/5G por ser la opción segura para tu zona. La inversión para el 4G/5G es de $249.900. ¿Para qué lo necesitas principalmente, trabajo, estudio, o para usar en casa y que conecten varios al mismo tiempo?",
+        "fecha": "2026-10-03T01:24:28.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTU2MjQ5FQIAERgSNDJDODA3OEVEMzIzRTlFRDg2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144657172",
