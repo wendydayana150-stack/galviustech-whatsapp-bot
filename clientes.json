@@ -3,8 +3,8 @@
     "telefono": "573155207830",
     "nombre": "👤",
     "primerContacto": "2026-10-03T01:28:33.654Z",
-    "ultimoContacto": "2026-10-03T01:28:33.654Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T01:28:39.666Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-03T01:28:32.909Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1MjA3ODMwFQIAERgSNzkwQzI5MTZBQ0Q4MUI2NUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-03T01:28:37.470Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dame un segundito, ¿para qué necesitas el modem y en qué municipio o vereda estás? Así te puedo recomendar el que más te conviene y te cuento la inversión exacta. ¿Es para trabajo, estudio, hogar o viajes?",
+        "fecha": "2026-10-03T01:28:38.806Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1MjA3ODMwFQIAERgSOTY1NjQ4MEM3Mzg5RjBGNzcxAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573160811218",
