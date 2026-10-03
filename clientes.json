@@ -3,8 +3,8 @@
     "telefono": "573135274602",
     "nombre": "lavadoras",
     "primerContacto": "2026-10-03T04:52:08.444Z",
-    "ultimoContacto": "2026-10-03T04:52:08.444Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T13:09:33.146Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,32 @@
         "fecha": "2026-10-03T04:52:07.770Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1Mjc0NjAyFQIAERgSMDRDQzJDMzM2MEQ2QTYwMzk5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-03T11:04:24.911Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mjc0NjAyFQIAERgSQjBDQTRCMjI3RjFDOTUyNTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-03T11:14:24.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mjc0NjAyFQIAERgSMEJFNTQyQ0I3QzU3QTc1Q0FFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible. Por el momento déjanos saber cómo podemos ayudarte marcando un solo número \n1. mantenimiento \n2.reparacion\n3.revision\n4.garantia\n5.asesoria\n6.cotizacion de re puestos \n7. Asesor \nSelecciona el número de lo que requiere tu urgencia en breve uno de nuestros asesores estará  con Tigo hasta pronto......✍️",
+        "fecha": "2026-10-03T13:09:31.042Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊. Veo que necesitas algo del área de mantenimiento, reparación o asesoría, pero te comento que acá estoy para ayudarte con productos de internet portátil y conectividad, así como impresoras, lámparas y cámaras de seguridad. ¿En qué te puedo apoyar hoy? ¿Buscas algo para tener internet en casa o en movilidad?",
+        "fecha": "2026-10-03T13:09:32.215Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mjc0NjAyFQIAERgSM0U4QkRFQkIwNkYwNjYyRUZGAA=="
       }
     ],
     "paso": "conversando",
@@ -57,9 +83,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
