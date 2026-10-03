@@ -3,8 +3,8 @@
     "telefono": "573153933852",
     "nombre": "André❤️💜",
     "primerContacto": "2026-10-03T02:48:09.446Z",
-    "ultimoContacto": "2026-10-03T02:48:09.446Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T02:49:38.105Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-03T02:48:08.623Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzOTMzODUyFQIAERgSRjk2MTM5OUIxMENENTEyNDcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches , para ciudad , Bogotá",
+        "fecha": "2026-10-03T02:49:36.022Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches, soy Michell. Para recomendarte bien, ¿me puedes contar para qué necesitas el módem? ¿Trabajo, estudio, hogar o viajes? Así te ayudo con la mejor conexión para Bogotá. ¿Qué uso planeas darle?",
+        "fecha": "2026-10-03T02:49:37.076Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzOTMzODUyFQIAERgSMEM1N0YwQ0Y4QzQ0QTg1OTc3AA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205802560",
