@@ -3,8 +3,8 @@
     "telefono": "573138538917",
     "nombre": "RL",
     "primerContacto": "2026-10-03T02:22:47.709Z",
-    "ultimoContacto": "2026-10-03T02:22:47.709Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T02:24:43.005Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-03T02:22:46.861Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NTM4OTE3FQIAERgSMDNFMUE0MUZFQTgxMkZBQ0MyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural",
+        "fecha": "2026-10-03T02:24:39.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural te recomiendo los modems WiFi portátiles que tenemos en GalviusTech porque captan mejor señal que un celular normal, ideal para fincas y veredas donde no llega fibra óptica. Te dejo las 3 opciones que tenemos, así eliges la que mejor se ajuste a tu necesidad:\n\n• Modem WiFi Portátil 4G por $219.900: conexión 4G para varios dispositivos, ideal si quieres ahorro y buena cobertura.\n• Modem WiFi Portátil 4G/5G por $249.900: lo más seguro porque agarra señal 4G y 5G donde haya cobertura.\n• Modem WiFi Portátil 5G también por $249.900: para zonas con buena señal 5G y máxima velocidad.\n\nLa inversión es de $219.900 para la más básica y hasta $249.900 para la avanzada. ¿Para qué la necesitarías principalmente? ¿Trabajo, estudio o para el hogar? Así te ayudo a elegir la mejor opción.",
+        "fecha": "2026-10-03T02:24:41.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NTM4OTE3FQIAERgSM0JGRTE2MTFGQjZBN0Y1NUQxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573106333939",
