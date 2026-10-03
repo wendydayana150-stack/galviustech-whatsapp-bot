@@ -3,8 +3,8 @@
     "telefono": "573045900194",
     "nombre": "Rosa",
     "primerContacto": "2026-10-03T00:20:06.532Z",
-    "ultimoContacto": "2026-10-03T00:20:49.604Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-03T00:20:56.069Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,25 @@
         "fecha": "2026-10-03T00:20:48.744Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1OTAwMTk0FQIAERgSMTg2N0EyMDU0NjNGNzcwNDE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De ningun operador",
+        "fecha": "2026-10-03T00:20:53.568Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si realmente en tu zona no llega señal de ningún operador, ni Claro, Movistar, Tigo ni otros, lamentablemente nuestro módem no podrá funcionar porque depende de la señal celular para convertirla en WiFi. Pero dime, ¿has probado justo en el lugar donde quieres usarlo? A veces la antena del módem es más potente y capta señal débil donde el celular no logra.\n\n¿Quieres que te ayude a revisar alguna otra opción que tenga GalviusTech para tu caso o prefieres que te explique más sobre las características del módem?",
+        "fecha": "2026-10-03T00:20:54.710Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1OTAwMTk0FQIAERgSNkMwM0ZDODkzOTVGQjlCNzk4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-03T00:20:55.216Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1OTAwMTk0FQIAERgSNDA4OUMxMUI3REE4QTAxRkI5AA=="
       }
     ],
     "paso": "conversando",
