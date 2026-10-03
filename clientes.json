@@ -61,8 +61,8 @@
     "telefono": "573115863513",
     "nombre": "Edgar Pinzon",
     "primerContacto": "2026-10-03T01:40:05.551Z",
-    "ultimoContacto": "2026-10-03T01:40:05.551Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T01:41:00.019Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,6 +102,18 @@
         "fecha": "2026-10-03T01:40:04.851Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODYzNTEzFQIAERgSMTg1NTMyQkE4RTFBOTQzQkQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para cargar en una máquina",
+        "fecha": "2026-10-03T01:40:56.761Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿en qué municipio o ciudad estarías usando el módem? Así te puedo recomendar el modelo que mejor te funcione para cargar en tu máquina sin complicaciones. ¿Es para uso fijo o lo vas a mover seguido?",
+        "fecha": "2026-10-03T01:40:59.093Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODYzNTEzFQIAERgSQUM3NzNCQTAyMzI0QjE2RURGAA=="
       }
     ],
     "paso": "conversando",
@@ -113,7 +125,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233281515",
