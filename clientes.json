@@ -3,8 +3,8 @@
     "telefono": "573215715461",
     "nombre": "vive tu vida",
     "primerContacto": "2026-10-03T00:05:11.370Z",
-    "ultimoContacto": "2026-10-03T00:05:11.370Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T00:06:15.181Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-03T00:05:10.589Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1NzE1NDYxFQIAERgSMTg4MTU3OThDODUzMDk2RkQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pueblo Soma rural",
+        "fecha": "2026-10-03T00:06:12.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que estás en Pueblo Soma, zona rural. Justo para lugares así tenemos nuestro módem que capta señal mejor que un celular, ideal para fincas, veredas o cualquier sitio sin fibra óptica. Te cuento las opciones de modem que tenemos para que elijas la que más te convenga:\n\n- Modem WiFi Portátil 4G: conexión rápida 4G para varios dispositivos, ideal si quieres ahorrar. La inversión es de $219.900.\n- Modem WiFi Portátil 4G/5G: funciona con señal 4G y también 5G si hay cobertura en tu zona, lo más seguro y versátil. Inversión de $249.900.\n- Modem WiFi Portátil 5G: máxima velocidad si ya tienes buena cobertura 5G, también $249.900.\n\nTodos son fáciles de usar, llevan batería y soporte garantizado con GalviusTech. ¿Te interesaría que te ayude a dejar listo el pedido del que más te guste o quieres saber algo más para decidir?",
+        "fecha": "2026-10-03T00:06:14.294Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NzE1NDYxFQIAERgSOUQwMUQwNzU2MDU5NUI5N0MyAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573203636199",
