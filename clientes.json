@@ -3,8 +3,8 @@
     "telefono": "573205802560",
     "nombre": "Grúas LuFe Express \"Moto -Carro - Carga\"",
     "primerContacto": "2026-10-03T02:37:46.322Z",
-    "ultimoContacto": "2026-10-03T02:37:46.322Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T02:38:26.671Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-03T02:37:45.610Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1ODAyNTYwFQIAERgSQzhDMDgxRUMzRkEwMTJCOEI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-03T02:38:25.795Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-03T02:38:25.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODAyNTYwFQIAERgSMUUzNkM3NEFBQkYyQjQ5OUQwAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573013368312",
