@@ -134,8 +134,8 @@
     "telefono": "573148556249",
     "nombre": "Pablo",
     "primerContacto": "2026-10-03T01:21:59.235Z",
-    "ultimoContacto": "2026-10-03T01:30:34.512Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-03T01:32:05.250Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -218,6 +218,18 @@
         "fecha": "2026-10-03T01:30:33.473Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTU2MjQ5FQIAERgSRTNFODRCMTBFMTFDREFBMzI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y toca pagar mensualidad?",
+        "fecha": "2026-10-03T01:32:03.161Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem incluye una SIMCARD de Claro gratis, pero sin plan ni megas activados; la única inversión es el equipo. Tú mismo decides cuánto activar y pagar según el plan o recarga que elijas con Claro, así controlas tu gasto mes a mes. \n\nAdemás, el módem tiene batería para hasta 14 horas de uso continuo, es fácil de transportar y configurar sin instalaciones. ¿Quieres que te ayude a dejar tu pedido listo para que comiences a tener internet donde lo necesitas?",
+        "fecha": "2026-10-03T01:32:04.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTU2MjQ5FQIAERgSOUYwMTlDQUY2OUZBQTIwQTk0AA=="
       }
     ],
     "paso": "conversando",
