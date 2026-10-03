@@ -3,8 +3,8 @@
     "telefono": "573148112812",
     "nombre": ".",
     "primerContacto": "2026-10-03T00:44:12.234Z",
-    "ultimoContacto": "2026-10-03T00:44:12.234Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T00:46:12.259Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-03T00:44:11.570Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4MTEyODEyFQIAERgSNEI5MzdDMUVBODg4RkY3MDE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo estoy en Medellín pero lo necesito para una vereda del municipio de caldas",
+        "fecha": "2026-10-03T00:46:09.841Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Caldas es una zona donde muchas personas ya disfrutan mejor señal con nuestro módem. Te recomiendo tres opciones: \n\n- Modem WiFi Portatil 4G a $219.900, ideal si quieres una inversión más económica y señal 4G confiable.\n- Modem WiFi Portatil 4G/5G a $249.900, que cubre 4G y 5G, ideal para tener más velocidad donde ya hay 5G.\n- Modem WiFi Portatil 5G a $249.900, para quienes ya tienen buena cobertura 5G y quieren máxima velocidad.\n\nTodas estas versiones tienen mejor alcance que un celular común, y puedes conectar varios dispositivos con buena autonomía (batería hasta 14 horas). ¿Cuál te gustaría que te cuente más o quieres que te ayude a dejar un pedido listo para enviártelo a Caldas?",
+        "fecha": "2026-10-03T00:46:11.315Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MTEyODEyFQIAERgSQjFCQzBCMTk1OURERTRFNjU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135356172",
