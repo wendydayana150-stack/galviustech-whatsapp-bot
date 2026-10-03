@@ -119,8 +119,8 @@
     "telefono": "573208155425",
     "nombre": "Olver Opr",
     "primerContacto": "2026-10-03T01:40:50.966Z",
-    "ultimoContacto": "2026-10-03T01:51:50.139Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-03T01:55:10.151Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,18 @@
         "fecha": "2026-10-03T01:51:49.037Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MTU1NDI1FQIAERgSOTg4OUVFQzQ3NTIyQkRDMjA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aya no entra señal de ningún operador",
+        "fecha": "2026-10-03T01:55:07.605Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo la situación. Si en Sona no hay señal de ningún operador, ni Claro, Movistar ni ninguno, el módem no podrá funcionar porque necesita la señal celular para dar internet. Sin cobertura celular no hay conexión con estos modems. Pero dime, ¿tu celular muestra que no tiene señal ahí o alguna vez conecta aunque sea muy débil? A veces la antena del módem es más sensible que la del celular. ¿Quieres que te tome esa info y te ayudo a ver la mejor opción para ti?",
+        "fecha": "2026-10-03T01:55:09.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MTU1NDI1FQIAERgSQkQ2NUNFRTVBNTNCMDg2MkUwAA=="
       }
     ],
     "paso": "conversando",
