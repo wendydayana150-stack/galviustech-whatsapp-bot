@@ -1292,8 +1292,8 @@
     "telefono": "573160811218",
     "nombre": "ola",
     "primerContacto": "2026-10-03T01:25:28.972Z",
-    "ultimoContacto": "2026-10-03T01:25:28.972Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T11:24:23.833Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1333,6 +1333,32 @@
         "fecha": "2026-10-03T01:25:28.203Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwODExMjE4FQIAERgSOURBNkNENDAyNTRFRTgzMDNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-03T11:04:38.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwODExMjE4FQIAERgSODNENDgwQzgzM0Y3OUMxQzc4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-03T11:14:36.896Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwODExMjE4FQIAERgSMTUwMkNGMDU1OTgxNDg0OTE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ola q pena d q m escribes?",
+        "fecha": "2026-10-03T11:24:21.035Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿cómo estás? Soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy? Tenemos soluciones de internet portátil como módems WiFi, impresoras térmicas, lámparas solares y cámaras de seguridad. ¿Qué necesitas o qué te interesa?",
+        "fecha": "2026-10-03T11:24:22.788Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwODExMjE4FQIAERgSNTY0NTJGRTQ5Njc4NzVDM0JGAA=="
       }
     ],
     "paso": "conversando",
@@ -1346,9 +1372,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
