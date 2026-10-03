@@ -3,8 +3,8 @@
     "telefono": "573045900194",
     "nombre": "Rosa",
     "primerContacto": "2026-10-03T00:20:06.532Z",
-    "ultimoContacto": "2026-10-03T00:20:06.532Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T00:20:44.659Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,18 +44,33 @@
         "fecha": "2026-10-03T00:20:05.646Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1OTAwMTk0FQIAERgSRjdFMENGRjM3MTcxRUE0OTIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es zona rural",
+        "fecha": "2026-10-03T00:20:40.691Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para zonas rurales que necesitan mejor cobertura, te recomiendo revisar estas opciones de módem portátil que tenemos en GalviusTech:\n\n1. Módem WiFi Portátil 4G: Ideal para conectarte en fincas o veredas sin fibra óptica. La inversión es de $219.900.\n2. Módem WiFi Portátil 4G/5G: Funciona donde haya 4G o 5G y es genial para trabajo, estudio o viajes. La inversión es de $249.900.\n3. Módem WiFi Portátil 5G: La máxima velocidad en lugares con buena cobertura 5G. La inversión es de $249.900.\n\nTodos nuestros módems captan señal mucho mejor que un celular común, especialmente en zonas rurales difíciles. ¿Cuál te gustaría que te explique más o prefieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-10-03T00:20:43.666Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1OTAwMTk0FQIAERgSMjQ4QTBERDdDNEE3RjJBQjg3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215715461",
