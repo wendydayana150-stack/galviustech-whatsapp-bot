@@ -3,8 +3,8 @@
     "telefono": "573116862820",
     "nombre": "Olga Urango",
     "primerContacto": "2026-10-03T17:03:15.825Z",
-    "ultimoContacto": "2026-10-03T17:05:35.725Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-03T17:11:56.343Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-10-03T17:05:34.667Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODYyODIwFQIAERgSMDhEMDMwMTE5QTVFQjZBMDI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo te aviso cuando pueda",
+        "fecha": "2026-10-03T17:11:53.873Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando quieras volver a conversar y ayudarte con el modem. Mientras tanto, cualquier duda que tengas aquí estoy. ¡Que tengas un buen día!",
+        "fecha": "2026-10-03T17:11:55.196Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODYyODIwFQIAERgSRkMwNDA4MTk3MjIxRDc2RTg1AA=="
       }
     ],
     "paso": "conversando",
@@ -78,7 +90,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
