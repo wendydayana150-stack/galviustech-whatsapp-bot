@@ -3,8 +3,8 @@
     "telefono": "573166730296",
     "nombre": "Carlos Bonilla",
     "primerContacto": "2026-10-03T00:27:41.131Z",
-    "ultimoContacto": "2026-10-03T00:27:41.131Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T00:28:42.596Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-03T00:27:40.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY2NzMwMjk2FQIAERgSNEZEQzkzMDJCRUVCNTk3RDNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-03T00:28:40.574Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, ¿qué tal? Soy Michell, de GalviusTech. ¿En qué ciudad estás y cómo te puedo ayudar hoy? ¿Buscas internet portátil, impresora, lámpara o cámara?",
+        "fecha": "2026-10-03T00:28:41.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2NzMwMjk2FQIAERgSNDZFRTgwN0JBMjNBNUFBNTNFAA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573045900194",
