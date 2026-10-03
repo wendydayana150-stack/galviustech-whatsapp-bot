@@ -3,8 +3,8 @@
     "telefono": "573115885653",
     "nombre": "RuthDayanaGarcíaDePuerta💐",
     "primerContacto": "2026-10-03T22:51:38.117Z",
-    "ultimoContacto": "2026-10-03T22:56:46.116Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-03T22:56:56.887Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -303,6 +303,18 @@
         "fecha": "2026-10-03T22:56:45.233Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSODlCMUVDQkE1NDk0MDVEN0E1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Queja",
+        "fecha": "2026-10-03T22:56:55.175Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por confirmarlo. Voy a dejar tu caso para que el equipo de soporte de GalviusTech te dé seguimiento y te ayude con lo de la SIM que no vino. \n\n¿Me puedes dar tu ciudad y dirección para que puedan ubicar tu pedido y responderte más rápido?",
+        "fecha": "2026-10-03T22:56:55.998Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODg1NjUzFQIAERgSNEI2QzQ5Mzg2NUIwREY2MDM0AA=="
       }
     ],
     "paso": "conversando",
@@ -311,8 +323,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Queja\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
