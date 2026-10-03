@@ -3,8 +3,8 @@
     "telefono": "573148112812",
     "nombre": ".",
     "primerContacto": "2026-10-03T00:44:12.234Z",
-    "ultimoContacto": "2026-10-03T00:52:52.964Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-03T00:54:11.678Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,6 +99,25 @@
         "fecha": "2026-10-03T00:52:52.050Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4MTEyODEyFQIAERgSQjRENTVEMThGMjEyQTUyMDVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no hay un lugar físico donde yo pueda ir a comprarlo sino que  como yo mantengo viajando no tengo como una dirección donde me lo pueda enviar",
+        "fecha": "2026-10-03T00:54:09.090Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que al estar viajando sea complicado recibirlo en una dirección fija. Podemos enviarlo a la oficina de Interrapidisimo o Coordinadora más cercana a ti o donde prefieras recogerlo. Así solo vas y lo recoges cuando tengas oportunidad, sin preocuparte por una dirección fija. \n\n¿Quieres que te ayude a dejar tu pedido con esta opción de recogida? Solo dime en qué ciudad o municipio te gustaría recogerlo.",
+        "fecha": "2026-10-03T00:54:10.452Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MTEyODEyFQIAERgSRTc2ODU0RkFEOEI4ODI5RkQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-03T00:54:10.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4MTEyODEyFQIAERgSQTg3NzRGQjFFNTU5NkYyQTQxAA=="
       }
     ],
     "paso": "conversando",
