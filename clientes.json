@@ -61,8 +61,8 @@
     "telefono": "573208155425",
     "nombre": "Olver Opr",
     "primerContacto": "2026-10-03T01:40:50.966Z",
-    "ultimoContacto": "2026-10-03T01:40:50.966Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T01:51:50.139Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,18 +102,33 @@
         "fecha": "2026-10-03T01:40:49.928Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MTU1NDI1FQIAERgSRjY3NDAzM0FBNzcxRjU3OTRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si para Sona rural",
+        "fecha": "2026-10-03T01:51:46.443Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una zona rural como Sona lo mejor es el Módem WiFi Portátil 4G/5G. Tiene excelente cobertura en zonas sin fibra óptica y funciona con señal 4G o 5G, así te aseguras conexión sin interrupciones para trabajar, estudiar o simplemente estar conectado. La inversión sería de $249.900 e incluye una SIM Card Claro para que la actives con el plan que prefieras. ¿Quieres que te muestre también las opciones del módem 4G y 5G para que compares?",
+        "fecha": "2026-10-03T01:51:49.037Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MTU1NDI1FQIAERgSOTg4OUVFQzQ3NTIyQkRDMjA4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573115863513",
