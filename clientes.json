@@ -177,8 +177,8 @@
     "telefono": "573182457580",
     "nombre": "Dios, Vida Y Familia",
     "primerContacto": "2026-10-03T04:06:53.293Z",
-    "ultimoContacto": "2026-10-03T04:06:53.293Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-03T06:46:03.863Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -218,6 +218,18 @@
         "fecha": "2026-10-03T04:06:51.884Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyNDU3NTgwFQIAERgSMEVBRDFGRjdFNzg0NTk3MEQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rionegro caqueta",
+        "fecha": "2026-10-03T06:46:00.770Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que estás en Rionegro, Caquetá. Para recomendarte bien, ¿me puedes contar para qué necesitas el modem? ¿Es para trabajar, estudiar, en la finca o para viajar? Así te digo cuál de nuestras 3 versiones te conviene más y su inversión.",
+        "fecha": "2026-10-03T06:46:02.863Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyNDU3NTgwFQIAERgSQUJFM0E0MjM1MTk1N0U1QzA0AA=="
       }
     ],
     "paso": "conversando",
@@ -229,7 +241,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118252395",
