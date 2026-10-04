@@ -3,8 +3,8 @@
     "telefono": "573114656396",
     "nombre": "Sebastián Martinez",
     "primerContacto": "2026-10-04T18:11:48.716Z",
-    "ultimoContacto": "2026-10-04T18:24:42.606Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-04T18:28:06.395Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,25 @@
         "fecha": "2026-10-04T18:24:41.854Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NjU2Mzk2FQIAERgSNTRFNkE0QTJFQzc1QjdFRDBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye luego la impresora no le sirve el papel de repma de la normal tamaño carta",
+        "fecha": "2026-10-04T18:28:03.614Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, para esta impresora no sirve el papel normal tamaño carta, solo papel térmico especial, porque funciona con impresión térmica y no usa tinta ni tóner. Por eso es importante tener el papel térmico que te mencioné, para que siempre pueda imprimir sin problemas.\n\n¿Quieres que te ayude a dejar el pedido con la impresora y algún tipo de papel térmico? ¿En qué ciudad estás para coordinar el envío?",
+        "fecha": "2026-10-04T18:28:05.016Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NjU2Mzk2FQIAERgSMjM3MTZFNzJCQ0REMDZCRTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-04T18:28:05.501Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NjU2Mzk2FQIAERgSNzFFMjk1RDYzOUQ2MDFEOTRDAA=="
       }
     ],
     "paso": "conversando",
