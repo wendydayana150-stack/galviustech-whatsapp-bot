@@ -3,8 +3,8 @@
     "telefono": "573114656396",
     "nombre": "Sebastián Martinez",
     "primerContacto": "2026-10-04T18:11:48.716Z",
-    "ultimoContacto": "2026-10-04T18:11:48.716Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-04T18:23:32.404Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-04T18:11:47.187Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NjU2Mzk2FQIAERgSMTBCNjlFN0MzN0EwNzI2RDMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay contra entrega en retorno Guaviare",
+        "fecha": "2026-10-04T18:23:29.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el envío siempre es gratis y te llega en 2 a 4 días hábiles después del despacho. En Retorno, Guaviare, podemos enviarte el producto y pagar contra entrega sin problema. Por cierto, ¿qué producto te interesa? Veo que estábamos hablando de la impresora térmica portátil bluetooth, ¿es esa? Para qué la usarías principalmente, para trabajo, estudio o negocio?",
+        "fecha": "2026-10-04T18:23:31.537Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NjU2Mzk2FQIAERgSMkE0NjI4Rjg5NjU5OEMwRURFAA=="
       }
     ],
     "paso": "conversando",
@@ -48,7 +60,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573115885653",
