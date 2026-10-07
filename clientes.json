@@ -3,8 +3,8 @@
     "telefono": "573104465162",
     "nombre": "Óscar Gamboa",
     "primerContacto": "2026-10-07T23:27:48.844Z",
-    "ultimoContacto": "2026-10-07T23:27:48.844Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-07T23:28:46.096Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-07T23:27:48.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSOEYyOTFEQTNGNEY3QkU1Njk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural, pero la publicidad dice setelital",
+        "fecha": "2026-10-07T23:28:42.851Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech. Entiendo tu duda: el módem que ofrecemos funciona con señal celular, no es satelital. Si no hay señal de ningún operador en tu zona rural, lamentablemente no podrá conectarse. Pero la antena del módem es más potente que la del celular normal, así que a veces detecta señal donde el celular no. ¿Me puedes decir en qué municipio o vereda estás para confirmarlo bien y ayudarte mejor? ¿O tienes señal registrada de algún operador móvil?",
+        "fecha": "2026-10-07T23:28:45.190Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSQTZFRkQ1NkExRTM5NUU0RjU2AA=="
       }
     ],
     "paso": "conversando",
@@ -55,7 +67,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214534597",
