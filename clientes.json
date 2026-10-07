@@ -3,8 +3,8 @@
     "telefono": "573104465162",
     "nombre": "Óscar Gamboa",
     "primerContacto": "2026-10-07T23:27:48.844Z",
-    "ultimoContacto": "2026-10-07T23:32:49.247Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-07T23:33:26.688Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,18 @@
         "fecha": "2026-10-07T23:32:48.369Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSRUU3NUU0N0M5ODM2NTZGNTY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjame consulto, por favor",
+        "fecha": "2026-10-07T23:33:24.551Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, sin problema. Tómate tu tiempo para pensar y consultar lo que necesites. Quedo atenta cuando decidas, para ayudarte a tener internet estable en tu zona rural sin complicaciones. ¿Quieres que te recuerde en unos días o prefieres que me escribas cuando estés listo? 😊",
+        "fecha": "2026-10-07T23:33:25.924Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSNEE5QkY3NDM4NkEzOTI2N0UxAA=="
       }
     ],
     "paso": "conversando",
@@ -114,7 +126,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
