@@ -3,8 +3,8 @@
     "telefono": "573104465162",
     "nombre": "Óscar Gamboa",
     "primerContacto": "2026-10-07T23:27:48.844Z",
-    "ultimoContacto": "2026-10-07T23:33:45.954Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-08T22:37:09.625Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,11 +128,18 @@
         "fecha": "2026-10-07T23:33:45.225Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSMEY2N0E1MTFCQjE4RUMzQ0E3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-08T22:37:08.264Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDY1MTYyFQIAERgSRDk1ODM0QTFERkU4NkI1MUE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
