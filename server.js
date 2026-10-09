@@ -388,13 +388,18 @@ async function enviarListaCatalogo(telefono) {
                                           // del catalogo (ej. "LAMPARA PANEL SOLAR x 3 unid.", 29 caracteres) superan
                                           // el limite, asi que CUALQUIER cliente que tocara "Ver otros" fallaba
                                           // siempre, de forma 100% reproducible, no intermitente.
-                                          rows: catalogo
-                                                .filter((p) => !p.id.startsWith("combo-"))
-                                                .map((p) => ({
-                                                      id: `producto_${p.id}`,
-                                                      title: (p.nombreCorto || p.nombre).slice(0, 24),
-                                                      description: formatearPrecio(p.precio),
-                                                })),
+                                          rows: [
+                                                ...catalogo
+                                                      .filter((p) => !p.id.startsWith("combo-") && !p.tienda)
+                                                      .map((p) => ({
+                                                            id: `producto_${p.id}`,
+                                                            title: (p.nombreCorto || p.nombre).slice(0, 24),
+                                                            description: formatearPrecio(p.precio),
+                                                      })),
+                                                // Fila extra (maximo 10 filas por lista en WhatsApp): los productos de la
+                                                // tienda online van aparte, en su propio menu por categorias.
+                                                ...(hayProductosTienda() ? [{ id: "ver_tienda", title: "Ver toda la tienda", description: "Relojes, camaras y mas" }] : []),
+                                          ],
                                     },
                                     ],
                         },
@@ -472,7 +477,7 @@ function categoriasDisponibles() {
       const vistas = new Set();
       const lista = [];
       for (const p of catalogo) {
-            if (p.id.startsWith("combo-")) continue;
+            if (p.id.startsWith("combo-") || p.tienda) continue;
             const cat = (p.categoria || "").trim().toLowerCase();
             if (!cat || vistas.has(cat)) continue;
             vistas.add(cat);
@@ -484,7 +489,7 @@ function categoriasDisponibles() {
 async function enviarInfoCategoria(telefono, categoria) {
       const sesion = obtenerSesion(telefono);
       const productos = catalogo.filter(
-            (p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === categoria
+            (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
       if (productos.length === 0) {
             await manejarSaludo(telefono, null);
@@ -621,6 +626,12 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
             return;
       }
 
+      // Los productos de la tienda online no tienen combos de regalo propios: directo al pedido.
+      if (productoBase?.tienda) {
+            await iniciarPedido(telefono, productoIdOriginal);
+            return;
+      }
+
       const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria] || [];
       const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
 
@@ -664,6 +675,7 @@ function estaEnHorarioComercial() {
 
 function imagenesPromoParaProducto(productoId) {
       const productoBase = productoId ? catalogo.find((p) => p.id === productoId) : null;
+      if (productoBase?.tienda) return [];
       const categoria = (productoBase?.categoria || "").trim().toLowerCase();
       let combos = (OFERTAS_COMBO_POR_CATEGORIA[categoria] || [])
             .map((id) => catalogo.find((p) => p.id === id))
@@ -755,7 +767,7 @@ async function enviarFotosProducto(telefono, texto) {
             }
       } else if (categoriaMencionada) {
             productos = catalogo.filter(
-                  (p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === categoriaMencionada
+                  (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoriaMencionada
                   );
       } else if (productoIdSesion) {
             const p = catalogo.find((prod) => prod.id === productoIdSesion);
@@ -1829,13 +1841,17 @@ async function manejarSaludo(telefono, nombreCliente) {
       const categorias = categoriasDisponibles();
       const titulos = categorias.map((c) => infoCategoria(c).titulo);
       const hayCombos = catalogo.some((p) => p.id.startsWith("combo-"));
+      const hayTienda = hayProductosTienda();
       const tituloBienvenida = hayCombos ? [...titulos, "PROMOCION COMBOS"] : titulos;
-      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, tituloBienvenida));
+      await enviarTexto(telefono, config.mensajeBienvenida(nombreCliente, tituloBienvenida, hayTienda));
 
-      if (categorias.length === 0 && !hayCombos) {
+      if (categorias.length === 0 && !hayCombos && !hayTienda) {
             return;
       }
-      const opcionesExtra = hayCombos ? [{ id: "ver_combos", titulo: "PROMOCION COMBOS" }] : [];
+      const opcionesExtra = [
+            ...(hayCombos ? [{ id: "ver_combos", titulo: "PROMOCION COMBOS" }] : []),
+            ...(hayTienda ? [{ id: "ver_tienda", titulo: "Ver toda la tienda" }] : []),
+      ];
       const totalOpciones = categorias.length + opcionesExtra.length;
       if (totalOpciones <= 3) {
             await enviarBotones(
@@ -1866,6 +1882,11 @@ async function manejarSeleccionProducto(telefono, productoId) {
             for (const url of producto.imagenes) {
                   await enviarImagen(telefono, url, producto.nombreCorto || producto.nombre);
             }
+      }
+
+      if (producto.tienda) {
+            await enviarTarjetaProductoTienda(telefono, producto);
+            return;
       }
 
       await enviarTexto(
@@ -1919,6 +1940,17 @@ async function iniciarPedido(telefono, productoId) {
       const producto = catalogo.find((p) => p.id === productoId);
       if (!producto) {
             await enviarTexto(telefono, "No encontre ese producto en el catalogo, puedes elegir otro?");
+            return;
+      }
+
+      if (producto.agotado) {
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            await enviarTexto(
+                  telefono,
+                  `Uy, el *${producto.nombre}* se nos agoto por ahora 😔 Si quieres te aviso apenas llegue, o te muestro otros modelos parecidos.`
+                  );
+            await enviarBotones(telefono, "Que prefieres?", [{ id: "ver_tienda", titulo: "Ver otros productos" }]);
             return;
       }
 
@@ -2367,7 +2399,262 @@ async function manejarFlujoPedido(telefono, texto) {
       return true;
 }
 
+// ==============================================
+// TIENDA ONLINE (galviustech.cercia.co)
+// Los productos de la tienda viven en catalog.json con tienda:true (+ alias/familia/excluir para
+// reconocerlos por nombre, y slugTienda para reconocerlos por link). Se manejan aparte del flujo
+// "viejo" (modem / impresora / lamparas con sus combos de regalo) para no alterarlo.
+// ==============================================
+const URL_TIENDA = "https://galviustech.cercia.co";
+
+// Grupos del menu "Ver toda la tienda": id de grupo -> titulo, emoji y categorias del catalogo que incluye.
+const GRUPOS_TIENDA = [
+      { id: "reloj", titulo: "Relojes", emoji: "⌚", categorias: ["reloj"] },
+      { id: "smartwatch", titulo: "Smartwatches", emoji: "📱", categorias: ["smartwatch"] },
+      { id: "camara", titulo: "Camaras de seguridad", emoji: "📹", categorias: ["camara"] },
+      { id: "impresora", titulo: "Impresoras", emoji: "🖨️", categorias: ["impresora"] },
+      { id: "lampara", titulo: "Lamparas solares", emoji: "💡", categorias: ["lampara"] },
+      { id: "modem", titulo: "Modems y routers", emoji: "📶", categorias: ["modem", "router"] },
+      { id: "otros", titulo: "Mas productos", emoji: "🛍️", categorias: ["otros"] },
+];
+
+function hayProductosTienda() {
+      return catalogo.some((p) => p.tienda === true);
+}
+
+function productosDeGrupoTienda(grupoId) {
+      const grupo = GRUPOS_TIENDA.find((g) => g.id === grupoId);
+      if (!grupo) return [];
+      return catalogo.filter(
+            (p) => !p.id.startsWith("combo-") && grupo.categorias.includes((p.categoria || "").trim().toLowerCase())
+      );
+}
+
+function normalizarParaTienda(texto) {
+      return (texto || "")
+            .toLowerCase()
+            .normalize("NFD")
+            .replace(/[̀-ͯ]/g, "");
+}
+
+function palabrasDeTexto(texto) {
+      return new Set(normalizarParaTienda(texto).split(/[^a-z0-9]+/).filter(Boolean));
+}
+
+// Una palabra del cliente coincide con el token si es igual o solo cambia la "s" final (lampara/lamparas).
+function tieneToken(palabras, token) {
+      if (palabras.has(token)) return true;
+      if (palabras.has(token + "s")) return true;
+      return token.length > 3 && token.endsWith("s") && palabras.has(token.slice(0, -1));
+}
+
+// Reconoce si el mensaje habla de un producto puntual de la tienda (por nombre, modelo o link).
+// Devuelve {tipo:"producto", id}, {tipo:"familia", ids, nombre} (ej. dijo "Curren" o "Skmei" y hay
+// varios modelos) o null. Es deliberadamente conservador: solo reconoce cuando hay una coincidencia
+// clara, para no quitarle mensajes al flujo normal (modem, impresora, lamparas) ni a la IA.
+function detectarProductoTienda(texto) {
+      const productos = catalogo.filter((p) => p.tienda === true);
+      if (productos.length === 0 || !texto) return null;
+
+      const enlace = /galviustech\.cercia\.co\/productos\/([a-z0-9-]+)/i.exec(texto);
+      if (enlace) {
+            const slug = enlace[1].toLowerCase();
+            const porSlug = productos.find((p) => (p.slugTienda || "").toLowerCase() === slug);
+            if (porSlug) return { tipo: "producto", id: porSlug.id };
+      }
+
+      const palabras = palabrasDeTexto(texto);
+      let mejorPuntaje = 0;
+      let mejores = [];
+      for (const p of productos) {
+            if ((p.excluir || []).some((tok) => tieneToken(palabras, tok))) continue;
+            let puntaje = 0;
+            for (const grupo of p.alias || []) {
+                  if (grupo.length > 0 && grupo.every((tok) => tieneToken(palabras, tok))) {
+                        puntaje = Math.max(puntaje, grupo.length);
+                  }
+            }
+            if (puntaje === 0) continue;
+            if (puntaje > mejorPuntaje) {
+                  mejorPuntaje = puntaje;
+                  mejores = [p];
+            } else if (puntaje === mejorPuntaje) {
+                  mejores.push(p);
+            }
+      }
+
+      if (mejores.length === 1) return { tipo: "producto", id: mejores[0].id };
+      if (mejores.length > 1) {
+            // Empate: si todos son del mismo modelo/marca (ej. las 2 publicaciones Skmei) se le deja elegir.
+            const famComun = (mejores[0].familia || []).find((f) => mejores.every((m) => (m.familia || []).includes(f)));
+            if (famComun) return { tipo: "familia", ids: mejores.map((m) => m.id), nombre: famComun };
+            return null;
+      }
+
+      // Sin modelo puntual: si nombra solo la marca (ej. "Curren"), se le muestran los modelos de esa marca.
+      const familias = new Set(productos.flatMap((p) => p.familia || []));
+      for (const f of familias) {
+            if (tieneToken(palabras, f)) {
+                  const ids = productos.filter((p) => (p.familia || []).includes(f)).map((p) => p.id);
+                  if (ids.length > 1) return { tipo: "familia", ids, nombre: f };
+                  if (ids.length === 1) return { tipo: "producto", id: ids[0] };
+            }
+      }
+      return null;
+}
+
+// Categorias de la tienda que NO existen en el flujo viejo (relojes, smartwatches, camaras).
+// Solo se usa cuando el mensaje no menciono nada del flujo viejo.
+function detectarCategoriaTienda(texto) {
+      if (!hayProductosTienda()) return null;
+      const t = normalizarParaTienda(texto);
+      if (/smart ?watch|reloj(es)? inteligente|reloj(es)? con (bluetooth|pantalla)/.test(t)) return "smartwatch";
+      if (/\breloj(es)?\b/.test(t)) return "reloj";
+      if (/camara|vigilancia|cctv/.test(t)) return "camara";
+      return null;
+}
+
+async function enviarListaProductosTienda(telefono, encabezado, cuerpo, productos, etiquetaRegistro) {
+      const registro = registrarMensaje(telefono, "bot", `[Envio lista: ${etiquetaRegistro || encabezado}]`);
+      const respuesta = await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "interactive",
+                  interactive: {
+                        type: "list",
+                        header: { type: "text", text: encabezado.slice(0, 60) },
+                        body: { text: cuerpo },
+                        action: {
+                              button: "Ver productos",
+                              sections: [
+                                    {
+                                          title: "Productos",
+                                          rows: productos.slice(0, 10).map((p) => ({
+                                                id: `producto_${p.id}`,
+                                                title: (p.nombreCorto || p.nombre).slice(0, 24),
+                                                description: (formatearPrecio(p.precio) + (p.agotado ? " - Agotado" : "")).slice(0, 72),
+                                          })),
+                                    },
+                              ],
+                        },
+                  },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+      );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
+}
+
+// Menu "Ver toda la tienda": una fila por grupo (maximo 10 filas).
+async function enviarMenuTienda(telefono) {
+      const sesion = obtenerSesion(telefono);
+      sesion.paso = "conversando";
+      const filas = GRUPOS_TIENDA.map((g) => ({ ...g, cantidad: productosDeGrupoTienda(g.id).length })).filter((g) => g.cantidad > 0);
+      if (filas.length === 0) {
+            await manejarSaludo(telefono, null);
+            return;
+      }
+      const registro = registrarMensaje(telefono, "bot", "[Envio menu de la tienda]");
+      const respuesta = await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  to: telefono,
+                  type: "interactive",
+                  interactive: {
+                        type: "list",
+                        header: { type: "text", text: "Tienda GalviusTech" },
+                        body: { text: "Cual producto te interesa? Elige una categoria y te muestro fotos y precios 👇" },
+                        action: {
+                              button: "Ver categorias",
+                              sections: [
+                                    {
+                                          title: "Categorias",
+                                          rows: filas.map((g) => ({
+                                                id: `tcat_${g.id}`,
+                                                title: `${g.emoji} ${g.titulo}`.slice(0, 24),
+                                                description: `${g.cantidad} ${g.cantidad === 1 ? "producto" : "productos"}`,
+                                          })),
+                                    },
+                              ],
+                        },
+                  },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+      );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
+}
+
+// Lista (o ficha directa si solo hay 1) de los productos de un grupo del menu de la tienda.
+async function enviarGrupoTienda(telefono, grupoId) {
+      const sesion = obtenerSesion(telefono);
+      sesion.paso = "conversando";
+      const grupo = GRUPOS_TIENDA.find((g) => g.id === grupoId);
+      const productos = productosDeGrupoTienda(grupoId);
+      if (!grupo || productos.length === 0) {
+            await enviarMenuTienda(telefono);
+            return;
+      }
+      sesion.ultimaCategoria = null;
+      if (productos.length === 1) {
+            await manejarSeleccionProducto(telefono, productos[0].id);
+            return;
+      }
+      await enviarListaProductosTienda(
+            telefono,
+            `${grupo.emoji} ${grupo.titulo}`,
+            "Estos son los modelos que tenemos. Toca el que te interese para ver fotos y detalles",
+            productos,
+            grupo.titulo
+      );
+}
+
+// Cuando el cliente nombra solo la marca/modelo general (ej. "Curren"), se le muestran las opciones.
+async function enviarListaFamiliaTienda(telefono, ids) {
+      const sesion = obtenerSesion(telefono);
+      sesion.paso = "conversando";
+      const productos = ids.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+      await enviarListaProductosTienda(
+            telefono,
+            "Cual modelo te interesa?",
+            "Tenemos varios modelos de ese. Toca el que quieras ver y te muestro fotos y precio",
+            productos,
+            "modelos"
+      );
+}
+
+// Ficha de un producto de la tienda: fotos + nombre/precio/descripcion + botones. Sin combos de regalo.
+async function enviarTarjetaProductoTienda(telefono, producto) {
+      let descripcion = (producto.descripcion || "").trim();
+      if (descripcion.length > 2800) descripcion = descripcion.slice(0, 2800).replace(/\s+\S*$/, "") + "...";
+      let texto = `*${producto.nombre}*\n${formatearPrecio(producto.precio)}`;
+      if (producto.agotado) texto += "\n⚠️ Agotado por el momento";
+      if (producto.color) texto += `\nOpciones: ${producto.color}`;
+      if (descripcion) texto += `\n\n${descripcion}`;
+      await enviarTexto(telefono, texto);
+
+      if (producto.agotado) {
+            await enviarBotones(telefono, "Este modelo se agoto por ahora. Quieres ver otros?", [
+                  { id: `tcat_${grupoDeProductoTienda(producto)}`, titulo: "Ver similares" },
+                  { id: "ver_tienda", titulo: "Ver la tienda" },
+            ]);
+            return;
+      }
+      await enviarBotones(telefono, "Quieres pedir este producto?", [
+            { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
+            { id: "ver_tienda", titulo: "Ver la tienda" },
+      ]);
+}
+
+function grupoDeProductoTienda(producto) {
+      const cat = (producto.categoria || "").trim().toLowerCase();
+      return (GRUPOS_TIENDA.find((g) => g.categorias.includes(cat)) || GRUPOS_TIENDA[GRUPOS_TIENDA.length - 1]).id;
+}
+
 function detectarProductoEspecifico(texto) {
+      const tiendaDet = detectarProductoTienda(texto);
+      if (tiendaDet && tiendaDet.tipo === "producto") return tiendaDet.id;
       const t = texto.toLowerCase();
       if (t.includes("impresora") || t.includes("imprimir")) {
             return "impresora-termica";
@@ -2450,7 +2737,14 @@ async function manejarTextoLibre(telefono, texto) {
             return;
       }
 
-      if (detectarPreguntaUso(texto)) {
+      // Productos de la tienda online: si el cliente nombra uno, o el que venia viendo es de la tienda,
+      // no aplican las respuestas fijas pensadas para el modem/impresora (modo de uso) ni su menu.
+      const tiendaDet = detectarProductoTienda(texto);
+      const idContexto = sesion.pedido?.productoId || sesion.ultimoProducto || null;
+      const productoContexto = idContexto ? catalogo.find((p) => p.id === idContexto) : null;
+      const contextoTienda = (tiendaDet && tiendaDet.tipo === "producto") || !!productoContexto?.tienda;
+
+      if (!contextoTienda && detectarPreguntaUso(texto)) {
             await enviarModoDeUso(telefono);
             return;
       }
@@ -2458,6 +2752,26 @@ async function manejarTextoLibre(telefono, texto) {
       if (detectarPreguntaFotos(texto)) {
             await enviarFotosProducto(telefono, texto);
             return;
+      }
+
+      if (tiendaDet && tiendaDet.tipo === "familia") {
+            await enviarListaFamiliaTienda(telefono, tiendaDet.ids);
+            return;
+      }
+      // Pregunta sobre un producto de la tienda distinto al que venia viendo: se le muestra su ficha
+      // (fotos + precio + detalles). Si es el mismo producto, sigue la conversacion normal con la IA.
+      if (tiendaDet && tiendaDet.tipo === "producto" && tiendaDet.id !== idContexto) {
+            await manejarSeleccionProducto(telefono, tiendaDet.id);
+            return;
+      }
+
+      // Mensaje corto que solo nombra una categoria de la tienda (ej. "tienen relojes?"): se le muestra la lista.
+      if (!tiendaDet && !detectarProductoEspecifico(texto) && !detectarProductoPorPalabraClave(texto) && texto.trim().split(/\s+/).length <= 5) {
+            const categoriaTienda = detectarCategoriaTienda(texto);
+            if (categoriaTienda) {
+                  await enviarGrupoTienda(telefono, categoriaTienda);
+                  return;
+            }
       }
 
       const productoDetectado = detectarProductoEspecifico(texto);
@@ -2576,7 +2890,9 @@ async function manejarTextoLibre(telefono, texto) {
                         sesion.botonesOfrecidos[idProductoEnfocado] = sesion.preguntasPorProducto[idProductoEnfocado];
                         await enviarBotones(telefono, "Te ayudo a dejar tu pedido listo?", [
                               { id: `pedir_${idProductoEnfocado}`, titulo: "Si, quiero este" },
-                              { id: "ver_catalogo", titulo: "Ver otros" },
+                              productoEnfocado.tienda
+                                    ? { id: "ver_tienda", titulo: "Ver la tienda" }
+                                    : { id: "ver_catalogo", titulo: "Ver otros" },
                               ]);
                         seLeRespondioAlgo = true;
                   }
@@ -3134,7 +3450,16 @@ app.post("/webhook", async (req, res) => {
                               const categoriaDelEspecifico = especifico
                                     ? (catalogo.find((p) => p.id === especifico)?.categoria || "").trim().toLowerCase()
                                     : null;
-                              if (categoriaDelEspecifico) {
+                              const tiendaDet = detectarProductoTienda(texto);
+                              const categoriaTienda = !tiendaDet && !especifico && !deteccion ? detectarCategoriaTienda(texto) : null;
+                              if (tiendaDet && tiendaDet.tipo === "producto") {
+                                    // Producto de la tienda online nombrado (o link de la tienda): ficha directa.
+                                    await manejarSeleccionProducto(telefono, tiendaDet.id);
+                              } else if (tiendaDet && tiendaDet.tipo === "familia") {
+                                    await enviarListaFamiliaTienda(telefono, tiendaDet.ids);
+                              } else if (categoriaTienda) {
+                                    await enviarGrupoTienda(telefono, categoriaTienda);
+                              } else if (categoriaDelEspecifico) {
                                     await enviarInfoCategoria(telefono, categoriaDelEspecifico);
                               } else if (especifico) {
                                     await manejarSeleccionProducto(telefono, especifico);
@@ -3157,6 +3482,10 @@ app.post("/webhook", async (req, res) => {
 
                         if (idBoton?.startsWith("cat_")) {
                               await enviarInfoCategoria(telefono, idBoton.replace("cat_", ""));
+                        } else if (idBoton === "ver_tienda") {
+                              await enviarMenuTienda(telefono);
+                        } else if (idBoton?.startsWith("tcat_")) {
+                              await enviarGrupoTienda(telefono, idBoton.replace("tcat_", ""));
                         } else if (idBoton === "ver_catalogo") {
                               await enviarListaCatalogo(telefono);
                         } else if (idBoton === "ver_combos") {

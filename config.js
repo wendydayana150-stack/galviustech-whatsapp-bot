@@ -10,12 +10,12 @@ const nombreAsistente = "Michell";
 // concreto, para que mientras tanto sigan mirando mas opciones por su cuenta.
 const LINK_TIENDA = "https://galviustech.cercia.co";
 
-function construirBloqueCatalogo(catalogo) {
+function construirBloqueCatalogo(catalogo, enfoqueProducto) {
             const productos = (catalogo || []).filter((p) => !p.id.startsWith("combo-"));
             const combos = (catalogo || []).filter((p) => p.id.startsWith("combo-"));
 
             const lineasProductos = productos
-                        .map((p) => `- ${p.nombre}: ${formatearPrecioCOP(p.precio)}`)
+                        .map((p) => `- ${p.nombre}: ${formatearPrecioCOP(p.precio)}${p.agotado ? " (AGOTADO por ahora)" : ""}${p.tienda ? " [TIENDA]" : ""}`)
                         .join("\n");
 
             let bloque =
@@ -31,10 +31,23 @@ function construirBloqueCatalogo(catalogo) {
                                     lineasCombos + "\n\n";
             }
 
+            // Los productos de la tienda online son muchos y con descripciones largas: su descripcion solo se
+            // incluye cuando el cliente esta consultando ESE producto (asi el prompt no crece en cada mensaje).
+            const idEnfocado = enfoqueProducto && enfoqueProducto.tipo === "producto" ? enfoqueProducto.valor : null;
             for (const p of productos) {
+                        if (p.tienda && p.id !== idEnfocado) continue;
                         if (p.descripcion) {
                                     bloque += `DESCRIPCION DE ${p.nombre.toUpperCase()}: ${p.descripcion.replace(/\r?\n/g, " ")}\n\n`;
                         }
+            }
+
+            if (productos.some((p) => p.tienda)) {
+                        bloque +=
+                                    "TIENDA ONLINE (" + LINK_TIENDA + "): GalviusTech tambien tiene una tienda en linea con mas productos (relojes, smartwatches, camaras, impresoras, lamparas, routers y mas). Los productos marcados [TIENDA] en la lista de arriba se venden igual por este chat, con el mismo envio a toda Colombia y las mismas formas de pago. " +
+                                    "Si el cliente pregunta por un producto [TIENDA], respondele con su precio de la lista de arriba (ese es el unico precio valido; si ves otro precio en alguna descripcion, ignoralo) y con su descripcion cuando la tengas; y llevalo al cierre con ACCION_PEDIDO como con cualquier otro producto. " +
+                                    "Si un producto esta marcado AGOTADO, dilo con honestidad, NO tomes el pedido y ofrecele un modelo parecido que si este disponible. " +
+                                    "Si el cliente solo dice que vio la tienda o la pagina y no sabe cual producto quiere, NO le contestes solo con el link: preguntale cual producto le llamo la atencion y para que lo necesita (relojes, camaras, impresoras, lamparas, modems), y ofrecele las categorias. " +
+                                    "Los productos [TIENDA] no tienen los combos de regalo del modem o de la impresora; solo los packs que aparecen con su propio nombre en la lista.\n\n";
             }
 
             return bloque;
@@ -59,7 +72,7 @@ function construirBloqueEnfoqueProducto(catalogo, enfoqueProducto) {
                         if (p) productosEnfoque = [p];
             } else if (enfoqueProducto.tipo === "categoria") {
                         productosEnfoque = (catalogo || []).filter(
-                                    (p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === enfoqueProducto.valor
+                                    (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === enfoqueProducto.valor
                         );
             }
             if (productosEnfoque.length === 0) return "";
@@ -152,7 +165,7 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             "Cuando pregunten el precio, no respondas solo con el numero: primero pregunta si es para casa, negocio o finca y que es lo que mas le interesa vigilar, para recomendarle bien.\n" +
             "Si dice que esta cara, valida su comentario con empatia y pregunta que tan importante es para el o ella la tranquilidad de poder ver su casa o negocio en cualquier momento, y ofrece revisar juntos si le conviene.\n" +
             "Para cerrar, pregunta por el siguiente paso logistico (direccion de envio, forma de pago) en vez de preguntar si la quiere comprar.\n\n" +
-            construirBloqueCatalogo(catalogo) +
+            construirBloqueCatalogo(catalogo, enfoqueProducto) +
             "CARACTERISTICAS DEL MODEM WIFI PORTATIL: Compatible con SIM Card de todos los operadores en Colombia. Conecta hasta 10 dispositivos simultaneamente. Instalacion facil (insertar SIM, encender, conectar). Bateria recargable USB-C. Disenado para dar mejor cobertura que un celular en hogar, oficina, estudio, viajes y especialmente en zonas rurales. Garantia de 30 dias y soporte de GalviusTech.\n\n" +
             "SIMCARD DE REGALO CON EL MODEM: Si el cliente pregunta si obsequiamos o incluimos la SIMCARD (chip) con el modem, responde con seguridad que SI, que se incluye de regalo una SIMCARD de Claro. IMPORTANTE: la SIMCARD se entrega SIN plan, sin recarga y sin megas activados; nosotros solo enviamos la tarjeta SIM fisica. Si el cliente pregunta con cuantas megas llega, o si viene con plan pospago o con recarga, respondele con seguridad que solo se envia la SIMCARD, y que alla el mismo debe registrarla (activarla) con Claro y elegir/activar el plan o la recarga que prefiera segun lo que necesite.\n\n" +
             "BATERIA DEL MODEM WIFI (dato confirmado por Wendy sep-2026, caso real cliente Eriberto Gonzales): la bateria dura hasta 14 horas en uso continuo con una carga completa. Si el cliente pregunta cuanto dura la bateria o cuanto tiempo aguanta sin cargar, respondele este numero directamente y con seguridad, no digas que no lo tienes confirmado.\n\n" +
@@ -197,7 +210,7 @@ function construirSystemPrompt(catalogo, enfoqueProducto) {
             );
 }
 
-const mensajeBienvenida = (nombreCliente, categorias) => {
+const mensajeBienvenida = (nombreCliente, categorias, hayTienda) => {
             const lista = categorias || [];
             let textoProductos = "nuestros productos";
             if (lista.length === 1) {
@@ -207,7 +220,7 @@ const mensajeBienvenida = (nombreCliente, categorias) => {
             }
             return (
             "¡Hola" + (nombreCliente ? " " + nombreCliente : "") + "! Soy Michell, de GalviusTech 👋\n\n" +
-            `Tenemos ${textoProductos}. Hacemos envíos a toda Colombia (¡hasta veredas!), todo con garantía incluida.\n\n` +
+            `Tenemos ${textoProductos}${hayTienda ? ", además de relojes, cámaras y más" : ""}. Hacemos envíos a toda Colombia (¡hasta veredas!), todo con garantía incluida.\n\n` +
             "Elige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇"
             );
 };
