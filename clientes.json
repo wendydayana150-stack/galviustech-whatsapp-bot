@@ -3,8 +3,8 @@
     "telefono": "573053567458",
     "nombre": "vino Nuevo",
     "primerContacto": "2026-10-10T17:44:37.801Z",
-    "ultimoContacto": "2026-10-10T17:45:16.226Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-10T17:46:47.739Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -63,13 +63,25 @@
         "fecha": "2026-10-10T17:45:15.503Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzNTY3NDU4FQIAERgSRjI5RTU3MzUxQjJDODMxOTBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el hogar, Santander De Quilichao Cauca,",
+        "fecha": "2026-10-10T17:46:43.218Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso en el hogar en Santander De Quilichao Cauca te recomiendo que veas estas tres opciones de módem portátiles GalviusTech:\n\n1. Módem WiFi Portátil 4G por $219.900, ideal si quieres ahorrar y la señal 4G es buena en tu zona.\n2. Módem WiFi Portátil 4G/5G por $249.900, que funciona en 4G y 5G, la opción más segura para tener buena conexión, incluso si en tu zona empieza a haber 5G.\n3. Módem WiFi Portátil 5G por $249.900, para la máxima velocidad si tienes cobertura 5G estable.\n\nTodos son fáciles de usar, portátiles y te dan mejor cobertura que el celular gracias a su antena más potente, ¡perfecto para que tengas internet estable en casa sin depender de fibra óptica!\n\nLa inversión va desde $219.900 a $249.900 según la versión que prefieras. ¿Quieres que te ayude a elegir la mejor para tu zona o prefieres que te deje listo el pedido para enviarlo ya?",
+        "fecha": "2026-10-10T17:46:46.989Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzNTY3NDU4FQIAERgSRjI0OTE0MUI2RjA0MkRDODBFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
