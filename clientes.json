@@ -41,8 +41,8 @@
     "telefono": "573053567458",
     "nombre": "vino Nuevo",
     "primerContacto": "2026-10-10T17:44:37.801Z",
-    "ultimoContacto": "2026-10-10T17:49:40.426Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-10T20:38:01.419Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -149,6 +149,25 @@
         "fecha": "2026-10-10T17:49:39.789Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzNTY3NDU4FQIAERgSRTA1MEM5RjcxNUU4MDk1QUQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-10T18:50:08.873Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzNTY3NDU4FQIAERgSRjA0OTBCRTNFQkUxOEM4OEY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "🆗 gracias, estoy buscando módem con plan de internet, muchas gracias",
+        "fecha": "2026-10-10T20:37:57.624Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, actualmente nosotros vendemos el módem y la SIM física, pero no incluimos planes activos porque te da flexibilidad para elegir el plan que más te convenga con Claro.\n\nSi cambias de opinión o necesitas un módem potente que te dé buena señal sin importar la zona, aquí estoy para ayudarte. ¿Quieres que te muestre tambien otras opciones de productos para el hogar, o prefieres que te avise cuando tengamos promos con planes?",
+        "fecha": "2026-10-10T20:38:00.295Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzNTY3NDU4FQIAERgSRTgzQ0FDQTc4MjJGNzAxM0MzAA=="
       }
     ],
     "paso": "conversando",
@@ -159,11 +178,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
