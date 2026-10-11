@@ -3,8 +3,8 @@
     "telefono": "573225840189",
     "nombre": "Brigadier",
     "primerContacto": "2026-10-11T15:15:33.252Z",
-    "ultimoContacto": "2026-10-11T15:27:41.293Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-11T15:54:12.640Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -62,13 +62,25 @@
         "fecha": "2026-10-11T15:27:40.465Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSQjFFRUM2NUM2MjRDQkI0RjhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que pena no me puedo lograr de imprimir",
+        "fecha": "2026-10-11T15:54:09.107Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, no te preocupes, dime qué problema tienes al intentar imprimir con la impresora térmica portátil Bluetooth. ¿Estás conectándola desde el celular por Bluetooth? ¿O tienes algún mensaje de error? Cuéntame más para ayudarte rápido.\n\nPor cierto, ¿para qué la estás usando principalmente, trabajo, estudio o algo más? Así te puedo ayudar mejor con el equipo.",
+        "fecha": "2026-10-11T15:54:11.680Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODQwMTg5FQIAERgSMTc1QTlFM0E5OTcwMzM3NjI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
