@@ -486,6 +486,9 @@ function categoriasDisponibles() {
       return lista;
 }
 
+const MENSAJE_BIENVENIDA_MODEM =
+      "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
+
 async function enviarInfoCategoria(telefono, categoria) {
       const sesion = obtenerSesion(telefono);
       // Impresoras (oct-2026, a pedido de Wendy): hay de todos los tamaños para negocio y para
@@ -498,6 +501,20 @@ async function enviarInfoCategoria(telefono, categoria) {
                   telefono,
                   "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la ideal, cuéntame: ¿la necesitas para tu *negocio* (etiquetas, guías, recibos o facturas) o para *estudio* (imprimir tareas y trabajos en hoja tamaño carta)?"
             );
+            return;
+      }
+      // Modems (oct-2026, mensaje redactado por Wendy): 1 foto del modem + bienvenida que pregunta
+      // municipio/vereda y para que lo necesita. La IA recomienda la version y da el precio cuando responda.
+      if (categoria === "modem") {
+            sesion.ultimaCategoria = "modem";
+            registrarMensaje(telefono, "bot", "[Bienvenida de modems: pregunta municipio y uso]");
+            const info = infoCategoria("modem");
+            const delModem = catalogo.filter((p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === "modem");
+            const destacado = delModem.find((p) => p.id === info.variantePorDefecto) || delModem[0];
+            if (destacado?.imagenes?.[0]) await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
+            await enviarTexto(telefono, MENSAJE_BIENVENIDA_MODEM);
+            // Queda en el historial de la IA para que no la repita y entienda la respuesta del cliente
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: MENSAJE_BIENVENIDA_MODEM });
             return;
       }
       const productos = catalogo.filter(
