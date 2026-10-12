@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-12T02:43:42.250Z",
-    "ultimoContacto": "2026-10-12T02:44:48.176Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-12T02:44:56.077Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -95,9 +95,21 @@
         "fecha": "2026-10-12T02:44:47.338Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNUFBM0JFMTI1RDU5OERGMDJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-10-12T02:44:55.330Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-12T02:44:55.330Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNkMzQjg3OUUzODg4RjE5QTE0AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica-portatil-goojprt-pt-210"
     },
