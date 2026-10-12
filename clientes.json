@@ -3,8 +3,8 @@
     "telefono": "50497280832",
     "nombre": "Amor Mio",
     "primerContacto": "2026-10-11T22:01:01.613Z",
-    "ultimoContacto": "2026-10-11T22:14:23.720Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-12T01:03:11.165Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,6 +87,32 @@
         "fecha": "2026-10-11T22:14:21.951Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLNTA0OTcyODA4MzIVAgARGBJGQUY5NkIzNEExQ0JFQjNEOUIA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-11T23:15:08.858Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA0OTcyODA4MzIVAgARGBJDOUEyMEY2OTlDMDMzRjFFNEMA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que presio",
+        "fecha": "2026-10-12T01:03:07.768Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para el Modem WiFi Portátil 4G/5G es de $249.900. Este equipo te permitirá tener internet donde no llega la fibra, conectar varios dispositivos y llevar tu WiFi contigo a donde vayas sin complicaciones.\n\nContame, ¿en qué municipio o vereda estarías usando el modem? Así te confirmo que sea la mejor opción para ti.",
+        "fecha": "2026-10-12T01:03:09.967Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA0OTcyODA4MzIVAgARGBI0MzA1N0ZBNUZGRUU1QzcyMkUA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-12T01:03:10.566Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTA0OTcyODA4MzIVAgARGBJDN0Q2N0Y2NTFGODYzMzhERkMA"
       }
     ],
     "paso": "conversando",
@@ -100,8 +126,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
