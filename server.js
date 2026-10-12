@@ -2864,6 +2864,26 @@ async function enviarVersionesModem(telefono) {
             );
 }
 
+const MENSAJE_OTRAS_OPCIONES =
+      "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
+      "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
+      "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
+      "💡 *Lámparas solares*\n" +
+      "📹 *Cámaras de seguridad*\n" +
+      "⌚ *Relojes inteligentes*\n" +
+      "🕰️ *Relojes*\n" +
+      "📽️ *Proyectores*\n" +
+      "🎁 *Combos con descuento*\n\n" +
+      "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\n" +
+      "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
+
+function preguntaOtrosProductos(texto) {
+      const t = String(texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+      const general = /(que|cuales)\s+(otr[oa]s?|mas)\s*(tienen|tiene|tienes|venden|vende|vendes|hay|manejan|manejas|ofrecen|opciones|productos|articulos|cosas)|(que|cuales)\s+otr[oa]s?\s*(\?|$)|otr[oa]s\s+(opciones|productos|cosas|lineas|articulos)|mas\s+(opciones|productos|articulos)|que\s+(venden|vendes|manejan|manejas|ofrecen)\b|que\s+tienen\s*(\?|$|disponible|en venta)/;
+      const especifico = /(otr[oa]s?|mas)\s+(impresor|modem|modelo|color|referencia|camara|reloj|lampara|proyector|tama|presentaci|tipo|versi|marca|rollo|hoja|papel)/;
+      return general.test(t) && !especifico.test(t) && t.length < 120;
+}
+
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
@@ -2873,6 +2893,20 @@ async function manejarTextoLibre(telefono, texto) {
             // espera pendiente de "me prometio mandar los datos en conversacion libre" queda
             // obsoleta (ver esperandoDatosPedidoLibre mas abajo).
             sesion.esperandoDatosPedidoLibre = null;
+            return;
+      }
+
+      // "¿QUE OTROS ARTICULOS VENDES?" (oct-2026, Wendy: la IA respondia un parrafo pegado). Si pregunta en
+      // general que mas vendemos (no "otras impresoras" ni "otros modelos"), va el listado bonito fijo y el link
+      // de la tienda aparte, al final, para que la vista previa del link no quede arriba.
+      if (preguntaOtrosProductos(texto)) {
+            registrarMensaje(telefono, "bot", "[Listado de todo lo que vendemos + link de la tienda]");
+            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
+            await enviarTexto(telefono, "🛍️ Mira todo el catálogo aquí: " + LINK_TIENDA_FEED);
+            if (Array.isArray(sesion.historial)) {
+                  sesion.historial.push({ role: "user", content: texto });
+                  sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
+            }
             return;
       }
 
