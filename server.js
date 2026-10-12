@@ -761,6 +761,75 @@ function detectarPreguntaFotos(texto) {
             );
 }
 
+// Productos del catalogo que se nombran en un texto (ej. el ultimo mensaje de Michell), en el orden en
+// que aparecen. Si un nombre esta contenido en otro mas largo (ej. "Impresora Termica Portatil
+// Bluetooth" dentro de "Mini Impresora Termica Portatil Bluetooth"), gana el mas largo.
+const normalizarNombre = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const ALIAS_FOTOS = { "impresora-termica": ["tamano carta", "impresora carta"] };
+function productosMencionados(texto) {
+      const t = " " + normalizarNombre(texto) + " ";
+      const claves = [];
+      const conteo = new Map();
+      const palabrasDe = (p) => new Set(normalizarNombre(p.nombre).split(" ").filter((w) => w.length >= 3));
+      for (const p of catalogo) for (const w of palabrasDe(p)) conteo.set(w, (conteo.get(w) || 0) + 1);
+      for (const p of catalogo) {
+            const lista = [p.nombre, p.nombreCorto, ...(ALIAS_FOTOS[p.id] || [])].map(normalizarNombre).filter((x) => x.length >= 4);
+            // Palabras que solo tiene este producto y llevan numero (ej. "221b", "p5", "210"): "la Clabel 221B"
+            for (const w of palabrasDe(p)) if (conteo.get(w) === 1 && /\d/.test(w) && w.length >= 2) lista.push(w);
+            for (const c of new Set(lista)) claves.push({ id: p.id, c });
+      }
+      const hallados = [];
+      for (const { id, c } of claves) {
+            let i = t.indexOf(" " + c + " ");
+            while (i !== -1) {
+                  hallados.push({ id, ini: i, fin: i + c.length + 1 });
+                  i = t.indexOf(" " + c + " ", i + 1);
+            }
+      }
+      hallados.sort((a, b) => b.fin - b.ini - (a.fin - a.ini));
+      const elegidos = [];
+      for (const h of hallados) if (!elegidos.some((e) => h.ini < e.fin && e.ini < h.fin)) elegidos.push(h);
+      elegidos.sort((a, b) => a.ini - b.ini);
+      return [...new Set(elegidos.map((h) => h.id))].map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+}
+
+// Ultimos mensajes de Michell (el mas reciente primero), sin las lineas de control
+function mensajesDeMichell(sesion, cuantos = 3) {
+      return [...(sesion.historial || [])].reverse().filter((m) => m.role === "assistant").slice(0, cuantos).map((m) => {
+            const contenido = typeof m.content === "string" ? m.content : Array.isArray(m.content) ? m.content.map((c) => c.text || "").join(" ") : "";
+            return { crudo: contenido, texto: contenido.split("\n").filter((l) => !/^[A-Z_]{6,}:/.test(l.trim())).join("\n") };
+      });
+}
+const ultimoMensajeDeMichell = (sesion) => mensajesDeMichell(sesion, 1)[0]?.texto || "";
+
+// Productos (no combos) cuyo precio exacto aparece en el texto, si ese precio es de un solo producto
+function productosPorPrecio(texto, preferidoId = null) {
+      // Precio exacto -> producto. Si varios productos comparten precio (ej. $249.900 = modem 4G/5G e
+      // impresora tamaño carta), se desempata con la categoria nombrada justo antes de ese precio
+      // ("esta impresora ... $249.900" -> impresora). Si sigue habiendo empate, no se adivina.
+      const t = String(texto);
+      const re = /\$\s?\d{1,3}(?:[.,]\d{3})+/g;
+      const res = [];
+      let m;
+      let desde = 0;
+      while ((m = re.exec(t))) {
+            const n = Number(m[0].replace(/\D/g, ""));
+            const contexto = t.slice(Math.max(desde, m.index - 160), m.index);
+            desde = m.index + m[0].length;
+            let iguales = catalogo.filter((p) => p.precio === n && !p.id.startsWith("combo-"));
+            if (iguales.length > 1) {
+                  const cat = detectarProductoPorPalabraClave(contexto) || detectarProductoPorPalabraClave(t);
+                  if (cat) iguales = iguales.filter((p) => (p.categoria || "").trim().toLowerCase() === cat);
+            }
+            if (iguales.length > 1 && preferidoId) {
+                  const pref = iguales.find((p) => p.id === preferidoId);
+                  if (pref) iguales = [pref];
+            }
+            if (iguales.length === 1 && !res.includes(iguales[0])) res.push(iguales[0]);
+      }
+      return res;
+}
+
 async function enviarFotosProducto(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
@@ -771,7 +840,31 @@ async function enviarFotosProducto(telefono, texto) {
       let productos = [];
       let unSoloProducto = false;
 
-      if (especifico) {
+      // FOTOS DEL PRODUCTO DEL QUE SE ESTA HABLANDO (oct-2026, caso real de Wendy): si el cliente pide
+      // fotos sin nombrar el producto ("me regalas fotos"), se mandan las del producto(s) que Michell
+      // acaba de nombrar en su ultimo mensaje, no las del ultimo producto guardado en la sesion (que
+      // podia ser otro que ya se habia descartado, ej. la Clabel cuando ya le recomendo la tamaño carta).
+      // Se revisan los ultimos 3 mensajes de Michell (del mas reciente al mas viejo): el primero que nombre
+      // un producto (por nombre, o por su precio exacto si dijo "esta impresora ... $249.900") manda.
+      let delUltimoMensaje = [];
+      if (!especifico) {
+            for (const m of mensajesDeMichell(sesion, 3)) {
+                  // Si Michell marco cual recomienda (PRODUCTO_ACTUAL) y esta entre los nombrados, solo ese
+                  const marcado = (m.crudo.match(/^PRODUCTO_ACTUAL:\s*(\S+)/im) || [])[1];
+                  let lista = productosMencionados(m.texto);
+                  if (!lista.length) lista = productosPorPrecio(m.texto, marcado || productoIdSesion);
+                  if (categoriaMencionada) lista = lista.filter((p) => (p.categoria || "").trim().toLowerCase() === categoriaMencionada || p.id.includes(categoriaMencionada));
+                  if (marcado && lista.some((p) => p.id === marcado)) lista = lista.filter((p) => p.id === marcado);
+                  if (!lista.length && marcado && catalogo.some((p) => p.id === marcado)) lista = [catalogo.find((p) => p.id === marcado)];
+                  if (lista.length) { delUltimoMensaje = lista; break; }
+            }
+      }
+
+      if (!especifico && delUltimoMensaje.length) {
+            productos = delUltimoMensaje.slice(0, 4);
+            unSoloProducto = productos.length === 1;
+            if (unSoloProducto) sesion.ultimoProducto = productos[0].id;
+      } else if (especifico) {
             const p = catalogo.find((prod) => prod.id === especifico);
             if (p) {
                   productos = [p];
@@ -2887,6 +2980,10 @@ async function manejarTextoLibre(telefono, texto) {
 
             if (productoActual && catalogo.some((p) => p.id === productoActual)) {
                   sesion.ultimoProducto = productoActual;
+            } else if (mensajeVisible) {
+                  // Sin PRODUCTO_ACTUAL: si Michell nombro un solo producto, ese es del que se esta hablando
+                  const nombrados = productosMencionados(mensajeVisible);
+                  if (nombrados.length === 1) sesion.ultimoProducto = nombrados[0].id;
             }
 
             if (productoId) {
