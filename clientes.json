@@ -40,8 +40,8 @@
     "telefono": "573176817508",
     "nombre": "Beyker Paz",
     "primerContacto": "2026-10-12T18:52:08.388Z",
-    "ultimoContacto": "2026-10-12T18:52:08.388Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-12T20:07:18.488Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -60,21 +60,39 @@
         "fecha": "2026-10-12T18:52:07.355Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2ODE3NTA4FQIAERgSRjYwRDM4OEI2RTQwRDEwNEFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://galviustech.cercia.co",
+        "fecha": "2026-10-12T19:57:44.315Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2ODE3NTA4FQIAERgSQ0I2QzlBQjgzQ0FBODVDNDc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En qué ciudad están",
+        "fecha": "2026-10-12T20:07:15.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿me puedes contar para qué necesitas la impresora? Así te recomendaré la mejor opción para ti.\n\nPor cierto, ¿en qué ciudad estás? Así te puedo dar detalles del envío y tiempo estimado. \n\n¿La necesitas para imprimir documentos, facturas, etiquetas o algo más?",
+        "fecha": "2026-10-12T20:07:17.860Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2ODE3NTA4FQIAERgSMDE1ODVCRkM0MjQxMkRDNUY5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   }
 ]
