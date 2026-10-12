@@ -488,6 +488,18 @@ function categoriasDisponibles() {
 
 async function enviarInfoCategoria(telefono, categoria) {
       const sesion = obtenerSesion(telefono);
+      // Impresoras (oct-2026, a pedido de Wendy): hay de todos los tamaños para negocio y para
+      // estudio. Antes de mostrar alguna se pregunta para que la necesita, destacando los beneficios.
+      // La IA luego muestra las opciones (con FOTOS_PRODUCTOS) segun la respuesta.
+      if (categoria === "impresora") {
+            sesion.ultimaCategoria = "impresora";
+            registrarMensaje(telefono, "bot", "[Pregunta para que necesita la impresora]");
+            await enviarTexto(
+                  telefono,
+                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la ideal, cuéntame: ¿la necesitas para tu *negocio* (etiquetas, guías, recibos o facturas) o para *estudio* (imprimir tareas y trabajos en hoja tamaño carta)?"
+            );
+            return;
+      }
       const productos = catalogo.filter(
             (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
@@ -765,6 +777,14 @@ async function enviarFotosProducto(telefono, texto) {
                   productos = [p];
                   unSoloProducto = true;
             }
+      } else if (
+            categoriaMencionada &&
+            productoIdSesion &&
+            (catalogo.find((prod) => prod.id === productoIdSesion)?.categoria || "").trim().toLowerCase() === categoriaMencionada
+      ) {
+            // Ya eligio un producto de esa categoria (ej. una impresora de negocio): fotos de ese
+            productos = [catalogo.find((prod) => prod.id === productoIdSesion)];
+            unSoloProducto = true;
       } else if (categoriaMencionada) {
             productos = catalogo.filter(
                   (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoriaMencionada
@@ -1304,6 +1324,7 @@ let lineas = textoCompleto.split("\n");
       let productoActual = null;
       let necesitaAsesor = false;
       let pausarSeguimiento = false;
+      let fotosProductos = [];
 
       // La IA puede terminar su respuesta con hasta 4 lineas de control (nunca visibles para
       // el cliente, el sistema las procesa por separado): PRODUCTO_ACTUAL (que producto
@@ -1322,6 +1343,7 @@ let lineas = textoCompleto.split("\n");
             const matchProducto = ultimaLinea.match(/^PRODUCTO_ACTUAL:\s*(\S+)/i);
             const matchAsesor = ultimaLinea.match(/^NECESITA_ASESOR:\s*(\S+)/i);
             const matchPausar = ultimaLinea.match(/^PAUSAR_SEGUIMIENTO:\s*(\S+)/i);
+            const matchFotos = ultimaLinea.match(/^FOTOS_PRODUCTOS:\s*(.+)$/i);
 
             if (matchPedido && !productoId) {
                   productoId = matchPedido[1].trim();
@@ -1339,12 +1361,16 @@ let lineas = textoCompleto.split("\n");
                   pausarSeguimiento = /^s[ií]$/i.test(matchPausar[1].trim());
                   lineas = lineas.slice(0, -1);
                   siguioQuitando = true;
+            } else if (matchFotos && !fotosProductos.length) {
+                  fotosProductos = matchFotos[1].split(/[,\s]+/).map((x) => x.trim()).filter(Boolean).slice(0, 6);
+                  lineas = lineas.slice(0, -1);
+                  siguioQuitando = true;
             }
       }
 
       const mensajeVisible = lineas.join("\n").trim();
 
-return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento };
+return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos };
 }
 
 let ultimaRevisionRecordatorios = 0;
@@ -2656,7 +2682,10 @@ function detectarProductoEspecifico(texto) {
       const tiendaDet = detectarProductoTienda(texto);
       if (tiendaDet && tiendaDet.tipo === "producto") return tiendaDet.id;
       const t = texto.toLowerCase();
-      if (t.includes("impresora") || t.includes("imprimir")) {
+      // Impresoras (oct-2026): hay varias (negocio y estudio). La palabra "impresora" sola ya no
+      // significa la impresora tamaño carta: solo cuando el cliente habla de carta, hojas,
+      // tareas o estudio. Si no, queda como categoria y Michell pregunta para que la necesita.
+      if ((t.includes("impresora") || t.includes("imprimir")) && /carta|hoja|tarea|estudi|colegio|universidad|trabajos/.test(t)) {
             return "impresora-termica";
       }
       const tiene4g = t.includes("4g");
@@ -2804,7 +2833,7 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
 
             // Se pone en true apenas el cliente reciba ALGO (texto, botones, o se le inicie un
             // pedido/combo). Sirve para detectar el caso en que la IA respondio sin lanzar ningun
@@ -2833,6 +2862,26 @@ async function manejarTextoLibre(telefono, texto) {
                         /direcci[oó]n/i.test(mensajeVisible);
                   if (pideDatosDePedidoEnTextoLibre) {
                         sesion.esperandoDatosPedidoLibre = new Date().toISOString();
+                  }
+            }
+
+            // FOTOS_PRODUCTOS (oct-2026): la IA pide mostrar varias opciones a la vez (ej. todas las
+            // impresoras de negocio para que el cliente elija). Se manda la primera foto de cada una
+            // solo con el nombre (sin precio: el precio lo da la IA cuando corresponde).
+            if (fotosProductos && fotosProductos.length) {
+                  const conFoto = fotosProductos
+                        .map((id) => catalogo.find((p) => p.id === id))
+                        .filter((p) => p && p.imagenes && p.imagenes[0]);
+                  for (const p of conFoto) {
+                        try {
+                              await enviarImagen(telefono, p.imagenes[0], p.nombreCorto || p.nombre);
+                        } catch (e) {
+                              console.error(`FOTOS_PRODUCTOS: no se pudo enviar la foto de ${p.id}:`, e.message);
+                        }
+                  }
+                  if (conFoto.length) {
+                        registrarMensaje(telefono, "bot", `[Envio fotos: ${conFoto.map((p) => p.nombreCorto || p.nombre).join(", ")}]`);
+                        seLeRespondioAlgo = true;
                   }
             }
 
