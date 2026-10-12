@@ -1624,6 +1624,8 @@ async function enviarRecordatoriosPendientes() {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
                         } else if (p.tier === "horas3") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
+                              // Ultimo seguimiento (tope de 2): ademas el listado de todo lo que vendemos (Wendy, oct-2026)
+                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
@@ -2148,6 +2150,7 @@ async function iniciarPedido(telefono, productoId) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -2513,6 +2516,7 @@ async function manejarFlujoPedido(telefono, texto) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -2864,8 +2868,7 @@ async function enviarVersionesModem(telefono) {
             );
 }
 
-const MENSAJE_OTRAS_OPCIONES =
-      "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
+const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
       "💡 *Lámparas solares*\n" +
@@ -2873,9 +2876,20 @@ const MENSAJE_OTRAS_OPCIONES =
       "⌚ *Relojes inteligentes*\n" +
       "🕰️ *Relojes*\n" +
       "📽️ *Proyectores*\n" +
-      "🎁 *Combos con descuento*\n\n" +
+      "🎁 *Combos con descuento*";
+
+const MENSAJE_OTRAS_OPCIONES =
+      "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
+      LISTA_PRODUCTOS_GALVIUS + "\n\n" +
       "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
+
+// Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
+// tambien cuando el cliente deja de responder y cuando ya compro).
+async function enviarListadoProductos(telefono, intro, cierre) {
+      await enviarTexto(telefono, `${intro}\n\n${LISTA_PRODUCTOS_GALVIUS}\n\n${cierre}`);
+      await enviarTexto(telefono, "🛍️ Mira todo el catálogo aquí: " + LINK_TIENDA_FEED);
+}
 
 function preguntaOtrosProductos(texto) {
       const t = String(texto || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
