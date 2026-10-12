@@ -499,7 +499,7 @@ async function enviarInfoCategoria(telefono, categoria) {
             registrarMensaje(telefono, "bot", "[Pregunta para que necesita la impresora]");
             await enviarTexto(
                   telefono,
-                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la ideal, cuéntame: ¿la necesitas para tu *negocio* (etiquetas, guías, recibos o facturas) o para *estudio* (imprimir tareas y trabajos en hoja tamaño carta)?"
+                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la que de verdad te sirve, cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta"
             );
             return;
       }
