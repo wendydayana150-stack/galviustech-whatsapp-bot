@@ -4115,6 +4115,45 @@ app.get("/admin/productos/:id/eliminar", requiereLogin, async (req, res) => {
 	}
 });
 
+// CATALOGO DE WHATSAPP (oct-2026, a pedido de Wendy): feed publico para el catalogo de Meta (Commerce
+// Manager lo descarga cada dia desde esta URL). Asi el icono de tiendita en WhatsApp siempre muestra los
+// mismos productos y precios que maneja Michell, sin tener que cargarlos a mano en Meta.
+app.get("/catalogo-meta.csv", (req, res) => {
+      const limpiar = (t, max) =>
+            String(t || "")
+                  .replace(/\*\*?|__|~~/g, "")
+                  .replace(/\r/g, "")
+                  .replace(/\n{3,}/g, "\n\n")
+                  .trim()
+                  .slice(0, max);
+      const csv = (v) => '"' + String(v ?? "").replace(/"/g, '""') + '"';
+      const columnas = ["id", "title", "description", "availability", "condition", "price", "link", "image_link", "additional_image_link", "brand", "product_type"];
+      const filas = catalogo
+            .filter((p) => p.id && typeof p.precio === "number" && p.precio > 0 && (p.imagenes || []).some((u) => /^https?:\/\//.test(u)))
+            .map((p) => {
+                  const fotos = p.imagenes.filter((u) => /^https?:\/\//.test(u) && !/\.(mp4|mov|webm)(\?|$)/i.test(u));
+                  if (!fotos.length) return null;
+                  const titulo = limpiar(p.nombre, 150);
+                  return [
+                        p.id.slice(0, 100),
+                        titulo,
+                        limpiar(p.descripcion, 4900) || titulo,
+                        p.agotado ? "out of stock" : "in stock",
+                        "new",
+                        `${p.precio} COP`,
+                        p.slugTienda ? `${LINK_TIENDA_FEED}/productos/${p.slugTienda}` : LINK_TIENDA_FEED,
+                        fotos[0],
+                        fotos.slice(1, 10).join(","),
+                        "Galviustech",
+                        p.id.startsWith("combo-") ? "Combos" : (p.categoria || "Tecnologia"),
+                  ].map(csv).join(",");
+            })
+            .filter(Boolean);
+      res.set("Content-Type", "text/csv; charset=utf-8");
+      res.send([columnas.join(","), ...filas].join("\n"));
+});
+const LINK_TIENDA_FEED = "https://galviustech.cercia.co";
+
 app.get("/", (req, res) => {
       res.send("Bot de Galviustech corriendo correctamente");
 });
