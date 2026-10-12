@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-12T02:43:42.250Z",
-    "ultimoContacto": "2026-10-12T02:44:24.725Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-12T02:44:48.176Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -48,13 +48,62 @@
         "fecha": "2026-10-12T02:44:23.865Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSN0Y0RDNBN0QzMTJEMTFCRkExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Goojprt PT-210",
+        "fecha": "2026-10-12T02:44:43.874Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-12T02:44:43.874Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRjZBNEY4MjkwOEIxRURDREU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-12T02:44:44.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMTAzQUE4MzRCNDlEMTJCRkEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-12T02:44:45.516Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSODE1NUVFQjEyMjJDN0YxQTU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-12T02:44:46.125Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRDQyMzMwMjJGRTdBQjZBMkUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil Goojprt PT-210*\n$ 149.900\n\n🚀 ¡Lleva tu negocio al siguiente nivel con movilidad total!\nLa Impresora Térmica Goojprt PT-210 es la solución perfecta para emprendedores y negocios en Colombia que necesitan agilidad, rapidez y profesionalismo en cada transacción.\n✨ Características Principales:\n- Impresión ultrarrápida: Cabezal de alto rendimiento con velocidad de hasta 80mm/s.\n- Diseño compacto: Totalmente portátil, ideal para llevar a cualquier lugar.\n- Calidad superior: Impresión clara, nítida y profesional para tus recibos o etiquetas.\n- Uso intuitivo: Fácil carga de papel y botones de control sencillos.\n💪 Beneficios para tu día a día:\n- Ahorra tiempo: No dejes esperar a tus clientes; imprime al instante.\n- Versatilidad: Perfecta para puntos de venta, domicilios, logística y ventas en campo.\n- Eficiencia: Tecnología térmica que elimina la necesidad de cartuchos de tinta.\n⭐ ¿Por qué comprarla?\nSi buscas optimizar tu facturación o control de inventarios, esta impresora es tu mejor aliada. Su diseño ergonómico y su tecnología de impresión térmica de alta precisión garantizan que siempre entregues un comprobante impecable.\n¡Es la herramienta que tu negocio estaba esperando para destacar! 💼🔥",
+        "fecha": "2026-10-12T02:44:46.706Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSQ0ExNzY5QjJFQUNERUU5NTZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-12T02:44:47.338Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNUFBM0JFMTI1RDU5OERGMDJGAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica-portatil-goojprt-pt-210"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
