@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-12T02:43:42.250Z",
-    "ultimoContacto": "2026-10-12T05:35:52.659Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-12T05:35:54.746Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -331,9 +331,21 @@
         "fecha": "2026-10-12T05:35:51.805Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNThGQkRGMEVGQTQzNEY1Q0UyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cámaras",
+        "fecha": "2026-10-12T05:35:54.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Camaras de seguridad]",
+        "fecha": "2026-10-12T05:35:54.038Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMDY2OTY0MENCMUMzNUExNUEyAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b"
     },
