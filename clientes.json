@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-12T02:43:42.250Z",
-    "ultimoContacto": "2026-10-12T02:45:04.297Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-12T02:45:12.900Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -119,15 +119,41 @@
         "fecha": "2026-10-12T02:45:03.530Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMzdBNDY1MDgxN0JFMDI0REFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Clabel 221B",
+        "fecha": "2026-10-12T02:45:10.928Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-10-12T02:45:10.928Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNUQwM0Q5MTg1ODczNTkwODUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil de Etiquetas Clabel 221B*\n$ 155.000\n\n🚀 ¡Lleva tu negocio al siguiente nivel con la Clabel 221B!\nOptimiza la organización de tus productos y agiliza tus envíos con esta impresora térmica portátil de alto rendimiento.\nDiseñada para emprendedores colombianos que buscan practicidad y profesionalismo en cada detalle.\n✨ Características principales\n- Tecnología térmica directa: Olvídate de comprar tinta o tóner para siempre.\n- Diseño compacto: Perfecta para llevarla a cualquier lugar o tenerla en tu escritorio.\n- Versatilidad total: Ideal para códigos de barras, etiquetas de precios, fechas de vencimiento y diseños personalizados.\n- Incluye rollo de etiquetas: Lista para usar con etiquetas de 40x30mm.\n💪 Beneficios para tu emprendimiento\nCon la Clabel 221B, podrás:\n- Crear etiquetas profesionales para tus productos en segundos.\n- Reducir errores manuales al etiquetar precios o códigos.\n- Darle un toque único a tus empaques con diseños personalizados.\n- Ahorrar tiempo valioso en tu logística diaria.\n⭐ ¿Por qué elegirla?\nEs la herramienta indispensable para cualquier tienda, minimercado o emprendimiento digital.\nSu facilidad de uso y rapidez te permitirán enfocarte en lo que realmente importa: ¡hacer crecer tu negocio! 💪",
+        "fecha": "2026-10-12T02:45:11.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMDdDNTIzOTZBNTU1MTJCNDZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-12T02:45:12.146Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMjBENDAzNEE2RDMwNzk3Njc2AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica-portatil-goojprt-pt-210"
+      "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
+    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
