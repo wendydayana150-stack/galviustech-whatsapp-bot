@@ -3,8 +3,8 @@
     "telefono": "573137187777",
     "nombre": "caballerocantillopatri",
     "primerContacto": "2026-10-13T14:00:43.343Z",
-    "ultimoContacto": "2026-10-13T14:00:43.343Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-13T14:02:26.931Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-13T14:00:42.619Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3MTg3Nzc3FQIAERgSMjU4QkI5M0QyNDVGRjAxNEI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En vereda",
+        "fecha": "2026-10-13T14:02:23.393Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que es en vereda.\n\n¿Lo necesitarías para trabajar, para estudiar, para tu negocio o para tu hogar?\n\nAsí te recomiendo el módem que más te conviene y cómo puedes mejorar tu conexión en esa zona donde la señal suele ser débil.\n\n¿Con qué operador tienes señal en la vereda? (Claro, Movistar, Tigo, WOM, ETB) ¿O compartes datos de otro dispositivo?",
+        "fecha": "2026-10-13T14:02:26.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3MTg3Nzc3FQIAERgSNjFCQUM3RUFCMTY2QjhBQ0VEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135717916",
