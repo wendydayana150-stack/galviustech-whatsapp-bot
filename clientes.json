@@ -450,8 +450,8 @@
     "telefono": "573176817508",
     "nombre": "Beyker Paz",
     "primerContacto": "2026-10-12T18:52:08.388Z",
-    "ultimoContacto": "2026-10-12T20:08:01.059Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-13T14:09:56.391Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -489,11 +489,18 @@
         "fecha": "2026-10-12T20:07:17.860Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2ODE3NTA4FQIAERgSMDE1ODVCRkM0MjQxMkRDNUY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, somos de Espinal Tolima, realizamos envios pago contraentrega a cualquier ciudad del pais",
+        "fecha": "2026-10-13T14:09:55.709Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2ODE3NTA4FQIAERgSQ0Q1RTg0MUVFNEZFNThCN0U2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -502,9 +509,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   }
 ]
