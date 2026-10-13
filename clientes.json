@@ -177,8 +177,8 @@
     "telefono": "573106529827",
     "nombre": "𝔸𝕠𝕞𝕣𝕃𝕠𝕟𝕓𝕃𝕠𝕟𝕓𝕤𝕚",
     "primerContacto": "2026-10-13T12:20:25.836Z",
-    "ultimoContacto": "2026-10-13T12:26:27.653Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-13T14:10:22.190Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -216,11 +216,25 @@
         "fecha": "2026-10-13T12:26:26.877Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2NTI5ODI3FQIAERgSNjJDNUYyN0NEOEY3ODA2NkYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-13T13:27:59.653Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2NTI5ODI3FQIAERgSMDg3NTBGM0NCQzk2Mjc5MEZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Sofi 😊  ¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇  📹 *Cámaras de seguridad*   🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)   📶 *Módem WiFi portátil* 4G y 4G/5G   ⌚ *Relojes inteligentes*   🕰️ *Relojes*   💡 *Lámparas solares*   📽️ *Proyectores*   🎁 *Combos con descuento*    🚚 Envío gratis a toda Colombia y pagas al recibir ✅   ¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸    🛍️ Mira todo el catálogo aquí: https://galviustech.cercia.co",
+        "fecha": "2026-10-13T14:10:21.299Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2NTI5ODI3FQIAERgSMUU5NDA4QzgzQzk1MDAxNzY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
@@ -229,8 +243,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
