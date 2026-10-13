@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-13T03:45:17.248Z",
-    "ultimoContacto": "2026-10-13T03:52:17.678Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-13T03:54:55.488Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,13 +70,48 @@
         "fecha": "2026-10-13T03:52:16.805Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRkI5NzhERDU5MjY3Q0Y3NjREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola Galviustech, quiero hacer este pedido desde el catálogo:\n\n• 1 × LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid. — $ 139.900 (Ref: lampara-panel-solar-y-sensor-de-movimien)\n• 1 × Smartwatch Z01 Mini AMOLED — $ 159.900 (Ref: smartwatch-inteligente)\n\n*Total productos: $ 299.800*\n\nNombre: wendy\n\nCiudad: espinal\nDirección: bnvh",
+        "fecha": "2026-10-13T03:54:52.701Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch Z01 AMOLED",
+        "fecha": "2026-10-13T03:54:52.702Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNzZBRkRDNkU3RUZFN0UwQzA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch Z01 AMOLED",
+        "fecha": "2026-10-13T03:54:53.520Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRjJFNzFDMDkxQ0M5M0I4OUE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Smartwatch Z01 Mini AMOLED*\n$ 159.900\n\n✨ UN DETALLE QUE ELLA AMARÁ ✨\nRegálale más que un reloj… regálale estilo, tecnología y un detalle pensado para ella. 💕⌚\n🌸 Diseño femenino y elegante\n💖 Perfecto para usar todos los días o en ocasiones especiales\n📱 Mantente conectada y disfruta de funciones inteligentes\n🏃‍♀️ Ideal para acompañar sus actividades y rutinas\n❤️ Funciones de monitoreo y bienestar\n📍 GPS y funciones inteligentes\n🎨 Diferentes estilos para combinar con cualquier look\n🎁 ¿Buscas un regalo especial para mamá, esposa, novia, hija o amiga?\nEste smartwatch es ese detalle que combina elegancia + tecnología + utilidad en un solo regalo.\n💝 Porque un buen regalo no solo se entrega… se disfruta todos los días.\n🛍️ ¡Regálale el suyo hoy! ⌚✨\n\n✨ Dale un toque de elegancia y tecnología a tu día a día\nDescubre el nuevo Smartwatch Z01 Mini, el accesorio perfecto para quienes buscan combinar un estilo sofisticado con las funciones más avanzadas. Su diseño compacto y moderno se adapta a cualquier ocasión, convirtiéndose en tu aliado ideal.\n\n🚀 Características principales\nPantalla AMOLED HD de Alta Definición: Disfruta de colores vibrantes, negros profundos y excelente visibilidad bajo la luz del sol.\nControl por Sensor Dactilar (Finger Sensor): Navegación fluida e intuitiva con respuesta táctil de máxima precisión.\nMonitoreo de Salud: Mantén el control de tus signos vitales en todo momento.\nConectividad GPS: Ubicación precisa para tus rutas y actividades.\nDiseño Versátil: Incluye correas intercambiables para combinar con tu outfit.\n\n💎 ¿Por qué te va a encantar?\nEl Z01 Mini no es solo un reloj, es una extensión de tu estilo de vida. Gracias a su tecnología AMOLED, ver tus notificaciones será toda una experiencia visual. Además, su enfoque en el bienestar te permite estar siempre al tanto de tu salud con estilo.\n\n⭐ Beneficios que marcan la diferencia\nYa sea para el trabajo, el gimnasio o una salida especial, este smartwatch está diseñado para acompañarte. Su interfaz intuitiva y sus funciones de conectividad te mantendrán siempre un paso adelante.\n¡No te quedes sin el tuyo!",
+        "fecha": "2026-10-13T03:54:54.105Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNjk0MUZGRUI3Rjc2ODZGNjc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-13T03:54:54.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNkEyQkREMEY0QUUyQ0VBNjYwAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "smartwatch-inteligente"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "lamparas-3-lentes-x-2",
+    "ultimoProducto": "smartwatch-inteligente",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
