@@ -3,8 +3,8 @@
     "telefono": "573106529827",
     "nombre": "𝔸𝕠𝕞𝕣𝕃𝕠𝕟𝕓𝕃𝕠𝕟𝕓𝕤𝕚",
     "primerContacto": "2026-10-13T12:20:25.836Z",
-    "ultimoContacto": "2026-10-13T12:20:25.836Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-13T12:26:27.653Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-13T12:20:25.123Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2NTI5ODI3FQIAERgSODdFQUIxRDRDMEYwMEY5NzdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-13T12:26:24.685Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 ¿En qué municipio o vereda necesitas usar el módem y para qué lo necesitas? ¿Trabajo, estudio, negocio o para tu casa? Así te puedo recomendar la mejor opción para ti.",
+        "fecha": "2026-10-13T12:26:26.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2NTI5ODI3FQIAERgSNjJDNUYyN0NEOEY3ODA2NkYzAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573148628327",
