@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-13T03:45:17.248Z",
-    "ultimoContacto": "2026-10-13T03:45:17.248Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-13T03:52:17.678Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -58,18 +58,33 @@
         "fecha": "2026-10-13T03:45:16.508Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRDg4QjBFMjE3RDlFQ0Q4N0YzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "metodo de envio",
+        "fecha": "2026-10-13T03:52:13.969Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento que el envío siempre es GRATIS para cualquier producto y cantidad que elijas, sin importar en qué parte de Colombia estés. \n\nLa mayoría de los pedidos salen por Interrapidísimo, y si tu zona no tiene cobertura con ellos, usamos Coordinadora.\n\n¿Me dices para qué producto quieres el envío? Así te confirmo detalles específicos y el tiempo estimado. ¿En qué ciudad o municipio estás?",
+        "fecha": "2026-10-13T03:52:16.805Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSRkI5NzhERDU5MjY3Q0Y3NjREAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "lamparas-3-lentes-x-2",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232994531",
