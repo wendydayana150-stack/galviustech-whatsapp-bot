@@ -2225,7 +2225,7 @@ function extraerCamposPedido(texto) {
             }
       }
 
-      const matchPago = original.match(/contra\s*entrega|efectivo|transferencia|nequi|daviplata|bancolombia|\bpse\b|tarjeta|\bgiro\b/i);
+      const matchPago = original.match(/contra\s*entrega|efectivo|transferencia|nequi|daviplata|bancolombia|\bpse\b|tarjeta|\bgiro\b|sist[eé]\s*cr[eé]dito/i);
       if (matchPago) {
             resultado.medioPago = matchPago[0];
             marcarPosicion(matchPago.index);
@@ -2288,8 +2288,8 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             campo: "medioPago",
             paso: "pedido_pago",
             tipo: "pago",
-            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia u otro)",
-            mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia u otro?",
+            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+            mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
       },
 ];
 
@@ -2322,7 +2322,7 @@ function pareceRespuestaValidaPedido(texto, tipo) {
             case "direccion":
                   return limpio.length >= 5;
             case "pago":
-                  return /contra|entrega|efectiv|transf|nequi|davipl|bancol|pse|tarjeta|otro|giro/i.test(limpio);
+                  return /contra|entrega|efectiv|transf|nequi|davipl|bancol|pse|tarjeta|otro|giro|siste|cr[eé]dito|cuotas/i.test(limpio);
             default:
                   return true;
       }
@@ -2447,6 +2447,9 @@ async function finalizarPedidoSesion(telefono) {
             if (guardadoExitoso) {
                   if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
+                  }
+                  if (/siste|cr[eé]dito|cuota/i.test(pedidoAGuardar.medioPago || "")) {
+                        await enviarTexto(telefono, config.mensajeSistecredito);
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
@@ -2600,7 +2603,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
       const piden = faltantes
             .map((d) =>
                   d.campo === "medioPago"
-                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia o Nequi"
+                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia, Nequi o Sistecrédito (a cuotas)"
                         : `• *${ETIQUETAS_CAMPOS_PEDIDO[d.campo]}*`
             )
             .join("\n");
