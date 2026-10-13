@@ -2419,6 +2419,203 @@ function pareceCancelacionDePedido(texto) {
       return /^(cancelar|cancela|cancelalo|cancelemos)\b/.test(limpio) || /\bcancelar\b.*\bpedido\b/.test(limpio);
 }
 
+// Registra el pedido de la sesion cuando ya estan todos los datos (antes vivia dentro de
+// manejarFlujoPedido; se saco a funcion para usarlo tambien con los pedidos del catalogo en linea).
+async function finalizarPedidoSesion(telefono) {
+      const sesion = obtenerSesion(telefono);
+            // Misma guarda contra duplicados que en iniciarPedido/ofrecerComboPromocion: cubre el
+            // caso raro en que este flujo manual de recoleccion de datos se dispare de nuevo (por
+            // ejemplo si la lectura de pedidos anteriores fallo en iniciarPedido) para un producto
+            // de una categoria que el cliente ya confirmo hace poco.
+            if (await yaTienePedidoRecienteEnCategoria(telefono, categoriaDeProducto(sesion.pedido.productoId))) {
+                  await enviarTexto(
+                        telefono,
+                        "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía."
+                        );
+                  sesion.paso = "conversando";
+                  sesion.pedido = {};
+                  return;
+            }
+
+            // Guardamos el pedido ANTES de decirle al cliente que "ya quedo listo": si le
+            // confirmamos primero y el guardado falla despues, el cliente se queda tranquilo
+            // pensando que ya compro, pero el pedido nunca llega a Dropi/despacho. Asi fue como se
+            // perdio la venta de Jose Gabriel Diaz Gutierrez (584261736349) el 22/09.
+            const pedidoAGuardar = sesion.pedido;
+            const guardadoExitoso = await guardarPedido(pedidoAGuardar);
+
+            if (guardadoExitoso) {
+                  if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
+                        await enviarTexto(telefono, config.mensajeDatosTransferencia);
+                  }
+                  await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
+                  await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+            } else {
+                  // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
+                  // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
+                  // para que lo registre manualmente con los datos que ya quedaron en el chat.
+                  await enviarTexto(
+                        telefono,
+                        "Ya tengo todos tus datos, pero tuve un problema tecnico dejando tu pedido registrado en el sistema. Dame un momento para confirmarte que quedo todo listo, no te preocupes que tus datos no se pierden."
+                        );
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = "No se pudo guardar el pedido automaticamente por un fallo tecnico. Los datos completos del cliente ya estan en esta conversacion: revisar y registrar el pedido manualmente.";
+            }
+
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            return;
+      }
+
+// ==============================================
+// MENSAJES DEL CATALOGO EN LINEA (oct-2026, Wendy)
+// El catalogo (LINK_CATALOGO) manda al WhatsApp dos tipos de mensaje, siempre con un codigo
+// "Ref:" que es el id del producto en catalog.json (a veces cortado a 40 letras):
+//  - "me interesa este producto del catalogo: ... Ref: x ... ¿Esta disponible?"
+//  - "quiero hacer este pedido desde el catalogo: • 1 × Nombre — $ ... (Ref: x) ... Nombre: / Ciudad: ..."
+// Quien llega desde el catalogo YA decidio que quiere comprar: no se le hacen preguntas de
+// descubrimiento ("para que lo necesitas?") ni se le muestran otros productos parecidos. Se toma
+// el producto exacto por su Ref, se confirman los datos que mando y solo se piden los que falten,
+// ofreciendo de una vez el medio de pago y la informacion de envio.
+// ==============================================
+function esMensajeDelCatalogo(texto) {
+      return /cat[aá]logo/i.test(texto || "") && /Ref:\s*[a-z0-9-]{4,}/i.test(texto || "");
+}
+
+function productoPorRefCatalogo(ref) {
+      const r = String(ref || "").toLowerCase().trim();
+      if (r.length < 4) return null;
+      return (
+            catalogo.find((p) => p.id.toLowerCase() === r) ||
+            catalogo.find((p) => p.id.toLowerCase().startsWith(r)) ||
+            null
+      );
+}
+
+function campoDelMensajeCatalogo(texto, etiquetas) {
+      for (const etiqueta of etiquetas) {
+            const m = new RegExp("^\\s*" + etiqueta + "\\s*:\\s*(.+)$", "im").exec(texto || "");
+            if (m && m[1].trim()) return m[1].trim();
+      }
+      return null;
+}
+
+const ETIQUETAS_CAMPOS_PEDIDO = {
+      nombreCliente: "Nombre completo",
+      celular: "Celular",
+      departamento: "Departamento",
+      ciudad: "Ciudad o municipio",
+      direccion: "Dirección completa",
+      barrio: "Barrio",
+      medioPago: "Medio de pago",
+};
+
+async function manejarMensajeCatalogo(telefono, texto) {
+      if (!esMensajeDelCatalogo(texto)) return false;
+      const sesion = obtenerSesion(telefono);
+
+      const items = [];
+      for (const linea of String(texto).split("\n")) {
+            const ref = /Ref:\s*([a-z0-9-]+)/i.exec(linea);
+            if (!ref) continue;
+            const producto = productoPorRefCatalogo(ref[1]);
+            if (!producto) continue;
+            const cant = /(\d+)\s*[×x]\s/.exec(linea);
+            items.push({ producto, cantidad: cant ? Math.max(1, parseInt(cant[1], 10)) : 1 });
+      }
+      // Si ningun codigo coincide con el catalogo del bot, que lo atienda el flujo normal.
+      if (items.length === 0) return false;
+
+      sesion.ultimoProducto = items[0].producto.id;
+      const esPedido = /pedido desde el cat[aá]logo/i.test(texto);
+
+      // Pregunta por un producto ("¿Esta disponible?"): confirmamos y pasamos directo a tomar el pedido.
+      if (!esPedido) {
+            const p = items[0].producto;
+            if (!p.agotado) {
+                  await enviarTexto(telefono, `¡Sí! El *${p.nombre}* está disponible ✅`);
+            }
+            await iniciarPedido(telefono, p.id);
+            return true;
+      }
+
+      const agotados = items.filter((i) => i.producto.agotado);
+      const disponibles = items.filter((i) => !i.producto.agotado);
+      if (agotados.length) {
+            await enviarTexto(
+                  telefono,
+                  `Uy, ${agotados.map((i) => `*${i.producto.nombre}*`).join(" y ")} se nos agotó por ahora 😔` +
+                        (disponibles.length ? " Te dejo listo el resto de tu pedido." : " Si quieres te muestro una opción parecida.")
+            );
+      }
+      if (!disponibles.length) {
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            return true;
+      }
+
+      const nombreProducto = disponibles
+            .map((i) => (i.cantidad > 1 ? `${i.cantidad} x ` : "") + i.producto.nombre)
+            .join(" + ");
+      const precio = disponibles.reduce((s, i) => s + i.cantidad * (Number(i.producto.precio) || 0), 0);
+      const celularWhatsapp = String(telefono).replace(/\D/g, "").slice(-10);
+
+      const pedido = {
+            productoId: disponibles[0].producto.id,
+            nombreProducto,
+            precio,
+            telefono,
+            origen: "catalogo",
+            nombreCliente: campoDelMensajeCatalogo(texto, ["Nombre"]),
+            celular: campoDelMensajeCatalogo(texto, ["Celular", "Tel[eé]fono"]) || celularWhatsapp,
+            departamento: campoDelMensajeCatalogo(texto, ["Departamento"]),
+            ciudad: campoDelMensajeCatalogo(texto, ["Ciudad"]),
+            direccion: campoDelMensajeCatalogo(texto, ["Direcci[oó]n"]),
+            barrio: campoDelMensajeCatalogo(texto, ["Barrio"]),
+            medioPago: campoDelMensajeCatalogo(texto, ["Medio de pago", "Forma de pago", "Pago"]),
+      };
+      // Mismos filtros que el flujo normal: un dato sin sentido se vuelve a pedir en vez de guardarse.
+      for (const d of DEFINICIONES_CAMPOS_PEDIDO) {
+            if (pedido[d.campo] && !pareceRespuestaValidaPedido(pedido[d.campo], d.tipo)) pedido[d.campo] = null;
+            if (!pedido[d.campo]) delete pedido[d.campo];
+      }
+      sesion.pedido = pedido;
+
+      const lista = disponibles
+            .map((i) => `• ${i.cantidad} × ${i.producto.nombre} — ${formatearPrecio(i.cantidad * i.producto.precio)}`)
+            .join("\n");
+      const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\n*Total: ${formatearPrecio(precio)}*`;
+
+      const faltantes = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => !pedido[d.campo]);
+      if (faltantes.length === 0) {
+            await enviarTexto(telefono, encabezado);
+            await finalizarPedidoSesion(telefono);
+            return true;
+      }
+
+      const tenemos = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => pedido[d.campo])
+            .map((d) => `*${ETIQUETAS_CAMPOS_PEDIDO[d.campo]}:* ${pedido[d.campo]}`)
+            .join("\n");
+      const piden = faltantes
+            .map((d) =>
+                  d.campo === "medioPago"
+                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia o Nequi"
+                        : `• *${ETIQUETAS_CAMPOS_PEDIDO[d.campo]}*`
+            )
+            .join("\n");
+      await enviarTexto(
+            telefono,
+            encabezado +
+                  "\n\n" +
+                  (tenemos ? `Estos son los datos que me enviaste, verifica que estén bien:\n${tenemos}\n\n` : "") +
+                  "🚚 Enviamos a toda Colombia con Interrapidísimo o Coordinadora y llega en 2 a 4 días hábiles.\n\n" +
+                  `Para dejar listo tu envío solo me falta:\n${piden}\n\nPuedes enviarme todo en un solo mensaje 😊`
+      );
+      sesion.paso = faltantes[0].paso;
+      return true;
+}
+
 async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       const definicionActual = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === sesion.paso);
@@ -2463,6 +2660,18 @@ async function manejarFlujoPedido(telefono, texto) {
       if (!sesion.pedido.celular && extraidos.celular) sesion.pedido.celular = extraidos.celular;
       if (!sesion.pedido.departamento && extraidos.departamento) sesion.pedido.departamento = extraidos.departamento;
       if (!sesion.pedido.medioPago && extraidos.medioPago) sesion.pedido.medioPago = extraidos.medioPago;
+      // Datos que llegan con su etiqueta ("Barrio: Centro", "Medio de pago: Nequi"), como los
+      // escribe el cliente que viene del catalogo: se llenan todos los que falten de una vez.
+      const etiquetasFlujo = {
+            nombreCliente: ["Nombre"], celular: ["Celular", "Tel[eé]fono"], departamento: ["Departamento"],
+            ciudad: ["Ciudad", "Municipio"], direccion: ["Direcci[oó]n"], barrio: ["Barrio"],
+            medioPago: ["Medio de pago", "Forma de pago", "Pago"],
+      };
+      for (const d of DEFINICIONES_CAMPOS_PEDIDO) {
+            if (sesion.pedido[d.campo]) continue;
+            const valor = campoDelMensajeCatalogo(texto, etiquetasFlujo[d.campo] || []);
+            if (valor && pareceRespuestaValidaPedido(valor, d.tipo)) sesion.pedido[d.campo] = valor;
+      }
 
       // Si el campo del paso actual sigue vacio (no vino en la extraccion de arriba), lo
       // validamos y lo llenamos con la respuesta de este mensaje, igual que antes.
@@ -2489,48 +2698,7 @@ async function manejarFlujoPedido(telefono, texto) {
       const siguienteFaltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => !sesion.pedido[d.campo]);
 
       if (!siguienteFaltante) {
-            // Misma guarda contra duplicados que en iniciarPedido/ofrecerComboPromocion: cubre el
-            // caso raro en que este flujo manual de recoleccion de datos se dispare de nuevo (por
-            // ejemplo si la lectura de pedidos anteriores fallo en iniciarPedido) para un producto
-            // de una categoria que el cliente ya confirmo hace poco.
-            if (await yaTienePedidoRecienteEnCategoria(telefono, categoriaDeProducto(sesion.pedido.productoId))) {
-                  await enviarTexto(
-                        telefono,
-                        "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía."
-                        );
-                  sesion.paso = "conversando";
-                  sesion.pedido = {};
-                  return true;
-            }
-
-            // Guardamos el pedido ANTES de decirle al cliente que "ya quedo listo": si le
-            // confirmamos primero y el guardado falla despues, el cliente se queda tranquilo
-            // pensando que ya compro, pero el pedido nunca llega a Dropi/despacho. Asi fue como se
-            // perdio la venta de Jose Gabriel Diaz Gutierrez (584261736349) el 22/09.
-            const pedidoAGuardar = sesion.pedido;
-            const guardadoExitoso = await guardarPedido(pedidoAGuardar);
-
-            if (guardadoExitoso) {
-                  if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
-                        await enviarTexto(telefono, config.mensajeDatosTransferencia);
-                  }
-                  await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
-                  await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
-            } else {
-                  // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
-                  // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
-                  // para que lo registre manualmente con los datos que ya quedaron en el chat.
-                  await enviarTexto(
-                        telefono,
-                        "Ya tengo todos tus datos, pero tuve un problema tecnico dejando tu pedido registrado en el sistema. Dame un momento para confirmarte que quedo todo listo, no te preocupes que tus datos no se pierden."
-                        );
-                  sesion.necesitaAtencion = true;
-                  sesion.motivoAtencion = "No se pudo guardar el pedido automaticamente por un fallo tecnico. Los datos completos del cliente ya estan en esta conversacion: revisar y registrar el pedido manualmente.";
-            }
-
-            sesion.paso = "conversando";
-            sesion.pedido = {};
+            await finalizarPedidoSesion(telefono);
             return true;
       }
 
@@ -2888,7 +3056,7 @@ const MENSAJE_OTRAS_OPCIONES =
 // tambien cuando el cliente deja de responder y cuando ya compro).
 async function enviarListadoProductos(telefono, intro, cierre) {
       await enviarTexto(telefono, `${intro}\n\n${LISTA_PRODUCTOS_GALVIUS}\n\n${cierre}`);
-      await enviarTexto(telefono, "🛍️ Mira todo el catálogo aquí: " + LINK_TIENDA_FEED);
+      await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
 }
 
 function preguntaOtrosProductos(texto) {
@@ -2916,7 +3084,7 @@ async function manejarTextoLibre(telefono, texto) {
       if (preguntaOtrosProductos(texto)) {
             registrarMensaje(telefono, "bot", "[Listado de todo lo que vendemos + link de la tienda]");
             await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
-            await enviarTexto(telefono, "🛍️ Mira todo el catálogo aquí: " + LINK_TIENDA_FEED);
+            await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
             if (Array.isArray(sesion.historial)) {
                   sesion.historial.push({ role: "user", content: texto });
                   sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
@@ -3647,7 +3815,10 @@ app.post("/webhook", async (req, res) => {
                         const texto = mensaje.text.body;
                         registrarMensaje(telefono, "cliente", texto);
                         const sesion = obtenerSesion(telefono);
-                        if (sesion.paso === "inicio") {
+                        if (await manejarMensajeCatalogo(telefono, texto)) {
+                              // Pedido o pregunta enviada desde el catalogo en linea (ver manejarMensajeCatalogo).
+                              if (sesion.paso === "inicio") sesion.paso = "conversando";
+                        } else if (sesion.paso === "inicio") {
                               const especifico = detectarProductoEspecifico(texto);
                               const deteccion = detectarProductoPorPalabraClave(texto);
                               sesion.paso = "conversando";
@@ -4201,6 +4372,9 @@ app.get("/catalogo-meta.csv", (req, res) => {
       res.send([columnas.join(","), ...filas].join("\n"));
 });
 const LINK_TIENDA_FEED = "https://galviustech.cercia.co";
+// Catalogo en linea (oct-2026): es el que se le envia al cliente cuando pide ver mas opciones.
+// Cada pedido o pregunta hecha desde ahi llega con un codigo "Ref:" igual al id del producto en catalog.json.
+const LINK_CATALOGO = "https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW";
 
 app.get("/", (req, res) => {
       res.send("Bot de Galviustech corriendo correctamente");

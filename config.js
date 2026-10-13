@@ -8,7 +8,8 @@ const nombreAsistente = "Michell";
 // Link de la pagina/tienda (a pedido de Wendy, 28-sep-2026): se manda en el primer recordatorio
 // (1 hora de silencio) a los clientes que quedaron viendo el catalogo sin decidirse por nada en
 // concreto, para que mientras tanto sigan mirando mas opciones por su cuenta.
-const LINK_TIENDA = "https://galviustech.cercia.co";
+// Oct-2026: se le comparte al cliente el catalogo en linea (antes la tienda de Cercia).
+const LINK_TIENDA = "https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW";
 
 function construirBloqueCatalogo(catalogo, enfoqueProducto) {
             const productos = (catalogo || []).filter((p) => !p.id.startsWith("combo-"));
