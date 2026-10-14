@@ -701,7 +701,8 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
             // invisible) y JUSTO DESPUES su propio nombre y precio, para que quede clarisimo a cual
             // combo pertenecen esas fotos, en vez de mandar todas las fotos de todos los combos
             // primero y despues un solo resumen junto al final (ahi se pierde cual foto era de cual).
-            for (const url of combo.imagenes || []) {
+            // Maximo 2 fotos por combo (estudio oct-2026: 7+ fotos seguidas pesan mucho con mala senal en veredas)
+            for (const url of (combo.imagenes || []).slice(0, 2)) {
                   await enviarImagen(telefono, url, combo.nombreCorto);
             }
             await enviarTexto(telefono, `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`);
@@ -2041,7 +2042,7 @@ async function manejarSeleccionProducto(telefono, productoId) {
       sesion.ultimoProducto = producto.id;
 
       if (producto.imagenes && producto.imagenes.length > 0) {
-            for (const url of producto.imagenes) {
+            for (const url of producto.imagenes.slice(0, 3)) {
                   await enviarImagen(telefono, url, producto.nombreCorto || producto.nombre);
             }
       }
@@ -2076,7 +2077,7 @@ async function manejarSeleccionProducto(telefono, productoId) {
                   // queda invisible) y JUSTO DESPUES su propio nombre y precio, para que quede
                   // clarisimo a cual combo pertenecen esas fotos, en vez de mandar todas las fotos de
                   // todos los combos primero y un solo resumen junto al final.
-                  for (const url of combo.imagenes || []) {
+                  for (const url of (combo.imagenes || []).slice(0, 2)) {
                         await enviarImagen(telefono, url, combo.nombreCorto);
                   }
                   await enviarTexto(telefono, `🎁 *${combo.nombre}* por solo ${formatearPrecio(combo.precio)}`);
@@ -2378,6 +2379,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
             case "nombre":
                   // tieneLetra evita que un numero de celular u otro texto sin ninguna letra
                   // (que no es "solo letras y espacios") se cuele como si fuera un nombre valido.
+                  // Frases de chat que no son un nombre (caso real oct-2026: "Elijo este mejor" quedo como nombre)
+                  if (/\b(elijo|escojo|quiero|prefiero|mejor|este|esta|ese|esa|combo|reloj|camara|c[aá]mara|modem|m[oó]dem|precio|cuanto|cu[aá]nto|gracias|hola|listo|dale|bueno|perfecto|ok|si|s[ií]|no|regalo|pedido|opcion|opci[oó]n)\b/i.test(limpio)) return false;
                   return limpio.length >= 3 && tieneLetra && (!soloLetrasYEspacios || tieneVocal);
             case "celular": {
                   const digitos = limpio.replace(/\D/g, "");
