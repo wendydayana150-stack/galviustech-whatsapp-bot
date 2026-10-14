@@ -79,8 +79,8 @@
     "telefono": "573024328815",
     "nombre": "la patrona",
     "primerContacto": "2026-10-14T13:46:07.697Z",
-    "ultimoContacto": "2026-10-14T13:46:07.697Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T14:07:35.931Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -106,18 +106,33 @@
         "fecha": "2026-10-14T13:46:07.077Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSRUQ4OTA3MkMxOEY2MjMxOTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo no tengo señal me toca ubicarme en un morrito para lograr la señal de tel y puedan llegar los datos",
+        "fecha": "2026-10-14T14:07:33.286Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme eso. Justo nuestros módems están diseñados para captar señal mejor que un celular común, con antena de mayor potencia, para que tengas internet aunque estés en zonas difíciles como tu morrito.\n\nPara ayudarte mejor, ¿me puedes decir en qué municipio o vereda estás y para qué lo necesitarías? ¿Trabajo, estudio, hogar o negocio? Así reviso la mejor opción para ti. ¿Cuál es?",
+        "fecha": "2026-10-14T14:07:35.087Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSNUEzMUVEOEQ3REMyOTJFOEQ0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124509559",
