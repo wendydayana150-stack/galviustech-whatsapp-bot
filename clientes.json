@@ -47,8 +47,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:47:46.532Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-14T20:47:56.867Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -245,9 +245,21 @@
         "fecha": "2026-10-14T20:47:45.849Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSODRDMzIyOTBFRTA3ODI1RDQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ronces valles",
+        "fecha": "2026-10-14T20:47:56.130Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-14T20:47:56.130Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQTg2NEY0ODQzRjIwOUUyREQ0AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -255,7 +267,8 @@
       "telefono": "573015209022",
       "nombreCliente": "Ricardo Ospina",
       "celular": "3042178669",
-      "departamento": "Tolima"
+      "departamento": "Tolima",
+      "ciudad": "Ronces valles"
     },
     "pausado": false,
     "etapaManual": null,
