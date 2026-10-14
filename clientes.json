@@ -3,8 +3,8 @@
     "telefono": "573222578019",
     "nombre": "D J E P",
     "primerContacto": "2026-10-14T23:14:52.715Z",
-    "ultimoContacto": "2026-10-14T23:14:52.715Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T23:15:21.187Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-14T23:14:52.045Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSOUY5NTYxQkQ2MzdGQkNERkJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes me regalas más información y precio",
+        "fecha": "2026-10-14T23:15:17.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, buen día. 🔥 ¡Los módems bajaron un 30%! 🔥\n\nTe cuento que tenemos tres versiones super útiles para que lleves internet donde lo necesites:\n\n📶 Modem WiFi Portátil 4G\n- Conexión 4G estable\n- Perfecto para fincas, veredas o cuando no llega fibra\n- Hasta 10 dispositivos conectados\n- Inversión de **$169.900** + $26.000 de envío\n\n🚀 Modem WiFi Portátil 4G/5G\n- 4G y 5G para mayor velocidad y compatibilidad\n- Ideal si quieres estar cubierto donde ya hay 5G o solo 4G\n- Fácil de transportar y usar\n- Inversión de **$189.900** + $26.000 de envío\n\n⚡ Modem WiFi Portátil 5G\n- Solo para zonas con cobertura 5G\n- Máxima velocidad para trabajar y estudiar\n- Igual de portátil y práctico\n- Inversión de **$199.900** + $26.000 de envío\n\n¿En qué municipio o vereda lo usarías y para qué lo necesitas principalmente? Así te ayudo a elegir el que más te conviene.",
+        "fecha": "2026-10-14T23:15:20.339Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSNEVEOEEzNzlBNTU1RTQxQzE0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573204520902",
