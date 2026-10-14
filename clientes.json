@@ -3,8 +3,8 @@
     "telefono": "573232946169",
     "nombre": "Jose",
     "primerContacto": "2026-10-14T22:19:19.745Z",
-    "ultimoContacto": "2026-10-14T22:19:19.745Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T22:21:16.259Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-14T22:19:19.023Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyOTQ2MTY5FQIAERgSMDZDQkI2MjY1MDIwREU5QUIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San luis antioquia",
+        "fecha": "2026-10-14T22:21:13.589Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que lo usarías en San Luis, Antioquia.\n\nTe cuento las 3 opciones de módem que tenemos, todas pensadas para darte mejor cobertura que el celular, especialmente en zonas donde no llega fibra óptica:\n\n📶 Módem WiFi Portátil 4G: conexión estable para varios dispositivos, ideal para finca o hogar sin fibra. La inversión es de *$169.900 + $26.000 de envío*.\n\n🚀 Módem WiFi Portátil 4G/5G: funciona en redes 4G y 5G, más velocidad para trabajo, estudio o viajes. La inversión es de *$189.900 + $26.000 de envío*.\n\n⚡ Módem WiFi Portátil 5G: máximo rendimiento si tienes cobertura 5G en tu zona. La inversión es de *$199.900 + $26.000 de envío*.\n\n¿Para qué lo usarás principalmente? ¿Estudio, trabajo, hogar o negocio? Así te recomiendo el mejor para ti.",
+        "fecha": "2026-10-14T22:21:15.387Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTQ2MTY5FQIAERgSNEZENzZDOTZDNjNFODE4ODc3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "584163463032",
