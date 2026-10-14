@@ -2395,8 +2395,8 @@
     "telefono": "573113497018",
     "nombre": "P",
     "primerContacto": "2026-10-14T20:38:57.639Z",
-    "ultimoContacto": "2026-10-14T20:43:51.891Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T23:08:37.564Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2465,6 +2465,25 @@
         "fecha": "2026-10-14T20:43:50.939Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSNzExMkU1NzIwNUEwNDAyQTQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T21:46:21.104Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSQzkwMjRDNDk0NkY1OEEwMjNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si quiero usarlo para pinto wifi de varios dispositivos de cuanto se debe recargar la simcard porque saldría más caro",
+        "fecha": "2026-10-14T23:08:34.531Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la SIM Card que uses en el módem es de un operador que elijas (Claro, Movistar, Tigo, WOM) y tú decides cuánto recargas según tu consumo de datos.\n\nLa ventaja de nuestro módem es que con una sola recarga puedes conectar hasta 10 dispositivos a la vez, así toda tu familia o estudiantes se conectan sin tener que recargar mil líneas por separado. \n\nEs una inversión que a la larga te ahorra tiempo y plata porque no depende de contratos ni mensualidades fijas.\n\n¿Quieres que te ayude a dejar el pedido listo ya? Así empiezas a ahorrar tiempo y conectarte desde ya sin depender de otros.",
+        "fecha": "2026-10-14T23:08:36.603Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSNzgyQjIzNjc1RjI2NkI4MjNCAA=="
       }
     ],
     "paso": "conversando",
@@ -2478,8 +2497,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
