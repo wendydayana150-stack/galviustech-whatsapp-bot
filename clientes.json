@@ -3,8 +3,8 @@
     "telefono": "573102054730",
     "nombre": "Valentina 🎀",
     "primerContacto": "2026-10-14T17:09:18.347Z",
-    "ultimoContacto": "2026-10-14T17:09:18.347Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T17:09:55.251Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T17:09:17.671Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMDU0NzMwFQIAERgSN0MyNzg2NTQxNzZFNkEyRUI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T17:09:54.337Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T17:09:54.338Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDU0NzMwFQIAERgSOTA5NDVDQUY5N0ZDMjhFQURCAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124540073",
