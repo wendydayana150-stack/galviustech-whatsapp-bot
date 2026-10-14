@@ -47,8 +47,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:49:17.513Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-14T20:49:31.316Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -314,13 +314,32 @@
         "fecha": "2026-10-14T20:49:16.850Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQ0IzRjc4NUQ2Rjc0MjU4RkNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina interapidisimo playa rica Tolima calle principal",
+        "fecha": "2026-10-14T20:49:28.233Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces te envío el módem a la oficina de Interrapidísimo en Playa Rica, Tolima, calle principal.\n\nGracias por confiar en GalviusTech, seguro vas a disfrutar de una conexión más fuerte y estable en tu vereda.\n\nEn breve el sistema te pedirá algunos datos para completar el pedido y te explicaré las formas de pago.\n\n¿Quieres que te ayude con la configuración cuando recibas el módem?",
+        "fecha": "2026-10-14T20:49:29.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQzIyMkQzODA3NzU1NThEQTZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-10-14T20:49:30.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSMUQ5QTFDNEJGOEYwQTE4OTY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
