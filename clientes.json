@@ -181,8 +181,8 @@
     "telefono": "573247726921",
     "nombre": "Jhon Nisperuza",
     "primerContacto": "2026-10-14T15:36:46.358Z",
-    "ultimoContacto": "2026-10-14T15:39:07.138Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T15:41:39.388Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -343,15 +343,30 @@
         "fecha": "2026-10-14T15:39:05.929Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSN0U4RkI5MEZFMUJFMjYwNzAzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-10-14T15:41:38.286Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Reloj Inteligente* ($ 289.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-14T15:41:38.633Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSMTc3NkU5RkMxMUZEQjU0RTA4AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g"
+      "productoId": "combo-modem-wifi-reloj-inteligente",
+      "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
+      "precio": 289900,
+      "telefono": "573247726921"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g",
+    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
