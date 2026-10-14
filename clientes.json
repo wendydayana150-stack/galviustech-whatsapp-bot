@@ -323,8 +323,8 @@
     "telefono": "573247726921",
     "nombre": "Jhon Nisperuza",
     "primerContacto": "2026-10-14T15:36:46.358Z",
-    "ultimoContacto": "2026-10-14T15:50:02.775Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T15:50:14.506Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -533,9 +533,21 @@
         "fecha": "2026-10-14T15:50:02.025Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSRjVGQTQ5RUNFNzIxMTU3RjIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenavista Córdoba",
+        "fecha": "2026-10-14T15:50:13.662Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-14T15:50:13.663Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSNzJEODc5OTdFNUY1RDgwMjZCAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -543,7 +555,8 @@
       "telefono": "573247726921",
       "nombreCliente": "Elijo este mejor",
       "celular": "3247726921",
-      "departamento": "Cordoba"
+      "departamento": "Cordoba",
+      "ciudad": "Buenavista Córdoba"
     },
     "pausado": false,
     "etapaManual": null,
