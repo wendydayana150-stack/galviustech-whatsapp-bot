@@ -47,8 +47,8 @@
     "telefono": "573125098165",
     "nombre": "Quinta esencia",
     "primerContacto": "2026-10-14T23:33:45.866Z",
-    "ultimoContacto": "2026-10-14T23:36:30.394Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T23:37:00.922Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,6 +98,25 @@
         "fecha": "2026-10-14T23:36:29.683Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MDk4MTY1FQIAERgSNjMzODNDQzY3OUI0MTQxMjNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "de cuanto es la recarga",
+        "fecha": "2026-10-14T23:36:58.170Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La recarga no está incluida ni la gestionamos nosotros directamente; el módem funciona con la SIM que tú elijas y recargues según el plan que te convenga con tu operador (Claro, Movistar, Tigo, WOM).\n\nLo bueno es que con una sola recarga puedes conectar hasta 10 dispositivos al mismo tiempo sin problemas.\n\nCuéntame, ¿cuántos dispositivos quieres conectar y cuánto uso diario estimas? Así te ayudo a entender qué plan te puede convenir para que aproveches bien el módem.",
+        "fecha": "2026-10-14T23:36:59.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MDk4MTY1FQIAERgSNzJCNkQ2NzE4QzI2N0NDQTA2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T23:37:00.255Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MDk4MTY1FQIAERgSN0RDQUUyRTRCOEQzRDI2NEYwAA=="
       }
     ],
     "paso": "conversando",
