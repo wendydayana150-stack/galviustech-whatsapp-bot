@@ -3,8 +3,8 @@
     "telefono": "573243354220",
     "nombre": "coco",
     "primerContacto": "2026-10-14T21:38:10.077Z",
-    "ultimoContacto": "2026-10-14T21:38:10.077Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T21:38:49.658Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-14T21:38:09.513Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzMzU0MjIwFQIAERgSMzM4RDMyNTRCMUQxNEFDMzkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Sabanalarga Antioquia",
+        "fecha": "2026-10-14T21:38:47.549Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que estás en Sabanalarga, Antioquia.\n\nAhora, ¿para qué lo necesitas más que nada? ¿Estudio, trabajo, negocio o para la casa? Así te recomiendo el módem que mejor se ajusta.\n\nRecuerda que los módems GalviusTech tienen mejor cobertura que el celular común en zonas rurales o donde la fibra no llega, para que puedas estar siempre conectado sin complicaciones. ¿Me cuentas un poco más?",
+        "fecha": "2026-10-14T21:38:48.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzMzU0MjIwFQIAERgSOUVERTJFNzg3QkVCRTEwRTVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233690196",
