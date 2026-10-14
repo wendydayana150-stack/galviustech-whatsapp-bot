@@ -3,8 +3,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:39:10.747Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T19:39:14.033Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,14 +198,27 @@
         "fecha": "2026-10-14T19:39:09.657Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSOTM3OTVEMjk5REJBMDQ5ODczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para moder",
+        "fecha": "2026-10-14T19:39:13.174Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-14T19:39:13.175Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSOTdFNTQ3NjRDOUMyODVEQUM3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
-      "telefono": "573508942874"
+      "telefono": "573508942874",
+      "nombreCliente": "Para moder"
     },
     "pausado": false,
     "etapaManual": null,
