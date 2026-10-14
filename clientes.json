@@ -1145,8 +1145,8 @@
     "telefono": "573142339473",
     "nombre": "💭😎",
     "primerContacto": "2026-10-14T21:47:38.195Z",
-    "ultimoContacto": "2026-10-14T22:57:13.154Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T22:57:20.644Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1198,6 +1198,24 @@
         "fecha": "2026-10-14T22:57:12.266Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMzM5NDczFQIAERgSMTdFMjQwMEExMDhFQUEyMTUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 🖨️ IMPRESORA TERMICA",
+        "fecha": "2026-10-14T22:57:19.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Pregunta para que necesita la impresora]",
+        "fecha": "2026-10-14T22:57:19.643Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la que de verdad te sirve, cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta",
+        "fecha": "2026-10-14T22:57:19.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzM5NDczFQIAERgSMEI3MDJBRDk5NDE0NzMyOTlBAA=="
       }
     ],
     "paso": "conversando",
@@ -1205,7 +1223,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": "modem",
+    "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
