@@ -3,8 +3,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:36:17.352Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T22:36:29.794Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T22:36:16.774Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSOEI1NTk3MDQxNUY1NUE0RUNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero información",
+        "fecha": "2026-10-14T22:36:26.403Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿me cuentas qué producto te interesa? Tenemos 📶 módems WiFi portátiles, 🖨️ impresoras térmicas, 💡 lámparas solares, 📹 cámaras de seguridad y más.\n\n¿Para qué necesitas la solución o en qué te puedo ayudar?",
+        "fecha": "2026-10-14T22:36:27.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSRkVBMUY4MTA5N0RFQTQwNUI0AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573504812129",
