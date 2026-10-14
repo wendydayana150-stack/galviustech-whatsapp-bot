@@ -3,8 +3,8 @@
     "telefono": "573018996257",
     "nombre": "Carlos Arturo Rueda",
     "primerContacto": "2026-10-14T18:39:59.978Z",
-    "ultimoContacto": "2026-10-14T18:40:24.584Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T18:41:35.417Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-10-14T18:40:23.901Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4OTk2MjU3FQIAERgSQkRCRTUzMDgwMDMwREUyMTQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La pregunta es funciona donde no hay señal ya que vivo en el campo",
+        "fecha": "2026-10-14T18:41:32.943Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador (Claro, Movistar, Tigo, etc.), el módem no podrá conectar porque necesita esa señal móvil para funcionar.\n\nPero normalmente el módem capta señal mucho mejor que un celular común, gracias a su antena potente — a veces conecta donde el celular no.\n\nCuéntame en qué municipio o vereda exacta vives para confirmar mejor si hay cobertura para ti. Así te ayudo con la mejor opción.\n\n¿Ya tienes idea de para qué lo usarías principalmente, para trabajar, estudiar o algo más?",
+        "fecha": "2026-10-14T18:41:34.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4OTk2MjU3FQIAERgSQUQ1NzUxRDQ2NkEyM0RGNUEzAA=="
       }
     ],
     "paso": "conversando",
