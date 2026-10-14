@@ -227,8 +227,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:48:00.761Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-10-14T22:48:31.383Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -589,22 +589,43 @@
         "fecha": "2026-10-14T22:48:00.067Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSMjg2NUVDNEJBN0E0MUZENDI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Enviamelo alas oficinas de interrapidicimo ayapel Córdoba",
+        "fecha": "2026-10-14T22:48:27.614Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Interrapidicimo\n*Celular:* Cc 1064897271\n3228453025\n*Departamento:* Cordoba\n*Ciudad:* Ayapel Córdoba\n*Direccion:* Daniela Chima Padilla \nCc:1064897271\n3228453025\nInterrapidicimo \nAyapel Córdoba\n*Barrio:* Enviamelo alas oficinas de interrapidicimo ayapel Córdoba\n*Producto:* Modem WiFi Portatil 4G\n*Valor del producto:* $169.900\n*Envío:* $26.000\n*Total a pagar:* $195.900\n*Medio de pago:* contra entrega\n*Cédula:* 1064897271\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-10-14T22:48:29.513Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSNzY5RUMxNkY1MEY5Rjk3NEY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-10-14T22:48:30.058Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSQjE0MkFFMDA2RDkxNkJGMUI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-10-14T22:48:30.416Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSMkRDMDcxMjEyODM1RTUzRjY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T22:48:30.855Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSMzMxRTdDRjI4NDZDOUQxOUU4AA=="
       }
     ],
-    "paso": "pedido_barrio",
-    "pedido": {
-      "productoId": "modem-4g",
-      "nombreProducto": "Modem WiFi Portatil 4G",
-      "precio": 169900,
-      "telefono": "573228453025",
-      "medioPago": "contra entrega",
-      "nombreCliente": "Interrapidicimo",
-      "celular": "Cc 1064897271\n3228453025",
-      "departamento": "Cordoba",
-      "ciudad": "Ayapel Córdoba",
-      "cedula": "1064897271",
-      "direccion": "Daniela Chima Padilla \nCc:1064897271\n3228453025\nInterrapidicimo \nAyapel Córdoba"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
