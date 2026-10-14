@@ -41,8 +41,8 @@
     "telefono": "573105276223",
     "nombre": "Esperanza",
     "primerContacto": "2026-10-14T16:19:50.878Z",
-    "ultimoContacto": "2026-10-14T16:23:50.507Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T16:25:22.930Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,6 +111,25 @@
         "fecha": "2026-10-14T16:23:49.703Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1Mjc2MjIzFQIAERgSNkQ4MUE5RDJDNTlGNkYwQTk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No allá creo q tiene q ser satelital",
+        "fecha": "2026-10-14T16:25:19.040Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, si no hay señal celular en esa vereda, la opción satelital es la que queda, aunque GalviusTech no vende internet satelital.\n\nDe todas formas, ¿quieres que te muestre las opciones de módem que tenemos para otras zonas donde sí hay cobertura 4G o 5G? Así te quedan las cosas claras para cuando te muevas o para otra propiedad donde tengas señal.\n\n¿O prefieres que te cuente de otros productos que podrían servir en diferentes situaciones?",
+        "fecha": "2026-10-14T16:25:20.846Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1Mjc2MjIzFQIAERgSM0Q4Rjg0MEI0NUJCNzc0MDJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T16:25:21.439Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1Mjc2MjIzFQIAERgSMjBFNDM2RUI5ODU0RDZERTgwAA=="
       }
     ],
     "paso": "conversando",
