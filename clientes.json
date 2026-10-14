@@ -147,8 +147,8 @@
     "telefono": "573218269564",
     "nombre": "Mary",
     "primerContacto": "2026-10-14T19:31:56.197Z",
-    "ultimoContacto": "2026-10-14T19:33:48.140Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T19:34:21.016Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -193,13 +193,25 @@
         "fecha": "2026-10-14T19:33:47.420Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSMkJGNUMxQTMwNkQ4MDMzMUI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soledad Atlántico",
+        "fecha": "2026-10-14T19:34:18.407Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que estás en Soledad, Atlántico.\n\nNuestros módems son perfectos para que tengas internet donde lo necesites, sin depender de fibra óptica ni instalaciones complicadas, y además conectas varios dispositivos a la vez.\n\nTe cuento las 3 opciones que tenemos y sus inversiones + envío:\n📶 Módem WiFi Portátil 4G: $169.900 + $26.000 envío\n🚀 Módem WiFi Portátil 4G/5G (recomendado para más cobertura): $189.900 + $26.000 envío\n⚡ Módem WiFi Portátil 5G (si ya tienes buena cobertura 5G y buscas máxima velocidad): $199.900 + $26.000 envío\n\n¿Cuál sería el principal uso que le darías, para estudiar, trabajar, tu negocio o tu hogar? Así te ayudo a elegir la mejor opción.",
+        "fecha": "2026-10-14T19:34:20.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSMTlBRENEQkQ1MEE5QURBRUNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
