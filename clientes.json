@@ -331,8 +331,8 @@
     "telefono": "573122289884",
     "nombre": "𝐒𝐚𝐫𝐚𝐲🍒",
     "primerContacto": "2026-10-14T17:37:09.440Z",
-    "ultimoContacto": "2026-10-14T17:47:20.690Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-14T17:48:17.674Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -420,6 +420,24 @@
         "fecha": "2026-10-14T17:47:19.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSNzZDM0EwQ0IzQ0Q5Q0I5OTgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-10-14T17:48:16.610Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-10-14T17:48:16.610Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-10-14T17:48:16.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSMDI2NUVFQ0YwNUFEMEU2QzJFAA=="
       }
     ],
     "paso": "conversando",
@@ -428,8 +446,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
