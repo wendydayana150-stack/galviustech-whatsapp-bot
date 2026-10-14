@@ -157,8 +157,8 @@
     "telefono": "573024328815",
     "nombre": "la patrona",
     "primerContacto": "2026-10-14T13:46:07.697Z",
-    "ultimoContacto": "2026-10-14T14:20:07.370Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T14:20:12.652Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -282,6 +282,25 @@
         "fecha": "2026-10-14T14:20:06.515Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSOEYzNkEzQkEzQ0JFMDE1OTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por q claro no la vende",
+        "fecha": "2026-10-14T14:20:09.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro no siempre tiene tiendas o planes específicos para zonas muy rurales o corregimientos pequeños, pero sí ofrecen SIM y planes prepago para todo el país, inclusive para usuarios que compran equipos como el módem.\n\nNosotros te enviamos la SIM física de Claro que puedes activar en cualquier punto de venta, tienda oficial, o incluso desde la app o página web de Claro, para que elijas el plan que más te sirva.\n\nSi en tu zona Claro no tiene cobertura buena, puedes usar otra SIM de otro operador que tenga mejor señal.\n\n¿Quieres que te ayude a dejar el pedido listo para que recibas el módem con la SIM de regalo? ¿Dime si prefieres que te llegue a domicilio o si lo recoges en oficina?",
+        "fecha": "2026-10-14T14:20:11.397Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSMUVBNDdFNTFENUI3OUNGM0NBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T14:20:11.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSOEE2MzhGNjUxRDRGRUU1MzhCAA=="
       }
     ],
     "paso": "conversando",
