@@ -3,8 +3,8 @@
     "telefono": "573246487271",
     "nombre": "sin nombré",
     "primerContacto": "2026-10-14T17:44:12.342Z",
-    "ultimoContacto": "2026-10-14T17:46:39.104Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T17:47:15.744Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -112,6 +112,31 @@
         "fecha": "2026-10-14T17:46:38.287Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSOUM1RDYzQjI3MjNERDkzQjNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-10-14T17:47:14.367Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-14T17:47:14.367Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-14T17:47:14.367Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSRTUwQ0JGRTg2NTQ2RDBGNkUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-14T17:47:14.933Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSOTRFQUMwRjE3NzRGNkI2MUEzAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -121,7 +146,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "reloj-premium",
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
