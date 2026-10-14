@@ -3,8 +3,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:42:11.471Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T20:43:15.459Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,13 +54,25 @@
         "fecha": "2026-10-14T20:42:10.629Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSRUIxQTIyOTMxMjJDMjU5NEVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El hogar para estudio de mis hijos y para tener comunicación con la familia",
+        "fecha": "2026-10-14T20:43:12.683Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para el hogar y estudio de tus hijos, además de comunicación familiar, te recomiendo revisar estas opciones con su inversión:\n\n📶 **Modem WiFi Portátil 4G:** conexión estable en zonas sin fibra, conecta hasta 10 dispositivos, batería hasta 14 horas. Inversión: $169.900 + $26.000 de envío.\n\n📶 **Modem WiFi Portátil 4G/5G:** captura señal 4G o 5G según disponibilidad, ideal para mayor velocidad donde hay cobertura 5G. Inversión: $189.900 + $26.000 de envío.\n\n📶 **Modem WiFi Portátil 5G:** máximo rendimiento en cobertura 5G; si tu zona tiene buena señal 5G, esta es la opción más rápida. Inversión: $199.900 + $26.000 de envío.\n\nTodos estos módems tienen antenas potentes que dan mejor cobertura que un celular común, perfectos para lugares rurales como tu vereda.\n\n¿Quieres que te ayude a dejar listo el pedido con el módem que más te guste?",
+        "fecha": "2026-10-14T20:43:14.682Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQkZCRDM4OTlGRTUwMjI4Q0VFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
