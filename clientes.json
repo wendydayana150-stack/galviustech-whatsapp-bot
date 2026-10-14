@@ -3,8 +3,8 @@
     "telefono": "573017432871",
     "nombre": "Alejo",
     "primerContacto": "2026-10-14T19:21:22.079Z",
-    "ultimoContacto": "2026-10-14T19:21:22.079Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T19:22:31.173Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T19:21:21.497Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSQjBFMTFDMzk0QTI1QjZENjE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Módem portátil",
+        "fecha": "2026-10-14T19:22:29.035Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntame dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nRecuerda que el equipo requiere una SIM de operador y es clave revisar la cobertura antes de comprar.\n\n¡Estoy para ayudarte a encontrar la mejor opción para ti! 📶",
+        "fecha": "2026-10-14T19:22:30.332Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSODAxOTY3MEY2MjE5Mjg1MUU0AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573227046480",
