@@ -1649,7 +1649,7 @@ async function enviarRecordatoriosPendientes() {
                         } else if (p.tier === "horas3") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
                               // Ultimo seguimiento (tope de 2): ademas el listado de todo lo que vendemos (Wendy, oct-2026)
-                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
+                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
@@ -2186,7 +2186,7 @@ async function iniciarPedido(telefono, productoId) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -2495,7 +2495,7 @@ function pareceCancelacionDePedido(texto) {
 // y le pega el link al cliente. Queda marcado en el panel como "necesita atencion" con esos datos.
 function marcarSistecredito(sesion, pedido) {
       sesion.necesitaAtencion = true;
-      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio)} · Producto: ${pedido.nombreProducto}`;
+      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio + config.COSTO_ENVIO)} (con envío) · Producto: ${pedido.nombreProducto}`;
 }
 
 // Registra el pedido de la sesion cuando ya estan todos los datos (antes vivia dentro de
@@ -2533,7 +2533,7 @@ async function finalizarPedidoSesion(telefono) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -3133,7 +3133,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🚚 Envío gratis a toda Colombia y pagas al recibir ✅\n" +
+      "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
