@@ -2669,7 +2669,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
       const lista = disponibles
             .map((i) => `• ${i.cantidad} × ${i.producto.nombre} — ${formatearPrecio(i.cantidad * i.producto.precio)}`)
             .join("\n");
-      const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\n*Total: ${formatearPrecio(precio)}*`;
+      const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\nEnvío: ${formatearPrecio(config.COSTO_ENVIO)}\n*Total a pagar: ${formatearPrecio(precio + config.COSTO_ENVIO)}*`;
 
       const faltantes = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => faltaCampo(pedido, d));
       if (faltantes.length === 0) {
