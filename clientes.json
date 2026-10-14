@@ -272,8 +272,8 @@
     "telefono": "573103166338",
     "nombre": "J.T.G",
     "primerContacto": "2026-10-14T11:56:58.795Z",
-    "ultimoContacto": "2026-10-14T11:56:58.795Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T12:17:51.801Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -293,6 +293,18 @@
         "fecha": "2026-10-14T11:56:58.140Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMTY2MzM4FQIAERgSQjFBODA0NzQ4NzU1OEFDRTM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-14T12:17:49.583Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, dime primero para qué necesitas el producto y en qué ciudad o vereda estarías usándolo. Así te puedo recomendar la mejor opción con su precio exacto y beneficios claros. ¿Me cuentas un poco?",
+        "fecha": "2026-10-14T12:17:51.056Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMTY2MzM4FQIAERgSMEJFQUNBNjM3MTE2MUJBMEM2AA=="
       }
     ],
     "paso": "conversando",
@@ -304,7 +316,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217633896",
