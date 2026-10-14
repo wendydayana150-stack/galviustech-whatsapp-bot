@@ -69,8 +69,8 @@
     "telefono": "573125197112",
     "nombre": "Sandra patricia Moreno ba",
     "primerContacto": "2026-10-14T20:12:40.008Z",
-    "ultimoContacto": "2026-10-14T20:18:21.339Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T20:18:25.725Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -108,13 +108,25 @@
         "fecha": "2026-10-14T20:18:20.487Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MTk3MTEyFQIAERgSMThCQTAwODkxNjdCQzJDRDBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo quiero para mí negocio",
+        "fecha": "2026-10-14T20:18:23.049Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Y para poder darte la mejor opción, ¿en qué municipio o vereda lo vas a utilizar?\n\nMientras tanto, te cuento que tenemos 3 versiones de módem WiFi portátil, ideales para negocios:\n\n📶 Modem WiFi Portatil 4G: conexión estable 4G, conecta varios dispositivos, ideal para lugares sin fibra.\n\n🚀 Modem WiFi Portatil 4G/5G: funciona con 4G y 5G, portátil y sin instalación.\n\n⚡ Modem WiFi Portatil 5G: máxima velocidad 5G para tu negocio en movimiento.\n\nLa inversión va desde $169.900 + $26.000 de envío el más económico, hasta $199.900 + $26.000 el más avanzado. \n\n¿Podrías confirmarme en qué municipio o vereda lo necesitas? Así te aseguro cuál es el ideal para tu zona.",
+        "fecha": "2026-10-14T20:18:24.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTk3MTEyFQIAERgSOEVBMURCNjg4MzUyMjI0QjA5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
