@@ -3,8 +3,8 @@
     "telefono": "573004404898",
     "nombre": "Marilin",
     "primerContacto": "2026-10-14T13:26:47.291Z",
-    "ultimoContacto": "2026-10-14T13:26:47.291Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:28:45.966Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T13:26:46.441Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NDA0ODk4FQIAERgSMUEzOURCQjNFQkZGQThCODc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T13:28:44.319Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T13:28:44.320Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NDA0ODk4FQIAERgSOTIxQzc3QUM1QjY1MjI5OUYwAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573219062368",
