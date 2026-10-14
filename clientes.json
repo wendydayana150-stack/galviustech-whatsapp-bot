@@ -41,8 +41,8 @@
     "telefono": "573145901604",
     "nombre": "studios",
     "primerContacto": "2026-10-14T12:52:04.063Z",
-    "ultimoContacto": "2026-10-14T12:53:39.866Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T12:55:03.821Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,13 +99,25 @@
         "fecha": "2026-10-14T12:53:39.063Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTAxNjA0FQIAERgSQ0IxQjcwNjU4MzJDQzk1NUVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a pasar navidad allá, porque aquí tengo wifi,Pero allá no hay , entonces estoy buscando soluciones para cuando viaje, poder trabajar y no sé si pueda ver fútbol tv, me sirve?",
+        "fecha": "2026-10-14T12:54:59.640Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, eso que me dices es justo para lo que sirve nuestro módem portátil.\n\nImagínate pasando la navidad en tu finca sin wifi fija, pero igual conectado para trabajar, ver fútbol por streaming y navegar sin interrupciones. El módem crea un WiFi propio con señal móvil, para que conectes tu celular, computador o tablet.\n\nTe paso las 3 opciones que tenemos para que elijas la que mejor te conviene:\n\n📶 *Modem WiFi Portátil 4G*: conexión 4G, buena cobertura y fácil de usar. La inversión es de *$169.900 + $26.000 de envío*.  \n📶 *Modem WiFi Portátil 4G/5G*: funciona en 4G y 5G donde haya, súper práctico para viajes y trabajo. La inversión es de *$189.900 + $26.000 de envío*.  \n📶 *Modem WiFi Portátil 5G*: máxima velocidad donde haya señal 5G. La inversión es de *$199.900 + $26.000 de envío*.\n\nRecomiendo el de 4G/5G porque te cubre bien la mayoría de zonas y te da la opción 5G si está disponible en tu finca. ¿Con cuántos dispositivos piensas conectarte? Eso me ayuda a orientarte mejor.\n\n¿Quieres que te ayude a dejar el pedido listo para que no te quedes sin internet en la navidad?",
+        "fecha": "2026-10-14T12:55:02.838Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTAxNjA0FQIAERgSRTIyQkIwRDU0RDk5MjJEQTIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
