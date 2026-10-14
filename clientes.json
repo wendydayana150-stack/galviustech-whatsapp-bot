@@ -107,8 +107,8 @@
     "telefono": "573142375479",
     "nombre": "Lz",
     "primerContacto": "2026-10-14T18:50:04.178Z",
-    "ultimoContacto": "2026-10-14T18:50:04.178Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T18:59:15.642Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-10-14T18:50:03.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMzc1NDc5FQIAERgSOEQ3Mzk0QjlFNDQxQjhBNTgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T18:59:14.791Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T18:59:14.792Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzc1NDc5FQIAERgSRTU1Nzk0RDEyQkMyOTA0OEE5AA=="
       }
     ],
     "paso": "conversando",
@@ -139,7 +151,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573018996257",
