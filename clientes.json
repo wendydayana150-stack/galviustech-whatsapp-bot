@@ -3,8 +3,8 @@
     "telefono": "573117621813",
     "nombre": "Sebas",
     "primerContacto": "2026-10-14T19:40:10.258Z",
-    "ultimoContacto": "2026-10-14T19:40:10.258Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T19:41:12.047Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T19:40:09.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NjIxODEzFQIAERgSNDk2NTk5N0I0QkFCRkY5NzFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T19:41:11.325Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T19:41:11.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NjIxODEzFQIAERgSNkFCNUIzRjE4NUNEOUJBNjY5AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573508942874",
