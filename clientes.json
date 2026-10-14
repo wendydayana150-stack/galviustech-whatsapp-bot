@@ -3,8 +3,8 @@
     "telefono": "573233297377",
     "nombre": "Willy's",
     "primerContacto": "2026-10-14T11:47:58.460Z",
-    "ultimoContacto": "2026-10-14T11:48:46.605Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T11:49:41.604Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-14T11:48:45.905Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzMjk3Mzc3FQIAERgSMENGRkMzMjkyRDcwOEUwMzRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Apartadó antioquia\nPara mi hogar",
+        "fecha": "2026-10-14T11:49:37.296Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. Para tu hogar en Apartadó, te recomiendo estas 3 opciones de módems con sus beneficios y precios:\n\n📶 Módem WiFi Portátil 4G:\n- Internet sin depender de fibra óptica.\n- Conecta hasta 10 dispositivos.\n- Mejor cobertura que un celular común en tu zona.\nLa inversión sería de **$169.900 + $26.000 de envío**.\n\n🚀 Módem WiFi Portátil 4G/5G (recomendado para tu caso):\n- Funciona con señal 4G y 5G, así tienes conexión donde haya cualquiera de las dos.\n- Perfecto para hogar, trabajo, estudio y viajes.\n- Fácil de usar y transportar.\nLa inversión es de **$189.900 + $26.000 de envío**.\n\n⚡ Módem WiFi Portátil 5G:\n- Solo para zonas con buena cobertura 5G.\n- Máxima velocidad 5G donde la haya.\n- Igual conecta hasta 10 dispositivos.\nLa inversión es de **$199.900 + $26.000 de envío**.\n\nLos módems tienen batería que dura hasta 14 horas y son muy fáciles de instalar: solo pones la SIM y listo.\n\n¿Cuál de estas opciones te suena mejor para tu hogar? Así te ayudo con el siguiente paso.",
+        "fecha": "2026-10-14T11:49:40.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMjk3Mzc3FQIAERgSRkM0MDRGMjEwNzRFNkYyRTA5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
