@@ -678,8 +678,8 @@
     "telefono": "573107813479",
     "nombre": "ednayustespiranga",
     "primerContacto": "2026-10-14T12:39:46.769Z",
-    "ultimoContacto": "2026-10-14T12:39:46.769Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:12:13.263Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -705,18 +705,33 @@
         "fecha": "2026-10-14T12:39:46.035Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODEzNDc5FQIAERgSMzMxMTNGNDA5MTRDODhEM0NCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio de Cartagena del Chairá caqueta Colombia",
+        "fecha": "2026-10-14T13:12:08.809Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contármelo. ¿Y para qué lo necesitas? ¿Trabajo, estudio, tu negocio o para tu hogar? Así te recomiendo el módem que mejor se ajuste a lo que buscas y a la cobertura de la zona.\n\nMientras tanto, te adelanto que tenemos estos modelos:\n\n📶 Modem WiFi Portatil 4G por **$169.900 + $26.000 de envío**: conexión estable en red 4G, ideal para zonas donde no llega fibra óptica.\n\n🚀 Modem WiFi Portatil 4G/5G por **$189.900 + $26.000 de envío**: funciona con señal 4G o 5G, rápido y útil tanto en lugares sin 5G como con 5G.\n\n⚡ Modem WiFi Portatil 5G por **$199.900 + $26.000 de envío**: para quienes tienen buena cobertura 5G y quieren la máxima velocidad.\n\n¿Con cuántos dispositivos necesitas conectarte? ¿Solo para celular o más aparatos? Esto también me ayuda a aconsejarte mejor.",
+        "fecha": "2026-10-14T13:12:11.274Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODEzNDc5FQIAERgSQkEzNTU1MjVEODBCMDhDRkZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573330407332",
