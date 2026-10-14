@@ -3,8 +3,8 @@
     "telefono": "573236196613",
     "nombre": "suarez",
     "primerContacto": "2026-10-14T21:20:39.587Z",
-    "ultimoContacto": "2026-10-14T21:21:21.461Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T21:22:35.833Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-14T21:21:20.623Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTk2NjEzFQIAERgSQTNBRUFERjYzN0I3Nzc3RDgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se usa tigo",
+        "fecha": "2026-10-14T21:22:33.276Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Tigo es compatible con todos nuestros módems y en la mayoría de zonas rurales la cobertura 4G y hasta 5G está llegando.\n\nPara tu finca, te recomiendo el módem 4G/5G, que se adapta si tienes solo 4G o ya señal 5G, para que tengas la mejor conexión posible sin preocuparte.\n\nLa inversión por este modelo es de *$189.900 + $26.000 de envío*. Lo mejor es que conectas varios dispositivos (celulares, tablets, computadoras) y la batería dura hasta 14 horas, ideal para largas jornadas en la finca o viajes.\n\n¿Ahora me cuentas si tienes conexión con tu celular en la finca? Así te confirmo que esta solución funciona perfecto para ti.",
+        "fecha": "2026-10-14T21:22:35.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTk2NjEzFQIAERgSOUJDMTE2NTNENUQwRUUxMjdDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
