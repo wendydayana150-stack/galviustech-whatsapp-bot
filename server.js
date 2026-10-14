@@ -637,10 +637,40 @@ const ETIQUETAS_BOTON_COMBO = {
       "combo-modem-wifi-camara-de-seguridad": "Con camara de regalo",
       "combo-impresora-termica-portatil-camara-de-seguridad": "Con camara de regalo",
       "combo-impresora-termica-portatil-reloj": "Con reloj de regalo",
+      "pack-3-lamparas-de-seguridad-con-sensor-y-control-remoto": "Pack 3 con control",
+      "pack-3-lamparas-solares-led-con-sensor-de-movimiento": "Pack 3 solares LED",
 };
 
 function etiquetaBotonCombo(combo) {
-      return ETIQUETAS_BOTON_COMBO[combo.id] || (combo.nombreCorto || combo.nombre || "Ver oferta").slice(0, 20);
+      if (ETIQUETAS_BOTON_COMBO[combo.id]) return ETIQUETAS_BOTON_COMBO[combo.id];
+      // Combos de la tienda ("Combo Modem WiFi 4G/5G + Reloj Inteligente S13 MAX"): "Con Reloj"
+      const extra = /(?:\+|\by\b)\s*([A-Za-zÁÉÍÓÚáéíóúñÑ]+)/.exec(combo.nombre || "");
+      if (extra) return ("Con " + extra[1].charAt(0).toUpperCase() + extra[1].slice(1).toLowerCase()).slice(0, 20);
+      return (combo.nombreCorto || combo.nombre || "Ver oferta").slice(0, 20);
+}
+
+// Combos que se le ofrecen a quien compra un producto (Wendy, oct-2026: "siempre que un cliente compre,
+// ofrecerle combo de ese producto"). Primero los combos fijos de su categoria; si no hay (productos de la
+// tienda online como relojes, camaras o la mini impresora), los combos del catalogo que traen ese tipo de
+// producto. Maximo 2, para que quepan en los botones junto a "No, gracias".
+const PALABRAS_CATEGORIA_COMBO = {
+      modem: /m[oó]dem|router/i, router: /m[oó]dem|router/i, impresora: /impresora/i,
+      lampara: /l[aá]mpara/i,
+};
+// Producto principal del combo: lo que va antes del "+" o " y " (en "Modem + Reloj" el reloj es el regalo)
+const principalDelCombo = (nombre) => String(nombre || "").split(/\+|\sy\s/)[0];
+function combosParaProducto(productoBase) {
+      if (!productoBase) return [];
+      const esCombo = (p) => /^(combo|pack)-/.test(p.id) || /^combo\b/i.test(p.nombre || "");
+      if (esCombo(productoBase)) return [];
+      const categoria = (productoBase.categoria || "").trim().toLowerCase();
+      const fijos = (OFERTAS_COMBO_POR_CATEGORIA[categoria] || []).map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+      const palabras = PALABRAS_CATEGORIA_COMBO[categoria];
+      const otros = palabras
+            ? catalogo.filter((p) => esCombo(p) && palabras.test(principalDelCombo(p.nombre)) && !fijos.includes(p))
+                  .sort((a, b) => ((b.categoria || "") === categoria) - ((a.categoria || "") === categoria) || Math.abs(a.precio - productoBase.precio) - Math.abs(b.precio - productoBase.precio))
+            : [];
+      return [...fijos, ...otros].slice(0, 2);
 }
 
 async function ofrecerComboPromocion(telefono, productoIdOriginal) {
@@ -655,14 +685,8 @@ async function ofrecerComboPromocion(telefono, productoIdOriginal) {
             return;
       }
 
-      // Los productos de la tienda online no tienen combos de regalo propios: directo al pedido.
-      if (productoBase?.tienda) {
-            await iniciarPedido(telefono, productoIdOriginal);
-            return;
-      }
-
-      const idsCombo = OFERTAS_COMBO_POR_CATEGORIA[categoria] || [];
-      const combos = idsCombo.map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+      // Tambien a los productos de la tienda online se les ofrece el combo de su tipo (si hay alguno)
+      const combos = combosParaProducto(productoBase);
 
       if (combos.length === 0) {
             await iniciarPedido(telefono, productoIdOriginal);
