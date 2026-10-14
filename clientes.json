@@ -47,8 +47,8 @@
     "telefono": "573222578019",
     "nombre": "D J E P",
     "primerContacto": "2026-10-14T23:14:52.715Z",
-    "ultimoContacto": "2026-10-14T23:21:27.334Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T23:22:27.862Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -182,6 +182,25 @@
         "fecha": "2026-10-14T23:21:26.536Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSNjlFRTkyOUIzMjc4RDU2OTRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y de cuánto sería la recarga o el plan q manejas",
+        "fecha": "2026-10-14T23:22:24.459Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Las recargas o planes dependen del operador que elijas y tu consumo, nosotros no vendemos planes, solo el módem.\n\nPuedes usar la SIM que ya tengas o elegir un operador (Claro, Movistar, Tigo, WOM) y comprar recargas de datos según lo que necesites.\n\nPor ejemplo: una recarga básica puede ser desde $5.000, pero tú decides cuánto quieras gastar y recargar; lo bueno es que con un solo plan conectas todos los dispositivos que quieras hasta el límite de datos.\n\n¿Quieres que te asesore sobre cómo aprovechar mejor la conexión con el módem?",
+        "fecha": "2026-10-14T23:22:26.445Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSQjI2NDREQjdDNkZEM0RDQUM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T23:22:26.982Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSMjM0MzY1NTFGMzAxRDlBNTY4AA=="
       }
     ],
     "paso": "conversando",
