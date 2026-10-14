@@ -728,8 +728,8 @@
     "telefono": "573107813479",
     "nombre": "ednayustespiranga",
     "primerContacto": "2026-10-14T12:39:46.769Z",
-    "ultimoContacto": "2026-10-14T13:19:30.609Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T13:20:03.187Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -848,6 +848,18 @@
         "fecha": "2026-10-14T13:19:29.823Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODEzNDc5FQIAERgSMzcyMEYxRDZEMDgxNDgzNjREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y éso funciona inclusive dónde no hay nada de señal??",
+        "fecha": "2026-10-14T13:20:00.886Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con señal celular, así que necesita que haya algo de cobertura 4G o 5G, aunque sea débil.\n\nPero su antena es más potente que la de un celular normal, por eso capta mejor señal en zonas rurales donde el celular usualmente no agarra bien.\n\nSi en la vereda Monteadentro no hay señal de ningún operador, el módem no podrá conectarse.\n\n¿Tu celular tiene algo de señal allí o ya confirmaste que no? Con esa info te puedo orientar mejor.",
+        "fecha": "2026-10-14T13:20:02.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODEzNDc5FQIAERgSQzA1MUNGNTNFNzgzQjJDNEU1AA=="
       }
     ],
     "paso": "conversando",
