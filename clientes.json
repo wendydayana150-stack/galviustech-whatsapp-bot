@@ -3,8 +3,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:38:24.898Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T19:39:10.747Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -179,6 +179,25 @@
         "fecha": "2026-10-14T19:38:24.159Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSNzQ3MDEzOUZEOTBBRjA4RjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Explicame tengo que compra una sim",
+        "fecha": "2026-10-14T19:39:07.739Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el módem funciona con una SIM de cualquier operador (Claro, Movistar, Tigo, WOM). No viene con plan ni megas activados, es solo la tarjeta física.\n\nPero te cuento que al confirmar tu pedido te enviaremos de regalo una SIMCARD de Claro, SIN PLAN ni recarga, para que la actives y recargues como prefieras.\n\n¿Quieres que te deje la compra del módem lista para que lo recibas en Bogotá?",
+        "fecha": "2026-10-14T19:39:09.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSOEYxNzc4QkVCRkVFRjAwREVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-14T19:39:09.657Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSOTM3OTVEMjk5REJBMDQ5ODczAA=="
       }
     ],
     "paso": "pedido_nombre",
