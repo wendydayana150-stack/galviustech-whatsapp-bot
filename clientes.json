@@ -3,8 +3,8 @@
     "telefono": "573233690196",
     "nombre": "Esteban Castro",
     "primerContacto": "2026-10-14T21:23:34.216Z",
-    "ultimoContacto": "2026-10-14T21:26:10.942Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T21:27:05.446Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -90,6 +90,25 @@
         "fecha": "2026-10-14T21:25:11.120Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSNkFFN0E4OEZDRERCN0Y4RUQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La antena donde se instala",
+        "fecha": "2026-10-14T21:27:02.882Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La antena del módem está incorporada dentro del equipo, no necesitas instalarla aparte. \n\nSolo colocas el módem donde haya mejor señal dentro de tu casa o finca, lo enciendes y listo, ya se conecta creando WiFi para tus dispositivos.\n\n¿Quieres que te ayude a dejar tu pedido listo para que no te quedes sin internet donde lo necesitas?",
+        "fecha": "2026-10-14T21:27:04.075Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSM0JCMTU1ODk4N0M0MDRDNjc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T21:27:04.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSNDJBRjRCNTYzOUMwMjVBQUZGAA=="
       }
     ],
     "paso": "conversando",
