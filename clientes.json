@@ -41,8 +41,8 @@
     "telefono": "573144382978",
     "nombre": "geo&geo",
     "primerContacto": "2026-10-14T15:37:47.690Z",
-    "ultimoContacto": "2026-10-14T15:40:18.577Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T15:41:09.307Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -142,6 +142,25 @@
         "fecha": "2026-10-14T15:40:17.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSQTVGQzJEMjM3NTU3Q0EzNzE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La SIM se compra por separado?",
+        "fecha": "2026-10-14T15:41:06.656Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, la SIM no la compras aparte, con el módem incluye de regalo una SIMCARD de Claro.\n\nEso sí, la SIM te llega sin plan, sin recarga ni megas, solo la tarjeta física. Tú mismo la activas con Claro y escoges el plan o recarga que más te sirva según tu uso.\n\n¿Querés que te ayude a dejar el pedido del módem listo para enviártelo a donde quieras? Así lo tienes ya disponible para configurar.",
+        "fecha": "2026-10-14T15:41:07.827Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSQUY3NDA1NDEwMDAzQzJFQTEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T15:41:08.421Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSMjcxRTI1NzcyNzEwOUVFQjE1AA=="
       }
     ],
     "paso": "conversando",
