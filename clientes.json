@@ -1355,8 +1355,8 @@
     "telefono": "573214694679",
     "nombre": "Michael",
     "primerContacto": "2026-10-14T12:18:02.820Z",
-    "ultimoContacto": "2026-10-14T12:18:52.817Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T13:24:54.086Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1452,6 +1452,25 @@
         "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
         "fecha": "2026-10-14T12:18:52.685Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T13:24:05.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njk0Njc5FQIAERgSMzQ5RTcyMjY0REE4N0VBMzZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo quiero tipo USB",
+        "fecha": "2026-10-14T13:24:51.365Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entiendo que buscas un módem más compacto tipo USB, pero en GalviusTech solo manejamos estos módems portátiles con batería y tamaño práctico para llevar, no tenemos versión USB.\n\nLo bueno es que nuestro módem 4G/5G es pequeño, ligero y se conecta rápido por WiFi, no necesitas cables ni estar atado a un puerto USB. Además la batería dura hasta 14 horas sin estar conectado a nada.\n\nEso te da mucha libertad para estudiar desde cualquier lugar sin depender de la conexión fija ni cables molestos.\n\n¿Quieres que te ayude a dejar listo el pedido del módem 4G/5G para Melgar? Así tienes conexión segura para tus clases ya mismo.",
+        "fecha": "2026-10-14T13:24:53.088Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njk0Njc5FQIAERgSQ0Y3QTNCNDEwRUQ5QkQxMUQ2AA=="
       }
     ],
     "paso": "conversando",
@@ -1465,8 +1484,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
