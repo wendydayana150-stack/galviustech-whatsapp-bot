@@ -487,8 +487,8 @@
     "telefono": "573146173249",
     "nombre": "José Gomez",
     "primerContacto": "2026-10-14T19:58:08.598Z",
-    "ultimoContacto": "2026-10-14T20:38:41.166Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T20:40:48.901Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -544,6 +544,25 @@
         "fecha": "2026-10-14T20:38:40.321Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTczMjQ5FQIAERgSNDVDODMxNzM1RkMzNkVBODYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La señal es un poco mala",
+        "fecha": "2026-10-14T20:40:45.823Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Justo para eso sirve nuestro módem 4G/5G, tiene una antena más potente que el celular y por eso capta señal mejor en zonas donde la señal es débil.\n\nAsí no te quedas sin internet para trabajar, estudiar o comunicarte desde tu vereda, y puedes conectar varios dispositivos sin problema.\n\nLa inversión es de **$189.900** más el envío de $26.000 para que lo tengas en la puerta de tu casa.\n\n¿Quieres que te ayude a dejar el pedido listo para que empieces a tener conexión estable?",
+        "fecha": "2026-10-14T20:40:47.498Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTczMjQ5FQIAERgSQzA0RjNGMjEyOEQwRjJCRUJCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T20:40:48.046Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTczMjQ5FQIAERgSNEEyOTdBOEFCMzkxN0ZCOUYyAA=="
       }
     ],
     "paso": "conversando",
