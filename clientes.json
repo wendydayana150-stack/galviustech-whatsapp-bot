@@ -47,8 +47,8 @@
     "telefono": "573124509559",
     "nombre": "🙏🙏🙏",
     "primerContacto": "2026-10-14T13:45:36.249Z",
-    "ultimoContacto": "2026-10-14T13:45:36.249Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:46:50.671Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-14T13:45:35.522Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NTA5NTU5FQIAERgSRDhCN0JFNjM2MDNFNDAyRUNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zona rural en San Vicente del Caguán",
+        "fecha": "2026-10-14T13:46:47.952Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, y para qué lo necesitas principalmente? ¿Trabajo, estudio, tu negocio o para tu casa? Eso me ayuda a recomendarte el modelo ideal.\n\nMientras tanto, te adelanto que tenemos 3 versiones de módem con cobertura en zonas rurales:\n📶 *Modem WiFi Portatil 4G* - $169.900 + $26.000 de envío\n🚀 *Modem WiFi Portatil 4G/5G* - $189.900 + $26.000 de envío\n⚡ *Modem WiFi Portatil 5G* - $199.900 + $26.000 de envío\n\nEl módem 4G/5G es la mejor opción para que tengas señal segura, ya que funciona tanto en 4G como 5G donde ya hay disponibilidad, y es muy fácil de usar y transportar.\n\n¿Usas conexión compartida de tu celular o de otro WiFi ahora? ¿O directamente no tienes internet en la zona? Así imagino mejor la llamada urgencia que resolverías con el módem.",
+        "fecha": "2026-10-14T13:46:49.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NTA5NTU5FQIAERgSMDEwOEFGMzQ4RkQ1RTY1NDFDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573001982927",
