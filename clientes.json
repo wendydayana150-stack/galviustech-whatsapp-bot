@@ -3,8 +3,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:34:09.469Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T19:34:49.793Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-14T19:34:08.691Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSNzRGMjlBNjdBRjc0RkYwMEFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Primavera vichada",
+        "fecha": "2026-10-14T19:34:46.973Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Primavera en Vichada. Para que uso principal sería el módem, ¿trabajo, estudio, negocio o hogar? Así te cuento las opciones que te van mejor para que tengas internet sin depender de la fibra óptica ni señal de wifi ajeno. \n\nTe adelanto que tenemos 3 modelos con buena cobertura:  \n📶 Módem WiFi Portátil 4G - inversión $169.900 + $26.000 envío  \n📶 Módem WiFi Portátil 4G/5G - inversión $189.900 + $26.000 envío (recomendado para combinar 4G y 5G)  \n📶 Módem WiFi Portátil 5G - inversión $199.900 + $26.000 envío (ideal si ya tienes buena señal 5G en tu zona)\n\nCuéntame para qué lo usarás, así te ayudo a elegir el mejor para ti. ¿Qué te parece?",
+        "fecha": "2026-10-14T19:34:48.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSRjE5QTJDQjkwMjg5OTVEMjc4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
