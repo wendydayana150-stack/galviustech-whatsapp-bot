@@ -331,8 +331,8 @@
     "telefono": "573122289884",
     "nombre": "𝐒𝐚𝐫𝐚𝐲🍒",
     "primerContacto": "2026-10-14T17:37:09.440Z",
-    "ultimoContacto": "2026-10-14T17:49:25.392Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T17:50:37.167Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -450,6 +450,25 @@
         "fecha": "2026-10-14T17:49:24.387Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSRUE1QTVCN0Q3RTU0ODEwQ0YzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Uuu pero aquí no hay cobertura de ninguno operador",
+        "fecha": "2026-10-14T17:50:34.464Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay cobertura de ningún operador, el módem no podría conectarse porque funciona con la señal móvil de la SIM.\n\nPero a veces el módem puede captar señal aunque el celular diga “sin servicio” porque su antena es más potente.\n\n¿Tu celular no tiene señal ahí mismo en la vereda? ¿O ya preguntas a otros y confirmaron que no hay cobertura?",
+        "fecha": "2026-10-14T17:50:35.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSMTMzNzI0RTlFMTMwRkJGMzAwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T17:50:36.306Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSM0E0MTEwODZERjM5NTM4MzgxAA=="
       }
     ],
     "paso": "conversando",
