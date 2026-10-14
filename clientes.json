@@ -47,8 +47,8 @@
     "telefono": "573127043679",
     "nombre": "JOHON DILVER GARZON",
     "primerContacto": "2026-10-14T22:09:59.352Z",
-    "ultimoContacto": "2026-10-14T22:16:54.793Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T22:17:40.363Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,6 +98,18 @@
         "fecha": "2026-10-14T22:16:53.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MDQzNjc5FQIAERgSNjJDRTI1MkUyMzdGMjI4RTBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a hablar con la familiar y te confirmo",
+        "fecha": "2026-10-14T22:17:38.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tómate tu tiempo para hablar con tu familiar 😊\n\nRecuerda que con el módem tendrás internet confiable en tu hogar en la vereda, sin depender de cables ni fibra.\n\nCuando decidas, aquí estaré para ayudarte a dejar el pedido listo.\n\n¿Quieres que te comparta más detalles del envío o formas de pago mientras tanto?",
+        "fecha": "2026-10-14T22:17:39.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDQzNjc5FQIAERgSOEI3OTQ5REVENURBRjg5Q0E4AA=="
       }
     ],
     "paso": "conversando",
@@ -108,7 +120,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
