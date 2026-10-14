@@ -3,8 +3,8 @@
     "telefono": "573233690196",
     "nombre": "Esteban Castro",
     "primerContacto": "2026-10-14T21:23:34.216Z",
-    "ultimoContacto": "2026-10-14T21:23:53.646Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T21:24:33.828Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -66,13 +66,25 @@
         "fecha": "2026-10-14T21:23:52.939Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSRDg1Njk5ODAxODc3N0RCQ0Y1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar\nEn San Luis Tolima\nVereda pedregal pedregal",
+        "fecha": "2026-10-14T21:24:30.572Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para hogar en San Luis, Tolima, en vereda Pedregal Pedregal, tengo estas 3 opciones de módem para ti:\n\n📶 **Modem WiFi Portatil 4G**: Con conexión 4G, conecta hasta 10 dispositivos, ideal para uso cotidiano en casa sin depender de fibra óptica. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Modem WiFi Portatil 4G/5G**: Más versátil, funciona en 4G y 5G si hay cobertura, perfecto para asegurar velocidad y estabilidad en zonas mixtas. La inversión es de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Modem WiFi Portatil 5G**: El más rápido, para zonas con buena cobertura 5G, lleva la señal 5G a WiFi para conectar todos tus dispositivos. La inversión es de **$199.900 + $26.000 de envío**.\n\n🔥 ¡Aprovecha que los módems bajaron un 30%! Es una inversión para que toda tu familia tenga internet estable en la finca, sin estar buscando WiFi ajeno.\n\nDime, ¿cuántos dispositivos planeas conectar? Así te ayudo a elegir el mejor modelo para ti.",
+        "fecha": "2026-10-14T21:24:32.991Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSMDMzQ0MwRDlFQ0NFQkZGM0REAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
