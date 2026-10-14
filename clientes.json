@@ -171,8 +171,8 @@
     "telefono": "573218269564",
     "nombre": "Mary",
     "primerContacto": "2026-10-14T19:31:56.197Z",
-    "ultimoContacto": "2026-10-14T19:36:21.685Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T19:36:45.226Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -272,6 +272,24 @@
         "fecha": "2026-10-14T19:36:20.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSQTk2RjQ3NEY2NDdGMzAzMzNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-10-14T19:36:44.002Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-10-14T19:36:44.002Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-10-14T19:36:44.274Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSNTA0QkREREFEODZFRTUwNkQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -280,8 +298,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
