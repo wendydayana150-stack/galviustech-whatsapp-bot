@@ -323,8 +323,8 @@
     "telefono": "573013953991",
     "nombre": "yuliana",
     "primerContacto": "2026-10-14T19:46:32.535Z",
-    "ultimoContacto": "2026-10-14T19:46:32.535Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T20:04:59.224Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -344,6 +344,18 @@
         "fecha": "2026-10-14T19:46:31.685Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzOTUzOTkxFQIAERgSOEMzMTcwRkY1MDZEQUNCNzFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T20:04:58.303Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T20:04:58.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzOTUzOTkxFQIAERgSOUREQTYzREQwQjlBRDNDRjI2AA=="
       }
     ],
     "paso": "conversando",
@@ -355,7 +367,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573117621813",
