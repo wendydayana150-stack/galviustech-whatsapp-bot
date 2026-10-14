@@ -387,8 +387,8 @@
     "telefono": "573127766247",
     "nombre": "hdhsbsks",
     "primerContacto": "2026-10-14T23:20:18.281Z",
-    "ultimoContacto": "2026-10-14T23:20:18.281Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T23:50:47.530Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -414,18 +414,33 @@
         "fecha": "2026-10-14T23:20:17.617Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NzY2MjQ3FQIAERgSNEUzM0YyMjlFNzY4RUVGOENDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio y capacidad",
+        "fecha": "2026-10-14T23:50:44.270Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido las 3 opciones que tenemos con sus mejores beneficios y precios para que elijas la que más te conviene:\n\n📶 Módem WiFi Portátil 4G: ideal para fincas o zonas sin fibra, fácil de transportar, conecta hasta 10 dispositivos; la inversión es de **$169.900** + $26.000 de envío.\n\n🚀 Módem WiFi Portátil 4G/5G: funciona donde hay 4G o 5G, mejor cobertura en zonas rurales, súper versátil para estudiar, trabajar o viajar; la inversión es de **$189.900** + $26.000 de envío.\n\n⚡ Módem WiFi Portátil 5G: para donde ya hay cobertura 5G, velocidad más rápida, ideal para estar siempre conectado en movimiento; inversión de **$199.900** + $26.000 de envío.\n\n¿Dónde lo necesitas usar tú principalmente? Así te ayudo a elegir el más adecuado para tu caso.",
+        "fecha": "2026-10-14T23:50:46.612Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NzY2MjQ3FQIAERgSNkFFMDA4ODg4NkNGQTIyNDg1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573222578019",
