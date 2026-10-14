@@ -105,8 +105,8 @@
     "telefono": "573132784058",
     "nombre": "Rojas",
     "primerContacto": "2026-10-14T16:25:21.378Z",
-    "ultimoContacto": "2026-10-14T16:33:04.772Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T16:33:51.803Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -206,6 +206,25 @@
         "fecha": "2026-10-14T16:33:03.854Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSQTZEQTQyNEJEOTEwNjgzNUQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si la señal se va de la nada y se demora en llegar",
+        "fecha": "2026-10-14T16:33:48.250Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Totalmente comprensible esa preocupación.\n\nComo el módem usa señal móvil 4G/5G de Claro, si ahí llega señal, el módem la captura y la potencia mejor que un celular común, con batería para uso continuo hasta 14 horas.\n\nClaro, si la señal en tu finca sube y baja, el módem también lo va a notar porque depende de la red móvil; pero en general mejora mucho la conexión y estabilidad frente a usar datos directos del celular.\n\nSi quieres podemos hacer el pedido y cuando te llegue te ayudo con la configuración para sacarle el máximo provecho y ver si te funciona de forma estable.\n\n¿Lo dejamos listo para que lo recibas en tu finca? ¿O prefieres recogerlo en alguna oficina cercana?",
+        "fecha": "2026-10-14T16:33:50.486Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSRDE4RDYzQThBOUUzQjFDMkU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T16:33:51.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSNTJDRUM1MUQ5QjFFOTg3MURGAA=="
       }
     ],
     "paso": "conversando",
