@@ -393,8 +393,8 @@
     "telefono": "573122289884",
     "nombre": "𝐒𝐚𝐫𝐚𝐲🍒",
     "primerContacto": "2026-10-14T17:37:09.440Z",
-    "ultimoContacto": "2026-10-14T17:51:53.798Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-14T17:52:34.770Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -543,6 +543,18 @@
         "fecha": "2026-10-14T17:51:52.844Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSNjc2RjFGOUZEQUE5NjY3MkVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-14T17:52:33.006Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta si en algún momento necesitas ayuda con internet, seguridad o iluminación. ¡Gracias por tu tiempo! Que tengas un excelente día.",
+        "fecha": "2026-10-14T17:52:33.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMjg5ODg0FQIAERgSRTUxOTYyRjY2M0QyQUJDMEMzAA=="
       }
     ],
     "paso": "conversando",
@@ -553,7 +565,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
