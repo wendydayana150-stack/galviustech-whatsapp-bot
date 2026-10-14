@@ -3,8 +3,8 @@
     "telefono": "573026921078",
     "nombre": "Johana Duran",
     "primerContacto": "2026-10-14T16:25:42.479Z",
-    "ultimoContacto": "2026-10-14T16:25:42.479Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T16:25:48.071Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T16:25:41.854Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2OTIxMDc4FQIAERgSOEJERkYwRDc0RDBFNzI5MUY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio",
+        "fecha": "2026-10-14T16:25:46.202Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Para recomendarte bien, necesito saber en qué municipio o vereda usarías el producto y para qué lo necesitas: ¿trabajo, estudio, hogar, viajes o negocio?\n\nAsí te puedo mostrar la mejor opción y su precio exacto. ¿Dónde y para qué lo usarías?",
+        "fecha": "2026-10-14T16:25:47.462Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2OTIxMDc4FQIAERgSNkE2N0UyM0QyRkUzRjEyNUI1AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132784058",
