@@ -3,8 +3,8 @@
     "telefono": "573127038780",
     "nombre": "John F",
     "primerContacto": "2026-10-14T23:39:25.789Z",
-    "ultimoContacto": "2026-10-14T23:39:25.789Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T23:41:16.495Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-14T23:39:25.042Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSNTdFMzEyN0MyQUVGQkVFQkY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para negocio",
+        "fecha": "2026-10-14T23:41:13.625Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto para tu negocio tenemos estas tres opciones de módems portátiles con excelentes beneficios:\n\n📶 Módem WiFi Portátil 4G: conexión estable para varios dispositivos, ideal para zonas sin fibra óptica, fácil de usar. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: funciona en 4G y 5G, máxima compatibilidad, perfecto para negocios que necesitan velocidad y presencia en distintas zonas. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: para donde sí tienes señal 5G y quieres lo último en velocidad. La inversión es de **$199.900 + $26.000 de envío**.\n\nTodos te brindan mejor cobertura que un celular convencional, conectan varios dispositivos y son súper portátiles para llevar a donde lo necesites.\n\n¿En qué municipio o vereda exactamente lo usarías para tu negocio? Así te ayudo a elegir la mejor opción para tu lugar.",
+        "fecha": "2026-10-14T23:41:15.510Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSRjFCRDA0ODFFNDlEMDlENkE3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205717281",
