@@ -47,8 +47,8 @@
     "telefono": "573001982927",
     "nombre": "Naye González",
     "primerContacto": "2026-10-14T13:43:30.049Z",
-    "ultimoContacto": "2026-10-14T13:44:43.658Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T13:45:57.695Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -93,13 +93,25 @@
         "fecha": "2026-10-14T13:44:42.877Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAxOTgyOTI3FQIAERgSNDhGRDFGRkNFNkM1Q0RFN0E3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda puerto unión en puerto libertador córdoba",
+        "fecha": "2026-10-14T13:45:54.515Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y para qué lo necesitas? ¿Para estudiar, trabajar, tu negocio o el hogar?\n\nMientras me cuentas, te adelanto que tenemos tres versiones de módem muy populares:\n\n📶 Módem WiFi Portátil 4G - conexión sólida para lugares sin fibra, ideal para uso básico.\n\n🚀 Módem WiFi Portátil 4G/5G - brinda la opción de usar 4G o 5G, más versátil para zonas con cobertura 5G o 4G.\n\n⚡ Módem WiFi Portátil 5G - para máxima velocidad si tienes 5G en tu zona.\n\nEn la vereda Puerto Unión seguramente te va mejor un módem 4G/5G, que funciona donde hay señal 4G y aprovecha 5G cuando exista. ¿Lo quieres para trabajar, estudiar o algo más? Así te cuento cuál te conviene más.",
+        "fecha": "2026-10-14T13:45:56.790Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxOTgyOTI3FQIAERgSNzIwNjA1NTdDMjU3NkYwOEUyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
