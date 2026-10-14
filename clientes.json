@@ -169,8 +169,8 @@
     "telefono": "573205187738",
     "nombre": "QUIEN COMO DIOS👏",
     "primerContacto": "2026-10-14T12:51:24.292Z",
-    "ultimoContacto": "2026-10-14T12:51:24.292Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:03:09.953Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -190,6 +190,31 @@
         "fecha": "2026-10-14T12:51:23.587Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MTg3NzM4FQIAERgSRkRBOUZBMTI5ODlDMzU4MzE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📹 Camara de Seguridad",
+        "fecha": "2026-10-14T13:03:08.474Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Camara de Seguridad]",
+        "fecha": "2026-10-14T13:03:08.475Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "*📹 Camara de Seguridad*\n\n*Camara 5 antenas* - $ 119.900\n*Camara 3 lentes* - $ 209.900",
+        "fecha": "2026-10-14T13:03:08.475Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MTg3NzM4FQIAERgSQTgwRTI5NkUyNzVFRUE4OUFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-10-14T13:03:09.099Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MTg3NzM4FQIAERgSRjI3N0NGNkRBOUMxNDZGMTkwAA=="
       }
     ],
     "paso": "conversando",
@@ -197,11 +222,14 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "camara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573238528407",
