@@ -261,8 +261,8 @@
     "telefono": "573022995863",
     "nombre": "Madera Juan David",
     "primerContacto": "2026-10-14T19:27:51.665Z",
-    "ultimoContacto": "2026-10-14T19:28:09.112Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T19:36:09.044Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -307,13 +307,25 @@
         "fecha": "2026-10-14T19:28:08.266Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIyOTk1ODYzFQIAERgSNjQyRjI2REMzMEEzRkM5QjY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En tuchin córdoba",
+        "fecha": "2026-10-14T19:36:06.510Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que es para Tuchín, Córdoba.\n\nAhora, ¿para qué lo necesitas principalmente? ¿Estudio, trabajo, negocio o para tu hogar? Así te recomiendo el módem que mejor se adapte.\n\nPor cierto, te cuento rápido que tenemos 3 versiones:\n\n📶 Módem WiFi 4G a $169.900 + $26.000 de envío  \n🚀 Módem WiFi 4G/5G a $189.900 + $26.000 de envío  \n⚡ Módem WiFi 5G a $199.900 + $26.000 de envío  \n\nCada uno te ofrece conexión donde no llega la fibra, con mejor cobertura que el celular y puedes conectar varios dispositivos a la vez.\n\n¿Y con cuántos dispositivos conectarías normalmente? Así te ayudo a elegir mejor.",
+        "fecha": "2026-10-14T19:36:08.317Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyOTk1ODYzFQIAERgSMzI2RDNBOTBBQTE1ODk0QTQzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
