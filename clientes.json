@@ -85,8 +85,8 @@
     "telefono": "18293505203",
     "nombre": "Personal.",
     "primerContacto": "2026-10-14T12:31:51.690Z",
-    "ultimoContacto": "2026-10-14T12:35:24.017Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T12:37:38.821Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -148,6 +148,18 @@
         "fecha": "2026-10-14T12:35:23.093Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBI4MzVFQjI0RjJBMkZEMjJBRjgA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Te aviso",
+        "fecha": "2026-10-14T12:37:36.879Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta cuando decidas. 😊\n\nRecuerda que cuanto antes confirmes, más rápido te enviamos tu módem y empiezas a disfrutar tu internet propio sin depender de nadie.\n\nSi tienes alguna otra duda o quieres que te explique algo más, solo dime.",
+        "fecha": "2026-10-14T12:37:37.954Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJGMjAyRTE4RkZCNkRGOUZGODcA"
       }
     ],
     "paso": "conversando",
@@ -158,7 +170,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
