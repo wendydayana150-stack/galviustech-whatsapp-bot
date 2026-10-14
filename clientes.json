@@ -227,8 +227,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:46:18.213Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-14T22:46:38.298Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -522,16 +522,29 @@
         "fecha": "2026-10-14T22:46:17.651Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSQkNFQzlDNEQ2MkYwNTk3NjE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cc 1064897271\n3228453025",
+        "fecha": "2026-10-14T22:46:37.585Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-14T22:46:37.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSNzc3M0E1NDQ2NkE1Q0FGQUYxAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "573228453025",
       "medioPago": "contra entrega",
-      "nombreCliente": "Interrapidicimo"
+      "nombreCliente": "Interrapidicimo",
+      "celular": "Cc 1064897271\n3228453025"
     },
     "pausado": false,
     "etapaManual": null,
