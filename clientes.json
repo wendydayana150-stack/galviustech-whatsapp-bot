@@ -634,8 +634,8 @@
     "telefono": "573208484571",
     "nombre": "Luz Helena Enciso",
     "primerContacto": "2026-10-14T16:07:53.604Z",
-    "ultimoContacto": "2026-10-14T16:08:28.220Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T16:54:45.558Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -680,13 +680,25 @@
         "fecha": "2026-10-14T16:08:27.476Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4NDg0NTcxFQIAERgSMUYwREJCQUZFRTVBREJDNzJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valledupar es para el hogar",
+        "fecha": "2026-10-14T16:54:42.447Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Valledupar y uso en hogar en GalviusTech tenemos tres versiones de módem:\n\n📶 Modem WiFi Portátil 4G: conexión estable en cobertura 4G, conecta hasta 10 dispositivos, fácil de transportar y usar. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G: funciona con señal 4G y 5G donde haya cobertura, ideal si quieres máximo alcance y velocidad. La inversión es de **$189.900 + $26.000 de envío**, la opción más segura.\n\n⚡ Modem WiFi Portátil 5G: para zonas con buena cobertura 5G, máxima velocidad y conexión rápida. La inversión es de **$199.900 + $26.000 de envío**.\n\nLos módems están diseñados para dar mejor cobertura que un celular común, perfectos para tener internet propio en tu casa sin depender de fibra óptica ni instalaciones. Además, incluyen garantía y soporte de GalviusTech.\n\n¿Con cuántos dispositivos quieres conectar normalmente tu módem en el hogar? Así te ayudo a elegir el que más te convenga.",
+        "fecha": "2026-10-14T16:54:44.597Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4NDg0NTcxFQIAERgSNjNFQTU3N0RFM0Q0MUU1RTA2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
