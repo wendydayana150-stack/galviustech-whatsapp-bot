@@ -107,8 +107,8 @@
     "telefono": "573223595661",
     "nombre": "Lara",
     "primerContacto": "2026-10-14T17:12:52.505Z",
-    "ultimoContacto": "2026-10-14T17:13:08.157Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T17:13:52.486Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -153,13 +153,25 @@
         "fecha": "2026-10-14T17:13:06.332Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNTk1NjYxFQIAERgSNDQ3OTdDRTM4RjM2Q0VFNDAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto",
+        "fecha": "2026-10-14T17:13:49.654Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, para darte un buen consejo necesito saber dónde estarías usando el módem y para qué lo necesitas, si es para tu hogar, trabajo, estudio o negocio.\n\nMientras tanto, te cuento que tenemos tres versiones:\n\n📶 Módem WiFi Portátil 4G: conexión 4G, ideal para fincas y zonas sin fibra, inversión de **$169.900 + $26.000 envío**.\n\n🌐 Módem WiFi Portátil 4G/5G: funciona con redes 4G y 5G, el más recomendado para asegurar conexión donde estés, inversión de **$189.900 + $26.000 envío**.\n\n⚡ Módem WiFi Portátil 5G: para quienes tienen cobertura 5G y quieren la máxima velocidad, inversión de **$199.900 + $26.000 envío**.\n\n🔥 ¡Los modems bajaron un 30%! Aprovecha ya esta promo.\n\n¿En qué municipio o vereda lo usarías tú? Así te ayudo mejor a elegir.",
+        "fecha": "2026-10-14T17:13:51.548Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNTk1NjYxFQIAERgSQkU1MTdCQzU1NkNFMEY5QTg3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
