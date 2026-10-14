@@ -3,8 +3,8 @@
     "telefono": "573105645176",
     "nombre": "Gustavo Avila",
     "primerContacto": "2026-10-14T12:18:58.435Z",
-    "ultimoContacto": "2026-10-14T12:18:58.435Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T12:21:03.600Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T12:18:57.522Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NjQ1MTc2FQIAERgSNjQwMjgwODYxQUE5MTk0QTQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-14T12:21:02.772Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-14T12:21:02.772Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NjQ1MTc2FQIAERgSRDlGOERGQTVBMTNDODI5Q0MwAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214694679",
