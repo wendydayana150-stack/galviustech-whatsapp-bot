@@ -5195,8 +5195,8 @@
     "telefono": "573216091676",
     "nombre": "Yurleida",
     "primerContacto": "2026-10-14T13:52:05.475Z",
-    "ultimoContacto": "2026-10-14T18:32:56.248Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T18:49:20.830Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5241,13 +5241,25 @@
         "fecha": "2026-10-14T18:32:55.595Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSNzNGNTM0NDg2RDhEREZBNTQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-14T18:49:18.842Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué municipio o vereda lo usarías principalmente para que te pueda recomendar el módem que mejor se adapte a ti?",
+        "fecha": "2026-10-14T18:49:19.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSRUMwOTE2QTZEN0Q4RTE0MTcxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
