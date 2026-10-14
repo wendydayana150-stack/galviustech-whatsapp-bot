@@ -3,8 +3,8 @@
     "telefono": "573157560705",
     "nombre": "yeniferpatino966",
     "primerContacto": "2026-10-14T15:44:55.359Z",
-    "ultimoContacto": "2026-10-14T15:44:55.359Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T15:45:15.655Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T15:44:54.609Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3NTYwNzA1FQIAERgSRUZEMkVFNEQ0MDc5OTg5RTA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T15:45:14.757Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T15:45:14.758Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3NTYwNzA1FQIAERgSMkQzRTUxQkJEOUExNjgwMjNBAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573228903958",
