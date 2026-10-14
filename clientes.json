@@ -41,8 +41,8 @@
     "telefono": "573144382978",
     "nombre": "geo&geo",
     "primerContacto": "2026-10-14T15:37:47.690Z",
-    "ultimoContacto": "2026-10-14T15:41:45.772Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T15:42:18.485Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -173,6 +173,18 @@
         "fecha": "2026-10-14T15:41:44.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSQjZGMTU5OUE1NzQ0QzRCRUMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por el momento no gracias",
+        "fecha": "2026-10-14T15:42:16.416Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta cuando decidas dar el siguiente paso. Mientras tanto, cualquier duda que tengas sobre el módem o conexión, me puedes escribir sin problema.\n\n¿Quieres conocer también nuestras impresoras portátiles o lámparas solares para completar tu solución tecnológica?",
+        "fecha": "2026-10-14T15:42:17.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSNUM5MTUwMjYwNjdBNTc4NTQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -183,7 +195,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
