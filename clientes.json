@@ -3,8 +3,8 @@
     "telefono": "573227612082",
     "nombre": "claritza María delgado",
     "primerContacto": "2026-10-14T13:06:52.192Z",
-    "ultimoContacto": "2026-10-14T13:06:52.192Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:07:34.916Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T13:06:51.496Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjEyMDgyFQIAERgSQTM4MzFFNUI4MjNCNDhCMUZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quato sale",
+        "fecha": "2026-10-14T13:07:32.343Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Antes de darte el precio, dime donde lo piensas usar y para qué lo necesitas, así te recomiendo la mejor opción. ¿Es para tu casa, trabajo, estudio o algún negocio? ¿Y en qué municipio o vereda estarías usándolo?",
+        "fecha": "2026-10-14T13:07:34.008Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjEyMDgyFQIAERgSRTM5RTY1NTkzQ0ZFRjczMDg5AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573246378690",
