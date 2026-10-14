@@ -3,8 +3,8 @@
     "telefono": "584123203035",
     "nombre": "Isidro Arredondo Gamboa",
     "primerContacto": "2026-10-14T17:17:03.344Z",
-    "ultimoContacto": "2026-10-14T17:17:03.344Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T17:17:26.057Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T17:17:02.641Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MTIzMjAzMDM1FQIAERgSRjRBRjk5RjEyMzE5MEYyMEMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso va conectado router o no a",
+        "fecha": "2026-10-14T17:17:22.931Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell 😊. Para ayudarte bien, ¿me puedes decir a qué producto te refieres? ¿Estás preguntando por un módem WiFi portátil o por otro equipo? Así te aclaro si necesita router o se usa directamente. \n\n¿Me cuentas para qué lo usarías y dónde lo vas a necesitar?",
+        "fecha": "2026-10-14T17:17:25.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTIzMjAzMDM1FQIAERgSMkY2QkM3Q0U5MDJGMEEzRjk1AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573023511320",
