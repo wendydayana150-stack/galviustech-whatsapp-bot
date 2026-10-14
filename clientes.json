@@ -3,8 +3,8 @@
     "telefono": "573146554052",
     "nombre": "Robinson",
     "primerContacto": "2026-10-14T23:55:54.605Z",
-    "ultimoContacto": "2026-10-14T23:57:35.836Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T23:57:51.793Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-14T23:57:34.882Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NTU0MDUyFQIAERgSRjNDNTU5MUQzQkQxRDI1NTVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es Internet gratis",
+        "fecha": "2026-10-14T23:57:49.499Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El internet no es gratis, pero con el módem de GalviusTech haces una inversión que te da mucha libertad:  \n📶 Internet sin depender de fibra óptica ni cables  \n🚀 Conecta varios dispositivos desde donde tengas señal 4G o 5G  \n🔋 Lo llevas a todos lados, trabajo, estudio o finca  \n\nLa inversión del Módem WiFi Portátil 4G es de **$169.900 + $26.000 de envío**.  \nTambién tenemos el 4G/5G en **$189.900 + envío** y el 5G que es más rápido en **$199.900 + envío**.  \n\nDime, ¿dónde lo usarías principalmente, para que te eche la mano mejor?",
+        "fecha": "2026-10-14T23:57:50.954Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NTU0MDUyFQIAERgSN0YwNDZFMzQxRjk2MTVCQjY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
