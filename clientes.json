@@ -1318,8 +1318,8 @@
     "telefono": "573222795510",
     "nombre": "maria marin",
     "primerContacto": "2026-10-14T12:30:11.648Z",
-    "ultimoContacto": "2026-10-14T12:30:11.648Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T13:37:22.908Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1339,6 +1339,25 @@
         "fecha": "2026-10-14T12:30:10.942Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyNzk1NTEwFQIAERgSOEI5M0FDNDMyNzQ5QkYzQjRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T13:34:02.242Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNzk1NTEwFQIAERgSN0Q5OTM0REFBM0UzMjk2QTk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo era para preguntar por la publicasion como es y que precio tiene  como funsiona",
+        "fecha": "2026-10-14T13:37:19.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech 😊\n\n¿Me confirmas a cuál producto te refieres con \"publicasion\"? ¿Es un módem, una impresora, una lámpara o una cámara? Así te cuento bien cómo funciona y su precio exacto.\n\n¿Para qué usarías ese equipo o cuál es tu necesidad principal con él?",
+        "fecha": "2026-10-14T13:37:22.015Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNzk1NTEwFQIAERgSNkQ2QjEwOUFBRkZDMjIxRjhCAA=="
       }
     ],
     "paso": "conversando",
@@ -1352,8 +1371,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
