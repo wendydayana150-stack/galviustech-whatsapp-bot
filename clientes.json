@@ -69,8 +69,8 @@
     "telefono": "573125197112",
     "nombre": "Sandra patricia Moreno ba",
     "primerContacto": "2026-10-14T20:12:40.008Z",
-    "ultimoContacto": "2026-10-14T20:12:40.008Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T20:18:21.339Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -96,6 +96,18 @@
         "fecha": "2026-10-14T20:12:39.354Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MTk3MTEyFQIAERgSN0Q1RjlEMENDMDQ4NDk3MkEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-14T20:18:19.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, ¿en qué municipio o vereda necesitas el módem? Y dime para qué lo usarías, ¿trabajo, estudio, negocio o tu hogar? Así te recomiendo la opción perfecta para ti.",
+        "fecha": "2026-10-14T20:18:20.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTk3MTEyFQIAERgSMThCQTAwODkxNjdCQzJDRDBGAA=="
       }
     ],
     "paso": "conversando",
@@ -107,7 +119,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573127998823",
