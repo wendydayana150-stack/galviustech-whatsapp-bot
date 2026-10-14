@@ -3,8 +3,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:41:19.894Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T20:41:26.828Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T20:41:19.159Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSODE3OEMxQTVEQkNEQUNBQTg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-14T20:41:25.303Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, ¿en qué municipio o vereda estás y para qué lo necesitas, para estudiar, trabajar, negocio o en casa? Así te ayudo a encontrar el mejor módem para ti 😊",
+        "fecha": "2026-10-14T20:41:26.196Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSNjA1NEUzRkFGNDQxMzczMEM2AA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113497018",
