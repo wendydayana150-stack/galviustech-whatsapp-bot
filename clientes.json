@@ -3,8 +3,8 @@
     "telefono": "573236196613",
     "nombre": "suarez",
     "primerContacto": "2026-10-14T21:20:39.587Z",
-    "ultimoContacto": "2026-10-14T21:20:39.587Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T21:21:21.461Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T21:20:38.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MTk2NjEzFQIAERgSNDI0QzRFQkY2QTc0OEZENDkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una finca",
+        "fecha": "2026-10-14T21:21:17.972Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que es para una finca.\n\n🔥 Aprovecha que los módems bajaron un 30% y mira estas opciones para que elijas la que más te conviene:\n\n📶 Modem WiFi Portatil 4G:  \n- Te dará internet sin depender de la fibra óptica ni instalaciones complicadas  \n- Conecta hasta 10 dispositivos a la vez  \n- La batería dura hasta 14 horas  \n- La inversión es de *$169.900 + $26.000 de envío*\n\n📶 Modem WiFi Portatil 4G/5G (mi recomendado para la mayoría de zonas):  \n- Funciona con señal 4G o 5G, ideal para zonas rurales y veredas  \n- También puede conectarte varios dispositivos sin líos  \n- Batería recargable USB-C fácil de cargar  \n- La inversión sería de *$189.900 + $26.000 de envío*\n\n📶 Modem WiFi Portatil 5G:  \n- Si tienes cobertura 5G en tu finca, esta es la opción más rápida  \n- Te da movilidad, conexión para dispositivos y fácil uso  \n- La inversión es de *$199.900 + $26.000 de envío*\n\n¿Me cuentas dónde exactamente queda la finca? Así te confirmo cuál de estos modems es el mejor para tu zona y si ya tienes señal de algún operador o cuál usas actualmente. ¿Cuál operador usas allá?",
+        "fecha": "2026-10-14T21:21:20.623Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MTk2NjEzFQIAERgSQTNBRUFERjYzN0I3Nzc3RDgwAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573125932481",
