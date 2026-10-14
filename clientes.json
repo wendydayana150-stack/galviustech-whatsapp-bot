@@ -2186,8 +2186,8 @@
     "telefono": "573196690864",
     "nombre": "Cultura Rock",
     "primerContacto": "2026-10-14T18:37:38.563Z",
-    "ultimoContacto": "2026-10-14T18:37:57.200Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T20:31:44.545Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2232,21 +2232,39 @@
         "fecha": "2026-10-14T18:37:56.420Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk2NjkwODY0FQIAERgSQ0JBNzhCMDhBMzFENjA1QTBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T19:41:20.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2NjkwODY0FQIAERgSOUM1MEU3NEY3RjBDMzIxRTNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el costo del módem Wi-Fi portátil?",
+        "fecha": "2026-10-14T20:31:40.964Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento: los módems WiFi portátiles de GalviusTech te permiten internet donde no hay fibra, conectar varios dispositivos y son fáciles de llevar contigo. Ahora mismo contamos con tres versiones:\n\n📶 Modem WiFi Portátil 4G: la inversión es de **$169.900 + $26.000 de envío**  \n🚀 Modem WiFi Portátil 4G/5G (ideal para zonas con 4G y 5G): la inversión es de **$189.900 + $26.000 de envío**  \n⚡ Modem WiFi Portátil 5G (máxima velocidad para lugares con buena cobertura 5G): la inversión es de **$199.900 + $26.000 de envío**\n\n¿Me dices en qué municipio o vereda lo usarías para recomendarte el que más te conviene?",
+        "fecha": "2026-10-14T20:31:43.774Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk2NjkwODY0FQIAERgSNjYyRDU3OUMyRTE2NDRCNUEwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
