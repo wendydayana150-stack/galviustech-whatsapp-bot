@@ -460,8 +460,8 @@
     "telefono": "573218269564",
     "nombre": "Mary",
     "primerContacto": "2026-10-14T19:31:56.197Z",
-    "ultimoContacto": "2026-10-14T19:36:45.226Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-14T19:41:57.187Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -579,16 +579,23 @@
         "fecha": "2026-10-14T19:36:44.274Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSNTA0QkREREFEODZFRTUwNkQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "https://chatbots-ia-rl26.onrender.com/c/laura-r",
+        "fecha": "2026-10-14T19:41:55.789Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSQTlFQTNFNzI3OEU2ODI2NEIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
