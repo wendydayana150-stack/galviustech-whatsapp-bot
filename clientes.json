@@ -3,8 +3,8 @@
     "telefono": "18293505203",
     "nombre": "Personal.",
     "primerContacto": "2026-10-14T12:31:51.690Z",
-    "ultimoContacto": "2026-10-14T12:31:51.690Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T12:32:54.758Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T12:31:50.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJENTI1NUQ0MDU1NjU5OTlDQTcA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Medellin",
+        "fecha": "2026-10-14T12:32:52.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Medellín es una ciudad con buena cobertura 4G y 5G en muchas zonas.\n\nAhora cuéntame, ¿lo necesitas más para estudiar, trabajar, tu negocio o tu hogar? Así te recomiendo el modem ideal para lo que buscas.\n\n¿Para qué planeas usar tu conexión principalmente?",
+        "fecha": "2026-10-14T12:32:53.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJCQUI1REJFNjU4OUY3QTNCRDEA"
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573222795510",
