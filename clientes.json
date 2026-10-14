@@ -2236,8 +2236,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:41:32.486Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-14T21:53:54.252Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2520,6 +2520,20 @@
         "fecha": "2026-10-14T19:41:31.641Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSMTdBNTgwMkUxMjRENzcwOTk3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: En que barrio queda esa direccion?",
+        "fecha": "2026-10-14T20:46:21.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSQUQzMjczODBBREY0RUJGNzE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola",
+        "fecha": "2026-10-14T21:53:53.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSMTdFRTU4ODUwMzIxQkFFQjFFAA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -2534,7 +2548,7 @@
       "ciudad": "Wuilmarys aguirre",
       "direccion": "Ya te confimo"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2543,8 +2557,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
