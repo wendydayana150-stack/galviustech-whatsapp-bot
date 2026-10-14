@@ -47,8 +47,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:47:56.867Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-14T20:48:30.663Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -257,9 +257,21 @@
         "fecha": "2026-10-14T20:47:56.130Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQTg2NEY0ODQzRjIwOUUyREQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me lo podrías enviar a la oficina de interapidisimo en playa rica Tolima",
+        "fecha": "2026-10-14T20:48:29.841Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-14T20:48:29.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQUFEOEUyMzlFNEI2OUVGNjQ2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -268,7 +280,8 @@
       "nombreCliente": "Ricardo Ospina",
       "celular": "3042178669",
       "departamento": "Tolima",
-      "ciudad": "Ronces valles"
+      "ciudad": "Ronces valles",
+      "direccion": "Me lo podrías enviar a la oficina de interapidisimo en playa rica Tolima"
     },
     "pausado": false,
     "etapaManual": null,
