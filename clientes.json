@@ -47,8 +47,8 @@
     "telefono": "573042792011",
     "nombre": "Fuentes Mendez 😘",
     "primerContacto": "2026-10-14T12:34:28.528Z",
-    "ultimoContacto": "2026-10-14T12:34:28.528Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T12:38:57.384Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-10-14T12:34:26.473Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNzkyMDExFQIAERgSNzg5N0JGMDExOEJGMUE2OEY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso es un Internet",
+        "fecha": "2026-10-14T12:38:55.294Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech 😊\n\nJusto tenemos unos módems WiFi portátiles que te llevan internet donde más lo necesitas, sin depender de fibra óptica. Puedes conectar varios dispositivos al mismo tiempo y es ideal para fincas, viajes, trabajo o estudio.\n\nContame, ¿en qué municipio o vereda lo necesitarías? ¿Para qué lo usarías, en casa, estudio, trabajo o viaje? Así te recomiendo el modelo perfecto para vos.\n\n¿Querés que te explique las opciones que tenemos?",
+        "fecha": "2026-10-14T12:38:56.661Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNzkyMDExFQIAERgSNjE1RDFGODgxNTUwOTQ2N0ExAA=="
       }
     ],
     "paso": "conversando",
@@ -79,7 +91,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "18293505203",
