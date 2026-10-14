@@ -159,8 +159,8 @@
     "telefono": "573218269564",
     "nombre": "Mary",
     "primerContacto": "2026-10-14T19:31:56.197Z",
-    "ultimoContacto": "2026-10-14T19:34:21.016Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T19:35:19.628Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -217,13 +217,25 @@
         "fecha": "2026-10-14T19:34:20.170Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSMTlBRENEQkQ1MEE5QURBRUNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-14T19:35:16.855Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 😊 Ya sé que estás en Soledad, Atlántico, y viste las opciones del módem WiFi portátil 4G, 4G/5G y 5G.\n\n¿Para qué lo necesitas principalmente? ¿Para estudiar, trabajar, tu negocio o para tener internet en casa? Así te ayudo a elegir el que más te conviene y te cuento cómo hacemos el envío.\n\n¿Lo usarías más en casa o te mueves mucho?",
+        "fecha": "2026-10-14T19:35:18.790Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MjY5NTY0FQIAERgSMTY0OThFRDkxNjNBNENDRDJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
