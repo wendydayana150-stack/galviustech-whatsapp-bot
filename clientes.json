@@ -41,8 +41,8 @@
     "telefono": "573218628030",
     "nombre": "milancortes048",
     "primerContacto": "2026-10-14T18:09:37.077Z",
-    "ultimoContacto": "2026-10-14T18:15:39.586Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-14T18:20:36.933Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,25 @@
         "fecha": "2026-10-14T18:15:38.895Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjI4MDMwFQIAERgSQzc0RkU2MzU5MzY2ODc3Q0ZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vera esq el problema esq  en la vereda que yo vivo no agarra nada de señal para el teléfono ay que se puede aser",
+        "fecha": "2026-10-14T18:20:33.762Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por ser sincero, eso es importante para ayudarte bien.\n\nSi en tu vereda no hay señal de ningún operador, ni Claro, ni Movistar, ni Tigo, lamentablemente el módem no podrá conectarse porque necesita señal móvil para funcionar.\n\nPero la antena del módem tiene más potencia que un celular y a veces capta señal donde el celular no muestra nada. ¿Tu teléfono no tiene señal justo en la casa o en algún lugar cercano donde te podría servir el módem?\n\nDime si en algún sitio cercano sí tiene señal, para ver si te sirve esta solución.",
+        "fecha": "2026-10-14T18:20:35.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjI4MDMwFQIAERgSNzVEQzU4NUY2NkYwRkMyNUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T18:20:36.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjI4MDMwFQIAERgSMDU4MkY0QzVFODBDQTg1OEIyAA=="
       }
     ],
     "paso": "conversando",
