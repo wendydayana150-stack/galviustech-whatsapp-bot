@@ -790,8 +790,8 @@
     "telefono": "573157560705",
     "nombre": "yeniferpatino966",
     "primerContacto": "2026-10-14T15:44:55.359Z",
-    "ultimoContacto": "2026-10-14T15:45:30.604Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T16:54:46.888Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -860,6 +860,25 @@
         "fecha": "2026-10-14T15:45:28.864Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3NTYwNzA1FQIAERgSODg3QTcwRjMxODY4MzFBQ0IwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T16:54:02.407Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3NTYwNzA1FQIAERgSNkMwQjQ3OTlGMDY0NTA1MjRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tengo señal de movistar",
+        "fecha": "2026-10-14T16:54:43.147Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme eso. Justo nuestros módems están diseñados para captar señal más fuerte que un celular común, así que a veces pueden funcionar donde el celular dice que no hay señal.\n\nPara ayudarte mejor, ¿me puedes decir en qué municipio o vereda estás y para qué necesitas el internet? Así veo cuál versión de módem te viene mejor.\n\nMientras tanto, te cuento que tenemos estas opciones:\n\n📶 Módem WiFi Portátil 4G — el más económico\n📶 Módem WiFi Portátil 4G/5G — el más recomendado para combinar cobertura 4G y 5G\n📶 Módem WiFi Portátil 5G — para zonas con buena cobertura 5G y máxima velocidad\n\n¿Qué me dices, a qué municipio te lo enviaríamos y para qué lo usarías?",
+        "fecha": "2026-10-14T16:54:45.317Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3NTYwNzA1FQIAERgSODdGNEYzODIwRUEyRjc1NEVBAA=="
       }
     ],
     "paso": "conversando",
@@ -873,8 +892,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
