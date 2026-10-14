@@ -105,8 +105,8 @@
     "telefono": "573132784058",
     "nombre": "Rojas",
     "primerContacto": "2026-10-14T16:25:21.378Z",
-    "ultimoContacto": "2026-10-14T16:31:00.936Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T16:32:05.367Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -175,6 +175,25 @@
         "fecha": "2026-10-14T16:31:00.090Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSMjFFM0Y1ODQxNDc1QzdCNTdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El dispositivo necesita tener buena señal o no ?",
+        "fecha": "2026-10-14T16:32:02.563Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para que funcione bien sí necesitas que haya señal móvil de algún operador (Claro, Movistar, Tigo, WOM o ETB) en tu finca o zona donde lo quieras usar.\n\nLo bueno es que el módem tiene una antena mucho más potente que la de un celular, por eso capta mejor la señal y te da un internet más estable, ideal para fincas y zonas rurales donde el celular no alcanza a conectar bien.\n\n¿Me podrías decir qué operador tienes o cuál suele agarrar señal en tu finca? Así confirmamos que es la mejor opción para ti.",
+        "fecha": "2026-10-14T16:32:03.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSQzc4Q0RENkEyNjk5MTI1OTZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T16:32:04.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzg0MDU4FQIAERgSNkE0RUQzNDk3QUVGMkEzMEMyAA=="
       }
     ],
     "paso": "conversando",
