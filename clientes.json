@@ -323,8 +323,8 @@
     "telefono": "573247726921",
     "nombre": "Jhon Nisperuza",
     "primerContacto": "2026-10-14T15:36:46.358Z",
-    "ultimoContacto": "2026-10-14T15:50:14.506Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T15:50:50.409Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -545,9 +545,21 @@
         "fecha": "2026-10-14T15:50:13.663Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSNzJEODc5OTdFNUY1RDgwMjZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una vereda",
+        "fecha": "2026-10-14T15:50:49.485Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-14T15:50:49.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSNzU0QkM3RTY5QjVFRDE5NjU2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -556,7 +568,8 @@
       "nombreCliente": "Elijo este mejor",
       "celular": "3247726921",
       "departamento": "Cordoba",
-      "ciudad": "Buenavista Córdoba"
+      "ciudad": "Buenavista Córdoba",
+      "direccion": "Vivo en una vereda"
     },
     "pausado": false,
     "etapaManual": null,
