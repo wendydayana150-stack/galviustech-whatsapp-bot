@@ -41,8 +41,8 @@
     "telefono": "18293505203",
     "nombre": "Personal.",
     "primerContacto": "2026-10-14T12:31:51.690Z",
-    "ultimoContacto": "2026-10-14T12:33:37.498Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T12:35:24.017Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-10-14T12:33:36.627Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJCMDMwNjMyODI5QjE0Rjk4QjkA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es un solo pago?",
+        "fecha": "2026-10-14T12:35:21.453Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, es un solo pago para el módem que elijas, más el envío de $26.000 a cualquier parte de Colombia.\n\nPuedes pagar contraentrega, transferencia o Si ya tienes cupo aprobado en Sistecredito, también puedes financiarlo a cuotas por ahí.\n\n¿Quieres que te deje listo el pedido para que te llegue a Medellín o prefieres recogerlo en una oficina de envíos cercana? Así avanzamos rápido.",
+        "fecha": "2026-10-14T12:35:23.093Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBI4MzVFQjI0RjJBMkZEMjJBRjgA"
       }
     ],
     "paso": "conversando",
