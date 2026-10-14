@@ -3006,8 +3006,8 @@
     "telefono": "573156574286",
     "nombre": "🍀",
     "primerContacto": "2026-10-14T18:05:04.488Z",
-    "ultimoContacto": "2026-10-14T18:10:09.701Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-14T20:47:41.055Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3088,6 +3088,25 @@
         "fecha": "2026-10-14T18:10:08.739Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2NTc0Mjg2FQIAERgSNjUyQjc4QzlFQTdGOUYzMDhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T19:11:20.413Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2NTc0Mjg2FQIAERgSOTQ3QTVENEUwMEZCNTAwQTczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias su dispositivo no me sirve",
+        "fecha": "2026-10-14T20:47:37.569Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por tu sinceridad, entiendo que buscas algo que se ajuste 100% a lo que necesitas. Si en algún momento quieres que te ayude a revisar otras opciones de conectividad o productos que tenemos en GalviusTech, aquí estoy para ayudarte. \n\n¿Quieres que te muestre otras categorías como impresoras, cámaras de seguridad, o lámparas solares?",
+        "fecha": "2026-10-14T20:47:39.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2NTc0Mjg2FQIAERgSM0UxOEMzNjM5RTY4MDZCQzg0AA=="
       }
     ],
     "paso": "conversando",
@@ -3098,11 +3117,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
