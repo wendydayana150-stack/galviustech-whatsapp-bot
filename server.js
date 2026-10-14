@@ -2135,18 +2135,30 @@ async function iniciarPedido(telefono, productoId) {
                   ciudad: pedidoAnterior.ciudad,
                   direccion: pedidoAnterior.direccion,
                   barrio: pedidoAnterior.barrio,
-                  medioPago: pedidoAnterior.medioPago,
+                  medioPago: medioPagoReciente(sesion) || pedidoAnterior.medioPago,
             };
+            if (esPagoSistecredito(nuevoPedido.medioPago)) nuevoPedido.cedula = pedidoAnterior.cedula || null;
             await enviarTexto(
                   telefono,
                   `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Como ya tengo tus datos de un pedido anterior, los voy a usar para este nuevo pedido. Si necesitas cambiar algo (direccion, celular, etc.) dime cual y te lo corrijo.`
                   );
+            // Con Sistecredito hace falta la cedula: se pide antes de registrar el pedido
+            if (esPagoSistecredito(nuevoPedido.medioPago) && !nuevoPedido.cedula) {
+                  sesion.pedido = nuevoPedido;
+                  sesion.paso = "pedido_cedula";
+                  await enviarTexto(telefono, "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)");
+                  return;
+            }
             // Mismo fix que en manejarFlujoPedido: guardar PRIMERO, confirmar solo si de verdad
             // quedo guardado (ver comentario detallado junto a guardarPedido).
             const guardadoExitoso = await guardarPedido(nuevoPedido);
             if (guardadoExitoso) {
                   if ((nuevoPedido.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
+                  }
+                  if (esPagoSistecredito(nuevoPedido.medioPago)) {
+                        await enviarTexto(telefono, config.mensajeSistecredito);
+                        marcarSistecredito(sesion, nuevoPedido);
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
@@ -2165,6 +2177,8 @@ async function iniciarPedido(telefono, productoId) {
       sesion.paso = "pedido_nombre";
       sesion.ultimoProducto = producto.id;
       sesion.pedido = { productoId, nombreProducto: producto.nombre, precio: producto.precio, telefono };
+      const pagoDicho = medioPagoReciente(sesion);
+      if (pagoDicho) sesion.pedido.medioPago = pagoDicho;
       await enviarTexto(
             telefono,
             `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?`
@@ -2291,7 +2305,37 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
             mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
       },
+      {
+            // Solo se pide si paga con Sistecredito: con la cedula Wendy genera la venta en Credinet (oct-2026)
+            campo: "cedula",
+            paso: "pedido_cedula",
+            tipo: "cedula",
+            soloSi: (p) => esPagoSistecredito(p.medioPago),
+            pregunta: "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+            mensajeError: "Ese número de cédula no me quedó claro. Escríbemelo solo con números, por favor.",
+      },
 ];
+
+function esPagoSistecredito(medio) {
+      return /siste|cr[eé]dito|cuota/i.test(medio || "");
+}
+
+// Un campo falta si esta vacio y aplica a este pedido (la cedula solo aplica con Sistecredito)
+function faltaCampo(pedido, d) {
+      return !pedido[d.campo] && (!d.soloSi || d.soloSi(pedido));
+}
+
+// Medio de pago que el cliente dijo en sus ultimos mensajes (ej. "SISTECREDITO" antes de confirmar
+// la compra). Manda sobre el del pedido anterior: caso real 13-oct-2026, el cliente dijo
+// Sistecredito y Michell le mando los datos de transferencia de su compra anterior.
+function medioPagoReciente(sesion) {
+      const mensajes = (sesion.historial || []).filter((m) => m.role === "user" && typeof m.content === "string").slice(-6).reverse();
+      for (const m of mensajes) {
+            const medio = extraerCamposPedido(m.content).medioPago;
+            if (medio) return esPagoSistecredito(medio) ? "Sistecrédito" : medio;
+      }
+      return null;
+}
 
 // Valida que la respuesta del cliente durante el flujo de pedido tenga un minimo de sentido para
 // el campo que se esta pidiendo, para no avanzar el pedido con datos que claramente son basura
@@ -2321,6 +2365,10 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "direccion":
                   return limpio.length >= 5;
+            case "cedula": {
+                  const digitos = limpio.replace(/\D/g, "");
+                  return digitos.length >= 5 && digitos.length <= 11 && !/[a-zA-Z]{3,}/.test(limpio);
+            }
             case "pago":
                   return /contra|entrega|efectiv|transf|nequi|davipl|bancol|pse|tarjeta|otro|giro|siste|cr[eé]dito|cuotas/i.test(limpio);
             default:
@@ -2419,6 +2467,13 @@ function pareceCancelacionDePedido(texto) {
       return /^(cancelar|cancela|cancelalo|cancelemos)\b/.test(limpio) || /\bcancelar\b.*\bpedido\b/.test(limpio);
 }
 
+// Pedido con Sistecredito: Wendy genera la venta en Credinet (Venta rapida) con la cedula y el valor,
+// y le pega el link al cliente. Queda marcado en el panel como "necesita atencion" con esos datos.
+function marcarSistecredito(sesion, pedido) {
+      sesion.necesitaAtencion = true;
+      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio)} · Producto: ${pedido.nombreProducto}`;
+}
+
 // Registra el pedido de la sesion cuando ya estan todos los datos (antes vivia dentro de
 // manejarFlujoPedido; se saco a funcion para usarlo tambien con los pedidos del catalogo en linea).
 async function finalizarPedidoSesion(telefono) {
@@ -2448,8 +2503,9 @@ async function finalizarPedidoSesion(telefono) {
                   if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
                   }
-                  if (/siste|cr[eé]dito|cuota/i.test(pedidoAGuardar.medioPago || "")) {
+                  if (esPagoSistecredito(pedidoAGuardar.medioPago)) {
                         await enviarTexto(telefono, config.mensajeSistecredito);
+                        marcarSistecredito(sesion, pedidoAGuardar);
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
@@ -2512,6 +2568,7 @@ const ETIQUETAS_CAMPOS_PEDIDO = {
       direccion: "Dirección completa",
       barrio: "Barrio",
       medioPago: "Medio de pago",
+      cedula: "Cédula (para Sistecrédito)",
 };
 
 async function manejarMensajeCatalogo(telefono, texto) {
@@ -2590,7 +2647,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
             .join("\n");
       const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\n*Total: ${formatearPrecio(precio)}*`;
 
-      const faltantes = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => !pedido[d.campo]);
+      const faltantes = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => faltaCampo(pedido, d));
       if (faltantes.length === 0) {
             await enviarTexto(telefono, encabezado);
             await finalizarPedidoSesion(telefono);
@@ -2668,7 +2725,7 @@ async function manejarFlujoPedido(telefono, texto) {
       const etiquetasFlujo = {
             nombreCliente: ["Nombre"], celular: ["Celular", "Tel[eé]fono"], departamento: ["Departamento"],
             ciudad: ["Ciudad", "Municipio"], direccion: ["Direcci[oó]n"], barrio: ["Barrio"],
-            medioPago: ["Medio de pago", "Forma de pago", "Pago"],
+            medioPago: ["Medio de pago", "Forma de pago", "Pago"], cedula: ["C[eé]dula", "CC"],
       };
       for (const d of DEFINICIONES_CAMPOS_PEDIDO) {
             if (sesion.pedido[d.campo]) continue;
@@ -2692,13 +2749,13 @@ async function manejarFlujoPedido(telefono, texto) {
                   return true;
             }
 
-            sesion.pedido[definicionActual.campo] = textoParaValidar;
+            sesion.pedido[definicionActual.campo] = definicionActual.campo === "cedula" ? textoParaValidar.replace(/\D/g, "") : textoParaValidar;
       }
 
       // Busca cual es el siguiente campo que todavia falta, saltando los que ya se llenaron (por
       // ejemplo porque el cliente los mando todos juntos en un solo mensaje), en lugar de avanzar
       // paso por paso a ciegas.
-      const siguienteFaltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => !sesion.pedido[d.campo]);
+      const siguienteFaltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
 
       if (!siguienteFaltante) {
             await finalizarPedidoSesion(telefono);
