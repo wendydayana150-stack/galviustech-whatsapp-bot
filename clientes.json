@@ -411,8 +411,8 @@
     "telefono": "573127766247",
     "nombre": "hdhsbsks",
     "primerContacto": "2026-10-14T23:20:18.281Z",
-    "ultimoContacto": "2026-10-14T23:53:20.434Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T23:54:22.358Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -512,6 +512,25 @@
         "fecha": "2026-10-14T23:53:19.727Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NzY2MjQ3FQIAERgSODE2N0UxODQ0ODlGMkZFMEU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero hay q meterle recargas a la SIM para q obtenga datos ?",
+        "fecha": "2026-10-14T23:54:19.030Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem funciona con una SIM de cualquier operador (Claro, Movistar, Tigo, WOM), y tú eliges y activas el plan o recargas que prefieras para tener datos.\n\nY te cuento que al hacer tu pedido con nosotros, te enviamos de obsequio una SIMCard de Claro (solo la tarjeta física, sin plan ni recarga), para que empieces con esa si quieres.\n\n¿Quieres que te ayude ya a dejar tu pedido del módem 4G/5G listo?",
+        "fecha": "2026-10-14T23:54:20.997Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NzY2MjQ3FQIAERgSOTRCQURBRkRDMTQ3ODM3NjA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T23:54:21.522Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NzY2MjQ3FQIAERgSNjc4NjQzQUM1MDNENDc4NEVGAA=="
       }
     ],
     "paso": "conversando",
