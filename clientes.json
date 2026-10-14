@@ -3,8 +3,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-14T16:10:53.263Z",
-    "ultimoContacto": "2026-10-14T16:13:43.852Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T16:13:59.265Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-10-14T16:13:43.039Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMjFDOERFMkJEODNCREVCNUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-10-14T16:13:55.562Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, para uso en hogar en Ayapel te recomendaría estas tres opciones:\n\n📶 Modem WiFi Portátil 4G: conexión sólida en 4G, buena para fincas y zonas sin fibra. Inversión de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G: el más seguro, porque funciona donde haya 4G o 5G. Inversión de **$189.900 + $26.000 envío**.\n\n🌐 Modem WiFi Portátil 5G: si sabes que hay muy buena cobertura 5G en tu zona y quieres la máxima velocidad. Inversión de **$199.900 + $26.000 envío**.\n\nTodos tienen batería recargable que dura hasta 14 horas, conectan varios dispositivos a la vez y funcionan con SIM de cualquier operador. Además, mejoran la señal mucho más que el celular normal.\n\n¿Quieres que te ayude a dejar el pedido listo para que empieces a navegar sin depender de nadie?",
+        "fecha": "2026-10-14T16:13:58.365Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMTY2QTQ1QzA5NDg4QjVEOEQ1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
