@@ -3,8 +3,8 @@
     "telefono": "573222578019",
     "nombre": "D J E P",
     "primerContacto": "2026-10-14T23:14:52.715Z",
-    "ultimoContacto": "2026-10-14T23:17:33.971Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T23:18:25.559Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,6 +54,25 @@
         "fecha": "2026-10-14T23:17:33.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSMzFEMjUzN0I3Q0IyQTYxNkUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta funciona con antena satelital o antena normal",
+        "fecha": "2026-10-14T23:18:22.593Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con la señal de los operadores celulares, es decir, una SIM Card normal (Claro, Movistar, Tigo, WOM).\n\nNo funciona con antena satelital; si en tu zona no hay señal de ningún operador celular, entonces no sería compatible.\n\nSin embargo, el módem tiene una antena más potente que la de un celular común y capta mejor la señal 4G/5G para darte una conexión más estable y fuerte en la vereda o finca.\n\n¿Ya tienes conexión celular ahí o usas WiFi en otro lugar? Así te oriento mejor.",
+        "fecha": "2026-10-14T23:18:24.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSMUUyRTMzMEJFMDg5MzI0MDQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T23:18:24.780Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyNTc4MDE5FQIAERgSMTQzMkUwMzFDMDc4ODlCRTAxAA=="
       }
     ],
     "paso": "conversando",
