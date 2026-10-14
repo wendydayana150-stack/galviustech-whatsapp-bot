@@ -323,8 +323,8 @@
     "telefono": "573247726921",
     "nombre": "Jhon Nisperuza",
     "primerContacto": "2026-10-14T15:36:46.358Z",
-    "ultimoContacto": "2026-10-14T15:50:52.302Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-14T15:54:26.181Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -569,9 +569,21 @@
         "fecha": "2026-10-14T15:50:51.645Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSQ0QwMDZBMzNBNzdFOURFMEQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso se puede pagar a cuotas",
+        "fecha": "2026-10-14T15:54:25.360Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-10-14T15:54:25.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSNTc4RkM2QkVGQTUyOEQyOUEyAA=="
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "pedido_cedula",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -582,7 +594,8 @@
       "departamento": "Cordoba",
       "ciudad": "Buenavista Córdoba",
       "direccion": "Vivo en una vereda",
-      "barrio": "Del municipio"
+      "barrio": "Del municipio",
+      "medioPago": "Eso se puede pagar a cuotas"
     },
     "pausado": false,
     "etapaManual": null,
