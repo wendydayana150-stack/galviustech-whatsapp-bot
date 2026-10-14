@@ -47,8 +47,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:47:20.430Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T20:47:38.662Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,15 +221,28 @@
         "fecha": "2026-10-14T20:47:19.683Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSQUQ1RUNDMzA1QkQwMDg2NzY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3042178669",
+        "fecha": "2026-10-14T20:47:37.850Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-14T20:47:37.851Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSMDJDRkMxNkVCNkNENDIwNjA1AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573015209022",
-      "nombreCliente": "Ricardo Ospina"
+      "nombreCliente": "Ricardo Ospina",
+      "celular": "3042178669"
     },
     "pausado": false,
     "etapaManual": null,
