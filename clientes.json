@@ -3,8 +3,8 @@
     "telefono": "573116819003",
     "nombre": "Angela",
     "primerContacto": "2026-10-14T18:03:50.499Z",
-    "ultimoContacto": "2026-10-14T18:03:50.499Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T18:03:54.194Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T18:03:49.764Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODE5MDAzFQIAERgSQUJBMzBBRjg2Q0UwMjRGREU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-14T18:03:52.533Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, soy Michell. ¿En qué municipio o vereda buscas tener internet? ¿Y para qué lo necesitas, para estudiar, trabajar, proyecto personal o en tu hogar? Así te recomiendo el módem que mejor te sirva.",
+        "fecha": "2026-10-14T18:03:53.323Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODE5MDAzFQIAERgSQTIxNTI2NUNGMjFFNjc5MTNFAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573107501785",
