@@ -3,8 +3,8 @@
     "telefono": "573134135501",
     "nombre": "Angie",
     "primerContacto": "2026-10-14T19:03:42.036Z",
-    "ultimoContacto": "2026-10-14T19:04:05.488Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T19:04:50.109Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-14T19:04:04.521Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MTM1NTAxFQIAERgSMzAwRUVGMDMzQUJCOUYxRTYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la vereda Rasgata bajo del municipio de Tausa en Cundinamarca, trabajo y estudio",
+        "fecha": "2026-10-14T19:04:45.101Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. En tu caso que es para trabajo y estudio en Rasgata Bajo, Tausa, acá tienes las 3 opciones de módem para que elijas:\n\n📶 **Módem WiFi Portátil 4G**  \n- Mejor cobertura que el celular en zonas rurales  \n- Conecta hasta 10 dispositivos  \n- Fácil de usar y transportar  \nLa inversión es de **$169.900 + $26.000 de envío**\n\n📶 **Módem WiFi Portátil 4G/5G** (recomendado para ti)  \n- Funciona tanto en zonas 4G como 5G  \n- Ideal para trabajo y estudio donde no llega fibra  \n- Fácil transporte y sin instalaciones complicadas  \nLa inversión sería **$189.900 + $26.000 de envío**\n\n📶 **Módem WiFi Portátil 5G**  \n- Para zonas con buena cobertura 5G  \n- Máxima velocidad en conexión móvil  \n- Portátil y sin instalaciones  \nLa inversión es de **$199.900 + $26.000 de envío**\n\n🔥 ¡Los modems bajaron un 30%! Esta es una inversión que te dará conexión estable para estudiar y trabajar sin depender de fibra o WiFi de otros.\n\n¿Con cuántos dispositivos planeas conectarte a internet con el módem? Así te ayudo a elegir mejor.",
+        "fecha": "2026-10-14T19:04:48.216Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTM1NTAxFQIAERgSNjI2ODNFOTRDQkIwNEM1NUJDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
