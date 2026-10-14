@@ -3,8 +3,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:37:52.367Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T19:38:24.898Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -167,10 +167,27 @@
         "fecha": "2026-10-14T19:37:51.715Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSNkVCMzFDMkFDRTVBNkYwNjlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-10-14T19:38:23.846Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-14T19:38:24.159Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSNzQ3MDEzOUZEOTBBRjA4RjRFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573508942874"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
