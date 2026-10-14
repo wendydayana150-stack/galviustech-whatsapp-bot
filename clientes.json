@@ -4103,8 +4103,8 @@
     "telefono": "573235260112",
     "nombre": "montesbeltranblancarosa20",
     "primerContacto": "2026-10-14T14:39:56.757Z",
-    "ultimoContacto": "2026-10-14T14:41:47.636Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T18:03:21.335Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4136,6 +4136,39 @@
         "fecha": "2026-10-14T14:41:46.807Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSMkVEREZEODNDRTBCRjNEQkVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-14T17:49:28.191Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSRkY1N0I4QjE0QjMwRTg1NDRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-14T17:49:29.027Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSMkJFMjUyODFFMEJGM0M3NjhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T17:49:29.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSQ0FBMkY5QjIzMUNBRDUzMkQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias deja pensarlo",
+        "fecha": "2026-10-14T18:03:19.422Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tómate tu tiempo sin problema. Cuando quieras que te cuente más o te ayude con algún producto, aquí estaré para ti.\n\n¿Quieres que te recuerde alguna categoría o producto para cuando decidas?",
+        "fecha": "2026-10-14T18:03:20.310Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSN0M4MTM4QUZGQjI4NjQyMEZEAA=="
       }
     ],
     "paso": "conversando",
@@ -4146,12 +4179,10 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
