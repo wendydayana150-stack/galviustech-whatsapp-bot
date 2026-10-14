@@ -3,8 +3,8 @@
     "telefono": "573136735799",
     "nombre": "cuenta de empresa",
     "primerContacto": "2026-10-14T20:02:50.511Z",
-    "ultimoContacto": "2026-10-14T20:02:50.511Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T20:04:09.009Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,31 @@
         "fecha": "2026-10-14T20:02:49.832Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NzM1Nzk5FQIAERgSRkY0MDdENTY1QjU4RkRGQThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-10-14T20:04:07.597Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-14T20:04:07.597Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-14T20:04:07.597Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NzM1Nzk5FQIAERgSRkVGRkUwNzJBMTYxNDk4MzExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-14T20:04:08.190Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NzM1Nzk5FQIAERgSMDAxMkI1RDhDQkEyNUQ4MzI0AA=="
       }
     ],
     "paso": "conversando",
@@ -31,11 +56,14 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573235148380",
