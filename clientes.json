@@ -351,8 +351,8 @@
     "telefono": "573013953991",
     "nombre": "yuliana",
     "primerContacto": "2026-10-14T19:46:32.535Z",
-    "ultimoContacto": "2026-10-14T20:09:14.482Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T20:09:57.550Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -445,6 +445,25 @@
         "fecha": "2026-10-14T20:09:13.531Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzOTUzOTkxFQIAERgSNjFCNjg4Mjg3RDgxMTdBNzUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y tengo que hacerles recarga verdas",
+        "fecha": "2026-10-14T20:09:54.691Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, tú eliges el plan o recarga que mejor te sirva según lo que necesites.\n\nEl módem funciona con cualquier SIM de Tigo, Claro, Movistar o WOM, y la conexión depende de la recarga o plan que activas en esa SIM.\n\nNo hay cobros ni mensualidades fijas con nosotros, solo compras el módem y después recargas como en un celular normal para tener internet.\n\n¿Quisieras que te oriente sobre cómo empezar con la recarga o prefieres que te deje tu pedido listo ahora mismo?",
+        "fecha": "2026-10-14T20:09:56.079Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzOTUzOTkxFQIAERgSQjIyREE0OEU2RUQyQUY5OEQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-14T20:09:56.629Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzOTUzOTkxFQIAERgSRkQwQjZERDUyRkM5MUFBNTE5AA=="
       }
     ],
     "paso": "conversando",
