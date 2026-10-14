@@ -41,8 +41,8 @@
     "telefono": "573137508342",
     "nombre": "Cima De Oro",
     "primerContacto": "2026-10-14T22:38:22.009Z",
-    "ultimoContacto": "2026-10-14T22:41:19.592Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T22:41:55.029Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,13 +99,25 @@
         "fecha": "2026-10-14T22:41:18.916Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTA4MzQyFQIAERgSOTRCNTRGNUNEOUJEQkY2NDU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Personal",
+        "fecha": "2026-10-14T22:41:51.858Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme. \n\nMira, para uso personal en Jamundí Parte Alta te recomiendo estas 3 opciones de módems:\n\n📶 **Modem WiFi Portatil 4G**  \n- Conectas hasta 10 dispositivos  \n- Perfecto para lugares sin fibra óptica  \n- Fácil de usar y llevar donde quieras  \n- La inversión es de **$169.900 + $26.000 de envío**\n\n📶 **Modem WiFi Portatil 4G/5G**  \n- Doble tecnología 4G y 5G para más velocidad y compatibilidad  \n- Ideal para zonas con señal 4G y 5G  \n- Portátil y sin instalaciones complicadas  \n- La inversión es de **$189.900 + $26.000 de envío**\n\n📶 **Modem WiFi Portatil 5G**  \n- Velocidad máxima 5G si tienes buena cobertura 5G cerca  \n- Conecta varios dispositivos con WiFi estable  \n- Perfecto para trabajar o estudiar con conexiones rápidas  \n- La inversión es de **$199.900 + $26.000 de envío**\n\n🔥 ¡Los módems bajaron un 30%! Es una inversión para tener internet fiable donde más lo necesitas, sin depender de fibra ni instalaciones.  \n\n¿Quieres que te ayude a elegir el que más te conviene o quieres que te deje listo el pedido de alguno?",
+        "fecha": "2026-10-14T22:41:54.509Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTA4MzQyFQIAERgSRkFGN0U5Qzg2Qjk1RDM3RjgwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
