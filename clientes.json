@@ -3,8 +3,8 @@
     "telefono": "573235260112",
     "nombre": "montesbeltranblancarosa20",
     "primerContacto": "2026-10-14T14:39:56.757Z",
-    "ultimoContacto": "2026-10-14T14:39:56.757Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T14:41:47.636Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T14:39:56.051Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSQ0UwMzhDRUNGQzE4NUYwQzEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-14T14:41:46.807Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-14T14:41:46.807Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MjYwMTEyFQIAERgSMkVEREZEODNDRTBCRjNEQkVBAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573105026168",
