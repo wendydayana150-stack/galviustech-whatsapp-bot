@@ -47,8 +47,8 @@
     "telefono": "573125098165",
     "nombre": "Quinta esencia",
     "primerContacto": "2026-10-14T23:33:45.866Z",
-    "ultimoContacto": "2026-10-14T23:33:45.866Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T23:36:21.752Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-14T23:33:45.257Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MDk4MTY1FQIAERgSM0Q1MjIzQUZFQ0ZCRjE3NjEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "estoy en la vereda el santuario icononzo tolima",
+        "fecha": "2026-10-14T23:36:18.832Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por el dato, y ¿para qué lo necesitas? ¿Estudio, trabajo, hogar o negocio? \n\nMientras, te cuento que en GalviusTech tenemos 3 modelos de módem que podrían servirte:\n\n📶 *Modem WiFi Portátil 4G*: conexión estable en red 4G, wifi para varios dispositivos, ideal para zonas sin fibra, por $169.900 + $26.000 de envío.\n\n📶 *Modem WiFi Portátil 4G/5G*: funciona tanto en 4G como 5G, mejor cobertura y velocidad, ideal para el campo y viajes, a $189.900 + $26.000 de envío.\n\n📶 *Modem WiFi Portátil 5G*: para las zonas que ya tienen buena 5G, con más velocidad, $199.900 + $26.000 de envío.\n\n¿En qué zona o situación usas el internet? Así te recomiendo el mejor modem para ti.",
+        "fecha": "2026-10-14T23:36:21.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MDk4MTY1FQIAERgSNjUxQkVBNDgzMTlENEIxRTkzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118974680",
