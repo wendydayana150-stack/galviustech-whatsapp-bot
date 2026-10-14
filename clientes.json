@@ -3,8 +3,8 @@
     "telefono": "573246487271",
     "nombre": "sin nombré",
     "primerContacto": "2026-10-14T17:44:12.342Z",
-    "ultimoContacto": "2026-10-14T17:50:39.194Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-14T17:51:13.063Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -149,6 +149,25 @@
         "fecha": "2026-10-14T17:50:37.652Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSMzk4MjAxMjU1ODEzQTY3RDIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Noo",
+        "fecha": "2026-10-14T17:51:10.387Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Julián, ¿me podrías contar qué producto quieres o para qué lo necesitas? Así te oriento mejor y te recomiendo lo que realmente te sirva. \n\n¿Buscas un reloj inteligente, un modem, una impresora, o quizá una lámpara o cámara? Cuéntame para qué lo usarías. ¿Qué estás buscando exactamente?",
+        "fecha": "2026-10-14T17:51:11.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSMkQyODJEMDUwNzc5MEY3RjlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-14T17:51:12.243Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSNjc2M0FCREE4OEIzRTY4MTAxAA=="
       }
     ],
     "paso": "confirmar_producto",
