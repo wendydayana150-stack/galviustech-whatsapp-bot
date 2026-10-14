@@ -3,8 +3,8 @@
     "telefono": "573116819003",
     "nombre": "Angela",
     "primerContacto": "2026-10-14T18:03:50.499Z",
-    "ultimoContacto": "2026-10-14T18:03:54.194Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T18:05:00.083Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-14T18:03:53.323Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODE5MDAzFQIAERgSQTIxNTI2NUNGMjFFNjc5MTNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-14T18:04:57.239Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\nNuestros módems ofrecen internet propio en zonas sin fibra, conexión para varios dispositivos y son súper fáciles de llevar donde los necesites.\n\n🔥 ¡Además, los módems bajaron un 30%! Aprovecha esta inversión:\n\n• Módem WiFi Portátil 4G: **$169.900** + $26.000 de envío  \n• Módem WiFi Portátil 4G/5G (recomendado para casi todas las zonas): **$189.900** + $26.000 de envío  \n• Módem WiFi Portátil 5G (máxima velocidad si tienes cobertura 5G): **$199.900** + $26.000 de envío\n\n¿En qué municipio o vereda lo usarías principalmente? Así te ayudo a elegir el ideal.",
+        "fecha": "2026-10-14T18:04:59.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODE5MDAzFQIAERgSRTMyOUQ2OTEzREE4NEY4QzhBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
