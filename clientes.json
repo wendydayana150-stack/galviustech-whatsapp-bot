@@ -3,8 +3,8 @@
     "telefono": "573214015612",
     "nombre": "jimena cortés",
     "primerContacto": "2026-10-14T15:18:30.242Z",
-    "ultimoContacto": "2026-10-14T15:18:30.242Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T15:20:49.466Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-14T15:18:29.561Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0MDE1NjEyFQIAERgSQ0I4Mzk1RDE5MUJDMkQ3MTVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-14T15:20:48.636Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-14T15:20:48.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MDE1NjEyFQIAERgSNjU2RTdBRERCRjUxQjAwNkFEAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214518565",
