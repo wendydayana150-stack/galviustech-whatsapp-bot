@@ -41,8 +41,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T19:40:17.788Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-14T19:40:19.218Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -272,6 +272,13 @@
         "fecha": "2026-10-14T19:40:17.085Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSMzVEQjk1RTEzMEJFM0Q5MzRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ya te validé y el modem te llegaría el dia de mañana a Bogotá",
+        "fecha": "2026-10-14T19:40:18.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSRTY0MUY1Q0Q2N0EwRkNCMjYwAA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -284,7 +291,7 @@
       "celular": "3508942874",
       "departamento": "Victoria norte"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
