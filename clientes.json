@@ -1415,8 +1415,8 @@
     "telefono": "573232946169",
     "nombre": "Jose",
     "primerContacto": "2026-10-14T22:19:19.745Z",
-    "ultimoContacto": "2026-10-14T22:24:56.522Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-14T23:46:01.541Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1485,6 +1485,25 @@
         "fecha": "2026-10-14T22:24:54.626Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyOTQ2MTY5FQIAERgSODVDRDBDNERGOEM0Nzg1MzUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-14T23:26:21.258Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTQ2MTY5FQIAERgSNkVCOUM3ODNBNkJENjY4Mzk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso trabaja con recarga oq",
+        "fecha": "2026-10-14T23:45:58.738Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, funciona con recargas de la SIM que le pongas, como cualquier celular.\n\nVos compras la SIM de cualquier operador y recargás el plan o megas que necesites para tener internet.\n\nEl módem convierte esa señal móvil en WiFi para varios dispositivos.\n\nAsí todo queda más práctico y económico, con una sola recarga podés conectar a toda la familia o a tus dispositivos de trabajo y estudio.\n\n¿Ya tenés una SIM o querés que te asesore para que todo quede listo en tu pedido?",
+        "fecha": "2026-10-14T23:46:00.574Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTQ2MTY5FQIAERgSNjREMDBGREIzNjk4RURFQ0ZGAA=="
       }
     ],
     "paso": "conversando",
@@ -1498,8 +1517,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
