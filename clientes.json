@@ -3,8 +3,8 @@
     "telefono": "573146554052",
     "nombre": "Robinson",
     "primerContacto": "2026-10-14T23:55:54.605Z",
-    "ultimoContacto": "2026-10-14T23:55:54.605Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T23:57:35.836Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T23:55:53.955Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NTU0MDUyFQIAERgSMjE0NTM4Qzk0NkFEQjBCNzA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-14T23:57:33.730Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas usar el módem?  \nY dime, ¿lo quieres para estudiar, trabajar, tu hogar o tu negocio? 😊  \nAsí te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-10-14T23:57:34.882Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NTU0MDUyFQIAERgSRjNDNTU5MUQzQkQxRDI1NTVEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573241175794",
