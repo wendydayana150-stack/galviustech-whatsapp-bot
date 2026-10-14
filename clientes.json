@@ -69,8 +69,8 @@
     "telefono": "573246487271",
     "nombre": "sin nombré",
     "primerContacto": "2026-10-14T17:44:12.342Z",
-    "ultimoContacto": "2026-10-14T17:53:44.572Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-14T17:55:05.407Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -277,6 +277,25 @@
         "fecha": "2026-10-14T17:53:43.656Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSRDE3MTBCMTIxRTAxRkQ5RkM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para negocios",
+        "fecha": "2026-10-14T17:55:02.519Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Para negocio en zona de poca señal, lo ideal es el Modem WiFi Portátil 4G/5G, porque conecta varios dispositivos con buena velocidad y estabilidad.\n\n🔥 La inversión para este modelo es de **$189.900 + $26.000 de envío**. \n\nCon este módem tendrás internet propio para tu negocio sin depender de fibra o WiFi externo, y funciona muy bien en veredas o sitios con señal débil. \n\n¿Quieres que te ayude a dejar tu pedido listo? ¿O tienes alguna duda más sobre el módem?",
+        "fecha": "2026-10-14T17:55:04.070Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSQzkyQ0M0NjNFQTY2NEQwOTNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-14T17:55:04.618Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSQUY3QjVDMUVCMEQzNTAyOTUwAA=="
       }
     ],
     "paso": "confirmar_producto",
