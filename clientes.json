@@ -443,8 +443,8 @@
     "telefono": "573146173249",
     "nombre": "José Gomez",
     "primerContacto": "2026-10-14T19:58:08.598Z",
-    "ultimoContacto": "2026-10-14T20:34:03.228Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T20:38:24.392Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -476,13 +476,25 @@
         "fecha": "2026-10-14T20:34:02.416Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTczMjQ5FQIAERgSOTI0NzE1MjU5M0Y5OEZBRjc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bosconia cesar",
+        "fecha": "2026-10-14T20:38:21.840Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Bosconia, Cesar. Ahora me cuentas, ¿lo vas a usar para trabajar, estudiar, para tu negocio o para tu casa? Así te recomiendo la mejor opción y que no te quedes sin internet cuando más lo necesitas.",
+        "fecha": "2026-10-14T20:38:23.558Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTczMjQ5FQIAERgSQjU5MTRDODAyRkVBM0Y2MDU4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
