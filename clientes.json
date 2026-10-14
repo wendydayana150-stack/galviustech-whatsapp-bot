@@ -227,8 +227,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:46:48.815Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-14T22:47:01.917Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -546,9 +546,21 @@
         "fecha": "2026-10-14T22:46:48.245Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSNUI3MDQ4OUNBRUQxMDJBQTM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ayapel Córdoba",
+        "fecha": "2026-10-14T22:47:01.210Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-14T22:47:01.211Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSRjBFRTY0RUM0Q0E0OTRGMDFGAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -557,7 +569,8 @@
       "medioPago": "contra entrega",
       "nombreCliente": "Interrapidicimo",
       "celular": "Cc 1064897271\n3228453025",
-      "departamento": "Cordoba"
+      "departamento": "Cordoba",
+      "ciudad": "Ayapel Córdoba"
     },
     "pausado": false,
     "etapaManual": null,
