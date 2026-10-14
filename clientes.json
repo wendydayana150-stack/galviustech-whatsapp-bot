@@ -3,8 +3,8 @@
     "telefono": "573148628327",
     "nombre": "🫶🏻",
     "primerContacto": "2026-10-14T02:54:53.185Z",
-    "ultimoContacto": "2026-10-14T02:54:53.185Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T02:55:17.859Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,6 +23,18 @@
         "fecha": "2026-10-14T02:54:52.302Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSNTcxOTA5MTcwMkVCRTExNUQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "FACTURAS",
+        "fecha": "2026-10-14T02:55:15.974Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿me cuentas para qué necesitas imprimir las facturas? Así te recomiendo la mejor impresora para eso.\n\n¿Las quieres para un negocio, oficina o algo más?",
+        "fecha": "2026-10-14T02:55:17.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjI4MzI3FQIAERgSMDk3RkY5QzlENkU2OUE1MTY3AA=="
       }
     ],
     "paso": "conversando",
@@ -34,7 +46,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573006458820",
