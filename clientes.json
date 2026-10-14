@@ -47,8 +47,8 @@
     "telefono": "573015209022",
     "nombre": "empresas",
     "primerContacto": "2026-10-14T20:41:19.894Z",
-    "ultimoContacto": "2026-10-14T20:47:38.662Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-14T20:47:46.532Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -233,16 +233,29 @@
         "fecha": "2026-10-14T20:47:37.851Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSMDJDRkMxNkVCNkNENDIwNjA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tolima",
+        "fecha": "2026-10-14T20:47:45.848Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-14T20:47:45.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MjA5MDIyFQIAERgSODRDMzIyOTBFRTA3ODI1RDQxAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573015209022",
       "nombreCliente": "Ricardo Ospina",
-      "celular": "3042178669"
+      "celular": "3042178669",
+      "departamento": "Tolima"
     },
     "pausado": false,
     "etapaManual": null,
