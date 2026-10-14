@@ -3,8 +3,8 @@
     "telefono": "573169103179",
     "nombre": "Ruso",
     "primerContacto": "2026-10-14T13:07:56.154Z",
-    "ultimoContacto": "2026-10-14T13:08:24.091Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T13:10:03.126Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-10-14T13:08:23.182Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5MTAzMTc5FQIAERgSNDcwNUQ0QjQ5RjlFMjBCNjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ése modem tiene internet pero tiene que uno pagar mensualidad",
+        "fecha": "2026-10-14T13:10:00.804Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con una SIM de operador, entonces la conexión a internet depende de que tengas un plan o recarga activa con ese operador. Nosotros incluimos de regalo una SIMCard de Claro, pero sin megas ni plan activado; tú decides cuándo y con qué plan la activas según lo que necesites y puedas pagar.\n\nDime, ¿en qué ciudad o vereda lo usarías y para qué principalmente? Así te recomendaré el módem ideal para ti.",
+        "fecha": "2026-10-14T13:10:02.251Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5MTAzMTc5FQIAERgSNzkzQUEyMTRENjg4Mjc5RkE4AA=="
       }
     ],
     "paso": "conversando",
