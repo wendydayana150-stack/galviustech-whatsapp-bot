@@ -147,8 +147,8 @@
     "telefono": "573235148380",
     "nombre": ".",
     "primerContacto": "2026-10-14T20:00:56.923Z",
-    "ultimoContacto": "2026-10-14T20:10:04.076Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-14T20:10:52.045Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -193,13 +193,25 @@
         "fecha": "2026-10-14T20:10:03.344Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MTQ4MzgwFQIAERgSRDIyRkM4QjY4RTRFRjM2RjY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para hacer transmisiónes en vivo en la ciudad de Quibdo",
+        "fecha": "2026-10-14T20:10:48.844Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Quibdó es una zona donde la cobertura 4G es estable, pero el 5G aún es limitado.\n\nTe recomiendo estas 3 opciones de módems GalviusTech, todos para que tengas internet propio donde lo necesites y conectes varios dispositivos al mismo tiempo:\n\n📶 Módem WiFi Portátil 4G - la opción más económica, fácil de usar y con mejor cobertura que un celular, inversión de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G - ideal para estar listo para 5G cuando haya cobertura, también para 4G estable, inversión de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G - para máxima velocidad si ya tienes buena señal 5G, inversión de **$199.900 + $26.000 de envío**.\n\nEl módem 4G/5G es la opción más segura para que no te quedes sin conexión y tengas buen internet para transmisiones en vivo.\n\n¿Actualmente cómo te conectas a internet para tus transmisiones y cuántos dispositivos planeas conectar?",
+        "fecha": "2026-10-14T20:10:51.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MTQ4MzgwFQIAERgSMEU0QTg4REU0Qjg1MzY0QTQxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
