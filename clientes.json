@@ -145,8 +145,8 @@
     "telefono": "573024328815",
     "nombre": "la patrona",
     "primerContacto": "2026-10-14T13:46:07.697Z",
-    "ultimoContacto": "2026-10-14T14:11:51.382Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T14:12:58.675Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -246,6 +246,18 @@
         "fecha": "2026-10-14T14:11:49.160Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSREMxODkxNTg3NTBENzBDREUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero si no tengo señal para tel como aria como va coger señal de internet",
+        "fecha": "2026-10-14T14:12:56.085Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Muy buena pregunta! Mira, el módem tiene una antena mucho más potente que el celular común, por eso puede captar señal donde el celular apenas la agarra o ni siquiera muestra.\n\nSi en el morrito donde te ubicas sí llega al menos señal celular, el módem la va a captar mejor y te dará internet para conectar tus dispositivos.\n\nSi allí no llega nada de señal de ningún operador (ni Claro, Movistar, Tigo, WOM ni ETB), entonces el módem no podría funcionar porque requiere una SIM con señal celular para dar internet. No vendemos internet satelital, solo por red celular.\n\n¿Quieres contarme exactamente en qué lugar y cómo es la señal? Así te ayudo con más detalle.",
+        "fecha": "2026-10-14T14:12:58.042Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MzI4ODE1FQIAERgSRDg2MEUzRjlDQUQ2NTVEMjJDAA=="
       }
     ],
     "paso": "conversando",
