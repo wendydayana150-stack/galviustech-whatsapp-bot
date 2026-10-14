@@ -3,8 +3,8 @@
     "telefono": "573233690196",
     "nombre": "Esteban Castro",
     "primerContacto": "2026-10-14T21:23:34.216Z",
-    "ultimoContacto": "2026-10-14T21:23:34.216Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T21:23:42.889Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-14T21:23:33.567Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSOUY1MjcwRDQ5QUI5OUJEOEY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si sirve acá en mi finca",
+        "fecha": "2026-10-14T21:23:40.495Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, nuestros módems están diseñados para dar mejor cobertura que un celular común, especialmente en fincas y zonas rurales donde no llega fibra óptica.\n\nSolo dime en qué municipio o vereda queda tu finca y para qué lo usarías: ¿trabajo, estudio, hogar o negocio? Así te puedo recomendar el modelo ideal y te cuento la inversión.\n\n¿Me cuentas?",
+        "fecha": "2026-10-14T21:23:41.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjkwMTk2FQIAERgSQUZBMkJEOTQyNzlGOTMyMUZEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573236196613",
