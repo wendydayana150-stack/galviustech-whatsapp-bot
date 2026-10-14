@@ -74,8 +74,8 @@
     "telefono": "573113497018",
     "nombre": "P",
     "primerContacto": "2026-10-14T20:38:57.639Z",
-    "ultimoContacto": "2026-10-14T20:38:57.639Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-14T20:43:00.508Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -101,18 +101,33 @@
         "fecha": "2026-10-14T20:38:57.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSREQyOTU2MjU0NkJDMUVENEY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nunchia Casanare vereda la capilla",
+        "fecha": "2026-10-14T20:42:57.495Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Nunchía Casanare en vereda La Capilla y pensando en una conexión confiable para tu zona, te tengo las 3 opciones de módem que manejamos:\n\n📶 **Módem WiFi Portátil 4G**  \n- Ideal si quieres ahorrar, conexión estable con red 4G.  \n- Hasta 10 dispositivos conectados.  \n- Inversión de *$169.900 + $26.000 de envío*.\n\n🚀📶 **Módem WiFi Portátil 4G/5G**  \n- Funciona donde haya 4G o 5G, buena opción para cobertura variable.  \n- Conecta varios dispositivos sin lío.  \n- Inversión de *$189.900 + $26.000 de envío*.  \n\n🚀📶 **Módem WiFi Portátil 5G**  \n- Máxima velocidad si tienes cobertura 5G en tu zona.  \n- Perfecto para quien necesita lo último en conexión móvil.  \n- Inversión de *$199.900 + $26.000 de envío*.  \n\nLos módems están diseñados para dar mejor señal que un celular, así tienes internet donde más lo necesitas, sin instalaciones complicadas ni esperas por fibra óptica.\n\n¿Para qué principalmente lo necesitas? ¿Estudio, trabajo, tu hogar o negocio? Así te ayudo a elegir el más indicado.",
+        "fecha": "2026-10-14T20:42:59.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSMUUwMjUyNUVENDkyMkQ2NUE3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144427425",
