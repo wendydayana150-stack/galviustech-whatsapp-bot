@@ -205,8 +205,8 @@
     "telefono": "573247726921",
     "nombre": "Jhon Nisperuza",
     "primerContacto": "2026-10-14T15:36:46.358Z",
-    "ultimoContacto": "2026-10-14T15:43:35.987Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-14T15:44:25.360Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -391,15 +391,28 @@
         "fecha": "2026-10-14T15:43:35.127Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSNTBDQTk3NDkxNkJENDU2MUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3247726921",
+        "fecha": "2026-10-14T15:44:24.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-14T15:44:24.653Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NzI2OTIxFQIAERgSMzczQ0EyNUM5MkJGMDM3MEM5AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
       "precio": 289900,
       "telefono": "573247726921",
-      "nombreCliente": "Elijo este mejor"
+      "nombreCliente": "Elijo este mejor",
+      "celular": "3247726921"
     },
     "pausado": false,
     "etapaManual": null,
