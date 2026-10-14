@@ -227,8 +227,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:47:01.917Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-14T22:47:46.984Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -558,9 +558,21 @@
         "fecha": "2026-10-14T22:47:01.211Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSRjBFRTY0RUM0Q0E0OTRGMDFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Daniela Chima Padilla \nCc:1064897271\n3228453025\nInterrapidicimo \nAyapel Córdoba",
+        "fecha": "2026-10-14T22:47:46.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-14T22:47:46.260Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSNDMyOTdCNERBRERFMUY1OTU5AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -570,7 +582,9 @@
       "nombreCliente": "Interrapidicimo",
       "celular": "Cc 1064897271\n3228453025",
       "departamento": "Cordoba",
-      "ciudad": "Ayapel Córdoba"
+      "ciudad": "Ayapel Córdoba",
+      "cedula": "1064897271",
+      "direccion": "Daniela Chima Padilla \nCc:1064897271\n3228453025\nInterrapidicimo \nAyapel Córdoba"
     },
     "pausado": false,
     "etapaManual": null,
