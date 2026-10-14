@@ -86,8 +86,8 @@
     "telefono": "573113497018",
     "nombre": "P",
     "primerContacto": "2026-10-14T20:38:57.639Z",
-    "ultimoContacto": "2026-10-14T20:43:19.140Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-14T20:43:51.891Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -137,6 +137,25 @@
         "fecha": "2026-10-14T20:43:17.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSNUZCODQ2RkNGOTA5QjZGRkRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo funciona",
+        "fecha": "2026-10-14T20:43:50.426Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-10-14T20:43:50.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSQkY0QkRENDY3M0MwODc4MzA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-10-14T20:43:50.939Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSNzExMkU1NzIwNUEwNDAyQTQ1AA=="
       }
     ],
     "paso": "conversando",
