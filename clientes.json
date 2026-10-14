@@ -227,8 +227,8 @@
     "telefono": "573228453025",
     "nombre": "💥💥",
     "primerContacto": "2026-10-14T22:36:17.352Z",
-    "ultimoContacto": "2026-10-14T22:47:46.984Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-14T22:48:00.761Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -570,6 +570,25 @@
         "fecha": "2026-10-14T22:47:46.260Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSNDMyOTdCNERBRERFMUY1OTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "??",
+        "fecha": "2026-10-14T22:47:58.585Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Solo necesito que me confirmes la ciudad y dirección donde quieres que te enviemos el módem 4G para dejar tu pedido completo.\n\n¿Dónde te lo enviamos?",
+        "fecha": "2026-10-14T22:47:59.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSRkU0OTMyN0ZDOEE0Mzk1MERCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-14T22:48:00.067Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDUzMDI1FQIAERgSMjg2NUVDNEJBN0E0MUZENDI1AA=="
       }
     ],
     "paso": "pedido_barrio",
