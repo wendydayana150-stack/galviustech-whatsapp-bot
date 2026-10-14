@@ -186,8 +186,8 @@
     "telefono": "573246487271",
     "nombre": "sin nombré",
     "primerContacto": "2026-10-14T17:44:12.342Z",
-    "ultimoContacto": "2026-10-14T17:57:04.415Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-14T18:00:41.996Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -490,6 +490,25 @@
         "fecha": "2026-10-14T17:57:03.824Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSOURERTBDRjY5MEQ5REU2NDEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuales marcas tienen",
+        "fecha": "2026-10-14T18:00:38.280Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Julián, nuestros módems GalviusTech son equipos propios, diseñados para ofrecerte la mejor cobertura y estabilidad, especialmente en zonas rurales o con señal débil.\n\nNo manejamos otras marcas; te ofrecemos garantía y soporte directo con nosotros para que tengas confianza y respaldo total.\n\n¿Quieres que te ayude a dejar el pedido del Módem 4G/5G listo? Así aprovechas la inversión y empiezas a tener internet donde lo necesites.",
+        "fecha": "2026-10-14T18:00:40.492Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSNjNCN0U5Rjg4NkY3MjQzN0ZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-14T18:00:41.048Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2NDg3MjcxFQIAERgSQ0UyMTVCRERBRjY2MzJCQTg4AA=="
       }
     ],
     "paso": "confirmar_producto",
