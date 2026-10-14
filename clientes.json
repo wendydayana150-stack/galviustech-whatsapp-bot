@@ -118,8 +118,8 @@
     "telefono": "573107501785",
     "nombre": "❣️❣️",
     "primerContacto": "2026-10-14T17:58:51.758Z",
-    "ultimoContacto": "2026-10-14T18:05:06.243Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-14T18:05:26.986Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -365,6 +365,18 @@
         "fecha": "2026-10-14T18:05:03.642Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTAxNzg1FQIAERgSOTk5QzczN0U5QkYzMkNEMDNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-14T18:05:24.993Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quedo atenta a cualquier cosa que necesites, y gracias por confiar en GalviusTech. 😊 ¡Disfruta tu nuevo módem!\n\n¿Quieres que te muestre también otras opciones de conectividad o productos para tu finca?",
+        "fecha": "2026-10-14T18:05:26.102Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTAxNzg1FQIAERgSMjdGMzA1MEEyQTI5Nzk5MkMyAA=="
       }
     ],
     "paso": "conversando",
@@ -375,7 +387,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
