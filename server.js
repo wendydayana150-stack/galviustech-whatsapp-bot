@@ -198,13 +198,21 @@ function formatearFechaHora(fechaIso) {
         });
 }
 
+// Usuarios de WhatsApp con nombre de usuario (oct-2026): Meta los manda sin numero, solo con su BSUID
+// (ej. "CO.2870511493581519"), y para responderles se usa "recipient" en vez de "to".
+// Antes estos mensajes se ignoraban: 43 clientes sin respuesta en 24 horas.
+const esBSUID = (id) => /^[A-Z]{2}\.[A-Za-z0-9]+$/.test(String(id || ""));
+function destinatario(id) {
+      return esBSUID(id) ? { recipient: id } : { to: id };
+}
+
 async function enviarTexto(telefono, texto) {
       const registro = registrarMensaje(telefono, "bot", texto);
       const respuesta = await axios.post(
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "text",
                   text: { body: texto },
             },
@@ -233,7 +241,7 @@ async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProduc
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "template",
                   template: {
                         name: "reactivacion_cliente_galviustech",
@@ -260,7 +268,7 @@ async function enviarImagen(telefono, urlImagen, caption) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "image",
                   image: { link: urlImagen, caption: caption || "" },
             },
@@ -275,7 +283,7 @@ async function enviarVideo(telefono, urlVideo, caption) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "video",
                   video: { link: urlVideo, caption: caption || "" },
             },
@@ -312,7 +320,7 @@ async function enviarImagenPorId(telefono, mediaId, caption) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "image",
                   image: { id: mediaId, caption: caption || "" },
             },
@@ -327,7 +335,7 @@ async function enviarVideoPorId(telefono, mediaId, caption) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "video",
                   video: { id: mediaId, caption: caption || "" },
             },
@@ -343,7 +351,7 @@ async function enviarBotones(telefono, texto, botones) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "button",
@@ -367,7 +375,7 @@ async function enviarListaCatalogo(telefono) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "list",
@@ -388,9 +396,12 @@ async function enviarListaCatalogo(telefono) {
                                           // del catalogo (ej. "LAMPARA PANEL SOLAR x 3 unid.", 29 caracteres) superan
                                           // el limite, asi que CUALQUIER cliente que tocara "Ver otros" fallaba
                                           // siempre, de forma 100% reproducible, no intermitente.
+                                          // WhatsApp acepta maximo 10 filas: con 10 productos + "Ver toda la tienda" eran 11
+                                          // y Meta rechazaba la lista entera (oct-2026, "Ver otros" -> "problema tecnico").
                                           rows: [
                                                 ...catalogo
                                                       .filter((p) => !p.id.startsWith("combo-") && !p.tienda)
+                                                      .slice(0, hayProductosTienda() ? 9 : 10)
                                                       .map((p) => ({
                                                             id: `producto_${p.id}`,
                                                             title: (p.nombreCorto || p.nombre).slice(0, 24),
@@ -1936,7 +1947,7 @@ async function enviarListaCategorias(telefono, categorias, opcionesExtra) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "list",
@@ -1972,7 +1983,7 @@ async function enviarListaCombos(telefono) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "list",
@@ -2646,7 +2657,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
             .map((i) => (i.cantidad > 1 ? `${i.cantidad} x ` : "") + i.producto.nombre)
             .join(" + ");
       const precio = disponibles.reduce((s, i) => s + i.cantidad * (Number(i.producto.precio) || 0), 0);
-      const celularWhatsapp = String(telefono).replace(/\D/g, "").slice(-10);
+      const celularWhatsapp = esBSUID(telefono) ? "" : String(telefono).replace(/\D/g, "").slice(-10);
 
       const pedido = {
             productoId: disponibles[0].producto.id,
@@ -2915,7 +2926,7 @@ async function enviarListaProductosTienda(telefono, encabezado, cuerpo, producto
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "list",
@@ -2955,7 +2966,7 @@ async function enviarMenuTienda(telefono) {
             GRAPH_URL,
             {
                   messaging_product: "whatsapp",
-                  to: telefono,
+                  ...destinatario(telefono),
                   type: "interactive",
                   interactive: {
                         type: "list",
@@ -3841,7 +3852,7 @@ app.post("/webhook", async (req, res) => {
                                     JSON.stringify(estadosDeEsteCambio)
                                     );
                               for (const est of estadosDeEsteCambio) {
-                                    await marcarEstadoMensaje(est.recipient_id, est.id, est.status);
+                                    await marcarEstadoMensaje(est.recipient_id || est.recipient_user_id, est.id, est.status);
                               }
                         }
                         if (change?.value?.messages?.[0]) {
@@ -3871,7 +3882,7 @@ app.post("/webhook", async (req, res) => {
                   return res.sendStatus(200);
             }
 
-            const telefono = mensaje.from;
+            const telefono = mensaje.from || mensaje.from_user_id || change.value.contacts?.[0]?.user_id;
             const nombreCliente = change.value.contacts?.[0]?.profile?.name;
 
             if (!telefono) {
