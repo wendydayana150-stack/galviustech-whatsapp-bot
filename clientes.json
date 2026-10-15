@@ -3,8 +3,8 @@
     "telefono": "CO.1882488399566605",
     "nombre": "Reservadola Curva Elhacto",
     "primerContacto": "2026-10-15T23:06:23.807Z",
-    "ultimoContacto": "2026-10-15T23:06:23.807Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T23:07:25.279Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T23:06:22.728Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTg4MjQ4ODM5OTU2NjYwNRUUABEYEkUxNjQwNjE1NjkzOUFGN0ZFMQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes me comunico desde el cauca",
+        "fecha": "2026-10-15T23:07:21.678Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes desde GalviusTech 😊\n\nPerfecto que nos digas que estás en el Cauca. ¿Y para qué necesitas el módem? ¿Es para estudiar, trabajar, tu negocio o para el hogar? \n\nAsí te recomiendo el modelo que mejor te funcione y te aseguro buena señal donde estés. ¿Qué me cuentas?",
+        "fecha": "2026-10-15T23:07:23.183Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTg4MjQ4ODM5OTU2NjYwNRUUABEYEkZDQjg2MUIzNTFFQzM1QjMwNAA="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214716952",
