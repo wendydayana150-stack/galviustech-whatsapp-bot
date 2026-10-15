@@ -4434,8 +4434,8 @@
     "telefono": "573006901071",
     "nombre": "ADINA BRIA",
     "primerContacto": "2026-10-15T04:09:47.731Z",
-    "ultimoContacto": "2026-10-15T11:13:42.933Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T14:58:51.990Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4499,6 +4499,18 @@
         "fecha": "2026-10-15T11:13:42.128Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2OTAxMDcxFQIAERgSRDA0MDNENjZEMDFFQzU5QzhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "🛜",
+        "fecha": "2026-10-15T14:58:48.946Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale! Recuerda que el módem 4G/5G es la opción más segura para tener buena señal en tu zona, ya que funciona perfecto tanto en lugares con 4G como con 5G.\n\nLa batería dura hasta 14 horas seguidas, así no dependes de estar conectado todo el tiempo a la corriente. Además, conecta hasta 10 dispositivos al mismo tiempo para que puedas estudiar y trabajar sin interrupciones.\n\n¿Quieres que te ayude a dejar listo el pedido para que empieces a disfrutarlo ya?",
+        "fecha": "2026-10-15T14:58:51.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2OTAxMDcxFQIAERgSMTgzMEI1NEJDQUMwNjc4ODI5AA=="
       }
     ],
     "paso": "conversando",
@@ -4512,9 +4524,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
