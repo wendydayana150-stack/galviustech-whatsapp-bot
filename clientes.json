@@ -3,8 +3,8 @@
     "telefono": "573245794660",
     "nombre": "Jeli",
     "primerContacto": "2026-10-15T22:54:47.446Z",
-    "ultimoContacto": "2026-10-15T22:54:47.446Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T22:55:33.508Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T22:54:46.643Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1Nzk0NjYwFQIAERgSMjVENDc1NTkxNzVFQTkxRTBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-10-15T22:55:30.378Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que es en una vereda.\n\nTe comento que en GalviusTech tenemos 3 versiones del módem para que elijas la que mejor se adapte a tu conexión y necesidades:\n\n📶 **Módem WiFi Portátil 4G**\n- Ideal para fincas y veredas donde haya cobertura 4G.\n- Conecta varios dispositivos.\n- Fácil de usar y transportar.\nInversión: **$169.900** + $26.000 de envío.\n\n🚀📶 **Módem WiFi Portátil 4G/5G** (mi recomendación)\n- Funciona donde haya señal 4G o 5G, brinda más opciones y mejor compatibilidad.\n- Conecta celulares, computadores, tablets y más.\n- Perfecto para trabajo, estudio o viajes.\nInversión: **$189.900** + $26.000 de envío.\n\n🚀📶 **Módem WiFi Portátil 5G**\n- Para zonas con buena cobertura 5G.\n- Máxima velocidad y conexión rápida.\nInversión: **$199.900** + $26.000 de envío.\n\nLos módems están diseñados para captar señal más fuerte que un celular común, perfectos para zonas rurales. \n\n¿Me cuentas para qué lo necesitas principalmente? ¿trabajo, estudio, tu negocio o algo más?",
+        "fecha": "2026-10-15T22:55:32.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1Nzk0NjYwFQIAERgSREFFN0FCQTMyRUFEQkM5RTQ3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573005137754",
