@@ -183,8 +183,8 @@
     "telefono": "573113277875",
     "nombre": "Daro",
     "primerContacto": "2026-10-15T15:45:03.955Z",
-    "ultimoContacto": "2026-10-15T15:47:51.455Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T15:50:52.455Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -241,6 +241,18 @@
         "fecha": "2026-10-15T15:47:50.343Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSRTZDQjZCQjBFQTdFMjVEN0M1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta: \nEn este corregimiento la señal es wom, pero es pésima¿Será que influye con la velocidad del módem?",
+        "fecha": "2026-10-15T15:50:49.092Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la velocidad y calidad de internet del módem dependen de la señal del operador que uses, en tu caso WOM.\n\nPero tranquilo, nuestros módems están diseñados para captar mejor la señal en zonas rurales o con cobertura débil, mucho mejor que un celular común, gracias a su antena de mayor potencia.\n\nSi la señal WOM es muy débil, igual puede que mejores tu experiencia y estabilidad, pero no puede crear señal donde no hay.\n\n¿Ese problema de señal WOM afecta a otros operadores allá? ¿O solo WOM tiene mala señal? Así te oriento mejor para elegir el módem ideal.",
+        "fecha": "2026-10-15T15:50:50.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSQjFGRTYzRUMyNzA2MTcxRDc2AA=="
       }
     ],
     "paso": "conversando",
