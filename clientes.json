@@ -3,8 +3,8 @@
     "telefono": "573205111561",
     "nombre": "yatp",
     "primerContacto": "2026-10-15T14:22:47.714Z",
-    "ultimoContacto": "2026-10-15T14:22:47.714Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T14:24:18.550Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T14:22:45.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MTExNTYxFQIAERgSNkFGMzRCOTRBNkM5OTFCMTNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "tumaco Nariño para quilometro 35",
+        "fecha": "2026-10-15T14:24:15.351Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. Ahora te cuento sobre las 3 versiones que tenemos para que elijas la que mejor se adapta a tu uso en Tumaco:\n\n📶 **Modem WiFi Portátil 4G**: ideal para zonas sin fibra, conexión segura para varios dispositivos, fácil de llevar, la inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Modem WiFi Portátil 4G/5G**: funciona donde haya señal 4G o 5G, perfecto para garantizar conexión rápida y estable, inversión de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Modem WiFi Portátil 5G**: para zonas con buena cobertura 5G y la máxima velocidad, inversión de **$199.900 + $26.000 de envío**.\n\nLos modems tienen batería de hasta 14 horas, funcionan mejor que un celular para captar señal y conectan hasta 10 dispositivos a la vez.\n\n¿Lo quieres para estudiar, trabajar, o para qué actividad principalmente? Así te ayudo a decidir mejor.",
+        "fecha": "2026-10-15T14:24:17.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MTExNTYxFQIAERgSRkEzRThDREIxREM0REFGRDE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124489959",
