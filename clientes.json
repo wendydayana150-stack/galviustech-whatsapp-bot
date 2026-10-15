@@ -41,8 +41,8 @@
     "telefono": "573122474037",
     "nombre": "César Marín Rodríguez",
     "primerContacto": "2026-10-15T13:34:48.614Z",
-    "ultimoContacto": "2026-10-15T13:36:34.013Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T13:37:25.737Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,16 +92,23 @@
         "fecha": "2026-10-15T13:36:33.292Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDc0MDM3FQIAERgSMDNDREVBOEMyRjYxM0E4NTY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenos dias",
+        "fecha": "2026-10-15T13:37:24.130Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDc0MDM3FQIAERgSOTVBREVDOTU5RTIyMEI3NEY5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Soy del munisipio de la montañita caqueta\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
