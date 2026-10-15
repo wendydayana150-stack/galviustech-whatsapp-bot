@@ -3,8 +3,8 @@
     "telefono": "573126203327",
     "nombre": "Luisa fernanda",
     "primerContacto": "2026-10-15T12:36:50.158Z",
-    "ultimoContacto": "2026-10-15T12:36:50.158Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T12:37:13.191Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-15T12:36:49.447Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjAzMzI3FQIAERgSRjVEREY3MjFENjNENDlEQUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T12:37:12.273Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T12:37:12.273Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjAzMzI3FQIAERgSRkY2RDY2QTEzMUVDNjhFNDM0AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573107561923",
