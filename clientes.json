@@ -69,8 +69,8 @@
     "telefono": "573147642526",
     "nombre": "Anyianaya",
     "primerContacto": "2026-10-15T15:43:36.659Z",
-    "ultimoContacto": "2026-10-15T15:45:54.174Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T15:46:36.442Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -102,13 +102,55 @@
         "fecha": "2026-10-15T15:45:53.162Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSMjU1MkNEMDI5RDU1OENERUEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] COMBO Modem WiFi + Reloj",
+        "fecha": "2026-10-15T15:46:33.469Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem WiFi + Reloj",
+        "fecha": "2026-10-15T15:46:33.469Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQ0NDODU1RTRCMjMwQzI5NzQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem WiFi + Reloj",
+        "fecha": "2026-10-15T15:46:34.016Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQTUwNkQ4QTgxOUNFRjREMDIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem WiFi + Reloj",
+        "fecha": "2026-10-15T15:46:34.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQzdENTE3MzE1Qjc1MkY2OENFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*COMBO Modem Wifi + Reloj Inteligente*\n$ 289.900\n\n🔥📶⌚ ¡TECNOLOGÍA QUE TE ACOMPAÑA DONDE VAYAS! 🔥\r\n\r\n📶 MÓDEM WIFI + ⌚ RELOJ INTELIGENTE\r\n\r\n¡Llévate dos productos en un solo combo! 😍\r\n\r\n📶 MÓDEM WIFI\r\n✅ Conexión mediante red móvil\r\n✅ Ideal para lugares donde no llega la fibra óptica\r\n✅ Perfecto para casa, finca, vereda, trabajo o viajes\r\n✅ Conecta tus dispositivos al WiFi\r\n\r\n⌚ RELOJ INTELIGENTE\r\n✅ Tecnología para acompañarte durante el día\r\n✅ Diseño moderno y práctico\r\n✅ Funciones inteligentes al alcance de tu muñeca\r\n✅ Ideal para complementar tu día a día\r\n\r\n💥 ¡CONÉCTATE + LLEVA TU TECNOLOGÍA CONTIGO!\r\n\r\n🏡 Internet cuando lo necesitas.\r\n⌚ Tecnología siempre contigo.\r\n\r\n⚠️ PROMOCIÓN POR TIEMPO LIMITADO\r\n📦 Unidades disponibles.",
+        "fecha": "2026-10-15T15:46:35.087Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQzI1RTcwN0UxQTU5QkU3RUEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T15:46:35.624Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQUIwRkRFNkZDQzM2QURFNzM5AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "combo-modem-wifi-reloj-inteligente"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
