@@ -3,8 +3,8 @@
     "telefono": "573008542357",
     "nombre": "Wilson Garcia Mogollon",
     "primerContacto": "2026-10-15T21:01:15.870Z",
-    "ultimoContacto": "2026-10-15T21:03:21.652Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T21:05:06.057Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,6 +54,25 @@
         "fecha": "2026-10-15T21:03:20.676Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSRkNDMTU0RUEzM0VGNjVGMkM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se paga al recibir",
+        "fecha": "2026-10-15T21:05:02.893Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, pagas contraentrega cuando recibes el módem en la puerta de tu casa o en la oficina de la transportadora más cercana.\n\nLlega en 2 a 4 días hábiles después de despacharlo.\n\n¿Prefieres que te lo enviemos a tu casa en Tibirita o lo recoges en alguna oficina? Así dejamos tu pedido listo.",
+        "fecha": "2026-10-15T21:05:04.561Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSNzRCNEQxMkNEQUM4MjlFQTQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T21:05:05.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSMkUwREE5ODY5QjIxNjk5RjNGAA=="
       }
     ],
     "paso": "conversando",
