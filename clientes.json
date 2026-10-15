@@ -3447,8 +3447,8 @@
     "telefono": "573043136357",
     "nombre": "Dios Es Mi Escudo",
     "primerContacto": "2026-10-15T14:26:04.077Z",
-    "ultimoContacto": "2026-10-15T15:56:18.246Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T16:02:39.126Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3548,6 +3548,18 @@
         "fecha": "2026-10-15T15:56:17.416Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQzMTM2MzU3FQIAERgSQTEwNTUyNUNFOTEyOEU0NzUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo quería información en otra oportunidad no tengo dinero por el momento pero si estoy interesada",
+        "fecha": "2026-10-15T16:02:37.004Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, entiendo perfectamente. Tener tu propio internet es una inversión en comodidad y productividad, y aquí estaré cuando decidas dar ese paso.\n\nMientras tanto, ¿cuánto tiempo llevas dependiendo de WiFi ajeno o desplazándote para conectarte? Así te puedo ayudar a ver cuándo te conviene dar el salto.\n\nCuando estés lista, te ayudo con todo sin apuros. ¿Te gustaría que te recuerde las opciones cuando quieras?",
+        "fecha": "2026-10-15T16:02:38.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzMTM2MzU3FQIAERgSQzZBQTU5MDQ5NERFRjMyNjc1AA=="
       }
     ],
     "paso": "conversando",
@@ -3558,7 +3570,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
