@@ -3,8 +3,8 @@
     "telefono": "573145270415",
     "nombre": "❤️❤️❤️",
     "primerContacto": "2026-10-15T13:13:23.396Z",
-    "ultimoContacto": "2026-10-15T13:13:23.396Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:14:22.327Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T13:13:22.706Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSM0E5OUIyMUJFOEM5OTY3OUJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una zonal",
+        "fecha": "2026-10-15T13:14:21.005Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:14:21.374Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSMjY1NDJCQ0NEMDY4RDIwREY4AA=="
       }
     ],
     "paso": "conversando",
@@ -38,10 +50,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para una zonal\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042481803",
