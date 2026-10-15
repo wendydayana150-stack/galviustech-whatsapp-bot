@@ -615,8 +615,8 @@
     "telefono": "573127038780",
     "nombre": "John F",
     "primerContacto": "2026-10-14T23:39:25.789Z",
-    "ultimoContacto": "2026-10-15T03:02:00.433Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-15T03:03:03.563Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -692,6 +692,18 @@
         "fecha": "2026-10-15T03:01:59.636Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSQjlDRjkzODUwMTUxRDg1MjNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que sim card maneja",
+        "fecha": "2026-10-15T03:03:00.455Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con SIM de cualquier operador en Colombia: Claro, Movistar, Tigo, WOM... lo que prefieras o tengas cobertura en tu zona.\n\nCuando confirmes tu compra te tenemos una sorpresa con la SIM de Claro que te enviamos de regalo, pero solo es la tarjeta, sin plan ni megas activados; tú decides el plan o recarga que más te convenga activar.\n\n¿Quieres que en tu pedido te incluya información para activar la SIM y dejar todo listo para que conectes rápido?",
+        "fecha": "2026-10-15T03:03:02.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSOUM3RjdCRTlEOTVEOEE3ODZDAA=="
       }
     ],
     "paso": "conversando",
