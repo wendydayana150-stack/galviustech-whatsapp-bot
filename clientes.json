@@ -3577,8 +3577,8 @@
     "telefono": "573113497018",
     "nombre": "P",
     "primerContacto": "2026-10-14T20:38:57.639Z",
-    "ultimoContacto": "2026-10-15T00:41:49.722Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T00:48:44.911Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3678,6 +3678,25 @@
         "fecha": "2026-10-15T00:41:48.844Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSNzREMTkyNDZBMjZCMDcwMTAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es satelital?",
+        "fecha": "2026-10-15T00:48:42.348Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, el módem no es satelital, funciona con una SIM de operador móvil como Claro, Movistar, Tigo o WOM.\n\nPero ojo, está diseñado para captar señal mucho mejor que un celular; así que en tu vereda La Capilla tendrá mejor cobertura que tu celular, especialmente en zonas rurales donde el celular queda corto.\n\n¿Quieres que te ayude a dejar tu pedido listo y puedas tener internet propio sin depender de fibra?",
+        "fecha": "2026-10-15T00:48:43.600Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSQ0Y5RTUwQjIyMUUyQkY3RTdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T00:48:44.132Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSRUZBOUZDMTg5NTNDRUUyM0JCAA=="
       }
     ],
     "paso": "conversando",
