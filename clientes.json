@@ -1946,8 +1946,8 @@
     "telefono": "573008542357",
     "nombre": "Wilson Garcia Mogollon",
     "primerContacto": "2026-10-15T21:01:15.870Z",
-    "ultimoContacto": "2026-10-15T21:08:55.030Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-15T23:02:08.071Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2071,6 +2071,25 @@
         "fecha": "2026-10-15T21:08:53.275Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSNzlDRjZGNUI5ODNGQzY2QkUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T22:16:14.307Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSNDZBN0Q3MkM2QUI3QzQ4NjdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy manejando",
+        "fecha": "2026-10-15T23:02:05.853Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, conduzcas tranquilo. Cuando estés listo me avisas para ayudarte con tu pedido del módem que te dará internet seguro y rápido donde más lo necesitas.\n\nMientras tanto, ¿quieres que te recuerde las características o formas de pago? ¿O prefieres que te reserve uno ya?",
+        "fecha": "2026-10-15T23:02:06.934Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSMEEzMEQyRDJGNUYzOUE4MUEyAA=="
       }
     ],
     "paso": "conversando",
@@ -2084,8 +2103,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
