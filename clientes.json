@@ -156,8 +156,8 @@
     "telefono": "CO.1424837076427955",
     "nombre": "ana García 🥰🥰🥹",
     "primerContacto": "2026-10-15T16:02:54.280Z",
-    "ultimoContacto": "2026-10-15T16:11:52.233Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-15T16:12:05.545Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -350,9 +350,21 @@
         "fecha": "2026-10-15T16:11:51.233Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEkMwMjlGRkQyOUEyRDA0NDc2OAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "barrio Panamá",
+        "fecha": "2026-10-15T16:12:04.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-15T16:12:04.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjZEQTg1NTAyNzgxNkY1RkJDRgA="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -361,7 +373,8 @@
       "nombreCliente": "ana garcia",
       "celular": "3146359303",
       "departamento": "Narino",
-      "ciudad": "Tumaco"
+      "ciudad": "Tumaco",
+      "direccion": "barrio Panamá"
     },
     "pausado": false,
     "etapaManual": null,
