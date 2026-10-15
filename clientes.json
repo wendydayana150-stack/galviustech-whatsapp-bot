@@ -3,8 +3,8 @@
     "telefono": "573016001514",
     "nombre": "Aa",
     "primerContacto": "2026-10-15T15:28:45.224Z",
-    "ultimoContacto": "2026-10-15T15:28:56.242Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T15:29:39.089Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-15T15:28:54.971Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2MDAxNTE0FQIAERgSNzJDQ0U0OEUwNEFCM0M5MkY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santiago de tolu sucre",
+        "fecha": "2026-10-15T15:29:35.138Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que es en Santiago de Tolú, Sucre.\n\nTe cuento las 3 opciones que tenemos con sus precios, para que elijas la que más se ajuste a lo que necesitas:\n\n📶 **Módem WiFi Portátil 4G**  \n- Mejor cobertura que el celular en zonas rurales  \n- Conecta varios dispositivos al mismo tiempo  \n- Fácil de transportar y usar  \nLa inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Módem WiFi Portátil 4G/5G**  \n- Funciona con redes 4G y 5G donde haya cobertura  \n- Ideal para estudio, trabajo o viajes, sin depender de fibra óptica  \n- Portable y sin instalaciones complicadas  \nLa inversión es de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Módem WiFi Portátil 5G**  \n- Conexión con velocidad 5G si tienes buena cobertura  \n- Ideal para lugares con señal 5G y para quien necesita lo máximo en velocidad  \n- Fácil de usar donde lo requieras  \nLa inversión es de **$199.900 + $26.000 de envío**.\n\n¿Para qué lo necesitas principalmente? ¿Estudio, trabajo, tu casa o para un negocio? Así te ayudo a elegir la mejor opción para ti.",
+        "fecha": "2026-10-15T15:29:37.949Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MDAxNTE0FQIAERgSNzU3MzZFNjc2OTYzNkZEQkJCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
