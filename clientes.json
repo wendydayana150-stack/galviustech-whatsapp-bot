@@ -215,8 +215,8 @@
     "telefono": "CO.2230570367521123",
     "nombre": "Karen 🫥",
     "primerContacto": "2026-10-15T16:40:31.499Z",
-    "ultimoContacto": "2026-10-15T16:45:02.776Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T17:12:48.821Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -372,10 +372,27 @@
         "fecha": "2026-10-15T16:44:59.922Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIzMDU3MDM2NzUyMTEyMxUUABEYEkVBQzM0NjVGODFDMzlDQTYwMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-10-15T17:12:47.444Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-15T17:12:47.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIzMDU3MDM2NzUyMTEyMxUUABEYEkRGMEY1MjhBMTE3RTY0NDQzQQA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "CO.2230570367521123"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
