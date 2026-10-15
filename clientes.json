@@ -376,8 +376,8 @@
     "telefono": "573217196503",
     "nombre": "Asomaxpollo",
     "primerContacto": "2026-10-15T17:42:03.092Z",
-    "ultimoContacto": "2026-10-15T17:43:33.504Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T18:45:58.861Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -434,6 +434,25 @@
         "fecha": "2026-10-15T17:43:32.043Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MTk2NTAzFQIAERgSMkJDRDRDNDZCMDkxMjAyMzQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T18:43:54.174Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MTk2NTAzFQIAERgSMjJGMDU2RjVERTY4MzM1RjM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a pensar que modem me conviene y le escribo nuevamente",
+        "fecha": "2026-10-15T18:45:56.306Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, toma tu tiempo para decidir lo que más te conviene. Recuerda que con cualquiera de nuestros módems tendrás mejor señal que con el celular y podrás conectar varios dispositivos sin complicaciones.\n\nCuando estés listo, aquí estaré para ayudarte con lo que necesites.\n\n¿Quieres que te deje más info para que tengas todo a la mano cuando decidas?",
+        "fecha": "2026-10-15T18:45:57.920Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MTk2NTAzFQIAERgSNzExNTU0QUI0M0VFM0FDRDcxAA=="
       }
     ],
     "paso": "conversando",
@@ -444,11 +463,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
