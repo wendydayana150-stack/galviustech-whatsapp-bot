@@ -1491,8 +1491,8 @@
     "telefono": "573042481803",
     "nombre": "ramoshernandezjuanantonio",
     "primerContacto": "2026-10-15T13:11:04.731Z",
-    "ultimoContacto": "2026-10-15T13:43:15.603Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T14:30:53.840Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1565,13 +1565,25 @@
         "fecha": "2026-10-15T13:43:14.759Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNDgxODAzFQIAERgSNEY2Q0FCQUNCQzIzM0MyNzg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué costo tiene",
+        "fecha": "2026-10-15T14:30:50.570Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento: con el módem WiFi portátil 4G tienes internet fácil, conectas varios dispositivos y es ideal para zonas sin fibra óptica como tu vereda en Buenavista.\n\n🔥 Aprovecha que los módems bajaron un 30%, la inversión sería:  \n- Módem WiFi Portátil 4G: **$169.900 + $26.000 de envío**  \n- Módem WiFi Portátil 4G/5G: **$189.900 + $26.000 de envío** (recomendado para cobertura segura 4G o 5G)  \n- Módem WiFi Portátil 5G: **$199.900 + $26.000 de envío** (si en tu zona ya hay buena señal 5G)  \n\n¿Qué equipo te parece mejor para lo que necesitas: la opción más económica 4G, la versátil 4G/5G o la de máxima velocidad 5G?",
+        "fecha": "2026-10-15T14:30:52.902Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNDgxODAzFQIAERgSQ0YyODdBMEQ2QjlGOTk2ODI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
