@@ -589,8 +589,8 @@
     "telefono": "573213380657",
     "nombre": "😇José Luis",
     "primerContacto": "2026-10-15T12:52:42.927Z",
-    "ultimoContacto": "2026-10-15T13:15:03.917Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T13:38:25.403Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -628,16 +628,23 @@
         "fecha": "2026-10-15T13:15:02.841Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzgwNjU3FQIAERgSNTNFNEYyNjg1MUY2RTA1MjA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-15T13:38:24.287Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzgwNjU3FQIAERgSMzdBRTYxNzg0MTIzQ0JFM0JEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para una vereda de cimitarra\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
