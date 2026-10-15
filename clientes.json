@@ -8513,8 +8513,8 @@
     "telefono": "573127038780",
     "nombre": "John F",
     "primerContacto": "2026-10-14T23:39:25.789Z",
-    "ultimoContacto": "2026-10-15T15:50:45.080Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T15:51:40.711Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8633,13 +8633,25 @@
         "fecha": "2026-10-15T15:50:41.336Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSODY5NTc1OTk4MTIwNUU5MDRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesaría las impresoras",
+        "fecha": "2026-10-15T15:51:38.377Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para ayudarte bien con las impresoras necesito saber: ¿qué tipo de impresión necesitas? \n\nPor ejemplo:\n\n🖨️ Recibos o facturas  \n🖨️ Etiquetas para productos  \n🖨️ Tareas, documentos o trabajos en hojas tamaño carta  \n\n¿Para qué las usarías principalmente? Así te recomiendo la impresora que mejor se adapta a tu necesidad y te cuento el precio.\n\n¿Me cuentas?",
+        "fecha": "2026-10-15T15:51:39.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSNDlDOTkyQUE3RkRCRkM5MDJCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
