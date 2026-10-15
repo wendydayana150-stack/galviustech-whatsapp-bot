@@ -599,8 +599,8 @@
     "telefono": "573142651682",
     "nombre": "Anthony",
     "primerContacto": "2026-10-15T12:37:36.597Z",
-    "ultimoContacto": "2026-10-15T12:37:36.597Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:27:04.440Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -620,6 +620,18 @@
         "fecha": "2026-10-15T12:37:35.846Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNjUxNjgyFQIAERgSMkFENTE2NTA0ODQxMjZERjczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T13:27:03.395Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T13:27:03.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNjUxNjgyFQIAERgSQjNGOEJFOUYwOEI3QkEwNTQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -631,7 +643,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573126203327",
