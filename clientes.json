@@ -247,8 +247,8 @@
     "telefono": "573145270415",
     "nombre": "❤️❤️❤️",
     "primerContacto": "2026-10-15T13:13:23.396Z",
-    "ultimoContacto": "2026-10-15T13:14:52.816Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-15T13:41:45.697Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -310,16 +310,23 @@
         "fecha": "2026-10-15T13:14:51.873Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSNUMyNjkxQTkzMjFENkJGQ0Q5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-15T13:41:44.572Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSMDhBRjg2QUIzQzIxMTY1NTY3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para una zona rural que no hay señal\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
