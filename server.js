@@ -4166,6 +4166,45 @@ async function reactivarChatsConFallo() {
       return resultado;
 }
 
+// Clientes con nombre de usuario de WhatsApp (BSUID) que escribieron antes del arreglo del 15-oct-2026 y a
+// los que el bot nunca respondio (solo quedaron en los logs). Se pega aqui la lista y se reprocesa cada uno
+// por el mismo webhook, como si su mensaje acabara de llegar. Solo los de menos de 23,5 h (ventana de WhatsApp)
+// y que no hayan vuelto a escribir despues del arreglo.
+app.get("/admin/responder-sin-numero", requiereLogin, (req, res) => {
+      res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:800px">
+      <h2>Responder a clientes que llegaron sin numero</h2>
+      <p>Michell les respondera su ultimo mensaje como si acabara de llegar. Solo se responde a los de menos de 23,5 horas.</p>
+      <form method="post"><textarea name="lista" rows="14" style="width:100%" placeholder="Lista de clientes (JSON)"></textarea>
+      <p><button style="padding:10px 18px;font-size:16px">Responder ahora</button></p></form><p><a href="/admin">Volver al panel</a></p></div>`);
+});
+
+app.post("/admin/responder-sin-numero", requiereLogin, async (req, res) => {
+      let lista;
+      try { lista = JSON.parse(req.body.lista || "[]"); } catch (e) { return res.status(400).send("La lista no es valida."); }
+      const { datos } = await leerJSON(CLIENTES_API).catch(() => ({ datos: [] }));
+      const limite = Date.now() / 1000 - 23.5 * 3600;
+      const resultado = [];
+      for (const c of Array.isArray(lista) ? lista : []) {
+            const id = String(c.id || "");
+            if (!esBSUID(id)) continue;
+            if (Number(c.ts) < limite) { resultado.push(`${id}: ya pasaron mas de 24 h, WhatsApp no deja escribirle`); continue; }
+            if (sesiones[id] || datos.some((x) => x.telefono === id)) { resultado.push(`${id}: ya escribio de nuevo, el bot ya lo atiende`); continue; }
+            const texto = (Array.isArray(c.textos) ? c.textos : [c.textos]).filter(Boolean).join("\n");
+            const cuerpo = { entry: [{ changes: [{ value: {
+                  contacts: [{ user_id: id, profile: { name: "" } }],
+                  messages: [{ from_user_id: id, id: `reproceso-${id}-${c.ts}`, timestamp: String(c.ts), type: "text", text: { body: texto } }],
+            } }] }] };
+            try {
+                  await axios.post(`http://127.0.0.1:${PUERTO}/webhook`, cuerpo);
+                  resultado.push(`${id}: respondido`);
+            } catch (error) {
+                  resultado.push(`${id}: error ${error.message}`);
+            }
+      }
+      console.log("Responder sin numero:", JSON.stringify(resultado));
+      res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Listo</h2><ul>${resultado.map((r) => `<li>${r}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
+});
+
 app.get("/admin/reactivar-fallos-ia", requiereLogin, async (req, res) => {
       try {
             const r = await reactivarChatsConFallo();
