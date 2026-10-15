@@ -3,8 +3,8 @@
     "telefono": "573212893371",
     "nombre": "Angela miprincesa",
     "primerContacto": "2026-10-15T00:05:38.035Z",
-    "ultimoContacto": "2026-10-15T00:05:38.035Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T00:07:32.672Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T00:05:37.210Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyODkzMzcxFQIAERgSNkZEMjE2REZBMzlEMzgyMDU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye una pregunta el módem coge señal en el campo es que por acá donde yo vivo no entra la señal de ninguna SIM solo entra el wifi y pues el modem trabaja con sim",
+        "fecha": "2026-10-15T00:07:30.144Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el módem trabaja con SIM de cualquier operador (Claro, Movistar, Tigo, WOM), pero su antena es mucho más potente que un celular común, por eso capta señal donde el celular a veces no. \n\nSin embargo, si en tu zona de verdad no hay señal de ningún operador, ni siquiera intermitente, el módem no podrá conectarse porque depende de esa señal móvil. \n\n¿Me puedes decir en qué municipio o vereda estás para revisar mejor la cobertura y ayudarte con la mejor solución?",
+        "fecha": "2026-10-15T00:07:31.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyODkzMzcxFQIAERgSMTc4ODE2RTgxOTk1RjhBMEMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103323543",
