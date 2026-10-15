@@ -925,8 +925,8 @@
     "telefono": "573107561923",
     "nombre": "Eli",
     "primerContacto": "2026-10-15T12:26:45.481Z",
-    "ultimoContacto": "2026-10-15T13:35:41.830Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T13:36:36.237Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -983,16 +983,23 @@
         "fecha": "2026-10-15T13:35:41.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSOEVFRDk3RTJFMjI0NEM4REI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Modo de uso:  1 Inserta una SIM con datos, recarga o plan activos en el módem inalámbrico   2 Espera unos segundos a que el módem tome señal  4 Busca la red WiFi en tu celular, computador o tablet  5 Conéctate con la contraseña que viene en el equipo  ¡Y listo! Ya tienes internet portátil  Puedes conectar varios dispositivos al mismo tiempo  Ideal para casa, viajes, carro, finca, negocios o estudio",
+        "fecha": "2026-10-15T13:36:35.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSRjBCQjlDRkZGMUY5M0U2RTMyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Gracias\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
