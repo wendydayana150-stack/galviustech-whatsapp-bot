@@ -47,8 +47,8 @@
     "telefono": "573006603046",
     "nombre": "Edwin",
     "primerContacto": "2026-10-15T13:52:39.257Z",
-    "ultimoContacto": "2026-10-15T13:55:19.179Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T13:55:42.894Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,13 +86,25 @@
         "fecha": "2026-10-15T13:55:18.198Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2NjAzMDQ2FQIAERgSRkVFODQ3MjExOThCNzU4ODhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si sirve por campo no tiene señal ?",
+        "fecha": "2026-10-15T13:55:40.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem está diseñado justo para eso: zonas rurales, fincas y veredas donde muchas veces el celular por sí solo no tiene buena señal. \n\nTiene una antena potente que capta mejor la señal 4G o 5G, para darte internet estable donde no hay fibra óptica ni buena cobertura móvil. \n\n¿En qué zona o vereda lo usarías y para qué principalmente? Así te puedo mostrar el módem que mejor te funciona.",
+        "fecha": "2026-10-15T13:55:42.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2NjAzMDQ2FQIAERgSRTdGQjRDRTY4Q0FDNzBEMkI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
