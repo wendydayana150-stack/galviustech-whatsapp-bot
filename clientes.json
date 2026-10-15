@@ -3,8 +3,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-15T12:47:44.116Z",
-    "ultimoContacto": "2026-10-15T12:47:44.116Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T12:48:57.253Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T12:47:43.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSNjJGMzUxQjA5QUYxRDQ5RjU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el hogar.4 celulares",
+        "fecha": "2026-10-15T12:48:55.885Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T12:48:56.367Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMTc4QzYxNTM3NkQ4Q0FEQThEAA=="
       }
     ],
     "paso": "conversando",
@@ -38,10 +50,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para el hogar.4 celulares\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122039941",
