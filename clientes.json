@@ -543,8 +543,8 @@
     "telefono": "573145270415",
     "nombre": "❤️❤️❤️",
     "primerContacto": "2026-10-15T13:13:23.396Z",
-    "ultimoContacto": "2026-10-15T13:57:08.607Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-15T13:57:13.400Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -757,6 +757,18 @@
         "fecha": "2026-10-15T13:57:07.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSMjBCMDU2RDVCMjI3RjgyNTQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-15T13:57:10.273Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:57:10.433Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSRUEwNjUyOURDOERBMTI5QjhBAA=="
       }
     ],
     "paso": "conversando",
@@ -765,8 +777,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Ok\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
