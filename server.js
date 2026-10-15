@@ -4205,7 +4205,15 @@ app.post("/admin/responder-sin-numero", requiereLogin, async (req, res) => {
       res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Listo</h2><ul>${resultado.map((r) => `<li>${r}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
 });
 
-app.get("/admin/reactivar-fallos-ia", requiereLogin, async (req, res) => {
+app.get("/admin/reactivar-fallos-ia", requiereLogin, (req, res) => {
+      res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:700px">
+      <h2>Reactivar chats que fallaron</h2>
+      <p>Quita la pausa a los chats que recibieron "tuve un problema para procesar tu mensaje" en las ultimas 24 horas y Michell responde lo que quedo pendiente.</p>
+      <form method="post"><button style="padding:10px 18px;font-size:16px">Reactivar y responder</button></form>
+      <p><a href="/admin">Volver al panel</a></p></div>`);
+});
+
+app.post("/admin/reactivar-fallos-ia", requiereLogin, async (req, res) => {
       try {
             const r = await reactivarChatsConFallo();
             const filas = r.map((x) => `<li>${x.nombre} (${x.telefono}): bot reactivado${x.respondido ? " y respondio su ultima pregunta" : ""}</li>`).join("");
