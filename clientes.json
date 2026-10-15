@@ -884,8 +884,8 @@
     "telefono": "573107561923",
     "nombre": "Eli",
     "primerContacto": "2026-10-15T12:26:45.481Z",
-    "ultimoContacto": "2026-10-15T13:35:39.368Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T13:35:41.830Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -930,6 +930,18 @@
         "fecha": "2026-10-15T13:35:38.600Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSRkE2QTMxMEYwMzAxNDVFQ0ZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-15T13:35:41.067Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:35:41.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSOEVFRDk3RTJFMjI0NEM4REI2AA=="
       }
     ],
     "paso": "conversando",
@@ -939,7 +951,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Ah ok\nPensé que ustedes ofrecían cobertura\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Gracias\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
