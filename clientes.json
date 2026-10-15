@@ -131,8 +131,8 @@
     "telefono": "573218738363",
     "nombre": "munozeliad1",
     "primerContacto": "2026-10-15T15:26:36.323Z",
-    "ultimoContacto": "2026-10-15T15:29:49.516Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-15T15:30:26.220Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -201,6 +201,25 @@
         "fecha": "2026-10-15T15:29:47.594Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NzM4MzYzFQIAERgSQzdEMjFDQTRBQTE1ODc2OTdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo un plan con claro",
+        "fecha": "2026-10-15T15:30:23.384Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Con tu plan de Claro podrás usar el módem 4G/5G sin problema, es compatible con todos los operadores en Colombia.\n\nEste módem mejora la señal gracias a su antena más potente, entonces vas a tener mejor internet en tu vereda, sin depender de la fibra ni del Wifi ajeno. Además, puedes conectar hasta 10 dispositivos, así toda la casa o el negocio se conecta sin complicaciones.\n\nLa inversión es de **$189.900 + $26.000 de envío**.\n\n¿Cuántos dispositivos planeas conectar usualmente? Así te ayudo con detalles para que te funcione perfecto.",
+        "fecha": "2026-10-15T15:30:24.713Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NzM4MzYzFQIAERgSRjE4QjZFNzBEOUYzQjIzMkE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T15:30:25.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NzM4MzYzFQIAERgSODkzQjNBMTNFNDUwNTEwOEMxAA=="
       }
     ],
     "paso": "conversando",
