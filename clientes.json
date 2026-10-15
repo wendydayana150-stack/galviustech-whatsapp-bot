@@ -3,8 +3,8 @@
     "telefono": "CO.2298234904274249",
     "nombre": "Bryan",
     "primerContacto": "2026-10-15T15:34:39.632Z",
-    "ultimoContacto": "2026-10-15T15:35:09.902Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T15:35:54.211Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-15T15:35:08.730Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjI5ODIzNDkwNDI3NDI0ORUUABEYEjkwNkYyRTI5MzlCQjhGQUZCOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene el módems",
+        "fecha": "2026-10-15T15:35:51.291Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento que tenemos 3 versiones de módem con varios beneficios:\n\n- Conexión para varios dispositivos al mismo tiempo\n- Internet propio donde no llega fibra óptica, ideal para fincas, veredas o viajes\n- Fácil de usar y transportar para tener WiFi donde lo necesites\n\nLos precios con envío a cualquier parte de Colombia son:\n- Módem WiFi Portátil 4G: **$169.900 + $26.000 de envío**\n- Módem WiFi Portátil 4G/5G (mi recomendación por su cobertura segura): **$189.900 + $26.000 de envío**\n- Módem WiFi Portátil 5G (si tienes buena señal 5G donde vives): **$199.900 + $26.000 de envío**\n\n¿Qué municipio o vereda es donde querés usar el módem? Así te ayudo a elegir la mejor opción para tu zona.",
+        "fecha": "2026-10-15T15:35:53.133Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjI5ODIzNDkwNDI3NDI0ORUUABEYEkI2MzM2REQ5RTY4RkI1NkM1RgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
