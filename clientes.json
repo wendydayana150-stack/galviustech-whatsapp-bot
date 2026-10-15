@@ -790,8 +790,8 @@
     "telefono": "573137961067",
     "nombre": "Roberto Vallejo",
     "primerContacto": "2026-10-15T17:57:04.744Z",
-    "ultimoContacto": "2026-10-15T17:57:04.744Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T20:40:26.381Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -811,6 +811,66 @@
         "fecha": "2026-10-15T17:57:03.948Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSMzMxNTA0MERFQ0QxQkExQUFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T19:03:54.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSRTZDQTY0NTI4NDFDQTUzRTQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 💡 Lamparas Solares",
+        "fecha": "2026-10-15T20:40:23.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Lamparas Solares]",
+        "fecha": "2026-10-15T20:40:23.332Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2 - $ 160.000",
+        "fecha": "2026-10-15T20:40:23.332Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSQzYxRTlGRUNEMDI1QkEwRTMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Solar 2 Unidades - $ 119.900",
+        "fecha": "2026-10-15T20:40:23.761Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSRjI4Qzc3NzVDOEU5NTQyQzUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] LAMPARA PANEL SOLAR x 3 unid. - $ 139.900",
+        "fecha": "2026-10-15T20:40:24.180Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSQTUyMENBQUZFODY0MTg3RUNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades - $ 199.900",
+        "fecha": "2026-10-15T20:40:24.733Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSQUU5NEI5MjMwNkE5QUNFMUVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*💡 Lamparas Solares*\n\n*Lamparas 3 lentes X 2* - $ 160.000\n*Lampara Solar 2 Unidades* - $ 119.900\n*LAMPARA PANEL SOLAR x 3 unid.* - $ 139.900\n*Lampara 3 lentes x3 unidades* - $ 199.900",
+        "fecha": "2026-10-15T20:40:25.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSRjY3M0ZCNTgwODY3RDA1QUVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-10-15T20:40:25.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3OTYxMDY3FQIAERgSRjhCNTk4NTRDNkEzN0U1QTZCAA=="
       }
     ],
     "paso": "conversando",
@@ -818,14 +878,13 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
