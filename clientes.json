@@ -3,8 +3,8 @@
     "telefono": "573217918977",
     "nombre": "davilazeayesenia",
     "primerContacto": "2026-10-15T12:45:10.181Z",
-    "ultimoContacto": "2026-10-15T12:45:10.181Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T12:45:18.537Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T12:45:09.371Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3OTE4OTc3FQIAERgSQjJDNUJFRTc1RTRBQ0M4ODcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "I coje dondesea",
+        "fecha": "2026-10-15T12:45:16.289Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T12:45:17.527Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3OTE4OTc3FQIAERgSNUFBMEU5NjdFQjE3MkJBM0FGAA=="
       }
     ],
     "paso": "conversando",
@@ -38,10 +50,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"I coje dondesea\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142651682",
