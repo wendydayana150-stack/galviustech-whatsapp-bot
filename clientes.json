@@ -9066,8 +9066,8 @@
     "telefono": "573232959689",
     "nombre": "Amores😍",
     "primerContacto": "2026-10-15T05:16:28.252Z",
-    "ultimoContacto": "2026-10-15T05:16:28.252Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T16:50:22.511Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9087,6 +9087,18 @@
         "fecha": "2026-10-15T05:16:27.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyOTU5Njg5FQIAERgSMDUwN0EwMENCRDQyMUE3MzczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El WiFi",
+        "fecha": "2026-10-15T16:50:19.885Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial que te interese el WiFi portátil! 📶\n\nPara orientarte mejor cuéntame, por favor:\n\n📍 ¿En qué municipio o vereda necesitas usarlo?\n💻 Y ¿para qué lo necesitas? ¿trabajo, estudio, hogar o viajes?\n\nAsí te recomendaré el modelo perfecto para ti y te contaré todo sobre precios y beneficios. ¿Dónde lo usarás principalmente?",
+        "fecha": "2026-10-15T16:50:21.599Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTU5Njg5FQIAERgSNUREMkI2NzE5REJFRTU4RDdGAA=="
       }
     ],
     "paso": "conversando",
@@ -9100,9 +9112,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
