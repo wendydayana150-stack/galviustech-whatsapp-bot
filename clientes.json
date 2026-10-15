@@ -203,7 +203,11 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573506491954",
@@ -247,7 +251,11 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.4759116537641523",
@@ -2558,8 +2566,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 2,
+      "horas1": true,
+      "horas3": true
     }
   },
   {
