@@ -189,8 +189,8 @@
     "telefono": "573235787128",
     "nombre": "el tiempo de dios es perfecto",
     "primerContacto": "2026-10-15T13:00:01.997Z",
-    "ultimoContacto": "2026-10-15T13:22:54.331Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T13:23:35.983Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -283,6 +283,18 @@
         "fecha": "2026-10-15T13:22:53.313Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSNjY5RENFN0E1NjIyRTE4NzYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me endiende",
+        "fecha": "2026-10-15T13:23:34.455Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:23:34.917Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSODUwNThBMkQ3QjE5RjU0RUI4AA=="
       }
     ],
     "paso": "conversando",
@@ -292,7 +304,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"El la rastrjada\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"No me endiende\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
