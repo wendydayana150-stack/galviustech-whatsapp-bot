@@ -131,8 +131,8 @@
     "telefono": "573239387280",
     "nombre": "Puerta Carcamo Majo",
     "primerContacto": "2026-10-15T15:20:26.315Z",
-    "ultimoContacto": "2026-10-15T15:21:22.020Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T15:22:19.292Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -232,6 +232,18 @@
         "fecha": "2026-10-15T15:21:21.263Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5Mzg3MjgwFQIAERgSQzg2NzlBNUVDMzhGMEEwNEUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo le aviso",
+        "fecha": "2026-10-15T15:22:17.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando estés list@ para aprovechar esta solución de internet 5G portátil que te hará la vida más fácil en Ayapel.\n\nCuando decidas, aquí estaré para ayudarte a dejar tu pedido listo sin problema. ¡Saludos!",
+        "fecha": "2026-10-15T15:22:18.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5Mzg3MjgwFQIAERgSNUY0NkRCRUVBN0UzOTNFOUU4AA=="
       }
     ],
     "paso": "conversando",
@@ -242,7 +254,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
