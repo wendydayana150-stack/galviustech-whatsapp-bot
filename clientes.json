@@ -189,8 +189,8 @@
     "telefono": "573235787128",
     "nombre": "el tiempo de dios es perfecto",
     "primerContacto": "2026-10-15T13:00:01.997Z",
-    "ultimoContacto": "2026-10-15T13:23:35.983Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T13:24:36.458Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -295,16 +295,23 @@
         "fecha": "2026-10-15T13:23:34.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSODUwNThBMkQ3QjE5RjU0RUI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, si claro",
+        "fecha": "2026-10-15T13:24:35.512Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSNEQ5M0M2QUVGMUQ3OTFEOEU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"No me endiende\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
