@@ -1851,8 +1851,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-15T12:47:44.116Z",
-    "ultimoContacto": "2026-10-15T13:56:51.655Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-15T14:22:53.805Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1942,13 +1942,25 @@
         "fecha": "2026-10-15T13:56:50.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMUZEQkQxREJFNTFEQzM4RjNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok osea k uno tiene que recargar 150 mensual",
+        "fecha": "2026-10-15T14:22:51.423Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con la recarga que le pongas a la SIM, no tiene un cobro fijo ni mensualidad con GalviusTech.\n\nEs decir, tú recargas según cuánto consumas o necesites, por ejemplo $150.000 al mes si te sirve esa cantidad.\n\nLo mejor es que con una sola recarga usa internet para toda tu familia en los 4 celulares, sin pagar por cada línea por separado.\n\n¿Quieres que te cuente las 3 versiones del módem y sus precios para que elijas la que más te conviene en tu finca?",
+        "fecha": "2026-10-15T14:22:53.101Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSODJGOEY1N0JCNEJGMTBGODE2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
