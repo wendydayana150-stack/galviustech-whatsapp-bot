@@ -3,8 +3,8 @@
     "telefono": "573012991971",
     "nombre": "Nicolás Urquijo",
     "primerContacto": "2026-10-15T14:10:39.764Z",
-    "ultimoContacto": "2026-10-15T14:10:39.764Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T14:11:32.271Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T14:10:39.024Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyOTkxOTcxFQIAERgSQjZCRjk5NDU5QUU0NzlEMTc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-10-15T14:11:26.865Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y en qué municipio o vereda lo vas a usar? Así te recomiendo el módem ideal para tu zona.\n\nMientras tanto, de una te cuento que tenemos 3 versiones con diferentes opciones según la velocidad y cobertura que necesites:\n\n📶 Modem WiFi Portátil 4G  \n- Excelente para lugares sin fibra.  \n- Conexión para varios dispositivos.  \n- La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 4G/5G  \n- Funciona donde hay 4G o 5G.  \n- Perfecto para hogar, trabajo o estudio.  \n- La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 5G  \n- Para zonas con buena cobertura 5G.  \n- La más rápida de las tres.  \n- La inversión es de **$199.900 + $26.000 de envío**.\n\n¿Cuál de estas opciones crees que se adapta mejor a lo que necesitas, o quieres que te ayude a decidir con más detalle?",
+        "fecha": "2026-10-15T14:11:31.222Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyOTkxOTcxFQIAERgSRjI5NTg0MDYwRTFCQTQ0NjE5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573245873129",
