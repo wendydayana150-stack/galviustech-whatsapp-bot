@@ -3,8 +3,8 @@
     "telefono": "CO.1512166087387599",
     "nombre": "Wilmar jose Reyes",
     "primerContacto": "2026-10-15T20:16:21.792Z",
-    "ultimoContacto": "2026-10-15T20:16:21.792Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T20:17:00.038Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,6 +23,18 @@
         "fecha": "2026-10-15T20:16:20.782Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMjE2NjA4NzM4NzU5ORUUABEYEjYyNkJFNTJFQzc2MzUyMkI4NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-15T20:16:57.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, de GalviusTech 😊 ¿En qué puedo ayudarte hoy? ¿Buscas algo en especial, como internet portátil o una impresora? Cuéntame un poco para ofrecerte lo mejor. ¿Desde qué ciudad o municipio me escribes?",
+        "fecha": "2026-10-15T20:16:58.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMjE2NjA4NzM4NzU5ORUUABEYEjYyNzQ4NjEzMjc5MzlBMDE3MgA="
       }
     ],
     "paso": "conversando",
@@ -34,7 +46,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573128113973",
