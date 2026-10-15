@@ -3,8 +3,8 @@
     "telefono": "573143399861",
     "nombre": "Valentina Peña",
     "primerContacto": "2026-10-15T22:15:52.471Z",
-    "ultimoContacto": "2026-10-15T22:15:52.471Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T22:16:22.865Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T22:15:51.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMzk5ODYxFQIAERgSOTQ0MkQwMDNEQTI4M0IxQTZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el costo del módem Wi-Fi portátil?",
+        "fecha": "2026-10-15T22:16:19.948Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento:\n\nNuestros módems te brindan internet donde lo necesites sin depender de fibra óptica, puedes conectar varios dispositivos y son fáciles de transportar para que no te quedes sin conexión ni en casa ni en viajes.\n\n🔥 Además, ¡los módems bajaron un 30%! 🔥\n\nLas opciones y su inversión son:\n📶 Módem WiFi Portátil 4G: **$169.900** + $26.000 de envío  \n📶 Módem WiFi Portátil 4G/5G (el más recomendado para todo tipo de cobertura): **$189.900** + $26.000 de envío  \n📶 Módem WiFi Portátil 5G (si en tu zona ya hay buena cobertura 5G): **$199.900** + $26.000 de envío\n\n¿En qué municipio o vereda lo usarías y para qué lo necesitas principalmente, para estudiar, trabajar, negocio o tu hogar? Así te ayudo a elegir el ideal para ti.",
+        "fecha": "2026-10-15T22:16:22.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMzk5ODYxFQIAERgSNzA3RDdBMDI3ODI5QzUwNDYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1571543707940936",
