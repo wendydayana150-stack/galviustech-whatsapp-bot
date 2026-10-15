@@ -189,8 +189,8 @@
     "telefono": "573235787128",
     "nombre": "el tiempo de dios es perfecto",
     "primerContacto": "2026-10-15T13:00:01.997Z",
-    "ultimoContacto": "2026-10-15T13:04:59.810Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-15T13:22:29.032Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -259,6 +259,18 @@
         "fecha": "2026-10-15T13:04:58.592Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSRkQxRkMyN0M3NTU3MUMxOTdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una vereda",
+        "fecha": "2026-10-15T13:22:27.776Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:22:28.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSMTAxRDQ4MzExQUUxODIyMEE3AA=="
       }
     ],
     "paso": "conversando",
@@ -268,7 +280,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Río mira vía a mataje\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"En una vereda\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
