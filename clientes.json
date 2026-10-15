@@ -3,8 +3,8 @@
     "telefono": "573135431005",
     "nombre": "Yosman",
     "primerContacto": "2026-10-15T09:45:18.058Z",
-    "ultimoContacto": "2026-10-15T09:45:41.025Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T09:47:31.426Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,13 +61,25 @@
         "fecha": "2026-10-15T09:45:40.186Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDMxMDA1FQIAERgSRTk4RTA5NTAxNDMzRDkyMTNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una vereda",
+        "fecha": "2026-10-15T09:47:28.130Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Ya que estás en una vereda, nuestros módems portátiles están diseñados para darte mejor cobertura que un celular común, especialmente en zonas rurales.\n\nPara que te dé la mejor opción, dime para qué lo necesitas: ¿Estudio, trabajo, negocio o para la casa?\n\nMientras tanto, te cuento que tenemos tres modelos:\n📶 Módem WiFi Portátil 4G a **$169.900 + $26.000 de envío**\n📶 Módem WiFi Portátil 4G/5G a **$189.900 + $26.000 de envío**\n📶 Módem WiFi Portátil 5G a **$199.900 + $26.000 de envío**\n\nTodos son fáciles de usar, portátiles y pueden conectar varios dispositivos a la vez.\n\n¿Para qué lo usarías? Así te recomiendo el mejor para ti.",
+        "fecha": "2026-10-15T09:47:30.561Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDMxMDA1FQIAERgSMkRDQjMwMzVDQjNDNUQ3NjJFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
