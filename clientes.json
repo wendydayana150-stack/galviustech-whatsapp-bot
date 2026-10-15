@@ -156,8 +156,8 @@
     "telefono": "CO.1424837076427955",
     "nombre": "ana García 🥰🥰🥹",
     "primerContacto": "2026-10-15T16:02:54.280Z",
-    "ultimoContacto": "2026-10-15T16:12:05.545Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-15T16:12:35.476Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -362,9 +362,21 @@
         "fecha": "2026-10-15T16:12:04.643Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjZEQTg1NTAyNzgxNkY1RkJDRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "barrio Panamá",
+        "fecha": "2026-10-15T16:12:34.430Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-15T16:12:34.430Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjlDRkM3Q0Q3OEFBNjg3RDhCOQA="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -374,7 +386,8 @@
       "celular": "3146359303",
       "departamento": "Narino",
       "ciudad": "Tumaco",
-      "direccion": "barrio Panamá"
+      "direccion": "barrio Panamá",
+      "barrio": "barrio Panamá"
     },
     "pausado": false,
     "etapaManual": null,
