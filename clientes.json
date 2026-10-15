@@ -41,8 +41,8 @@
     "telefono": "573113277875",
     "nombre": "Daro",
     "primerContacto": "2026-10-15T15:45:03.955Z",
-    "ultimoContacto": "2026-10-15T15:45:46.184Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T15:47:51.455Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,13 +87,25 @@
         "fecha": "2026-10-15T15:45:45.109Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSOEQyMEQ5MEU2N0ZEQTIwODQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio san Antonio de palmito \nCorregimiento Guaimi \nLo necesito para todo",
+        "fecha": "2026-10-15T15:47:48.285Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para San Antonio de Palmito en corregimiento Guaimi y uso general, te recomiendo estas 3 opciones de módem con sus precios e inversión más envío:\n\n📶 Módem WiFi Portátil 4G: Conecta varios dispositivos, batería hasta 14 horas, ideal para fincas y zonas sin fibra. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: Funciona en zonas con 4G o 5G, más velocidad y cobertura mejorada para estudios, trabajo o viaje. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: Para quienes tienen buena cobertura 5G en su zona y buscan la máxima velocidad en movilidad. La inversión es de **$199.900 + $26.000 de envío**.\n\n🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción y ten internet propio sin depender de que llegue la fibra ni instalar nada.\n\n¿Quieres que te ayude a dejar el pedido listo? ¿O tienes alguna duda sobre cuál te quedaría mejor para lo que necesitas?",
+        "fecha": "2026-10-15T15:47:50.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSRTZDQjZCQjBFQTdFMjVEN0M1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
