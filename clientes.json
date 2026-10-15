@@ -3,8 +3,8 @@
     "telefono": "573217947830",
     "nombre": "Luber🥰🥰🥰",
     "primerContacto": "2026-10-15T15:57:49.429Z",
-    "ultimoContacto": "2026-10-15T15:57:49.429Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T15:59:31.873Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T15:57:47.658Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3OTQ3ODMwFQIAERgSOTRCRTE3Q0E4NDlGM0VFMTc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hl",
+        "fecha": "2026-10-15T15:59:29.683Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Para ayudarte con el módem, solo necesito que me digas en qué municipio o vereda lo usarías y para qué lo quieres: ¿estudio, trabajo, negocio o casa? Así te recomiendo la mejor opción para tu caso.\n\n¿Me cuentas?",
+        "fecha": "2026-10-15T15:59:30.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3OTQ3ODMwFQIAERgSNkMxNEZGNEI1QzNDQUY4QUFDAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.925458290435860",
