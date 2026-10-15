@@ -162,8 +162,8 @@
     "telefono": "573012991971",
     "nombre": "Nicolás Urquijo",
     "primerContacto": "2026-10-15T14:10:39.764Z",
-    "ultimoContacto": "2026-10-15T14:16:42.997Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T14:17:25.806Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -263,6 +263,18 @@
         "fecha": "2026-10-15T14:16:42.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyOTkxOTcxFQIAERgSRDFEMzA3MDQ2NzU4N0Q1OTcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ese negocio no me suena, gracias.",
+        "fecha": "2026-10-15T14:17:22.568Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que la confianza es clave, y por eso en GalviusTech te damos garantía, soporte personalizado y método pago contra entrega para que revises el módem antes de pagar.  \n\n📍Somos de Espinal, Tolima, y hemos conectado a muchas personas en zonas rurales y viajeros con excelente servicio.  \n\nQuedo atenta si en cualquier momento quieres que te ayude a probarlo sin compromiso. ¿Hay alguna otra solución que estés buscando mientras tanto?",
+        "fecha": "2026-10-15T14:17:23.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyOTkxOTcxFQIAERgSNjFCMTQ5NEU4NDc1QUJBQTgxAA=="
       }
     ],
     "paso": "conversando",
@@ -273,7 +285,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
