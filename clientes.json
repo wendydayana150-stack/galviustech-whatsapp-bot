@@ -988,8 +988,8 @@
     "telefono": "573150590994",
     "nombre": "aron",
     "primerContacto": "2026-10-15T04:23:58.151Z",
-    "ultimoContacto": "2026-10-15T04:23:58.151Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T09:25:32.550Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1009,6 +1009,18 @@
         "fecha": "2026-10-15T04:23:57.291Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwNTkwOTk0FQIAERgSQzkyNUExQ0Y0OEM5QURGMDYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buen día estoy interesado en el mismo den portátil",
+        "fecha": "2026-10-15T09:25:28.461Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell y con gusto te ayudo con el módem portátil.\n\n📶 Para orientarte mejor, dime dónde lo usarías principalmente, ¿en qué municipio o vereda? \n\n💻 ¿Lo necesitas para trabajo, estudio, hogar o viaje?\n\nEsto me ayuda a recomendarte el módem ideal que se adapte a ti. ¿Me cuentas?",
+        "fecha": "2026-10-15T09:25:31.365Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwNTkwOTk0FQIAERgSNjQ2M0NDQzEyRDk4MkUyNjE3AA=="
       }
     ],
     "paso": "conversando",
@@ -1020,7 +1032,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135309169",
