@@ -615,8 +615,8 @@
     "telefono": "573127038780",
     "nombre": "John F",
     "primerContacto": "2026-10-14T23:39:25.789Z",
-    "ultimoContacto": "2026-10-14T23:41:16.495Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T03:01:54.082Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -654,6 +654,25 @@
         "fecha": "2026-10-14T23:41:15.510Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSRjFCRDA0ODFFNDlEMDlENkE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T00:46:20.457Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSRTQ5OUE1MDBENjUyMjhENkQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me encuentro en ENTRERRÍOS Antioquía",
+        "fecha": "2026-10-15T03:01:50.027Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Entrerríos, Antioquía tiene buena cobertura 4G y de hecho ya hay zonas con 5G, pero para asegurarte una conexión estable y rápida en todo momento te recomiendo el **Módem WiFi Portátil 4G/5G**.\n\nTe llevas:\n\n✅ Internet en 4G y 5G según disponibilidad  \n✅ Optimizado para conectar varios dispositivos sin perder señal  \n✅ Ideal para negocio, trabajo o hasta para tu hogar y viajes  \n✅ Batería que dura hasta 14 horas con una sola carga  \n✅ Fácil instalación y sin necesidad de fibra óptica ni cables\n\nLa inversión sería de **$189.900 más $26.000 de envío**.\n\nImagina poder gestionar tu negocio desde cualquier lugar sin preocuparte por la señal o conexión inestable.\n\n¿Quieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-10-15T03:01:53.008Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MDM4NzgwFQIAERgSMUNEMUM4RUQwQkE2NTYyMDk4AA=="
       }
     ],
     "paso": "conversando",
@@ -667,8 +686,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
