@@ -859,8 +859,8 @@
     "telefono": "573122039941",
     "nombre": "Janneth Espinosa",
     "primerContacto": "2026-10-15T12:46:27.188Z",
-    "ultimoContacto": "2026-10-15T12:50:16.296Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-15T13:43:30.416Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -922,16 +922,23 @@
         "fecha": "2026-10-15T12:50:15.440Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMDM5OTQxFQIAERgSNTEzM0IxNjkwNjA0MUM3NDg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-15T13:43:29.314Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMDM5OTQxFQIAERgSREY0QjQ3QTJEQjg4MTczNjc2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para el hogar\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
