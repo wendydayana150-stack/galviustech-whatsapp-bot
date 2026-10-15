@@ -3,8 +3,8 @@
     "telefono": "573235787128",
     "nombre": "el tiempo de dios es perfecto",
     "primerContacto": "2026-10-15T13:00:01.997Z",
-    "ultimoContacto": "2026-10-15T13:03:06.490Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T13:04:59.810Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,6 +61,18 @@
         "fecha": "2026-10-15T13:03:05.465Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSRTcwQTY0NTUyNUI0MTVGMjBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Río mira vía a mataje",
+        "fecha": "2026-10-15T13:04:57.735Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:04:58.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSRkQxRkMyN0M3NTU3MUMxOTdCAA=="
       }
     ],
     "paso": "conversando",
@@ -70,7 +82,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"El el rio mira mataje\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Río mira vía a mataje\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
