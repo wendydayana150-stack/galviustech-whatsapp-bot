@@ -47,8 +47,8 @@
     "telefono": "573006603046",
     "nombre": "Edwin",
     "primerContacto": "2026-10-15T13:52:39.257Z",
-    "ultimoContacto": "2026-10-15T13:52:39.257Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:55:19.179Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,6 +74,18 @@
         "fecha": "2026-10-15T13:52:38.389Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2NjAzMDQ2FQIAERgSNzM4MTBEMjJGRjZCNTAxRTUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-15T13:55:17.341Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, dime en qué municipio o vereda lo usarías para recomendarte el módem ideal para tu conexión. ¿Lo necesitas para estudiar, trabajar, tu negocio o para el hogar? Así te doy las mejores opciones que tenemos.",
+        "fecha": "2026-10-15T13:55:18.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2NjAzMDQ2FQIAERgSRkVFODQ3MjExOThCNzU4ODhEAA=="
       }
     ],
     "paso": "conversando",
@@ -85,7 +97,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102953859",
