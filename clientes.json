@@ -3,8 +3,8 @@
     "telefono": "573016206646",
     "nombre": "amistades",
     "primerContacto": "2026-10-15T16:40:56.383Z",
-    "ultimoContacto": "2026-10-15T16:40:56.383Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T16:41:27.693Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-15T16:40:55.508Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2MjA2NjQ2FQIAERgSMERFRUE2Nzk4QjVGMEYyOTdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T16:41:26.644Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T16:41:26.645Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MjA2NjQ2FQIAERgSOUU4OEZEMjFDQTkwOURDNTM5AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2230570367521123",
