@@ -156,8 +156,8 @@
     "telefono": "CO.1424837076427955",
     "nombre": "ana García 🥰🥰🥹",
     "primerContacto": "2026-10-15T16:02:54.280Z",
-    "ultimoContacto": "2026-10-15T16:11:42.235Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-15T16:11:52.233Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -338,9 +338,21 @@
         "fecha": "2026-10-15T16:11:41.394Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjk3NzA4RDc4MTYyM0Q3MzgzOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tumaco",
+        "fecha": "2026-10-15T16:11:51.233Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-15T16:11:51.233Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEkMwMjlGRkQyOUEyRDA0NDc2OAA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -348,7 +360,8 @@
       "telefono": "CO.1424837076427955",
       "nombreCliente": "ana garcia",
       "celular": "3146359303",
-      "departamento": "Narino"
+      "departamento": "Narino",
+      "ciudad": "Tumaco"
     },
     "pausado": false,
     "etapaManual": null,
