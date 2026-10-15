@@ -4122,14 +4122,14 @@ async function reactivarConversaciones() {
 // pausados). Para cada cliente que recibio ese aviso en las ultimas 24 h: quita la pausa y el aviso de
 // atencion, y si su ultimo mensaje quedo sin respuesta, el bot lo responde ahora (dentro de la ventana
 // de 24 h de WhatsApp, asi que se puede escribir sin plantilla).
-const TEXTO_FALLO_IA = "tuve un problema para procesar tu mensaje";
+const TEXTO_FALLO_IA = /tuve un problema (tecnico )?para procesar tu mensaje/i;
 async function reactivarChatsConFallo() {
       const { datos } = await leerJSON(CLIENTES_API);
       const hace24h = Date.now() - 24 * 60 * 60 * 1000;
       const resultado = [];
       for (const c of datos) {
             const conv = c.conversacion || [];
-            const tuvoFallo = conv.some((m) => (m.texto || "").includes(TEXTO_FALLO_IA) && new Date(m.fecha).getTime() > hace24h);
+            const tuvoFallo = conv.some((m) => TEXTO_FALLO_IA.test(m.texto || "") && new Date(m.fecha).getTime() > hace24h);
             if (!tuvoFallo) continue;
             const telefono = c.telefono;
             await conColaPorTelefono(telefono, async () => {
@@ -4143,7 +4143,8 @@ async function reactivarChatsConFallo() {
                   const trans = sesion.transcripcion || [];
                   const pendientes = [];
                   for (let i = trans.length - 1; i >= 0 && trans[i].rol === "cliente"; i--) pendientes.unshift(trans[i]);
-                  const textoPendiente = pendientes.map((m) => m.texto || "").filter((t) => t && !t.startsWith("[")).join("\n");
+                  // "[Selecciono] Ver otros" (boton) cuenta como lo que escribio el cliente
+                  const textoPendiente = pendientes.map((m) => (m.texto || "").replace(/^\[Selecciono\]\s*/, "")).filter((t) => t && !t.startsWith("[")).join("\n");
                   let respondido = false;
                   if (textoPendiente && new Date(pendientes[pendientes.length - 1].fecha).getTime() > hace24h) {
                         // Si el historial de la IA ya termina en esos mensajes (se reconstruye de la transcripcion
