@@ -41,8 +41,8 @@
     "telefono": "573117718828",
     "nombre": "🥰🫠",
     "primerContacto": "2026-10-15T16:19:12.273Z",
-    "ultimoContacto": "2026-10-15T16:19:12.273Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T16:21:23.002Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,18 +68,33 @@
         "fecha": "2026-10-15T16:19:11.467Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NzE4ODI4FQIAERgSMEI3NzQ3RENBMEFFNEEwNDdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto wilches santander",
+        "fecha": "2026-10-15T16:21:19.295Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que estás en Puerto Wilches, Santander.\n\nAhora dime, ¿para qué necesitas el módem principalmente? ¿Para estudiar, trabajar, tu negocio o para uso en casa?\n\nMientras tanto, te adelanto que tenemos tres versiones disponibles, todas diseñadas para funcionar en zonas como la tuya donde no siempre llega la fibra óptica:\n\n📶 *Modem WiFi Portátil 4G*: conexión estable en red 4G, ideal para fincas o zonas rurales. La inversión es de **$169.900 + $26.000 de envío**.  \n🚀📶 *Modem WiFi Portátil 4G/5G*: combina 4G y 5G, para mayor flexibilidad según cobertura. La inversión sería de **$189.900 + $26.000 de envío**.  \n⚡📶 *Modem WiFi Portátil 5G*: para zonas donde sí hay cobertura 5G y quieres máxima velocidad. La inversión es **$199.900 + $26.000 de envío**.\n\nLos tres se conectan fácil, llevan batería recargable con hasta 14 horas de uso, y captan señal mucho mejor que un celular en zonas de baja cobertura.\n\n¿Me cuentas para qué lo usarías tú principalmente? Así te ayudo a elegir la mejor opción para tu caso.",
+        "fecha": "2026-10-15T16:21:21.410Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NzE4ODI4FQIAERgSREUyNUEwNDc0NzkxRjVBNzEyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573046756650",
