@@ -74,8 +74,8 @@
     "telefono": "573122039941",
     "nombre": "Janneth Espinosa",
     "primerContacto": "2026-10-15T12:46:27.188Z",
-    "ultimoContacto": "2026-10-15T12:49:54.700Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T12:50:16.296Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -125,6 +125,18 @@
         "fecha": "2026-10-15T12:49:53.786Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMDM5OTQxFQIAERgSNkQ0OEQ0QzI1MDEwMzEwNDZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el hogar",
+        "fecha": "2026-10-15T12:50:14.973Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T12:50:15.440Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMDM5OTQxFQIAERgSNTEzM0IxNjkwNjA0MUM3NDg5AA=="
       }
     ],
     "paso": "conversando",
@@ -134,7 +146,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Estoy en sesquile cundinamarca,lo necesitaria para mi vivienda\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para el hogar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
