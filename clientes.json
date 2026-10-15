@@ -279,8 +279,8 @@
     "telefono": "573213380657",
     "nombre": "😇José Luis",
     "primerContacto": "2026-10-15T12:52:42.927Z",
-    "ultimoContacto": "2026-10-15T12:52:42.927Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:15:03.917Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -306,6 +306,18 @@
         "fecha": "2026-10-15T12:52:42.048Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzgwNjU3FQIAERgSMjk3NzMxMTNERERCODQwNEIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una vereda de cimitarra",
+        "fecha": "2026-10-15T13:15:02.737Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:15:02.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzgwNjU3FQIAERgSNTNFNEYyNjg1MUY2RTA1MjA0AA=="
       }
     ],
     "paso": "conversando",
@@ -314,10 +326,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para una vereda de cimitarra\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104212004",
