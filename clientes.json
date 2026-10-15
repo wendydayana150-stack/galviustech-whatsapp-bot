@@ -3,8 +3,8 @@
     "telefono": "573236680150",
     "nombre": "Sandra Patricia Alvarez",
     "primerContacto": "2026-10-15T11:21:37.415Z",
-    "ultimoContacto": "2026-10-15T11:21:37.415Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T11:22:16.241Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-15T11:21:36.691Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2NjgwMTUwFQIAERgSRTY3ODEyOEFCQkFBRTJDN0MxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T11:22:15.302Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T11:22:15.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2NjgwMTUwFQIAERgSNjA0RTQ0MjEyQjQ1RkY4OUEzAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573016172869",
