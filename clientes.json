@@ -40,8 +40,8 @@
     "telefono": "CO.1424837076427955",
     "nombre": "ana García 🥰🥰🥹",
     "primerContacto": "2026-10-15T16:02:54.280Z",
-    "ultimoContacto": "2026-10-15T16:02:54.280Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T16:06:02.656Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,6 +61,18 @@
         "fecha": "2026-10-15T16:02:53.266Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjFBNDg1QTQ2QTg4NEUzNDY0RQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T16:06:01.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T16:06:01.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEkY4NTE4RDg2QkIzOTAwMzBENgA="
       }
     ],
     "paso": "conversando",
@@ -72,7 +84,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217947830",
