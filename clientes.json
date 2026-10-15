@@ -3,8 +3,8 @@
     "telefono": "573042481803",
     "nombre": "ramoshernandezjuanantonio",
     "primerContacto": "2026-10-15T13:11:04.731Z",
-    "ultimoContacto": "2026-10-15T13:11:04.731Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:12:46.959Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T13:11:04.048Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNDgxODAzFQIAERgSREMyRjUzNDBFMzFBMTlEODRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenos días para una vereda pertenece a Buenavista córdoba. Lo necesito para todo",
+        "fecha": "2026-10-15T13:12:45.393Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:12:46.102Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNDgxODAzFQIAERgSODlDQTk0RTMwM0M5MDJFNDdEAA=="
       }
     ],
     "paso": "conversando",
@@ -38,10 +50,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Hola buenos días para una vereda pertenece a Buenavista córdoba. Lo necesito para todo\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573153310489",
