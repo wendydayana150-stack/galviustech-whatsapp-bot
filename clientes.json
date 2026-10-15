@@ -3,8 +3,8 @@
     "telefono": "573124489959",
     "nombre": "Jhoan Osorio",
     "primerContacto": "2026-10-15T14:16:50.298Z",
-    "ultimoContacto": "2026-10-15T14:19:45.248Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-15T14:19:54.204Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,24 @@
         "fecha": "2026-10-15T14:19:44.439Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NDg5OTU5FQIAERgSOTE2RTNCQzk2M0QyOTk2OTk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-10-15T14:19:53.130Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-10-15T14:19:53.130Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-10-15T14:19:53.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NDg5OTU5FQIAERgSNTk4MDM4OTNCODU0NThBNkRFAA=="
       }
     ],
     "paso": "conversando",
@@ -93,8 +111,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
