@@ -144,8 +144,8 @@
     "telefono": "CO.1424837076427955",
     "nombre": "ana García 🥰🥰🥹",
     "primerContacto": "2026-10-15T16:02:54.280Z",
-    "ultimoContacto": "2026-10-15T16:10:49.009Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-15T16:11:16.281Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -290,14 +290,27 @@
         "fecha": "2026-10-15T16:10:47.903Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjdFNERCOTM2QTZGMjk4OUM4MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "ana garcia",
+        "fecha": "2026-10-15T16:11:15.096Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-15T16:11:15.097Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNDgzNzA3NjQyNzk1NRUUABEYEjI1RUNEMjM3NkIyREI2MEQ2MwA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
-      "telefono": "CO.1424837076427955"
+      "telefono": "CO.1424837076427955",
+      "nombreCliente": "ana garcia"
     },
     "pausado": false,
     "etapaManual": null,
