@@ -776,8 +776,8 @@
     "telefono": "573118974680",
     "nombre": "👶🏻👶🏻👶🏻👶🏻",
     "primerContacto": "2026-10-14T23:32:20.510Z",
-    "ultimoContacto": "2026-10-14T23:32:20.510Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T00:55:57.645Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -797,6 +797,38 @@
         "fecha": "2026-10-14T23:32:19.811Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4OTc0NjgwFQIAERgSQURCMjdBMTREQUQ4RkVCRTRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T00:36:21.194Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4OTc0NjgwFQIAERgSREM0RjFBMTFGNzM1QjNBQjM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-10-15T00:55:56.160Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-15T00:55:56.160Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-15T00:55:56.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4OTc0NjgwFQIAERgSODJGMzNBQUI3MUMwQjJGODQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-15T00:55:56.838Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4OTc0NjgwFQIAERgSQzQ2QTlDM0QxOUY3QUEyM0I0AA=="
       }
     ],
     "paso": "conversando",
@@ -804,14 +836,13 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
