@@ -3,8 +3,8 @@
     "telefono": "573214661321",
     "nombre": "#$@&()-_-",
     "primerContacto": "2026-10-15T19:08:46.653Z",
-    "ultimoContacto": "2026-10-15T19:08:46.653Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T19:09:18.290Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-15T19:08:45.817Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0NjYxMzIxFQIAERgSNDc3QkE5RUVFRTk0NjREMDlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-15T19:09:17.329Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-15T19:09:17.329Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NjYxMzIxFQIAERgSOTY5MTIzNDQ3QTkzQjNEMEY3AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213781976",
