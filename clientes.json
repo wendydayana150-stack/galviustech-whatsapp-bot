@@ -1033,8 +1033,8 @@
     "telefono": "573217918977",
     "nombre": "davilazeayesenia",
     "primerContacto": "2026-10-15T12:45:10.181Z",
-    "ultimoContacto": "2026-10-15T12:45:18.537Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T13:46:15.169Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1072,16 +1072,23 @@
         "fecha": "2026-10-15T12:45:17.527Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3OTE4OTc3FQIAERgSNUFBMEU5NjdFQjE3MkJBM0FGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-15T13:46:13.923Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3OTE4OTc3FQIAERgSMUU3MjkzM0U1Q0U3RUZDMzREAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"I coje dondesea\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
