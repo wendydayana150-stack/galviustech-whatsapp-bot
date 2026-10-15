@@ -884,8 +884,8 @@
     "telefono": "573107561923",
     "nombre": "Eli",
     "primerContacto": "2026-10-15T12:26:45.481Z",
-    "ultimoContacto": "2026-10-15T12:26:45.481Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:35:39.368Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -911,6 +911,25 @@
         "fecha": "2026-10-15T12:26:44.698Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSNERFREI3QzQ5MkI5RDk1MkE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-15T13:31:20.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSNDNFOTQ1RjIzNzg2OEJDMzMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ah ok\nPensé que ustedes ofrecían cobertura",
+        "fecha": "2026-10-15T13:35:38.367Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:35:38.600Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTYxOTIzFQIAERgSRkE2QTMxMEYwMzAxNDVFQ0ZFAA=="
       }
     ],
     "paso": "conversando",
@@ -919,13 +938,12 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Ah ok\nPensé que ustedes ofrecían cobertura\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
