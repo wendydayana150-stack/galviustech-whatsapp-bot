@@ -41,8 +41,8 @@
     "telefono": "573133845947",
     "nombre": "Leo``😼,,",
     "primerContacto": "2026-10-15T05:40:24.320Z",
-    "ultimoContacto": "2026-10-15T05:40:24.320Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T05:50:31.086Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -62,6 +62,18 @@
         "fecha": "2026-10-15T05:40:23.600Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzODQ1OTQ3FQIAERgSQTg4NzA4QThFQ0Y5NjVFRTQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T05:50:30.057Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T05:50:30.057Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzODQ1OTQ3FQIAERgSQzQ2MzRCOTlBNjQyMDdBNjc2AA=="
       }
     ],
     "paso": "conversando",
@@ -73,7 +85,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205892917",
