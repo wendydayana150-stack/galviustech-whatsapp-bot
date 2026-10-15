@@ -465,8 +465,8 @@
     "telefono": "573225201243",
     "nombre": "Cindy",
     "primerContacto": "2026-10-15T22:23:56.927Z",
-    "ultimoContacto": "2026-10-15T23:06:49.685Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T23:08:00.966Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -511,13 +511,25 @@
         "fecha": "2026-10-15T23:06:48.664Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1MjAxMjQzFQIAERgSOEVFRDZCMTVBQjdGRjNEMzY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-10-15T23:07:57.486Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para tu hogar. ¿En qué municipio o vereda estarías usando el módem?\n\nMientras tanto, te adelanto que tenemos 3 versiones disponibles con sus precios exactos:\n\n📶 Modem WiFi Portátil 4G:\n- Excelente para conexión estable en zonas sin fibra.\n- Conecta hasta 10 dispositivos.\n- La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 4G/5G (recomendado para más seguridad en cobertura 4G o 5G):\n- Tecnología 4G y 5G para más velocidad y compatibilidad.\n- Conecta varios dispositivos sin dificultad.\n- La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 5G:\n- Lo último en velocidad 5G para quienes tienen buena señal 5G en su zona.\n- Ideal para uso intensivo y máxima rapidez.\n- La inversión es de **$199.900 + $26.000 de envío**.\n\nCuéntame por favor en qué lugar estás para confirmar cuál es la mejor opción para ti y así no dependas de la fibra óptica ni busques WiFi ajeno. ¿Me dices?",
+        "fecha": "2026-10-15T23:07:59.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MjAxMjQzFQIAERgSQjI2QTQwQjBDRUM3QjAzQzkxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
