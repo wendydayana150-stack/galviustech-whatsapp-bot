@@ -3152,8 +3152,8 @@
     "telefono": "CO.2230570367521123",
     "nombre": "Karen 🫥",
     "primerContacto": "2026-10-15T16:40:31.499Z",
-    "ultimoContacto": "2026-10-15T17:12:48.821Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T22:03:14.519Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3321,6 +3321,13 @@
         "fecha": "2026-10-15T17:12:47.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIzMDU3MDM2NzUyMTEyMxUUABEYEkRGMEY1MjhBMTE3RTY0NDQzQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, Seguimos con el proceso? O tienes alguna duda?",
+        "fecha": "2026-10-15T22:03:13.619Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIzMDU3MDM2NzUyMTEyMxUUABEYEjYzQzkyOTBENzRCMzRDOTEwQQA="
       }
     ],
     "paso": "pedido_nombre",
@@ -3330,7 +3337,7 @@
       "precio": 189900,
       "telefono": "CO.2230570367521123"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -3339,9 +3346,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
