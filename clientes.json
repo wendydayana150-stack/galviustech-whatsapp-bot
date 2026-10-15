@@ -154,10 +154,10 @@
   },
   {
     "telefono": "CO.28705114935815198",
-    "nombre": "",
+    "nombre": "ɈĦØȺN Ħ 🩵",
     "primerContacto": "2026-10-15T21:08:52.261Z",
-    "ultimoContacto": "2026-10-15T21:08:52.261Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T21:13:28.834Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -183,6 +183,18 @@
         "fecha": "2026-10-15T21:08:51.460Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjg3MDUxMTQ5MzU4MTUxOTgVFAARGBJDOUFGMzQzQTIyMzdFMUU1MkQA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa",
+        "fecha": "2026-10-15T21:13:26.871Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que te interese 😊 Para darte la mejor opción, dime en qué municipio o vereda lo usarás principalmente, y para qué lo necesitas: ¿trabajo, estudio, hogar o negocio? Así te recomiendo el modem que más te conviene y te cuento el precio con envío. ¿Me cuentas?",
+        "fecha": "2026-10-15T21:13:27.957Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjg3MDUxMTQ5MzU4MTUxOTgVFAARGBI5RDQxRUIzM0M2NDdGRTI0QTAA"
       }
     ],
     "paso": "conversando",
@@ -194,7 +206,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1132202552488403",
