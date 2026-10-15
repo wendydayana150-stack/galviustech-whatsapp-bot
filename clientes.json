@@ -41,8 +41,8 @@
     "telefono": "573185116020",
     "nombre": "cortes",
     "primerContacto": "2026-10-15T17:44:36.193Z",
-    "ultimoContacto": "2026-10-15T17:44:36.193Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T17:47:30.592Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -62,6 +62,18 @@
         "fecha": "2026-10-15T17:44:34.596Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTE2MDIwFQIAERgSNkJERkE1OUM2NjZBOTA5OTQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T17:47:29.688Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T17:47:29.688Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTE2MDIwFQIAERgSNEVBRUM0OUE2QkEzOTE1QkZFAA=="
       }
     ],
     "paso": "conversando",
@@ -73,7 +85,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217196503",
