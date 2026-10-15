@@ -3,8 +3,8 @@
     "telefono": "573005137754",
     "nombre": "santiago",
     "primerContacto": "2026-10-15T22:51:21.048Z",
-    "ultimoContacto": "2026-10-15T22:51:52.511Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T22:52:53.364Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,18 @@
         "fecha": "2026-10-15T22:51:51.448Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MTM3NzU0FQIAERgSOEUxRThGQzNFQzM3OUQwREY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para sona sin cobertura",
+        "fecha": "2026-10-15T22:52:50.814Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay cobertura de ningún operador (Claro, Movistar, Tigo, WOM), te soy sincera: el modem no va a funcionar porque siempre necesita señal móvil para conectarse.\n\nAhora, la antena del modem es más potente que la de un celular, así que a veces sí capta señal donde el celular dice \"sin servicio\". ¿Has confirmado si tu celular realmente no tiene señal justo donde quieres usar el modem? ¿En qué municipio o vereda es? Así te orientó mejor.",
+        "fecha": "2026-10-15T22:52:52.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MTM3NzU0FQIAERgSQjYwN0Q2QzUyM0UxRjNCNTM4AA=="
       }
     ],
     "paso": "conversando",
