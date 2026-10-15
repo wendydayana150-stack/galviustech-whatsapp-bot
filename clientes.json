@@ -4115,8 +4115,8 @@
     "telefono": "CO.1153788403997720",
     "nombre": "Sofia Ortiz",
     "primerContacto": "2026-10-15T15:39:53.466Z",
-    "ultimoContacto": "2026-10-15T15:46:11.877Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-15T21:04:32.479Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4278,16 +4278,23 @@
         "fecha": "2026-10-15T15:46:10.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEjhFRjJBRUFFMjJGOEE5M0Y4QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-15T21:04:31.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEkIyNkNCMzU3RkU4MkY0ODkwNgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Un asesor porfavor\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
