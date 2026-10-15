@@ -4141,8 +4141,12 @@ async function reactivarChatsConFallo() {
                   if (sesion.paso === "inicio") sesion.paso = "conversando";
                   // Mensajes del cliente que quedaron sin respuesta al final del chat (a veces escribe varios seguidos).
                   const trans = sesion.transcripcion || [];
+                  // Al final del chat pueden quedar los avisos de error del bot (y el "[Envio el catalogo...]" que
+                  // fallo): no cuentan como respuesta, se saltan para encontrar lo que el cliente pidio.
+                  let fin = trans.length - 1;
+                  while (fin >= 0 && trans[fin].rol !== "cliente" && (TEXTO_FALLO_IA.test(trans[fin].texto || "") || /^\[Envio el catalogo/i.test(trans[fin].texto || ""))) fin--;
                   const pendientes = [];
-                  for (let i = trans.length - 1; i >= 0 && trans[i].rol === "cliente"; i--) pendientes.unshift(trans[i]);
+                  for (let i = fin; i >= 0 && trans[i].rol === "cliente"; i--) pendientes.unshift(trans[i]);
                   // "[Selecciono] Ver otros" (boton) cuenta como lo que escribio el cliente
                   const textoPendiente = pendientes.map((m) => (m.texto || "").replace(/^\[Selecciono\]\s*/, "")).filter((t) => t && !t.startsWith("[")).join("\n");
                   let respondido = false;
