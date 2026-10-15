@@ -3,8 +3,8 @@
     "telefono": "573138701098",
     "nombre": "lopezfleider6",
     "primerContacto": "2026-10-15T19:25:13.738Z",
-    "ultimoContacto": "2026-10-15T19:25:13.738Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T19:26:06.052Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,33 @@
         "fecha": "2026-10-15T19:25:12.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NzAxMDk4FQIAERgSQjk0QkMyQjZENUM5MzgzMjQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola y a color también o solo blanco y negro",
+        "fecha": "2026-10-15T19:26:00.951Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 nuestra Impresora Térmica Portátil Bluetooth solo imprime en blanco y negro, no puede imprimir a color ni escanear. Es perfecta para imprimir documentos, facturas o notas de manera rápida y sin depender de una impresora grande.\n\n¿Para qué tipo de impresión la necesitarías? Así te cuento si es la mejor para ti.",
+        "fecha": "2026-10-15T19:26:04.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NzAxMDk4FQIAERgSOTMwNkZDQjIzQTg0RUVEMEJBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573115060668",
