@@ -3,8 +3,8 @@
     "telefono": "573145270415",
     "nombre": "❤️❤️❤️",
     "primerContacto": "2026-10-15T13:13:23.396Z",
-    "ultimoContacto": "2026-10-15T13:14:22.327Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T13:14:28.604Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,18 @@
         "fecha": "2026-10-15T13:14:21.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSMjY1NDJCQ0NEMDY4RDIwREY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rural",
+        "fecha": "2026-10-15T13:14:27.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:14:27.933Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MjcwNDE1FQIAERgSNEU1OTNERjQ1NEMwNkRBQkM4AA=="
       }
     ],
     "paso": "conversando",
@@ -51,7 +63,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para una zonal\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Rural\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
