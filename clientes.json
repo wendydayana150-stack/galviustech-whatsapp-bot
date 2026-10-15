@@ -69,8 +69,8 @@
     "telefono": "573147642526",
     "nombre": "Anyianaya",
     "primerContacto": "2026-10-15T15:43:36.659Z",
-    "ultimoContacto": "2026-10-15T15:43:36.659Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T15:45:54.174Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -90,6 +90,18 @@
         "fecha": "2026-10-15T15:43:35.076Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSMDkxMTE0NTJCNDQ3OUI3RDQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-15T15:45:53.162Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-15T15:45:53.162Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSMjU1MkNEMDI5RDU1OENERUEzAA=="
       }
     ],
     "paso": "conversando",
@@ -101,7 +113,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1153788403997720",
