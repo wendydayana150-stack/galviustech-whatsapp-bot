@@ -3,8 +3,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-15T12:47:44.116Z",
-    "ultimoContacto": "2026-10-15T12:48:57.253Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T12:49:57.455Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,18 @@
         "fecha": "2026-10-15T12:48:56.367Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMTc4QzYxNTM3NkQ4Q0FEQThEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Decía que nesecito internet para mí finca para cuatro celulares",
+        "fecha": "2026-10-15T12:49:55.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T12:49:56.260Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMzgyOEQwRDlDQ0QwNkMyQUJDAA=="
       }
     ],
     "paso": "conversando",
@@ -51,7 +63,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para el hogar.4 celulares\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Decía que nesecito internet para mí finca para cuatro celulares\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
