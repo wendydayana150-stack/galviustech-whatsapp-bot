@@ -41,8 +41,8 @@
     "telefono": "CO.1512166087387599",
     "nombre": "Wilmar jose Reyes",
     "primerContacto": "2026-10-15T20:16:21.792Z",
-    "ultimoContacto": "2026-10-15T20:17:00.038Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T20:17:55.097Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,13 +73,25 @@
         "fecha": "2026-10-15T20:16:58.977Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMjE2NjA4NzM4NzU5ORUUABEYEjYyNzQ4NjEzMjc5MzlBMDE3MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes estoy buscando una impresora térmica",
+        "fecha": "2026-10-15T20:17:53.269Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿me cuentas para qué la necesitas? Por ejemplo, ¿vas a imprimir facturas, etiquetas, documentos tamaño carta o algo así? Así te recomiendo la impresora térmica que mejor te sirve.\n\nY también dime en qué ciudad o municipio estás para ayudarte con el envío. ¿Me cuentas?",
+        "fecha": "2026-10-15T20:17:54.165Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMjE2NjA4NzM4NzU5ORUUABEYEkJEQTIxNTMyMzNBMTY5QUYyRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
