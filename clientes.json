@@ -79,8 +79,8 @@
     "telefono": "CO.1153788403997720",
     "nombre": "Sofia Ortiz",
     "primerContacto": "2026-10-15T15:39:53.466Z",
-    "ultimoContacto": "2026-10-15T15:44:47.215Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-15T15:45:28.870Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -211,6 +211,25 @@
         "fecha": "2026-10-15T15:44:43.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEjg4NzIxMUU4RUNEMjY1QTJCMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea le pongo por ejemplo mi SIM de claro y así este en una zona que no halla señal el va a tener señal",
+        "fecha": "2026-10-15T15:45:25.809Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, tú usas tu SIM de Claro y el módem amplifica la señal mucho más que un celular normal, así que en zonas rurales o veredas donde tu celular casi no tiene señal, el módem tiene mejor recepción.\n\nEso sí, si en tu zona no hay señal ni de pasada, el módem no puede crear una señal donde no exista, pero en la mayoría de veredas sí captura señal donde el celular dice que no hay.\n\n¿Quieres probar esta solución para tener internet estable sin depender de señal débil o buscar WiFi ajeno?",
+        "fecha": "2026-10-15T15:45:27.173Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEjJBRkZENUNEREIzOTU1MkY1OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T15:45:27.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEkEwRTQ0QkU3NkQ1Q0JCRjE1OQA="
       }
     ],
     "paso": "conversando",
