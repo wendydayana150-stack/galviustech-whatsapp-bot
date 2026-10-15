@@ -91,8 +91,8 @@
     "telefono": "573102953859",
     "nombre": "rosavillalobosdavila1994",
     "primerContacto": "2026-10-15T13:52:26.690Z",
-    "ultimoContacto": "2026-10-15T13:52:26.690Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:53:52.469Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,6 +118,18 @@
         "fecha": "2026-10-15T13:52:25.738Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTUzODU5FQIAERgSQjcxN0VFNzg1MEY4OUQ5MDgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Venezuela",
+        "fecha": "2026-10-15T13:53:47.795Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, pero los módems que tenemos de GalviusTech están diseñados para operadores en Colombia y su cobertura es para Colombia. \n\nPor eso no funcionarán bien con la señal de Venezuela. ¿Quizás te interesa saber de algún producto que podamos ofrecerte para Colombia o quieres información sobre otro tipo de equipos? \n\n¿O para qué necesitas internet portátil en Venezuela? Así te ayudo mejor.",
+        "fecha": "2026-10-15T13:53:49.680Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTUzODU5FQIAERgSOThFMTdCNzdENjZFNzMyNTAwAA=="
       }
     ],
     "paso": "conversando",
@@ -129,7 +141,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573152642466",
