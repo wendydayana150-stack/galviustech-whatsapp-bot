@@ -816,8 +816,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-15T12:47:44.116Z",
-    "ultimoContacto": "2026-10-15T12:49:57.455Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-15T13:44:59.023Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -867,16 +867,23 @@
         "fecha": "2026-10-15T12:49:56.260Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMzgyOEQwRDlDQ0QwNkMyQUJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, claro que si",
+        "fecha": "2026-10-15T13:44:58.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSOUY2OTMwRDlEN0I0NjVERDdGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Decía que nesecito internet para mí finca para cuatro celulares\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
