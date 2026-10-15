@@ -112,8 +112,8 @@
     "telefono": "573116850529",
     "nombre": "Jesu Matiu",
     "primerContacto": "2026-10-15T15:54:03.026Z",
-    "ultimoContacto": "2026-10-15T15:59:42.547Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-15T16:00:20.672Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -213,6 +213,25 @@
         "fecha": "2026-10-15T15:59:41.545Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODUwNTI5FQIAERgSODUxM0JGOTkyQkYzQTc1QjUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y la forma de pago",
+        "fecha": "2026-10-15T16:00:17.850Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, puedes pagar como prefieras:\n\n💵 Contraentrega (pagas al recibir el módem)\n🏦 Transferencia bancaria\n📱 Sistecredito a cuotas (si ya tienes cupo aprobado)\n\nAsí te resulta más cómodo y seguro.\n\n¿Con cuál forma de pago te gustaría avanzar para que te deje el pedido listo?",
+        "fecha": "2026-10-15T16:00:18.848Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODUwNTI5FQIAERgSRjY1MTc1MjFFRDFGQUMyNUZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T16:00:19.548Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODUwNTI5FQIAERgSRkNCM0VBNjhFRUJDQTBCNDIyAA=="
       }
     ],
     "paso": "conversando",
