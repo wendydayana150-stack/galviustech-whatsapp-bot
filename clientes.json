@@ -3,8 +3,8 @@
     "telefono": "573168629388",
     "nombre": "Luis Sanchez",
     "primerContacto": "2026-10-15T16:31:40.003Z",
-    "ultimoContacto": "2026-10-15T16:31:46.450Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T16:32:57.304Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-15T16:31:45.643Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NjI5Mzg4FQIAERgSNTE0QkM2QzY0MUIzRjJFRkJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lejanias canta gallo",
+        "fecha": "2026-10-15T16:32:53.708Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! En Lejanías y Canta Gallo el servicio de 4G llega bastante bien en general.  \n\nMi recomendación es el *Modem WiFi Portatil 4G/5G* porque te da flexibilidad para usar 4G o aprovechar 5G si hay señal donde estés. Puedes conectar varios dispositivos sin problema y llevarlo contigo a donde vayas. La inversión es de **$189.900 + $26.000 de envío**.  \n\n¿Lo necesitas para trabajo, estudio, tu hogar o para el negocio? Así te ayudo a imaginar cómo te facilitaría la conexión.",
+        "fecha": "2026-10-15T16:32:55.557Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NjI5Mzg4FQIAERgSMzNFNjA3MUJFM0I0NDU1MkYzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
