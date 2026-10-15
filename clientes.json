@@ -3857,8 +3857,8 @@
     "telefono": "573045674148",
     "nombre": "",
     "primerContacto": "2026-10-15T16:03:46.037Z",
-    "ultimoContacto": "2026-10-15T16:03:46.037Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T22:02:19.947Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3885,10 +3885,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": null,
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1424837076427955",
