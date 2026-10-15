@@ -3,8 +3,8 @@
     "telefono": "573008542357",
     "nombre": "Wilson Garcia Mogollon",
     "primerContacto": "2026-10-15T21:01:15.870Z",
-    "ultimoContacto": "2026-10-15T21:01:15.870Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T21:02:27.416Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T21:01:14.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSRThCNUFFNDc0MUMyRTFFOUE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tibirita cundinamarca vereda san Antonio",
+        "fecha": "2026-10-15T21:02:24.279Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Tibirita, vereda San Antonio.\n\nAhora que sé dónde, solo dime para qué lo necesitas más: ¿estudio, trabajo, negocio o uso en casa? Así te recomiendo el modem ideal.\n\nPara que imagines: con el módem GalviusTech llevas internet a donde la fibra no llega, compartes WiFi con varios dispositivos y nunca más buscas señal solo con el celular. ¿Qué uso le darías principalmente?",
+        "fecha": "2026-10-15T21:02:26.275Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NTQyMzU3FQIAERgSMEJBMEQyRTMwM0RGQ0E1NzBCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573012924124",
