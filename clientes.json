@@ -176,8 +176,8 @@
     "telefono": "573104150506",
     "nombre": "Isabel Alvarez 😘",
     "primerContacto": "2026-10-15T22:08:49.509Z",
-    "ultimoContacto": "2026-10-15T22:08:49.509Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T22:24:53.329Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,18 +203,33 @@
         "fecha": "2026-10-15T22:08:48.716Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTUwNTA2FQIAERgSRkRGQjg3QURDMzI5RkYxMEU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda de sucre",
+        "fecha": "2026-10-15T22:24:50.216Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es en la vereda Sucre. \n\nLas opciones que tenemos para ti son estas tres, con la mejor tecnologia y facil de llevar donde necesites:\n\n📶 **Módem WiFi Portátil 4G**: conexión estable en zonas sin fibra óptica, batería que dura hasta 14 horas, y conecta hasta 10 dispositivos. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Módem WiFi Portátil 4G/5G**: lo mejor de ambos mundos, conecta 4G y 5G para mayor cobertura y velocidad donde haya 5G. La inversión es de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Módem WiFi Portátil 5G**: máxima velocidad 5G para las zonas que ya cuentan con ese servicio. La inversión es de **$199.900 + $26.000 de envío**.\n\nRecomiendo el módem 4G/5G para que tengas seguridad de conexión aunque en tu zona solo haya 4G por ahora. ¿Para qué lo usarías principalmente, en casa, trabajo o estudio?",
+        "fecha": "2026-10-15T22:24:52.444Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTUwNTA2FQIAERgSNzM2MkU5MkVCODE5NjAxQkMxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573163395983",
