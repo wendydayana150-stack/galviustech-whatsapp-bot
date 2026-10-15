@@ -3,8 +3,8 @@
     "telefono": "573206745512",
     "nombre": "Pedro David Pacheco Arrie",
     "primerContacto": "2026-10-15T21:15:01.830Z",
-    "ultimoContacto": "2026-10-15T21:15:01.830Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T21:15:06.014Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T21:15:01.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2NzQ1NTEyFQIAERgSNEVEM0M5MjE5Q0ZBNzI5NjM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que cuesta",
+        "fecha": "2026-10-15T21:15:03.574Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido los beneficios principales de nuestros módems:\n\n✅ Conexión estable donde la fibra no llega  \n✅ WiFi para varios dispositivos (ideal para familia o trabajo)  \n✅ Portátiles y fáciles de llevar  \n\nTienes 3 opciones:  \n📶 Modem WiFi Portatil 4G: la inversion es de **$169.900 + $26.000 de envío**  \n📶 Modem WiFi Portatil 4G/5G (funciona 4G y 5G): inversión de **$189.900 + $26.000 de envío**  \n📶 Modem WiFi Portatil 5G para máxima velocidad si tienes cobertura 5G en tu zona: inversión de **$199.900 + $26.000 de envío**\n\n¿En qué municipio o vereda lo usarías? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-10-15T21:15:05.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2NzQ1NTEyFQIAERgSNkIwQjc2OTRFNTMzMjRFQUQ3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1099530699609492",
