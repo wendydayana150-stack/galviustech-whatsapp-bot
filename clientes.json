@@ -1981,8 +1981,8 @@
     "telefono": "573103828089",
     "nombre": "Dios es Amor.",
     "primerContacto": "2026-10-15T15:18:24.616Z",
-    "ultimoContacto": "2026-10-15T15:48:40.601Z",
-    "mensajes": 26,
+    "ultimoContacto": "2026-10-15T15:49:30.638Z",
+    "mensajes": 27,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2530,6 +2530,18 @@
         "fecha": "2026-10-15T15:48:39.661Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzODI4MDg5FQIAERgSMzk2ODQ0QzYzNjQwMTM3RTREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Okdejamelo reviso",
+        "fecha": "2026-10-15T15:49:28.710Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Quedo atenta para cuando decidas, no hay apuro. Recuerda que el módem te dará internet estable donde más lo necesitas.\n\nCuando estés listo me avisas y te apoyo a dejar tu pedido seguro.",
+        "fecha": "2026-10-15T15:49:29.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzODI4MDg5FQIAERgSREM4QzBDNUYwMTNCMURDNTZBAA=="
       }
     ],
     "paso": "conversando",
@@ -2540,7 +2552,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
