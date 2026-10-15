@@ -41,8 +41,8 @@
     "telefono": "CO.1974225330165186",
     "nombre": "Kener",
     "primerContacto": "2026-10-15T15:19:28.203Z",
-    "ultimoContacto": "2026-10-15T15:19:28.203Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T15:19:52.267Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -62,6 +62,18 @@
         "fecha": "2026-10-15T15:19:25.401Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk3NDIyNTMzMDE2NTE4NhUUABEYEjQzQkEwMzgyMTI0REU1MDM3RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-15T15:19:51.332Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-15T15:19:51.333Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk3NDIyNTMzMDE2NTE4NhUUABEYEkZBMzU1RTUxNjA2RkU0MUQ5RgA="
       }
     ],
     "paso": "conversando",
@@ -73,7 +85,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.4236663476463986",
