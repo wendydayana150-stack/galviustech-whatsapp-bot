@@ -3,8 +3,8 @@
     "telefono": "CO.1153788403997720",
     "nombre": "Sofia Ortiz",
     "primerContacto": "2026-10-15T15:39:53.466Z",
-    "ultimoContacto": "2026-10-15T15:41:31.841Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-15T15:43:20.853Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-10-15T15:41:30.834Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEjE4MDkyQTQ2NjU2QjY3NTI4RQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La palma cundinamarca estoy ubicada en una vereda Pero se me hace como económico donde están ubicados podría hablar con un asesor",
+        "fecha": "2026-10-15T15:43:16.831Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa; si estás en vereda, en zonas sin entrega a domicilio, lo puedes recoger en la oficina de la transportadora más cercana.\n\nEntiendo que te parece económico, un buen precio pensando en la calidad y cobertura que te dará en la vereda.\n\nYa estoy aquí para asesorarte con todo lo que necesites, pero si quieres que alguien más del equipo te atienda, te aviso que en breve un asesor humano te contacta para darte acompañamiento personalizado.\n\nMientras tanto, ¿quieres que te muestre nuevamente los modelos del módem o te ayudo a dejar tu pedido listo para enviarlo?",
+        "fecha": "2026-10-15T15:43:18.673Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1Mzc4ODQwMzk5NzcyMBUUABEYEjRGQzE1MDYwNUQzMDFDM0U2NAA="
       }
     ],
     "paso": "conversando",
@@ -100,8 +112,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"La palma cundinamarca estoy ubicada en una vereda Pero se me hace como económico donde están ubicado\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
