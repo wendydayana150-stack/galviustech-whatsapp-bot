@@ -8979,8 +8979,8 @@
     "telefono": "573508942874",
     "nombre": "Andreina",
     "primerContacto": "2026-10-14T19:33:41.792Z",
-    "ultimoContacto": "2026-10-14T21:53:54.252Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-10-15T13:59:11.062Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9277,6 +9277,13 @@
         "fecha": "2026-10-14T21:53:53.161Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSMTdFRTU4ODUwMzIxQkFFQjFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-15T13:59:09.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA4OTQyODc0FQIAERgSN0UyMkNGNkM1QUNFMzI3MDVBAA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -9291,7 +9298,7 @@
       "ciudad": "Wuilmarys aguirre",
       "direccion": "Ya te confimo"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
