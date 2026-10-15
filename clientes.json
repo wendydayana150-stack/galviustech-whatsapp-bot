@@ -84,8 +84,8 @@
     "telefono": "573002873847",
     "nombre": "endodoncista",
     "primerContacto": "2026-10-15T23:37:50.135Z",
-    "ultimoContacto": "2026-10-15T23:37:50.135Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T23:42:41.935Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,18 +104,46 @@
         "fecha": "2026-10-15T23:37:48.979Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSQkZBMzc5MjlGRDZDODQ0NzE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Documentos en hoja tamaño carta",
+        "fecha": "2026-10-15T23:42:37.844Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para documentos en hoja tamaño carta como tareas, trabajos, facturas o contratos, la mejor opción es nuestra *Impresora Térmica Portátil Bluetooth*.\n\nTe ahorras el gasto en tinta porque es térmica y imprime solo en blanco y negro. Además es súper portátil, cabe en el bolso o mochila y funciona por Bluetooth con Android o iPhone. Mide 27.5 cm de largo, 6.5 cm de ancho y 5 cm de alto, similar a un control remoto delgado.\n\nLa inversión es de *$249.900 + $26.000 de envío*. ¿La usarías para estudio, trabajo o tu negocio? ¿Quieres que te cuente más de cómo funciona?",
+        "fecha": "2026-10-15T23:42:40.305Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSMEY3OEUzOEI1NzdEMTU3NDBBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-10-15T23:42:40.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSRTAyRjBCMkM2NjU3M0ZGREQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Termica]",
+        "fecha": "2026-10-15T23:42:41.667Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1825341991836822",
