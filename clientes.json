@@ -195,8 +195,8 @@
     "telefono": "573113277875",
     "nombre": "Daro",
     "primerContacto": "2026-10-15T15:45:03.955Z",
-    "ultimoContacto": "2026-10-15T15:52:06.908Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-15T15:53:15.228Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -277,6 +277,25 @@
         "fecha": "2026-10-15T15:52:05.837Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSOUUzNjdDMUZDQTVFRjM5RDkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La señal claro también es bastante pésima",
+        "fecha": "2026-10-15T15:53:11.176Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la info, eso me ayuda mucho.\n\nComo la señal es pésima en WOM y Claro, puede que el módem mejore un poco la conexión gracias a su antena potente, pero si no hay señal realmente, el módem no podrá generar internet.\n\nGalviusTech no ofrece internet satelital, solo con operadoras móviles.\n\n¿Quieres que te ayude a dejar tu pedido del módem igual, para que lo pruebes y veas cómo funciona en tu lugar? Recuerda que muchos clientes en zonas similares ya están conectados y agradecen esta solución.\n\n¿Prefieres que te lo enviemos a tu dirección o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-15T15:53:13.207Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSRUVDMDFCM0UyNjVFMkFCQ0VFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-15T15:53:13.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMjc3ODc1FQIAERgSQkZFNjY5OUQzQUE0OUQyQjU4AA=="
       }
     ],
     "paso": "conversando",
