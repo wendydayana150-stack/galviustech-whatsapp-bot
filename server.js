@@ -2198,6 +2198,7 @@ async function iniciarPedido(telefono, productoId) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  recordarPedidoRegistrado(sesion, nuevoPedido);
                   await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
@@ -2547,6 +2548,9 @@ async function finalizarPedidoSesion(telefono) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
+                  // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
+                  recordarPedidoRegistrado(sesion, pedidoAGuardar);
                   await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
@@ -3164,8 +3168,47 @@ function preguntaOtrosProductos(texto) {
       return general.test(t) && !especifico.test(t) && t.length < 120;
 }
 
+// Deja en el historial de la IA el pedido que se acaba de registrar y marca que se espera la respuesta al
+// mensaje de compromiso ("¿CONFIRMA QUE ESTA SEGURO(A) DE RECIBIR SU PEDIDO?").
+function recordarPedidoRegistrado(sesion, pedido) {
+      const total = (Number(pedido.precio) || 0) + (Number(config.COSTO_ENVIO) || 0);
+      sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "" };
+      sesion.esperandoConfirmacionCompromiso = true;
+      if (!Array.isArray(sesion.historial)) sesion.historial = [];
+      const nota = `(Ya quedo REGISTRADO el pedido del cliente: ${pedido.nombreProducto}, total ${formatearPrecio(total)} con envio, pago ${pedido.medioPago || "contraentrega"}, para ${pedido.ciudad || ""}. Se le pidio confirmar que lo va a recibir. No le vuelvas a preguntar que producto quiere ni le pidas los datos otra vez.)`;
+      const ultimo = sesion.historial[sesion.historial.length - 1];
+      if (ultimo && ultimo.role === "assistant") ultimo.content += "\n" + nota;
+      else sesion.historial.push({ role: "assistant", content: nota });
+}
+
+const CONFIRMA_COMPROMISO = /^\s*(s[ií]+|claro|seguro|confirm[oa]|confirmado|de acuerdo|ok|okey|listo|dale|perfecto|por supuesto|as[ií] es|👍|✅)\b|confirmo|s[ií],? (estoy seguro|lo recibo|la recibo|claro)/i;
+const NIEGA_COMPROMISO = /^\s*no\b|cancel|ya no lo quiero|ya no la quiero|no estoy segur/i;
+
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
+
+      // Respuesta al mensaje de compromiso de un pedido recien registrado
+      if (sesion.esperandoConfirmacionCompromiso && sesion.ultimoPedidoRegistrado) {
+            const ped = sesion.ultimoPedidoRegistrado;
+            if (NIEGA_COMPROMISO.test(texto)) {
+                  sesion.esperandoConfirmacionCompromiso = false;
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = `El cliente dudo o no confirmo que recibira su pedido de ${ped.nombreProducto}: "${String(texto).slice(0, 80)}"`;
+                  await enviarTexto(telefono, "Entiendo 😊 Cuéntame, ¿qué te preocupa o qué te gustaría cambiar de tu pedido? Te ayudo a dejarlo como lo necesitas.");
+                  return;
+            }
+            if (CONFIRMA_COMPROMISO.test(texto)) {
+                  sesion.esperandoConfirmacionCompromiso = false;
+                  const nombre = String(ped.nombre || "").split(" ")[0];
+                  const confirmacion = `¡Perfecto${nombre ? ", " + nombre : ""}! ✅ Tu pedido de *${ped.nombreProducto}* quedó confirmado (total ${formatearPrecio(ped.total)} con envío).\n\n📦 Lo despachamos en las horas de la tarde y te llega en 2 a 4 días hábiles. Apenas salga te enviamos el número de guía por aquí. ¡Gracias por tu compra! 🙌`;
+                  await enviarTexto(telefono, confirmacion);
+                  if (Array.isArray(sesion.historial)) {
+                        sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: confirmacion });
+                  }
+                  return;
+            }
+            sesion.esperandoConfirmacionCompromiso = false;
+      }
 
       const manejado = await manejarFlujoPedido(telefono, texto);
       if (manejado) {
