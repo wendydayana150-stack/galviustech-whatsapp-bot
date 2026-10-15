@@ -5206,8 +5206,8 @@
     "telefono": "573147642526",
     "nombre": "Anyianaya",
     "primerContacto": "2026-10-15T15:43:36.659Z",
-    "ultimoContacto": "2026-10-15T15:50:40.077Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-15T22:01:36.674Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5434,6 +5434,13 @@
         "fecha": "2026-10-15T15:50:38.578Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQzJGQzBGQkIxQTRCNEVGQTY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, seguimos con el proceso?",
+        "fecha": "2026-10-15T22:01:35.367Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjQyNTI2FQIAERgSQTc3MkNENDNCOTMzOTY5RjZGAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -5443,7 +5450,7 @@
       "precio": 289900,
       "telefono": "573147642526"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
@@ -5452,9 +5459,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
