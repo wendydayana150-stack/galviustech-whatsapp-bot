@@ -3,8 +3,8 @@
     "telefono": "573227137096",
     "nombre": "hormazajorge76",
     "primerContacto": "2026-10-15T11:28:18.377Z",
-    "ultimoContacto": "2026-10-15T11:38:48.683Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T11:39:44.378Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,18 @@
         "fecha": "2026-10-15T11:38:47.659Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MTM3MDk2FQIAERgSNThEMUQ3NUREQTRENUREMkZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Le confirmo en la tarde  gracias",
+        "fecha": "2026-10-15T11:39:42.312Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta a tu mensaje en la tarde para ayudarte con el pedido cuando estés listo.\n\nSi en algún momento tienes más dudas o quieres que te explique algo más, aquí estoy para ayudarte.\n\n¡Que tengas un buen día! 😊",
+        "fecha": "2026-10-15T11:39:43.406Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MTM3MDk2FQIAERgSQjIwRUZGMjcxOUNFQTBFNUVDAA=="
       }
     ],
     "paso": "conversando",
@@ -182,7 +194,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
