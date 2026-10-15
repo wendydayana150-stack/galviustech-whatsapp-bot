@@ -41,8 +41,8 @@
     "telefono": "573017952849",
     "nombre": "Angel Niño",
     "primerContacto": "2026-10-15T15:14:27.185Z",
-    "ultimoContacto": "2026-10-15T15:15:13.744Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T15:16:14.507Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,13 +87,25 @@
         "fecha": "2026-10-15T15:15:12.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3OTUyODQ5FQIAERgSOUZDQzEzM0Y1MEI4REM0OThCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Marinilla Antioquia\nPara trabajar y estudiar",
+        "fecha": "2026-10-15T15:16:09.660Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info 😊\n\nEn Marinilla, Antioquia, para estudio y trabajo, te recomiendo estas 3 versiones de módem que tenemos:\n\n📶 *Modem WiFi Portatil 4G* - La opción más economica, ideal si quieres ahorrar. Funciona excelente en zonas sin fibra y conecta varios dispositivos. Inversion de *$169.900* + $26.000 de envío.\n\n🚀 *Modem WiFi Portatil 4G/5G* - La más segura y versátil: conecta tanto en 4G como 5G si hay cobertura. Perfecto para tener siempre conexión estable para trabajo, estudio y más. Inversion de *$189.900* + $26.000 de envío.\n\n⚡ *Modem WiFi Portatil 5G* - Para zonas con buena cobertura 5G y buscar la velocidad máxima. Lo último en conectividad para trabajar y estudiar sin interrupciones. Inversion de *$199.900* + $26.000 de envío.\n\nLos módems son fáciles de usar, portátiles y su antena capta mejor señal que un celular común, ideal para la zona rural o veredas cercanas.\n\n¿Cuántos dispositivos conectarias normalmente con el módem? Así te ayudo a elegir el mejor.",
+        "fecha": "2026-10-15T15:16:13.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3OTUyODQ5FQIAERgSQTI1Q0QwQTIwMTExQjVGMDRFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
