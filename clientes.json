@@ -3,8 +3,8 @@
     "telefono": "CO.1825341991836822",
     "nombre": "Johana Mosquera",
     "primerContacto": "2026-10-15T23:30:19.844Z",
-    "ultimoContacto": "2026-10-15T23:31:21.398Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-15T23:32:09.133Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35,6 +35,18 @@
         "fecha": "2026-10-15T23:31:20.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyNTM0MTk5MTgzNjgyMhUUABEYEjQxMTgyQjU3OTJEMzVBREI3QQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok cuando tenga la plata vuelvo a escribir para pedirla gracias",
+        "fecha": "2026-10-15T23:32:07.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, ninguna prisa. Cuando estés lista para imprimir tus tareas y documentos sin complicaciones, aquí estaré para ayudarte.\n\nMientras tanto, ¿quieres que te muestre otras opciones de productos que tenemos en GalviusTech para facilitar tu estudio o trabajo?",
+        "fecha": "2026-10-15T23:32:08.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyNTM0MTk5MTgzNjgyMhUUABEYEjg4NjQ3NEIzRjA3MThFMzA2RgA="
       }
     ],
     "paso": "conversando",
@@ -45,7 +57,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
