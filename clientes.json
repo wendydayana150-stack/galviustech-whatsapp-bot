@@ -3,8 +3,8 @@
     "telefono": "573122474037",
     "nombre": "César Marín Rodríguez",
     "primerContacto": "2026-10-15T13:34:48.614Z",
-    "ultimoContacto": "2026-10-15T13:34:48.614Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T13:36:28.932Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T13:34:47.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDc0MDM3FQIAERgSRDNBMzVCODAwMDRCRTlFMTk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenos dias",
+        "fecha": "2026-10-15T13:36:27.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-15T13:36:28.177Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDc0MDM3FQIAERgSNkQwM0Q2RUZCQ0U4NzEyRjc5AA=="
       }
     ],
     "paso": "conversando",
@@ -38,10 +50,13 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Hola buenos dias\"",
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573022655684",
