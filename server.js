@@ -4106,6 +4106,65 @@ async function reactivarConversaciones() {
 	return reactivados;
 }
 
+// Reactivar chats afectados por una caida de la IA (oct-2026: se acabo el saldo de OpenAI y el bot
+// respondio "tuve un problema para procesar tu mensaje"; Wendy contesto a mano y esos chats quedaron
+// pausados). Para cada cliente que recibio ese aviso en las ultimas 24 h: quita la pausa y el aviso de
+// atencion, y si su ultimo mensaje quedo sin respuesta, el bot lo responde ahora (dentro de la ventana
+// de 24 h de WhatsApp, asi que se puede escribir sin plantilla).
+const TEXTO_FALLO_IA = "tuve un problema para procesar tu mensaje";
+async function reactivarChatsConFallo() {
+      const { datos } = await leerJSON(CLIENTES_API);
+      const hace24h = Date.now() - 24 * 60 * 60 * 1000;
+      const resultado = [];
+      for (const c of datos) {
+            const conv = c.conversacion || [];
+            const tuvoFallo = conv.some((m) => (m.texto || "").includes(TEXTO_FALLO_IA) && new Date(m.fecha).getTime() > hace24h);
+            if (!tuvoFallo) continue;
+            const telefono = c.telefono;
+            await conColaPorTelefono(telefono, async () => {
+                  await cargarSesionSiNueva(telefono);
+                  const sesion = obtenerSesion(telefono);
+                  sesion.pausado = false;
+                  sesion.necesitaAtencion = false;
+                  sesion.motivoAtencion = null;
+                  if (sesion.paso === "inicio") sesion.paso = "conversando";
+                  // Mensajes del cliente que quedaron sin respuesta al final del chat (a veces escribe varios seguidos).
+                  const trans = sesion.transcripcion || [];
+                  const pendientes = [];
+                  for (let i = trans.length - 1; i >= 0 && trans[i].rol === "cliente"; i--) pendientes.unshift(trans[i]);
+                  const textoPendiente = pendientes.map((m) => m.texto || "").filter((t) => t && !t.startsWith("[")).join("\n");
+                  let respondido = false;
+                  if (textoPendiente && new Date(pendientes[pendientes.length - 1].fecha).getTime() > hace24h) {
+                        // Si el historial de la IA ya termina en esos mensajes (se reconstruye de la transcripcion
+                        // tras un reinicio), se quita para que preguntarleALaIA no los duplique.
+                        const h = sesion.historial || [];
+                        if (h.length && h[h.length - 1].role === "user") h.pop();
+                        try {
+                              await manejarTextoLibre(telefono, textoPendiente);
+                              respondido = true;
+                        } catch (error) {
+                              console.error(`Error respondiendo chat reactivado ${telefono}:`, error.response?.data || error.message);
+                        }
+                  }
+                  await guardarCliente(telefono);
+                  resultado.push({ telefono, nombre: c.nombre || "", respondido });
+            });
+      }
+      console.log("Chats reactivados tras fallo de la IA:", JSON.stringify(resultado));
+      return resultado;
+}
+
+app.get("/admin/reactivar-fallos-ia", requiereLogin, async (req, res) => {
+      try {
+            const r = await reactivarChatsConFallo();
+            const filas = r.map((x) => `<li>${x.nombre} (${x.telefono}): bot reactivado${x.respondido ? " y respondio su ultima pregunta" : ""}</li>`).join("");
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Chats reactivados: ${r.length}</h2><ul>${filas || "<li>No hay chats con fallos en las ultimas 24 horas.</li>"}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error reactivando chats con fallo:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error reactivando los chats.");
+      }
+});
+
 app.get("/admin/reactivar", requiereLogin, async (req, res) => {
 	try {
 		await reactivarConversaciones();
