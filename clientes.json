@@ -3818,8 +3818,8 @@
     "telefono": "573235787128",
     "nombre": "el tiempo de dios es perfecto",
     "primerContacto": "2026-10-15T13:00:01.997Z",
-    "ultimoContacto": "2026-10-15T13:41:22.352Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-15T15:42:03.602Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3969,6 +3969,18 @@
         "fecha": "2026-10-15T13:41:21.414Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSMDg5MzEzQUIwNDlFRkU0QzI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-15T15:42:01.202Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 📍Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\n¿En qué municipio o vereda necesitas usar el módem y para qué lo quieres, para estudio, trabajo, negocio o tu hogar? Así te recomiendo el que mejor se adapte.",
+        "fecha": "2026-10-15T15:42:02.616Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1Nzg3MTI4FQIAERgSRTdFRjlBRjg1MDlFMDBGMUI5AA=="
       }
     ],
     "paso": "conversando",
@@ -3982,8 +3994,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
