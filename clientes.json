@@ -3,8 +3,8 @@
     "telefono": "573168629388",
     "nombre": "Luis Sanchez",
     "primerContacto": "2026-10-15T16:31:40.003Z",
-    "ultimoContacto": "2026-10-15T16:31:40.003Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T16:31:46.450Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-15T16:31:39.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NjI5Mzg4FQIAERgSMTdFQjVBREQzQjEyRTk4RkFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-15T16:31:42.781Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido las opciones que tenemos:  \n\n🔥 Los módems están en promoción con un 30% de descuento.  \n\n📡 *Modem WiFi Portatil 4G*: la alternativa más económica, ideal para fincas y veredas sin fibra, conecta varios dispositivos y es fácil de llevar. La inversión es de **$169.900 + $26.000 de envío**.  \n\n🚀 *Modem WiFi Portatil 4G/5G*: funciona con 4G y 5G, la mejor opción si buscas velocidad segura sin complicarte, para estudiar, trabajar y viajar. La inversión sería **$189.900 + $26.000 de envío**.  \n\n⚡ *Modem WiFi Portatil 5G*: máxima velocidad si en tu zona hay buena cobertura 5G, muy práctico para estar siempre conectado en movimiento. La inversión es **$199.900 + $26.000 de envío**.  \n\n¿Me cuentas en qué municipio o vereda lo usarías? Así te recomiendo cuál te va mejor según la cobertura y para qué lo necesitas.",
+        "fecha": "2026-10-15T16:31:45.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NjI5Mzg4FQIAERgSNTE0QkM2QzY0MUIzRjJFRkJBAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573044031171",
