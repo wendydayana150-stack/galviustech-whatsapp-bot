@@ -3,8 +3,8 @@
     "telefono": "573005137754",
     "nombre": "santiago",
     "primerContacto": "2026-10-15T22:51:21.048Z",
-    "ultimoContacto": "2026-10-15T22:51:21.048Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-15T22:51:52.511Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-15T22:51:20.074Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MTM3NzU0FQIAERgSMURBMjBDNzc4N0I5Qjg2NDhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-15T22:51:49.216Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento los beneficios de los módems WiFi portátiles que tenemos:\n\n✅ Mejor cobertura que un celular común, ideal para zonas rurales o veredas sin fibra óptica.\n✅ Puedes conectar varios dispositivos (hasta 10) al mismo tiempo.\n✅ Son fáciles de usar, transportar y no requieren instalación complicada.\n\nLa inversión es:\n- Modem WiFi Portatil 4G: **$169.900 + $26.000 de envío**\n- Modem WiFi Portatil 4G/5G (recomendado para la mayoría): **$189.900 + $26.000 de envío**\n- Modem WiFi Portatil 5G (para zonas con buena cobertura 5G): **$199.900 + $26.000 de envío**\n\n¿Me cuentas en qué zona o municipio lo vas a usar o para qué principal lo quieres? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-15T22:51:51.448Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MTM3NzU0FQIAERgSOEUxRThGQzNFQzM3OUQwREY3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1428630919373269",
