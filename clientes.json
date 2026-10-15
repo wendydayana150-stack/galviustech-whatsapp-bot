@@ -3577,8 +3577,8 @@
     "telefono": "573113497018",
     "nombre": "P",
     "primerContacto": "2026-10-14T20:38:57.639Z",
-    "ultimoContacto": "2026-10-15T00:48:44.911Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-15T00:49:06.249Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3697,6 +3697,18 @@
         "fecha": "2026-10-15T00:48:44.132Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSRUZBOUZDMTg5NTNDRUUyM0JCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Donde vivo casi no coje señal del celular",
+        "fecha": "2026-10-15T00:49:03.850Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la honestidad. Si casi no hay señal de ningún operador en ese lugar, lamentablemente el módem tampoco podrá captar internet porque requiere señal móvil.\n\nSin embargo, la antena del módem es más potente que la del celular, a veces agarra señal donde un celular no la ve. ¿Has probado conectar el celular ahí mismo de forma constante y confirmaste que la señal es cero?\n\nSi no hay señal ni siquiera intermitente, esta solución no sería adecuada para ti y prefiero decirlo así para que no pierdas tiempo.\n\n¿Quieres que te ayude a explorar otras opciones o tienes alguna otra duda?",
+        "fecha": "2026-10-15T00:49:05.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDk3MDE4FQIAERgSN0QxRThBMkZCNzkwRkRDRkFCAA=="
       }
     ],
     "paso": "conversando",
