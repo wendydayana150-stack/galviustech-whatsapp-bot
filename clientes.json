@@ -337,8 +337,8 @@
     "telefono": "CO.1823563218965322",
     "nombre": "Carolina Maldonado",
     "primerContacto": "2026-10-16T20:27:35.979Z",
-    "ultimoContacto": "2026-10-16T20:27:35.979Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:47:39.973Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -358,6 +358,18 @@
         "fecha": "2026-10-16T20:27:34.942Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzU2MzIxODk2NTMyMhUUABEYEkFGRkRCOUY4Qjc4M0VCRTVCQgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-16T20:47:39.037Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-16T20:47:39.037Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzU2MzIxODk2NTMyMhUUABEYEjI5MDk1RTI3QjQ1QTI2OTE0NgA="
       }
     ],
     "paso": "conversando",
@@ -369,7 +381,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1422232013437039",
