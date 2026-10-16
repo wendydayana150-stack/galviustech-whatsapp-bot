@@ -3,8 +3,8 @@
     "telefono": "CO.1436534758623921",
     "nombre": "💜😍MTeheran MGiraldo🫀😍",
     "primerContacto": "2026-10-16T23:31:46.680Z",
-    "ultimoContacto": "2026-10-16T23:35:12.169Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-16T23:36:08.394Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,25 @@
         "fecha": "2026-10-16T23:35:11.163Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQzNjUzNDc1ODYyMzkyMRUUABEYEjQxMDVEMkRCRjFBNUU5MjE2MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pregunto por qué yo encargue uno y enviaron fue otra cosa q no sirve para nd",
+        "fecha": "2026-10-16T23:36:05.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento mucho lo que te pasó, entiendo lo frustrante que es recibir algo que no sirve. Para ayudarte mejor y darle seguimiento a ese problema, ya dejo la alerta para que el equipo de atención personal se contacte contigo y solucione lo antes posible.\n\nPor favor, aguanta un momentico que pronto te brindarán respuesta. Gracias por tu paciencia.",
+        "fecha": "2026-10-16T23:36:06.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQzNjUzNDc1ODYyMzkyMRUUABEYEkYxQzNGQ0I4NDE0MkFFNjk0QwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:36:07.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQzNjUzNDc1ODYyMzkyMRUUABEYEkVGQTA0M0FEMzM5RTMxNUQ5QwA="
       }
     ],
     "paso": "conversando",
@@ -124,8 +143,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Pregunto por qué yo encargue uno y enviaron fue otra cosa q no sirve para nd\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
