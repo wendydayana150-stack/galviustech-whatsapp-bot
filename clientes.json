@@ -47,8 +47,8 @@
     "telefono": "573042618318",
     "nombre": "Paula Andrea Ardilla A",
     "primerContacto": "2026-10-15T23:58:46.241Z",
-    "ultimoContacto": "2026-10-15T23:58:46.241Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T00:08:58.472Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,6 +74,18 @@
         "fecha": "2026-10-15T23:58:45.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNjE4MzE4FQIAERgSRUY3NTcxMjU3NDdGNEZGMDlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que costo tiene",
+        "fecha": "2026-10-16T00:08:54.854Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento: nuestros módems son ideales para tener internet donde no llega la fibra, compartir conexión con varios dispositivos y poder llevarlo fácil a cualquier lugar.\n\n🔥 ¡Los modems bajaron un 30%! Aprovecha la promoción.\n\nEstas son las opciones con su inversión, siempre sumando $26.000 de envío a toda Colombia:\n\n📶 Módem WiFi Portátil 4G - $169.900  \n📶 Módem WiFi Portátil 4G/5G - $189.900  \n📶 Módem WiFi Portátil 5G - $199.900  \n\n¿Cuál uso principal le darías al módem? ¿Para trabajo, estudio, hogar o negocio? Así te recomiendo el más adecuado.",
+        "fecha": "2026-10-16T00:08:57.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjE4MzE4FQIAERgSRDJCQzNERThERkY4QzU0RjQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -85,7 +97,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009598453",
