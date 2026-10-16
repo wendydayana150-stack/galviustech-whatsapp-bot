@@ -3,8 +3,8 @@
     "telefono": "573102264355",
     "nombre": "pbaquerorama",
     "primerContacto": "2026-10-16T18:45:36.251Z",
-    "ultimoContacto": "2026-10-16T18:45:36.251Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:47:05.754Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T18:45:35.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMjY0MzU1FQIAERgSOTEzNDlFQkM0OUEzMzA5MkFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el costo del módem Wi-Fi portátil?",
+        "fecha": "2026-10-16T18:46:59.105Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento:\n\nNuestros módems Wi-Fi portátiles te dan internet donde lo necesites, para conectar varios dispositivos al mismo tiempo y son fáciles de transportar.\n\nLa inversión para cada versión es:  \n📶 Módem WiFi Portátil 4G: **$169.900** + $26.000 de envío  \n📶 Módem WiFi Portátil 4G/5G: **$189.900** + $26.000 de envío  \n📶 Módem WiFi Portátil 5G: **$199.900** + $26.000 de envío  \n\n🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción\n\n¿En qué municipio o vereda lo usarías principalmente? Así te recomiendo la mejor opción para tu zona.",
+        "fecha": "2026-10-16T18:47:04.459Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMjY0MzU1FQIAERgSRDNFNkE4RTVDQUNERjlFQTJEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208425934",
