@@ -3,8 +3,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T15:07:17.624Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T15:08:45.122Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,67 @@
         "fecha": "2026-10-16T15:07:16.524Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSRjUyODNFQjVBQjAyMUJFMDk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días para necesito una impresora para imprimir etiquetas con el logo vendo productos artesanales quisiera colocarle la etiqueta a cada paquetico",
+        "fecha": "2026-10-16T15:08:39.751Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, de GalviusTech.\n\nPerfecto, para imprimir etiquetas con el logo y ponerlas en paqueticos, te recomiendo una impresora térmica portátil especial para etiquetas adhesivas.\n\n¿Quieres que te muestre las opciones que tenemos para etiquetas? Así te ayudo a elegir la que mejor calza con tu negocio y volumen de impresión. ¿Me cuentas?",
+        "fecha": "2026-10-16T15:08:41.781Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNkMxRENGNTg3RTlDMTQzQUI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-16T15:08:42.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNTcxODRFNjIzNzFFQjA3NEUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-10-16T15:08:43.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQkFCMDhFNDVFQjI4Q0I4NTU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-10-16T15:08:43.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMzc1Q0FCMjcxNjlGMDNGREYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-10-16T15:08:44.230Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQ0M5Q0VFN0Q2QzQyQTdFOThCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Goojprt PT-210, Impresora Clabel 221B, Impresora Etiquetas P5, Mini Impresora Bluetooth]",
+        "fecha": "2026-10-16T15:08:44.811Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573146722284",
