@@ -262,8 +262,8 @@
     "telefono": "573028041412",
     "nombre": "Jose Alejandro Soto",
     "primerContacto": "2026-10-16T17:30:49.459Z",
-    "ultimoContacto": "2026-10-16T17:33:52.190Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T17:34:23.208Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -308,13 +308,25 @@
         "fecha": "2026-10-16T17:33:51.302Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI4MDQxNDEyFQIAERgSREM2REU3QTFBOTg3OEJFOTJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué precio tiene?",
+        "fecha": "2026-10-16T17:34:19.120Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\nLos módems WiFi portátiles de GalviusTech tienen estas tres opciones para que elijas la que mejor se adapte a ti:\n\n📶 Módem WiFi Portátil 4G: conexión 4G estable para conectar varios dispositivos, ideal para fincas o veredas sin fibra. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: funciona en 4G y 5G según cobertura, rapidez y estabilidad para trabajo, estudio o viajes. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: para quienes tienen buena señal 5G en su zona y necesitan la máxima velocidad. La inversión es de **$199.900 + $26.000 de envío**.\n\n🔥 ¡Los modems bajaron un 30%! Aprovecha la promoción.\n\n¿En qué municipio o vereda lo usarías principalmente? Así te recomiendo la opción ideal para tu situación.",
+        "fecha": "2026-10-16T17:34:22.193Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4MDQxNDEyFQIAERgSNDI1QkZFMUQ2RjE0OTNBRDA1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
