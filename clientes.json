@@ -2194,8 +2194,8 @@
     "telefono": "573163395983",
     "nombre": "Joselito Betancur",
     "primerContacto": "2026-10-15T22:06:46.097Z",
-    "ultimoContacto": "2026-10-16T02:50:08.964Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-16T02:54:15.952Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2270,6 +2270,25 @@
         "fecha": "2026-10-16T02:50:07.993Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYzMzk1OTgzFQIAERgSNDg1OTA5NTFFRkQxQ0Q1RTZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Viene con una batería? Puedo comprar otra como repuesto",
+        "fecha": "2026-10-16T02:54:12.913Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el módem incluye una batería interna recargable que dura hasta 14 horas con una carga completa.\n\nEn cuanto a batería repuesto, actualmente no vendemos baterías por separado, pero la duración es bastante larga para uso diario y se recarga fácil por USB-C.\n\n¿Quieres que te ayude con el pedido para enviarte el módem y tengas internet estable en tu finca pronto?",
+        "fecha": "2026-10-16T02:54:14.620Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzMzk1OTgzFQIAERgSOEREQkIyRDdBOUNDMzRDNjk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T02:54:15.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzMzk1OTgzFQIAERgSNUI2MERFNDNDRDU0MzZFNDREAA=="
       }
     ],
     "paso": "conversando",
