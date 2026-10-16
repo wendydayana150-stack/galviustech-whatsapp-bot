@@ -212,8 +212,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T15:21:17.546Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-16T15:23:18.440Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -321,6 +321,25 @@
         "fecha": "2026-10-16T15:21:16.397Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQkVGN0UwQkU5MDlFMzM0RjUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y el rollo solo el repuesto cuánto valdría",
+        "fecha": "2026-10-16T15:23:15.411Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para la Clabel 221B el rollo de etiquetas adhesivas que usamos es especial y la verdad que acá en GalviusTech solo manejamos el rollo que viene incluido con la impresora, no vendemos rollos repuestos por separado de ese modelo.\n\nLo que sí, el papel que incluye es de muy buena calidad y te dura mucho para imprimir varias etiquetas.\n\n¿Quieres que te ayude con el pedido de la impresora para que empieces a probarla y ver que tal?",
+        "fecha": "2026-10-16T15:23:16.699Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMDg0RTRDOEUwNTAyNTdDRkIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-16T15:23:17.351Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQjdFRDE5QTE2NDc2Q0FCNkYyAA=="
       }
     ],
     "paso": "conversando",
