@@ -3,8 +3,8 @@
     "telefono": "CO.1150229990690198",
     "nombre": "Ysaac",
     "primerContacto": "2026-10-16T19:53:57.722Z",
-    "ultimoContacto": "2026-10-16T19:54:28.549Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T19:56:13.941Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-16T19:54:27.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1MDIyOTk5MDY5MDE5OBUUABEYEkExMkMwMjY1NjhDQ0RGNjgxRAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y que precio tiene",
+        "fecha": "2026-10-16T19:56:11.083Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento que los módems de GalviusTech tienen estas opciones y precios con su respectivo envío a toda Colombia ($26.000):\n\n📶 Modem WiFi Portatil 4G: ideal para fincas y veredas sin fibra, conecta hasta 10 dispositivos, fácil de usar. Inversión: **$169.900 + $26.000 de envío**\n\n📶 Modem WiFi Portatil 4G/5G: funciona tanto en zonas con 4G como donde ya hay 5G, para trabajo, estudio, viajes y lugares rurales. Inversión: **$189.900 + $26.000 de envío**\n\n📶 Modem WiFi Portatil 5G: para quienes tienen cobertura 5G y quieren máxima velocidad, ideal para conectar varios dispositivos. Inversión: **$199.900 + $26.000 de envío**\n\n¿Me puedes contar dónde lo necesitas y para qué lo usarías principalmente? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-10-16T19:56:12.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1MDIyOTk5MDY5MDE5OBUUABEYEjIwQ0I5MUE2Rjg0MkY4Njc2RgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
