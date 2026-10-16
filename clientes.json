@@ -758,8 +758,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T17:02:31.072Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-10-16T17:02:45.904Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1323,21 +1323,43 @@
         "fecha": "2026-10-16T17:02:30.126Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSN0YyNDBBQzBBMUM3MTg4QUM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-10-16T17:02:41.916Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Y los rollos adicionales\n*Celular:* 3142442732\n*Departamento:* Santander\n*Ciudad:* Barbosa santander\n*Direccion:* Calle 1 #2-38\n*Barrio:* Villa María\n*Producto:* Impresora Térmica Portátil de Etiquetas Clabel 221B\n*Valor del producto:* $155.000\n*Envío:* $26.000\n*Total a pagar:* $181.000\n*Medio de pago:* Contra entrega\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-10-16T17:02:43.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQTNDNjgwQUMyNEVEQjBEQkVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-10-16T17:02:43.762Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMDEwQzBFQ0MyOUZFQTE0QTNDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-10-16T17:02:44.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSOEMxOEZCMkQ5OEVBODgxM0M2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T17:02:44.937Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMzIxMTg2MUJDRTE2Q0UyMjdBAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
-      "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
-      "precio": 155000,
-      "telefono": "573142442732",
-      "nombreCliente": "Y los rollos adicionales",
-      "celular": "3142442732",
-      "departamento": "Santander",
-      "ciudad": "Barbosa santander",
-      "direccion": "Calle 1 #2-38",
-      "barrio": "Villa María"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
