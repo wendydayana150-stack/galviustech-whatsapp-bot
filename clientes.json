@@ -47,8 +47,8 @@
     "telefono": "573042618318",
     "nombre": "Paula Andrea Ardilla A",
     "primerContacto": "2026-10-15T23:58:46.241Z",
-    "ultimoContacto": "2026-10-16T00:08:58.472Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T00:12:08.841Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -86,13 +86,25 @@
         "fecha": "2026-10-16T00:08:57.451Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNjE4MzE4FQIAERgSRDJCQzNERThERkY4QzU0RjQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-10-16T00:12:06.273Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso en hogar, te recomiendo el módem WiFi portátil 4G/5G porque funciona en zonas sin fibra, capta mejor que el celular y tiene la ventaja de conectar varios dispositivos al mismo tiempo.\n\nAsí podrías tener internet estable para toda la familia sin depender de conexiones fijas o cables.\n\nRecuerda, la inversión para este equipo es de **$189.900 + $26.000 de envío**. La batería dura hasta 14 horas y es súper fácil de usar y llevar.\n\n¿En qué municipio o vereda estás para verificar cobertura y organizar el envío?",
+        "fecha": "2026-10-16T00:12:07.714Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjE4MzE4FQIAERgSNEZFNjY3ODdGNDJCMDFFODU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
