@@ -133,8 +133,8 @@
     "telefono": "573143162438",
     "nombre": "Jesus Guzmán",
     "primerContacto": "2026-10-16T20:01:35.944Z",
-    "ultimoContacto": "2026-10-16T20:03:52.792Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T20:08:20.720Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -179,13 +179,25 @@
         "fecha": "2026-10-16T20:03:51.895Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMTYyNDM4FQIAERgSRjYwMzQ1QzU3QkQ4QjI5QzBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para una vereda en Tobia Cundinamarca funciona claro o tigo",
+        "fecha": "2026-10-16T20:08:17.249Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Tobia Cundinamarca, GalviusTech tiene modems que funcionan con SIM de Claro y Tigo sin problema. \n\nTe recomiendo ver estas opciones de módem:\n\n📶 Módem WiFi Portátil 4G - conexión 4G para varios dispositivos, ideal para zonas rurales. Inversión: **$169.900 + $26.000 de envío.**\n\n📶 Módem WiFi Portátil 4G/5G - funciona con señal 4G y 5G, más rápido y seguro donde haya cobertura 5G. Inversión: **$189.900 + $26.000 de envío.**\n\n📶 Módem WiFi Portátil 5G - máxima velocidad 5G si tienes buena señal 5G en la zona. Inversión: **$199.900 + $26.000 de envío.**\n\nTodos tienen batería para hasta 14 horas de uso continuo y mejor cobertura que un celular común, hechos para zonas rurales y fincas. \n\n¿De esas 3 opciones, cuál crees que se ajusta mejor a lo que necesitas? ¿Prefieres ahorrar con el 4G, tener la mejor conectividad con 4G/5G o solo quieres lo más rápido 5G?",
+        "fecha": "2026-10-16T20:08:19.613Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMTYyNDM4FQIAERgSMzI3MTJBNUMwRDdGNTVGNzAzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
