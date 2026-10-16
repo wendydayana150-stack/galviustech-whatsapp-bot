@@ -3,8 +3,8 @@
     "telefono": "573218047314",
     "nombre": "Aladino Perez barrios",
     "primerContacto": "2026-10-16T12:15:09.071Z",
-    "ultimoContacto": "2026-10-16T12:15:09.071Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T12:16:04.823Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T12:15:08.185Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSNkE1RTZFRDBFRDk2RjY4QTIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aserradero Córdoba",
+        "fecha": "2026-10-16T12:16:00.607Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para el aserradero en Córdoba.\n\nTe cuento que tenemos tres opciones de módem que te pueden servir:\n\n📶 **Modem WiFi Portátil 4G**:\n- Mejor cobertura y señal potente que un celular normal en zonas rurales.\n- Conecta hasta 10 dispositivos.\n- Fácil uso y batería de hasta 14 horas.\n- La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 **Modem WiFi Portátil 4G/5G** (Recomendado para combinar cobertura y velocidad):\n- Funciona en 4G y 5G donde haya señal.\n- Ideal para trabajo en finca o lugares rurales.\n- Conecta varios equipos de forma estable.\n- Inversión de **$189.900 + $26.000 de envío**.\n\n📶 **Modem WiFi Portátil 5G**:\n- Para zonas con buena cobertura 5G y máxima velocidad.\n- Igual de portátil y fácil de usar.\n- Inversión de **$199.900 + $26.000 de envío**.\n\nTodos son compatibles con cualquier operador en Colombia.\n\n¿Para qué va más que nada: comunicación con clientes, recibir pedidos, manejar la administración o algo más en el aserradero? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-16T12:16:03.791Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSQjI1MzAyRjY4NjVGRUM4N0QyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233352961",
