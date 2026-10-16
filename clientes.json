@@ -3,8 +3,8 @@
     "telefono": "573138613156",
     "nombre": "amadovergarajoseluis",
     "primerContacto": "2026-10-16T20:12:50.579Z",
-    "ultimoContacto": "2026-10-16T20:12:50.579Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:13:45.897Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T20:12:49.937Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NjEzMTU2FQIAERgSRDI1OTYzNUQyMUY5NjJCQjQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una finca",
+        "fecha": "2026-10-16T20:13:42.571Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una finca es clave tener una conexión estable y donde la señal de celular suele ser débil.\n\nAquí tienes las tres opciones con sus inversiones y características principales:\n\n📶 **Modem WiFi Portátil 4G**  \n- Cobertura 4G ideal para zonas rurales  \n- Conecta hasta 10 dispositivos  \n- Fácil de usar y transportar  \n- La inversión es de **$169.900 + $26.000 de envío**\n\n📶 **Modem WiFi Portátil 4G/5G** (recomendado para tu caso)  \n- Tecnología 4G/5G para mayor compatibilidad  \n- Perfecto si en tu finca hay zonas con 5G o 4G  \n- Fácil transporte y sin instalación complicada  \n- La inversión es de **$189.900 + $26.000 de envío**\n\n📶 **Modem WiFi Portátil 5G**  \n- Velocidad máxima 5G si tienes cobertura en tu finca  \n- Portátil y fácil de usar  \n- Inversión de **$199.900 + $26.000 de envío**\n\n¿En qué municipio o vereda está ubicada la finca para confirmar la mejor cobertura y ayudarte a elegir?",
+        "fecha": "2026-10-16T20:13:45.076Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NjEzMTU2FQIAERgSQzFGRThDOTc2RTlCQ0MxMTVGAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122601936",
