@@ -3785,8 +3785,8 @@
     "telefono": "573233352961",
     "nombre": "Deivis Castillo",
     "primerContacto": "2026-10-16T12:14:32.409Z",
-    "ultimoContacto": "2026-10-16T12:14:32.409Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:29:49.166Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3812,6 +3812,18 @@
         "fecha": "2026-10-16T12:14:31.458Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzMzUyOTYxFQIAERgSQThCRUE4NUFGMTNFMDUyQzVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ando buscando uno",
+        "fecha": "2026-10-16T17:29:46.605Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que quieras un modem para estar siempre conectado.\n\n¿En qué municipio o vereda lo usarías?  \nY ¿lo necesitas más para estudio, trabajo, tu negocio o para casa?  \n\nAsí te recomiendo la mejor opción según tu necesidad y zona. ¿Me cuentas?",
+        "fecha": "2026-10-16T17:29:48.227Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMzUyOTYxFQIAERgSMTJDMTYxMzVGMEJFMDMyRDA1AA=="
       }
     ],
     "paso": "conversando",
@@ -3825,9 +3837,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
