@@ -1288,8 +1288,8 @@
     "telefono": "573217660614",
     "nombre": "Nury Montoya",
     "primerContacto": "2026-10-16T19:51:59.807Z",
-    "ultimoContacto": "2026-10-16T20:56:09.998Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-16T20:56:13.669Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1377,6 +1377,18 @@
         "fecha": "2026-10-16T20:56:08.882Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSRDNEQjFDMkI0ODg3MDFFMDU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-16T20:56:11.454Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, para eso estamos. Cuando necesites, aquí estaré para ayudarte con lo que haga falta.\n\n¿Quieres que te muestre algunas otras opciones que tenemos? Por ejemplo:  \n📶 Módem WiFi  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes  \n🎁 Combos  \n\n¿Alguna te interesa para que te cuente más?",
+        "fecha": "2026-10-16T20:56:12.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSOUJGRDA5MDdCNEMzMzM5MzQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -1387,7 +1399,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
