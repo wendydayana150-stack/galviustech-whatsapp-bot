@@ -3,8 +3,8 @@
     "telefono": "573206175581",
     "nombre": "Denzel Martin",
     "primerContacto": "2026-10-16T20:53:22.913Z",
-    "ultimoContacto": "2026-10-16T20:53:22.913Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:53:37.599Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T20:53:22.167Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MTc1NTgxFQIAERgSQzQ0RUEyQUY2MDgwNDY1RkYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes qué precio tiene",
+        "fecha": "2026-10-16T20:53:35.139Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Para poder ayudarte mejor, ¿me cuentas para qué necesitas el producto? ¿Es para tu hogar, trabajo, estudio, o negocio? Así te recomiendo lo que mejor te sirve.\n\nAdemás, ¿en qué ciudad o municipio te encuentras? Con eso te doy toda la info clara y precisa. ¿Me cuentas?",
+        "fecha": "2026-10-16T20:53:36.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MTc1NTgxFQIAERgSNDcyRjdENTdGQzQ2RDQwMDg3AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1808403367019537",
