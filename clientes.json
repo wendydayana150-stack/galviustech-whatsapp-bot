@@ -3,8 +3,8 @@
     "telefono": "573008688935",
     "nombre": "gomezsuarezyenis",
     "primerContacto": "2026-10-16T18:17:48.334Z",
-    "ultimoContacto": "2026-10-16T18:17:48.334Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:18:52.409Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,33 @@
         "fecha": "2026-10-16T18:17:47.461Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4Njg4OTM1FQIAERgSQzI3QkQ1QTAyNUFFQTM3RUI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Documento tamaño carta",
+        "fecha": "2026-10-16T18:18:49.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para imprimir documentos tamaño carta te recomiendo nuestra **Impresora Térmica Portátil Bluetooth**. \n\nImprime hojas tamaño carta sin tinta ni cartuchos, se conecta por Bluetooth fácil al celular, y es súper portátil con tamaño como control remoto (27.5 x 6.5 x 5 cm). \n\nLa inversión sería de **$249.900 + $26.000 de envío**. Además, la batería dura hasta 30 horas y se carga en 3 horas. \n\n¿La usarías para estudio, trabajo o para tu negocio? ¿Quieres que te agregue papel térmico tamaño carta también al pedido?",
+        "fecha": "2026-10-16T18:18:51.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4Njg4OTM1FQIAERgSOUI0MTMyMUQwQ0E3Qzg5NUQxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136089088",
