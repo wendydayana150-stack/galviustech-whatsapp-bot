@@ -757,8 +757,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T16:52:15.015Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-10-16T16:52:40.249Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1274,16 +1274,29 @@
         "fecha": "2026-10-16T16:52:14.007Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNjg2MEQwNTAyNUVGNTFBQzI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 1 #2-38\nBarrio villa María \nBarbosa santander",
+        "fecha": "2026-10-16T16:52:39.307Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-16T16:52:39.308Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMzgyOUY0NThCRUNGOUQ0Qzc2AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
       "precio": 155000,
       "telefono": "573142442732",
       "nombreCliente": "Y los rollos adicionales",
-      "celular": "3142442732"
+      "celular": "3142442732",
+      "departamento": "Santander"
     },
     "pausado": false,
     "etapaManual": null,
