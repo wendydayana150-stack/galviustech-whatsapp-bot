@@ -3,8 +3,8 @@
     "telefono": "CO.1356341004231356",
     "nombre": "Jose",
     "primerContacto": "2026-10-16T16:31:04.629Z",
-    "ultimoContacto": "2026-10-16T16:31:04.629Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T16:32:17.906Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T16:31:03.706Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTM1NjM0MTAwNDIzMTM1NhUUABEYEjc3RTA5ODA1Q0QzQzJEMDYyRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bnas tardes lo necesito para San Juan de arama meta",
+        "fecha": "2026-10-16T16:32:12.513Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 🙌\n\nEn San Juan de Arama, Meta, nuestra mejor recomendación es el Modem WiFi Portatil 4G/5G, que te asegura conexión tanto en 4G como en 5G, ideal si quieres la mayor compatibilidad y velocidad posible.\n\nTe dejo las tres versiones disponibles para que elijas según tu necesidad y presupuesto:\n\n📶 Modem WiFi Portatil 4G: conexión estable para zonas sin fibra, conecta varios dispositivos y batería para todo el día, la inversión es de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portatil 4G/5G: funcionamiento seguro en 4G y 5G, fácil de transportar y sin instalaciones, inversión de **$189.900 + $26.000 de envío** (mi recomendación para ti).\n\n⚡ Modem WiFi Portatil 5G: máxima velocidad donde haya cobertura 5G, portátil y práctico, inversión de **$199.900 + $26.000 de envío**.\n\n🔥 ¡Los modems están con promoción por bajada de precio del 30%! ¿Desde dónde lo usarías más y cuántos dispositivos planeas conectar?",
+        "fecha": "2026-10-16T16:32:16.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTM1NjM0MTAwNDIzMTM1NhUUABEYEjQ3QThCNEZFOEVDMUExMDIyRAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144382006",
