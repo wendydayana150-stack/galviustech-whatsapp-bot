@@ -47,8 +47,8 @@
     "telefono": "573125906857",
     "nombre": "MORITA",
     "primerContacto": "2026-10-16T19:40:47.383Z",
-    "ultimoContacto": "2026-10-16T19:41:15.415Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T19:42:36.763Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -93,13 +93,25 @@
         "fecha": "2026-10-16T19:41:14.533Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1OTA2ODU3FQIAERgSNkNFRTE4MzAyMzVEMERFRUNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda",
+        "fecha": "2026-10-16T19:42:31.415Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Ahora pensando en Internet para tu vereda, acá tienes las 3 opciones de módem que tenemos y sus precios:\n\n📶 Módem WiFi Portátil 4G: conexión estable en redes 4G, conecta hasta 10 dispositivos, ideal para zonas sin fibra, inversión de *$169.900 + $26.000 de envío*.\n\n🚀 Módem WiFi Portátil 4G/5G: funciona en 4G y 5G, mejor flexibilidad y velocidad donde haya cobertura 5G, fácil de llevar, inversión de *$189.900 + $26.000 de envío*.\n\n⚡ Módem WiFi Portátil 5G: para quienes ya tienen buena cobertura 5G en su zona y quieren máxima velocidad, conecta varios dispositivos, inversión de *$199.900 + $26.000 de envío*.\n\nLos módems de GalviusTech tienen mejor cobertura y antena potenciada para que tengas internet más fuerte que con un celular común, especialmente en zonas rurales.\n\n¿Para qué lo usarías principalmente? ¿Estudio, trabajo, hogar o negocio? Así te recomiendo el mejor para tu caso.",
+        "fecha": "2026-10-16T19:42:35.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1OTA2ODU3FQIAERgSMjcwNUMwOEEyNjA2QkY3ODdGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
