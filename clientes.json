@@ -5612,8 +5612,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T21:03:36.173Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-16T21:03:51.721Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5735,15 +5735,28 @@
         "fecha": "2026-10-16T21:03:35.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSNkE0MjhCQkZEMDg0NUU1OTUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3144382006",
+        "fecha": "2026-10-16T21:03:50.878Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-16T21:03:50.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSOUIwQzQ1QkMzRUM0MjgwOUQ3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573144382006",
-      "nombreCliente": "Kelly Johana Garzón cardoso"
+      "nombreCliente": "Kelly Johana Garzón cardoso",
+      "celular": "3144382006"
     },
     "pausado": false,
     "etapaManual": null,
