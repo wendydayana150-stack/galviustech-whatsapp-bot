@@ -3,8 +3,8 @@
     "telefono": "573215855549",
     "nombre": "Dayana",
     "primerContacto": "2026-10-16T17:48:12.068Z",
-    "ultimoContacto": "2026-10-16T17:48:12.068Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:49:42.481Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T17:48:11.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODU1NTQ5FQIAERgSQUM1RUU2MjQ4REEwQjIyRTJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-16T17:49:41.139Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-16T17:49:41.140Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODU1NTQ5FQIAERgSMkNERDU3OTkzQjM5NjQ2QzM2AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573023339398",
