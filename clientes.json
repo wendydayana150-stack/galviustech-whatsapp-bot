@@ -2814,8 +2814,8 @@
     "telefono": "CO.1122006083675427",
     "nombre": "Rickell y Moisés ❤️",
     "primerContacto": "2026-10-16T16:08:46.700Z",
-    "ultimoContacto": "2026-10-16T17:13:41.061Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-16T18:16:31.247Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3026,6 +3026,20 @@
         "fecha": "2026-10-16T17:13:39.904Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMjAwNjA4MzY3NTQyNxUUABEYEjA4OTlGMjU4MTYzRjQ1MDRGNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-16T18:15:15.578Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMjAwNjA4MzY3NTQyNxUUABEYEjNFMUM1Mjg0NjUxOUFFNkZCQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, seguimos el proceso???",
+        "fecha": "2026-10-16T18:16:30.276Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMjAwNjA4MzY3NTQyNxUUABEYEjdFRkVBM0JDN0MwMzQ2QjI0MwA="
       }
     ],
     "paso": "pedido_nombre",
@@ -3035,7 +3049,7 @@
       "precio": 189900,
       "telefono": "CO.1122006083675427"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -3044,8 +3058,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
