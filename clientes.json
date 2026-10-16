@@ -3,8 +3,8 @@
     "telefono": "573005226250",
     "nombre": "Academia Driving Car",
     "primerContacto": "2026-10-16T23:14:23.706Z",
-    "ultimoContacto": "2026-10-16T23:14:23.706Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T23:15:38.464Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T23:14:22.677Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MjI2MjUwFQIAERgSNzQ4MEMzNjA1NDQ1NjY2ODdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok si es con sim no me sirve precisamente allá el celular no funciona bien ...la idea es conseguir Internet en la zona...Gracias igualmente",
+        "fecha": "2026-10-16T23:15:34.646Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si allá no hay señal de ningún operador, el módem no podrá captar internet porque necesita la SIM de ese operador para funcionar.\n\nPero dime, ¿confirmas que donde exactamente estás no hay señal ni siquiera intermitente? A veces la antena del módem agarra mejor señal que un celular común, dime el municipio o vereda para revisar bien esa cobertura.\n\n¿De todas formas quieres que te recomiende alguna opción para zonas con señal algo débil, o prefieres que te apoye con otra solución?",
+        "fecha": "2026-10-16T23:15:37.453Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MjI2MjUwFQIAERgSQ0NCNzMxREI0MzM3RkE5NTNCAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573227690354",
