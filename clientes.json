@@ -758,8 +758,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T17:02:45.904Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-10-16T17:03:28.128Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1356,6 +1356,25 @@
         "fecha": "2026-10-16T17:02:44.937Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMzIxMTg2MUJDRTE2Q0UyMjdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Falta los rollos adicionales",
+        "fecha": "2026-10-16T17:03:24.100Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces el pedido quedaría con lo que me pediste:  \n\n- Impresora Clabel 221B: $155.000  \n- 10 rollos de etiquetas: $21.000  \n- Envío: $26.000  \n\nTotal: **$202.000**  \n\n¿Quieres que te ayude a dejar el pedido completo así para que te lo enviemos de una?",
+        "fecha": "2026-10-16T17:03:26.242Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSRkUxNEVBQkNBQUYxMUVEQjY4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido ya quedó confirmado y registrado, no hace falta hacerlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-10-16T17:03:27.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNERCRDY1QTczMkQ4RjI5RDQwAA=="
       }
     ],
     "paso": "conversando",
