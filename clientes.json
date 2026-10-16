@@ -3,8 +3,8 @@
     "telefono": "CO.2250986898777378",
     "nombre": "🌿 Artemisia 🌿",
     "primerContacto": "2026-10-16T17:31:18.674Z",
-    "ultimoContacto": "2026-10-16T17:31:18.674Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:31:23.592Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T17:31:17.275Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjI1MDk4Njg5ODc3NzM3OBUUABEYEkIzRDY4MDEyMjQzMjYyM0RDNAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-16T17:31:20.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell de GalviusTech, ¿en qué ciudad o municipio estás? \n\nY, ¿para qué necesitas el producto? ¿Trabajo, estudio, hogar o viajes? \n\nAsí te puedo ayudar mejor 😊",
+        "fecha": "2026-10-16T17:31:21.583Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjI1MDk4Njg5ODc3NzM3OBUUABEYEjYwMjk1NjczNkY3NzU3N0RGQwA="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1090183427322771",
