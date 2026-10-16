@@ -2629,8 +2629,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T17:14:47.726Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T18:17:03.481Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2702,11 +2702,33 @@
         "fecha": "2026-10-16T17:14:46.871Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSOEI3MUZERDNDMDlFMTgzQ0Q3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos hablando del COMBO Modem Wifi + Camara de seguridad y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T18:15:14.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSNEQ1QjYxMUQxM0U0QjVBMTE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Si, quiero este",
+        "fecha": "2026-10-16T18:17:02.418Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Camara de seguridad* ($ 289.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-16T18:17:02.653Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSQThCM0Y4RTY5MDA5QUM0MTg0AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "combo-modem-wifi-camara-de-seguridad"
+      "productoId": "combo-modem-wifi-camara-de-seguridad",
+      "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
+      "precio": 289900,
+      "telefono": "573144382006"
     },
     "pausado": false,
     "etapaManual": null,
@@ -2717,8 +2739,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
