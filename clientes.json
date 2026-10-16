@@ -200,8 +200,8 @@
     "telefono": "573167871850",
     "nombre": "💕",
     "primerContacto": "2026-10-16T23:31:27.959Z",
-    "ultimoContacto": "2026-10-16T23:34:07.441Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-10-16T23:34:11.698Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -571,6 +571,25 @@
         "fecha": "2026-10-16T23:34:06.627Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3ODcxODUwFQIAERgSNzRDNUUxMzgzNUFCMzBBOTQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay que seguir pagandolo",
+        "fecha": "2026-10-16T23:34:08.916Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem es compra única, no hay que seguir pagándolo.\n\nSolo tienes que ponerle la SIM de cualquier operador y recargar los datos cuando quieras usar internet, sin mensualidad fija.\n\nEs una inversión para largo plazo que te ahorra estar dependiendo de otras conexiones.\n\n¿Quieres que te deje el pedido listo para enviarlo a tu dirección?",
+        "fecha": "2026-10-16T23:34:10.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3ODcxODUwFQIAERgSMTNBODkzNzQ3QTMwNDc4NjVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:34:10.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3ODcxODUwFQIAERgSNzU4NkQ2NUZBREEwQTNBNzZEAA=="
       }
     ],
     "paso": "conversando",
