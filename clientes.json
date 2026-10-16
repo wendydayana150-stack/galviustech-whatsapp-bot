@@ -5501,8 +5501,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T18:17:03.481Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-16T20:58:02.912Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5593,6 +5593,13 @@
         "fecha": "2026-10-16T18:17:02.653Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSQThCM0Y4RTY5MDA5QUM0MTg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola seguimos con el pedido?",
+        "fecha": "2026-10-16T20:58:00.323Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSOTFFM0ZDMjU4QUZFRjQ4MEZBAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -5602,7 +5609,7 @@
       "precio": 289900,
       "telefono": "573144382006"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": null,
