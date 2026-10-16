@@ -3,8 +3,8 @@
     "telefono": "573227690354",
     "nombre": "Zolina Ariza E.",
     "primerContacto": "2026-10-16T23:00:40.947Z",
-    "ultimoContacto": "2026-10-16T23:04:31.883Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-16T23:05:20.502Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -170,6 +170,18 @@
         "fecha": "2026-10-16T23:04:30.659Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSMDJEMkE2RUVCMjE0RDZFMDM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dejame reviso bien y te aviso",
+        "fecha": "2026-10-16T23:05:17.578Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, no hay problema. Quedo pendiente para cuando estés listo o si tienes más preguntas.  \n\nRecuerda que esta impresora te ayudará a imprimir tus guías al instante y sin depender de papelerías.  \n\n¿Quieres que te envíe algún detalle más mientras piensas?",
+        "fecha": "2026-10-16T23:05:18.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSNTAxM0Q2QkM4NDMzMkE4RTdCAA=="
       }
     ],
     "paso": "conversando",
@@ -180,7 +192,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
