@@ -3,8 +3,8 @@
     "telefono": "573174640378",
     "nombre": "Brayan",
     "primerContacto": "2026-10-16T14:03:45.379Z",
-    "ultimoContacto": "2026-10-16T14:03:45.379Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T14:07:21.094Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,46 @@
         "fecha": "2026-10-16T14:03:44.424Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSMzZGMzdFMUE5QTExNzIwNDBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajos tareas y documentos en carta",
+        "fecha": "2026-10-16T14:07:17.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, para eso la mejor opción es la Impresora Térmica Portátil Bluetooth que imprime hojas tamaño carta.\n\nEs ideal para trabajos, tareas y documentos, imprime sin tinta, es súper portátil (mide 27.5 x 6.5 x 5 cm, tamaño de un control remoto), se conecta por Bluetooth y la batería dura hasta 30 horas.\n\nLa inversión es de **$249.900** + $26.000 de envío a cualquier parte de Colombia.\n\n¿La necesitas para usarla principalmente en casa, universidad o en algún lugar diferente?",
+        "fecha": "2026-10-16T14:07:19.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSMjIzNEI5NTZGQkJFRUY1NkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-10-16T14:07:19.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSQUFCOTRCRDQwMTE3RkYwMzZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Termica]",
+        "fecha": "2026-10-16T14:07:20.603Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573247981834",
