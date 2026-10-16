@@ -3,8 +3,8 @@
     "telefono": "573194648379",
     "nombre": "Shawil",
     "primerContacto": "2026-10-16T18:44:12.230Z",
-    "ultimoContacto": "2026-10-16T18:44:12.230Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:45:07.704Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T18:44:11.429Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSNjY3MjQxRDAxQ0QxOEVBMkY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-16T18:45:06.763Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-16T18:45:06.763Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSNUJCMkNDNDMwREJGRTMzMDJDAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1069170255470152",
