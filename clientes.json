@@ -5513,8 +5513,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T20:58:02.912Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-16T20:58:49.788Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5612,6 +5612,18 @@
         "fecha": "2026-10-16T20:58:00.323Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSOTFFM0ZDMjU4QUZFRjQ4MEZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola, sí",
+        "fecha": "2026-10-16T20:58:48.982Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-16T20:58:48.983Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSNzdFNEM3ODJFOUQzNTIzNDI5AA=="
       }
     ],
     "paso": "pedido_nombre",
