@@ -3,8 +3,8 @@
     "telefono": "573122151711",
     "nombre": "Luis Fernando Carvajal",
     "primerContacto": "2026-10-16T15:46:05.727Z",
-    "ultimoContacto": "2026-10-16T15:46:05.727Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T15:47:08.794Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T15:46:04.717Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTUxNzExFQIAERgSRDM1OUVDRkQ2REU2MDc0QzFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-16T15:47:05.349Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenos días! Soy Michell, ¿en qué municipio o vereda necesitas el módem y para qué lo usarías principalmente? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-10-16T15:47:07.662Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTUxNzExFQIAERgSNEQ1MjI5QTVGMjdFRUIwMTQxAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573134373347",
