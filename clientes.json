@@ -343,8 +343,8 @@
     "telefono": "573208425934",
     "nombre": "anggie Mendez",
     "primerContacto": "2026-10-16T18:45:32.238Z",
-    "ultimoContacto": "2026-10-16T18:45:32.238Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T19:28:49.108Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -370,18 +370,33 @@
         "fecha": "2026-10-16T18:45:30.216Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4NDI1OTM0FQIAERgSRTg5NkZFMDcwQkRBQTU4NzA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Ortega Tolima vereda canali san Isidro",
+        "fecha": "2026-10-16T19:28:45.050Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info 😊\n\nTe cuento que tenemos 3 versiones de módem que pueden servirte:\n\n📶 Modem WiFi Portátil 4G\n- Internet 4G estable y buena cobertura en zonas rurales\n- Conecta hasta 10 dispositivos\n- Inversión de **$169.900 + $26.000 de envío**\n\n🚀📶 Modem WiFi Portátil 4G/5G (recomendado para tu zona)\n- Compatible con señal 4G y 5G cuando esté disponible, así no te quedas sin servicio\n- Ideal para trabajo, estudio y viajes\n- Inversión de **$189.900 + $26.000 de envío**\n\n🚀📶 Modem WiFi Portátil 5G\n- Solo para zonas con cobertura 5G y quieres máxima velocidad\n- Inversión de **$199.900 + $26.000 de envío**\n\nTodos son portátiles, fáciles de usar y tienen batería recargable que dura hasta 14 horas.\n\n¿Me cuentas para qué lo usarías principalmente? ¿Trabajo, estudio, tu negocio o para casa? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-16T19:28:47.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4NDI1OTM0FQIAERgSQTc5QkIxNTc0QkYyOTRCNDA3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573194648379",
