@@ -101,8 +101,8 @@
     "telefono": "573146722284",
     "nombre": "Lisney Jiménez",
     "primerContacto": "2026-10-16T15:06:13.415Z",
-    "ultimoContacto": "2026-10-16T15:08:40.819Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T15:10:35.929Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -152,6 +152,25 @@
         "fecha": "2026-10-16T15:08:39.793Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NzIyMjg0FQIAERgSRTA0MjVDOUNGRDFGRTg0QzJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso es un plan o que es",
+        "fecha": "2026-10-16T15:10:32.386Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico: el módem es el equipo físico, un dispositivo que convierte la señal móvil (4G o 5G) en WiFi para que puedas conectar tus celulares, tablets, y otros aparatos.\n\nNo incluye un plan o megas de internet; funciona con una SIM card de cualquier operador que elijas (Claro, Movistar, Tigo, WOM). La SIM es la tarjeta que necesitas para tener señal y navegar.\n\nAl confirmar tu pedido, te enviamos de regalo una SIM de Claro sin plan ni megas activados; tú la activas y recargas según lo que necesites.\n\nAsí tienes control total de cuánto quieres gastar y usas el internet a tu manera, sin contratos fijos ni mensualidades.\n\n¿Con qué operador usas tu celular habitualmente? Me sirve para asegurarte la mejor compatibilidad.",
+        "fecha": "2026-10-16T15:10:34.412Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzIyMjg0FQIAERgSQkUyNUI1MkM3MjVDMEQxQjlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T15:10:34.941Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NzIyMjg0FQIAERgSMjUxMTVFNjk5Q0NDNkM1MjJDAA=="
       }
     ],
     "paso": "conversando",
