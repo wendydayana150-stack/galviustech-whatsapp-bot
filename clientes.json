@@ -135,8 +135,8 @@
     "telefono": "573145014185",
     "nombre": "danielurrea",
     "primerContacto": "2026-10-16T20:42:08.610Z",
-    "ultimoContacto": "2026-10-16T20:44:36.676Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T20:46:56.578Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -186,6 +186,18 @@
         "fecha": "2026-10-16T20:44:35.722Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MDE0MTg1FQIAERgSNDAxQjdDOEU2QjBBOEIyNEU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias por la atención estoy averiguando por qué lo necesito cuando construya mi casa acá me estaré contactando ya tengo su contacto para conseguirlo cuando tenga con que mandarlo a traer",
+        "fecha": "2026-10-16T20:46:54.131Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, toma tu tiempo para decidir bien. 😌\n\nCuando estés lista para tener internet propio en tu casa, aquí estaré para ayudarte a elegir el mejor módem que se adapte a tu situación, sin complicaciones ni instalaciones.  \n\nSi tienes dudas mientras tanto, no dudes en escribirme, quiero que tengas la mejor solución para tu conexión.  \n¿Te gustaría que te muestre también otros productos de GalviusTech que podrían servirte para el hogar o trabajo?  \n\nQuedo pendiente para cuando decidas avanzar.",
+        "fecha": "2026-10-16T20:46:55.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDE0MTg1FQIAERgSNzFBRTA3QjJFQTU5RjAxQTE3AA=="
       }
     ],
     "paso": "conversando",
@@ -196,7 +208,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
