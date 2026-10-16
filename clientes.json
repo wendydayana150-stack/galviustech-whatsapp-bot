@@ -3,8 +3,8 @@
     "telefono": "573122601936",
     "nombre": "Maria Martinez",
     "primerContacto": "2026-10-16T20:05:51.668Z",
-    "ultimoContacto": "2026-10-16T20:05:51.668Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:06:35.008Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T20:05:50.903Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjAxOTM2FQIAERgSNUEyMEU5RTA2MEQ1RTA0MkUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Caseres Antioquia",
+        "fecha": "2026-10-16T20:06:32.592Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para Caseres, Antioquia.\n\nAhora, solo dime para qué lo necesitas más: ¿trabajo, estudio, tu negocio o para usar en casa? Así te recomiendo el módem que mejor te servirá.\n\nMientras tanto te cuento que los modems de GalviusTech tienen mejor cobertura que el celular, ideales para veredas y fincas donde no llega la fibra ni conexión fija.\n\n¿Me cuentas para qué lo usarías? Así te muestro las opciones y precios.",
+        "fecha": "2026-10-16T20:06:33.781Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjAxOTM2FQIAERgSNUY3MUNDQUIyNkFBMjZFOUEzAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009942787",
