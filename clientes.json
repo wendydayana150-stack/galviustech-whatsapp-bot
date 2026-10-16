@@ -3,8 +3,8 @@
     "telefono": "CO.1069170255470152",
     "nombre": "catherine",
     "primerContacto": "2026-10-16T18:41:09.159Z",
-    "ultimoContacto": "2026-10-16T18:41:09.159Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:44:01.970Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,33 @@
         "fecha": "2026-10-16T18:41:08.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA2OTE3MDI1NTQ3MDE1MhUUABEYEkFEQjBFNEU2NEYwMzYzMDMyMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas trabajos",
+        "fecha": "2026-10-16T18:43:58.953Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para tareas y trabajos te recomiendo la **Impresora Térmica Portátil Bluetooth** tamaño carta. \n\nImprime SIN TINTA, así que nunca más gastas en cartuchos.  \nEs compacta (27.5 cm x 6.5 cm x 5 cm), la llevas en el morral a la universidad, colegio o a donde vayas.  \nSe conecta fácil al celular por Bluetooth y la batería dura hasta 30 horas con una carga.\n\nLa inversión es de **$249.900** + **$26.000** de envío a cualquier lugar de Colombia.\n\n¿Para qué tipo de trabajos o documentos necesitas imprimir? ¿Recibos, guías, notas, documentos oficiales?",
+        "fecha": "2026-10-16T18:44:00.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA2OTE3MDI1NTQ3MDE1MhUUABEYEjZERDFFMDc2NzExN0NCRkE0QgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215722350",
