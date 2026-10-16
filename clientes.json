@@ -3,8 +3,8 @@
     "telefono": "573027356115",
     "nombre": "luisao",
     "primerContacto": "2026-10-16T23:22:30.133Z",
-    "ultimoContacto": "2026-10-16T23:22:30.133Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T23:23:10.481Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T23:22:28.824Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3MzU2MTE1FQIAERgSMDk5QjZDQTg3N0MyRUEzOTc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es recargable",
+        "fecha": "2026-10-16T23:23:07.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, todos nuestros módems WiFi portátiles son recargables por USB-C.\n\nLa batería dura hasta 14 horas seguidas con una carga completa, para que puedas estar conectado todo el día sin preocuparte.\n\nPor cierto, ¿en qué municipio o vereda lo usarías? Así te puedo recomendar el mejor modelo para ti.",
+        "fecha": "2026-10-16T23:23:09.475Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3MzU2MTE1FQIAERgSMEUwRTc3NTgxQjFDRDU4NzQ1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573117250748",
