@@ -2452,8 +2452,8 @@
     "telefono": "573202288504",
     "nombre": "Rigoberto",
     "primerContacto": "2026-10-16T17:43:54.594Z",
-    "ultimoContacto": "2026-10-16T17:45:18.077Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T20:16:28.898Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2530,21 +2530,46 @@
         "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
         "fecha": "2026-10-16T17:45:16.573Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T18:55:15.449Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMjg4NTA0FQIAERgSQjcxMzM2NDBEMzBDMEU2NDM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esque lo mire más economico",
+        "fecha": "2026-10-16T20:16:26.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo totalmente, buscar ahorrar es muy válido.\n\nPero piensa que con un solo módem de GalviusTech conectas varios dispositivos en casa y estudias sin preocuparte por buscar WiFi ajeno o gastar más recargando datos en cada celular.\n\nLa inversión de **$169.900 + $26.000 de envío** por el módem 4G es la opción más económica y confiable para tener internet propio en Tarqui, con mejor cobertura que el celular.\n\nAdemás, se paga una vez, sin contratos ni mensualidades, y puede durar años.\n\n¿Quieres que te deje listo el pedido del módem 4G para que empieces a conectarte ya?",
+        "fecha": "2026-10-16T20:16:27.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMjg4NTA0FQIAERgSMkZCNDA0OTVBNkQ0ODdFOUI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T20:16:27.976Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMjg4NTA0FQIAERgSNzBCQ0MxMUZEMjhEQTFFQUZCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
