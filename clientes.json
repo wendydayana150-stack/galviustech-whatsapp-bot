@@ -62,8 +62,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:22:27.656Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T23:23:15.249Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,18 +89,33 @@
         "fecha": "2026-10-16T23:22:26.913Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSOTRDMjM3RDYxNDU0NDQzN0MzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la feliza caldas",
+        "fecha": "2026-10-16T23:23:12.422Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Ahora dime, ¿lo necesitas para trabajar, estudiar, en casa o para tu negocio?\n\nTe recuerdo que tenemos 3 versiones de módem:\n\n📶 Modem WiFi Portátil 4G: conexión estable 4G, conecta hasta 10 dispositivos, ideal para finca, vereda y sin fibra. Inversión de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G: funciona con redes 4G y 5G, mejor velocidad y compatibilidad. También conecta varios dispositivos. Inversión de **$189.900 + $26.000 de envío**.\n\n⚡ Modem WiFi Portátil 5G: para cuando tienes buena cobertura 5G, máxima velocidad. Inversión de **$199.900 + $26.000 de envío**.\n\nTe recomiendo el 4G/5G porque cubre la mayoría de zonas rurales y urbanas, para que tengas conexión segura sin importar si hay 4G o 5G.\n\n¿Para qué lo usarías principalmente? Así te ayudo a elegir la mejor opción.",
+        "fecha": "2026-10-16T23:23:14.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSREY2MjM2NERCRDZGMkE2QzkwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573005226250",
