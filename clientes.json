@@ -757,8 +757,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T16:50:42.054Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-10-16T16:51:08.731Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1250,14 +1250,27 @@
         "fecha": "2026-10-16T16:50:41.146Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNDlENTI0MzBGRUVGMjQzNUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y los rollos adicionales",
+        "fecha": "2026-10-16T16:51:07.651Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-16T16:51:07.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSRDg5MUY3RTNGNkY3OUFGMzcwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
       "precio": 155000,
-      "telefono": "573142442732"
+      "telefono": "573142442732",
+      "nombreCliente": "Y los rollos adicionales"
     },
     "pausado": false,
     "etapaManual": null,
