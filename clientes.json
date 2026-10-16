@@ -169,8 +169,8 @@
     "telefono": "573004198351",
     "nombre": "ricardo Ramos",
     "primerContacto": "2026-10-16T17:37:40.766Z",
-    "ultimoContacto": "2026-10-16T17:39:04.684Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T17:39:58.359Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -215,13 +215,25 @@
         "fecha": "2026-10-16T17:39:03.604Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MTk4MzUxFQIAERgSQTczNEI4MDc2ODgyOUQ2REQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para estudiar",
+        "fecha": "2026-10-16T17:39:54.920Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme.\n\nPara estudiar, y pensando en tener internet confiable donde sea, te recomiendo estas 3 opciones con sus precios de inversión (sin contar el envío de $26.000 que se suma):\n\n📶 **Modem WiFi Portatil 4G**: ideal para lugares sin fibra óptica y que solo necesitan señal 4G. Conecta varios dispositivos y dura hasta 14 horas de batería. Inversión de **$169.900 + $26.000 envío**.\n\n📶 **Modem WiFi Portatil 4G/5G**: la opción más segura ya que funciona tanto en 4G como 5G donde esté disponible. Perfecto para estudiar, viajar y tener internet estable. Inversión de **$189.900 + $26.000 envío**.\n\n📶 **Modem WiFi Portatil 5G**: si tienes buena cobertura 5G en la zona, esta es la más rápida para estudiar y conectar varios dispositivos. Inversión de **$199.900 + $26.000 envío**.\n\n¿En qué municipio o vereda vas a usar el modem? Así te ayudo a elegir la mejor opción para cobertura y calidad de señal.",
+        "fecha": "2026-10-16T17:39:57.142Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MTk4MzUxFQIAERgSQkQwNTBGMzNBRTExRjQzOEMyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
