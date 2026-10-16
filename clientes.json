@@ -562,8 +562,8 @@
     "telefono": "573002873847",
     "nombre": "endodoncista",
     "primerContacto": "2026-10-15T23:37:50.135Z",
-    "ultimoContacto": "2026-10-15T23:42:41.935Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T00:49:21.601Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -607,6 +607,25 @@
         "texto": "[Envio fotos: Impresora Termica]",
         "fecha": "2026-10-15T23:42:41.667Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T00:49:14.588Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSOUM0RjVGRkRFRENCQUVDRThFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible.",
+        "fecha": "2026-10-16T00:49:18.956Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, quedo atenta para cuando puedas seguir con la consulta o si quieres que te ayude con el pedido más adelante. No hay problema.",
+        "fecha": "2026-10-16T00:49:20.748Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSMTVDRDQwQTgyMTU1REE5Mjg4AA=="
       }
     ],
     "paso": "conversando",
@@ -617,11 +636,10 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
