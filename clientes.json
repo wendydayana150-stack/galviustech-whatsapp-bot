@@ -3,8 +3,8 @@
     "telefono": "CO.1642603507529918",
     "nombre": "Edilma González",
     "primerContacto": "2026-10-16T12:41:22.414Z",
-    "ultimoContacto": "2026-10-16T12:41:22.414Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T12:44:42.935Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T12:41:21.334Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY0MjYwMzUwNzUyOTkxOBUUABEYEkE0MTZCRDI2MDE4NDcxMTcwRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para hogar pero vivo en zona rural",
+        "fecha": "2026-10-16T12:44:39.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para hogar en zona rural te conviene un módem que te dé buena cobertura y conecte varios dispositivos sin complicación.\n\n🔥 Los módems bajaron un 30%, estas son las opciones con su inversión más envío ($26.000):\n\n📶 **Modem WiFi Portátil 4G**: ideal si quieres ahorrar, conexión 4G con mejor cobertura que el celular, conecta hasta 10 dispositivos. La inversión sería de **$169.900 + 26.000 envíos**.\n\n📶 **Modem WiFi Portátil 4G/5G**: opción segura que funciona en 4G y 5G, para la mayoría de zonas rurales donde no está bien desplegado el 5G. Conecta todos tus dispositivos sin líos. Inversión **$189.900 + 26.000 envío**.\n\n📶 **Modem WiFi Portátil 5G**: si ya confirmaste que tienes buena cobertura 5G en tu zona y quieres la máxima velocidad, esta es la opción. Inversión **$199.900 + 26.000 envío**.\n\n¿Quieres que te explique alguna opción más a fondo o en qué lo usarías específicamente para ayudarte a decidir?",
+        "fecha": "2026-10-16T12:44:42.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY0MjYwMzUwNzUyOTkxOBUUABEYEjA2NTkwRDg3REMyNUU4OTQzMQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573008837227",
