@@ -3,8 +3,8 @@
     "telefono": "573174640378",
     "nombre": "Brayan",
     "primerContacto": "2026-10-16T14:03:45.379Z",
-    "ultimoContacto": "2026-10-16T14:07:21.094Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T14:09:12.927Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -47,6 +47,52 @@
         "rol": "bot",
         "texto": "[Envio fotos: Impresora Termica]",
         "fecha": "2026-10-16T14:07:20.603Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "También etiquetas de precios",
+        "fecha": "2026-10-16T14:09:07.874Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para imprimir etiquetas de precios, la Impresora Térmica Portátil Bluetooth tamaño carta no es la ideal, porque es para hojas tamaño carta.\n\nPara etiquetas te recomiendo una impresora de etiquetas específica, como la Clabel 221B que imprime etiquetas adhesivas medianas con códigos de barras y precios, perfecta para productos.\n\n¿Quieres que te muestre las opciones de impresoras para etiquetas y te ayude a elegir la que mejor te sirve? ¿O prefieres solo la que imprime hojas tamaño carta?",
+        "fecha": "2026-10-16T14:09:09.756Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSRUNGNzJGMEVDMzBEODE0Q0EwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-10-16T14:09:10.336Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSNjg5ODMzNDNENzNGOTkxQTUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-10-16T14:09:10.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSQ0Q0MDRGMjc5QzkyNkZEQzhFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-10-16T14:09:11.420Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSNDM4OEIzNDE5N0JBNkE5RjJFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-16T14:09:11.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0NjQwMzc4FQIAERgSM0I5QjdGQUJBOTBDMDg1NTNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Clabel 221B, Impresora Etiquetas P5, Mini Impresora Bluetooth, Impresora Goojprt PT-210]",
+        "fecha": "2026-10-16T14:09:12.619Z",
         "estado": "enviado"
       }
     ],
