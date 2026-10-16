@@ -3,8 +3,8 @@
     "telefono": "573218956891",
     "nombre": "Tordecilla",
     "primerContacto": "2026-10-16T22:22:16.265Z",
-    "ultimoContacto": "2026-10-16T22:22:16.265Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T22:48:15.736Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T22:22:15.394Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4OTU2ODkxFQIAERgSNTM5NzAzM0ZBODdBMTI2QUMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve para veredas",
+        "fecha": "2026-10-16T22:48:12.254Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, justo los módems portátiles de GalviusTech están diseñados para eso: llevar internet donde no hay fibra ni una conexión fija, especialmente en veredas o zonas rurales.\n\nTe cuento que tenemos tres opciones con diferentes precios y beneficios para que elijas la que más te convenga:\n\n📶 Modem WiFi Portatil 4G: conexión 4G, conecta varios dispositivos, perfecto para fincas y zonas sin fibra. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portatil 4G/5G: tecnología 4G y 5G para mayor velocidad y compatibilidad, ideal para trabajo, estudio o viaje. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portatil 5G: máxima velocidad 5G, excelente para lugares con cobertura 5G, rápido y portable. La inversión es de **$199.900 + $26.000 de envío**.\n\n¿En qué municipio o vereda lo usarías? Así te ayudo a elegir la mejor opción para tu zona y uso.",
+        "fecha": "2026-10-16T22:48:14.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4OTU2ODkxFQIAERgSREZBNEI5NjlEMEM2QkU1NzIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133158458",
