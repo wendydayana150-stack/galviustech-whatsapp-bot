@@ -3,8 +3,8 @@
     "telefono": "573218956891",
     "nombre": "Tordecilla",
     "primerContacto": "2026-10-16T22:22:16.265Z",
-    "ultimoContacto": "2026-10-16T22:54:22.491Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-16T22:54:27.616Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -107,13 +107,32 @@
         "fecha": "2026-10-16T22:54:21.206Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4OTU2ODkxFQIAERgSQTZDN0FCNjNCMzhCQ0E0N0E1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Del más economico",
+        "fecha": "2026-10-16T22:54:24.588Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el modem más económico es el **Modem WiFi Portatil 4G** que conecta hasta 10 dispositivos y capta señal mucho más fuerte que un celular normal, ideal para veredas y zonas sin fibra.\n\nLa inversión seria de **$169.900 + $26.000 de envío**.\n\nY recuerda, es una sola inversión, sin contratos ni mensualidad; puedes usar la recarga que prefieras para mantenerlo activo.\n\n¿En qué municipio o vereda lo usarías para confirmar que la cobertura es buena? Así te hago el pedido rápido.",
+        "fecha": "2026-10-16T22:54:26.344Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4OTU2ODkxFQIAERgSRkZFOTdFQjFBMUI4RTlDRDgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T22:54:26.817Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4OTU2ODkxFQIAERgSQTk1RUNBMkZGRDQ2NzgzODFFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
