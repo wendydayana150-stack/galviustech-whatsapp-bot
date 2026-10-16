@@ -93,8 +93,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:23:43.621Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T23:31:21.874Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -144,6 +144,37 @@
         "fecha": "2026-10-16T23:23:42.747Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSODJFQjFEMjEyMDgxRjFDRkI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Casa",
+        "fecha": "2026-10-16T23:26:43.741Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Para tener internet en tu casa en la vereda El Palo, el módem 4G/5G es perfecto porque te permite conectar celulares, computadores, tablets y más, todo sin depender de la fibra óptica ni instalaciones.\n\nImagina ya no tener que salir a buscar WiFi o depender del celular, sino tener tu propia conexión estable para navegar, trabajar o ver lo que necesites en línea.\n\nLa inversión es de **$189.900 + $26.000 de envío**, sin contratos ni mensualidades fijas. ¿Con cuántos dispositivos piensas conectarte normalmente en tu casa?",
+        "fecha": "2026-10-16T23:26:45.264Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSOTEyQTQ5QTlBQTBFODRGN0FGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:26:45.702Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSNUFDNjMxODFBRjRFOTg0Q0E3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero esta zona que cobertura de que sim hablamos",
+        "fecha": "2026-10-16T23:29:00.477Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! En la vereda El Palo la cobertura puede variar, pero el módem 4G/5G es compatible con SIM de cualquier operador de Colombia (Claro, Movistar, Tigo, WOM), así que puedes usar la que tenga mejor señal allá.\n\nAdemás, el módem tiene una antena más potente que un celular común, por eso capta mejor la señal en zonas rurales.\n\n¿Ya tienes SIM de algún operador o quieres que te asesore sobre cuál es la mejor opción para tu zona?",
+        "fecha": "2026-10-16T23:29:01.823Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMDI5Mzk0MkY4NkQ5ODAzNkQ1AA=="
       }
     ],
     "paso": "conversando",
