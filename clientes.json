@@ -3,8 +3,8 @@
     "telefono": "573138613156",
     "nombre": "amadovergarajoseluis",
     "primerContacto": "2026-10-16T20:12:50.579Z",
-    "ultimoContacto": "2026-10-16T20:16:00.155Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-16T20:16:33.380Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,18 @@
         "fecha": "2026-10-16T20:15:59.277Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NjEzMTU2FQIAERgSMjkyODc2NEFBRUE2MkVFNkFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a consultar con mi mujer y le aviso",
+        "fecha": "2026-10-16T20:16:31.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tómense el tiempo para decidir con calma.\n\nCuando estén listos o si tienen más preguntas, aquí estaré para ayudarles a tener internet donde lo necesiten.\n\nQuedo atenta a su mensaje cuando quieran seguir.\n\n¡Que tengan un buen día! 😊",
+        "fecha": "2026-10-16T20:16:32.610Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NjEzMTU2FQIAERgSNEMyNEJDQjE4OUFFNTRFOEQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -126,7 +138,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
