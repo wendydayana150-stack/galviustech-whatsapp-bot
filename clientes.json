@@ -3,8 +3,8 @@
     "telefono": "573202288504",
     "nombre": "Rigoberto",
     "primerContacto": "2026-10-16T17:43:54.594Z",
-    "ultimoContacto": "2026-10-16T17:43:54.594Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:44:53.473Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T17:43:53.846Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyMjg4NTA0FQIAERgSN0ZCQTI5OUVFOEU1MDAyQ0M4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tarqui Huila",
+        "fecha": "2026-10-16T17:44:50.936Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por decirme que es para Tarqui, Huila.\n\nAhora, ¿lo usarías más para estudiar, trabajar, tu negocio o en casa? Así te recomiendo el módem que mejor se adapta a ti.\n\nMientras me cuentas, te adelanto que los módems tienen súper cobertura, mejor que el celular, y puedes conectar hasta 10 dispositivos al mismo tiempo.\n\n¿Qué uso le darías principalmente?",
+        "fecha": "2026-10-16T17:44:52.403Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMjg4NTA0FQIAERgSNDg3NkVCNUMyNEY2NEY2NDIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573004234928",
