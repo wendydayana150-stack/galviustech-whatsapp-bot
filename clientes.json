@@ -3,8 +3,8 @@
     "telefono": "573019535860",
     "nombre": "Javier Esquivel Mendoza",
     "primerContacto": "2026-10-16T00:28:42.088Z",
-    "ultimoContacto": "2026-10-16T00:35:47.406Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-16T00:36:55.149Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -192,6 +192,25 @@
         "fecha": "2026-10-16T00:35:46.231Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5NTM1ODYwFQIAERgSNzlFRDI0REJGQjJCMEJGRUExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-16T00:36:51.915Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, ¿quieres que te ayude a dejar tu pedido listo para que empieces a tener internet en tu vereda sin complicaciones? Puedes pagar contra entrega o por transferencia, y te llega en 2 a 4 días hábiles.\n\n¿Prefieres que lo enviemos a tu casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-16T00:36:53.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5NTM1ODYwFQIAERgSNUIzMERBMTZGOEM1RkYxQzhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T00:36:53.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5NTM1ODYwFQIAERgSNEREQ0NDRUNERTU2RDBDRTc1AA=="
       }
     ],
     "paso": "confirmar_producto",
