@@ -3,8 +3,8 @@
     "telefono": "573194648379",
     "nombre": "Shawil",
     "primerContacto": "2026-10-16T18:44:12.230Z",
-    "ultimoContacto": "2026-10-16T18:45:07.704Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T18:45:27.284Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,55 @@
         "fecha": "2026-10-16T18:45:06.763Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSNUJCMkNDNDMwREJGRTMzMDJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] COMBO Modem + Impresora",
+        "fecha": "2026-10-16T18:45:24.368Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem + Impresora",
+        "fecha": "2026-10-16T18:45:24.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSRTNFMEU2NzgzMjJDNDc5QUYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem + Impresora",
+        "fecha": "2026-10-16T18:45:24.845Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSOTlBQkRBQkM3QTJFRTFBNzUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Modem + Impresora",
+        "fecha": "2026-10-16T18:45:25.280Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSMzA4OUEwMURDMkQwOTMzQzEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta*\n$ 370.000\n\n🎓💼 COMBO ESTUDIO Y TRABAJO 💼🎓\r\n\r\nInternet propio + impresora SIN TINTA para estudiar y trabajar desde donde estés.\r\n\r\n📶 MÓDEM WIFI 4G/5G\r\n✅ Crea tu propia red WiFi con una SIM de datos\r\n✅ Sin fibra óptica ni instalaciones\r\n✅ Ideal para casa, finca, vereda y viajes\r\n\r\n🖨️ IMPRESORA PORTÁTIL TAMAÑO CARTA\r\n✅ Imprime SIN TINTA (cero gasto en cartuchos)\r\n✅ Tareas, trabajos y documentos desde el celular por Bluetooth\r\n✅ Pequeña y liviana: la llevas a todos lados\r\n\r\n💰 Antes $540.000 → HOY $450.000 con descuento aplicado\r\n🚚 Envío GRATIS a toda Colombia",
+        "fecha": "2026-10-16T18:45:25.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSRDJBNzcwRUZBQkUwMDlEOUYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Quieres pedir este producto?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T18:45:26.155Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk0NjQ4Mzc5FQIAERgSQTNGMzJCRjY5QzgwQ0E3RTEyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "combo-modem-impresora-estudio-trabajo"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "combo-modem-impresora-estudio-trabajo",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
