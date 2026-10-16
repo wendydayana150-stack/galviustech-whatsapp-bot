@@ -558,8 +558,8 @@
     "telefono": "573118649902",
     "nombre": "..",
     "primerContacto": "2026-10-16T17:37:01.425Z",
-    "ultimoContacto": "2026-10-16T17:49:23.456Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-16T17:49:35.215Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -678,6 +678,18 @@
         "fecha": "2026-10-16T17:49:22.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjQ5OTAyFQIAERgSMEU5NDAyRDY4N0M4QjM2QTdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "O hacen envío contra entrega?",
+        "fecha": "2026-10-16T17:49:32.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, hacemos envíos contra entrega a toda Colombia, así pagas cuando recibas el módem en tu casa o en la oficina de la transportadora de tu zona.\n\nEl envío cuesta $26.000 y se suma al valor del módem, que para el 4G/5G es **$189.900**.\n\n¿A qué dirección te lo enviamos para dejar tu pedido listo y que empieces a tener internet ya?",
+        "fecha": "2026-10-16T17:49:34.119Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjQ5OTAyFQIAERgSMDIwNDIxNEE5NTE5MTlBRDRCAA=="
       }
     ],
     "paso": "conversando",
