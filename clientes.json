@@ -3,8 +3,8 @@
     "telefono": "573219739718",
     "nombre": "Eduardo Torres",
     "primerContacto": "2026-10-16T17:35:19.408Z",
-    "ultimoContacto": "2026-10-16T17:35:19.408Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:35:45.177Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T17:35:18.498Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5NzM5NzE4FQIAERgSMUI5QkY3NUU3MTM2RUQyMkEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto Caicedo Putumayo",
+        "fecha": "2026-10-16T17:35:42.603Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Puerto Caicedo Putumayo. ¿Lo necesitas para estudiar, trabajar, tu negocio o tu hogar? Así te recomiendo el módem que más te conviene.\n\nTe recuerdo rápido que nuestros módems tienen mejor cobertura y captan señal más potente que un celular común, ideales para zonas sin fibra óptica como veredas y fincas.\n\nEspero tu respuesta para mostrarte las opciones y precios.",
+        "fecha": "2026-10-16T17:35:43.957Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5NzM5NzE4FQIAERgSRTEyN0VBQzhEQjU4MUMwOEZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2585833825252037",
