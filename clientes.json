@@ -344,8 +344,8 @@
     "telefono": "573118649902",
     "nombre": "..",
     "primerContacto": "2026-10-16T17:37:01.425Z",
-    "ultimoContacto": "2026-10-16T17:38:12.713Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T17:44:55.687Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -390,13 +390,25 @@
         "fecha": "2026-10-16T17:38:11.883Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjQ5OTAyFQIAERgSRUVEODU3NkQwNkZDNDMxQTE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy de Florencia caquetà",
+        "fecha": "2026-10-16T17:44:52.380Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme que eres de Florencia, Caquetá.\n\nTe comento que nuestros módems WiFi portátiles están diseñados para darte mejor cobertura que un celular común, muy útil especialmente en zonas rurales o donde no llega la fibra óptica.\n\nAhora dime, ¿lo necesitas para estudiar, trabajar, tu hogar o un negocio? Así te muestro cuál de las 3 versiones de modem (4G, 4G/5G o 5G) te conviene más y te doy la inversión exacta.",
+        "fecha": "2026-10-16T17:44:53.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjQ5OTAyFQIAERgSRTgzMDI2MUUwNDQyOTRCN0QzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
