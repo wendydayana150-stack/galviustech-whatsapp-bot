@@ -1612,8 +1612,8 @@
     "telefono": "573167080258",
     "nombre": "Letty",
     "primerContacto": "2026-10-16T11:44:51.447Z",
-    "ultimoContacto": "2026-10-16T11:47:08.364Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T14:19:56.024Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1658,6 +1658,25 @@
         "fecha": "2026-10-16T11:47:07.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3MDgwMjU4FQIAERgSREFGODRDRTc2M0QyOTg4RkIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T12:49:13.992Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MDgwMjU4FQIAERgSQjhFNzQ5NEE0MjA1MDM5NTEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muchas gracias",
+        "fecha": "2026-10-16T14:19:53.430Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en algún momento necesitas conexión confiable donde sea, aquí estoy para ayudarte 😊\n\n¿Hay algo más que pueda mostrarte o alguna otra necesidad de internet o dispositivos que tengas en mente?",
+        "fecha": "2026-10-16T14:19:54.856Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MDgwMjU4FQIAERgSRkRCMkFBMjQ3OTM5ODlCNzVCAA=="
       }
     ],
     "paso": "conversando",
@@ -1668,11 +1687,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
