@@ -3,8 +3,8 @@
     "telefono": "573135697519",
     "nombre": "mikeeuriana",
     "primerContacto": "2026-10-16T12:11:26.750Z",
-    "ultimoContacto": "2026-10-16T12:11:26.750Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T12:11:31.784Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T12:11:26.009Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1Njk3NTE5FQIAERgSRjVGNDg3MUQyMUNGM0ZGNzcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-10-16T12:11:29.598Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, de GalviusTech. ¿En qué te puedo ayudar hoy? ¿Buscas algún producto en especial o quieres que te cuente lo que tenemos?",
+        "fecha": "2026-10-16T12:11:31.004Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Njk3NTE5FQIAERgSQzU1MzBCOTU3NUU4QzkxREZDAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573114030707",
