@@ -270,8 +270,8 @@
     "telefono": "CO.1573272778179794",
     "nombre": "Fabián",
     "primerContacto": "2026-10-16T20:44:12.862Z",
-    "ultimoContacto": "2026-10-16T20:44:12.862Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:55:49.397Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -297,18 +297,33 @@
         "fecha": "2026-10-16T20:44:11.850Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU3MzI3Mjc3ODE3OTc5NBUUABEYEjJCQzREREM3RDRBRDQ3OEU4RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para hogar",
+        "fecha": "2026-10-16T20:55:46.055Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para hogar 😊\n\nAhora, para recomendarte bien, ¿podrías decirme en qué municipio o vereda lo vas a usar? Así te confirmo cuál versión del módem es la mejor para ti.\n\nMientras tanto, te cuento que tenemos tres versiones:\n\n📶 Modem WiFi Portátil 4G — ideal si quieres ahorrar, conecta varios dispositivos y es perfecto para zonas sin fibra. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G — la opción más segura y versátil, funciona donde hay señal 4G o 5G, perfecta para hogar, trabajo, estudio y viajes. La inversión es de **$189.900 + $26.000 de envío**.\n\n⚡ Modem WiFi Portátil 5G — para zonas con buena cobertura 5G y que buscas máxima velocidad. La inversión es de **$199.900 + $26.000 de envío**.\n\n¿Dónde lo usarás exactamente, en qué municipio o vereda? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-16T20:55:48.232Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU3MzI3Mjc3ODE3OTc5NBUUABEYEkJCMkVFMDBDRDYzOUU1RkJFQwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145014185",
