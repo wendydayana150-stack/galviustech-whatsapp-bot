@@ -100,8 +100,8 @@
     "telefono": "CO.1808403367019537",
     "nombre": "REGINA ❤️",
     "primerContacto": "2026-10-16T20:50:16.328Z",
-    "ultimoContacto": "2026-10-16T20:50:16.328Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T21:01:29.562Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -127,18 +127,33 @@
         "fecha": "2026-10-16T20:50:15.061Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgwODQwMzM2NzAxOTUzNxUUABEYEjI0MTkzQ0RCQkVEMTMxMkZGNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aa el bagre Antioquia pero acá no hay señal",
+        "fecha": "2026-10-16T21:01:26.432Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por contarme eso.\n\nEl módem funciona con una SIM de operador celular, así que si en Bagre, Antioquia, no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), el módem no podrá conectarse porque depende de esa señal móvil.\n\nSin embargo, la antena del módem es mucho más potente que la de un celular normal y a veces logra captar señal débil donde el celular no tiene nada. ¿Tu celular por ahí no tiene nada de señal? ¿Confirmaste con alguien más en la zona que no haya señal ni intermitente?\n\n¿Para qué lo necesitas principalmente, aunque sea para ver si hay alguna zona cercana donde sí te serviría?",
+        "fecha": "2026-10-16T21:01:28.391Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgwODQwMzM2NzAxOTUzNxUUABEYEjM4MUI5QTA5QUE0NjUyQkEzRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573238161087",
