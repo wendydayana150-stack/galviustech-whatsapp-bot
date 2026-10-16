@@ -62,8 +62,8 @@
     "telefono": "573004234928",
     "nombre": "Sommer",
     "primerContacto": "2026-10-16T17:41:53.076Z",
-    "ultimoContacto": "2026-10-16T17:41:53.076Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T17:45:07.227Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,18 +83,33 @@
         "fecha": "2026-10-16T17:41:52.157Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MjM0OTI4FQIAERgSOUU4MzI1OTI1MThDQzlBQjRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito un internet para compartir con tv Smart a veces lo comparto con mi celular pero me consume mucho GB",
+        "fecha": "2026-10-16T17:45:03.888Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, encantada de ayudarte 😊\n\nPara recomendarte el mejor módem, dime en qué municipio o vereda lo vas a usar y si tienes un operador preferido (Claro, Movistar, Tigo, WOM). Así te oriento mejor para que puedas conectar la TV Smart y tu celular sin preocuparte por el consumo de datos.\n\nMientras me cuentas, te adelanto que nuestros módems tienen mejor cobertura que un celular común y permiten conectar varios dispositivos al mismo tiempo sin líos.\n\n¿Dónde estarías usándolo principalmente? 📍",
+        "fecha": "2026-10-16T17:45:05.409Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MjM0OTI4FQIAERgSQzVENTk2QUVBRDRFQkFFQTUwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207820674",
