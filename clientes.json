@@ -81,8 +81,8 @@
     "telefono": "573227221419",
     "nombre": "ec",
     "primerContacto": "2026-10-16T17:05:12.766Z",
-    "ultimoContacto": "2026-10-16T17:09:15.168Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T17:09:20.434Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -132,6 +132,25 @@
         "fecha": "2026-10-16T17:09:13.912Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MjIxNDE5FQIAERgSN0M0NjVCRjE0NTk0OUY3MDZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aqui ay señal de claro",
+        "fecha": "2026-10-16T17:09:17.478Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Si en la finca hay señal de Claro, el módem 4G/5G que te recomendé va a funcionar mucho mejor que un celular porque su antena es más potente.\n\nAsí podrás conectar tus dispositivos sin depender de un punto fijo ni cables, ideal para estudiar, trabajar o simplemente estar conectado.\n\n¿Querés que te arme el pedido y te lo enviemos ya mismo a dónde estás?",
+        "fecha": "2026-10-16T17:09:18.602Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MjIxNDE5FQIAERgSMEM4MUI3NjZCREM3NTMwRTM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T17:09:19.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MjIxNDE5FQIAERgSRDY2REI5QTJDMTZFQ0M2RTdFAA=="
       }
     ],
     "paso": "conversando",
