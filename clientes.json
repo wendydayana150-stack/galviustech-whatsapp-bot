@@ -3,8 +3,8 @@
     "telefono": "573207968648",
     "nombre": "Jaider Ramirez",
     "primerContacto": "2026-10-16T19:02:57.013Z",
-    "ultimoContacto": "2026-10-16T19:03:21.915Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T19:04:21.908Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-16T19:03:20.980Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTY4NjQ4FQIAERgSMjVGNzIwMDM1NzA0NjdGQzY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi hogar en el campo",
+        "fecha": "2026-10-16T19:04:18.070Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Para que tengas internet donde no llega la fibra, trabajar, estudiar o simplemente estar conectado en tu finca, estas son las opciones con sus inversiones y características clave:\n\n📶 Módem WiFi Portátil 4G  \n- Excelente para fincas y zonas rurales  \n- Conexión 4G que mejora la cobertura de tu celular  \n- Puedes conectar hasta 10 dispositivos  \n- Inversión de **$169.900 + $26.000 de envío**  \n\n📶 Módem WiFi Portátil 4G/5G  \n- Funciona en 4G y 5G para máxima compatibilidad  \n- Ideal si en tu zona ya hay algo de señal 5G  \n- Fácil de transportar y usar  \n- Inversión de **$189.900 + $26.000 de envío**  \n\n📶 Módem WiFi Portátil 5G  \n- Para zonas con buena cobertura 5G  \n- Velocidad superior si tienes señal 5G estable  \n- Perfecto para trabajar o estudiar en línea sin interrupciones  \n- Inversión de **$199.900 + $26.000 de envío**  \n\nTe recomiendo el modelo 4G/5G porque funciona en más lugares, incluso donde solo hay 4G o ya empieza el 5G, y te da mejor garantía de conexión.  \n\n¿Actualmente cómo te conectas a internet en la finca? ¿Tienes otro tipo de conexión o estás sin señal?",
+        "fecha": "2026-10-16T19:04:20.969Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTY4NjQ4FQIAERgSMTgxMjcxRjVENjcwN0JFRkVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
