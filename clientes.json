@@ -47,8 +47,8 @@
     "telefono": "573009942787",
     "nombre": "Horacio J.",
     "primerContacto": "2026-10-16T20:04:54.802Z",
-    "ultimoContacto": "2026-10-16T20:04:54.802Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T20:06:00.588Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-16T20:04:53.986Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5OTQyNzg3FQIAERgSN0IyMEZERDlGNEM4N0YzNjM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda montanita .\nCopacabana Antioquia",
+        "fecha": "2026-10-16T20:05:57.076Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info 😊\n\nMira, acá tienes las 3 opciones de módem que manejamos para que elijas la que mejor se adapte a ti:\n\n📶 **Modem WiFi Portátil 4G**: La opción más económica y efectiva para zonas rurales con buena cobertura 4G. Ideal para conectar varios dispositivos y tener internet estable en tu vereda o finca. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Modem WiFi Portátil 4G/5G**: El más recomendado porque te asegura conexión 4G o 5G, según cobertura, para que estés siempre conectado sin complicaciones. Perfecto para trabajar, estudiar, o tu hogar. La inversión es de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Modem WiFi Portátil 5G**: Para quienes sí tienen buena señal 5G en su zona y quieren máxima velocidad. Excelente para trabajo o estudio, con tecnología avanzada. La inversión es de **$199.900 + $26.000 de envío**.\n\nLos tres son fáciles de usar, portátiles y con batería de hasta 14 horas, diseñados para captar mejor señal que un celular común en zonas rurales.\n\n¿Para qué lo necesitas principalmente? ¿Trabajo, estudio, hogar o negocio? Así te ayudo a elegir el ideal.",
+        "fecha": "2026-10-16T20:05:59.366Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5OTQyNzg3FQIAERgSNEYwMkM0NDJCOEJFQUQ4RjRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573143162438",
