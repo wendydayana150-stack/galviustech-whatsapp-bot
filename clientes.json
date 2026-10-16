@@ -189,8 +189,8 @@
     "telefono": "573135226018",
     "nombre": "Euclides Galvan",
     "primerContacto": "2026-10-16T13:51:04.632Z",
-    "ultimoContacto": "2026-10-16T14:04:36.497Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-16T14:08:56.907Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -259,6 +259,18 @@
         "fecha": "2026-10-16T14:04:35.507Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MjI2MDE4FQIAERgSNEVBMkJEQkUxMEQ3MjBGQzhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La SIM card que se le instalará al módem deberá tener un plan de datos y el módem lo que hace es ampliar la señal?",
+        "fecha": "2026-10-16T14:08:53.567Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem necesita que le pongas una SIM con un plan de datos de cualquier operador (Claro, Movistar, Tigo, WOM) para funcionar.\n\nLo que hace el módem es transformar esa señal celular (4G o 5G, según el modelo y la cobertura) en una red WiFi que puedes compartir con varios dispositivos a la vez. Además, su antena es más potente que la de un celular, por eso capta señal mejor y te da internet más estable especialmente en zonas rurales o donde la señal con el celular suele ser débil.\n\nAsí no dependes de buscar WiFi público ni esperas que llegue la fibra óptica a tu zona.\n\n¿Quieres que te ayude a dejar tu pedido listo y te explico cómo lo enviamos?",
+        "fecha": "2026-10-16T14:08:55.824Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjI2MDE4FQIAERgSQ0NCMjU4QUMzMzM2NDU5OTI0AA=="
       }
     ],
     "paso": "conversando",
