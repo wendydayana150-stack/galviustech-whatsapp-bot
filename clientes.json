@@ -69,8 +69,8 @@
     "telefono": "573159386505",
     "nombre": "Enrique",
     "primerContacto": "2026-10-16T21:10:55.574Z",
-    "ultimoContacto": "2026-10-16T21:11:35.213Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T21:12:12.495Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -114,6 +114,25 @@
         "fecha": "2026-10-16T21:11:34.341Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU5Mzg2NTA1FQIAERgSREIzNkYyMDhFRDU1NTBGMjA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo se paga una vez?",
+        "fecha": "2026-10-16T21:12:09.713Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Así es, solo es una inversión única.\n\nNo tienes cuotas mensuales ni contratos, solo compras el módem y usas tu SIM con el plan o recarga que prefieras.\n\nTe dura años, funciona con cualquier operador en Colombia y la batería puede durar hasta 14 horas conectada.\n\nImagina tener internet fijo en tu finca, casa o donde viajes sin depender de que llegue fibra ni buscar WiFi ajeno.\n\n¿Ya tienes alguna idea de cuántos dispositivos vas a conectar al módem?",
+        "fecha": "2026-10-16T21:12:11.179Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5Mzg2NTA1FQIAERgSQThEOEFCRTkyM0FFRDI1NTdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T21:12:11.572Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5Mzg2NTA1FQIAERgSMEFENDc0N0JERDZDRTA0MzFFAA=="
       }
     ],
     "paso": "conversando",
