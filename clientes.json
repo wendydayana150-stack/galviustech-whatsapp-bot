@@ -279,8 +279,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:31:53.591Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-16T23:32:01.720Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -392,6 +392,25 @@
         "fecha": "2026-10-16T23:31:42.288Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSNTQ1Q0NEMDQ4M0MwNDgxQTkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Casa",
+        "fecha": "2026-10-16T23:31:54.893Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces el módem 4G/5G te dará una excelente conexión en tu casa en El Palo, porque puede conectarse a la señal de cualquier operador que tengas o consigas, y además tiene mejor alcance que un celular común.\n\nImagínate tener WiFi propio sin depender de fibra ni cables, para que todos en la casa puedan conectarse sin problema.\n\nLa inversión sería de **$189.900 + $26.000 de envío**.\n\n¿Quieres que te ayude a dejar listo el pedido para que lo tengas pronto?",
+        "fecha": "2026-10-16T23:31:57.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSRTFCNzYzMzcwNzA3MkFBREZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:31:58.143Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMDE0MThBNDMzRjY1MkYzQ0ZCAA=="
       }
     ],
     "paso": "conversando",
