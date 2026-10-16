@@ -116,8 +116,8 @@
     "telefono": "573217660614",
     "nombre": "Nury Montoya",
     "primerContacto": "2026-10-16T19:51:59.807Z",
-    "ultimoContacto": "2026-10-16T19:53:59.529Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T19:55:00.457Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -167,6 +167,25 @@
         "fecha": "2026-10-16T19:53:57.431Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSNTZGQkJEQTE0RjU4MzMzQTk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero saber si depende de un operador celular porque aquí todos tienen muy mala señal",
+        "fecha": "2026-10-16T19:54:57.797Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el modem usa una SIM de operador celular para funcionar (Claro, Movistar, Tigo, WOM), así que depende de la señal que haya en tu zona.\n\nPero ojo, la antena del módem es mucho más potente que la del celular común, por eso suele captar mejor la señal incluso donde el celular no la tiene tan fuerte. Está diseñado especialmente para zonas rurales y veredas como la tuya.\n\n¿Ya has probado conectar tu celular ahí y cómo te va con la señal? Así te ayudo a ver si el modem te funcionaría bien o buscamos otra solución.",
+        "fecha": "2026-10-16T19:54:58.913Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSREE1MDZFODc1ODYzNEZGMjAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T19:54:59.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSQTlFNDU0MDkxOEQ3NDdEOEQ3AA=="
       }
     ],
     "paso": "conversando",
