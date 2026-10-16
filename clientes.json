@@ -3,8 +3,8 @@
     "telefono": "573102990659",
     "nombre": "Laura Vasquez",
     "primerContacto": "2026-10-16T18:20:10.716Z",
-    "ultimoContacto": "2026-10-16T18:20:10.716Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:21:10.241Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T18:20:09.819Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTkwNjU5FQIAERgSMDlBRkFCNEQyNTg0OTNBQjI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En chinquinquira boyaca .\nPara estudiar",
+        "fecha": "2026-10-16T18:21:07.097Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info! 🙌\n\nEn ese caso, te recomiendo estas 3 opciones de módem:\n\n📶 *Modem WiFi Portatil 4G*: la opción más económica, ideal para conexión estable en zonas sin fibra, perfecto para estudiar y otras actividades. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 *Modem WiFi Portatil 4G/5G*: el más seguro para que siempre tengas señal, ya que funciona en 4G y 5G. Perfecto para estudiar y trabajar en cualquier sitio. La inversión es **$189.900 + $26.000 de envío**.\n\n📶 *Modem WiFi Portatil 5G*: si tu zona ya tiene buena cobertura 5G y quieres máxima velocidad, esta es la opción. La inversión es **$199.900 + $26.000 de envío**.\n\nLos tres conectan varios dispositivos, tienen batería para horas de uso y están diseñados para zonas rurales como Chinquinquirá, con mejor señal que un celular común.\n\n¿Quieres que te ayude a dejar tu pedido listo con alguna de estas opciones?",
+        "fecha": "2026-10-16T18:21:09.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTkwNjU5FQIAERgSRTc2RkM2Q0M5ODk2NkFFRkU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118943529",
