@@ -3,8 +3,8 @@
     "telefono": "573227690354",
     "nombre": "Zolina Ariza E.",
     "primerContacto": "2026-10-16T23:00:40.947Z",
-    "ultimoContacto": "2026-10-16T23:00:40.947Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T23:00:58.174Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23,18 +23,33 @@
         "fecha": "2026-10-16T23:00:39.976Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSRDJFNzJEODQ4MzE2MzU0RDlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que tipo de papel usa",
+        "fecha": "2026-10-16T23:00:55.287Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí. La **Impresora Térmica Portátil Bluetooth** usa papel térmico tamaño carta, especial para su sistema de impresión sin tinta.\n\nTrae incluido papel térmico para que comiences a usarla de una vez. \n\nAdemás, puedes comprar papel adicional en estas opciones:\n📄 Rollo de papel térmico tamaño carta de 9 metros por $10.000  \n📄 Paquete con 52 hojas tamaño carta por $35.000  \n📄 Paquete con 200 hojas tamaño carta por $75.000  \n\n¿Quieres que te agregue papel al pedido o solo la impresora por ahora?",
+        "fecha": "2026-10-16T23:00:57.167Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSMDhDQURFNDdCMTE5MzA1QzA2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218956891",
