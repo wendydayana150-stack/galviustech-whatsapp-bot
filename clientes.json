@@ -3,8 +3,8 @@
     "telefono": "573186771660",
     "nombre": "Hermes",
     "primerContacto": "2026-10-16T12:24:00.630Z",
-    "ultimoContacto": "2026-10-16T12:24:00.630Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T12:25:24.880Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T12:23:59.651Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSREQyMDg3RDAxRkY4NUVFMzVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El precio",
+        "fecha": "2026-10-16T12:25:21.950Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento: nuestros módems ofrecen conexión rápida donde no llega la fibra óptica y puedes conectar varios dispositivos sin líos. \n\n🔥 ¡Los modems bajaron un 30%! \n\nAquí las 3 versiones que tenemos con su inversión + envío de $26.000:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000 envío  \n🚀 Modem WiFi Portátil 4G/5G (recomendado para zonas mixtas): $189.900 + $26.000 envío  \n⚡ Modem WiFi Portátil 5G (si tienes buena 5G en tu zona): $199.900 + $26.000 envío  \n\n¿Me cuentas para qué lo necesitas o en qué zona lo usarías? Así te recomiendo el ideal para ti.",
+        "fecha": "2026-10-16T12:25:23.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSRjUzMzg0RjJGN0RENTBDNjQ5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573163232454",
