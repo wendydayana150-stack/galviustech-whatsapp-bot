@@ -3,8 +3,8 @@
     "telefono": "573217660614",
     "nombre": "Nury Montoya",
     "primerContacto": "2026-10-16T19:51:59.807Z",
-    "ultimoContacto": "2026-10-16T19:51:59.807Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T19:53:06.774Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T19:51:58.863Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSRUI3MEQyNjMxQjJDMUU4REZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ubicación.  Vereda la herradura municipio de Barbosa en Antioquia",
+        "fecha": "2026-10-16T19:53:03.111Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. \n\nTe cuento que tenemos 3 versiones para que elijas:\n\n📶 *Modem WiFi Portatil 4G*  \n- Conexión 4G ideal para fincas o veredas sin fibra  \n- Conecta hasta 10 dispositivos  \n- Fácil de usar y transportar  \nInversión: *$169.900 + $26.000 de envío*  \n\n🚀📶 *Modem WiFi Portatil 4G/5G* (mi recomendación)  \n- Funciona tanto con señal 4G como 5G donde haya cobertura  \n- Ideal para trabajo, estudio, hogar y viajes  \n- Mejor cobertura en zonas rurales y veredas  \nInversión: *$189.900 + $26.000 de envío*  \n\n⚡📶 *Modem WiFi Portatil 5G*  \n- Para zonas con muy buena cobertura 5G  \n- Máxima velocidad y conexión estable  \n- Ideal si en tu zona ya hay 5G disponible  \nInversión: *$199.900 + $26.000 de envío*  \n\n¿Me cuentas para qué lo necesitas principalmente, así te ayudo a elegir la mejor opción para ti?",
+        "fecha": "2026-10-16T19:53:05.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3NjYwNjE0FQIAERgSMDg1RDY4OTREOThGQTc2NzlBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573016217654",
