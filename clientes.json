@@ -3,8 +3,8 @@
     "telefono": "573213365494",
     "nombre": "Karina Rodríguez",
     "primerContacto": "2026-10-16T12:19:46.664Z",
-    "ultimoContacto": "2026-10-16T12:19:46.664Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T12:21:53.993Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T12:19:45.654Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzY1NDk0FQIAERgSNTdFODk0QTc5M0UyQzUzNjBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Arauquita \nVereda Los cajaros",
+        "fecha": "2026-10-16T12:21:50.393Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en la vereda Los Cajaros de Arauquita, lo ideal para ti es el **Modem WiFi Portátil 4G/5G**. \n\n🔥 Tiene mejor cobertura que un celular común, ideal para zonas rurales como la tuya.  \n🚀 Conecta varios dispositivos, perfecto para trabajar, estudiar o para tu hogar.  \n📱 Fácil de llevar a donde vayas sin instalaciones complicadas.  \n\nLa inversión sería de **$189.900 + $26.000 de envío**. También tenemos la versión más económica 4G por **$169.900 + envío** o la 5G por **$199.900 + envío** si tienes cobertura 5G y quieres máxima velocidad.\n\n¿Para qué usarías principalmente el internet, para trabajo, estudio o algo más?",
+        "fecha": "2026-10-16T12:21:52.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzY1NDk0FQIAERgSMzg1MUYzODcyNURCNjcwNkE2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218047314",
