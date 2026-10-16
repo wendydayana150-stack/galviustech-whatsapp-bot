@@ -62,8 +62,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T16:29:12.715Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T16:46:07.095Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,6 +83,18 @@
         "fecha": "2026-10-16T16:29:11.853Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSQTI5QkRFMkNENTdEODM2MzA2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-16T16:46:05.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-16T16:46:05.975Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSRDBEM0IwNEU5OUU0QjFFNUZFAA=="
       }
     ],
     "paso": "conversando",
@@ -94,7 +106,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.3824270764378225",
