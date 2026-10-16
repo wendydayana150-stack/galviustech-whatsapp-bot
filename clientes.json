@@ -3,8 +3,8 @@
     "telefono": "573209163273",
     "nombre": "lu...lu...",
     "primerContacto": "2026-10-16T13:14:37.306Z",
-    "ultimoContacto": "2026-10-16T13:14:37.306Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T13:19:31.776Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T13:14:36.420Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5MTYzMjczFQIAERgSMjY0RDY2MTNCRDRCNDE3OTI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acacias meta",
+        "fecha": "2026-10-16T13:19:25.928Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por el dato. Ahora dime, ¿para qué necesitas el módem? ¿es para estudiar, trabajar, tu hogar o para un negocio? Así te cuento cuál opción te funciona mejor.\n\nMientras me cuentas, te adelanto que los módems de GalviusTech tienen mejor cobertura que un celular común, ideal para zonas rurales como Acacías.\n\n¿Me cuentas?",
+        "fecha": "2026-10-16T13:19:29.754Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTYzMjczFQIAERgSMkY5QjlDQzMwRkEwQzA1ODRGAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.28453620320993826",
