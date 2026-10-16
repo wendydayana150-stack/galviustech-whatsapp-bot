@@ -367,8 +367,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T15:33:46.935Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-16T15:55:06.269Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -540,11 +540,18 @@
         "fecha": "2026-10-16T15:33:45.809Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSREI3Q0ZGNjQxQzg3RTIxNDRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-16T15:55:04.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSRkJEOTg0NjAxRUE5MzYzRjE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
