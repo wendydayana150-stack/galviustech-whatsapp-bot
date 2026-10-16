@@ -47,8 +47,8 @@
     "telefono": "573008837227",
     "nombre": "Diego Quintero",
     "primerContacto": "2026-10-16T12:36:45.513Z",
-    "ultimoContacto": "2026-10-16T12:42:02.364Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-16T12:44:33.706Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -129,6 +129,25 @@
         "fecha": "2026-10-16T12:42:01.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4ODM3MjI3FQIAERgSNDM4QzVCOTQzMzg3NDUwNTI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a averiguar",
+        "fecha": "2026-10-16T12:44:30.559Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, tómate tu tiempo para ver cuál operador te funciona mejor allá.\n\nMientras tanto, si quieres te puedo guardar la info del módem 4G/5G para cuando decidas, o también te puedo explicar mejor cómo funciona el equipo si tienes más dudas.\n\n¿Quieres que te cuente también las formas de pago que tenemos?",
+        "fecha": "2026-10-16T12:44:32.063Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4ODM3MjI3FQIAERgSNDhFOTEyMTk3RTU4ODc4QzM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T12:44:32.647Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4ODM3MjI3FQIAERgSQzBCMTZDNEIxNjU5MDYzNkU5AA=="
       }
     ],
     "paso": "conversando",
