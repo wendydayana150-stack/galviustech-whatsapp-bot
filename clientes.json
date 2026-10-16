@@ -339,8 +339,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:32:16.224Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-16T23:32:23.688Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -502,6 +502,25 @@
         "fecha": "2026-10-16T23:32:11.767Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSRUUwODRFNjA2QkJBQTUzRjM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Casa",
+        "fecha": "2026-10-16T23:32:17.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces para tu casa en El Palo el módem 4G/5G es la mejor inversión para tener internet estable y sin complicaciones.\n\nConecta varios dispositivos y tiene buena cobertura con la mayoría de operadores.\n\nLa inversión es **$189.900 + $26.000 de envío**.\n\n¿Quieres que deje tu pedido listo para enviártelo cuanto antes?",
+        "fecha": "2026-10-16T23:32:18.725Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSOTBBNkFENDQ0Q0I1NjQ1NzI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:32:19.091Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSNTdFNDBGNUNGRkEzMTk1RDc4AA=="
       }
     ],
     "paso": "conversando",
