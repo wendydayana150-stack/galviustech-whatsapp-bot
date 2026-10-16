@@ -718,8 +718,8 @@
     "telefono": "573218047314",
     "nombre": "Aladino Perez barrios",
     "primerContacto": "2026-10-16T12:15:09.071Z",
-    "ultimoContacto": "2026-10-16T12:16:04.823Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T13:19:29.829Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -757,6 +757,25 @@
         "fecha": "2026-10-16T12:16:03.791Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSQjI1MzAyRjY4NjVGRUM4N0QyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T13:19:14.110Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSQjY1QkI0RTE3NjBCNjYxOEQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible.",
+        "fecha": "2026-10-16T13:19:27.593Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta cuando puedan escribir. Para cualquier duda o pedido, aquí estaré para ayudarte. ¿Quieres que te comparta más detalles del módem para que lo revises luego?",
+        "fecha": "2026-10-16T13:19:28.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSRDI2RDgwMkM3RTE3QTU4QzU0AA=="
       }
     ],
     "paso": "conversando",
@@ -767,11 +786,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
