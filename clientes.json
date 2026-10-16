@@ -712,8 +712,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:33:58.235Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-10-16T23:34:21.784Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1063,6 +1063,25 @@
         "fecha": "2026-10-16T23:33:57.519Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSQ0E2MDg5MUM5NUI0NjREQzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero esta zona que cobertura de que sim hablamos",
+        "fecha": "2026-10-16T23:34:19.373Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem 4G/5G funciona con SIM de Claro, Movistar, Tigo o WOM en tu zona de El Palo.\n\nEstá diseñado para captar mejor señal que un celular común, así que tendrás mejor conexión en tu casa en la vereda.\n\n¿Quieres que te ayude a dejar tu pedido listo para que no te quedes sin internet?",
+        "fecha": "2026-10-16T23:34:20.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMDVGQ0U2MUYwMkYwQkNCOEQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T23:34:20.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMUM3NjEwNjAyNTdDNEIxN0E3AA=="
       }
     ],
     "paso": "conversando",
