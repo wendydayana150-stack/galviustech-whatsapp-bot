@@ -3,8 +3,8 @@
     "telefono": "573135498501",
     "nombre": "Eleanis",
     "primerContacto": "2026-10-16T14:50:22.324Z",
-    "ultimoContacto": "2026-10-16T14:50:22.324Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T14:53:33.120Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-16T14:50:21.302Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDk4NTAxFQIAERgSQjc0RDczRkI2RjA5RjY1RTEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el hogar",
+        "fecha": "2026-10-16T14:53:28.666Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto para tu hogar te cuento que tenemos 3 opciones con envío a toda Colombia por 26.000:\n\n📶 Modem WiFi Portatil 4G, ideal para quien quiere la opción más económica, con conexión estable 4G y hasta 10 dispositivos conectados, inversión seria de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portatil 4G/5G, el más recomendado porque funciona en lugares con 4G o 5G, te asegura mejor velocidad y compatibilidad con las redes nuevas, inversión sería de **$189.900 + $26.000 de envío**.\n\n⚡ Y el Modem WiFi Portatil 5G, para las zonas que ya tienen buena señal 5G y quieres máxima velocidad, inversión de **$199.900 + $26.000 de envío**.\n\nTodos son fáciles de usar, portátiles para que lo lleves donde quieras, y tienen batería recargable hasta 14 horas seguidas.\n\n¿En qué municipio o vereda piensas usarlo principalmente? Así te confirmo la mejor opción y cobertura para ti.",
+        "fecha": "2026-10-16T14:53:32.014Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDk4NTAxFQIAERgSNjYxQThENDFBMDgyMzgzNjQ2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234033257",
