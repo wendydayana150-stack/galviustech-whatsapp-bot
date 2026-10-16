@@ -3063,8 +3063,8 @@
     "telefono": "573142750743",
     "nombre": "luzgalvis",
     "primerContacto": "2026-10-15T20:17:10.850Z",
-    "ultimoContacto": "2026-10-16T00:28:33.013Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-16T00:30:16.264Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3153,6 +3153,18 @@
         "fecha": "2026-10-16T00:28:32.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNzUwNzQzFQIAERgSQ0JCRkQyMkRGMjFERjU2NDA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Okey muchas gracias por su tiempo",
+        "fecha": "2026-10-16T00:30:13.385Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias a ti por escribirme! 😊 Quedo atenta cuando decidas tener internet confiable para tu familia en Yondó. \n\n¿Quieres que te guarde la opción del módem 4G/5G para que no se te olvide? \n\nDe todas formas, aquí estoy para ayudarte cuando quieras. ¡Un abrazo!",
+        "fecha": "2026-10-16T00:30:15.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNzUwNzQzFQIAERgSNENDMkNFRjAyMzcyNTBDMEJEAA=="
       }
     ],
     "paso": "conversando",
@@ -3163,7 +3175,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
