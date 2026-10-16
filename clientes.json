@@ -467,8 +467,8 @@
     "telefono": "573169618314",
     "nombre": "José Adrián Scrrñ",
     "primerContacto": "2026-10-16T21:18:24.707Z",
-    "ultimoContacto": "2026-10-16T21:22:57.244Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-16T22:26:57.043Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -561,6 +561,25 @@
         "fecha": "2026-10-16T21:22:56.168Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSNEFBM0QwQzlFN0VDNDUwRkMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-16T22:25:13.945Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSNzA4OTNBMzQxRjgyODY3N0U2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pues nesecitaba internet",
+        "fecha": "2026-10-16T22:26:54.245Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, entiendo que necesitas internet allá donde no hay señal celular ni fibra.\n\nEn GalviusTech solo manejamos módems que funcionan con la señal de celular, así que si no hay señal en tu vereda, lamentablemente ningún módem como los que tenemos podría conectarte.\n\n¿Has considerado internet satelital u otra tecnología? Aunque no la vendemos, podría ser una alternativa para tu caso.\n\n¿Quieres que te apoye buscando otras soluciones que podrías explorar, o prefieres que te muestre productos como lámparas solares o cámaras mientras tanto?",
+        "fecha": "2026-10-16T22:26:56.020Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSOEI1NDcxNTlBMDZBRjhBMkMyAA=="
       }
     ],
     "paso": "conversando",
@@ -574,8 +593,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
