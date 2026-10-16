@@ -3,8 +3,8 @@
     "telefono": "573019535860",
     "nombre": "Javier Esquivel Mendoza",
     "primerContacto": "2026-10-16T00:28:42.088Z",
-    "ultimoContacto": "2026-10-16T00:28:42.088Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T00:29:43.918Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T00:28:41.143Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5NTM1ODYwFQIAERgSQkY2M0UzMTQ2MENCODhERjU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-16T00:29:42.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-16T00:29:42.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5NTM1ODYwFQIAERgSMTA1RTZDQkM5NTY4OUZEMDBBAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142407899",
