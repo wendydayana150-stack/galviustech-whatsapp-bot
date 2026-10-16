@@ -3,8 +3,8 @@
     "telefono": "573169618314",
     "nombre": "José Adrián Scrrñ",
     "primerContacto": "2026-10-16T21:18:24.707Z",
-    "ultimoContacto": "2026-10-16T21:21:54.055Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-16T21:22:35.696Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -66,6 +66,25 @@
         "fecha": "2026-10-16T21:21:52.934Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSQjFFRTRFM0E3QTgwQjRCQ0QwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esq aquí no hay nada de señal",
+        "fecha": "2026-10-16T21:22:32.665Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo la situación, si en tu vereda no hay señal de ningún operador, el módem no podrá captar internet porque depende de la señal móvil.\n\nPero la antena del módem es más sensible que la de un celular normal. ¿Has probado justo donde usarías el internet si tu celular no tiene señal o si alguien más de allí confirmó que no hay señal de ningún operador ni siquiera intermitente?  \n\nSi realmente no hay ninguna señal en ese lugar, déjame saber para ver si hay otra forma de ayudarte.",
+        "fecha": "2026-10-16T21:22:33.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSOTNGOEM5NTU1N0RBOTVGODQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-16T21:22:34.588Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSQkU5MjYwRDJENjk4M0JFMUQwAA=="
       }
     ],
     "paso": "conversando",
