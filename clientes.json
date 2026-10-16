@@ -3,8 +3,8 @@
     "telefono": "573169618314",
     "nombre": "José Adrián Scrrñ",
     "primerContacto": "2026-10-16T21:18:24.707Z",
-    "ultimoContacto": "2026-10-16T21:18:24.707Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T21:19:31.632Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-16T21:18:23.805Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSMzQyRDBGNDk0MTRDODk4RUQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pues tengo mala cubertora",
+        "fecha": "2026-10-16T21:19:29.679Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, ¿y en qué municipio o vereda estás? Así te puedo recomendar el módem que mejor te dé señal en esa zona.\n\n¿Para qué lo usarías principalmente? ¿Trabajo, estudio, o para el hogar?",
+        "fecha": "2026-10-16T21:19:30.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5NjE4MzE0FQIAERgSOTQyMjM4MDM2M0IwQjRDMDg5AA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573137311928",
