@@ -364,8 +364,8 @@
     "telefono": "CO.1122006083675427",
     "nombre": "Rickell y Moisés ❤️",
     "primerContacto": "2026-10-16T16:08:46.700Z",
-    "ultimoContacto": "2026-10-16T17:13:09.168Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-16T17:13:41.061Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -564,10 +564,27 @@
         "fecha": "2026-10-16T17:13:07.928Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMjAwNjA4MzY3NTQyNxUUABEYEkQwOTU2RjkwQUY0RDJBNUVFMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] No, gracias",
+        "fecha": "2026-10-16T17:13:39.584Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-16T17:13:39.904Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMjAwNjA4MzY3NTQyNxUUABEYEjA4OTlGMjU4MTYzRjQ1MDRGNQA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "CO.1122006083675427"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
