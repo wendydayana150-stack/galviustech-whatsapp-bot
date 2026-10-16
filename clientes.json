@@ -758,8 +758,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-16T17:03:28.128Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-10-16T17:04:36.161Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1375,6 +1375,25 @@
         "fecha": "2026-10-16T17:03:27.055Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSNERCRDY1QTczMkQ4RjI5RDQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-16T17:04:32.816Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias a ti, Víctor Hugo! Cuando quieras avanzar con el pedido solo me dices y te dejo todo listo para envío.  \n\n¿Quieres que te ayude con algo más ahora o prefieres hacer la compra después?",
+        "fecha": "2026-10-16T17:04:34.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSMDZEMEE2RUE3QUEzRjU0M0Q5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver la tienda]",
+        "fecha": "2026-10-16T17:04:35.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSN0JBRThDMDc3QkNENkQxOUFGAA=="
       }
     ],
     "paso": "conversando",
