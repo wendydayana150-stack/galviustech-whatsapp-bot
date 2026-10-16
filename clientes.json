@@ -3,8 +3,8 @@
     "telefono": "CO.2338750153596267",
     "nombre": "Milton Fabián",
     "primerContacto": "2026-10-16T21:38:49.974Z",
-    "ultimoContacto": "2026-10-16T21:39:30.448Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-16T21:40:35.891Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-16T21:39:29.462Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjMzODc1MDE1MzU5NjI2NxUUABEYEkMxNTY3MzYxMTlGMzU2OThBNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El Peñol Antioquia",
+        "fecha": "2026-10-16T21:40:32.668Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. Para que lo necesitas principalmente, ¿trabajo, estudio, tu hogar o negocio?\n\nMientras me cuentas, te digo que tenemos 3 versiones que te pueden servir:\n\n📶 Módem WiFi Portátil 4G: conexión estable, fácil de usar y perfecto para zonas rurales. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: este funciona donde hay 4G o ya hay cobertura 5G, más seguro y rápido. Inversión de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: para máxima velocidad si tu zona ya tiene buena señal 5G. La inversión es de **$199.900 + $26.000 de envío**.\n\nLos equipos conectan varios dispositivos, tienen batería para hasta 14 horas y te dan mejor cobertura que un celular común, ideal para fincas o veredas.\n\n¿Para qué lo usarías tú considerando esto?",
+        "fecha": "2026-10-16T21:40:34.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMzODc1MDE1MzU5NjI2NxUUABEYEjkxRDA5RkIzMkRGMTQzMkI4OAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
