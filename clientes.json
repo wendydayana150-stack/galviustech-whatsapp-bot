@@ -62,8 +62,8 @@
     "telefono": "573118943529",
     "nombre": "😃",
     "primerContacto": "2026-10-16T18:20:01.716Z",
-    "ultimoContacto": "2026-10-16T18:20:01.716Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T18:29:47.890Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,18 +89,33 @@
         "fecha": "2026-10-16T18:20:00.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4OTQzNTI5FQIAERgSMEE0OTM5OEUyN0M2QjBERTZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Paipa Boyacá",
+        "fecha": "2026-10-16T18:29:44.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Paipa en Boyacá. \n\nTe recomiendo conocer las 3 versiones que tenemos, para que elijas la que más te convenga según lo que necesites:\n\n📶 **Modem WiFi Portátil 4G**: conexión estable en redes 4G, conecta hasta 10 dispositivos y es ideal para fincas o sitios sin fibra óptica. La inversión es de **$169.900 + $26.000 de envío**.\n\n🚀📶 **Modem WiFi Portátil 4G/5G**: funciona tanto en 4G como en 5G, ideal si quieres velocidad y compatibilidad futura. Inversión de **$189.900 + $26.000 de envío**.\n\n⚡📶 **Modem WiFi Portátil 5G**: para los lugares que ya tienen buena cobertura 5G, la máxima velocidad para tus dispositivos. La inversión es de **$199.900 + $26.000 de envío**.\n\nLos módems de GalviusTech están diseñados para captar mejor señal que el celular en zonas rurales o donde hay poca cobertura.\n\n¿Me cuentas para qué lo necesitas principalmente? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-16T18:29:46.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4OTQzNTI5FQIAERgSMjhDRUI2OTNENDJBMDFFMzkyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573008688935",
