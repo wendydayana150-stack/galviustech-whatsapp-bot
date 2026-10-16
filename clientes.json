@@ -3,8 +3,8 @@
     "telefono": "573105406748",
     "nombre": "jhonfredygarcia584",
     "primerContacto": "2026-10-16T19:48:14.140Z",
-    "ultimoContacto": "2026-10-16T19:48:14.140Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-16T19:48:23.040Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-16T19:48:13.295Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NDA2NzQ4FQIAERgSQ0U2NzdBREU0RDRCNTU1RTc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-16T19:48:19.437Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech. Para ayudarte mejor, ¿me puedes contar en qué municipio o vereda lo necesitas y para qué lo usarías? ¿Es para estudio, trabajo, hogar o viaje? Así te recomiendo el módem o producto ideal para ti.\n\nMientras tanto, te cuento que tenemos modems WiFi portátiles 4G, 4G/5G y 5G con increíbles beneficios: internet propio sin depender de fibra, fácil de llevar y con buena cobertura en zonas rurales. \n\n¿Dónde estarías conectándote principalmente?",
+        "fecha": "2026-10-16T19:48:21.890Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NDA2NzQ4FQIAERgSOTg0QjA1RTIyNDM1RTFBRDFBAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.959219823918430",
