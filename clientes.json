@@ -813,8 +813,8 @@
     "telefono": "573136089088",
     "nombre": "Jhon",
     "primerContacto": "2026-10-16T18:14:27.002Z",
-    "ultimoContacto": "2026-10-16T18:16:34.402Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-16T19:38:20.586Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -871,11 +871,18 @@
         "fecha": "2026-10-16T18:16:17.678Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSRkE3RjVDQkVFMTUwMUM0NTI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Los tenemos Promocion Ultimas unidades",
+        "fecha": "2026-10-16T19:38:19.434Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDg5MDg4FQIAERgSMDMxRUM4RTQ3MEM5MUM5MzI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
