@@ -3,8 +3,8 @@
     "telefono": "573122151711",
     "nombre": "Luis Fernando Carvajal",
     "primerContacto": "2026-10-16T15:46:05.727Z",
-    "ultimoContacto": "2026-10-16T15:47:31.656Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-16T15:47:46.552Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,13 +54,25 @@
         "fecha": "2026-10-16T15:47:30.430Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTUxNzExFQIAERgSQzRGQzlGQkI1OENCMzJDOUQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La señal de celular es casi nula",
+        "fecha": "2026-10-16T15:47:43.333Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, que la señal sea casi nula es un problema serio para estar conectado. Nuestro módem tiene una antena mucho más potente que la del celular, pensada justamente para captar señal donde los celulares comunes no llegan bien.\n\nSi tienes aunque sea un poco de señal 4G, el módem 4G o el 4G/5G te darán mejor cobertura estable y puedes conectar varios dispositivos a la vez. Eso te ayuda a tener internet para trabajar o estudiar sin depender de buscar WiFi.\n\n¿Actualmente cómo te conectas o solucionas tus tareas por internet allí? Me cuentas para ayudarte a imaginar cómo sería tu día con el módem.",
+        "fecha": "2026-10-16T15:47:45.400Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTUxNzExFQIAERgSQzgyREY1Mjg1RjIwNkEwODM5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
