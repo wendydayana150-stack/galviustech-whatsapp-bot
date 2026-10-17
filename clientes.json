@@ -137,8 +137,8 @@
     "telefono": "573222369937",
     "nombre": "1647664",
     "primerContacto": "2026-10-17T16:24:36.858Z",
-    "ultimoContacto": "2026-10-17T16:24:36.858Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T16:51:33.107Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,6 +164,18 @@
         "fecha": "2026-10-17T16:24:36.116Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzY5OTM3FQIAERgSNUVBODhDRDk4QzhBOTRFRjQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para aya ninguna SIM coje",
+        "fecha": "2026-10-17T16:51:30.142Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contármelo. Ojo que el módem funciona con SIM de cualquier operador (Claro, Movistar, Tigo, WOM) y está diseñado para captar señal donde el celular usualmente no llega, con mejor cobertura en veredas y fincas.\n\nCuando dices que \"ninguna SIM coge\", ¿te refieres a que en ese lugar tu celular tampoco tiene señal o ya confirmaste que no hay señal de ningún operador en la zona? \n\nAsí te oriento mejor y vemos si el módem te puede servir.\n\n¿En qué municipio o vereda sería el uso? ¿Lo necesitas para trabajar, estudiar o para tu hogar?",
+        "fecha": "2026-10-17T16:51:31.757Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzY5OTM3FQIAERgSMzlENzlDRERDQzI4NUEyREQyAA=="
       }
     ],
     "paso": "conversando",
@@ -175,7 +187,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1806655787128672",
