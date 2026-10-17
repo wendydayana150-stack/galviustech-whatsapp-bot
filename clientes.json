@@ -3,8 +3,8 @@
     "telefono": "573217379109",
     "nombre": "cesarmiguel delaossa😡😡",
     "primerContacto": "2026-10-17T23:52:54.521Z",
-    "ultimoContacto": "2026-10-17T23:52:54.521Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T23:53:26.460Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-17T23:52:53.603Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Mzc5MTA5FQIAERgSQzk2MkUxNTMwREQyNTcyMkM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto libertador Córdoba",
+        "fecha": "2026-10-17T23:53:23.847Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Puerto Libertador Córdoba, ¿lo necesitas más para estudiar, trabajar, para tu hogar o para un negocio? Así te recomiendo el módem más adecuado para ti y las opciones con precios.\n\n¿Actualmente tienes señal 4G o 5G estable con tu celular ahí? Eso me ayuda a saber qué versión te sirve mejor.",
+        "fecha": "2026-10-17T23:53:25.441Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Mzc5MTA5FQIAERgSNEJGRUY5NjUzQ0ZEREU2OEQyAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124343567",
