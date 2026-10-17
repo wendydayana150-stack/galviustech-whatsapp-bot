@@ -9095,8 +9095,8 @@
     "telefono": "573215855549",
     "nombre": "Dayana",
     "primerContacto": "2026-10-16T17:48:12.068Z",
-    "ultimoContacto": "2026-10-16T17:51:47.652Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-17T14:08:07.130Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9229,6 +9229,13 @@
         "fecha": "2026-10-16T17:51:46.123Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODU1NTQ5FQIAERgSNzVGMzYyNTAxODIyNTBFRDdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Dayana! 😊 Te tengo apartado el *Modem 5G* a *$ 199.900* + $26.000 de envío.\n\n🔥 Es precio de promoción con descuento y quedan pocas unidades: cuando se agoten, el precio vuelve a subir.\n✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días.\n\n¿Te lo envío?\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-17T14:08:04.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODU1NTQ5FQIAERgSOEM1MTg5NEM0NTdGN0MwQzAyAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -9244,9 +9251,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
