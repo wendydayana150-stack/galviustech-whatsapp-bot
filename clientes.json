@@ -3,8 +3,8 @@
     "telefono": "573214909839",
     "nombre": "😘😘😘",
     "primerContacto": "2026-10-17T19:12:27.838Z",
-    "ultimoContacto": "2026-10-17T19:19:34.213Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-17T19:20:53.165Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -54,6 +54,18 @@
         "fecha": "2026-10-17T19:19:31.773Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTA5ODM5FQIAERgSMUU3Q0UwRUE4QzkyNzRGMjNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-17T19:20:50.318Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, para lo que necesites aquí estoy 😊 Cuando veas opción de señal y quieras probar un módem que de verdad funcione en zona rural, me avisas. \n\n¿Quieres que te muestre otras soluciones que tenemos? Por ejemplo:  \n📶 *Modems WiFi*  \n🖨️ *Impresoras térmicas*  \n💡 *Lámparas solares*  \n📹 *Cámaras de seguridad*  \n🎁 *Combos*  \n\n¿O quieres que te cuente algo más específico para tu caso?",
+        "fecha": "2026-10-17T19:20:52.053Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTA5ODM5FQIAERgSRjJEMTdDQTc2NjU4REFDMzA3AA=="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
