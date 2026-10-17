@@ -3,8 +3,8 @@
     "telefono": "573243802942",
     "nombre": "amayavitor12",
     "primerContacto": "2026-10-17T22:40:13.859Z",
-    "ultimoContacto": "2026-10-17T22:40:13.859Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T22:41:00.704Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-17T22:40:13.023Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODAyOTQyFQIAERgSMEQyQ0E1MUIyNTA3M0RFOTgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] PROMOCION COMBOS",
+        "fecha": "2026-10-17T22:40:59.695Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista de combos]",
+        "fecha": "2026-10-17T22:40:59.695Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODAyOTQyFQIAERgSOTYzRDFEMEZFQkJCQUZBNDBDAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147062434",
