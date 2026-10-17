@@ -137,8 +137,8 @@
     "telefono": "573222369937",
     "nombre": "1647664",
     "primerContacto": "2026-10-17T16:24:36.858Z",
-    "ultimoContacto": "2026-10-17T16:51:33.107Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-17T16:51:37.939Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,13 +176,25 @@
         "fecha": "2026-10-17T16:51:31.757Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzY5OTM3FQIAERgSMzlENzlDRERDQzI4NUEyREQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Entonces",
+        "fecha": "2026-10-17T16:51:34.397Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, con eso que me dices, te recomiendo que pruebes primero si el módem logra captar mejor señal que tu celular. Si en esa misma zona donde usas el celular no hay señal de ningún operador, lamentablemente el módem no te servirá porque depende de la señal móvil para funcionar.\n\nSi por el contrario hay señal aunque débil, el módem mejorará mucho la conexión y podrás tener internet para trabajar, estudiar o tu hogar sin depender de fibra.\n\nDe todas formas, tenemos estas 3 opciones de módem con precios e inversión para que puedas elegir:\n\n📶 Modem WiFi Portátil 4G - $169.900 + $26.000 de envío  \n🚀 Modem WiFi Portátil 4G/5G - $189.900 + $26.000 de envío  \n⚡ Modem WiFi Portátil 5G - $199.900 + $26.000 de envío  \n\nCada uno conecta varios dispositivos y es fácil de llevar donde lo necesites. Te recomiendo el 4G/5G si no estás seguro de la cobertura 5G en tu zona, es la mejor opción para no quedarte sin conexión.\n\n¿Para qué lo usarías principalmente? Así te ayudo a elegir cuál te conviene más.",
+        "fecha": "2026-10-17T16:51:36.969Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzY5OTM3FQIAERgSRUIyODc1MzVGQUZBNDYyN0Y2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
