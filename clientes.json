@@ -47,8 +47,8 @@
     "telefono": "573170318279",
     "nombre": "solo",
     "primerContacto": "2026-10-17T19:44:18.608Z",
-    "ultimoContacto": "2026-10-17T19:44:18.608Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T19:46:46.088Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-17T19:44:17.852Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwMzE4Mjc5FQIAERgSMTlCMDhEQzE1QzgyQjMzOUMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Montebello Antioquia vereda campo alegre",
+        "fecha": "2026-10-17T19:46:42.378Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por compartir tu ubicación, Montebello Antioquia. Ahora, ¿para qué lo necesitas principalmente? ¿Estudio, trabajo, hogar o negocio?\n\nTe cuento que en GalviusTech tenemos 3 modelos súper prácticos para zonas como la tuya:\n\n📶 **Modem WiFi Portátil 4G**: ideal si buscas una opción económica para tener internet estable en veredas sin fibra óptica. Conecta varios dispositivos y dura hasta 14 horas en uso.\n\n📶 **Modem WiFi Portátil 4G/5G**: la mejor combinación para que funcione tanto en zonas con 4G como donde ya haya 5G. Más rápido, igual de portátil.\n\n📶 **Modem WiFi Portátil 5G**: lo máximo en velocidad si sabes que tienes cobertura 5G en tu zona y quieres lo último.\n\nLa inversión sería:  \n- 4G por **$169.900 + $26.000 de envío**  \n- 4G/5G por **$189.900 + $26.000 de envío** (la más recomendada en general)  \n- 5G por **$199.900 + $26.000 de envío**  \n\n¿Para cuántos dispositivos querés conectarte o qué uso principal le darías al internet? Así te ayudo a escoger el mejor para vos.",
+        "fecha": "2026-10-17T19:46:45.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMzE4Mjc5FQIAERgSODM2Mzk4NTY4RjlCNTUzMTIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573128813780",
