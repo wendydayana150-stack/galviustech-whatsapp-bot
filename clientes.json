@@ -1603,8 +1603,8 @@
     "telefono": "573117250748",
     "nombre": "Alexander",
     "primerContacto": "2026-10-16T23:22:27.656Z",
-    "ultimoContacto": "2026-10-16T23:35:24.108Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-17T00:49:16.770Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1985,6 +1985,32 @@
         "fecha": "2026-10-16T23:35:23.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMTNFREUxN0IwQzdBRkE3OTNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T00:45:14.455Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMEFDNUM0RTgyNTk0Q0YzODJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como funciona eso de la sim",
+        "fecha": "2026-10-17T00:49:15.165Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-10-17T00:49:15.166Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSRjZERDhFMzY2OEFCOThBMTQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-10-17T00:49:15.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjUwNzQ4FQIAERgSMzM4MEQwOUJEQzU3QUNGNTIzAA=="
       }
     ],
     "paso": "conversando",
@@ -1998,8 +2024,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
