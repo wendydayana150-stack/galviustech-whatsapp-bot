@@ -3,8 +3,8 @@
     "telefono": "573206865320",
     "nombre": "Pérez",
     "primerContacto": "2026-10-17T15:27:09.789Z",
-    "ultimoContacto": "2026-10-17T15:27:09.789Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T15:33:09.037Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T15:27:08.998Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2ODY1MzIwFQIAERgSQ0UwM0Q1MTRBNzk1QzY3RUZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para santa rosa cauca una pregunta el dispositivo coge señal donde no llega la cobertura de claro y ni de Tigo",
+        "fecha": "2026-10-17T15:33:06.462Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En zonas sin señal de Claro ni Tigo, el módem no podrá conectarse porque necesita una SIM de un operador que tenga cobertura.\n\nPero dime, ¿en Santa Rosa Cauca tu celular recibe algo de señal o directamente no tiene cobertura ni que sea intermitente? La antena del módem es más potente que la del celular y puede captar señal donde el celular no puede, eso ayuda mucho en zonas rurales.\n\n¿Para qué necesitas el internet, para trabajo, estudio o hogar? Así te oriento mejor.",
+        "fecha": "2026-10-17T15:33:07.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2ODY1MzIwFQIAERgSQTFFMTdGREJFQkZEQzg5QUNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1074110405501293",
