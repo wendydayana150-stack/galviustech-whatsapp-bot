@@ -3382,8 +3382,8 @@
     "telefono": "573019134021",
     "nombre": "Yhon Edison Munera",
     "primerContacto": "2026-10-17T00:05:16.070Z",
-    "ultimoContacto": "2026-10-17T00:25:09.828Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-17T16:30:03.698Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3550,6 +3550,31 @@
         "fecha": "2026-10-17T00:25:09.044Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSNzJFMDAwNTU0RjVDOTQ5MEQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mandeme las fotos de todo lo que venden",
+        "fecha": "2026-10-17T16:30:02.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Listado de todo lo que vendemos + link de la tienda]",
+        "fecha": "2026-10-17T16:30:02.072Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-17T16:30:02.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSRTg2NjA1MUEzNTgyN0M2RTAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T16:30:02.782Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSMDY5Qzk5MjYxNkY1QUUwRDk0AA=="
       }
     ],
     "paso": "conversando",
@@ -3563,9 +3588,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
