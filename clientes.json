@@ -428,8 +428,8 @@
     "telefono": "573147130503",
     "nombre": "jireth",
     "primerContacto": "2026-10-17T16:40:39.970Z",
-    "ultimoContacto": "2026-10-17T16:40:39.970Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T18:14:00.613Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -455,21 +455,39 @@
         "fecha": "2026-10-17T16:40:38.884Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3MTMwNTAzFQIAERgSMEM1RDJBMTRERjQ0Q0M4OTNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T17:49:28.093Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MTMwNTAzFQIAERgSODY2MTdDQ0MwRjBDM0FCMTA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la finca",
+        "fecha": "2026-10-17T18:13:56.645Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para finca es muy común que no haya fibra óptica y que se necesite una conexión confiable y portátil.\n\nTe cuento las 3 versiones de módem que tenemos con su inversión y beneficios:\n\n📶 *Módem WiFi Portátil 4G* $169.900 + $26.000 envio  \n- Mejor cobertura que el celular en veredas  \n- Conecta hasta 10 dispositivos  \n- Batería dura hasta 14 horas\n\n🚀 *Módem WiFi Portátil 4G/5G* $189.900 + $26.000 envio  \n- Soporta 4G y 5G, ideal si ya tienes cobertura 5G en finca  \n- Para conectar celular, computador, tablets y más  \n- Fácil de transportar y sin instalación\n\n⚡ *Módem WiFi Portátil 5G* $199.900 + $26.000 envio  \n- Velocidad máxima 5G donde haya cobertura  \n- Perfecto para quienes quieren lo último en conexión móvil  \n- Gran autonomía y movilidad\n\nMi recomendación para finca es el 4G/5G porque funciona bien donde no hay 5G pero si hay 4G, y te prepara para futuro si llega 5G.\n\n¿En qué municipio o vereda queda tu finca? Así te confirmo cobertura y te ayudo con el siguiente paso.",
+        "fecha": "2026-10-17T18:13:59.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MTMwNTAzFQIAERgSOUMwMkYxRTEyQTdDOTIxQjI1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
