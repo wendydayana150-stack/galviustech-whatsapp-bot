@@ -12220,8 +12220,8 @@
     "telefono": "573142442732",
     "nombre": "Panadería emanuel",
     "primerContacto": "2026-10-16T15:07:17.624Z",
-    "ultimoContacto": "2026-10-17T13:15:09.532Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-10-17T13:15:36.943Z",
+    "mensajes": 35,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12880,6 +12880,25 @@
         "fecha": "2026-10-17T13:15:08.547Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSQkYyRjEzNENBMTgwMzQwOTIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puede dar la guía de envío del pedido",
+        "fecha": "2026-10-17T13:15:34.235Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la guía te la envío apenas el pedido se despache en la tarde, normalmente llega en 2 a 4 días hábiles después. ¿Me confirmas tu ciudad por si necesitas recoger en oficina o te llega a domicilio? Así te aviso bien al momento del envío.",
+        "fecha": "2026-10-17T13:15:35.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSOUEyMEI3RURCRjEyMkI4NkU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-17T13:15:36.097Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDQyNzMyFQIAERgSM0RGMkRGOTFCQUFGM0IyQkY4AA=="
       }
     ],
     "paso": "conversando",
