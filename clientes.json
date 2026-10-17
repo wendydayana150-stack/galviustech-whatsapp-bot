@@ -105,8 +105,8 @@
     "telefono": "573019134021",
     "nombre": "Yhon Edison Munera",
     "primerContacto": "2026-10-17T00:05:16.070Z",
-    "ultimoContacto": "2026-10-17T00:22:51.136Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-17T00:22:59.299Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -223,6 +223,25 @@
         "fecha": "2026-10-17T00:22:50.125Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSREZGQTM3QjYyNURFOUM0MDU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es el que trabaja acá",
+        "fecha": "2026-10-17T00:22:56.292Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el módem WiFi portátil 4G funciona perfecto en tu vereda La Luz, en Campamento, Antioquia. Está diseñado para captar mejor la señal que un celular común, justo para lugares rurales como el tuyo, y así tener internet estable para conectar varios dispositivos en casa.\n\nCon este módem podrías mejorar mucho la conexión sin depender de que alguien instale fibra o buscar WiFi prestado.\n\n¿Quieres que te ayude a dejar tu pedido listo para enviártelo ya? ¿Lo enviamos a tu finca o prefieres recogerlo en alguna oficina?",
+        "fecha": "2026-10-17T00:22:58.012Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSMDIzRjdENDIwOTk4OEQzRDU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a dejar tu pedido listo?\n[Opciones: Si, quiero este | Ver otros]",
+        "fecha": "2026-10-17T00:22:58.439Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSNEM5RDFENkUzQkQzREU4OTAyAA=="
       }
     ],
     "paso": "conversando",
