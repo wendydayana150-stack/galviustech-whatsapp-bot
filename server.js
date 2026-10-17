@@ -1923,6 +1923,54 @@ async function marcarPromoDiariaEnviada(telefonos, fechaTexto) {
       });
 }
 
+// RESCATE DE PEDIDOS A MEDIAS (oct-2026, Wendy): quien ya eligio producto para pedir o empezo a dar sus
+// datos y no termino, y ya paso la ventana de 24 h (los recordatorios normales ya no le llegan), recibe UNA
+// sola vez la plantilla aprobada de reactivacion. Al responder, su sesion conserva el paso del pedido y el
+// bot le pide solo lo que falta. Solo a pedidos a medias de los ultimos 7 dias, en horario comercial.
+function esPedidoAMedias(c) {
+      const paso = c.paso || "";
+      const datosPedido = ["nombreCliente", "celular", "departamento", "ciudad", "direccion", "barrio", "medioPago"];
+      return paso.startsWith("pedido_") || paso === "confirmar_producto" || datosPedido.some((k) => c.pedido?.[k]);
+}
+
+let ultimoRescatePedidos = 0;
+async function rescatarPedidosAMedias() {
+      if (!estaEnHorarioComercial()) return 0;
+      if (Date.now() - ultimoRescatePedidos < 60 * 60 * 1000) return 0;
+      ultimoRescatePedidos = Date.now();
+      const { datos } = await leerJSON(CLIENTES_API);
+      const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+      const conPedido = new Set(pedidos.map((p) => p.telefono));
+      const enviados = [];
+      for (const c of datos) {
+            const sesionViva = sesiones[c.telefono];
+            if (c.pausado || sesionViva?.pausado || c.necesitaAtencion || c.pausarSeguimiento) continue;
+            if (conPedido.has(c.telefono) || c.recordatorios?.rescatePedido || !esPedidoAMedias(c)) continue;
+            const horas = (Date.now() - new Date(c.ultimoContacto || 0).getTime()) / 3600000;
+            if (horas < 23 || horas > 7 * 24) continue;
+            const producto = catalogo.find((p) => p.id === (c.pedido?.productoId || c.ultimoProducto));
+            const categoria = categoriaPromoDiaria(c);
+            const nombreProducto = (categoria && NOMBRE_PRODUCTO_PLANTILLA_POR_CATEGORIA[categoria]) || producto?.nombreCorto || producto?.nombre;
+            if (!nombreProducto) continue;
+            try {
+                  await cargarSesionSiNueva(c.telefono);
+                  await enviarPlantillaReactivacion(c.telefono, c.nombre || "cliente", nombreProducto);
+                  enviados.push(c.telefono);
+            } catch (e) {
+                  console.error(`Error en rescate de pedido a medias ${c.telefono}:`, e.response?.data || e.message);
+            }
+      }
+      if (enviados.length) {
+            await conColaDeArchivo(CLIENTES_API, async () => {
+                  const { datos: frescos, sha } = await leerJSON(CLIENTES_API);
+                  for (const c of frescos) if (enviados.includes(c.telefono)) c.recordatorios = { ...(c.recordatorios || {}), rescatePedido: true };
+                  await guardarJSON(CLIENTES_API, frescos, sha, `Rescate de ${enviados.length} pedido(s) a medias`);
+            });
+            console.log(`Rescate de pedidos a medias: ${enviados.length} enviado(s).`);
+      }
+      return enviados.length;
+}
+
 let ultimaFechaPromoDiaria = null;
 
 // Disparo automatico: se intenta en cada webhook entrante, pero solo se ejecuta de verdad una vez
@@ -2110,8 +2158,8 @@ async function manejarSeleccionProducto(telefono, productoId) {
             botones.push({ id: `pedirfinal_${producto.id}`, titulo: "Solo este producto" });
             await enviarBotones(telefono, "Que prefieres?", botones);
       } else {
-            await enviarBotones(telefono, "Quieres pedir este producto?", [
-                  { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
+            await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+                  { id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" },
                   { id: "ver_catalogo", titulo: "Ver otros" },
                   ]);
       }
@@ -3059,8 +3107,8 @@ async function enviarTarjetaProductoTienda(telefono, producto) {
             ]);
             return;
       }
-      await enviarBotones(telefono, "Quieres pedir este producto?", [
-            { id: `pedir_${producto.id}`, titulo: "Si, quiero este" },
+      await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+            { id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" },
             { id: "ver_tienda", titulo: "Ver la tienda" },
       ]);
 }
@@ -3410,14 +3458,17 @@ async function manejarTextoLibre(telefono, texto) {
                   !productoId &&
                   !pausarSeguimiento &&
                   sesion.preguntasPorProducto[idProductoEnfocado] >= 2 &&
-                  sesion.preguntasPorProducto[idProductoEnfocado] % 2 === 0 &&
-                  sesion.botonesOfrecidos[idProductoEnfocado] !== sesion.preguntasPorProducto[idProductoEnfocado]
+                  // Oct-2026 (Wendy, estudio de 450 chats): el boton repetido en casi cada mensaje cansaba
+                  // (47 clientes se fueron justo ahi, uno de ellos reclamando un pedido). Ahora se ofrece
+                  // UNA sola vez por producto y nunca si el cliente esta reclamando (necesitaAtencion).
+                  !sesion.botonesOfrecidos[idProductoEnfocado] &&
+                  !sesion.necesitaAtencion
                   ) {
                   const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
                   if (productoEnfocado) {
                         sesion.botonesOfrecidos[idProductoEnfocado] = sesion.preguntasPorProducto[idProductoEnfocado];
-                        await enviarBotones(telefono, "Te ayudo a dejar tu pedido listo?", [
-                              { id: `pedir_${idProductoEnfocado}`, titulo: "Si, quiero este" },
+                        await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+                              { id: `pedir_${idProductoEnfocado}`, titulo: "✅ Sí, envíamelo" },
                               productoEnfocado.tienda
                                     ? { id: "ver_tienda", titulo: "Ver la tienda" }
                                     : { id: "ver_catalogo", titulo: "Ver otros" },
@@ -3968,8 +4019,14 @@ app.post("/webhook", async (req, res) => {
                               // Pedido o pregunta enviada desde el catalogo en linea (ver manejarMensajeCatalogo).
                               if (sesion.paso === "inicio") sesion.paso = "conversando";
                         } else if (sesion.paso === "inicio") {
-                              const especifico = detectarProductoEspecifico(texto);
-                              const deteccion = detectarProductoPorPalabraClave(texto);
+                              // Oct-2026 (Wendy): si el mensaje viene de un anuncio de clic a WhatsApp, Meta manda en
+                              // "referral" el titulo y texto del anuncio. Con eso se identifica el producto aunque el
+                              // cliente solo escriba "Quiero mas informacion"; si no se identifica, va el menu.
+                              const ref = mensaje.referral || {};
+                              const textoDet = [texto, ref.headline, ref.body].filter(Boolean).join(" \n");
+                              if (ref.headline || ref.body) console.log(`Anuncio de ${telefono}: ${String(ref.headline || ref.body).slice(0, 80)}`);
+                              const especifico = detectarProductoEspecifico(textoDet);
+                              const deteccion = detectarProductoPorPalabraClave(textoDet);
                               sesion.paso = "conversando";
                               // En el PRIMER mensaje (normalmente el texto automatico de un anuncio, ej.
                               // "Quiero mas informacion de Impresora termica") nunca saltamos directo a
@@ -3981,8 +4038,8 @@ app.post("/webhook", async (req, res) => {
                               const categoriaDelEspecifico = especifico
                                     ? (catalogo.find((p) => p.id === especifico)?.categoria || "").trim().toLowerCase()
                                     : null;
-                              const tiendaDet = detectarProductoTienda(texto);
-                              const categoriaTienda = !tiendaDet && !especifico && !deteccion ? detectarCategoriaTienda(texto) : null;
+                              const tiendaDet = detectarProductoTienda(textoDet);
+                              const categoriaTienda = !tiendaDet && !especifico && !deteccion ? detectarCategoriaTienda(textoDet) : null;
                               if (tiendaDet && tiendaDet.tipo === "producto") {
                                     // Producto de la tienda online nombrado (o link de la tienda): ficha directa.
                                     await manejarSeleccionProducto(telefono, tiendaDet.id);
@@ -4669,6 +4726,13 @@ app.listen(PUERTO, () => {
                   console.error("Error en limpieza periodica de clientes inactivos:", error.response?.data || error.message);
             });
       }, 6 * 60 * 60 * 1000);
+      // Rescate de pedidos a medias: revisa cada hora (envia solo una vez por cliente)
+      setInterval(() => {
+            rescatarPedidosAMedias().catch((error) => console.error("Error en rescate de pedidos a medias:", error.response?.data || error.message));
+      }, 60 * 60 * 1000);
+      setTimeout(() => {
+            rescatarPedidosAMedias().catch((error) => console.error("Error en rescate de pedidos a medias:", error.response?.data || error.message));
+      }, 3 * 60 * 1000);
       // Primera limpieza poco despues de arrancar (sin esperar las primeras 6 horas)
       setTimeout(() => {
             limpiarClientesInactivos().catch((error) => {
