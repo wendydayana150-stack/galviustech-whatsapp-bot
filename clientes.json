@@ -3,8 +3,8 @@
     "telefono": "573205535318",
     "nombre": "Marijas",
     "primerContacto": "2026-10-17T23:14:22.816Z",
-    "ultimoContacto": "2026-10-17T23:14:22.816Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T23:19:57.427Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-17T23:14:21.856Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTM1MzE4FQIAERgSNTVBNUYyNkVGNURBQUJBNTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-17T23:19:53.618Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 Los módems WiFi portátiles de GalviusTech son la mejor inversión para tener internet donde más lo necesitas, sin instalaciones ni contratos complicados. Conectas varios dispositivos a la vez y llevan mejor cobertura que un celular, ideales para zonas rurales, viajes o trabajo desde casa.\n\nLas opciones y precios son:\n📶 Modem WiFi Portátil 4G: **$169.900** + $26.000 de envío\n📶 Modem WiFi Portátil 4G/5G: **$189.900** + $26.000 de envío\n📶 Modem WiFi Portátil 5G: **$199.900** + $26.000 de envío\n\n✅ Pagas al recibir y tiene garantía de 30 días.\n\n¿En qué lugar lo usarías principalmente? ¿Para qué lo necesitas? Así te recomendaré el mejor modelo para ti.",
+        "fecha": "2026-10-17T23:19:56.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM1MzE4FQIAERgSQkI0ODNFMTdENDdFNTUyOEEwAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573245790254",
