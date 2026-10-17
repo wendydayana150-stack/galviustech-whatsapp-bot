@@ -830,8 +830,8 @@
     "telefono": "573168408932",
     "nombre": "robinsonarias092",
     "primerContacto": "2026-10-17T12:41:16.889Z",
-    "ultimoContacto": "2026-10-17T15:06:06.021Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-17T15:07:12.737Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -900,6 +900,18 @@
         "fecha": "2026-10-17T15:06:05.162Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NDA4OTMyFQIAERgSOEIzNURFN0REQzBBOUJGOUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muchas gracias 🙏🙏",
+        "fecha": "2026-10-17T15:07:09.724Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Comprendo, no hay problema 🙌\n\nSi en algún momento quieres volver a consultarme o necesitas conexión confiable donde estés, aquí estoy para ayudarte.\n\n¿Quieres que te muestre alguna otra opción de nuestros productos? Por ejemplo:  \n📶 *Módem WiFi*  \n🖨️ *Impresoras térmicas*  \n💡 *Lámparas solares*  \n📹 *Cámaras de seguridad*  \n🎁 *Combos*  \n\n¿Qué te gustaría conocer?",
+        "fecha": "2026-10-17T15:07:11.466Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NDA4OTMyFQIAERgSN0U5MDA0QkQ4NzNDQzYyNUY1AA=="
       }
     ],
     "paso": "conversando",
@@ -910,7 +922,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
