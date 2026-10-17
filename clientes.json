@@ -3,8 +3,8 @@
     "telefono": "573148526595",
     "nombre": "johey",
     "primerContacto": "2026-10-17T14:37:18.574Z",
-    "ultimoContacto": "2026-10-17T14:37:18.574Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T14:39:01.224Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T14:37:17.809Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSODhCOTIwNkVGODVBRDI3MUIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-10-17T14:38:58.469Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buen día, ¿en qué municipio o vereda necesitas el módem? \n\n¿Y para qué lo necesitas: estudio, trabajo, negocio o para tu casa? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-10-17T14:39:00.226Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSQzFDODU3MDUxOTBBOUFEMTcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225288181",
