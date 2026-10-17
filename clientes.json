@@ -3,8 +3,8 @@
     "telefono": "573148526595",
     "nombre": "johey",
     "primerContacto": "2026-10-17T14:37:18.574Z",
-    "ultimoContacto": "2026-10-17T14:41:41.441Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-17T14:42:42.708Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-10-17T14:41:40.472Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSQ0E0MTMwM0MxOUIwRUM2RTBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo que tener un plán moví para que funcione",
+        "fecha": "2026-10-17T14:42:39.865Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem necesita una SIM de un operador móvil para funcionar, puede ser Claro, Movistar, Tigo, WOM o ETB, dependiendo de cuál tenga mejor señal en tu zona.\n\nCuando confirmes tu pedido, te enviamos una SIM de Claro de regalo, pero esa solo es la tarjeta física. Tú decides qué plan o recarga activar según lo que necesites.\n\n¿Ya tienes algún operador en mente o quieres que te oriente con eso según la cobertura en tu vereda?",
+        "fecha": "2026-10-17T14:42:41.760Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSMzYwMUQxOTBCNTg0RTdBNTc5AA=="
       }
     ],
     "paso": "conversando",
