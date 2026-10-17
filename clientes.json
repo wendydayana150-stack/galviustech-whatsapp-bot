@@ -3,8 +3,8 @@
     "telefono": "573128813780",
     "nombre": "Libiston",
     "primerContacto": "2026-10-17T19:39:30.737Z",
-    "ultimoContacto": "2026-10-17T19:39:30.737Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T19:40:30.305Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,59 @@
         "fecha": "2026-10-17T19:39:29.393Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSMDZGMTQ2MjE3RTIxNEQzMDgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 💡 Lamparas Solares",
+        "fecha": "2026-10-17T19:40:26.246Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Lamparas Solares]",
+        "fecha": "2026-10-17T19:40:26.246Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2 - $ 160.000",
+        "fecha": "2026-10-17T19:40:26.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSRjM3NUFCNzU0RjdBNjQyQTg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Solar 2 Unidades - $ 119.900",
+        "fecha": "2026-10-17T19:40:26.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSMDQxMDU0QjMwRkU4OUMyODhCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] LAMPARA PANEL SOLAR x 3 unid. - $ 139.900",
+        "fecha": "2026-10-17T19:40:27.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSMjVFNkE2RTg5NzBFNkE0REUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades - $ 199.900",
+        "fecha": "2026-10-17T19:40:27.916Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSQjdDNzM2QkE4Mjc2QzM5N0Q3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*💡 Lamparas Solares*\n\n*Lamparas 3 lentes X 2* - $ 160.000\n*Lampara Solar 2 Unidades* - $ 119.900\n*LAMPARA PANEL SOLAR x 3 unid.* - $ 139.900\n*Lampara 3 lentes x3 unidades* - $ 199.900",
+        "fecha": "2026-10-17T19:40:28.481Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSNDVBMTkwRTZBREQ0NTNCREQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-10-17T19:40:29.024Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4ODEzNzgwFQIAERgSQjJBNkE4QkVBNTFBQ0M1RDQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -31,11 +84,14 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113256579",
