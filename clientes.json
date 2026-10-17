@@ -16808,8 +16808,8 @@
     "telefono": "573002873847",
     "nombre": "endodoncista",
     "primerContacto": "2026-10-15T23:37:50.135Z",
-    "ultimoContacto": "2026-10-17T13:38:53.989Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-17T13:39:43.843Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16891,6 +16891,25 @@
         "fecha": "2026-10-17T13:38:52.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSRkExMDZFRjAxNTlFQTEyOTJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es pago contra entrega?",
+        "fecha": "2026-10-17T13:39:40.656Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, pagas al recibir (contra entrega) y además tiene garantía de 30 días. \n\nLa impresora térmica portátil que te recomiendo cuesta *$249.900 + $26.000 de envío*, sin gastos en tinta y muy fácil de usar desde tu celular.\n\n¿Quieres que te ayude a dejar tu pedido listo? ¿Prefieres que te lo enviemos a tu casa o lo recoges en alguna oficina de transporte?",
+        "fecha": "2026-10-17T13:39:42.064Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSM0MwN0E5RjcyNEU5NjQwN0M2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-17T13:39:42.701Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSOUM0Q0MzNzRBNDA3N0E5RjNDAA=="
       }
     ],
     "paso": "conversando",
