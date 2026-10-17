@@ -4341,7 +4341,7 @@ async function mensajesCierreMedias() {
             const confianza = "✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días.";
             const def = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === c.paso);
             if (def) {
-                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Tu pedido del *${producto.nombreCorto || producto.nombre}* a ${precio} ya está casi listo 📦\n\n${urgencia}\n${confianza}\n\nPara despacharlo hoy solo me falta un dato: ${def.pregunta}` });
+                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Tu pedido del *${producto.nombreCorto || producto.nombre}* a ${precio} ya está casi listo 📦\n\n${urgencia}\n${confianza}\n\nPara despacharlo hoy solo me falta un dato: ¿${def.pregunta.replace(/^Para empezar,\s*/i, "").replace(/^¿/, "").replace(/^\w/, (l) => l.toUpperCase())}` });
             } else {
                   lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Te tengo apartado el *${producto.nombreCorto || producto.nombre}* a ${precio}.\n\n${urgencia}\n${confianza}\n\n¿Te lo envío?`, botones: [{ id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" }, { id: "ver_catalogo", titulo: "Ver otros" }] });
             }
