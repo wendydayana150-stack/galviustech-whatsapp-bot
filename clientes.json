@@ -47,8 +47,8 @@
     "telefono": "573236026727",
     "nombre": "Lili",
     "primerContacto": "2026-10-17T17:48:03.152Z",
-    "ultimoContacto": "2026-10-17T17:52:52.375Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-17T17:53:49.110Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,6 +98,18 @@
         "fecha": "2026-10-17T17:52:51.326Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MDI2NzI3FQIAERgSQ0I1QjQ5RDY3MkI3Njg5OTQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mas Tarde Te Confirmo",
+        "fecha": "2026-10-17T17:53:46.577Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, no hay problema. 😊 Quedo atenta para cuando decidas y puedas confirmarme.  \n\nMientras tanto, si tienes más preguntas o quieres saber algo más sobre el módem o algún otro producto, aquí estoy para ayudarte.  \n\n¿Quieres que te cuente algunas otras opciones que tenemos para tu hogar o negocio?",
+        "fecha": "2026-10-17T17:53:48.069Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MDI2NzI3FQIAERgSRUQ5MkNCRURCQjI5RURFNzA3AA=="
       }
     ],
     "paso": "conversando",
@@ -108,7 +120,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
