@@ -1408,6 +1408,18 @@ async function limpiarClientesAntiguos() {
       });
 }
 
+// Linea de precio para cuando el cliente lo pregunta y la IA no lo dio: del producto puntual o, si solo se sabe la
+// categoria, de las versiones de esa categoria. Siempre con el envio aparte y el pago contra entrega.
+function lineaPrecioRespaldo(productoId, enfoque) {
+      const prod = productoId ? catalogo.find((p) => p.id === productoId) : null;
+      if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)} + $26.000 de envío.\n✅ Pagas al recibir (contra entrega).`;
+      if (enfoque?.tipo === "categoria") {
+            const lista = catalogo.filter((p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === enfoque.valor && !p.agotado).slice(0, 4);
+            if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join(" · ") + " (+ $26.000 de envío).\n✅ Pagas al recibir (contra entrega).";
+      }
+      return null;
+}
+
 async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
       sesion.historial.push({ role: "user", content: mensajeCliente });
       if (sesion.historial.length > 16) {
@@ -3365,7 +3377,14 @@ async function manejarTextoLibre(telefono, texto) {
             let seLeRespondioAlgo = false;
 
             if (mensajeVisible) {
-                  await enviarTexto(telefono, mensajeVisible);
+                  // RESPALDO DE PRECIO (oct-2026, Wendy): si el cliente pregunto el precio y la IA respondio
+                  // sin dar ninguno (caso real: "Que precio lo tienes" -> solo caracteristicas), se agrega.
+                  let visible = mensajeVisible;
+                  if (/\b(precio|cu[aá]nto|valor|costo|vale|cuesta|sale)\b/i.test(texto) && !/\$\s?\d/.test(visible)) {
+                        const linea = lineaPrecioRespaldo(productoActual || idProductoEnfocado, enfoqueProducto);
+                        if (linea) visible += "\n\n" + linea;
+                  }
+                  await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
 
                   // RECORDATORIO PARA DATOS PROMETIDOS EN CONVERSACION LIBRE (caso real sep-2026,
