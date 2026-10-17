@@ -47,8 +47,8 @@
     "telefono": "573136551043",
     "nombre": "lopesales66",
     "primerContacto": "2026-10-17T10:35:23.064Z",
-    "ultimoContacto": "2026-10-17T10:55:25.502Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-17T10:55:39.115Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,9 +221,21 @@
         "fecha": "2026-10-17T10:55:24.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSQTZBQkFCRkE1MDA3NjIwQTlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Condoto",
+        "fecha": "2026-10-17T10:55:37.965Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-17T10:55:37.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSMDc1QTgwNUVFNTdGODQyNjY1AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -231,7 +243,8 @@
       "telefono": "573136551043",
       "nombreCliente": "Alexander",
       "celular": "3136551043",
-      "departamento": "Choco"
+      "departamento": "Choco",
+      "ciudad": "Condoto"
     },
     "pausado": false,
     "etapaManual": null,
