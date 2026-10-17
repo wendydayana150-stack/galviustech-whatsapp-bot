@@ -3,8 +3,8 @@
     "telefono": "573113256579",
     "nombre": "Gloris Cruz",
     "primerContacto": "2026-10-17T19:35:13.846Z",
-    "ultimoContacto": "2026-10-17T19:35:13.846Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T19:35:59.400Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T19:35:12.999Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMjU2NTc5FQIAERgSRjczMjVDNTA3MEYwRkNDQjlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tarde y que precio tiene",
+        "fecha": "2026-10-17T19:35:55.850Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\n🔥 Los módems portátiles GALVIUSTECH te permiten tener internet donde lo necesites, conectando varios dispositivos y son muy fáciles de llevar contigo.\n\nLas opciones son:\n📶 *Modem WiFi Portátil 4G* por **$169.900 + $26.000 de envío**  \n📶 *Modem WiFi Portátil 4G/5G* por **$189.900 + $26.000 de envío** (lo más recomendado si no tienes claro qué cobertura 5G hay)  \n📶 *Modem WiFi Portátil 5G* por **$199.900 + $26.000 de envío**\n\n✅ Pagas al recibir y tienes garantía de 30 días.\n\n¿Me puedes contar en qué municipio o vereda lo vas a usar para recomendarte el más indicado?",
+        "fecha": "2026-10-17T19:35:58.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMjU2NTc5FQIAERgSMTRDNDI5RkJDQzg2M0RDMkRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132727380",
