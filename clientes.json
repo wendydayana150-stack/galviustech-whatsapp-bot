@@ -3,8 +3,8 @@
     "telefono": "573216581814",
     "nombre": "T",
     "primerContacto": "2026-10-17T16:53:59.457Z",
-    "ultimoContacto": "2026-10-17T16:53:59.457Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T16:55:06.051Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T16:53:58.591Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NTgxODE0FQIAERgSNDlBNDQ0OEY2NDAxMjE2MzA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola \nEs para una comunidad que dista 10 kms de Riohacha la guajira",
+        "fecha": "2026-10-17T16:55:02.121Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por el dato 🙌\n\nPara una comunidad así, que está algo alejada, lo ideal es un módem con buena cobertura y que sirva tanto para 4G como para 5G en caso que haya señal. Te recomiendo las 3 opciones de módem que tenemos:\n\n📶 *Modem WiFi Portatil 4G* - inversión de **$169.900 + $26.000 de envío**  \n🚀 Perfecto para zonas rurales con señal 4G, conecta hasta 10 dispositivos, batería hasta 14 horas.\n\n📶 *Modem WiFi Portatil 4G/5G* - inversión de **$189.900 + $26.000 de envío**  \n🚀 La opción más segura porque funciona tanto en 4G como 5G, ideal si en la zona ya hay 5G o llegará pronto.\n\n📶 *Modem WiFi Portatil 5G* - inversión de **$199.900 + $26.000 de envío**  \n🚀 Para la máxima velocidad si tu zona tiene buena cobertura 5G, también con batería duradera y fácil uso.\n\nTodos son portátiles, con antena potente que garantiza mejor señal que un celular común, y conectas múltiples dispositivos a la vez.\n\n¿Para qué la usarían principalmente en la comunidad? ¿Trabajo, estudio, o algo más? Así te ayudo a decidir cuál te conviene más.",
+        "fecha": "2026-10-17T16:55:04.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NTgxODE0FQIAERgSRUU3QkMzQTBENzU0OUYyQkJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207037619",
