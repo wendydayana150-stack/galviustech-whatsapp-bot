@@ -3,8 +3,8 @@
     "telefono": "573124343567",
     "nombre": "sotosain89",
     "primerContacto": "2026-10-17T23:39:49.588Z",
-    "ultimoContacto": "2026-10-17T23:39:49.588Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T23:42:14.347Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T23:39:48.775Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MzQzNTY3FQIAERgSNEI1RTU4Q0I0MUYxOUNDMkMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve en cualquier lugar sin señal",
+        "fecha": "2026-10-17T23:42:11.499Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), el módem no funcionará porque necesita una SIM con señal móvil para dar internet.\n\nPero te cuento: la antena del módem es más potente que la de un celular y puede captar señal donde tu celular no la tiene o dice “sin servicio”. Dime, ¿has comprobado directamente que no hay señal ni siquiera débil en ese lugar?\n\nAsí te oriento mejor y no pierdes tiempo con algo que no te serviría. ¿Cuál es el municipio o la vereda donde lo quieres usar?",
+        "fecha": "2026-10-17T23:42:13.382Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MzQzNTY3FQIAERgSNTM2OUIwRDkzOEQyNDQ0NUY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205535318",
