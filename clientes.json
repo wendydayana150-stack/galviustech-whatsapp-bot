@@ -717,8 +717,8 @@
     "telefono": "573156990210",
     "nombre": "holmesconde1906@gmail",
     "primerContacto": "2026-10-17T04:00:39.672Z",
-    "ultimoContacto": "2026-10-17T04:00:39.672Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T11:05:10.949Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -737,6 +737,25 @@
         "fecha": "2026-10-17T04:00:38.471Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2OTkwMjEwFQIAERgSNUFEQ0E1OEM4M0I1M0FFRDVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T11:02:54.727Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2OTkwMjEwFQIAERgSRDMwNTcyNkQ5NjNBMkIyNTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-10-17T11:05:08.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy? ¿Buscas algo para conectarte a internet o tal vez impresoras, lámparas o cámaras? Cuéntame un poco más para recomendarte justo lo que necesitas 😊 ¿Dónde necesitas usar el equipo?",
+        "fecha": "2026-10-17T11:05:09.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2OTkwMjEwFQIAERgSRjU5MEM2RDVGNzg1NTExOTNGAA=="
       }
     ],
     "paso": "conversando",
@@ -750,8 +769,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
