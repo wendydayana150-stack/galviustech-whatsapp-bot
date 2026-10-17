@@ -3,8 +3,8 @@
     "telefono": "573192262207",
     "nombre": "rosmeryperezarteaga",
     "primerContacto": "2026-10-17T13:26:22.356Z",
-    "ultimoContacto": "2026-10-17T13:26:22.356Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T13:27:11.105Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T13:26:21.459Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTkyMjYyMjA3FQIAERgSRDc4QjREQjEyRUY5NUVDMDM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-17T13:27:07.551Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\n🔥 Nuestros módems ofrecen internet propio donde no llega la fibra óptica, conectan varios dispositivos y son súper fáciles de llevar a cualquier lugar.\n\nLas opciones son estas:\n\n📶 Modem WiFi Portatil 4G - inversión de **$169.900 + $26.000 de envío**  \n🚀 Modem WiFi Portatil 4G/5G - inversión de **$189.900 + $26.000 de envío** (recomendado para la mayoría, funciona donde haya 4G o 5G)  \n⚡ Modem WiFi Portatil 5G - inversión de **$199.900 + $26.000 de envío** (para zonas con buena cobertura 5G)\n\n✅ Pagas al recibir y tienes garantía de 30 días.  \n\n¿Me cuentas en qué municipio o vereda lo usarías para recomendarte la mejor opción según tu zona?",
+        "fecha": "2026-10-17T13:27:10.109Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTkyMjYyMjA3FQIAERgSQTdBMEZDODEyRjBBNDAwRjc0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573227133069",
