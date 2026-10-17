@@ -3,8 +3,8 @@
     "telefono": "CO.1074110405501293",
     "nombre": "AndreaMeneses",
     "primerContacto": "2026-10-17T15:24:45.564Z",
-    "ultimoContacto": "2026-10-17T15:24:45.564Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T15:27:06.234Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T15:24:43.281Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA3NDExMDQwNTUwMTI5MxUUABEYEjY1QkVGNjBFMkE1MzhGREUxQgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Restrepo valle",
+        "fecha": "2026-10-17T15:27:02.133Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que estás en Restrepo, Valle. Ahora dime, ¿el módem lo necesitas más para estudiar, trabajar, para tu negocio o para tener internet en casa?\n\nTe recuerdo que nuestros módems son especialmente diseñados para darte mejor cobertura que un celular común, ideal para zonas como la tuya donde tal vez no hay fibra óptica.\n\nMientras me cuentas, te adelanto que tenemos 3 versiones para que elijas la que más te conviene según velocidad y presupuesto:\n\n📶 **Modem WiFi Portátil 4G**: conexión estable en 4G, conecta hasta 10 dispositivos, fácil de usar y transportar. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 **Modem WiFi Portátil 4G/5G**: funciona en 4G y 5G, perfecto para donde haya señal 5G, más velocidad y la misma facilidad. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 **Modem WiFi Portátil 5G**: conecta solo en 5G para máxima velocidad donde haya cobertura. La inversión es de **$199.900 + $26.000 de envío**.\n\n¿Me cuentas un poco para qué lo usarás? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-17T15:27:05.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA3NDExMDQwNTUwMTI5MxUUABEYEjRCQTI2QTlERjVBQzc5RDUxMAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573127200208",
