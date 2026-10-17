@@ -16808,8 +16808,8 @@
     "telefono": "573002873847",
     "nombre": "endodoncista",
     "primerContacto": "2026-10-15T23:37:50.135Z",
-    "ultimoContacto": "2026-10-16T00:49:21.601Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-17T13:38:53.989Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16872,6 +16872,25 @@
         "fecha": "2026-10-16T00:49:20.748Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSMTVDRDQwQTgyMTU1REE5Mjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola endodoncista, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-10-17T13:23:53.911Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSMDRDODkwN0VBMkE5ODQwQTk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-17T13:38:51.061Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Para que te llegue rápido, ¿me ayudas con la ciudad o municipio donde quieres que te enviemos la impresora? Así te confirmo la cobertura y envío. ¿Y para qué la usarías principalmente?",
+        "fecha": "2026-10-17T13:38:52.631Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyODczODQ3FQIAERgSRkExMDZFRjAxNTlFQTEyOTJBAA=="
       }
     ],
     "paso": "conversando",
@@ -16885,8 +16904,7 @@
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "promoDiariaFecha": "2026-10-17"
+      "seguimientosEnviados": 0
     }
   },
   {
