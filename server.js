@@ -49,6 +49,7 @@ const ETAPAS = [
       { id: "Contacto inicial", emoji: "🔵" },
       { id: "Interaccion con IA", emoji: "🤖" },
       { id: "Cliente potencial", emoji: "🚩" },
+      { id: "Pedido a medias", emoji: "🛒" },
       { id: "Datos completados", emoji: "✅" },
       { id: "No automatizado", emoji: "🔴" },
       { id: "Remarketing", emoji: "🔥" },
@@ -498,7 +499,7 @@ function categoriasDisponibles() {
 }
 
 const MENSAJE_BIENVENIDA_MODEM =
-      "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
+      "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
 
 async function enviarInfoCategoria(telefono, categoria) {
       const sesion = obtenerSesion(telefono);
@@ -510,7 +511,7 @@ async function enviarInfoCategoria(telefono, categoria) {
             registrarMensaje(telefono, "bot", "[Pregunta para que necesita la impresora]");
             await enviarTexto(
                   telefono,
-                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la que de verdad te sirve, cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta"
+                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la que de verdad te sirve, cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta\n\n✅ Pagas al recibir (contra entrega) y todas tienen garantía."
             );
             return;
       }
@@ -1327,7 +1328,12 @@ function calcularEtapa(cliente, telefonosConPedido) {
       if (cliente.pausado) return "No automatizado";
       if (telefonosConPedido.has(cliente.telefono)) return "Datos completados";
       const paso = cliente.paso || "inicio";
-      if (paso.startsWith("pedido_") || paso === "esperando_confirmacion_envio") return "Cliente potencial";
+      // Pedido a medias (oct-2026, Wendy): ya empezo a dar sus datos (o ya los dio en parte) pero el pedido
+      // no se completo. Columna propia para tenerlos a la vista y rescatarlos.
+      const datosPedido = ["nombreCliente", "celular", "departamento", "ciudad", "direccion", "barrio", "medioPago"];
+      if (paso.startsWith("pedido_") || paso === "esperando_confirmacion_envio" || datosPedido.some((k) => cliente.pedido?.[k])) return "Pedido a medias";
+      // Ya eligio un producto para pedir, pero no ha empezado a dar sus datos
+      if (paso === "confirmar_producto" || cliente.pedido?.productoId) return "Cliente potencial";
       if (paso === "conversando" && (cliente.mensajes || 1) > 1) return "Interaccion con IA";
       return "Contacto inicial";
 }
