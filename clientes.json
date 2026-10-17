@@ -3,8 +3,8 @@
     "telefono": "573132751158",
     "nombre": "sepulvedayesid945@gmail.C",
     "primerContacto": "2026-10-17T06:58:22.756Z",
-    "ultimoContacto": "2026-10-17T10:28:05.054Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-17T10:28:23.139Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -283,9 +283,21 @@
         "fecha": "2026-10-17T10:28:04.295Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSNTA1NUNBN0E1MUUzQjUzRjQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Villavicencio",
+        "fecha": "2026-10-17T10:28:22.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-17T10:28:22.133Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSRDYwMTEyNzdGRjI5MDQ3NkFCAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
@@ -294,7 +306,8 @@
       "medioPago": "Sistecrédito",
       "nombreCliente": "José yecid Sepúlveda martinez",
       "celular": "3132751158",
-      "departamento": "Meta"
+      "departamento": "Meta",
+      "ciudad": "Villavicencio"
     },
     "pausado": false,
     "etapaManual": null,
