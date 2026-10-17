@@ -1689,7 +1689,7 @@ async function enviarRecordatoriosPendientes() {
 }
 
 // Limpieza automatica de clientes inactivos (a pedido de Wendy, 28-sep-2026): borra por completo
-// de clientes.json a los clientes cuyo ULTIMO mensaje tiene mas de 4 dias, para no dejar crecer el
+// de clientes.json a los clientes cuyo ULTIMO mensaje tiene mas de 3 dias (antes 4; Wendy pidio 3 el 16-oct-2026), para no dejar crecer el
 // archivo indefinidamente con conversaciones viejas que ya no sirven.
 //
 // Se saltan (NO se borran, sin importar cuantos dias lleven inactivos) tres casos, para no perder
@@ -1712,12 +1712,12 @@ async function limpiarClientesInactivos() {
       try {
             await conColaDeArchivo(CLIENTES_API, async () => {
                   const { datos, sha } = await leerJSON(CLIENTES_API);
-                  const CUATRO_DIAS_MS = 4 * 24 * 60 * 60 * 1000;
+                  const TRES_DIAS_MS = 3 * 24 * 60 * 60 * 1000;
 
                   const clientesAConservar = datos.filter((c) => {
                         // Sin fecha de ultimo contacto: no deberia pasar, pero por seguridad no lo tocamos.
                         if (!c.ultimoContacto) return true;
-                        const inactivo = ahora - new Date(c.ultimoContacto).getTime() > CUATRO_DIAS_MS;
+                        const inactivo = ahora - new Date(c.ultimoContacto).getTime() > TRES_DIAS_MS;
                         if (!inactivo) return true;
                         if (c.pausado || c.necesitaAtencion) return true;
                         if (c.pedido && Object.keys(c.pedido).length > 0) return true;
@@ -1726,13 +1726,15 @@ async function limpiarClientesInactivos() {
 
                   const totalBorrados = datos.length - clientesAConservar.length;
                   if (totalBorrados > 0) {
+                        const conservados = new Set(clientesAConservar.map((c) => c.telefono));
+                        for (const c of datos) if (!conservados.has(c.telefono)) delete sesiones[c.telefono];
                         await guardarJSON(
                               CLIENTES_API,
                               clientesAConservar,
                               sha,
-                              `Limpieza automatica: ${totalBorrados} cliente(s) inactivo(s) 4+ dias eliminado(s)`
+                              `Limpieza automatica: ${totalBorrados} cliente(s) inactivo(s) 3+ dias eliminado(s)`
                               );
-                        console.log(`Limpieza automatica de clientes: ${totalBorrados} eliminado(s) (inactivos 4+ dias).`);
+                        console.log(`Limpieza automatica de clientes: ${totalBorrados} eliminado(s) (inactivos 3+ dias).`);
                   }
             });
       } catch (error) {
@@ -4661,6 +4663,12 @@ app.listen(PUERTO, () => {
                   console.error("Error en limpieza periodica de clientes inactivos:", error.response?.data || error.message);
             });
       }, 6 * 60 * 60 * 1000);
+      // Primera limpieza poco despues de arrancar (sin esperar las primeras 6 horas)
+      setTimeout(() => {
+            limpiarClientesInactivos().catch((error) => {
+                  console.error("Error en limpieza inicial de clientes inactivos:", error.response?.data || error.message);
+            });
+      }, 2 * 60 * 1000);
 });
 
 
