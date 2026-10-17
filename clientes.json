@@ -106,8 +106,8 @@
     "telefono": "573177261611",
     "nombre": "K-zulev",
     "primerContacto": "2026-10-17T12:36:08.329Z",
-    "ultimoContacto": "2026-10-17T12:54:42.323Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-17T12:55:43.417Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -157,13 +157,25 @@
         "fecha": "2026-10-17T12:54:41.244Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc3MjYxNjExFQIAERgSMERDRDIxOTcxNEFDNUVEQjNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresoras termicas",
+        "fecha": "2026-10-17T12:55:40.735Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Soy Michell de GalviusTech 😊\n\nPara recomendarte la impresora térmica ideal, dime por favor ¿qué tipo de documentos vas a imprimir? ¿Recibos/Facturas, etiquetas o trabajos y documentos tamaño carta? Así te asesoro mejor para que tengas la mejor opción que se adapte a ti. ¿Me cuentas?",
+        "fecha": "2026-10-17T12:55:42.263Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc3MjYxNjExFQIAERgSQjlBNjY1Rjc4QjA3RThFQjdFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
