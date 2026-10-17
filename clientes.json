@@ -11557,8 +11557,8 @@
     "telefono": "573144382006",
     "nombre": "Amor",
     "primerContacto": "2026-10-16T16:29:12.715Z",
-    "ultimoContacto": "2026-10-16T21:03:51.721Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-17T13:56:11.795Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11692,6 +11692,27 @@
         "fecha": "2026-10-16T21:03:50.879Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSOUIwQzQ1QkMzRUM0MjgwOUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: En que departamento vives?",
+        "fecha": "2026-10-17T11:03:28.904Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSNjNGMEYzNzAwMEUzODFBRDdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nEn que departamento vives?",
+        "fecha": "2026-10-17T11:13:29.928Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSNTQ0NDdBOUQ5OTk2QTA5NzQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenos dias, quedamos a medias del pedido, confirmame ciudad y departamento para finalizar y realizar el envio hoy",
+        "fecha": "2026-10-17T13:56:10.683Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyMDA2FQIAERgSRkU1RTU4MUQ1MzU2MEEzQTlCAA=="
       }
     ],
     "paso": "pedido_departamento",
@@ -11703,7 +11724,7 @@
       "nombreCliente": "Kelly Johana Garzón cardoso",
       "celular": "3144382006"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": null,
@@ -11712,9 +11733,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
