@@ -492,8 +492,8 @@
     "telefono": "573118856379",
     "nombre": "IsaacSamirsamuelsandra",
     "primerContacto": "2026-10-17T21:47:38.330Z",
-    "ultimoContacto": "2026-10-17T22:26:30.560Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-17T23:55:42.344Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -550,6 +550,25 @@
         "fecha": "2026-10-17T22:26:29.528Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4ODU2Mzc5FQIAERgSQzlGNUVFRTY0QzczNkMxQkIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T23:32:58.089Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4ODU2Mzc5FQIAERgSNTIyMEFEODc0OTY1RTc0QjAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias por la información",
+        "fecha": "2026-10-17T23:55:40.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, me alegra ayudarte 😊\n\n¿Quieres que te ayude a dejar tu pedido listo para que te enviemos el módem a tu dirección en Sardinata? Así comienzas a disfrutar de internet sin depender de otros.\n\n¿Prefieres el modelo 4G, 4G/5G o 5G?",
+        "fecha": "2026-10-17T23:55:41.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4ODU2Mzc5FQIAERgSQTY4QjBEQUQ1RUQxRDZFRDM0AA=="
       }
     ],
     "paso": "conversando",
@@ -563,8 +582,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
