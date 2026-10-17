@@ -498,10 +498,11 @@ function categoriasDisponibles() {
       return lista;
 }
 
+const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
 const MENSAJE_BIENVENIDA_MODEM =
       "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
 
-async function enviarInfoCategoria(telefono, categoria) {
+async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       const sesion = obtenerSesion(telefono);
       // Impresoras (oct-2026, a pedido de Wendy): hay de todos los tamaños para negocio y para
       // estudio. Antes de mostrar alguna se pregunta para que la necesita, destacando los beneficios.
@@ -524,9 +525,18 @@ async function enviarInfoCategoria(telefono, categoria) {
             const delModem = catalogo.filter((p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === "modem");
             const destacado = delModem.find((p) => p.id === info.variantePorDefecto) || delModem[0];
             if (destacado?.imagenes?.[0]) await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
-            await enviarTexto(telefono, MENSAJE_BIENVENIDA_MODEM);
+            // Oct-2026 (Wendy, estudio de 185 chats: 42 se iban tras una bienvenida sin precio): si el cliente
+            // llego preguntando el precio, la bienvenida trae los precios + envio y UNA sola pregunta.
+            const disponibles = delModem.filter((p) => !p.agotado).sort((a, b) => a.precio - b.precio);
+            const bienvenida = opciones.preguntaPrecio && disponibles.length
+                  ? "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n" +
+                    "💰 Precios (+ $26.000 de envío):\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
+                    "\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n" +
+                    "📍 ¿En qué municipio o vereda lo vas a usar? Así te digo cuál te funciona mejor."
+                  : MENSAJE_BIENVENIDA_MODEM;
+            await enviarTexto(telefono, bienvenida);
             // Queda en el historial de la IA para que no la repita y entienda la respuesta del cliente
-            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: MENSAJE_BIENVENIDA_MODEM });
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: bienvenida });
             return;
       }
       const productos = catalogo.filter(
@@ -4067,11 +4077,11 @@ app.post("/webhook", async (req, res) => {
                               } else if (categoriaTienda) {
                                     await enviarGrupoTienda(telefono, categoriaTienda);
                               } else if (categoriaDelEspecifico) {
-                                    await enviarInfoCategoria(telefono, categoriaDelEspecifico);
+                                    await enviarInfoCategoria(telefono, categoriaDelEspecifico, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
                               } else if (especifico) {
                                     await manejarSeleccionProducto(telefono, especifico);
                               } else if (deteccion) {
-                                    await enviarInfoCategoria(telefono, deteccion);
+                                    await enviarInfoCategoria(telefono, deteccion, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
                               } else {
                                     await manejarSaludo(telefono, nombreCliente);
                               }
