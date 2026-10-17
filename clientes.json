@@ -32837,8 +32837,8 @@
     "telefono": "573241175794",
     "nombre": "Michi",
     "primerContacto": "2026-10-14T23:47:25.756Z",
-    "ultimoContacto": "2026-10-14T23:47:25.756Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T14:55:58.471Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -32858,6 +32858,31 @@
         "fecha": "2026-10-14T23:47:25.074Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQxMTc1Nzk0FQIAERgSRDA5MDIzNDNGMzAxQTI1MzMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-10-17T14:55:56.531Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-17T14:55:56.531Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-17T14:55:56.531Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQxMTc1Nzk0FQIAERgSRUYzQkQ3RjI2REZGNjQ4QTA3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-17T14:55:57.282Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQxMTc1Nzk0FQIAERgSQUI1Q0QxNTM4NTg4MEM5MTU1AA=="
       }
     ],
     "paso": "conversando",
@@ -32865,15 +32890,13 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
