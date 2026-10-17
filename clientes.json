@@ -3,8 +3,8 @@
     "telefono": "573132751158",
     "nombre": "sepulvedayesid945@gmail.C",
     "primerContacto": "2026-10-17T06:58:22.756Z",
-    "ultimoContacto": "2026-10-17T10:28:23.139Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-17T10:29:10.912Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -295,9 +295,21 @@
         "fecha": "2026-10-17T10:28:22.133Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSRDYwMTEyNzdGRjI5MDQ3NkFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Manzana 5 casa 9 barrio rincón de las Marías",
+        "fecha": "2026-10-17T10:29:09.960Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-17T10:29:09.960Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSRDZCQTFBQzIzMTVGQzQ1RkEzAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
@@ -307,7 +319,8 @@
       "nombreCliente": "José yecid Sepúlveda martinez",
       "celular": "3132751158",
       "departamento": "Meta",
-      "ciudad": "Villavicencio"
+      "ciudad": "Villavicencio",
+      "direccion": "Manzana 5 casa 9 barrio rincón de las Marías"
     },
     "pausado": false,
     "etapaManual": null,
