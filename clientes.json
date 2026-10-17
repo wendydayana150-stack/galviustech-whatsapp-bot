@@ -3717,8 +3717,8 @@
     "telefono": "573019134021",
     "nombre": "Yhon Edison Munera",
     "primerContacto": "2026-10-17T00:05:16.070Z",
-    "ultimoContacto": "2026-10-17T16:31:19.436Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-17T17:45:49.238Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3922,6 +3922,25 @@
         "fecha": "2026-10-17T16:31:18.364Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSQ0Y1MjNDRTY3ODkxNDNGQzhFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T17:39:27.450Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSRkQyQUU1MTA1QTY0MzU3MjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En estos días hablamos no tengo dinero pero yo te digo cuando lo tenga paq agamos el envío",
+        "fecha": "2026-10-17T17:45:45.155Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo perfectamente. Quedo atenta para cuando estés listo para avanzar, sin apuros ni presiones.\n\nCuando quieras retomar, aquí estaré para ayudarte a tener tu internet donde lo necesites.\n\n¿Quieres que te muestre otra cosa mientras tanto o prefieres que hablemos más adelante?",
+        "fecha": "2026-10-17T17:45:48.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTM0MDIxFQIAERgSMTBCNTJEQTE3QjNBREVEOUY3AA=="
       }
     ],
     "paso": "conversando",
@@ -3932,11 +3951,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
