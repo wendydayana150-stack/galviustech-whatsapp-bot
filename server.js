@@ -4317,6 +4317,80 @@ app.post("/admin/responder-sin-numero", requiereLogin, async (req, res) => {
       res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Listo</h2><ul>${resultado.map((r) => `<li>${r}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
 });
 
+// CIERRE DE PEDIDOS A MEDIAS (oct-2026, Wendy): mensaje personalizado para cerrar la venta a quien quedo con el
+// pedido a medias y aun esta dentro de las 24 h de WhatsApp (los de mas de 24 h reciben la plantilla de rescate).
+// Recuerda el precio con descuento, que son unidades limitadas, que paga al recibir y pide solo lo que falta.
+async function mensajesCierreMedias() {
+      const { datos } = await leerJSON(CLIENTES_API);
+      const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+      const conPedido = new Set(pedidos.map((p) => p.telefono));
+      const lista = [];
+      for (const c of datos) {
+            const sesionViva = sesiones[c.telefono];
+            if (c.pausado || sesionViva?.pausado || c.necesitaAtencion || conPedido.has(c.telefono)) continue;
+            if (!esPedidoAMedias(c) || c.recordatorios?.cierreMedias) continue;
+            const ultimoCliente = [...(c.conversacion || [])].reverse().find((m) => m.rol === "cliente");
+            const horas = ultimoCliente ? (Date.now() - new Date(ultimoCliente.fecha).getTime()) / 3600000 : 999;
+            if (horas > 23) continue; // fuera de la ventana de 24 h: solo se permite plantilla
+            const producto = catalogo.find((p) => p.id === (c.pedido?.productoId || c.ultimoProducto));
+            if (!producto) continue;
+            const nombre = String(c.pedido?.nombreCliente || c.nombre || "").replace(/[^\p{L}\s]/gu, " ").trim().split(/\s+/)[0] || "";
+            const saludo = `¡Hola${nombre ? " " + nombre : ""}! 😊`;
+            const precio = `*${formatearPrecio(producto.precio)}* + $26.000 de envío`;
+            const urgencia = "🔥 Es precio de promoción con descuento y quedan pocas unidades: cuando se agoten, el precio vuelve a subir.";
+            const confianza = "✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días.";
+            const def = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === c.paso);
+            if (def) {
+                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Tu pedido del *${producto.nombreCorto || producto.nombre}* a ${precio} ya está casi listo 📦\n\n${urgencia}\n${confianza}\n\nPara despacharlo hoy solo me falta un dato: ${def.pregunta}` });
+            } else {
+                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Te tengo apartado el *${producto.nombreCorto || producto.nombre}* a ${precio}.\n\n${urgencia}\n${confianza}\n\n¿Te lo envío?`, botones: [{ id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" }, { id: "ver_catalogo", titulo: "Ver otros" }] });
+            }
+      }
+      return lista;
+}
+
+app.get("/admin/cierre-medias", requiereLogin, async (req, res) => {
+      try {
+            const lista = await mensajesCierreMedias();
+            const esc = (t) => String(t || "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+            const filas = lista.map((m) => `<li style="margin-bottom:14px"><b>${esc(m.nombre)}</b> (${esc(m.telefono)})<pre style="white-space:pre-wrap;background:#f3f3f3;padding:8px">${esc(m.texto)}${m.botones ? "\n[" + m.botones.map((b) => b.titulo).join(" | ") + "]" : ""}</pre></li>`).join("");
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:760px"><h2>Cerrar pedidos a medias (${lista.length})</h2><p>Clientes con pedido a medias que todavia estan dentro de las 24 horas de WhatsApp. Cada uno recibe UNA vez este mensaje; el bot sigue activo para tomar el pedido.</p><ol>${filas || "<li>No hay pedidos a medias dentro de las 24 horas.</li>"}</ol>${lista.length ? `<form method="post"><button style="padding:10px 18px;font-size:16px">Enviar los ${lista.length} mensajes</button></form>` : ""}<p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error preparando cierre de pedidos a medias:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error preparando los mensajes.");
+      }
+});
+
+app.post("/admin/cierre-medias", requiereLogin, async (req, res) => {
+      try {
+            const lista = await mensajesCierreMedias();
+            const enviados = [];
+            for (const m of lista) {
+                  try {
+                        await cargarSesionSiNueva(m.telefono);
+                        if (m.botones) await enviarBotones(m.telefono, m.texto, m.botones);
+                        else await enviarTexto(m.telefono, m.texto);
+                        await guardarCliente(m.telefono);
+                        enviados.push(m);
+                  } catch (e) {
+                        console.error(`Error enviando cierre a ${m.telefono}:`, e.response?.data || e.message);
+                  }
+            }
+            if (enviados.length) {
+                  await conColaDeArchivo(CLIENTES_API, async () => {
+                        const { datos, sha } = await leerJSON(CLIENTES_API);
+                        const tels = new Set(enviados.map((m) => m.telefono));
+                        for (const c of datos) if (tels.has(c.telefono)) c.recordatorios = { ...(c.recordatorios || {}), cierreMedias: true };
+                        await guardarJSON(CLIENTES_API, datos, sha, `Cierre de ${enviados.length} pedido(s) a medias`);
+                  });
+            }
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Mensajes enviados: ${enviados.length} de ${lista.length}</h2><ul>${enviados.map((m) => `<li>${m.nombre || m.telefono}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error enviando cierre de pedidos a medias:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error enviando los mensajes.");
+      }
+});
+
 app.get("/admin/reactivar-fallos-ia", requiereLogin, (req, res) => {
       res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:700px">
       <h2>Reactivar chats que fallaron</h2>
