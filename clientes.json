@@ -918,8 +918,8 @@
     "telefono": "573132751158",
     "nombre": "sepulvedayesid945@gmail.C",
     "primerContacto": "2026-10-17T06:58:22.756Z",
-    "ultimoContacto": "2026-10-17T10:31:46.621Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-17T13:17:30.887Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1274,16 +1274,23 @@
         "fecha": "2026-10-17T10:31:45.779Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSNkFGNDg0NDlERDlFOTdCMzA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola",
+        "fecha": "2026-10-17T13:17:29.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSODYxN0FERTA4NkRGNzFCRTg5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: 86045168 · Valor: $ 225.900 (con envío) · Producto: Modem WiFi Portatil 5G",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
