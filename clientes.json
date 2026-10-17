@@ -830,8 +830,8 @@
     "telefono": "573168408932",
     "nombre": "robinsonarias092",
     "primerContacto": "2026-10-17T12:41:16.889Z",
-    "ultimoContacto": "2026-10-17T12:41:16.889Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T15:02:48.863Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -857,21 +857,32 @@
         "fecha": "2026-10-17T12:41:15.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NDA4OTMyFQIAERgSMzc5NUZBM0RGNjhGQjM4Qjk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola, leyendo la información, aquí no sirve,x que aquí ningún operador de celular coje muchas gracias 🙏🙏",
+        "fecha": "2026-10-17T15:02:46.162Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme con sinceridad. Si no hay señal de ningún operador de celular en tu zona, el módem no te va a servir porque necesita una SIM activa para funcionar.\n\nPero dime, ¿seguro que en el lugar exacto donde quieres usarlo no hay ni siquiera señal intermitente? A veces la antena del módem capta mejor que un celular común, puede captar señal débil donde el celular no.\n\nMe cuentas para ver si te puedo ayudar a explorar alguna opción viable. ¿En qué municipio o vereda estás?",
+        "fecha": "2026-10-17T15:02:47.656Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NDA4OTMyFQIAERgSRkYyMzI2MzMxRUE0MTQ3MjlEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
