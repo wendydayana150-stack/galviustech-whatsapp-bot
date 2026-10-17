@@ -3,8 +3,8 @@
     "telefono": "573160910171",
     "nombre": "adeiny",
     "primerContacto": "2026-10-17T13:27:15.805Z",
-    "ultimoContacto": "2026-10-17T13:27:15.805Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T13:29:20.941Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-17T13:27:14.525Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwOTEwMTcxFQIAERgSNThBMEU0NThDMzBEMUY2ODZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "me regala información de compra funciona",
+        "fecha": "2026-10-17T13:29:17.157Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊\n\nLos módems WiFi portátiles 4G, 4G/5G y 5G de GalviusTech funcionan convirtiendo la señal móvil en WiFi para que conectes varios dispositivos donde estés, incluso en fincas, veredas o lugares sin fibra óptica. Son fáciles de usar, se llevan a cualquier lado y no tienes que hacer instalaciones complicadas.\n\nTenemos estas opciones con sus inversiones (precio + $26.000 de envío):\n\n📶 Módem WiFi Portátil 4G: $169.900  \n📶 Módem WiFi Portátil 4G/5G: $189.900 (recomendado para mayor cobertura)  \n📶 Módem WiFi Portátil 5G: $199.900 (si tienes buena señal 5G en tu zona)\n\n✅ Pagas al recibir, garantía de 30 días y soporte de GalviusTech.\n\nDime, ¿en qué municipio o vereda lo usarías principalmente? Así te ayudo a elegir la versión que te conviene más.",
+        "fecha": "2026-10-17T13:29:19.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwOTEwMTcxFQIAERgSQjA0NERCRDE2ODE2RTU0Q0U0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573192262207",
