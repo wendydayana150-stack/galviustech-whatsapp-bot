@@ -3,8 +3,8 @@
     "telefono": "573132751158",
     "nombre": "sepulvedayesid945@gmail.C",
     "primerContacto": "2026-10-17T06:58:22.756Z",
-    "ultimoContacto": "2026-10-17T10:29:10.912Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-17T10:31:07.011Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -307,9 +307,21 @@
         "fecha": "2026-10-17T10:29:09.960Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSRDZCQTFBQzIzMTVGQzQ1RkEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio rincón de las Marías",
+        "fecha": "2026-10-17T10:31:06.147Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-10-17T10:31:06.148Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNzUxMTU4FQIAERgSRjEwNDgyOUY4QzY5Njc1QUJFAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_cedula",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
@@ -320,7 +332,8 @@
       "celular": "3132751158",
       "departamento": "Meta",
       "ciudad": "Villavicencio",
-      "direccion": "Manzana 5 casa 9 barrio rincón de las Marías"
+      "direccion": "Manzana 5 casa 9 barrio rincón de las Marías",
+      "barrio": "Barrio rincón de las Marías"
     },
     "pausado": false,
     "etapaManual": null,
