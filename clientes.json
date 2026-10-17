@@ -224,8 +224,8 @@
     "telefono": "573143946033",
     "nombre": "🫰🏻",
     "primerContacto": "2026-10-17T13:34:21.157Z",
-    "ultimoContacto": "2026-10-17T13:34:21.157Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T14:49:04.875Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -251,21 +251,39 @@
         "fecha": "2026-10-17T13:34:20.305Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzOTQ2MDMzFQIAERgSNkM4QzYxMDJDOUU0REVEMDRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-17T14:39:27.700Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTQ2MDMzFQIAERgSNDdDMjg0QzdDOTJDREMxRjcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es necesario  que donde valla a estar el dispositivo  haya señal de",
+        "fecha": "2026-10-17T14:49:02.344Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, para que el módem funcione necesitas que haya señal 4G o 5G del operador que uses. Pero tranqui, estos módems tienen antenas potentes que captan mucho mejor la señal que un celular normal, por eso son ideales para zonas rurales, fincas o veredas donde el celular a veces no conecta bien.\n\n¿En qué municipio o vereda lo quieres usar? Así te confirmo cuál modelo es el mejor para esa zona. ¿Lo vas a usar más para estudiar, trabajar, negocio o tu casa?",
+        "fecha": "2026-10-17T14:49:03.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTQ2MDMzFQIAERgSNTQ5RUUwQkY5MEZGQzJDRUMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
