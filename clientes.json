@@ -47,8 +47,8 @@
     "telefono": "573136551043",
     "nombre": "lopesales66",
     "primerContacto": "2026-10-17T10:35:23.064Z",
-    "ultimoContacto": "2026-10-17T10:58:12.426Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-17T11:02:48.887Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -290,6 +290,18 @@
         "fecha": "2026-10-17T10:58:11.359Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSNTIwNzMxOThFNzY2MzE5NjJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy pendiente",
+        "fecha": "2026-10-17T11:02:46.131Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que estés pendiente. Quedo atento cuando decidas para ayudarte con el pedido y que puedas tener internet sin interrupciones donde lo necesites.\n\nMientras tanto, si quieres saber algo más o tienes alguna duda, dime sin problema. ¿Quieres que te cuente un poco más de cómo funciona o sus beneficios?",
+        "fecha": "2026-10-17T11:02:47.575Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSRjNFODI5RDIxOEUxMEM0MTJBAA=="
       }
     ],
     "paso": "conversando",
@@ -300,7 +312,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
