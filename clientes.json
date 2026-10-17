@@ -3,8 +3,8 @@
     "telefono": "573148526595",
     "nombre": "johey",
     "primerContacto": "2026-10-17T14:37:18.574Z",
-    "ultimoContacto": "2026-10-17T14:50:02.247Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-17T14:51:40.221Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-10-17T14:50:01.234Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSOEY2QTQwNDE4RUQyN0MzMUY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjame pensar y te aviso",
+        "fecha": "2026-10-17T14:51:37.763Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tómate tu tiempo para pensar sin problema. \n\nRecuerda que mientras más rápido confirmes, antes te llega el módem y empiezas a disfrutar de internet donde lo necesitas.\n\nCuando estés listo, aquí estaré para ayudarte con el pedido.\n\n¿Quieres que te muestre alguna otra opción mientras tanto o te interesa solo el módem 4G/5G?",
+        "fecha": "2026-10-17T14:51:39.276Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTI2NTk1FQIAERgSN0JGOEVCRkFBNjZBNUQyMkRDAA=="
       }
     ],
     "paso": "conversando",
@@ -138,7 +150,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
