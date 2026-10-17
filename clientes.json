@@ -717,8 +717,8 @@
     "telefono": "573156990210",
     "nombre": "holmesconde1906@gmail",
     "primerContacto": "2026-10-17T04:00:39.672Z",
-    "ultimoContacto": "2026-10-17T11:05:10.949Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-17T11:05:30.233Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -756,13 +756,25 @@
         "fecha": "2026-10-17T11:05:09.994Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2OTkwMjEwFQIAERgSRjU5MEM2RDVGNzg1NTExOTNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es que quiero una impresora portátil",
+        "fecha": "2026-10-17T11:05:28.193Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para recomendarte bien, ¿me puedes decir para qué la necesitas? ¿Vas a imprimir documentos tamaño carta, recibos, etiquetas o guías? Así te muestro la mejor impresora portátil para eso. ¿Y en qué ciudad o vereda la usarías?",
+        "fecha": "2026-10-17T11:05:29.388Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2OTkwMjEwFQIAERgSNDk3OEE1OURCQjI0OUM0M0NBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
