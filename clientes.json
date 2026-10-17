@@ -3,8 +3,8 @@
     "telefono": "573216801119",
     "nombre": "jose",
     "primerContacto": "2026-10-17T02:17:50.425Z",
-    "ultimoContacto": "2026-10-17T02:17:50.425Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-17T02:20:07.462Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-17T02:17:49.552Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODAxMTE5FQIAERgSNjQ5NzFDRTc2REIzNTFERjUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-17T02:20:06.440Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-17T02:20:06.440Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODAxMTE5FQIAERgSRjBBQ0RCNkQ1QzFCRjk5NDE4AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573013041697",
