@@ -3,8 +3,8 @@
     "telefono": "573205535318",
     "nombre": "Marijas",
     "primerContacto": "2026-10-17T23:14:22.816Z",
-    "ultimoContacto": "2026-10-17T23:19:57.427Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-17T23:20:19.933Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-17T23:19:56.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTM1MzE4FQIAERgSQkI0ODNFMTdENDdFNTUyOEEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-17T23:20:17.126Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento mejor: los precios son los mismos que te di, para que tengas opciones que se ajustan a lo que necesitas.\n\nSi quieres ahorrar, el módem 4G es una inversión de **$169.900** + $26.000 de envío, ideal para finca, vereda o para tener red estable.\n\nSi buscas flexibilidad y máxima compatibilidad 4G y 5G, el 4G/5G está en **$189.900** + envío, es el más recomendado para la mayoría.\n\nY si en tu zona hay buena señal 5G y quieres la máxima velocidad, el 5G cuesta **$199.900** + envío.\n\n✅ Pagas al recibir y con garantía.\n\n¿Dónde lo usarías principalmente y para qué? Así te ayudo a elegir el que mejor te funciona.",
+        "fecha": "2026-10-17T23:20:18.939Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM1MzE4FQIAERgSRUJENTE1MTI1MzNENDM0NEZGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
