@@ -659,8 +659,8 @@
     "telefono": "573104050554",
     "nombre": "Mary 🥰",
     "primerContacto": "2026-10-18T16:39:55.605Z",
-    "ultimoContacto": "2026-10-18T17:21:17.705Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-18T18:39:41.489Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -765,6 +765,25 @@
         "fecha": "2026-10-18T17:21:16.773Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MDUwNTU0FQIAERgSODVGRkFCN0I1MTBBMDlDNjAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T18:24:30.772Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MDUwNTU0FQIAERgSMTU2Q0UzNzBDM0YwRDQxM0Y1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por eso en el pueblo si hay cobertura 🙄🙄🙄 entonces si funciona pero cuando llegue a mi casa y si alla no funciona 🤷🏼‍♀️",
+        "fecha": "2026-10-18T18:39:39.208Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo la preocupación.\n\nEl modem está diseñado para captar mejor señal que un celular, por eso seguro funcionará excelente en el pueblo donde sí hay cobertura. \n\nEn tu casa en la vereda, donde la señal es muy débil, puede que la conexión sea más lenta o inestable, pero por eso el modem 4G/5G es la mejor opción para mejorar al máximo esa señal débil.\n\nSi al usarlo en casa la señal no te funciona bien, recordá que tenés 30 días de garantía para devolverlo y que te devuelvan tu dinero.\n\n¿Quieres que te ayude a dejar el pedido listo para que lo recojas en el pueblo? Así pruebas y decides con tranquilidad.",
+        "fecha": "2026-10-18T18:39:40.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MDUwNTU0FQIAERgSRjVFQzI1MzQxNzBFQkNFNjQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -778,8 +797,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
