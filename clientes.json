@@ -47,8 +47,8 @@
     "telefono": "573142549408",
     "nombre": "Lina Barbosa",
     "primerContacto": "2026-10-17T23:58:17.978Z",
-    "ultimoContacto": "2026-10-18T00:01:29.461Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-18T00:02:28.071Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,6 +98,25 @@
         "fecha": "2026-10-18T00:01:28.525Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNTQ5NDA4FQIAERgSQkM2MUE4NjZBRjJCQzdGQzAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que dirección está registrada",
+        "fecha": "2026-10-18T00:02:25.562Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No tengo acceso a datos almacenados, por eso te pido la dirección donde te gustaría recibir el módem para asegurarme que te llegue sin problemas.\n\nAsí no demoras y te lo enviamos directo a tu casa o a la oficina de la transportadora más cercana.\n\n¿Me confirmas la dirección completa para dejar tu pedido listo?",
+        "fecha": "2026-10-18T00:02:26.688Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNTQ5NDA4FQIAERgSNzYzMTQzNEZGODI1MENEN0I4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-18T00:02:27.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNTQ5NDA4FQIAERgSMTNDRkNEMzk4REEwQjhGMzlFAA=="
       }
     ],
     "paso": "conversando",
