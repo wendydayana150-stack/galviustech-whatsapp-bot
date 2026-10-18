@@ -739,8 +739,8 @@
     "telefono": "573245790254",
     "nombre": "Richard Paredes",
     "primerContacto": "2026-10-17T23:13:43.412Z",
-    "ultimoContacto": "2026-10-17T23:21:59.829Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-18T00:26:17.750Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -778,21 +778,39 @@
         "fecha": "2026-10-17T23:21:58.947Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NzkwMjU0FQIAERgSRENCQTA2NEM0MzNGNTA2RDJFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T00:22:56.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzkwMjU0FQIAERgSNEU5Mjk4REFGRUI2QkVGNjkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me parece muy alto el precio",
+        "fecha": "2026-10-18T00:26:15.487Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que parece una inversión alta al principio, pero piensa que con un solo módem se conectan hasta 10 dispositivos; no tienes mensualidad fija ni contratos encerrados, y una sola recarga alcanza para toda la familia.\n\nAdemás, no dependes de buscar WiFi o gastar tiempo y dinero desplazándote para conectarte. Eso es libertad y ahorro a largo plazo.\n\nSi quieres, te puedo recomendar el módem 4G, que es el más económico y también funciona perfecto en zonas rurales. \n\n¿Quieres que te prepare la compra con el módem 4G y te lo enviamos? ¿A qué dirección te llega mejor?\n\n💰 *Modem 4G*: $ 169.900 + $26.000 de envío.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-10-18T00:26:16.826Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzkwMjU0FQIAERgSRUZGMEJENzU1MkUxNTA4QUQ2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
