@@ -3,8 +3,8 @@
     "telefono": "573182123680",
     "nombre": "JORGE",
     "primerContacto": "2026-10-18T20:39:14.273Z",
-    "ultimoContacto": "2026-10-18T20:39:14.273Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T20:40:10.681Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T20:39:13.630Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyMTIzNjgwFQIAERgSMzkzQTM2RDdGQTY0M0EwQzlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda caños de Paipa Boyacá",
+        "fecha": "2026-10-18T20:40:08.373Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme tu ubicación. En la vereda Caños de Paipa, Boyacá, la mejor opción para que tengas conexión segura y rápida donde no llega la fibra es el **Módem WiFi Portátil 4G/5G**.\n\n🔥 Este equipo capta mejor la señal móvil, funciona tanto en 4G como 5G, y puedes conectar varios dispositivos al mismo tiempo. Ideal para estudiar, trabajar o para tu hogar sin complicaciones.\n\nLa inversión sería de **$189.900 + $26.000 de envío**. ✅ Pagas al recibir y tienes garantía de 30 días.\n\n¿Lo usarías principalmente para trabajo, estudio o en casa? Así te ayudo mejor con la recomendación.",
+        "fecha": "2026-10-18T20:40:09.808Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyMTIzNjgwFQIAERgSNEI2RDk2RDJDQ0VDRDVERUI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573173012355",
