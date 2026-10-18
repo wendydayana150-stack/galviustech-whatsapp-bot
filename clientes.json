@@ -3,8 +3,8 @@
     "telefono": "CO.2097598894196857",
     "nombre": "777",
     "primerContacto": "2026-10-18T06:14:28.893Z",
-    "ultimoContacto": "2026-10-18T06:14:28.893Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T06:16:34.355Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T06:14:27.994Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA5NzU5ODg5NDE5Njg1NxUUABEYEjY3Q0I2MEJGMjVDNDkzQzc4RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Costo del equipo",
+        "fecha": "2026-10-18T06:16:30.827Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el costo de los módems portátiles es una inversión para tener internet estable donde más lo necesites. \n\n🔥 Aprovecha que los modems bajaron un 30% y aquí tienes las opciones:\n📶 Módem WiFi Portátil 4G: inversión de **$169.900** + $26.000 de envío\n📶 Módem WiFi Portátil 4G/5G: inversión de **$189.900** + $26.000 de envío\n📶 Módem WiFi Portátil 5G: inversión de **$199.900** + $26.000 de envío\n\nTodos conectan varios dispositivos, funcionan fácil y fueron diseñados especialmente para zonas rurales o sin fibra.\n\nDime, ¿en qué zona o municipio lo usarías? Así te puedo recomendar el mejor modelo para ti.",
+        "fecha": "2026-10-18T06:16:33.496Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA5NzU5ODg5NDE5Njg1NxUUABEYEjczRkNDQTc2QUMwQUU1MTZBMwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573006262227",
