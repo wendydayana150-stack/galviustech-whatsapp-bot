@@ -47,8 +47,8 @@
     "telefono": "573153010200",
     "nombre": "DAIRO ARAGON",
     "primerContacto": "2026-10-18T17:05:11.024Z",
-    "ultimoContacto": "2026-10-18T17:05:11.024Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T17:07:12.536Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-18T17:05:10.237Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzMDEwMjAwFQIAERgSMjYxMzJEMTU5RUUyRDhDMzhCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio de Antioquía",
+        "fecha": "2026-10-18T17:07:09.306Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la info sobre Antioquía. Para recomendarte bien, dime ¿lo necesitas para estudiar, trabajar, para tu negocio o para usar en casa?\n\nMientras tanto, te cuento que tenemos 3 opciones de módem:\n\n📶 Modem WiFi Portátil 4G: conexión buena y estable 4G, ideal si buscas algo más económico — inversión de **$169.900 + $26.000 envío**  \n🚀 Modem WiFi Portátil 4G/5G: funciona con 4G y 5G, la opción más recomendada para la mayoría porque es flexible — inversión de **$189.900 + $26.000 envío**  \n⚡ Modem WiFi Portátil 5G: para sitios con cobertura 5G y quieres la máxima velocidad — inversión de **$199.900 + $26.000 envío**  \n\nTodos conectan hasta 10 dispositivos y la batería dura hasta 14 horas. Son fáciles de usar y dan mejor señal que tu celular en zona rural.\n\n¿Para qué vas a usar el módem principalmente? Así te ayudo a elegir el mejor modelo.",
+        "fecha": "2026-10-18T17:07:11.815Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzMDEwMjAwFQIAERgSMzFBNkNBQzEyQzdBQTVGNTdEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103867363",
