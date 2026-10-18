@@ -562,8 +562,8 @@
     "telefono": "573046114664",
     "nombre": "lediscardona7",
     "primerContacto": "2026-10-18T20:52:16.431Z",
-    "ultimoContacto": "2026-10-18T20:58:35.692Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-18T22:05:57.824Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -613,6 +613,25 @@
         "fecha": "2026-10-18T20:58:34.986Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2MTE0NjY0FQIAERgSMTdCOEY2NjMzMjk1ODc3QUUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T22:04:30.032Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MTE0NjY0FQIAERgSMkM4RkJFRDk2RkMxOENFQzRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo voy a pensar y te escribo, usted dice que hay 30 días para resolver y entonces a quien le hago reclamo si no me funciona 🤨",
+        "fecha": "2026-10-18T22:05:54.999Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieras pensarlo y verificar bien tu decisión, es totalmente válido.  \nLa garantía de 30 días es directamente con GALVIUSTECH, cualquier inconveniente o duda con el módem nos lo haces saber y te damos soporte personalizado para ayudarte a resolverlo.\n\nSi prefieres, cuando estés listo me escribes y te acompañaré en todo el proceso, desde la compra hasta la instalación y configuración para que quede perfecto.\n\n¿Quieres que te mande más info sobre cómo funciona el soporte o prefieres que te acompañe cuando decidas comprar?",
+        "fecha": "2026-10-18T22:05:57.017Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MTE0NjY0FQIAERgSNDNEQjZERjZGODEwRjFEQUIxAA=="
       }
     ],
     "paso": "conversando",
@@ -623,11 +642,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
