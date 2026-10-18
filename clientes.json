@@ -3,8 +3,8 @@
     "telefono": "573235961682",
     "nombre": "Oscar",
     "primerContacto": "2026-10-18T12:45:25.457Z",
-    "ultimoContacto": "2026-10-18T12:45:25.457Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T12:46:36.017Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T12:45:24.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1OTYxNjgyFQIAERgSQ0Y3MERFQkNFQzRDRDM2M0M0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para mi trabajo",
+        "fecha": "2026-10-18T12:46:32.987Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme! 🚀\n\nManejamos tres versiones de módem para que elijas según lo que necesites:\n\n📶 *Modem WiFi Portátil 4G* — Inversión de **$169.900 + $26.000 de envío**. Excelente para conexión estable en fincas o zonas donde solo hay 4G, conecta varios dispositivos.\n\n📶 *Modem WiFi Portátil 4G/5G* — Inversión de **$189.900 + $26.000 de envío**. Te da flexibilidad para zonas con 4G o ya con 5G, ideal para trabajar, viajar y conectar varios equipos sin complicaciones.\n\n📶 *Modem WiFi Portátil 5G* — Inversión de **$199.900 + $26.000 de envío**. Para aprovechar la máxima velocidad si tienes buena cobertura 5G en tu zona.\n\n🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción y tienes garantía de 30 días con soporte GalviusTech.\n\n¿Me cuentas en qué municipio o vereda estás para confirmar cobertura y ayudarte a elegir la mejor opción?",
+        "fecha": "2026-10-18T12:46:35.215Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1OTYxNjgyFQIAERgSNUUyNkJCN0E0QzQzQ0FENzc3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573011746016",
