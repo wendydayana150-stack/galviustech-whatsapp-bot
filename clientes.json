@@ -47,8 +47,8 @@
     "telefono": "573225141669",
     "nombre": "Luis Eduardo Montes Arrie",
     "primerContacto": "2026-10-18T21:19:22.941Z",
-    "ultimoContacto": "2026-10-18T21:19:22.941Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T21:21:48.010Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-18T21:19:22.261Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1MTQxNjY5FQIAERgSMDIxNjUwMzMyMTMzQkRCODFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la vereda el bledo del Carmen de bolivar",
+        "fecha": "2026-10-18T21:21:45.101Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, y para lo que necesitas, ¿sería más para estudiar, trabajar, tu negocio o para tu hogar? Así te recomiendo el modem ideal.\n\nPor aquí te anticipo que tenemos 3 versiones con la última promoción del 30% de descuento:\n\n📶 Modem WiFi Portátil 4G: conexión confiable en 4G, conecta hasta 10 dispositivos, fácil de usar, ideal para zonas rurales. La inversión sería de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G: lo mejor para no depender de qué cobertura hay, porque funciona con 4G y 5G, para tener conexión donde sea. Precio **$189.900 + $26.000 de envío**.\n\n⚡ Modem WiFi Portátil 5G: para zonas con buena cobertura 5G y quieres la máxima velocidad. Precio **$199.900 + $26.000 de envío**.\n\n¿Me cuentas para qué lo quieres usar? Eso me ayuda a guiarte mejor a la opción más útil para ti.",
+        "fecha": "2026-10-18T21:21:47.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MTQxNjY5FQIAERgSQjhGMDM4MUE3NDdBOTgwNTEwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218472369",
