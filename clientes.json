@@ -1468,8 +1468,8 @@
     "telefono": "573147062434",
     "nombre": "oscartorrreglosa10",
     "primerContacto": "2026-10-17T22:25:02.079Z",
-    "ultimoContacto": "2026-10-18T11:59:33.788Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-18T12:00:46.991Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1578,6 +1578,18 @@
         "fecha": "2026-10-18T11:59:32.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3MDYyNDM0FQIAERgSMzczMjUyRDdEMEQ5MUY5QTQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya estaré consultando mi bolsillo y lo pediré , pero me gusta el plan",
+        "fecha": "2026-10-18T12:00:44.765Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tómate tu tiempo sin problema 😊\n\nRecuerda que este módem te da la libertad de elegir el plan o recarga que más te convenga, sin ataduras ni contratos.\n\nCuando estés listo, aquí estaré para ayudarte a dejar tu pedido listo y enviártelo.\n\n¿Quieres que te recuerde la inversión y opciones cuando decidas?",
+        "fecha": "2026-10-18T12:00:45.907Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MDYyNDM0FQIAERgSQzc2NTI4RDg2QjAwOEM3MzI0AA=="
       }
     ],
     "paso": "conversando",
@@ -1588,7 +1600,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
