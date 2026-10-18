@@ -3,8 +3,8 @@
     "telefono": "573042161550",
     "nombre": "Wilberto López N.",
     "primerContacto": "2026-10-18T03:02:21.477Z",
-    "ultimoContacto": "2026-10-18T03:02:21.477Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T03:02:32.474Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T03:02:20.548Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyMTYxNTUwFQIAERgSM0E4QkYxODg0M0ZGMURFMEZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto cuesta",
+        "fecha": "2026-10-18T03:02:29.067Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Los módems bajaron un 30%! 🔥\n\nSi buscas tener internet donde no llega la fibra, compartir con varios dispositivos y llevar tu conexión a donde vayas, mira estas opciones:\n\n📶 **Modem WiFi Portatil 4G**: inversión de $169.900 + $26.000 de envío  \n🚀 **Modem WiFi Portatil 4G/5G**: inversión de $189.900 + $26.000 de envío, ideal si quieres estar listo para 4G y 5G  \n⚡ **Modem WiFi Portatil 5G**: inversión de $199.900 + $26.000 de envío, para zonas con muy buena cobertura 5G  \n\n¿Me cuentas en qué municipio o vereda lo usarías para ayudarte a elegir el mejor para ti?",
+        "fecha": "2026-10-18T03:02:31.439Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyMTYxNTUwFQIAERgSNkExN0MyNUYzNDg3NzVDNEI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573123451659",
