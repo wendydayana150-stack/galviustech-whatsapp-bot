@@ -3,8 +3,8 @@
     "telefono": "573053094220",
     "nombre": "MW BOLOS",
     "primerContacto": "2026-10-18T14:46:36.733Z",
-    "ultimoContacto": "2026-10-18T14:49:32.378Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-18T14:50:01.443Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,17 +85,29 @@
         "fecha": "2026-10-18T14:49:31.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzMDk0MjIwFQIAERgSNzJBOThEMEJEQ0ZGMjcxMDlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias no me es fucional",
+        "fecha": "2026-10-18T14:49:59.661Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no siempre esta solución es para todos. Si te parece, cuando quieras puedes contarme más sobre qué necesitas o ver si alguna otra solución de GalviusTech te puede servir. \n\nQuedo atenta para ayudarte cuando decidas. ¿Quieres que te muestre algún otro producto como impresora térmica, cámara de seguridad o lámparas solares?",
+        "fecha": "2026-10-18T14:50:00.603Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzMDk0MjIwFQIAERgSRDE1QkI5NDcyMUYxRDIwNjJDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
