@@ -3,8 +3,8 @@
     "telefono": "573011746016",
     "nombre": ".",
     "primerContacto": "2026-10-18T12:39:50.641Z",
-    "ultimoContacto": "2026-10-18T12:39:50.641Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T12:40:51.807Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T12:39:49.564Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExNzQ2MDE2FQIAERgSMzdBREFBNjAyQTAyM0YyRkZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sahagún Córdoba",
+        "fecha": "2026-10-18T12:40:48.828Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para Sahagún, Córdoba. Ahora, ¿lo vas a usar para estudiar, para trabajar, para tu hogar o un negocio? \n\nAsí te recomiendo el modem que más se ajuste a lo que más necesitas: mejor cobertura, velocidad y comodidad para tu caso. ¿Me cuentas?",
+        "fecha": "2026-10-18T12:40:50.672Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExNzQ2MDE2FQIAERgSRTU5MzE1MDM3MjdFRDk4Nzk3AA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214480265",
