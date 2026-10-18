@@ -3,8 +3,8 @@
     "telefono": "573107055490",
     "nombre": "FranGuerS",
     "primerContacto": "2026-10-18T20:45:56.015Z",
-    "ultimoContacto": "2026-10-18T20:45:56.015Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T20:48:19.065Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T20:45:55.099Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDU1NDkwFQIAERgSMTdGRkMwOUM4MUM4QjQ0NTU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo vivo en un pueblo llamado Buenavista en el Magdalena en medio de una Ciénaga",
+        "fecha": "2026-10-18T20:48:16.102Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, Buenavista en Magdalena es una zona donde muchas personas necesitan mejor conexión.\n\nTe recomiendo estas opciones para que elijas la que más te conviene:\n\n📶 Modem WiFi Portátil 4G: $169.900  \nIdeal si quieres ahorrar, conecta hasta 10 dispositivos y tiene batería que dura hasta 14 horas. Perfecto para zonas rurales donde no llega fibra óptica.\n\n📶 Modem WiFi Portátil 4G/5G: $189.900  \nEste es el más seguro porque funciona donde haya 4G o 5G. Lo mejor para estudiar, trabajar o viajar sin interrupciones.\n\n📶 Modem WiFi Portátil 5G: $199.900  \nMáxima velocidad si tienes buena cobertura 5G en tu zona. Perfecto para que nunca te falte internet rápido en todos tus dispositivos.\n\nTodos tienen fácil instalación, son portátiles y brindan mejor señal que un celular normal.\n\n¿Para qué lo necesitas principalmente? ¿Para casa, trabajo, estudio o algo más? Así te ayudo a elegir el mejor.",
+        "fecha": "2026-10-18T20:48:18.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDU1NDkwFQIAERgSRjAxRTEzNkVEMTVDQTc4QTU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573107071766",
