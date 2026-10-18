@@ -414,8 +414,8 @@
     "telefono": "573234765786",
     "nombre": "Julio Nieves",
     "primerContacto": "2026-10-18T18:49:01.806Z",
-    "ultimoContacto": "2026-10-18T19:58:49.576Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-18T20:00:02.075Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -499,6 +499,25 @@
         "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
         "fecha": "2026-10-18T19:58:49.422Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como funciona?",
+        "fecha": "2026-10-18T20:00:00.658Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-10-18T20:00:00.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSNDA0ODJFMkU1MUJFNUNGNkQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-10-18T20:00:01.177Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSQkU5RDE1MDY0QTI5QTk3MkY1AA=="
       }
     ],
     "paso": "conversando",
