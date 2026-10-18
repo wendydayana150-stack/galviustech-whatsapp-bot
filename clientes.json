@@ -3,8 +3,8 @@
     "telefono": "573223216366",
     "nombre": "Heinkels Bustos",
     "primerContacto": "2026-10-18T22:56:05.068Z",
-    "ultimoContacto": "2026-10-18T22:56:05.068Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T22:58:10.679Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T22:56:04.359Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMjE2MzY2FQIAERgSQ0FBNERDMkZGQjM4N0JCRUE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La gloria cesar",
+        "fecha": "2026-10-18T22:58:07.983Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Gracias por contarme tu municipio, ¿y para qué necesitas el módem principalmente: para trabajar, estudiar, tu hogar o negocio? Así te recomiendo el que mejor te sirve.\n\nRecuerda que con cualquiera de nuestras opciones puedes tener internet estable y poder conectar varios dispositivos, todo sin depender de la fibra óptica.\n\n¿Me cuentas un poco? 😊",
+        "fecha": "2026-10-18T22:58:09.780Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMjE2MzY2FQIAERgSODY3NjQ0MThGNzE1QUFDMzI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573202233445",
