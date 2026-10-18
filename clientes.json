@@ -3,8 +3,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-18T23:42:44.948Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T23:42:49.485Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T23:42:44.133Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSOEE4NjM3N0I3NkREQUZFNDEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como es 😑",
+        "fecha": "2026-10-18T23:42:47.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento rápido: \n\nEstos módems te dan internet donde no llega la fibra ni hay cables, ideal para fincas, veredas o si viajas mucho. \n\nConectas varios dispositivos (hasta 10) y la batería dura hasta 14 horas. Son súper fáciles: solo pones la SIM, prendes y listo, wifi donde quieras con mejor señal que el celular.\n\nLa inversión va desde $169.900 el 4G, $189.900 el 4G/5G y $199.900 el 5G, más $26.000 de envío. ✅ Pagas al recibir, con garantía de 30 días.\n\n¿En qué lugar exacto lo vas a usar y para qué principalmente? Así te aconsejo cuál versión te conviene.",
+        "fecha": "2026-10-18T23:42:48.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSMzBDM0FEODgzNUExRDFGQjNEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135358857",
