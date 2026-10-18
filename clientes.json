@@ -47,8 +47,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-18T23:50:09.450Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-18T23:50:43.363Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,15 +221,28 @@
         "fecha": "2026-10-18T23:50:08.556Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSOTVGRkZCNzIxRkI2MzgxRDM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3222357972",
+        "fecha": "2026-10-18T23:50:42.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-18T23:50:42.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSMDlGNDlEMzA5Q0M2NjIzRDIzAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
       "precio": 289900,
       "telefono": "573222357972",
-      "nombreCliente": "Andrés Fernando Gutiérrez Gutiérrez"
+      "nombreCliente": "Andrés Fernando Gutiérrez Gutiérrez",
+      "celular": "3222357972"
     },
     "pausado": false,
     "etapaManual": null,
