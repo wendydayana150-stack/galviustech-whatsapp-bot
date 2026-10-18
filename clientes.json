@@ -414,8 +414,8 @@
     "telefono": "573234765786",
     "nombre": "Julio Nieves",
     "primerContacto": "2026-10-18T18:49:01.806Z",
-    "ultimoContacto": "2026-10-18T18:49:01.806Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T19:58:28.284Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -441,6 +441,25 @@
         "fecha": "2026-10-18T18:49:01.167Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSOEJERTdBQ0U5NzFENTQxQTYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T19:54:28.644Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSRkU5QjQzMEU3NTJFRUQ1N0E4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo utilizaré en la Sierra Nevada",
+        "fecha": "2026-10-18T19:58:26.052Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, y para que lo usarás en la Sierra Nevada, ¿es para trabajo, estudio, tu negocio o tu hogar? Así te recomendaré el módem ideal para que no te quedes sin internet donde vivas. ¿Qué me cuentas?",
+        "fecha": "2026-10-18T19:58:27.430Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSQkVGOEEwRkEzOTE0RDY0RjU0AA=="
       }
     ],
     "paso": "conversando",
@@ -454,8 +473,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
