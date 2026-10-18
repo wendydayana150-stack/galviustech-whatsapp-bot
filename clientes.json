@@ -3,8 +3,8 @@
     "telefono": "573124735352",
     "nombre": "Andrés Caba",
     "primerContacto": "2026-10-18T17:20:20.293Z",
-    "ultimoContacto": "2026-10-18T17:20:20.293Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T17:21:47.643Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T17:20:19.537Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NzM1MzUyFQIAERgSRkRFNzZGNzBDMkU1NTg4NkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que operador Resive",
+        "fecha": "2026-10-18T17:21:45.515Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem wifi portátil 4G/4G5G/5G de GalviusTech es compatible con todas las SIM Card de operadores en Colombia:\n\n✅ Claro  \n✅ Movistar  \n✅ Tigo  \n✅ WOM  \n✅ ETB  \n\nSolo necesitas que haya señal del operador en la zona donde vas a usarlo para que funcione bien. ¿En qué municipio o vereda lo piensas usar para recomendarte el mejor modelo?",
+        "fecha": "2026-10-18T17:21:46.663Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NzM1MzUyFQIAERgSRjZCNUFFM0QwMjg3OThBRjhEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205410366",
