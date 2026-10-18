@@ -135,8 +135,8 @@
     "telefono": "573157197089",
     "nombre": "🥰🥰",
     "primerContacto": "2026-10-18T17:59:19.433Z",
-    "ultimoContacto": "2026-10-18T17:59:19.433Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T18:45:28.063Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -162,18 +162,33 @@
         "fecha": "2026-10-18T17:59:18.734Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3MTk3MDg5FQIAERgSMTUzN0I1NzM1Qjk3QzIwQTA2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio puerto Lleras, vereda casibare",
+        "fecha": "2026-10-18T18:45:25.100Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Puerto Lleras es una zona donde la cobertura 5G puede ser limitada, por eso te recomiendo el módem 4G/5G como la mejor opción para que tengas conexión estable y rápida tanto en 4G como donde ya haya 5G.\n\nAquí te paso las opciones con sus inversiones + envío:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000  \n📶 Modem WiFi Portátil 4G/5G (recomendado): $189.900 + $26.000  \n📶 Modem WiFi Portátil 5G: $199.900 + $26.000  \n\nEste equipo te dará internet fuerte y estable en tu vereda, con señal mejor que la del celular por su antena potente, y puedes conectar varios dispositivos para que toda la familia o tu trabajo estén conectados.\n\n¿Lo necesitas principalmente para trabajo, estudio, hogar o viajar? Así te ayudo a cerrar rápido tu pedido.",
+        "fecha": "2026-10-18T18:45:27.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3MTk3MDg5FQIAERgSNEFBNEU3NDg5RjVGM0U0RDYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145877877",
