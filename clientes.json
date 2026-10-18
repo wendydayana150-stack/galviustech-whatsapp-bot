@@ -3,8 +3,8 @@
     "telefono": "573106469127",
     "nombre": ".",
     "primerContacto": "2026-10-18T16:30:53.153Z",
-    "ultimoContacto": "2026-10-18T16:30:53.153Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T16:31:37.107Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T16:30:52.348Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2NDY5MTI3FQIAERgSNDNEMjVEQUE5RDI4MkU0NEVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pijao quindio",
+        "fecha": "2026-10-18T16:31:35.041Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto que estés en Pijao, Quindío. Eso me ayuda mucho. Ahora dime, ¿para qué lo necesitas principalmente? ¿Trabajo, estudio, hogar, viajes o negocio? Así te recomiendo el módem ideal para tu caso.",
+        "fecha": "2026-10-18T16:31:36.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2NDY5MTI3FQIAERgSODVCQ0I1QkUzREQ5REEzOEU4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124538397",
