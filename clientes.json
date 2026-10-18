@@ -3,8 +3,8 @@
     "telefono": "573042161550",
     "nombre": "Wilberto López N.",
     "primerContacto": "2026-10-18T03:02:21.477Z",
-    "ultimoContacto": "2026-10-18T03:05:52.500Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-18T03:08:33.939Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,6 +73,18 @@
         "fecha": "2026-10-18T03:05:51.389Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyMTYxNTUwFQIAERgSRkQ1RERBRUQyRUI3MEUzNDkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dale yo les viso",
+        "fecha": "2026-10-18T03:08:31.760Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, cuando quieras me escribes y te ayudo con todo para que tengas internet donde lo necesites. ✨\n\nQuedo atenta para cuando decidas.\n\nQue tengas un buen día.",
+        "fecha": "2026-10-18T03:08:32.873Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyMTYxNTUwFQIAERgSNTZGNDhDRTFGOTJDMEZBM0JFAA=="
       }
     ],
     "paso": "conversando",
@@ -83,7 +95,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
