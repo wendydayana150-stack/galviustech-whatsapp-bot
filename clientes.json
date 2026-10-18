@@ -3,8 +3,8 @@
     "telefono": "573205291342",
     "nombre": "arenasjhon261",
     "primerContacto": "2026-10-18T23:36:28.713Z",
-    "ultimoContacto": "2026-10-18T23:36:28.713Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T23:36:35.287Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T23:36:28.090Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MjkxMzQyFQIAERgSRURGQ0UwOTIyMzAwOTM3MUE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches",
+        "fecha": "2026-10-18T23:36:33.378Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches, soy Michell 😊 ¿Me cuentas en qué municipio o vereda te gustaría usar el módem y para qué lo necesitas? Así te recomiendo el mejor para ti. ¿Será para estudiar, trabajo, tu negocio o tu casa?",
+        "fecha": "2026-10-18T23:36:34.552Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MjkxMzQyFQIAERgSMUNCRDQwMENFMzJFODVERENFAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136285387",
