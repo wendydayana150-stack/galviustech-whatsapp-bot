@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: true }));
 
 const subirArchivoChat = multer({
       storage: multer.memoryStorage(),
-      limits: { fileSize: 16 * 1024 * 1024 },
+      limits: { fileSize: 50 * 1024 * 1024 }, // documentos (PDF, Excel...) hasta 50 MB
 });
 
 const {
@@ -339,6 +339,23 @@ async function enviarVideoPorId(telefono, mediaId, caption) {
                   ...destinatario(telefono),
                   type: "video",
                   video: { id: mediaId, caption: caption || "" },
+            },
+            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+            );
+      if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
+}
+
+// Documentos (PDF, Word, Excel, PowerPoint, texto) enviados a mano desde el chat del panel (oct-2026, Wendy:
+// listas de precios para distribuidores en PDF)
+async function enviarDocumentoPorId(telefono, mediaId, nombreArchivo, caption) {
+      const registro = registrarMensaje(telefono, "bot", `[Documento] ${nombreArchivo}${caption ? " - " + caption : ""}`);
+      const respuesta = await axios.post(
+            GRAPH_URL,
+            {
+                  messaging_product: "whatsapp",
+                  ...destinatario(telefono),
+                  type: "document",
+                  document: { id: mediaId, filename: String(nombreArchivo || "documento").slice(0, 200), ...(caption ? { caption } : {}) },
             },
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
@@ -1300,7 +1317,9 @@ async function enviarMensajeManual(telefono, texto) {
 const LIMITES_TAMANO_ARCHIVO = {
       imagen: 5 * 1024 * 1024,
       video: 16 * 1024 * 1024,
+      documento: 50 * 1024 * 1024,
 };
+const TIPOS_DOCUMENTO = /^(application\/(pdf|msword|vnd\.openxmlformats-officedocument\.(wordprocessingml\.document|spreadsheetml\.sheet|presentationml\.presentation)|vnd\.ms-excel|vnd\.ms-powerpoint)|text\/plain)$/;
 
 async function enviarArchivoManual(telefono, archivo, caption) {
       await cargarSesionSiNueva(telefono);
@@ -1320,13 +1339,25 @@ async function enviarArchivoManual(telefono, archivo, caption) {
             throw error;
       }
 
+      if (TIPOS_DOCUMENTO.test(archivo.mimetype) && archivo.size > LIMITES_TAMANO_ARCHIVO.documento) {
+            const error = new Error("El documento pesa demasiado (maximo 50 MB). Envia uno mas liviano.");
+            error.esMensajeAmigable = true;
+            throw error;
+      }
+      if (!archivo.mimetype.startsWith("image/") && !archivo.mimetype.startsWith("video/") && !TIPOS_DOCUMENTO.test(archivo.mimetype)) {
+            const error = new Error("Solo se permiten imagenes, videos o documentos (PDF, Word, Excel, PowerPoint o texto).");
+            error.esMensajeAmigable = true;
+            throw error;
+      }
       const mediaId = await subirMediaWhatsApp(archivo.buffer, archivo.mimetype);
       if (archivo.mimetype.startsWith("image/")) {
             await enviarImagenPorId(telefono, mediaId, caption);
       } else if (archivo.mimetype.startsWith("video/")) {
             await enviarVideoPorId(telefono, mediaId, caption);
+      } else if (TIPOS_DOCUMENTO.test(archivo.mimetype)) {
+            await enviarDocumentoPorId(telefono, mediaId, archivo.originalname, caption);
       } else {
-            const error = new Error("Solo se permiten imagenes o videos.");
+            const error = new Error("Solo se permiten imagenes, videos o documentos (PDF, Word, Excel, PowerPoint o texto).");
             error.esMensajeAmigable = true;
             throw error;
       }
@@ -3826,7 +3857,7 @@ app.post("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
             if (errorSubida) {
                   console.error("Error subiendo archivo del chat:", errorSubida.message);
                   if (errorSubida.code === "LIMIT_FILE_SIZE") {
-                        return volverConError("El archivo pesa mas de 16 MB, que es el maximo permitido. Comprimelo o envia uno mas liviano.");
+                        return volverConError("El archivo pesa mas de 50 MB, que es el maximo permitido (videos hasta 16 MB). Comprimelo o envia uno mas liviano.");
                   }
                   return volverConError("Hubo un error subiendo el archivo. Intenta de nuevo.");
             }
@@ -3922,9 +3953,9 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             <form class="escribir" method="POST" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/enviar" enctype="multipart/form-data">
             <label class="adjuntar" title="Adjuntar foto o video">
             📎
-            <input type="file" name="archivo" accept="image/*,video/*" onchange="document.getElementById('nombreArchivo').textContent = this.files[0] ? 'Adjunto: ' + this.files[0].name : '';">
+            <input type="file" name="archivo" accept="image/*,video/*,.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt" onchange="document.getElementById('nombreArchivo').textContent = this.files[0] ? 'Adjunto: ' + this.files[0].name : '';">
             </label>
-            <input type="text" name="mensaje" id="campoMensaje" placeholder="Escribe tu mensaje o agrega una foto/video..." autocomplete="off">
+            <input type="text" name="mensaje" id="campoMensaje" placeholder="Escribe tu mensaje o adjunta foto, video o documento..." autocomplete="off">
             <button type="submit">Enviar</button>
             </form>
             <script>
