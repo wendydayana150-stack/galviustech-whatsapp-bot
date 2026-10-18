@@ -47,8 +47,8 @@
     "telefono": "573018551092",
     "nombre": "leiber yesid montalvo",
     "primerContacto": "2026-10-18T13:25:13.004Z",
-    "ultimoContacto": "2026-10-18T13:25:13.004Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T13:25:38.098Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,6 +74,18 @@
         "fecha": "2026-10-18T13:25:12.024Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4NTUxMDkyFQIAERgSOTJBRDU4MkQ0NjQ0NTk4QzlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q ase",
+        "fecha": "2026-10-18T13:25:35.846Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊\n\nEstoy aquí para ayudarte con nuestros módems WiFi portátiles 4G y 5G. ¿Me puedes decir en qué municipio o vereda lo vas a usar y para qué lo necesitas? (estudio, trabajo, hogar o negocio) Así te recomiendo el más adecuado para ti.\n\n¿Me cuentas?",
+        "fecha": "2026-10-18T13:25:37.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4NTUxMDkyFQIAERgSNDVDRTNDRTI2NjhENEM3RjVGAA=="
       }
     ],
     "paso": "conversando",
@@ -85,7 +97,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573235961682",
