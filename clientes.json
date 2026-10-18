@@ -3,8 +3,8 @@
     "telefono": "573112081004",
     "nombre": "Vioprotecno",
     "primerContacto": "2026-10-18T13:55:47.726Z",
-    "ultimoContacto": "2026-10-18T13:55:47.726Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T13:55:57.134Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T13:55:46.961Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMDgxMDA0FQIAERgSOTRCNEZBNjc2MDRFNUVBQzNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda el cobre en el fresno tolima",
+        "fecha": "2026-10-18T13:55:53.568Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. En la vereda El Cobre, Fresno, Tolima, lo ideal es el *Módem WiFi Portátil 4G/5G* por $189.900 + $26.000 de envío.\n\n✅ Conecta varios dispositivos al mismo tiempo  \n✅ Mejor cobertura que el celular en zonas rurales  \n✅ Funciona tanto en 4G como en 5G donde haya señal  \n✅ Fácil de usar y de llevar a todos lados  \n\nTambién están el módem 4G (un poco más económico) y el 5G (para máxima velocidad donde haya buen 5G), pero esta versión es la recomendada para asegurar cobertura y velocidad.\n\n¿Quieres que te lo enviemos a tu casa en El Fresno o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-18T13:55:56.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMDgxMDA0FQIAERgSNDQ0QjUxN0Q5RDYyQUMxRTE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145217868",
