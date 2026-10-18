@@ -3,8 +3,8 @@
     "telefono": "573011746016",
     "nombre": ".",
     "primerContacto": "2026-10-18T12:39:50.641Z",
-    "ultimoContacto": "2026-10-18T12:40:51.807Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-18T12:41:28.256Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-18T12:40:50.672Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExNzQ2MDE2FQIAERgSRTU5MzE1MDM3MjdFRDk4Nzk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-10-18T12:41:24.915Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso en hogar en Sahagún, Córdoba, te recomiendo estas 3 opciones de módem WiFi portátil, cada una con sus beneficios e inversión:\n\n📶 Modem WiFi Portatil 4G: Conecta varios dispositivos y tiene mejor cobertura que el celular en zonas rurales. Inversión de $169.900 + $26.000 de envío.\n\n🚀📶 Modem WiFi Portatil 4G/5G: Funciona donde hay 4G o 5G, ideal para tener siempre conexión. Inversión de $189.900 + $26.000 de envío.\n\n🚀📶 Modem WiFi Portatil 5G: Para zonas con buena cobertura 5G y máxima velocidad. Inversión de $199.900 + $26.000 de envío.\n\nTodos son fáciles de usar, portátiles, con batería que dura hasta 14 horas, y garantía de 30 días.\n\n¿Quieres que te ayude a dejar el pedido listo? ¿O prefieres que te recomiende uno según tu presupuesto?",
+        "fecha": "2026-10-18T12:41:26.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExNzQ2MDE2FQIAERgSRTAyNzVGMzA4RjQ5MzRDOTkzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
