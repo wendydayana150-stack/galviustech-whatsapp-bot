@@ -182,8 +182,8 @@
     "telefono": "573157197089",
     "nombre": "🥰🥰",
     "primerContacto": "2026-10-18T17:59:19.433Z",
-    "ultimoContacto": "2026-10-18T18:50:30.040Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-18T18:51:00.327Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -351,6 +351,18 @@
         "fecha": "2026-10-18T18:50:29.338Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3MTk3MDg5FQIAERgSM0VCNzI3QjgwMDQ0NTEzRDc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy solo averiguando  por ahora mientras el 4 de noviembre que me llega el pago de mi trabajo",
+        "fecha": "2026-10-18T18:50:58.352Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entiendo que quieres planear bien la compra. Recuerda que el módem te ayuda a tener internet estable sin depender de la fibra, así que cuando estés listo para no quedarte sin conexión, aquí estoy para ayudarte.\n\n¿Quieres que te deje guardada esta info para cuando quieras volver o prefieres que te muestre algo más ahora?",
+        "fecha": "2026-10-18T18:50:59.575Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3MTk3MDg5FQIAERgSOTM2OTQ2QUU1NURCNEM5QjBBAA=="
       }
     ],
     "paso": "conversando",
@@ -361,7 +373,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
