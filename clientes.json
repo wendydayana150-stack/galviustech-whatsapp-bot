@@ -3,8 +3,8 @@
     "telefono": "573145877877",
     "nombre": "escorpión",
     "primerContacto": "2026-10-18T17:53:44.676Z",
-    "ultimoContacto": "2026-10-18T17:53:44.676Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T17:58:51.698Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T17:53:43.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1ODc3ODc3FQIAERgSRUY0NkQ0RDJBRjU1MkVDRjMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En santa Elena vereda san Ignacio",
+        "fecha": "2026-10-18T17:58:48.288Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme dónde, dale. Ahora dime, ¿para qué lo necesitas más? ¿Estudio, trabajo, negocio o para tu casa? Así te recomiendo el módem ideal para que no te quedes sin internet cuando más lo requieras.\n\nMientras, te anticipo que todos nuestros módems son portátiles, con mejor cobertura que un celular, y fáciles de usar para que conectes varios dispositivos en simultáneo. ¿Me cuentas un poco?",
+        "fecha": "2026-10-18T17:58:49.633Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1ODc3ODc3FQIAERgSNDE3MTM1MDRGRUM5NjY2QTJEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573143429738",
