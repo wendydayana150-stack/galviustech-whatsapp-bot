@@ -411,8 +411,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-18T15:40:34.478Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T16:48:33.532Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -438,6 +438,25 @@
         "fecha": "2026-10-18T15:40:33.545Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOUM0NUNCMkNFQUExQkVDRURDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T16:42:55.440Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSMURGRkRBREM1OUY0QzU3RUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola que tal buen dia",
+        "fecha": "2026-10-18T16:48:31.117Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Buenos días 😊\n\n¿En qué municipio o vereda necesitas usar el módem? Y para qué sería principalmente, ¿trabajo, estudio, negocio o casa?\n\nAsí te puedo recomendar el equipo que mejor se adapte a lo que necesitas. ¿Me cuentas?",
+        "fecha": "2026-10-18T16:48:32.210Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSQTVDMzFEMTY4NDNBMzFGMTZDAA=="
       }
     ],
     "paso": "conversando",
@@ -451,8 +470,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
