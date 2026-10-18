@@ -3,8 +3,8 @@
     "telefono": "573044624932",
     "nombre": "SYMATECHNOLOGY",
     "primerContacto": "2026-10-18T00:10:57.969Z",
-    "ultimoContacto": "2026-10-18T00:10:57.969Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T00:11:24.601Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T00:10:57.124Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0NjI0OTMyFQIAERgSRTYyMjI1QzdCNUU3M0UyMTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Villavicencio",
+        "fecha": "2026-10-18T00:11:22.384Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para Villavicencio. 😊\n\nAhora dime, ¿para qué lo necesitas? ¿Estudio, trabajo, tu negocio o para el hogar principalmente?\n\nAsí te recomiendo el módem que mejor te permite conectarte sin depender de fibra óptica ni cables molestos. ¿Qué te parece?",
+        "fecha": "2026-10-18T00:11:23.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NjI0OTMyFQIAERgSRDQ4RThEQ0VENUREQjQ4ODE3AA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104291904",
