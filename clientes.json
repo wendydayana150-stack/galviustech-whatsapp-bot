@@ -418,8 +418,8 @@
     "telefono": "573132253516",
     "nombre": "P. Y. D .A",
     "primerContacto": "2026-10-18T20:08:33.822Z",
-    "ultimoContacto": "2026-10-18T20:45:14.453Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-18T20:54:01.062Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -476,13 +476,25 @@
         "fecha": "2026-10-18T20:45:13.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMjUzNTE2FQIAERgSODg4ODYwNTI4OTRERUU5NkNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio sativa norte\nVereda hato \nFinca el potrerito",
+        "fecha": "2026-10-18T20:53:58.242Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info. 🌟\n\nTenemos tres modelos para que elijas:\n📶 **Modem WiFi Portatil 4G** - $169.900 + $26.000 envío\nConexión 4G, hasta 10 dispositivos, ideal para lugares sin fibra. Inversión económica y sin contratos.\n\n📶 **Modem WiFi Portátil 4G/5G** - $189.900 + $26.000 envío\nFunciona en 4G y 5G, ideal si en la vereda ya hay señal 5G o quieres seguridad de conexión.\n\n📶 **Modem WiFi Portatil 5G** - $199.900 + $26.000 envío\nMáxima velocidad 5G, recomendado si la cobertura 5G es buena allá en tu zona.\n\nTodos son fáciles de usar, batería dura hasta 14 horas, y te dan mejor señal que un celular común en zonas rurales.\n\n¿Cuál te parece mejor para tu finca? ¿Quieres que te lo envíe o prefieres recogerlo?",
+        "fecha": "2026-10-18T20:54:00.291Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMjUzNTE2FQIAERgSRkQ5MThBNkIzM0NBQzc1MENDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
