@@ -411,8 +411,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-18T16:51:20.460Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-18T16:57:14.512Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -493,16 +493,23 @@
         "fecha": "2026-10-18T16:51:19.359Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOTAzQTY2MEQzNDJDODhEODA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-18T16:57:13.288Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSNDE2NUYxQkI2RDQ2RUMzQkQ1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Comunicavion con un asesor gracias\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
