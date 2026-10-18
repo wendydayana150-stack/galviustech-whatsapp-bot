@@ -3,8 +3,8 @@
     "telefono": "573053094220",
     "nombre": "MW BOLOS",
     "primerContacto": "2026-10-18T14:46:36.733Z",
-    "ultimoContacto": "2026-10-18T14:46:36.733Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T14:47:40.887Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T14:46:35.964Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzMDk0MjIwFQIAERgSRTZDNEEwOTBENDY0MjJCNTU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y que operador tendría que ser la SIM, yo estoy en Bogotá , suba",
+        "fecha": "2026-10-18T14:47:37.179Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, nuestro módem WiFi portátil es compatible con SIM de todos los operadores en Colombia: Claro, Movistar, Tigo, WOM y ETB.\n\nEn Bogotá, especialmente en Suba, tienes buena cobertura 4G y 5G, así que cualquiera de nuestros 3 modelos funcionaría perfecto.\n\nTe cuento rápido las opciones con su inversión (precio + $26.000 de envío):\n\n📶 **Módem WiFi Portátil 4G**: Conexión para varios dispositivos, ideal para uso general, más económico - inversión $169.900  \n📶 **Módem WiFi Portátil 4G/5G**: La opción más segura porque funciona tanto en 4G como en 5G, conexión rápida y versátil - inversión $189.900  \n📶 **Módem WiFi Portátil 5G**: Para máxima velocidad si tienes buena señal 5G en la zona - inversión $199.900  \n\nLos 3 son fáciles de usar y tienen mejor cobertura que el celular común.\n\n¿Me dices para qué lo necesitas? Así te ayudo a elegir el más conveniente para ti.",
+        "fecha": "2026-10-18T14:47:39.923Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzMDk0MjIwFQIAERgSQTM5QjU1RjI3MTY3OEJFRDA3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218639106",
