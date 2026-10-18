@@ -414,8 +414,8 @@
     "telefono": "573234765786",
     "nombre": "Julio Nieves",
     "primerContacto": "2026-10-18T18:49:01.806Z",
-    "ultimoContacto": "2026-10-18T19:58:28.284Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-18T19:58:49.576Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -460,13 +460,52 @@
         "fecha": "2026-10-18T19:58:27.430Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSQkVGOEEwRkEzOTE0RDY0RjU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajo y hogar",
+        "fecha": "2026-10-18T19:58:44.838Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para trabajo y hogar en la Sierra Nevada, te recomiendo las 3 versiones que tenemos para que elijas la que más te conviene:\n\n📶 **Modem WiFi Portatil 4G** — inversión de $169.900 + $26.000 de envío  \n➡️ Ideal si buscas economía y buena conexión 4G para varios dispositivos en casa y trabajo.\n\n📶 **Modem WiFi Portatil 4G/5G** — inversión de $189.900 + $26.000 de envío  \n➡️ La opción más segura que funciona en zonas con cobertura 4G y 5G, versátil y rápida.\n\n📶 **Modem WiFi Portatil 5G** — inversión de $199.900 + $26.000 de envío  \n➡️ Para quienes tengan buena cobertura 5G y quieran la máxima velocidad móvil.\n\nLos 3 están diseñados para darte mejor señal que el celular, especialmente en zonas rurales como Sierra Nevada. ¿Cuál de estos te interesa más para que te ayude con el pedido?",
+        "fecha": "2026-10-18T19:58:47.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSMUJGOEY2RkY3MDVGOEI2MjE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-18T19:58:47.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSMkJBQ0EzQzZFN0JDOERCNDU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-18T19:58:48.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSMjA5NTIzN0I5NEIyNUIyOENDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-18T19:58:48.885Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSODk4NDgzNkE1NTgzNDY0Q0U5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-18T19:58:49.422Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
