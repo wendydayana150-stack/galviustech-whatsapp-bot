@@ -3,8 +3,8 @@
     "telefono": "573163622372",
     "nombre": "Lucy",
     "primerContacto": "2026-10-18T00:15:55.468Z",
-    "ultimoContacto": "2026-10-18T00:15:55.468Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T00:16:13.111Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T00:15:54.259Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYzNjIyMzcyFQIAERgSQkZDQzIwRjE2QzBBQzZGMDdDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valorrr",
+        "fecha": "2026-10-18T00:16:10.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento que 🔥 ¡los módems bajaron un 30%! 🔥\n\nLas ventajas clave son que te permite tener internet donde no llega la fibra óptica, conectas varios dispositivos, y es portátil para que lo uses en finca, viaje, trabajo o estudio.\n\nLas inversiones son:\n📶 Módem WiFi Portátil 4G: **$169.900**\n📶 Módem WiFi Portátil 4G/5G: **$189.900**\n📶 Módem WiFi Portátil 5G: **$199.900**\n\nA ese precio se suma el envío de $26.000 a cualquier parte de Colombia. ¿Dónde lo usarías principalmente? ¿Para qué lo necesitas, estudio, trabajo o algo más?",
+        "fecha": "2026-10-18T00:16:12.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzNjIyMzcyFQIAERgSOTM0QTcyQkU0NDlENDQ3QzZGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573044624932",
