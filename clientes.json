@@ -47,8 +47,8 @@
     "telefono": "CO.28977376508562927",
     "nombre": "Maday Vera",
     "primerContacto": "2026-10-18T18:54:07.814Z",
-    "ultimoContacto": "2026-10-18T18:59:17.357Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-18T19:00:12.169Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,18 @@
         "fecha": "2026-10-18T18:59:16.338Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBI5MzkyNDU1N0FCMUYyQzZDN0QA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por el momento no estamos en contacto gracias",
+        "fecha": "2026-10-18T19:00:10.310Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta para cuando me necesites. 😊\n\nSi luego quieres retomar, aquí estaré para ayudarte a tener internet donde lo necesites.",
+        "fecha": "2026-10-18T19:00:11.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBI2RDM2ODA3MjgwMDQ1Mjg4NUQA"
       }
     ],
     "paso": "conversando",
@@ -151,7 +163,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
