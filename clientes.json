@@ -74,8 +74,8 @@
     "telefono": "573136285387",
     "nombre": "neypatron",
     "primerContacto": "2026-10-18T23:30:28.502Z",
-    "ultimoContacto": "2026-10-18T23:30:28.502Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T23:39:55.489Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -101,18 +101,33 @@
         "fecha": "2026-10-18T23:30:27.783Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2Mjg1Mzg3FQIAERgSMzIwQzlDNEJGMTVCQ0M0QTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tambo",
+        "fecha": "2026-10-18T23:39:53.317Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, me cuentas que el modem sería para usar en Tambo. ¿Para qué lo necesitas principalmente? ¿Trabajo, estudio, hogar o para llevar internet en viaje? Así te recomiendo el modelo que mejor se adapta a tu uso.",
+        "fecha": "2026-10-18T23:39:54.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2Mjg1Mzg3FQIAERgSNkEzRTdBRjU0NjdGMTkwMjY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1040503219039627",
