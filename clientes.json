@@ -414,8 +414,8 @@
     "telefono": "573234765786",
     "nombre": "Julio Nieves",
     "primerContacto": "2026-10-18T18:49:01.806Z",
-    "ultimoContacto": "2026-10-18T20:00:02.075Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-18T20:02:39.189Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -518,6 +518,18 @@
         "fecha": "2026-10-18T20:00:01.177Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSQkU5RDE1MDY0QTI5QTk3MkY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El lodem se conecta a algin satelite?",
+        "fecha": "2026-10-18T20:02:35.708Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, el módem no se conecta a ningún satélite. Funciona con la señal celular de un operador móvil (Claro, Movistar, Tigo, WOM) mediante una SIM Card.  \n\nPero es especial porque capta la señal móvil con mucha más potencia y alcance que un celular normal, ideal para lugares como la Sierra Nevada donde la señal puede ser débil. Así tendrás internet estable sin depender de fibra ni instalaciones.  \n\n¿Qué operador usas normalmente ahí? Así te confirmo que es compatible.",
+        "fecha": "2026-10-18T20:02:37.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzY1Nzg2FQIAERgSRUQwOTcyMjA2NzEyRTE4MjIyAA=="
       }
     ],
     "paso": "conversando",
