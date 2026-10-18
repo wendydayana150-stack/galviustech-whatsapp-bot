@@ -3,8 +3,8 @@
     "telefono": "573173012355",
     "nombre": "Alfredo Ramos",
     "primerContacto": "2026-10-18T20:31:01.131Z",
-    "ultimoContacto": "2026-10-18T20:31:01.131Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T20:32:32.602Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T20:31:00.380Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTczMDEyMzU1FQIAERgSMUY0REYyNUY4MUE5NzkzNzhGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La mensualidad cuanto es?  Y de cuántas megas estamos hablando?\n\nMunicipio La Florida\nDepartamento Nariño\nVereda Bellavista",
+        "fecha": "2026-10-18T20:32:29.876Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te comento que estos módems son equipos para que uses con la SIM de cualquier operador (Claro, Movistar, Tigo, WOM) y no incluyen plan ni megas; tú eliges y recargas el plan que quieras con tu proveedor. \n\nInicias una inversión de:\n• Modem 4G: $169.900\n• Modem 4G/5G: $189.900\n• Modem 5G: $199.900  \n+ $26.000 de envío\n✅ Pagas al recibir y con garantía de 30 días.\n\nLos tres modelos conectan hasta 10 dispositivos, y son súper útiles para tu vereda Bellavista en La Florida, Nariño, porque captan mejor la señal que un celular común.\n\n¿Para qué lo vas a usar principalmente? Así te ayudo a elegir el que mejor te conviene.",
+        "fecha": "2026-10-18T20:32:31.858Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTczMDEyMzU1FQIAERgSMTREQjk3OTg0NTNGMzk4NDUyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573018489253",
