@@ -3,8 +3,8 @@
     "telefono": "CO.28977376508562927",
     "nombre": "Maday Vera",
     "primerContacto": "2026-10-18T18:54:07.814Z",
-    "ultimoContacto": "2026-10-18T18:54:07.814Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T18:55:09.816Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-18T18:54:06.987Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBI3RkVBRjJGMkQwQkI3RDE5QjEA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo datos de claro y es para una vereda a tres horas de San Vicente del caguan Caquetá",
+        "fecha": "2026-10-18T18:55:06.823Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una vereda a tres horas de San Vicente del Caguán con datos Claro, te recomiendo nuestra opción más segura: el **Módem WiFi Portátil 4G/5G** a una inversión de **$189.900 + $26.000 de envío**.\n\nEsta versión capta muy bien señal 4G, y si en tu zona hay 5G también podrás aprovecharlo.\n\nTambién tienes estas opciones:\n\n📶 **Modem 4G**: más económico, ideal si necesitas ahorrar, por $169.900 + $26.000 envío.  \n📶 **Modem 5G**: para la máxima velocidad en zonas con buena 5G, por $199.900 + $26.000 envío.\n\nLos modems están diseñados para dar mejor cobertura que un celular en zonas rurales y conectan hasta 10 dispositivos. Batería dura hasta 14 horas.  \n¿Quieres que te lo envíe a tu casa o prefieres recogerlo en la oficina de la transportadora donde te quede más fácil?",
+        "fecha": "2026-10-18T18:55:08.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBI3RUFDMTk5RTQxNTg5M0U2QTUA"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234765786",
