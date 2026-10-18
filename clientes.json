@@ -411,8 +411,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-18T16:49:50.133Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-18T16:51:20.460Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -481,6 +481,18 @@
         "fecha": "2026-10-18T16:49:49.188Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSQzc4MUJBODAzODEyMDUxNkJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Comunicavion con un asesor gracias",
+        "fecha": "2026-10-18T16:51:18.656Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, ya solicité que un asesor humano te contacte pronto para que te ayude personalmente. \n\nMientras tanto, cualquier duda aquí estoy para ayudarte. ¡Gracias por escribirnos!",
+        "fecha": "2026-10-18T16:51:19.359Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOTAzQTY2MEQzNDJDODhEODA5AA=="
       }
     ],
     "paso": "conversando",
@@ -489,8 +501,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Comunicavion con un asesor gracias\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
