@@ -3,8 +3,8 @@
     "telefono": "573233456336",
     "nombre": "Iván",
     "primerContacto": "2026-10-18T10:40:04.295Z",
-    "ultimoContacto": "2026-10-18T10:40:04.295Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-18T10:41:57.849Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-18T10:40:03.513Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNDU2MzM2FQIAERgSNjhBNjFBQkZFMDdDRjg0OTJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para vereda",
+        "fecha": "2026-10-18T10:41:54.326Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y para qué lo necesitas principalmente? ¿Trabajo, estudio, hogar o negocio? Así te recomiendo el módem ideal para que tengas internet estable en tu vereda sin depender de nada más.\n\nMientras tanto, te cuento rápido que nuestros módems están diseñados para captar señal mejor que un celular común en zonas rurales, con batería de hasta 14 horas, conexión para varios dispositivos y son muy fáciles de llevar.\n\n¿Me cuentas un poco más del uso? Así te paso todo con precios y te ayudo a elegir.",
+        "fecha": "2026-10-18T10:41:56.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNDU2MzM2FQIAERgSNTY1QkNFMDAxNjk1MUIxMjI3AA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2097598894196857",
