@@ -47,8 +47,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-18T23:51:09.603Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-18T23:51:38.892Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -245,9 +245,21 @@
         "fecha": "2026-10-18T23:51:08.614Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQTExOEVCMjE5RkYxOTBDRDYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto López (Vereda Las Delicias )",
+        "fecha": "2026-10-18T23:51:37.978Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-18T23:51:37.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQTcyNzNEMDUzNkRCOEE2RUY5AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -255,7 +267,8 @@
       "telefono": "573222357972",
       "nombreCliente": "Andrés Fernando Gutiérrez Gutiérrez",
       "celular": "3222357972",
-      "departamento": "Meta"
+      "departamento": "Meta",
+      "ciudad": "Puerto López (Vereda Las Delicias )"
     },
     "pausado": false,
     "etapaManual": null,
