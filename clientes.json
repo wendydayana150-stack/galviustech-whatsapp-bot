@@ -417,8 +417,8 @@
     "telefono": "573018551092",
     "nombre": "leiber yesid montalvo",
     "primerContacto": "2026-10-18T13:25:13.004Z",
-    "ultimoContacto": "2026-10-18T13:25:59.341Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-18T15:06:28.174Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -468,6 +468,25 @@
         "fecha": "2026-10-18T13:25:57.496Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4NTUxMDkyFQIAERgSRUUxRDE4NDI1MDAzNkQyOTE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-18T14:32:57.512Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4NTUxMDkyFQIAERgSMDFBM0E3MjIzOEQ4MjE3M0VEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A buenos",
+        "fecha": "2026-10-18T15:06:25.633Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Así tienes internet estable para tus procesos y trabajo sin estar atado a una conexión fija.\n\nLa inversión en el módem 4G/5G es de **$189.900 + $26.000 de envío**, con garantía de 30 días y pago al recibir.\n\n¿Quieres que te lo envíe a domicilio o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-18T15:06:27.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4NTUxMDkyFQIAERgSNEU4NzdFNTcwNTIzOTkxQjhGAA=="
       }
     ],
     "paso": "conversando",
@@ -481,8 +500,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
