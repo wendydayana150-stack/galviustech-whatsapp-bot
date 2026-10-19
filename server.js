@@ -3293,6 +3293,9 @@ function recordarPedidoRegistrado(sesion, pedido) {
 const CONFIRMA_COMPROMISO = /^\s*(s[ií]+|claro|seguro|confirm[oa]|confirmado|de acuerdo|ok|okey|listo|dale|perfecto|por supuesto|as[ií] es|👍|✅)\b|confirmo|s[ií],? (estoy seguro|lo recibo|la recibo|claro)/i;
 const NIEGA_COMPROMISO = /^\s*no\b|cancel|ya no lo quiero|ya no la quiero|no estoy segur/i;
 
+const SI_CORTO = /^((s[ií]+|claro|dale|ok)[,\s]*(s[ií]|quiero|lo quiero|la quiero|por favor|porfa|claro|de una|dale|me interesa|se[nñ]or(a)?)?|claro( que s[ií])?|de una|listo|ok(ay|a)?|(a|ah)?\s?buen[oa]s?|va|vale|perfecto|me interesa|lo quiero|la quiero|env[ií]e?melo|env[ií]alo|h[aá]gale|👍+|👌+|✅)[\s!.,👍👌😊🙏]*$/i;
+const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te lo (separo|dejo)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo)/i;
+
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
 
@@ -3326,6 +3329,20 @@ async function manejarTextoLibre(telefono, texto) {
             // obsoleta (ver esperandoDatosPedidoLibre mas abajo).
             sesion.esperandoDatosPedidoLibre = null;
             return;
+      }
+
+      // "SI" A LA PREGUNTA DE CIERRE (oct-2026, estudio de 142 chats sin ventas): el cliente respondia "a bueno",
+      // "dale", "👍" a "¿Te lo envio?" / "¿quieres que te deje el pedido listo?" y la IA volvia a preguntar en
+      // vez de tomar el pedido. Si el ultimo mensaje del bot era una pregunta de cierre y el cliente responde
+      // un si corto, arranca el pedido del producto que se venia hablando (con la oferta de combo de siempre).
+      if (sesion.paso === "conversando" && SI_CORTO.test(String(texto).trim())) {
+            const ultimoBot = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "bot");
+            const productoCierre = catalogo.find((p) => p.id === sesion.ultimoProducto && !p.agotado);
+            if (productoCierre && ultimoBot && PREGUNTA_CIERRE.test(ultimoBot.texto || "")) {
+                  if (productoCierre.id.startsWith("combo-")) await iniciarPedido(telefono, productoCierre.id);
+                  else await ofrecerComboPromocion(telefono, productoCierre.id);
+                  return;
+            }
       }
 
       // "¿QUE OTROS ARTICULOS VENDES?" (oct-2026, Wendy: la IA respondia un parrafo pegado). Si pregunta en
