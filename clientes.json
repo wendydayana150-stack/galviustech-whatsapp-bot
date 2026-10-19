@@ -3,8 +3,8 @@
     "telefono": "573160547155",
     "nombre": "josealbertogonzaleznava1",
     "primerContacto": "2026-10-19T12:47:52.621Z",
-    "ultimoContacto": "2026-10-19T12:47:52.621Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T12:49:10.531Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T12:47:51.784Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNTQ3MTU1FQIAERgSMTBGODRGOTY1MDBCRDBDQUM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio",
+        "fecha": "2026-10-19T12:49:08.028Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi Portátil 4G tiene gran cobertura para zonas rurales y permite conectar varios dispositivos a la vez. La inversión es de **$169.900 + $26.000 de envío**, pagas al recibir y tiene garantía por 30 días.\n\nTambién tenemos el módem 4G/5G por **$189.900 + $26.000 envío**, ideal para donde ya hay o habrá señal 5G, y el módem 5G puro por **$199.900 + $26.000 envío** para máxima velocidad donde haya buena cobertura 5G.\n\n¿En qué municipio o vereda lo usarías para recomendarte el mejor modelo?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T12:49:09.529Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNTQ3MTU1FQIAERgSNDQyNEI2NjI1OEM4ODk2NjhEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225544913",
