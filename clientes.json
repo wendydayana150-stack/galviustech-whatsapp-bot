@@ -7249,8 +7249,8 @@
     "telefono": "573112081004",
     "nombre": "Vioprotecno",
     "primerContacto": "2026-10-18T13:55:47.726Z",
-    "ultimoContacto": "2026-10-18T13:55:57.134Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T12:36:11.262Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7288,6 +7288,18 @@
         "fecha": "2026-10-18T13:55:56.277Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMDgxMDA0FQIAERgSNDQ0QjUxN0Q5RDYyQUMxRTE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por acá no funciona las simcard de los operadores convencionales  muchas gracias",
+        "fecha": "2026-10-19T12:36:08.984Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dato importante, gracias por avisar. Si la señal de los operadores convencionales no llega ahí, el módem no va a funcionar porque usa SIM de esos operadores.\n\n¿De casualidad tienes alguna señal aunque débil o irregular, o ya confirmaste que no hay nada para esos operadores? A veces el módem capta mejor que un celular común.\n\nSi no hay señal, te entiendo, y si quieres te ayudo a ver otras opciones que tenemos en GalviusTech.\n\n¿Quieres que revisemos juntos si hay alguna señal en tu zona o si te interesa otro producto?",
+        "fecha": "2026-10-19T12:36:10.391Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMDgxMDA0FQIAERgSRDkzOUM1NTg2NjI0RkRDQjM1AA=="
       }
     ],
     "paso": "conversando",
@@ -7301,9 +7313,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
