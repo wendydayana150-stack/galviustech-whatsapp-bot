@@ -2399,8 +2399,8 @@
     "telefono": "573118722264",
     "nombre": "Eder",
     "primerContacto": "2026-10-19T10:39:25.018Z",
-    "ultimoContacto": "2026-10-19T15:28:01.126Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-19T15:28:53.183Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2513,13 +2513,25 @@
         "fecha": "2026-10-19T15:28:00.419Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NzIyMjY0FQIAERgSM0JBRkVGMkZEMTFFQzZBOUFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mándame fotos",
+        "fecha": "2026-10-19T15:28:52.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que si! Cuentame de cual producto quieres ver fotos: modem, impresora, lampara o camara?",
+        "fecha": "2026-10-19T15:28:52.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NzIyMjY0FQIAERgSQjkyMjU4MDczNjFBQkE3MEU4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "camara-de-seguridad-5-antenas",
+    "ultimoProducto": "camara-3-lentes",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
