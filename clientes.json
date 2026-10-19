@@ -47,8 +47,8 @@
     "telefono": "573241814904",
     "nombre": "enamorada🫠🥰🥰",
     "primerContacto": "2026-10-19T15:18:13.600Z",
-    "ultimoContacto": "2026-10-19T15:27:47.096Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-10-19T15:27:49.443Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -541,9 +541,21 @@
         "fecha": "2026-10-19T15:27:46.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSRTJFNDk0NDUxREM2QkU0NjFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barbacoas",
+        "fecha": "2026-10-19T15:27:48.610Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-19T15:27:48.611Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSNjc4NEFDOUYwNDQyRTM3OTU1AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -551,7 +563,8 @@
       "telefono": "573241814904",
       "nombreCliente": "Daniela castillo",
       "celular": "3241814904",
-      "departamento": "Narino"
+      "departamento": "Narino",
+      "ciudad": "Barbacoas"
     },
     "pausado": false,
     "etapaManual": null,
