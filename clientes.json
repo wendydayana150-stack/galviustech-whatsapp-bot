@@ -467,8 +467,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T21:15:13.039Z",
-    "mensajes": 42,
+    "ultimoContacto": "2026-10-19T21:16:45.712Z",
+    "mensajes": 43,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1153,6 +1153,18 @@
         "fecha": "2026-10-19T21:15:12.008Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSQTUwQjc2RDM0RTBFNjFENDgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora nada más",
+        "fecha": "2026-10-19T21:16:43.020Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Moisés, quedo atenta cuando necesites cualquier cosa o si quieres recibir más info.\n\nRecuerda que tienes 30 días de garantía y pagas al recibir, así que tranquilo con tu compra.\n\nTe deseo un excelente día y que aproveches mucho tu módem 4G/5G.",
+        "fecha": "2026-10-19T21:16:44.747Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSMjIxMDM4QTlEMjNFMkMxQUVDAA=="
       }
     ],
     "paso": "conversando",
@@ -1163,7 +1175,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Modem WiFi Portatil 4G/5G: \"No está correcto\"",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
