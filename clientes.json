@@ -163,8 +163,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T20:26:11.212Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-19T20:27:11.838Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -450,9 +450,21 @@
         "fecha": "2026-10-19T20:26:09.933Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSMzc3RjcyRjZGQjI1ODMyMkFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nariño  municipio Barbacoas",
+        "fecha": "2026-10-19T20:27:10.738Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-19T20:27:10.739Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSM0YxNzVCREMzQjdENkI2MUJGAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -460,7 +472,8 @@
       "telefono": "573216895768",
       "ciudad": "Acomo sale el mes",
       "nombreCliente": "Acomo sale el mes",
-      "celular": "3216895768"
+      "celular": "3216895768",
+      "departamento": "Narino"
     },
     "pausado": false,
     "etapaManual": null,
