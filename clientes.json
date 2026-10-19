@@ -6107,8 +6107,8 @@
     "telefono": "573167383371",
     "nombre": "Andrea Mendieta",
     "primerContacto": "2026-10-19T11:41:52.777Z",
-    "ultimoContacto": "2026-10-19T20:33:13.206Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T20:33:54.629Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6201,13 +6201,55 @@
         "fecha": "2026-10-19T20:33:11.851Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSQUFERDVEQzQ5OTNEOTFFQzQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] LAMPARA PANEL SOLAR x 3 ",
+        "fecha": "2026-10-19T20:33:50.239Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] LAMPARA PANEL SOLAR x 3 unid.",
+        "fecha": "2026-10-19T20:33:50.240Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSOTAzRjFFN0QwQkU3MUEyNzhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] LAMPARA PANEL SOLAR x 3 unid.",
+        "fecha": "2026-10-19T20:33:51.031Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSMzJCNkFBRjM0OTQwMzRDOEQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] LAMPARA PANEL SOLAR x 3 unid.",
+        "fecha": "2026-10-19T20:33:51.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSOUNDNjZCQzBCQUFFMzA3RTgyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.*\n$ 139.900\n\n¡Hola! 👋 Protege tu hogar y cuida tu bolsillo al mismo tiempo con nuestra Lámpara Solar \r\nPROMOCION 3 LAMPARAS Reflector Tipo Cámara de Seguridad 🛡️💡\r\nEs la solución perfecta para mantener alejados a los amigos de lo ajeno sin gastar un solo peso en la factura de la luz.¿Por qué te va a encantar?\r\n🔋 Energía 100% Gratis: Se carga sola con el sol durante el día.\r\n🥷 Efecto Disuasorio Real: Su diseño idéntico a una cámara de seguridad espanta a los extraños antes de que se acerquen.\r\n🏃‍♂️ Sensor de Movimiento Inteligente: Se enciende automáticamente de forma brillante al detectar presencia.\r\n🌧️ Resistente a todo clima: Ideal para fachadas, patios, garajes o entradas.\r\n\r\n🔧 Instalación en 5 minutos: \r\nOlvídate de cables, conexiones eléctricas o técnicos costosos.🔥 ¡PROMO EXCLUSIVA POR HOY! 🔥Llévala hoy mismo 3 Unidades por solo [: $139.900] COP + envío $26.000 🚚\r\n¡Pregunta por nuestra cobertura de envío y recíbelo en la puerta de tu casa!👉 ¿Cuántas unidades te separamos antes de que se agoten? \r\nCual es tu ciudad y dirección aquí abajo para asegurar tu pedido hoy mismo. 👇",
+        "fecha": "2026-10-19T20:33:52.640Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSRkMwRTNFN0I5NDcyRTkwOTBBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-19T20:33:53.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSNEI4QjcxNjNGNUI4MDJGMkVEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
