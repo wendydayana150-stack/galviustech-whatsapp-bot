@@ -3,8 +3,8 @@
     "telefono": "CO.1695737542118809",
     "nombre": "Saray",
     "primerContacto": "2026-10-19T10:33:51.759Z",
-    "ultimoContacto": "2026-10-19T10:33:51.759Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T10:34:48.037Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T10:33:50.743Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY5NTczNzU0MjExODgwORUUABEYEjQ4MkQ5M0FFN0NBRUI3RTRDNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que vale",
+        "fecha": "2026-10-19T10:34:44.403Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El modem WiFi portatil 4G cuesta **$169.900 + $26.000 de envío**. \n\nEsta opción te da internet propio donde no llega la fibra, con conexión para varios dispositivos y fácil de transportar. Es una inversión que te asegura internet para trabajar, estudiar o estar conectado en lugares rurales o en viaje.\n\nTambién tenemos el modem 4G/5G en **$189.900 + $26.000 de envío** y el modem 5G en **$199.900 + $26.000 de envío**, por si buscas velocidad máxima o cobertura dual.\n\n¿Para qué lo usarías principalmente, en casa, para trabajo o estudio?",
+        "fecha": "2026-10-19T10:34:47.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY5NTczNzU0MjExODgwORUUABEYEkZEREU3MjJDOEJGRDE2RUE5NgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2162173731400359",
