@@ -3,8 +3,8 @@
     "telefono": "573108589169",
     "nombre": "Marta Lia",
     "primerContacto": "2026-10-19T02:35:20.039Z",
-    "ultimoContacto": "2026-10-19T02:35:20.039Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T02:35:52.365Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T02:35:19.419Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSODlDNDY2OEQ3NUU5MDREQzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "pueblo la Mesa Cundinamarca",
+        "fecha": "2026-10-19T02:35:49.292Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Pueblo La Mesa Cundinamarca, el modem 4G/5G es la mejor opción porque te asegura conexión donde haya señal 4G o 5G y es ideal para fincas o zonas sin fibra.\n\nAquí las opciones con inversión y envío:\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000\n🚀 Modem WiFi Portátil 4G/5G (recomendado): $189.900 + $26.000\n⚡ Modem WiFi Portátil 5G: $199.900 + $26.000\n\n✅ Pagas al recibir, batería dura hasta 14 horas y conecta hasta 10 dispositivos.\n\n¿Lo usarás más para estudiar, trabajar, tu negocio o en casa? Así te ayudo mejor.",
+        "fecha": "2026-10-19T02:35:51.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSMjcyMzZFQ0M3ODE2REM1ODNCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573505251966",
