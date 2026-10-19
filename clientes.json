@@ -741,8 +741,8 @@
     "telefono": "573107036386",
     "nombre": "Super Burger comidas rápidas",
     "primerContacto": "2026-10-19T15:52:03.040Z",
-    "ultimoContacto": "2026-10-19T15:55:12.900Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T16:58:44.796Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -842,6 +842,25 @@
         "fecha": "2026-10-19T15:55:11.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSOTREQTYxMTQ1NEE0MUM1QzI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-19T16:58:36.137Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSNzYxNjEyQzFFODI1MTRENTMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por comunicarte con Super Burger, cuéntanos cómo podemos ayudarte\nAquí te dejo nuestro menú\nSigue este enlace para ver nuestro catálogo en WhatsApp: https://wa.me/c/573107036386",
+        "fecha": "2026-10-19T16:58:39.840Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por compartir el menú de Super Burger, ¿quieres que te ayude con algo relacionado a internet portátil o tecnología de GalviusTech?  \nTambién puedo mostrarte nuestros productos:  \n📶 Módem WiFi portátiles  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n🎁 Combos especiales  \n\n¿Te gustaría que te muestre algo en particular?",
+        "fecha": "2026-10-19T16:58:41.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSQjRGMzJENkM4M0M0RjNCNzE5AA=="
       }
     ],
     "paso": "conversando",
@@ -855,8 +874,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
