@@ -351,8 +351,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-18T23:52:21.226Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-19T01:13:09.391Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -561,6 +561,20 @@
         "fecha": "2026-10-18T23:51:37.979Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQTcyNzNEMDUzNkRCOEE2RUY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu direccion completa?",
+        "fecha": "2026-10-19T00:54:29.464Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSNzE2OTgxNDdEMTk0NTZFNzZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, seguimos con el proceso? Como vives en vereda, se enviaria a la OFICINA de interrapidisimo y lo reclamarías ahí",
+        "fecha": "2026-10-19T01:13:07.348Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQzYxQkJBNDBDRkMxMkFCQTcyAA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -574,7 +588,7 @@
       "departamento": "Meta",
       "ciudad": "Puerto López (Vereda Las Delicias )"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
@@ -583,8 +597,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
