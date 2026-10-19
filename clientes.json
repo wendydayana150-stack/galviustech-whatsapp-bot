@@ -8927,8 +8927,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-19T22:34:34.090Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-19T22:34:38.162Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9184,9 +9184,21 @@
         "fecha": "2026-10-19T22:34:32.814Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSRkRFODE1QUZCM0E2Qzg2QzZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el 30",
+        "fecha": "2026-10-19T22:34:37.261Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-19T22:34:37.268Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSNUYwRTQxQThDRDI1QjBGRjU4AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -9196,7 +9208,8 @@
       "celular": "3222357972",
       "departamento": "Meta",
       "ciudad": "Puerto López (Vereda Las Delicias )",
-      "direccion": "En este momento no"
+      "direccion": "En este momento no",
+      "barrio": "Para el 30"
     },
     "pausado": false,
     "etapaManual": null,
@@ -9209,7 +9222,12 @@
     "recordatorios": {
       "seguimientosEnviados": 0
     },
-    "esperaCompra": null
+    "esperaCompra": {
+      "fecha": "2026-10-30",
+      "texto": "Para el 30",
+      "desde": "2026-10-19T22:34:37.268Z",
+      "avisado": false
+    }
   },
   {
     "telefono": "573135358857",
