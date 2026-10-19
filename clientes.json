@@ -7291,8 +7291,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-19T01:36:28.407Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-19T20:03:11.243Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7522,6 +7522,13 @@
         "fecha": "2026-10-19T01:36:27.417Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSNjBERTFFNTREODg1MzUwQkUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, seguimos con el proceso? Como vives en vereda, se enviaria a la OFICINA de interrapidisimo y lo reclamarías ahí",
+        "fecha": "2026-10-19T20:03:10.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQUI0RTE1RTM1MkVCOUFDNkQ0AA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -7535,7 +7542,7 @@
       "departamento": "Meta",
       "ciudad": "Puerto López (Vereda Las Delicias )"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
@@ -7544,10 +7551,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "cierreMedias": true,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
