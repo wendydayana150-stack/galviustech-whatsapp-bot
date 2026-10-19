@@ -3,8 +3,8 @@
     "telefono": "573234521340",
     "nombre": "Enrique Marchena",
     "primerContacto": "2026-10-19T08:13:47.003Z",
-    "ultimoContacto": "2026-10-19T08:13:47.003Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T08:13:52.333Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T08:13:46.285Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSMTVGNjUxRjE2NEUwMzNCMUU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-19T08:13:48.337Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento:\n\n🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción.\n\nLas 3 versiones que tenemos son:\n\n📶 Modem WiFi Portátil 4G: conexión estable para fincas o veredas sin fibra, la inversión es de **$169.900 + $26.000 de envío**.\n\n🚀 Modem WiFi Portátil 4G/5G: ideal para cualquier zona con 4G o 5G, funciona para estudiar, trabajar o viajar, inversión de **$189.900 + $26.000 de envío**.\n\n⚡ Modem WiFi Portátil 5G: para zonas con buena cobertura 5G y máxima velocidad, inversión de **$199.900 + $26.000 de envío**.\n\n✅ Pagas al recibir, sin mensualidades, con garantía y soporte.\n\n¿En qué municipio o vereda lo necesitarías usar? Así te ayudo a elegir el que mejor te sirve.",
+        "fecha": "2026-10-19T08:13:51.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSRkVFQTExMzExNkRGQjdGQ0I3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1758477688782997",
