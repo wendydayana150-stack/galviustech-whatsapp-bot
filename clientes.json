@@ -1300,8 +1300,8 @@
     "telefono": "573114388754",
     "nombre": "edwar casierra",
     "primerContacto": "2026-10-19T16:58:15.774Z",
-    "ultimoContacto": "2026-10-19T19:59:49.593Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-19T20:10:36.465Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1647,11 +1647,18 @@
         "fecha": "2026-10-19T19:59:48.582Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSMjZBODFGMERGRTE3NTkxMTQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Se te hace el envio Hoy y te llega en 3 dias, pago contraentrega",
+        "fecha": "2026-10-19T20:10:35.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSQjJFQkE4RTE3QzJFOEQ0RDRFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -1661,7 +1668,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
-    }
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "CO.1435312021904248",
