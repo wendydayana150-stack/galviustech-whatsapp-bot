@@ -91,8 +91,8 @@
     "telefono": "573241814904",
     "nombre": "enamorada🫠🥰🥰",
     "primerContacto": "2026-10-19T15:18:13.600Z",
-    "ultimoContacto": "2026-10-19T15:33:27.570Z",
-    "mensajes": 38,
+    "ultimoContacto": "2026-10-19T15:34:28.588Z",
+    "mensajes": 39,
     "conversacion": [
       {
         "rol": "cliente",
@@ -810,6 +810,18 @@
         "fecha": "2026-10-19T15:33:26.807Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSMTg3RjA0MUQwMkQ3QTIwMzA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay señla",
+        "fecha": "2026-10-19T15:34:26.266Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por hacerme saber, Daniela. Si de verdad no hay señal de ningún operador en tu campo, el módem no te servirá porque necesita una SIM con señal.\n\nSi cambia algo o tienes otro lugar donde usarlo, me cuentas y te ayudo con la mejor opción. \n\n¿Quieres que te muestre otros productos de GalviusTech que podrían servirte, o prefieres que quede por ahora?",
+        "fecha": "2026-10-19T15:34:27.672Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSRUUzRUVCQUYzOUI1NDJFMjVFAA=="
       }
     ],
     "paso": "conversando",
@@ -820,7 +832,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
