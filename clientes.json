@@ -3,8 +3,8 @@
     "telefono": "573241814904",
     "nombre": "enamorada🫠🥰🥰",
     "primerContacto": "2026-10-19T15:18:13.600Z",
-    "ultimoContacto": "2026-10-19T15:27:19.563Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-19T15:27:22.851Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -461,14 +461,27 @@
         "fecha": "2026-10-19T15:27:18.573Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSNDFCMUM0OTVENzI5NTY3RkNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Daniela castillo",
+        "fecha": "2026-10-19T15:27:21.945Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T15:27:21.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQxODE0OTA0FQIAERgSQTM3M0MzRDcxNzcxNDYxNTU4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
-      "telefono": "573241814904"
+      "telefono": "573241814904",
+      "nombreCliente": "Daniela castillo"
     },
     "pausado": false,
     "etapaManual": null,
