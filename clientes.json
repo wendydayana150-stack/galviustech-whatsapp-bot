@@ -3,8 +3,8 @@
     "telefono": "573229713206",
     "nombre": "❤️",
     "primerContacto": "2026-10-19T14:24:39.635Z",
-    "ultimoContacto": "2026-10-19T14:24:39.635Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T14:25:18.642Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,18 +24,33 @@
         "fecha": "2026-10-19T14:24:38.730Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5NzEzMjA2FQIAERgSNjg5NjIzNzQyNTRCNzI0NUM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio",
+        "fecha": "2026-10-19T14:25:15.209Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para darte el precio necesito saber qué producto te interesa. ¿Buscas un módem WiFi portátil, una impresora térmica, lámparas solares, cámaras de seguridad o algo más? \n\nAsí puedo decirte la mejor opción que se ajuste a lo que necesitas y darte la inversión exacta. ¿Para qué quieres el equipo? ¿En qué ciudad o vereda estarías usándolo?",
+        "fecha": "2026-10-19T14:25:17.646Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NzEzMjA2FQIAERgSNUY4OUEyNjAxNzYzMzQ3QTkyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144014910",
