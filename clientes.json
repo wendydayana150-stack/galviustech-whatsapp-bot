@@ -118,8 +118,8 @@
     "telefono": "573114544836",
     "nombre": "😍⚽",
     "primerContacto": "2026-10-19T20:10:50.529Z",
-    "ultimoContacto": "2026-10-19T20:10:50.529Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T20:27:59.971Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -145,6 +145,18 @@
         "fecha": "2026-10-19T20:10:49.546Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NTQ0ODM2FQIAERgSMkZCNkZFNDhDNDJGRTQ3OTcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q más  modelos tiene",
+        "fecha": "2026-10-19T20:27:57.049Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, además de los módems WiFi portátiles, en GalviusTech tenemos otras categorías que seguro te interesan:\n\n📶 Módem WiFi portátiles 4G, 4G/5G y 5G  \n🖨️ Impresoras térmicas portátiles para varios usos  \n💡 Lámparas solares con sensor de movimiento y diseño tipo cámara  \n📹 Cámaras de seguridad para casa o negocio  \n⌚ Relojes inteligentes y clásicos  \n🎁 Combos especiales con descuentos\n\n¿Quieres que te muestre alguna categoría o producto en particular?",
+        "fecha": "2026-10-19T20:27:58.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NTQ0ODM2FQIAERgSMjg1MkJGNkRDOEIzOUY1MENDAA=="
       }
     ],
     "paso": "conversando",
@@ -157,7 +169,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216895768",
