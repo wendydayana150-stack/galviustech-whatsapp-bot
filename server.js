@@ -50,6 +50,7 @@ const ETAPAS = [
       { id: "Interaccion con IA", emoji: "🤖" },
       { id: "Cliente potencial", emoji: "🚩" },
       { id: "Pedido a medias", emoji: "🛒" },
+      { id: "Compra más adelante", emoji: "📅" },
       { id: "Datos completados", emoji: "✅" },
       { id: "No automatizado", emoji: "🔴" },
       { id: "Remarketing", emoji: "🔥" },
@@ -128,6 +129,7 @@ async function cargarSesionSiNueva(telefono) {
                                             preguntasPorProducto: {},
                                             botonesOfrecidos: {},
                                             esperandoDatosPedidoLibre: cliente.esperandoDatosPedidoLibre || null,
+                                            esperaCompra: cliente.esperaCompra || null,
                               };
                               return;
                   }
@@ -1187,6 +1189,7 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.motivoAtencion = sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null;
             existente.pausarSeguimiento = !!sesion.pausarSeguimiento || !!existente.pausarSeguimiento;
             existente.esperandoDatosPedidoLibre = sesion.esperandoDatosPedidoLibre || null;
+            existente.esperaCompra = sesion.esperaCompra || existente.esperaCompra || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
             // TOPE DE SEGUIMIENTOS (1-oct-2026, a pedido de Wendy: "no saturar a los clientes, por
             // mucho enviar 2 mensajes"): cada vez que hay actividad nueva en la conversacion (el
@@ -1214,6 +1217,7 @@ async function guardarCliente(telefono, nombreCliente) {
                   motivoAtencion: sesion.necesitaAtencion ? (sesion.motivoAtencion || null) : null,
                   pausarSeguimiento: !!sesion.pausarSeguimiento,
                   esperandoDatosPedidoLibre: sesion.esperandoDatosPedidoLibre || null,
+                  esperaCompra: sesion.esperaCompra || null,
             });
       }
 
@@ -1390,6 +1394,7 @@ function calcularEtapa(cliente, telefonosConPedido) {
       const datosPedido = ["nombreCliente", "celular", "departamento", "ciudad", "direccion", "barrio", "medioPago"];
       if (paso.startsWith("pedido_") || paso === "esperando_confirmacion_envio" || datosPedido.some((k) => cliente.pedido?.[k])) return "Pedido a medias";
       // Ya eligio un producto para pedir, pero no ha empezado a dar sus datos
+      if (cliente.esperaCompra && !cliente.esperaCompra.avisado) return "Compra más adelante";
       if (mostroIntencionCompra(cliente)) return "Pedido a medias";
       if (paso === "confirmar_producto" || cliente.pedido?.productoId) return "Cliente potencial";
       if (paso === "conversando" && (cliente.mensajes || 1) > 1) return "Interaccion con IA";
@@ -1449,6 +1454,7 @@ async function limpiarClientesAntiguos() {
                   // escribir: son historial de ventas real (y ademas quedarian sin pedido asociado
                   // en el panel), no leads sin convertir que ya no valga la pena conservar.
                   if (telefonosConPedido.has(c.telefono)) return true;
+                  if (esperaCompraVigente(c)) return true; // dijo que compra mas adelante: se guarda hasta su fecha
                   const ultimo = new Date(c.ultimoContacto).getTime();
                   if (isNaN(ultimo)) return true;
                   return ahora - ultimo <= limiteMs;
@@ -1812,6 +1818,7 @@ async function limpiarClientesInactivos() {
                         const inactivo = ahora - new Date(c.ultimoContacto).getTime() > TRES_DIAS_MS;
                         if (!inactivo) return true;
                         if (c.pausado || c.necesitaAtencion) return true;
+                        if (esperaCompraVigente(c)) return true;
                         if (c.pedido && Object.keys(c.pedido).length > 0) return true;
                         return false;
                   });
@@ -3405,11 +3412,115 @@ function recordarPedidoRegistrado(sesion, pedido) {
 const CONFIRMA_COMPROMISO = /^\s*(s[ií]+|claro|seguro|confirm[oa]|confirmado|de acuerdo|ok|okey|listo|dale|perfecto|por supuesto|as[ií] es|👍|✅)\b|confirmo|s[ií],? (estoy seguro|lo recibo|la recibo|claro)/i;
 const NIEGA_COMPROMISO = /^\s*no\b|cancel|ya no lo quiero|ya no la quiero|no estoy segur/i;
 
+// COMPRA MAS ADELANTE (oct-2026, Wendy: "cuando el cliente diga que espera a fin de mes o tal fecha, ponerlo en
+// una casilla distinta para tenerlo en cuenta y escribirle"). Devuelve { fecha: "AAAA-MM-DD", texto } o null.
+const MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
+const DIAS_SEMANA = ["domingo", "lunes", "martes", "miercoles", "jueves", "viernes", "sabado"];
+function hoyBogota() {
+      const d = new Date(Date.now() - 5 * 3600 * 1000);
+      return new Date(Date.UTC(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()));
+}
+const isoFecha = (d) => d.toISOString().slice(0, 10);
+function detectarEsperaCompra(textoOriginal) {
+      const t = quitarTildes(String(textoOriginal || "")).toLowerCase();
+      // Tiene que sonar a "lo compro/pido despues": espero, cuando, hasta, para, pago, plata, compro...
+      if (!/(espero|esperar|esperame|cuando|prima|hasta|para (el|la|fin|finales|quincena)|me pagan|me paguen|pago|plata|cobro|compro|pido|lo pido|lo compro|te aviso|le aviso|te escribo|le escribo|aguard)/.test(t)) return null;
+      const hoy = hoyBogota();
+      let fecha = null;
+      let m;
+      if (/(fin|final|finales|fines) de(l)? mes|fin de mes|a fin de mes/.test(t)) {
+            fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() + 1, 0));
+            if (hoy.getUTCDate() >= fecha.getUTCDate()) fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() + 2, 0));
+      } else if ((m = t.match(/(\d{1,2})\s*(de\s*)?(enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)/))) {
+            const mes = MESES.indexOf(m[3]);
+            fecha = new Date(Date.UTC(hoy.getUTCFullYear(), mes, Number(m[1])));
+            if (fecha < hoy) fecha = new Date(Date.UTC(hoy.getUTCFullYear() + 1, mes, Number(m[1])));
+      } else if ((m = t.match(/\b(en|para|a) (enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre)\b/))) {
+            const mes = MESES.indexOf(m[2]);
+            fecha = new Date(Date.UTC(hoy.getUTCFullYear(), mes, 1));
+            if (fecha < hoy) fecha = new Date(Date.UTC(hoy.getUTCFullYear() + (mes < hoy.getUTCMonth() ? 1 : 0), mes, mes === hoy.getUTCMonth() ? hoy.getUTCDate() : 1));
+      } else if (/(la )?(otra|proxima|siguiente) semana/.test(t)) {
+            fecha = new Date(hoy.getTime() + 7 * 86400000);
+      } else if ((m = t.match(/\b(el |este |el proximo |el otro )?(lunes|martes|miercoles|jueves|viernes|sabado|domingo)\b/))) {
+            const objetivo = DIAS_SEMANA.indexOf(m[2]);
+            let dif = (objetivo - hoy.getUTCDay() + 7) % 7;
+            if (dif === 0) dif = 7;
+            fecha = new Date(hoy.getTime() + dif * 86400000);
+      } else if ((m = t.match(/\b(el|hasta el|para el|despues del)\s+(\d{1,2})\b(?!\s*(mil|k|\$|%|und|unidades|dias))/))) {
+            const dia = Number(m[2]);
+            if (dia >= 1 && dia <= 31) {
+                  fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth(), dia));
+                  if (fecha <= hoy) fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() + 1, dia));
+            }
+      } else if (/prima/.test(t)) {
+            fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() >= 11 && hoy.getUTCDate() > 20 ? 12 : 11, 20));
+      } else if (/quincena|me pagan|me paguen|cuando me pague|pago de (la )?nomina|cuando cobre/.test(t)) {
+            const d = hoy.getUTCDate();
+            fecha = d < 15 ? new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth(), 15)) : new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() + 1, 0));
+            if (d >= 28) fecha = new Date(Date.UTC(hoy.getUTCFullYear(), hoy.getUTCMonth() + 1, 15));
+      }
+      if (!fecha || isNaN(fecha)) return null;
+      if (fecha - hoy > 120 * 86400000) return null; // mas de 4 meses: probablemente no es una fecha de compra
+      return { fecha: isoFecha(fecha), texto: String(textoOriginal).slice(0, 120) };
+}
+// Se guarda (no se borra en la limpieza) hasta 7 dias despues de su fecha
+function esperaCompraVigente(c) {
+      if (!c.esperaCompra?.fecha) return false;
+      return Date.now() < new Date(c.esperaCompra.fecha + "T23:59:59-05:00").getTime() + 7 * 86400000;
+}
+
+// En la fecha que dijo el cliente se le escribe una vez: mensaje normal si escribio en las ultimas 24 h,
+// si no, la plantilla aprobada de reactivacion (WhatsApp no deja otra cosa fuera de las 24 h).
+let ultimaRevisionComprasProgramadas = 0;
+async function avisarComprasProgramadas() {
+      if (!estaEnHorarioComercial()) return;
+      if (Date.now() - ultimaRevisionComprasProgramadas < 60 * 60 * 1000) return;
+      ultimaRevisionComprasProgramadas = Date.now();
+      const { datos } = await leerJSON(CLIENTES_API);
+      const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+      const hoy = isoFecha(hoyBogota());
+      const avisados = [];
+      for (const c of datos) {
+            const e = c.esperaCompra;
+            if (!e?.fecha || e.avisado || e.fecha > hoy || !esperaCompraVigente(c)) continue;
+            if (c.pausado || sesiones[c.telefono]?.pausado) continue;
+            if (pedidos.some((p) => p.telefono === c.telefono && p.fecha > e.desde)) { avisados.push(c.telefono); continue; }
+            const ultimoCliente = [...(c.conversacion || [])].reverse().find((m) => m.rol === "cliente");
+            const dentro24 = ultimoCliente && Date.now() - new Date(ultimoCliente.fecha).getTime() < 23 * 3600 * 1000;
+            const producto = catalogo.find((p) => p.id === (c.pedido?.productoId || c.ultimoProducto));
+            const nombre = String(c.nombre || "").replace(/[^\p{L}\s]/gu, " ").trim().split(/\s+/)[0] || "";
+            try {
+                  await cargarSesionSiNueva(c.telefono);
+                  if (dentro24) {
+                        await enviarTexto(c.telefono, `¡Hola${nombre ? " " + nombre : ""}! 😊 Me dijiste que te escribiera por estos días${producto ? ` para tu *${producto.nombreCorto || producto.nombre}*` : ""}. 🔥 Sigue con el 30% de descuento y pagas al recibir 🚚\n\n¿Te lo dejo listo hoy?`);
+                  } else {
+                        const categoria = categoriaPromoDiaria(c);
+                        await enviarPlantillaReactivacion(c.telefono, c.nombre || "cliente", (categoria && NOMBRE_PRODUCTO_PLANTILLA_POR_CATEGORIA[categoria]) || producto?.nombreCorto || producto?.nombre || "pedido");
+                  }
+                  avisados.push(c.telefono);
+            } catch (err) {
+                  console.error(`Error avisando compra programada a ${c.telefono}:`, err.response?.data || err.message);
+            }
+      }
+      if (avisados.length) {
+            for (const t of avisados) if (sesiones[t]?.esperaCompra) sesiones[t].esperaCompra.avisado = true;
+            await conColaDeArchivo(CLIENTES_API, async () => {
+                  const { datos: frescos, sha } = await leerJSON(CLIENTES_API);
+                  for (const c of frescos) if (avisados.includes(c.telefono) && c.esperaCompra) c.esperaCompra.avisado = true;
+                  await guardarJSON(CLIENTES_API, frescos, sha, `Aviso de compra programada a ${avisados.length} cliente(s)`);
+            });
+            console.log(`Compras programadas: ${avisados.length} aviso(s).`);
+      }
+}
+
 const SI_CORTO = /^((s[ií]+|claro|dale|ok)[,\s]*(s[ií]|quiero|lo quiero|la quiero|por favor|porfa|claro|de una|dale|me interesa|se[nñ]or(a)?)?|claro( que s[ií])?|de una|listo|ok(ay|a)?|(a|ah)?\s?buen[oa]s?|va|vale|perfecto|me interesa|lo quiero|la quiero|env[ií]e?melo|env[ií]alo|h[aá]gale|👍+|👌+|✅)[\s!.,👍👌😊🙏]*$/i;
 const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te lo (separo|dejo)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo)/i;
 
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
+      // "Espero a fin de mes / la quincena / el 30": se guarda la fecha para la columna "Compra mas adelante"
+      const espera = detectarEsperaCompra(texto);
+      if (espera) sesion.esperaCompra = { ...espera, desde: new Date().toISOString(), avisado: false };
 
       // Respuesta al mensaje de compromiso de un pedido recien registrado
       if (sesion.esperandoConfirmacionCompromiso && sesion.ultimoPedidoRegistrado) {
@@ -3804,6 +3915,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
 						
                         <div class="tarjeta-nombre">${c.nombre || "(sin nombre)"}</div>
                         <div class="tarjeta-tel">${c.telefono}</div>
+                        ${c.esperaCompra ? `<div style="font-size:12px;color:#8a5a00;background:#fff4d6;border-radius:6px;padding:3px 6px;margin:4px 0">📅 ${c.esperaCompra.fecha}${c.esperaCompra.avisado ? " (ya se le escribió)" : ""} · "${String(c.esperaCompra.texto || "").replace(/[<>"]/g, "").slice(0, 60)}"</div>` : ""}
                         <a href="/admin/chat/${encodeURIComponent(c.telefono)}">Ver / Escribir</a>
 						<a href="/admin/eliminar/${encodeURIComponent(c.telefono)}" onclick="return confirm('Eliminar a ${(c.nombre || c.telefono).replace(/'/g, "")}? Esta accion no se puede deshacer.');" style="color:#c0392b;">Eliminar</a>
                         <form method="POST" action="/admin/etapa/${encodeURIComponent(c.telefono)}">
@@ -5065,6 +5177,10 @@ app.listen(PUERTO, () => {
                   console.error("Error en limpieza periodica de clientes inactivos:", error.response?.data || error.message);
             });
       }, 6 * 60 * 60 * 1000);
+      // Compras programadas ("espero a fin de mes"): se revisa cada hora y se escribe en su fecha
+      setInterval(() => {
+            avisarComprasProgramadas().catch((error) => console.error("Error en compras programadas:", error.response?.data || error.message));
+      }, 30 * 60 * 1000);
       // Rescate de pedidos a medias: revisa cada hora (envia solo una vez por cliente)
       setInterval(() => {
             rescatarPedidosAMedias().catch((error) => console.error("Error en rescate de pedidos a medias:", error.response?.data || error.message));
