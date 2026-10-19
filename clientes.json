@@ -18611,8 +18611,8 @@
     "telefono": "573136551043",
     "nombre": "lopesales66",
     "primerContacto": "2026-10-17T10:35:23.064Z",
-    "ultimoContacto": "2026-10-19T20:03:32.717Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-10-19T20:21:31.794Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18947,6 +18947,18 @@
         "fecha": "2026-10-19T20:03:21.654Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSNzk0RjA5QzU5NzcxNjAyRTE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si será que llega hoy lunes",
+        "fecha": "2026-10-19T20:21:28.962Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 2 a 4 días hábiles después de despachado, y como el pedido está registrado desde el 17 de octubre, probablemente esté ya en camino o próximo a salir.\n\nCuando salga el envío te mando el número de guía para que puedas seguirlo. ¿Quieres que te avise apenas tenga noticias del despacho? \n\n¿Algo más en lo que te pueda ayudar mientras esperas?",
+        "fecha": "2026-10-19T20:21:30.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSQ0Q3NTQ3NDVEMkUxMzAyNkI2AA=="
       }
     ],
     "paso": "conversando",
@@ -18961,7 +18973,8 @@
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
-    }
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "573132751158",
