@@ -3,8 +3,8 @@
     "telefono": "573144382978",
     "nombre": "geo&geo",
     "primerContacto": "2026-10-19T16:52:48.195Z",
-    "ultimoContacto": "2026-10-19T16:52:48.195Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T16:53:19.880Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-19T16:52:46.792Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSMkY5RkYwQUY1OUZCQjMwNUI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-10-19T16:53:16.393Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy con nuestras soluciones de conectividad, impresoras, lámparas o cámaras? ¿Qué necesitas?",
+        "fecha": "2026-10-19T16:53:17.806Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSQTgyN0JDMDU0Q0U5NjcwQTFGAA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573134307503",
