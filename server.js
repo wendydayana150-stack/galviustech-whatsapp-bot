@@ -209,16 +209,22 @@ function destinatario(id) {
 
 async function enviarTexto(telefono, texto) {
       const registro = registrarMensaje(telefono, "bot", texto);
-      const respuesta = await axios.post(
-            GRAPH_URL,
-            {
-                  messaging_product: "whatsapp",
-                  ...destinatario(telefono),
-                  type: "text",
-                  text: { body: texto },
-            },
-            { headers: { Authorization: `Bearer ${META_TOKEN}` } }
-            );
+      const cuerpo = { messaging_product: "whatsapp", ...destinatario(telefono), type: "text", text: { body: texto } };
+      const opciones = { headers: { Authorization: `Bearer ${META_TOKEN}` } };
+      let respuesta;
+      try {
+            respuesta = await axios.post(GRAPH_URL, cuerpo, opciones);
+      } catch (error) {
+            // Fallo pasajero de WhatsApp (oct-2026: 1 de 27 bienvenidas termino en "problema tecnico"):
+            // se reintenta una vez antes de rendirse. Los errores del cliente (numero invalido, fuera de 24 h) no.
+            const estado = error.response?.status;
+            const codigo = error.response?.data?.error?.code;
+            const pasajero = !estado || estado >= 500 || estado === 429 || [1, 2, 4, 131000, 131016, 130429].includes(codigo);
+            console.error(`Envio de texto a ${telefono} fallo (${estado || "sin respuesta"} ${codigo || ""}): ${error.response?.data?.error?.message || error.message}${pasajero ? " - reintentando" : ""}`);
+            if (!pasajero) throw error;
+            await new Promise((r) => setTimeout(r, 2000));
+            respuesta = await axios.post(GRAPH_URL, cuerpo, opciones);
+      }
       if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
@@ -3858,6 +3864,28 @@ app.get("/admin", requiereLogin, async (req, res) => {
       }
 });
 
+// Envia el listado de productos que manejamos + el catalogo SIN pausar el bot (oct-2026, Wendy: "activar
+// bots y enviar las opciones de productos"). Deja el bot activo para que siga atendiendo la respuesta.
+app.post("/admin/chat/:telefono/opciones", requiereLogin, async (req, res) => {
+      const telefono = req.params.telefono;
+      try {
+            await cargarSesionSiNueva(telefono);
+            const sesion = obtenerSesion(telefono);
+            sesion.pausado = false;
+            sesion.necesitaAtencion = false;
+            sesion.motivoAtencion = null;
+            if (!sesion.paso || sesion.paso === "inicio") sesion.paso = "conversando";
+            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
+            await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
+            await guardarCliente(telefono);
+            res.redirect(`/admin/chat/${encodeURIComponent(telefono)}`);
+      } catch (error) {
+            console.error("Error enviando opciones de productos:", error.response?.data || error.message);
+            res.status(500).send("No se pudieron enviar las opciones (si el cliente lleva mas de 24 horas sin escribir, WhatsApp no deja enviarle mensajes normales).");
+      }
+});
+
 app.get("/admin/pausa/:telefono", requiereLogin, async (req, res) => {
       try {
             await alternarPausa(req.params.telefono);
@@ -3984,6 +4012,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             <div class="pausa">
             Estado del bot: <strong>${cliente.pausado ? "Pausado" : "Activo"}</strong> -
             <a href="/admin/pausa/${encodeURIComponent(cliente.telefono)}">${cliente.pausado ? "Reanudar bot" : "Pausar bot"}</a>
+            <form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/opciones" style="display:inline" onsubmit="return confirm('¿Enviar a este cliente el listado de productos y el catálogo? El bot queda activo.');"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#1a73e8;color:#fff;cursor:pointer">📋 Enviar opciones de productos</button></form>
             </div>
             <div class="chat">
             ${burbujas || "<p>Todavia no hay mensajes guardados de esta conversacion.</p>"}
