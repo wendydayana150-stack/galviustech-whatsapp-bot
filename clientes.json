@@ -3,8 +3,8 @@
     "telefono": "573008240115",
     "nombre": "Carlos Patarroyo",
     "primerContacto": "2026-10-19T20:18:23.276Z",
-    "ultimoContacto": "2026-10-19T20:25:52.084Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T20:28:29.863Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-10-19T20:25:51.164Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4MjQwMTE1FQIAERgSNzQzQjE1ODU3MEFEMURCMTM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo subo a Bogotá y te contacto esta semana gracias",
+        "fecha": "2026-10-19T20:28:27.601Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta cuando estés listo para ayudarte con tu modem y la conexión en Bogotá o donde lo necesites.  \n\nRecuerda que tienes 30 días de garantía y puedes pagar contra entrega.  \n\nCualquier duda aquí estoy para apoyarte. ¡Nos hablamos pronto!",
+        "fecha": "2026-10-19T20:28:28.915Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4MjQwMTE1FQIAERgSMkRFMzlDNUQzRDU4RDAwMkNCAA=="
       }
     ],
     "paso": "conversando",
@@ -107,7 +119,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
