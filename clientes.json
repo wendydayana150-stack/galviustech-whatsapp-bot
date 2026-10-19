@@ -5129,8 +5129,8 @@
     "telefono": "573007581133",
     "nombre": "❤️Ana❤️",
     "primerContacto": "2026-10-19T12:31:27.705Z",
-    "ultimoContacto": "2026-10-19T12:34:46.752Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-19T20:01:33.266Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5255,6 +5255,13 @@
         "fecha": "2026-10-19T12:34:45.993Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3NTgxMTMzFQIAERgSQzkyQzQwOUYxOTBEQTg1MzQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, tienes alguna duda? o deseas realizar el pedido?",
+        "fecha": "2026-10-19T20:01:32.176Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3NTgxMTMzFQIAERgSNTM0MDk3N0M1Q0NCOTRGMUM4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -5264,7 +5271,7 @@
       "precio": 169900,
       "telefono": "573007581133"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
@@ -5273,9 +5280,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
