@@ -3,8 +3,8 @@
     "telefono": "573144299934",
     "nombre": "kevinsabogal959",
     "primerContacto": "2026-10-19T17:02:10.048Z",
-    "ultimoContacto": "2026-10-19T17:02:10.048Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T17:02:13.943Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-19T17:02:07.477Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0Mjk5OTM0FQIAERgSNUE1NkVGMUVDRjcxNDU5NDNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "?!",
+        "fecha": "2026-10-19T17:02:11.605Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dame un segundito! Para recomendarte el módem ideal para ti, solo dime en qué municipio o vereda lo vas a usar, o para qué lo necesitas, si es para estudiar, trabajar, tu negocio o tu hogar. Así te explico cuál es el que más te conviene con los precios y beneficios.\n\n¿Me puedes contar eso? Así te ayudo rápido.",
+        "fecha": "2026-10-19T17:02:12.680Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0Mjk5OTM0FQIAERgSMjdEMjI0QkM5ODk1ODNBNTEzAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1476401037682670",
