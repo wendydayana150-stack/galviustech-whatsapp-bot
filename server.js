@@ -1374,6 +1374,7 @@ function calcularEtapa(cliente, telefonosConPedido) {
       const datosPedido = ["nombreCliente", "celular", "departamento", "ciudad", "direccion", "barrio", "medioPago"];
       if (paso.startsWith("pedido_") || paso === "esperando_confirmacion_envio" || datosPedido.some((k) => cliente.pedido?.[k])) return "Pedido a medias";
       // Ya eligio un producto para pedir, pero no ha empezado a dar sus datos
+      if (mostroIntencionCompra(cliente)) return "Pedido a medias";
       if (paso === "confirmar_producto" || cliente.pedido?.productoId) return "Cliente potencial";
       if (paso === "conversando" && (cliente.mensajes || 1) > 1) return "Interaccion con IA";
       return "Contacto inicial";
@@ -1983,7 +1984,27 @@ async function marcarPromoDiariaEnviada(telefonos, fechaTexto) {
 function esPedidoAMedias(c) {
       const paso = c.paso || "";
       const datosPedido = ["nombreCliente", "celular", "departamento", "ciudad", "direccion", "barrio", "medioPago"];
-      return paso.startsWith("pedido_") || paso === "confirmar_producto" || datosPedido.some((k) => c.pedido?.[k]);
+      return paso.startsWith("pedido_") || paso === "confirmar_producto" || datosPedido.some((k) => c.pedido?.[k]) || mostroIntencionCompra(c);
+}
+
+// INTENCION DE COMPRA SIN PEDIDO (oct-2026, Wendy: "JAMAS permitir que se pierda un cliente que quiere comprar").
+// Se lee de la conversacion: dijo que si a una pregunta de cierre, o escribio algo como "me interesa", "lo quiero",
+// "como lo pido", "es contra entrega?". Esos clientes cuentan como pedido a medias: salen en esa columna del panel,
+// reciben el rescate y entran en la pagina de cierre.
+const INTENCION_COMPRA = /(lo quiero|la quiero|quiero (comprar|uno|una|el modem|la impresora|pedir)|c[oó]mo (lo|la|hago para) (pido|compro|pedir|comprar)|me interesa|env[ií](e|a)melo|cu[aá]ndo (llega|me llega)|contra ?entrega|pago al recibir|separ(a|e)melo|h[aá]game el pedido|hagamos el pedido|s[ií], env[ií]amelo|s[ií], quiero este)/i;
+function mostroIntencionCompra(c) {
+      const conv = c.conversacion || [];
+      for (let i = 0; i < conv.length; i++) {
+            const m = conv[i];
+            if (m.rol !== "cliente") continue;
+            const texto = String(m.texto || "").replace(/^\[Selecciono\]\s*/i, "").trim();
+            if (INTENCION_COMPRA.test(texto)) return true;
+            if (SI_CORTO.test(texto)) {
+                  const ultimoBot = conv.slice(0, i).reverse().find((x) => x.rol === "bot");
+                  if (ultimoBot && PREGUNTA_CIERRE.test(ultimoBot.texto || "")) return true;
+            }
+      }
+      return false;
 }
 
 let ultimoRescatePedidos = 0;
