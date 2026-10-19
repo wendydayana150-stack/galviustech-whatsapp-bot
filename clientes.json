@@ -3,8 +3,8 @@
     "telefono": "573215830365",
     "nombre": "Emi",
     "primerContacto": "2026-10-19T08:29:50.434Z",
-    "ultimoContacto": "2026-10-19T08:29:50.434Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T08:30:43.072Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T08:29:49.502Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSMTQ4ODFFRkI2MjExODBENDE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuantos teléfonos se pueden conectar",
+        "fecha": "2026-10-19T08:30:40.366Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cada módem WiFi portátil de GalviusTech puede conectar hasta 10 dispositivos simultáneamente, incluyendo celulares, computadores y tablets.\n\nPor cierto, ¿en qué municipio o vereda lo necesitas para orientarte mejor sobre la cobertura y recomendarte el modelo ideal para ti?",
+        "fecha": "2026-10-19T08:30:42.189Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSREVBNkYwRkM1QjgwNzc3NTI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234521340",
