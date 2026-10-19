@@ -2475,8 +2475,8 @@
     "telefono": "573108589169",
     "nombre": "Marta Lia",
     "primerContacto": "2026-10-19T02:35:20.039Z",
-    "ultimoContacto": "2026-10-19T02:35:52.365Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T15:11:04.193Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2514,22 +2514,32 @@
         "fecha": "2026-10-19T02:35:51.638Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSMjcyMzZFQ0M3ODE2REM1ODNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "me envias catalogo lamparas solares por favor",
+        "fecha": "2026-10-19T15:11:00.198Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te muestro las opciones de lámparas solares que tenemos en GalviusTech para que elijas la que mejor te sirve:\n\n💡 *Lamparas 3 lentes X 2*: $160.000  \n☀️ Energía solar, 3 lentes para mayor cobertura, ideal para entradas, patios y negocios.\n\n💡 *LAMPARA CON SENSOR X 2 Unidades*: $119.900  \n🌞 Panel solar + sensor de movimiento, diseñada para dar más seguridad iluminando cuando detecta actividad.\n\n💡 *LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.*: $139.900  \n🌟 Pack de 3 lámparas con sensor de movimiento y panel solar, fáciles de instalar y sin costo en luz.\n\n💡 *Lamparas 3 lentes X3*: $199.900  \n🔆 3 lámparas con 3 lentes cada una, para cubrir 3 espacios distintos, con envío gratis.\n\n¿Quieres que te recomiende alguna para qué zona o uso específico? ¿Cuántas unidades crees que necesitas?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T15:11:03.292Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSNjgwRjhBNjRDMjE0MkNFMzlGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "lamparas-3-lentes-x-2",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
