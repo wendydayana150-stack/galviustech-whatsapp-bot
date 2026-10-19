@@ -48,8 +48,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T20:11:22.430Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-19T20:11:47.815Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -173,15 +173,28 @@
         "fecha": "2026-10-19T20:11:21.550Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSMDIxQkMxMjBDQzM1RDgxNkYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acomo sale el mes",
+        "fecha": "2026-10-19T20:11:46.855Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T20:11:46.859Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSNzYzOTVEN0JCQkQxREMyMTUzAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573216895768",
-      "ciudad": "Pero toca recarga como un celular paquete de datos"
+      "ciudad": "Pero toca recarga como un celular paquete de datos",
+      "nombreCliente": "Acomo sale el mes"
     },
     "pausado": false,
     "etapaManual": null,
