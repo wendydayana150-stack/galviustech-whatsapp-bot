@@ -3972,6 +3972,36 @@ app.post("/admin/chat/:telefono/opciones", requiereLogin, async (req, res) => {
       }
 });
 
+// Reactiva el bot en un chat pausado y le responde de una vez el ultimo mensaje del cliente (oct-2026, Wendy:
+// "reactiva el bot en el chat de lopesales66 para que le responda"). Solo si escribio en las ultimas 24 h.
+app.post("/admin/chat/:telefono/reactivar-responder", requiereLogin, async (req, res) => {
+      const telefono = req.params.telefono;
+      try {
+            await conColaPorTelefono(telefono, async () => {
+                  await cargarSesionSiNueva(telefono);
+                  const sesion = obtenerSesion(telefono);
+                  sesion.pausado = false;
+                  sesion.necesitaAtencion = false;
+                  sesion.motivoAtencion = null;
+                  if (!sesion.paso || sesion.paso === "inicio") sesion.paso = "conversando";
+                  const conv = sesion.transcripcion || [];
+                  const ultimo = conv[conv.length - 1];
+                  const reciente = ultimo && Date.now() - new Date(ultimo.fecha).getTime() < 23.5 * 3600 * 1000;
+                  if (ultimo && ultimo.rol === "cliente" && reciente) {
+                        // Junta los mensajes seguidos del cliente que quedaron sin respuesta
+                        const pendientes = [];
+                        for (let i = conv.length - 1; i >= 0 && conv[i].rol === "cliente"; i--) pendientes.unshift(String(conv[i].texto || "").replace(/^\[Selecciono\]\s*/i, ""));
+                        await manejarTextoLibre(telefono, pendientes.join("\n"));
+                  }
+                  await guardarCliente(telefono);
+            });
+            res.redirect(`/admin/chat/${encodeURIComponent(telefono)}`);
+      } catch (error) {
+            console.error("Error reactivando y respondiendo:", error.response?.data || error.message);
+            res.status(500).send("No se pudo reactivar y responder.");
+      }
+});
+
 app.get("/admin/pausa/:telefono", requiereLogin, async (req, res) => {
       try {
             await alternarPausa(req.params.telefono);
@@ -4098,6 +4128,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             <div class="pausa">
             Estado del bot: <strong>${cliente.pausado ? "Pausado" : "Activo"}</strong> -
             <a href="/admin/pausa/${encodeURIComponent(cliente.telefono)}">${cliente.pausado ? "Reanudar bot" : "Pausar bot"}</a>
+            ${cliente.pausado ? `<form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/reactivar-responder" style="display:inline"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#2e7d32;color:#fff;cursor:pointer">▶️ Reactivar bot y responder</button></form>` : ""}
             <form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/opciones" style="display:inline" onsubmit="return confirm('¿Enviar a este cliente el listado de productos y el catálogo? El bot queda activo.');"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#1a73e8;color:#fff;cursor:pointer">📋 Enviar opciones de productos</button></form>
             </div>
             <div class="chat">
