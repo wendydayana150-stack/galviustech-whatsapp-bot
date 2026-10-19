@@ -3,8 +3,8 @@
     "telefono": "573026923407",
     "nombre": "Luis Pacheco",
     "primerContacto": "2026-10-19T18:00:14.268Z",
-    "ultimoContacto": "2026-10-19T18:01:24.738Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-19T18:02:16.410Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -66,6 +66,25 @@
         "fecha": "2026-10-19T18:01:23.640Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2OTIzNDA3FQIAERgSODAxQzI5OUU5MEIyNUQ4QTYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acá la señal muy debil",
+        "fecha": "2026-10-19T18:02:12.776Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En zonas con señal débil, el módem 4G/5G de GalviusTech es justo lo que necesitas porque tiene una antena más potente que un celular común para captar mejor la señal.\n\nCon él es más probable que tengas conexión estable donde el celular apenas agarra señal.\n\nSolo dime si quieres que te ayude a dejar tu pedido listo para que te llegue y no dependas más de buscar WiFi o esperar que llegue la fibra.\n\n¿Te lo envío a tu casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-19T18:02:14.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2OTIzNDA3FQIAERgSMzY4QzlCMEM4Q0NENkUyOEM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-19T18:02:15.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2OTIzNDA3FQIAERgSRTJBMDFDQ0MyNDZCQUIwNzgwAA=="
       }
     ],
     "paso": "conversando",
