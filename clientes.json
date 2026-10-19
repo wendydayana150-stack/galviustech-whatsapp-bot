@@ -47,8 +47,8 @@
     "telefono": "573209694736",
     "nombre": "Jorge",
     "primerContacto": "2026-10-19T12:32:18.826Z",
-    "ultimoContacto": "2026-10-19T12:44:26.020Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-19T12:44:46.117Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -208,6 +208,18 @@
         "fecha": "2026-10-19T12:44:25.152Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSRjczRUJFODdCMTM1RkNBNjExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo otra pregunta",
+        "fecha": "2026-10-19T12:44:44.262Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime, ¿qué otra pregunta tienes? Aquí te ayudo con lo que necesites saber del módem o cualquier cosa relacionada. ¿Qué te gustaría saber?",
+        "fecha": "2026-10-19T12:44:45.165Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSOUZENjY3NTA2NjE2RUI0QzQ4AA=="
       }
     ],
     "paso": "conversando",
