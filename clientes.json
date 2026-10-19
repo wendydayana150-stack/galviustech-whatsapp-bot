@@ -1722,8 +1722,8 @@
     "telefono": "573015676627",
     "nombre": "Albeiro",
     "primerContacto": "2026-10-19T13:27:06.094Z",
-    "ultimoContacto": "2026-10-19T13:27:06.094Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T15:44:33.909Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1749,6 +1749,25 @@
         "fecha": "2026-10-19T13:27:05.349Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1Njc2NjI3FQIAERgSQjkwRTQxQTRCMUMzNjgwRDNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-19T14:28:36.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1Njc2NjI3FQIAERgSMUY0NkQyODI0QTdGMjBCNzg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-19T15:44:31.755Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 ¿En qué municipio o vereda necesitas el módem y para qué lo usarías principalmente? (Trabajo, estudio, negocio o tu hogar) Así te puedo recomendar el mejor modelo para ti. ¿Me cuentas?",
+        "fecha": "2026-10-19T15:44:32.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1Njc2NjI3FQIAERgSNTcwNEJDODA4MkE1QzVENDc2AA=="
       }
     ],
     "paso": "conversando",
@@ -1762,8 +1781,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
