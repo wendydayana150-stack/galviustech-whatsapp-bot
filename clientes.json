@@ -47,8 +47,8 @@
     "telefono": "573216142796",
     "nombre": "FLOR..",
     "primerContacto": "2026-10-19T11:40:08.680Z",
-    "ultimoContacto": "2026-10-19T11:40:08.680Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T11:42:14.043Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -74,18 +74,33 @@
         "fecha": "2026-10-19T11:40:07.809Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MTQyNzk2FQIAERgSRDBFM0RDQTZFQzA3QkYzQTQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de zuares cauca",
+        "fecha": "2026-10-19T11:42:11.224Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por el dato. En zonas como Zuares, Cauca, donde la cobertura 5G puede ser limitada, te recomiendo el módem 4G/5G porque te garantiza conectividad en 4G y también aprovecha si hay 5G.\n\nLa inversión sería:\n📶 Módem WiFi Portátil 4G/5G por **$189.900** + $26.000 de envío.\nTiene batería recargable, conecta hasta 10 dispositivos y brinda mejor señal que el celular en zonas rurales.\n\n¿Lo quieres para estudio, trabajo, negocio o para la casa? Así te ayudo a cerrar tu pedido.",
+        "fecha": "2026-10-19T11:42:13.064Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MTQyNzk2FQIAERgSMzEwOEE3Q0U0NDQwNDU4OEUyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118722264",
