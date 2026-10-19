@@ -6404,8 +6404,8 @@
     "telefono": "573167383371",
     "nombre": "Andrea Mendieta",
     "primerContacto": "2026-10-19T11:41:52.777Z",
-    "ultimoContacto": "2026-10-19T20:47:54.465Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-19T20:48:52.368Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6569,6 +6569,18 @@
         "fecha": "2026-10-19T20:47:53.472Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSNzREMjkzMjZFMjFCNDlFQ0U5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ps sería apartarlo y apenas me llegue yo les escribo",
+        "fecha": "2026-10-19T20:48:49.858Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, claro que sí, cuando estés listo me escribes y te ayudo a dejar tu pedido listo sin problema.\n\nMientras tanto, quedo atenta para cuando tengas el dinero y quieras hacer tu pedido.\n\nSi tienes alguna otra duda o quieres conocer más productos para tu casa o negocio, dime.\n\n¿Quieres que te muestre otras opciones como lámparas solares o cámaras de seguridad para complementar tu finca?",
+        "fecha": "2026-10-19T20:48:51.305Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSRkIwQjUxMDU3RUFCQTk2MzE0AA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -6581,7 +6593,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
