@@ -3,8 +3,8 @@
     "telefono": "573015126939",
     "nombre": "Mifelicidad Y Mi Cielito",
     "primerContacto": "2026-10-19T21:40:23.732Z",
-    "ultimoContacto": "2026-10-19T21:40:23.732Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T21:40:43.679Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-19T21:40:22.911Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MTI2OTM5FQIAERgSQ0E1QkMxMTA0MzJCODk0QkQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santa Marta",
+        "fecha": "2026-10-19T21:40:41.030Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por decirme que es en Santa Marta.\n\nAhora, para recomendarte bien, dime ¿lo necesitas más para estudiar, trabajar, para tu negocio o para usar en tu hogar?\n\nAsí te enseño el módem que mejor te sirve y la inversión para que tengas internet donde lo necesites. ¿Me cuentas?",
+        "fecha": "2026-10-19T21:40:42.753Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MTI2OTM5FQIAERgSNDNCRUY5QTU4NEY3RDc2RkNGAA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573507786676",
