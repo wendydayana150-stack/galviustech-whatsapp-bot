@@ -204,8 +204,8 @@
     "telefono": "573243723608",
     "nombre": "Yilver G",
     "primerContacto": "2026-10-19T02:47:10.235Z",
-    "ultimoContacto": "2026-10-19T02:47:10.235Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T03:51:21.387Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,18 +231,33 @@
         "fecha": "2026-10-19T02:47:09.300Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzNzIzNjA4FQIAERgSOUQ3ODQ5NTYxNEIxQkFFQzM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-19T03:51:17.907Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción. \n\nTe cuento rápido 2 beneficios clave: \n1) Puedes conectar varios dispositivos al mismo WiFi sin depender del celular. \n2) Perfecto para fincas, veredas o viajar, fácil de llevar y usar donde haya señal.\n\nTenemos estas 3 opciones con sus inversiones (+ $26.000 de envío):  \n📶 Módem WiFi Portátil 4G: **$169.900**  \n📶 Módem WiFi Portátil 4G/5G (recomendado para mayor seguridad en cobertura): **$189.900**  \n📶 Módem WiFi Portátil 5G (si tienes buena cobertura 5G y quieres máxima velocidad): **$199.900**\n\nDónde lo usarías principalmente: ¿en casa, para trabajo, estudio o negocio? Así te ayudo a elegir el modelo ideal.",
+        "fecha": "2026-10-19T03:51:20.541Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzNzIzNjA4FQIAERgSQjFDRTE1Q0M0OTlBNkEyRDYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108589169",
