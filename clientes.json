@@ -3,8 +3,8 @@
     "telefono": "CO.2647262379042429",
     "nombre": "Juanka",
     "primerContacto": "2026-10-19T15:47:42.866Z",
-    "ultimoContacto": "2026-10-19T15:47:42.866Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T15:47:47.333Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T15:47:41.911Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY0NzI2MjM3OTA0MjQyORUUABEYEjQwNzgzRkRFQUNDMjUzRUFGNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto cuesta",
+        "fecha": "2026-10-19T15:47:44.804Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el *precio* del módem WiFi portátil 4G es de **$169.900 + $26.000 de envío**, una inversión para tener internet donde lo necesites sin depender de fibra óptica ni instalaciones complicadas. \n\nTambién tenemos la versión 4G/5G en **$189.900 + envío**, que funciona en zonas con señal 4G y 5G, y la versión 5G pura por **$199.900 + envío**, para máxima velocidad donde haya cobertura 5G.\n\nTodas las versiones tienen buena cobertura en zonas rurales, conectan varios dispositivos y son fáciles de llevar.\n\n¿En qué municipio o vereda lo vas a usar o para qué lo necesitas principalmente? Así te recomiendo la opción que mejor te conviene.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T15:47:46.449Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY0NzI2MjM3OTA0MjQyORUUABEYEkFFMTg0NzNFMThENDAwQjQyNAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573226241081",
