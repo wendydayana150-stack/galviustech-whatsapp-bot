@@ -994,7 +994,17 @@ async function enviarFotosProducto(telefono, texto) {
                   await enviarImagen(telefono, url, p.nombreCorto || p.nombre);
             }
       }
-      await enviarTexto(telefono, "Ahi tienes las fotos! Te cuento mas detalles o seguimos con tu pedido?");
+      // Cierre fuerte despues de las fotos (oct-2026): con un solo producto, boton directo para pedirlo
+      if (conFotos.length === 1) {
+            const sesionFotos = obtenerSesion(telefono);
+            sesionFotos.ultimoProducto = conFotos[0].id;
+            await enviarBotones(telefono, `¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir`, [
+                  { id: `pedir_${conFotos[0].id}`, titulo: "✅ Sí, envíamelo" },
+                  { id: "ver_catalogo", titulo: "Ver otros" },
+            ]);
+      } else {
+            await enviarTexto(telefono, "¡Ahí tienes las fotos! 📸 ¿Cuál te gusta más? Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚");
+      }
 }
 
 async function leerJSON(url) {
@@ -3352,8 +3362,8 @@ const MENSAJE_OTRAS_OPCIONES =
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
 // tambien cuando el cliente deja de responder y cuando ya compro).
 async function enviarListadoProductos(telefono, intro, cierre) {
-      await enviarTexto(telefono, `${intro}\n\n${LISTA_PRODUCTOS_GALVIUS}\n\n${cierre}`);
       await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+      await enviarTexto(telefono, `${intro}\n\n${LISTA_PRODUCTOS_GALVIUS}\n\n${cierre}`);
 }
 
 function preguntaOtrosProductos(texto) {
@@ -3436,8 +3446,9 @@ async function manejarTextoLibre(telefono, texto) {
       // de la tienda aparte, al final, para que la vista previa del link no quede arriba.
       if (preguntaOtrosProductos(texto)) {
             registrarMensaje(telefono, "bot", "[Listado de todo lo que vendemos + link de la tienda]");
-            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
+            // El link va primero y el listado (que termina con la pregunta) al final, para que lo ultimo sea la pregunta
             await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
             if (Array.isArray(sesion.historial)) {
                   sesion.historial.push({ role: "user", content: texto });
                   sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
@@ -3570,6 +3581,21 @@ async function manejarTextoLibre(telefono, texto) {
                   if (conFoto.length) {
                         registrarMensaje(telefono, "bot", `[Envio fotos: ${conFoto.map((p) => p.nombreCorto || p.nombre).join(", ")}]`);
                         seLeRespondioAlgo = true;
+                        // PREGUNTA DE CIERRE DESPUES DE LAS FOTOS (oct-2026, Wendy: "envia fotos y no hace preguntas
+                        // de cierre"): el texto de la IA sale antes de las fotos, asi que su pregunta quedaba arriba,
+                        // tapada. Lo ultimo que ve el cliente debe ser una pregunta para avanzar.
+                        if (!productoId) {
+                              if (conFoto.length === 1) {
+                                    sesion.ultimoProducto = conFoto[0].id;
+                                    sesion.botonesOfrecidos[conFoto[0].id] = sesion.preguntasPorProducto[conFoto[0].id] || 1;
+                                    await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+                                          { id: `pedir_${conFoto[0].id}`, titulo: "✅ Sí, envíamelo" },
+                                          { id: "ver_catalogo", titulo: "Ver otros" },
+                                    ]);
+                              } else {
+                                    await enviarTexto(telefono, "¿Cuál te gusta más? 😊 Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚");
+                              }
+                        }
                   }
             }
 
@@ -3934,8 +3960,9 @@ app.post("/admin/chat/:telefono/opciones", requiereLogin, async (req, res) => {
             sesion.necesitaAtencion = false;
             sesion.motivoAtencion = null;
             if (!sesion.paso || sesion.paso === "inicio") sesion.paso = "conversando";
-            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
+            // El link va primero y el listado (que termina con la pregunta) al final, para que lo ultimo sea la pregunta
             await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
             if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
             await guardarCliente(telefono);
             res.redirect(`/admin/chat/${encodeURIComponent(telefono)}`);
