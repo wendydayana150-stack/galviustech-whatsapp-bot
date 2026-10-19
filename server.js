@@ -1478,8 +1478,24 @@ function lineaPrecioRespaldo(productoId, enfoque) {
       return null;
 }
 
-async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto) {
+// Pedidos ya registrados del cliente (oct-2026, caso lopesales66: ya habia comprado el 17-oct y al preguntar
+// "ya lo enviaron?" Michell le volvio a pedir a donde enviarlo). Se lee pedidos.json con cache de 1 minuto.
+let cachePedidos = { t: 0, datos: [] };
+async function notaPedidosDelCliente(telefono) {
+      try {
+            if (Date.now() - cachePedidos.t > 60 * 1000) cachePedidos = { t: Date.now(), datos: (await leerJSON(PEDIDOS_API)).datos || [] };
+            const suyos = cachePedidos.datos.filter((p) => p.telefono === telefono).slice(-3);
+            if (!suyos.length) return "";
+            const lista = suyos.map((p) => `${p.nombreProducto} para ${p.ciudad || "?"}${p.departamento ? ", " + p.departamento : ""} (${p.medioPago || "pago ?"}, registrado el ${String(p.fecha || "").slice(0, 10)})`).join("; ");
+            return `\n\nESTE CLIENTE YA TIENE PEDIDO(S) REGISTRADO(S): ${lista}. NO le vuelvas a pedir datos de envio ni le preguntes a donde enviarlo para ese pedido. Si pregunta si ya se envio o por la guia: dile con calma que su pedido esta registrado y en proceso de despacho, que llega en 2 a 4 dias habiles despues de despachado y que en cuanto salga le enviamos el numero de guia por este chat; no inventes que ya salio ni inventes una guia. Si quiere otro producto, ese si es un pedido nuevo.`;
+      } catch (e) {
+            return "";
+      }
+}
+
+async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto, telefono) {
       sesion.historial.push({ role: "user", content: mensajeCliente });
+      const promptSistema = config.construirSystemPrompt(catalogo, enfoqueProducto) + (telefono ? await notaPedidosDelCliente(telefono) : "");
       if (sesion.historial.length > 16) {
             sesion.historial = sesion.historial.slice(-16);
       }
@@ -1494,7 +1510,7 @@ try {
                   model: MODELO_OPENAI,
                   max_completion_tokens: 700,
                   messages: [
-                        { role: "system", content: config.construirSystemPrompt(catalogo, enfoqueProducto) },
+                        { role: "system", content: promptSistema },
                         ...sesion.historial,
                   ],
             },
@@ -1512,7 +1528,7 @@ try {
             {
                   model: ANTHROPIC_MODEL,
                   max_tokens: 700,
-                  system: config.construirSystemPrompt(catalogo, enfoqueProducto),
+                  system: promptSistema,
                   messages: sesion.historial,
             },
             {
@@ -2947,7 +2963,7 @@ async function manejarFlujoPedido(telefono, texto) {
             const productoIdEnfoque = sesion.pedido?.productoId || sesion.ultimoProducto || null;
             const enfoqueProducto = productoIdEnfoque ? { tipo: "producto", valor: productoIdEnfoque } : null;
             try {
-                  const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+                  const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
                   if (mensajeVisible) {
                         await enviarTexto(telefono, mensajeVisible);
                   }
@@ -3436,7 +3452,7 @@ async function manejarTextoLibre(telefono, texto) {
             const productoCierre = catalogo.find((p) => p.id === sesion.ultimoProducto && !p.agotado);
             if (productoCierre && ultimoBot && PREGUNTA_CIERRE.test(ultimoBot.texto || "")) {
                   if (productoCierre.id.startsWith("combo-")) await iniciarPedido(telefono, productoCierre.id);
-                  else await ofrecerComboPromocion(telefono, productoCierre.id);
+                  else await iniciarPedido(telefono, productoCierre.id);
                   return;
             }
       }
@@ -3523,7 +3539,7 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos } = await preguntarleALaIA(sesion, texto, enfoqueProducto);
+            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
 
             // Se pone en true apenas el cliente reciba ALGO (texto, botones, o se le inicie un
             // pedido/combo). Sirve para detectar el caso en que la IA respondio sin lanzar ningun
@@ -3619,7 +3635,8 @@ async function manejarTextoLibre(telefono, texto) {
                         if (productoId.startsWith("combo-")) {
                               await iniciarPedido(telefono, productoId);
                         } else {
-                              await ofrecerComboPromocion(telefono, productoId);
+                              // Oct-2026 (Wendy): si ya dijo que si, se piden los datos de una; nada de combos en medio
+                              await iniciarPedido(telefono, productoId);
                         }
                         seLeRespondioAlgo = true;
                   } else {
@@ -4336,7 +4353,9 @@ app.post("/webhook", async (req, res) => {
                               if (pid.startsWith("combo-")) {
                                     await iniciarPedido(telefono, pid);
                               } else {
-                                    await ofrecerComboPromocion(telefono, pid);
+                                    // Oct-2026 (Wendy: "dijo que si y siguio enviando fotos de promocion en vez de pedir
+                                    // los datos"): con "Si, envíamelo" se arranca el pedido directo, sin ofrecer combos.
+                                    await iniciarPedido(telefono, pid);
                               }
                         } else {
                               // RESPALDO CONTRA SILENCIO TOTAL: si llega un boton/opcion de lista con
