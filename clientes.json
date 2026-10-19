@@ -3,8 +3,8 @@
     "telefono": "CO.1920401852274110",
     "nombre": "KFLUSH",
     "primerContacto": "2026-10-19T20:33:00.206Z",
-    "ultimoContacto": "2026-10-19T20:34:41.408Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T20:35:16.538Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,18 @@
         "fecha": "2026-10-19T20:34:40.317Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTkyMDQwMTg1MjI3NDExMBUUABEYEjFGMzJDREVFMzQ0OUJBOTY4NAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No aún no gracias",
+        "fecha": "2026-10-19T20:35:14.032Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, no hay problema, quedo atenta para cuando decidas. 😊\n\nSi quieres, mientras tanto me cuentas ¿para qué lo necesitarías principalmente? Así puedo asesorarte mejor cuando quieras retomar.\n\n¿Lo usarías para trabajo, estudio, hogar o para un negocio?",
+        "fecha": "2026-10-19T20:35:15.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTkyMDQwMTg1MjI3NDExMBUUABEYEjE2MDJBMzI3MjlCMjBBQzA3MwA="
       }
     ],
     "paso": "conversando",
@@ -52,7 +64,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
