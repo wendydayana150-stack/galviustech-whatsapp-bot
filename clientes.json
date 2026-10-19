@@ -6041,8 +6041,8 @@
     "telefono": "573167383371",
     "nombre": "Andrea Mendieta",
     "primerContacto": "2026-10-19T11:41:52.777Z",
-    "ultimoContacto": "2026-10-19T11:51:23.792Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-19T20:31:47.404Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6092,6 +6092,18 @@
         "fecha": "2026-10-19T11:51:22.952Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSQzM0QkYyRDI2QkFDM0NCQ0IyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Veci acá donde yo vivo muy poco coje la señal de claro pero hay zonas donde nada",
+        "fecha": "2026-10-19T20:31:44.598Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo la situación, y justo para eso es que diseñamos nuestro módem 4G/5G: tiene una antena potente que capta mejor la señal que un celular normal, especialmente en zonas rurales o con señal débil.\n\n¿En esas zonas donde no coge Claro, hay por casualidad señal de otro operador como Movistar, Tigo o WOM? \n\nAsí te confirmo si el módem te serviría bien o tendríamos que buscar otra solución. ¿Cómo está la cobertura celular en general por ahí?",
+        "fecha": "2026-10-19T20:31:46.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSNUUxNTI2RjA3QzM0REYyRDcxAA=="
       }
     ],
     "paso": "conversando",
@@ -6105,10 +6117,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "573216142796",
