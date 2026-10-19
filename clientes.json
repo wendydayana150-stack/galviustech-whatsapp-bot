@@ -151,8 +151,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T20:23:37.391Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-19T20:25:01.302Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -407,6 +407,25 @@
         "fecha": "2026-10-19T20:23:36.389Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSNkRCQ0JDRjY1MjMxMkVFMjZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Recoger en la oficina",
+        "fecha": "2026-10-19T20:24:57.363Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, tomé nota que prefieres recoger en la oficina de Interrapidísimo.\n\nTu pedido está listo para enviar y te avisamos cuando llegue para que lo pases a recoger sin complicaciones.\n\n¿Quieres que te ayude a agregar el método de pago o cosas adicionales?",
+        "fecha": "2026-10-19T20:24:58.430Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSRjAyRjRGMzA1MDY3MjRGM0M5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T20:24:59.069Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSMjFEOTQ5NjVEMkQyRjU2QkVDAA=="
       }
     ],
     "paso": "pedido_celular",
