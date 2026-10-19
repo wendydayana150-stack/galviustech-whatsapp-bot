@@ -106,8 +106,8 @@
     "telefono": "573186023138",
     "nombre": "Angie Simarra 🌻💋",
     "primerContacto": "2026-10-19T14:54:22.788Z",
-    "ultimoContacto": "2026-10-19T14:54:22.788Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T15:18:30.070Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -127,6 +127,18 @@
         "fecha": "2026-10-19T14:54:21.605Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2MDIzMTM4FQIAERgSNEZGNjlENDI5RTY0MDFCN0MzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-19T15:18:29.005Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-19T15:18:29.006Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2MDIzMTM4FQIAERgSRTU5RENGNjI3OTA1MEIyQzZDAA=="
       }
     ],
     "paso": "conversando",
@@ -138,7 +150,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216836382",
