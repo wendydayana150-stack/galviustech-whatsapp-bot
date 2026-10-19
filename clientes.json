@@ -48,8 +48,8 @@
     "telefono": "573148554485",
     "nombre": "Edwin",
     "primerContacto": "2026-10-19T20:45:12.557Z",
-    "ultimoContacto": "2026-10-19T20:45:12.557Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T20:46:02.284Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,34 @@
         "fecha": "2026-10-19T20:45:11.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTU0NDg1FQIAERgSN0NCQzRDQjA5Rjg0NzUzOTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "y la mensualidad?",
+        "fecha": "2026-10-19T20:45:59.458Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Estos módems no tienen mensualidad fija ni contrato. Haces una sola inversión y usas el internet con la recarga que tú elijas según lo que necesites.\n\nPor ejemplo, conectas varios dispositivos con una sola recarga en vez de pagar recarga por cada celular.\n\nLa inversión parte de $169.900 + $26.000 de envío para el modem 4G, que es el más económico.\n\n¿Para qué lo necesitas principalmente: trabajo, estudio, hogar o viajes? Así te recomiendo la versión ideal para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T20:46:01.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTU0NDg1FQIAERgSQzE5RDZBQjQyNjJCMjQ1NTQ4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573236723525",
