@@ -47,8 +47,8 @@
     "telefono": "573209694736",
     "nombre": "Jorge",
     "primerContacto": "2026-10-19T12:32:18.826Z",
-    "ultimoContacto": "2026-10-19T12:34:40.622Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T12:41:52.395Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -134,6 +134,25 @@
         "fecha": "2026-10-19T12:34:39.707Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSQTVEMEJFRURERThBQ0NFREJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta",
+        "fecha": "2026-10-19T12:41:49.805Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime, ¿qué duda tienes sobre el módem o su uso? Aquí estoy para ayudarte. ¿Quieres saber algo específico del equipo o del envío?",
+        "fecha": "2026-10-19T12:41:50.984Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSNkFBNDI1MUFDRDJBMzUxNDU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-19T12:41:51.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSQkZBNDJFMDFCOUE3RDgyMDk0AA=="
       }
     ],
     "paso": "conversando",
