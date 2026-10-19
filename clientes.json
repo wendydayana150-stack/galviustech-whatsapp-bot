@@ -3,8 +3,8 @@
     "telefono": "573153765291",
     "nombre": "mary Parra",
     "primerContacto": "2026-10-19T00:06:19.811Z",
-    "ultimoContacto": "2026-10-19T00:06:19.811Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T00:07:33.504Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T00:06:19.154Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzNzY1MjkxFQIAERgSMjI1OUJDQTI2QTQ1ODdEMDg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barbosa vereda corrientes",
+        "fecha": "2026-10-19T00:07:29.962Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Barbosa vereda Corrientes, gracias por el dato.\n\nLos módems de GalviusTech están diseñados para darte mejor cobertura que el celular en zonas rurales como la tuya.\n\nAquí tienes las 3 opciones para que elijas la mejor según tu necesidad:\n\n📶 *Modem WiFi Portátil 4G* - $169.900 + $26.000 envío  \nIdeal si quieres una opción eficiente y económica con conexión 4G estable.\n\n📶 *Modem WiFi Portátil 4G/5G* - $189.900 + $26.000 envío  \nLa recomendación más segura para zonas con cobertura 4G y 5G, rápido y versátil.\n\n📶 *Modem WiFi Portátil 5G* - $199.900 + $26.000 envío  \nPara máxima velocidad donde ya hay buena cobertura 5G.\n\nTodos conectan varios dispositivos y son fáciles de usar y transportar.\n\n¿Lo necesitas más para trabajo, estudio, hogar o viajes? Así te ayudo a elegir con seguridad.",
+        "fecha": "2026-10-19T00:07:32.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzNzY1MjkxFQIAERgSNTA3NzRFMzA4MUU4OTQ3NEM3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223852716",
