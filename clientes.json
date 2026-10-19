@@ -3,8 +3,8 @@
     "telefono": "573046166055",
     "nombre": "Paz",
     "primerContacto": "2026-10-19T00:23:54.015Z",
-    "ultimoContacto": "2026-10-19T00:23:54.015Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T00:31:50.250Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T00:23:53.507Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2MTY2MDU1FQIAERgSQTlCQTNERDIyOENDQzc4ODkxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Palmar de Varela vereda Burrusco",
+        "fecha": "2026-10-19T00:31:47.063Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Palmar de Varela, vereda Burrusco. \n\nLos módems de GalviusTech tienen mejor cobertura que un celular común, especialmente diseñados para zonas rurales. Así no dependes de que llegue la fibra ni de entrar y salir de WiFi ajeno.\n\nEstas son las opciones que tienes con su inversión total + envío:\n\n📶 Modem WiFi Portátil 4G: $169.900  \n📶 Modem WiFi Portátil 4G/5G: $189.900 (recomendado porque cubre 4G y 5G)  \n📶 Modem WiFi Portátil 5G: $199.900 (solo si ya sabes que tienes señal 5G estable allí)  \n\n¿Para qué lo usarías principalmente, trabajo, estudio, hogar o negocio? Así te ayudo a elegir el ideal.",
+        "fecha": "2026-10-19T00:31:49.484Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MTY2MDU1FQIAERgSNzQyQzAzQ0NGMUE1RTAwNUE0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135503097",
