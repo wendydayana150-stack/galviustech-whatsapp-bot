@@ -3,8 +3,8 @@
     "telefono": "CO.4420199384957993",
     "nombre": "alvarogutierrez518@gamil",
     "primerContacto": "2026-10-19T20:45:35.990Z",
-    "ultimoContacto": "2026-10-19T20:45:35.990Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T20:47:51.080Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-19T20:45:34.729Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDQyMDE5OTM4NDk1Nzk5MxUUABEYEkJBMEY5NjBDNzExQUYzNTgwNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Movistar y Tigo",
+        "fecha": "2026-10-19T20:47:47.943Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme los operadores que usas. Ahora dime, ¿en qué municipio o vereda lo vas a usar y para qué lo necesitas? (trabajo, estudio, hogar, viajes o negocio)\n\nMientras, te adelanto que tenemos estas 3 versiones:\n\n📶 Modem WiFi Portátil 4G - Ideal para cubrir zonas rurales con señal 4G, conecta varios dispositivos y es fácil de transportar. La inversión es de **$169.900** + $26.000 de envío.\n\n🚀 Modem WiFi Portátil 4G/5G - Ideal si no sabes si en tu zona hay 5G o si quieres estar preparado para ambas señales, muy práctico para trabajo, estudio o hogar móvil. La inversión es de **$189.900** + $26.000 de envío.\n\n⚡ Modem WiFi Portátil 5G - Para zonas con buena cobertura 5G y la máxima velocidad móvil disponible. La inversión es de **$199.900** + $26.000 de envío.\n\n¿Dónde lo usarías exactamente para elegirte la mejor opción?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T20:47:50.066Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDQyMDE5OTM4NDk1Nzk5MxUUABEYEjNFOEU2QjRCQ0JGOEYyMEUxOQA="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573148554485",
