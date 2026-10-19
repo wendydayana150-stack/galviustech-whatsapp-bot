@@ -3,8 +3,8 @@
     "telefono": "573145250217",
     "nombre": "belleza",
     "primerContacto": "2026-10-19T16:18:56.691Z",
-    "ultimoContacto": "2026-10-19T16:18:56.691Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T16:19:04.695Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T16:18:55.671Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MjUwMjE3FQIAERgSQ0UxODJCMkYyNzc3MjJENzJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-19T16:18:58.697Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El modem WiFi portátil 4G más básico cuesta **$169.900 + $26.000 de envío** y te da internet para tu hogar o finca sin depender de fibra óptica ni instalaciones. Si quieres algo que también coja 5G para tener más velocidad donde hay esa cobertura, tenemos el modem 4G/5G en **$189.900 + envío**. Y si buscas la máxima velocidad 5G, el modelo 5G está en **$199.900 + envío**.\n\nLa inversión en cualquiera de estos equipos es segura porque conecta varios dispositivos rápido y con mejor señal que un celular común, ideal para zonas rurales o que se mueven mucho.\n\n¿Cuál de estas opciones te sirve mejor para dónde lo usarías? ¿Tu municipio o vereda es más de 4G o hay cobertura 5G ya?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T16:19:03.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MjUwMjE3FQIAERgSMjQ0NjYwMzAyRDQ3NTJDRTA0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573107036386",
