@@ -293,8 +293,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T20:31:32.147Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-19T20:35:02.499Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -649,6 +649,18 @@
         "fecha": "2026-10-19T20:31:30.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSQjkxNzcyNDU3MjIzOTg4NjMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No está correcto",
+        "fecha": "2026-10-19T20:35:01.133Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo 😊 Cuéntame, ¿qué te preocupa o qué te gustaría cambiar de tu pedido? Te ayudo a dejarlo como lo necesitas.",
+        "fecha": "2026-10-19T20:35:01.133Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSRDQ1Q0UyNTE2QjQwQkQwNkUyAA=="
       }
     ],
     "paso": "conversando",
@@ -657,8 +669,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Modem WiFi Portatil 4G/5G: \"No está correcto\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
