@@ -47,8 +47,8 @@
     "telefono": "573209694736",
     "nombre": "Jorge",
     "primerContacto": "2026-10-19T12:32:18.826Z",
-    "ultimoContacto": "2026-10-19T12:45:13.655Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-19T12:45:31.584Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -244,6 +244,18 @@
         "fecha": "2026-10-19T12:45:12.841Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSMEI0MjMyNEFFQzM5QjVDOUI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A ya",
+        "fecha": "2026-10-19T12:45:29.737Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, dime entonces en qué municipio o zona exacta quieres usar el módem para confirmarte mejor la cobertura y la opción ideal para ti.\n\nAsí te doy el mejor consejo para que tengas internet sin complicaciones. ¿Cuál es?",
+        "fecha": "2026-10-19T12:45:30.693Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSQzQ5ODBFMTA4NEE1ODRENjFCAA=="
       }
     ],
     "paso": "conversando",
