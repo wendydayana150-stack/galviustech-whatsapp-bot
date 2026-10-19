@@ -3,8 +3,8 @@
     "telefono": "573107036386",
     "nombre": "Super Burger comidas rápidas",
     "primerContacto": "2026-10-19T15:52:03.040Z",
-    "ultimoContacto": "2026-10-19T15:53:32.393Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-19T15:54:08.308Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,6 +61,18 @@
         "fecha": "2026-10-19T15:53:31.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSQUI3RTFFQUY3NzNCQjVBRTJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De donde proviene la señal ?",
+        "fecha": "2026-10-19T15:54:05.946Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La señal proviene de la red móvil 4G o 5G del operador que uses en la SIM que pongas en el módem (Claro, Movistar, Tigo, WOM). El módem capta mejor esa señal que un celular común gracias a su antena potente, por eso es ideal para veredas y zonas rurales.\n\nAsí podrás tener WiFi estable para varias casas, sin depender de fibra óptica ni cableados. ¿Ya tienes SIM o quieres que te cuente cómo funciona con la que tú elijas?",
+        "fecha": "2026-10-19T15:54:07.342Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSODQxOTExMUVDQTJGMDc2QzNEAA=="
       }
     ],
     "paso": "conversando",
