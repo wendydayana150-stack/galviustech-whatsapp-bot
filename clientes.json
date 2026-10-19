@@ -3,8 +3,8 @@
     "telefono": "573189852630",
     "nombre": "Carlos",
     "primerContacto": "2026-10-19T16:24:18.111Z",
-    "ultimoContacto": "2026-10-19T16:29:58.547Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T16:30:09.171Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -153,6 +153,25 @@
         "fecha": "2026-10-19T16:29:57.476Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMjE1NkY5RkNFOTY2NUVEQzU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta",
+        "fecha": "2026-10-19T16:30:06.155Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime qué duda tienes, aquí estoy para ayudarte 😊\n\n¿Es sobre el módem o quieres saber de otro producto?",
+        "fecha": "2026-10-19T16:30:07.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSNEE1RUIyNjVBNDU5NUIwNjJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T16:30:07.972Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMTVCMTUyM0Y1Mzc1MTRDMzE5AA=="
       }
     ],
     "paso": "pedido_celular",
