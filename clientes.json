@@ -7170,8 +7170,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-19T01:39:50.416Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-10-19T13:03:17.374Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7414,6 +7414,18 @@
         "fecha": "2026-10-19T01:39:49.428Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSNUY0MDI0NEI5QzcxOUNFMTU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola que tal buen dia",
+        "fecha": "2026-10-19T13:03:14.433Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué municipio o vereda necesitas el módem? ¿Para qué lo usarías, trabajo, estudio, hogar o viajes? Así te doy la mejor recomendación para ti.",
+        "fecha": "2026-10-19T13:03:16.285Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSQUMwMzQ3RTc0NDIyNkU4RDQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -7427,9 +7439,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
