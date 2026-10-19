@@ -3,8 +3,8 @@
     "telefono": "CO.1476401037682670",
     "nombre": "JosueDj🍻🍺🎧🎧🎧",
     "primerContacto": "2026-10-19T17:00:19.342Z",
-    "ultimoContacto": "2026-10-19T17:00:19.342Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T17:01:36.880Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-19T17:00:18.326Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3NjQwMTAzNzY4MjY3MBUUABEYEkZCMkFCQ0QxMzMzNjhBRTlERQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-19T17:01:35.931Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-19T17:01:35.931Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NjQwMTAzNzY4MjY3MBUUABEYEkE4QTQyMEFDNzQxQTY0NTBFNQA="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573114388754",
