@@ -3,8 +3,8 @@
     "telefono": "573107036386",
     "nombre": "Super Burger comidas rápidas",
     "primerContacto": "2026-10-19T15:52:03.040Z",
-    "ultimoContacto": "2026-10-19T15:52:03.040Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T15:52:49.246Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T15:52:02.257Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSOENGMDg0NzRFRDA3NTkyRENBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué tipo de internet me recomiendas, somos varias casas y queremos tener el servicio, nos encontramos en una vereda de la unión Sucre",
+        "fecha": "2026-10-19T15:52:46.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para varias casas en una vereda de La Unión (Sucre), te recomiendo el *Modem WiFi Portátil 4G/5G* por $189.900 + $26.000 de envío.\n\n🚀 Te da internet donde no hay fibra, conecta varios dispositivos al mismo tiempo y funciona en zona rural.  \n✅ Es la mejor opción para que varias casas se conecten sin complicaciones.  \n🔋 Batería dura hasta 14 horas y se usa fácil, sin instalación.\n\n¿Quieres que te lo envíe hasta tu casa o prefieres recogerlo en una oficina cercana?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T15:52:48.284Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSRTUxOUJGMTg3NjM3MDg5NzIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2647262379042429",
