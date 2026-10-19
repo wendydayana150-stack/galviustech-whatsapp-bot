@@ -3,8 +3,8 @@
     "telefono": "573107036386",
     "nombre": "Super Burger comidas rápidas",
     "primerContacto": "2026-10-19T15:52:03.040Z",
-    "ultimoContacto": "2026-10-19T15:52:49.246Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T15:53:32.393Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,25 @@
         "fecha": "2026-10-19T15:52:48.284Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSRTUxOUJGMTg3NjM3MDg5NzIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Explícame cómo funciona",
+        "fecha": "2026-10-19T15:53:30.794Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-10-19T15:53:30.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSMTRFNDE2NTk0NjA1NDQxQkFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-10-19T15:53:31.395Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSQUI3RTFFQUY3NzNCQjVBRTJGAA=="
       }
     ],
     "paso": "conversando",
