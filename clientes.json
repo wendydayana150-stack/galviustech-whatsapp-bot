@@ -3,8 +3,8 @@
     "telefono": "573124436210",
     "nombre": "Dana",
     "primerContacto": "2026-10-19T00:39:06.846Z",
-    "ultimoContacto": "2026-10-19T00:39:06.846Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T00:40:56.903Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T00:39:06.198Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NDM2MjEwFQIAERgSNThGMUQ3RjRFREFEOEM0NDNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para hogar y precio",
+        "fecha": "2026-10-19T00:40:53.883Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso en hogar te puede servir cualquiera de nuestras opciones. \n\n🔥 ¡Los módems bajaron un 30%! Aprovecha la promoción.\n\nEstas son las 3 versiones que tenemos con sus precios:\n\n📶 Módem WiFi Portátil 4G - inversión de **$169.900 + $26.000 de envío**  \n🚀 Conexión 4G estable, hasta 10 dispositivos, ideal para fincas y hogares sin fibra.\n\n📶 Módem WiFi Portátil 4G/5G - inversión de **$189.900 + $26.000 de envío**  \n🚀 Tecnología 4G/5G, más velocidad y versatilidad en conexión para hogar y viajes.\n\n📶 Módem WiFi Portátil 5G - inversión de **$199.900 + $26.000 de envío**  \n🚀 Máxima velocidad con señal 5G, genial si tienes cobertura 5G en tu zona.\n\n¿Cuántos dispositivos quieres conectar o en qué zona estás para recomendarte mejor?",
+        "fecha": "2026-10-19T00:40:56.039Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NDM2MjEwFQIAERgSMkE4NUExNjJGQkYwQTlDN0ZFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573046166055",
