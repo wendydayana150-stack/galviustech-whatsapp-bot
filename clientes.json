@@ -163,8 +163,8 @@
     "telefono": "573216895768",
     "nombre": "SOLO DIOS SABE MI DESTINO",
     "primerContacto": "2026-10-19T19:56:50.602Z",
-    "ultimoContacto": "2026-10-19T20:27:11.838Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-10-19T20:27:48.659Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -462,9 +462,21 @@
         "fecha": "2026-10-19T20:27:10.739Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSM0YxNzVCREMzQjdENkI2MUJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina de inter rapidísimo",
+        "fecha": "2026-10-19T20:27:47.457Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-19T20:27:47.458Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2ODk1NzY4FQIAERgSNzhGMjMyQUVFOUY1RjE4RDE1AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -473,7 +485,8 @@
       "ciudad": "Acomo sale el mes",
       "nombreCliente": "Acomo sale el mes",
       "celular": "3216895768",
-      "departamento": "Narino"
+      "departamento": "Narino",
+      "direccion": "Oficina de inter rapidísimo"
     },
     "pausado": false,
     "etapaManual": null,
