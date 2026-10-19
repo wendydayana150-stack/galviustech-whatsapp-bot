@@ -256,8 +256,8 @@
     "telefono": "573215830365",
     "nombre": "Emi",
     "primerContacto": "2026-10-19T08:29:50.434Z",
-    "ultimoContacto": "2026-10-19T08:33:11.463Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-19T11:40:32.415Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -338,6 +338,46 @@
         "fecha": "2026-10-19T08:33:10.378Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSRDQ2MzYzMUIzMkU3QUQ1MzhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-19T11:08:17.923Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSRTJFRTc0OUFEQkQwMUYwMTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-19T11:38:18.583Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSQjNEMzVDRkM3Qjg2QUQwQjkwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-19T11:38:19.478Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSRTNEMDMyNTNERTkxOUM0Q0ZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-19T11:38:20.241Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSRDQxMTcwQzlFQTQwNzYxNUM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok le avisare",
+        "fecha": "2026-10-19T11:40:29.309Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, sin problema. Quedo atenta para cuando decidas avanzar o si tienes alguna otra duda.\n\nRecuerda que el módem te asegura conexión propia donde no llega la fibra ni buen WiFi, todo con garantía y pago al recibir.\n\n¿Quieres que te muestre otros productos en GalviusTech o prefieres que hablemos cuando estés listo?",
+        "fecha": "2026-10-19T11:40:31.476Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODMwMzY1FQIAERgSOTZGQkM5REVBODdDN0ZCRkNGAA=="
       }
     ],
     "paso": "conversando",
@@ -348,12 +388,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
