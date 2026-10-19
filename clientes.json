@@ -3,8 +3,8 @@
     "telefono": "573189852630",
     "nombre": "Carlos",
     "primerContacto": "2026-10-19T16:24:18.111Z",
-    "ultimoContacto": "2026-10-19T16:33:00.796Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-19T16:33:39.415Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -229,6 +229,25 @@
         "fecha": "2026-10-19T16:32:59.672Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSRkFGREFBRTk3RDU5MjAyQUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-19T16:33:36.135Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Bizcocho, quedo atenta si en algún momento quieres que te ayude con otro producto o duda.\n\nRecuerda que aquí tienes soporte y la mejor asesoría para lo que necesites.\n\n¡Que tengas un buen día! 😊",
+        "fecha": "2026-10-19T16:33:37.168Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSN0E3RUE0M0ZDQTVCMENDNDYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T16:33:37.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSNjNGMUIxODExRkM2RDVFRjY0AA=="
       }
     ],
     "paso": "pedido_celular",
