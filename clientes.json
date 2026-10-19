@@ -3,8 +3,8 @@
     "telefono": "573227671557",
     "nombre": "Lutis 53",
     "primerContacto": "2026-10-19T01:26:21.765Z",
-    "ultimoContacto": "2026-10-19T01:26:21.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T01:27:35.777Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T01:26:21.045Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjcxNTU3FQIAERgSNzY0QkMwMUJDMUY0QTcxN0Q4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué precio tiene",
+        "fecha": "2026-10-19T01:27:32.193Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El modem WiFi portátil 4G tiene una inversión de **$169.900 + $26.000 de envío**. Te da internet donde no hay fibra, conectas varios dispositivos y es fácil de llevar a cualquier parte, ideal para zonas rurales o viajar.\n\nTambién tenemos las versiones 4G/5G por **$189.900 + envío** y 5G por **$199.900 + envío**. Te recomiendo el 4G/5G porque funciona bien donde aún no hay 5G y también donde sí.\n\n¿En qué municipio o vereda lo usarías y para qué? Así te ayudo a elegir la mejor opción.",
+        "fecha": "2026-10-19T01:27:34.827Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjcxNTU3FQIAERgSRjY5MkE1NjIwMjA1MjZEMjVDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1028065736973531",
