@@ -3346,7 +3346,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
