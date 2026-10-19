@@ -18343,8 +18343,8 @@
     "telefono": "573136551043",
     "nombre": "lopesales66",
     "primerContacto": "2026-10-17T10:35:23.064Z",
-    "ultimoContacto": "2026-10-19T13:05:04.808Z",
-    "mensajes": 21,
+    "ultimoContacto": "2026-10-19T19:58:18.483Z",
+    "mensajes": 22,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18665,11 +18665,18 @@
         "rol": "cliente",
         "texto": "Buenas",
         "fecha": "2026-10-19T13:05:04.599Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! El modem que pediste se despacha el mismo día que se confirma el pedido, y luego tarda entre 2 a 4 días hábiles en llegar a tu ciudad.\n\n¿Para dónde te lo enviamos? ¿Prefieres que llegue a tu casa o lo recoges en la oficina de la transportadora? Así te dejo todo listo para el envío.",
+        "fecha": "2026-10-19T19:58:17.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTUxMDQzFQIAERgSN0NBRDY0NzE5MzY1OTMxNjJEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": true,
+    "pausado": false,
     "etapaManual": "Datos completados",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
