@@ -293,8 +293,8 @@
     "telefono": "573247905127",
     "nombre": "😐😐",
     "primerContacto": "2026-10-19T16:23:53.272Z",
-    "ultimoContacto": "2026-10-19T16:23:53.272Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T16:47:23.667Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -320,18 +320,33 @@
         "fecha": "2026-10-19T16:23:52.359Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3OTA1MTI3FQIAERgSRUNFRDJDRUQ3NTc1NjBENzBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cunday tolima una vereda",
+        "fecha": "2026-10-19T16:47:19.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Cunday Tolima es buen lugar para este tipo de equipos. Ahora dime, ¿para qué lo necesitas? ¿Trabajo, estudio, hogar o negocio? Así te recomiendo el mejor módem para ti.\n\nMientras tanto, te cuento que contamos con 3 versiones:\n\n📶 Modem WiFi Portatil 4G: conexión 4G, ideal para fincas y veredas sin fibra, fácil de usar y transportar. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portatil 4G/5G: para donde ya hay 5G o solo 4G, más rápida y versátil. La inversión es de **$189.900 + $26.000 de envío**. Mi recomendación general para ti.\n\n📶 Modem WiFi Portatil 5G: máxima velocidad si tienes cobertura 5G. La inversión es de **$199.900 + $26.000 de envío**.\n\n¿Cuál crees que se ajusta más a lo que buscas? ¿Quieres que te lo envíe a tu casa o prefieres recogerlo en alguna oficina de transportadora?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T16:47:22.523Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3OTA1MTI3FQIAERgSQzYxRjlCMTZCMDcyMzA0QUU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145250217",
