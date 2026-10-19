@@ -3,8 +3,8 @@
     "telefono": "573189852630",
     "nombre": "Carlos",
     "primerContacto": "2026-10-19T16:24:18.111Z",
-    "ultimoContacto": "2026-10-19T16:30:09.171Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-19T16:30:42.525Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,25 @@
         "fecha": "2026-10-19T16:30:07.972Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMTVCMTUyM0Y1Mzc1MTRDMzE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy en una parte donde no ahí señal ni nada",
+        "fecha": "2026-10-19T16:30:38.905Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, Bizcocho. Si en tu zona no llega señal de ningún operador (ni Claro, ni Movistar, ni Tigo, ni WOM), el módem no podrá conectarse porque depende de una SIM con cobertura móvil.\n\nSin embargo, la antena del módem es más potente que la del celular, y a veces puede captar señal débil donde el celular no; ¿has probado si tu celular no coge señal justo donde quieres usar el módem, o confirmaste con alguien más que realmente no hay nada?\n\nCuéntame para orientarte mejor.\n\n¿O quieres que te muestre otras soluciones que tenemos en GalviusTech?",
+        "fecha": "2026-10-19T16:30:40.808Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMEZDRUQ2RUYwMTZBNjBDNDA2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T16:30:41.429Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSQzAwOEVGNDA3RUQ5Q0Y0MERCAA=="
       }
     ],
     "paso": "pedido_celular",
