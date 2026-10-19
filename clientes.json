@@ -3,8 +3,8 @@
     "telefono": "573021005480",
     "nombre": "dileomatisa",
     "primerContacto": "2026-10-19T23:11:11.928Z",
-    "ultimoContacto": "2026-10-19T23:14:06.069Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-19T23:14:09.717Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -85,6 +85,18 @@
         "fecha": "2026-10-19T23:14:04.957Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIxMDA1NDgwFQIAERgSQTVFQjM4QUM3NEFBRjJEQjczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-19T23:14:07.219Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, aquí quedo atenta para ayudarte cuando decidas. Recuerda que esta promo con 30% de descuento no dura para siempre, y entre más rápido confirmes, antes tienes internet estable en tu zona.\n\nSi quieres, te puedo seguir mostrando más soluciones o responder cualquier pregunta. ¿Hay algo más que te gustaría saber?",
+        "fecha": "2026-10-19T23:14:08.493Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIxMDA1NDgwFQIAERgSQzg0QzNDNkYwOUM0Mzg0QUIxAA=="
       }
     ],
     "paso": "conversando",
@@ -95,7 +107,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
