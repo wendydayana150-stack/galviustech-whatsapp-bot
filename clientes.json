@@ -3,8 +3,8 @@
     "telefono": "573189852630",
     "nombre": "Carlos",
     "primerContacto": "2026-10-19T16:24:18.111Z",
-    "ultimoContacto": "2026-10-19T16:31:43.259Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-19T16:33:00.796Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -210,6 +210,25 @@
         "fecha": "2026-10-19T16:31:42.159Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSQUZEMkYxOTFEOTA1MTlBRkJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito algo que me de Internet donde no haiga cobertura de señal ni nada",
+        "fecha": "2026-10-19T16:32:57.373Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Bizcocho. Cuando no hay cobertura de señal móvil en ninguna red, ni Claro, Movistar, Tigo ni otras, los módems celulares no funcionan porque necesitan esa señal para conectar.\n\nEn GalviusTech no manejamos internet satelital ni otras tecnologías diferentes a la SIM móvil, así que lamentablemente no tenemos un dispositivo que funcione sin cobertura celular.\n\nSi te interesa, puedo ayudarte a elegir otras soluciones para seguridad o iluminación, o recomendarte opciones para cuando sí tengas algo de señal.\n\n¿Quieres información sobre cámaras, lámparas o impresoras? ¿O prefieres que te ayude con otra consulta?",
+        "fecha": "2026-10-19T16:32:58.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMUMxMkZFNDAyRUNDNTc4NzFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-19T16:32:59.672Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSRkFGREFBRTk3RDU5MjAyQUIxAA=="
       }
     ],
     "paso": "pedido_celular",
