@@ -7801,8 +7801,8 @@
     "telefono": "573234521340",
     "nombre": "Enrique Marchena",
     "primerContacto": "2026-10-19T08:13:47.003Z",
-    "ultimoContacto": "2026-10-19T08:13:52.333Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T23:10:10.615Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7840,6 +7840,18 @@
         "fecha": "2026-10-19T08:13:51.639Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSRkVFQTExMzExNkRGQjdGQ0I3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Me gustaría conseguir más información sobre esto.",
+        "fecha": "2026-10-19T23:10:06.851Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 🚀 Este módem WiFi portátil 4G/5G convierte la señal móvil en internet WiFi para conectar varios dispositivos al mismo tiempo.\n\n✅ Ideal para zonas donde no llega fibra óptica, como fincas o veredas.\n\n✅ Perfecto para trabajar, estudiar o viajar con conexión propia.\n\n✅ Fácil de transportar, sin instalaciones complicadas.\n\nLa inversión sería de **$189.900 + $26.000 de envío**, y pagas al recibir con garantía de 30 días.\n\n¿En qué municipio o vereda necesitas internet para recomendarte mejor? Así imaginas ya no quedarte sin conexión.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T23:10:09.489Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSMzUxQURGQkJGRDI0MTIxQTE5AA=="
       }
     ],
     "paso": "conversando",
@@ -7853,10 +7865,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "CO.1758477688782997",
