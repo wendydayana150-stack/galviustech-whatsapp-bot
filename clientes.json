@@ -62,8 +62,8 @@
     "telefono": "CO.1476401037682670",
     "nombre": "JosueDj🍻🍺🎧🎧🎧",
     "primerContacto": "2026-10-19T17:00:19.342Z",
-    "ultimoContacto": "2026-10-19T17:02:21.517Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-19T17:02:26.302Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -208,9 +208,21 @@
         "fecha": "2026-10-19T17:02:18.984Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3NjQwMTAzNzY4MjY3MBUUABEYEkZBNzJGMjFDMUIyNTY2RTI0MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📱 Smartwatches",
+        "fecha": "2026-10-19T17:02:24.637Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Smartwatches]",
+        "fecha": "2026-10-19T17:02:24.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NjQwMTAzNzY4MjY3MBUUABEYEjY2N0EwOEM5MEVCNEEwMkMxMwA="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-portatil-5g"
     },
