@@ -3,8 +3,8 @@
     "telefono": "573107036386",
     "nombre": "Super Burger comidas rápidas",
     "primerContacto": "2026-10-19T15:52:03.040Z",
-    "ultimoContacto": "2026-10-19T15:54:08.308Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-19T15:54:44.506Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,6 +73,25 @@
         "fecha": "2026-10-19T15:54:07.342Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSODQxOTExMUVDQTJGMDc2QzNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero en mi verda no hay señal de ningún operador",
+        "fecha": "2026-10-19T15:54:41.020Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu vereda no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), lamentablemente el módem no podrá funcionar porque necesita conexión móvil para convertirla en WiFi.\n\nSin embargo, la antena del módem es más sensible que la del celular, así que a veces sí capta señal débil donde tu celular no tiene. ¿Confirmaste que de verdad no hay señal ni siquiera intermitente en el lugar donde lo usarías?\n\nSi quieres, me cuentas y revisamos juntos más opciones. ¿Quieres buscar otro producto o prefieres que te oriente mejor en algo más?",
+        "fecha": "2026-10-19T15:54:42.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSRDdDQjRCREE3REYwMDFGNUNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-19T15:54:43.380Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDM2Mzg2FQIAERgSRjc4ODhFMzM4Qjk5Qzc0OTUyAA=="
       }
     ],
     "paso": "conversando",
