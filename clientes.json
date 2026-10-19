@@ -3,8 +3,8 @@
     "telefono": "573026923407",
     "nombre": "Luis Pacheco",
     "primerContacto": "2026-10-19T18:00:14.268Z",
-    "ultimoContacto": "2026-10-19T18:00:24.125Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-19T18:00:54.587Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-19T18:00:23.286Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2OTIzNDA3FQIAERgSMkRENzgyMzQwM0IzNzg5Qzg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valencia Córdoba",
+        "fecha": "2026-10-19T18:00:51.434Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Valencia, Córdoba la cobertura 4G es estable, pero el 5G todavía no está tan masificado.\n\nPor eso, te recomiendo el **Modem WiFi Portátil 4G/5G** por $189.900 + $26.000 de envío. \n\n🔥 Vas a tener internet donde no llega la fibra, sin complicarte con instalaciones, con buena velocidad, y compartes el WiFi con varios dispositivos.\n\n¿Lo quieres para trabajo, estudio, hogar o tus viajes? Así te explico mejor cómo te va a ayudar y pasamos a dejar tu pedido listo.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T18:00:53.410Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2OTIzNDA3FQIAERgSNTU2MTk1ODQyMTY0RDFGMDE0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
