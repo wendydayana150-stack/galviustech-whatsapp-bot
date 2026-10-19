@@ -3,8 +3,8 @@
     "telefono": "573127883870",
     "nombre": "mayelis Urdaneta",
     "primerContacto": "2026-10-19T14:31:57.026Z",
-    "ultimoContacto": "2026-10-19T14:31:57.026Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T14:33:50.340Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-19T14:31:56.287Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3ODgzODcwFQIAERgSRUYwNDFFQTY1Q0JEQzFDODMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola cómo estás",
+        "fecha": "2026-10-19T14:33:47.977Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Estoy aquí para ayudarte con lo que necesites.\n\nCuéntame, ¿en qué municipio o vereda necesitas el módem WiFi? Y ¿para qué lo usarías principalmente: trabajo, estudio, hogar o tu negocio?\n\nAsí te recomiendo el que mejor te sirve y te doy el precio con toda la info clara.",
+        "fecha": "2026-10-19T14:33:49.482Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3ODgzODcwFQIAERgSQkU3NjUzNzVENTdERkIyQTMxAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +53,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573229713206",
