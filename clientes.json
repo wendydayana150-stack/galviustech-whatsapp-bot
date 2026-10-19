@@ -2434,8 +2434,8 @@
     "telefono": "573143914086",
     "nombre": "María Liliana",
     "primerContacto": "2026-10-19T15:27:24.400Z",
-    "ultimoContacto": "2026-10-19T18:18:06.839Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-19T19:06:45.073Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2485,6 +2485,18 @@
         "fecha": "2026-10-19T18:18:05.661Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzOTE0MDg2FQIAERgSN0YxNDBBMkRDRURBMERDNkRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muchas gracias",
+        "fecha": "2026-10-19T19:06:41.764Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en algún momento quieres tener tu propio internet estable para estudiar o trabajar sin depender del WiFi ajeno, aquí estaré para ayudarte.\n\n¿Quieres que te muestre otras opciones de productos de GalviusTech, como impresoras térmicas, lámparas solares o cámaras de seguridad?",
+        "fecha": "2026-10-19T19:06:43.948Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTE0MDg2FQIAERgSOTk1MTk2NTIyRDU2OTZCQzdFAA=="
       }
     ],
     "paso": "conversando",
@@ -2495,7 +2507,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
