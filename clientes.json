@@ -665,8 +665,8 @@
     "telefono": "573144382978",
     "nombre": "geo&geo",
     "primerContacto": "2026-10-19T16:52:48.195Z",
-    "ultimoContacto": "2026-10-19T17:31:49.495Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-19T17:51:00.414Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -791,13 +791,25 @@
         "fecha": "2026-10-19T17:31:48.649Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSRTBFRTNBMzdGODY4NkVGNzNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Moden portátil",
+        "fecha": "2026-10-19T17:50:57.178Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntame sólo una cosa:  \n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n\nAsí te puedo recomendar el mejor modelo según tu lugar y necesidad. ¿Me cuentas?",
+        "fecha": "2026-10-19T17:50:59.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzgyOTc4FQIAERgSN0NBMkExNDM3MDE2QzkyMTE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
