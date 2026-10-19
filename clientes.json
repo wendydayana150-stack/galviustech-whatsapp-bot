@@ -4357,8 +4357,8 @@
     "telefono": "573108589169",
     "nombre": "Marta Lia",
     "primerContacto": "2026-10-19T02:35:20.039Z",
-    "ultimoContacto": "2026-10-19T15:21:46.470Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T16:33:37.026Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4459,6 +4459,25 @@
         "fecha": "2026-10-19T15:21:45.533Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSRTE1M0NEQkZFQ0QwMURBMUEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-19T16:28:38.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSMTgzQjk1RjVCMjI5RkUyMDE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "muchas gracias analizare",
+        "fecha": "2026-10-19T16:33:34.489Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando decidas. Recuerda que estas lámparas son una inversión que te permite ahorrar en electricidad y mejorar la seguridad sin complicaciones.\n\nSi necesitas más info o quieres que te deje el pedido listo para que te llegue rápido, me escribes sin problema. ¿Quieres que te recuerde la promo cuando estés lista?",
+        "fecha": "2026-10-19T16:33:35.955Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSODJEMzc3Nzg5RTYxOTMwNUQyAA=="
       }
     ],
     "paso": "conversando",
@@ -4469,11 +4488,10 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
