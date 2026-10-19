@@ -2087,8 +2087,8 @@
     "telefono": "573143914086",
     "nombre": "María Liliana",
     "primerContacto": "2026-10-19T15:27:24.400Z",
-    "ultimoContacto": "2026-10-19T15:27:24.400Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T18:18:02.278Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2114,6 +2114,18 @@
         "fecha": "2026-10-19T15:27:22.677Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzOTE0MDg2FQIAERgSREM5NTYxMTdCNDlBNEU2MDNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes  que precio tiene",
+        "fecha": "2026-10-19T18:17:59.159Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio del módem WiFi portátil 4G es **$169.900 + $26.000 de envío**, con conexión para varios dispositivos, ideal para fincas y zonas sin fibra, y fácil de transportar.\n\nTambién tenemos el módem 4G/5G por **$189.900 + envío** y el 5G por **$199.900 + envío**.\n\n¿En qué municipio o vereda lo usarías para recomendarte el mejor según tu zona?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T18:18:01.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTE0MDg2FQIAERgSQTAxRkEyMzBDMTVFNEQzMzBBAA=="
       }
     ],
     "paso": "conversando",
@@ -2127,8 +2139,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
