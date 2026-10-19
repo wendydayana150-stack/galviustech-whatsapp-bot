@@ -3,8 +3,8 @@
     "telefono": "573189852630",
     "nombre": "Carlos",
     "primerContacto": "2026-10-19T16:24:18.111Z",
-    "ultimoContacto": "2026-10-19T16:24:18.111Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T16:27:40.400Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T16:24:16.834Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSRjU4MTAwQjI0MEE2ODZDNzUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-19T16:27:36.901Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí. El modem WiFi portátil 4G tiene estas características clave:\n✅ Conexión estable en fincas, veredas y sitios sin fibra óptica.\n✅ Puedes conectar hasta 10 dispositivos a la vez.\n✅ Es fácil de usar y transportar para estudiar, trabajar o viajar.\n\nLa inversión es de **$169.900 + $26.000 de envío**. Pagas contra entrega y tiene garantía de 30 días.\n\nTambién tenemos las versiones 4G/5G por **$189.900 + envío** y 5G por **$199.900 + envío**; la 4G/5G es la mejor recomendación para la mayoría porque funciona bien en zonas con cobertura 4G o 5G.\n\n¿Me cuentas para qué quieres usar el módem o en qué municipio o vereda? Así te recomiendo la mejor opción para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-19T16:27:39.334Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg5ODUyNjMwFQIAERgSMkY4RjBBNDA2MzVDNkM3ODNCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573247905127",
