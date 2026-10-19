@@ -444,8 +444,8 @@
     "telefono": "573114388754",
     "nombre": "edwar casierra",
     "primerContacto": "2026-10-19T16:58:15.774Z",
-    "ultimoContacto": "2026-10-19T17:02:07.503Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-19T17:41:31.848Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -594,11 +594,18 @@
         "fecha": "2026-10-19T17:02:06.253Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSODc2Q0E3NEUxQUU4MkY2NzU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para realizar el pedido necesito Nombres completos y Direccion",
+        "fecha": "2026-10-19T17:41:30.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSNDI5ODkxRTQxQzNFQjk4MjcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
