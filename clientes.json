@@ -62,8 +62,8 @@
     "telefono": "573007581133",
     "nombre": "❤️Ana❤️",
     "primerContacto": "2026-10-19T12:31:27.705Z",
-    "ultimoContacto": "2026-10-19T12:31:27.705Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T12:32:33.836Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,18 +89,33 @@
         "fecha": "2026-10-19T12:31:26.935Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3NTgxMTMzFQIAERgSOTA0QjY0RUZEMTVBMEY5RDZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para una vereda del retiro es para el hogar",
+        "fecha": "2026-10-19T12:32:30.173Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para una vereda en El Retiro y uso en hogar, acá te doy las opciones con sus beneficios y precios:\n\n📶 *Módem WiFi Portátil 4G*: ideal si quieres inversión económica, conexión estable 4G y conectar varios dispositivos.\nPrecio: **$169.900 + $26.000 de envío**.\n\n📶 *Módem WiFi Portátil 4G/5G*: la opción más segura, funciona en 4G y 5G si hay cobertura, mejor para futuros cambios.\nPrecio: **$189.900 + $26.000 de envío**.\n\n📶 *Módem WiFi Portátil 5G*: para zonas con buena señal 5G y mayor velocidad; si en tu zona ya hay 5G es ideal.\nPrecio: **$199.900 + $26.000 de envío**.\n\nLos tres captan señal mejor que un celular, perfectos para lugar rural como tu vereda. ¿Cuál te interesa más o quieres que te explique algo específico de cada uno?",
+        "fecha": "2026-10-19T12:32:32.873Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3NTgxMTMzFQIAERgSMDQ5REU4MEFFRTIyQzhGMzhEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.3537067489796559",
