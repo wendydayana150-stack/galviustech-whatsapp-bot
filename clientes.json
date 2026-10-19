@@ -8927,8 +8927,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-19T20:03:11.243Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-19T22:34:34.090Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9165,9 +9165,28 @@
         "fecha": "2026-10-19T20:03:10.131Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQUI0RTE1RTM1MkVCOUFDNkQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu direccion completa?",
+        "fecha": "2026-10-19T21:06:18.466Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSMTIyMzI3QTM0NjVEMzQxNzkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En este momento no",
+        "fecha": "2026-10-19T22:34:32.813Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-19T22:34:32.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSRkRFODE1QUZCM0E2Qzg2QzZGAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-wifi-camara-de-seguridad",
       "nombreProducto": "COMBO Modem Wifi + Camara de seguridad",
@@ -9176,7 +9195,8 @@
       "nombreCliente": "Andrés Fernando Gutiérrez Gutiérrez",
       "celular": "3222357972",
       "departamento": "Meta",
-      "ciudad": "Puerto López (Vereda Las Delicias )"
+      "ciudad": "Puerto López (Vereda Las Delicias )",
+      "direccion": "En este momento no"
     },
     "pausado": false,
     "etapaManual": null,
@@ -9187,9 +9207,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "573135358857",
