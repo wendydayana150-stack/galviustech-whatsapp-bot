@@ -3,8 +3,8 @@
     "telefono": "573167383371",
     "nombre": "Andrea Mendieta",
     "primerContacto": "2026-10-19T11:41:52.777Z",
-    "ultimoContacto": "2026-10-19T11:41:52.777Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T11:49:14.656Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T11:41:51.700Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSQTQ2OTYxMzJBRUEzMjFCNjVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San Vicente del caguan caqueta vivo en jna vereda",
+        "fecha": "2026-10-19T11:49:11.134Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, San Vicente del Caguán, Caquetá, y usas el módem en una vereda. Te recomiendo estas 3 opciones que tenemos con la mejor cobertura para zonas rurales:\n\n📶 Modem WiFi Portátil 4G - El más económico, ideal para conectar varios dispositivos con señal estable en zonas sin fibra. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 4G/5G - Lo más seguro para que funcione tanto en 4G como en 5G si hay cobertura. Es perfecto para trabajo, estudio o viajes. La inversión sería de **$189.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 5G - Para zonas con buena cobertura 5G y sacar la máxima velocidad. La inversión es de **$199.900 + $26.000 de envío**.\n\n🔥 ¡Los modems bajaron un 30%! Aprovecha ya esta inversión para tener internet propio donde lo necesitas, sin depender de que llegue la fibra óptica.\n\n¿Para qué usarías principalmente el modem en la vereda — para trabajo, estudio, negocio o en casa con tu familia?",
+        "fecha": "2026-10-19T11:49:13.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY3MzgzMzcxFQIAERgSQTBEMDg0OEZENDRBNDlGOTFDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216142796",
