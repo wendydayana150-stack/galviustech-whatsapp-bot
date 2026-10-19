@@ -2352,6 +2352,27 @@ async function iniciarPedido(telefono, productoId) {
       sesion.pedido = { productoId, nombreProducto: producto.nombre, precio: producto.precio, telefono };
       const pagoDicho = medioPagoReciente(sesion);
       if (pagoDicho) sesion.pedido.medioPago = pagoDicho;
+      // No volver a pedir lo que el cliente ya dijo en la conversacion
+      const yaDichos = datosDichosEnConversacion(sesion);
+      for (const [k, v] of Object.entries(yaDichos)) if (v && !sesion.pedido[k]) sesion.pedido[k] = v;
+      const recuperados = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => sesion.pedido[d.campo]).map((d) => d.campo);
+      if (recuperados.length) {
+            // Si ya esta todo, se confirma el medio de pago para cerrar con un dato fresco
+            let faltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
+            if (!faltante) {
+                  delete sesion.pedido.medioPago;
+                  faltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.campo === "medioPago");
+            }
+            sesion.paso = faltante.paso;
+            const nombres = { nombreCliente: "tu nombre", celular: "tu celular", departamento: "tu departamento", ciudad: "tu ciudad", direccion: "dónde lo recibes", medioPago: "cómo pagas" };
+            const lista = recuperados.filter((c) => nombres[c] && sesion.pedido[c]).map((c) => nombres[c]);
+            const yaTengo = lista.length > 1 ? lista.slice(0, -1).join(", ") + " y " + lista[lista.length - 1] : lista[0];
+            await enviarTexto(
+                  telefono,
+                  `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) 🙌 Ya tengo ${yaTengo}, no hace falta repetirlo.\n\nSolo me falta: ${faltante.pregunta.replace(/^(Para empezar|Por ultimo),\s*/i, "")}`
+                  );
+            return;
+      }
       await enviarTexto(
             telefono,
             `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?`
@@ -2468,6 +2489,8 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             campo: "barrio",
             paso: "pedido_barrio",
             tipo: "barrio",
+            // Si lo recoge en la oficina de la transportadora no tiene sentido pedir barrio (caso Daniela, oct-2026)
+            soloSi: (p) => !RECOGE_EN_OFICINA.test(p.direccion || ""),
             pregunta: "En que barrio queda esa direccion?",
             mensajeError: "No logre entender el barrio. Me lo puedes confirmar de nuevo?",
       },
@@ -2488,6 +2511,42 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             mensajeError: "Ese número de cédula no me quedó claro. Escríbemelo solo con números, por favor.",
       },
 ];
+
+const RECOGE_EN_OFICINA = /oficina|interrap|inter rap|coordinadora|servientrega|envia\b|recoger|recojo|reclamo/i;
+
+// DATOS YA DICHOS EN LA CONVERSACION (oct-2026, Wendy: "pide los datos 2 veces y el cliente se aburre").
+// La IA a veces pide nombre, celular y ciudad en la charla antes de que arranque el pedido; luego el flujo
+// estructurado volvia a pedir todo desde el nombre. Aqui se recuperan de los ultimos mensajes: la respuesta
+// a "nombre completo", el celular, el departamento/ciudad y si lo recoge en la oficina de la transportadora.
+function datosDichosEnConversacion(sesion) {
+      const conv = (sesion.transcripcion || []).slice(-40);
+      const datos = {};
+      for (let i = 0; i < conv.length; i++) {
+            const m = conv[i];
+            if (m.rol !== "cliente") continue;
+            const texto = String(m.texto || "").replace(/^\[Selecciono\]\s*/i, "").trim();
+            if (!texto) continue;
+            const preguntaBot = String(([...conv.slice(0, i)].reverse().find((x) => x.rol === "bot") || {}).texto || "");
+            const campos = extraerCamposPedido(texto);
+            if (campos.celular && /^3\d{9}$/.test(campos.celular)) datos.celular = campos.celular;
+            if (campos.departamento) datos.departamento = campos.departamento;
+            if (campos.medioPago) datos.medioPago = esPagoSistecredito(campos.medioPago) ? "Sistecrédito" : campos.medioPago;
+            if (/nombre/i.test(preguntaBot) && /^[a-záéíóúñü]+(\s+[a-záéíóúñü]+){1,4}$/i.test(texto) && !campos.departamento) datos.nombreCliente = texto;
+            // "Barbacoas nariño": un departamento + pocas palabras es su municipio aunque el bot haya preguntado otra cosa
+            const municipioConDepto = campos.departamento && !campos.celular && texto.split(/\s+/).length <= 5;
+            if ((municipioConDepto || /(ciudad|municipio|vereda|a d[oó]nde|para d[oó]nde)/i.test(preguntaBot)) && !campos.celular && texto.length <= 60) {
+                  let ciudad = texto;
+                  if (campos.departamento) ciudad = quitarTildes(texto).replace(new RegExp(quitarTildes(campos.departamento).split(" ")[0], "i"), "").replace(/[,.-]/g, " ").trim();
+                  if (ciudad && /^[a-záéíóúñü .]+$/i.test(ciudad)) datos.ciudad = ciudad.replace(/\s+/g, " ");
+            }
+            const oficina = texto.match(/interrap\w*|coordinadora|servientrega/i);
+            if (oficina || (/oficina/i.test(texto) && /(recog|oficina)/i.test(preguntaBot + texto))) {
+                  const empresa = oficina ? (/interrap/i.test(oficina[0]) ? "Interrapidísimo" : oficina[0][0].toUpperCase() + oficina[0].slice(1).toLowerCase()) : "la transportadora";
+                  datos.direccion = `Recoge en oficina de ${empresa}`;
+            }
+      }
+      return datos;
+}
 
 function esPagoSistecredito(medio) {
       return /siste|cr[eé]dito|cuota/i.test(medio || "");
