@@ -3,8 +3,8 @@
     "telefono": "573054474922",
     "nombre": "Willin",
     "primerContacto": "2026-10-19T03:41:20.069Z",
-    "ultimoContacto": "2026-10-19T03:41:20.069Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T03:43:39.750Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T03:41:19.291Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU0NDc0OTIyFQIAERgSRThERTg2MUI0NDJERTAyMjM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-19T03:43:36.780Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 Los módems bajaron un 30% en GalviusTech! \n\nTe cuento rápido:\n\n- El *Modem WiFi Portátil 4G* cuesta **$169.900 + $26.000 de envío**. Es ideal para fincas o zonas sin fibra, conecta hasta 10 dispositivos y tiene batería para 14 horas. \n- El *Modem WiFi Portátil 4G/5G* es tu mejor opción si quieres estar seguro donde haya 4G o ya haya señal 5G. La inversión es de **$189.900 + $26.000 de envío**, con la misma autonomía y conectividad para varios dispositivos. \n- Y el *Modem WiFi Portátil 5G* para máxima velocidad donde tu zona ya tenga 5G, cuesta **$199.900 + $26.000 de envío**.\n\n✅ Pagas al recibir y tienes garantía de 30 días.\n\n¿En qué municipio o vereda lo necesitas y para qué lo usarías principalmente (estudio, trabajo, hogar o negocio)? Así te dejo la recomendación exacta.",
+        "fecha": "2026-10-19T03:43:38.945Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU0NDc0OTIyFQIAERgSQzREQTQ4MzM2QjgwRTdBMzA0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234018117",
