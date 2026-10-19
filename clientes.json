@@ -47,8 +47,8 @@
     "telefono": "573209694736",
     "nombre": "Jorge",
     "primerContacto": "2026-10-19T12:32:18.826Z",
-    "ultimoContacto": "2026-10-19T12:45:06.893Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-19T12:45:13.655Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -232,6 +232,18 @@
         "fecha": "2026-10-19T12:45:05.920Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSRTVGNEI4QjVBRjEzNUFDRjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El aparato no funciona",
+        "fecha": "2026-10-19T12:45:11.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Quieres decir que por completo no llega señal de ningún operador en el lugar donde vas a usarlo?  \n\nSi es así, el módem no podrá funcionar porque necesita señal móvil para convertirla en WiFi.  \n\nPero dime, ¿has probado justo en el sitio con tu celular si no tiene señal siquiera intermitente de algún operador? A veces el módem capta señal débil donde un celular común muestra “sin servicio”.\n\n¿Me confirmas esa info? Así te oriento mejor.",
+        "fecha": "2026-10-19T12:45:12.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5Njk0NzM2FQIAERgSMEI0MjMyNEFFQzM5QjVDOUI1AA=="
       }
     ],
     "paso": "conversando",
