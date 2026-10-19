@@ -547,7 +547,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             const disponibles = delModem.filter((p) => !p.agotado).sort((a, b) => a.precio - b.precio);
             const bienvenida = opciones.preguntaPrecio && disponibles.length
                   ? "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n" +
-                    "💰 Precios (+ $26.000 de envío):\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
+                    "🔥 *30% de descuento* en todos los módems. Precios (+ $26.000 de envío):\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
                     "\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n" +
                     "📍 ¿En qué municipio o vereda lo vas a usar? Así te digo cuál te funciona mejor."
                   : MENSAJE_BIENVENIDA_MODEM;
@@ -1454,10 +1454,10 @@ async function limpiarClientesAntiguos() {
 // categoria, de las versiones de esa categoria. Siempre con el envio aparte y el pago contra entrega.
 function lineaPrecioRespaldo(productoId, enfoque) {
       const prod = productoId ? catalogo.find((p) => p.id === productoId) : null;
-      if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)} + $26.000 de envío.\n✅ Pagas al recibir (contra entrega).`;
+      if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)} + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).`;
       if (enfoque?.tipo === "categoria") {
             const lista = catalogo.filter((p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === enfoque.valor && !p.agotado).slice(0, 4);
-            if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join(" · ") + " (+ $26.000 de envío).\n✅ Pagas al recibir (contra entrega).";
+            if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join(" · ") + " (+ $26.000 de envío). 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).";
       }
       return null;
 }
@@ -3463,6 +3463,8 @@ async function manejarTextoLibre(telefono, texto) {
                         const linea = lineaPrecioRespaldo(productoActual || idProductoEnfocado, enfoqueProducto);
                         if (linea) visible += "\n\n" + linea;
                   }
+                  // 30% DE DESCUENTO SIEMPRE (oct-2026, Wendy): todo mensaje que da un precio lo menciona
+                  if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible)) visible += "\n\n🔥 Ya tiene el *30% de descuento* por promoción.";
                   await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
 
@@ -4435,7 +4437,7 @@ async function mensajesCierreMedias() {
             const nombre = String(c.pedido?.nombreCliente || c.nombre || "").replace(/[^\p{L}\s]/gu, " ").trim().split(/\s+/)[0] || "";
             const saludo = `¡Hola${nombre ? " " + nombre : ""}! 😊`;
             const precio = `*${formatearPrecio(producto.precio)}* + $26.000 de envío`;
-            const urgencia = "🔥 Es precio de promoción con descuento y quedan pocas unidades: cuando se agoten, el precio vuelve a subir.";
+            const urgencia = "🔥 Ya tiene el *30% de descuento* y quedan pocas unidades: cuando se agoten, el precio vuelve a subir.";
             const confianza = "✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días.";
             const def = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === c.paso);
             if (def) {
