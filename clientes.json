@@ -1727,8 +1727,8 @@
     "telefono": "573114388754",
     "nombre": "edwar casierra",
     "primerContacto": "2026-10-19T16:58:15.774Z",
-    "ultimoContacto": "2026-10-19T20:11:13.962Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-19T20:29:08.893Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2081,10 +2081,34 @@
         "fecha": "2026-10-19T20:10:35.467Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSQjJFQkE4RTE3QzJFOEQ0RDRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yoleabiso",
+        "fecha": "2026-10-19T20:29:04.414Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Te ayudo a dejar tu pedido del módem 4G/5G listo para envío. Por favor confirma solo Nombres completos y dirección para que lo despachemos hoy mismo.\n\nRecuerda que pagas al recibir y tienes garantía de 30 días. El envío tarda 2 a 4 días hábiles según tu ciudad.\n\n¿Me das esos datos para cerrar tu pedido?",
+        "fecha": "2026-10-19T20:29:07.023Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSRDNCOTFEMzg4OTRENjdENDJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-19T20:29:08.009Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSMTAxRTVGRDRBNjQ1RjI3NEMwAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573114388754"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
