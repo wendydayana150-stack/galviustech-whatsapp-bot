@@ -3,8 +3,8 @@
     "telefono": "573005289317",
     "nombre": "freiderramos",
     "primerContacto": "2026-10-19T13:50:50.370Z",
-    "ultimoContacto": "2026-10-19T13:50:50.370Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T13:58:32.162Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,18 +30,33 @@
         "fecha": "2026-10-19T13:50:49.616Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1Mjg5MzE3FQIAERgSMzE4NjAxRDFEQTU4MUY1Mzk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vegachi Antoquia \nPara hogar",
+        "fecha": "2026-10-19T13:58:27.804Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Antoquia para uso en hogar.\n\nTe cuento las opciones con sus beneficios y precios, ya con el 30% de descuento y envío:\n\n📶 *Modem WiFi Portátil 4G* - $169.900 + $26.000 envío  \nIdeal si quieres una conexión estable en zonas sin fibra, conecta hasta 10 dispositivos.\n\n📶 *Modem WiFi Portátil 4G/5G* - $189.900 + $26.000 envío  \nFunciona donde haya señal 4G o 5G, más versátil para futuro, igual conecta varios dispositivos.\n\n📶 *Modem WiFi Portátil 5G* - $199.900 + $26.000 envío  \nLa máxima velocidad si en tu zona ya hay buena cobertura 5G.\n\nTodos son portátiles, fáciles de usar, y con mejor antena para capar señal donde el celular no llega bien.  \n\n¿Quieres que te ayude a dejar el pedido listo y te lo envio directo a tu casa en Vegachi?",
+        "fecha": "2026-10-19T13:58:31.304Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1Mjg5MzE3FQIAERgSOTJGQzk5RTc3QUEwRjc1OEIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573228412439",
