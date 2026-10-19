@@ -3,8 +3,8 @@
     "telefono": "573228412439",
     "nombre": "DJ Álvaro Narváez",
     "primerContacto": "2026-10-19T13:41:13.186Z",
-    "ultimoContacto": "2026-10-19T13:41:13.186Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-19T13:41:17.493Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-19T13:41:12.243Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDEyNDM5FQIAERgSNjczODJBRTA5MDRGMjBBRkY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-19T13:41:14.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para ayudarte bien, ¿me dices para qué lo necesitas o en dónde planeas usarlo? Así te recomiendo la mejor opción y te doy el precio con todo detalle. ¿Es para internet, imprimir, seguridad o iluminación?",
+        "fecha": "2026-10-19T13:41:16.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDEyNDM5FQIAERgSRDg3RjhBNTAxMjA4ODJDQjc1AA=="
       }
     ],
     "paso": "conversando",
@@ -35,7 +47,10 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null
+    "esperandoDatosPedidoLibre": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573015676627",
