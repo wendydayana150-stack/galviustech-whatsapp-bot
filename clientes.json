@@ -910,8 +910,8 @@
     "telefono": "CO.1156576276798456",
     "nombre": "Quirama",
     "primerContacto": "2026-10-19T02:15:18.989Z",
-    "ultimoContacto": "2026-10-19T11:39:47.964Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-19T11:41:01.383Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -989,6 +989,18 @@
         "fecha": "2026-10-19T11:39:47.078Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1NjU3NjI3Njc5ODQ1NhUUABEYEjAwRjUwQjVDMkYxRDc4QUMwOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si, en la quincena me escribas por favor",
+        "fecha": "2026-10-19T11:40:59.346Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para escribirte en la quincena y ayudarte a elegir el mejor módem para lo que necesitas.\n\nMientras tanto, si tienes alguna duda o quieres saber algo más, escríbeme sin problema, ¿vale? ¿Quieres que te cuente un poco cómo funcionan los módems mientras tanto o prefieres esperar?",
+        "fecha": "2026-10-19T11:41:00.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjU3NjI3Njc5ODQ1NhUUABEYEjE1MTdCOUZDRUFBRkU3QjIyRAA="
       }
     ],
     "paso": "conversando",
@@ -999,7 +1011,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
       "seguimientosEnviados": 0
