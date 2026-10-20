@@ -3,8 +3,8 @@
     "telefono": "573225045011",
     "nombre": "ADANIAS MERCADO",
     "primerContacto": "2026-10-20T20:43:14.330Z",
-    "ultimoContacto": "2026-10-20T20:43:14.330Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T20:43:25.661Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-10-20T20:43:13.458Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1MDQ1MDExFQIAERgSNUVBMEZBRkRBRTUyNTAwNEI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio porfa",
+        "fecha": "2026-10-20T20:43:21.672Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊\n\nEstos módems tienen estas ventajas clave:\n- Tienes internet propio donde no llega la fibra, ideal para fincas o veredas.\n- Puedes conectar varios dispositivos al mismo tiempo.\n- Son fáciles de transportar y usar sin instalaciones complicadas.\n\nLa inversión es:\n📶 Modem WiFi Portatil 4G: *$169.900* + $26.000 de envío  \n📶 Modem WiFi Portatil 4G/5G: *$189.900* + $26.000 de envío  \n📶 Modem WiFi Portatil 5G: *$199.900* + $26.000 de envío  \n\n✅ Pagas al recibir y tienes garantía de 30 días.\n\n¿Me cuentas en qué zona o para qué lo necesitas? Así te recomiendo el modelo que más te sirve.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T20:43:24.410Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MDQ1MDExFQIAERgSNTRBODMyMzhFRDNGNTFGQTMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-20T20:43:24.938Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1MDQ1MDExFQIAERgSRERDMzQ4RDBERTc1N0IxN0E5AA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573209527183",
