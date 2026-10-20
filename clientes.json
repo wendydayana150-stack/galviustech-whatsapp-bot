@@ -149,8 +149,8 @@
     "telefono": "573145931309",
     "nombre": "Luisa",
     "primerContacto": "2026-10-20T23:19:54.987Z",
-    "ultimoContacto": "2026-10-20T23:24:26.082Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-20T23:24:52.179Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -226,6 +226,18 @@
         "fecha": "2026-10-20T23:24:25.023Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSQTVEOTM0NTcyMUVBQUUyNEVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero debo meterle la sim?",
+        "fecha": "2026-10-20T23:24:49.970Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el módem necesita que le pongas una SIM de cualquier operador (WOM, Claro, Movistar, Tigo) para captar señal y crear la red WiFi.\n\nSolo insertas la SIM, prendes el módem y conectas tus dispositivos al WiFi que genera, ¡facilísimo!\n\n¿Querés que te deje el pedido listo para enviártelo y empieces a usarlo?",
+        "fecha": "2026-10-20T23:24:51.291Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSQTFEMEM3NzkwQzkxRjU2QkQzAA=="
       }
     ],
     "paso": "conversando",
