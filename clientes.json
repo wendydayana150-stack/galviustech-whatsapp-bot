@@ -2945,8 +2945,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:53:50.025Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-20T23:53:59.633Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3093,10 +3093,36 @@
         "fecha": "2026-10-20T23:53:48.958Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSRURGMTZERTk2RDNDMjBENjQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para yarima Santander",
+        "fecha": "2026-10-20T23:53:56.110Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, te envío el módem WiFi portátil 4G/5G a Yarima, Santander para que tengas internet donde lo necesites en tu finca.\n\nSolo me confirmas si prefieres que te llegue a la puerta de tu casa o si lo recoges en la oficina de la transportadora.\n\nAsí dejo todo listo para ti.",
+        "fecha": "2026-10-20T23:53:57.699Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMEJDRjYwRjExMjBBNUM5MEJFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-20T23:53:58.669Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSM0I2QjVDOTAwQ0FGQTdBMkYyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573137627304",
+      "ciudad": "Es para yarima",
+      "departamento": "Santander"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
