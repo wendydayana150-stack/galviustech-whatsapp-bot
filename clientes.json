@@ -1381,8 +1381,8 @@
     "telefono": "CO.1474434157941449",
     "nombre": "ocupado",
     "primerContacto": "2026-10-20T15:43:10.646Z",
-    "ultimoContacto": "2026-10-20T15:43:10.646Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T19:27:54.722Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1408,6 +1408,39 @@
         "fecha": "2026-10-20T15:43:09.361Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEkY4MkE1NEI4QzgxQjBFM0YwQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-20T18:46:17.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEkUxMzlCQTEyQTkzODk3M0Q1NgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T18:46:18.046Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEkVCNjI0QUQxODdBMUVEMDBCRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-20T18:46:18.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEjAxQ0I4NjZCMUJCQTA1N0JBOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Módem wifi portátil",
+        "fecha": "2026-10-20T19:27:51.941Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro! Para recomendarte el módem WiFi portátil ideal, necesito saber en qué municipio o vereda lo vas a usar, y para qué lo necesitas, ¿es para estudiar, trabajar, tu negocio o el hogar? Así te cuento cuál es la mejor opción para ti. ¿Me cuentas?",
+        "fecha": "2026-10-20T19:27:53.488Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEjg3ODU2RjZCQzkyNzdDQzY4MwA="
       }
     ],
     "paso": "conversando",
@@ -1422,9 +1455,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
