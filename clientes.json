@@ -18000,8 +18000,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-20T19:10:38.370Z",
-    "mensajes": 36,
+    "ultimoContacto": "2026-10-20T19:12:06.441Z",
+    "mensajes": 37,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18311,9 +18311,21 @@
         "fecha": "2026-10-20T19:10:37.253Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOEREM0IwMTNEMjgxQ0VDOUMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3204678074",
+        "fecha": "2026-10-20T19:12:05.326Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-20T19:12:05.327Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSODU4Qzc5RjJCM0Y3MUQyRDZGAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -18321,7 +18333,8 @@
       "telefono": "573150824856",
       "ciudad": "Comunicavion con un asesor gracias",
       "departamento": "Caqueta",
-      "nombreCliente": "Benjamin"
+      "nombreCliente": "Benjamin",
+      "celular": "3204678074"
     },
     "pausado": false,
     "etapaManual": null,
