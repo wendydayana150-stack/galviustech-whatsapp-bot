@@ -290,8 +290,8 @@
     "telefono": "CO.1423772305956472",
     "nombre": "DIANA",
     "primerContacto": "2026-10-20T17:07:28.696Z",
-    "ultimoContacto": "2026-10-20T17:16:49.369Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-20T17:38:18.634Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -437,13 +437,25 @@
         "fecha": "2026-10-20T17:16:48.135Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyMzc3MjMwNTk1NjQ3MhUUABEYEkM0NTRCODJDQkIyMUNGOEI0MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cámara",
+        "fecha": "2026-10-20T17:38:14.643Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te envío las fotos de nuestras cámaras de seguridad para que veas cómo son:\n\n📹 Cámara de seguridad 5 antenas  \n📹 Cámara 3 lentes\n\n¿Te interesa alguna en especial para tu terreno? ¿Quieres que te ayude a dejar el pedido listo y te lo enviamos?",
+        "fecha": "2026-10-20T17:38:17.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyMzc3MjMwNTk1NjQ3MhUUABEYEkUxNjY3QUM5MDFCRTFGREE2RAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "camara-3-lentes",
+    "ultimoProducto": "camara-de-seguridad-5-antenas",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
