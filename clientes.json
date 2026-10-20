@@ -18000,8 +18000,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-20T19:12:06.441Z",
-    "mensajes": 37,
+    "ultimoContacto": "2026-10-20T19:12:28.081Z",
+    "mensajes": 38,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18323,9 +18323,21 @@
         "fecha": "2026-10-20T19:12:05.327Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSODU4Qzc5RjJCM0Y3MUQyRDZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Floencia caqueta",
+        "fecha": "2026-10-20T19:12:26.926Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-20T19:12:26.927Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOUI2NTc0MzlCQTE2NjBERkQ2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -18334,7 +18346,8 @@
       "ciudad": "Comunicavion con un asesor gracias",
       "departamento": "Caqueta",
       "nombreCliente": "Benjamin",
-      "celular": "3204678074"
+      "celular": "3204678074",
+      "direccion": "Floencia caqueta"
     },
     "pausado": false,
     "etapaManual": null,
