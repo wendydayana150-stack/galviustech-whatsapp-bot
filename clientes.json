@@ -1505,8 +1505,8 @@
     "telefono": "573228900682",
     "nombre": "👍🏻",
     "primerContacto": "2026-10-20T01:07:23.613Z",
-    "ultimoContacto": "2026-10-20T01:15:58.085Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-20T13:58:35.448Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1587,6 +1587,46 @@
         "fecha": "2026-10-20T01:15:56.885Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSQjZBNDg0NzREQzRBRTlDOEQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T11:06:15.839Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSNzRCODIwNkY2RUMxOThDRTE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-20T11:16:19.042Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSRTBCNkNFOTUyQTFDNDg1MzM0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T11:16:19.766Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSRDU0QkFGN0I4NzUyQ0JBNDE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-20T11:16:20.337Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSNTExNkEyRUI2MDhDNzI4NkQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Te respondo en la tarde estoy full ocupado ... Gracias...",
+        "fecha": "2026-10-20T13:58:31.280Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, sin problema, entiendo que estés ocupado. Cuando tengas un momento me escribes y seguimos con lo del módem para que no te quedes sin internet donde lo necesitas.\n\nQuedo atenta para ayudarte cuando puedas. ¡Que te vaya muy bien!",
+        "fecha": "2026-10-20T13:58:34.186Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSNEQ2RTBFMDEwNjc3NEIxNzdEAA=="
       }
     ],
     "paso": "conversando",
@@ -1597,13 +1637,11 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
