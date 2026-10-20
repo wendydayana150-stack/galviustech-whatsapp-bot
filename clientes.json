@@ -48,8 +48,8 @@
     "telefono": "573228900682",
     "nombre": "👍🏻",
     "primerContacto": "2026-10-20T01:07:23.613Z",
-    "ultimoContacto": "2026-10-20T01:07:23.613Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T01:12:53.521Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,34 @@
         "fecha": "2026-10-20T01:07:22.702Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSRTdGREIyNzU0ODJCRDRFODZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Disculpe funciona con una sincard venezolana....",
+        "fecha": "2026-10-20T01:12:50.298Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con SIM de cualquier operador, incluyendo tarjetas internacionales como la venezolana, siempre y cuando tenga señal y sea compatible con las redes 4G o 5G en Colombia.\n\nPara poder recomendarte el modelo ideal, ¿me puedes decir en qué municipio o vereda lo usarías y para qué lo necesitas, estudio, trabajo, negocio o casa?",
+        "fecha": "2026-10-20T01:12:52.629Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4OTAwNjgyFQIAERgSQTdCNzNCMkZBMkVFREU1RUU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2380080236179255",
