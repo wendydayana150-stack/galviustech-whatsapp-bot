@@ -402,8 +402,8 @@
     "telefono": "573117399473",
     "nombre": "pm3867607",
     "primerContacto": "2026-10-20T19:26:55.726Z",
-    "ultimoContacto": "2026-10-20T19:31:29.945Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-20T21:31:03.810Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -453,10 +453,43 @@
         "fecha": "2026-10-20T19:31:28.906Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3Mzk5NDczFQIAERgSMzFFQTI5MTE1OEFBQTJDMjNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T20:36:15.635Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3Mzk5NDczFQIAERgSRjVGQkNFNjlBNjRGQTExRUFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sií ya muchas gracias",
+        "fecha": "2026-10-20T21:31:00.385Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Entonces te ayudo a dejar tu pedido listo para el **Modem WiFi Portátil 4G/5G**.",
+        "fecha": "2026-10-20T21:31:02.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3Mzk5NDczFQIAERgSNjQwQzQ4NTBCMzNDNDM1QTg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-20T21:31:02.902Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3Mzk5NDczFQIAERgSRDYwM0U2M0Q3NkQxMjExMDcxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573117399473",
+      "departamento": "La Guajira",
+      "ciudad": "En riohacha guajira"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -467,8 +500,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
