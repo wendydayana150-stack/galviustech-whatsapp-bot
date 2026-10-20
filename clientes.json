@@ -633,8 +633,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-20T22:06:40.086Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-20T22:36:29.308Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -954,11 +954,18 @@
         "fecha": "2026-10-20T22:06:38.948Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSNkVFNTZBOTFENzVEN0IzRDZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ya te envié la Guia. Me confirmas si te llegó",
+        "fecha": "2026-10-20T22:36:27.898Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSQUFGOEM2NkE4Qjg3NEZDRkNCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
