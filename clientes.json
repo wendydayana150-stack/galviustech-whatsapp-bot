@@ -964,8 +964,8 @@
     "telefono": "573004716260",
     "nombre": "Angie",
     "primerContacto": "2026-10-20T19:49:22.701Z",
-    "ultimoContacto": "2026-10-20T22:01:47.717Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-20T22:04:43.578Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1029,13 +1029,25 @@
         "fecha": "2026-10-20T22:01:46.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzE2MjYwFQIAERgSQ0M0QTIxNzZDNkY5REYyOEIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una vereda una finquita",
+        "fecha": "2026-10-20T22:04:40.859Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para una vereda o finquita, la mejor opción es el **Módem WiFi Portátil 4G/5G** por **$189.900 + $26.000 de envío**. \n\nEste modelo está diseñado para captar mejor la señal donde no hay fibra, funciona con 4G y también con 5G si hay cobertura, es fácil de llevar y conecta varios dispositivos.\n\nAsí tendrás internet propio para trabajar, estudiar o simplemente comunicarte donde no llega otro servicio.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Te lo envío a tu casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-20T22:04:42.705Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzE2MjYwFQIAERgSMTUzQzgwQ0ZCQ0Q3MkJEODUxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
