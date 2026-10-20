@@ -3,8 +3,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T17:10:55.051Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T17:11:13.768Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T17:10:53.800Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSMTJBOTZFOTJFNTI0MDMyQUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "como seconeta",
+        "fecha": "2026-10-20T17:11:10.189Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te explico cómo se conecta el módem WiFi portátil:\n\n1. Le insertas una SIM Card activa de cualquier operador (Claro, Tigo, Movistar, WOM).\n2. Enciendes el módem con un botón.\n3. El módem convierte la señal celular 4G o 5G en WiFi.\n4. Desde tu celular, tablet o computador buscas la red WiFi que genera el módem.\n5. Te conectas con la clave que viene en el módem y listo, tienes internet.\n\nEs muy fácil y rápido, no necesitas instalación ni cables complicados.\n\n¿Me cuentas en qué municipio o vereda lo usarías y para qué lo necesitas? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-10-20T17:11:12.617Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRDhGRjM4MDQ0MzIwN0JFNTU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1423772305956472",
