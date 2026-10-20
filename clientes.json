@@ -48,8 +48,8 @@
     "telefono": "CO.1462834082384719",
     "nombre": "patricia Acero",
     "primerContacto": "2026-10-20T12:55:27.978Z",
-    "ultimoContacto": "2026-10-20T12:55:27.978Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T12:56:35.530Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,34 @@
         "fecha": "2026-10-20T12:55:26.474Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ2MjgzNDA4MjM4NDcxORUUABEYEjkxRDUxMDk1NTk3MTUwQzcxRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Agua clara casanare",
+        "fecha": "2026-10-20T12:56:30.900Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por decirme que es en Agua Clara, Casanare. Ahora dime, ¿para qué lo necesitas? ¿Estudio, trabajo, negocio o uso en hogar? \n\nTe cuento que tenemos tres opciones geniales de módem:\n\n📶 Módem WiFi Portátil 4G - $169.900 + $26.000 de envío  \n📶 Módem WiFi Portátil 4G/5G - $189.900 + $26.000 de envío  \n📶 Módem WiFi Portátil 5G - $199.900 + $26.000 de envío  \n\nTodos conectan hasta 10 dispositivos y ofrecen mejor señal que un celular, ideal para zonas rurales como la tuya. La inversión varía según la velocidad y tecnología que prefieras.\n\n¿Cuántos dispositivos quieres conectar normalmente y en qué lo usas? Así te recomiendo el ideal para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T12:56:33.541Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ2MjgzNDA4MjM4NDcxORUUABEYEjlFQ0U4ODI5QjE1NEExRjNCQgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573163670738",
