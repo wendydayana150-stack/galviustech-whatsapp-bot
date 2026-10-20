@@ -3,8 +3,8 @@
     "telefono": "CO.2117592905515155",
     "nombre": "J§",
     "primerContacto": "2026-10-20T18:37:15.237Z",
-    "ultimoContacto": "2026-10-20T18:38:54.579Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-20T18:40:11.438Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-10-20T18:38:53.551Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjExNzU5MjkwNTUxNTE1NRUUABEYEjc2MTUyQkFFMEM1OEMzNDZGNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La SIM card tiene que tener plan pospago?",
+        "fecha": "2026-10-20T18:40:08.745Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con el módem puedes usar SIM de cualquier operador y tipo (prepago o pospago), no es obligatorio que tenga plan pospago.\n\nAh, y cuando confirmes tu pedido, te enviamos como sorpresa una SIM de Claro (sin plan, sin megas activados, solo la tarjeta física). Tú decides después cómo activarla o qué plan usar.\n\n¿Y dónde lo piensas usar? Así te recomiendo el mejor módem para tu conexión.",
+        "fecha": "2026-10-20T18:40:10.533Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjExNzU5MjkwNTUxNTE1NRUUABEYEjQxN0I4RThENzcyOEMwODg2NAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
