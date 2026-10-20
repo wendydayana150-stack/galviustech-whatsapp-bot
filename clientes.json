@@ -583,8 +583,8 @@
     "telefono": "573162291795",
     "nombre": "NataliaG",
     "primerContacto": "2026-10-20T11:36:04.574Z",
-    "ultimoContacto": "2026-10-20T11:36:04.574Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T12:45:35.031Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -610,13 +610,32 @@
         "fecha": "2026-10-20T11:36:03.304Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyMjkxNzk1FQIAERgSNkJCMDUwNUY2M0YyODMxQTI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T12:36:12.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjkxNzk1FQIAERgSMUZFMTYxQkQ4MzM1OUYzNTA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es en el municipio de la tebaida Quindio vereda portugalito",
+        "fecha": "2026-10-20T12:45:31.159Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Te recomiendo las tres opciones que tenemos para que elijas:\n\n📶 **Modem WiFi Portátil 4G** por **$169.900 + $26.000 de envío**  \nIdeal si buscas la opción más económica y buena cobertura 4G en zonas rurales.\n\n📶 **Modem WiFi Portátil 4G/5G** por **$189.900 + $26.000 de envío**  \nLa mejor inversión porque funciona 4G y 5G, así no te quedas sin señal y tendrás buena velocidad donde haya 5G.\n\n📶 **Modem WiFi Portátil 5G** por **$199.900 + $26.000 de envío**  \nPara zonas con buena cobertura 5G y buscas la máxima velocidad posible.\n\nTodas conectan hasta 10 dispositivos al mismo tiempo y duran hasta 14 horas de uso contínuo.\n\n¿Cuál te gustaría? ¿Lo envío a tu casa o prefieres recogerlo en la oficina de la transportadora?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T12:45:33.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyMjkxNzk1FQIAERgSRDkxMjNEOThENUQ5NzZFNUJDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -624,8 +643,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
