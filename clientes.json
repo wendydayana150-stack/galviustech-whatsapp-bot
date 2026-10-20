@@ -3,8 +3,8 @@
     "telefono": "573226845939",
     "nombre": "Tiago",
     "primerContacto": "2026-10-20T23:20:54.738Z",
-    "ultimoContacto": "2026-10-20T23:20:54.738Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:22:17.346Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-10-20T23:20:53.672Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2ODQ1OTM5FQIAERgSOTFGRkE4RkMwN0NCQUE1N0M4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-20T23:22:13.169Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el precio depende del modelo que elijas:\n\n📶 *Módem WiFi Portátil 4G*: Te da conexión estable para varias personas, ideal para zonas sin fibra óptica. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 *Módem WiFi Portátil 4G/5G*: Perfecto si quieres que funcione donde haya señal 4G o en zonas con 5G, muy versátil para fincas o viajes. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 *Módem WiFi Portátil 5G*: Si tienes buena cobertura 5G y buscas la máxima velocidad, esta es la mejor opción. La inversión es de **$199.900 + $26.000 de envío**.\n\n✅ Pagas al recibir, con garantía de 30 días y soporte de GalviusTech.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nPara entender mejor cuál te recomiendo... ¿en qué municipio o vereda lo necesitas y para qué lo usarías principalmente (trabajo, estudio, hogar o negocio)?",
+        "fecha": "2026-10-20T23:22:15.808Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2ODQ1OTM5FQIAERgSMzFDNzVBQkYzMDhDMDAyQkYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-20T23:22:16.407Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2ODQ1OTM5FQIAERgSMUY0RUNDNjM0QjA5NzlGMDYwAA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1425674116210163",
