@@ -2945,8 +2945,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:53:59.633Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-20T23:54:29.417Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3112,6 +3112,25 @@
         "fecha": "2026-10-20T23:53:58.669Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSM0I2QjVDOTAwQ0FGQTdBMkYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que vale el envío",
+        "fecha": "2026-10-20T23:54:25.835Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El envío cuesta $26.000 a cualquier parte de Colombia y se suma al valor del producto.  \n\nAsí que con el módem 4G/5G la inversión completa sería **$189.900 + $26.000 de envío**.  \n\nPagas al recibir y tienes garantía de 30 días para cualquier inconveniente.  \n\n¿Quieres que te lo deje listo para envío a Yarima hoy mismo?",
+        "fecha": "2026-10-20T23:54:27.495Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSRTIyQUQwMzM0NkJDNzlFMkYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-20T23:54:28.400Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSOEQ1NzkxOTg3OEQyRUUzREVCAA=="
       }
     ],
     "paso": "pedido_nombre",
