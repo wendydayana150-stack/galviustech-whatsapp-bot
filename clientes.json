@@ -48,8 +48,8 @@
     "telefono": "573105131515",
     "nombre": "Andrea",
     "primerContacto": "2026-10-20T23:26:56.225Z",
-    "ultimoContacto": "2026-10-20T23:26:56.225Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:28:36.471Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,34 @@
         "fecha": "2026-10-20T23:26:55.267Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MTMxNTE1FQIAERgSNDBDQ0JGQ0NBRDBCNEZDMzJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Samaná caldas",
+        "fecha": "2026-10-20T23:28:33.381Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Samaná, Caldas, lo ideal es el modem 4G/5G porque tiene la tecnología más segura para que te funcione tanto si hay 4G como 5G en tu zona.\n\nTe resumo para que lo visualices mejor:\n📶 Internet propio en tu casa o finca sin depender de fibra óptica.\n🚗 Llévalo de viaje o a donde necesites y conecta varios dispositivos al mismo tiempo.\n🏡 Ideal para trabajar, estudiar o para tu negocio sin interrupciones.\n\nLa inversión sería de **$189.900 + $26.000 de envío**.\n\nTambién puedes elegir el modem 4G (más económico, $169.900) si quieres ahorrar, o el 5G ($199.900) si en tu zona tienes buena cobertura 5G y buscas máxima velocidad.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu dirección en Samaná o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-20T23:28:35.531Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MTMxNTE1FQIAERgSNUQ1RjBFMUI4OUMxMzEyODk3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573226845939",
