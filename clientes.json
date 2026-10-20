@@ -3,8 +3,8 @@
     "telefono": "573017432871",
     "nombre": "Alejo",
     "primerContacto": "2026-10-20T09:43:17.535Z",
-    "ultimoContacto": "2026-10-20T09:54:26.351Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-20T09:58:57.028Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -178,9 +178,21 @@
         "fecha": "2026-10-20T09:54:25.168Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSMTE1MjUxQTZFQkU4MTlERjBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "1124016405",
+        "fecha": "2026-10-20T09:58:55.600Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-20T09:58:55.601Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSQ0RGRUE0ODRENjE3MjI3RUQ0AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -189,7 +201,8 @@
       "ciudad": "Para interrapidisimo Barbosa",
       "departamento": "Antioquia",
       "direccion": "Recoge en oficina de Interrapidísimo",
-      "nombreCliente": "Jehan Carlos Montiel"
+      "nombreCliente": "Jehan Carlos Montiel",
+      "celular": "1124016405"
     },
     "pausado": false,
     "etapaManual": null,
