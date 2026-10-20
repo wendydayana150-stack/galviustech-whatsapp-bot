@@ -180,8 +180,8 @@
     "telefono": "573163670738",
     "nombre": "Ana Lucía Paredes Mora",
     "primerContacto": "2026-10-20T12:48:32.582Z",
-    "ultimoContacto": "2026-10-20T12:48:32.582Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T13:59:50.016Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,13 +207,32 @@
         "fecha": "2026-10-20T12:48:31.602Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYzNjcwNzM4FQIAERgSOTNERTI4NDVGNTI1RDY1QThBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T13:56:12.452Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzNjcwNzM4FQIAERgSN0YyMzJBMjE5RjUwQ0YzQ0I0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-10-20T13:59:43.492Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Entonces te cuento rápido para que puedas elegir:\n\nLos 3 modems Wifi portátiles de GalviusTech:\n\n📶 *Modem 4G:* ideal si quieres ahorrar, funciona excelente en fincas y zonas rurales con señal 4G, $169.900 + $26.000 de envío.\n\n📶 *Modem 4G/5G:* la opción más segura para casi todas las zonas porque funciona en 4G y 5G, perfecto para trabajo, estudio, hogar y viajes, $189.900 + $26.000 de envío.\n\n📶 *Modem 5G:* para zonas con buena cobertura 5G que quieran máxima velocidad, $199.900 + $26.000 de envío.\n\nTodos tienen batería recargable hasta 14 horas y mejor cobertura que el celular normal.\n\n¿Y tú para qué lo necesitas? Así te ayudo a elegir el mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T13:59:48.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYzNjcwNzM4FQIAERgSMERGNUFDOTI5NThDNDhGODY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -221,8 +240,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
