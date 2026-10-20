@@ -785,8 +785,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T18:51:19.908Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-20T18:52:59.998Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -936,6 +936,13 @@
         "fecha": "2026-10-20T18:51:18.892Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSNUMyMDlBRTUwOTE4NEQ3M0REAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-20T18:52:58.820Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSNUY0N0IzQTk2RTBCOTVBRThDAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -948,7 +955,7 @@
       "departamento": "Cauca",
       "nombreCliente": "nunca me envío él video"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
