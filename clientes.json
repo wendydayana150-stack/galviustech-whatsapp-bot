@@ -138,8 +138,8 @@
     "telefono": "573227475106",
     "nombre": "manuelangelg659",
     "primerContacto": "2026-10-20T14:38:05.886Z",
-    "ultimoContacto": "2026-10-20T16:05:52.231Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-10-20T16:06:22.320Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -485,9 +485,21 @@
         "fecha": "2026-10-20T16:05:51.033Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSNTU3NDVCQ0QwRjA4MDBENkUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio uribia",
+        "fecha": "2026-10-20T16:06:20.603Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-20T16:06:20.604Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSMDA4NUE2ODAwOERGREM3RkM0AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "combo-modem-impresora-estudio-trabajo",
       "nombreProducto": "COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta",
@@ -496,7 +508,8 @@
       "ciudad": "Y cuál es la antena una foto",
       "departamento": "La Guajira",
       "nombreCliente": "Solo",
-      "celular": "3227475106"
+      "celular": "3227475106",
+      "direccion": "Municipio uribia"
     },
     "pausado": false,
     "etapaManual": null,
