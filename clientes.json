@@ -48,8 +48,8 @@
     "telefono": "573145931309",
     "nombre": "Luisa",
     "primerContacto": "2026-10-20T23:19:54.987Z",
-    "ultimoContacto": "2026-10-20T23:19:54.987Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:20:50.262Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,41 @@
         "fecha": "2026-10-20T23:19:54.051Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSQTA0QjZBMjE1Nzk0QUYwMTZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola\nVivo en chimichagua cesar",
+        "fecha": "2026-10-20T23:20:45.772Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que estás en Chimichagua, Cesar.\n\nTe cuento que los módems que tenemos están diseñados para dar mejor cobertura que un celular común, perfecto para zonas como fincas o veredas sin fibra óptica.\n\nAquí tienes las 3 opciones con su inversión + envío:\n\n📶 Modem 4G: $169.900  \n🚀 Modem 4G/5G (recomendado para máxima compatibilidad): $189.900  \n⚡ Modem 5G (si ya hay buena señal 5G en Chimichagua): $199.900  \n\nTodos conectan hasta 10 dispositivos y tienen batería recargable que dura hasta 14 horas.\n\n¿Para qué vas a usar el módem principalmente? ¿Trabajo, estudio, hogar o negocio? Así te ayudo mejor.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T23:20:48.473Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSOTg3QkMyMTgxOEY1MjJDQTREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-20T23:20:49.025Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSRUNGODJDQTQxNEExMEY5QjYxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573227451820",
