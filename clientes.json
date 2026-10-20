@@ -3,8 +3,8 @@
     "telefono": "573174126487",
     "nombre": "Leotrejos",
     "primerContacto": "2026-10-20T11:29:08.138Z",
-    "ultimoContacto": "2026-10-20T11:29:08.138Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T11:29:14.664Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-20T11:29:07.152Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0MTI2NDg3FQIAERgSMDkxODgzNkE0RUIwQzgyMDJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-20T11:29:10.407Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de nuestro Módem WiFi portátil varía según el modelo:\n\n📶 Modem 4G: $169.900 + $26.000 de envío  \n📶 Modem 4G/5G: $189.900 + $26.000 de envío  \n📶 Modem 5G: $199.900 + $26.000 de envío  \n\nBeneficios clave: conexión propia donde no llega la fibra, conecta varios dispositivos y es súper fácil de transportar. La inversión te asegura internet estable para estudiar, trabajar o viajar.\n\n¿Me cuentas para qué lo necesitas o en qué zona lo usarías para recomendarte el mejor modelo?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T11:29:13.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0MTI2NDg3FQIAERgSMTFGNDFERTIzQzI3MEU1RDZDAA=="
       }
     ],
     "paso": "conversando",
@@ -36,7 +48,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144205913",
