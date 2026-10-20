@@ -3,8 +3,8 @@
     "telefono": "CO.1848077609513922",
     "nombre": "erikagallo850",
     "primerContacto": "2026-10-20T17:03:09.405Z",
-    "ultimoContacto": "2026-10-20T17:03:09.405Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T17:05:14.637Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T17:03:08.216Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTg0ODA3NzYwOTUxMzkyMhUUABEYEkYyOEVCRENEQzU5QkQ0MUNFRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-20T17:05:10.927Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El Modem WiFi Portatil 4G cuesta **$169.900 + $26.000 de envío**. Es con red 4G, conecta varios dispositivos, ideal para zonas sin fibra como fincas o veredas, y fácil de llevar.\n\nTambién tenemos el Modem WiFi Portátil 4G/5G a **$189.900 + envío** y el Modem WiFi Portátil 5G a **$199.900 + envío**. Te recomiendo el de 4G/5G porque cubre bien donde hay 4G y 5G, para que siempre tengas señal estable.\n\n¿En qué municipio o lugar lo necesitas y para qué lo usarías principalmente? Así te recomiendo la mejor opción.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T17:05:13.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTg0ODA3NzYwOTUxMzkyMhUUABEYEkRFMDM4NjE5MzE0Q0EwMTExMgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1474434157941449",
