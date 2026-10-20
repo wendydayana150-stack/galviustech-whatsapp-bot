@@ -70,8 +70,8 @@
     "telefono": "CO.1425674116210163",
     "nombre": "Myriam",
     "primerContacto": "2026-10-20T23:20:47.272Z",
-    "ultimoContacto": "2026-10-20T23:23:27.231Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-20T23:25:08.836Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-10-20T23:23:26.254Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNTY3NDExNjIxMDE2MxUUABEYEjREMUI5QTA0RjI5MDY1M0I5QgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El dispositivo tiene la garantía de que sí voy a tener internet por qué dónde está ubicada la finca es muy difícil la señal hemos tenido operador claro Tigo y ninguna señal funciona",
+        "fecha": "2026-10-20T23:25:06.437Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem tiene garantía de 30 días y está diseñado para captar señal mucho más fuerte que un celular común, especialmente en zonas rurales como la tuya.\n\nPero si ya confirmaste que no hay señal de *ningún operador* (Claro, Tigo, Movistar, etc.) ni intermitente en la vereda Lusitania, este modem no podrá conectarte porque necesita señal móvil para funcionar.\n\n¿Estás segura que no hay ni un poquito de señal en ese sitio? A veces hay cobertura muy débil que un celular no detecta, pero el módem sí. Contéstame para ayudarte mejor.",
+        "fecha": "2026-10-20T23:25:07.819Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNTY3NDExNjIxMDE2MxUUABEYEjMwNTk2QUMxNDQ2NEZBMzQ5MgA="
       }
     ],
     "paso": "conversando",
