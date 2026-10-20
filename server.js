@@ -3666,10 +3666,37 @@ async function manejarTextoLibre(telefono, texto) {
                         const linea = lineaPrecioRespaldo(productoActual || idProductoEnfocado, enfoqueProducto);
                         if (linea) visible += "\n\n" + linea;
                   }
-                  // 30% DE DESCUENTO SIEMPRE (oct-2026, Wendy): todo mensaje que da un precio lo menciona
-                  if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible)) visible += "\n\n🔥 Ya tiene el *30% de descuento* por promoción.";
+                  // 30% DE DESCUENTO SIEMPRE (oct-2026, Wendy): todo mensaje que da un precio lo menciona. Va ANTES de
+                  // la pregunta final (antes se pegaba al final y tapaba la pregunta, caso yinnetterinconrivera1973).
+                  if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible)) {
+                        const linea30 = "🔥 Ya tiene el *30% de descuento* por promoción.";
+                        const bloques = visible.split(/\n\s*\n/);
+                        if (bloques.length > 1 && /\?\s*$/.test(bloques[bloques.length - 1].trim())) bloques.splice(bloques.length - 1, 0, linea30);
+                        else bloques.push(linea30);
+                        visible = bloques.join("\n\n");
+                  }
                   await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
+
+                  // CIERRE DESPUES DEL PRECIO (oct-2026, Wendy: "envia y no envia pregunta para cierre"): si Michell dio
+                  // precio y no termino con una pregunta de compra, se agrega una. Con un producto puntual, el boton
+                  // directo; si mostro varias versiones, que elija cual se lleva.
+                  const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
+                  if (!productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
+                        const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
+                        const nombrados = productosMencionados(visible);
+                        const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
+                        if (idCierre && precios <= 2) {
+                              sesion.ultimoProducto = idCierre;
+                              sesion.botonesOfrecidos[idCierre] = sesion.preguntasPorProducto[idCierre] || 1;
+                              await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+                                    { id: `pedir_${idCierre}`, titulo: "✅ Sí, envíamelo" },
+                                    { id: "ver_catalogo", titulo: "Ver otros" },
+                              ]);
+                        } else if (precios >= 2) {
+                              await enviarTexto(telefono, "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚");
+                        }
+                  }
 
                   // RECORDATORIO PARA DATOS PROMETIDOS EN CONVERSACION LIBRE (caso real sep-2026,
                   // cliente teranortizwilliam3): la IA a veces pide nombre/celular/direccion ella
