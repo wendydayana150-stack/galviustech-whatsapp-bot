@@ -138,8 +138,8 @@
     "telefono": "573227475106",
     "nombre": "manuelangelg659",
     "primerContacto": "2026-10-20T14:38:05.886Z",
-    "ultimoContacto": "2026-10-20T14:55:04.865Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-20T16:03:29.378Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -411,13 +411,46 @@
         "fecha": "2026-10-20T14:54:25.354Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSMTM3MTA0MTJCOERDNzFGNjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T15:56:12.522Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSODNFNzQ1QTVGRDk5NkQ2NEFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola Galviustech, me interesa este producto del catálogo:\nCOMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta — $ 370.000\nRef: combo-modem-impresora-estudio-trabajo\n¿Está disponible?",
+        "fecha": "2026-10-20T16:03:27.519Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Sí! El *COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta* está disponible ✅",
+        "fecha": "2026-10-20T16:03:27.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSRkQzODA5NjAzNDlCNDJGRTVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta* ($ 370.000) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-20T16:03:28.442Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSNUY3N0I0MzZGM0UxQkFBMjg3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "combo-modem-impresora-estudio-trabajo",
+      "nombreProducto": "COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta",
+      "precio": 370000,
+      "telefono": "573227475106",
+      "ciudad": "Y cuál es la antena una foto",
+      "departamento": "La Guajira"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "combo-modem-impresora-estudio-trabajo",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -425,8 +458,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
