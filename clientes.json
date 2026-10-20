@@ -2996,8 +2996,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:55:47.637Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-20T23:56:24.559Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3194,6 +3194,25 @@
         "fecha": "2026-10-20T23:55:46.503Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMTY0N0FBRjhCRjREMDdFNjY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La vereda se llena. La reserva",
+        "fecha": "2026-10-20T23:56:21.475Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dejo tu reserva para que no se te vaya el módem 4G/5G que te va a servir perfecto en la vereda.\n\nSolo dime cómo prefieres pagar: ¿contra entrega o por transferencia?",
+        "fecha": "2026-10-20T23:56:23.024Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMjFDRUU0OTVBMzEzNjAyNDdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:56:23.683Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSNzU1MzM1OTc0Q0MxM0FBNEEzAA=="
       }
     ],
     "paso": "pedido_celular",
