@@ -48,8 +48,8 @@
     "telefono": "573011375057",
     "nombre": "ALEJA 💜",
     "primerContacto": "2026-10-20T22:46:24.049Z",
-    "ultimoContacto": "2026-10-20T22:46:24.049Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:02:53.045Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,19 +75,41 @@
         "fecha": "2026-10-20T22:46:23.170Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExMzc1MDU3FQIAERgSRTZFOUQxOERFNkNCOUVGRThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem 4G",
+        "fecha": "2026-10-20T23:02:49.486Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el *Modem WiFi Portátil 4G* es ideal si necesitas internet estable en fincas, veredas o para viajar, estudiar y trabajar sin depender de fibra óptica.\n\nTe da conexión 4G para varios dispositivos al tiempo, es fácil de usar y tiene batería que dura hasta 14 horas.\n\nLa inversión es de *$169.900 + $26.000 de envío*. ✅ Pagas al recibir y tiene garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me dices dónde lo usarías exactamente (ciudad o vereda) para confirmar la cobertura y que sea la mejor opción para ti?",
+        "fecha": "2026-10-20T23:02:51.392Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExMzc1MDU3FQIAERgSMDJFREU2MjNGMUYwN0JFRjZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-20T23:02:52.105Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExMzc1MDU3FQIAERgSOEFDRDhCOUVFMTc1QzUwRTRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1034522649346769",
