@@ -1770,8 +1770,8 @@
     "telefono": "573169278148",
     "nombre": "amor a dió",
     "primerContacto": "2026-10-20T11:36:21.929Z",
-    "ultimoContacto": "2026-10-20T11:36:21.929Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T16:45:29.499Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1797,13 +1797,53 @@
         "fecha": "2026-10-20T11:36:21.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSQUQzOTcxMTdBRTZCMjVCQThEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T12:46:13.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSNUU1RTVCQTVDQkVDOEM1RkM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-20T14:46:17.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSNDBGNjQ2MDk5OTBGNjM3QzNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T14:46:18.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSNDUzMkZBMEM0M0ZDNkY2RUUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-20T14:46:19.129Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSNDdGRDU0MjM0NEM3MDhFRkYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo internet",
+        "fecha": "2026-10-20T16:45:23.945Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme 😊\n\nTe cuento rápidamente las 3 opciones que tenemos para que elijas la que mejor se acomoda a ti con inversión y beneficios incluidos:\n\n📶 **Módem WiFi Portátil 4G** - $169.900 + $26.000 de envío  \nIdeal si quieres una opción económica con buena cobertura 4G, conecta hasta 10 dispositivos y dura hasta 14 horas de batería.\n\n📶 **Módem WiFi Portátil 4G/5G** - $189.900 + $26.000 de envío  \nLo más seguro para zonas donde puede haber 4G o 5G, te funciona en cualquier lugar así tengas solo 4G o ya 5G, portátil y fácil de usar.\n\n📶 **Módem WiFi Portátil 5G** - $199.900 + $26.000 de envío  \nMáxima velocidad 5G para quienes ya tienen buena cobertura 5G en su zona y quieren lo mejor en velocidad.\n\nTodos te dan la libertad de conectarte sin depender de fibra óptica ni instalaciones, y son perfectos para trabajar, estudiar o estar conectado desde cualquier lugar.\n\n¿En qué municipio o vereda lo usarías para confirmar la cobertura y darte la mejor recomendación?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T16:45:28.264Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSOEI1RjE3NDE1Qzk3QkMxRkVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1811,9 +1851,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
