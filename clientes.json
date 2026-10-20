@@ -3,8 +3,8 @@
     "telefono": "573132163269",
     "nombre": "Humberto Vanegas",
     "primerContacto": "2026-10-20T17:50:20.237Z",
-    "ultimoContacto": "2026-10-20T17:50:20.237Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T17:51:10.236Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-20T17:50:19.282Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMTYzMjY5FQIAERgSQUQ1Q0QxNTVBOUY4RDNFNUI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-20T17:51:05.809Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi portátil 4G cuesta **$169.900 + $26.000 de envío**, la inversión ideal si quieres conexión estable para fincas, veredas o viajes, con buena cobertura y fácil transporte.\n\nTambién tenemos la versión 4G/5G en **$189.900 + envío** y el módem 5G a **$199.900 + envío**, para quienes buscan mayor velocidad o ya tienen cobertura 5G.\n\n✅ Pagas al recibir (contra entrega) y cuenta con garantía por 30 días.\n\n¿Dónde lo usarías principalmente: en tu casa, trabajo, o viajando? Así te recomiendo el que más te conviene.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T17:51:08.674Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMTYzMjY5FQIAERgSNjFCMUIwM0IwRjA1NjY0QTAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-20T17:51:09.260Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMTYzMjY5FQIAERgSQjY3ODI3OTk2NzY3QTQxRkUzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573028286174",
