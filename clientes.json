@@ -3,8 +3,8 @@
     "telefono": "573134760757",
     "nombre": "Alirio",
     "primerContacto": "2026-10-20T23:09:35.813Z",
-    "ultimoContacto": "2026-10-20T23:09:35.813Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:10:09.306Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T23:09:34.869Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NzYwNzU3FQIAERgSNUYyOTA5QTJFODg0MzMzN0Q2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una vereda de Cachipay, tiene cobertura?",
+        "fecha": "2026-10-20T23:10:05.121Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Cachipay es zona donde muchas personas disfrutan mejor señal usando un módem que el celular.\n\nTe recomiendo estas 3 opciones con su inversión:\n\n📶 Modem WiFi Portátil 4G: $169.900 + envío. Ideal si buscas ahorro y buena conexión 4G.\n\n🚀 Modem WiFi Portátil 4G/5G: $189.900 + envío. La opción más segura que funciona en zonas con 4G o 5G.\n\n⚡ Modem WiFi Portátil 5G: $199.900 + envío. Si tienes buena cobertura 5G y quieres la máxima velocidad.\n\nTodos tienen batería que dura hasta 14 horas, conectan hasta 10 dispositivos y son fáciles de usar.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar el pedido listo y te lo enviamos donde nos digas?",
+        "fecha": "2026-10-20T23:10:08.363Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NzYwNzU3FQIAERgSOUVEOTI4RjQwRjg2MUYxQkNFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573134298480",
