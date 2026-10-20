@@ -3,8 +3,8 @@
     "telefono": "573017432871",
     "nombre": "Alejo",
     "primerContacto": "2026-10-20T09:43:17.535Z",
-    "ultimoContacto": "2026-10-20T09:43:17.535Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T09:47:02.540Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,19 +24,34 @@
         "fecha": "2026-10-20T09:43:16.513Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSMUIyNzg4MzUwMTM0MzQ3RUY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El modem",
+        "fecha": "2026-10-20T09:46:57.836Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntame:\n📍 ¿En qué municipio o vereda lo usarías?\n💻 ¿Lo necesitas para estudiar, trabajar, tu negocio o tu hogar?\n\nAsí te recomiendo el módem ideal para ti. ¿Me cuentas? 📶",
+        "fecha": "2026-10-20T09:47:01.288Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSMUZFMzUzRDc1MDg4REE5NkMzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573154714475",
