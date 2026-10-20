@@ -1069,8 +1069,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T18:54:01.461Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-20T20:03:11.640Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1234,6 +1234,13 @@
         "fecha": "2026-10-20T18:54:00.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSMDExNjJENUQxOERFMzQ1RTA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.  Solo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-20T20:03:10.323Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSQUIwQzI1MjRDM0FENkE5MTIyAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -1246,7 +1253,7 @@
       "departamento": "Cauca",
       "nombreCliente": "nunca me envío él video"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
