@@ -526,8 +526,8 @@
     "telefono": "573126905032",
     "nombre": "Jesús Antonio",
     "primerContacto": "2026-10-20T22:11:03.140Z",
-    "ultimoContacto": "2026-10-20T22:12:10.634Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-20T23:18:00.310Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -553,6 +553,13 @@
         "fecha": "2026-10-20T22:11:02.010Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTA1MDMyFQIAERgSN0M2MDRCRjlCQUNCNzc2REFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T23:16:16.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTA1MDMyFQIAERgSNDM2MEE0MDhENTIwQzlEOEY0AA=="
       }
     ],
     "paso": "conversando",
@@ -567,8 +574,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
