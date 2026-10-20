@@ -18000,8 +18000,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-20T19:10:22.747Z",
-    "mensajes": 35,
+    "ultimoContacto": "2026-10-20T19:10:38.370Z",
+    "mensajes": 36,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18299,16 +18299,29 @@
         "fecha": "2026-10-20T19:10:21.577Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSNEE4RkQ5MjI2RDNBQ0QzRTUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Benjamin",
+        "fecha": "2026-10-20T19:10:37.252Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T19:10:37.253Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOEREM0IwMTNEMjgxQ0VDOUMzAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
       "precio": 249900,
       "telefono": "573150824856",
       "ciudad": "Comunicavion con un asesor gracias",
-      "departamento": "Caqueta"
+      "departamento": "Caqueta",
+      "nombreCliente": "Benjamin"
     },
     "pausado": false,
     "etapaManual": null,
