@@ -3,8 +3,8 @@
     "telefono": "573124115573",
     "nombre": "Luis Alfonso De Leon Rami",
     "primerContacto": "2026-10-20T18:08:14.317Z",
-    "ultimoContacto": "2026-10-20T18:09:41.090Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-20T18:10:42.891Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,6 +42,18 @@
         "fecha": "2026-10-20T18:09:40.075Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MTE1NTczFQIAERgSNjhDMDBFMzY2ODdGRkVFOUJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No para aya no llega ninguna señal",
+        "fecha": "2026-10-20T18:10:39.628Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por ser tan claro. Si ahí no llega señal de ningún operador, el módem no te va a servir porque no puede conectarse sin señal celular.\n\nSi quieres, puedo ayudarte a buscar otras soluciones o productos que te sirvan, o también podemos ver si en otra zona cercana sí puedes tener señal para aprovechar el módem.\n\n¿Quieres que te muestre qué más ofrece GalviusTech? Tenemos:  \n📶 Módem WiFi portatil  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes  \n🎁 Combos  \n\n¿Te interesa alguna otra categoría o prefieres que te ayude con algo más puntual?",
+        "fecha": "2026-10-20T18:10:41.995Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MTE1NTczFQIAERgSRUU2OTJDRTQ2REJFMzM3MTk3AA=="
       }
     ],
     "paso": "conversando",
@@ -50,8 +62,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No para aya no llega ninguna señal\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
