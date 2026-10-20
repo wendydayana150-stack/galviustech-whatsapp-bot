@@ -18000,8 +18000,8 @@
     "telefono": "573150824856",
     "nombre": "Benja",
     "primerContacto": "2026-10-18T15:40:34.478Z",
-    "ultimoContacto": "2026-10-20T19:12:28.081Z",
-    "mensajes": 38,
+    "ultimoContacto": "2026-10-20T19:12:42.653Z",
+    "mensajes": 39,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18335,9 +18335,21 @@
         "fecha": "2026-10-20T19:12:26.927Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSOUI2NTc0MzlCQTE2NjBERkQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yapura norte",
+        "fecha": "2026-10-20T19:12:41.710Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-20T19:12:41.711Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODI0ODU2FQIAERgSRTdFMEZGNzlBQ0E3QzFEODFDAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Termica Portatil Bluetooth",
@@ -18347,7 +18359,8 @@
       "departamento": "Caqueta",
       "nombreCliente": "Benjamin",
       "celular": "3204678074",
-      "direccion": "Floencia caqueta"
+      "direccion": "Floencia caqueta",
+      "barrio": "Yapura norte"
     },
     "pausado": false,
     "etapaManual": null,
