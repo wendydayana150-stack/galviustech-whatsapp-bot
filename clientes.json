@@ -2945,8 +2945,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:54:29.417Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-20T23:55:47.637Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3131,16 +3131,29 @@
         "fecha": "2026-10-20T23:54:28.400Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSOEQ1NzkxOTg3OEQyRUUzREVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esto es una vereda",
+        "fecha": "2026-10-20T23:55:46.502Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:55:46.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMTY0N0FBRjhCRjREMDdFNjY2AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573137627304",
       "ciudad": "Es para yarima",
-      "departamento": "Santander"
+      "departamento": "Santander",
+      "nombreCliente": "Esto es una vereda"
     },
     "pausado": false,
     "etapaManual": null,
