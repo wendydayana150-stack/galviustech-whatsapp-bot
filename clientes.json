@@ -726,8 +726,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T17:40:50.942Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-20T18:49:37.618Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -839,16 +839,36 @@
         "fecha": "2026-10-20T17:40:50.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSMjQyRDU1QzI5NTE0ODgwQkIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-20T18:46:15.479Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSNEFCOEZBREE0MzRFMDg5QjUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "nunca me envío él video",
+        "fecha": "2026-10-20T18:49:36.450Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T18:49:36.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRkE4Q0QxMDAwRUM5OUMyNzg5AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573217249355",
       "ciudad": "pero conetandolo",
-      "departamento": "Cauca"
+      "departamento": "Cauca",
+      "nombreCliente": "nunca me envío él video"
     },
     "pausado": false,
     "etapaManual": null,
@@ -860,8 +880,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
