@@ -543,8 +543,8 @@
     "telefono": "573108371657",
     "nombre": "Abogada Gloria Yaneth Vélez Pérezv2",
     "primerContacto": "2026-10-20T18:30:29.437Z",
-    "ultimoContacto": "2026-10-20T20:08:16.568Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-20T20:08:42.252Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -627,6 +627,18 @@
         "fecha": "2026-10-20T20:08:15.677Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MzcxNjU3FQIAERgSNkZCMEI0Q0YzRjJCRjYwOUI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No estoy interesada en el producto",
+        "fecha": "2026-10-20T20:08:41.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-20T20:08:41.119Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MzcxNjU3FQIAERgSODY3NTBDRDZEMjA5QkExQjVDAA=="
       }
     ],
     "paso": "pedido_nombre",
