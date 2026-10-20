@@ -42,8 +42,8 @@
     "telefono": "573205867544",
     "nombre": "amauri",
     "primerContacto": "2026-10-20T11:58:18.182Z",
-    "ultimoContacto": "2026-10-20T11:58:18.182Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T12:06:42.745Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -69,6 +69,18 @@
         "fecha": "2026-10-20T11:58:17.016Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1ODY3NTQ0FQIAERgSNEE3NTAwRkQ2RUZBODZGQjc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "$",
+        "fecha": "2026-10-20T12:06:38.101Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento rápido:\n\nTenemos tres versiones de módem que se adaptan a diferentes necesidades:\n\n📶 Modem WiFi Portátil 4G, la inversión es de **$169.900 + $26.000 de envío**.\n✅ Ideal para fincas y veredas donde solo hay señal 4G.\n✅ Conecta hasta 10 dispositivos.\n✅ Batería dura hasta 14 horas.\n\n📶 Modem WiFi Portátil 4G/5G, la inversión es de **$189.900 + $26.000 de envío**.\n✅ Funciona donde haya señal 4G o 5G; lo más seguro si no sabes si tienes 5G.\n✅ Perfecto para trabajar, estudiar o viajar.\n✅ Se conecta con facilidad sin instalaciones.\n\n📶 Modem WiFi Portátil 5G, la inversión es de **$199.900 + $26.000 de envío**.\n✅ Para zonas con buena cobertura 5G, máxima velocidad móvil.\n✅ Conexión WiFi para varios dispositivos con alta velocidad.\n\n¿En qué municipio o vereda piensas usarlo? Así te ayudo a elegir el mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T12:06:41.613Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODY3NTQ0FQIAERgSRjI1ODJCQjU2RURBNkQ1NTg3AA=="
       }
     ],
     "paso": "conversando",
@@ -81,7 +93,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573014747712",
