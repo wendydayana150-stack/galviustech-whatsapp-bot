@@ -2928,8 +2928,8 @@
     "telefono": "CO.1474434157941449",
     "nombre": "ocupado",
     "primerContacto": "2026-10-20T15:43:10.646Z",
-    "ultimoContacto": "2026-10-20T19:27:54.722Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-20T22:46:17.833Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2988,13 +2988,32 @@
         "fecha": "2026-10-20T19:27:53.488Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEjg3ODU2RjZCQzkyNzdDQzY4MwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T20:36:18.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEkFBMEFFQkJBOTg2ODMxRTVCMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo voy a usar en una vereda ,es para estudiar y para el hogar",
+        "fecha": "2026-10-20T22:46:13.248Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 😊 Para ti que necesitas internet en una vereda para estudiar y para el hogar, te recomiendo el Modem WiFi Portátil 4G/5G, que mezcla lo mejor de 4G y 5G para que te conectes donde haya cualquiera de esas señales.\n\nSus beneficios clave:\n✅ Internet estable y para varios dispositivos\n✅ Ideal para zona rural sin fibra óptica\n✅ Fácil de transportar y usar, sin instalación\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y con garantía de 30 días.\n\nTambién tenemos la opción más económica 4G por $169.900 o el 5G puro por $199.900, si quieres máxima velocidad y tienes 5G en tu zona.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu casa o prefieres recogerlo en la oficina transportadora?",
+        "fecha": "2026-10-20T22:46:15.707Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NDQzNDE1Nzk0MTQ0ORUUABEYEkY4NzYxN0ZBNTZDN0QxRjRCQgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -3002,8 +3021,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
