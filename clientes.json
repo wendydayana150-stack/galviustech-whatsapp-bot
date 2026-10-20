@@ -1074,8 +1074,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T20:03:11.640Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-20T20:07:02.117Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1246,6 +1246,20 @@
         "fecha": "2026-10-20T20:03:10.323Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSQUIwQzI1MjRDM0FENkE5MTIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T20:07:00.428Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSODMzQkQ2NDU3RkQ5REU2MTNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-20T20:07:00.996Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSREY2NTREMDhGN0FFMEU4MDk4AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -1258,7 +1272,7 @@
       "departamento": "Cauca",
       "nombreCliente": "nunca me envío él video"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
