@@ -3,8 +3,8 @@
     "telefono": "CO.2376529666505216",
     "nombre": "jOHNNY Alvarez",
     "primerContacto": "2026-10-20T12:20:42.176Z",
-    "ultimoContacto": "2026-10-20T12:20:42.176Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T12:21:23.122Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-20T12:20:40.050Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM3NjUyOTY2NjUwNTIxNhUUABEYEjA4NjYzNkRDMzMwMjMzRDdCOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-20T12:21:21.544Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-20T12:21:21.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3NjUyOTY2NjUwNTIxNhUUABEYEjBGRjFCNkZENjFFMkJBQjg3NwA="
       }
     ],
     "paso": "conversando",
@@ -36,7 +48,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234180183",
