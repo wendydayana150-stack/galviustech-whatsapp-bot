@@ -70,8 +70,8 @@
     "telefono": "CO.1425674116210163",
     "nombre": "Myriam",
     "primerContacto": "2026-10-20T23:20:47.272Z",
-    "ultimoContacto": "2026-10-20T23:20:47.272Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T23:22:33.630Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,19 +97,34 @@
         "fecha": "2026-10-20T23:20:46.226Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNTY3NDExNjIxMDE2MxUUABEYEjI1N0MyNDNFMDYxNzIwMDBCRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para utilizar en el municipio de coyaima en una vereda que se llama lusitania",
+        "fecha": "2026-10-20T23:22:30.346Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Coyaima en la vereda Lusitania te recomiendo este modem:\n\n🚀📶 *Modem WiFi portátil 4G/5G* a $189.900 + $26.000 de envío\n\n✅ Funciona donde no hay fibra, ideal para fincas y veredas  \n✅ Conecta varios dispositivos a la vez  \n✅ Fácil de usar y transportar\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nAsí tienes señal 4G o 5G según cobertura, sin preocuparte por la fibra que no llega. ¿Quieres que te ayude a dejar tu pedido listo para enviártelo?",
+        "fecha": "2026-10-20T23:22:32.551Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNTY3NDExNjIxMDE2MxUUABEYEjEyOThGMDFGRjc0OUFGODEzQwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145931309",
