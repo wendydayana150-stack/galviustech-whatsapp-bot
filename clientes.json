@@ -375,8 +375,8 @@
     "telefono": "573045642929",
     "nombre": "Milton patiño",
     "primerContacto": "2026-10-20T23:32:22.291Z",
-    "ultimoContacto": "2026-10-20T23:52:14.967Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-20T23:53:12.515Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -440,6 +440,18 @@
         "fecha": "2026-10-20T23:52:13.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NjQyOTI5FQIAERgSQTA3QTRBODY2NDM2Qzg5MzMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Uhhhh por ahora no",
+        "fecha": "2026-10-20T23:53:10.070Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tranquilo, cuando tengas listo ese momento aquí estaré para ayudarte.\n\nMientras tanto, ¿qué problema has tenido con tu conexión actual? Así dejo en mente cómo podríamos mejorarte internet cuando decidas.",
+        "fecha": "2026-10-20T23:53:11.397Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NjQyOTI5FQIAERgSOENEOTMzQTlDMEFBQkEyMkIzAA=="
       }
     ],
     "paso": "conversando",
@@ -450,7 +462,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
