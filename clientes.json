@@ -3030,8 +3030,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:57:48.976Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-20T23:58:20.202Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3304,6 +3304,25 @@
         "fecha": "2026-10-20T23:57:48.132Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSREI5MUM3QjM4MUQ3Qjc4MEM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ustedes entran alas fincas a entregar?",
+        "fecha": "2026-10-20T23:58:17.243Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En zonas rurales y fincas donde la transportadora no tiene entrega a domicilio, el pedido queda disponible para que lo recojas en la oficina más cercana de Interrapidísimo o Coordinadora.\n\nSi quieres, podemos coordinar para que te quede lo más cómodo posible.  \n\n¿Prefieres que sea entrega a domicilio o recoges en la oficina?",
+        "fecha": "2026-10-20T23:58:18.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMjNEQTk2REFDRTEyMjQ0RDc1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:58:18.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMkQwQ0M3NTdGOEE3RTJFOTVEAA=="
       }
     ],
     "paso": "pedido_celular",
