@@ -7379,8 +7379,8 @@
     "telefono": "573114388754",
     "nombre": "edwar casierra",
     "primerContacto": "2026-10-19T16:58:15.774Z",
-    "ultimoContacto": "2026-10-19T21:57:04.383Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-20T18:55:58.173Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7771,6 +7771,20 @@
         "fecha": "2026-10-19T21:57:03.153Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSNEZFREMwRTY1M0VDQ0NCNjE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-10-20T17:26:20.856Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSQkRGNUQxNjUxNUEwRDMzNzU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-20T18:55:56.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0Mzg4NzU0FQIAERgSQjlCRUZDREQ0QTlDMzIxQTYwAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -7781,7 +7795,7 @@
       "telefono": "573114388754",
       "nombreCliente": "Yolecondirmo"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -7790,9 +7804,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "esperaCompra": null
   },
