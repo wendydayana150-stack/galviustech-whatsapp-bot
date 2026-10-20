@@ -2996,8 +2996,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:56:53.571Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-20T23:57:23.908Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3232,6 +3232,25 @@
         "fecha": "2026-10-20T23:56:52.655Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMzVEOTczNzExMEU4OEQ4MjhCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El pago en contra entrega",
+        "fecha": "2026-10-20T23:57:20.797Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entonces te dejo el pedido del módem 4G/5G para El Carmen de Chucurí, Santander, con pago contra entrega.\n\nMuy pronto te pedirán los datos para el envío y que puedas recibirlo directamente y revisar antes de pagar.\n\n¿Quieres que te ayude con algo más mientras esperas?",
+        "fecha": "2026-10-20T23:57:22.095Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSRERGMTkzNUZEQkEwNTBFNDI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:57:22.753Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMzRBRjIyMEI3RTAxRDVEQkQ2AA=="
       }
     ],
     "paso": "pedido_celular",
