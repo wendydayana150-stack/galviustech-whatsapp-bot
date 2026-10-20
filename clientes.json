@@ -3,8 +3,8 @@
     "telefono": "573126719422",
     "nombre": "Marcela",
     "primerContacto": "2026-10-20T17:57:20.575Z",
-    "ultimoContacto": "2026-10-20T17:57:20.575Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T18:01:57.790Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-20T17:57:19.437Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NzE5NDIyFQIAERgSMDhBNkRGMjY4RjNEQzE4M0IzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No entiendo como opera con mi sim",
+        "fecha": "2026-10-20T18:01:54.966Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con la SIM Card de cualquier operador en Colombia (Claro, Movistar, Tigo, WOM).\n\nSolo debes poner la SIM adentro, prender el módem y conectar tus dispositivos a la red WiFi que crea el equipo.\n\nTe da WiFi para varios dispositivos a la vez (hasta 10) y la batería dura hasta 14 horas seguidas.\n\n¿Me cuentas dónde lo usarías y para qué, para recomendarte el modelo ideal?",
+        "fecha": "2026-10-20T18:01:56.898Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NzE5NDIyFQIAERgSMTk1QTAyMjAzRDkxQ0QzQkUwAA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132163269",
