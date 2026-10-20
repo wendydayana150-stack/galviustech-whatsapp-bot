@@ -1395,8 +1395,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T18:59:08.659Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T22:14:52.517Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1422,13 +1422,53 @@
         "fecha": "2026-10-20T18:59:07.710Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSODE5MkFCMzRDOThDQUI0MEVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T20:06:15.479Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMzc2MzE3REQxMDcwQTQ2RkQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-20T22:06:15.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMzJENEVDQjg0MjZFMzUwOEQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T22:06:16.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSQjE4QzJFOTMwMjE2MzRGMzJCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-20T22:06:17.330Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSQ0Q1QzE0REIyNTZDRUFCNTI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una finca donde la cobertura es mala",
+        "fecha": "2026-10-20T22:14:48.692Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, justo para fincas con mala cobertura tenemos modems que captan señal mejor que un celular común.\n\nTe presento las 3 opciones con sus precios e inversion + envío $26.000 cada uno, con garantía y pago contra entrega:\n\n📶 Módem WiFi Portátil 4G: conexión 4G estable para tu finca, fácil de usar y portátil. **$169.900**\n🚀 Módem WiFi Portátil 4G/5G: funciona en 4G o 5G, ideal si en tu zona hay algo de 5G y quieres lo más seguro. **$189.900**\n⚡ Módem WiFi Portátil 5G: para zonas con muy buena cobertura 5G, la velocidad más alta, también portable y fácil. **$199.900**\n\nImagínate estar en tu finca, con internet para que los hijos estudien o para vender online sin depender de la señal débil del celular.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Cuál de estas opciones te interesa más para que te lo enviemos? ¿Quieres que te lo llevemos a tu finca o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-20T22:14:51.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSOUY5QkVCNzBFRjU1M0ZGMkE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1436,9 +1476,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
