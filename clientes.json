@@ -48,8 +48,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-20T21:40:38.857Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-20T21:40:57.602Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -185,9 +185,21 @@
         "fecha": "2026-10-20T21:40:37.684Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSMzRGN0E4ODA4QTZEODQwODk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De interrapidisimo",
+        "fecha": "2026-10-20T21:40:56.450Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-20T21:40:56.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSMzlGODY1MTM0Q0JCNzNGQTYzAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -196,7 +208,8 @@
       "departamento": "Antioquia",
       "nombreCliente": "Actualmente uso datos desde el celular en buena es ciertos lugares",
       "celular": "3234206781",
-      "ciudad": "En la oficina transportadora"
+      "ciudad": "En la oficina transportadora",
+      "direccion": "De interrapidisimo"
     },
     "pausado": false,
     "etapaManual": null,
