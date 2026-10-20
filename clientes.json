@@ -138,8 +138,8 @@
     "telefono": "573227475106",
     "nombre": "manuelangelg659",
     "primerContacto": "2026-10-20T14:38:05.886Z",
-    "ultimoContacto": "2026-10-20T16:05:15.968Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-10-20T16:05:52.231Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -473,9 +473,21 @@
         "fecha": "2026-10-20T16:05:15.045Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSNkVCOENBNkM1MjUxM0E0OUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3227475106",
+        "fecha": "2026-10-20T16:05:51.032Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-20T16:05:51.033Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSNTU3NDVCQ0QwRjA4MDBENkUyAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-impresora-estudio-trabajo",
       "nombreProducto": "COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta",
@@ -483,7 +495,8 @@
       "telefono": "573227475106",
       "ciudad": "Y cuál es la antena una foto",
       "departamento": "La Guajira",
-      "nombreCliente": "Solo"
+      "nombreCliente": "Solo",
+      "celular": "3227475106"
     },
     "pausado": false,
     "etapaManual": null,
