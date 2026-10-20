@@ -771,8 +771,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-20T18:49:37.618Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-20T18:51:19.908Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -903,6 +903,25 @@
         "fecha": "2026-10-20T18:49:36.451Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRkE4Q0QxMDAwRUM5OUMyNzg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "como le voy a ser conpra\nsi no me explica cómo se conetan ese aparato",
+        "fecha": "2026-10-20T18:51:15.026Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Mira, te explico exactamente cómo conectas el módem paso a paso:\n\n1. Abres el módem y colocas una SIM card activa (Claro, Movistar, Tigo o WOM).\n2. Presionas el botón de encendido y el equipo inicia.\n3. En tu celular o computador, activas el WiFi y buscas la red que genera el módem (el nombre y la contraseña vienen en una etiqueta pegada al dispositivo).\n4. Te conectas con esa contraseña y ya tienes internet en varios dispositivos al mismo tiempo.\n\nEs parecido a conectarte a un WiFi normal, pero el módem crea esa señal donde estés.\n\nImagínate tener internet estable para estudiar, trabajar o comunicarte en López de Micay sin depender de conexiones fijas que no llegan.\n\n¿Te gustaría que te deje todo listo para enviártelo hoy mismo? ¿A qué dirección te lo envío?",
+        "fecha": "2026-10-20T18:51:18.258Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSQzBBNTkyQTQ3RTVENkJBRDMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T18:51:18.892Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSNUMyMDlBRTUwOTE4NEQ3M0REAA=="
       }
     ],
     "paso": "pedido_celular",
