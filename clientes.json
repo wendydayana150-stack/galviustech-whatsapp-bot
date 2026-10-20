@@ -3,8 +3,8 @@
     "telefono": "573143328446",
     "nombre": "Jose",
     "primerContacto": "2026-10-20T01:47:12.208Z",
-    "ultimoContacto": "2026-10-20T01:47:12.208Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T01:48:01.054Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T01:47:11.307Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMzI4NDQ2FQIAERgSNjAxMTdEODkxMkI1Nzg2OEIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto Santander, hogar,",
+        "fecha": "2026-10-20T01:47:57.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Puerto Santander y uso en casa, te recomiendo estas 3 opciones con sus precios y beneficios: \n\n📶 Módem WiFi Portátil 4G \n- Conecta varios dispositivos en red 4G\n- Mejor cobertura que celular en zonas rurales \n- Fácil de usar y transportar \n- Inversión de **$169.900 + $26.000 de envío** \n\n📶 Módem WiFi Portátil 4G/5G \n- Funciona con señales 4G y 5G \n- Internet rápido y estable donde haya cobertura \n- Perfecto para hogar, estudio y trabajo \n- Inversión de **$189.900 + $26.000 de envío** \n\n📶 Módem WiFi Portátil 5G \n- Solo para zonas con buena cobertura 5G \n- La máxima velocidad móvil con WiFi para varios equipos \n- Ideal si tienes 5G en Puerto Santander \n- Inversión de **$199.900 + $26.000 de envío** \n\nLos 3 pagan al recibir y tienen garantía de 30 días. \n\n¿Quieres que te ayude a dejar el pedido listo o tienes dudas de cuál te conviene más?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T01:48:00.092Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMzI4NDQ2FQIAERgSMDE4NTY5QUYxMjlERkREOTZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573134467213",
