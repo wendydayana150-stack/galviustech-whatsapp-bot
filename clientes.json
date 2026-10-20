@@ -3,8 +3,8 @@
     "telefono": "573112905468",
     "nombre": "Viviana",
     "primerContacto": "2026-10-20T12:56:33.132Z",
-    "ultimoContacto": "2026-10-20T12:56:33.132Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T12:57:57.406Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T12:56:31.998Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyOTA1NDY4FQIAERgSRDA1NTI4NjY4RkQxRjcyMzY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bogota . Vereda olarte 2.5",
+        "fecha": "2026-10-20T12:57:54.084Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para Bogotá y la vereda Olarte 2.5 te recomiendo el módem WiFi portatil 4G/5G, que es la mejor opción porque:\n\n📶 Funciona con señal 4G o 5G según cobertura en tu zona  \n🚀 Conecta hasta 10 dispositivos a la vez  \n📱 Es fácil de transportar y usar donde necesites  \n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Quieres que te lo envíe a tu dirección en la vereda Olarte 2.5 o prefieres recogerlo en oficina?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T12:57:56.121Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyOTA1NDY4FQIAERgSMTUyQjFGMUEwMThCRjhDNTFCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1462834082384719",
