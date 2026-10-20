@@ -146,8 +146,8 @@
     "telefono": "573227475106",
     "nombre": "manuelangelg659",
     "primerContacto": "2026-10-20T14:38:05.886Z",
-    "ultimoContacto": "2026-10-20T16:06:46.391Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-20T16:07:18.914Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -517,21 +517,43 @@
         "fecha": "2026-10-20T16:06:45.416Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSMUY1OTA2QTc4RDgwRjc3OUVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-10-20T16:07:15.008Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Solo\n*Celular:* 3227475106\n*Departamento:* La Guajira\n*Ciudad:* Y cuál es la antena una foto\n*Direccion:* Municipio uribia\n*Barrio:* Puede dejar en el interrapidismo\n*Producto:* COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta\n*Valor del producto:* $370.000\n*Envío:* $26.000\n*Total a pagar:* $396.000\n*Medio de pago:* Contra entrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-10-20T16:07:16.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSM0JGNERBOUQ5NTQ5QUFGQTE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-10-20T16:07:16.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSMDQ3QjVBMzgwM0E5NDNDREM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T16:07:17.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSRDA0QTdEOTk4QjNFMkNDN0QzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-10-20T16:07:18.015Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDc1MTA2FQIAERgSMDdFRDE4Rjc0MjU3MzNCM0JDAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "combo-modem-impresora-estudio-trabajo",
-      "nombreProducto": "COMBO Estudio y Trabajo: Modem 4G/5G + Impresora Tamaño Carta",
-      "precio": 370000,
-      "telefono": "573227475106",
-      "ciudad": "Y cuál es la antena una foto",
-      "departamento": "La Guajira",
-      "nombreCliente": "Solo",
-      "celular": "3227475106",
-      "direccion": "Municipio uribia",
-      "barrio": "Puede dejar en el interrapidismo"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-impresora-estudio-trabajo",
