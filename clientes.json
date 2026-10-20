@@ -9831,8 +9831,8 @@
     "telefono": "573234018117",
     "nombre": "alejo12345😃😃😃",
     "primerContacto": "2026-10-19T03:40:37.988Z",
-    "ultimoContacto": "2026-10-19T03:40:41.694Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-20T12:34:29.739Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9870,6 +9870,18 @@
         "fecha": "2026-10-19T03:40:41.129Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSOURCN0ZFMzg2MzZBQTZCQzJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Me gustaría conseguir más información sobre esto.",
+        "fecha": "2026-10-20T12:34:24.956Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento: nuestro Módem WiFi Portátil 4G/5G te permite tener internet donde lo necesites, sin depender de fibra óptica ni instalaciones complicadas. Puedes conectar varios dispositivos, es fácil de transportar y perfecto para fincas, veredas, estudio, trabajo o viajes.\n\nLa inversión es de **$189.900 + $26.000 de envío**. ✅ Pagas al recibir y tienes garantía de 30 días.\n\n¿En qué municipio o vereda lo usarías para recomendarte mejor? ¿Para qué lo necesitarías principalmente?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-20T12:34:28.278Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSNUNBNTgwQTQwNEJGN0VCQ0Q2AA=="
       }
     ],
     "paso": "conversando",
@@ -9883,10 +9895,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "esperaCompra": null
   },
   {
     "telefono": "CO.1677804340621086",
