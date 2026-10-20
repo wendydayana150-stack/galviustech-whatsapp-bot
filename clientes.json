@@ -3,8 +3,8 @@
     "telefono": "573124115573",
     "nombre": "Luis Alfonso De Leon Rami",
     "primerContacto": "2026-10-20T18:08:14.317Z",
-    "ultimoContacto": "2026-10-20T18:08:14.317Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T18:09:41.090Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-20T18:08:13.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MTE1NTczFQIAERgSOTY1QTUxQzA0QTVFMTBCRjAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve donde no ay ninguna clase de  operador",
+        "fecha": "2026-10-20T18:09:37.461Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), lamentablemente el módem no te va a funcionar, porque necesita una SIM con señal celular para conectarse.\n\nAhora, la antena del módem es mucho más potente que la del celular y a veces puede captar señal débil donde el celular no. ¿Has probado bien en el lugar exacto donde lo usarías? ¿Tu celular no tiene señal ahí o ya confirmaste que de verdad no capta ninguna?\n\nCuéntame para ver si te puedo ayudar con algo más o alguna alternativa. ¿En qué municipio o vereda estás?",
+        "fecha": "2026-10-20T18:09:40.075Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MTE1NTczFQIAERgSNjhDMDBFMzY2ODdGRkVFOUJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573126719422",
