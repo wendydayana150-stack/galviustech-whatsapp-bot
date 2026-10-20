@@ -70,8 +70,8 @@
     "telefono": "573004526794",
     "nombre": "Yair Sanchez",
     "primerContacto": "2026-10-20T23:34:32.115Z",
-    "ultimoContacto": "2026-10-20T23:47:56.311Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-20T23:50:15.312Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -291,11 +291,27 @@
         "fecha": "2026-10-20T23:47:55.471Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NTI2Nzk0FQIAERgSMkRCM0Q4Rjk3RDA1N0E5NjZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Solo este producto",
+        "fecha": "2026-10-20T23:50:14.067Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 169.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-20T23:50:14.424Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NTI2Nzk0FQIAERgSMTA3ODNFQjE1REI0QjVDQzc2AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g"
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573004526794",
+      "departamento": "Magdalena"
     },
     "pausado": false,
     "etapaManual": null,
