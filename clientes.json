@@ -3049,8 +3049,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:59:04.433Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-20T23:59:08.790Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3361,6 +3361,25 @@
         "fecha": "2026-10-20T23:59:03.425Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMkRBM0RFMDMzMTRCQ0ExMzlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y ma rápido",
+        "fecha": "2026-10-20T23:59:05.903Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el pedido se despacha rápido, generalmente ese mismo día en la tarde o al siguiente día hábil si llega tarde.\n\nLuego llega en un plazo de 2 a 4 días hábiles a la oficina que elijas para recoger.\n\n¿Prefieres que te deje el pedido listo ya para que te llegue lo más pronto posible?",
+        "fecha": "2026-10-20T23:59:07.159Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSRkVFQjQxQjgzQTI5MjJEQzkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:59:07.787Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSM0VGMThGMjAzRkI1QURGRjBCAA=="
       }
     ],
     "paso": "pedido_celular",
