@@ -3514,7 +3514,7 @@ async function avisarComprasProgramadas() {
 }
 
 const SI_CORTO = /^((s[ií]+|claro|dale|ok)[,\s]*(s[ií]|quiero|lo quiero|la quiero|por favor|porfa|claro|de una|dale|me interesa|se[nñ]or(a)?)?|claro( que s[ií])?|de una|listo|ok(ay|a)?|(a|ah)?\s?buen[oa]s?|va|vale|perfecto|me interesa|lo quiero|la quiero|env[ií]e?melo|env[ií]alo|h[aá]gale|👍+|👌+|✅)[\s!.,👍👌😊🙏]*$/i;
-const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te lo (separo|dejo)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo)/i;
+const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres)/i;
 
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
@@ -3658,6 +3658,7 @@ async function manejarTextoLibre(telefono, texto) {
             // mas abajo).
             let seLeRespondioAlgo = false;
 
+            let cierreEnviado = false; // para no mandar el boton de cierre dos veces en la misma respuesta
             if (mensajeVisible) {
                   // RESPALDO DE PRECIO (oct-2026, Wendy): si el cliente pregunto el precio y la IA respondio
                   // sin dar ninguno (caso real: "Que precio lo tienes" -> solo caracteristicas), se agrega.
@@ -3683,6 +3684,7 @@ async function manejarTextoLibre(telefono, texto) {
                   // directo; si mostro varias versiones, que elija cual se lleva.
                   const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
                   if (!productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
+                        cierreEnviado = true;
                         const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
                         const nombrados = productosMencionados(visible);
                         const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
@@ -3808,7 +3810,8 @@ async function manejarTextoLibre(telefono, texto) {
                   // (47 clientes se fueron justo ahi, uno de ellos reclamando un pedido). Ahora se ofrece
                   // UNA sola vez por producto y nunca si el cliente esta reclamando (necesitaAtencion).
                   !sesion.botonesOfrecidos[idProductoEnfocado] &&
-                  !sesion.necesitaAtencion
+                  !sesion.necesitaAtencion &&
+                  !cierreEnviado
                   ) {
                   const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
                   if (productoEnfocado) {
