@@ -3030,8 +3030,8 @@
     "telefono": "573137627304",
     "nombre": ".",
     "primerContacto": "2026-10-20T18:59:08.659Z",
-    "ultimoContacto": "2026-10-20T23:57:23.908Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-20T23:57:48.976Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3285,6 +3285,25 @@
         "fecha": "2026-10-20T23:57:22.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSMzRBRjIyMEI3RTAxRDVEQkQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pago contra entrega?",
+        "fecha": "2026-10-20T23:57:46.302Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que sí, puedes pagar contra entrega cuando te llegue el módem 4G/5G a tu casa o en la oficina para recoger.\n\nAsí verificas que todo esté perfecto antes de dar el dinero.\n\n¿Quieres que te deje el pedido listo para que te lo enviemos?",
+        "fecha": "2026-10-20T23:57:47.444Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSQ0QxNDIyNEJGRTFCOTkzMjdEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-20T23:57:48.132Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MzA0FQIAERgSREI5MUM3QjM4MUQ3Qjc4MEM4AA=="
       }
     ],
     "paso": "pedido_celular",
