@@ -918,8 +918,8 @@
     "telefono": "573004716260",
     "nombre": "Angie",
     "primerContacto": "2026-10-20T19:49:22.701Z",
-    "ultimoContacto": "2026-10-20T19:49:22.701Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-20T22:01:42.770Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -945,6 +945,25 @@
         "fecha": "2026-10-20T19:49:21.684Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzE2MjYwFQIAERgSMzZFRjlCNTY3Q0YwRDRFQzlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T20:56:15.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzE2MjYwFQIAERgSOUY3MjNEMDE0OENGNzhCNjIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-20T22:01:40.277Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 ¿En qué municipio o vereda necesitas usar el módem WiFi portátil? ¿Y para qué lo vas a necesitar, para estudiar, trabajar, tu negocio o para casa? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-10-20T22:01:41.705Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzE2MjYwFQIAERgSOThFRjE5NzJDNjlEQzA2QkMyAA=="
       }
     ],
     "paso": "conversando",
@@ -959,8 +978,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
