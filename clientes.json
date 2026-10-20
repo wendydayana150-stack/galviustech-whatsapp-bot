@@ -1774,8 +1774,8 @@
     "telefono": "573169278148",
     "nombre": "amor a dió",
     "primerContacto": "2026-10-20T11:36:21.929Z",
-    "ultimoContacto": "2026-10-20T16:51:07.223Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-20T16:51:57.323Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1884,6 +1884,18 @@
         "fecha": "2026-10-20T16:51:06.327Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSRjVFQkMwMkZDNDYyNTI4OTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tengo gracias",
+        "fecha": "2026-10-20T16:51:54.891Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por ser tan clara 🙌 Cuando tengas el documento o si necesitas otra solución, aquí estaré para ayudarte.\n\nSi quieres, te puedo mostrar otras opciones para conectarte o apoyar tu proyecto, solo dime qué necesitas. ¿Quieres que te muestre algo más?",
+        "fecha": "2026-10-20T16:51:56.165Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY5Mjc4MTQ4FQIAERgSNTIwQzA5RTQzNjQ5QkIzNkI4AA=="
       }
     ],
     "paso": "conversando",
@@ -1894,7 +1906,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
