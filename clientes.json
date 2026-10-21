@@ -3,8 +3,8 @@
     "telefono": "573232241772",
     "nombre": "Saray",
     "primerContacto": "2026-10-21T11:53:44.436Z",
-    "ultimoContacto": "2026-10-21T11:53:44.436Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T11:54:47.914Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T11:53:43.565Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyMjQxNzcyFQIAERgSOUYyODM5N0U0MDlGNDIzRjIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si me interesa",
+        "fecha": "2026-10-21T11:54:43.850Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial 🙌 Solo necesito que me digas en qué municipio o vereda piensas usar el módem y para qué lo necesitas principalmente (estudio, trabajo, hogar o negocio), así te recomiendo la versión que mejor te sirve.\n\nPor cierto, tenemos tres versiones:\n\n📶 Módem WiFi Portátil 4G: inversión de $169.900 + $26.000 de envío  \n📶 Módem WiFi Portátil 4G/5G: inversión de $189.900 + $26.000 de envío  \n📶 Módem WiFi Portátil 5G: inversión de $199.900 + $26.000 de envío  \n\nLos tres son fáciles de usar, portátiles y tienen mejor cobertura que un celular, ideales para conectar varios dispositivos.\n\n¿En qué lugar lo vas a usar y para qué? Así te ayudo a elegir el ideal.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T11:54:46.253Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyMjQxNzcyFQIAERgSQTBBRTNDNjM5Nzc4Q0NBMkFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T11:54:46.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyMjQxNzcyFQIAERgSNEU3NUJENENCNzgxNkQ5NTFDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009878234",
