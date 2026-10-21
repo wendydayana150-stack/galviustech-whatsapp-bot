@@ -93,8 +93,8 @@
     "telefono": "573223147388",
     "nombre": "Camila Saavedra",
     "primerContacto": "2026-10-21T17:45:33.793Z",
-    "ultimoContacto": "2026-10-21T17:48:31.436Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-21T17:49:14.694Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -170,6 +170,18 @@
         "fecha": "2026-10-21T17:48:30.523Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSRDhERTBCODYxOUJCQTM2NEZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No ay señal",
+        "fecha": "2026-10-21T17:49:11.965Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la honestidad. Si en tu zona no hay señal de ningún operador, al módem no le va a servir porque necesita esa señal para funcionar. \n\nSi quieres, puedo recomendarte otras opciones o soluciones, o quedo atenta para cuando tengas señal en tu zona y quieras un módem potente de GalviusTech que mejora el internet. \n\n¿Quieres hablar con un asesor para que te ayude mejor con esto?",
+        "fecha": "2026-10-21T17:49:13.501Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSOTAwOEE4OUMyOUU1QUMyQ0UxAA=="
       }
     ],
     "paso": "conversando",
@@ -178,8 +190,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No ay señal\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
