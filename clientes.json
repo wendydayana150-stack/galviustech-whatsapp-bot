@@ -3,8 +3,8 @@
     "telefono": "584164253110",
     "nombre": "Sosa Fernando",
     "primerContacto": "2026-10-21T12:22:34.242Z",
-    "ultimoContacto": "2026-10-21T12:30:05.278Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-21T12:30:37.236Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,25 @@
         "fecha": "2026-10-21T12:30:04.089Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSODk3NDEyNUY4Qjk2OUU0OTZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "luis Fernando garrido Bernabé",
+        "fecha": "2026-10-21T12:30:33.985Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto Luis Fernando, ya te estoy dejando el pedido listo para el módem 4G/5G en Puerto Carreño.\n\nSolo faltan algunos datos que el sistema te va a ir pidiendo para completar todo.\n\n¿Quieres pagar contra entrega o prefieres hacer la transferencia?",
+        "fecha": "2026-10-21T12:30:35.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSQjJFOTU0RDVEMzhCRjdBNTQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T12:30:36.341Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSOEUxMkRGQ0Y1REI0ODg1M0VEAA=="
       }
     ],
     "paso": "pedido_celular",
