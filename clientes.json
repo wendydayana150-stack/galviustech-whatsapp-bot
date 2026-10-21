@@ -3,8 +3,8 @@
     "telefono": "584164253110",
     "nombre": "Sosa Fernando",
     "primerContacto": "2026-10-21T12:22:34.242Z",
-    "ultimoContacto": "2026-10-21T12:32:27.649Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-21T12:33:18.952Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -123,9 +123,21 @@
         "fecha": "2026-10-21T12:32:26.308Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSQUJFRjk2MDhCOUU0NTExOEQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "contra entregar",
+        "fecha": "2026-10-21T12:33:17.818Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-21T12:33:17.819Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSNjgzMUNDOUU0NTIzRDEyRDk3AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -133,7 +145,9 @@
       "telefono": "584164253110",
       "ciudad": "puerto Carreño",
       "nombreCliente": "recógela en la oficina de interrapidisimo de puerto Carreño",
-      "celular": "3209196827"
+      "celular": "3209196827",
+      "medioPago": "contra entrega",
+      "departamento": "contra entregar"
     },
     "pausado": false,
     "etapaManual": null,
