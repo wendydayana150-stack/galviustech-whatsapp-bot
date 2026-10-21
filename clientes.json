@@ -3,8 +3,8 @@
     "telefono": "573125832563",
     "nombre": "Alejandro",
     "primerContacto": "2026-10-21T17:57:28.043Z",
-    "ultimoContacto": "2026-10-21T17:58:28.073Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-21T18:00:20.197Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42,13 +42,25 @@
         "fecha": "2026-10-21T17:58:25.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1ODMyNTYzFQIAERgSMUU0QkMxREU1OUMwNDQ5RTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajó y estudió en la finca",
+        "fecha": "2026-10-21T18:00:16.523Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por compartir eso 🙌\n\nPara trabajo y estudio en finca en Tarapacá, Amazonas, te recomiendo estas opciones para que elijas según tu presupuesto y necesidad:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000 envío  \n🚀 Ideal para conexión estable en zonas rurales, conecta hasta 10 dispositivos.\n\n📶 Modem WiFi Portátil 4G/5G: $189.900 + $26.000 envío  \n🚀 Mejor opción si quieres más velocidad y versatilidad, funciona 4G y 5G.\n\n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 envío  \n🚀 Máxima velocidad para zonas con buena cobertura 5G.\n\nRecuerda que estos módems tienen batería para hasta 14 horas y captan mejor señal que un celular común.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar el pedido listo para el modem 4G/5G, que es la opción más segura en tu caso?",
+        "fecha": "2026-10-21T18:00:19.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1ODMyNTYzFQIAERgSQ0Y4NEQ2NjU2OTE4QUQ4MDY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
