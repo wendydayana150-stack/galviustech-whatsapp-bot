@@ -3,8 +3,8 @@
     "telefono": "573127233133",
     "nombre": "Angelica",
     "primerContacto": "2026-10-21T22:49:56.496Z",
-    "ultimoContacto": "2026-10-21T22:49:56.496Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T22:50:49.108Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-10-21T22:49:55.777Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MjMzMTMzFQIAERgSNDQ5MkFEODM3OTJFMkIwNDcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "cual es el valor",
+        "fecha": "2026-10-21T22:50:45.144Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El valor depende de la versión del módem que elijas:\n\n📶 Módem WiFi Portátil 4G: conexión estable para zonas sin fibra, ideal para fincas y estudio.  \n⚡ Módem WiFi Portátil 4G/5G: funciona donde haya 4G o 5G, perfecto para trabajo, viajes y hogar.  \n🚀 Módem WiFi Portátil 5G: máxima velocidad si tienes buena señal 5G en tu zona, para los que quieren lo último.\n\nLa inversión es desde **$169.900** (4G) hasta **$199.900** (5G), más $26.000 de envío a toda Colombia.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías principalmente para recomendarte la mejor opción?",
+        "fecha": "2026-10-21T22:50:47.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjMzMTMzFQIAERgSQTk1MUQxQkFDQUM1NzRDRUQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T22:50:48.357Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MjMzMTMzFQIAERgSMzVCMTJBMUEzQzQ2MTA1N0ExAA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1135891018912776",
