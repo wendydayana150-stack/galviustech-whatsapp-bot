@@ -717,8 +717,8 @@
     "telefono": "573205539915",
     "nombre": ".",
     "primerContacto": "2026-10-21T22:16:09.081Z",
-    "ultimoContacto": "2026-10-21T22:16:38.413Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-21T23:27:56.691Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -763,6 +763,25 @@
         "fecha": "2026-10-21T22:16:37.534Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSRTk2MjIzNjY0QTMzQjgzQzhCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T23:26:18.064Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSQjMzQTdDMURCQUVGRDhDM0ExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy haciendo la cotización primero",
+        "fecha": "2026-10-21T23:27:54.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tomar tu tiempo está bien. Recuerda que con el módem 4G/5G tienes conexión para estudiar, trabajar y navegar con buena señal en fincas o zonas sin fibra.\n\n¿Quieres que te prepare la cotización completa para que la tengas lista cuando decidas? ¿O prefieres que te explique más sobre la instalación y el uso?",
+        "fecha": "2026-10-21T23:27:55.829Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSQ0ZFM0IyNEMxQTM0OTFGMkE0AA=="
       }
     ],
     "paso": "conversando",
@@ -777,8 +796,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
