@@ -3,8 +3,8 @@
     "telefono": "CO.4636398043346834",
     "nombre": "bustosadrian179",
     "primerContacto": "2026-10-21T17:27:02.906Z",
-    "ultimoContacto": "2026-10-21T17:27:02.906Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T17:28:05.425Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-21T17:27:01.772Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDYzNjM5ODA0MzM0NjgzNBUUABEYEkNCMUIwOUMwMUVFMjMwRjk3MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-10-21T17:28:02.685Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, buenas tardes. ¿En qué municipio o vereda necesitas el módem y para qué lo usarías principalmente (estudio, trabajo, hogar o negocio)? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-21T17:28:04.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDYzNjM5ODA0MzM0NjgzNBUUABEYEjUwNDhBNTAyNzk4Q0FFNEM5NwA="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573204961722",
