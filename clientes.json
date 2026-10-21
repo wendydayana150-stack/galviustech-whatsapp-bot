@@ -3,8 +3,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:54:04.485Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-21T14:55:23.609Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -99,6 +99,18 @@
         "fecha": "2026-10-21T14:54:03.376Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSREJGQTQ1M0EyQjJEQ0E5QThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede reservar para este fin de mes",
+        "fecha": "2026-10-21T14:55:22.436Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-21T14:55:22.437Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQTlEMEEwM0JBOUMzNTU2NEU0AA=="
       }
     ],
     "paso": "pedido_nombre",
