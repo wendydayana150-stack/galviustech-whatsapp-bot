@@ -3,8 +3,8 @@
     "telefono": "573213125364",
     "nombre": "salin bolivar",
     "primerContacto": "2026-10-21T10:58:04.493Z",
-    "ultimoContacto": "2026-10-21T10:58:04.493Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T10:59:50.897Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T10:58:03.307Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMTI1MzY0FQIAERgSMzNENjM5NDk5RjE3RTkyNTNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tienen",
+        "fecha": "2026-10-21T10:59:46.150Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El modem WiFi portatil 4G esta en **$169.900 + $26.000 de envío**. Tiene conexión para varios dispositivos, batería que dura hasta 14 horas y es ideal para zonas rurales, fincas o para viajar sin depender de fibra óptica. También tienes la opción del modem 4G/5G por **$189.900 + envío** o el 5G por **$199.900 + envío**, que te darán mayor velocidad y cobertura donde haya señal 5G.\n\n¿Me puedes contar dónde lo necesitas y para qué lo usarías principalmente? Así te recomiendo la mejor opción para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T10:59:49.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMTI1MzY0FQIAERgSRUNDNzk4RDU5RUQ4QzJBQUJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T10:59:49.933Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMTI1MzY0FQIAERgSMERDODc0RDJDMjQ5RkQ1ODc3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102262978",
