@@ -3,8 +3,8 @@
     "telefono": "573214687980",
     "nombre": "Gustavo",
     "primerContacto": "2026-10-21T01:24:46.057Z",
-    "ultimoContacto": "2026-10-21T01:24:46.057Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T01:26:41.537Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T01:24:44.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSQ0YzQzQ2NDBFRjM0QzY4QjZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En vereda",
+        "fecha": "2026-10-21T01:26:37.169Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto que me digas que es en vereda, justo para eso están nuestros módems portátiles, que captan mejor señal 4G/5G que un celular común y te dan internet donde no hay fibra.\n\nTenemos tres opciones para ti, la inversión, cada una más con el 30% de descuento:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000 de envío  \n🚀 Ideal para tener internet estable en zonas con cobertura 4G.  \n\n📶 Modem WiFi Portátil 4G/5G: $189.900 + $26.000 de envío  \n🚀 Con tecnología para 4G y 5G, buena elección si en tu zona hay algo de 5G o quieres estar listo para cuando llegue.  \n\n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 de envío  \n🚀 La máxima velocidad y tecnología 5G donde haya cobertura.  \n\n¿Para qué vas a necesitar internet allá en la vereda? ¿Trabajo, estudio, hogar o algo más? Me cuentas para ayudarte a elegir la mejor opción.",
+        "fecha": "2026-10-21T01:26:40.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSRDc0MjU4MkQxQUM2QjA4NzY2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T01:26:40.746Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSMjg1RDMyQUZBN0ZDNjUyOTgyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144389390",
