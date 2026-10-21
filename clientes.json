@@ -3,8 +3,8 @@
     "telefono": "CO.1119238444182618",
     "nombre": "Jorge ivan Alvarez mejia",
     "primerContacto": "2026-10-21T03:18:01.671Z",
-    "ultimoContacto": "2026-10-21T03:18:01.671Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T03:19:12.094Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-21T03:18:00.763Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEkY1OTNCNkQxM0JDRDZEMjI3MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay q recargarlo o funciona con plan de datos",
+        "fecha": "2026-10-21T03:19:09.129Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con cualquier SIM de operador celular (Claro, Movistar, Tigo, WOM), pero no incluye plan de datos activo.\n\nVos mismo elegís y activás el plan o recarga que necesités según tu consumo.\n\nLa tarjeta SIM que viene de regalo con el pedido es solo la tarjeta física, sin megas ni plan.\n\nContame, ¿en qué municipio o para qué lo necesitas principalmente? Así te recomiendo el módem que mejor te sirve.",
+        "fecha": "2026-10-21T03:19:11.106Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjQzMEFCQzdFNkU0RTA2NzdCRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573137518177",
