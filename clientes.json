@@ -75,8 +75,8 @@
     "telefono": "573170802293",
     "nombre": "rianoyuli563",
     "primerContacto": "2026-10-21T17:54:14.501Z",
-    "ultimoContacto": "2026-10-21T18:17:15.201Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-21T18:18:53.095Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -257,6 +257,18 @@
         "fecha": "2026-10-21T18:17:13.893Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSODA2MkFEQTVEQ0RFRkI1Mjg1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No puede ser SIMCARD de tigo",
+        "fecha": "2026-10-21T18:18:51.811Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo 😊 Cuéntame, ¿qué te preocupa o qué te gustaría cambiar de tu pedido? Te ayudo a dejarlo como lo necesitas.",
+        "fecha": "2026-10-21T18:18:51.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSNjQ3NENFMzJGOTcxMTUwQTI2AA=="
       }
     ],
     "paso": "conversando",
@@ -265,8 +277,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Modem WiFi Portatil 4G/5G: \"No puede ser SIMCARD de tigo\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
