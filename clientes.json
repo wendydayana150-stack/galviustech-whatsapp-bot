@@ -568,7 +568,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1130368249530479",
@@ -613,7 +617,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "PE.1673821901132873",
@@ -679,7 +687,8 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
@@ -746,7 +755,8 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
