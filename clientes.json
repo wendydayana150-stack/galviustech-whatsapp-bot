@@ -228,8 +228,8 @@
     "telefono": "573044827048",
     "nombre": "ngm",
     "primerContacto": "2026-10-21T19:38:58.258Z",
-    "ultimoContacto": "2026-10-21T19:38:58.258Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T19:54:10.650Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -255,6 +255,25 @@
         "fecha": "2026-10-21T19:38:57.305Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0ODI3MDQ4FQIAERgSOTZCNTMwRENFQTFEOEI0OUUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-21T19:54:05.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El Modem WiFi Portatil 4G cuesta **$169.900 + $26.000 de envío**. Te da internet estable para conectar varios dispositivos al mismo tiempo, es fácil de transportar y fue diseñado para tener mejor cobertura en zonas rurales o sin fibra. Estarías hablando de una inversión que te ayuda a tener conexión donde antes no llegaba. \n\nTambién tenemos el Modem WiFi Portátil 4G/5G en **$189.900 + envío** y el Modem WiFi Portátil 5G en **$199.900 + envío**, para que elijas según la cobertura que tengas y lo que necesites.\n\n¿Me cuentas dónde lo usarías o para qué lo necesitas? Así te recomiendo el mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T19:54:09.367Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0ODI3MDQ4FQIAERgSOEExODk5NzY2MUUwOTNERTgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T19:54:09.822Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0ODI3MDQ4FQIAERgSMzhENzQ5RkEwNDc1NzJGNzNFAA=="
       }
     ],
     "paso": "conversando",
@@ -267,7 +286,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573018473770",
