@@ -75,8 +75,8 @@
     "telefono": "573170802293",
     "nombre": "rianoyuli563",
     "primerContacto": "2026-10-21T17:54:14.501Z",
-    "ultimoContacto": "2026-10-21T18:16:12.121Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-21T18:16:29.886Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,9 +200,21 @@
         "fecha": "2026-10-21T18:16:10.835Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSRDdDOUE1ODJGRDM3QUU0QjBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gaitania tolima",
+        "fecha": "2026-10-21T18:16:25.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-21T18:16:25.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSNDk0MjA2MzAxOTA4ODczQ0FCAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -210,7 +222,8 @@
       "telefono": "573170802293",
       "nombreCliente": "Yuliana",
       "celular": "3170802293",
-      "departamento": "Tolima"
+      "departamento": "Tolima",
+      "ciudad": "Gaitania tolima"
     },
     "pausado": false,
     "etapaManual": null,
