@@ -913,8 +913,8 @@
     "telefono": "573045543095",
     "nombre": "JUSTO P.H",
     "primerContacto": "2026-10-21T18:55:33.906Z",
-    "ultimoContacto": "2026-10-21T19:05:00.653Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T20:07:22.884Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1021,6 +1021,25 @@
         "fecha": "2026-10-21T19:04:59.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSMDdCRUQyMDI2MzRCM0Q5NzA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T20:06:16.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSN0ZCRDMxNDJGQjMzQjY2NDQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No he hablado con ella la familia aun.",
+        "fecha": "2026-10-21T20:07:19.831Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sin problema, tómate tu tiempo para hablar con ellos. Mientras tanto, si quieres puedo contarte más detalles del módem o cualquier otra cosa que necesites para que puedas decidir mejor.\n\n¿Quieres que te recuerde cómo funciona la garantía y el envío? ¿O prefieres que te muestre otras opciones de productos que tenemos en GalviusTech? 📶🖨️💡📹",
+        "fecha": "2026-10-21T20:07:22.009Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSRTQzRkNDNTkxQzE3OEI4MzVDAA=="
       }
     ],
     "paso": "conversando",
@@ -1035,8 +1054,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
