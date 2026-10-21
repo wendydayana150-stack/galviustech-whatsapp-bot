@@ -6591,8 +6591,8 @@
     "telefono": "573014747712",
     "nombre": "tu príncipe",
     "primerContacto": "2026-10-20T11:48:27.901Z",
-    "ultimoContacto": "2026-10-20T11:48:27.901Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T00:33:49.301Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6618,13 +6618,25 @@
         "fecha": "2026-10-20T11:48:26.679Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE0NzQ3NzEyFQIAERgSMUUwMDBFMDYwRDhGRjQwQTk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo necesito para el departamento de Arauca municipio la pesquera vía arauquita",
+        "fecha": "2026-10-21T00:33:46.248Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por la info 😊\n\nTe cuento las 3 opciones que tenemos para ti:\n\n📶 Módem WiFi Portátil 4G: conexión estable, ideal para zonas rurales, conecta hasta 10 dispositivos. Por $169.900 + $26.000 de envío.\n\n📶 Módem WiFi Portátil 4G/5G: funciona donde haya señal 4G o 5G, la opción más segura para variar la conectividad. Por $189.900 + $26.000 de envío.\n\n📶 Módem WiFi Portátil 5G: para zonas con cobertura 5G, la máxima velocidad móvil. Por $199.900 + $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLos modems de GalviusTech están diseñados para captar mejor señal que un celular común en zonas rurales como la tuya. ¿Cuál te gustaría que te reserve o quieres que te ayude a elegir el que más te conviene?",
+        "fecha": "2026-10-21T00:33:48.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE0NzQ3NzEyFQIAERgSMUYwNzhCOTRCNEQxNENBMTk5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -6632,9 +6644,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
