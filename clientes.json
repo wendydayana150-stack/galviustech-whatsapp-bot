@@ -613,8 +613,8 @@
     "telefono": "573157374897",
     "nombre": "Martyk💔",
     "primerContacto": "2026-10-21T16:22:59.659Z",
-    "ultimoContacto": "2026-10-21T16:22:59.659Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T17:28:28.857Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -640,13 +640,32 @@
         "fecha": "2026-10-21T16:22:58.890Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSREUyQTMyQzgzRUE4RTk0RTQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T17:26:15.992Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSN0Y0NEJDRjRDRDE0MjVCNjI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que tiempo dura el servicio",
+        "fecha": "2026-10-21T17:28:26.634Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La batería de los módems dura hasta 14 horas de uso continuo con carga completa, así puedes estar conectado todo el día sin preocuparte por recargar.\n\nPara orientarte mejor, dime en qué municipio o vereda lo usarías, ¿y para qué lo necesitas principalmente? Así te puedo recomendar el modelo ideal para ti.",
+        "fecha": "2026-10-21T17:28:27.759Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSNzI3QTk5NTgxREFDNjMwRDNCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -654,8 +673,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
