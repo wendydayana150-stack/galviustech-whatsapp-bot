@@ -75,8 +75,8 @@
     "telefono": "573170802293",
     "nombre": "rianoyuli563",
     "primerContacto": "2026-10-21T17:54:14.501Z",
-    "ultimoContacto": "2026-10-21T18:14:30.167Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T18:15:48.975Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,15 +176,28 @@
         "fecha": "2026-10-21T18:14:28.968Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSODkwMTJFNDRCMEE4MzE0NUI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3170802293",
+        "fecha": "2026-10-21T18:15:47.534Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-21T18:15:47.535Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSMzczQzA0MEY1NjFCMEJGNDgxAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573170802293",
-      "nombreCliente": "Yuliana"
+      "nombreCliente": "Yuliana",
+      "celular": "3170802293"
     },
     "pausado": false,
     "etapaManual": null,
