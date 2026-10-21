@@ -70,8 +70,8 @@
     "telefono": "573103149655",
     "nombre": "Pilar perez",
     "primerContacto": "2026-10-21T22:13:34.983Z",
-    "ultimoContacto": "2026-10-21T22:16:07.211Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-21T22:16:57.273Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -147,6 +147,18 @@
         "fecha": "2026-10-21T22:16:06.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMTQ5NjU1FQIAERgSNTkwNTg4NjVCNjMzQUZEQTA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si donde estoy no sirve la señal del operador que asi pasa siempre",
+        "fecha": "2026-10-21T22:16:54.960Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no llega señal de ningún operador (Claro, Movistar, Tigo o WOM), el módem no podrá conectarse porque siempre depende de esa señal móvil.\n\nPero la antena del módem agarra señal más fuerte y estable que el celular normal, así que a veces funciona donde el celular apenas agarra o parece “sin servicio”. Me cuentas, ¿tu celular no tiene señal ahí mismo o ya confirmaste que no llega nada?\n\nEsta información me ayuda para recomendarte bien. ¿Quieres que sigamos con eso?",
+        "fecha": "2026-10-21T22:16:56.256Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMTQ5NjU1FQIAERgSNEQ1MUI3RTg1N0VDNTI1NjcxAA=="
       }
     ],
     "paso": "conversando",
