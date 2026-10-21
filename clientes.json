@@ -698,8 +698,8 @@
     "telefono": "573045516480",
     "nombre": "Javier Enrique Villa",
     "primerContacto": "2026-10-21T04:43:10.065Z",
-    "ultimoContacto": "2026-10-21T05:19:32.126Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-21T12:59:25.691Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -976,6 +976,18 @@
         "fecha": "2026-10-21T05:19:31.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSRDUyNEREQzI2NUEwMzI4MzY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola muy buenos días para confirmarle que este pedido será cancelado por motivos de traslado muchas gracias",
+        "fecha": "2026-10-21T12:59:21.642Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, entiendo perfectamente tu situación y agradezco que me avisaras.\n\nQuedo atenta por si en el futuro quieres retomar la compra o necesitas cualquier otro producto para mantener tu conexión estable.\n\n¿Hay algo más en lo que te pueda ayudar hoy?",
+        "fecha": "2026-10-21T12:59:24.493Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSNUFGRUU1OEUxM0U5MTIzMTQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -986,7 +998,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
