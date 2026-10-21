@@ -3,8 +3,8 @@
     "telefono": "573125832563",
     "nombre": "Alejandro",
     "primerContacto": "2026-10-21T17:57:28.043Z",
-    "ultimoContacto": "2026-10-21T17:57:28.043Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T17:58:28.073Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-21T17:57:25.986Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1ODMyNTYzFQIAERgSMzE2QTYzRENDMTJCNDg1MDg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tarapacá amazonas colombia",
+        "fecha": "2026-10-21T17:58:24.053Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y para qué lo necesitas más que todo? ¿Trabajo, estudio, tu casa o para viajar? Así te recomiendo el modem ideal para tu caso.",
+        "fecha": "2026-10-21T17:58:25.297Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1ODMyNTYzFQIAERgSMUU0QkMxREU1OUMwNDQ5RTQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573170802293",
