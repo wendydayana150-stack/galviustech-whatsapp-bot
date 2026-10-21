@@ -224,8 +224,8 @@
     "telefono": "573125146110",
     "nombre": "mis cuatros amores",
     "primerContacto": "2026-10-21T18:28:59.641Z",
-    "ultimoContacto": "2026-10-21T18:28:59.641Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T18:47:51.793Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -251,19 +251,75 @@
         "fecha": "2026-10-21T18:28:58.643Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSNTQ3MzM4OURGOUE2Nzk4QzREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve para vereda",
+        "fecha": "2026-10-21T18:47:45.578Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una vereda es ideal tener un módem que te asegure buena señal donde los celulares a veces no llegan bien.\n\nTe cuento las 3 opciones que tenemos:\n\n📶 Modem WiFi Portátil 4G: la opción más económica, ideal para uso básico y buena cobertura en zonas rurales. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 4G/5G: el más recomendado para estar seguro de que funcione bien, ya que agarra tanto 4G como 5G donde haya señal. Inversión de **$189.900 + $26.000 de envío**.\n\n📶 Modem WiFi Portátil 5G: si quieres la máxima velocidad y en tu vereda ya hay buen 5G, esta es la opción. Inversión de **$199.900 + $26.000 de envío**.\n\n✅ Todos conectan hasta 10 dispositivos y tienen batería para horas de uso continuo.\n\n¿Me cuentas para qué lo usarías principalmente? Así te ayudo a elegir el mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T18:47:47.915Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSNzc3NjRBREUyRkRDRDkzODI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T18:47:48.527Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSNEQ3NDNFQzUwMkQ3QjIxRTVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-21T18:47:49.141Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSQjAxNTU3QUNBOERFN0Q4NUNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-21T18:47:49.771Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSNkUzN0M2MkYzOEY5QkZFNzg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-21T18:47:50.283Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSMkE0OEYzOEUyODJBQjFENDI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-21T18:47:50.854Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te gusta más? 😊 Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T18:47:50.854Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1MTQ2MTEwFQIAERgSMjk4MEREQkNBNTg4MkU3RTc5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233518053",
