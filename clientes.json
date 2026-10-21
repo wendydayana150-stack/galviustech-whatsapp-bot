@@ -416,8 +416,8 @@
     "telefono": "573235373837",
     "nombre": "Matías Breiner Valery 🥰😍😘",
     "primerContacto": "2026-10-21T16:36:28.368Z",
-    "ultimoContacto": "2026-10-21T16:36:28.368Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T17:23:28.139Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -443,19 +443,34 @@
         "fecha": "2026-10-21T16:36:27.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MzczODM3FQIAERgSRDI3RUQ4NjU1RUQ1QjhDQ0Q5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en vereda guarumal x aya no hay señal ni internet",
+        "fecha": "2026-10-21T17:23:23.225Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme eso con sinceridad. Si en tu vereda Guarumal no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), lamentablemente el módem no podrá funcionar porque necesita una SIM con señal móvil para conectarse.\n\nLa antena del módem es más potente que la del celular normal, pero si confirmas que no hay señal ni siquiera intermitente ahí mismo, no sería la solución ideal.\n\n¿Has comprobado si en algún punto cercano a la vereda sí hay señal para saber si podrías usar el módem ahí? Así vemos qué otras opciones o recomendaciones puedo darte. ¿Cómo es tu situación con el internet ahora?",
+        "fecha": "2026-10-21T17:23:26.899Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MzczODM3FQIAERgSRDZBQ0Y0QjJFMjUyREE1NEJFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573157374897",
