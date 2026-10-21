@@ -187,8 +187,8 @@
     "telefono": "573218313361",
     "nombre": "Bendecido Gracias Dios 🙏❤",
     "primerContacto": "2026-10-21T19:43:16.366Z",
-    "ultimoContacto": "2026-10-21T19:43:16.366Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T19:58:36.445Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -214,6 +214,18 @@
         "fecha": "2026-10-21T19:43:15.421Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSMEIyMUY3MURGNzdBMTRFQ0QzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-21T19:58:34.588Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué municipio o vereda necesitas usar el módem? ¿Para trabajo, estudio, hogar o negocio? Así te recomiendo el mejor para ti. 😊📶",
+        "fecha": "2026-10-21T19:58:35.599Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSMzBBNEZEQ0EyQzc4MUEyQkRDAA=="
       }
     ],
     "paso": "conversando",
@@ -226,7 +238,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.28068127379528925",
