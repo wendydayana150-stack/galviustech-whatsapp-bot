@@ -3,8 +3,8 @@
     "telefono": "573116144619",
     "nombre": "🥰🙏 Santiago paz 💔",
     "primerContacto": "2026-10-21T00:45:32.462Z",
-    "ultimoContacto": "2026-10-21T00:49:01.771Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-21T00:50:56.723Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,9 +128,21 @@
         "fecha": "2026-10-21T00:49:00.733Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSNzNGNzBCM0Q5MTdENkRBQzM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Charco Nariño  barrio corea",
+        "fecha": "2026-10-21T00:50:55.473Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-21T00:50:55.474Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSNjJDRTg4QjRCN0UwQzMzOUFFAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -139,7 +151,8 @@
       "ciudad": "Para el",
       "departamento": "Narino",
       "nombreCliente": "Emma Montaño cuenu",
-      "celular": "3116144619"
+      "celular": "3116144619",
+      "direccion": "Charco Nariño  barrio corea"
     },
     "pausado": false,
     "etapaManual": null,
