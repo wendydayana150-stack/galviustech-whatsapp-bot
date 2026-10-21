@@ -1166,8 +1166,8 @@
     "telefono": "573045543095",
     "nombre": "JUSTO P.H",
     "primerContacto": "2026-10-21T18:55:33.906Z",
-    "ultimoContacto": "2026-10-21T21:58:50.565Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-21T22:00:33.270Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1358,6 +1358,18 @@
         "fecha": "2026-10-21T21:58:49.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSMkEyNEM3Q0UzMTcwMTQ1N0NDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Características técnicas?",
+        "fecha": "2026-10-21T22:00:30.302Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dame un segundito, ¿Quieres que te detalle las características técnicas de algún producto en especial? Por ejemplo:\n\n📶 Módem WiFi portátil 4G/5G  \n🖨️ Impresora térmica portátil Bluetooth  \n💡 Lámparas solares con sensor de movimiento  \n📹 Cámaras de seguridad WiFi  \n🎁 Combos de productos  \n\nAsí te doy solo lo que necesitas, sin tanta info de más. ¿Cuál te interesa?",
+        "fecha": "2026-10-21T22:00:32.327Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSMjlCMjdFNzc0NjM4MDgzNEI5AA=="
       }
     ],
     "paso": "confirmar_producto",
