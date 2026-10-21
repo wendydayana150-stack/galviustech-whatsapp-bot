@@ -75,8 +75,8 @@
     "telefono": "573170802293",
     "nombre": "rianoyuli563",
     "primerContacto": "2026-10-21T17:54:14.501Z",
-    "ultimoContacto": "2026-10-21T18:15:48.975Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-21T18:16:12.121Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,16 +188,29 @@
         "fecha": "2026-10-21T18:15:47.535Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSMzczQzA0MEY1NjFCMEJGNDgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tolima",
+        "fecha": "2026-10-21T18:16:10.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-21T18:16:10.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSRDdDOUE1ODJGRDM3QUU0QjBBAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573170802293",
       "nombreCliente": "Yuliana",
-      "celular": "3170802293"
+      "celular": "3170802293",
+      "departamento": "Tolima"
     },
     "pausado": false,
     "etapaManual": null,
