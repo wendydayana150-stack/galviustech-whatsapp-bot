@@ -63,8 +63,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T15:01:01.879Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-21T15:03:45.112Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -266,6 +266,18 @@
         "fecha": "2026-10-21T15:01:00.948Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQUZDQ0MyQjg2NURFM0Q0QkQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye yo te dije q podia pagarlo a fin de mes",
+        "fecha": "2026-10-21T15:03:41.561Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No te preocupes, entiendo perfecto. Cuando tengas listo el dinero nos avisas y dejamos todo listo para que lo recibas sin problema.\n\nRecuerda que la promoción y garantía te esperan.\n\n¿Quieres que te reserve el pedido por ahora o prefieres avisarme cuando estés listo?",
+        "fecha": "2026-10-21T15:03:44.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMkMxOUYxODIwMzZFNjBBRDFEAA=="
       }
     ],
     "paso": "conversando",
@@ -276,7 +288,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
