@@ -3,8 +3,8 @@
     "telefono": "573045516480",
     "nombre": "Javier Enrique Villa",
     "primerContacto": "2026-10-21T04:43:10.065Z",
-    "ultimoContacto": "2026-10-21T05:06:30.964Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-21T05:08:18.154Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,10 +198,38 @@
         "fecha": "2026-10-21T05:06:29.768Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSQjc2OEY3MjU4NEY1RDFCOUMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Interrapidísimo ituango Antioquia",
+        "fecha": "2026-10-21T05:08:14.838Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te lo envío para que lo recojas en la oficina de Interrapidísimo en Ituango, Antioquia.\n\nYa te dejo el pedido listo para procesar y el sistema te va a pedir tus datos a continuación.\n\nGracias por confiar en GalviusTech, te va a encantar tener internet propio cuando y donde quieras.",
+        "fecha": "2026-10-21T05:08:16.415Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSNjg5QzlGMDAxREEwNDlBMjVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 169.900) 🙌 Ya tengo tu departamento, tu ciudad, dónde lo recibes y cómo pagas, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-21T05:08:17.285Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSRDc5RTE5MDc1MDQ3Q0E4NkE5AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573045516480",
+      "departamento": "Antioquia",
+      "ciudad": "Interrapidisimo ituango",
+      "medioPago": "contra entrega",
+      "direccion": "Recoge en oficina de Interrapidísimo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
