@@ -3,8 +3,8 @@
     "telefono": "573134550517",
     "nombre": "Leidy Duque",
     "primerContacto": "2026-10-21T23:34:48.991Z",
-    "ultimoContacto": "2026-10-21T23:34:48.991Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T23:34:53.879Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-21T23:34:48.205Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NTUwNTE3FQIAERgSOEQxRkMwMUJBOTJGNjIyNzUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Te hablo de una vereda de quimbaya quindio",
+        "fecha": "2026-10-21T23:34:51.338Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Quimbaya en Quindío es un lugar hermoso. Para tu vereda te recomiendo nuestro Modem WiFi Portátil 4G/5G, porque funciona en zonas sin fibra y tiene mejor cobertura que tu celular.\n\nLa inversión sería de **$189.900 + $26.000 de envío**, con conexión para varios dispositivos y fácil de llevar. También está el modelo 4G más económico y el 5G si tienes cobertura 5G en tu zona.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar tu pedido listo para que tengas internet desde ya?",
+        "fecha": "2026-10-21T23:34:52.970Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NTUwNTE3FQIAERgSOUEyNEJGNEVDQ0M2OTgwQTA1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1662731128865025",
