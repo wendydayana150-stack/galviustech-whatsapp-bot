@@ -3,8 +3,8 @@
     "telefono": "573116144619",
     "nombre": "🥰🙏 Santiago paz 💔",
     "primerContacto": "2026-10-21T00:45:32.462Z",
-    "ultimoContacto": "2026-10-21T00:51:50.094Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-21T00:52:12.197Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -152,21 +152,43 @@
         "fecha": "2026-10-21T00:51:49.042Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSQjVCQTcyOTY1NTM0N0FFM0Q4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Servientrega",
+        "fecha": "2026-10-21T00:52:07.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Emma Montaño cuenu\n*Celular:* 3116144619\n*Departamento:* Narino\n*Ciudad:* Para el\n*Direccion:* Charco Nariño  barrio corea\n*Barrio:* Muelle\n*Producto:* Modem WiFi Portatil 4G\n*Valor del producto:* $169.900\n*Envío:* $26.000\n*Total a pagar:* $195.900\n*Medio de pago:* Servientrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-10-21T00:52:08.737Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSMEREM0ZEOTc5NTIxNDgyNDlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-10-21T00:52:09.483Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSMDM0RERGODgxNjVCNUI5NTk5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T00:52:10.169Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSNjdDQjc1QkQ5RjhFQTUzNTI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-10-21T00:52:10.800Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSRkMwN0UyREQyMzlCNTRFNjY5AA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "modem-4g",
-      "nombreProducto": "Modem WiFi Portatil 4G",
-      "precio": 169900,
-      "telefono": "573116144619",
-      "ciudad": "Para el",
-      "departamento": "Narino",
-      "nombreCliente": "Emma Montaño cuenu",
-      "celular": "3116144619",
-      "direccion": "Charco Nariño  barrio corea",
-      "barrio": "Muelle"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
