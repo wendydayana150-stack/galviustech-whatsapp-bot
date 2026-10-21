@@ -770,8 +770,8 @@
     "telefono": "CO.1618901163051061",
     "nombre": "Paola Diaz Corpas",
     "primerContacto": "2026-10-21T16:52:48.598Z",
-    "ultimoContacto": "2026-10-21T16:52:48.598Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T17:57:23.256Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -797,13 +797,39 @@
         "fecha": "2026-10-21T16:52:47.434Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYxODkwMTE2MzA1MTA2MRUUABEYEjRGQzc1RTExMEQ1NkY1ODQ1QQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T17:56:16.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYxODkwMTE2MzA1MTA2MRUUABEYEkJDRjZDRUMyNzZGQkFEQjc0QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y el\nMes que valdría",
+        "fecha": "2026-10-21T17:57:18.598Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido las ventajas principales y el precio para que veas la inversión:\n\nCon los módems de GalviusTech tendrás internet potente para conectar varios dispositivos a la vez, sin depender de fibra ni instalaciones, ideal para fincas, veredas o cuando viajas.\n\nLas opciones y precios son:\n• Modem WiFi Portátil 4G: *$169.900* + $26.000 de envío  \n• Modem WiFi Portátil 4G/5G: *$189.900* + $26.000 de envío  \n• Modem WiFi Portátil 5G: *$199.900* + $26.000 de envío  \n\n✅ Pagas al recibir con garantía de 30 días.\n\n¿Para qué lo utilizarías principalmente, trabajo, estudio, hogar o viajar? Así te ayudo a escoger el que más te conviene.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T17:57:21.409Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYxODkwMTE2MzA1MTA2MRUUABEYEjQ0QjlENzk1ODMxOEY2NEM4QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T17:57:22.150Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYxODkwMTE2MzA1MTA2MRUUABEYEjNFODkxMTUzM0Q5Qjc2MjYzRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -811,8 +837,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
