@@ -3,8 +3,8 @@
     "telefono": "573135537169",
     "nombre": "Will",
     "primerContacto": "2026-10-21T13:17:13.526Z",
-    "ultimoContacto": "2026-10-21T13:17:13.526Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T13:18:18.372Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-21T13:17:12.468Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTM3MTY5FQIAERgSOTNBRDU2RTExOUY2REU5QTZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea son recargable",
+        "fecha": "2026-10-21T13:18:15.196Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, los módems son recargables con batería USB-C, y la carga dura hasta 14 horas usando internet de corrido.\n\nAsí puedes llevar tu conexión contigo todo el día sin preocuparte por cargarlo cada rato.\n\n¿En qué lugar lo necesitas usar, en casa, finca o viajando? Así te recomiendo el modelo ideal.",
+        "fecha": "2026-10-21T13:18:17.400Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTM3MTY5FQIAERgSREUyOEE2QzFEQkU2RkZBRTRBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573151438211",
