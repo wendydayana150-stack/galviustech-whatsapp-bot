@@ -3,8 +3,8 @@
     "telefono": "CO.1394993983695683",
     "nombre": "❤️ Stefany petro🩷 AD. SM",
     "primerContacto": "2026-10-21T19:34:19.273Z",
-    "ultimoContacto": "2026-10-21T19:34:19.273Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T19:36:09.863Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-21T19:34:18.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEkNFRDFCMEUzRkJGMTMxRURENAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Donde vivo \nNo hay luz y no hay señal de celular",
+        "fecha": "2026-10-21T19:36:07.099Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), el módem no te servirá porque funciona con SIM de estos operadores celulares.\n\nPero dime, ¿seguro que no tienes señal de celular en el lugar donde piensas usarlo? La antena del módem es más potente que la del celular y a veces capta señal donde el celular dice que no.\n\nSobre la luz, el módem tiene batería recargable que dura hasta 14 horas con una carga completa, pero necesitas cargarlo en algún momento.\n\n¿Podrías contarme un poco más de la zona para ver si te puedo ayudar mejor?",
+        "fecha": "2026-10-21T19:36:08.720Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEjAzMEE4NUEwRkY1OTU1QjkyRgA="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573116604677",
