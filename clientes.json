@@ -3,8 +3,8 @@
     "telefono": "573117738170",
     "nombre": "flaquisfran",
     "primerContacto": "2026-10-21T21:32:41.696Z",
-    "ultimoContacto": "2026-10-21T21:35:19.868Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-21T21:38:33.570Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-10-21T21:35:18.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NzM4MTcwFQIAERgSN0IzNDdFN0EzMEJFMEU4RUZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta debe de aver señal del operador celular para poder funcionar",
+        "fecha": "2026-10-21T21:38:30.798Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem necesita que haya señal del operador celular para funcionar, porque convierte esa señal en WiFi para tus dispositivos.\n\nPero ojo: su antena es mucho más potente que la de un celular común, así que suele captar mejor señal donde el celular apenas la detecta o ni siquiera la muestra.\n\n¿Tienes señal de algún operador ahí en la vereda La Ceiba o ya confirmaste que no llega nada? Eso me ayuda a orientarte mejor.",
+        "fecha": "2026-10-21T21:38:32.692Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NzM4MTcwFQIAERgSMEIzRDg3NjM1ODdEMzMxRjdDAA=="
       }
     ],
     "paso": "conversando",
