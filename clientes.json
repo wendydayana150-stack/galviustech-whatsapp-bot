@@ -93,8 +93,8 @@
     "telefono": "CO.1394993983695683",
     "nombre": "❤️ Stefany petro🩷 AD. SM",
     "primerContacto": "2026-10-21T19:34:19.273Z",
-    "ultimoContacto": "2026-10-21T19:39:53.966Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-21T19:40:19.636Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -223,9 +223,21 @@
         "fecha": "2026-10-21T19:39:52.947Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEjNEMDg2NzYzQkRBMTYwNUNBOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El pueblo más cercano es Arenal sur de Bolívar\nEn interrapidisimo",
+        "fecha": "2026-10-21T19:40:18.375Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-21T19:40:18.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEjc3OUU0RDFEQjdFM0QyQzc2QQA="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -234,7 +246,8 @@
       "ciudad": "Estudio",
       "nombreCliente": "Stefany petro",
       "celular": "3128286428",
-      "departamento": "Bolivar"
+      "departamento": "Bolivar",
+      "direccion": "El pueblo más cercano es Arenal sur de Bolívar\nEn interrapidisimo"
     },
     "pausado": false,
     "etapaManual": null,
