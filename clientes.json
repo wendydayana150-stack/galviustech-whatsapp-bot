@@ -792,8 +792,8 @@
     "telefono": "573209186588",
     "nombre": "Ramiro Amaya villanueva",
     "primerContacto": "2026-10-21T18:20:33.996Z",
-    "ultimoContacto": "2026-10-21T18:20:33.996Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T19:32:29.140Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -819,13 +819,39 @@
         "fecha": "2026-10-21T18:20:33.111Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5MTg2NTg4FQIAERgSNUUyQkJFODJDRkM5RjcxMENFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T19:26:17.576Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTg2NTg4FQIAERgSMzU4MTQzNkY2M0E3MkQ4Q0ZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En zona rural de San sebastian de mariquita",
+        "fecha": "2026-10-21T19:32:25.482Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, San Sebastián de Mariquita es zona rural, entonces te recomiendo este módem que es la mejor opción para lugares sin fibra ni buena señal fija:\n\n🚀📶 *Modem WiFi Portátil 4G/5G* - $189.900 + $26.000 de envío  \n- Funciona donde no llega fibra, capta mejor señal que el celular  \n- Conecta hasta 10 dispositivos (teléfono, computador, tablet)  \n- Portátil, sin instalación complicada, solo pones la SIM y listo\n\nTambién podemos mostrarte el 4G más económico o el 5G más rápido, pero el 4G/5G es la mejor inversión para zona rural porque funciona en los dos tipos de señal.\n\n¿Lo quieres para estudio, trabajo, negocio o tu casa? Así te confirmo la mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T19:32:27.714Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTg2NTg4FQIAERgSNTA0QTI5N0FBMEU2MUI3OURDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-21T19:32:28.293Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTg2NTg4FQIAERgSRDdCNTJDQzg3N0FERDgwODRFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -833,8 +859,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
