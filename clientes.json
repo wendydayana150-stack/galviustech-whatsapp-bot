@@ -63,8 +63,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:57:57.302Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-21T14:59:10.675Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -202,6 +202,25 @@
         "fecha": "2026-10-21T14:57:56.365Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMDE3MTc1NEVBNjgyQUE4NEFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la trasportadora de bruselas",
+        "fecha": "2026-10-21T14:59:07.036Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, entonces lo dejamos para que recojas en la transportadora de Bruselas, Huila.\n\nTe dejo el pedido listo para que empiece el proceso, y cuando te llegue te apoyaré con la configuración si necesitas.\n\n¡Muchas gracias por confiar en GalviusTech! 📶💪",
+        "fecha": "2026-10-21T14:59:08.848Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQTNBMDBDNTBDREUwMzg5MUYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T14:59:09.610Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSNjFGREVDRjA1NTFFRkRERDQ0AA=="
       }
     ],
     "paso": "pedido_celular",
