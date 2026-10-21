@@ -75,8 +75,8 @@
     "telefono": "573170802293",
     "nombre": "rianoyuli563",
     "primerContacto": "2026-10-21T17:54:14.501Z",
-    "ultimoContacto": "2026-10-21T18:16:29.886Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-21T18:16:56.611Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -212,9 +212,21 @@
         "fecha": "2026-10-21T18:16:25.895Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSNDk0MjA2MzAxOTA4ODczQ0FCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina principal Interrapidisimo Gaitania tolima",
+        "fecha": "2026-10-21T18:16:55.393Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-21T18:16:55.394Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwODAyMjkzFQIAERgSQ0MxNkJDQ0Y5QTcwMjNCMDA5AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -223,7 +235,8 @@
       "nombreCliente": "Yuliana",
       "celular": "3170802293",
       "departamento": "Tolima",
-      "ciudad": "Gaitania tolima"
+      "ciudad": "Gaitania tolima",
+      "direccion": "Oficina principal Interrapidisimo Gaitania tolima"
     },
     "pausado": false,
     "etapaManual": null,
