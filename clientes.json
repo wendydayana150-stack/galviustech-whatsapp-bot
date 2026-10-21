@@ -3,8 +3,8 @@
     "telefono": "573045516480",
     "nombre": "Javier Enrique Villa",
     "primerContacto": "2026-10-21T04:43:10.065Z",
-    "ultimoContacto": "2026-10-21T04:43:10.065Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T04:47:47.935Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-21T04:43:09.269Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSMkY1QjRGMkI1MDBCRUVCODdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ituango Antioquia Colombia",
+        "fecha": "2026-10-21T04:47:45.196Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Ituango Antioquia para que es principalmente? ¿Trabajo, estudio, hogar o para viajar? Así te recomiendo el mejor módem para que tengas internet estable y buena cobertura en tu zona.",
+        "fecha": "2026-10-21T04:47:46.867Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSNURFN0Q4N0M2ODUyNTJFQUYwAA=="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573166195495",
