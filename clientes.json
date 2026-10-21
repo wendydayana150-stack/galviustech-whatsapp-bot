@@ -142,8 +142,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T15:09:27.231Z",
-    "mensajes": 21,
+    "ultimoContacto": "2026-10-21T15:09:39.870Z",
+    "mensajes": 22,
     "conversacion": [
       {
         "rol": "cliente",
@@ -472,6 +472,25 @@
         "fecha": "2026-10-21T15:09:26.139Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSM0RGNDQyODBEMjU1QkFBNkVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-21T15:09:36.513Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta para ayudarte cuando quieras avanzar con el pedido.\n\nRecuerda que el envío cuesta $26.000 y pagas al recibir, sin sorpresas.\n\n¿Quieres que te deje ese pedido listo ya para cuando tengas la recarga y SIM a mano? 😊\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T15:09:38.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSNTZFQTlFRENGQkU5MDIwRkU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-21T15:09:38.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMkVBOTdDMTg1ODBCNTNCQkQ4AA=="
       }
     ],
     "paso": "conversando",
