@@ -63,8 +63,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:59:10.675Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-21T15:00:35.320Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,9 +221,21 @@
         "fecha": "2026-10-21T14:59:09.610Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSNjFGREVDRjA1NTFFRkRERDQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3214955375",
+        "fecha": "2026-10-21T15:00:34.108Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-21T15:00:34.108Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSM0E2QUZGQkJCRTEwNDUxQUZCAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -232,7 +244,8 @@
       "medioPago": "contra entrega",
       "departamento": "Huila",
       "ciudad": "Pago contra entrega",
-      "nombreCliente": "Jose ospina"
+      "nombreCliente": "Jose ospina",
+      "celular": "3214955375"
     },
     "pausado": false,
     "etapaManual": null,
