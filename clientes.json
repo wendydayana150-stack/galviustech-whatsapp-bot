@@ -3,8 +3,8 @@
     "telefono": "573205539915",
     "nombre": ".",
     "primerContacto": "2026-10-21T22:16:09.081Z",
-    "ultimoContacto": "2026-10-21T22:16:09.081Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T22:16:38.413Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T22:16:06.552Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSRTNFMDMwRTlDQzY4N0Q4QTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estudiar",
+        "fecha": "2026-10-21T22:16:33.599Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para estudiar te recomiendo conocer estas 3 opciones de módem portátil con sus precios:\n\n📶 **Modem WiFi Portátil 4G** $169.900 + $26.000 de envío  \nIdeal si quieres ahorrar, conecta varios dispositivos y tiene buena cobertura en zonas rurales.\n\n📶 **Modem WiFi Portátil 4G/5G** $189.900 + $26.000 de envío  \nLa mejor opción segura porque funciona en 4G y también 5G donde haya cobertura, para velocidad y estabilidad.\n\n📶 **Modem WiFi Portátil 5G** $199.900 + $26.000 de envío  \nSi en tu zona ya hay muy buena señal 5G y quieres máxima velocidad, esta es la opción.\n\nLos modems se llevan fácil, conectan varios dispositivos y te dan internet sin depender de fibra óptica ni instalaciones. La inversión es clara y te va a servir para estudiar sin cortes, tanto en casa como si te mueves.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué ciudad o vereda lo usarías para confirmarte cuál se adapta mejor?",
+        "fecha": "2026-10-21T22:16:37.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSNTYwNjNENEM1NDdERkQ0NUU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T22:16:37.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSRTk2MjIzNjY0QTMzQjgzQzhCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103149655",
