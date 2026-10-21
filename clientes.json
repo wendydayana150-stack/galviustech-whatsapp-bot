@@ -3,8 +3,8 @@
     "telefono": "573151438211",
     "nombre": "Gunther Velez",
     "primerContacto": "2026-10-21T13:00:42.725Z",
-    "ultimoContacto": "2026-10-21T13:00:42.725Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T13:01:10.016Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T13:00:41.549Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxNDM4MjExFQIAERgSRjM4MkI3RTA0NDBBREY0OEE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que cuesta",
+        "fecha": "2026-10-21T13:01:05.456Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión por un módem WiFi portátil con la mejor cobertura y fácil de usar sería así:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000 de envío.\n📶 Modem WiFi Portátil 4G/5G (recomendado para mayor seguridad en señal): $189.900 + $26.000 de envío.\n📶 Modem WiFi Portátil 5G (máxima velocidad donde haya cobertura): $199.900 + $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLos tres conectan varios dispositivos a la vez y vienen con garantía de 30 días. Pagas al recibir. ¿Me cuentas para qué lo necesitas o en qué zona lo usarías para recomendarte el ideal?",
+        "fecha": "2026-10-21T13:01:08.381Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxNDM4MjExFQIAERgSRTgzRjMyMTc1QzY4RTNGODg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T13:01:09.023Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxNDM4MjExFQIAERgSRkVDRDVEQjU2MDJCQkZDQkI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2030986300941883",
