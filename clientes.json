@@ -901,8 +901,8 @@
     "telefono": "573145931309",
     "nombre": "Luisa",
     "primerContacto": "2026-10-20T23:19:54.987Z",
-    "ultimoContacto": "2026-10-20T23:24:57.449Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T00:26:25.490Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1002,6 +1002,25 @@
         "fecha": "2026-10-20T23:24:56.590Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSNDlBMzBCNTkyNUNENEYzN0VGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T00:26:17.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSMDU4REM1NTYwM0UzMjUyRjc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible.",
+        "fecha": "2026-10-21T00:26:22.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando estés listo para volver a hablar sobre el módem o cualquier otra cosa, aquí estaré para ayudarte con lo que necesites.\n\nMientras tanto, ¿querés que te deje info de otros productos que tenemos en GalviusTech o te interesa solo el módem?",
+        "fecha": "2026-10-21T00:26:24.654Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSQTYzMDBFQzNBMUExMDdDQjE4AA=="
       }
     ],
     "paso": "conversando",
@@ -1016,8 +1035,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
