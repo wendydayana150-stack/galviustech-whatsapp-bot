@@ -3,8 +3,8 @@
     "telefono": "CO.1119238444182618",
     "nombre": "Jorge ivan Alvarez mejia",
     "primerContacto": "2026-10-21T03:18:01.671Z",
-    "ultimoContacto": "2026-10-21T03:20:55.518Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T03:21:58.103Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,15 +111,28 @@
         "fecha": "2026-10-21T03:20:54.626Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjUyNzRBOEM2OTBCRDY4NTEwMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero yo te aviso cuando me lo envias",
+        "fecha": "2026-10-21T03:21:57.167Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T03:21:57.169Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjREODVCMjZFN0ZEQzJFNEFERgA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "CO.1119238444182618",
-      "ciudad": "Yo vivo en medellín"
+      "ciudad": "Yo vivo en medellín",
+      "nombreCliente": "Pero yo te aviso cuando me lo envias"
     },
     "pausado": false,
     "etapaManual": null,
