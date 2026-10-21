@@ -3,8 +3,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:46:46.719Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-21T14:47:51.564Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,6 +61,25 @@
         "fecha": "2026-10-21T14:46:45.755Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMjA2MzkwMzQyNEFBRTQ0NzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como funciona",
+        "fecha": "2026-10-21T14:47:46.417Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí. \n\nEste módem funciona poniendo una SIM Card (de Claro, Movistar, Tigo o WOM) dentro, lo enciendes y crea una red WiFi para tus dispositivos.\n\nAsí conectas celulares, computadoras o tablets con internet 4G o 5G según la señal de la zona, sin cables ni instalaciones.\n\nTiene batería recargable que dura hasta 14 horas para que lo uses donde quieras: finca, vereda, viaje o casa.\n\nCon su antena potente, capta mejor señal que un celular normal en zonas rurales.\n\n¿Quieres que te arme el pedido para que tengas internet ya sin depender de fibra?",
+        "fecha": "2026-10-21T14:47:49.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMkY0NzkxOEJCOEUxNzNCOUY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-21T14:47:50.540Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQjhBQTFBNTRBN0NCMzZEMTc3AA=="
       }
     ],
     "paso": "pedido_nombre",
