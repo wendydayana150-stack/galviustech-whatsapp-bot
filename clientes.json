@@ -48,8 +48,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:57:15.740Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-21T14:57:57.302Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -168,6 +168,25 @@
         "fecha": "2026-10-21T14:57:14.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQUE5NjIwQzdBOERGOTk3MTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este numero del cual estoy escribiendo",
+        "fecha": "2026-10-21T14:57:53.242Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces con ese número ya tenemos un dato clave para tu pedido.\n\nSolo me falta que me digas si te lo enviamos a tu casa en Bruselas (Huila), o prefieres recogerlo en la oficina de la transportadora más cercana.\n\n¿Como quieres recibirlo?",
+        "fecha": "2026-10-21T14:57:55.770Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQjc3QjdFMzc3NDIyMTUzNjRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T14:57:56.365Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSMDE3MTc1NEVBNjgyQUE4NEFBAA=="
       }
     ],
     "paso": "pedido_celular",
