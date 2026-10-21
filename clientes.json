@@ -93,8 +93,8 @@
     "telefono": "CO.1394993983695683",
     "nombre": "❤️ Stefany petro🩷 AD. SM",
     "primerContacto": "2026-10-21T19:34:19.273Z",
-    "ultimoContacto": "2026-10-21T19:39:24.391Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-21T19:39:45.751Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -199,16 +199,29 @@
         "fecha": "2026-10-21T19:39:23.362Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEkE1MjkyNUUyRkNDRUQxOTdFNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3128286428",
+        "fecha": "2026-10-21T19:39:44.739Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-21T19:39:44.740Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTM5NDk5Mzk4MzY5NTY4MxUUABEYEjZGOUI3QTE1RDIyQUJFODMzRgA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "CO.1394993983695683",
       "ciudad": "Estudio",
-      "nombreCliente": "Stefany petro"
+      "nombreCliente": "Stefany petro",
+      "celular": "3128286428"
     },
     "pausado": false,
     "etapaManual": null,
