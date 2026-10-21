@@ -3,8 +3,8 @@
     "telefono": "CO.1493109985970877",
     "nombre": "Lucho Kmargo",
     "primerContacto": "2026-10-21T14:35:49.003Z",
-    "ultimoContacto": "2026-10-21T14:35:49.003Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T14:37:01.500Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-21T14:35:48.030Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ5MzEwOTk4NTk3MDg3NxUUABEYEjQ4QTc5RTM3RjNEQjQzRjgxNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una vereda de el colegio Cundinamarca, acá la señal es mala.\nEl módem debe tener una simcard y trabaja por wifi?",
+        "fecha": "2026-10-21T14:36:55.293Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, justo para zonas rurales como veredas donde la señal del celular suele ser mala, estos módems están diseñados con antenas potentes para captar mejor la señal celular y no depender de fibra óptica.\n\nSí, el módem funciona con una SIM cualquiera (Claro, Movistar, Tigo, WOM) y crea una red WiFi para que conectes varios dispositivos al mismo tiempo, sin complicaciones.\n\nLas opciones y sus inversiones serían:\n📶 Módem 4G — $169.900 + $26.000 de envío (más económico, buena opción si no tienes 5G ahí)  \n📶 Módem 4G/5G — $189.900 + $26.000 de envío (ideal para que funcione donde haya 4G o 5G, recomendado para tu zona)  \n📶 Módem 5G — $199.900 + $26.000 de envío (si ya tienes buena señal 5G y quieres máxima velocidad)\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te envíe uno de ellos a la vereda o prefieres recogerlo en oficina?",
+        "fecha": "2026-10-21T14:36:59.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ5MzEwOTk4NTk3MDg3NxUUABEYEkYxNDE5OEFEQUI0RTM1NEY4QQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T14:37:00.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ5MzEwOTk4NTk3MDg3NxUUABEYEkFDOUQxNkUwRjRENzdFQkIzOAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573006091436",
