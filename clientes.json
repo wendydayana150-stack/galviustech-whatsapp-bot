@@ -1528,8 +1528,8 @@
     "telefono": "573206833919",
     "nombre": "rolandoarroyave29",
     "primerContacto": "2026-10-20T22:15:11.291Z",
-    "ultimoContacto": "2026-10-20T22:31:51.543Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-21T00:04:54.410Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1591,6 +1591,32 @@
         "fecha": "2026-10-20T22:31:50.401Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2ODMzOTE5FQIAERgSRjYzNEZBQjJCMTI3Q0FFQ0FEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-20T23:36:15.488Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2ODMzOTE5FQIAERgSQzU1Q0NFNjdCRUFCNTU5M0NBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esque la señal x aquí es mala del todo y de pronto no sirve",
+        "fecha": "2026-10-21T00:04:50.495Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, si la señal de celular en tu zona es muy mala, es importante saber que el módem tiene antena especial para captar mejor que un celular común.\n\nPero si de verdad no hay señal de ningún operador, ni siquiera intermitente, el módem no podrá conectarse pues depende de la SIM y la red móvil.\n\n¿Podrías confirmarme si en algún lugar de tu vereda logras ver aunque sea un poco de señal 4G o 5G, o si otros vecinos usan celular con alguna conexión aunque sea débil?\n\nAsí te confirmo si este módem te puede ayudar o mejor buscamos otra solución.",
+        "fecha": "2026-10-21T00:04:52.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2ODMzOTE5FQIAERgSNTU0NzIwODc1QzJDQTk2N0JFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-21T00:04:53.378Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2ODMzOTE5FQIAERgSREE5NzhCMzkxNjk4OTE1M0FCAA=="
       }
     ],
     "paso": "conversando",
@@ -1605,8 +1631,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
