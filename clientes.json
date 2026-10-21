@@ -604,8 +604,8 @@
     "telefono": "573127929158",
     "nombre": "charrisvaoquez",
     "primerContacto": "2026-10-21T22:52:16.566Z",
-    "ultimoContacto": "2026-10-21T22:52:16.566Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T23:58:26.919Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -631,6 +631,25 @@
         "fecha": "2026-10-21T22:52:15.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSQjFDMjA5RkVGOTQ0N0IwQjNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T23:56:16.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSNUZFOTFENzVBNEVDNjIwOTlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Así no seguí por qué estamos viendo más opciones sinceramente por qué mi compañero quiso buscar más opciones yo te aviso si lo voy a encargar",
+        "fecha": "2026-10-21T23:58:24.212Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema. Cuando quieras, aquí estaré para ayudarte a elegir la mejor opción y que tengas internet estable donde lo necesites.\n\nRecuerda que nuestros módems tienen mejor cobertura en zonas rurales que un celular y son fáciles de llevar a cualquier lado.\n\n¿Quieres que te mande info de otras categorías también? Como impresoras, cámaras o lámparas solares para complementar tu conectividad. ¿O prefieres que te espere mientras decides?",
+        "fecha": "2026-10-21T23:58:26.044Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSOTY4NzM2RDVGNDYyMDZFRDFGAA=="
       }
     ],
     "paso": "conversando",
@@ -645,8 +664,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
