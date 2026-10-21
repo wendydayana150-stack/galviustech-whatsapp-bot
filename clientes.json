@@ -2475,8 +2475,8 @@
     "telefono": "573204961722",
     "nombre": "☺️",
     "primerContacto": "2026-10-21T17:21:16.429Z",
-    "ultimoContacto": "2026-10-21T17:32:03.415Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-21T20:55:00.831Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2540,13 +2540,60 @@
         "fecha": "2026-10-21T17:32:02.308Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSMzVFRTNDOUU1M0MyRDVBMkVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T18:36:17.128Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSM0VBNzBEMjBGMThDREZEQTQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-21T20:36:19.587Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSOUQwMTQ5ODNCMjAxRjkxQUM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T20:36:20.447Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSMkQxRkFCNzQ2RDZERDg5QjAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-21T20:36:21.169Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSNTg2REUxQzY2QTU0MzdBQ0RCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuáles son las lámparas solares",
+        "fecha": "2026-10-21T20:54:55.885Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento las opciones que tenemos en lámparas solares para exteriores:\n\n💡 **Lamparas 3 lentes x 2**: 2 unidades por $160.000. Panel solar, 3 lentes para mayor iluminación y vigilancia, diseño tipo cámara, ideales para patio, garaje, finca o negocio.\n\n💡 **Lámpara con sensor x 2 unidades**: $119.900. Panel solar, sensor de movimiento, diseño tipo cámara, para seguridad y ahorro de luz.\n\n💡 **Lámpara panel solar y sensor de movimiento x 3 unidades**: $139.900. Combo de 3 lámparas con sensor, diseño tipo cámara, se cargan con el sol y se encienden al detectar movimiento.\n\n💡 **Lamparas 3 lentes x 3**: 3 unidades por $199.900, para iluminar y asegurar varios espacios con sus 3 lentes y sensor de movimiento.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres alguna para tu casa, finca o negocio? ¿En qué zona quieres ponerlas?",
+        "fecha": "2026-10-21T20:54:58.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSMzU1RDkwNTU5RUNGMjA0MkEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T20:54:59.562Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0OTYxNzIyFQIAERgSRDUxQUJGNTZFQTU5OTE5M0EzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g",
+    "ultimoProducto": "lamparas-3-lentes-x-2",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -2554,9 +2601,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
