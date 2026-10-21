@@ -3,8 +3,8 @@
     "telefono": "573045516480",
     "nombre": "Javier Enrique Villa",
     "primerContacto": "2026-10-21T04:43:10.065Z",
-    "ultimoContacto": "2026-10-21T05:08:18.154Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-21T05:10:44.881Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -217,9 +217,21 @@
         "fecha": "2026-10-21T05:08:17.285Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSRDc5RTE5MDc1MDQ3Q0E4NkE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Javier Enrique Villa",
+        "fecha": "2026-10-21T05:10:43.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T05:10:43.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSRkM0ODU4QTg1NkE4Njc1MzJFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -228,7 +240,8 @@
       "departamento": "Antioquia",
       "ciudad": "Interrapidisimo ituango",
       "medioPago": "contra entrega",
-      "direccion": "Recoge en oficina de Interrapidísimo"
+      "direccion": "Recoge en oficina de Interrapidísimo",
+      "nombreCliente": "Javier Enrique Villa"
     },
     "pausado": false,
     "etapaManual": null,
