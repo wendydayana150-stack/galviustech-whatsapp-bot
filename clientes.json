@@ -1166,8 +1166,8 @@
     "telefono": "573045543095",
     "nombre": "JUSTO P.H",
     "primerContacto": "2026-10-21T18:55:33.906Z",
-    "ultimoContacto": "2026-10-21T22:03:28.041Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-21T22:05:05.767Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1432,6 +1432,18 @@
         "fecha": "2026-10-21T22:03:27.109Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSNUMwNzY0MUQ3QUY3QjEzMEZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya les estaré avisando.",
+        "fecha": "2026-10-21T22:05:03.311Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando decidas. Recuerda que la promoción con el 30% de descuento y el envío a toda Colombia están activos, y te llega directo a la puerta.\n\n¿Quieres que te deje la info lista para hacer el pedido cuando me digas?",
+        "fecha": "2026-10-21T22:05:04.959Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSRjUzOTczQURCNzg4REE3MTY0AA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -1444,7 +1456,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
