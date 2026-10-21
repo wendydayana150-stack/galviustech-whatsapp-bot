@@ -93,8 +93,8 @@
     "telefono": "573127522645",
     "nombre": "pushaina",
     "primerContacto": "2026-10-21T23:08:03.445Z",
-    "ultimoContacto": "2026-10-21T23:12:32.180Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-21T23:15:08.418Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -151,6 +151,18 @@
         "fecha": "2026-10-21T23:12:30.869Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTIyNjQ1FQIAERgSMkIxRTIwQTJCMTAzMDI2MjlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuando tengo yo te aviso",
+        "fecha": "2026-10-21T23:15:05.174Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres pensarlo. \n\nSolo recuerda que mientras más rápido lo tengas, menos tiempo pierdes buscando WiFi o con la conexión lenta que hay ahora. GalviusTech te da garantía de 30 días y apoyo para la instalación cuando te llegue el equipo.\n\nQuedo atenta para ayudarte cuando decidas. \n\n¿Quieres que te deje info de los pasos para pedir cuando estés listo?",
+        "fecha": "2026-10-21T23:15:07.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTIyNjQ1FQIAERgSOTMwODNCQTlCRUNEQUNEN0Q2AA=="
       }
     ],
     "paso": "conversando",
@@ -161,7 +173,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
