@@ -2002,8 +2002,8 @@
     "telefono": "573005163748",
     "nombre": "Magali Escobar Velez 💞💞💞",
     "primerContacto": "2026-10-20T21:42:23.182Z",
-    "ultimoContacto": "2026-10-20T21:43:31.887Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-21T00:13:08.966Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2079,6 +2079,20 @@
         "fecha": "2026-10-20T21:43:30.990Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MTYzNzQ4FQIAERgSM0ZDM0VFNzE5QUY2NEY4MkJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-20T22:46:15.360Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MTYzNzQ4FQIAERgSRDU5OTI2QzE2NzMzMURBNDhGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu ciudad, no hace falta repetirlo.  Solo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-21T00:13:07.841Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MTYzNzQ4FQIAERgSOTQxMUU2QTkyNDEwNjA0NjJFAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2089,7 +2103,7 @@
       "telefono": "573005163748",
       "ciudad": "Presio"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2099,8 +2113,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
