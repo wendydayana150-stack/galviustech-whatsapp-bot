@@ -90,8 +90,8 @@
     "telefono": "CO.1493109985970877",
     "nombre": "Lucho Kmargo",
     "primerContacto": "2026-10-21T14:35:49.003Z",
-    "ultimoContacto": "2026-10-21T14:37:01.500Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-21T14:47:35.719Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -136,6 +136,18 @@
         "fecha": "2026-10-21T14:37:00.499Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ5MzEwOTk4NTk3MDg3NxUUABEYEkFDOUQxNkUwRjRENzdFQkIzOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qué medio usan para el envío?",
+        "fecha": "2026-10-21T14:47:32.670Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La mayoría de nuestros envíos se hacen con Interrapidísimo. Si en tu zona no hay cobertura, usamos Coordinadora.\n\nEn zonas rurales como veredas, a veces la transportadora no entrega hasta la puerta, entonces el paquete queda para que lo recojas en la oficina más cercana de tu municipio.\n\n¿Quieres que te lo enviemos a la dirección de tu vereda o prefieres pasar a recogerlo en la oficina?",
+        "fecha": "2026-10-21T14:47:34.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ5MzEwOTk4NTk3MDg3NxUUABEYEkIxNTZBOTYyQzVFRTVCRTBDRgA="
       }
     ],
     "paso": "conversando",
