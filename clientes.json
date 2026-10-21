@@ -717,8 +717,8 @@
     "telefono": "573205539915",
     "nombre": ".",
     "primerContacto": "2026-10-21T22:16:09.081Z",
-    "ultimoContacto": "2026-10-21T23:27:56.691Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-21T23:28:28.790Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -782,13 +782,25 @@
         "fecha": "2026-10-21T23:27:55.829Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSQ0ZFM0IyNEMxQTM0OTFGMkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si por favor la cotización completa de la 4G",
+        "fecha": "2026-10-21T23:28:26.125Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, la inversión para el **Modem WiFi Portátil 4G** es de **$169.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\nBeneficios:  \n✅ Internet estable en zonas rurales y sin fibra  \n✅ Conecta hasta 10 dispositivos a la vez  \n✅ Fácil de usar y lleva tu WiFi donde vayas\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-21T23:28:27.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1NTM5OTE1FQIAERgSN0Y4QTcxMjRFNEFCMzVBRjQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
