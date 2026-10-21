@@ -3,8 +3,8 @@
     "telefono": "CO.1119238444182618",
     "nombre": "Jorge ivan Alvarez mejia",
     "primerContacto": "2026-10-21T03:18:01.671Z",
-    "ultimoContacto": "2026-10-21T03:21:58.103Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-21T03:29:20.097Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -123,6 +123,25 @@
         "fecha": "2026-10-21T03:21:57.169Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjREODVCMjZFN0ZEQzJFNEFERgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este mismo",
+        "fecha": "2026-10-21T03:29:16.339Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te preparo el pedido del módem WiFi Portátil 4G/5G.\n\nSolo confirmame, ¿te lo envio a tu casa en Medellín o preferís recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-21T03:29:18.462Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjYwM0JGOUVCNDFBNzhEN0QwQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T03:29:19.199Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTExOTIzODQ0NDE4MjYxOBUUABEYEjIyNEM4OEM0MzRDQUNBMTY3NQA="
       }
     ],
     "paso": "pedido_celular",
