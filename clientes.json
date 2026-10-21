@@ -921,8 +921,8 @@
     "telefono": "573116882362",
     "nombre": "jhonypalmar74",
     "primerContacto": "2026-10-21T17:18:26.525Z",
-    "ultimoContacto": "2026-10-21T17:23:30.180Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-21T18:27:03.014Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1010,6 +1010,32 @@
         "fecha": "2026-10-21T17:23:27.780Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSOEVGQzcyREEyMTM4ODU2QjZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-21T18:26:16.032Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSNjY3MzFBMzA4MTQ2RDEzRjA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Queria un aparato similar a starlink",
+        "fecha": "2026-10-21T18:26:59.153Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Starlink es internet satelital, que es diferente a lo que tenemos en GalviusTech.\n\nNuestros módems funcionan con SIM de operadores celulares (Claro, Movistar, Tigo, WOM) y están diseñados para dar mejor cobertura móvil en zonas rurales o con señal muy baja, pero necesitan que haya algo de señal celular.\n\nSi allá no tienen señal ni intermitente, nuestro módem no podrá conectarte y la opción ideal sería satelital (pero no vendemos eso).\n\n¿Quieres que te ayude con alguna solución con módem para mejorar la señal móvil donde estés, o te gustaría conocer otro producto? ¿Para qué lo usarías principalmente?",
+        "fecha": "2026-10-21T18:27:01.282Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSNjE2QjNCMTJEMkVEN0UxMkE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-21T18:27:01.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSQUI4RUJBOTVDREQ4MTIzOEMwAA=="
       }
     ],
     "paso": "conversando",
@@ -1024,8 +1050,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
