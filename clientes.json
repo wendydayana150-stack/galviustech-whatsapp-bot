@@ -115,8 +115,8 @@
     "telefono": "573103149655",
     "nombre": "Pilar perez",
     "primerContacto": "2026-10-21T22:13:34.983Z",
-    "ultimoContacto": "2026-10-21T22:17:58.980Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T22:18:59.098Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -216,6 +216,18 @@
         "fecha": "2026-10-21T22:17:58.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMTQ5NjU1FQIAERgSODlCNEI1QjFGMThDNUJBNjRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Le voy a comentar a mi esposo",
+        "fecha": "2026-10-21T22:18:56.655Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, perfecto que lo consultes con él. Mientras tanto, si quieres, te puedo dejar el pedido listo para que cuando decidan solo me digan y lo confirmamos.\n\nRecuerda que esta promoción con 30% de descuento no estará siempre y así aseguran su módem GalviusTech con la mejor conexión en su zona y sin mensualidades.\n\nCuando estén listos, ¿quieres que te deje el pedido en pausa o prefieres que te explique algo más?",
+        "fecha": "2026-10-21T22:18:58.148Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMTQ5NjU1FQIAERgSNjI5N0I2RkQ1NzhGM0VGNzRCAA=="
       }
     ],
     "paso": "conversando",
@@ -226,7 +238,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
