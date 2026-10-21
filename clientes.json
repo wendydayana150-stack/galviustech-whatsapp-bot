@@ -3,8 +3,8 @@
     "telefono": "584164253110",
     "nombre": "Sosa Fernando",
     "primerContacto": "2026-10-21T12:22:34.242Z",
-    "ultimoContacto": "2026-10-21T12:26:16.790Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-21T12:27:43.331Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,10 +61,35 @@
         "fecha": "2026-10-21T12:26:15.755Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSODY4Q0EzNkFEN0YzMzE1RTQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "el 2",
+        "fecha": "2026-10-21T12:27:39.435Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que te animes con el módem 4G/5G, una excelente inversión para tener internet confiable en tu hogar y donde quieras.\n\n¿Prefieres que te lo enviemos a tu casa o prefieres recogerlo en la oficina de Interrapidisimo de Puerto Carreño?",
+        "fecha": "2026-10-21T12:27:41.426Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSNTNBRjJENDNDMjQ5MkM2QjcxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-21T12:27:42.298Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTY0MjUzMTEwFQIAERgSMUU3MjJCQThCNEUwN0JGMzM1AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "584164253110",
+      "ciudad": "puerto Carreño"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
