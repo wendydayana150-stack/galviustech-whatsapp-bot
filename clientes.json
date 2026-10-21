@@ -3,8 +3,8 @@
     "telefono": "573214955375",
     "nombre": "andrea",
     "primerContacto": "2026-10-21T14:42:49.071Z",
-    "ultimoContacto": "2026-10-21T14:47:51.564Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-21T14:54:04.485Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,25 @@
         "fecha": "2026-10-21T14:47:50.540Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSQjhBQTFBNTRBN0NCMzZEMTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo q pasa esq por el momento no cuento con el dinero",
+        "fecha": "2026-10-21T14:54:00.328Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no siempre es fácil juntar esa plata.\n\nRecuerda que es una inversión que te permite tener internet para toda la casa o finca con una sola recarga, sin contratos ni mensualidades. Así tus hijos estudian, trabajas o vendes desde casa.\n\nSi quieres, te puedo contar que también aceptamos Sistecredito para que pagues a cuotas; ¿tienes ya cupo aprobado o necesitas que te explique cómo solicitarlo?\n\n¿Quieres que te ayude con eso o prefieres que te reserve el módem para cuando estés listo?",
+        "fecha": "2026-10-21T14:54:02.740Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSRTcxMERCQjE2N0E5NUU5Q0Y3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-21T14:54:03.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTU1Mzc1FQIAERgSREJGQTQ1M0EyQjJEQ0E5QThBAA=="
       }
     ],
     "paso": "pedido_nombre",
