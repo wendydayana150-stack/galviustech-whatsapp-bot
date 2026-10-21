@@ -3,8 +3,8 @@
     "telefono": "CO.3152916234883485",
     "nombre": "Fernando",
     "primerContacto": "2026-10-21T19:45:20.379Z",
-    "ultimoContacto": "2026-10-21T19:45:20.379Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-21T19:45:25.494Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-21T19:45:19.427Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMzE1MjkxNjIzNDg4MzQ4NRUUABEYEjlFOTRFMzY4OTNERjhBNUNERAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Onde lo consigo y cuanto Bale",
+        "fecha": "2026-10-21T19:45:22.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi portátil 4G está en **$169.900 + $26.000 de envío**. Es una inversión para tener internet donde no llega la fibra, conecta varios dispositivos y te olvidas de complicaciones. Pagas al recibir y tienes garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nNosotros somos de 📍 *Espinal, Tolima* y hacemos envíos a toda Colombia. 🚚 ¿En qué ciudad o municipio te lo envío? Así te confirmo si te llega a domicilio o debes recoger en oficina. ¿Para qué lo necesitas, para trabajar, estudiar o tu casa?",
+        "fecha": "2026-10-21T19:45:24.538Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzE1MjkxNjIzNDg4MzQ4NRUUABEYEkI2REJGQzcwQzM3QURGNEIyMAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218313361",
