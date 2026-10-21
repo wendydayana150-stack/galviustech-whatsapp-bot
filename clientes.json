@@ -3,8 +3,8 @@
     "telefono": "573045516480",
     "nombre": "Javier Enrique Villa",
     "primerContacto": "2026-10-21T04:43:10.065Z",
-    "ultimoContacto": "2026-10-21T05:04:58.937Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-21T05:06:30.964Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -186,6 +186,18 @@
         "fecha": "2026-10-21T05:04:57.925Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSQjNEMzIyMkIwQzJCRUVGM0JCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuáles son los datos que necesitas para hacer el envío",
+        "fecha": "2026-10-21T05:06:28.209Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que ya quieras hacer el pedido 😊\n\nPara dejarte el pedido listo, solo dime a qué dirección te lo enviamos o si prefieres recogerlo en la oficina de la transportadora en Ituango.\n\nDespués, el sistema te pedirá uno a uno tus datos personales y medio de pago para completar el envío.\n\n¿Me pasas la dirección o el punto de recogida que prefieres?",
+        "fecha": "2026-10-21T05:06:29.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTE2NDgwFQIAERgSQjc2OEY3MjU4NEY1RDFCOUMxAA=="
       }
     ],
     "paso": "conversando",
