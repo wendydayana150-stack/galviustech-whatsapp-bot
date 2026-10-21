@@ -3,8 +3,8 @@
     "telefono": "573116144619",
     "nombre": "🥰🙏 Santiago paz 💔",
     "primerContacto": "2026-10-21T00:45:32.462Z",
-    "ultimoContacto": "2026-10-21T00:50:56.723Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-21T00:51:50.094Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,9 +140,21 @@
         "fecha": "2026-10-21T00:50:55.474Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSNjJDRTg4QjRCN0UwQzMzOUFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muelle",
+        "fecha": "2026-10-21T00:51:49.041Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-21T00:51:49.042Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSQjVCQTcyOTY1NTM0N0FFM0Q4AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -152,7 +164,8 @@
       "departamento": "Narino",
       "nombreCliente": "Emma Montaño cuenu",
       "celular": "3116144619",
-      "direccion": "Charco Nariño  barrio corea"
+      "direccion": "Charco Nariño  barrio corea",
+      "barrio": "Muelle"
     },
     "pausado": false,
     "etapaManual": null,
