@@ -924,8 +924,8 @@
     "telefono": "573137518177",
     "nombre": "Vanessa",
     "primerContacto": "2026-10-21T02:56:44.124Z",
-    "ultimoContacto": "2026-10-21T11:57:03.741Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-21T12:00:42.261Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -991,13 +991,32 @@
         "fecha": "2026-10-21T11:57:02.572Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMUNFODFFQUE2MjZCQjkzQzg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ciudad  Buenaventura \nVereda bajo Calima",
+        "fecha": "2026-10-21T12:00:36.974Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme. Teniendo en cuenta que es para Buenaventura, vereda Bajo Calima, donde seguro quieres buena conexión siempre, y si lo necesitas para algo como trabajo o estudio, aquí te dejo las 3 opciones con sus precios y beneficios clave:\n\n📶 Módem WiFi Portátil 4G: Conexión estable 4G y compatible con todos los operadores. Ideal si quieres ahorrar, inversión de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: Lo más seguro para que funcione donde haya 4G o 5G, rápido, portátil y sin instalaciones. Inversión de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: La máxima velocidad para zonas con cobertura 5G, ideal si en esa vereda ya tienes buena señal 5G. Inversión de **$199.900 + $26.000 de envío**.\n\n✅ Pagas al recibir y tiene garantía de 30 días.\n\nImagínate poder conectar varios dispositivos a tu Wifi donde estés sin preocuparte por señal débil. ¿Para qué lo vas a usar principalmente? ¿Trabajo, estudio, o algo más? Así te ayudo a elegir el mejor.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-21T12:00:40.453Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMkRENzUwRDZEMzAzNzA1N0Q3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-21T12:00:41.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSQ0U2Q0VGMzNCMEQ3OEMzNjI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
