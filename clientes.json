@@ -3,8 +3,8 @@
     "telefono": "573116144619",
     "nombre": "🥰🙏 Santiago paz 💔",
     "primerContacto": "2026-10-21T00:45:32.462Z",
-    "ultimoContacto": "2026-10-21T00:47:04.614Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-21T00:48:28.171Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,16 +104,29 @@
         "fecha": "2026-10-21T00:47:03.515Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSNjhFQTlEMDI3QjM3ODhBNkMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Emma Montaño cuenu",
+        "fecha": "2026-10-21T00:48:26.905Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-21T00:48:26.907Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTQ0NjE5FQIAERgSQUZDM0NBMkFCMkUxNEQyRENDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "573116144619",
       "ciudad": "Para el",
-      "departamento": "Narino"
+      "departamento": "Narino",
+      "nombreCliente": "Emma Montaño cuenu"
     },
     "pausado": false,
     "etapaManual": null,
