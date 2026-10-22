@@ -540,14 +540,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T01:34:30.885Z",
-    "mensajes": 75,
+    "ultimoContacto": "2026-10-22T04:37:32.263Z",
+    "mensajes": 76,
     "conversacion": [
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:26:13.754Z"
-      },
       {
         "rol": "bot",
         "texto": "Sí, el módem funciona con recargas según tu uso, pero piensa que conectas varios dispositivos con una sola recarga y sin contrato ni mensualidad fija.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Dónde exactamente lo usarías? Así te confirmo que es perfecto para ti.",
@@ -1710,6 +1705,13 @@
         "fecha": "2026-10-22T01:34:29.968Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQ0I5QkU2MjhENUQxREM1MDM0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Yon, disculpa los mensajes repetidos, tuvimos una falla y ya quedó corregida 🙏 Tienes razón en lo de las recargas. Lo bueno es que en el módem puedes poner la misma SIM con tu plan de $25 mil, no te toca cambiarte a recargas. Con el módem tu familia se conecta (hasta 10 equipos) sin gastar la batería de tu celular y con mejor señal. ¿Quieres que te cuente cómo quedaría con tu plan?",
+        "fecha": "2026-10-22T04:37:31.310Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRjBDNTA2QUVFOTdFNzU1MEJBAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1719,12 +1721,12 @@
       "precio": 189900,
       "telefono": "573184703075"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
