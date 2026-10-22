@@ -345,8 +345,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:27:59.014Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-22T23:28:08.285Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -589,6 +589,25 @@
         "fecha": "2026-10-22T23:27:57.751Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjlDMjQ4RjhFOTFENDIwNkY5RgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuánto tarda en llegar",
+        "fecha": "2026-10-22T23:28:04.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 2 a 4 días hábiles después del despacho, ese tiempo aplica para Puerto López Meta también.\n\n¿Me confirmas si prefieres entrega a domicilio o recoges en la oficina para dejar todo listo?",
+        "fecha": "2026-10-22T23:28:06.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkMzMEJEMjk3ODgxQUU0NzE5NgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-10-22T23:28:07.253Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkFGRkRBODUzN0Y4M0NBMTg2NwA="
       }
     ],
     "paso": "pedido_cedula",
