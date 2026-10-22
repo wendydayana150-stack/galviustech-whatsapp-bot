@@ -2760,8 +2760,8 @@
     "telefono": "573127929158",
     "nombre": "charrisvaoquez",
     "primerContacto": "2026-10-21T22:52:16.566Z",
-    "ultimoContacto": "2026-10-22T00:50:35.962Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-22T11:08:58.525Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2914,13 +2914,32 @@
         "fecha": "2026-10-22T00:50:34.869Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSNEZCMDNFM0NGMEI0QTBGQTk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-22T11:04:24.284Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSMDQwODA5MUYxOEI0MDU5MzFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este modem llega con SIM o me toca comprar una",
+        "fecha": "2026-10-22T11:08:54.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con SIM de cualquier operador (Claro, Movistar, Tigo, WOM), pero la SIM no viene con megas ni plan activo, solo te enviamos la tarjeta física.\n\nCuando confirmes el pedido, te mandamos de regalo una SIM de Claro para que la uses si quieres, pero sin saldo ni recarga; tú la activas y recargas con el plan que prefieras.\n\n¿Ya tienes la SIM de tu operadora o quieres que te ayude a dejar el pedido listo con el módem y la SIM de regalo?",
+        "fecha": "2026-10-22T11:08:57.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSNjI3M0QwMTQzREVENDBDNkVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "lamparas-3-lentes-x-2",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -2928,8 +2947,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
