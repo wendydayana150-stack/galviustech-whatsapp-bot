@@ -3,8 +3,8 @@
     "telefono": "573218187310",
     "nombre": "ledys Velásquez",
     "primerContacto": "2026-10-22T19:08:10.189Z",
-    "ultimoContacto": "2026-10-22T19:08:10.189Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T20:14:38.137Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-10-22T19:08:09.183Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSNUU2MzI5MjMzQTJGMUM3RTc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-22T20:13:47.502Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSQTQxMTk0NzRGQUZCOEYyN0UzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso",
+        "fecha": "2026-10-22T20:14:34.792Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, pero para recomendarte el módem ideal necesito que me digas en qué municipio o vereda lo vas a usar, o para qué exactamente lo necesitas (estudio, trabajo, negocio o casa). Así te digo cuál de los 3 modelos te sirve más y cuánto sería la inversión total. ¿Me cuentas?",
+        "fecha": "2026-10-22T20:14:36.996Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSNEU3NjhDQjJDRDY0Qzg0QTQxAA=="
       }
     ],
     "paso": "conversando",
@@ -44,8 +63,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
