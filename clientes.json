@@ -345,8 +345,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:26:28.879Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-22T23:26:35.211Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -484,6 +484,25 @@
         "fecha": "2026-10-22T23:26:27.572Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjY0NkE4REM4NjI4Q0ZDMERDOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre Arbey García",
+        "fecha": "2026-10-22T23:26:31.014Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Arbey, ya dejo el pedido listo para que el sistema solicite tus datos completos y coordine todo.\n\nSi quieres, cuando te llegue el módem te ayudo con la instalación o configuración para que lo saques rápido del empaque y tengas internet sin líos.\n\n¿Dónde te lo envío, a tu casa o prefieres recogerlo en una oficina?",
+        "fecha": "2026-10-22T23:26:33.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjAxNTUxQkRCNzc5NzI1NUNBMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T23:26:34.247Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkZERTQ1QjBERTY2QjRCM0FGNQA="
       }
     ],
     "paso": "pedido_celular",
