@@ -3,8 +3,8 @@
     "telefono": "573218187310",
     "nombre": "ledys Velásquez",
     "primerContacto": "2026-10-22T19:08:10.189Z",
-    "ultimoContacto": "2026-10-22T20:15:53.464Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-22T20:16:02.941Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,25 @@
         "fecha": "2026-10-22T20:15:52.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSRTU3NDRFQzhDQkVBNkY0NkRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa",
+        "fecha": "2026-10-22T20:15:59.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Qué bien que te interesa! 🙌\n\nSolo necesito saber si quieres que te lo enviemos a la dirección de tu casa o prefieres recogerlo en la oficina de la transportadora más cercana a ti.\n\n¿Me dices cómo te queda mejor?",
+        "fecha": "2026-10-22T20:16:01.293Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSOERCNjc2RENEMjBFRDQ3MEI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T20:16:01.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSN0Y2QjJGMDJDQ0MwMzIwQTlEAA=="
       }
     ],
     "paso": "pedido_celular",
