@@ -3,8 +3,8 @@
     "telefono": "573144318516",
     "nombre": "Mile🥰",
     "primerContacto": "2026-10-22T21:07:43.423Z",
-    "ultimoContacto": "2026-10-22T21:07:43.423Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T21:07:48.357Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-22T21:07:42.304Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MzE4NTE2FQIAERgSNDYzOUJCRTVFMEM5N0QzQTY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-10-22T21:07:44.960Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dime en qué municipio o vereda lo necesitas y para qué lo quieres, así te ayudo a elegir el módem ideal para ti.\n\nPor ejemplo, ¿lo vas a usar para estudiar, trabajar, en tu negocio o para el hogar? Así te recomiendo el que mejor se ajusta y con mejor cobertura para tu sitio. ¿Dónde sería?",
+        "fecha": "2026-10-22T21:07:47.226Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MzE4NTE2FQIAERgSMUY4OTU4MzZGNjU3RjgwNDMzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218187310",
