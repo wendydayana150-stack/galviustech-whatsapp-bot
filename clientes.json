@@ -16265,8 +16265,8 @@
     "telefono": "573217249355",
     "nombre": "Martha Castillo",
     "primerContacto": "2026-10-20T17:10:55.051Z",
-    "ultimoContacto": "2026-10-21T17:39:28.196Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-22T11:16:31.043Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16470,6 +16470,39 @@
         "fecha": "2026-10-21T17:39:27.284Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSQjlEQjE5M0Q5RTc3OUFFOTI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu numero de celular?",
+        "fecha": "2026-10-22T11:05:02.669Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSN0M5MjhDODQwRDQxNzk2OUFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-10-22T11:15:00.616Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRkU0RkM4MjlBNDBFNjU3M0ZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "para que",
+        "fecha": "2026-10-22T11:16:27.888Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para poder dejar tu pedido listo con GalviusTech necesito algunos datos básicos: nombre completo, dirección o si prefieres recoger en oficina, y tu celular para coordinar el envío y la entrega.\n\nAsí te aseguro que te llegará el módem WiFi 4G/5G directamente a tu casa o a la oficina de la transportadora más cercana en López de Micay.\n\n¿Quieres que te ayude a dejar el pedido listo? ¿Prefieres entrega a domicilio o recoger en oficina?",
+        "fecha": "2026-10-22T11:16:29.387Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRTFBMzgwQkEwNjgxODQ4MjEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T11:16:29.985Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjQ5MzU1FQIAERgSRDc3Q0FEOUM3NDE5RTFDNzBBAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -16492,9 +16525,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
