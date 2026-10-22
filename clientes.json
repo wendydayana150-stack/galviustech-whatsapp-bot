@@ -144,20 +144,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T01:33:30.735Z",
-    "mensajes": 64,
+    "ultimoContacto": "2026-10-22T01:33:33.622Z",
+    "mensajes": 65,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
-        "fecha": "2026-10-22T01:25:29.877Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:25:29.878Z"
-      },
       {
         "rol": "bot",
         "texto": "Claro, toca recargar las megas que uses, pero con el módem WiFi 4G/5G haces una sola recarga para varios dispositivos sin contrato ni mensualidad mensual.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y cuenta con garantía de 30 días.\n\n¿Quieres que te ayude a dejar tu pedido listo para enviártelo?",
@@ -1319,6 +1308,18 @@
         "fecha": "2026-10-22T01:33:29.670Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRUM4OTE2OUJBQzRENDNGMkQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero toca recargar siempre y la recarga de datos sale mas caro que una mensualidad yo tengo un plan de 25 mil y le doy WiFi a mi mujer y mis hijo y las recargas de datos son de 35 en adelante y eso si da WiFi no dura nada",
+        "fecha": "2026-10-22T01:33:32.573Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-22T01:33:32.574Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSM0Q0N0YzNDJEQzgyMDI5ODU4AA=="
       }
     ],
     "paso": "pedido_nombre",
