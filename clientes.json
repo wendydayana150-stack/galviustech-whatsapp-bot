@@ -1720,27 +1720,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T04:37:41.821Z",
-    "mensajes": 77,
+    "ultimoContacto": "2026-10-22T16:45:13.964Z",
+    "mensajes": 78,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Sí, el módem funciona con recargas según tu uso, pero piensa que conectas varios dispositivos con una sola recarga y sin contrato ni mensualidad fija.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Dónde exactamente lo usarías? Así te confirmo que es perfecto para ti.",
-        "fecha": "2026-10-22T01:26:14.810Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:26:15.037Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
-        "fecha": "2026-10-22T01:26:15.250Z",
-        "estado": "enviado"
-      },
       {
         "rol": "cliente",
         "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
@@ -2892,6 +2874,27 @@
         "fecha": "2026-10-22T04:37:31.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRjBDNTA2QUVFOTdFNzU1MEJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-22T11:03:56.984Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSNTczODY0OTcwRDI0NTc5OUI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-22T11:14:02.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMzUyMEYyQzNDQjdDMjVCRUJFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-22T16:45:12.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMzUyMEJCRTRBNDkzNzkwNUNBAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2901,7 +2904,7 @@
       "precio": 189900,
       "telefono": "573184703075"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2911,9 +2914,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
