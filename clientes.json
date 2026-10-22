@@ -345,8 +345,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:26:39.329Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-22T23:26:43.875Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -522,6 +522,25 @@
         "fecha": "2026-10-22T23:26:38.246Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkYzNTVGRjg1RTEwQUU3QjkwMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Departamento meta",
+        "fecha": "2026-10-22T23:26:40.545Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya está anotado que es en el departamento Meta.\n\nSolo me falta saber si quieres que te lo enviemos directo a tu casa o prefieres recogerlo en la oficina de Interrapidisimo o Coordinadora en Puerto López.\n\n¿Cómo prefieres?",
+        "fecha": "2026-10-22T23:26:42.183Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjU0MUM3QkNENjdDQjcwNERFQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T23:26:42.789Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjZCQTIxODA5RkY2RDJDNTFDRAA="
       }
     ],
     "paso": "pedido_celular",
