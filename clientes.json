@@ -3,8 +3,8 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T01:10:42.253Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T01:12:58.121Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-22T01:10:41.326Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSODg2RThFMUFFRUI4QTRENzlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy de popayan",
+        "fecha": "2026-10-22T01:12:53.715Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, gracias por contarme que estás en Popayán. Ahora dime, ¿para qué necesitas el módem? ¿Trabajo, estudio, hogar o un negocio?\n\nTe cuento rápido las 3 versiones que tenemos y cuál te conviene según tu respuesta:\n\n📶 **Modem WiFi Portátil 4G** por *$169.900* + $26.000 de envío\n- Ideal para tener internet estable en zonas sin fibra\n- Conecta hasta 10 dispositivos\n- Batería recargable que dura hasta 14 horas\n\n🚀 **Modem WiFi Portátil 4G/5G** por *$189.900* + $26.000 de envío\n- Compatible tanto con redes 4G como 5G\n- La mejor opción si quieres estar preparado para ambas señales\n- Fácil de usar y transportar\n\n⚡ **Modem WiFi Portátil 5G** por *$199.900* + $26.000 de envío\n- Para zonas con buena cobertura 5G que quieran la máxima velocidad\n- Conexión rápida y estable en área con 5G\n\nTodas son compatibles con Claro, Movistar, Tigo y WOM, y funcionan mejor que el celular en cobertura gracias a antenas potentes.\n\n¿Para qué uso estás pensando usar el módem? Así te recomiendo el mejor para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-22T01:12:56.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRkY1NTQyQjk0Q0YzODkzRjM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-22T01:12:57.349Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMDU0NjdFRDUwNUNDMUUxMjc0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1101535415846625",
