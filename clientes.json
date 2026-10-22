@@ -3,8 +3,8 @@
     "telefono": "573146916737",
     "nombre": "Lourdes Rojas Ruiz",
     "primerContacto": "2026-10-22T13:36:12.406Z",
-    "ultimoContacto": "2026-10-22T13:41:14.564Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-22T13:41:49.724Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -73,16 +73,29 @@
         "fecha": "2026-10-22T13:41:13.512Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2OTE2NzM3FQIAERgSQjhDQzZCQjU3RTkxNTJBQUNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lourdes Rojas Ruiz",
+        "fecha": "2026-10-22T13:41:48.374Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T13:41:48.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2OTE2NzM3FQIAERgSOTUxNzZBMDBBQjU4ODE4OUQxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573146916737",
       "departamento": "Risaralda",
-      "ciudad": "Vereda Mata de Cana Municipio de Apia"
+      "ciudad": "Vereda Mata de Cana Municipio de Apia",
+      "nombreCliente": "Lourdes Rojas Ruiz"
     },
     "pausado": false,
     "etapaManual": null,
