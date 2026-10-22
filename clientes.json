@@ -48,8 +48,8 @@
     "telefono": "CO.1565478655347957",
     "nombre": "A.I.R.O S.a.s",
     "primerContacto": "2026-10-22T14:28:52.388Z",
-    "ultimoContacto": "2026-10-22T14:28:52.388Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T15:50:09.795Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,6 +75,25 @@
         "fecha": "2026-10-22T14:28:51.181Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU2NTQ3ODY1NTM0Nzk1NxUUABEYEjFENzZGMjQ4MDdBOUJCNTU3MAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-22T15:33:47.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2NTQ3ODY1NTM0Nzk1NxUUABEYEkQzOTY2NjY4NkZGOTk4M0ZENwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que pena pensé que era satelital",
+        "fecha": "2026-10-22T15:50:06.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No te preocupes, muchos piensan igual. Estos módems necesitan SIM de operadores como Claro, Movistar, Tigo o WOM.\n\nSi en tu zona no hay señal de ningún operador celular, no te servirán porque no es satelital.\n\n¿En qué municipio o vereda planeas usarlo para confirmar si hay cobertura? Así te asesoro mejor.",
+        "fecha": "2026-10-22T15:50:08.607Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2NTQ3ODY1NTM0Nzk1NxUUABEYEkU0QTA1MjhGNzkyQkQxRUIyMwA="
       }
     ],
     "paso": "conversando",
@@ -89,8 +108,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
