@@ -2819,8 +2819,8 @@
     "telefono": "573127929158",
     "nombre": "charrisvaoquez",
     "primerContacto": "2026-10-21T22:52:16.566Z",
-    "ultimoContacto": "2026-10-22T11:19:42.661Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-22T11:20:00.547Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3040,9 +3040,21 @@
         "fecha": "2026-10-22T11:19:41.630Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSNEE2MzgzQ0M4N0Y2QzUyNDU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio dibulla",
+        "fecha": "2026-10-22T11:19:59.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-22T11:19:59.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSNjIyQzZCMzNCOUQ1RTQ0OUMzAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -3050,7 +3062,8 @@
       "telefono": "573127929158",
       "departamento": "La Guajira",
       "nombreCliente": "Bleidis charris \nDe partamento",
-      "celular": "3127929158"
+      "celular": "3127929158",
+      "ciudad": "Municipio dibulla"
     },
     "pausado": false,
     "etapaManual": null,
