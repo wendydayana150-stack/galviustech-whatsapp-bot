@@ -3,8 +3,8 @@
     "telefono": "573023019983",
     "nombre": "Constanza",
     "primerContacto": "2026-10-22T01:35:30.303Z",
-    "ultimoContacto": "2026-10-22T01:35:30.303Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T01:36:26.882Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,34 @@
         "fecha": "2026-10-22T01:35:29.407Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSMUVDQ0JFQzBGMENDN0IyNTJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "𝐿𝑒𝑟𝑖𝑑𝑎 tolima",
+        "fecha": "2026-10-22T01:36:24.346Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Lerida en Tolima es un lugar donde puede faltar fibra óptica en varias zonas, ¿para qué necesitas el modem? ¿Trabajo, estudio, hogar o viajar? Así te recomiendo el equipo ideal para tu uso.",
+        "fecha": "2026-10-22T01:36:25.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDE5OTgzFQIAERgSNjlCNDBBQTk2QjJGQzQ3NUMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232896182",
