@@ -563,8 +563,8 @@
     "telefono": "573114827271",
     "nombre": "Carlos A. Bello Bonilla",
     "primerContacto": "2026-10-21T23:04:58.858Z",
-    "ultimoContacto": "2026-10-21T23:04:58.858Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T00:10:53.021Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -590,6 +590,25 @@
         "fecha": "2026-10-21T23:04:57.892Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0ODI3MjcxFQIAERgSNTBBNTlEQzRCNEI0OTRBMjQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-22T00:06:16.688Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODI3MjcxFQIAERgSOTdFNUUwRUIxQUNDQjk3QkZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias,  analizo varias opciones para decidir",
+        "fecha": "2026-10-22T00:10:49.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tómate tu tiempo. Recuerda que con cualquiera de nuestros módems tendrás mejor cobertura en zonas rurales o lugares sin fibra y podrás conectar varios dispositivos sin líos.\n\n¿De casualidad me puedes contar dónde lo usarías o para qué lo necesitas? Así cuando decidas te ayudo a elegir la mejor opción para ti.",
+        "fecha": "2026-10-22T00:10:51.827Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODI3MjcxFQIAERgSRUU5NzRENzkxMkMyM0NEQTExAA=="
       }
     ],
     "paso": "conversando",
@@ -604,8 +623,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
