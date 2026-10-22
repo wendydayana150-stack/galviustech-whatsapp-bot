@@ -3,8 +3,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T18:24:13.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T18:27:28.897Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-22T18:24:12.714Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjE1QUUzRTQ2NzA1QTYwQjk3MAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De que operadora tiene que ser la sim",
+        "fecha": "2026-10-22T18:27:25.890Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con SIM de cualquier operador en Colombia: Claro, Movistar, Tigo o WOM.\n\nCuando confirmes el pedido te incluimos de regalo una SIMCARD de Claro sin plan ni megas activados, pero el módem admite la que quieras.\n\n¿En qué municipio o vereda lo usarías, y para qué lo quieres? Así te recomiendo el modelo ideal.",
+        "fecha": "2026-10-22T18:27:27.742Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkY3ODVERjREMDM3NTFBRDdBQwA="
       }
     ],
     "paso": "conversando",
@@ -42,7 +54,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573180144002",
