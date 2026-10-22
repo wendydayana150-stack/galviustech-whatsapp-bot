@@ -2819,8 +2819,8 @@
     "telefono": "573127929158",
     "nombre": "charrisvaoquez",
     "primerContacto": "2026-10-21T22:52:16.566Z",
-    "ultimoContacto": "2026-10-22T11:27:05.404Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-10-22T11:28:13.855Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3157,6 +3157,18 @@
         "fecha": "2026-10-22T11:27:04.273Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSRjUyQkU3NzU5Mjc2MjdDNkNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo te aviso el lunes por qué yo llego el martes en horas de la tarde",
+        "fecha": "2026-10-22T11:28:11.252Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para que me avises el lunes y podamos coordinar el envío para que te llegue cuando estés en la casa.  \n\nCuando quieras me escribes y te ayudo con todo para que te llegue sin problema.  \n\nCualquier duda me escribes sin problema 😊",
+        "fecha": "2026-10-22T11:28:12.740Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTI5MTU4FQIAERgSREFFNDU1MTE2ODI4MUNCQUQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -3167,9 +3179,14 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-10-26",
+      "texto": "Yo te aviso el lunes por qué yo llego el martes en horas de la tarde",
+      "desde": "2026-10-22T11:28:11.253Z",
+      "avisado": false
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
