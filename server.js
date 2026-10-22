@@ -3015,6 +3015,13 @@ async function manejarFlujoPedido(telefono, texto) {
             }
 
             if (!pareceRespuestaValidaPedido(textoParaValidar, definicionActual.tipo)) {
+                  // PREGUNTA U OBJECION EN MEDIO DEL PEDIDO (oct-2026, caso Yon Manzano: escribio "toca recargar
+                  // siempre... sale mas caro" y Michell le respondia "no logre leer tu nombre" una y otra vez).
+                  // Si no parece un dato sino una duda, se deja que Michell la responda; el pedido queda en el
+                  // mismo paso para retomarlo despues.
+                  const palabras = String(texto).trim().split(/\s+/).length;
+                  const pareceDuda = /\?/.test(texto) || palabras >= 8 || /(caro|recarg|plan|mensualidad|cu[aá]nto|c[oó]mo|garant|se[nñ]al|no quiero|no gracias|despu[eé]s|luego|pensar|funciona|sirve|cancel)/i.test(texto);
+                  if (pareceDuda) return false;
                   await enviarTexto(telefono, definicionActual.mensajeError);
                   return true;
             }
@@ -4332,6 +4339,7 @@ app.get("/webhook", (req, res) => {
       return res.sendStatus(403);
 });
 
+const mensajesYaRecibidos = new Set();
 app.post("/webhook", async (req, res) => {
       try {
             // DIAGNOSTICO TEMPORAL (sep-2026): desde que se agrego la confirmacion de lectura
@@ -4399,6 +4407,20 @@ app.post("/webhook", async (req, res) => {
                   console.error("Webhook recibido sin numero de telefono (mensaje.from vacio):", JSON.stringify(mensaje));
                   return res.sendStatus(200);
             }
+
+            // ANTI-BUCLE (oct-2026, caso Yon Manzano: el mismo mensaje se proceso 69 veces). WhatsApp reenvia un
+            // mensaje si el webhook tarda en contestar o falla; antes se contestaba solo al final de todo el proceso
+            // (IA, GitHub, recordatorios) y no se revisaba si el mensaje ya se habia atendido. Ahora: si el id ya se
+            // vio, se ignora; y a WhatsApp se le confirma el recibo de una vez, antes de procesar.
+            if (mensaje.id) {
+                  if (mensajesYaRecibidos.has(mensaje.id)) {
+                        console.log(`Mensaje repetido ignorado (${mensaje.id}) de ${telefono}`);
+                        return res.sendStatus(200);
+                  }
+                  mensajesYaRecibidos.add(mensaje.id);
+                  if (mensajesYaRecibidos.size > 5000) mensajesYaRecibidos.delete(mensajesYaRecibidos.values().next().value);
+            }
+            res.sendStatus(200);
 
             await conColaPorTelefono(telefono, async () => {
                   await cargarSesionSiNueva(telefono);
@@ -4522,7 +4544,7 @@ app.post("/webhook", async (req, res) => {
                   await enviarPromoDiariaAutomatica();
             });
 
-            res.sendStatus(200);
+            if (!res.headersSent) res.sendStatus(200);
       } catch (error) {
             console.error("Error procesando mensaje:", error.response?.data || error.message);
             // RESPALDO UNIVERSAL CONTRA SILENCIO TOTAL (sep-2026, caso real: cliente jhdiazbetancur,
@@ -4555,7 +4577,7 @@ app.post("/webhook", async (req, res) => {
                         errorRespaldo.response?.data || errorRespaldo.message
                         );
             }
-            res.sendStatus(200);
+            if (!res.headersSent) res.sendStatus(200);
       }
 });
 
