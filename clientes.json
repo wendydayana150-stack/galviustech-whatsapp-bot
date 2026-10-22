@@ -3,8 +3,8 @@
     "telefono": "573218187310",
     "nombre": "ledys Velásquez",
     "primerContacto": "2026-10-22T19:08:10.189Z",
-    "ultimoContacto": "2026-10-22T20:15:27.943Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-22T20:15:31.075Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,15 +80,28 @@
         "fecha": "2026-10-22T20:15:26.977Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSRjMxM0Q0NjlBQTM1MTVBQjRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es muy caro",
+        "fecha": "2026-10-22T20:15:29.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-22T20:15:29.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MTg3MzEwFQIAERgSMTZCMkQ5MzRERjZEQTI2ODlCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573218187310",
-      "ciudad": "Eso"
+      "ciudad": "Eso",
+      "nombreCliente": "Es muy caro"
     },
     "pausado": false,
     "etapaManual": null,
