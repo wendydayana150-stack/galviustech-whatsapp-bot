@@ -144,8 +144,8 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T01:25:09.515Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-10-22T01:25:18.083Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "cliente",
@@ -644,6 +644,70 @@
         "fecha": "2026-10-22T01:25:08.730Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMDQ1QjM4NUE0RjJERDhCMzAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
+        "fecha": "2026-10-22T01:25:11.120Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo esa duda, pero piensa que la inversión para el módem WiFi 4G/5G es de **$189.900 + $26.000 de envío** y te da la libertad de conectar varios dispositivos con una sola recarga, sin contratos ni mensualidades fijas.\n\nIdeal para que no dependas de planes fijos y tengas internet donde realmente lo necesitas.\n\n¿En qué lugar te lo envío para que comiences a usarlo?",
+        "fecha": "2026-10-22T01:25:12.340Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-22T01:25:12.589Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-10-22T01:25:12.833Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
+        "fecha": "2026-10-22T01:25:12.833Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La verdad sí, toca recargar las megas que necesites, pero lo bueno es que con el módem 4G/5G haces una sola recarga para varios dispositivos, sin contratos ni mensualidades fijas.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Quieres que te ayude a dejar tu pedido listo para entregártelo?",
+        "fecha": "2026-10-22T01:25:14.223Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-22T01:25:14.515Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
+        "fecha": "2026-10-22T01:25:14.765Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
+        "fecha": "2026-10-22T01:25:14.765Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, toca recargar las megas según tu consumo, pero con el módem WiFi 4G/5G haces una sola recarga para todos tus dispositivos, sin contratos ni mensualidades.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tienes garantía de 30 días.\n\n¿Quieres que te ayude a dejar tu pedido listo para que lo disfrutes cuanto antes?",
+        "fecha": "2026-10-22T01:25:16.976Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-22T01:25:17.214Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMENENjUyM0I3OUFDNjQyQzU5AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -657,8 +721,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot tuvo un error tecnico inesperado procesando el ultimo mensaje de este cliente (antes de poder generar una respuesta).",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
