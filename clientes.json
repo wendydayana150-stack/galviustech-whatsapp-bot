@@ -144,23 +144,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-22T01:31:13.164Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-10-22T01:31:17.008Z",
+    "mensajes": 35,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Mira, te entiendo, pero con el módem WiFi 4G/5G solo recargas una vez y esa conexión la comparte toda tu familia o tus dispositivos sin contratos ni cobran mensualidades fijas.\n\nLa inversión es de **$189.900 + $26.000 de envío**, con garantía de 30 días y pago contra entrega.\n\n¿Quieres que te ayude a dejar tu pedido listo para que lo tengas cuanto antes?",
-        "fecha": "2026-10-22T01:24:27.733Z",
-        "estado": "enviado",
-        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMDk4REE1NUQyMUNEMDY2QUZEAA=="
-      },
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:24:28.133Z",
-        "estado": "enviado",
-        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSODEwNzk1MjMwRUQxNjdGQTM4AA=="
-      },
       {
         "rol": "cliente",
         "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
@@ -1322,6 +1308,18 @@
         "fecha": "2026-10-22T01:31:12.414Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQ0UzMEJEOTA0Mjg1NjJERjVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero toca recargar siempre y la recarga de datos sale mas caro que una mensualidad yo tengo un plan de 25 mil y le doy WiFi a mi mujer y mis hijo y las recargas de datos son de 35 en adelante y eso si da WiFi no dura nada",
+        "fecha": "2026-10-22T01:31:16.031Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-22T01:31:16.032Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSNjI4MjE0QUI1NzFCRTU0QjUwAA=="
       }
     ],
     "paso": "pedido_nombre",
