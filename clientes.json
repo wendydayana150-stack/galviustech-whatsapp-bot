@@ -3,8 +3,8 @@
     "telefono": "573146027642",
     "nombre": "hay + o -",
     "primerContacto": "2026-10-22T02:02:08.917Z",
-    "ultimoContacto": "2026-10-22T02:02:08.917Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-22T02:02:40.300Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,19 +30,41 @@
         "fecha": "2026-10-22T02:02:07.858Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MDI3NjQyFQIAERgSMzgzREI4OTcyMDZFNzE3QzU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene el producto",
+        "fecha": "2026-10-22T02:02:36.271Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi portátil 4G tiene una inversión de **$169.900 + $26.000 de envío**. Es ideal para fincas y zonas sin fibra óptica porque conecta varios dispositivos con mejor señal que un celular normal, perfecto para estudiar, trabajar o viajar. También está el modelo 4G/5G a $189.900 y el 5G a $199.900, ambos con garantía y pago al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías para recomendarte la mejor versión?",
+        "fecha": "2026-10-22T02:02:38.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MDI3NjQyFQIAERgSOUJGMEE2QThEMDcyNDBCQTU0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-22T02:02:39.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MDI3NjQyFQIAERgSNjYyOTk1OUYxNEI1MTkzRDcxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122665573",
