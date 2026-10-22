@@ -3,8 +3,8 @@
     "telefono": "573146916737",
     "nombre": "Lourdes Rojas Ruiz",
     "primerContacto": "2026-10-22T13:36:12.406Z",
-    "ultimoContacto": "2026-10-22T13:42:24.222Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-22T13:42:41.055Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,9 +109,21 @@
         "fecha": "2026-10-22T13:42:22.908Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2OTE2NzM3FQIAERgSQUM2MkQyMjUyMUE3NjMyMjZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio Motorista",
+        "fecha": "2026-10-22T13:42:39.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-22T13:42:39.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2OTE2NzM3FQIAERgSNkY5RTk4NjI3QUIwN0NDMjUzAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -121,7 +133,8 @@
       "ciudad": "Vereda Mata de Cana Municipio de Apia",
       "nombreCliente": "Lourdes Rojas Ruiz",
       "celular": "3146916737",
-      "direccion": "Manzana 3 Casa 5 Barrio Motorista de Apía Risaralda"
+      "direccion": "Manzana 3 Casa 5 Barrio Motorista de Apía Risaralda",
+      "barrio": "Barrio Motorista"
     },
     "pausado": false,
     "etapaManual": null,
