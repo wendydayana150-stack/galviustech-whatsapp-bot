@@ -1499,6 +1499,16 @@ async function notaPedidosDelCliente(telefono) {
       }
 }
 
+// Compro en los ultimos 7 dias: no se le vuelve a ofrecer "¿Te lo envio?" (caso andrea, oct-2026)
+async function comproHacepoco(telefono) {
+      try {
+            if (Date.now() - cachePedidos.t > 60 * 1000) cachePedidos = { t: Date.now(), datos: (await leerJSON(PEDIDOS_API)).datos || [] };
+            return cachePedidos.datos.some((p) => p.telefono === telefono && Date.now() - new Date(p.fecha).getTime() < 7 * 86400000);
+      } catch (e) {
+            return false;
+      }
+}
+
 async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto, telefono) {
       sesion.historial.push({ role: "user", content: mensajeCliente });
       const promptSistema = config.construirSystemPrompt(catalogo, enfoqueProducto) + (telefono ? await notaPedidosDelCliente(telefono) : "");
@@ -3665,7 +3675,8 @@ async function manejarTextoLibre(telefono, texto) {
             // mas abajo).
             let seLeRespondioAlgo = false;
 
-            let cierreEnviado = false; // para no mandar el boton de cierre dos veces en la misma respuesta
+            // para no mandar el boton de cierre dos veces en la misma respuesta (ni a quien ya compro)
+            let cierreEnviado = await comproHacepoco(telefono);
             if (mensajeVisible) {
                   // RESPALDO DE PRECIO (oct-2026, Wendy): si el cliente pregunto el precio y la IA respondio
                   // sin dar ninguno (caso real: "Que precio lo tienes" -> solo caracteristicas), se agrega.
@@ -3690,7 +3701,7 @@ async function manejarTextoLibre(telefono, texto) {
                   // precio y no termino con una pregunta de compra, se agrega una. Con un producto puntual, el boton
                   // directo; si mostro varias versiones, que elija cual se lleva.
                   const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
-                  if (!productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
+                  if (!cierreEnviado && !productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
                         cierreEnviado = true;
                         const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
                         const nombrados = productosMencionados(visible);
@@ -3747,7 +3758,7 @@ async function manejarTextoLibre(telefono, texto) {
                         // PREGUNTA DE CIERRE DESPUES DE LAS FOTOS (oct-2026, Wendy: "envia fotos y no hace preguntas
                         // de cierre"): el texto de la IA sale antes de las fotos, asi que su pregunta quedaba arriba,
                         // tapada. Lo ultimo que ve el cliente debe ser una pregunta para avanzar.
-                        if (!productoId) {
+                        if (!productoId && !cierreEnviado) {
                               if (conFoto.length === 1) {
                                     sesion.ultimoProducto = conFoto[0].id;
                                     sesion.botonesOfrecidos[conFoto[0].id] = sesion.preguntasPorProducto[conFoto[0].id] || 1;
