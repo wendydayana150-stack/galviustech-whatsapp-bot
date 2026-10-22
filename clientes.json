@@ -345,8 +345,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:28:08.285Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-22T23:28:42.328Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -608,6 +608,18 @@
         "fecha": "2026-10-22T23:28:07.253Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkFGRkRBODUzN0Y4M0NBMTg2NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Número de cédula 1088104595",
+        "fecha": "2026-10-22T23:28:41.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese número de cédula no me quedó claro. Escríbemelo solo con números, por favor.",
+        "fecha": "2026-10-22T23:28:41.119Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjFFMTVEQkMzMjgwNEQwNUU1MgA="
       }
     ],
     "paso": "pedido_cedula",
