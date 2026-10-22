@@ -345,8 +345,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:27:08.144Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-22T23:27:27.407Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -565,9 +565,21 @@
         "fecha": "2026-10-22T23:27:06.987Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEkFBRjcyODNERTI4RjkwQkUzRAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo agalos llegar a interapidisimo",
+        "fecha": "2026-10-22T23:27:26.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-22T23:27:26.274Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjU2OEY0NDQwQTkyQUYxQzE5MgA="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -577,7 +589,8 @@
       "departamento": "Meta",
       "nombreCliente": "Me regalas uno porfavor",
       "celular": "3144353912",
-      "direccion": "Mi número de teléfono 3144353912"
+      "direccion": "Mi número de teléfono 3144353912",
+      "barrio": "Solo agalos llegar a interapidisimo"
     },
     "pausado": false,
     "etapaManual": null,
