@@ -3,8 +3,8 @@
     "telefono": "CO.28977376508562927",
     "nombre": "Maday Vera",
     "primerContacto": "2026-10-22T23:44:48.557Z",
-    "ultimoContacto": "2026-10-22T23:58:01.009Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-22T23:58:12.585Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -123,16 +123,29 @@
         "fecha": "2026-10-22T23:57:59.843Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBJCQTg3NkExMTlBMjc5MkQzNkIA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "3228974660",
+        "fecha": "2026-10-22T23:58:11.413Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-22T23:58:11.414Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjg5NzczNzY1MDg1NjI5MjcVFAARGBJEN0E1MDE4QjVFRjhCRDU3NTkA"
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "CO.28977376508562927",
       "departamento": "Caqueta",
-      "nombreCliente": "Maday Vera Barón"
+      "nombreCliente": "Maday Vera Barón",
+      "celular": "3228974660"
     },
     "pausado": false,
     "etapaManual": null,
