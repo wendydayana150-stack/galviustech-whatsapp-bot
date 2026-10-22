@@ -8681,8 +8681,8 @@
     "telefono": "573214687980",
     "nombre": "Gustavo",
     "primerContacto": "2026-10-21T01:24:46.057Z",
-    "ultimoContacto": "2026-10-22T00:00:42.257Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-22T00:02:06.594Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8786,10 +8786,35 @@
         "fecha": "2026-10-22T00:00:41.247Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSMDY3MEEzMTMyRkQ1RkYwNDc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito una",
+        "fecha": "2026-10-22T00:02:02.974Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te va a encantar tener tu propio internet donde lo necesites sin depender de nadie.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tienes garantía de 30 días para que quedes tranquilo.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Te la envío a tu casa o prefieres recogerla en la oficina de la transportadora?",
+        "fecha": "2026-10-22T00:02:04.904Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSNzA2ODMwNTE1NTRDNzkyRTZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-22T00:02:05.792Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0Njg3OTgwFQIAERgSMkYyQ0I2NjhCOTJDOTRBQ0MxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573214687980",
+      "ciudad": "Necesito una"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
