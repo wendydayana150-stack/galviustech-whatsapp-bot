@@ -1820,6 +1820,9 @@ async function limpiarClientesInactivos() {
       try {
             await conColaDeArchivo(CLIENTES_API, async () => {
                   const { datos, sha } = await leerJSON(CLIENTES_API);
+                  // Nunca se borra a un cliente que ya hizo un pedido: su chat debe seguir visible en el panel.
+                  const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+                  const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
                   const TRES_DIAS_MS = 3 * 24 * 60 * 60 * 1000;
 
                   const clientesAConservar = datos.filter((c) => {
@@ -1829,6 +1832,7 @@ async function limpiarClientesInactivos() {
                         if (!inactivo) return true;
                         if (c.pausado || c.necesitaAtencion) return true;
                         if (esperaCompraVigente(c)) return true;
+                        if (telefonosConPedido.has(c.telefono)) return true;
                         if (c.pedido && Object.keys(c.pedido).length > 0) return true;
                         return false;
                   });
