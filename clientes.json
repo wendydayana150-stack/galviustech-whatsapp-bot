@@ -3,8 +3,8 @@
     "telefono": "573112429336",
     "nombre": "Anderson",
     "primerContacto": "2026-10-23T02:59:36.069Z",
-    "ultimoContacto": "2026-10-23T03:01:37.673Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-23T11:24:25.297Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -48,6 +48,53 @@
         "fecha": "2026-10-23T03:01:36.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSRTVCNzI3NDMzRTg2MDIyN0M1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-23T11:03:47.949Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSRDk4QkJCRjdCQ0QxOTREQjYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-23T11:13:47.917Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSNDFCNDJBQ0ZGMkIxQzkzOEZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-23T11:13:49.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSMUUyNjFERjQyNzJEQjE4M0YzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-23T11:13:49.671Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSNTVERjdFN0VGMTU0RTgxMDE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Combos con descuento",
+        "fecha": "2026-10-23T11:24:20.004Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tenemos combos que te pueden convenir si también necesitas imprimir. Por ejemplo:  \n\n🎁 COMBO Estudio y Trabajo: Módem 4G/5G + Impresora térmica tamaño carta por **$370.000 + $26.000 de envío**.  \nEste combo es ideal si quieres internet estable y además imprimir tareas, documentos o recibos sin depender de papelerías.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te muestre más combos o te interesa este para tener internet y poder imprimir en todo momento?",
+        "fecha": "2026-10-23T11:24:23.393Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSNjc2MkFBQkE3NUQ0NURBMUQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-23T11:24:24.370Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNDI5MzM2FQIAERgSMEVENUFGRTJFMzdDQ0E1NkE0AA=="
       }
     ],
     "paso": "conversando",
@@ -62,9 +109,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
