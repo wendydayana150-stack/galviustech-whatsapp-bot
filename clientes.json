@@ -859,8 +859,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-23T13:04:25.784Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-10-23T17:44:35.375Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1243,6 +1243,18 @@
         "fecha": "2026-10-23T13:04:24.612Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjhGRThGQjU1MUQ0NERGQjA4MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno muchas gracias",
+        "fecha": "2026-10-23T17:44:31.968Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta si en algún momento quieres ver más opciones o si necesitas ayuda con tu módem. ¡Un abrazo! 😊",
+        "fecha": "2026-10-23T17:44:33.954Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjA2OTJGNTBENDk1NDcyNUIyOQA="
       }
     ],
     "paso": "conversando",
@@ -1253,7 +1265,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
