@@ -781,8 +781,8 @@
     "telefono": "CO.1771787587364271",
     "nombre": "🤠",
     "primerContacto": "2026-10-22T18:24:13.765Z",
-    "ultimoContacto": "2026-10-22T23:36:19.646Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-23T13:04:02.462Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1151,16 +1151,23 @@
         "fecha": "2026-10-22T23:36:18.494Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjYxMTRGODdEMDBDNzVFRjRERgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, revisando la solicitud de sistecredito",
+        "fecha": "2026-10-23T13:04:01.408Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3MTc4NzU4NzM2NDI3MRUUABEYEjg1ODI2M0RCNUM0RDNERjUxQwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: 1088104595 · Valor: $ 215.900 (con envío) · Producto: Modem WiFi Portatil 4G/5G",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
