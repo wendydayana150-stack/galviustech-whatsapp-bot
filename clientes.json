@@ -3,8 +3,8 @@
     "telefono": "573021257311",
     "nombre": "Daniela yotagri",
     "primerContacto": "2026-10-24T19:54:14.952Z",
-    "ultimoContacto": "2026-10-24T19:54:14.952Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T19:55:14.799Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-24T19:54:14.068Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIxMjU3MzExFQIAERgSMTEyMjBCMUU2REZEQjUxRDI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ose no saca acolor",
+        "fecha": "2026-10-24T19:55:12.334Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Así es, nuestra Impresora Térmica Portátil Bluetooth imprime únicamente en blanco y negro, no saca a color ni escanea documentos. Es ideal para imprimir facturas, guías, documentos y notas rápidamente desde tu celular sin depender de cartuchos ni tinta.\n\n¿Para qué te gustaría usarla principalmente? Así te cuento cómo te puede facilitar el trabajo o los estudios.",
+        "fecha": "2026-10-24T19:55:13.825Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIxMjU3MzExFQIAERgSODc5M0NBN0MzOTY3RkUzQzlCAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573151884106",
