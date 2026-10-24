@@ -3,8 +3,8 @@
     "telefono": "573215514819",
     "nombre": "LIAM BALOY",
     "primerContacto": "2026-10-24T22:30:09.470Z",
-    "ultimoContacto": "2026-10-24T22:30:09.470Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T22:32:18.054Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-24T22:30:08.699Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1NTE0ODE5FQIAERgSRjYxNkM0MzQyNDg0RTU3OUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tarea",
+        "fecha": "2026-10-24T22:32:14.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la Impresora Termica Portatil Bluetooth es de **$249.900 + $26.000 de envío**, pagas al recibir y con 30 días de garantía.\n\nEs perfecta para imprimir tareas, trabajos o documentos tamaño carta sin tinta, ligera y fácil de llevar en tu bolso o morral (mide 27.5 cm x 6.5 cm x 5 cm). Además, imprime rápido directo desde tu celular por Bluetooth.\n\n¿Para qué tipo de tareas o documentos necesitas la impresora? Así te confirmo que es la mejor opción para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n📄 *Papel térmico para agregar a tu pedido:*\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000",
+        "fecha": "2026-10-24T22:32:16.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NTE0ODE5FQIAERgSODM3N0RCNjU5RjJGRDIwNTg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-24T22:32:17.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NTE0ODE5FQIAERgSQjEyMDI2OTBEM0ZFRDVBNjQxAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573170591592",
