@@ -3234,26 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T00:14:14.222Z",
-    "mensajes": 85,
+    "ultimoContacto": "2026-10-24T00:16:19.582Z",
+    "mensajes": 86,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:26:23.638Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
-        "fecha": "2026-10-22T01:26:23.933Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:26:23.934Z"
-      },
       {
         "rol": "bot",
         "texto": "Claro, el módem sí funciona con recargas según tu consumo, pero la ventaja es que conectas varios dispositivos con una sola recarga, sin contratos ni mensualidad fija.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Me compartes dónde lo usarías? Así te confirmo que es perfecto para ti.",
@@ -4419,6 +4402,25 @@
         "fecha": "2026-10-24T00:14:13.187Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSODc4MjZFRDEwOEYzNUU0QkM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La oficina mas sercana a imati amazonas queda a 8 horas en lancha",
+        "fecha": "2026-10-24T00:16:15.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que la lejanía es un reto, por eso te recomiendo tener tu propio módem con mejor señal para que aproveches la conexión cuando estés en esa oficina o en algún punto con señal cercana.\n\nLa inversión es **$189.900 + $26.000 de envío**, pagas al recibir y tienes garantía de 30 días con GalviusTech.\n\n¿Quieres que te deje el pedido listo para enviar a la oficina de la transportadora más cercana a ti? Así lo recoges cuando puedas sin preocuparte por la señal.",
+        "fecha": "2026-10-24T00:16:18.045Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMkE0MTU0RDg4NjIzMTNBOUREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-24T00:16:18.588Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMEQ0RjYzMTE5NjUxMzM3OUE5AA=="
       }
     ],
     "paso": "pedido_celular",
