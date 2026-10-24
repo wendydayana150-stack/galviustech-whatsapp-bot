@@ -529,15 +529,37 @@ const MENSAJE_BIENVENIDA_MODEM =
 
 async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       const sesion = obtenerSesion(telefono);
-      // Impresoras (oct-2026, a pedido de Wendy): hay de todos los tamaños para negocio y para
-      // estudio. Antes de mostrar alguna se pregunta para que la necesita, destacando los beneficios.
-      // La IA luego muestra las opciones (con FOTOS_PRODUCTOS) segun la respuesta.
+      // Impresoras (oct-2026, Wendy): SIEMPRE se ofrece primero la NETUM (impresora-termica, tamaño carta):
+      // fotos + info + precio, y despues se pregunta para que la necesita. Segun la respuesta, la IA
+      // confirma la NETUM o recomienda la impresora de negocio que mejor le sirve.
       if (categoria === "impresora") {
             sesion.ultimaCategoria = "impresora";
-            registrarMensaje(telefono, "bot", "[Pregunta para que necesita la impresora]");
+            const netum = catalogo.find((p) => p.id === "impresora-termica");
+            if (!netum) {
+                  await enviarTexto(telefono, "¡Claro! 🖨️ Cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta");
+                  return;
+            }
+            sesion.ultimoProducto = netum.id;
+            if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+            for (const url of (netum.imagenes || []).slice(0, 2)) {
+                  try {
+                        await enviarImagen(telefono, url, "Impresora Térmica Portátil NETUM");
+                  } catch (e) {
+                        console.error("Fotos NETUM: no se pudo enviar una foto:", e.message);
+                  }
+            }
+            if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
+            registrarMensaje(telefono, "bot", "[Presenta la NETUM con fotos y pregunta para que la necesita]");
             await enviarTexto(
                   telefono,
-                  "¡Claro! 🖨️ Tenemos impresoras térmicas de varios tamaños y todas tienen algo en común: imprimen *SIN TINTA* (nunca más gastas en cartuchos), son *portátiles* para llevarlas a todos lados y no briegas con cables: se conectan a tu celular y listo.\n\nPara recomendarte la que de verdad te sirve, cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta\n\n✅ Pagas al recibir (contra entrega) y todas tienen garantía."
+                  "¡Claro! 🖨️ Te presento nuestra *Impresora Térmica Portátil NETUM* 🔥\n\n" +
+                        "✅ Imprime *SIN TINTA*: nunca más gastas en cartuchos\n" +
+                        "✅ Hojas *tamaño carta*: documentos, tareas, facturas, guías y más\n" +
+                        "✅ *Portátil* (27,5 cm), batería recargable y se conecta a tu celular por Bluetooth\n\n" +
+                        `💰 *${formatearPrecio(netum.precio)}* + $26.000 de envío\n` +
+                        "🔥 Ya tiene el *30% de descuento* por promoción.\n" +
+                        "🚚 *Pagas al recibir* y tiene garantía.\n\n" +
+                        "Cuéntame, ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos"
             );
             return;
       }
@@ -854,7 +876,7 @@ function detectarPreguntaFotos(texto) {
 // que aparecen. Si un nombre esta contenido en otro mas largo (ej. "Impresora Termica Portatil
 // Bluetooth" dentro de "Mini Impresora Termica Portatil Bluetooth"), gana el mas largo.
 const normalizarNombre = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const ALIAS_FOTOS = { "impresora-termica": ["tamano carta", "impresora carta"] };
+const ALIAS_FOTOS = { "impresora-termica": ["tamano carta", "impresora carta", "netum"] };
 function productosMencionados(texto) {
       const t = " " + normalizarNombre(texto) + " ";
       const claves = [];
@@ -3332,7 +3354,7 @@ function detectarProductoEspecifico(texto) {
       // Impresoras (oct-2026): hay varias (negocio y estudio). La palabra "impresora" sola ya no
       // significa la impresora tamaño carta: solo cuando el cliente habla de carta, hojas,
       // tareas o estudio. Si no, queda como categoria y Michell pregunta para que la necesita.
-      if ((t.includes("impresora") || t.includes("imprimir")) && /carta|hoja|tarea|estudi|colegio|universidad|trabajos/.test(t)) {
+      if (t.includes("netum") || ((t.includes("impresora") || t.includes("imprimir")) && /carta|hoja|tarea|estudi|colegio|universidad|trabajos/.test(t))) {
             return "impresora-termica";
       }
       const tiene4g = t.includes("4g");
