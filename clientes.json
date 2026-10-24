@@ -12075,8 +12075,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-24T16:04:10.231Z",
-    "mensajes": 45,
+    "ultimoContacto": "2026-10-24T16:05:24.368Z",
+    "mensajes": 46,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12665,6 +12665,18 @@
         "fecha": "2026-10-24T16:04:09.297Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSMEU0RTI5QTM2NDg2NDM5RTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "WPA2(AES-PSK\nWPA3-personal",
+        "fecha": "2026-10-24T16:05:21.486Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, eso es parte de la configuración de seguridad del WiFi.\n\nWPA2 (AES-PSK) y WPA3-Personal son tipos de protocolos que protegen tu red WiFi para que nadie no autorizado se conecte.\n\nWPA3 es el protocolo más nuevo y seguro, pero algunos dispositivos más antiguos solo funcionan bien con WPA2.\n\nSi tienes problemas conectando algún equipo, puedes probar dejar solo WPA2-AES para asegurar compatibilidad.\n\n¿Quieres que te guíe para cambiar ese ajuste en el panel del módem?",
+        "fecha": "2026-10-24T16:05:23.398Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSOUNBQTAyQTU0NkNBMUQzRTVEAA=="
       }
     ],
     "paso": "conversando",
