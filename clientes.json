@@ -3234,26 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T00:10:55.077Z",
-    "mensajes": 83,
+    "ultimoContacto": "2026-10-24T00:13:32.075Z",
+    "mensajes": 84,
     "conversacion": [
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:26:20.305Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Sí, toca recargar conforme a tu consumo, pero el módem WiFi 4G/5G te permite conectar varios dispositivos con una sola recarga, sin contratos ni mensualidades fijas.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Dónde piensas usarlo? Así te confirmo que es la mejor solución para ti.",
-        "fecha": "2026-10-22T01:26:21.448Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:26:21.703Z",
-        "estado": "enviado"
-      },
       {
         "rol": "bot",
         "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
@@ -4416,6 +4399,25 @@
         "fecha": "2026-10-24T00:10:54.212Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMzI1OTk4Qzc5Rjk1NEY3OUMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como lo va hacer llegar",
+        "fecha": "2026-10-24T00:13:28.350Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 2 a 4 días hábiles después de que despachemos el pedido.  \n\nPor lo general enviamos por Interrapidisimo, pero si tu zona no tiene cobertura, usamos Coordinadora. En zonas rurales sin entrega a domicilio, queda en la oficina más cercana para que lo recojas.  \n\n¿Quieres que te lo mande a tu dirección o prefieres recogerlo en la oficina que te quede más cómoda?",
+        "fecha": "2026-10-24T00:13:30.726Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRkNERDZFM0E1NEY0QzM3QzRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-24T00:13:31.189Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSN0I4NkM5OEYwQjAxQUE3NjVEAA=="
       }
     ],
     "paso": "pedido_celular",
