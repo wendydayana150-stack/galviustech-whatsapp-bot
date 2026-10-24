@@ -523,6 +523,12 @@ function categoriasDisponibles() {
       return lista;
 }
 
+// PAPEL SIEMPRE (oct-2026, Wendy): toda respuesta que ofrece una impresora con precio lleva el papel como extra.
+const LINEA_PAPEL_CARTA = "📄 *Papel térmico para agregar a tu pedido:*\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000";
+const LINEA_PAPEL_ROLLOS = "🧻 *Rollos térmicos para agregar a tu pedido (7 m):*\n• 1 rollo: $3.000\n• 5 rollos: $13.000\n• 10 rollos: $21.000";
+const ID_IMPRESORAS_ROLLO = ["impresora-termica-portatil-goojprt-pt-210", "impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "combo-impresora-termica-portatil-reloj", "combo-impresora-termica-portatil-camara-de-seguridad"];
+const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio-trabajo"];
+
 const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
 const MENSAJE_BIENVENIDA_MODEM =
       "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
@@ -559,6 +565,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                         `💰 *${formatearPrecio(netum.precio)}* + $26.000 de envío\n` +
                         "🔥 Ya tiene el *30% de descuento* por promoción.\n" +
                         "🚚 *Pagas al recibir* y tiene garantía.\n\n" +
+                        LINEA_PAPEL_CARTA + "\n\n" +
                         "Cuéntame, ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos"
             );
             return;
@@ -3752,6 +3759,20 @@ async function manejarTextoLibre(telefono, texto) {
                               sesion.fotosEnviadas.push(p.id);
                         }
                         if (nuevos.length) registrarMensaje(telefono, "bot", `[Envio fotos: ${nuevos.map((p) => p.nombreCorto || p.nombre).join(", ")}]`);
+                  }
+                  // PAPEL SIEMPRE (oct-2026, Wendy): si ofrece una impresora con precio y no menciono el papel, se agrega
+                  // antes de la pregunta final.
+                  if (/\$\s?\d/.test(visible) && !/(rollo|hojas|papel)/i.test(visible)) {
+                        const ofrecidos = productosOfrecidos(visible).map((p) => p.id);
+                        const lineas = [];
+                        if (ofrecidos.some((id) => ID_IMPRESORAS_CARTA.includes(id))) lineas.push(LINEA_PAPEL_CARTA);
+                        if (ofrecidos.some((id) => ID_IMPRESORAS_ROLLO.includes(id))) lineas.push(LINEA_PAPEL_ROLLOS);
+                        if (lineas.length) {
+                              const bloques = visible.split(/\n\s*\n/);
+                              if (bloques.length > 1 && /\?\s*$/.test(bloques[bloques.length - 1].trim())) bloques.splice(bloques.length - 1, 0, ...lineas);
+                              else bloques.push(...lineas);
+                              visible = bloques.join("\n\n");
+                        }
                   }
                   await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
