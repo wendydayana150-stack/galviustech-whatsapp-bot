@@ -487,8 +487,8 @@
     "telefono": "573151884106",
     "nombre": "Alexis Cueros y Mari Anab",
     "primerContacto": "2026-10-24T19:52:32.520Z",
-    "ultimoContacto": "2026-10-24T21:24:55.267Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-24T21:25:49.895Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -680,11 +680,26 @@
         "fecha": "2026-10-24T21:24:54.464Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSQTQ3QTFFREQ3OTVCMzhCMDc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Solo este producto",
+        "fecha": "2026-10-24T21:25:48.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Termica Portatil Bluetooth* ($ 249.900). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-24T21:25:48.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSQTlGNjMxNjI4MkY1MzQ0QjhDAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Termica Portatil Bluetooth",
+      "precio": 249900,
+      "telefono": "573151884106"
     },
     "pausado": false,
     "etapaManual": null,
