@@ -55,8 +55,8 @@
     "telefono": "573133388689",
     "nombre": "Aleida",
     "primerContacto": "2026-10-24T21:26:53.416Z",
-    "ultimoContacto": "2026-10-24T21:26:53.416Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T21:26:58.009Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,6 +89,18 @@
         "fecha": "2026-10-24T21:26:52.638Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMzg4Njg5FQIAERgSRUIwMUU5OEU0QTJBQ0M0MTBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acomo",
+        "fecha": "2026-10-24T21:26:54.710Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Soy Michell de GalviusTech 😊 ¿Me puedes contar para qué necesitas la impresora térmica portátil? Así te ayudo mejor con toda la info que necesites.\n\n¿La usarás para trabajo, estudio, tu negocio o algo más? ¿En qué ciudad o municipio estás?",
+        "fecha": "2026-10-24T21:26:55.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4Njg5FQIAERgSQkIzMDZFODkyMzlDOUNGRUU2AA=="
       }
     ],
     "paso": "conversando",
@@ -101,7 +113,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573044419174",
