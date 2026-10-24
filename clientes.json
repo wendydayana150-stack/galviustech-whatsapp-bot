@@ -3234,26 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-23T22:26:42.036Z",
-    "mensajes": 80,
+    "ultimoContacto": "2026-10-24T00:07:33.236Z",
+    "mensajes": 81,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
-        "fecha": "2026-10-22T01:26:16.895Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:26:16.895Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Se recarga según el uso, pero con el módem WiFi 4G/5G conectas varios dispositivos con una sóla recarga, sin contratos ni mensualidades fijas, lo que puede ahorrarte.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n¿Me dices en qué municipio o vereda lo usarías? Así te ayudo a elegir bien.",
-        "fecha": "2026-10-22T01:26:18.201Z",
-        "estado": "enviado"
-      },
       {
         "rol": "bot",
         "texto": "Para empezar, cual es tu nombre completo?",
@@ -4411,14 +4394,34 @@
         "fecha": "2026-10-23T22:26:41.322Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQjY5OTk3MEM3MUU0NjM0NjM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-23T23:32:09.111Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRkJCMjIwQUUyODcwMTQ3Mzc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Guayuchamanatimasu anacona",
+        "fecha": "2026-10-24T00:07:31.704Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-24T00:07:31.706Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQzdDMjA3ODg5MUE1RDlFRUE0AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
-      "telefono": "573184703075"
+      "telefono": "573184703075",
+      "nombreCliente": "Guayuchamanatimasu anacona"
     },
     "pausado": false,
     "etapaManual": null,
@@ -4430,8 +4433,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
