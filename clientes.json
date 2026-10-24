@@ -481,8 +481,8 @@
     "telefono": "573209702716",
     "nombre": "Javier Hernandez",
     "primerContacto": "2026-10-24T18:35:50.322Z",
-    "ultimoContacto": "2026-10-24T18:35:50.322Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T19:54:08.531Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -515,6 +515,25 @@
         "fecha": "2026-10-24T18:35:49.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSOTA2NkREQkI0MjAyQTk1NDU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-24T19:44:47.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSQUQ1RUM4MTRGN0Y0NzFGMjMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En ésa impresora sé puede imprimir una fórmula",
+        "fecha": "2026-10-24T19:54:05.578Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell 😊 La Impresora Térmica Portátil Bluetooth que manejamos imprime en blanco y negro y sin tinta, ideal para documentos simples, facturas, contratos, cotizaciones o etiquetas.\n\nPara imprimir una fórmula, si tienes esa fórmula en formato de texto o imagen en tu celular, puedes imprimirla. Eso sí, la impresión no es a color ni es un escáner, solo imprime lo que le envíes desde el celular vía Bluetooth.\n\n¿Para qué tipo de fórmula o uso específico la necesitas? Así te ayudo mejor con lo que buscas.",
+        "fecha": "2026-10-24T19:54:07.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSMTdFM0NCQUFFMjgzREZCQzQxAA=="
       }
     ],
     "paso": "conversando",
@@ -529,8 +548,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
