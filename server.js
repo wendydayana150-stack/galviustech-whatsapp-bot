@@ -525,7 +525,7 @@ function categoriasDisponibles() {
 
 // PAPEL SIEMPRE (oct-2026, Wendy): toda respuesta que ofrece una impresora con precio lleva el papel como extra.
 const LINEA_PAPEL_CARTA = "📄 *Papel térmico para agregar a tu pedido:*\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000";
-const LINEA_PAPEL_ROLLOS = "🧻 *Rollos térmicos para agregar a tu pedido (7 m):*\n• 1 rollo: $3.000\n• 5 rollos: $13.000\n• 10 rollos: $21.000";
+const LINEA_PAPEL_ROLLOS = "🧻 *Rollos térmicos para agregar a tu pedido (7 m):*\n• 1 rollo: $4.000\n• 5 rollos: $17.000\n• 10 rollos: $30.000";
 const ID_IMPRESORAS_ROLLO = ["impresora-termica-portatil-goojprt-pt-210", "impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "combo-impresora-termica-portatil-reloj", "combo-impresora-termica-portatil-camara-de-seguridad"];
 const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio-trabajo"];
 
