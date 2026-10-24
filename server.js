@@ -863,6 +863,8 @@ function productosMencionados(texto) {
       for (const p of catalogo) for (const w of palabrasDe(p)) conteo.set(w, (conteo.get(w) || 0) + 1);
       for (const p of catalogo) {
             const lista = [p.nombre, p.nombreCorto, ...(ALIAS_FOTOS[p.id] || [])].map(normalizarNombre).filter((x) => x.length >= 4);
+            // Combos: tambien por la parte antes de los dos puntos ("COMBO Estudio y Trabajo: ...")
+            if (p.id.startsWith("combo-") && p.nombre.includes(":")) lista.push(normalizarNombre(p.nombre.split(":")[0]));
             // Palabras que solo tiene este producto y llevan numero (ej. "221b", "p5", "210"): "la Clabel 221B"
             for (const w of palabrasDe(p)) if (conteo.get(w) === 1 && /\d/.test(w) && w.length >= 2) lista.push(w);
             for (const c of new Set(lista)) claves.push({ id: p.id, c });
@@ -880,6 +882,18 @@ function productosMencionados(texto) {
       for (const h of hallados) if (!elegidos.some((e) => h.ini < e.fin && e.ini < h.fin)) elegidos.push(h);
       elegidos.sort((a, b) => a.ini - b.ini);
       return [...new Set(elegidos.map((h) => h.id))].map((id) => catalogo.find((p) => p.id === id)).filter(Boolean);
+}
+
+// Productos que Michell ofrece en un mensaje, linea por linea. Si en una linea aparece un combo, cuenta
+// solo el combo (no el modem/impresora que trae por dentro).
+function productosOfrecidos(texto) {
+      const res = [];
+      for (const linea of String(texto).split("\n")) {
+            let lista = productosMencionados(linea);
+            if (lista.some((p) => p.id.startsWith("combo-"))) lista = lista.filter((p) => p.id.startsWith("combo-"));
+            for (const p of lista) if (!res.includes(p)) res.push(p);
+      }
+      return res;
 }
 
 // Ultimos mensajes de Michell (el mas reciente primero), sin las lineas de control
@@ -3698,6 +3712,25 @@ async function manejarTextoLibre(telefono, texto) {
                         else bloques.push(linea30);
                         visible = bloques.join("\n\n");
                   }
+                  // FOTOS + INFO + CIERRE (oct-2026, Wendy: el cliente pidio "Combos con descuento" y solo le llegaron
+                  // precios): si Michell ofrece productos con precio y la IA no pidio fotos, se mandan primero las
+                  // fotos de esos productos (las que aun no ha visto), luego el texto y al final la pregunta de cierre.
+                  if (!(fotosProductos && fotosProductos.length) && /\$\s?\d/.test(visible)) {
+                        if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+                        const nuevos = productosOfrecidos(visible).filter((p) => p.imagenes && p.imagenes[0] && !sesion.fotosEnviadas.includes(p.id)).slice(0, 3);
+                        for (const p of nuevos) {
+                              const urls = nuevos.length === 1 ? p.imagenes.slice(0, 3) : [p.imagenes[0]];
+                              for (const url of urls) {
+                                    try {
+                                          await enviarImagen(telefono, url, p.nombreCorto || p.nombre);
+                                    } catch (e) {
+                                          console.error(`Fotos automaticas: no se pudo enviar la foto de ${p.id}:`, e.message);
+                                    }
+                              }
+                              sesion.fotosEnviadas.push(p.id);
+                        }
+                        if (nuevos.length) registrarMensaje(telefono, "bot", `[Envio fotos: ${nuevos.map((p) => p.nombreCorto || p.nombre).join(", ")}]`);
+                  }
                   await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
 
@@ -3708,7 +3741,7 @@ async function manejarTextoLibre(telefono, texto) {
                   if (!cierreEnviado && !productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
                         cierreEnviado = true;
                         const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
-                        const nombrados = productosMencionados(visible);
+                        const nombrados = productosOfrecidos(visible);
                         const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
                         if (idCierre && precios <= 2) {
                               sesion.ultimoProducto = idCierre;
