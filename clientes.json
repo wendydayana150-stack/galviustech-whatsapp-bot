@@ -3234,26 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T00:17:56.883Z",
-    "mensajes": 87,
+    "ultimoContacto": "2026-10-24T00:20:06.544Z",
+    "mensajes": 88,
     "conversacion": [
-      {
-        "rol": "cliente",
-        "texto": "Jajaja no? no?..\nOsea que toca estar recargando y recargar las megas que uno necesite noo? Eso sale mas caro que tener un plan",
-        "fecha": "2026-10-22T01:26:25.529Z"
-      },
-      {
-        "rol": "bot",
-        "texto": "Claro, el módem 4G/5G se recarga según lo que necesites, pero te permite conectar varios dispositivos con una sola recarga, sin contratos ni mensualidad fija.\n\nLa inversión es de **$189.900 + $26.000 de envío**, pagas al recibir y tienes garantía de 30 días.\n\n¿En qué municipio o zona lo usarías? Así te confirmo que es la opción ideal para ti.",
-        "fecha": "2026-10-22T01:26:26.745Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:26:26.983Z",
-        "estado": "enviado"
-      },
       {
         "rol": "bot",
         "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
@@ -4422,6 +4405,25 @@
         "fecha": "2026-10-24T00:17:55.906Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSRkNBRUJFODA4NUUzQjAxRUQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esta muy lejos..\nMe lo traen asta aca a imati",
+        "fecha": "2026-10-24T00:20:03.628Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que Imatí queda lejos y es complicado el transporte. En ese caso, generalmente no hacemos entregas directamente en la vereda o lugares tan alejados, sino a la oficina de la transportadora más cercana para que puedas recogerlo.\n\nSin embargo, mientras más rápido confirmes, antes se despacha para que puedas planear la recogida.\n\n¿Te ayudo a dejar el pedido listo para que te llegue a la oficina más cercana a Imatí? Así no tienes que preocuparte por perder la oportunidad.",
+        "fecha": "2026-10-24T00:20:05.199Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQzIxNEM2RUNGRjdBNTk2NkZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-24T00:20:05.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSNUNGMTNEM0MyRUVFQzA5RkJDAA=="
       }
     ],
     "paso": "pedido_celular",
