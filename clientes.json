@@ -3234,26 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T00:21:42.290Z",
-    "mensajes": 89,
+    "ultimoContacto": "2026-10-24T00:22:54.806Z",
+    "mensajes": 90,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Para empezar, cual es tu nombre completo?",
-        "fecha": "2026-10-22T01:26:28.688Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "bot",
-        "texto": "Disculpa, tuve un problema tecnico para procesar tu mensaje. Puedes contarme un poco mas o intentar de nuevo?",
-        "fecha": "2026-10-22T01:26:28.940Z",
-        "estado": "enviado"
-      },
-      {
-        "rol": "cliente",
-        "texto": "Pero toca recargar siempre y la recarga de datos sale mas caro que una mensualidad yo tengo un plan de 25 mil y le doy WiFi a mi mujer y mis hijo y las recargas de datos son de 35 en adelante y eso si da WiFi no dura nada",
-        "fecha": "2026-10-22T01:30:43.888Z"
-      },
       {
         "rol": "bot",
         "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
@@ -4426,6 +4409,25 @@
         "fecha": "2026-10-24T00:21:41.392Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQjlDMEU4NEMyRkVGODEyNkVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ud dijo que asta las veredas",
+        "fecha": "2026-10-24T00:22:51.138Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Justo aclaré que el módem funciona perfecto en veredas; pero la entrega física del paquete se hace donde la transportadora tiene oficina, no en el punto remoto si queda muy lejos o sin cobertura de domicilio. Por ejemplo, en Imatí el paquete llega a la oficina local y ahí se recoge.\n\nLo que sí: con el módem tienes internet hasta en la vereda donde estés gracias a su antena potente.\n\n¿Quieres que te deje listo el pedido para envío a la oficina de la transportadora más cercana a Imatí?",
+        "fecha": "2026-10-24T00:22:53.230Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMDJFNTUxQzU3MDdDMjYxODBDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-24T00:22:53.857Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQjJCRDlDQkY2QzRGOEY0Qzg5AA=="
       }
     ],
     "paso": "pedido_celular",
