@@ -3281,21 +3281,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T11:52:40.991Z",
-    "mensajes": 115,
+    "ultimoContacto": "2026-10-24T11:53:09.296Z",
+    "mensajes": 116,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
-        "fecha": "2026-10-22T01:33:32.574Z",
-        "estado": "enviado",
-        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSM0Q0N0YzNDJEQzgyMDI5ODU4AA=="
-      },
-      {
-        "rol": "cliente",
-        "texto": "Pero toca recargar siempre y la recarga de datos sale mas caro que una mensualidad yo tengo un plan de 25 mil y le doy WiFi a mi mujer y mis hijo y las recargas de datos son de 35 en adelante y eso si da WiFi no dura nada",
-        "fecha": "2026-10-22T01:33:35.352Z"
-      },
       {
         "rol": "bot",
         "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
@@ -4497,16 +4485,29 @@
         "fecha": "2026-10-24T11:14:51.468Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQkZDQzNFNjJCMkMwMDJBQkQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ay esta la ubicación",
+        "fecha": "2026-10-24T11:53:08.105Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y en que ciudad o municipio?",
+        "fecha": "2026-10-24T11:53:08.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQzM1NUNCMjQ4RUFCRkRBNkMxAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573184703075",
       "nombreCliente": "Guayuchamanatimasu anacona",
-      "celular": "0000000000"
+      "celular": "0000000000",
+      "departamento": "Ay esta la ubicación"
     },
     "pausado": false,
     "etapaManual": null,
