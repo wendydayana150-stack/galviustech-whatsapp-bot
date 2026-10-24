@@ -3234,21 +3234,9 @@
     "telefono": "573184703075",
     "nombre": "Yon Manzano",
     "primerContacto": "2026-10-22T01:10:42.253Z",
-    "ultimoContacto": "2026-10-24T00:44:12.561Z",
-    "mensajes": 112,
+    "ultimoContacto": "2026-10-24T00:44:31.896Z",
+    "mensajes": 113,
     "conversacion": [
-      {
-        "rol": "bot",
-        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
-        "fecha": "2026-10-22T01:33:19.701Z",
-        "estado": "enviado",
-        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSQTQ3MEY1RkJENTlGNzgxNjI0AA=="
-      },
-      {
-        "rol": "cliente",
-        "texto": "Pero toca recargar siempre y la recarga de datos sale mas caro que una mensualidad yo tengo un plan de 25 mil y le doy WiFi a mi mujer y mis hijo y las recargas de datos son de 35 en adelante y eso si da WiFi no dura nada",
-        "fecha": "2026-10-22T01:33:29.669Z"
-      },
       {
         "rol": "bot",
         "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
@@ -4448,15 +4436,28 @@
         "fecha": "2026-10-24T00:44:11.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSNTk4NDA5NUE2MEI4N0VFREIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "0000000000",
+        "fecha": "2026-10-24T00:44:30.993Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-24T00:44:30.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0NzAzMDc1FQIAERgSMTlFRjREQjdBNzk4NkRERUMyAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573184703075",
-      "nombreCliente": "Guayuchamanatimasu anacona"
+      "nombreCliente": "Guayuchamanatimasu anacona",
+      "celular": "0000000000"
     },
     "pausado": false,
     "etapaManual": null,
