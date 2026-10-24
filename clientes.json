@@ -3,8 +3,8 @@
     "telefono": "573243679912",
     "nombre": "Adriana Sampayo",
     "primerContacto": "2026-10-24T23:25:55.188Z",
-    "ultimoContacto": "2026-10-24T23:25:55.188Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T23:27:54.522Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-24T23:25:54.363Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzNjc5OTEyFQIAERgSQzA2MDIyRUQ3MkZDRUU5RkRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-24T23:27:52.266Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué te puedo ayudar hoy? ¿Quieres saber sobre nuestra Impresora Térmica Portátil Bluetooth o algo diferente? ¿Para qué la necesitas, por ejemplo trabajo, estudio o tu negocio? Así te puedo recomendar mejor.",
+        "fecha": "2026-10-24T23:27:53.596Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzNjc5OTEyFQIAERgSNkJDQjY4QkI3NUE5NjIzMDI3AA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225085828",
