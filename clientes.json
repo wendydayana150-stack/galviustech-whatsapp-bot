@@ -12075,8 +12075,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-24T16:14:51.615Z",
-    "mensajes": 50,
+    "ultimoContacto": "2026-10-24T16:15:19.587Z",
+    "mensajes": 51,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12725,6 +12725,18 @@
         "fecha": "2026-10-24T16:14:50.665Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSRkNFMDNGNERDMkE4QUZDMTk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como la oculto ?",
+        "fecha": "2026-10-24T16:15:16.536Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para ocultar la red WiFi del módem, sigue estos pasos:\n\n1. Entra al panel de configuración escribiendo 192.168.1.1 en el navegador y con usuario/contraseña admin.\n\n2. Busca la opción de configuración WiFi o Red inalámbrica.\n\n3. Ahí busca algo que diga “Ocultar SSID”, “Hacer red oculta” o “Broadcast SSID”.\n\n4. Activa la opción para ocultar el nombre de la red (SSID).\n\n5. Guarda los cambios.\n\nCon eso, la red no aparecerá cuando busques WiFi, pero igual podés conectarte manualmente poniendo el nombre exacto y la contraseña.\n\n¿Quieres que te guíe mientras haces eso?",
+        "fecha": "2026-10-24T16:15:18.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSNjExMUYxM0ZDNTVFRjJFOUI3AA=="
       }
     ],
     "paso": "conversando",
