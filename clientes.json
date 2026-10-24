@@ -12075,8 +12075,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-24T15:46:19.620Z",
-    "mensajes": 42,
+    "ultimoContacto": "2026-10-24T15:47:01.797Z",
+    "mensajes": 43,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12641,6 +12641,18 @@
         "fecha": "2026-10-24T15:46:18.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSQjNEMjBDOTM5NDdCMkVEMDk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Guíame para hacer la configuración",
+        "fecha": "2026-10-24T15:46:58.750Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, vamos a hacerlo paso a paso:\n\n1. Conecta tu celular o computador al WiFi del módem con el nombre y contraseña que están en la etiqueta.\n\n2. Abre el navegador y escribe en la barra de dirección exactamente: 192.168.1.1 y dale Enter.\n\n3. Te va a pedir usuario y contraseña, normalmente es admin para los dos campos (usuario: admin, contraseña: admin).\n\n4. Entra al menú de configuración y busca la opción WiFi o Red inalámbrica.\n\n5. Ahí puedes cambiar el nombre de la red (SSID) y la clave (password).\n\n6. Guarda los cambios y sal del panel.\n\nPrueba conectarte de nuevo con la nueva clave que pusiste.\n\n¿Quieres que te ayude con algún paso de esos, o con otro detalle?",
+        "fecha": "2026-10-24T15:47:00.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSRDkyRDM2RkI4OTgzRjlEOEQ1AA=="
       }
     ],
     "paso": "conversando",
