@@ -435,8 +435,8 @@
     "telefono": "573151884106",
     "nombre": "Alexis Cueros y Mari Anab",
     "primerContacto": "2026-10-24T19:52:32.520Z",
-    "ultimoContacto": "2026-10-24T19:52:32.520Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-24T21:22:45.099Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -469,6 +469,25 @@
         "fecha": "2026-10-24T19:52:31.578Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSRUU1NUREQjEwM0ZFQkYwREUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-24T20:59:48.416Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSN0M0NkQ0MDI3N0EzQjlFQjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ola cómo estas",
+        "fecha": "2026-10-24T21:22:41.921Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿cómo vas? Soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy? ¿Quieres echarle un vistazo a nuestra impresora térmica portátil? \n\n¿Para qué la necesitas principalmente, trabajo, estudio o algo más?",
+        "fecha": "2026-10-24T21:22:44.085Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSRUIyQTkwNjIzMzJCMDM0ODlEAA=="
       }
     ],
     "paso": "conversando",
@@ -483,8 +502,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
