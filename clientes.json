@@ -3,8 +3,8 @@
     "telefono": "573206359695",
     "nombre": "Irma Quintero",
     "primerContacto": "2026-10-25T17:51:18.222Z",
-    "ultimoContacto": "2026-10-25T17:51:18.222Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T17:51:25.504Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,19 +24,68 @@
         "fecha": "2026-10-25T17:51:17.471Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSMjY2RUFDNjcwQTlEN0JCMDJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el precio de la impresora térmica portátil?",
+        "fecha": "2026-10-25T17:51:19.642Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-10-25T17:51:22.632Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSMUE2NjVGM0E2QUU0MjUyNzk5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-10-25T17:51:23.256Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSRkE1MDQyREY1N0M1OTdFNkVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Termica",
+        "fecha": "2026-10-25T17:51:23.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSNzA0QzgzRUU4OTVDRjYxNEQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Termica]",
+        "fecha": "2026-10-25T17:51:24.270Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la Impresora Térmica Portátil Bluetooth es de **$249.900 + $26.000 de envío**, y ya tiene el 30% de descuento. Es una inversión ideal porque imprime sin tinta, es portátil, fácil de conectar por Bluetooth desde tu celular y tiene batería que dura hasta 30 horas. Además, mide 27.5 cm de largo por 6.5 cm de ancho y 5 cm de alto, cabe en cualquier bolso o mochila.\n\n¿Para qué la vas a usar principalmente? Así te ayudo mejor con los detalles y te ofrezco papel térmico si lo necesitas.",
+        "fecha": "2026-10-25T17:51:24.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSNkRCMDEzOTBERjNENzhCMjBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-25T17:51:24.826Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzU5Njk1FQIAERgSQzQ0NDZFNzQ0RERCMUZGMTE3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.29237320009287112",
