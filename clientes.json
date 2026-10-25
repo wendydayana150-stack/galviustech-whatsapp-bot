@@ -3,8 +3,8 @@
     "telefono": "573224238573",
     "nombre": "Majito Pérez",
     "primerContacto": "2026-10-25T13:00:32.573Z",
-    "ultimoContacto": "2026-10-25T13:00:32.573Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T13:01:18.665Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-25T13:00:31.655Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0MjM4NTczFQIAERgSRTdFMTFEMkU0QTY0QzRBMDBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para trabajos tareas",
+        "fecha": "2026-10-25T13:01:15.093Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para trabajos y tareas la mejor opción es la Impresora Térmica Portátil Bluetooth. \n\n🔥 Imprime en tamaño carta, ideal para documentos, apuntes y trabajos escolares.\n🖤 No usa tinta, ahorras en materiales.\n📲 Se conecta fácil por Bluetooth a tu celular.\nMide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, cabe en tu mochila sin problema.\n\nLa inversión sería de **$249.900 + $26.000 de envío**, y pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te agregue papel térmico para que no te falte nada? ¿O prefieres que te ayude a dejar el pedido listo ya?",
+        "fecha": "2026-10-25T13:01:17.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0MjM4NTczFQIAERgSNkY0Q0JFQUMzRDBEQUJEMTIyAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133773411",
