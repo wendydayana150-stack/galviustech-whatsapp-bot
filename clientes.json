@@ -2282,8 +2282,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:28:36.596Z",
-    "mensajes": 39,
+    "ultimoContacto": "2026-10-25T01:29:07.435Z",
+    "mensajes": 40,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2990,9 +2990,21 @@
         "fecha": "2026-10-25T01:28:35.548Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMzZCRENCMDQ4NUY5RURDQkYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En otro momento pido",
+        "fecha": "2026-10-25T01:29:06.388Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-25T01:29:06.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMENDRDk4NzEwRDJGRkMyNTAxAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -3002,7 +3014,8 @@
       "ciudad": "Qe diferentes ay entre los dos",
       "nombreCliente": "Solo el moden",
       "celular": "3233698845",
-      "direccion": "Mándame la foto qe acaa no sale"
+      "direccion": "Mándame la foto qe acaa no sale",
+      "barrio": "En otro momento pido"
     },
     "pausado": false,
     "etapaManual": null,
