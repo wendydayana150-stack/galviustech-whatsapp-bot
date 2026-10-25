@@ -267,8 +267,8 @@
     "telefono": "573017071837",
     "nombre": "Luz adriana Gutierrez",
     "primerContacto": "2026-10-25T14:41:41.028Z",
-    "ultimoContacto": "2026-10-25T14:43:04.310Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-25T15:50:38.221Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -313,6 +313,32 @@
         "fecha": "2026-10-25T14:43:03.453Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSQzVCRkRCOUY4QUFGNjVENEYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-25T15:49:49.044Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSMkU5N0UyQ0JCNDg1ODhGN0NGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esque quiere impresión a color",
+        "fecha": "2026-10-25T15:50:34.412Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, pero nuestra Impresora Térmica Portátil Bluetooth imprime únicamente en blanco y negro, no tiene opción a color. Su gran ventaja es que imprime sin tinta ni cartuchos, es portátil y la conectas al celular por Bluetooth para imprimir rápido y fácil. \n\n¿Me cuentas para qué tipo de documentos necesitas imprimir? Así te ayudo a ver si esta impresora te sirve o te recomiendo otra opción. ¿Te parece?",
+        "fecha": "2026-10-25T15:50:36.494Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSRkMxQzcwRTQ1MTgxMDkwMEZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-25T15:50:37.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSNEYzNjk5MDFGMTNBN0Y3QzJGAA=="
       }
     ],
     "paso": "conversando",
@@ -327,8 +353,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
