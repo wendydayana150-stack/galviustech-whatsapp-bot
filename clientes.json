@@ -606,7 +606,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.2306618120124199",
@@ -1433,7 +1437,8 @@
     "esperaCompra": null,
     "recordatorios": {
       "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
