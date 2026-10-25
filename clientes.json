@@ -2208,8 +2208,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:06:21.700Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-25T01:09:34.251Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2559,15 +2559,32 @@
         "fecha": "2026-10-25T01:06:20.763Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSNEY2NkU0RERDMkYyQkM2QkQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-10-25T01:09:32.942Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Reloj Inteligente* ($ 289.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-25T01:09:33.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSM0VFNTFGNEI4RkYxODhEQTA0AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "combo-modem-wifi-reloj-inteligente",
+      "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
+      "precio": 289900,
+      "telefono": "573233698845",
+      "departamento": "Cordoba",
+      "ciudad": "Qe diferentes ay entre los dos"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
