@@ -267,8 +267,8 @@
     "telefono": "573017071837",
     "nombre": "Luz adriana Gutierrez",
     "primerContacto": "2026-10-25T14:41:41.028Z",
-    "ultimoContacto": "2026-10-25T15:52:16.872Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-25T15:52:42.259Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -363,6 +363,18 @@
         "fecha": "2026-10-25T15:52:15.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSQjQwRjNGNzgzMDYxQTdDNjNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No ninguna. Gracias",
+        "fecha": "2026-10-25T15:52:40.286Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por tu sinceridad. Quedo atenta si en el futuro necesitas alguna solución para impresión, internet o seguridad, aquí en GalviusTech siempre queremos ayudarte.\n\n¿Quieres que te guarde mi contacto por si luego necesitas asesoría? ¿O te gustaría que te muestre algún producto que tal vez no habías considerado?",
+        "fecha": "2026-10-25T15:52:41.221Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSRTBCODVFOEM4RTQxQzE5Q0Q2AA=="
       }
     ],
     "paso": "conversando",
@@ -373,7 +385,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
