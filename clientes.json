@@ -220,7 +220,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1094720246689840",
@@ -272,7 +276,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.3708446459310921",
@@ -324,7 +332,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573146521037",
@@ -1262,8 +1274,9 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 2,
+      "horas1": true,
+      "horas3": true
     }
   },
   {
