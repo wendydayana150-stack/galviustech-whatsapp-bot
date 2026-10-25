@@ -55,8 +55,8 @@
     "telefono": "573017071837",
     "nombre": "Luz adriana Gutierrez",
     "primerContacto": "2026-10-25T14:41:41.028Z",
-    "ultimoContacto": "2026-10-25T14:41:41.028Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T14:43:04.310Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,6 +89,18 @@
         "fecha": "2026-10-25T14:41:40.079Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSNjIyRUU3QTU5OURBNTRERDJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-25T14:43:02.060Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy? ¿Quieres que te cuente sobre la Impresora Térmica Portátil Bluetooth o tienes alguna otra cosa en mente? ¿Me cuentas para qué la necesitarías?",
+        "fecha": "2026-10-25T14:43:03.453Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcxODM3FQIAERgSQzVCRkRCOUY4QUFGNjVENEYzAA=="
       }
     ],
     "paso": "conversando",
@@ -101,7 +113,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573212949726",
