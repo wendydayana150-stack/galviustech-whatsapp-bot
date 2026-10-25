@@ -107,8 +107,8 @@
     "telefono": "573215098148",
     "nombre": "🫥",
     "primerContacto": "2026-10-25T21:00:57.786Z",
-    "ultimoContacto": "2026-10-25T21:00:57.786Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T22:10:47.662Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,25 @@
         "fecha": "2026-10-25T21:00:57.074Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSMTkwMTA1MUUxMzREREREREI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-25T22:09:48.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSNkJBOEVDRTU5RjI1ODdENzUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias solo estaba consultado",
+        "fecha": "2026-10-25T22:10:45.018Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando quieras aquí estoy para ayudarte con lo que necesites 😊\n\nPor cierto, ¿qué te gustaría imprimir o para qué vas a usar la impresora térmica portátil? Así te cuento lo que mejor te sirve.",
+        "fecha": "2026-10-25T22:10:46.807Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSRjkwRTNFMjMyQkE1RjcyRDJFAA=="
       }
     ],
     "paso": "conversando",
@@ -155,8 +174,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
