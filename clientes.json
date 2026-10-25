@@ -2208,8 +2208,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:14:02.828Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-10-25T01:14:44.176Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2659,6 +2659,18 @@
         "fecha": "2026-10-25T01:14:02.034Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMDFBQTVEQ0UyNjY1NjhCMDUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este",
+        "fecha": "2026-10-25T01:14:43.183Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?",
+        "fecha": "2026-10-25T01:14:43.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSOTlFNjMzRUQwNzlBREYyMjgzAA=="
       }
     ],
     "paso": "pedido_celular",
