@@ -2260,8 +2260,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:22:17.224Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-10-25T01:23:07.627Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2818,6 +2818,25 @@
         "fecha": "2026-10-25T01:22:16.268Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSRDM1RDA1MkRBOTlDMDAxN0ZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yoo quiero este",
+        "fecha": "2026-10-25T01:23:04.616Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te ayudo a dejar tu pedido con el Módem WiFi Portátil 4G para que lo tengas ya listo para usar.\n\nSolo dime a dónde te lo envío y cómo prefieres pagar, ¿contraentrega o transferencia?",
+        "fecha": "2026-10-25T01:23:05.865Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQ0EyQjIyQzg5M0U2QzE5NjcwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-25T01:23:06.515Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQzBBMjg0NUNERDkxNjk0RDhFAA=="
       }
     ],
     "paso": "pedido_celular",
