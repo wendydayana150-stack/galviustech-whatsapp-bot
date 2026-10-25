@@ -13331,8 +13331,8 @@
     "telefono": "573234206781",
     "nombre": "🤎",
     "primerContacto": "2026-10-20T21:26:32.471Z",
-    "ultimoContacto": "2026-10-25T21:02:12.020Z",
-    "mensajes": 58,
+    "ultimoContacto": "2026-10-25T21:02:14.241Z",
+    "mensajes": 59,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14112,6 +14112,18 @@
         "fecha": "2026-10-25T21:02:10.920Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSOEY5NkM4NTZEREM5QThGMDkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No quiere cargar",
+        "fecha": "2026-10-25T21:02:13.309Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo 😊 Cuéntame, ¿qué te preocupa o qué te gustaría cambiar de tu pedido? Te ayudo a dejarlo como lo necesitas.",
+        "fecha": "2026-10-25T21:02:13.310Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjA2NzgxFQIAERgSODg2RkM2Rjk5RDhEM0IzNTUwAA=="
       }
     ],
     "paso": "conversando",
@@ -14120,8 +14132,8 @@
     "etapaManual": "No Califica",
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Modem WiFi Portatil 4G/5G: \"No quiere cargar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
