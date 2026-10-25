@@ -2282,8 +2282,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:26:20.597Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-10-25T01:26:34.817Z",
+    "mensajes": 35,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2916,6 +2916,25 @@
         "fecha": "2026-10-25T01:26:19.734Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMDcyQzM0OEQ3OEE5Mjk1MUMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "PAra confirmarte",
+        "fecha": "2026-10-25T01:26:32.396Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta a que me pases la dirección completa y cómo prefieres pagar, ¿contraentrega o por transferencia? Así te dejo el pedido listo para ti.",
+        "fecha": "2026-10-25T01:26:33.275Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQjk5QzZCMEM2MDNFOEIzOUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-25T01:26:33.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQzVCQTVCMkFGRjYzQTgyNzYxAA=="
       }
     ],
     "paso": "pedido_celular",
