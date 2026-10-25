@@ -3,8 +3,8 @@
     "telefono": "573212949726",
     "nombre": "😍tatiana. 🩷 De💓 Lugo😍",
     "primerContacto": "2026-10-25T14:33:28.630Z",
-    "ultimoContacto": "2026-10-25T14:33:28.630Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T14:34:17.184Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-25T14:33:27.903Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSMUJDNTkwQzQ2OThCMzNGOEIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el precio de la impresora térmica portátil?",
+        "fecha": "2026-10-25T14:34:12.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la Impresora Térmica Portátil Bluetooth es de **$249.900** más **$26.000** de envío. Imprime en hojas tamaño carta sin tinta, es portátil y fácil de usar conectándola por Bluetooth al celular. Ideal para imprimir desde documentos hasta facturas o guías mientras estás fuera de la oficina.\n\n¿Para qué la necesitarías principalmente? Así te cuento cómo te puede facilitar ese trabajo o estudio.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-25T14:34:15.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSRTIzNEFERTUzMTFDNzczREQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-25T14:34:16.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSMDc5OTgyNUIyMDUyMzFERkQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2971164383217725",
