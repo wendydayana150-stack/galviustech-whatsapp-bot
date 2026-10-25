@@ -4087,8 +4087,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T14:06:36.466Z",
-    "mensajes": 43,
+    "ultimoContacto": "2026-10-25T14:07:03.230Z",
+    "mensajes": 44,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4843,6 +4843,18 @@
         "fecha": "2026-10-25T14:06:35.610Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQzcwNjk5QjNBMTA5MDhGMkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero aser un pedido del mondee",
+        "fecha": "2026-10-25T14:07:02.207Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
+        "fecha": "2026-10-25T14:07:02.207Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSOTg1MTIyRDg1MDNEOTBEQTJFAA=="
       }
     ],
     "paso": "pedido_pago",
