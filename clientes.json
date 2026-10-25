@@ -3,8 +3,8 @@
     "telefono": "573144252669",
     "nombre": "Fredes Diaz",
     "primerContacto": "2026-10-25T00:06:40.896Z",
-    "ultimoContacto": "2026-10-25T00:06:40.896Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T01:07:03.787Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-25T00:06:39.964Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0MjUyNjY5FQIAERgSM0NFQzVCODI3M0ZCMTQwNjYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu tiempo",
+        "fecha": "2026-10-25T01:07:01.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Quieres que te muestre algo más o te ayudo a dejar tu pedido listo? 😊",
+        "fecha": "2026-10-25T01:07:02.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0MjUyNjY5FQIAERgSM0Y4Q0M5NEMwMkMxMjI1MTk0AA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1973185653657424",
