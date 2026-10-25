@@ -3,8 +3,8 @@
     "telefono": "CO.1828789158277919",
     "nombre": "Jaime Torres",
     "primerContacto": "2026-10-25T15:59:55.636Z",
-    "ultimoContacto": "2026-10-25T16:00:28.093Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-25T16:01:04.180Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,25 @@
         "fecha": "2026-10-25T16:00:26.867Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyODc4OTE1ODI3NzkxORUUABEYEjFBM0Q5NzYxODU4OEE2RTc2QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La pila o batería del Reuter",
+        "fecha": "2026-10-25T16:01:01.176Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 La batería del módem WiFi portátil dura hasta 14 horas de uso continuo con una sola carga, para que puedas estar conectado todo el día sin preocuparte. Y cuando necesites cargarlo, solo toma un momento con el cable USB-C.\n\n¿Quieres que te cuente sobre las versiones del módem para que elijas la que mejor se ajuste a tu uso? ¿Me dices dónde lo usarías?",
+        "fecha": "2026-10-25T16:01:02.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyODc4OTE1ODI3NzkxORUUABEYEjdFQzE3QzRERjI3M0Y1N0FCQgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
