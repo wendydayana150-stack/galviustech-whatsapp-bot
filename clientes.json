@@ -2282,8 +2282,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T01:27:33.291Z",
-    "mensajes": 36,
+    "ultimoContacto": "2026-10-25T01:27:56.883Z",
+    "mensajes": 37,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2954,9 +2954,21 @@
         "fecha": "2026-10-25T01:27:32.367Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSOUY2QTdDOEQ4MkQ0QjcyMTFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3233698845",
+        "fecha": "2026-10-25T01:27:55.882Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-25T01:27:55.883Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSRjlGODZCQ0VERTAyMTU1QTQ3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
@@ -2964,7 +2976,8 @@
       "telefono": "573233698845",
       "departamento": "Cordoba",
       "ciudad": "Qe diferentes ay entre los dos",
-      "nombreCliente": "Solo el moden"
+      "nombreCliente": "Solo el moden",
+      "celular": "3233698845"
     },
     "pausado": false,
     "etapaManual": null,
