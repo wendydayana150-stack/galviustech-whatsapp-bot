@@ -421,8 +421,8 @@
     "telefono": "573013530961",
     "nombre": "leofitzem",
     "primerContacto": "2026-10-25T06:50:18.721Z",
-    "ultimoContacto": "2026-10-25T06:50:18.721Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T11:10:09.737Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -455,6 +455,25 @@
         "fecha": "2026-10-25T06:50:17.830Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzNTMwOTYxFQIAERgSQzcwMzQ3Q0FDM0RFOTcwRTkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-25T11:09:49.906Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzNTMwOTYxFQIAERgSNTI0Q0MyMEI1RDBCM0ZCNkU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje, dejanos tus datos y un breve resumen de tu caso, estudiaremos la viabilidad y te respondemos para dar trámite a tu inquietud. Sábado y Domingo no hay servicio. Gracias",
+        "fecha": "2026-10-25T11:10:05.822Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. Veo que quieres ayuda, ¿me cuentas para qué necesitas la impresora térmica portátil Bluetooth o qué problema quieres solucionar con ella? Así te oriento mejor y te muestro tu mejor opción. ¿En qué ciudad o vereda estás?",
+        "fecha": "2026-10-25T11:10:07.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzNTMwOTYxFQIAERgSNUI3QTZDQjYwMTdCRkM5Qzc3AA=="
       }
     ],
     "paso": "conversando",
@@ -467,7 +486,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573004480479",
