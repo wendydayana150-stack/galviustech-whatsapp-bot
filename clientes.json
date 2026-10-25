@@ -3,8 +3,8 @@
     "telefono": "CO.1800259844423241",
     "nombre": "mariavidaliapo",
     "primerContacto": "2026-10-25T20:05:09.976Z",
-    "ultimoContacto": "2026-10-25T20:05:09.976Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-25T20:10:43.432Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-25T20:05:09.101Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgwMDI1OTg0NDQyMzI0MRUUABEYEkRFMEYzMDVGMUQ5Q0VBNEVFQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes gracias quería conocer esa información. Por el momento no la voy a encargar",
+        "fecha": "2026-10-25T20:10:40.581Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, gracias a ti por escribirme. Cuando necesites la impresora térmica portátil Bluetooth para imprimir donde quieras sin depender de una impresora grande, aquí estaré para ayudarte.\n\n¿Te gustaría que te cuente para qué cosas es más útil esta impresora? Así tienes la info completa cuando decidas.",
+        "fecha": "2026-10-25T20:10:42.419Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgwMDI1OTg0NDQyMzI0MRUUABEYEjlEMURGMEJBOTkwMDUzQTU2NwA="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136513594",
