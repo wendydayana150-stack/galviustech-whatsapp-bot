@@ -467,7 +467,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573014173340",
@@ -540,7 +544,8 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
@@ -1179,7 +1184,8 @@
     "esperaCompra": null,
     "recordatorios": {
       "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
