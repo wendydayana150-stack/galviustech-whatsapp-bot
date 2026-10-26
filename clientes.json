@@ -6831,8 +6831,8 @@
     "telefono": "573004480479",
     "nombre": "Martha",
     "primerContacto": "2026-10-25T05:28:12.001Z",
-    "ultimoContacto": "2026-10-25T05:28:12.001Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T04:26:14.134Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6865,6 +6865,13 @@
         "fecha": "2026-10-25T05:28:11.170Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NDgwNDc5FQIAERgSNjc5MjdGQTMxMUE4OUIzRkIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T04:26:13.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NDgwNDc5FQIAERgSRDQ5Rjg0QUM2QTEyMEM4OTdDAA=="
       }
     ],
     "paso": "conversando",
@@ -6879,9 +6886,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
