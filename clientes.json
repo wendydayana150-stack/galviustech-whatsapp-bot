@@ -3,8 +3,8 @@
     "telefono": "573009644956",
     "nombre": "Yenci",
     "primerContacto": "2026-10-26T19:07:12.127Z",
-    "ultimoContacto": "2026-10-26T19:07:12.127Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T19:08:21.687Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-26T19:07:11.232Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NjQ0OTU2FQIAERgSMzVDOEY2MEQyMUE5NDY3NjNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No imprime a color",
+        "fecha": "2026-10-26T19:08:19.162Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, la Impresora Térmica Portátil NETUM solo imprime en blanco y negro, pero eso es justo una ventaja porque no necesitas gastar en tinta ni cartuchos.\n\nImprime rápido desde tu celular y es portátil, mide 27.5 x 6.5 x 5 cm, perfecto para llevar en la mochila o bolso.\n\n¿Para qué planeas usarla? ¿Tareas, documentos, facturas o algo más? Así te confirmo que es la mejor opción para ti.",
+        "fecha": "2026-10-26T19:08:20.739Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NjQ0OTU2FQIAERgSNjA5QzhCMEFGM0ZBOUI0NjhFAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573046071281",
