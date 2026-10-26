@@ -4563,8 +4563,8 @@
     "telefono": "573215098148",
     "nombre": "🫥",
     "primerContacto": "2026-10-25T21:00:57.786Z",
-    "ultimoContacto": "2026-10-26T15:53:32.994Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-26T15:54:01.133Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4675,6 +4675,18 @@
         "fecha": "2026-10-26T15:53:32.018Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSQjY5OUMzNUNCNjhFMUM4NjQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Agradezco eliminar mi número de contacto",
+        "fecha": "2026-10-26T15:53:58.762Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, respeto tu privacidad y eliminaré tu número de contacto de nuestro sistema inmediato. \n\nSi en algún momento deseas volver a contactarnos, estaré aquí para ayudarte. Que tengas un buen día.",
+        "fecha": "2026-10-26T15:54:00.261Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSRUE4QjNERDkyQUExMzU0M0E1AA=="
       }
     ],
     "paso": "conversando",
@@ -4683,8 +4695,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Agradezco eliminar mi número de contacto\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
