@@ -107,8 +107,8 @@
     "telefono": "573146086972",
     "nombre": "MELQUISEDEC",
     "primerContacto": "2026-10-25T23:41:13.843Z",
-    "ultimoContacto": "2026-10-26T00:03:18.474Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-26T00:04:48.870Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -339,6 +339,18 @@
         "fecha": "2026-10-26T00:03:17.377Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MDg2OTcyFQIAERgSRDMxQzlENEMwQzAwQzUzMjZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias. No...",
+        "fecha": "2026-10-26T00:04:46.115Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta si cambias de opinión o necesitas más info 😊. ¡Gracias por escribirme!\n\n¿Quieres que te recuerde alguna info cuando decidas o prefieres que te contacte más adelante?",
+        "fecha": "2026-10-26T00:04:47.855Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MDg2OTcyFQIAERgSMkVFNEQzQTY0RkUzNjYyOUZDAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -351,7 +363,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
