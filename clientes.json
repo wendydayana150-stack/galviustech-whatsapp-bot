@@ -3,8 +3,8 @@
     "telefono": "573223275677",
     "nombre": "😊😊😊😊",
     "primerContacto": "2026-10-26T18:26:49.356Z",
-    "ultimoContacto": "2026-10-26T18:26:49.356Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:28:17.618Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-26T18:26:48.426Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMjc1Njc3FQIAERgSN0VBOENDNTU1MjhDNUI3MkQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-26T18:28:14.763Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entendido, quedo atenta si más adelante necesitas algo o quieres que te ayude con algún producto.\n\n¿Quieres que te muestre alguna opción de impresora térmica para tareas o negocio, o prefieres que te cuente de los módems portátiles?",
+        "fecha": "2026-10-26T18:28:16.608Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMjc1Njc3FQIAERgSQTdGQTY1NjlFMURCRUMxRkVCAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573011345036",
