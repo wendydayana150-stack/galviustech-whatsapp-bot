@@ -3,8 +3,8 @@
     "telefono": "573057100794",
     "nombre": "JHSB",
     "primerContacto": "2026-10-26T16:56:47.824Z",
-    "ultimoContacto": "2026-10-26T16:57:36.152Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T16:59:14.360Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-10-26T16:57:35.164Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU3MTAwNzk0FQIAERgSNUY0RThBMkI0MDYyQzZBMDE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias yo le aviso",
+        "fecha": "2026-10-26T16:59:11.560Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando decidas :). Recuerda que la Impresora NETUM no necesita tinta, imprime rápido desde el celular y trae envío gratis a toda Colombia. Cuando quieras te ayudo a dejar el pedido listo para que te llegue sin complicaciones.",
+        "fecha": "2026-10-26T16:59:13.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU3MTAwNzk0FQIAERgSOTA2ODgwOTc3MEI5RURCRDdGAA=="
       }
     ],
     "paso": "conversando",
@@ -59,7 +71,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
