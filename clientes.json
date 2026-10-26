@@ -1156,8 +1156,8 @@
     "telefono": "573133388734",
     "nombre": "Pedro Torres",
     "primerContacto": "2026-10-26T15:13:56.302Z",
-    "ultimoContacto": "2026-10-26T15:13:56.302Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:21:16.775Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1190,6 +1190,39 @@
         "fecha": "2026-10-26T15:13:55.130Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMzg4NzM0FQIAERgSOTQzMDdCNjE1REJFMzA3RUE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-26T18:19:11.941Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4NzM0FQIAERgSN0Q1QkI0NzUwNjk1QTI1MDhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T18:19:13.176Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4NzM0FQIAERgSQzAxQTQ3RDk2NUE1MEFFNzkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-26T18:19:14.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4NzM0FQIAERgSODBDNTVDQTlBOENEQ0QwQUYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "👍",
+        "fecha": "2026-10-26T18:21:10.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿me puedes contar para qué la necesitas? Así te confirmo que la Impresora NETUM es la mejor opción para ti o te recomiendo otra si fuera el caso. ¿La usarías para tareas y documentos tamaño carta, para facturas y recibos, o para etiquetas y códigos?",
+        "fecha": "2026-10-26T18:21:15.461Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4NzM0FQIAERgSQTIyRjhDRDI0RERFMzlFRUUzAA=="
       }
     ],
     "paso": "conversando",
@@ -1204,9 +1237,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
