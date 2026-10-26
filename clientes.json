@@ -5419,8 +5419,8 @@
     "telefono": "573223147388",
     "nombre": "Camila Saavedra",
     "primerContacto": "2026-10-26T18:47:08.550Z",
-    "ultimoContacto": "2026-10-26T23:41:10.276Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T23:42:21.914Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -5468,13 +5468,55 @@
         "fecha": "2026-10-26T23:41:09.096Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSMDlGM0FCMjgyOTUwNEQyNDUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Hello Plum Smartwatch",
+        "fecha": "2026-10-26T23:42:19.161Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-26T23:42:19.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSQzg0NDk2REYxMzAzQTI4MDZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-26T23:42:19.724Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSOEM4OUQwRTdBNDk5NUI0NDk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-26T23:42:20.144Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSMzUyQjQ2N0EzMUJEQkFGQTE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Hello Plum Smartwatch*\n$ 189.900\n\n✨ Tu estilo, en tu muñeca con el nuevo Hello Plum Watch\nDescubre el equilibrio perfecto entre tecnología de vanguardia y diseño elegante.\nEl Hello Plum Watch es el compañero ideal para quienes no se detienen y buscan estar siempre conectados con estilo.\n\n🚀 Características Principales\n📱 Pantalla de alta definición AMOLED para una visualización clara.\n📞 Llamadas Bluetooth integradas para que no pierdas ninguna comunicación.\n💬 Notificaciones de WhatsApp y redes sociales al instante.\n❤️ Salud bajo control: Monitoreo de frecuencia cardíaca y oxígeno en sangre.\n😴 Bienestar: Seguimiento detallado de la calidad de tu sueño.\n🏃‍♂️ Modos deportivos: Optimiza tu rendimiento físico.\n🔋 Carga magnética: Práctica y rápida para tu ritmo de vida, Capacidad de 300 mAh que ofrece una autonomía de entre 4 y 5 días de uso regular.\nIncluye protección IP67/IP68 contra salpicaduras, lluvia y sudor.\n1 GB de almacenamiento interno (ROM): Permite transferir canciones y fotografías de forma local, así como conectar audífonos inalámbricos directamente al reloj sin depender del celular.\nConectividad: Bluetooth 5.3 que brinda un enlace estable y eficiente con sistemas Android (5.0+) e iOS (8.0+).\n\n💎 Beneficios que te encantarán\nNo solo es un reloj, es tu asistente personal.\nCon su diseño moderno y versátil, se adapta a cualquier ocasión, desde el gimnasio hasta una reunión importante.\nAdemás, es totalmente compatible con Android e iOS, garantizando una conexión fluida en todo momento.\n\n🌟 ¿Por qué comprarlo?\nSi buscas el regalo perfecto o quieres elevar tu rutina diaria, el Hello Plum Watch es la elección ganadora.\nCon calidad garantizada, envíos a todo el país y una experiencia de compra 100% segura, es la inversión que tu estilo de vida merece.\n¡No esperes más y elige tu color favorito!",
+        "fecha": "2026-10-26T23:42:20.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSQ0Q1MUE0MDc3NkIwODAyRERGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-26T23:42:21.087Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSOURGMEQwNzQxNUYwQjdFNjdCAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reloj-premium"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "reloj-premium",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
