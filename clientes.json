@@ -3200,8 +3200,8 @@
     "telefono": "573504606345",
     "nombre": "Ever Martinez",
     "primerContacto": "2026-10-26T18:45:25.520Z",
-    "ultimoContacto": "2026-10-26T18:45:25.520Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:51:50.617Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -3209,19 +3209,46 @@
         "fecha": "2026-10-26T18:45:24.114Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSRjZFRDk1NDJCOTUyOTlGQUExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola Galviustech, me interesa este producto del catálogo:\nModem WiFi Portatil 4G — $ 169.900\nRef: modem-4g\n¿Está disponible?",
+        "fecha": "2026-10-26T18:51:45.029Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Sí! El *Modem WiFi Portatil 4G* está disponible ✅",
+        "fecha": "2026-10-26T18:51:45.030Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSNEQyQjRBNDdFMjA4MjQyQzYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 169.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-26T18:51:45.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSQjEyN0Y3QTZENjg4QzZBRTQ0AA=="
       }
     ],
-    "paso": "inicio",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573504606345"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214687980",
