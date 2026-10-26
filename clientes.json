@@ -6481,8 +6481,8 @@
     "telefono": "573212949726",
     "nombre": "😍tatiana. 🩷 De💓 Lugo😍",
     "primerContacto": "2026-10-25T14:33:28.630Z",
-    "ultimoContacto": "2026-10-26T04:25:04.498Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T13:27:06.871Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6565,6 +6565,32 @@
         "fecha": "2026-10-26T04:25:03.046Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSNDk5Qjk3MjQ5REU2Qjk1OEIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-26T11:08:00.046Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSRjhCREE0MzNCQTdBRjZDRUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-26T11:18:45.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSQTQ0MEU4OEEzREU4MTQwQTE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-26T13:27:05.545Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-10-26T13:27:05.547Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSODFCODFGNzVGNjk5QkJENDBDAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6584,10 +6610,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "recuperoImpresora": true,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
