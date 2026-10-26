@@ -2142,8 +2142,8 @@
     "telefono": "573217858450",
     "nombre": "Kary Guevara",
     "primerContacto": "2026-10-26T18:48:22.174Z",
-    "ultimoContacto": "2026-10-26T18:48:22.174Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T19:26:15.553Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -2151,9 +2151,28 @@
         "fecha": "2026-10-26T18:48:20.705Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSQkQ5QTRGNTA1OUI0MTNBQ0UyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Quibdó chocó y es para estudiar",
+        "fecha": "2026-10-26T19:26:13.778Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Kary Guevara! Soy Michell, de GalviusTech 👋\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares, Camara de Seguridad y PROMOCION COMBOS, además de relojes, cámaras y más. 🔥 Todo tiene *30% de descuento*. Hacemos envíos a toda Colombia (¡hasta veredas!), *pagas al recibir* (contra entrega) y todo tiene garantía incluida ✅.\n\nElige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇",
+        "fecha": "2026-10-26T19:26:13.779Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSQzA2MEVBRTBBMUVENjkyRkMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-10-26T19:26:14.403Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSQTM1M0VBQ0UzM0MyRTU3RTBEAA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
@@ -2163,7 +2182,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009878234",
