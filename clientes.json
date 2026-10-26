@@ -13026,8 +13026,8 @@
     "telefono": "573112062925",
     "nombre": "Mónica Coba",
     "primerContacto": "2026-10-24T21:21:03.694Z",
-    "ultimoContacto": "2026-10-24T21:21:03.694Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:43:01.838Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13060,6 +13060,13 @@
         "fecha": "2026-10-24T21:21:03.040Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMDYyOTI1FQIAERgSMTY2OEZCMjUzM0NEMjUyNkYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Mónica Coba, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:43:00.495Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMDYyOTI1FQIAERgSM0QyNzdCQzI5MkRFNTEwQ0FDAA=="
       }
     ],
     "paso": "conversando",
@@ -13074,9 +13081,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
