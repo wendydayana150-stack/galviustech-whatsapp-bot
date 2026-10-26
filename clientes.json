@@ -162,8 +162,8 @@
     "telefono": "573115937294",
     "nombre": "hernandezjhojann8803",
     "primerContacto": "2026-10-26T16:24:59.447Z",
-    "ultimoContacto": "2026-10-26T16:24:59.447Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T16:45:30.516Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -196,6 +196,18 @@
         "fecha": "2026-10-26T16:24:57.400Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1OTM3Mjk0FQIAERgSNEU4Njc1NTlFMzFGOTg1MjRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No sé puede cualquier hoja",
+        "fecha": "2026-10-26T16:45:26.168Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech.\n\nLa *Impresora Térmica Portátil NETUM* no usa hojas normales, imprime en papel térmico especial tamaño carta, que ya incluye al comprarla. Este papel es el que permite imprimir sin tinta ni cartuchos, en blanco y negro.\n\n¿Para qué la necesitas? Así te puedo contar si esta impresora es la mejor opción para tu uso o si necesitas otro modelo.",
+        "fecha": "2026-10-26T16:45:29.471Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1OTM3Mjk0FQIAERgSMUM5MjNENDc3NDg5RkI1QTBGAA=="
       }
     ],
     "paso": "conversando",
@@ -208,7 +220,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.3233536466855884",
