@@ -3855,8 +3855,8 @@
     "telefono": "CO.1814966893159131",
     "nombre": "diana",
     "primerContacto": "2026-10-26T17:40:18.526Z",
-    "ultimoContacto": "2026-10-26T18:50:36.107Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T18:50:44.931Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3942,6 +3942,18 @@
         "fecha": "2026-10-26T18:50:32.751Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEjU3N0FDRkZBRDhBOTkxNUM2NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-26T18:50:37.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, quedo atenta para cuando quieras tener tu impresora NETUM y te facilite todo lo que necesites imprimir sin complicaciones. \n\n¿Quieres que te envíe más info o te muestre otros productos que podrían servirte?",
+        "fecha": "2026-10-26T18:50:38.333Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEkY5MUU0NTE0NjFBMTYyQTBCRQA="
       }
     ],
     "paso": "conversando",
@@ -3952,7 +3964,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
