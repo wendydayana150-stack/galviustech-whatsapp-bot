@@ -19839,8 +19839,8 @@
     "telefono": "573108750704",
     "nombre": "Michel. Forero",
     "primerContacto": "2026-10-24T22:08:06.161Z",
-    "ultimoContacto": "2026-10-26T22:43:44.126Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T22:44:05.574Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19927,6 +19927,25 @@
         "fecha": "2026-10-26T22:43:43.052Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSMDNEQ0I0RDdFQkUwNDJFNUJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que",
+        "fecha": "2026-10-26T22:44:02.503Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, Michel, ¿te refieres a que quieres confirmar el pedido de la impresora NETUM? \n\nSolo necesito que me digas a qué dirección te la envío y cómo prefieres pagar, ¿contra entrega o transferencia? \n\nTambién dime si quieres agregar rollos o hojas de papel térmico para que lo tenga listo en el mismo envío. \n\n¿Quieres que te ayude con eso?",
+        "fecha": "2026-10-26T22:44:03.955Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSQjEyOUZGQTM5MzJEODQ0RjhFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-26T22:44:04.620Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSMTQ3Qzg4QzM4NkUyQzNFQUIwAA=="
       }
     ],
     "paso": "pedido_nombre",
