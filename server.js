@@ -529,6 +529,11 @@ const LINEA_PAPEL_ROLLOS = "🧻 *Rollos térmicos para agregar a tu pedido (7 m
 const ID_IMPRESORAS_ROLLO = ["impresora-termica-portatil-goojprt-pt-210", "impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "combo-impresora-termica-portatil-reloj", "combo-impresora-termica-portatil-camara-de-seguridad"];
 const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio-trabajo"];
 
+// ENVIO GRATIS (oct-2026, Wendy): la Impresora NETUM tiene envio gratis; el resto paga $26.000.
+const ENVIO_GRATIS_IDS = ["impresora-termica"];
+const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
+const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
+
 const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
 const MENSAJE_BIENVENIDA_MODEM =
       "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
@@ -561,8 +566,9 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                   "¡Claro! 🖨️ Te presento nuestra *Impresora Térmica Portátil NETUM* 🔥\n\n" +
                         "✅ Imprime *SIN TINTA*: nunca más gastas en cartuchos\n" +
                         "✅ Hojas *tamaño carta*: documentos, tareas, facturas, guías y más\n" +
-                        "✅ *Portátil* (27,5 cm), batería recargable y se conecta a tu celular por Bluetooth\n\n" +
-                        `💰 *${formatearPrecio(netum.precio)}* + $26.000 de envío\n` +
+                        "✅ *Portátil* (27,5 cm), batería recargable y se conecta a tu celular por Bluetooth\n" +
+                        "🖤 Imprime en *blanco y negro* y *ya trae papel* para empezar\n\n" +
+                        `💰 *${formatearPrecio(netum.precio)}*${textoEnvio(netum.id)}\n` +
                         "🔥 Ya tiene el *30% de descuento* por promoción.\n" +
                         "🚚 *Pagas al recibir* y tiene garantía.\n\n" +
                         LINEA_PAPEL_CARTA + "\n\n" +
@@ -883,7 +889,7 @@ function detectarPreguntaFotos(texto) {
 // que aparecen. Si un nombre esta contenido en otro mas largo (ej. "Impresora Termica Portatil
 // Bluetooth" dentro de "Mini Impresora Termica Portatil Bluetooth"), gana el mas largo.
 const normalizarNombre = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
-const ALIAS_FOTOS = { "impresora-termica": ["tamano carta", "impresora carta", "netum"] };
+const ALIAS_FOTOS = { "impresora-termica": ["tamano carta", "impresora carta", "netum", "impresora termica portatil bluetooth"] };
 function productosMencionados(texto) {
       const t = " " + normalizarNombre(texto) + " ";
       const claves = [];
@@ -1519,7 +1525,7 @@ async function limpiarClientesAntiguos() {
 // categoria, de las versiones de esa categoria. Siempre con el envio aparte y el pago contra entrega.
 function lineaPrecioRespaldo(productoId, enfoque) {
       const prod = productoId ? catalogo.find((p) => p.id === productoId) : null;
-      if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)} + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).`;
+      if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)}${textoEnvio(prod.id)}. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).`;
       if (enfoque?.tipo === "categoria") {
             const lista = catalogo.filter((p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === enfoque.valor && !p.agotado).slice(0, 4);
             if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join(" · ") + " (+ $26.000 de envío). 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).";
@@ -2465,7 +2471,7 @@ async function iniciarPedido(telefono, productoId) {
       }
       await enviarTexto(
             telefono,
-            `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}). Para generar tu pedido necesito algunos datos.\n\nPara empezar, cual es tu nombre completo?`
+            `¡Genial! 🙌 Elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?`
             );
 }
 
@@ -3077,7 +3083,7 @@ async function manejarFlujoPedido(telefono, texto) {
                   // Si no parece un dato sino una duda, se deja que Michell la responda; el pedido queda en el
                   // mismo paso para retomarlo despues.
                   const palabras = String(texto).trim().split(/\s+/).length;
-                  const pareceDuda = /\?/.test(texto) || palabras >= 8 || /(caro|recarg|plan|mensualidad|cu[aá]nto|c[oó]mo|garant|se[nñ]al|no quiero|no gracias|despu[eé]s|luego|pensar|funciona|sirve|cancel)/i.test(texto);
+                  const pareceDuda = /\?/.test(texto) || palabras >= 8 || /(caro|recarg|plan|mensualidad|cu[aá]nto|c[oó]mo|garant|se[nñ]al|no quiero|no gracias|despu[eé]s|luego|pensar|funciona|sirve|cancel)/i.test(texto) || /^\s*(no|nop|nel|ahora no|todav[ií]a no|por ahora no)\s*[.!]*\s*$/i.test(texto);
                   if (pareceDuda) return false;
                   await enviarTexto(telefono, definicionActual.mensajeError);
                   return true;
@@ -3760,6 +3766,14 @@ async function manejarTextoLibre(telefono, texto) {
                         }
                         if (nuevos.length) registrarMensaje(telefono, "bot", `[Envio fotos: ${nuevos.map((p) => p.nombreCorto || p.nombre).join(", ")}]`);
                   }
+                  // ENVIO GRATIS DE LA NETUM: si la IA hablo solo de la NETUM y le sumo el envio, se corrige.
+                  {
+                        const soloIds = productosOfrecidos(visible).map((p) => p.id);
+                        if (soloIds.length && soloIds.every((id) => ENVIO_GRATIS_IDS.includes(id))) {
+                              visible = visible.replace(/\*{0,2}\s*(\+|m[aá]s)\s*\*{0,2}\s*\$\s?26[.,]000\s*\*{0,2}\s*(de|del|por)?\s*(costo de\s*)?env[ií]o\*{0,2}/gi, " con *envío GRATIS* 🚚");
+                              visible = visible.replace(/\*\*(\$\s?[\d.,]+) con \*envío GRATIS\*/g, "*$1* con *envío GRATIS*");
+                        }
+                  }
                   // PAPEL SIEMPRE (oct-2026, Wendy): si ofrece una impresora con precio y no menciono el papel, se agrega
                   // antes de la pregunta final.
                   if (/\$\s?\d/.test(visible) && !/(rollo|hojas|papel)/i.test(visible)) {
@@ -3776,6 +3790,17 @@ async function manejarTextoLibre(telefono, texto) {
                   }
                   await enviarTexto(telefono, visible);
                   seLeRespondioAlgo = true;
+
+                  // VIDEO DE LA NETUM (oct-2026, Wendy): si pregunta como se usa o pide video, se manda una vez.
+                  const hablaDeNetum = (productoActual || idProductoEnfocado || sesion.ultimoProducto) === "impresora-termica" || sesion.ultimaCategoria === "impresora";
+                  if (hablaDeNetum && !sesion.videoNetumEnviado && /(video|c[oó]mo (se |la )?(usa|funciona|maneja|coloca|pone|instala|conecta)|manejo|como es el uso)/i.test(texto)) {
+                        try {
+                              await enviarVideo(telefono, VIDEO_NETUM, "Así funciona la Impresora NETUM 🖨️");
+                              sesion.videoNetumEnviado = true;
+                        } catch (e) {
+                              console.error("No se pudo enviar el video de la NETUM:", e.message);
+                        }
+                  }
 
                   // CIERRE DESPUES DEL PRECIO (oct-2026, Wendy: "envia y no envia pregunta para cierre"): si Michell dio
                   // precio y no termino con una pregunta de compra, se agrega una. Con un producto puntual, el boton
@@ -4856,7 +4881,7 @@ async function mensajesCierreMedias() {
             if (!producto) continue;
             const nombre = String(c.pedido?.nombreCliente || c.nombre || "").replace(/[^\p{L}\s]/gu, " ").trim().split(/\s+/)[0] || "";
             const saludo = `¡Hola${nombre ? " " + nombre : ""}! 😊`;
-            const precio = `*${formatearPrecio(producto.precio)}* + $26.000 de envío`;
+            const precio = `*${formatearPrecio(producto.precio)}*${textoEnvio(producto.id)}`;
             const urgencia = "🔥 Ya tiene el *30% de descuento* y quedan pocas unidades: cuando se agoten, el precio vuelve a subir.";
             const confianza = "✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días.";
             const def = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === c.paso);
@@ -4907,6 +4932,70 @@ app.post("/admin/cierre-medias", requiereLogin, async (req, res) => {
             res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Mensajes enviados: ${enviados.length} de ${lista.length}</h2><ul>${enviados.map((m) => `<li>${m.nombre || m.telefono}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
       } catch (error) {
             console.error("Error enviando cierre de pedidos a medias:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error enviando los mensajes.");
+      }
+});
+
+// RECUPERAR CLIENTES DE IMPRESORA (oct-2026, Wendy): llegaron 133 del anuncio de la NETUM y ninguno compro.
+// Un mensaje UNO por cliente: a los que solo preguntaron (dentro de 24 h) y a los que dijeron "si" y no dieron datos.
+const MSJ_RECUPERAR_IMPRESORA = "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?";
+const MSJ_RECUPERAR_PEDIDO_IMPRESORA = "¡Hola! Tu impresora NETUM está lista para enviarte 🚚 El envío es *GRATIS*. Solo mándame en un mensaje: nombre, celular, ciudad y dirección, y pagas al recibir.";
+async function listaRecuperarImpresora() {
+      const { datos } = await leerJSON(CLIENTES_API);
+      const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+      const conPedido = new Set(pedidos.map((p) => p.telefono));
+      const ahora = Date.now();
+      const lista = [];
+      for (const c of datos) {
+            if (conPedido.has(c.telefono) || c.pausado || c.recordatorios?.recuperoImpresora) continue;
+            const conv = c.conversacion || [];
+            const enPedido = /^pedido_/.test(c.paso || "") && (c.pedido?.productoId || c.ultimoProducto) === "impresora-termica";
+            const deImpresora = c.ultimaCategoria === "impresora" && (c.primerContacto || "") >= "2026-10-24";
+            if (!enPedido && !deImpresora) continue;
+            const ultimoCliente = [...conv].reverse().find((m) => m.rol === "cliente");
+            const horas = ultimoCliente ? (ahora - new Date(ultimoCliente.fecha).getTime()) / 3600000 : 999;
+            if (enPedido) lista.push({ telefono: c.telefono, nombre: c.nombre, texto: MSJ_RECUPERAR_PEDIDO_IMPRESORA, plantilla: horas >= 23.5 });
+            else if (horas < 23.5 && (c.paso || "conversando") === "conversando") lista.push({ telefono: c.telefono, nombre: c.nombre, texto: MSJ_RECUPERAR_IMPRESORA });
+      }
+      return lista;
+}
+app.get("/admin/recuperar-impresora", requiereLogin, async (req, res) => {
+      try {
+            const lista = await listaRecuperarImpresora();
+            const esc = (t) => String(t || "").replace(/&/g, "&amp;").replace(/</g, "&lt;");
+            const pedidos = lista.filter((m) => m.texto === MSJ_RECUPERAR_PEDIDO_IMPRESORA);
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:760px"><h2>Recuperar clientes de impresora (${lista.length})</h2><p><b>${lista.length - pedidos.length}</b> clientes que preguntaron por la NETUM reciben:</p><pre style="white-space:pre-wrap;background:#f3f3f3;padding:8px">${esc(MSJ_RECUPERAR_IMPRESORA)}</pre><p><b>${pedidos.length}</b> pedidos a medias (${pedidos.map((m) => esc(m.nombre)).join(", ")}) reciben:</p><pre style="white-space:pre-wrap;background:#f3f3f3;padding:8px">${esc(MSJ_RECUPERAR_PEDIDO_IMPRESORA)}</pre><p>Los que pasaron las 24 horas reciben la plantilla de reactivacion. El bot sigue activo para responder.</p>${lista.length ? `<form method="post"><button style="padding:10px 18px;font-size:16px">Enviar los ${lista.length} mensajes</button></form>` : ""}<p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error preparando recuperacion de impresora:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error preparando los mensajes.");
+      }
+});
+app.post("/admin/recuperar-impresora", requiereLogin, async (req, res) => {
+      try {
+            const lista = await listaRecuperarImpresora();
+            const enviados = [];
+            for (const m of lista) {
+                  try {
+                        await cargarSesionSiNueva(m.telefono);
+                        if (m.plantilla) await enviarPlantillaReactivacion(m.telefono, m.nombre || "", "tu impresora NETUM");
+                        else await enviarTexto(m.telefono, m.texto);
+                        await guardarCliente(m.telefono);
+                        enviados.push(m);
+                  } catch (e) {
+                        console.error(`Error recuperando cliente de impresora ${m.telefono}:`, e.response?.data || e.message);
+                  }
+            }
+            if (enviados.length) {
+                  await conColaDeArchivo(CLIENTES_API, async () => {
+                        const { datos, sha } = await leerJSON(CLIENTES_API);
+                        const tels = new Set(enviados.map((m) => m.telefono));
+                        for (const c of datos) if (tels.has(c.telefono)) c.recordatorios = { ...(c.recordatorios || {}), recuperoImpresora: true };
+                        await guardarJSON(CLIENTES_API, datos, sha, `Recuperacion de ${enviados.length} cliente(s) de impresora`);
+                  });
+            }
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px"><h2>Mensajes enviados: ${enviados.length} de ${lista.length}</h2><ul>${enviados.map((m) => `<li>${m.nombre || m.telefono}${m.plantilla ? " (plantilla)" : ""}</li>`).join("")}</ul><p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error enviando recuperacion de impresora:", error.response?.data || error.message);
             res.status(500).send("Hubo un error enviando los mensajes.");
       }
 });
