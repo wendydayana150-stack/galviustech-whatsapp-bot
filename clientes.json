@@ -1695,8 +1695,8 @@
     "telefono": "CO.1781614569742847",
     "nombre": "María Ariza",
     "primerContacto": "2026-10-26T10:13:14.589Z",
-    "ultimoContacto": "2026-10-26T10:13:14.589Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T14:49:09.584Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1729,6 +1729,13 @@
         "fecha": "2026-10-26T10:13:13.457Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc4MTYxNDU2OTc0Mjg0NxUUABEYEjM2MDI1RDY3Q0YxMDNBNDg2RgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T14:49:08.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc4MTYxNDU2OTc0Mjg0NxUUABEYEjM5RjRGM0I0QUJCMUU3MjkyNwA="
       }
     ],
     "paso": "conversando",
@@ -1743,9 +1750,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
