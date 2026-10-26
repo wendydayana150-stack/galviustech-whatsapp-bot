@@ -5084,16 +5084,16 @@ app.get("/admin/reactivar-lote", requiereLogin, async (req, res) => {
             const { datos } = await leerJSON(REACTIVAR_API);
             const pendientes = datos.filter((r) => !r.enviado);
             const enviados = datos.length - pendientes.length;
-            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:760px"><h2>Reactivar clientes (últimos 14 días)</h2><p>Total: <b>${datos.length}</b> · Enviados: <b>${enviados}</b> · Pendientes: <b>${pendientes.length}</b>${reactivacionEnCurso ? " · <b style='color:#c00'>Enviando una tanda ahora…</b>" : ""}</p><p>Se envían por tandas de 200. A quien escribió hace menos de 24 h le llega un mensaje normal; a los demás, la plantilla <i>reactivacion_cliente_galviustech</i> con su nombre y el producto que vio. Michell responde a quien conteste.</p>${pendientes.length && !reactivacionEnCurso ? `<form method="post"><button style="padding:10px 18px;font-size:16px">Enviar siguiente tanda (${Math.min(200, pendientes.length)})</button></form>` : ""}<p><a href="/admin">Volver al panel</a></p></div>`);
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:760px"><h2>Reactivar clientes (últimos 14 días)</h2><p>Total: <b>${datos.length}</b> · Enviados: <b>${enviados}</b> · Pendientes: <b>${pendientes.length}</b>${reactivacionEnCurso ? " · <b style='color:#c00'>Enviando una tanda ahora…</b>" : ""}</p><p>Se envían por tandas de 200: una sale sola cada día a las 10 a. m. (hora Colombia), o puedes enviarla con el botón. A quien escribió hace menos de 24 h le llega un mensaje normal; a los demás, la plantilla <i>reactivacion_cliente_galviustech</i> con su nombre y el producto que vio. Michell responde a quien conteste.</p>${pendientes.length && !reactivacionEnCurso ? `<form method="post"><button style="padding:10px 18px;font-size:16px">Enviar siguiente tanda (${Math.min(200, pendientes.length)})</button></form>` : ""}<p><a href="/admin">Volver al panel</a></p></div>`);
       } catch (error) {
             console.error("Error leyendo la lista de reactivacion:", error.response?.data || error.message);
             res.status(500).send("No se pudo leer la lista de reactivacion.");
       }
 });
-app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
-      if (reactivacionEnCurso) return res.redirect("/admin/reactivar-lote");
+// Envia la siguiente tanda (hasta 200). La usa el boton del panel y el envio automatico diario.
+async function enviarTandaReactivacion() {
+      if (reactivacionEnCurso) return;
       reactivacionEnCurso = true;
-      res.redirect("/admin/reactivar-lote");
       let ok = 0, fallos = 0;
       const hechos = new Set();
       try {
@@ -5133,7 +5133,7 @@ app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
             while (intentos-- > 0) {
                   try {
                         const { datos: actual, sha } = await leerJSON(REACTIVAR_API);
-                        for (const r of actual) if (hechos.has(r.telefono)) r.enviado = true;
+                        for (const r of actual) if (hechos.has(r.telefono)) { r.enviado = true; r.enviadoFecha = fechaBogotaTexto(new Date()); }
                         await guardarJSON(REACTIVAR_API, actual, sha, `Reactivacion: tanda enviada (${ok} ok, ${fallos} fallos)`);
                         break;
                   } catch (e) {
@@ -5146,6 +5146,22 @@ app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
       } finally {
             reactivacionEnCurso = false;
       }
+}
+// TANDA DIARIA AUTOMATICA (oct-2026, Wendy: "mañana envia la siguiente tanda de 200"): una tanda por dia entre
+// las 10 y las 11 a. m. de Bogota, mientras queden clientes pendientes en reactivar.json.
+async function tandaReactivacionAutomatica() {
+      const horaBogota = (new Date().getUTCHours() - 5 + 24) % 24;
+      if (horaBogota !== 10 || reactivacionEnCurso) return;
+      const { datos } = await leerJSON(REACTIVAR_API);
+      const hoy = fechaBogotaTexto(new Date());
+      if (!datos.some((r) => !r.enviado) || datos.some((r) => r.enviadoFecha === hoy)) return;
+      console.log("Reactivacion automatica: enviando la tanda del dia.");
+      await enviarTandaReactivacion();
+}
+app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
+      if (reactivacionEnCurso) return res.redirect("/admin/reactivar-lote");
+      res.redirect("/admin/reactivar-lote");
+      enviarTandaReactivacion().catch((e) => console.error("Error en la tanda de reactivacion:", e.message));
 });
 
 app.get("/admin/reactivar-fallos-ia", requiereLogin, (req, res) => {
@@ -5561,6 +5577,9 @@ app.listen(PUERTO, () => {
       setInterval(() => {
             avisarComprasProgramadas().catch((error) => console.error("Error en compras programadas:", error.response?.data || error.message));
       }, 30 * 60 * 1000);
+      setInterval(() => {
+            tandaReactivacionAutomatica().catch((error) => console.error("Error en reactivacion automatica:", error.response?.data || error.message));
+      }, 20 * 60 * 1000);
       // Rescate de pedidos a medias: revisa cada hora (envia solo una vez por cliente)
       setInterval(() => {
             rescatarPedidosAMedias().catch((error) => console.error("Error en rescate de pedidos a medias:", error.response?.data || error.message));
