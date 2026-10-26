@@ -1887,8 +1887,8 @@
     "telefono": "573137518177",
     "nombre": "Vanessa",
     "primerContacto": "2026-10-26T18:48:12.962Z",
-    "ultimoContacto": "2026-10-26T19:06:42.848Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-26T19:07:03.680Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "bot",
@@ -2059,20 +2059,43 @@
         "fecha": "2026-10-26T19:06:41.617Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSRDAwRkU4NzkzRUIxMDBDNENBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contra entrega",
+        "fecha": "2026-10-26T19:06:59.439Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Vanessa perlaza\n*Celular:* 3137518177\n*Departamento:* Valle del Cauca\n*Ciudad:* Hogar\n*Direccion:* Recoge en oficina de la transportadora\n*Barrio:* -\n*Producto:* Modem WiFi Portatil 5G\n*Valor del producto:* $199.900\n*Envío:* $26.000\n*Total a pagar:* $225.900\n*Medio de pago:* Contra entrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 2 a 4 dias habiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-10-26T19:07:00.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSQjhBMTUwNDRFMEQxMzVFNzU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-10-26T19:07:01.223Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSN0U1NUMyRUM2NTQ2NkVFRThEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:07:02.006Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMTk4MjUxQUNFQzhGRUYyMjI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-10-26T19:07:02.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMEY3QzMzMjJDNjE5QzlBMjRDAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "modem-portatil-5g",
-      "nombreProducto": "Modem WiFi Portatil 5G",
-      "precio": 199900,
-      "telefono": "573137518177",
-      "ciudad": "Hogar",
-      "direccion": "Recoge en oficina de la transportadora",
-      "nombreCliente": "Vanessa perlaza",
-      "celular": "3137518177",
-      "departamento": "Valle del Cauca"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
