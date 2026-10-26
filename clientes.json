@@ -15520,8 +15520,8 @@
     "telefono": "573015012929",
     "nombre": "Restaurante Boquilla",
     "primerContacto": "2026-10-24T15:39:49.984Z",
-    "ultimoContacto": "2026-10-24T15:42:28.099Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T18:43:28.637Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15566,6 +15566,13 @@
         "fecha": "2026-10-24T15:42:27.177Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MDEyOTI5FQIAERgSRDk5MzZDRjUwQUY1RUM3NDg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Restaurante Boquilla, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:43:27.366Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MDEyOTI5FQIAERgSREUxMURBNEU5RTVENjI3QkNEAA=="
       }
     ],
     "paso": "conversando",
@@ -15580,9 +15587,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
