@@ -544,14 +544,28 @@ const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio
 // ENVIO GRATIS (oct-2026, Wendy): la Impresora NETUM tiene envio gratis; el resto paga $26.000.
 // PARA QUE LA NECESITA (oct-2026, Wendy): antes del boton "¿Te lo envío?" de una impresora se pregunta el uso,
 // para confirmar la NETUM u ofrecer la impresora de negocio que de verdad le sirve.
-const USO_IMPRESORA = /(tarea|trabaj|document|estudi|colegio|universidad|hoja|carta|negocio|tienda|recibo|factura|tirilla|comanda|etiqueta|c[oó]digo|gu[ií]a|env[ií]os|casa|hogar|f[oó]rmula|oficina|restaurante|domicilio|emprend|vend)/i;
+const USO_IMPRESORA = /(tarea|trabaj|document|estudi|colegio|universidad|hoja|carta|negocio|tienda|recibo|factura|tirilla|comanda|etiqueta|c[oó]digo|gu[ií]a|env[ií]os|casa|hogar|f[oó]rmula|oficina|restaurante|domicilio|emprend|vend|receta|cocina|comida|pantallazo|captura|apunte|resumen|lista)/i;
 const PREGUNTA_USO_IMPRESORA = "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos";
 function esImpresoraSuelta(id) {
       const p = catalogo.find((x) => x.id === id);
       return !!p && !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === "impresora";
 }
+// Ya contesto para que la quiere (caso Johana 26-oct-2026: "Tengo pantallazos de receta de comida y para eso la
+// quiero usar" no entraba en USO_IMPRESORA, Michell le recomendo la NETUM y le pregunto la ciudad, y en el mismo
+// minuto le llego otra vez "¿para qué la vas a usar?", tapando el cierre). Cualquier respuesta que no sea una
+// pregunta, despues de que el bot pregunto el uso, cuenta como respuesta. Se lee de la conversacion (no de un
+// contador en memoria) para que funcione aunque el servidor se reinicie.
+const BOT_PREGUNTA_USO_IMPRESORA = /para qu[eé] la (vas a usar|necesitas)|qu[eé] vas a imprimir/i;
+function yaRespondioUsoImpresora(sesion) {
+      const conv = sesion.transcripcion || [];
+      let i = conv.length - 1;
+      while (i >= 0 && !(conv[i].rol === "bot" && BOT_PREGUNTA_USO_IMPRESORA.test(conv[i].texto || ""))) i--;
+      if (i < 0) return false;
+      return conv.slice(i + 1).some((m) => m.rol === "cliente" && String(m.texto || "").trim() && !pareceMasPreguntaQueRespuesta(m.texto));
+}
 async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
       if (!esImpresoraSuelta(id) || sesion.usoImpresora || (sesion.preguntoUsoImpresora || 0) >= 2) return false;
+      if (yaRespondioUsoImpresora(sesion)) return false;
       const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
       if (ultimoCliente && CLIENTE_SE_DESPIDE.test(ultimoCliente.texto || "")) return false;
       sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
@@ -2434,7 +2448,8 @@ async function iniciarPedido(telefono, productoId) {
       }
 
       const tieneDatosCompletos =
-            pedidoAnterior && pedidoAnterior.nombreCliente && pedidoAnterior.celular && pedidoAnterior.direccion;
+            pedidoAnterior && pedidoAnterior.nombreCliente && pedidoAnterior.celular && pedidoAnterior.direccion &&
+            pedidoAnterior.departamento && pareceRespuestaValidaPedido(pedidoAnterior.ciudad, "ciudad");
 
       if (tieneDatosCompletos) {
             sesion.paso = "conversando";
@@ -2619,7 +2634,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             campo: "ciudad",
             paso: "pedido_ciudad",
             tipo: "ciudad",
-            pregunta: "Y en que ciudad o municipio?",
+            pregunta: "¿En qué ciudad o municipio vives?",
             mensajeError: "No logre entender la ciudad o municipio. Me la puedes escribir de nuevo?",
       },
       {
@@ -2676,13 +2691,9 @@ function datosDichosEnConversacion(sesion) {
             if (campos.departamento) datos.departamento = campos.departamento;
             if (campos.medioPago) datos.medioPago = esPagoSistecredito(campos.medioPago) ? "Sistecrédito" : campos.medioPago;
             if (/nombre/i.test(preguntaBot) && /^[a-záéíóúñü]+(\s+[a-záéíóúñü]+){1,4}$/i.test(texto) && !campos.departamento) datos.nombreCliente = texto;
-            // "Barbacoas nariño": un departamento + pocas palabras es su municipio aunque el bot haya preguntado otra cosa
-            const municipioConDepto = campos.departamento && !campos.celular && texto.split(/\s+/).length <= 5;
-            if ((municipioConDepto || /(ciudad|municipio|vereda|a d[oó]nde|para d[oó]nde)/i.test(preguntaBot)) && !campos.celular && texto.length <= 60) {
-                  let ciudad = texto;
-                  if (campos.departamento) ciudad = quitarTildes(texto).replace(new RegExp(quitarTildes(campos.departamento).split(" ")[0], "i"), "").replace(/[,.-]/g, " ").trim();
-                  if (ciudad && /^[a-záéíóúñü .]+$/i.test(ciudad)) datos.ciudad = ciudad.replace(/\s+/g, " ");
-            }
+            // LA CIUDAD NUNCA SE DEDUCE de la charla (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
+            // vereda...? ¿para tu hogar?" respondio "Hogar" y quedo Ciudad: Hogar, sin preguntarsela). Siempre se
+            // le pregunta en el paso pedido_ciudad y se guarda lo que ella responda.
             const oficina = texto.match(/interrap\w*|coordinadora|servientrega/i);
             if (oficina || (/oficina/i.test(texto) && /(recog|oficina)/i.test(preguntaBot + texto))) {
                   const empresa = oficina ? (/interrap/i.test(oficina[0]) ? "Interrapidísimo" : oficina[0][0].toUpperCase() + oficina[0].slice(1).toLowerCase()) : "la transportadora";
@@ -2737,8 +2748,11 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   const digitos = limpio.replace(/\D/g, "");
                   return digitos.length >= 7;
             }
-            case "departamento":
             case "ciudad":
+                  // Respuestas de "para que lo usas" no son una ciudad (caso Vanessa: "Hogar")
+                  if (/^(el |la |mi |para (el |la |mi )?)?(hogar|casa|finca|negocio|trabajo|trabajar|estudio|estudiar|oficina|empresa|tienda|uso personal)\s*[.!]*$/i.test(limpio)) return false;
+                  return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
+            case "departamento":
             case "barrio":
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "direccion":
@@ -3646,7 +3660,7 @@ async function avisarComprasProgramadas() {
 }
 
 const SI_CORTO = /^((s[ií]+|claro|dale|ok)[,\s]*(s[ií]|quiero|lo quiero|la quiero|por favor|porfa|claro|de una|dale|me interesa|se[nñ]or(a)?)?|claro( que s[ií])?|de una|listo|ok(ay|a)?|(a|ah)?\s?buen[oa]s?|va|vale|perfecto|me interesa|lo quiero|la quiero|env[ií]e?melo|env[ií]alo|h[aá]gale|👍+|👌+|✅)[\s!.,👍👌😊🙏]*$/i;
-const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres)/i;
+const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres|en qu[eé] (ciudad|municipio)|cu[aá]l es tu ciudad|a qu[eé] ciudad|desde qu[eé] ciudad|tus datos|nombre completo)/i;
 
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
@@ -3809,7 +3823,10 @@ async function manejarTextoLibre(telefono, texto) {
                   if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible)) {
                         const linea30 = "🔥 Ya tiene el *30% de descuento* por promoción.";
                         const bloques = visible.split(/\n\s*\n/);
-                        if (bloques.length > 1 && /\?\s*$/.test(bloques[bloques.length - 1].trim())) bloques.splice(bloques.length - 1, 0, linea30);
+                        // "?" en cualquier parte del ultimo bloque, no solo al final (caso Johana 26-oct-2026: la IA cerro con
+                        // "¿en qué ciudad estás...? ¿Quieres agregar papel...? (rollo $10.000 ...)." y el 30% quedo al final,
+                        // tapando la pregunta de cierre).
+                        if (bloques.length > 1 && /\?/.test(bloques[bloques.length - 1])) bloques.splice(bloques.length - 1, 0, linea30);
                         else bloques.push(linea30);
                         visible = bloques.join("\n\n");
                   }
@@ -3849,7 +3866,7 @@ async function manejarTextoLibre(telefono, texto) {
                         if (ofrecidos.some((id) => ID_IMPRESORAS_ROLLO.includes(id))) lineas.push(LINEA_PAPEL_ROLLOS);
                         if (lineas.length) {
                               const bloques = visible.split(/\n\s*\n/);
-                              if (bloques.length > 1 && /\?\s*$/.test(bloques[bloques.length - 1].trim())) bloques.splice(bloques.length - 1, 0, ...lineas);
+                              if (bloques.length > 1 && /\?/.test(bloques[bloques.length - 1])) bloques.splice(bloques.length - 1, 0, ...lineas);
                               else bloques.push(...lineas);
                               visible = bloques.join("\n\n");
                         }
