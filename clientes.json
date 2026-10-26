@@ -10410,8 +10410,8 @@
     "telefono": "573209702716",
     "nombre": "Javier Hernandez",
     "primerContacto": "2026-10-24T18:35:50.322Z",
-    "ultimoContacto": "2026-10-24T20:17:42.561Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-26T04:26:21.300Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10641,6 +10641,13 @@
         "fecha": "2026-10-24T20:17:41.715Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSQjYwMUE0NTMyOTc3QjFDQUE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Javier Hernandez, sobre tu impresora NETUM",
+        "fecha": "2026-10-26T04:26:20.306Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NzAyNzE2FQIAERgSODBFRDk4MkZCMjYwMjlDMDQ2AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -10660,8 +10667,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
