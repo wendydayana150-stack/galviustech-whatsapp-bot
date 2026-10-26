@@ -270,6 +270,17 @@ async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProduc
             { headers: { Authorization: `Bearer ${META_TOKEN}` } }
             );
       if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
+      // Oct-2026 (caso Vanessa: dijo "Si" a la plantilla del modem y le llego el menu general): quien responde a la
+      // plantilla sigue la conversacion sobre ese producto, con la plantilla en el historial de la IA.
+      const sesionPlantilla = obtenerSesion(telefono);
+      if (!sesionPlantilla.paso || sesionPlantilla.paso === "inicio") sesionPlantilla.paso = "conversando";
+      if (!Array.isArray(sesionPlantilla.historial)) sesionPlantilla.historial = [];
+      sesionPlantilla.historial.push({ role: "user", content: "(El cliente no ha escrito desde hace un tiempo)" });
+      sesionPlantilla.historial.push({ role: "assistant", content: `Hola ${nombreCliente} 👋 Soy Michell, de GalviusTech. Vi que te interesó nuestro ${nombreProducto} y no quise dejarte sin respuesta. ¿Seguimos con tu pedido, o tienes alguna duda? Escríbeme y te ayudo.` });
+      const prodPlantilla = catalogo.find((p) => [p.nombre, p.nombreCorto].some((n) => n && String(nombreProducto).toLowerCase().includes(n.toLowerCase())));
+      if (prodPlantilla) sesionPlantilla.ultimoProducto = prodPlantilla.id;
+      if (/impresora|netum/i.test(nombreProducto)) sesionPlantilla.ultimaCategoria = "impresora";
+      else if (/m[oó]dem/i.test(nombreProducto)) sesionPlantilla.ultimaCategoria = "modem";
 }
 
 async function enviarImagen(telefono, urlImagen, caption) {
@@ -541,11 +552,14 @@ function esImpresoraSuelta(id) {
 }
 async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
       if (!esImpresoraSuelta(id) || sesion.usoImpresora || (sesion.preguntoUsoImpresora || 0) >= 2) return false;
+      const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
+      if (ultimoCliente && CLIENTE_SE_DESPIDE.test(ultimoCliente.texto || "")) return false;
       sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
       await enviarTexto(telefono, PREGUNTA_USO_IMPRESORA);
       return true;
 }
 
+const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
 const ENVIO_GRATIS_IDS = ["impresora-termica"];
 const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
 const envioDe = (id) => (ENVIO_GRATIS_IDS.includes(id) ? 0 : Number(config.COSTO_ENVIO) || 0);
@@ -3779,6 +3793,9 @@ async function manejarTextoLibre(telefono, texto) {
 
             // para no mandar el boton de cierre dos veces en la misma respuesta (ni a quien ya compro)
             let cierreEnviado = await comproHacepoco(telefono);
+            // Oct-2026 (Wendy: "se estan perdiendo clientes por sus errores"): si el cliente agradece, dice que no, que
+            // ya compro o que lo va a pensar, no se le mandan botones ni "¿Cuál te llevas?" ni la pregunta de uso.
+            if (CLIENTE_SE_DESPIDE.test(texto)) cierreEnviado = true;
             if (mensajeVisible) {
                   // RESPALDO DE PRECIO (oct-2026, Wendy): si el cliente pregunto el precio y la IA respondio
                   // sin dar ninguno (caso real: "Que precio lo tienes" -> solo caracteristicas), se agrega.
@@ -3857,7 +3874,8 @@ async function manejarTextoLibre(telefono, texto) {
                   const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
                   if (!cierreEnviado && !productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
                         cierreEnviado = true;
-                        const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
+                        const sinPapel = visible.split("\n").filter((l) => !/(rollo|hojas|papel|env[ií]o)/i.test(l)).join("\n");
+                        const precios = (sinPapel.match(/\$\s?\d[\d.,]*/g) || []).length;
                         const nombrados = productosOfrecidos(visible);
                         const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
                         if (idCierre && precios <= 2 && (await preguntarUsoImpresoraSiFalta(telefono, sesion, idCierre))) {
@@ -3869,7 +3887,7 @@ async function manejarTextoLibre(telefono, texto) {
                                     { id: `pedir_${idCierre}`, titulo: "✅ Sí, envíamelo" },
                                     { id: "ver_catalogo", titulo: "Ver otros" },
                               ]);
-                        } else if (precios >= 2) {
+                        } else if (precios >= 2 && productosOfrecidos(visible).length >= 2) {
                               await enviarTexto(telefono, "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚");
                         }
                   }
@@ -3927,6 +3945,7 @@ async function manejarTextoLibre(telefono, texto) {
                               } else {
                                     await enviarTexto(telefono, "¿Cuál te gusta más? 😊 Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚");
                               }
+                              cierreEnviado = true;
                         }
                   }
             }
@@ -5089,6 +5108,11 @@ app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
                         await cargarSesionSiNueva(r.telefono);
                         const sesion = obtenerSesion(r.telefono);
                         if (sesion.pausado) continue;
+                        const ultimoBot = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "bot");
+                        if (ultimoBot && Date.now() - new Date(ultimoBot.fecha).getTime() < 6 * 3600000) {
+                              hechos.delete(r.telefono); // queda pendiente para la siguiente tanda
+                              continue;
+                        }
                         const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
                         const fechaUltimo = ultimoCliente?.fecha || r.ultimoMensajeCliente;
                         const horas = (Date.now() - new Date(fechaUltimo).getTime()) / 3600000;
