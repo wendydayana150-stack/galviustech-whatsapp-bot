@@ -11508,8 +11508,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-24T19:08:08.753Z",
-    "ultimoContacto": "2026-10-25T17:34:59.347Z",
-    "mensajes": 45,
+    "ultimoContacto": "2026-10-26T14:40:22.963Z",
+    "mensajes": 46,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12288,6 +12288,27 @@
         "fecha": "2026-10-25T17:34:58.147Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMjQ5NjNFRjZBMkYwNzdENkNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-26T11:08:39.730Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMjlDNzU5NTNFREUxQUUwMDIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPor ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-26T11:19:46.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQjUyQzJGRUVBMEQ3RDhFRDdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-26T14:40:21.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSRTRDRTE5MEEzNzA2Nzg5MTlGAA=="
       }
     ],
     "paso": "pedido_pago",
@@ -12303,7 +12324,7 @@
       "direccion": "Mándame la foto qe acaa no sale",
       "barrio": "En otro momento pido"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
@@ -12313,9 +12334,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
