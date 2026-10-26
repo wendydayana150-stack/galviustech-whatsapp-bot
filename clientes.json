@@ -3546,8 +3546,8 @@
     "telefono": "573504606345",
     "nombre": "Ever Martinez",
     "primerContacto": "2026-10-26T18:45:25.520Z",
-    "ultimoContacto": "2026-10-26T18:54:06.330Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T18:54:36.019Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "bot",
@@ -3624,6 +3624,25 @@
         "fecha": "2026-10-26T18:54:05.316Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSNDlDOEQ0RTlBMzMzOEI2RkQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo una pregunta",
+        "fecha": "2026-10-26T18:54:33.567Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime qué quieres saber sobre el modem y con gusto te explico.\n\n¿Estás pensando en usarlo solo en la vereda o también en otros lugares?",
+        "fecha": "2026-10-26T18:54:34.575Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSRTFGNDk1NzhEMEQzQ0EzMUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-26T18:54:35.099Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjA2MzQ1FQIAERgSMkRDQTQzODkzNTg2MzI0OEI5AA=="
       }
     ],
     "paso": "pedido_celular",
