@@ -3,8 +3,8 @@
     "telefono": "573057100794",
     "nombre": "JHSB",
     "primerContacto": "2026-10-26T16:56:47.824Z",
-    "ultimoContacto": "2026-10-26T16:56:47.824Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T16:57:36.152Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-26T16:56:46.738Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU3MTAwNzk0FQIAERgSMTAxMDc2QkUzODZGMTlCMjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-26T16:57:33.121Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿para qué necesitas la impresora térmica NETUM? ¿Es para imprimir documentos, facturas, etiquetas o algo más? Así te puedo contar mejor cómo te ayuda y si es justo lo que buscas. 🖨️✨",
+        "fecha": "2026-10-26T16:57:35.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU3MTAwNzk0FQIAERgSNUY0RThBMkI0MDYyQzZBMDE2AA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1146963054658982",
