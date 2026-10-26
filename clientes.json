@@ -2550,8 +2550,8 @@
     "telefono": "573116882362",
     "nombre": "jhonypalmar74",
     "primerContacto": "2026-10-26T18:46:56.357Z",
-    "ultimoContacto": "2026-10-26T18:46:56.357Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:52:07.695Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -2559,9 +2559,28 @@
         "fecha": "2026-10-26T18:46:55.032Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSMTJGRDI0NDZDNzZGRDQ4MTU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola que mas...mi cel se había formateado el día viernes!",
+        "fecha": "2026-10-26T18:52:04.673Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola jhonypalmar74! Soy Michell, de GalviusTech 👋\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares, Camara de Seguridad y PROMOCION COMBOS, además de relojes, cámaras y más. 🔥 Todo tiene *30% de descuento*. Hacemos envíos a toda Colombia (¡hasta veredas!), *pagas al recibir* (contra entrega) y todo tiene garantía incluida ✅.\n\nElige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇",
+        "fecha": "2026-10-26T18:52:04.674Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSOUZBOUI1MjlBOTIwNzYzMUJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-10-26T18:52:05.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSMjg1NThCMzRCQjUyNkM3QkFGAA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
@@ -2571,7 +2590,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573027848857",
