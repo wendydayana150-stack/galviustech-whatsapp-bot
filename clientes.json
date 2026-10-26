@@ -407,8 +407,8 @@
     "telefono": "573234210164",
     "nombre": "Matilde Méndez 🥰",
     "primerContacto": "2026-10-26T13:58:42.196Z",
-    "ultimoContacto": "2026-10-26T13:58:42.196Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T14:48:24.335Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -441,6 +441,13 @@
         "fecha": "2026-10-26T13:58:41.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjEwMTY0FQIAERgSRkUzMDEyMDBDRjAxNTlERkZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T14:48:23.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjEwMTY0FQIAERgSODA2QzEyQzY0M0RDRjU0MkQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -453,7 +460,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1461049856121344",
