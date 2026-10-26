@@ -15458,8 +15458,8 @@
     "telefono": "573043959826",
     "nombre": "Andres Triana",
     "primerContacto": "2026-10-24T16:57:08.744Z",
-    "ultimoContacto": "2026-10-24T16:57:08.744Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:43:25.620Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15492,6 +15492,13 @@
         "fecha": "2026-10-24T16:57:07.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQzOTU5ODI2FQIAERgSMDUxNDUwMTBCNzE1RDExNThDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Andres Triana, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:43:24.214Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzOTU5ODI2FQIAERgSODZENkNEQ0M5MDI0RTVGQ0Y0AA=="
       }
     ],
     "paso": "conversando",
@@ -15506,9 +15513,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
