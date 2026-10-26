@@ -12112,8 +12112,8 @@
     "telefono": "573013508982",
     "nombre": "Maria Clara",
     "primerContacto": "2026-10-24T21:53:15.861Z",
-    "ultimoContacto": "2026-10-24T21:53:15.861Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:42:39.846Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12146,6 +12146,13 @@
         "fecha": "2026-10-24T21:53:15.014Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzNTA4OTgyFQIAERgSNEVGQjVBQkNCQ0U1QkE4OEQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Maria Clara, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:42:38.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzNTA4OTgyFQIAERgSMzlCMDBEODAwREIwQzdDN0IzAA=="
       }
     ],
     "paso": "conversando",
@@ -12160,9 +12167,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
