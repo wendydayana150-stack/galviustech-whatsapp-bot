@@ -3,8 +3,8 @@
     "telefono": "573118670279",
     "nombre": "romeingeniero1953",
     "primerContacto": "2026-10-26T01:07:28.841Z",
-    "ultimoContacto": "2026-10-26T01:07:28.841Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T01:09:45.462Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-26T01:07:27.912Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSQjIzRjBERDcwNzQ2QUQyOEIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo imprime en ese tipo de papel?",
+        "fecha": "2026-10-26T01:09:42.102Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, esta impresora térmica portátil imprime únicamente en papel térmico tamaño carta. No usa tinta ni cartuchos, solo ese tipo de papel especial que hace que la impresión salga con calor. Eso la hace súper práctica y económica, porque no gastas en tinta nunca.\n\nTe recuerdo que la impresora mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, cabe perfecto en cualquier bolso o mochila para que la lleves a todos lados.\n\n¿Para qué tipo de impresiones la usarías, necesitas imprimir documentos tamaño carta o recibos/etiquetas más pequeños?",
+        "fecha": "2026-10-26T01:09:44.369Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSQUI1MzA3REI2NDEwNzE0OTQzAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135275333",
