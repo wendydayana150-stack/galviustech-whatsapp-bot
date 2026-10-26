@@ -617,8 +617,8 @@
     "telefono": "573135275333",
     "nombre": "creaciones y detalles yeribeth alvarez",
     "primerContacto": "2026-10-26T01:01:07.421Z",
-    "ultimoContacto": "2026-10-26T01:01:07.421Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T04:23:06.581Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -651,6 +651,13 @@
         "fecha": "2026-10-26T01:01:06.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1Mjc1MzMzFQIAERgSNjdDNTU0NUUyRjY1ODI3NzAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T04:23:05.655Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mjc1MzMzFQIAERgSRkQzMTk5MUYxNjc4OUQxQzVBAA=="
       }
     ],
     "paso": "conversando",
@@ -663,7 +670,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.998448433279588",
