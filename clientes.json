@@ -3828,8 +3828,8 @@
     "telefono": "CO.1814966893159131",
     "nombre": "diana",
     "primerContacto": "2026-10-26T17:40:18.526Z",
-    "ultimoContacto": "2026-10-26T17:40:18.526Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:50:36.107Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3862,6 +3862,59 @@
         "fecha": "2026-10-26T17:40:17.190Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEkMyRTI2N0U1MkFFQUVDMTlBNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T18:49:44.391Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEkUzQjUzMjJCQUYxQUVFRkIyNAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si pero no la verdad solo quería saber el precio",
+        "fecha": "2026-10-26T18:50:27.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-26T18:50:29.234Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEkJCMjE1MENEOUY1ODIwMThBOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-26T18:50:29.998Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEjA1OTgwNDJDNEUyRTNGMzZFQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-26T18:50:30.793Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEkYwOUFEOTYxRDZFNjNEOEFEOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-10-26T18:50:31.642Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, que bueno que preguntaste por el precio para tener claridad. 😊 \n\nSi en algún momento necesitas imprimir documentos o facturas sin depender de una papelería o impresora grande, la Impresora NETUM es super práctica y te ahorra tiempo y largas filas. Imagínate imprimir desde el celular donde estés, sin tinta ni cable, y con envío gratis a toda Colombia.\n\nSi quieres, te guardo una para cuando la decidas usar, ¿te gustaría que te la deje lista o prefieres que te cuente cómo funciona justo ahora?\n\n💰 *Impresora NETUM*: $ 249.900 con *envío GRATIS* 🚚. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-10-26T18:50:31.646Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEjJDREI5OTE4RDNEMDQwQUEzMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-26T18:50:32.751Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgxNDk2Njg5MzE1OTEzMRUUABEYEjU3N0FDRkZBRDhBOTkxNUM2NQA="
       }
     ],
     "paso": "conversando",
@@ -3876,8 +3929,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
