@@ -19839,8 +19839,8 @@
     "telefono": "573108750704",
     "nombre": "Michel. Forero",
     "primerContacto": "2026-10-24T22:08:06.161Z",
-    "ultimoContacto": "2026-10-26T18:42:36.961Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T22:43:44.126Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19880,10 +19880,62 @@
         "fecha": "2026-10-26T18:42:35.773Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSNUFBOTcwRjI2QUEyNzE0NjdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:45:37.908Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSRTgwMDA4MjRCNTU4MkE3QzFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-26T21:46:09.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSRTk4MzQ5NjgxQkUxNjIyMzgwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T21:46:10.707Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSQjI0NTY4MjE5QThBMUEyMzMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-26T21:46:11.314Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSNDhDNzg3OUM5OEQwOThGRDc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-26T22:43:39.837Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 🙌, te ayudo a dejar tu pedido listo para la Impresora Térmica Portátil NETUM.\n\n¿A qué dirección te la envío y cómo prefieres pagar, contra entrega o por transferencia? \n\nRecuerda que el envío es gratis y la impresora viene con papel incluido. ¿Quieres que te agregue también rollos o hojas de papel térmico? \n\nQuedo atenta para completar tu pedido.",
+        "fecha": "2026-10-26T22:43:42.239Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSMzMxM0Y3M0I4QUMxM0FDNEJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-26T22:43:43.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NzUwNzA0FQIAERgSMDNEQ0I0RDdFQkUwNDJFNUJDAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573108750704"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -19894,9 +19946,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
