@@ -547,6 +547,7 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
 
 const ENVIO_GRATIS_IDS = ["impresora-termica"];
 const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
+const envioDe = (id) => (ENVIO_GRATIS_IDS.includes(id) ? 0 : Number(config.COSTO_ENVIO) || 0);
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
 
 const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
@@ -2833,7 +2834,7 @@ function pareceCancelacionDePedido(texto) {
 // y le pega el link al cliente. Queda marcado en el panel como "necesita atencion" con esos datos.
 function marcarSistecredito(sesion, pedido) {
       sesion.necesitaAtencion = true;
-      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio + config.COSTO_ENVIO)} (con envío) · Producto: ${pedido.nombreProducto}`;
+      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio + envioDe(pedido.productoId))} (con envío) · Producto: ${pedido.nombreProducto}`;
 }
 
 // Registra el pedido de la sesion cuando ya estan todos los datos (antes vivia dentro de
@@ -3010,7 +3011,8 @@ async function manejarMensajeCatalogo(telefono, texto) {
       const lista = disponibles
             .map((i) => `• ${i.cantidad} × ${i.producto.nombre} — ${formatearPrecio(i.cantidad * i.producto.precio)}`)
             .join("\n");
-      const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\nEnvío: ${formatearPrecio(config.COSTO_ENVIO)}\n*Total a pagar: ${formatearPrecio(precio + config.COSTO_ENVIO)}*`;
+      const envioCatalogo = disponibles.every((i) => ENVIO_GRATIS_IDS.includes(i.producto.id)) ? 0 : config.COSTO_ENVIO;
+      const encabezado = `¡Gracias! Recibí tu pedido del catálogo 🙌\n\n${lista}\nEnvío: ${envioCatalogo ? formatearPrecio(envioCatalogo) : "GRATIS"}\n*Total a pagar: ${formatearPrecio(precio + envioCatalogo)}*`;
 
       const faltantes = DEFINICIONES_CAMPOS_PEDIDO.filter((d) => faltaCampo(pedido, d));
       if (faltantes.length === 0) {
@@ -3514,7 +3516,7 @@ function preguntaOtrosProductos(texto) {
 // Deja en el historial de la IA el pedido que se acaba de registrar y marca que se espera la respuesta al
 // mensaje de compromiso ("¿CONFIRMA QUE ESTA SEGURO(A) DE RECIBIR SU PEDIDO?").
 function recordarPedidoRegistrado(sesion, pedido) {
-      const total = (Number(pedido.precio) || 0) + (Number(config.COSTO_ENVIO) || 0);
+      const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
       sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "" };
       sesion.esperandoConfirmacionCompromiso = true;
       if (!Array.isArray(sesion.historial)) sesion.historial = [];
