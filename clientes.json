@@ -2142,8 +2142,8 @@
     "telefono": "573217858450",
     "nombre": "Kary Guevara",
     "primerContacto": "2026-10-26T18:48:22.174Z",
-    "ultimoContacto": "2026-10-26T19:28:37.755Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-26T19:29:27.963Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "bot",
@@ -2296,9 +2296,21 @@
         "fecha": "2026-10-26T19:28:36.709Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSODgyMjI5OEU2QkEwMjNCMjk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luz",
+        "fecha": "2026-10-26T19:29:26.828Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-26T19:29:26.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSNUJFQjM4MDI5MkIyNERBMzdCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -2306,7 +2318,8 @@
       "telefono": "573217858450",
       "medioPago": "contra entrega",
       "departamento": "Choco",
-      "ciudad": "En Quibdo"
+      "ciudad": "En Quibdo",
+      "nombreCliente": "Luz"
     },
     "pausado": false,
     "etapaManual": null,
