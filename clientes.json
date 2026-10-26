@@ -13342,8 +13342,8 @@
     "telefono": "573138177134",
     "nombre": "Daniel Linares",
     "primerContacto": "2026-10-24T18:48:42.017Z",
-    "ultimoContacto": "2026-10-26T14:39:55.209Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T16:04:48.184Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13402,6 +13402,25 @@
         "fecha": "2026-10-26T14:39:28.246Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4MTc3MTM0FQIAERgSMEZGOTExQzBBNDc5MjNFQTI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T15:42:21.211Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4MTc3MTM0FQIAERgSMDdFREE1NjI5MUIxNkFFMzEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias ya compre",
+        "fecha": "2026-10-26T16:04:44.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Que bien que ya tienes tu impresora! 🙌 Si necesitas ayuda con la instalación o configuración cuando te llegue, por aquí estaré para apoyarte.\n\n¿Quieres que te enseñe otras opciones de productos que tenemos como modems, lámparas solares o cámaras de seguridad?",
+        "fecha": "2026-10-26T16:04:47.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4MTc3MTM0FQIAERgSMTU0OEU3MDAzMDUxRjdCMzIxAA=="
       }
     ],
     "paso": "conversando",
@@ -13412,12 +13431,11 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
