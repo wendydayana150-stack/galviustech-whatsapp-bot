@@ -12512,8 +12512,8 @@
     "telefono": "573138177134",
     "nombre": "Daniel Linares",
     "primerContacto": "2026-10-24T18:48:42.017Z",
-    "ultimoContacto": "2026-10-24T18:53:40.694Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T14:39:29.288Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12565,11 +12565,18 @@
         "fecha": "2026-10-24T18:51:58.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4MTc3MTM0FQIAERgSMEFDODQwQUExMEQ1NDFEREQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, cuentame tienes alguna duda?",
+        "fecha": "2026-10-26T14:39:28.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4MTc3MTM0FQIAERgSMEZGOTExQzBBNDc5MjNFQTI1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -12579,10 +12586,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
