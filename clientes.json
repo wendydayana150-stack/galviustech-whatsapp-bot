@@ -18546,8 +18546,8 @@
     "telefono": "573145931309",
     "nombre": "Luisa",
     "primerContacto": "2026-10-20T23:19:54.987Z",
-    "ultimoContacto": "2026-10-26T12:05:22.231Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-26T18:41:39.217Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18826,6 +18826,13 @@
         "fecha": "2026-10-26T12:05:21.119Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSRjFGQzk3MEJDOTJGQkQ5RkQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Sigo pendiente de ti. Esta semana todo tiene *30% de descuento* y pagas al recibir 🚚 ¿Te ayudo a dejar listo tu pedido?",
+        "fecha": "2026-10-26T18:41:37.146Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTMxMzA5FQIAERgSNTY4RTJGNzJFNjkxMEYyMTQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -18840,9 +18847,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
