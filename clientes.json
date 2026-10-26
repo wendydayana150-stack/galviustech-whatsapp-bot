@@ -107,8 +107,8 @@
     "telefono": "573146086972",
     "nombre": "MELQUISEDEC",
     "primerContacto": "2026-10-25T23:41:13.843Z",
-    "ultimoContacto": "2026-10-26T00:02:43.738Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-26T00:03:18.474Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -320,13 +320,34 @@
         "fecha": "2026-10-26T00:02:42.645Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MDg2OTcyFQIAERgSNjNDOTY2RjIzNzlFMTEzQzVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Camara 5 antenas",
+        "fecha": "2026-10-26T00:03:16.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Camara de seguridad 5 antenas*\n$ 119.900\n\n📹 **¡MÁS TRANQUILIDAD PARA TUS ESPACIOS CON GALVIUSTECH!**\r\n\r\n🏡 ¿Quieres estar más pendiente de lo que sucede en tu casa, negocio o propiedad?\r\n\r\nConoce nuestra **cámara de seguridad de 5 antenas, con movimiento**, una alternativa para quienes buscan una solución práctica de vigilancia para sus espacios.\r\n\r\n🔎 **¿Por qué puede ser una buena opción para ti?**\r\n\r\n✅ **Diseño con 5 antenas:** una característica visible de su diseño de conectividad.\r\n🔄 **Movimiento de la cámara:** permite orientar la vigilancia hacia diferentes zonas, según las funciones del modelo.\r\n🏠 **Para diferentes espacios:** ideal para explorar opciones de vigilancia para el hogar o el negocio.\r\n📲 **Una solución para conocer:** consulta sus funciones y requisitos de instalación antes de elegir.\r\n\r\n💡 **No esperes a necesitar más vigilancia para empezar a informarte.** Conoce las opciones disponibles y elige con información.\r\n\r\n📲 **ESCRÍBENOS A GALVIUSTECH** y pregunta por nuestra cámara de 5 antenas.\r\n\r\n💬 Envíanos la palabra **“CÁMARA”** y te orientamos para conocer sus características.\r\n\r\n*La conectividad, el control remoto, la visión nocturna, el audio y las demás funciones dependen del modelo específico.*",
+        "fecha": "2026-10-26T00:03:16.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MDg2OTcyFQIAERgSMDA5QzM4MTYxREMxODJGRUZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-26T00:03:17.377Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MDg2OTcyFQIAERgSRDMxQzlENEMwQzAwQzUzMjZFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "camara-de-seguridad-5-antenas"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "camara-de-seguridad-5-antenas",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
