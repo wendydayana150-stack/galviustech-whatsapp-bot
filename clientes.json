@@ -2297,8 +2297,8 @@
     "telefono": "CO.2378294486294384",
     "nombre": "Yeritza casallas",
     "primerContacto": "2026-10-26T13:00:28.522Z",
-    "ultimoContacto": "2026-10-26T18:07:13.212Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-26T18:08:03.154Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2397,18 +2397,51 @@
         "fecha": "2026-10-26T18:07:12.212Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjMyMjA4QzIxNkZBNjY1MTg3NAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Smartwatch S13 MAX",
+        "fecha": "2026-10-26T18:08:00.156Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch S13 MAX",
+        "fecha": "2026-10-26T18:08:00.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjAxNTFFNDA5REVBQTQ0QzcxRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch S13 MAX",
+        "fecha": "2026-10-26T18:08:00.850Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjM2M0UyNDdDMDY3RUMyOEQzQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Smartwatch S13 MAX*\n$ 99.900\n\nSmartwatch S13 MAX\n\n✨ ¡Lleva tu estilo y productividad al siguiente nivel con el nuevo Smartwatch S13 MAX! ✨\n\n¿Buscas un aliado que te siga el ritmo en tu día a día? El Smartwatch S13 MAX es la combinación perfecta entre elegancia, tecnología de punta y un precio que no vas a creer. Diseñado para quienes viven conectados y siempre quieren verse bien, este reloj es el complemento ideal para tu outfit y tu rutina. 🔥\n\n🚀 Características principales que te van a encantar:\n\n- Pantalla de alta resolución: Colores vibrantes y nitidez increíble incluso bajo el sol de Colombia.\n- Conectividad total: Recibe notificaciones, mensajes y llamadas directamente en tu muñeca. 📱\n- Monitoreo de salud: Controla tu ritmo cardíaco y actividad física con precisión. 💪\n- Diseño ergonómico: Tan liviano y cómodo que olvidarás que lo llevas puesto.\n- Batería de larga duración: Olvídate de cargarlo a cada rato, ¡está hecho para aguantar tu ritmo! ⚡\n\n🎯 ¿Por qué elegir el S13 MAX? Beneficios para ti:\n\nNo es solo un reloj, es tu nuevo asistente personal. Ya sea que estés en el gimnasio, en la oficina o de rumba con tus amigos, el S13 MAX te mantiene al tanto de todo sin necesidad de sacar el celular. Optimiza tu tiempo, mejora tus hábitos saludables y luce siempre a la vanguardia tecnológica. ¡Es la mejor inversión para tu estilo de vida! ⭐\n\n✅ ¿Por qué comprar con nosotros?\n\n- Envío rápido y seguro: Despachamos a todo el país. 🚚\n- Calidad garantizada: Solo traemos productos que cumplen con los más altos estándares.\n- Atención cercana: Estamos aquí para resolver cualquier duda que tengas antes y después de tu compra. 🤝\n\n¡No te quedes sin el tuyo! Las unidades son limitadas y se agotan rápido. 🛒✨",
+        "fecha": "2026-10-26T18:08:01.479Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjJFQzAwQUFBMzA3MjkyMjFFOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-26T18:08:02.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjQzRDFENDVEQjFDQUQxQkUwNAA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica",
+      "productoId": "smartwatch-s13-max",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "CO.2378294486294384"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "smartwatch-s13-max",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
