@@ -4169,8 +4169,8 @@
     "telefono": "573223685029",
     "nombre": "carlosalbertoroldan610",
     "primerContacto": "2026-10-26T18:47:48.734Z",
-    "ultimoContacto": "2026-10-26T22:37:28.469Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-26T22:37:50.141Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "bot",
@@ -4356,9 +4356,21 @@
         "fecha": "2026-10-26T22:37:27.542Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSNDFDMThBNkMwQjQ3QTVGNzc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Guaduales",
+        "fecha": "2026-10-26T22:37:49.164Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-26T22:37:49.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSNDg4NzZFMTI4M0VDMDk1Q0REAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -4368,7 +4380,8 @@
       "ciudad": "Hogar",
       "nombreCliente": "Carlos Alberto Roldán",
       "celular": "3223685029",
-      "direccion": "Calle 2 sur 24/65 barrio guaduales de Garzón Huila"
+      "direccion": "Calle 2 sur 24/65 barrio guaduales de Garzón Huila",
+      "barrio": "Guaduales"
     },
     "pausado": false,
     "etapaManual": null,
