@@ -12583,8 +12583,8 @@
     "telefono": "573133388689",
     "nombre": "Aleida",
     "primerContacto": "2026-10-24T21:26:53.416Z",
-    "ultimoContacto": "2026-10-25T00:15:01.373Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T18:42:01.534Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12679,6 +12679,13 @@
         "fecha": "2026-10-25T00:15:00.426Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMzg4Njg5FQIAERgSOEYwQkQ2NDlFNDNDOTgyQjA2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Aleida, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:42:00.025Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMzg4Njg5FQIAERgSNDdCNzJBOUE5ODRBRTk5M0QxAA=="
       }
     ],
     "paso": "conversando",
@@ -12693,9 +12700,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
