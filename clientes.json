@@ -3,8 +3,8 @@
     "telefono": "573216378980",
     "nombre": "🙏🏻",
     "primerContacto": "2026-10-26T17:42:13.556Z",
-    "ultimoContacto": "2026-10-26T17:42:13.556Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T17:43:33.419Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-26T17:42:12.722Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2Mzc4OTgwFQIAERgSMjI3M0QxOTA1QzVBM0Y4ODhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias por la información solo quería saber el precio",
+        "fecha": "2026-10-26T17:43:28.425Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la Impresora Térmica Portátil NETUM es de **$249.900** con envío GRATIS a toda Colombia, y pagas al recibir, con garantía de 30 días.\n\nEsta impresora es portátil, imprime en blanco y negro sin necesidad de tinta y es ideal para imprimir documentos, trabajos, facturas o guías desde el celular.\n\n¿Para qué la necesitarías principalmente? Así te cuento cómo te ayudaría en tu día a día.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n📄 *Papel térmico para agregar a tu pedido:*\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000",
+        "fecha": "2026-10-26T17:43:30.755Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2Mzc4OTgwFQIAERgSRDk0NjlBQzNCQjAwNzczODFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-26T17:43:31.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2Mzc4OTgwFQIAERgSNTREMkQ2NUI0RjEyOTI4MDYzAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1814966893159131",
