@@ -2831,8 +2831,8 @@
     "telefono": "573116882362",
     "nombre": "jhonypalmar74",
     "primerContacto": "2026-10-26T18:46:56.357Z",
-    "ultimoContacto": "2026-10-26T18:56:20.207Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-26T18:58:11.151Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -2966,6 +2966,18 @@
         "fecha": "2026-10-26T18:56:18.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSNjA3Nzc1Qjc5NTA2MDE3Mzc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-10-26T18:58:09.068Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, como prefieras. Quedo atenta si más adelante necesitas ayuda con cualquiera de nuestros productos o servicios. ¡Que tengas un buen día! 😊",
+        "fecha": "2026-10-26T18:58:10.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2ODgyMzYyFQIAERgSQkNFOURFMTg5NkQ3NTExNDYwAA=="
       }
     ],
     "paso": "conversando",
@@ -2976,7 +2988,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
