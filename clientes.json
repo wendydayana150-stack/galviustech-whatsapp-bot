@@ -834,8 +834,8 @@
     "telefono": "19292440255",
     "nombre": "🎀🫧 𝓐𝓷𝓭𝓻𝓮𝓪 𝓓𝓲𝓪𝔃 🧚🏼‍♀️ 🫧🎀",
     "primerContacto": "2026-10-26T00:20:37.864Z",
-    "ultimoContacto": "2026-10-26T00:20:37.864Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T04:23:13.596Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -868,6 +868,13 @@
         "fecha": "2026-10-26T00:20:36.986Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTkyOTI0NDAyNTUVAgARGBJCRUQ4RkI0NkNCRkY2ODk5RDYA"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T04:23:12.704Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTkyOTI0NDAyNTUVAgARGBI5NDU2MDk0MzRFMEUyRDdCMUIA"
       }
     ],
     "paso": "conversando",
@@ -880,7 +887,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103091404",
