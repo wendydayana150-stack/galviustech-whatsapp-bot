@@ -1546,7 +1546,7 @@ function lineaPrecioRespaldo(productoId, enfoque) {
       if (prod) return `💰 *${prod.nombreCorto || prod.nombre}*: ${formatearPrecio(prod.precio)}${textoEnvio(prod.id)}. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).`;
       if (enfoque?.tipo === "categoria") {
             const lista = catalogo.filter((p) => !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === enfoque.valor && !p.agotado).slice(0, 4);
-            if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join(" · ") + " (+ $26.000 de envío). 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).";
+            if (lista.length) return "💰 " + lista.map((p) => `*${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}${textoEnvio(p.id)}`).join(" · ") + ". 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).";
       }
       return null;
 }
@@ -1850,7 +1850,7 @@ async function enviarRecordatoriosPendientes() {
                         } else if (p.tier === "horas3") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
                               // Ultimo seguimiento (tope de 2): ademas el listado de todo lo que vendemos (Wendy, oct-2026)
-                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
+                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
@@ -2463,7 +2463,7 @@ async function iniciarPedido(telefono, productoId) {
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   recordarPedidoRegistrado(sesion, nuevoPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -2874,7 +2874,7 @@ async function finalizarPedidoSesion(telefono) {
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -3494,7 +3494,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
