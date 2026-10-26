@@ -1623,8 +1623,8 @@
     "telefono": "573137518177",
     "nombre": "Vanessa",
     "primerContacto": "2026-10-26T18:48:12.962Z",
-    "ultimoContacto": "2026-10-26T18:49:20.221Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-26T18:51:48.413Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -1709,13 +1709,32 @@
         "fecha": "2026-10-26T18:49:18.001Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMTI4QkI4NzZCREM3OUMzMzg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual me recomieneas",
+        "fecha": "2026-10-26T18:51:42.513Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si no me confirmas que tienes buena cobertura 5G en tu zona, la mejor inversión para hogar es el módem 4G/5G por $189.900 + $26.000 de envío. \n\n- Te da la seguridad de conexión donde haya señal 4G o 5G.\n- Soporta varios dispositivos conectados simultáneamente.\n- Ideal para fincas o casas sin fibra, que necesitan internet estable y sin líos de instalación.\n\nEl de 4G es más económico, por si quieres ahorrar ($169.900 + $26.000 envío), y el 5G es para zonas con cobertura 5G robusta.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías para que te confirme la mejor opción?",
+        "fecha": "2026-10-26T18:51:44.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSQjQ0RDdCNEE2ODYxNUIyRTM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-26T18:51:45.320Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSRDlBMTkzRDY3Qjc1MTUxQUVCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
