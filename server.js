@@ -530,6 +530,21 @@ const ID_IMPRESORAS_ROLLO = ["impresora-termica-portatil-goojprt-pt-210", "impre
 const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio-trabajo"];
 
 // ENVIO GRATIS (oct-2026, Wendy): la Impresora NETUM tiene envio gratis; el resto paga $26.000.
+// PARA QUE LA NECESITA (oct-2026, Wendy): antes del boton "¿Te lo envío?" de una impresora se pregunta el uso,
+// para confirmar la NETUM u ofrecer la impresora de negocio que de verdad le sirve.
+const USO_IMPRESORA = /(tarea|trabaj|document|estudi|colegio|universidad|hoja|carta|negocio|tienda|recibo|factura|tirilla|comanda|etiqueta|c[oó]digo|gu[ií]a|env[ií]os|casa|hogar|f[oó]rmula|oficina|restaurante|domicilio|emprend|vend)/i;
+const PREGUNTA_USO_IMPRESORA = "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos";
+function esImpresoraSuelta(id) {
+      const p = catalogo.find((x) => x.id === id);
+      return !!p && !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === "impresora";
+}
+async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
+      if (!esImpresoraSuelta(id) || sesion.usoImpresora || (sesion.preguntoUsoImpresora || 0) >= 2) return false;
+      sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
+      await enviarTexto(telefono, PREGUNTA_USO_IMPRESORA);
+      return true;
+}
+
 const ENVIO_GRATIS_IDS = ["impresora-termica"];
 const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
@@ -561,6 +576,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             }
             if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
             registrarMensaje(telefono, "bot", "[Presenta la NETUM con fotos y pregunta para que la necesita]");
+            sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
             await enviarTexto(
                   telefono,
                   "¡Claro! 🖨️ Te presento nuestra *Impresora Térmica Portátil NETUM* 🔥\n\n" +
@@ -1046,7 +1062,9 @@ async function enviarFotosProducto(telefono, texto) {
             }
       }
       // Cierre fuerte despues de las fotos (oct-2026): con un solo producto, boton directo para pedirlo
-      if (conFotos.length === 1) {
+      if (conFotos.length === 1 && (await preguntarUsoImpresoraSiFalta(telefono, obtenerSesion(telefono), conFotos[0].id))) {
+            obtenerSesion(telefono).ultimoProducto = conFotos[0].id;
+      } else if (conFotos.length === 1) {
             const sesionFotos = obtenerSesion(telefono);
             sesionFotos.ultimoProducto = conFotos[0].id;
             await enviarBotones(telefono, `¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir`, [
@@ -3589,6 +3607,7 @@ const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       // "Espero a fin de mes / la quincena / el 30": se guarda la fecha para la columna "Compra mas adelante"
+      if (USO_IMPRESORA.test(texto) && !sesion.usoImpresora) sesion.usoImpresora = texto.slice(0, 80);
       const espera = detectarEsperaCompra(texto);
       if (espera) sesion.esperaCompra = { ...espera, desde: new Date().toISOString(), avisado: false };
 
@@ -3811,7 +3830,9 @@ async function manejarTextoLibre(telefono, texto) {
                         const precios = (visible.match(/\$\s?\d[\d.,]*/g) || []).length;
                         const nombrados = productosOfrecidos(visible);
                         const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
-                        if (idCierre && precios <= 2) {
+                        if (idCierre && precios <= 2 && (await preguntarUsoImpresoraSiFalta(telefono, sesion, idCierre))) {
+                              sesion.ultimoProducto = idCierre;
+                        } else if (idCierre && precios <= 2) {
                               sesion.ultimoProducto = idCierre;
                               sesion.botonesOfrecidos[idCierre] = sesion.preguntasPorProducto[idCierre] || 1;
                               await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
@@ -3864,7 +3885,9 @@ async function manejarTextoLibre(telefono, texto) {
                         // de cierre"): el texto de la IA sale antes de las fotos, asi que su pregunta quedaba arriba,
                         // tapada. Lo ultimo que ve el cliente debe ser una pregunta para avanzar.
                         if (!productoId && !cierreEnviado) {
-                              if (conFoto.length === 1) {
+                              if (conFoto.length === 1 && (await preguntarUsoImpresoraSiFalta(telefono, sesion, conFoto[0].id))) {
+                                    sesion.ultimoProducto = conFoto[0].id;
+                              } else if (conFoto.length === 1) {
                                     sesion.ultimoProducto = conFoto[0].id;
                                     sesion.botonesOfrecidos[conFoto[0].id] = sesion.preguntasPorProducto[conFoto[0].id] || 1;
                                     await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
@@ -3937,7 +3960,9 @@ async function manejarTextoLibre(telefono, texto) {
                   !cierreEnviado
                   ) {
                   const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
-                  if (productoEnfocado) {
+                  if (productoEnfocado && (await preguntarUsoImpresoraSiFalta(telefono, sesion, idProductoEnfocado))) {
+                        seLeRespondioAlgo = true;
+                  } else if (productoEnfocado) {
                         sesion.botonesOfrecidos[idProductoEnfocado] = sesion.preguntasPorProducto[idProductoEnfocado];
                         await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
                               { id: `pedir_${idProductoEnfocado}`, titulo: "✅ Sí, envíamelo" },
