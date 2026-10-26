@@ -2637,8 +2637,8 @@
     "telefono": "573215098148",
     "nombre": "🫥",
     "primerContacto": "2026-10-25T21:00:57.786Z",
-    "ultimoContacto": "2026-10-26T04:23:48.211Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T11:10:24.883Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2697,6 +2697,25 @@
         "fecha": "2026-10-26T04:23:47.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSRTkzREQxMjdFRDE0OERGNjAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T11:07:29.760Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSRjA1QzM0QTVENzY3OEE5REIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buen día estoy esperando respuesta por la persona interesada",
+        "fecha": "2026-10-26T11:10:21.351Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buen día, aquí estoy para ayudarte con lo que necesites sobre la impresora térmica NETUM 🖨️\n\nRecuerda que imprime sin tinta, es portátil y te ahorra tiempo al no depender de papelerías para tus trabajos o documentos.\n\n¿Quieres que te deje una cotización o cómo te ayudo mientras esperas? ¿O te interesa que te reserve una?",
+        "fecha": "2026-10-26T11:10:23.987Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSODBEMzM4NjJEQjg2QzFERURDAA=="
       }
     ],
     "paso": "conversando",
@@ -2711,9 +2730,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "recuperoImpresora": true,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
