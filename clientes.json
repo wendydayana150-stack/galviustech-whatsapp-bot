@@ -1894,8 +1894,8 @@
     "telefono": "573176236747",
     "nombre": "💫💫",
     "primerContacto": "2026-10-26T18:49:39.681Z",
-    "ultimoContacto": "2026-10-26T18:49:39.681Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T20:33:43.909Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -1903,22 +1903,53 @@
         "fecha": "2026-10-26T18:49:38.430Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2MjM2NzQ3FQIAERgSNkJGREU3ODcxNTRCODhEQzY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:55:30.884Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2MjM2NzQ3FQIAERgSNzAzRjM5RkE4N0UzOTVFMTg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El módem debe estar conectado siempre a una fuente de energía",
+        "fecha": "2026-10-26T20:33:42.229Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-26T20:33:42.229Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-26T20:33:42.229Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2MjM2NzQ3FQIAERgSQ0Y4NUU1Q0YzODkwNkEzRTYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-26T20:33:42.921Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2MjM2NzQ3FQIAERgSOEVDQTU1NTIzRjYxQzdCNEU4AA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
