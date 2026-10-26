@@ -55,8 +55,8 @@
     "telefono": "573147444337",
     "nombre": "🥰😍😘",
     "primerContacto": "2026-10-26T13:48:52.327Z",
-    "ultimoContacto": "2026-10-26T13:48:52.327Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T13:51:25.268Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -89,6 +89,25 @@
         "fecha": "2026-10-26T13:48:51.514Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NDQ0MzM3FQIAERgSOTE4MDMxRUUyOTQ2ODI3QTE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas trabajos .\nSe puede impresa en hojas tamaño carta ?",
+        "fecha": "2026-10-26T13:51:20.836Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, para tareas y trabajos la mejor opción es la *Impresora Térmica Portátil NETUM*. \n\nImprime en hojas tamaño carta, sin tinta, fácil de transportar y conecta por Bluetooth con tu celular.\n\nLa inversión es de **$249.900 con envío GRATIS** a toda Colombia. \n\n¿Para qué ciudad o municipio te la enviamos? También te puedo ofrecer el papel térmico para que imprimas sin preocuparte luego.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-26T13:51:23.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NDQ0MzM3FQIAERgSNTE5QTRFMzlCNjBCQzQ4MzcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-26T13:51:24.419Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NDQ0MzM3FQIAERgSRkIyMUUzRjQ4MkFGRkZCQjdBAA=="
       }
     ],
     "paso": "conversando",
@@ -101,7 +120,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573005860756",
