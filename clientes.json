@@ -6111,8 +6111,8 @@
     "telefono": "573045543095",
     "nombre": "JUSTO P.H",
     "primerContacto": "2026-10-26T18:46:05.639Z",
-    "ultimoContacto": "2026-10-26T22:55:43.692Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T22:56:34.726Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -6167,13 +6167,55 @@
         "fecha": "2026-10-26T22:55:42.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSMjQ0MjhDQjE3MTA1Rjg1NTE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El proyector, pero no tengo el dinero.",
+        "fecha": "2026-10-26T22:56:31.812Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-10-26T22:56:31.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSODU4RUQzMUY3MkU5MDFBMEFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-10-26T22:56:32.334Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSNkMyOEVFRjVFNDMzNEEyQ0RFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-10-26T22:56:32.777Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSQzZCNUZERTBFNzZEODVEM0RCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Proyector Portátil Minimalista Smart Cinema*\n$ 279.900\n\n✨ Transforma cualquier espacio en una experiencia cinematográfica\n¿Buscas llevar tus momentos de entretenimiento o trabajo a otro nivel?\nEste *Proyector Portátil* es el aliado perfecto para quienes buscan versatilidad, estilo y potencia en un solo dispositivo.\nDiseñado para adaptarse a tu ritmo de vida, este proyector combina tecnología avanzada con una facilidad de uso increíble.\n🚀 Características Principales\n- *Conectividad Inalámbrica:* Olvídate de los cables; proyecta desde tu smartphone o laptop al instante.\n- *Diseño Ajustable:* Su base ergonómica permite un ajuste de ángulo fluido para proyectar en paredes o incluso techos.\n- *Navegación Intuitiva:* Control remoto diseñado para que cualquier persona pueda manejarlo sin complicaciones.\n- *Portabilidad Total:* Su diseño compacto te permite llevar el cine a donde quieras.\n🌟 Beneficios que amarás\n- *Versatilidad Profesional:* Ideal para presentaciones de impacto en la oficina o reuniones de equipo.\n- *Aprendizaje Creativo:* Sorprende a los más pequeños proyectando imágenes educativas o universos mágicos en su habitación.\n- *Entretenimiento sin límites:* Organiza tardes de cine, videojuegos o deportes con amigos en cualquier lugar.\n🎯 ¿Por qué comprarlo?\nPorque no es solo un proyector, es una *herramienta multifuncional* que se adapta a tus necesidades.\nYa sea que necesites impresionar en una junta de negocios o crear un ambiente acogedor para tu familia, este proyector te ofrece una calidad visual impresionante con la sencillez que buscas.\n¡Lleva la pantalla grande a casa hoy mismo! 🔥",
+        "fecha": "2026-10-26T22:56:33.142Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSQTMyMkVGNzg1MTk4NUY4MTgwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-26T22:56:33.587Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSQUJDOTVFMkE3MDVBRDIxODM2AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "proyector-portatil-minimalista-smart-cinema"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "proyector-portatil-minimalista-smart-cinema",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
