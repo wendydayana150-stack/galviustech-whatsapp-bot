@@ -2561,8 +2561,8 @@
     "telefono": "573206472850",
     "nombre": "😎",
     "primerContacto": "2026-10-25T21:55:16.889Z",
-    "ultimoContacto": "2026-10-26T11:16:00.963Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-26T11:16:11.039Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2765,6 +2765,18 @@
         "fecha": "2026-10-26T11:16:00.002Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2NDcyODUwFQIAERgSQTc1NTgzMjE3NTM2QTM3MkE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me interesa en temu son más económicos",
+        "fecha": "2026-10-26T11:16:08.897Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que estás buscando economía, y respeto eso. Recuerda que en GalviusTech tienes respaldo, garantía y un producto listo para usar sin complicaciones.\n\nSi quieres, puedo ayudarte a ver otras opciones o simplemente quedo atenta para cuando necesites algo más. ¿Te gustaría que te muestre algo distinto o dejamos la conversación acá?",
+        "fecha": "2026-10-26T11:16:10.057Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2NDcyODUwFQIAERgSNjgwM0E3RjJBMjg3NTk2MjIzAA=="
       }
     ],
     "paso": "conversando",
@@ -2775,7 +2787,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
