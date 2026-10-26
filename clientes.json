@@ -3,8 +3,8 @@
     "telefono": "573104794503",
     "nombre": "mayerlyariza76",
     "primerContacto": "2026-10-26T03:42:07.399Z",
-    "ultimoContacto": "2026-10-26T03:42:07.399Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T03:43:48.585Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-26T03:42:06.477Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0Nzk0NTAzFQIAERgSQTBCQTgzRTYwMTMwM0EwNjUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas",
+        "fecha": "2026-10-26T03:43:44.667Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell 😊 Para tareas y trabajos te recomiendo nuestra Impresora Térmica Portátil Bluetooth tamaño carta.\n\nImprime sin tinta, es portátil y la conectas fácil por Bluetooth desde el celular. Mide 27.5 x 6.5 x 5 cm, cabe en cualquier bolso o mochila. La inversión es de **$249.900 + $26.000 de envío**, la pagas al recibir y tiene garantía de 30 días.\n\n¿En qué ciudad o municipio estás para coordinar el envío? ¿Necesitarías también papel térmico para imprimir tus tareas? 🖨️✨\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-26T03:43:47.196Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0Nzk0NTAzFQIAERgSQTY3OTBGMzZFRDRBRTYwOTUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-26T03:43:47.748Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0Nzk0NTAzFQIAERgSRkQzQjdGMERDNzM1QjFEQkY1AA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573228969204",
