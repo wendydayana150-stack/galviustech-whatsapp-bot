@@ -2370,8 +2370,8 @@
     "telefono": "573227890856",
     "nombre": "yennycanosabogal0618",
     "primerContacto": "2026-10-26T18:47:32.612Z",
-    "ultimoContacto": "2026-10-26T18:57:45.644Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-26T18:58:30.122Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -2491,6 +2491,18 @@
         "fecha": "2026-10-26T18:57:44.648Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3ODkwODU2FQIAERgSOEFGMEEyQzcwREM5MEZEODgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-26T18:58:27.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo. Cuando quieras tener tu propio internet en casa sin depender de fibra o WiFi ajeno, aquí estoy para ayudarte.\n\n¿Quieres que te muestre otras opciones como impresoras, cámaras de seguridad o lámparas solares? Así puedes aprovechar para mejorar otros espacios en tu hogar.\n\n¿Quieres que te muestre algo más? 😊",
+        "fecha": "2026-10-26T18:58:29.221Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3ODkwODU2FQIAERgSRTBGMTZCQTVEOEE0Q0JEMUM0AA=="
       }
     ],
     "paso": "conversando",
@@ -2501,7 +2513,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
