@@ -4563,8 +4563,8 @@
     "telefono": "573215098148",
     "nombre": "🫥",
     "primerContacto": "2026-10-25T21:00:57.786Z",
-    "ultimoContacto": "2026-10-26T14:49:20.738Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T15:53:32.994Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4656,6 +4656,25 @@
         "fecha": "2026-10-26T14:49:19.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSNzJDMDZDMkY1OUNFQzBCMEZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T15:52:49.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSQzE0MThBMjA5NjNEOEI3QzNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias ya no estoy interesada",
+        "fecha": "2026-10-26T15:53:30.244Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por avisarme. 😊 Si más adelante necesitas ayuda con la impresora térmica o cualquier otro producto, aquí estaré para ayudarte sin problema.\n\n¿Quieres que te muestre algo más de nuestro catálogo para que tengas opciones en el futuro? 📶🖨️💡📹",
+        "fecha": "2026-10-26T15:53:32.018Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSQjY5OUMzNUNCNjhFMUM4NjQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -4666,13 +4685,11 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "recuperoImpresora": true,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
