@@ -5585,8 +5585,8 @@
     "telefono": "573215098148",
     "nombre": "🫥",
     "primerContacto": "2026-10-26T18:41:20.993Z",
-    "ultimoContacto": "2026-10-26T18:43:40.074Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-26T19:47:17.994Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -5637,6 +5637,25 @@
         "fecha": "2026-10-26T18:43:38.414Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSMDIzNUY1MjMzODc2MUY4OUNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:45:09.334Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSRDI1MERDNkE0NzY4MDdCRjYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no deseo recibir mas información",
+        "fecha": "2026-10-26T19:47:14.379Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo y respeto tu decisión. Cuando quieras, aquí estaré para ayudarte. Que tengas un buen día.",
+        "fecha": "2026-10-26T19:47:16.865Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDk4MTQ4FQIAERgSNDVEOTRCRjc5QjdFODRENzQwAA=="
       }
     ],
     "paso": "conversando",
@@ -5647,12 +5666,11 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
