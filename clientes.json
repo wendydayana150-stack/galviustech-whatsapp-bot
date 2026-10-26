@@ -3,8 +3,8 @@
     "telefono": "573142753948",
     "nombre": "Luzcaceres",
     "primerContacto": "2026-10-26T17:07:47.399Z",
-    "ultimoContacto": "2026-10-26T17:07:47.399Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T17:08:25.883Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-26T17:07:46.344Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNzUzOTQ4FQIAERgSOEJEQjE4NTE5MzU3Q0I0MDY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-26T17:08:23.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿en qué te puedo ayudar hoy? ¿Quieres saber sobre la impresora térmica portátil NETUM o necesitas algo más? ¿Para qué la necesitarías? 🖨️✨",
+        "fecha": "2026-10-26T17:08:24.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNzUzOTQ4FQIAERgSOEZGRTMyMzExODkzOUNCRUFEAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573057100794",
