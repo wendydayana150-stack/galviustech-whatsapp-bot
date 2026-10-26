@@ -1689,6 +1689,20 @@ let lineas = textoCompleto.split("\n");
             }
       }
 
+      // Lineas de control que la IA dejo PEGADAS al final de una frase (caso Onadis oct-2026: "...detalles. FOTOS_PRO..."
+      // le llego al cliente): se recortan de cualquier linea y se procesan igual.
+      lineas = lineas.map((l) => {
+            const m = l.match(/\s*\b(ACCION_PEDIDO|PRODUCTO_ACTUAL|NECESITA_ASESOR|PAUSAR_SEGUIMIENTO|FOTOS_PRODUCTOS):\s*(.*)$/i);
+            if (!m) return l;
+            const tipo = m[1].toUpperCase();
+            const valor = m[2].trim();
+            if (tipo === "FOTOS_PRODUCTOS" && !fotosProductos.length) fotosProductos = valor.split(/[,\s]+/).filter(Boolean).slice(0, 6);
+            else if (tipo === "PRODUCTO_ACTUAL" && !productoActual) productoActual = valor.split(/\s+/)[0];
+            else if (tipo === "ACCION_PEDIDO" && !productoId) productoId = valor.split(/\s+/)[0];
+            else if (tipo === "NECESITA_ASESOR") necesitaAsesor = /^s[ií]/i.test(valor);
+            else if (tipo === "PAUSAR_SEGUIMIENTO") pausarSeguimiento = /^s[ií]/i.test(valor);
+            return l.slice(0, m.index);
+      });
       const mensajeVisible = lineas.join("\n").trim();
 
 return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos };
@@ -3095,6 +3109,15 @@ async function manejarFlujoPedido(telefono, texto) {
                   textoParaValidar = extraidos.textoAntesDelPrimerDato;
             }
 
+            // NO GUARDAR CONVERSACION COMO DATO (caso Onadis oct-2026: quedaron como nombre "Solo el moden", como
+            // ciudad "Qe diferentes ay entre los dos", como direccion "Mándame la foto" y como barrio "En otro momento
+            // pido"). Saludos, preguntas, peticiones de fotos o "en otro momento" los responde Michell.
+            const PARECE_CONVERSACION = /(^\s*(o|h)la+\b|^\s*(buen[oa]s|ok|okey|listo|gracias|si|s[ií]|dale)\s*[.!]*\s*$|\bq(u)?e+ cosa|\bdiferen|\bfoto|\bvideo|\bm[aá]nd(a|e|ame)\b|\benv[ií](a|e)me\b|otro momento|\bpido\b|\bquiero\b|solo (el|la|uno)\b|\bm[oó]n?dee?m?\b|\bcombo\b|\breloj\b|\bprecio\b|\bno sale\b|\bno me\b|\bconfirmar\b|para qu[eé]|por qu[eé]|\bcu[aá]l\b)/i;
+            const esCampoDeTexto = ["nombre", "departamento", "ciudad", "direccion", "barrio", "pago"].includes(definicionActual.tipo);
+            if (esCampoDeTexto && PARECE_CONVERSACION.test(texto) && !(definicionActual.tipo === "pago" && pareceRespuestaValidaPedido(texto, "pago"))) {
+                  return false;
+            }
+
             if (!pareceRespuestaValidaPedido(textoParaValidar, definicionActual.tipo)) {
                   // PREGUNTA U OBJECION EN MEDIO DEL PEDIDO (oct-2026, caso Yon Manzano: escribio "toca recargar
                   // siempre... sale mas caro" y Michell le respondia "no logre leer tu nombre" una y otra vez).
@@ -3103,6 +3126,10 @@ async function manejarFlujoPedido(telefono, texto) {
                   const palabras = String(texto).trim().split(/\s+/).length;
                   const pareceDuda = /\?/.test(texto) || palabras >= 8 || /(caro|recarg|plan|mensualidad|cu[aá]nto|c[oó]mo|garant|se[nñ]al|no quiero|no gracias|despu[eé]s|luego|pensar|funciona|sirve|cancel)/i.test(texto) || /^\s*(no|nop|nel|ahora no|todav[ií]a no|por ahora no)\s*[.!]*\s*$/i.test(texto);
                   if (pareceDuda) return false;
+                  // Nunca repetir el mismo mensaje de error dos veces seguidas (caso Onadis: 5 veces "No identifique ese
+                  // medio de pago"): la segunda vez responde Michell, que entiende lo que el cliente quiso decir.
+                  const ultimoBot = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "bot");
+                  if (ultimoBot && ultimoBot.texto === definicionActual.mensajeError) return false;
                   await enviarTexto(telefono, definicionActual.mensajeError);
                   return true;
             }
