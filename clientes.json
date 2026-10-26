@@ -3,8 +3,8 @@
     "telefono": "573124524919",
     "nombre": "Consuelo",
     "primerContacto": "2026-10-26T13:08:21.277Z",
-    "ultimoContacto": "2026-10-26T13:08:21.277Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T13:10:05.649Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-26T13:08:20.179Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NTI0OTE5FQIAERgSMDNCNkY0NEY5NjNCQUU3QTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo se usa papel térmico",
+        "fecha": "2026-10-26T13:10:01.206Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, la Impresora Térmica Portatil NETUM solo usa papel térmico para imprimir, por eso no necesita tinta ni toner; eso te ahorra un montón porque no tienes que preocuparte por comprar cartuchos nunca.\n\nAdemás, la impresora ya incluye papel térmico para que empieces a usarla de una vez y también te ofrecemos papel extra para que agregues a tu pedido cuando quieras:\n\n- Rollo tamaño carta 9 metros por $10.000\n- Paquete con 52 hojas tamaño carta por $35.000\n- Paquete con 200 hojas tamaño carta por $75.000\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTodo llega junto en el mismo envío. ¿Te interesa que te agregue papel a tu pedido desde ya o prefieres primero la impresora?",
+        "fecha": "2026-10-26T13:10:04.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NTI0OTE5FQIAERgSM0Y5ODJDQ0VDODk2NDNFMEEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-26T13:10:04.694Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NTI0OTE5FQIAERgSNTdFNEE4OUQ5NDRGRjI2NEYxAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2378294486294384",
