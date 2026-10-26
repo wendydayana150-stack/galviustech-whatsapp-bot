@@ -4006,8 +4006,8 @@
     "telefono": "573223685029",
     "nombre": "carlosalbertoroldan610",
     "primerContacto": "2026-10-26T18:47:48.734Z",
-    "ultimoContacto": "2026-10-26T22:12:47.705Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-26T22:14:18.101Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "bot",
@@ -4138,13 +4138,39 @@
         "fecha": "2026-10-26T22:12:46.744Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSRTIxOEFBNkVCODM0MDYwMkJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa el dé 4G",
+        "fecha": "2026-10-26T22:14:14.124Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el módem WiFi portátil 4G es una excelente inversión para tener internet propio en tu hogar donde no llega la fibra, conecta varios dispositivos y es muy fácil de usar y transportar. La inversión exacta es de **$169.900 + $26.000 de envío**, y pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Te lo envío a tu casa o prefieres recogerlo en oficina?",
+        "fecha": "2026-10-26T22:14:16.408Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSMEM0QjExOTNBMjFEMEZFQjkwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 169.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-26T22:14:17.261Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSMTkxNkY2NDlEQjNERTlCRDFFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573223685029",
+      "departamento": "Caqueta",
+      "ciudad": "Hogar"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
