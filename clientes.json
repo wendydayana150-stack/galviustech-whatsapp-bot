@@ -12840,8 +12840,8 @@
     "telefono": "573044419174",
     "nombre": "elis reyes",
     "primerContacto": "2026-10-24T21:23:35.729Z",
-    "ultimoContacto": "2026-10-24T21:23:35.729Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:42:52.413Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12874,6 +12874,13 @@
         "fecha": "2026-10-24T21:23:35.031Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0NDE5MTc0FQIAERgSQjIxREQ5MTdCQTY1RDdCNjk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola elis reyes, sobre la Impresora NETUM",
+        "fecha": "2026-10-26T18:42:51.020Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NDE5MTc0FQIAERgSMkYwQzU2NzdDOEZBNzRBNzEyAA=="
       }
     ],
     "paso": "conversando",
@@ -12888,9 +12895,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
