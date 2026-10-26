@@ -4116,8 +4116,8 @@
     "telefono": "573223685029",
     "nombre": "carlosalbertoroldan610",
     "primerContacto": "2026-10-26T18:47:48.734Z",
-    "ultimoContacto": "2026-10-26T22:29:43.729Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-26T22:33:28.952Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -4279,9 +4279,21 @@
         "fecha": "2026-10-26T22:29:42.456Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSNENCRDg0MzY2MDVCQjQ1RjBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3223685029",
+        "fecha": "2026-10-26T22:33:27.883Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-26T22:33:27.884Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSRkFDOUI0NDNFNDk3OTIyM0NFAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -4289,7 +4301,8 @@
       "telefono": "573223685029",
       "departamento": "Caqueta",
       "ciudad": "Hogar",
-      "nombreCliente": "Carlos Alberto Roldán"
+      "nombreCliente": "Carlos Alberto Roldán",
+      "celular": "3223685029"
     },
     "pausado": false,
     "etapaManual": null,
