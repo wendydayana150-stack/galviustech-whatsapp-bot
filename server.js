@@ -2742,7 +2742,7 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   // tieneLetra evita que un numero de celular u otro texto sin ninguna letra
                   // (que no es "solo letras y espacios") se cuele como si fuera un nombre valido.
                   // Frases de chat que no son un nombre (caso real oct-2026: "Elijo este mejor" quedo como nombre)
-                  if (/\b(elijo|escojo|quiero|prefiero|mejor|este|esta|ese|esa|combo|reloj|camara|c[aá]mara|modem|m[oó]dem|precio|cuanto|cu[aá]nto|gracias|hola|listo|dale|bueno|perfecto|ok|si|s[ií]|no|regalo|pedido|opcion|opci[oó]n)\b/i.test(limpio)) return false;
+                  if (/\b(elijo|escojo|quiero|prefiero|mejor|este|esta|ese|esa|combo|reloj|camara|c[aá]mara|modem|m[oó]dem|precio|cuanto|cu[aá]nto|gracias|hola|listo|dale|bueno|perfecto|ok|si|s[ií]|no|regalo|pedido|opcion|opci[oó]n|pregunta|duda|consulta|tengo|saber|informaci[oó]n|sirve)\b/i.test(limpio)) return false;
                   return limpio.length >= 3 && tieneLetra && (!soloLetrasYEspacios || tieneVocal);
             case "celular": {
                   const digitos = limpio.replace(/\D/g, "");
@@ -2777,10 +2777,42 @@ function pareceRespuestaValidaPedido(texto, tipo) {
 // el celular, que tiene un formato muy especifico (digitos), lo usamos como señal extra: un mensaje
 // con letras y sin ni siquiera un numero parecido a un celular es mucho mas probable que sea un
 // comentario o pregunta metida en medio del flujo, que un intento real de responder el celular.
+// "Tengo una pregunta", "una duda", "quiero preguntarte algo": todavia no hizo la pregunta, solo la anuncia.
+const ANUNCIA_PREGUNTA = /^\s*(hola[\s,!.]*)?(((tengo|ten[ií]a|hay)\s+)?(una|otra)\s+(pregunta|duda|consulta)(ita)?(\s+(m[aá]s|antes|primero))?|(quiero|quisiera|puedo|podr[ií]a)\s+(hacer(te|le)?\s+una\s+(pregunta|consulta)|preguntar(te|le)?(\s+algo)?)|pregunta)\s*[.!,?¿]*\s*$/i;
+
+// Palabras que no aparecen en un nombre completo pero si en un comentario ("Es para la casa y terreno")
+const NO_ES_NOMBRE = /\b(es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
+
+// Quita las preguntas con las que la IA cierra su respuesta (ej. "¿Para qué necesitas el internet?") cuando
+// estamos en la toma de datos del pedido: despues de responder la duda se retoma el dato que falta, y una
+// pregunta de calificacion al final dejaba dos preguntas seguidas y devolvia la charla al inicio (caso Ever).
+function quitarPreguntasFinales(texto) {
+      const bloques = String(texto || "").split(/\n\s*\n/);
+      while (bloques.length) {
+            const frases = bloques[bloques.length - 1].split(/(?<=[.!?])\s+|\s+(?=¿)/);
+            while (frases.length && /\?/.test(frases[frases.length - 1])) frases.pop();
+            if (frases.length && frases.join(" ").trim()) {
+                  bloques[bloques.length - 1] = frases.join(" ");
+                  break;
+            }
+            bloques.pop();
+      }
+      return bloques.join("\n\n").trim();
+}
+
+// "Ahora sí, ¿cuál es tu numero de celular?": la misma pregunta del campo, sin "Para empezar"/"Por ultimo".
+function preguntaParaRetomar(definicion) {
+      const base = definicion.pregunta.replace(/^(Para empezar|Por ultimo|Y),?\s*/i, "").replace(/^¿/, "");
+      return `Ahora sí, ¿${base.charAt(0).toLowerCase()}${base.slice(1)}`;
+}
+
 function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
       const limpio = (texto || "").trim();
       if (!limpio) return false;
       if (/[?¿]/.test(limpio)) return true;
+      // Anuncia o plantea una duda sin signos (caso Ever 26-oct-2026: "Tengo una pregunta" quedo guardado como
+      // su nombre completo y Michell siguio con "Cual es tu numero de celular?").
+      if (ANUNCIA_PREGUNTA.test(limpio) || /\b(pregunta|preguntar(te|le)?|duda|dudas|consulta|consultar(te|le)?|me sirve|me servir[ií]a|servir[ií]a|funcionar[ií]a)\b/i.test(limpio)) return true;
 
       const palabras = limpio.toLowerCase().split(/\s+/).filter(Boolean);
 
@@ -3092,18 +3124,26 @@ async function manejarFlujoPedido(telefono, texto) {
       // actual (eso guardaria basura como "nombre" y dejaria la pregunta sin contestar). En su
       // lugar, respondemos la pregunta con la IA (con el catalogo completo disponible) y despues
       // volvemos a hacer la misma pregunta del campo pendiente, sin perder el avance del pedido.
-      if (pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
+      // Comentario en vez de nombre (caso Ever: "Es para la casa y terreno" no es un nombre): se responde y se retoma.
+      const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto);
+      if (noPareceNombre || pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
+            // Solo anuncio que tiene una pregunta: se le invita a hacerla y se espera, sin repetir el dato pedido.
+            if (ANUNCIA_PREGUNTA.test(texto)) {
+                  await enviarTexto(telefono, "Claro, dime 😊");
+                  return true;
+            }
             const productoIdEnfoque = sesion.pedido?.productoId || sesion.ultimoProducto || null;
             const enfoqueProducto = productoIdEnfoque ? { tipo: "producto", valor: productoIdEnfoque } : null;
             try {
                   const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
-                  if (mensajeVisible) {
-                        await enviarTexto(telefono, mensajeVisible);
+                  const respuesta = quitarPreguntasFinales(mensajeVisible);
+                  if (respuesta) {
+                        await enviarTexto(telefono, respuesta);
                   }
             } catch (error) {
                   console.error("Error respondiendo pregunta durante el flujo de pedido:", error.response?.data || error.message);
             }
-            await enviarTexto(telefono, definicionActual.pregunta);
+            await enviarTexto(telefono, preguntaParaRetomar(definicionActual));
             return true;
       }
 
