@@ -41,6 +41,7 @@ const MODELO_OPENAI = OPENAI_MODEL || "gpt-4.1-mini";
 // codigo, basta con poner AI_PROVIDER=anthropic en las variables de entorno de Render.
 const USAR_OPENAI = (AI_PROVIDER || "").toLowerCase() !== "anthropic" && !!OPENAI_API_KEY;
 console.log(`IA activa: ${USAR_OPENAI ? "OpenAI (" + MODELO_OPENAI + ")" : "Anthropic (" + ANTHROPIC_MODEL + ")"}`);
+const REACTIVAR_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/reactivar.json`;
 const PEDIDOS_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/pedidos.json`;
 const CLIENTES_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/clientes.json`;
 const CATALOGO_API = `https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/contents/catalog.json`;
@@ -5051,6 +5052,75 @@ app.post("/admin/recuperar-impresora", requiereLogin, async (req, res) => {
       } catch (error) {
             console.error("Error enviando recuperacion de impresora:", error.response?.data || error.message);
             res.status(500).send("Hubo un error enviando los mensajes.");
+      }
+});
+
+// REACTIVAR CLIENTES DE LOS ULTIMOS 14 DIAS (oct-2026, Wendy: "revisa todos los chats y reactivar, no solo esperar
+// clientes nuevos"). La lista sale de reactivar.json (incluye chats ya borrados del panel). Se envia por tandas de 200:
+// texto normal a quien escribio hace menos de 24 h, y la plantilla de reactivacion a los demas.
+const MSJ_REACTIVAR_GENERAL = "¡Hola! 😊 Sigo pendiente de ti. Esta semana todo tiene *30% de descuento* y pagas al recibir 🚚 ¿Te ayudo a dejar listo tu pedido?";
+let reactivacionEnCurso = false;
+app.get("/admin/reactivar-lote", requiereLogin, async (req, res) => {
+      try {
+            const { datos } = await leerJSON(REACTIVAR_API);
+            const pendientes = datos.filter((r) => !r.enviado);
+            const enviados = datos.length - pendientes.length;
+            res.send(`<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:760px"><h2>Reactivar clientes (últimos 14 días)</h2><p>Total: <b>${datos.length}</b> · Enviados: <b>${enviados}</b> · Pendientes: <b>${pendientes.length}</b>${reactivacionEnCurso ? " · <b style='color:#c00'>Enviando una tanda ahora…</b>" : ""}</p><p>Se envían por tandas de 200. A quien escribió hace menos de 24 h le llega un mensaje normal; a los demás, la plantilla <i>reactivacion_cliente_galviustech</i> con su nombre y el producto que vio. Michell responde a quien conteste.</p>${pendientes.length && !reactivacionEnCurso ? `<form method="post"><button style="padding:10px 18px;font-size:16px">Enviar siguiente tanda (${Math.min(200, pendientes.length)})</button></form>` : ""}<p><a href="/admin">Volver al panel</a></p></div>`);
+      } catch (error) {
+            console.error("Error leyendo la lista de reactivacion:", error.response?.data || error.message);
+            res.status(500).send("No se pudo leer la lista de reactivacion.");
+      }
+});
+app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
+      if (reactivacionEnCurso) return res.redirect("/admin/reactivar-lote");
+      reactivacionEnCurso = true;
+      res.redirect("/admin/reactivar-lote");
+      let ok = 0, fallos = 0;
+      const hechos = new Set();
+      try {
+            const { datos } = await leerJSON(REACTIVAR_API);
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const conPedido = new Set(pedidos.map((p) => p.telefono));
+            const tanda = datos.filter((r) => !r.enviado).slice(0, 200);
+            for (const r of tanda) {
+                  hechos.add(r.telefono);
+                  if (conPedido.has(r.telefono)) continue;
+                  try {
+                        await cargarSesionSiNueva(r.telefono);
+                        const sesion = obtenerSesion(r.telefono);
+                        if (sesion.pausado) continue;
+                        const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
+                        const fechaUltimo = ultimoCliente?.fecha || r.ultimoMensajeCliente;
+                        const horas = (Date.now() - new Date(fechaUltimo).getTime()) / 3600000;
+                        if (horas < 23.5) {
+                              const texto = r.enPedido ? MSJ_RECUPERAR_PEDIDO_IMPRESORA.replace("impresora NETUM", r.producto.replace(/^(el|la|los|las) /, "")) : r.categoria === "impresora" ? MSJ_RECUPERAR_IMPRESORA : MSJ_REACTIVAR_GENERAL;
+                              await enviarTexto(r.telefono, texto);
+                        } else {
+                              await enviarPlantillaReactivacion(r.telefono, r.nombre || "cliente", r.producto || "nuestros productos");
+                        }
+                        await guardarCliente(r.telefono, r.nombre);
+                        ok++;
+                  } catch (e) {
+                        fallos++;
+                        console.error(`Reactivacion: fallo con ${r.telefono}:`, e.response?.data?.error?.message || e.message);
+                  }
+            }
+            let intentos = 4;
+            while (intentos-- > 0) {
+                  try {
+                        const { datos: actual, sha } = await leerJSON(REACTIVAR_API);
+                        for (const r of actual) if (hechos.has(r.telefono)) r.enviado = true;
+                        await guardarJSON(REACTIVAR_API, actual, sha, `Reactivacion: tanda enviada (${ok} ok, ${fallos} fallos)`);
+                        break;
+                  } catch (e) {
+                        if (intentos <= 0) throw e;
+                  }
+            }
+            console.log(`Reactivacion: tanda terminada, ${ok} enviados, ${fallos} fallos.`);
+      } catch (error) {
+            console.error("Error en la tanda de reactivacion:", error.response?.data || error.message);
+      } finally {
+            reactivacionEnCurso = false;
       }
 });
 
