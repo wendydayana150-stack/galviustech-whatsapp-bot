@@ -3797,8 +3797,8 @@
     "telefono": "573157374897",
     "nombre": "Martyk💔",
     "primerContacto": "2026-10-26T18:47:17.212Z",
-    "ultimoContacto": "2026-10-26T18:47:17.212Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T20:03:31.362Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -3806,9 +3806,35 @@
         "fecha": "2026-10-26T18:47:15.938Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSMDU2MjFDOTFFRTEzRjlDRjlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:56:15.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSODUyQUQ3NkJCMzg0MDI0RUJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No que pena no me di cuenta en que momento le marque",
+        "fecha": "2026-10-26T20:03:29.594Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Martyk💔! Soy Michell, de GalviusTech 👋\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares, Camara de Seguridad y PROMOCION COMBOS, además de relojes, cámaras y más. 🔥 Todo tiene *30% de descuento*. Hacemos envíos a toda Colombia (¡hasta veredas!), *pagas al recibir* (contra entrega) y todo tiene garantía incluida ✅.\n\nElige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇",
+        "fecha": "2026-10-26T20:03:29.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSNkI2NzM3RDAxMEIyN0E1MEEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-10-26T20:03:30.204Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3Mzc0ODk3FQIAERgSQjlCRTVBRDA3RTY0MDkyRTNBAA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
@@ -3820,8 +3846,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
