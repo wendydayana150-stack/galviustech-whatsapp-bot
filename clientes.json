@@ -1101,8 +1101,8 @@
     "telefono": "CO.1681572263771373",
     "nombre": "franci liliana alzate gav",
     "primerContacto": "2026-10-26T13:13:17.137Z",
-    "ultimoContacto": "2026-10-26T14:48:38.662Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-26T15:53:06.435Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1142,6 +1142,25 @@
         "fecha": "2026-10-26T14:48:37.555Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY4MTU3MjI2Mzc3MTM3MxUUABEYEkVFMDRFNDQyQzA3N0Y0NDhDMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T15:52:32.678Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY4MTU3MjI2Mzc3MTM3MxUUABEYEjMzMjEyODVFMEM2RjI5ODlCMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la próxima gracias",
+        "fecha": "2026-10-26T15:53:02.478Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, quedo atenta para cuando la necesites 😊\n\nRecuerda que con la Impresora NETUM olvidas el problema de depender de una papelería para imprimir documentos importantes en el momento justo.\n\n¿Quieres que te muestre también otras opciones que tenemos, como módems WiFi portátiles, lámparas solares o cámaras de seguridad? 📶💡📹",
+        "fecha": "2026-10-26T15:53:05.250Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY4MTU3MjI2Mzc3MTM3MxUUABEYEjUzNzY2MjM5NTQ4QTM3NkI4OAA="
       }
     ],
     "paso": "conversando",
@@ -1152,13 +1171,11 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "recuperoImpresora": true,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
