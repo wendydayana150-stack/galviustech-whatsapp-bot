@@ -1887,8 +1887,8 @@
     "telefono": "573137518177",
     "nombre": "Vanessa",
     "primerContacto": "2026-10-26T18:48:12.962Z",
-    "ultimoContacto": "2026-10-26T18:53:22.399Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-26T19:06:03.955Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -2023,16 +2023,29 @@
         "fecha": "2026-10-26T18:53:21.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMUM3ODQ3MTlEOEJEOTk4MUNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vanessa perlaza",
+        "fecha": "2026-10-26T19:06:02.316Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-26T19:06:02.319Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSMjRGNTQ3N0I4RTY5RDA0QzY5AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
       "precio": 199900,
       "telefono": "573137518177",
       "ciudad": "Hogar",
-      "direccion": "Recoge en oficina de la transportadora"
+      "direccion": "Recoge en oficina de la transportadora",
+      "nombreCliente": "Vanessa perlaza"
     },
     "pausado": false,
     "etapaManual": null,
