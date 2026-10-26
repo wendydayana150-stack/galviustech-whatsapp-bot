@@ -4169,8 +4169,8 @@
     "telefono": "573223685029",
     "nombre": "carlosalbertoroldan610",
     "primerContacto": "2026-10-26T18:47:48.734Z",
-    "ultimoContacto": "2026-10-26T22:33:28.952Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-26T22:37:28.469Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "bot",
@@ -4344,9 +4344,21 @@
         "fecha": "2026-10-26T22:33:27.884Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSRkFDOUI0NDNFNDk3OTIyM0NFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 2 sur 24/65 barrio guaduales de Garzón Huila",
+        "fecha": "2026-10-26T22:37:27.540Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-26T22:37:27.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNjg1MDI5FQIAERgSNDFDMThBNkMwQjQ3QTVGNzc0AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -4355,7 +4367,8 @@
       "departamento": "Caqueta",
       "ciudad": "Hogar",
       "nombreCliente": "Carlos Alberto Roldán",
-      "celular": "3223685029"
+      "celular": "3223685029",
+      "direccion": "Calle 2 sur 24/65 barrio guaduales de Garzón Huila"
     },
     "pausado": false,
     "etapaManual": null,
