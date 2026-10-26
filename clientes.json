@@ -3,8 +3,8 @@
     "telefono": "573143970612",
     "nombre": "pinedaclaudia669",
     "primerContacto": "2026-10-26T11:22:38.138Z",
-    "ultimoContacto": "2026-10-26T11:22:38.138Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T11:22:49.170Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-26T11:22:37.269Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzOTcwNjEyFQIAERgSMzU3NzIzREQ0OTIyNUY3REMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuánto vale la impresora",
+        "fecha": "2026-10-26T11:22:45.831Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil NETUM tiene una inversión de **$249.900 con envío GRATIS a toda Colombia**. Imprime hojas tamaño carta sin tinta, es portátil, fácil de usar por Bluetooth desde tu celular y dura hasta 30 horas con una carga. Además, ya incluye papel térmico para que empieces a imprimir de una vez. \n\n¿Para qué la necesitas, para imprimir tareas, documentos o facturas? ¿O es más para etiquetas o recibos pequeños? Así te confirmo que es la mejor opción para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-26T11:22:47.630Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTcwNjEyFQIAERgSOTkxM0I3QjVCRDA0QkEwNTI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-26T11:22:48.254Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzOTcwNjEyFQIAERgSQjNBRDlBOUE0M0NDNUFBQjNGAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +68,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132712961",
