@@ -275,7 +275,7 @@ const mensajeResumenPedido = (pedido) => {
                         linea("Direccion", pedido.direccion),
                         linea("Barrio", pedido.barrio),
                         linea("Producto", pedido.nombreProducto),
-                        ...(typeof pedido.precio === "number" ? [linea("Valor del producto", precioCOP(pedido.precio)), linea("Envío", precioCOP(COSTO_ENVIO)), linea("Total a pagar", precioCOP(pedido.precio + COSTO_ENVIO))] : []),
+                        ...(typeof pedido.precio === "number" ? [linea("Valor del producto", precioCOP(pedido.precio)), linea("Envío", pedido.productoId === "impresora-termica" ? "GRATIS" : precioCOP(COSTO_ENVIO)), linea("Total a pagar", precioCOP(pedido.precio + (pedido.productoId === "impresora-termica" ? 0 : COSTO_ENVIO)))] : []),
                         linea("Medio de pago", pedido.medioPago),
                         ...(pedido.cedula ? [linea("Cédula", pedido.cedula)] : []),
             ].join("\n");
