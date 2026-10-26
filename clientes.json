@@ -15716,10 +15716,10 @@
   },
   {
     "telefono": "447710173736",
-    "nombre": "",
+    "nombre": "cliente",
     "primerContacto": "2026-10-24T04:55:08.418Z",
-    "ultimoContacto": "2026-10-24T04:55:08.418Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:43:37.940Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15739,6 +15739,13 @@
         "fecha": "2026-10-24T04:55:07.594Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNDQ3NzEwMTczNzM2FQIAERgSNEUyRjVCN0VEMjJCQjUzN0UzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola cliente, sobre nuestros productos",
+        "fecha": "2026-10-26T18:43:36.667Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNDQ3NzEwMTczNzM2FQIAERgSRTRDOTY1RTc4MzgzQzkzMTQxAA=="
       }
     ],
     "paso": "conversando",
@@ -15753,9 +15760,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
