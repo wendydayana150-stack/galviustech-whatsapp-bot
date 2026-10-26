@@ -11160,8 +11160,8 @@
     "telefono": "573151884106",
     "nombre": "Alexis Cueros y Mari Anab",
     "primerContacto": "2026-10-24T19:52:32.520Z",
-    "ultimoContacto": "2026-10-26T04:26:18.908Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-26T14:43:30.942Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11372,6 +11372,27 @@
         "fecha": "2026-10-26T04:26:17.891Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSQTBBQjUwNTMwNEZFREYwMEY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-26T11:08:38.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSOERERTEzNUVGODg5N0I5MzVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-26T11:19:45.864Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSRjJGQzYwMDZBMkYwOEY0RThFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-26T14:43:29.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxODg0MTA2FQIAERgSMENDNDk1NDM0RDlBNUVCNkQxAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11381,7 +11402,7 @@
       "precio": 249900,
       "telefono": "573151884106"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -11391,10 +11412,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "recuperoImpresora": true,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
