@@ -555,8 +555,8 @@
     "telefono": "573172787614",
     "nombre": "Fanny @£€&",
     "primerContacto": "2026-10-26T19:08:51.321Z",
-    "ultimoContacto": "2026-10-26T19:08:51.321Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T21:12:09.508Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -589,6 +589,25 @@
         "fecha": "2026-10-26T19:08:50.373Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyNzg3NjE0FQIAERgSOEIzN0YyRDJCMUY5RkJDMzVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T20:14:48.304Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyNzg3NjE0FQIAERgSODgwRUFDRTZFNkJFNjRDN0VDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo pensé que eso trabajaba con el papel normal",
+        "fecha": "2026-10-26T21:12:05.520Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell. Mira, la *Impresora Térmica Portátil NETUM* no usa papel normal, sino papel térmico especial y eso es lo que le permite imprimir sin tinta ni cartuchos, solo en blanco y negro.\n\nCon esta impresora ya no gastas en tinta y es super fácil de usar: se conecta por Bluetooth al celular y puedes imprimir documentos en hojas tamaño carta donde estés.\n\n¿Quieres que te cuente cómo puedes conseguir rollos o paquetes de papel térmico para que la impresora siempre tenga insumos? ¿Para qué la usarías exactamente?",
+        "fecha": "2026-10-26T21:12:08.444Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyNzg3NjE0FQIAERgSNTY5OTY0OTdDRDc4NzlFNjE5AA=="
       }
     ],
     "paso": "conversando",
@@ -603,8 +622,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
