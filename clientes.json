@@ -15104,8 +15104,8 @@
     "telefono": "573215514819",
     "nombre": "LIAM BALOY",
     "primerContacto": "2026-10-24T22:30:09.470Z",
-    "ultimoContacto": "2026-10-26T18:42:26.190Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T18:50:16.288Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15164,6 +15164,18 @@
         "fecha": "2026-10-26T18:42:23.373Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1NTE0ODE5FQIAERgSMERGNEFCNjBEQUM2RkUzMzVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no gracias",
+        "fecha": "2026-10-26T18:50:10.941Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en algún momento necesitas imprimir sin depender de una papelería o sacar tus trabajos al instante, aquí estoy para ayudarte.\n\nRecuerda que esta impresora te ahorra tiempo y te da más libertad porque la llevas a donde quieras y nunca más gastas en tinta.\n\nCuando quieras, me escribes para asesorarte o dejarte el pedido listo. ¿Quieres que te muestre también otras opciones de productos que tenemos en GalviusTech? 📶🖨️💡📹",
+        "fecha": "2026-10-26T18:50:13.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NTE0ODE5FQIAERgSMDU3QkVDMDE4NDE3M0M0OEZCAA=="
       }
     ],
     "paso": "conversando",
@@ -15174,7 +15186,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
