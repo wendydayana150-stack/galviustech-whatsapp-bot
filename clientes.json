@@ -497,7 +497,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1681572263771373",
@@ -549,7 +553,11 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573124524919",
@@ -1210,7 +1218,8 @@
     "esperaCompra": null,
     "recordatorios": {
       "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
