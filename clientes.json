@@ -215,8 +215,8 @@
     "telefono": "573186800096",
     "nombre": "johana",
     "primerContacto": "2026-10-26T19:20:29.018Z",
-    "ultimoContacto": "2026-10-26T19:23:48.143Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T20:35:53.826Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -287,11 +287,25 @@
         "fecha": "2026-10-26T19:23:47.213Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2ODAwMDk2FQIAERgSODc4NTg4NTNDMzk5MUM5QTYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T20:24:47.608Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2ODAwMDk2FQIAERgSNkZBQTREOUFDN0MyMjk4Q0ExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿te la llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con el descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-26T20:35:52.649Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2ODAwMDk2FQIAERgSRkQxNkI3ODgyN0UxREYyNjY5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -301,8 +315,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
