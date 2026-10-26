@@ -2297,8 +2297,8 @@
     "telefono": "CO.2378294486294384",
     "nombre": "Yeritza casallas",
     "primerContacto": "2026-10-26T13:00:28.522Z",
-    "ultimoContacto": "2026-10-26T18:05:59.088Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-26T18:07:13.212Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2378,10 +2378,34 @@
         "fecha": "2026-10-26T18:05:58.012Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjgyRUY5QTZGREIxRTE4MTlENwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-26T18:07:08.766Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 🙌\n\n¿Quieres que te la envíe a tu casa o prefieres recogerla en la oficina de la transportadora?\n\nRecuerda que el envío es GRATIS y la impresora viene lista para usar con papel incluido. Además, te puedo añadir papel térmico extra si quieres.\n\nSolo dime cómo prefieres recibirla y dejamos todo listo.",
+        "fecha": "2026-10-26T18:07:11.298Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEkMyNTBGOTM3OTY0RTU4MUJBQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-26T18:07:12.212Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjMyMjA4QzIxNkZBNjY1MTg3NAA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "CO.2378294486294384"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
