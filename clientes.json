@@ -2988,8 +2988,8 @@
     "telefono": "573218313361",
     "nombre": "Bendecido Gracias Dios 🙏❤",
     "primerContacto": "2026-10-26T18:46:21.304Z",
-    "ultimoContacto": "2026-10-26T18:46:21.304Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T18:53:12.924Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -2997,9 +2997,28 @@
         "fecha": "2026-10-26T18:46:19.662Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSODY4RDUyRDdGNEUzQTI2MzY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuántas jagas mesesita",
+        "fecha": "2026-10-26T18:53:11.525Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Bendecido Gracias Dios 🙏❤! Soy Michell, de GalviusTech 👋\n\nTenemos Modem Portatiles, IMPRESORA TERMICA, Lamparas Solares, Camara de Seguridad y PROMOCION COMBOS, además de relojes, cámaras y más. 🔥 Todo tiene *30% de descuento*. Hacemos envíos a toda Colombia (¡hasta veredas!), *pagas al recibir* (contra entrega) y todo tiene garantía incluida ✅.\n\nElige abajo la opción que te interesa y en segundos te muestro fotos, precio y todo lo que necesitas saber 👇",
+        "fecha": "2026-10-26T18:53:11.526Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSODA3NjQwNjZGQTc5NDlENDM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-10-26T18:53:12.093Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSQjg4QjQxN0NFNjVCNDBDMTMxAA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
@@ -3009,7 +3028,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147261283",
