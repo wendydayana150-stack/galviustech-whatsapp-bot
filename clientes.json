@@ -2978,8 +2978,8 @@
     "telefono": "573045509352",
     "nombre": "Angela",
     "primerContacto": "2026-10-25T18:47:04.796Z",
-    "ultimoContacto": "2026-10-25T18:47:04.796Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-26T04:24:14.473Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3012,6 +3012,13 @@
         "fecha": "2026-10-25T18:47:03.943Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTA5MzUyFQIAERgSQzlEODkxOEJDOENFNzMyNjc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?",
+        "fecha": "2026-10-26T04:24:13.525Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTA5MzUyFQIAERgSQ0U1N0I5RUI2ODg0NDE1REZGAA=="
       }
     ],
     "paso": "conversando",
@@ -3026,9 +3033,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
