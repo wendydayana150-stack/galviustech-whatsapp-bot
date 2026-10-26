@@ -1887,8 +1887,8 @@
     "telefono": "573137518177",
     "nombre": "Vanessa",
     "primerContacto": "2026-10-26T18:48:12.962Z",
-    "ultimoContacto": "2026-10-26T19:06:17.227Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-26T19:06:42.848Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "bot",
@@ -2047,9 +2047,21 @@
         "fecha": "2026-10-26T19:06:16.056Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSRDZBNTRCQ0Q4QkQ4ODM4MDRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valle",
+        "fecha": "2026-10-26T19:06:41.616Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-26T19:06:41.617Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NTE4MTc3FQIAERgSRDAwRkU4NzkzRUIxMDBDNENBAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
@@ -2058,7 +2070,8 @@
       "ciudad": "Hogar",
       "direccion": "Recoge en oficina de la transportadora",
       "nombreCliente": "Vanessa perlaza",
-      "celular": "3137518177"
+      "celular": "3137518177",
+      "departamento": "Valle del Cauca"
     },
     "pausado": false,
     "etapaManual": null,
