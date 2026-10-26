@@ -2142,8 +2142,8 @@
     "telefono": "573217858450",
     "nombre": "Kary Guevara",
     "primerContacto": "2026-10-26T18:48:22.174Z",
-    "ultimoContacto": "2026-10-26T19:27:40.633Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-26T19:27:45.644Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "bot",
@@ -2265,10 +2265,30 @@
         "fecha": "2026-10-26T19:27:39.635Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSNzVCMzY3OUNFQUU4MjI4QjgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-26T19:27:44.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento, tu ciudad y cómo pagas, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-26T19:27:44.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSRTMzODVFNUU0NjI4NUIwRjdEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573217858450",
+      "medioPago": "contra entrega",
+      "departamento": "Choco",
+      "ciudad": "En Quibdo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
