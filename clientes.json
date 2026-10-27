@@ -675,8 +675,8 @@
     "telefono": "573132098375",
     "nombre": "Marlon",
     "primerContacto": "2026-10-27T15:27:32.366Z",
-    "ultimoContacto": "2026-10-27T15:27:32.366Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T15:55:38.998Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -684,20 +684,35 @@
         "fecha": "2026-10-27T15:27:31.219Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMDk4Mzc1FQIAERgSRTdCRTAyMzYzMDMxNUFCNDA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve para partes donde la señal no hay",
+        "fecha": "2026-10-27T15:55:35.814Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊\n\nNuestros módems WiFi portátiles 4G/5G están diseñados especialmente para zonas rurales y veredas donde la señal es débil o inexistente para celulares comunes. Gracias a su antena de mayor potencia, captan señal más fuerte y brindan mejor cobertura que un celular normal.\n\nSi en tu zona no hay señal de ningún operador, el módem no funcionará porque necesita una SIM con señal móvil para conectarse. ¿Me puedes contar en qué municipio o vereda lo necesitas para confirmar si ahí hay algo de cobertura 4G o 5G?",
+        "fecha": "2026-10-27T15:55:37.942Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMDk4Mzc1FQIAERgSNDQyOThCODMzOTA0ODI3QkYzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207037619",
