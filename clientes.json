@@ -10249,8 +10249,8 @@
     "telefono": "CO.1156384663719809",
     "nombre": "Alber Rome",
     "primerContacto": "2026-10-27T11:57:00.763Z",
-    "ultimoContacto": "2026-10-27T14:53:41.823Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-27T15:58:01.376Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10347,6 +10347,32 @@
         "fecha": "2026-10-27T14:53:40.669Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEkVBREM4REM0NEQwRjVDODU1OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-27T15:54:36.329Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjI1MTVDNzEyNEM0QTdFOERDMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no",
+        "fecha": "2026-10-27T15:57:56.811Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, respetaré tu decisión. Quedo pendiente para cuando quieras retomar o tengas alguna duda. Recuerda que la *Impresora NETUM* tiene envío gratis y garantía de 30 días, y te ayuda a imprimir sin depender de papelerías.\n\nAsí no pierdes el descuento. 😊",
+        "fecha": "2026-10-27T15:57:59.540Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjdDMjI1ODczRjEwM0I2NTg2QwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-27T15:58:00.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjIzRkNFNDg2OEE1NkM0OTc3RAA="
       }
     ],
     "paso": "pedido_nombre",
@@ -10367,8 +10393,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
