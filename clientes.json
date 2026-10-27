@@ -144,8 +144,8 @@
     "telefono": "573015463891",
     "nombre": "tigrearcoiris",
     "primerContacto": "2026-10-27T14:12:30.698Z",
-    "ultimoContacto": "2026-10-27T14:29:33.388Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-27T14:30:05.643Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -234,15 +234,28 @@
         "fecha": "2026-10-27T14:29:32.426Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSNERGOTdBRjBBQzQ4ODRDQTBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gustavo García Valiente",
+        "fecha": "2026-10-27T14:30:04.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-27T14:30:04.129Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSOUZFNDQzRDZGMkUwMjk3NzAyAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573015463891",
-      "departamento": "Bogota"
+      "departamento": "Bogota",
+      "nombreCliente": "Gustavo García Valiente"
     },
     "pausado": false,
     "etapaManual": null,
