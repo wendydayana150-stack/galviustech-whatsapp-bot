@@ -3,8 +3,8 @@
     "telefono": "573229474387",
     "nombre": "Alan Walker 🎧",
     "primerContacto": "2026-10-27T13:23:23.447Z",
-    "ultimoContacto": "2026-10-27T13:23:23.447Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T13:23:33.768Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-27T13:23:22.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5NDc0Mzg3FQIAERgSNDM1QjZBMzJDOTkzRjc2MjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio y descripción por favor",
+        "fecha": "2026-10-27T13:23:30.271Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la *Impresora Térmica Portátil NETUM* es de **$249.900** con 30% de descuento y envío GRATIS a toda Colombia, pagas al recibir y tiene garantía de 30 días.\n\nEsta impresora es portátil y fácil de llevar contigo, imprime en blanco y negro sin tinta, ideal para trabajo, estudio y emprendimientos. Imprime desde tu celular por Bluetooth documentos en tamaño carta, sin complicaciones ni cables. Mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, como un control remoto delgado. Viene con papel térmico incluido y puedes agregar más papel tamaño carta (rollos o hojas) si quieres.\n\n¿Para qué la necesitas principalmente? ¿tareas, documentos o para facturas y guías? Así te confirmo si esta es la mejor opción para ti.",
+        "fecha": "2026-10-27T13:23:32.202Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NDc0Mzg3FQIAERgSNzQ5N0ZCNzcxQTAzN0Q3NENCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-27T13:23:32.756Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NDc0Mzg3FQIAERgSODlDRjM5RDkwRjNBRDAxODNCAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118450968",
