@@ -3,8 +3,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:52:16.824Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-27T12:52:24.654Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -124,16 +124,29 @@
         "fecha": "2026-10-27T12:52:15.729Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkQ0MkNCNTczQjRGNTVBMzBBRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3042369947",
+        "fecha": "2026-10-27T12:52:23.471Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-27T12:52:23.471Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkNDMTNERUVFMTVFQTI0RUM2NQA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "CO.1627442305492911",
       "departamento": "Casanare",
-      "nombreCliente": "Luis Miguel"
+      "nombreCliente": "Luis Miguel",
+      "celular": "3042369947"
     },
     "pausado": false,
     "etapaManual": null,
