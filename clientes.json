@@ -4784,8 +4784,8 @@
     "telefono": "573217858450",
     "nombre": "Kary Guevara",
     "primerContacto": "2026-10-26T18:48:22.174Z",
-    "ultimoContacto": "2026-10-26T20:36:11.302Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-27T03:05:21.274Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "bot",
@@ -4971,6 +4971,13 @@
         "fecha": "2026-10-26T20:36:10.279Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSM0UzNjE2Q0IwMTgwNTE4MkYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Kary* 👋 Soy Michell de Galviustech. Tu pedido del *Módem WiFi Portátil 4G/5G* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:05:19.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3ODU4NDUwFQIAERgSNTEzMEFBODlDQUIwOTA1NkNEAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -4984,7 +4991,7 @@
       "ciudad": "En Quibdo",
       "nombreCliente": "Luz"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
