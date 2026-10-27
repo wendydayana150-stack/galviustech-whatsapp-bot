@@ -107,8 +107,8 @@
     "telefono": "573008755442",
     "nombre": "rosamariavillalobo716",
     "primerContacto": "2026-10-27T00:47:02.116Z",
-    "ultimoContacto": "2026-10-27T00:47:02.116Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T01:01:10.873Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,25 @@
         "fecha": "2026-10-27T00:47:01.331Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4NzU1NDQyFQIAERgSNTU4N0RERkMyMjBCQjQ5RkM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta para imprimir no se puede imprimir con resma",
+        "fecha": "2026-10-27T01:01:06.126Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, la *Impresora Térmica Portátil NETUM* no usa papel común ni resma normal, sino papel térmico especial.\n\nLa buena noticia es que ya incluye papel térmico para que empieces a imprimir y solo necesitas comprar más papel térmico cuando se acabe. Las opciones que tenemos para agregar a tu pedido son:\n\n📝 Rollo de papel tamaño carta, 9 metros, a $10.000  \n📝 Paquete de 52 hojas tamaño carta por $35.000  \n📝 Paquete de 200 hojas tamaño carta por $75.000  \n\nImprime sin tinta, desde tu celular por Bluetooth, y es súper portátil (mide 27.5 x 6.5 x 5 cm, más o menos como un control remoto).\n\n¿Para qué la quieres usar, para tareas y documentos o para facturas o guías? Así te confirmo que esta es la mejor opción para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-27T01:01:09.336Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NzU1NDQyFQIAERgSRkQxNjJCRTMzMjczOEUwQTRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-27T01:01:09.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NzU1NDQyFQIAERgSRTZGRDU0NEY5OEY0NjA5RUFGAA=="
       }
     ],
     "paso": "conversando",
@@ -153,7 +172,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573114237608",
