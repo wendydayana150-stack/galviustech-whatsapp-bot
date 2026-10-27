@@ -59,8 +59,8 @@
     "telefono": "573022951556",
     "nombre": "jarhtattoos",
     "primerContacto": "2026-10-27T15:23:22.624Z",
-    "ultimoContacto": "2026-10-27T15:23:22.624Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T15:23:30.827Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -68,6 +68,18 @@
         "fecha": "2026-10-27T15:23:21.268Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIyOTUxNTU2FQIAERgSRTA2QkE1RTFGRDExODJBOUE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "​• Cotizaciones solo con referencia y medidas.\n• Citas se agendan únicamente con abono previo (sin excepción).\n• Valora mi tiempo como artista, así como yo valoro tu piel.\n​¡Hagamos arte de verdad! 🔥\"\n\n@jarhtattoos⛩",
+        "fecha": "2026-10-27T15:23:24.614Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por compartir tus condiciones, las respeto mucho. Si estás buscando algún equipo para tu negocio o para facilitar tu trabajo, en GalviusTech tenemos opciones que te pueden ayudar a optimizar tu energía y tiempo, como impresoras térmicas portátiles o modems WiFi para conectar tus dispositivos allá donde estés.\n\n¿Me cuentas para qué te gustaría usar alguno de nuestros productos? Así te recomiendo la mejor opción para ti. ¿Estás en alguna ciudad o vereda en especial?",
+        "fecha": "2026-10-27T15:23:27.761Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyOTUxNTU2FQIAERgSNzYyNzMzNTA5MzZDQkIzMzQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -81,7 +93,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573173012355",
