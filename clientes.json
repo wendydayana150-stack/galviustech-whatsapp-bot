@@ -3,8 +3,8 @@
     "telefono": "CO.1617419279250253",
     "nombre": "Nicoll Tatiana🫶🏻",
     "primerContacto": "2026-10-27T02:25:19.750Z",
-    "ultimoContacto": "2026-10-27T02:25:19.750Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T02:29:15.897Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T02:25:18.798Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYxNzQxOTI3OTI1MDI1MxUUABEYEjlCNThBNzNGNzlBM0VBMTA2NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-27T02:29:13.620Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿en qué te puedo ayudar hoy? ¿Quieres info sobre la Impresora Térmica Portátil NETUM o tienes otro producto en mente? ¿Para qué la necesitas?",
+        "fecha": "2026-10-27T02:29:14.876Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYxNzQxOTI3OTI1MDI1MxUUABEYEkNBNEY5QzZBQTJBREEyQjlBNgA="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573143196515",
