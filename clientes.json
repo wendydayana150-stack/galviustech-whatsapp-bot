@@ -4824,8 +4824,8 @@
     "telefono": "573223213730",
     "nombre": "jaimeblancogonzalez47",
     "primerContacto": "2026-10-27T15:18:53.923Z",
-    "ultimoContacto": "2026-10-27T15:18:53.923Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T16:02:14.613Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -4833,6 +4833,18 @@
         "fecha": "2026-10-27T15:18:52.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMjEzNzMwFQIAERgSOEI4OTE0RUM1OTlCRUQwQ0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acomo esta ahora",
+        "fecha": "2026-10-27T16:02:11.981Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿me puedes contar en qué municipio o vereda necesitas el módem y para qué lo necesitas, si es para estudiar, trabajar, tu negocio o tu hogar? Así te recomiendo la mejor opción para ti. 📶",
+        "fecha": "2026-10-27T16:02:13.448Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMjEzNzMwFQIAERgSQzREMkQ5MTlCMDhBQjU5MjhFAA=="
       }
     ],
     "paso": "conversando",
@@ -4846,7 +4858,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573017142157",
