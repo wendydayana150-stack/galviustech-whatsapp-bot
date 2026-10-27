@@ -15838,8 +15838,8 @@
     "telefono": "573225741778",
     "nombre": "👩🏻‍🎓.",
     "primerContacto": "2026-10-26T22:20:41.264Z",
-    "ultimoContacto": "2026-10-26T22:20:41.264Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T18:19:54.526Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15872,6 +15872,18 @@
         "fecha": "2026-10-26T22:20:40.233Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NzQxNzc4FQIAERgSRjkyMERFOTM5MjdGNTM0MEQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Feliz halloween 🎃",
+        "fecha": "2026-10-27T18:19:52.328Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🎃😄 ¿Estás buscando la impresora para aprovecharla en tu trabajo o en algún proyecto especial estas fechas? ¿O quieres que te cuente más sobre cómo te puede facilitar imprimir sin depender de una papelería?",
+        "fecha": "2026-10-27T18:19:53.600Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NzQxNzc4FQIAERgSNkQ5MUM4RTlCRTE2NkY3MUI5AA=="
       }
     ],
     "paso": "conversando",
@@ -15886,10 +15898,9 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "interesColor": null
   },
   {
     "telefono": "573001897873",
