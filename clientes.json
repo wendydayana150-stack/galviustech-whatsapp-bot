@@ -3,8 +3,8 @@
     "telefono": "573102889987",
     "nombre": "COLLAZOS",
     "primerContacto": "2026-10-27T13:56:14.150Z",
-    "ultimoContacto": "2026-10-27T14:02:49.682Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-27T14:03:51.601Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,18 @@
         "fecha": "2026-10-27T14:02:48.504Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSRUFFRDczREU4OTAxRjYxREEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo pienso gracias",
+        "fecha": "2026-10-27T14:03:48.504Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, sin problema. 😊 Recuerda que la Impresora NETUM tiene 30 días de garantía y envío gratis, y con ella imprimir en cualquier lugar sin tinta ni cables es mucho más fácil.  \n\n¿Quieres que te quede el pedido listo y tú decides cuándo concretar? Así lo tienes reservado y aprovechas el descuento.",
+        "fecha": "2026-10-27T14:03:50.642Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSQ0JEMUZBRUE2MzI2MzdFMDJDAA=="
       }
     ],
     "paso": "conversando",
@@ -114,7 +126,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
