@@ -144,8 +144,8 @@
     "telefono": "573015463891",
     "nombre": "tigrearcoiris",
     "primerContacto": "2026-10-27T14:12:30.698Z",
-    "ultimoContacto": "2026-10-27T14:30:29.537Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-27T14:30:43.831Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -258,9 +258,21 @@
         "fecha": "2026-10-27T14:30:28.428Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSMDE3QUU0RTExRUYwQzI4QTQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bogotá",
+        "fecha": "2026-10-27T14:30:42.805Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-27T14:30:42.807Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSOUNGQTY4NTgzQTQ3RUU4M0FBAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -268,7 +280,8 @@
       "telefono": "573015463891",
       "departamento": "Bogota",
       "nombreCliente": "Gustavo García Valiente",
-      "celular": "3015463891"
+      "celular": "3015463891",
+      "ciudad": "Bogotá"
     },
     "pausado": false,
     "etapaManual": null,
