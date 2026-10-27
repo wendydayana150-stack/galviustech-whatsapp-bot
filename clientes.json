@@ -6478,8 +6478,8 @@
     "telefono": "573223147388",
     "nombre": "Camila Saavedra",
     "primerContacto": "2026-10-26T18:47:08.550Z",
-    "ultimoContacto": "2026-10-27T00:19:55.596Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-27T03:06:38.080Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "bot",
@@ -6625,6 +6625,13 @@
         "fecha": "2026-10-27T00:19:54.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSRTMyODkwQTc2RDQwRTQ4RjVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Camila* 👋 Soy Michell de Galviustech. Tu pedido del *Smartwatch* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:06:36.892Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSRkUyMERGNENFNTlGRTIyQzBDAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6634,7 +6641,7 @@
       "precio": 159900,
       "telefono": "573223147388"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "smartwatch-inteligente",
     "ultimaCategoria": null,
