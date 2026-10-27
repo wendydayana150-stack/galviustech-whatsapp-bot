@@ -568,7 +568,7 @@ const LINEA_PAPEL_ROLLOS = "🧻 *Rollos térmicos para agregar a tu pedido (7 m
 const ID_IMPRESORAS_ROLLO = ["impresora-termica-portatil-goojprt-pt-210", "impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "combo-impresora-termica-portatil-reloj", "combo-impresora-termica-portatil-camara-de-seguridad"];
 const ID_IMPRESORAS_CARTA = ["impresora-termica", "combo-modem-impresora-estudio-trabajo"];
 
-// ENVIO GRATIS (oct-2026, Wendy): la Impresora NETUM tiene envio gratis; el resto paga $26.000.
+// ENVIO GRATIS (oct-2026, Wendy): la Impresora NETUM y las Lamparas 3 lentes x3 tienen envio gratis; el resto paga $26.000.
 // PARA QUE LA NECESITA (oct-2026, Wendy): antes del boton "¿Te lo envío?" de una impresora se pregunta el uso,
 // para confirmar la NETUM u ofrecer la impresora de negocio que de verdad le sirve.
 const USO_IMPRESORA = /(tarea|trabaj|document|estudi|colegio|universidad|hoja|carta|negocio|tienda|recibo|factura|tirilla|comanda|etiqueta|c[oó]digo|gu[ií]a|env[ií]os|casa|hogar|f[oó]rmula|oficina|restaurante|domicilio|emprend|vend|receta|cocina|comida|pantallazo|captura|apunte|resumen|lista)/i;
@@ -601,7 +601,8 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
 }
 
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
-const ENVIO_GRATIS_IDS = ["impresora-termica"];
+// Lamparas 3 lentes x3 con envio gratis: confirmado por Wendy (27-oct-2026). La lista vive en config.js.
+const ENVIO_GRATIS_IDS = config.ENVIO_GRATIS_IDS;
 const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
 const envioDe = (id) => (ENVIO_GRATIS_IDS.includes(id) ? 0 : Number(config.COSTO_ENVIO) || 0);
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
@@ -1909,7 +1910,7 @@ async function enviarRecordatoriosPendientes() {
                         } else if (p.tier === "horas3") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
                               // Ultimo seguimiento (tope de 2): ademas el listado de todo lo que vendemos (Wendy, oct-2026)
-                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
+                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
@@ -2523,7 +2524,7 @@ async function iniciarPedido(telefono, productoId) {
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   recordarPedidoRegistrado(sesion, nuevoPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -2965,7 +2966,7 @@ async function finalizarPedidoSesion(telefono) {
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -3655,7 +3656,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
@@ -3795,6 +3796,8 @@ const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el
 // Respuestas fijas a las objeciones de la impresora (ver GUION NETUM). Solo si se viene hablando de impresoras.
 // Cada respuesta termina con una pregunta de cierre (o de uso, si aun no se sabe para que la quiere).
 async function responderObjecionImpresora(telefono, sesion, texto) {
+      const nombrado = productoNombradoEn(texto);
+      if (nombrado && !esImpresoraSuelta(nombrado.id)) return false;
       const hablaDeImpresora = sesion.ultimaCategoria === "impresora" || esImpresoraSuelta(sesion.ultimoProducto) || /impresora/i.test(texto);
       if (!hablaDeImpresora) return false;
       const netum = catalogo.find((p) => p.id === "impresora-termica");
@@ -3831,6 +3834,68 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
       }
 
       if (!respuesta) return false;
+      await enviarTexto(telefono, respuesta);
+      if (Array.isArray(sesion.historial)) {
+            sesion.historial.push({ role: "user", content: texto });
+            sesion.historial.push({ role: "assistant", content: respuesta });
+      }
+      return true;
+}
+
+// Producto que el cliente nombra en el mensaje ("El proyector, pero no tengo el dinero"), si lo hay
+function productoNombradoEn(texto) {
+      const tienda = detectarProductoTienda(texto);
+      const id = (tienda && tienda.tipo === "producto" && tienda.id) || detectarProductoEspecifico(texto);
+      return (id && catalogo.find((p) => p.id === id)) || null;
+}
+
+// "ESTA CARO / NO TENGO EL DINERO" EN CUALQUIER PRODUCTO (Wendy, 27-oct-2026: "ofrecer las demas opciones"; caso
+// JUSTO P.H con el proyector). Las impresoras tienen su propia respuesta (responderObjecionImpresora). Para el resto
+// se ofrecen las otras opciones de la misma categoria, primero las mas economicas, con precio y para que sirven.
+// Si no hay otras (ej. el proyector), se ofrece separarlo y el catalogo completo. Siempre cierra con una pregunta.
+async function responderObjecionPrecio(telefono, sesion, texto) {
+      if (!OBJECION_PRECIO.test(texto)) return false;
+      const nombrado = productoNombradoEn(texto);
+      const producto = nombrado || catalogo.find((p) => p.id === sesion.ultimoProducto);
+      if (!producto || esImpresoraSuelta(producto.id)) return false;
+      const categoria = (producto.categoria || "").trim().toLowerCase();
+      const esCombo = producto.id.startsWith("combo-");
+      const hermanos = catalogo
+            .filter((p) => p.id !== producto.id && !p.agotado && (esCombo ? p.id.startsWith("combo-") : !p.id.startsWith("combo-") && categoria && categoria !== "otros" && (p.categoria || "").trim().toLowerCase() === categoria))
+            .sort((a, b) => a.precio - b.precio);
+      const baratos = hermanos.filter((p) => p.precio < producto.precio);
+      const opciones = (baratos.length >= 2 ? baratos : hermanos).slice(0, 4);
+
+      // Si lo nombro en este mismo mensaje y no lo venia viendo, primero su foto y su presentacion corta
+      if (nombrado && sesion.ultimoProducto !== nombrado.id) {
+            if (nombrado.imagenes && nombrado.imagenes[0]) {
+                  try {
+                        await enviarImagen(telefono, nombrado.imagenes[0], nombrado.nombreCorto || nombrado.nombre);
+                  } catch (e) {
+                        console.error("Objecion de precio: no se pudo enviar la foto:", e.message);
+                  }
+            }
+            await enviarTexto(telefono, presentacionCorta(nombrado));
+      }
+      sesion.ultimoProducto = producto.id;
+      if (categoria) sesion.ultimaCategoria = categoria;
+
+      let respuesta;
+      if (opciones.length) {
+            const lista = opciones
+                  .map((p) => `• *${p.nombreCorto || p.nombre}*: *${formatearPrecio(p.precio)}*${ENVIO_GRATIS_IDS.includes(p.id) ? " (envío GRATIS)" : ""}. ${(beneficiosCortos(p)[0] || "").replace(/\.$/, "")}`)
+                  .join("\n");
+            respuesta =
+                  `Te entiendo 😊 Mira, también tenemos estas opciones${baratos.length ? " más económicas" : ""}:\n\n` +
+                  lista + "\n\n" +
+                  "🚚 Pagas al recibir" + (opciones.every((p) => ENVIO_GRATIS_IDS.includes(p.id)) ? "." : opciones.some((p) => ENVIO_GRATIS_IDS.includes(p.id)) ? " (envío $26.000, salvo las que dicen GRATIS)." : " + $26.000 de envío.") + "\n\n" +
+                  "¿Cuál te gusta más? Te lo dejo listo hoy 🙌";
+      } else {
+            respuesta =
+                  `Te entiendo 😊 Si quieres, te separo el *${producto.nombreCorto || producto.nombre}* para cuando tengas el dinero, y lo pagas al recibir.\n\n` +
+                  "🛍️ Y si buscas algo de menor precio, aquí ves todo lo que tenemos: " + LINK_CATALOGO + "\n\n" +
+                  "¿Para qué fecha te lo aparto?";
+      }
       await enviarTexto(telefono, respuesta);
       if (Array.isArray(sesion.historial)) {
             sesion.historial.push({ role: "user", content: texto });
@@ -3908,6 +3973,7 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       if (sesion.paso === "conversando" && (await responderObjecionImpresora(telefono, sesion, texto))) return;
+      if (sesion.paso === "conversando" && (await responderObjecionPrecio(telefono, sesion, texto))) return;
 
       // Pidio mas detalles del producto que venia viendo: la ficha completa del catalogo y el boton de cierre al final
       const productoFicha = catalogo.find((p) => p.id === sesion.ultimoProducto);
