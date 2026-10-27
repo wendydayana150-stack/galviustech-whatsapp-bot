@@ -2641,6 +2641,7 @@ function extraerCamposPedido(texto) {
 const DEFINICIONES_CAMPOS_PEDIDO = [
       {
             campo: "nombreCliente",
+            ayuda: "Tu nombre y apellido, para que el pedido llegue a tu nombre 😊",
             paso: "pedido_nombre",
             tipo: "nombre",
             pregunta: "Para empezar, cual es tu nombre completo?",
@@ -2648,6 +2649,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "celular",
+            ayuda: "Tu número de celular (10 dígitos), para que la transportadora te llame al entregar 😊",
             paso: "pedido_celular",
             tipo: "celular",
             pregunta: "Cual es tu numero de celular?",
@@ -2655,6 +2657,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "departamento",
+            ayuda: "El departamento donde recibes el pedido, por ejemplo Tolima o Valle 😊",
             paso: "pedido_departamento",
             tipo: "departamento",
             pregunta: "En que departamento vives?",
@@ -2662,6 +2665,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "ciudad",
+            ayuda: "La ciudad o el municipio donde recibes el pedido 😊",
             paso: "pedido_ciudad",
             tipo: "ciudad",
             pregunta: "¿En qué ciudad o municipio vives?",
@@ -2669,6 +2673,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "direccion",
+            ayuda: "La dirección donde te lo entregan (calle, número, casa). Si prefieres recogerlo en la oficina de Interrapidísimo, escríbeme *oficina* 😊",
             paso: "pedido_direccion",
             tipo: "direccion",
             pregunta: "Cual es tu direccion completa?",
@@ -2676,6 +2681,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "barrio",
+            ayuda: "El barrio o sector de esa dirección. Si lo recoges en la oficina de Interrapidísimo, escríbeme *oficina* y no hace falta 😊",
             paso: "pedido_barrio",
             tipo: "barrio",
             // Si lo recoge en la oficina de la transportadora no tiene sentido pedir barrio (caso Daniela, oct-2026)
@@ -2685,6 +2691,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
       {
             campo: "medioPago",
+            ayuda: "Puedes pagar *contraentrega* (al recibir), por *transferencia* o con *Sistecrédito* a cuotas 😊",
             paso: "pedido_pago",
             tipo: "pago",
             pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
@@ -2693,6 +2700,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       {
             // Solo se pide si paga con Sistecredito: con la cedula Wendy genera la venta en Credinet (oct-2026)
             campo: "cedula",
+            ayuda: "Tu número de cédula, solo números (la que tiene el cupo de Sistecrédito) 😊",
             paso: "pedido_cedula",
             tipo: "cedula",
             soloSi: (p) => esPagoSistecredito(p.medioPago),
@@ -2701,7 +2709,10 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
       },
 ];
 
-const RECOGE_EN_OFICINA = /oficina|interrap|inter rap|coordinadora|servientrega|envia\b|recoger|recojo|reclamo/i;
+// Recoge en la oficina de la transportadora: no se pregunta barrio (Wendy, 27-oct-2026: "el cliente no sabra").
+// Caso luis miguel: "Para reclamar por internet rapidísimo" (asi le corrige el celular a Interrapidisimo) y
+// "Solo Resibo por envío de esa entidad" no se reconocian y se le pregunto el barrio.
+const RECOGE_EN_OFICINA = /oficina|interrap|inter\s*rap|internet\s*r[aá]pid|r[aá]pid[ií]simo|coordinadora|servientrega|envia\b|recoger|recojo|reclam\w*|solo (re[cs]ib\w*|recoj\w*)|en (la )?(sede|agencia|transportadora)/i;
 
 // DATOS YA DICHOS EN LA CONVERSACION (oct-2026, Wendy: "pide los datos 2 veces y el cliente se aburre").
 // La IA a veces pide nombre, celular y ciudad en la charla antes de que arranque el pedido; luego el flujo
@@ -2724,9 +2735,9 @@ function datosDichosEnConversacion(sesion) {
             // LA CIUDAD NUNCA SE DEDUCE de la charla (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
             // vereda...? ¿para tu hogar?" respondio "Hogar" y quedo Ciudad: Hogar, sin preguntarsela). Siempre se
             // le pregunta en el paso pedido_ciudad y se guarda lo que ella responda.
-            const oficina = texto.match(/interrap\w*|coordinadora|servientrega/i);
+            const oficina = texto.match(/interrap\w*|inter\s*rap\w*|internet\s*r[aá]pid\w*|coordinadora|servientrega/i);
             if (oficina || (/oficina/i.test(texto) && /(recog|oficina)/i.test(preguntaBot + texto))) {
-                  const empresa = oficina ? (/interrap/i.test(oficina[0]) ? "Interrapidísimo" : oficina[0][0].toUpperCase() + oficina[0].slice(1).toLowerCase()) : "la transportadora";
+                  const empresa = oficina ? (/inter/i.test(oficina[0]) ? "Interrapidísimo" : oficina[0][0].toUpperCase() + oficina[0].slice(1).toLowerCase()) : "la transportadora";
                   datos.direccion = `Recoge en oficina de ${empresa}`;
             }
       }
@@ -2816,18 +2827,16 @@ const NO_ES_NOMBRE = /\b(es|para|porque|por que|casa|terreno|finca|internet|vere
 // Quita las preguntas con las que la IA cierra su respuesta (ej. "¿Para qué necesitas el internet?") cuando
 // estamos en la toma de datos del pedido: despues de responder la duda se retoma el dato que falta, y una
 // pregunta de calificacion al final dejaba dos preguntas seguidas y devolvia la charla al inicio (caso Ever).
+// Caso luis miguel (27-oct-2026): la IA metio preguntas en medio de la respuesta ("¿Lo que quieres es conectarte
+// para tu casa...?", "¿Cuántos dispositivos conectarías?") y solo se quitaban las del final. Ahora se quitan
+// todas: en la toma de datos la unica pregunta es la del dato que falta.
 function quitarPreguntasFinales(texto) {
-      const bloques = String(texto || "").split(/\n\s*\n/);
-      while (bloques.length) {
-            const frases = bloques[bloques.length - 1].split(/(?<=[.!?])\s+|\s+(?=¿)/);
-            while (frases.length && /\?/.test(frases[frases.length - 1])) frases.pop();
-            if (frases.length && frases.join(" ").trim()) {
-                  bloques[bloques.length - 1] = frases.join(" ");
-                  break;
-            }
-            bloques.pop();
-      }
-      return bloques.join("\n\n").trim();
+      return String(texto || "")
+            .split(/\n\s*\n/)
+            .map((bloque) => bloque.split(/(?<=[.!?])\s+|\s+(?=¿)/).filter((frase) => !/\?/.test(frase) && !/^(as[ií]|de esa forma|con eso) (te|le|podr|sabr)/i.test(frase)).join(" ").trim())
+            .filter(Boolean)
+            .join("\n\n")
+            .trim();
 }
 
 // "Ahora sí, ¿cuál es tu numero de celular?": la misma pregunta del campo, sin "Para empezar"/"Por ultimo".
@@ -3154,9 +3163,28 @@ async function manejarFlujoPedido(telefono, texto) {
       // actual (eso guardaria basura como "nombre" y dejaria la pregunta sin contestar). En su
       // lugar, respondemos la pregunta con la IA (con el catalogo completo disponible) y despues
       // volvemos a hacer la misma pregunta del campo pendiente, sin perder el avance del pedido.
+      // En el paso del barrio dice que lo recoge en la oficina ("Solo recibo por envío de esa entidad"): no hay barrio
+      if (definicionActual.campo === "barrio" && RECOGE_EN_OFICINA.test(texto)) {
+            sesion.pedido.barrio = "No aplica (recoge en oficina)";
+            if (!RECOGE_EN_OFICINA.test(sesion.pedido.direccion || "")) sesion.pedido.direccion = `${sesion.pedido.direccion || ""} (recoge en oficina de la transportadora)`.trim();
+            const siguiente = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
+            if (!siguiente) {
+                  await finalizarPedidoSesion(telefono);
+                  return true;
+            }
+            sesion.paso = siguiente.paso;
+            await enviarTexto(telefono, `Perfecto, lo recoges en la oficina 👍 No hace falta el barrio.\n\n${siguiente.pregunta}`);
+            return true;
+      }
+
       // Comentario en vez de nombre (caso Ever: "Es para la casa y terreno" no es un nombre): se responde y se retoma.
       const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto);
       if (noPareceNombre || pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
+            // Solo manda "?": no entendio que se le pide. Se le explica el dato, sin pasar por la IA (caso luis miguel).
+            if (/^\s*[?¿]+\s*$/.test(texto)) {
+                  await enviarTexto(telefono, `${definicionActual.ayuda || ""}\n\n${preguntaParaRetomar(definicionActual).replace(/^Ahora sí, /, "")}`.trim());
+                  return true;
+            }
             // Solo anuncio que tiene una pregunta: se le invita a hacerla y se espera, sin repetir el dato pedido.
             if (ANUNCIA_PREGUNTA.test(texto)) {
                   await enviarTexto(telefono, "Claro, dime 😊");
@@ -3236,6 +3264,11 @@ async function manejarFlujoPedido(telefono, texto) {
             }
 
             sesion.pedido[definicionActual.campo] = definicionActual.campo === "cedula" ? textoParaValidar.replace(/\D/g, "") : textoParaValidar;
+            // Recoge en oficina: que quede claro para el despacho y sin barrio
+            if (definicionActual.campo === "direccion" && RECOGE_EN_OFICINA.test(textoParaValidar)) {
+                  if (!/oficina/i.test(textoParaValidar)) sesion.pedido.direccion = `${textoParaValidar} (recoge en oficina de la transportadora)`;
+                  sesion.pedido.barrio = "No aplica (recoge en oficina)";
+            }
       }
 
       // Busca cual es el siguiente campo que todavia falta, saltando los que ya se llenaron (por
