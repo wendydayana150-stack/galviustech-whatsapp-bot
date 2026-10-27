@@ -4371,8 +4371,8 @@
     "telefono": "CO.1156384663719809",
     "nombre": "Alber Rome",
     "primerContacto": "2026-10-27T11:57:00.763Z",
-    "ultimoContacto": "2026-10-27T12:53:32.201Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-27T14:53:41.823Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4448,6 +4448,27 @@
         "fecha": "2026-10-27T12:53:31.277Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjc4OEE5NTgzQ0YwQTA2RkJCQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-27T13:57:49.222Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEkYwMjU5M0MyNTU5OEE2M0JEMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T14:53:40.022Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjIzMENFOTUwOThFNUE4QkUxOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-27T14:53:40.669Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEkVBREM4REM0NEQwRjVDODU1OAA="
       }
     ],
     "paso": "pedido_nombre",
@@ -4468,8 +4489,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
