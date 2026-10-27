@@ -3,8 +3,8 @@
     "telefono": "CO.1679647003588742",
     "nombre": "M. L. E.",
     "primerContacto": "2026-10-27T16:26:53.170Z",
-    "ultimoContacto": "2026-10-27T16:26:53.170Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T16:27:04.984Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T16:26:51.634Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY3OTY0NzAwMzU4ODc0MhUUABEYEjQzRkZGQjAwODVCQTQ5QjcxMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiempo de vida",
+        "fecha": "2026-10-27T16:27:00.384Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil NETUM tiene una batería que dura hasta 30 horas con una carga completa y se recarga en 3 horas. Además, su diseño compacto (27.5 cm x 6.5 cm x 5 cm) la hace fácil de llevar a todos lados sin complicaciones. \n\n¿Para qué la necesitas principalmente, para tareas y documentos o para algo de tu negocio?",
+        "fecha": "2026-10-27T16:27:02.138Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3OTY0NzAwMzU4ODc0MhUUABEYEjQ3RkZBOUQ5RDJGRTEyOUYxNwA="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233698845",
