@@ -1879,8 +1879,8 @@
     "telefono": "573045857094",
     "nombre": "andriwromero19",
     "primerContacto": "2026-10-27T13:14:46.957Z",
-    "ultimoContacto": "2026-10-27T13:14:46.957Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T14:34:22.081Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1913,6 +1913,25 @@
         "fecha": "2026-10-27T13:14:46.024Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1ODU3MDk0FQIAERgSOTYzM0RENDlGMUQ0OUExRTUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T14:20:57.432Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1ODU3MDk0FQIAERgSNENERERBQTI3MzY3NEM3QjEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No es la que yo estoy buscando",
+        "fecha": "2026-10-27T14:34:19.222Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿me puedes contar para qué la necesitas? Así te puedo ayudar a encontrar justo lo que buscas. ¿Es para imprimir documentos tamaño carta, recibos, etiquetas o algo más específico?",
+        "fecha": "2026-10-27T14:34:21.173Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1ODU3MDk0FQIAERgSRTI0QzY4QTE5MzYyQzVBM0IzAA=="
       }
     ],
     "paso": "conversando",
@@ -1928,8 +1947,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
