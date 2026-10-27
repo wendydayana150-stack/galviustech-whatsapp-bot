@@ -3,8 +3,8 @@
     "telefono": "573102889987",
     "nombre": "COLLAZOS",
     "primerContacto": "2026-10-27T13:56:14.150Z",
-    "ultimoContacto": "2026-10-27T13:56:14.150Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T13:57:46.170Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T13:56:13.231Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSQTFEQUQ3REVBNDU3RUE3M0FDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para pegar en plástico plano pequeño tipo tarjeta",
+        "fecha": "2026-10-27T13:57:42.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para imprimir en plástico plano pequeño tipo tarjeta, la Impresora Térmica Portátil NETUM no es la mejor opción, ya que está diseñada para imprimir en hojas tamaño carta y no en materiales plásticos ni del tamaño de una tarjeta.\n\nPara ese uso te recomendaría impresoras de etiquetas pequeñas, como la Mini Impresora de Etiquetas P5 o la Clabel 221B, que son ideales para etiquetas y productos pequeños. ¿Quieres que te muestre las opciones de impresoras para etiquetas con sus precios y características?\n\nAdemás, GalviusTech tiene estas categorías:  \n📶 *Módem WiFi*  \n🖨️ *Impresoras térmicas*  \n💡 *Lámparas solares*  \n📹 *Cámaras de seguridad*  \n🎁 *Combos*  \n\n¿Te interesaría que te envíe info de impresoras para etiquetas o prefieres ver alguna otra categoría?",
+        "fecha": "2026-10-27T13:57:45.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSMTAzNzVDREU5QjQzOUUyQzNCAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1163114539397797",
