@@ -136,8 +136,8 @@
     "telefono": "573229474387",
     "nombre": "Alan Walker 🎧",
     "primerContacto": "2026-10-27T13:23:23.447Z",
-    "ultimoContacto": "2026-10-27T13:23:33.768Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-27T13:34:13.648Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -189,6 +189,18 @@
         "fecha": "2026-10-27T13:23:32.756Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5NDc0Mzg3FQIAERgSODlDRjM5RDkwRjNBRDAxODNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok entiendo.\n\nNo gracias..",
+        "fecha": "2026-10-27T13:34:10.802Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que por ahora no te gustaría. Solo dime, ¿hay algo que te genera duda o alguna otra cosa en la que te pueda ayudar? Recuerda que la Impresora NETUM te ahorra tiempo y viajes a la papelería cuando necesitas imprimir rápido.\n\n¿Quieres que te muestre otros productos que tenemos en GalviusTech? 📶 Módem WiFi, 💡 Lamparas solares, 📹 Cámaras de seguridad, 🖨️ otras impresoras o ⌚ relojes inteligentes?",
+        "fecha": "2026-10-27T13:34:12.609Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5NDc0Mzg3FQIAERgSQTU0ODEyNzUwNDY4M0VBNTM1AA=="
       }
     ],
     "paso": "conversando",
@@ -199,7 +211,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
