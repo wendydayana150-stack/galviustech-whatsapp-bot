@@ -56,8 +56,8 @@
     "telefono": "573246110279",
     "nombre": "ropa",
     "primerContacto": "2026-10-27T11:15:05.419Z",
-    "ultimoContacto": "2026-10-27T11:15:05.419Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T11:19:06.208Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -90,6 +90,25 @@
         "fecha": "2026-10-27T11:15:04.598Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2MTEwMjc5FQIAERgSOUE5MUNGOUU1NkIzRjY3QTA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tarea",
+        "fecha": "2026-10-27T11:19:02.250Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech 😊\n\nPara tareas y trabajos te va perfecta nuestra Impresora Térmica Portátil NETUM. Imprime en tamaño carta, no usa tinta (solo papel térmico), es compacta (27.5 x 6.5 x 5 cm) y la puedes llevar en el bolso o mochila. Además tiene batería que dura hasta 30 horas y carga rápido en 3 horas. La inversión sería de **$249.900** con **envío GRATIS** a toda Colombia, y puedes pagar al recibir con garantía de 30 días.\n\nIncluye papel térmico y también te puedo ofrecer para agregar rollos o paquetes para que siempre tengas. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué materia o tipo de trabajos la necesitarías?",
+        "fecha": "2026-10-27T11:19:04.746Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTEwMjc5FQIAERgSRUVFRkUxREUzNzQ0QkNDMERFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-27T11:19:05.285Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTEwMjc5FQIAERgSQzc2NzhFNUQxNTk0MjkxQzc3AA=="
       }
     ],
     "paso": "conversando",
@@ -103,7 +122,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144308458",
