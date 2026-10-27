@@ -172,8 +172,8 @@
     "telefono": "573233698845",
     "nombre": "Onadis",
     "primerContacto": "2026-10-27T16:21:51.836Z",
-    "ultimoContacto": "2026-10-27T16:21:51.836Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T17:35:48.499Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -193,6 +193,38 @@
         "fecha": "2026-10-27T16:21:50.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSMUQ4NEFCMzA2RkM4NTZDODBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T17:29:16.907Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSRkIyNjRBMDJDQjk4ODY2MEIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📶 Modem Portatiles",
+        "fecha": "2026-10-27T17:35:46.436Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-27T17:35:46.437Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-27T17:35:46.437Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSQzFGQjhCOTE1Rjg3QjlGMzE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-10-27T17:35:47.250Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjk4ODQ1FQIAERgSRTAxNDYwNTU5RThBREM4NTM1AA=="
       }
     ],
     "paso": "conversando",
@@ -200,7 +232,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -208,8 +240,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
