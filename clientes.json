@@ -905,8 +905,8 @@
     "telefono": "573106040351",
     "nombre": "olimashernandez",
     "primerContacto": "2026-10-27T10:34:58.263Z",
-    "ultimoContacto": "2026-10-27T10:34:58.263Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T11:54:21.455Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -939,6 +939,25 @@
         "fecha": "2026-10-27T10:34:57.372Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2MDQwMzUxFQIAERgSRUUyRkRBQjREMTE0QTZCMEY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T11:35:56.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MDQwMzUxFQIAERgSQTUwQzRBNUVFMzAxNkRFMTk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias ya no lo necesito",
+        "fecha": "2026-10-27T11:54:18.479Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, cualquier cosa que necesites de impresión portátil aquí estoy para ayudarte. ¿Te gustaría que te muestre alguna otra solución para trabajo o estudio?",
+        "fecha": "2026-10-27T11:54:20.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MDQwMzUxFQIAERgSRDhERTFBMjc1MUI3N0YwMTEwAA=="
       }
     ],
     "paso": "conversando",
@@ -954,8 +973,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
