@@ -1854,8 +1854,8 @@
     "telefono": "573108295139",
     "nombre": "ANDRES PESCADOR Z",
     "primerContacto": "2026-10-27T12:30:59.144Z",
-    "ultimoContacto": "2026-10-27T12:30:59.144Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T13:39:36.035Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1888,6 +1888,25 @@
         "fecha": "2026-10-27T12:30:58.073Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4Mjk1MTM5FQIAERgSQ0QyRDY5QUMxMUY5ODgxMEI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T13:36:00.505Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4Mjk1MTM5FQIAERgSRUQ0Qjk1N0ZDM0Q4OTVBRkVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola que pena, solo quería saber el precio. muchas gracias",
+        "fecha": "2026-10-27T13:39:32.941Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! El precio de la Impresora Térmica Portátil NETUM es de **$249.900** con envío GRATIS a toda Colombia, y pagas al recibir. Es portátil, no usa tinta (solo papel térmico), ideal para imprimir desde tu celular en tamaño carta, perfecta para estudio, trabajo o emprendimientos.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas? Así te confirmo que es la mejor opción para ti.",
+        "fecha": "2026-10-27T13:39:34.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4Mjk1MTM5FQIAERgSQTdCRjE2RDE5RUM4QzM2MzMxAA=="
       }
     ],
     "paso": "conversando",
@@ -1903,8 +1922,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
