@@ -3,8 +3,8 @@
     "telefono": "573505671946",
     "nombre": "Gonzalito",
     "primerContacto": "2026-10-27T13:25:53.608Z",
-    "ultimoContacto": "2026-10-27T13:25:53.608Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T13:27:12.983Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T13:25:52.684Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1NjcxOTQ2FQIAERgSQUI5NTc0NkYxNkEyRDU0MEREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ah bueno",
+        "fecha": "2026-10-27T13:27:08.199Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. ¿En qué puedo ayudarte hoy? ¿Quieres saber sobre nuestra impresora térmica portátil NETUM o algún otro producto? ¿Para qué la necesitas principalmente, para tareas, documentos o algo más?",
+        "fecha": "2026-10-27T13:27:12.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1NjcxOTQ2FQIAERgSQTExODVBOTMzMkFGNzc2QTAwAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573229474387",
