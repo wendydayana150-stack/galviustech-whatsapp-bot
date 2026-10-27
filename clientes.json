@@ -3,8 +3,8 @@
     "telefono": "CO.1156384663719809",
     "nombre": "Alber Rome",
     "primerContacto": "2026-10-27T11:57:00.763Z",
-    "ultimoContacto": "2026-10-27T11:57:00.763Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T11:57:04.880Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T11:56:59.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEjRCOTRBMTQxMzI3Qjc3NkQ1RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hooa",
+        "fecha": "2026-10-27T11:57:02.232Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué te puedo ayudar hoy? ¿Quieres info de internet, impresoras, lámparas o algo más? Cuéntame para qué lo necesitas y dónde estás para darte la mejor recomendación. ¿Qué quieres saber?",
+        "fecha": "2026-10-27T11:57:03.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1NjM4NDY2MzcxOTgwORUUABEYEkZDRjI5OUIxOEM5MzhEMTg4MgA="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218932931",
