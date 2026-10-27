@@ -1865,8 +1865,8 @@
     "telefono": "573009758360",
     "nombre": "princesa",
     "primerContacto": "2026-10-27T12:28:47.103Z",
-    "ultimoContacto": "2026-10-27T12:28:47.103Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T13:36:41.953Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1899,6 +1899,25 @@
         "fecha": "2026-10-27T12:28:46.280Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSODk1NzM0RTgyMjMwMEM2NjY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T13:36:01.577Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSRDgzNzExQjNGQkJFQjFGODY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias no estoy interesada",
+        "fecha": "2026-10-27T13:36:38.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema. Si en algún momento necesitas una impresora portátil práctica para imprimir documentos o tareas desde tu celular, recuerda que la Impresora NETUM es una gran solución sin tinta ni cables. ¿Hay algo específico que te gustaría saber o te interesa algún otro producto, como modems, lámparas o cámaras para tu casa o negocio?",
+        "fecha": "2026-10-27T13:36:40.809Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSQjFFQTc2M0JFRkREMzY5OTVEAA=="
       }
     ],
     "paso": "conversando",
@@ -1914,8 +1933,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
