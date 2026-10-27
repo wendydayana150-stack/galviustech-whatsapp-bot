@@ -115,8 +115,8 @@
     "telefono": "573114845739",
     "nombre": "Litobogota",
     "primerContacto": "2026-10-27T15:28:41.289Z",
-    "ultimoContacto": "2026-10-27T15:28:41.289Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T16:04:10.147Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -124,6 +124,18 @@
         "fecha": "2026-10-27T15:28:40.011Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0ODQ1NzM5FQIAERgSNEM3MTFGNzNGMEEyMTcwMzQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-27T16:04:05.915Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, ¿en qué te puedo ayudar hoy? ¿Estás buscando internet portátil o necesitas algo más? Cuéntame en qué ciudad o vereda lo necesitas y para qué lo quieres usar, así te recomiendo justo lo que necesitas.",
+        "fecha": "2026-10-27T16:04:07.091Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODQ1NzM5FQIAERgSMDVENkY2NTM3Q0M4QzgzOUU1AA=="
       }
     ],
     "paso": "conversando",
@@ -137,7 +149,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573204551197",
