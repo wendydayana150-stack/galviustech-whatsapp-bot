@@ -3,8 +3,8 @@
     "telefono": "CO.1679647003588742",
     "nombre": "M. L. E.",
     "primerContacto": "2026-10-27T16:26:53.170Z",
-    "ultimoContacto": "2026-10-27T16:27:04.984Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-27T16:29:03.696Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-10-27T16:27:02.138Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY3OTY0NzAwMzU4ODc0MhUUABEYEjQ3RkZBOUQ5RDJGRTEyOUYxNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por ahora no",
+        "fecha": "2026-10-27T16:29:00.580Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, cualquier cosa aquí estaré para ayudarte cuando decidas. Recuerda que la impresora NETUM te permite imprimir sin depender de una papelería y sin gastar en tinta, ideal para ahorro y movilidad. \n\nCuando quieras seguimos conversando, ¿te gustaría que te muestre otras opciones de GalviusTech para conectar o iluminar tus espacios?",
+        "fecha": "2026-10-27T16:29:02.398Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3OTY0NzAwMzU4ODc0MhUUABEYEkE4RDA1MDdFMDVGMkI4NTI2QwA="
       }
     ],
     "paso": "conversando",
@@ -59,7 +71,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
