@@ -3,8 +3,8 @@
     "telefono": "573044088660",
     "nombre": "lorena Guerrero",
     "primerContacto": "2026-10-27T12:12:46.578Z",
-    "ultimoContacto": "2026-10-27T12:12:46.578Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T12:12:54.386Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-27T12:12:45.593Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0MDg4NjYwFQIAERgSMkY0QTgyNjQxNzUwMzQ4QUQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto vale",
+        "fecha": "2026-10-27T12:12:50.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* tiene una inversión de **$249.900** con 30% de descuento y con envío GRATIS a toda Colombia. Imprime hojas tamaño carta sin tinta, es portátil, fácil de usar y se conecta por Bluetooth a tu celular, ideal para estudiantes, emprendedores o para imprimir documentos en cualquier lugar.\n\nAdemás incluye un rollo de papel térmico y te ofrecemos más papel en rollos o hojas si necesitas. \n\nDime, ¿para qué la necesitas principalmente, para trabajos y documentos o para imprimir recibos y etiquetas?",
+        "fecha": "2026-10-27T12:12:52.724Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0MDg4NjYwFQIAERgSQjlGQTkzMzE2NUE2ODM1RDRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-27T12:12:53.374Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0MDg4NjYwFQIAERgSRDlDODdCM0Y5RENCMTkyMTMyAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147299673",
