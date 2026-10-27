@@ -4302,8 +4302,8 @@
     "telefono": "573108589169",
     "nombre": "Marta Lia",
     "primerContacto": "2026-10-27T15:19:45.254Z",
-    "ultimoContacto": "2026-10-27T15:19:45.254Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T15:36:44.570Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -4311,6 +4311,52 @@
         "fecha": "2026-10-27T15:19:44.309Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSRkExMTVGODUzMjk0RjJEQjM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "ver promoción? gracias",
+        "fecha": "2026-10-27T15:36:37.298Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2",
+        "fecha": "2026-10-27T15:36:40.243Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSQkIxNDdFMDNDREQyNzVCQ0I3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2",
+        "fecha": "2026-10-27T15:36:41.084Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSMUFDRjI4OTE5MTJDRUFEMTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2",
+        "fecha": "2026-10-27T15:36:41.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSRkM0NUY3NEFGOTg4MEVBMjgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Lamparas 3 lentes X 2]",
+        "fecha": "2026-10-27T15:36:42.654Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, claro que sí 😊 \n\nLa promoción de las **Lamparas 3 lentes X 2** es por solo **$160.000** con **envío gratis** a toda Colombia. \n\nEstas lámparas funcionan 100% con energía solar, tienen 3 lentes para mayor cobertura de luz en exteriores como patios, garajes, fincas o negocios. Se cargan con el sol y te dan luz varias horas sin gasto de electricidad ni necesidad de instalación. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Dónde las usarías tú? Así te ayudo a separar las que necesitas.",
+        "fecha": "2026-10-27T15:36:42.663Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSMTc5MDJFMzE1MEY1NTdDQUQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-27T15:36:43.436Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NTg5MTY5FQIAERgSRjA0NjNBMTYyMDg5Q0IwMDBEAA=="
       }
     ],
     "paso": "conversando",
@@ -4324,7 +4370,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573247905127",
