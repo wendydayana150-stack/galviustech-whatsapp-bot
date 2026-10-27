@@ -239,8 +239,8 @@
     "telefono": "573015463891",
     "nombre": "tigrearcoiris",
     "primerContacto": "2026-10-27T14:12:30.698Z",
-    "ultimoContacto": "2026-10-27T14:43:55.948Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-27T14:47:30.486Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -446,6 +446,18 @@
         "fecha": "2026-10-27T14:43:54.899Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSQTZFQUJBNDQ2OEJGOTYwRTlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Disculpe por favor. No lo compro por ahora. Muchas Gracias. Es que no tengo mucho conocimiento de esta tecnología.",
+        "fecha": "2026-10-27T14:47:26.496Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De verdad, no hay problema, entiendo que la tecnología a veces parece complicada.\n\nCuando estés listo o quieras que te explique cualquier detalle con calma, aquí estaré para ayudarte y orientarte sin compromiso.\n\nRecuerda que tienes una solución confiable para tener internet donde no llega la fibra y es fácil de usar.\n\n¿Quieres que te deje info de algún otro producto que pueda servirte o te paso datos para que pienses mejor el tema?",
+        "fecha": "2026-10-27T14:47:29.556Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSNTQ5OUQ4MEM0MjcwNjQ0M0I0AA=="
       }
     ],
     "paso": "conversando",
@@ -456,7 +468,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
