@@ -3,8 +3,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:47:53.208Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T12:48:30.040Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-27T12:47:52.152Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkE3NjdBMDgwNDkyMDM0MUMwNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa",
+        "fecha": "2026-10-27T12:48:26.174Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, gracias por el interés 😊\n\nPara recomendarte bien, ¿en qué municipio o vereda lo vas a usar principalmente? Así te puedo mostrar la mejor opción para tu conexión, según si hay 4G o 5G en tu zona.\n\n¿Y para qué lo usarías más, para estudiar, trabajar, vivir en casa o para tu negocio? \n\nEspero tu info para ayudarte a elegir el mejor módem.",
+        "fecha": "2026-10-27T12:48:28.959Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkM5NzMzM0QwODYxRDFDRTg4MAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147715239",
