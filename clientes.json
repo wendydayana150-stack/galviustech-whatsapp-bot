@@ -17957,8 +17957,8 @@
     "telefono": "573212949726",
     "nombre": "😍tatiana. 🩷 De💓 Lugo😍",
     "primerContacto": "2026-10-25T14:33:28.630Z",
-    "ultimoContacto": "2026-10-26T14:49:28.498Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-27T03:03:40.672Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -18107,6 +18107,13 @@
         "fecha": "2026-10-26T14:49:26.692Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSOEEyMDkxNzUzNzJENEQyQjZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Tatiana* 👋 Soy Michell de Galviustech. Tu pedido de la *Impresora Térmica NETUM* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:03:39.754Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5NzI2FQIAERgSRDZCMzA4MTIxRkNGRUM0QzUzAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -18116,7 +18123,7 @@
       "precio": 249900,
       "telefono": "573212949726"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -18126,10 +18133,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "recuperoImpresora": true,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
