@@ -3,8 +3,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:52:24.654Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-27T12:52:33.881Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -136,9 +136,21 @@
         "fecha": "2026-10-27T12:52:23.471Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkNDMTNERUVFMTVFQTI0RUM2NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tauramena Casanare",
+        "fecha": "2026-10-27T12:52:32.695Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-27T12:52:32.698Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEjNDQ0Y5RDc3OEY2MTc0RUNBOAA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -146,7 +158,8 @@
       "telefono": "CO.1627442305492911",
       "departamento": "Casanare",
       "nombreCliente": "Luis Miguel",
-      "celular": "3042369947"
+      "celular": "3042369947",
+      "ciudad": "Tauramena Casanare"
     },
     "pausado": false,
     "etapaManual": null,
