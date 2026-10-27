@@ -292,8 +292,8 @@
     "telefono": "573015463891",
     "nombre": "tigrearcoiris",
     "primerContacto": "2026-10-27T14:12:30.698Z",
-    "ultimoContacto": "2026-10-27T14:52:44.450Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-27T14:53:18.106Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -586,13 +586,55 @@
         "fecha": "2026-10-27T14:52:43.427Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSRjU0N0ZCRDEzNzA5MzAwNUJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T14:53:15.108Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T14:53:15.108Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSN0I4NDM3M0U5QTNBQzdBNDRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T14:53:15.637Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSMzI4RThEMkUzOTU0N0NBOUYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T14:53:16.166Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSQzlDNEVGNkE3NjE1Mzk4RDlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Hello Plum Smartwatch*\n💰 *$ 189.900* ya con *30% de descuento* 🔥\n✅ Llamadas por Bluetooth y notificaciones de WhatsApp\n✅ Mide ritmo cardíaco, oxígeno y sueño\n✅ Resiste lluvia y sudor; batería de 4 a 5 días\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-27T14:53:16.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSMDlBMzU1NzM2NUMwRDM5ODQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-27T14:53:17.228Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NDYzODkxFQIAERgSRkE5RDVDMTMyNDM0RDc3MDJFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reloj-premium"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "reloj-premium",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
