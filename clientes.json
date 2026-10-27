@@ -15539,8 +15539,8 @@
     "telefono": "573114237608",
     "nombre": "Islena Borja",
     "primerContacto": "2026-10-27T00:34:15.132Z",
-    "ultimoContacto": "2026-10-27T00:34:15.132Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T20:38:28.686Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15573,6 +15573,18 @@
         "fecha": "2026-10-27T00:34:14.114Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MjM3NjA4FQIAERgSRDY3NDU5MURFRUNGMkM2RjIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta eso es de la impresora",
+        "fecha": "2026-10-27T20:38:24.902Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, exacto, eso es de la *Impresora Térmica Portátil NETUM*. Es una impresora portátil, ligera, que imprime hojas tamaño carta en blanco y negro sin tinta, solo con papel térmico que ya incluye un rollo para empezar. La batería dura hasta 30 horas y se conecta fácil con Bluetooth al celular.\n\n¿Para qué necesitarías imprimir? Así te confirmo que es la mejor opción para ti. ¿Tareas, documentos, facturas o etiquetas?",
+        "fecha": "2026-10-27T20:38:27.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MjM3NjA4FQIAERgSNjdERkQ2NDg1ODIyQTc1QjY3AA=="
       }
     ],
     "paso": "conversando",
@@ -15587,10 +15599,9 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "interesColor": null
   },
   {
     "telefono": "CO.2621103458302351",
