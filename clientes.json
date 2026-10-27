@@ -49,8 +49,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:53:45.625Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-27T12:53:55.625Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -225,9 +225,21 @@
         "fecha": "2026-10-27T12:53:44.696Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEjAzMzI2OEFCOTQ2QURCODY0NAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo Resibo por envío de esa entidad",
+        "fecha": "2026-10-27T12:53:54.366Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-27T12:53:54.370Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkU1RTc3RDgzQjExMEU4QzczOAA="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -237,7 +249,8 @@
       "nombreCliente": "Luis Miguel",
       "celular": "3042369947",
       "ciudad": "Tauramena Casanare",
-      "direccion": "Para reclamar por internet rapidísimo"
+      "direccion": "Para reclamar por internet rapidísimo",
+      "barrio": "Solo Resibo por envío de esa entidad"
     },
     "pausado": false,
     "etapaManual": null,
