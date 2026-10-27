@@ -728,7 +728,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (productos.length === 1) {
                   const p = productos[0];
                   sesion.ultimoProducto = p.id;
-                  await enviarTexto(telefono, `*${p.nombre}*\n${formatearPrecio(p.precio)}\n\n${p.descripcion || ""}`.trim());
+                  await enviarTexto(telefono, presentacionCorta(p));
             } else if (info.resumen) {
                   await enviarTexto(telefono, info.resumen);
             } else {
@@ -2388,7 +2388,7 @@ async function manejarSeleccionProducto(telefono, productoId) {
 
       await enviarTexto(
             telefono,
-            `*${producto.nombre}*\n${formatearPrecio(producto.precio)}\n\n${producto.descripcion}`
+            presentacionCorta(producto)
             );
 
       // Ademas de mostrar el producto puntual que pidio, se le ensenan de una vez los combos con
@@ -3477,15 +3477,76 @@ async function enviarListaFamiliaTienda(telefono, ids) {
       );
 }
 
-// Ficha de un producto de la tienda: fotos + nombre/precio/descripcion + botones. Sin combos de regalo.
+// PRESENTACION CORTA DE PRODUCTO (oct-2026, Wendy, caso JUSTO P.H con el proyector: "envió demasiado largo ese
+// texto aburridor"). Antes se mandaba la descripcion completa de catalog.json (hasta 35 lineas) y la pregunta de
+// cierre quedaba enterrada. Ahora toda presentacion es de 6 a 8 lineas: nombre, precio con el 30%, 3 beneficios
+// cortos, envio y pago al recibir. La ficha completa solo se manda si el cliente pide mas detalles.
+// Los beneficios salen de la descripcion de cada producto en catalog.json, resumidos y pensados para el cliente
+// del campo. Un producto nuevo que no este aqui usa los 3 primeros puntos de su descripcion.
+const BENEFICIOS_CORTOS = {
+      "modem-4g": ["Internet WiFi donde no llega la fibra: finca o vereda", "Conecta varios celulares y equipos a la vez", "Fácil de usar y de llevar: funciona con red 4G"],
+      "modem-4g5g": ["Funciona con red 4G y 5G", "Conecta celulares, computador y tablet a la vez", "Ideal para finca y vereda, sin instalaciones"],
+      "modem-portatil-5g": ["Velocidad 5G convertida en WiFi", "Ideal para casa, finca o vereda con cobertura 5G", "Fácil de instalar y de usar"],
+      "impresora-termica": ["Imprime SIN TINTA: nunca más compras cartuchos", "Hojas tamaño carta desde tu celular", "Portátil: cabe en el bolso o la mochila"],
+      "combo-modem-impresora-estudio-trabajo": ["Tu propio WiFi con una SIM de datos, sin fibra", "Impresora tamaño carta SIN TINTA", "Para estudiar y trabajar desde la finca o la vereda"],
+      "combo-impresora-termica-portatil-reloj": ["Impresora térmica SIN TINTA desde tu celular", "Portátil: la llevas en el bolso", "Y te llevas un reloj de regalo 🎁"],
+      "combo-impresora-termica-portatil-camara-de-seguridad": ["Impresora térmica SIN TINTA desde tu celular", "Cámara de seguridad para vigilar desde el celular", "Dos soluciones en un solo pedido"],
+      "combo-modem-wifi-camara-de-seguridad": ["Internet WiFi donde no llega la fibra", "Cámara de 5 antenas con visión nocturna", "Vigilas tu casa o finca desde el celular"],
+      "combo-modem-wifi-reloj-inteligente": ["Internet WiFi donde no llega la fibra", "Reloj inteligente con funciones al alcance de tu muñeca", "Para casa, finca, vereda o viajes"],
+      "lamparas-3-lentes-x-2": ["Se cargan con el sol: cero gasto de luz", "3 lentes para iluminar más espacio", "Para entradas, patios, garajes y fincas (2 unidades)"],
+      "lampara-con-sensor-x-2": ["Panel solar: no necesita estar conectada", "Se enciende sola al detectar movimiento", "Diseño tipo cámara para exteriores (2 unidades)"],
+      "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid": ["Se carga sola con el sol: luz gratis", "Se enciende al detectar movimiento", "Parece una cámara y espanta a los extraños (3 unidades)"],
+      "lamparas-3-lentes-x-2-2": ["Energía solar, sin cables a la corriente", "3 lentes y sensor de movimiento", "Ilumina entrada, garaje y patio (3 unidades)"],
+      "mini-impresora-de-etiquetas-termica-p5-bluetooth": ["Etiquetas pequeñas desde tu celular, sin tinta", "Para marcar productos, frascos y útiles", "Bluetooth y batería recargable"],
+      "impresora-termica-portatil-de-etiquetas-clabel-221b": ["Etiquetas con precio, código de barras y vencimiento", "Sin tinta ni tóner", "Incluye un rollo de etiquetas para empezar"],
+      "impresora-termica-portatil-goojprt-pt-210": ["Recibos y tirillas al instante, tipo POS", "Para tienda, domicilios y ventas en campo", "Portátil y sin tinta"],
+      "mini-impresora-termica-portatil-bluetooth": ["Notas, listas, QR y stickers desde el celular", "Sin tinta y cabe en el bolsillo", "Incluye un rollo de papel para empezar"],
+      "reloj-curren-blanche-elegance-para-mujer": ["Diseño elegante con detalles en pedrería", "Combina con todo tu estilo", "Un regalo perfecto para alguien especial"],
+      "reloj-curren-8475-original-para-hombre": ["Diseño deportivo negro mate con detalles en verde", "Cronógrafo funcional", "Caja y correa metálica resistente"],
+      "reloj-curren-deportivo-chronograph": ["Diseño deportivo y robusto", "Cronómetro integrado", "Correa de silicona cómoda para todos los días"],
+      "reloj-curren-chronograph-deportivo-negro-y-verde": ["Diseño deportivo negro con verde", "Cronómetro integrado", "Materiales resistentes para el uso diario"],
+      "reloj-curren-chronograph-cuero-marron": ["Correa de cuero genuino color marrón", "Cronógrafo y fecha integrada", "Caja en tono oro rosa: elegante y duradero"],
+      "reloj-skmei-minimalista-black-edition": ["Diseño minimalista negro mate", "Acero inoxidable resistente", "Combina con un look elegante o casual"],
+      "smartwatch-inteligente": ["Pantalla AMOLED de alta definición", "Funciones de monitoreo y bienestar", "Diseño femenino, ideal para regalar"],
+      "reloj-premium": ["Llamadas por Bluetooth y notificaciones de WhatsApp", "Mide ritmo cardíaco, oxígeno y sueño", "Resiste lluvia y sudor; batería de 4 a 5 días"],
+      "smartwatch-s13-max": ["Recibe llamadas y mensajes en tu muñeca", "Controla tu ritmo cardíaco y actividad", "Pantalla que se ve bien hasta bajo el sol"],
+      "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p": ["Ves tu casa en vivo desde el celular, 1080p", "Escuchas y hablas a través de la cámara", "Te avisa si detecta movimiento; trae memoria de 64 GB 🎁"],
+      "camara-de-seguridad-inteligente-ptz-v380-pro": ["Doble lente y giro desde tu celular", "Visión nocturna a color", "Alertas de movimiento; trae memoria de 64 GB 🎁"],
+      "lampara-solar-de-seguridad-con-sensor-de-movimiento-y-cabezales-ajustables-3-lentes": ["Se carga con el sol y alumbra toda la noche", "3 cabezales que giras hacia donde necesitas", "Se enciende sola al detectar movimiento"],
+      "lampara-solar-de-seguridad-tipo-camara-con-sensor-de-movimiento": ["Carga solar: cero factura de luz", "Sensor de movimiento", "Parece una cámara: da sensación de seguridad"],
+      "pack-3-lamparas-solares-led-con-sensor-de-movimiento": ["Se cargan con el sol y se encienden solas", "Resisten lluvia (IP65)", "Se instalan en segundos (3 unidades)"],
+      "pack-3-lamparas-de-seguridad-con-sensor-y-control-remoto": ["Se encienden solas al detectar movimiento", "Control remoto incluido", "Sin cables, para patio, garaje o pasillo (3 unidades)"],
+      "mesa-plegable": ["Para usar el portátil en la cama o el sofá", "Se dobla y se guarda en cualquier rincón", "Ranura para sostener el celular o la tablet"],
+      "calculadira-pantalla": ["Calculadora y libreta LCD en uno", "Batería solar de larga duración", "Plegable y fácil de llevar"],
+      "proyector-portatil-minimalista-smart-cinema": ["Ves películas en la pared, tamaño cine", "Proyecta desde tu celular, sin cables", "Portátil y con control remoto fácil de usar"],
+      "camara-de-seguridad-5-antenas": ["Cámara con 5 antenas y movimiento", "Orientas la vigilancia hacia diferentes zonas", "Para tu casa, negocio o finca"],
+      "camara-3-lentes": ["Cámara de 3 lentes y 5 antenas", "Con movimiento para vigilar más espacio", "Ves la imagen desde el celular"],
+};
+function beneficiosCortos(producto) {
+      if (BENEFICIOS_CORTOS[producto.id]) return BENEFICIOS_CORTOS[producto.id];
+      return (producto.descripcion || "")
+            .split("\n")
+            .filter((l) => /^\s*(-|•|✅)/.test(l))
+            .map((l) => l.replace(/\*+/g, "").replace(/^\s*(-|•|✅)\s*/, "").split(":")[0].trim())
+            .filter((l) => l && l.length <= 70)
+            .slice(0, 3);
+}
+function presentacionCorta(producto) {
+      const lineas = [`*${producto.nombre}*`];
+      lineas.push(producto.id === "impresora-termica" ? lineaPrecioNetum(producto) : `💰 *${formatearPrecio(producto.precio)}* ya con *30% de descuento* 🔥`);
+      for (const b of beneficiosCortos(producto)) lineas.push(`✅ ${b}`);
+      lineas.push(`🚚 ${ENVIO_GRATIS_IDS.includes(producto.id) ? "Envío *GRATIS*" : "Envío $26.000"} y *pagas al recibir*`);
+      const colores = String(producto.color || "").replace(/Color:\s*/gi, "").trim();
+      if (colores && producto.tienda) lineas.push(`🎨 Colores: ${colores}`);
+      if (producto.agotado) lineas.push("⚠️ Agotado por el momento");
+      return lineas.join("\n");
+}
+// "Mas detalles", "caracteristicas", "ficha tecnica": ahi si va la descripcion completa del catalogo
+const PIDE_MAS_DETALLES = /(m[aá]s (detalles|informaci[oó]n|info\b|datos del producto)|caracter[ií]sticas|ficha( t[eé]cnica)?|especificaciones|descripci[oó]n completa|todo sobre)/i;
+
+// Ficha de un producto de la tienda: fotos + presentacion corta + botones. Sin combos de regalo.
 async function enviarTarjetaProductoTienda(telefono, producto) {
-      let descripcion = (producto.descripcion || "").trim();
-      if (descripcion.length > 2800) descripcion = descripcion.slice(0, 2800).replace(/\s+\S*$/, "") + "...";
-      let texto = `*${producto.nombre}*\n${formatearPrecio(producto.precio)}`;
-      if (producto.agotado) texto += "\n⚠️ Agotado por el momento";
-      if (producto.color) texto += `\nOpciones: ${producto.color}`;
-      if (descripcion) texto += `\n\n${descripcion}`;
-      await enviarTexto(telefono, texto);
+      await enviarTexto(telefono, presentacionCorta(producto));
 
       if (producto.agotado) {
             await enviarBotones(telefono, "Este modelo se agoto por ahora. Quieres ver otros?", [
@@ -3847,6 +3908,25 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       if (sesion.paso === "conversando" && (await responderObjecionImpresora(telefono, sesion, texto))) return;
+
+      // Pidio mas detalles del producto que venia viendo: la ficha completa del catalogo y el boton de cierre al final
+      const productoFicha = catalogo.find((p) => p.id === sesion.ultimoProducto);
+      if (sesion.paso === "conversando" && productoFicha && PIDE_MAS_DETALLES.test(texto) && (productoFicha.descripcion || "").trim()) {
+            let ficha = productoFicha.descripcion.trim();
+            if (ficha.length > 2800) ficha = ficha.slice(0, 2800).replace(/\s+\S*$/, "") + "...";
+            await enviarTexto(telefono, `*${productoFicha.nombre}*\n\n${ficha}`);
+            if (Array.isArray(sesion.historial)) {
+                  sesion.historial.push({ role: "user", content: texto });
+                  sesion.historial.push({ role: "assistant", content: `[Le envie la ficha completa de ${productoFicha.nombre}]` });
+            }
+            if (!productoFicha.agotado) {
+                  await enviarBotones(telefono, "¿Te lo envío? 🚚 Pagas al recibir", [
+                        { id: `pedir_${productoFicha.id}`, titulo: "✅ Sí, envíamelo" },
+                        productoFicha.tienda ? { id: "ver_tienda", titulo: "Ver la tienda" } : { id: "ver_catalogo", titulo: "Ver otros" },
+                  ]);
+            }
+            return;
+      }
 
       // "¿QUE OTROS ARTICULOS VENDES?" (oct-2026, Wendy: la IA respondia un parrafo pegado). Si pregunta en
       // general que mas vendemos (no "otras impresoras" ni "otros modelos"), va el listado bonito fijo y el link
