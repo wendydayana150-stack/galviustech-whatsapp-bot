@@ -30792,8 +30792,8 @@
     "telefono": "573222357972",
     "nombre": "NANDO😎",
     "primerContacto": "2026-10-18T23:42:44.948Z",
-    "ultimoContacto": "2026-10-19T22:34:38.162Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-27T03:06:20.328Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -31061,6 +31061,13 @@
         "fecha": "2026-10-19T22:34:37.268Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSNUYwRTQxQThDRDI1QjBGRjU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Nando* 👋 Soy Michell de Galviustech. Tu pedido del *Combo Módem WiFi + Cámara de Seguridad* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:06:19.383Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzU3OTcyFQIAERgSQjU5RThBQUJFMkRDODIwRjFBAA=="
       }
     ],
     "paso": "pedido_pago",
@@ -31076,7 +31083,7 @@
       "direccion": "En este momento no",
       "barrio": "Para el 30"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": "Compra más adelante",
     "ultimoProducto": "combo-modem-wifi-camara-de-seguridad",
     "ultimaCategoria": "modem",
@@ -31085,10 +31092,7 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     },
     "esperaCompra": {
       "fecha": "2026-10-30",
