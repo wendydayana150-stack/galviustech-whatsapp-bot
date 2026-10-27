@@ -15539,8 +15539,8 @@
     "telefono": "573114237608",
     "nombre": "Islena Borja",
     "primerContacto": "2026-10-27T00:34:15.132Z",
-    "ultimoContacto": "2026-10-27T20:38:28.686Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-27T20:38:47.182Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15585,6 +15585,18 @@
         "fecha": "2026-10-27T20:38:27.684Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MjM3NjA4FQIAERgSNjdERkQ2NDg1ODIyQTc1QjY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no lo necesito",
+        "fecha": "2026-10-27T20:38:43.730Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema. Cuando en algún momento necesites imprimir rápido sin depender de papelerías, recuerda que la Impresora NETUM está aquí para ayudarte con impresión fácil y portátil.\n\n¿Quieres que te muestre otras opciones como módems de internet, cámaras de seguridad o lámparas solares? Así tienes varias soluciones de GalviusTech para lo que necesites. ¿Qué te interesa? 😊",
+        "fecha": "2026-10-27T20:38:46.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MjM3NjA4FQIAERgSRDgwRDc3REFCM0IzOENCNkE0AA=="
       }
     ],
     "paso": "conversando",
@@ -15595,7 +15607,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
