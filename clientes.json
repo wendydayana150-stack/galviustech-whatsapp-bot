@@ -1626,8 +1626,8 @@
     "telefono": "573225982694",
     "nombre": "David Quiroz",
     "primerContacto": "2026-10-27T13:10:03.235Z",
-    "ultimoContacto": "2026-10-27T13:10:03.235Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T14:14:23.654Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1660,6 +1660,25 @@
         "fecha": "2026-10-27T13:10:01.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1OTgyNjk0FQIAERgSQTA3NEM3NDA0QkYyODAyRDhBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-27T14:10:56.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1OTgyNjk0FQIAERgSNTI2MDc3ODVBRUZCMjUyRTY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por el momento no y gracias",
+        "fecha": "2026-10-27T14:14:20.663Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, cualquier cosa que necesites aquí estaré para ayudarte. Cuando quieras conocer opciones o resolver dudas, me escribes sin compromiso, ¿vale? \n\n¿Hay algún producto en particular que te interese conocer para más adelante?",
+        "fecha": "2026-10-27T14:14:22.571Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1OTgyNjk0FQIAERgSQTVERDY3OTQwN0IyMzg3OUU2AA=="
       }
     ],
     "paso": "conversando",
@@ -1670,13 +1689,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
