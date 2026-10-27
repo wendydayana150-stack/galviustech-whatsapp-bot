@@ -545,10 +545,11 @@ function lineaPrecioNetum(netum) {
       return `💰 Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}* con *30% de descuento* 🔥`;
 }
 const TEXTO_PAPEL_NETUM_CORTO =
-      "📄 *Papel:* usa *papel térmico tamaño carta* (no usa tinta ni papel normal). *Ya trae papel para empezar* y después te lo vendemos nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
+      "📄 *Papel:* usa *papel térmico tamaño carta* (no usa tinta ni papel normal). *Trae un rollo de papel* para empezar y después te lo vendemos nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
 const TEXTO_PAPEL_NETUM =
       "📄 La NETUM *no usa tinta ni papel normal* (de resma): imprime en *papel térmico tamaño carta*.\n\n" +
-      "✅ *Ya trae papel para empezar*, y cuando se te acabe te lo vendemos nosotros y llega en el mismo envío:\n" +
+      "✅ Con la impresora va *un rollo de papel incluido*.\n" +
+      "🛒 El papel lo consigues *con nosotros mismos* y, si no, en papelerías. Si quieres, te lo agrego de una vez y llega en el mismo envío:\n" +
       "• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000";
 // Mas economicas que la NETUM, en orden de precio, con para que sirve cada una (de la guia de impresoras de config.js)
 const USO_IMPRESORAS_ECONOMICAS = {
@@ -3764,7 +3765,8 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
                   (netum ? `Si lo que necesitas es imprimir *hojas tamaño carta* (tareas, documentos), la indicada es la *NETUM*: hoy *${formatearPrecio(netum.precio)}* con envío GRATIS.\n\n` : "") +
                   (sabeUso ? "¿Cuál te llevas? 😊 Te la dejo lista hoy." : "¿Qué vas a imprimir, para decirte cuál te sirve más?");
       } else if (OBJECION_PAPEL.test(texto) && !(/impresora/i.test(texto) && PREGUNTA_PRECIO.test(texto)) && !/rollos? (de )?7|clabel|pt-?210|p5|mini/i.test(texto) && (sesion.ultimoProducto === "impresora-termica" || !esImpresoraSuelta(sesion.ultimoProducto))) {
-            respuesta = TEXTO_PAPEL_NETUM + "\n\n" + (sabeUso ? "¿Te la dejo lista con algo de papel extra? 🚚 Envío GRATIS y pagas al recibir" : "Cuéntame, ¿para qué la vas a usar? Así te digo cuánto papel te conviene 😊");
+            // Wendy (26-oct-2026): siempre se ofrece el papel adicional en el mismo mensaje, con pregunta para agregarlo
+            respuesta = TEXTO_PAPEL_NETUM + "\n\n" + "¿Cuál te agrego a tu pedido? 🚚 La NETUM va con envío GRATIS y pagas al recibir";
       }
 
       if (!respuesta) return false;
