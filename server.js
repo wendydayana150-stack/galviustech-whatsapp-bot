@@ -4,9 +4,11 @@ const axios = require("axios");
 const multer = require("multer");
 const catalogo = require("./catalog.json");
 const config = require("./config.js");
+const envios99 = require("./envios99.js");
 
 const app = express();
-app.use(express.json());
+// rawBody: el webhook de 99envios firma el cuerpo exacto que envia
+app.use(express.json({ verify: (req, res, buf) => { req.rawBody = buf; } }));
 app.use(express.urlencoded({ extended: true }));
 
 const subirArchivoChat = multer({
@@ -4518,6 +4520,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
                   <td>${p.departamento || ""} - ${p.ciudad || ""}</td>
                   <td>${p.direccion || ""} (${p.barrio || ""})</td>
                   <td>${p.medioPago || ""}</td>
+                  <td>${p.guia99?.tracking ? `${escaparHtml(p.guia99.tracking)}<br><small>${escaparHtml(p.guia99.estado || "")}</small>` : `<a href="/admin/guia99?f=${encodeURIComponent(p.fecha)}&t=${encodeURIComponent(p.telefono)}">Crear guía</a>`}</td>
                   </tr>`
                   )
             .join("");
@@ -4590,6 +4593,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
             <th>Departamento / Ciudad</th>
             <th>Direccion</th>
             <th>Pago</th>
+            <th>Guía 99envíos</th>
             </tr>
             ${filasPedidos}
             </table>
@@ -4844,6 +4848,319 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
       } catch (error) {
             console.error("Error mostrando conversacion:", error.response?.data || error.message);
             res.status(500).send("Hubo un error cargando la conversacion.");
+      }
+});
+
+// ==============================================
+// 99ENVIOS: crear guias desde el panel y avisar estados al cliente (ver envios99.js)
+// ==============================================
+// Un pedido se identifica por su fecha de registro + telefono (pedidos.json no tiene id).
+async function buscarPedido(fecha, telefono) {
+      const { datos } = await leerJSON(PEDIDOS_API);
+      return datos.find((p) => p.fecha === fecha && p.telefono === telefono) || null;
+}
+
+async function actualizarPedido(fecha, telefono, cambios, mensaje) {
+      let actualizado = null;
+      await conColaDeArchivo(PEDIDOS_API, async () => {
+            for (let intento = 0; intento < 4; intento++) {
+                  try {
+                        const { datos, sha } = await leerJSON(PEDIDOS_API);
+                        const p = datos.find((x) => x.fecha === fecha && x.telefono === telefono);
+                        if (!p) return;
+                        Object.assign(p, typeof cambios === "function" ? cambios(p) : cambios);
+                        await guardarJSON(PEDIDOS_API, datos, sha, mensaje);
+                        actualizado = p;
+                        return;
+                  } catch (error) {
+                        if ((error.response?.status === 409 || error.response?.status === 422) && intento < 3) continue;
+                        console.error("Error actualizando pedido (99envios):", error.response?.data || error.message);
+                        return;
+                  }
+            }
+      });
+      return actualizado;
+}
+
+// Guarda en clientes.json lo que se le escribio al cliente (y si Wendy debe atenderlo), sin contarlo como
+// actividad del cliente (no reinicia los recordatorios como guardarCliente).
+async function guardarAvisoEnvio(telefono, motivoAtencion) {
+      const sesion = obtenerSesion(telefono);
+      if (motivoAtencion) {
+            sesion.necesitaAtencion = true;
+            sesion.motivoAtencion = motivoAtencion;
+      }
+      await conColaDeArchivo(CLIENTES_API, async () => {
+            try {
+                  const { datos, sha } = await leerJSON(CLIENTES_API);
+                  const c = datos.find((x) => x.telefono === telefono);
+                  if (!c) return;
+                  if (sesion.transcripcion?.length) c.conversacion = sesion.transcripcion;
+                  if (motivoAtencion) {
+                        c.necesitaAtencion = true;
+                        c.motivoAtencion = motivoAtencion;
+                  }
+                  await guardarJSON(CLIENTES_API, datos, sha, "Aviso de envio 99envios");
+            } catch (error) {
+                  console.error("Error guardando aviso de envio:", error.response?.data || error.message);
+            }
+      });
+}
+
+// Mensaje al cliente sobre su envio. Dentro de las 24 h de WhatsApp va como texto normal; fuera de ellas solo se
+// puede con una plantilla aprobada (PLANTILLA_ESTADO_ENVIO en Render, cuerpo con {{1}} nombre, {{2}} estado y
+// {{3}} guia). Sin plantilla, queda marcado para que Wendy le avise a mano.
+async function avisarEnvioCliente(pedido, texto, estadoCorto) {
+      const telefono = pedido.telefono;
+      await cargarSesionSiNueva(telefono);
+      const sesion = obtenerSesion(telefono);
+      const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
+      const dentro24 = ultimoCliente && Date.now() - new Date(ultimoCliente.fecha).getTime() < 23 * 3600 * 1000;
+      const guia = pedido.guia99?.tracking || "";
+      try {
+            if (dentro24) {
+                  await enviarTexto(telefono, texto);
+            } else if (process.env.PLANTILLA_ESTADO_ENVIO) {
+                  const nombre = String(pedido.nombreCliente || "").trim().split(/\s+/)[0] || "cliente";
+                  const registro = registrarMensaje(telefono, "bot", `[Plantilla ${process.env.PLANTILLA_ESTADO_ENVIO}] ${estadoCorto} · guía ${guia}`);
+                  const r = await axios.post(
+                        GRAPH_URL,
+                        {
+                              messaging_product: "whatsapp",
+                              ...destinatario(telefono),
+                              type: "template",
+                              template: {
+                                    name: process.env.PLANTILLA_ESTADO_ENVIO,
+                                    language: { code: process.env.PLANTILLA_ESTADO_ENVIO_IDIOMA || "es_CO" },
+                                    components: [{ type: "body", parameters: [{ type: "text", text: nombre }, { type: "text", text: estadoCorto }, { type: "text", text: guia || "-" }] }],
+                              },
+                        },
+                        { headers: { Authorization: `Bearer ${META_TOKEN}` } }
+                  );
+                  if (registro) registro.wamid = r.data?.messages?.[0]?.id || null;
+            } else {
+                  await guardarAvisoEnvio(telefono, `📦 Avisar al cliente a mano (pasaron más de 24 h y no hay plantilla de envío): ${estadoCorto}. Guía ${guia}`);
+                  return false;
+            }
+      } catch (error) {
+            console.error(`Error avisando envio a ${telefono}:`, error.response?.data || error.message);
+            await guardarAvisoEnvio(telefono, `📦 No se pudo avisar al cliente por WhatsApp: ${estadoCorto}. Guía ${guia}`);
+            return false;
+      }
+      await guardarAvisoEnvio(telefono, null);
+      return true;
+}
+
+const ES_CONTRAENTREGA = /contra|efectivo|al recibir/i;
+
+function formularioGuia99(pedido, valores, mensaje) {
+      const v = valores;
+      const opcionesMunicipio = (v.municipios || [])
+            .map((m) => `<option value="${m.codigo}" ${m.codigo === v.codigoDane ? "selected" : ""}>${escaparHtml(m.municipio)} (${escaparHtml(m.departamento)}) - ${m.codigo}</option>`)
+            .join("");
+      const campo = (nombre, etiqueta, valor, extra = "") => `<label style="display:block;margin:8px 0">${etiqueta}<br><input name="${nombre}" value="${escaparHtml(valor)}" ${extra} style="width:100%;padding:6px"></label>`;
+      return `<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:720px">
+      <h2>Crear guía en 99envíos (Interrapidísimo)</h2>
+      ${envios99.entorno() === "sandbox" ? `<p style="background:#fff3cd;padding:8px">Modo <b>sandbox</b>: es una prueba y no crea guías reales. Para operar de verdad pon ENVIOS99_ENV=production en Render.</p>` : ""}
+      ${mensaje ? `<p style="background:#fde2e2;padding:8px">${mensaje}</p>` : ""}
+      <p><b>Pedido:</b> ${escaparHtml(pedido.nombreProducto)} · ${formatearFechaHora(pedido.fecha)} · Pago: ${escaparHtml(pedido.medioPago || "-")}</p>
+      <form method="post" action="/admin/guia99/cotizar">
+      <input type="hidden" name="f" value="${escaparHtml(pedido.fecha)}"><input type="hidden" name="t" value="${escaparHtml(pedido.telefono)}">
+      ${campo("nombre", "Nombre de quien recibe", v.nombre, "required")}
+      ${campo("celular", "Celular", v.celular, "required")}
+      <label style="display:block;margin:8px 0">Municipio de destino (el cliente escribió: <i>${escaparHtml(pedido.ciudad || "-")}, ${escaparHtml(pedido.departamento || "-")}</i>)<br>
+      <select name="codigoDane" style="width:100%;padding:6px">${v.codigoDane ? "" : `<option value="">Elige el municipio</option>`}${opcionesMunicipio}</select></label>
+      ${campo("codigoManual", "Código DANE (8 dígitos), solo si el municipio no aparece arriba", "", 'pattern="\\d{8}"')}
+      ${campo("direccion", "Dirección (y barrio)", v.direccion, "required")}
+      <label style="display:block;margin:8px 0">Entrega<br><select name="tipoEntrega" style="padding:6px">
+      <option value="DOMICILIO" ${v.tipoEntrega === "DOMICILIO" ? "selected" : ""}>A domicilio</option>
+      <option value="OFICINA" ${v.tipoEntrega === "OFICINA" ? "selected" : ""}>Reclama en oficina (si 99envíos no lo acepta, usa domicilio y ponlo en observaciones)</option>
+      </select></label>
+      ${campo("producto", "Contenido", v.producto, "required")}
+      ${campo("valorDeclarado", "Valor declarado (precio del producto)", v.valorDeclarado, 'type="number" min="0" required')}
+      <label style="display:block;margin:8px 0"><input type="checkbox" name="contraentrega" ${v.contraentrega ? "checked" : ""}> Cobrar contraentrega</label>
+      ${campo("valorCobrar", "Valor a cobrar al cliente (producto + envío que paga)", v.valorCobrar, 'type="number" min="0"')}
+      <p style="margin:12px 0 0"><b>Paquete</b> (revisa que sea el peso y las medidas reales ya empacado)</p>
+      ${campo("peso", "Peso (kg)", v.peso, 'type="number" step="0.1" min="0.1" required')}
+      ${campo("largo", "Largo (cm)", v.largo, 'type="number" min="1" required')}
+      ${campo("ancho", "Ancho (cm)", v.ancho, 'type="number" min="1" required')}
+      ${campo("alto", "Alto (cm)", v.alto, 'type="number" min="1" required')}
+      ${campo("observaciones", "Observaciones para la transportadora", v.observaciones)}
+      <button style="padding:10px 18px;font-size:16px;margin-top:12px">Cotizar con Interrapidísimo</button>
+      </form>
+      <p><a href="/admin">Volver al panel</a></p></div>`;
+}
+
+function valoresDesdePedido(pedido) {
+      const producto = catalogo.find((p) => p.id === pedido.productoId);
+      const paquete = envios99.paquetePorDefecto(producto);
+      const precio = Number(pedido.precio) || 0;
+      const oficina = RECOGE_EN_OFICINA.test(pedido.direccion || "");
+      const barrio = pedido.barrio && !/no aplica/i.test(pedido.barrio) ? `, barrio ${pedido.barrio}` : "";
+      return {
+            nombre: pedido.nombreCliente || "",
+            celular: pedido.celular || "",
+            municipios: envios99.buscarMunicipio(pedido.ciudad, pedido.departamento),
+            direccion: `${pedido.direccion || ""}${barrio}`,
+            tipoEntrega: oficina ? "OFICINA" : "DOMICILIO",
+            producto: pedido.nombreProducto || producto?.nombre || "",
+            valorDeclarado: precio,
+            contraentrega: ES_CONTRAENTREGA.test(pedido.medioPago || "contraentrega"),
+            valorCobrar: precio + envioDe(pedido.productoId),
+            peso: paquete.weight_kg,
+            largo: paquete.length_cm,
+            ancho: paquete.width_cm,
+            alto: paquete.height_cm,
+            observaciones: oficina ? "Cliente reclama en oficina de Interrapidísimo" : "",
+      };
+}
+
+function valoresDesdeFormulario(body) {
+      return {
+            nombre: String(body.nombre || "").trim(),
+            celular: String(body.celular || "").replace(/\D/g, ""),
+            codigoDane: /^\d{8}$/.test(body.codigoManual || "") ? body.codigoManual : body.codigoDane,
+            direccion: String(body.direccion || "").trim(),
+            tipoEntrega: body.tipoEntrega === "OFICINA" ? "OFICINA" : "DOMICILIO",
+            producto: String(body.producto || "").trim(),
+            valorDeclarado: Number(body.valorDeclarado) || 0,
+            contraentrega: !!body.contraentrega,
+            valorCobrar: Number(body.valorCobrar) || 0,
+            peso: Number(body.peso) || 0,
+            largo: Number(body.largo) || 0,
+            ancho: Number(body.ancho) || 0,
+            alto: Number(body.alto) || 0,
+            observaciones: String(body.observaciones || "").trim(),
+      };
+}
+
+const PIE_ADMIN = `<p><a href="/admin">Volver al panel</a></p></div>`;
+const CABEZA_ADMIN = `<meta charset="utf-8"><div style="font-family:sans-serif;padding:24px;max-width:720px">`;
+
+app.get("/admin/guia99", requiereLogin, async (req, res) => {
+      try {
+            if (!envios99.configurado()) return res.send(`${CABEZA_ADMIN}<h2>99envíos aún no está conectado</h2><p>Falta poner en Render las variables <b>ENVIOS99_API_KEY</b> (la key de comercio que generas en 99envíos) y <b>ENVIOS99_SECRET</b> (el secret HMAC que entrega 99envíos al habilitar el acceso B2B).</p>${PIE_ADMIN}`);
+            const pedido = await buscarPedido(req.query.f, req.query.t);
+            if (!pedido) return res.status(404).send(`${CABEZA_ADMIN}<p>No encontré ese pedido.</p>${PIE_ADMIN}`);
+            if (pedido.guia99?.tracking) return res.send(`${CABEZA_ADMIN}<h2>Este pedido ya tiene guía</h2><p>Guía <b>${escaparHtml(pedido.guia99.tracking)}</b> (${escaparHtml(pedido.guia99.estado || "Creado")}).${pedido.guia99.label_url ? ` <a href="${escaparHtml(pedido.guia99.label_url)}" target="_blank">Descargar etiqueta</a>` : ""}</p>${PIE_ADMIN}`);
+            const v = valoresDesdePedido(pedido);
+            v.codigoDane = v.municipios.length === 1 ? v.municipios[0].codigo : "";
+            let aviso = v.municipios.length > 1 ? "Hay varios municipios posibles: elige el correcto." : "";
+            if (!v.municipios.length) {
+                  v.municipios = envios99.municipiosDelDepartamento(pedido.departamento);
+                  aviso = `No reconocí "${escaparHtml(pedido.ciudad || "")}" como municipio (puede ser una vereda o corregimiento): elige el municipio${v.municipios.length ? " de la lista" : " o escribe el código DANE"}.`;
+            }
+            res.send(formularioGuia99(pedido, v, aviso));
+      } catch (error) {
+            console.error("Error abriendo guia 99envios:", error.message);
+            res.status(500).send(`${CABEZA_ADMIN}<p>Error: ${escaparHtml(error.message)}</p>${PIE_ADMIN}`);
+      }
+});
+
+app.post("/admin/guia99/cotizar", requiereLogin, async (req, res) => {
+      const pedido = await buscarPedido(req.body.f, req.body.t).catch(() => null);
+      if (!pedido) return res.status(404).send(`${CABEZA_ADMIN}<p>No encontré ese pedido.</p>${PIE_ADMIN}`);
+      const v = valoresDesdeFormulario(req.body);
+      const reabrir = (mensaje) => {
+            v.municipios = envios99.buscarMunicipio(pedido.ciudad, pedido.departamento);
+            if (!v.municipios.length) v.municipios = envios99.municipiosDelDepartamento(pedido.departamento);
+            return res.send(formularioGuia99(pedido, v, mensaje));
+      };
+      if (!/^\d{8}$/.test(v.codigoDane || "")) return reabrir("Falta el municipio de destino.");
+      if (v.celular.length < 7) return reabrir("El celular no es válido.");
+      try {
+            const q = await envios99.cotizar(v);
+            if (!q?.quote_id) return reabrir("99envíos no devolvió una cotización. Revisa los datos.");
+            const ocultos = Object.entries({ f: pedido.fecha, t: pedido.telefono, quote_id: q.quote_id, total: q.total_value, dias: q.estimated_days || "" })
+                  .map(([k, val]) => `<input type="hidden" name="${k}" value="${escaparHtml(val)}">`)
+                  .join("");
+            const d = q.value_detail || {};
+            res.send(`${CABEZA_ADMIN}<h2>Cotización Interrapidísimo</h2>
+            <p><b>${escaparHtml(v.nombre)}</b> · ${escaparHtml(v.direccion)} · DANE ${escaparHtml(v.codigoDane)}<br>${escaparHtml(v.producto)} · ${v.contraentrega ? `cobra contraentrega ${formatearPrecio(v.valorCobrar)}` : "sin cobro contraentrega"}</p>
+            <p style="font-size:20px">Costo del envío: <b>${formatearPrecio(Number(q.total_value) || 0)}</b>${q.estimated_days ? ` · ${q.estimated_days} día(s) hábiles aprox.` : ""}</p>
+            <p style="color:#555">Flete ${formatearPrecio(Number(d.freight) || 0)} · Recaudo ${formatearPrecio(Number(d.cod_fee) || 0)} · Sobreflete ${formatearPrecio(Number(d.overfreight) || 0)}</p>
+            <form method="post" action="/admin/guia99/crear">${ocultos}<button style="padding:10px 18px;font-size:16px">Crear la guía</button></form>
+            <p><a href="/admin/guia99?f=${encodeURIComponent(pedido.fecha)}&t=${encodeURIComponent(pedido.telefono)}">Corregir datos</a></p>${PIE_ADMIN}`);
+      } catch (error) {
+            reabrir(`No se pudo cotizar: ${escaparHtml(error.message)}`);
+      }
+});
+
+app.post("/admin/guia99/crear", requiereLogin, async (req, res) => {
+      const { f, t, quote_id } = req.body;
+      const pedido = await buscarPedido(f, t).catch(() => null);
+      if (!pedido) return res.status(404).send(`${CABEZA_ADMIN}<p>No encontré ese pedido.</p>${PIE_ADMIN}`);
+      if (pedido.guia99?.tracking) return res.redirect(`/admin/guia99?f=${encodeURIComponent(f)}&t=${encodeURIComponent(t)}`);
+      try {
+            const g = await envios99.crearGuia(quote_id);
+            if (!g?.tracking_number) throw new Error("99envíos no devolvió número de guía");
+            const guia99 = { tracking: g.tracking_number, carrier: envios99.CARRIER, label_url: g.label_url || null, costo: Number(req.body.total) || null, estado: "Creado", status_id: 1, status_version: 0, creada: new Date().toISOString(), entorno: envios99.entorno(), avisos: [] };
+            const actualizado = await actualizarPedido(f, t, { guia99 }, `Guía 99envíos ${g.tracking_number}`);
+            let avisado = false;
+            if (actualizado && envios99.entorno() === "production") {
+                  const nombre = String(pedido.nombreCliente || "").trim().split(/\s+/)[0] || "";
+                  avisado = await avisarEnvioCliente(actualizado, `¡Hola${nombre ? " " + nombre : ""}! 📦 Tu pedido de *${pedido.nombreProducto}* ya tiene guía de *Interrapidísimo*: *${g.tracking_number}*\n\nAquí te iré contando cómo va tu envío 🚚`, "Guía creada");
+            }
+            res.send(`${CABEZA_ADMIN}<h2>Guía creada ✅</h2><p>Número de guía: <b>${escaparHtml(g.tracking_number)}</b></p>
+            ${g.label_url ? `<p><a href="${escaparHtml(g.label_url)}" target="_blank">Descargar la etiqueta para imprimir</a></p>` : ""}
+            <p>${envios99.entorno() !== "production" ? "Modo sandbox: no se le escribió al cliente." : avisado ? "Ya le mandé el número de guía al cliente por WhatsApp." : "No pude escribirle al cliente: quedó marcado en el panel para avisarle a mano."}</p>
+            ${actualizado ? "" : "<p style='color:#b00'>Ojo: no se pudo guardar la guía en pedidos.json. Anota el número.</p>"}${PIE_ADMIN}`);
+      } catch (error) {
+            res.status(500).send(`${CABEZA_ADMIN}<h2>No se pudo crear la guía</h2><p>${escaparHtml(error.message)}</p><p><a href="/admin/guia99?f=${encodeURIComponent(f)}&t=${encodeURIComponent(t)}">Intentar de nuevo</a></p>${PIE_ADMIN}`);
+      }
+});
+
+// Registra en 99envios la URL donde avisan los estados (una sola vez, o si cambia la URL del bot)
+app.get("/admin/guia99/webhook", requiereLogin, async (req, res) => {
+      try {
+            const url = `https://${req.get("host")}/webhooks/99envios`;
+            await envios99.configurarWebhook(url);
+            res.send(`${CABEZA_ADMIN}<h2>Listo ✅</h2><p>99envíos avisará los cambios de estado de las guías a ${escaparHtml(url)}${envios99.entorno() === "sandbox" ? " (en sandbox es solo una prueba: no queda guardado)" : ""}.</p>${PIE_ADMIN}`);
+      } catch (error) {
+            res.status(500).send(`${CABEZA_ADMIN}<p>No se pudo configurar: ${escaparHtml(error.message)}</p>${PIE_ADMIN}`);
+      }
+});
+
+// Que se le dice al cliente en cada estado. Las novedades y devoluciones van a Wendy, no al cliente.
+const AVISO_POR_ESTADO = {
+      2: (n, g) => [`🚚 ¡${n}${n ? "tu" : "Tu"} pedido ya va en camino con Interrapidísimo! Guía *${g}*. Pronto te llega 😊`, "Va en camino"],
+      11: (n, g) => [`📦 ${n}${n ? "tu" : "Tu"} pedido ya llegó a la oficina de Interrapidísimo y está listo para que lo reclames. Lleva tu cédula y la guía *${g}* 😊`, "Listo para reclamar en oficina"],
+      3: (n) => [`✅ ${n}${n ? "tu" : "Tu"} pedido fue entregado. ¡Gracias por comprar en GalviusTech! 🙌 Si tienes cualquier duda con tu producto, escríbeme por aquí.`, "Entregado"],
+};
+const ESTADOS_PARA_WENDY = { 5: "Devuelto", 9: "Novedad", 6: "Anulado", 8: "Error de rastreo" };
+
+app.post("/webhooks/99envios", async (req, res) => {
+      if (!envios99.verificarWebhook(req.rawBody, req.get("X-Webhook-Timestamp"), req.get("X-Webhook-Signature"))) return res.status(401).json({ accepted: false });
+      const cuerpo = req.body || {};
+      if (process.env.ENVIOS99_TENANT_ID && cuerpo.tenant_id !== process.env.ENVIOS99_TENANT_ID) return res.status(403).json({ accepted: false });
+      try {
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            for (const ev of cuerpo.events || []) {
+                  const pedido = pedidos.find((p) => p.guia99?.tracking && p.guia99.tracking === ev.tracking_number);
+                  if (!pedido) continue; // guia creada fuera del bot
+                  const g = pedido.guia99;
+                  if ((g.eventos || []).includes(ev.event_id) || Number(ev.status_version) <= Number(g.status_version || 0)) continue; // repetido o viejo
+                  const actualizado = await actualizarPedido(pedido.fecha, pedido.telefono, (p) => ({
+                        guia99: { ...p.guia99, estado: ev.status_name || envios99.ESTADOS[ev.status_id] || String(ev.status_id), status_id: ev.status_id, status_version: ev.status_version, actualizada: ev.occurred_at || new Date().toISOString(), eventos: [...(p.guia99.eventos || []), ev.event_id].slice(-30) },
+                  }), `Estado guía ${ev.tracking_number}: ${ev.status_name || ev.status_id}`);
+                  if (!actualizado) continue;
+                  Object.assign(pedido, actualizado); // por si el mismo lote trae otro estado de esta guia
+                  const nombre = String(pedido.nombreCliente || "").trim().split(/\s+/)[0];
+                  const saludo = nombre ? `${nombre}, ` : "";
+                  const aviso = AVISO_POR_ESTADO[ev.status_id];
+                  if (aviso && !(g.avisos || []).includes(ev.status_id)) {
+                        const [texto, corto] = aviso(saludo, ev.tracking_number);
+                        await avisarEnvioCliente(actualizado, texto, corto);
+                        await actualizarPedido(pedido.fecha, pedido.telefono, (p) => ({ guia99: { ...p.guia99, avisos: [...(p.guia99.avisos || []), ev.status_id] } }), `Aviso de envío ${ev.tracking_number}`);
+                  } else if (ESTADOS_PARA_WENDY[ev.status_id]) {
+                        await cargarSesionSiNueva(pedido.telefono);
+                        await guardarAvisoEnvio(pedido.telefono, `📦 Guía ${ev.tracking_number}: ${ev.status_name || ESTADOS_PARA_WENDY[ev.status_id]}. Revisar en 99envíos y contactar al cliente.`);
+                  }
+            }
+            res.json({ accepted: true });
+      } catch (error) {
+            console.error("Error procesando webhook de 99envios:", error.response?.data || error.message);
+            res.status(500).json({ accepted: false });
       }
 });
 
