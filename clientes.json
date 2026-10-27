@@ -5511,8 +5511,8 @@
     "telefono": "573223147388",
     "nombre": "Camila Saavedra",
     "primerContacto": "2026-10-26T18:47:08.550Z",
-    "ultimoContacto": "2026-10-27T00:18:32.208Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-27T00:19:55.596Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -5612,15 +5612,64 @@
         "fecha": "2026-10-27T00:18:31.309Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSQTc4RjEyRTRFQzU1RDdFMDNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-27T00:19:50.563Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T00:19:52.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSOUY4RDFCMjMxMTIxODJDQzdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T00:19:52.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSQ0ZFQkQ1NjU1Q0FGMUM0QUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-27T00:19:53.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSNjM0QTUwNkI5NUM0M0YzRTAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Hello Plum Smartwatch]",
+        "fecha": "2026-10-27T00:19:53.641Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 🙌\n\nTe cuento que el Hello Plum Smartwatch tiene pantalla AMOLED HD, llamadas Bluetooth, notificaciones de WhatsApp y redes sociales, además de monitoreo de salud y modos deportivos para que lo uses en cualquier momento. La inversión es de **$189.900 + $26.000 de envío**. ✅ Pagas al recibir y tienes garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿A qué dirección te lo envío? ¿Prefieres pagar contra entrega o por transferencia?",
+        "fecha": "2026-10-27T00:19:53.647Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSMEQ1QzEwODVDOEZERTUwRDYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Smartwatch Z01 Mini AMOLED* ($ 159.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-27T00:19:54.374Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzMTQ3Mzg4FQIAERgSRTMyODkwQTc2RDQwRTQ4RjVEAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "reloj-premium"
+      "productoId": "smartwatch-inteligente",
+      "nombreProducto": "Smartwatch Z01 Mini AMOLED",
+      "precio": 159900,
+      "telefono": "573223147388"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reloj-premium",
+    "ultimoProducto": "smartwatch-inteligente",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
