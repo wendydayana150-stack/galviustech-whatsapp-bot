@@ -3,8 +3,8 @@
     "telefono": "573214579158",
     "nombre": "Proveedora B&L",
     "primerContacto": "2026-10-27T02:07:13.071Z",
-    "ultimoContacto": "2026-10-27T02:07:13.071Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-27T02:07:26.729Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-27T02:07:12.129Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0NTc5MTU4FQIAERgSMzUyMkRFMDdFRTIwNDgzOThGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Funciona para Iphon",
+        "fecha": "2026-10-27T02:07:22.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, te cuento que la Impresora Térmica Portátil NETUM funciona perfectamente con iPhone y también con Android. Se conecta por Bluetooth para que imprimas directo desde el celular, sin cables ni complicaciones.\n\nEsta impresora es ideal si quieres imprimir documentos tamaño carta (como tareas, facturas o guías) sin depender de tener una impresora grande o tinta. Además, imprime solo en blanco y negro y no necesita cartuchos, solo papel térmico que ya viene incluido.\n\n¿Para qué la necesitas, para estudio, trabajo o para tu negocio? Así te ayudo a confirmar si es la opción perfecta para ti.",
+        "fecha": "2026-10-27T02:07:25.695Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NTc5MTU4FQIAERgSRTY3MzAxOEU2REI4NzhCOTAzAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,10 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null
+    "esperaCompra": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573243726424",
