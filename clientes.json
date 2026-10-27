@@ -49,8 +49,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:53:26.998Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-27T12:53:45.625Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -206,6 +206,25 @@
         "fecha": "2026-10-27T12:53:25.837Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkU1QzRDQkUyRTFFQjQ1RDVERAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "?",
+        "fecha": "2026-10-27T12:53:42.409Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Lo que quieres es conectarte para tu casa, para el trabajo, para estudiar o para un negocio? \n\nImagínate tener internet propio sin depender de fibra ni de buscar WiFi ajeno, con tu módem que conecta varios dispositivos al mismo tiempo. ¿Te haría la vida más fácil?\n\n¿Cuántos dispositivos conectarías normalmente? Así te ayudo con el mejor plan y modelo.",
+        "fecha": "2026-10-27T12:53:43.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkE5NTA2QTUwRkQ0MDRDMEJFMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en que barrio queda esa direccion?",
+        "fecha": "2026-10-27T12:53:44.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEjAzMzI2OEFCOTQ2QURCODY0NAA="
       }
     ],
     "paso": "pedido_barrio",
