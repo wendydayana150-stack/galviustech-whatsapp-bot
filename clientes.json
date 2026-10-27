@@ -11967,8 +11967,8 @@
     "telefono": "CO.2378294486294384",
     "nombre": "Yeritza casallas",
     "primerContacto": "2026-10-26T13:00:28.522Z",
-    "ultimoContacto": "2026-10-26T18:08:03.154Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-27T03:06:58.783Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12100,6 +12100,41 @@
         "fecha": "2026-10-26T18:08:02.096Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjQzRDFENDVEQjFDQUQxQkUwNAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos hablando del Smartwatch S13 MAX y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T19:11:29.670Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjBFMDgyOTFCNEQwQjQxMjg1NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quedamos viendo el Smartwatch S13 MAX y quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-26T21:14:47.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEkZGNDg2NjUzQjIyNDZDQjg1NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-26T21:14:48.265Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEjBFNTQ0NkQzQTE3QkU1ODAyRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-26T21:14:48.882Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEkE4MkFDOEQ4RTU3Mjg4MDBEQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Yeritza* 👋 Soy Michell de Galviustech. Tu pedido del *Smartwatch S13 MAX* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:06:57.661Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM3ODI5NDQ4NjI5NDM4NBUUABEYEkU4NzZBNTkzODlGRDUzQjM0QgA="
       }
     ],
     "paso": "confirmar_producto",
@@ -12109,7 +12144,7 @@
       "precio": 249900,
       "telefono": "CO.2378294486294384"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "smartwatch-s13-max",
     "ultimaCategoria": "impresora",
@@ -12119,9 +12154,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
