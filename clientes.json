@@ -56,8 +56,8 @@
     "telefono": "573044088660",
     "nombre": "lorena Guerrero",
     "primerContacto": "2026-10-27T12:12:46.578Z",
-    "ultimoContacto": "2026-10-27T12:12:54.386Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-27T12:14:11.937Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,6 +109,18 @@
         "fecha": "2026-10-27T12:12:53.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0MDg4NjYwFQIAERgSRDlDODdCM0Y5RENCMTkyMTMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo le aviso",
+        "fecha": "2026-10-27T12:14:09.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta cuando decidas y necesites la impresora NETUM para imprimir sin depender de tinta ni cables. Recuerda que el envío es gratis y tienes garantía de 30 días.\n\nSi quieres, puedo mostrarte también otros productos que te sirvan, ¿te interesa?",
+        "fecha": "2026-10-27T12:14:10.963Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0MDg4NjYwFQIAERgSMzI1RDU2NEJBMjNDNTIyM0Q0AA=="
       }
     ],
     "paso": "conversando",
@@ -119,7 +131,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
