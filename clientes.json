@@ -3,8 +3,8 @@
     "telefono": "CO.1627442305492911",
     "nombre": "luis miguel bahamon barri",
     "primerContacto": "2026-10-27T12:47:53.208Z",
-    "ultimoContacto": "2026-10-27T12:52:11.908Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-27T12:52:16.824Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -112,6 +112,18 @@
         "fecha": "2026-10-27T12:52:10.739Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkM3MjREQ0ExRUVDOTJFRUQ3RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bahamon",
+        "fecha": "2026-10-27T12:52:15.728Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?",
+        "fecha": "2026-10-27T12:52:15.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYyNzQ0MjMwNTQ5MjkxMRUUABEYEkQ0MkNCNTczQjRGNTVBMzBBRgA="
       }
     ],
     "paso": "pedido_celular",
