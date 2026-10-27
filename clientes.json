@@ -7521,8 +7521,8 @@
     "telefono": "573045543095",
     "nombre": "JUSTO P.H",
     "primerContacto": "2026-10-26T18:46:05.639Z",
-    "ultimoContacto": "2026-10-26T22:56:34.726Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-27T03:07:18.299Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -7617,13 +7617,20 @@
         "fecha": "2026-10-26T22:56:33.587Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSQUJDOTVFMkE3MDVBRDIxODM2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola *Justo* 👋 Soy Michell de Galviustech. Tu pedido del *Proyector Smart Cinema* quedó pendiente, y te cuento que está en *promoción* 🔥 Aprovecha el descuento porque son las *últimas unidades*. Enviamos a toda Colombia y pagas al recibir 🚚 ¿Te lo separo? Respóndeme *SÍ* y terminamos tus datos en 1 minuto.",
+        "fecha": "2026-10-27T03:07:17.403Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1NTQzMDk1FQIAERgSMzM5RjBCNzg2RjY4QjA0Q0Q0AA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "proyector-portatil-minimalista-smart-cinema"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "proyector-portatil-minimalista-smart-cinema",
     "ultimaCategoria": null,
