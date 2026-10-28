@@ -59,8 +59,8 @@
     "telefono": "573227690354",
     "nombre": "Zolina Ariza E.",
     "primerContacto": "2026-10-28T15:11:10.008Z",
-    "ultimoContacto": "2026-10-28T15:11:10.008Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T15:11:19.577Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -68,6 +68,18 @@
         "fecha": "2026-10-28T15:11:08.593Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSMTAyREIzNkJCMzVBNTc3OTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola 👋 Mucho gusto mi nombre es Zolina Ariza y estoy para ayudarte 🤝 \nGuárdame en tus contactos para que puedas ver mis estados y promos!!! 🥳\n\nDime cuál es tu nombre y apellido???  \nPara poder guardarte en mis contactos también 👌",
+        "fecha": "2026-10-28T15:11:15.801Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Zolina! 😊 Mi nombre es Michell y estaré atenta para ayudarte con lo que necesites de GalviusTech.\n\nPor cierto, ¿para qué necesitas la Impresora NETUM? ¿Estudio, trabajo, negocio o algo más? Así te puedo dar la mejor recomendación.",
+        "fecha": "2026-10-28T15:11:17.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjkwMzU0FQIAERgSRUMzRDM2Q0Q3QjMyQTFFRjAwAA=="
       }
     ],
     "paso": "conversando",
@@ -81,7 +93,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573027356115",
