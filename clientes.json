@@ -2989,8 +2989,8 @@
     "telefono": "573186771660",
     "nombre": "Hermes",
     "primerContacto": "2026-10-28T15:16:24.655Z",
-    "ultimoContacto": "2026-10-28T16:10:21.207Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-28T16:13:54.916Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -3022,11 +3022,25 @@
         "rol": "cliente",
         "texto": "Cuales son los requisitos",
         "fecha": "2026-10-28T16:10:20.628Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. ¿Podrías decirme a qué producto te refieres con \"requisitos\"? ¿Quieres saber sobre el módem WiFi portátil 4G o algún otro producto? Así te puedo dar la info precisa. ¿Para qué lo necesitas?",
+        "fecha": "2026-10-28T16:13:53.408Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSNkM2QjdBQzgyQzM5RkNBRUREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-28T16:13:54.011Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSNzg2NTQ0QzcyQzgwNEEyMzIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
