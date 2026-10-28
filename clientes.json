@@ -3,8 +3,8 @@
     "telefono": "573123551153",
     "nombre": "Lida",
     "primerContacto": "2026-10-28T03:31:51.239Z",
-    "ultimoContacto": "2026-10-28T03:32:54.126Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-28T03:34:11.114Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,6 +81,25 @@
         "fecha": "2026-10-28T03:32:52.974Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSQTQ3QzExQkE5RUQzNzYxNDAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Donde se inserta la SIM?",
+        "fecha": "2026-10-28T03:34:07.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La SIM se inserta en un espacio especial dentro del módem que se accede quitando una tapa pequeña en uno de sus lados. Es muy fácil, como si le pusieras la SIM a un celular.\n\n¿Quieres que te ayude con el pedido para que empecemos a conectarte rápido? 😊",
+        "fecha": "2026-10-28T03:34:09.295Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSQzk1RkJGMUMwQjk5QjAyNUM0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-28T03:34:09.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSNDJDNDQ2RkNDODMwNUI5NjNEAA=="
       }
     ],
     "paso": "conversando",
