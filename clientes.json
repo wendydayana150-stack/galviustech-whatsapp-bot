@@ -3,8 +3,8 @@
     "telefono": "573124748619",
     "nombre": "🍓🖇️✨",
     "primerContacto": "2026-10-28T20:22:38.413Z",
-    "ultimoContacto": "2026-10-28T20:39:13.519Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-28T20:39:20.161Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,10 +138,34 @@
         "fecha": "2026-10-28T20:39:12.558Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NzQ4NjE5FQIAERgSRkVDNDY0RkM4QjA2MDRDNjUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Porfa",
+        "fecha": "2026-10-28T20:39:15.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, entonces te dejo el pedido listo para que tengas internet siempre donde más lo necesitas en esa zona rural.  \n\nSolo dime, ¿te lo envío a tu casa o prefieres recogerlo en la oficina de Interrapidísimo o Coordinadora? ¿Y en qué ciudad o municipio estás?",
+        "fecha": "2026-10-28T20:39:18.014Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NzQ4NjE5FQIAERgSNEE4NDdFQTQ2MjIxRDEwQzlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-28T20:39:18.897Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NzQ4NjE5FQIAERgSRkQzNDUyQjc2QURGODMzNTY4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573124748619"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
