@@ -5146,8 +5146,8 @@
     "telefono": "573054184387",
     "nombre": "❤Abraham❤Angie,❤️gadiel❤️",
     "primerContacto": "2026-10-28T15:11:40.520Z",
-    "ultimoContacto": "2026-10-28T15:11:40.520Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T16:02:50.617Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -5155,6 +5155,18 @@
         "fecha": "2026-10-28T15:11:39.343Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSRkJEOUE3RjMzNzExODgwQUM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Módem wifi que vale??",
+        "fecha": "2026-10-28T16:02:48.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-28T16:02:49.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSRDRENUY2NzdCNzFCNzgzQjgyAA=="
       }
     ],
     "paso": "conversando",
@@ -5163,12 +5175,15 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Módem wifi que vale??\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573235974046",
