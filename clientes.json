@@ -2989,8 +2989,8 @@
     "telefono": "573186771660",
     "nombre": "Hermes",
     "primerContacto": "2026-10-28T15:16:24.655Z",
-    "ultimoContacto": "2026-10-28T15:29:59.601Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-28T16:08:16.200Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -3010,16 +3010,23 @@
         "fecha": "2026-10-28T15:29:58.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSNDg1NDVFMjc5M0I3ODgwOUU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, Cuentame si sr",
+        "fecha": "2026-10-28T16:08:14.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSODkyMzYyRTRBMDEyODJDMzVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Hola\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
