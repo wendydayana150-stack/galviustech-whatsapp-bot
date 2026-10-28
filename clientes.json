@@ -21983,8 +21983,8 @@
     "telefono": "573218313361",
     "nombre": "Bendecido Gracias Dios 🙏❤",
     "primerContacto": "2026-10-26T18:46:21.304Z",
-    "ultimoContacto": "2026-10-28T01:07:05.487Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-28T01:11:07.456Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "bot",
@@ -22178,14 +22178,28 @@
         "fecha": "2026-10-28T01:07:04.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSREI5Q0U2Njk1ODhDOUNCQ0IzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buen día \nCalle 48 #51a24 \nLc 025 imperio cc Hollywood \n3218313361",
+        "fecha": "2026-10-28T01:11:06.436Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-28T01:11:06.438Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSQjY3NEI0RThDRUU3Qzg1MzI4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
-      "telefono": "573218313361"
+      "telefono": "573218313361",
+      "celular": "3218313361",
+      "nombreCliente": "Buen día \nCalle 48 #51a24 \nLc 025 imperio cc Hollywood"
     },
     "pausado": false,
     "etapaManual": null,
