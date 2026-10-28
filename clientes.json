@@ -451,8 +451,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-28T15:21:45.710Z",
-    "ultimoContacto": "2026-10-28T15:24:42.552Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-28T15:34:35.917Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -496,16 +496,23 @@
         "fecha": "2026-10-28T15:24:41.270Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSQThCMDhENjRCQjhCQjhEQzQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-28T15:34:34.424Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSNzI5QTUxRUY2RTM5RTc5RjlFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"👍\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
