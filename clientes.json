@@ -451,8 +451,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-28T15:21:45.710Z",
-    "ultimoContacto": "2026-10-28T15:23:10.277Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-28T15:23:45.917Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -472,6 +472,18 @@
         "fecha": "2026-10-28T15:23:09.021Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSNzVENEVCQUM0N0IwODNCRTg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias ya no quiero nada por internet.",
+        "fecha": "2026-10-28T15:23:42.817Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, Elizabeth, gracias por contarme. Si en algún momento necesitas algún equipo o tienes dudas, aquí estaré para ayudarte. Que tengas un buen día.",
+        "fecha": "2026-10-28T15:23:44.928Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMkE3QTlBMTYyRjZFRTczNjFEAA=="
       }
     ],
     "paso": "conversando",
@@ -481,8 +493,8 @@
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Gracias ya me enviaron pero me llegó fue una antena TDT 😡 le agradezco\"",
-    "pausarSeguimiento": false,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No gracias ya no quiero nada por internet.\"",
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
