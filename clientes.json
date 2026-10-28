@@ -451,8 +451,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-28T15:21:45.710Z",
-    "ultimoContacto": "2026-10-28T15:21:45.710Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T15:23:10.277Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -460,6 +460,18 @@
         "fecha": "2026-10-28T15:21:42.972Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSNzUxOTA0RDk0REMwMDUyOTE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias ya me enviaron pero me llegó fue una antena TDT 😡 le agradezco",
+        "fecha": "2026-10-28T15:23:06.692Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento mucho la confusión y el inconveniente con tu pedido, Elizabeth. Voy a reportar esto para que te hagan el cambio correcto cuanto antes. Ya mismo te asigno a un asesor que te dará seguimiento personalizado y solución rápida. Gracias por la paciencia.",
+        "fecha": "2026-10-28T15:23:09.021Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSNzVENEVCQUM0N0IwODNCRTg2AA=="
       }
     ],
     "paso": "conversando",
@@ -468,12 +480,15 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Gracias ya me enviaron pero me llegó fue una antena TDT 😡 le agradezco\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042481803",
