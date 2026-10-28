@@ -21983,8 +21983,8 @@
     "telefono": "573218313361",
     "nombre": "Bendecido Gracias Dios 🙏❤",
     "primerContacto": "2026-10-26T18:46:21.304Z",
-    "ultimoContacto": "2026-10-27T23:36:04.514Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-28T01:07:05.487Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -22159,10 +22159,34 @@
         "fecha": "2026-10-27T23:36:03.605Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSQkE3OUVENDE0RjE0MkE1MzdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-28T00:39:16.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSNzU0RTI5MDVCRjY4QkNBMjc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-28T01:07:04.053Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 169.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-28T01:07:04.433Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSREI5Q0U2Njk1ODhDOUNCQ0IzAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573218313361"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
@@ -22173,8 +22197,7 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     },
     "interesColor": null
   },
