@@ -3,8 +3,8 @@
     "telefono": "573136252589",
     "nombre": "Uber Villada Silva",
     "primerContacto": "2026-10-28T23:12:51.385Z",
-    "ultimoContacto": "2026-10-28T23:12:51.385Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T23:13:21.394Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-28T23:12:50.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNEIzMjE5MTBBQzMzNUVCODc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-28T23:13:18.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊\n\n¿Me cuentas en qué ciudad o municipio estás y para qué necesitas imprimir? Así te puedo recomendar la impresora que mejor te sirve.\n\n¿Es para tareas, facturas, recibos, etiquetas o algo más?",
+        "fecha": "2026-10-28T23:13:20.589Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSQzc0Q0E4MjE5MzVEM0NCNUMyAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1128238496578717",
