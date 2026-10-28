@@ -2663,7 +2663,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             paso: "pedido_departamento",
             tipo: "departamento",
             pregunta: "En que departamento vives?",
-            mensajeError: "Disculpa, no entendi bien ese departamento. Me lo confirmas de nuevo?",
+            mensajeError: "No reconocí ese departamento 🤔 ¿En qué departamento vives? Por ejemplo: Antioquia, Tolima o Valle del Cauca.",
       },
       {
             campo: "ciudad",
@@ -2772,6 +2772,71 @@ function medioPagoReciente(sesion) {
 // (ej. "Gfh", "asdf", una respuesta de pago que no es ninguna de las opciones). No puede detectar
 // TODO dato invalido (una direccion real puede tener cualquier forma), pero si filtra los casos
 // obvios de texto sin sentido.
+// DATOS EN VARIAS LINEAS (caso Javier 27-oct-2026: mando "Buen día / Calle 48 #51a24 / Lc 025 imperio cc Hollywood /
+// 3218313361" cuando se le pidio el nombre; todo eso quedo guardado como NOMBRE, luego "Javier" quedo como
+// DEPARTAMENTO y el pedido se quedo a medias). Se lee linea por linea: saludo, celular, direccion, departamento,
+// municipio y nombre, y cada dato va a su campo.
+const ES_SALUDO = /^\s*(hola|buen[oa]s?(\s+(d[ií]as?|tardes|noches))?|buen\s+d[ií]a|saludos|qu[eé] tal)[\s!.,😊🙏👋]*$/i;
+const ES_DIRECCION = /\b(calle|cll|cl|carrera|cra|kra|kr|cr|diagonal|dg|transversal|transv|tv|avenida|av|autopista|mz|manzana|casa|lote|local|lc|apto|apartamento|bloque|torre|interior|edificio|edif|conjunto|km|kil[oó]metro|centro comercial|cc|urbanizaci[oó]n|urb)\b|#|\bn[°º]\s*\d/i;
+function pareceDireccion(texto) {
+      const t = String(texto || "");
+      return ES_DIRECCION.test(t) && /\d/.test(t);
+}
+function tituloMunicipio(nombreDane) {
+      return String(nombreDane || "").toLowerCase().replace(/(^|[\s(])([a-záéíóúñü])/g, (m, a, b) => a + b.toUpperCase()).replace(/\b(De|Del|La|Las|Los|Y|El)\b/g, (x) => x.toLowerCase());
+}
+// Departamento del DANE ("BOGOTÁ, D.C.", "VALLE DEL CAUCA") con el mismo nombre que usa el resto del flujo
+function deptoDesdeDane(nombreDane) {
+      const d = quitarTildes(nombreDane).toLowerCase();
+      const candidatos = DEPARTAMENTOS_COLOMBIA.filter((x) => d.includes(quitarTildes(x).toLowerCase())).sort((a, b) => b.length - a.length);
+      const depto = candidatos[0];
+      return depto === "Guajira" ? "La Guajira" : depto === "Valle" ? "Valle del Cauca" : depto || null;
+}
+// Un municipio que se reconoce sin dudas (ej. "Medellin") con su departamento
+function municipioUnico(texto, departamento) {
+      const r = envios99.buscarMunicipio(texto, departamento || "");
+      return r.length === 1 ? { ciudad: tituloMunicipio(r[0].municipio), departamento: deptoDesdeDane(r[0].departamento) } : null;
+}
+function datosPorLineas(texto) {
+      const lineas = String(texto || "").split(/\n+/).map((l) => l.trim()).filter(Boolean);
+      const datos = {};
+      if (lineas.length < 2) return datos;
+      const direccion = [];
+      for (const l of lineas) {
+            if (ES_SALUDO.test(l)) continue;
+            const digitos = l.replace(/[\s().+-]/g, "").replace(/^57(?=3\d{9}$)/, "");
+            if (/^\d{7,10}$/.test(digitos)) {
+                  if (!datos.celular) datos.celular = digitos;
+                  continue;
+            }
+            const barrio = l.match(/^barrio\s*:?\s+(.{2,60})$/i);
+            if (barrio) {
+                  if (!datos.barrio) datos.barrio = barrio[1].trim();
+                  continue;
+            }
+            if (pareceDireccion(l)) {
+                  direccion.push(l);
+                  continue;
+            }
+            const campos = extraerCamposPedido(l);
+            if (campos.departamento && l.split(/\s+/).length <= 5) {
+                  if (!datos.departamento) datos.departamento = campos.departamento;
+                  const muni = municipioUnico(l, campos.departamento);
+                  if (muni && !datos.ciudad) datos.ciudad = muni.ciudad;
+                  continue;
+            }
+            const muni = l.split(/\s+/).length <= 4 ? municipioUnico(l, "") : null;
+            if (muni) {
+                  if (!datos.ciudad) datos.ciudad = muni.ciudad;
+                  if (!datos.departamento && muni.departamento) datos.departamento = muni.departamento;
+                  continue;
+            }
+            if (!datos.nombreCliente && pareceRespuestaValidaPedido(l, "nombre") && !NO_ES_NOMBRE.test(l)) datos.nombreCliente = l;
+      }
+      if (direccion.length) datos.direccion = direccion.join(", ");
+      return datos;
+}
+
 function pareceRespuestaValidaPedido(texto, tipo) {
       const limpio = (texto || "").trim();
       if (!limpio) return false;
@@ -2786,6 +2851,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   // (que no es "solo letras y espacios") se cuele como si fuera un nombre valido.
                   // Frases de chat que no son un nombre (caso real oct-2026: "Elijo este mejor" quedo como nombre)
                   if (/\b(elijo|escojo|quiero|prefiero|mejor|este|esta|ese|esa|combo|reloj|camara|c[aá]mara|modem|m[oó]dem|precio|cuanto|cu[aá]nto|gracias|hola|listo|dale|bueno|perfecto|ok|si|s[ií]|no|regalo|pedido|opcion|opci[oó]n|pregunta|duda|consulta|tengo|saber|informaci[oó]n|sirve)\b/i.test(limpio)) return false;
+                  // Un nombre no trae numeros, saltos de linea, saludos ni partes de direccion (caso Javier)
+                  if (/\d|\n/.test(limpio) || ES_DIRECCION.test(limpio) || /\bbuen[oa]s?\b|\bd[ií]as?\b|\bsaludos\b/i.test(limpio)) return false;
                   return limpio.length >= 3 && tieneLetra && (!soloLetrasYEspacios || tieneVocal);
             case "celular": {
                   const digitos = limpio.replace(/\D/g, "");
@@ -2796,6 +2863,9 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   if (/^(el |la |mi |para (el |la |mi )?)?(hogar|casa|finca|negocio|trabajo|trabajar|estudio|estudiar|oficina|empresa|tienda|uso personal)\s*[.!]*$/i.test(limpio)) return false;
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "departamento":
+                  // Caso Javier: "Javier" quedo como departamento. Solo vale un departamento de Colombia o un municipio
+                  // que lo identifique sin dudas (ej. "Medellin" -> Antioquia).
+                  return !!extraerCamposPedido(limpio).departamento || !!municipioUnico(limpio, "");
             case "barrio":
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "direccion":
@@ -3180,7 +3250,7 @@ async function manejarFlujoPedido(telefono, texto) {
       }
 
       // Comentario en vez de nombre (caso Ever: "Es para la casa y terreno" no es un nombre): se responde y se retoma.
-      const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto);
+      const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto) && Object.keys(datosPorLineas(texto)).length < 2;
       if (noPareceNombre || pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
             // Solo manda "?": no entendio que se le pide. Se le explica el dato, sin pasar por la IA (caso luis miguel).
             if (/^\s*[?¿]+\s*$/.test(texto)) {
@@ -3212,6 +3282,7 @@ async function manejarFlujoPedido(telefono, texto) {
       // los llena si todavia no los teniamos, para no pisar un dato ya confirmado antes con un
       // falso positivo de un mensaje posterior (ej. una direccion que por casualidad contenga una
       // secuencia de numeros parecida a un celular).
+      const pedidoAntes = { ...sesion.pedido };
       const extraidos = extraerCamposPedido(texto);
       if (!sesion.pedido.celular && extraidos.celular) sesion.pedido.celular = extraidos.celular;
       if (!sesion.pedido.departamento && extraidos.departamento) sesion.pedido.departamento = extraidos.departamento;
@@ -3228,6 +3299,29 @@ async function manejarFlujoPedido(telefono, texto) {
             const valor = campoDelMensajeCatalogo(texto, etiquetasFlujo[d.campo] || []);
             if (valor && pareceRespuestaValidaPedido(valor, d.tipo)) sesion.pedido[d.campo] = valor;
       }
+      // Varios datos en lineas separadas (caso Javier): cada uno a su campo, y el mensaje no se usa entero para el paso actual
+      const porLineas = datosPorLineas(texto);
+      const recibidos = Object.keys(porLineas).filter((k) => !pedidoAntes[k]);
+      for (const k of recibidos) if (!sesion.pedido[k]) sesion.pedido[k] = porLineas[k];
+      if (recibidos.length >= 2) {
+            const siguiente = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
+            if (!siguiente) {
+                  await finalizarPedidoSesion(telefono);
+                  return true;
+            }
+            const nombres = { nombreCliente: "tu nombre", celular: "tu celular", departamento: "tu departamento", ciudad: "tu ciudad", direccion: "tu dirección", barrio: "tu barrio" };
+            const lista = recibidos.map((k) => nombres[k]).filter(Boolean);
+            const yaTengo = lista.length > 1 ? lista.slice(0, -1).join(", ") + " y " + lista[lista.length - 1] : lista[0];
+            sesion.paso = siguiente.paso;
+            await enviarTexto(telefono, `¡Gracias! 🙌 Ya tengo ${yaTengo}.\n\n${preguntaParaRetomar(siguiente).replace(/^Ahora sí, /, "Ahora, ")}`);
+            return true;
+      }
+      // Una direccion que llega cuando se pedia otro dato (ej. el nombre): se guarda como direccion y se sigue pidiendo lo que falta
+      if (definicionActual.campo !== "direccion" && !sesion.pedido.direccion && pareceDireccion(texto) && !sesion.pedido[definicionActual.campo]) {
+            sesion.pedido.direccion = texto.trim();
+            await enviarTexto(telefono, `¡Gracias! Ya tengo tu dirección 🏠\n\n${preguntaParaRetomar(definicionActual).replace(/^Ahora sí, /, "Ahora, ")}`);
+            return true;
+      }
 
       // Si el campo del paso actual sigue vacio (no vino en la extraccion de arriba), lo
       // validamos y lo llenamos con la respuesta de este mensaje, igual que antes.
@@ -3238,6 +3332,15 @@ async function manejarFlujoPedido(telefono, texto) {
             let textoParaValidar = texto;
             if (definicionActual.campo === "nombreCliente" && extraidos.textoAntesDelPrimerDato) {
                   textoParaValidar = extraidos.textoAntesDelPrimerDato;
+            }
+
+            // Caso Javier: respondio "Contra entrega" cuando se le pedia el barrio y quedo como barrio. Si el mensaje solo
+            // trae otro dato (el medio de pago o el celular), ese dato ya se guardo arriba y se vuelve a pedir el actual.
+            const soloPago = definicionActual.tipo !== "pago" && extraidos.medioPago && texto.trim().split(/\s+/).length <= 4;
+            const soloCelular = definicionActual.tipo !== "celular" && extraidos.celular && !/[a-záéíóúñ]/i.test(texto);
+            if (soloPago || soloCelular) {
+                  await enviarTexto(telefono, `¡Anotado! 👍\n\n${preguntaParaRetomar(definicionActual).replace(/^Ahora sí, /, "Ahora, ")}`);
+                  return true;
             }
 
             // NO GUARDAR CONVERSACION COMO DATO (caso Onadis oct-2026: quedaron como nombre "Solo el moden", como
@@ -3266,6 +3369,12 @@ async function manejarFlujoPedido(telefono, texto) {
             }
 
             sesion.pedido[definicionActual.campo] = definicionActual.campo === "cedula" ? textoParaValidar.replace(/\D/g, "") : textoParaValidar;
+            if (definicionActual.campo === "departamento") {
+                  const depto = extraerCamposPedido(textoParaValidar).departamento;
+                  const muni = depto ? null : municipioUnico(textoParaValidar, "");
+                  sesion.pedido.departamento = depto || muni?.departamento || textoParaValidar;
+                  if (muni && !sesion.pedido.ciudad) sesion.pedido.ciudad = muni.ciudad;
+            }
             // Recoge en oficina: que quede claro para el despacho y sin barrio
             if (definicionActual.campo === "direccion" && RECOGE_EN_OFICINA.test(textoParaValidar)) {
                   if (!/oficina/i.test(textoParaValidar)) sesion.pedido.direccion = `${textoParaValidar} (recoge en oficina de la transportadora)`;
