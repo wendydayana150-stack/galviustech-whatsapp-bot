@@ -3,8 +3,8 @@
     "telefono": "573123551153",
     "nombre": "Lida",
     "primerContacto": "2026-10-28T03:31:51.239Z",
-    "ultimoContacto": "2026-10-28T03:31:51.239Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T03:32:03.300Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-28T03:31:50.277Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSOTZDNTJENUUxNUY2MkIxOUM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola 👋",
+        "fecha": "2026-10-28T03:31:59.950Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas usar el módem y para qué lo necesitas principalmente? (Estudio, trabajo, negocio o casa)\n\nCon eso te recomiendo la mejor opción para que no te quedes sin internet donde más lo necesites. 📶🚀",
+        "fecha": "2026-10-28T03:32:02.360Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSQTY0NjZFMDFBMkQ5QTRFQUUxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573222948437",
