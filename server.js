@@ -1583,7 +1583,7 @@ async function limpiarClientesAntiguos() {
             const { datos, sha } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-            const limiteMs = 3 * 24 * 60 * 60 * 1000;
+            const limiteMs = 2 * 24 * 60 * 60 * 1000; // 2 dias (Wendy, 28-oct-2026: "borra mensajes de 2 dias para liberar")
             const cantidadOriginal = datos.length;
             const datosFiltrados = datos.filter((c) => {
                   // Los clientes que ya compraron no se borran nunca, sin importar cuanto lleven sin
@@ -1600,7 +1600,7 @@ async function limpiarClientesAntiguos() {
                         const sigueExistiendo = datosFiltrados.some((c) => c.telefono === telefono);
                         if (!sigueExistiendo) delete sesiones[telefono];
                   }
-                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 3 dias sin contacto");
+                  await guardarJSON(CLIENTES_API, datosFiltrados, sha, "Eliminados clientes con mas de 2 dias sin contacto");
             }
       } catch (error) {
             console.error("Error eliminando clientes antiguos:", error.response?.data || error.message);
@@ -1947,7 +1947,7 @@ async function enviarRecordatoriosPendientes() {
 }
 
 // Limpieza automatica de clientes inactivos (a pedido de Wendy, 28-sep-2026): borra por completo
-// de clientes.json a los clientes cuyo ULTIMO mensaje tiene mas de 3 dias (antes 4; Wendy pidio 3 el 16-oct-2026), para no dejar crecer el
+// de clientes.json a los clientes cuyo ULTIMO mensaje tiene mas de 2 dias (antes 4, luego 3; Wendy pidio 2 el 28-oct-2026), para no dejar crecer el
 // archivo indefinidamente con conversaciones viejas que ya no sirven.
 //
 // Se saltan (NO se borran, sin importar cuantos dias lleven inactivos) tres casos, para no perder
@@ -1973,12 +1973,12 @@ async function limpiarClientesInactivos() {
                   // Nunca se borra a un cliente que ya hizo un pedido: su chat debe seguir visible en el panel.
                   const { datos: pedidos } = await leerJSON(PEDIDOS_API);
                   const telefonosConPedido = new Set(pedidos.map((p) => p.telefono));
-                  const TRES_DIAS_MS = 3 * 24 * 60 * 60 * 1000;
+                  const DOS_DIAS_MS = 2 * 24 * 60 * 60 * 1000;
 
                   const clientesAConservar = datos.filter((c) => {
                         // Sin fecha de ultimo contacto: no deberia pasar, pero por seguridad no lo tocamos.
                         if (!c.ultimoContacto) return true;
-                        const inactivo = ahora - new Date(c.ultimoContacto).getTime() > TRES_DIAS_MS;
+                        const inactivo = ahora - new Date(c.ultimoContacto).getTime() > DOS_DIAS_MS;
                         if (!inactivo) return true;
                         if (c.pausado || c.necesitaAtencion) return true;
                         if (esperaCompraVigente(c)) return true;
@@ -1995,9 +1995,9 @@ async function limpiarClientesInactivos() {
                               CLIENTES_API,
                               clientesAConservar,
                               sha,
-                              `Limpieza automatica: ${totalBorrados} cliente(s) inactivo(s) 3+ dias eliminado(s)`
+                              `Limpieza automatica: ${totalBorrados} cliente(s) inactivo(s) 2+ dias eliminado(s)`
                               );
-                        console.log(`Limpieza automatica de clientes: ${totalBorrados} eliminado(s) (inactivos 3+ dias).`);
+                        console.log(`Limpieza automatica de clientes: ${totalBorrados} eliminado(s) (inactivos 2+ dias).`);
                   }
             });
       } catch (error) {
