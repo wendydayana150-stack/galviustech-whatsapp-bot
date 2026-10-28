@@ -3,8 +3,8 @@
     "telefono": "573136252589",
     "nombre": "Uber Villada Silva",
     "primerContacto": "2026-10-28T23:12:51.385Z",
-    "ultimoContacto": "2026-10-28T23:42:38.180Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-28T23:43:03.967Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -100,10 +100,27 @@
         "fecha": "2026-10-28T23:42:37.416Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNkIzMDk0N0I2NDI0OUE2MUU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-28T23:43:02.448Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil Goojprt PT-210* ($ 149.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-28T23:43:02.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNkFCNTMwQkRDQ0VDQUFEOUJFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica-portatil-goojprt-pt-210",
+      "nombreProducto": "Impresora Térmica Portátil Goojprt PT-210",
+      "precio": 149900,
+      "telefono": "573136252589"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
