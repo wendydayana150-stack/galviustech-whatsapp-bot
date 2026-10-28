@@ -1459,6 +1459,13 @@ async function enviarMensajeManual(telefono, texto) {
       sesion.necesitaAtencion = false;
       sesion.motivoAtencion = null;
       await enviarTexto(telefono, texto);
+      // Lo que Wendy escribe tambien entra al historial de la IA, para que Michell sepa que precio o promocion se
+      // le dio al cliente cuando vuelva a atender el chat (oct-2026, chat de Marta Lia y el reflector).
+      if (Array.isArray(sesion.historial)) {
+            const ultimo = sesion.historial[sesion.historial.length - 1];
+            if (ultimo && ultimo.role === "assistant") ultimo.content += "\n" + texto;
+            else if (ultimo) sesion.historial.push({ role: "assistant", content: texto });
+      }
       await guardarCliente(telefono);
 }
 
@@ -4800,6 +4807,70 @@ app.post("/admin/chat/:telefono/reactivar-responder", requiereLogin, async (req,
       }
 });
 
+// Rehace el historial de la IA a partir de la transcripcion real del chat. Lo que Wendy escribe desde el panel
+// (precios, promociones, fotos) y lo que el cliente escribe mientras el bot esta pausado no entra al historial, asi
+// que al retomar el chat Michell no sabia que se le habia ofrecido. Junta los mensajes seguidos del mismo lado.
+function historialDesdeTranscripcion(sesion, maximo = 16) {
+      const conv = (sesion.transcripcion || []).slice(-40);
+      const historial = [];
+      for (const m of conv) {
+            const role = m.rol === "cliente" ? "user" : "assistant";
+            const texto = String(m.texto || "").replace(/^\[Selecciono\]\s*/i, "").trim();
+            if (!texto) continue;
+            const ultimo = historial[historial.length - 1];
+            if (ultimo && ultimo.role === role) ultimo.content += "\n" + texto;
+            else historial.push({ role, content: texto });
+      }
+      while (historial.length && historial[0].role !== "user") historial.shift();
+      return historial.slice(-maximo);
+}
+
+// Michell retoma el chat y cierra la venta (oct-2026, Wendy: "estoy ofreciendo un reflector en promocion de 2 por 1 o
+// 1 reflector en ese precio. Hacer que Michell termine esa venta solicitando los datos"). Wendy da el precio o la
+// promocion a mano y con este boton Michell sigue: si el cliente ya eligio, arranca el pedido (el sistema pide los
+// datos uno a uno); si no, le pregunta cual opcion se lleva y le pide los datos de envio.
+app.post("/admin/chat/:telefono/cerrar-venta", requiereLogin, async (req, res) => {
+      const telefono = req.params.telefono;
+      try {
+            await conColaPorTelefono(telefono, async () => {
+                  await cargarSesionSiNueva(telefono);
+                  const sesion = obtenerSesion(telefono);
+                  sesion.pausado = false;
+                  sesion.necesitaAtencion = false;
+                  sesion.motivoAtencion = null;
+                  sesion.paso = "conversando";
+                  sesion.pedido = {};
+                  sesion.historial = historialDesdeTranscripcion(sesion);
+                  // La nota va como turno "user": si el cliente fue el ultimo en escribir, su mensaje va dentro de ella
+                  let ultimoCliente = "";
+                  if (sesion.historial.length && sesion.historial[sesion.historial.length - 1].role === "user") ultimoCliente = sesion.historial.pop().content;
+                  const nota =
+                        "(NOTA INTERNA DEL EQUIPO, el cliente NO escribio esto. Wendy, de nuestro equipo, le dio al cliente los precios y la promocion que ves arriba en la conversacion: esos son los precios validos para este cliente aunque el producto no aparezca igual en el catalogo. Retoma tu la conversacion para cerrar la venta, en un mensaje corto y amable. " +
+                        (ultimoCliente ? `Lo ultimo que escribio el cliente fue: "${ultimoCliente}". ` : "") +
+                        "Si el cliente ya eligio que se lleva, agrega ACCION_PEDIDO con el producto del catalogo que corresponda. Si todavia no eligio, recuerdale en una o dos lineas las opciones que le ofrecio Wendy con su precio, preguntale cual se lleva y pidele de una vez sus datos para el envio: nombre completo, celular, departamento y ciudad, direccion completa y barrio. Recuerdale que paga al recibir. No vuelvas a saludar ni a presentarte.)";
+                  const { mensajeVisible, productoId, productoActual } = await preguntarleALaIA(sesion, nota, sesion.ultimoProducto ? { tipo: "producto", valor: sesion.ultimoProducto } : null, telefono);
+                  // La nota no se queda en el historial tal cual (Michell creeria despues que el cliente la escribio)
+                  const turnoNota = sesion.historial.find((h) => h.role === "user" && h.content === nota);
+                  if (turnoNota) turnoNota.content = ultimoCliente || "(El cliente esta viendo las opciones que le ofrecio Wendy)";
+                  if (mensajeVisible) await enviarTexto(telefono, mensajeVisible);
+                  if (productoActual && catalogo.some((p) => p.id === productoActual)) sesion.ultimoProducto = productoActual;
+                  if (productoId && catalogo.some((p) => p.id === productoId)) {
+                        sesion.ultimoProducto = productoId;
+                        sesion.esperandoDatosPedidoLibre = null;
+                        await iniciarPedido(telefono, productoId);
+                  } else if (/nombre/i.test(mensajeVisible || "") && /direcci[oó]n/i.test(mensajeVisible || "")) {
+                        sesion.esperandoDatosPedidoLibre = new Date().toISOString();
+                  }
+                  if (!mensajeVisible && !productoId) throw new Error("La IA no devolvio ningun mensaje");
+                  await guardarCliente(telefono);
+            });
+            res.redirect(`/admin/chat/${encodeURIComponent(telefono)}`);
+      } catch (error) {
+            console.error("Error cerrando la venta con Michell:", error.response?.data || error.message);
+            res.redirect(`/admin/chat/${encodeURIComponent(telefono)}?error=${encodeURIComponent("Michell no pudo retomar la venta (si el cliente lleva mas de 24 horas sin escribir, WhatsApp no deja enviarle mensajes normales).")}`);
+      }
+});
+
 app.get("/admin/pausa/:telefono", requiereLogin, async (req, res) => {
       try {
             await alternarPausa(req.params.telefono);
@@ -4927,6 +4998,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             Estado del bot: <strong>${cliente.pausado ? "Pausado" : "Activo"}</strong> -
             <a href="/admin/pausa/${encodeURIComponent(cliente.telefono)}">${cliente.pausado ? "Reanudar bot" : "Pausar bot"}</a>
             ${cliente.pausado ? `<form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/reactivar-responder" style="display:inline"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#2e7d32;color:#fff;cursor:pointer">▶️ Reactivar bot y responder</button></form>` : ""}
+            <form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/cerrar-venta" style="display:inline" onsubmit="return confirm('¿Michell retoma este chat y cierra la venta pidiendo los datos? El bot queda activo.');"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#e65100;color:#fff;cursor:pointer">🛒 Michell cierra la venta</button></form>
             <form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/opciones" style="display:inline" onsubmit="return confirm('¿Enviar a este cliente el listado de productos y el catálogo? El bot queda activo.');"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#1a73e8;color:#fff;cursor:pointer">📋 Enviar opciones de productos</button></form>
             </div>
             <div class="chat">
