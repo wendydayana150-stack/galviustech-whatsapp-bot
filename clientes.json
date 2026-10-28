@@ -451,8 +451,8 @@
     "telefono": "573104212004",
     "nombre": "Elizabeth Betancourt",
     "primerContacto": "2026-10-28T15:21:45.710Z",
-    "ultimoContacto": "2026-10-28T15:23:45.917Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-28T15:24:42.552Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "bot",
@@ -484,6 +484,18 @@
         "fecha": "2026-10-28T15:23:44.928Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSMkE3QTlBMTYyRjZFRTczNjFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "👍",
+        "fecha": "2026-10-28T15:24:40.742Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-28T15:24:41.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjEyMDA0FQIAERgSQThCMDhENjRCQjhCQjhEQzQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -493,7 +505,7 @@
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No gracias ya no quiero nada por internet.\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"👍\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
