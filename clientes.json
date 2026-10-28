@@ -4306,8 +4306,8 @@
     "telefono": "573218047314",
     "nombre": "Aladino Perez barrios",
     "primerContacto": "2026-10-28T15:13:30.808Z",
-    "ultimoContacto": "2026-10-28T15:13:30.808Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T16:02:57.674Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -4315,6 +4315,18 @@
         "fecha": "2026-10-28T15:13:29.596Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSRTFEM0ZCNDEwNUMyQjczMThGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Más adelante",
+        "fecha": "2026-10-28T16:02:56.090Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-28T16:02:56.500Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDQ3MzE0FQIAERgSQTEyRTNDMzVGMzIzNzUwRUI0AA=="
       }
     ],
     "paso": "conversando",
@@ -4323,12 +4335,15 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Más adelante\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573194648379",
