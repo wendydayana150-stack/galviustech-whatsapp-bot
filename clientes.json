@@ -976,8 +976,8 @@
     "telefono": "573016001514",
     "nombre": "Aa",
     "primerContacto": "2026-10-28T15:21:04.644Z",
-    "ultimoContacto": "2026-10-28T15:21:04.644Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T16:42:56.627Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -985,6 +985,25 @@
         "fecha": "2026-10-28T15:21:03.354Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE2MDAxNTE0FQIAERgSODU4NjhDRkMwOTU4NUNENDAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-28T16:28:59.528Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MDAxNTE0FQIAERgSREVBQ0EyNUIwQTIxMTAyNUExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es muy costoso",
+        "fecha": "2026-10-28T16:42:55.248Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Mira, también tenemos estas opciones:\n\n• *Modem 4G/5G*: *$ 189.900*. Funciona con red 4G y 5G\n• *Modem 5G*: *$ 199.900*. Velocidad 5G convertida en WiFi\n\n🚚 Pagas al recibir + $26.000 de envío.\n\n¿Cuál te gusta más? Te lo dejo listo hoy 🙌",
+        "fecha": "2026-10-28T16:42:55.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE2MDAxNTE0FQIAERgSQTc0QUJEOTJCRTk5NTg0RkZFAA=="
       }
     ],
     "paso": "conversando",
@@ -1000,8 +1019,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
