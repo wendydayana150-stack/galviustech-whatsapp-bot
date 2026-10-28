@@ -21983,8 +21983,8 @@
     "telefono": "573218313361",
     "nombre": "Bendecido Gracias Dios 🙏❤",
     "primerContacto": "2026-10-26T18:46:21.304Z",
-    "ultimoContacto": "2026-10-28T01:11:10.192Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-28T01:11:23.506Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "bot",
@@ -22202,9 +22202,21 @@
         "fecha": "2026-10-28T01:11:09.185Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSQzk0NjUxMTU3NTlBQkQ5RjUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Medellin",
+        "fecha": "2026-10-28T01:11:22.576Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-28T01:11:22.577Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MzEzMzYxFQIAERgSNkU1M0JFOEJGQkNFMTgxREM0AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -22212,7 +22224,8 @@
       "telefono": "573218313361",
       "celular": "3218313361",
       "nombreCliente": "Buen día \nCalle 48 #51a24 \nLc 025 imperio cc Hollywood",
-      "departamento": "Javier"
+      "departamento": "Javier",
+      "ciudad": "Medellin"
     },
     "pausado": false,
     "etapaManual": null,
