@@ -2947,8 +2947,8 @@
     "telefono": "573186771660",
     "nombre": "Hermes",
     "primerContacto": "2026-10-28T15:16:24.655Z",
-    "ultimoContacto": "2026-10-28T15:16:24.655Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-28T15:29:59.601Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -2956,6 +2956,18 @@
         "fecha": "2026-10-28T15:16:23.349Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSRDNBNDA5MUE0QzNCRTFEN0M5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-28T15:29:57.386Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-10-28T15:29:58.622Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NzcxNjYwFQIAERgSNDg1NDVFMjc5M0I3ODgwOUU3AA=="
       }
     ],
     "paso": "conversando",
@@ -2964,12 +2976,15 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Hola\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102471964",
