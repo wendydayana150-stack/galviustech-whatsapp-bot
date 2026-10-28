@@ -3,8 +3,8 @@
     "telefono": "573136252589",
     "nombre": "Uber Villada Silva",
     "primerContacto": "2026-10-28T23:12:51.385Z",
-    "ultimoContacto": "2026-10-28T23:16:01.734Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-28T23:42:38.180Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,13 +68,45 @@
         "fecha": "2026-10-28T23:16:00.813Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSQjQ5NEJBMTY1NkFDOTk0OUI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito imprimir facturas como el tamaño de las de D1",
+        "fecha": "2026-10-28T23:42:32.867Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ah listo, para facturas tipo las de D1 o recibos pequeños, lo mejor no es la Impresora NETUM porque esa es tamaño carta.\n\nTe recomiendo la Goojprt PT-210, que es una impresora térmica portátil diseñada para imprimr guías, facturas, recibos y comandas, con rollo ancho de 58 mm, ideal para ese tamaño.\n\n¿Quieres que te envie sus fotos y te cuento su precio para que veas si te sirve?",
+        "fecha": "2026-10-28T23:42:36.308Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSODcxMjE5MDA1QTgxRkYzQjY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-10-28T23:42:36.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNTNCNUU5ODA1NzE2MTlDMkIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Goojprt PT-210]",
+        "fecha": "2026-10-28T23:42:37.416Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-28T23:42:37.416Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNkIzMDk0N0I2NDI0OUE2MUU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
