@@ -19959,8 +19959,8 @@
     "telefono": "573234293834",
     "nombre": "Daniela Mercado Chico 🏵️🌺💐",
     "primerContacto": "2026-10-27T12:09:00.040Z",
-    "ultimoContacto": "2026-10-28T15:06:11.022Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-28T21:44:58.373Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20175,6 +20175,27 @@
         "fecha": "2026-10-28T15:04:11.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjkzODM0FQIAERgSOUNEOTJCNUIyMkI0MjdCMDQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-28T16:08:29.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjkzODM0FQIAERgSMTg5NDZGMDQyRTEwRkEzQzRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-28T18:14:58.258Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjkzODM0FQIAERgSNTVGQzE3RTgxQzY2MDUyQUIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-10-28T21:44:56.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjkzODM0FQIAERgSOTVENEUxRTI3ODJCQTg0MkU0AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -20184,7 +20205,7 @@
       "precio": 249900,
       "telefono": "573234293834"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -20195,9 +20216,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
