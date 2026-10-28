@@ -6676,8 +6676,8 @@
     "telefono": "573054184387",
     "nombre": "❤Abraham❤Angie,❤️gadiel❤️",
     "primerContacto": "2026-10-28T15:11:40.520Z",
-    "ultimoContacto": "2026-10-28T16:21:51.912Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-28T21:43:44.664Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "bot",
@@ -6769,6 +6769,27 @@
         "fecha": "2026-10-28T16:21:50.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSOEI5NDI4OEZFQTBFRDU0RDg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-28T17:23:29.875Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSODY1M0E2MUZFREYyMzk4OUZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-28T19:23:31.972Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSNjM5MEREMjdFNzg0MzY0NzY2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, quedamos a mitad del proceso, cuentame tienes alguna duda?",
+        "fecha": "2026-10-28T21:43:43.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU0MTg0Mzg3FQIAERgSMzcwNTcyMTlDRTBFNzVFRTgwAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6778,7 +6799,7 @@
       "precio": 189900,
       "telefono": "573054184387"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "impresora",
@@ -6789,9 +6810,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
