@@ -43,8 +43,8 @@
     "telefono": "573123551153",
     "nombre": "Lida",
     "primerContacto": "2026-10-28T03:31:51.239Z",
-    "ultimoContacto": "2026-10-28T04:07:16.555Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-28T04:07:28.305Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -262,9 +262,21 @@
         "fecha": "2026-10-28T04:07:15.424Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSODE4NzM3RUJDNDUyMEVEQjQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las Catleyas",
+        "fecha": "2026-10-28T04:07:27.261Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-10-28T04:07:27.262Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSRTQ3RTJDNDQwQkQxQURFRTFEAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_cedula",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -275,7 +287,8 @@
       "nombreCliente": "Lida Marcela Ospina Triviño",
       "celular": "3123551153",
       "ciudad": "Neiva",
-      "direccion": "Calle 14 A #35-33"
+      "direccion": "Calle 14 A #35-33",
+      "barrio": "Las Catleyas"
     },
     "pausado": false,
     "etapaManual": null,
