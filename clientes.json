@@ -43,8 +43,8 @@
     "telefono": "573123551153",
     "nombre": "Lida",
     "primerContacto": "2026-10-28T03:31:51.239Z",
-    "ultimoContacto": "2026-10-28T04:00:38.917Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-28T04:06:34.416Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -226,9 +226,21 @@
         "fecha": "2026-10-28T04:00:37.767Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSRjk1QUFBQzE3QUQ2RUREOEExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3123551153",
+        "fecha": "2026-10-28T04:06:33.278Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-28T04:06:33.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSRjFFNzA2RDAwQTk2MEY1QzRGAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -236,7 +248,8 @@
       "telefono": "573123551153",
       "medioPago": "Sistecrédito",
       "departamento": "Huila",
-      "nombreCliente": "Lida Marcela Ospina Triviño"
+      "nombreCliente": "Lida Marcela Ospina Triviño",
+      "celular": "3123551153"
     },
     "pausado": false,
     "etapaManual": null,
