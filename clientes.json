@@ -43,8 +43,8 @@
     "telefono": "573123551153",
     "nombre": "Lida",
     "primerContacto": "2026-10-28T03:31:51.239Z",
-    "ultimoContacto": "2026-10-28T03:57:14.291Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-28T03:57:50.926Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -195,6 +195,25 @@
         "fecha": "2026-10-28T03:57:13.336Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSMkExMkU1NjczQzlEQ0NBNzUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me envías link para pago con Sistrcredito",
+        "fecha": "2026-10-28T03:57:47.881Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando confirmes el pedido el sistema te solicitará la cédula para generar el link de pago con Sistecredito y te llegará automáticamente por este chat, todo bien organizado para que sea fácil y seguro.",
+        "fecha": "2026-10-28T03:57:49.140Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSQUEyMTlBRkY4MkVFNTEyRUMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-28T03:57:49.796Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNTUxMTUzFQIAERgSNEM1RjVGNTg3MDhFQjE2Nzg0AA=="
       }
     ],
     "paso": "pedido_nombre",
