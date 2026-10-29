@@ -4384,8 +4384,8 @@
     "telefono": "573145196901",
     "nombre": "edgard",
     "primerContacto": "2026-10-29T13:55:11.152Z",
-    "ultimoContacto": "2026-10-29T14:17:55.059Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-29T16:52:09.950Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4495,6 +4495,39 @@
         "fecha": "2026-10-29T14:17:53.905Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSMEEzQTBEQjRFRDUyOTI2MTYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Cual es tu numero de celular?",
+        "fecha": "2026-10-29T15:29:07.402Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSMkVBNDEwQzZFQzI1Njg5Qjk4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nCual es tu numero de celular?",
+        "fecha": "2026-10-29T16:21:11.410Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSRDk4MDI5NEVCOUFFRTIwREE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay pedido gracias",
+        "fecha": "2026-10-29T16:52:04.463Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, cuando quieras aquí estaré para ayudarte a tener internet donde lo necesites con el módem 4G/5G de GalviusTech. Recuerda que es una inversión que te da conexión estable y sin complicaciones.\n\nSi necesitas más información o quieres ver otro producto, solo dime. 😊",
+        "fecha": "2026-10-29T16:52:07.890Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSNzYyNkFFMjUyOTQ5NzkzNjAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-10-29T16:52:08.942Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSNjY3RDEyQjREQTUyRUY2M0QwAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -4516,9 +4549,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
