@@ -274,8 +274,8 @@
     "telefono": "573204135683",
     "nombre": "Edwin",
     "primerContacto": "2026-10-29T12:13:03.313Z",
-    "ultimoContacto": "2026-10-29T12:13:03.313Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:13:45.858Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -301,6 +301,18 @@
         "fecha": "2026-10-29T12:13:02.335Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MTM1NjgzFQIAERgSMDcwQTQyRUQwNENFMDlDNzk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buen dia ese sirve  fuera del país",
+        "fecha": "2026-10-29T12:13:40.601Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenos días 😊 Estos módems están diseñados para funcionar con SIM de operadores en Colombia, entonces afuera del país no garantizamos que funcione correctamente.\n\n¿Me puedes contar en qué ciudad o vereda de Colombia lo usarías o si es para un viaje temporal? Así te ayudo a elegir la mejor opción para tu necesidad. ¿Para qué lo necesitas principalmente, para trabajar, estudiar o algo más?",
+        "fecha": "2026-10-29T12:13:41.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MTM1NjgzFQIAERgSQzgzRDJGMDc0N0UyMzAxNDIwAA=="
       }
     ],
     "paso": "conversando",
@@ -314,7 +326,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1430891859172634",
