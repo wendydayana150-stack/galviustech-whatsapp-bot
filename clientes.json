@@ -3,8 +3,8 @@
     "telefono": "573147440949",
     "nombre": "wilmer lopez",
     "primerContacto": "2026-10-29T13:28:48.221Z",
-    "ultimoContacto": "2026-10-29T13:28:48.221Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T13:29:49.107Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-29T13:28:47.281Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NDQwOTQ5FQIAERgSODY0RERGOTYyQzdGQzQ0MzcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-29T13:29:46.951Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿me cuentas para qué lo necesitas? ¿Para trabajar, estudiar, tu negocio o uso en casa? Así te recomiendo el que mejor se ajusta a lo que buscas.",
+        "fecha": "2026-10-29T13:29:48.024Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NDQwOTQ5FQIAERgSRERBQjI4NTRCOTlENTBCMzBCAA=="
       }
     ],
     "paso": "conversando",
@@ -43,7 +55,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573158506662",
