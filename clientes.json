@@ -3,8 +3,8 @@
     "telefono": "573018234298",
     "nombre": "alexbohorquez465",
     "primerContacto": "2026-10-29T19:03:55.625Z",
-    "ultimoContacto": "2026-10-29T19:03:55.625Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T19:05:29.836Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-29T19:03:54.668Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4MjM0Mjk4FQIAERgSNzUxOUI0MzREMzIzREJDMTI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y necesita un plan  para  recargarlo",
+        "fecha": "2026-10-29T19:05:27.154Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con una SIM de tu operador (Claro, Movistar, Tigo, WOM), pero no incluye ningún plan activo al comprarlo.\n\nCuando confirmes tu pedido, te damos de regalo la SIM física de Claro sin megas ni recarga; tú eliges y activas el plan o recarga que más te sirva.\n\n¿Me cuentas de dónde me escribes y para qué lo necesitas principalmente? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-10-29T19:05:28.690Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4MjM0Mjk4FQIAERgSQkZGNTNGRkE1NTcxNjk2OEJFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573157184092",
