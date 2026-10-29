@@ -3,8 +3,8 @@
     "telefono": "573244255330",
     "nombre": "yuleleon",
     "primerContacto": "2026-10-29T02:21:18.944Z",
-    "ultimoContacto": "2026-10-29T02:21:18.944Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T02:21:24.831Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-29T02:21:18.114Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ0MjU1MzMwFQIAERgSNkM2OUJFMTM1NkY4RDk2OTlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que vale",
+        "fecha": "2026-10-29T02:21:22.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, para ayudarte mejor dime ¿qué producto te interesa? Tenemos:\n\n📶 Módem WiFi portátil 4G/5G/5G  \n🖨️ Impresora térmica portátil tamaño carta NETUM  \n💡 Lámparas solares para seguridad y exteriores  \n📹 Cámaras de seguridad  \n🎁 Combos para trabajo y estudio\n\n¿Para qué lo necesitas: trabajo, estudio, hogar o viajar? Así te recomiendo la mejor opción y te doy el precio exacto con envío. ¿Cuál producto te interesa?",
+        "fecha": "2026-10-29T02:21:24.060Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0MjU1MzMwFQIAERgSOEVCMDY1OUQ1OTY1NEE4MEVGAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223960463",
