@@ -148,8 +148,8 @@
     "telefono": "CO.2614052869044545",
     "nombre": "gaviriaduarteluzelena",
     "primerContacto": "2026-10-29T12:14:07.391Z",
-    "ultimoContacto": "2026-10-29T12:14:07.391Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:15:53.886Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -175,20 +175,35 @@
         "fecha": "2026-10-29T12:13:52.024Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjYxNDA1Mjg2OTA0NDU0NRUUABEYEkM2OTM5ODREMUI2RjgzMUU3NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Servicio para el hogar",
+        "fecha": "2026-10-29T12:15:51.175Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y en qué municipio o vereda lo vas a usar? Así te sugiero el módem ideal para que tengas internet estable en casa. \n\nRecuerda que con el módem de GalviusTech llevas internet contigo sin depender de fibra, y conecta varios dispositivos al mismo tiempo. ¿Tienes señal 4G o 5G en tu zona?",
+        "fecha": "2026-10-29T12:15:52.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjYxNDA1Mjg2OTA0NDU0NRUUABEYEjQ4MjUyMjI3MzYyRkFBNzA3MwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108822738",
