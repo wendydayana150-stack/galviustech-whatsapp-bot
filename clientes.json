@@ -437,8 +437,8 @@
     "telefono": "573026506613",
     "nombre": "broth",
     "primerContacto": "2026-10-29T13:13:44.593Z",
-    "ultimoContacto": "2026-10-29T13:34:13.473Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-29T13:37:22.942Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -651,6 +651,25 @@
         "fecha": "2026-10-29T13:34:12.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSNjAwOEMwODc0ODBGNkEwOTc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Otra pregunta  si en caso en la veréda no hay señal   como lo hacen para  conectar  o te llega solo la señal el módem",
+        "fecha": "2026-10-29T13:37:18.968Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo tu duda. El módem tiene una antena potente que capta mejor señal que un celular normal, por eso funciona muy bien en veredas y zonas rurales donde el celular a veces no agarra bien.\n\nPero si en la vereda no hay señal de ningún operador, ni siquiera intermitente, lamentablemente el módem no podrá conectarse porque necesita la señal móvil de la SIM para generar WiFi.\n\nPor eso es importante que me digas en qué municipio o vereda estás, para confirmar la cobertura y asegurar que el módem te servirá.",
+        "fecha": "2026-10-29T13:37:21.256Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSRkZEMkQ5MUFEMUE5NEMwMzk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T13:37:21.812Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSM0VFMDhDMTUwMjI1QzE2MTcyAA=="
       }
     ],
     "paso": "pedido_nombre",
