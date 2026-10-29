@@ -507,8 +507,8 @@
     "telefono": "573183397437",
     "nombre": "Pedro Laiton",
     "primerContacto": "2026-10-29T12:13:06.068Z",
-    "ultimoContacto": "2026-10-29T12:13:06.068Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:14:44.674Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -528,6 +528,18 @@
         "fecha": "2026-10-29T12:13:02.821Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzMzk3NDM3FQIAERgSNDY0RUU4OTc0NTVEMDEwQTVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-29T12:14:43.703Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T12:14:43.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzMzk3NDM3FQIAERgSNTI3M0YyMzdFNTJBNTkxRTUzAA=="
       }
     ],
     "paso": "conversando",
@@ -541,7 +553,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573204135683",
