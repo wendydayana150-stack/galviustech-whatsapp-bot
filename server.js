@@ -1629,7 +1629,7 @@ async function notaPedidosDelCliente(telefono) {
             const suyos = cachePedidos.datos.filter((p) => p.telefono === telefono).slice(-3);
             if (!suyos.length) return "";
             const lista = suyos.map((p) => `${p.nombreProducto} para ${p.ciudad || "?"}${p.departamento ? ", " + p.departamento : ""} (${p.medioPago || "pago ?"}, registrado el ${String(p.fecha || "").slice(0, 10)})`).join("; ");
-            return `\n\nESTE CLIENTE YA TIENE PEDIDO(S) REGISTRADO(S): ${lista}. NO le vuelvas a pedir datos de envio ni le preguntes a donde enviarlo para ese pedido. Si pregunta si ya se envio o por la guia: dile con calma que su pedido esta registrado y en proceso de despacho, que llega en 2 a 4 dias habiles despues de despachado y que en cuanto salga le enviamos el numero de guia por este chat; no inventes que ya salio ni inventes una guia. Si quiere otro producto, ese si es un pedido nuevo.`;
+            return `\n\nESTE CLIENTE YA TIENE PEDIDO(S) REGISTRADO(S): ${lista}. NO le vuelvas a pedir datos de envio ni le preguntes a donde enviarlo para ese pedido. Si pregunta si ya se envio o por la guia: dile con calma que su pedido esta registrado y en proceso de despacho, que llega en 1 a 3 dias habiles despues de despachado y que en cuanto salga le enviamos el numero de guia por este chat; no inventes que ya salio ni inventes una guia. Si quiere otro producto, ese si es un pedido nuevo.`;
       } catch (e) {
             return "";
       }
