@@ -98,8 +98,8 @@
     "telefono": "573223719822",
     "nombre": "El Yordis",
     "primerContacto": "2026-10-29T08:29:36.720Z",
-    "ultimoContacto": "2026-10-29T08:36:29.429Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-29T08:37:54.189Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,6 +207,18 @@
         "fecha": "2026-10-29T08:36:28.318Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzNzE5ODIyFQIAERgSNDVFNEY4NTA1REJEM0Q2RkE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En este momento no cuento con el efectivo para ASER el pedido pero en cualquier momento le escribo nueva mente para realizar el pedido",
+        "fecha": "2026-10-29T08:37:51.296Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo perfectamente, no hay problema. Recuerda que la inversión en tu conexión vale la pena para que no sigas dependiento de buscar WiFi o esperando la fibra.\n\nCuando estés listo, aquí estaré para ayudarte con el pedido y enviarte el modem con garantía y pago al recibir.\n\n¿Quieres que te recuerde la promoción en unos días para que aproveches el descuento del 30%?\n\nQuedo atenta cuando decidas dar el paso.",
+        "fecha": "2026-10-29T08:37:52.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzNzE5ODIyFQIAERgSMjIyODJFOEVGOTFBRTEyRUE3AA=="
       }
     ],
     "paso": "conversando",
@@ -217,7 +229,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
