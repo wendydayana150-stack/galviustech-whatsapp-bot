@@ -3,8 +3,8 @@
     "telefono": "573215825543",
     "nombre": "De rodillas Soloantedios",
     "primerContacto": "2026-10-29T08:37:56.910Z",
-    "ultimoContacto": "2026-10-29T08:55:05.253Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T08:55:42.743Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -100,14 +100,27 @@
         "fecha": "2026-10-29T08:55:04.205Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSMTBBMTQ2MjIwOEI0NzQxNTk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Angel Manuel argel",
+        "fecha": "2026-10-29T08:55:41.682Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-29T08:55:41.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSNDFEODQ0NUI2MDIxRTU4MjZFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
-      "telefono": "573215825543"
+      "telefono": "573215825543",
+      "nombreCliente": "Angel Manuel argel"
     },
     "pausado": false,
     "etapaManual": null,
