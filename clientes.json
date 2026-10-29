@@ -4081,8 +4081,8 @@
     "telefono": "573246159590",
     "nombre": "Relax😎",
     "primerContacto": "2026-10-29T12:19:01.403Z",
-    "ultimoContacto": "2026-10-29T13:32:27.975Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T13:32:45.071Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4185,6 +4185,18 @@
         "fecha": "2026-10-29T13:32:26.824Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSMTVERTFCMDM1MDg2QTQwMTY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-29T13:32:41.844Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, quedo pendiente para cuando quieras retomar o si quieres conocer otros productos que te puedan servir.\n\nRecuerda que en GalviusTech tenemos varias opciones más como:  \n📶 Módem WiFi portátil  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n🎁 Combos especiales  \n\nAvísame si quieres que te muestre algo más o cuando decidas lo del módem. ¡Te espero!",
+        "fecha": "2026-10-29T13:32:43.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSNDE3REY2NzhDNDJGMjVDMEUwAA=="
       }
     ],
     "paso": "conversando",
@@ -4195,7 +4207,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
