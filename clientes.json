@@ -150,8 +150,8 @@
     "telefono": "573103621813",
     "nombre": "Hugodoc Colombia",
     "primerContacto": "2026-10-29T03:25:02.014Z",
-    "ultimoContacto": "2026-10-29T03:34:45.532Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T03:35:42.882Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -251,13 +251,48 @@
         "fecha": "2026-10-29T03:34:44.457Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSMjFGMDg3MjJGNDE2QkIzRTY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Etiquetas P5",
+        "fecha": "2026-10-29T03:35:39.356Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-10-29T03:35:39.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSMURCQjFFNTIyNjgwNDA4QTg1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-10-29T03:35:40.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSNUJCMjlCQUIzMjA5OUE3Q0NEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Mini Impresora de Etiquetas Térmica P5 Bluetooth*\n💰 *$ 139.900* ya con *30% de descuento* 🔥\n✅ Etiquetas pequeñas desde tu celular, sin tinta\n✅ Para marcar productos, frascos y útiles\n✅ Bluetooth y batería recargable\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T03:35:40.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSMzJCNUZFNEFGNzdFOTRCRDc5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T03:35:41.142Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSMjRDRUIxQTQzQjc4NzMwOTg0AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "mini-impresora-de-etiquetas-termica-p5-bluetooth"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "mini-impresora-de-etiquetas-termica-p5-bluetooth",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
