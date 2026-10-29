@@ -4017,8 +4017,8 @@
     "telefono": "573246159590",
     "nombre": "Relax😎",
     "primerContacto": "2026-10-29T12:19:01.403Z",
-    "ultimoContacto": "2026-10-29T12:19:01.403Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T13:30:49.929Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4044,13 +4044,59 @@
         "fecha": "2026-10-29T12:18:58.724Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSMTJGQkE5QkI1QUYwQkJCREUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T13:20:20.705Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSRTY3NEQxNDlFNEE3QUJCN0MwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para trabajar",
+        "fecha": "2026-10-29T13:30:42.542Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T13:30:45.874Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSMDhENTYxN0JBRjBDRDQyQkYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T13:30:46.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSQTI4QUNBRkM3OUFBQTk3NEYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T13:30:47.482Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSMUVCOUE0MkZGQkNDMDc2NTg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T13:30:48.209Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para trabajo desde donde estés está genial tener un módem portátil que te dé internet sin depender de fibra ni cables.\n\nTe cuento las 3 versiones que manejamos con su inversión y envío aparte (+ $26.000), todas con conexión para varios dispositivos:\n\n📶 Módem WiFi Portátil 4G: conexión 4G, ideal para fincas y zonas sin fibra. Inversión de **$169.900 + $26.000 de envío**.  \n📶 Módem WiFi Portátil 4G/5G: para donde ya haya 5G o 4G, más rápido y seguro. Inversión de **$189.900 + $26.000 de envío**.  \n📶 Módem WiFi Portátil 5G: la máxima velocidad 5G, para zonas con buena cobertura 5G. Inversión de **$199.900 + $26.000 de envío**.\n\nEl 4G/5G es el recomendado para que tengas lo mejor en tu zona, sin perder señal y con buena velocidad.  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda estarías usándolo para confirmar la cobertura y ayudarte mejor?",
+        "fecha": "2026-10-29T13:30:48.216Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSRTYxQzMzNUJDMkNGMTVEQjVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -4059,8 +4105,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
