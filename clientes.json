@@ -279,8 +279,8 @@
     "telefono": "CA.2603986576760687",
     "nombre": "Edna",
     "primerContacto": "2026-10-29T12:13:36.402Z",
-    "ultimoContacto": "2026-10-29T12:13:36.402Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:15:15.533Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -306,20 +306,69 @@
         "fecha": "2026-10-29T12:13:32.891Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjYxODg4RDExQkRERDc5RUVCQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para estudiar en casa. Bogotá. Cerca al centro carrera. Qué operador es?",
+        "fecha": "2026-10-29T12:15:07.331Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:15:10.932Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjVDRUY2QjUxNDRENzU0OTgxMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:15:11.859Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjEyQjQ2RDUyMTI3OTI4NkFEMwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:15:12.581Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjJEQjc2NEIyRDI4MDkzNkE4OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:15:13.350Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para estudiar en casa en Bogotá te viene super bien. \n\nManejamos 3 versiones de módem WiFi portátil, que conectan varios dispositivos y son fáciles de llevar donde necesites:  \n\n📶 Módem WiFi Portátil 4G (inversión de **$169.900** + $26.000 de envío)  \n🚀 Módem WiFi Portátil 4G/5G (inversión de **$189.900** + $26.000 de envío) — esta es la versión más recomendada para Bogotá, porque funciona en zonas con 4G y 5G.  \n⚡ Módem WiFi Portátil 5G (inversión de **$199.900** + $26.000 de envío) — ideal si ya confirmas que tienes muy buena señal 5G y quieres la máxima velocidad.  \n\nTodos son compatibles con SIM de Claro, Movistar, Tigo, WOM y funcionan mejor que el celular en cobertura, especialmente en zonas con señal débil.  \n\nLlega en 1 a 2 días hábiles a Bogotá.  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Cómo prefieres que te lo enviemos, a tu dirección o lo recoges en la oficina de la transportadora?",
+        "fecha": "2026-10-29T12:15:13.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEkE1QTVEQjRDQUVCM0QyMTgyQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T12:15:14.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjFFOTQzREQxNDg2RUFCODk5MgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145761401",
