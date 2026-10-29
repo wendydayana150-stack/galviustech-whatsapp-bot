@@ -49,8 +49,8 @@
     "telefono": "573142314274",
     "nombre": "manuel",
     "primerContacto": "2026-10-29T04:25:24.163Z",
-    "ultimoContacto": "2026-10-29T04:28:15.008Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-29T04:28:39.543Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -274,15 +274,97 @@
         "fecha": "2026-10-29T04:28:14.050Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSM0U0N0E1OUE2MkNBQkI1MjdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora NETUM",
+        "fecha": "2026-10-29T04:28:31.952Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T04:28:31.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSMDVFRkU3RTZCMEM2QjcxMEU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T04:28:32.645Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSQjgzOTAzRUYxOTQ5MDYyRkY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T04:28:33.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSRjkzQ0JDRjAyMUE1NjA3MkQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil NETUM*\n💰 Antes ~$ 356.900~, *hoy $ 249.900* con *30% de descuento* 🔥\n✅ Imprime SIN TINTA: nunca más compras cartuchos\n✅ Hojas tamaño carta desde tu celular\n✅ Portátil: cabe en el bolso o la mochila\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-10-29T04:28:33.896Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSQjc3NDE4QTE3OEI3NkY4MkVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tambien tenemos estas promociones que incluyen el Impresora NETUM:",
+        "fecha": "2026-10-29T04:28:34.480Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSOTgzRjlBNTYxODM4OUE0MDc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-10-29T04:28:35.179Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSQ0RBRUMwNzlCNjM0QTE5QjAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 269.900",
+        "fecha": "2026-10-29T04:28:35.877Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSNDZDRTFCRTJEQjY1QzRDNjU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-10-29T04:28:36.476Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSOTE4N0FBMkQ2N0U0NDhFMTZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-10-29T04:28:37.081Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSNjM1MzlEQTlGNzgwODQ5ODg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 269.900",
+        "fecha": "2026-10-29T04:28:37.756Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSQjIwOTVFMTFERTc3NEVCNTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | Solo este producto]",
+        "fecha": "2026-10-29T04:28:38.393Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSNUZDNjgwOEQ5QUE3MTE5RDc1AA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "modem-portatil-5g"
+      "productoId": "impresora-termica"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-portatil-5g",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
