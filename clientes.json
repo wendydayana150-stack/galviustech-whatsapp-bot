@@ -290,8 +290,8 @@
     "telefono": "573026506613",
     "nombre": "broth",
     "primerContacto": "2026-10-29T13:13:44.593Z",
-    "ultimoContacto": "2026-10-29T13:23:32.209Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T13:23:44.019Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -387,6 +387,25 @@
         "fecha": "2026-10-29T13:23:31.247Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSMDE3MzkyOTZEMjBFNzBGOTVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puede explicar",
+        "fecha": "2026-10-29T13:23:40.206Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te lo resumo bien:  \n\nEl precio del módem que yo te di es solo por el dispositivo, no incluye el envío. Para llevarlo hasta donde tú estés en Colombia, se cobra un valor adicional de $26.000 por el envío.  \n\nPor ejemplo:  \n- Módem 4G cuesta $169.900  \n- Envío cuesta $26.000  \nTotal que pagarías al recibir sería $195.900  \n\nEste envío es seguro y llega en 2 a 4 días hábiles (menos si estás en Bogotá, allí es 1 a 2 días).  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Prefieres que te enviemos directamente a tu casa o prefieres recogerlo en la oficina de Interrapidisimo o Coordinadora?",
+        "fecha": "2026-10-29T13:23:42.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSRjhFMzcwRjJGRkExQzM0ODk3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T13:23:43.002Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSODdENEQ5QThEMjlDOTlDQzJEAA=="
       }
     ],
     "paso": "conversando",
