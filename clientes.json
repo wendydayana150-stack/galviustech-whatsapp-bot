@@ -3,8 +3,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:03:42.156Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T02:04:17.708Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-29T02:03:41.324Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRUQxQUVERDA5MTVDQTEwQjMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dónde están ubicados",
+        "fecha": "2026-10-29T02:04:14.545Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\nCuéntame, ¿en qué municipio o vereda necesitas el módem y para qué lo usarías? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-10-29T02:04:16.714Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQjczMEQyQ0NENENENTUzNDIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133439953",
