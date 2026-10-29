@@ -151,8 +151,8 @@
     "telefono": "573103846481",
     "nombre": "890365",
     "primerContacto": "2026-10-29T14:24:42.908Z",
-    "ultimoContacto": "2026-10-29T14:24:42.908Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T15:14:54.735Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -178,6 +178,20 @@
         "fecha": "2026-10-29T14:24:41.832Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzODQ2NDgxFQIAERgSNENCNzI2NDE4MEU1ODYxNTIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T15:14:51.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzODQ2NDgxFQIAERgSMUU0RkYxQzY3MkEyMDFGOUQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-29T15:14:52.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzODQ2NDgxFQIAERgSMUFGNTY5OUNEQUEzOTc0RkVDAA=="
       }
     ],
     "paso": "conversando",
@@ -191,7 +205,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103177672",
