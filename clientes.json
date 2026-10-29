@@ -218,8 +218,8 @@
     "telefono": "573042672822",
     "nombre": "Guayaba",
     "primerContacto": "2026-10-29T05:36:34.889Z",
-    "ultimoContacto": "2026-10-29T05:36:34.889Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T05:44:05.867Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -245,20 +245,62 @@
         "fecha": "2026-10-29T05:36:33.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNjcyODIyFQIAERgSMkMzNUFGQkQ3QjUwODc5OTQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para hogar es un barrio quiero precio",
+        "fecha": "2026-10-29T05:43:59.865Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T05:44:02.215Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjcyODIyFQIAERgSMzlFQTg3RjRGOTM3MkJBRTdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T05:44:02.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjcyODIyFQIAERgSQzdCQ0MxNkE1M0Y3NzE2MEVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T05:44:03.528Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjcyODIyFQIAERgSMzFGMkMyQkFENTg5OEM2RTdCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T05:44:04.302Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para uso en hogar te recomiendo nuestras tres opciones de módem WiFi portátiles, así puedes elegir según tu presupuesto y necesidad de velocidad:\n\n📶 Módem WiFi Portátil 4G: conexión fuerte y estable en zonas sin fibra, con batería recargable y hasta 10 dispositivos conectados. La inversión es de **$169.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 4G/5G: te sirve donde haya cobertura 4G o 5G, para mejor velocidad y estabilidad, sin complicaciones. La inversión es de **$189.900 + $26.000 de envío**.\n\n📶 Módem WiFi Portátil 5G: para zonas con buena señal 5G, máxima velocidad en tus dispositivos. La inversión es de **$199.900 + $26.000 de envío**.\n\nLos 3 equipos son fáciles de usar y te permiten tener internet donde lo necesites, sin depender de la fibra ni de reconexiones constantes.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o barrio estás? Así te confirmo la cobertura y envío. ¿Cuál de estos tres crees que se ajusta más a lo que buscas?",
+        "fecha": "2026-10-29T05:44:04.313Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNjcyODIyFQIAERgSOUNENzk2QzFGMTU1NDA2NENDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573150380091",
