@@ -17176,8 +17176,8 @@
     "telefono": "CO.1440913268009206",
     "nombre": "Edwin Ariel reyes Mejia",
     "primerContacto": "2026-10-29T09:12:00.059Z",
-    "ultimoContacto": "2026-10-29T15:26:43.619Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T16:33:12.404Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17224,6 +17224,25 @@
         "fecha": "2026-10-29T15:26:40.591Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ0MDkxMzI2ODAwOTIwNhUUABEYEkZFOThENDM2MjkzNTVDRTM1RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-10-29T16:32:24.871Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ0MDkxMzI2ODAwOTIwNhUUABEYEjk0MTRENERGNTNCMjEwMEJBOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En otro momento la compro",
+        "fecha": "2026-10-29T16:33:08.638Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema 😊 Recuerda que el precio actual ya incluye un 30% de descuento, así que es una buena inversión para tener una impresora portátil sin depender de papelerías.\n\nSi te surge alguna duda o quieres que te deje el pedido listo para cuando decidas, aquí estoy para ayudarte.\n\n¿Quieres que te pase más info o te muestro otro producto que te pueda servir?",
+        "fecha": "2026-10-29T16:33:10.970Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ0MDkxMzI2ODAwOTIwNhUUABEYEjJCRkZDNEMxREQzMTNCQjVENAA="
       }
     ],
     "paso": "conversando",
@@ -17234,13 +17253,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
