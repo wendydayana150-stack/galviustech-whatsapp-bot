@@ -102,8 +102,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-10-29T05:36:44.382Z",
-    "ultimoContacto": "2026-10-29T05:41:27.275Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T05:41:46.528Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,18 @@
         "fecha": "2026-10-29T05:41:25.836Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSMkZGMDE3QzVDQkI3NEI0MzgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no es m",
+        "fecha": "2026-10-29T05:41:43.746Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, parece que te refieres a que no tienes mucha señal ni con datos móviles normales.\n\nEstos módems están diseñados para captar señal mejor que un celular común, gracias a su antena especial. Pero necesitan que haya al menos señal débil de 4G o 5G del operador en tu zona para funcionar.\n\nSi en tu lugar no hay señal de ningún operador (Claro, Tigo, Movistar o WOM), el módem no podrá conectarse, ya que usa datos móviles, no internet satelital.\n\n¿En qué zona o vereda estás? Me cuentas para orientarte si allí hay señal y si el módem te serviría.",
+        "fecha": "2026-10-29T05:41:45.393Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSMEE2NDRCRDgzMTBDMUY4RTc0AA=="
       }
     ],
     "paso": "conversando",
