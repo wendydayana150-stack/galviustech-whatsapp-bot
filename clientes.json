@@ -409,8 +409,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-10-29T10:05:04.354Z",
-    "ultimoContacto": "2026-10-29T10:05:04.354Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T10:29:02.041Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -443,6 +443,18 @@
         "fecha": "2026-10-29T10:05:03.031Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjVFM0Q2QTYyODZDMUQyNEEyNAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias",
+        "fecha": "2026-10-29T10:28:58.802Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! ¿Quieres que te cuente más sobre la Impresora Térmica Portátil NETUM o prefieres ver otra cosa? 🖨️✨",
+        "fecha": "2026-10-29T10:29:00.577Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjUwMzEwMTc4OEM1QTQxQ0VFNAA="
       }
     ],
     "paso": "conversando",
@@ -456,7 +468,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223702732",
