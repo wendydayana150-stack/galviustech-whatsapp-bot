@@ -102,8 +102,8 @@
     "telefono": "573228442053",
     "nombre": "Jhon Jairo Velasquez Vasq",
     "primerContacto": "2026-10-29T00:39:17.367Z",
-    "ultimoContacto": "2026-10-29T00:39:17.367Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T00:41:57.565Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -136,6 +136,25 @@
         "fecha": "2026-10-29T00:39:16.417Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4NDQyMDUzFQIAERgSQUQ1QjMzMjFFODc3QjUwQTQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas",
+        "fecha": "2026-10-29T00:41:53.247Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊\n\nPara tareas te recomiendo la *Impresora Térmica Portátil NETUM*, imprime hojas tamaño carta y es perfecta para trabajos, documentos y apuntes.\n\nEsta impresora no usa tinta, es portátil y fácil de usar desde el celular por Bluetooth. Mide 27.5 x 6.5 x 5 cm, cabe perfecto en tu mochila o bolso.\n\nLa inversión es de **$249.900** con envío GRATIS a toda Colombia, y además trae papel térmico incluido para que la uses de una vez.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te cuente cómo funciona y qué opciones de papel te puedo ofrecer para que la tengas lista al instante?",
+        "fecha": "2026-10-29T00:41:55.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDQyMDUzFQIAERgSNjQxRUQ3MjJFRkI3NTdDQjA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T00:41:56.550Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4NDQyMDUzFQIAERgSREExRjQwRjYxREMxQzdBN0VDAA=="
       }
     ],
     "paso": "conversando",
@@ -149,7 +168,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2234860437095424",
