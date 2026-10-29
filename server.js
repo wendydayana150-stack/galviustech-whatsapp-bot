@@ -606,6 +606,10 @@ const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracia
 // Lamparas 3 lentes x3 con envio gratis: confirmado por Wendy (27-oct-2026). La lista vive en config.js.
 const ENVIO_GRATIS_IDS = config.ENVIO_GRATIS_IDS;
 const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video.mp4"; // jsDelivr lo sirve como video/mp4 (raw de GitHub no)
+// Videos de la NETUM subidos por Wendy (29-oct-2026): la calidad de impresion (17 s) va en la presentacion, y el
+// unboxing con el rollo de papel incluido (25 s) cuando preguntan por el papel, la duda que mas frena la compra.
+const VIDEO_NETUM_CALIDAD = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-2.mp4";
+const VIDEO_NETUM_CAJA = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-3.mp4";
 const envioDe = (id) => (ENVIO_GRATIS_IDS.includes(id) ? 0 : Number(config.COSTO_ENVIO) || 0);
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
 
@@ -627,11 +631,21 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             }
             sesion.ultimoProducto = netum.id;
             if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
-            for (const url of (netum.imagenes || []).slice(0, 2)) {
+            // Oct-2026 (159 chats de impresora, 92 se fueron despues del primer mensaje sin contestar): una foto y el
+            // video de la calidad de impresion, y un texto corto con el precio arriba (antes iba todo el detalle del papel).
+            for (const url of (netum.imagenes || []).slice(0, 1)) {
                   try {
                         await enviarImagen(telefono, url, "Impresora Térmica Portátil NETUM");
                   } catch (e) {
                         console.error("Fotos NETUM: no se pudo enviar una foto:", e.message);
+                  }
+            }
+            if (!sesion.videoNetumCalidadEnviado) {
+                  try {
+                        await enviarVideo(telefono, VIDEO_NETUM_CALIDAD, "Mira la calidad de impresión de la NETUM 🖨️");
+                        sesion.videoNetumCalidadEnviado = true;
+                  } catch (e) {
+                        console.error("Video calidad NETUM:", e.message);
                   }
             }
             if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
@@ -639,15 +653,14 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
             await enviarTexto(
                   telefono,
-                  "¡Claro! 🖨️ Te presento nuestra *Impresora Térmica Portátil NETUM* 🔥\n\n" +
-                        "✅ Imprime *SIN TINTA*: nunca más gastas en cartuchos\n" +
-                        "✅ Hojas *tamaño carta*: documentos, tareas, facturas, guías y más\n" +
-                        "✅ *Portátil* (27,5 cm), batería recargable y se conecta a tu celular por Bluetooth\n" +
-                        "🖤 Imprime en *blanco y negro*\n\n" +
+                  "¡Claro! 🖨️ *Impresora Térmica Portátil NETUM*\n\n" +
                         lineaPrecioNetum(netum) + "\n" +
-                        "🚚 *Envío GRATIS* y *pagas al recibir*. Tiene garantía.\n\n" +
-                        TEXTO_PAPEL_NETUM_CORTO + "\n\n" +
-                        "Cuéntame, ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos"
+                        "🚚 *Envío GRATIS* y *pagas al recibir*: la revisas antes de pagar\n\n" +
+                        "✅ Imprime *SIN TINTA*, hojas *tamaño carta* (blanco y negro)\n" +
+                        "✅ *Portátil*, batería recargable y se conecta a tu celular\n" +
+                        "📄 *Trae papel incluido* para que empieces a imprimir\n\n" +
+                        "⏳ Precio de promoción por *últimos días* y *últimas unidades*\n\n" +
+                        "¿Para qué la vas a usar? 👇\n📄 Tareas o documentos\n🧾 Recibos o facturas\n🏷️ Etiquetas"
             );
             return;
       }
@@ -1869,7 +1882,7 @@ async function enviarRecordatoriosPendientes() {
                   if (!tier) continue;
 
                   if (recordatoriosEnviadosEnProceso.has(`${c.telefono}|${tier}`)) continue;
-                  pendientes.push({ telefono: c.telefono, tier, productoId: c.pedido?.productoId || null, paso: c.paso || null });
+                  pendientes.push({ telefono: c.telefono, tier, productoId: c.pedido?.productoId || c.ultimoProducto || null, paso: c.paso || null });
             }
 
             for (const p of pendientes) {
@@ -1914,7 +1927,20 @@ async function enviarRecordatoriosPendientes() {
                         const nombreProducto = producto?.nombre || null;
                         const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
-                        if (p.tier === "horas1") {
+                        if (p.productoId === "impresora-termica" && (p.tier === "horas1" || p.tier === "horas3")) {
+                              // NETUM (oct-2026): el recordatorio generico no reactivaba a nadie; este va con el precio, la
+                              // urgencia de la promocion y un boton para pedirla de una
+                              await enviarBotones(
+                                    p.telefono,
+                                    p.tier === "horas1"
+                                          ? `Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *${precioTexto}* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?`
+                                          : `¡Hola de nuevo! 👋 Te cuento que la *NETUM* trae *papel incluido* y luego el papel lo consigues con nosotros o en papelerías 📄\n\nSigue en *${precioTexto}* con envío GRATIS, pero quedan pocas unidades con este precio. ¿Te la envío? 🚚`,
+                                    [
+                                          { id: "pedir_impresora-termica", titulo: "✅ Sí, la quiero" },
+                                          { id: "ver_catalogo", titulo: "Ver otros" },
+                                    ]
+                              );
+                        } else if (p.tier === "horas1") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
                         } else if (p.tier === "horas3") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
@@ -4325,6 +4351,14 @@ async function manejarTextoLibre(telefono, texto) {
 
                   // VIDEO DE LA NETUM (oct-2026, Wendy): si pregunta como se usa o pide video, se manda una vez.
                   const hablaDeNetum = (productoActual || idProductoEnfocado || sesion.ultimoProducto) === "impresora-termica" || sesion.ultimaCategoria === "impresora";
+                  if (hablaDeNetum && !sesion.videoNetumCajaEnviado && /(papel|hoja|resma|rollo|qu[eé] (trae|incluye|viene)|viene con)/i.test(texto)) {
+                        try {
+                              await enviarVideo(telefono, VIDEO_NETUM_CAJA, "Así llega la NETUM, con su rollo de papel incluido 📦");
+                              sesion.videoNetumCajaEnviado = true;
+                        } catch (e) {
+                              console.error("No se pudo enviar el video de la caja de la NETUM:", e.message);
+                        }
+                  }
                   if (hablaDeNetum && !sesion.videoNetumEnviado && /(video|c[oó]mo (se |la )?(usa|funciona|maneja|coloca|pone|instala|conecta)|manejo|como es el uso)/i.test(texto)) {
                         try {
                               await enviarVideo(telefono, VIDEO_NETUM, "Así funciona la Impresora NETUM 🖨️");
