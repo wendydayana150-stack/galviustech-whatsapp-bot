@@ -585,8 +585,8 @@
     "telefono": "573103621813",
     "nombre": "Hugodoc Colombia",
     "primerContacto": "2026-10-29T03:25:02.014Z",
-    "ultimoContacto": "2026-10-29T03:52:06.744Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-29T04:07:08.875Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -743,13 +743,20 @@
         "fecha": "2026-10-29T03:52:00.560Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSRkU1QkQ1ODVBMDc0MjY0QzQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-10-29T04:07:07.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSODg3REFFMzBFMjgyMTI0NzdBAA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "mini-impresora-de-etiquetas-termica-p5-bluetooth"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "mini-impresora-de-etiquetas-termica-p5-bluetooth",
     "ultimaCategoria": "impresora",
