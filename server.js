@@ -1875,7 +1875,9 @@ async function enviarRecordatoriosPendientes() {
                   // alla del mismo tope de 11h que ya existia.
                   let tier = null;
                   if (transcurrido >= 1 * 60 * 60 * 1000 && !recordatorios.horas1) tier = "horas1";
-                  else if (transcurrido >= 3 * 60 * 60 * 1000 && !recordatorios.horas3) tier = "horas3";
+                  // 29-oct-2026 (Wendy: "clientes que dejan de responder, a las 2 horas enviar mas opciones de producto y
+                  // catalogo siempre"): el segundo seguimiento (se sigue llamando horas3) sale a las 2 horas.
+                  else if (transcurrido >= 2 * 60 * 60 * 1000 && !recordatorios.horas3) tier = "horas3";
                   else if (transcurrido >= 5 * 60 * 60 * 1000 && !recordatorios.horas5) tier = "horas5";
                   else if (transcurrido >= 7 * 60 * 60 * 1000 && !recordatorios.horas7) tier = "horas7";
                   else if (transcurrido >= 9 * 60 * 60 * 1000 && !recordatorios.horas9) tier = "horas9";
@@ -1941,6 +1943,7 @@ async function enviarRecordatoriosPendientes() {
                                           { id: "ver_catalogo", titulo: "Ver otros" },
                                     ]
                               );
+                              if (p.tier === "horas3") await enviarListadoProductos(p.telefono, "Y también tenemos *otras opciones muy buenas* en *GALVIUSTECH* 👇", "🔥 Todo con *30% de descuento* y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
                         } else if (p.tier === "horas1") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
                         } else if (p.tier === "horas3") {
