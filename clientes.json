@@ -58963,8 +58963,8 @@
     "telefono": "573017432871",
     "nombre": "Alejo",
     "primerContacto": "2026-10-20T09:43:17.535Z",
-    "ultimoContacto": "2026-10-20T10:02:51.483Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-29T22:44:21.820Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -59219,6 +59219,18 @@
         "fecha": "2026-10-20T10:02:50.016Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSNDFCOUYxQjVCNDg2RUNCN0YzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenas tardes",
+        "fecha": "2026-10-29T22:44:19.004Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, ¿en qué te puedo ayudar hoy con los productos de GalviusTech? ¿Quieres saber sobre el módem 4G/5G que tenemos?",
+        "fecha": "2026-10-29T22:44:20.626Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3NDMyODcxFQIAERgSNTAwNkQxMEJCQTc2QjJBQTYxAA=="
       }
     ],
     "paso": "conversando",
@@ -59234,7 +59246,8 @@
     "esperaCompra": null,
     "recordatorios": {
       "seguimientosEnviados": 0
-    }
+    },
+    "interesColor": null
   },
   {
     "telefono": "573241814904",
