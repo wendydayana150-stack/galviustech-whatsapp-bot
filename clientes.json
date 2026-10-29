@@ -3,8 +3,8 @@
     "telefono": "573224384762",
     "nombre": "Karina Villamil",
     "primerContacto": "2026-10-29T21:15:58.261Z",
-    "ultimoContacto": "2026-10-29T21:15:58.261Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T21:18:03.534Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-29T21:15:57.167Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0Mzg0NzYyFQIAERgSMzlGNkY3RURGNzE0N0M4MTdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ay que pagar alguna mensualidad",
+        "fecha": "2026-10-29T21:17:59.050Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, no hay mensualidad ni contratos. Solo haces la inversión una vez y usas el módem con tu recarga o plan del operador que prefieras (Claro, Movistar, Tigo, WOM).\n\nPor ejemplo, puedes conectar hasta 10 dispositivos, y la batería dura hasta 14 horas sin cargar.\n\n¿En qué municipio o vereda lo usarías? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-10-29T21:18:02.496Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzg0NzYyFQIAERgSOTQwNjA2QUYzRENBNUY2MzhBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "18293505203",
