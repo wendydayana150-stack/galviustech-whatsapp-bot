@@ -3,8 +3,8 @@
     "telefono": "573245304936",
     "nombre": "👏🏻",
     "primerContacto": "2026-10-29T15:14:15.796Z",
-    "ultimoContacto": "2026-10-29T15:14:15.796Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T15:14:22.193Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-29T15:14:14.893Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1MzA0OTM2FQIAERgSRkEyRTAxNDRFQ0JCNEUyQTkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-29T15:14:17.379Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor ¿qué producto te interesa? Así te cuento el precio con todos sus beneficios y te ayudo a escoger lo mejor para ti. ¿Quieres módem, impresora, lámpara, cámara o algo más?",
+        "fecha": "2026-10-29T15:14:18.646Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1MzA0OTM2FQIAERgSQTNEQ0QxQjE0RUJERkM2NzlFAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573244599640",
