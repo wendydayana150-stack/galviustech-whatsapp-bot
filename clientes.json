@@ -3,8 +3,8 @@
     "telefono": "573133439953",
     "nombre": "",
     "primerContacto": "2026-10-29T02:00:47.971Z",
-    "ultimoContacto": "2026-10-29T02:00:47.971Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T02:00:58.038Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-29T02:00:47.272Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNDM5OTUzFQIAERgSNjJDMDI0NzM3M0NBNTdBMjE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como funciona",
+        "fecha": "2026-10-29T02:00:56.465Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-10-29T02:00:56.466Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDM5OTUzFQIAERgSRDI0QThERjY0MUI4MTUzNjM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Carga la impresora con el cable USB incluido.\n2. Enciende el boton de encendido (se prende una luz).\n3. Abre la tapa e inserta el rollo de papel termico (sin tinta).\n4. Activa el Bluetooth en tu celular y busca el nombre de la impresora para emparejarla.\n5. Descarga la app recomendada y selecciona la impresora.\n6. Listo, ya puedes imprimir facturas, recibos y mas desde tu celular!",
+        "fecha": "2026-10-29T02:00:57.055Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDM5OTUzFQIAERgSOEVFQjBENzFDNUY1MjA1N0I4AA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233506050",
