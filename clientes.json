@@ -409,8 +409,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:23:46.946Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-29T05:24:13.034Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -619,15 +619,55 @@
         "fecha": "2026-10-29T05:23:45.495Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSRkYzQTY0RUE0OUU3OUZCQkI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Camara WiFi + Mem. 64GB",
+        "fecha": "2026-10-29T05:24:08.520Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Camara WiFi + Mem. 64GB",
+        "fecha": "2026-10-29T05:24:08.521Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSMjlBNjI2ODg3QjFDNjdGNjZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Camara WiFi + Mem. 64GB",
+        "fecha": "2026-10-29T05:24:09.357Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSRjVCRjczMjhBQTE3Q0ZGNUVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Camara WiFi + Mem. 64GB",
+        "fecha": "2026-10-29T05:24:10.025Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSRjY5NTE1RjRCOTY4M0I1RUYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Cámara Inteligente de Vigilancia Wi-Fi + obsequio Memoria de 64gb*\n💰 *$ 109.900* ya con *30% de descuento* 🔥\n✅ Ves tu casa en vivo desde el celular, 1080p\n✅ Escuchas y hablas a través de la cámara\n✅ Te avisa si detecta movimiento; trae memoria de 64 GB 🎁\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T05:24:10.903Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNkE3NTFDRUMyMzQ5MEMzRjgwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T05:24:11.535Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNEM2NURBQzdCODUyOTlCNUM1AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "smartwatch-s13-max"
+      "productoId": "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "smartwatch-s13-max",
+    "ultimoProducto": "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
