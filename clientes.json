@@ -3,8 +3,8 @@
     "telefono": "573213943536",
     "nombre": "Teresa",
     "primerContacto": "2026-10-29T05:09:05.863Z",
-    "ultimoContacto": "2026-10-29T05:09:05.863Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T05:09:12.726Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-29T05:09:03.542Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMDNENjhENjkyOUExNDAwMTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto valen",
+        "fecha": "2026-10-29T05:09:10.218Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, me ayudas diciéndome cuál producto te interesa para pasarte el precio con sus beneficios y opciones? Por ejemplo, ¿quieres saber sobre los módems, impresoras, lámparas o cámaras? Así te cuento mejor. ¿Cuál te gustaría?",
+        "fecha": "2026-10-29T05:09:11.562Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMTE5NTQxNEMwQjg5Mzg1OURBAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133282056",
