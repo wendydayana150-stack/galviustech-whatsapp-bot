@@ -862,8 +862,8 @@
     "telefono": "573145099085",
     "nombre": "Wilder Tovar",
     "primerContacto": "2026-10-29T01:12:06.056Z",
-    "ultimoContacto": "2026-10-29T01:12:06.056Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T01:33:21.412Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -889,20 +889,69 @@
         "fecha": "2026-10-29T01:12:05.209Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSOTE5QkI1NTc2OTBBNTJGMDA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto vale",
+        "fecha": "2026-10-29T01:33:16.314Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T01:33:17.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSNTA5NDBEQzQwRDMzQUY5MjA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T01:33:18.364Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSN0VBMThDMjBBMjA2NTQ1MEREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T01:33:19.227Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSNTM1MDkwM0Q2RUM1MjhGRDc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-10-29T01:33:19.791Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi portátil 4G tiene una inversión de **$169.900 + $26.000 de envío**, ideal para conectar hasta 10 dispositivos donde no llega fibra. También tenemos el 4G/5G en **$189.900 + $26.000** para mejor cobertura y velocidad, y el 5G para quienes ya tienen señal 5G en su zona, a **$199.900 + $26.000**.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTodos son fáciles de usar, portátiles y con batería que dura hasta 14 horas. ¿En qué zona planeas usarlo y para qué sería principalmente?",
+        "fecha": "2026-10-29T01:33:19.797Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSRjdFNzA0QTlGQ0MyMDcyQzNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T01:33:20.340Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MDk5MDg1FQIAERgSMjc3NUYzNTU1QjVDQ0JDREEzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.923138627398544",
