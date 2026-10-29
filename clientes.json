@@ -534,8 +534,8 @@
     "telefono": "573213432906",
     "nombre": "Yeso Gregorio Flauteros",
     "primerContacto": "2026-10-29T12:17:10.047Z",
-    "ultimoContacto": "2026-10-29T12:20:35.479Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T12:21:12.200Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -612,6 +612,18 @@
         "fecha": "2026-10-29T12:20:34.338Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNDMyOTA2FQIAERgSNTgxRTNFRjk4OTFDOUFFRUE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias no es lo que busco",
+        "fecha": "2026-10-29T12:21:08.798Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por tu sinceridad. Si en otro momento necesitas internet portátil confiable para viajar, trabajar o estudiar, aquí estoy para ayudarte.\n\n¿Quieres que te muestre otras opciones que tenemos en GalviusTech? Por ejemplo:\n📶 Módem WiFi portátil\n🖨️ Impresoras térmicas\n💡 Lámparas solares\n📹 Cámaras de seguridad\n🎁 Combos\n\n¿Alguna categoría te interesa para que te muestre más detalles?",
+        "fecha": "2026-10-29T12:21:10.482Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNDMyOTA2FQIAERgSMDlFQ0FEMUMwMjM2NEVFMTg2AA=="
       }
     ],
     "paso": "conversando",
@@ -622,7 +634,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
