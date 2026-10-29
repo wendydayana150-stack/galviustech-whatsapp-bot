@@ -3,8 +3,8 @@
     "telefono": "573218824185",
     "nombre": "😘😘",
     "primerContacto": "2026-10-29T14:09:21.406Z",
-    "ultimoContacto": "2026-10-29T14:09:21.406Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T14:09:31.229Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-29T14:09:20.364Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4ODI0MTg1FQIAERgSMjY2QzI3MDVBQzYyMDkwMzhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Audio",
+        "fecha": "2026-10-29T14:09:29.026Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. No puedo escuchar audios, pero dime qué necesitas o qué pregunta tienes y con gusto te ayudo. ¿Qué producto te interesa o en qué te puedo apoyar hoy?",
+        "fecha": "2026-10-29T14:09:30.353Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4ODI0MTg1FQIAERgSRTY4RkU1MDM4QzM3RUY5MDlBAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144587648",
