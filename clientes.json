@@ -23983,8 +23983,8 @@
     "telefono": "573027848857",
     "nombre": "dailson Moreno",
     "primerContacto": "2026-10-29T03:47:22.060Z",
-    "ultimoContacto": "2026-10-29T17:13:04.927Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-29T17:13:20.103Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24273,14 +24273,27 @@
         "fecha": "2026-10-29T17:13:03.998Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSOTFDNDM4NjVCN0JFRDcwQ0UwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso se carga",
+        "fecha": "2026-10-29T17:13:15.418Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-29T17:13:15.421Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSOTEzQkQzRTJFMDgyMEMxQUE4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
-      "telefono": "573027848857"
+      "telefono": "573027848857",
+      "nombreCliente": "Eso se carga"
     },
     "pausado": false,
     "etapaManual": null,
