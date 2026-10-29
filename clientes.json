@@ -148,8 +148,8 @@
     "telefono": "CO.923138627398544",
     "nombre": "Jhon",
     "primerContacto": "2026-10-29T01:10:30.007Z",
-    "ultimoContacto": "2026-10-29T01:11:56.110Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T01:13:44.799Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -233,13 +233,37 @@
         "fecha": "2026-10-29T01:11:55.046Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSQjhBQzREQjkxNkEwMzlFNEI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno si eligió el 5g",
+        "fecha": "2026-10-29T01:13:40.117Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! El **Modem WiFi Portátil 5G** te dará conexión rápida y estable donde tengas cobertura 5G, ideal para trabajar, estudiar y tener internet propio sin complicaciones ni contratos.\n\n¿Te lo envío a tu casa o prefieres recogerlo en la oficina de la transportadora? \n\n✅ Pagas al recibir y tiene garantía de 30 días.",
+        "fecha": "2026-10-29T01:13:42.078Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSQjhCMjY1RUFEMzlDMEMyMEMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 5G* ($ 199.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T01:13:42.930Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSRDA4Mjk2MTlCQ0I1OEEwOTFBAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-portatil-5g",
+      "nombreProducto": "Modem WiFi Portatil 5G",
+      "precio": 199900,
+      "telefono": "CO.923138627398544"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
