@@ -3,8 +3,8 @@
     "telefono": "573135029974",
     "nombre": "Stiven",
     "primerContacto": "2026-10-29T16:45:05.210Z",
-    "ultimoContacto": "2026-10-29T16:47:57.757Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T16:48:27.018Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "bot",
@@ -94,16 +94,29 @@
         "fecha": "2026-10-29T16:47:56.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MDI5OTc0FQIAERgSREUwNTg0OUZBMzIwNzREMjU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3135029974",
+        "fecha": "2026-10-29T16:48:25.794Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-29T16:48:25.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MDI5OTc0FQIAERgSMTM1MTc3Rjg0OUM5QzkyREZCAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "573135029974",
       "departamento": "Antioquia",
-      "nombreCliente": "Jeiner Ramirez"
+      "nombreCliente": "Jeiner Ramirez",
+      "celular": "3135029974"
     },
     "pausado": false,
     "etapaManual": null,
