@@ -462,8 +462,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:25:18.647Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-29T05:25:37.078Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -762,9 +762,21 @@
         "fecha": "2026-10-29T05:25:17.481Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSMjgxOUUxOUE3M0QyN0U1MzY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-10-29T05:25:35.698Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T05:25:35.699Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSREU5Njc1NDBCRkEwRDRDQUNDAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "reloj-skmei-minimalista-black-edition"
     },
