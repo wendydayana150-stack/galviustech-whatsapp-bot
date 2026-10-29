@@ -2225,8 +2225,8 @@
     "telefono": "593989131435",
     "nombre": "Hna. Patricia Vela",
     "primerContacto": "2026-10-29T06:14:12.905Z",
-    "ultimoContacto": "2026-10-29T06:14:12.905Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T10:09:07.345Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2259,6 +2259,18 @@
         "fecha": "2026-10-29T06:14:11.798Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSMkY3QjlBNEE4RENDQjlEOEI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas pero quisiera una de foliares y a blanco y negro",
+        "fecha": "2026-10-29T10:09:04.352Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la impresora que mejor te sirve es la *Impresora Térmica Portátil NETUM*. Imprime en hojas tamaño carta, solo en blanco y negro, ideal para tareas, trabajos y documentos familiares sin gastar nada en tinta.\n\nLa inversión para esta impresora es de **$249.900**, ¡con envío gratis a toda Colombia! Además, incluye un rollo de papel térmico para que empieces a imprimir de una vez.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te la envíe a tu casa o prefieres recogerla en oficina?",
+        "fecha": "2026-10-29T10:09:06.344Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSNUY2NzA3MzBGNTVFMDJDMkY3AA=="
       }
     ],
     "paso": "conversando",
@@ -2272,7 +2284,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142988933",
