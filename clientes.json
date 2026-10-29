@@ -3,8 +3,8 @@
     "telefono": "573145196901",
     "nombre": "edgard",
     "primerContacto": "2026-10-29T13:55:11.152Z",
-    "ultimoContacto": "2026-10-29T13:55:11.152Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T13:55:30.819Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,62 @@
         "fecha": "2026-10-29T13:55:09.996Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSOTFFNjIzNEJFRkM3NTU1MEY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El precio",
+        "fecha": "2026-10-29T13:55:23.454Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T13:55:26.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSMTc5RkU0QkRENkUyNDNGRkZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T13:55:27.785Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSRTMwMDg3NkVBRDVDQ0NDMzYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T13:55:28.581Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSNDhDNDYxRjJEM0EwQTdDMUZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T13:55:29.229Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento: el Modem WiFi Portatil 4G cuesta **$169.900 + $26.000 de envío** y te conecta a internet 4G, ideal para fincas o veredas sin fibra óptica, con señal más fuerte que un celular y para varios dispositivos a la vez.\n\nTambién está el Modem WiFi Portatil 4G/5G a **$189.900 + envío**, que funciona donde haya señal 4G o 5G, perfecto si quieres una opción más versátil.\n\nY el Modem WiFi Portatil 5G, para máxima velocidad si tienes buena cobertura 5G, cuesta **$199.900 + envío**.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me puedes decir en qué municipio o vereda lo usarías, así te ayudo a elegir el mejor para ti?",
+        "fecha": "2026-10-29T13:55:29.235Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSN0JEMzkxQTYxRjMyNTFCQTIwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234940895",
