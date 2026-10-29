@@ -1645,8 +1645,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:51:45.155Z",
-    "mensajes": 26,
+    "ultimoContacto": "2026-10-29T02:54:02.106Z",
+    "mensajes": 27,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2085,9 +2085,21 @@
         "fecha": "2026-10-29T02:51:43.992Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSMzY4QkI0QkI1NTZDQTQ5OTI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-10-29T02:54:00.205Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T02:54:00.504Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSREM5QUZDQzNEQzlGODU4Mjg0AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "reloj-curren-deportivo-chronograph"
     },
