@@ -20845,8 +20845,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-10-29T05:36:44.382Z",
-    "ultimoContacto": "2026-10-29T18:28:15.804Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-10-29T18:29:19.515Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -21262,6 +21262,18 @@
         "fecha": "2026-10-29T18:28:14.770Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSMDA0NzRBQ0MyMDk4MUFBMUZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "gracias los tendré en cuenta",
+        "fecha": "2026-10-29T18:29:15.959Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta para cuando decidas. Recuerda que la lámpara solar tipo cámara es una solución económica y ecológica para que tu casa esté más segura sin factura de luz.\n\nSi quieres te puedo mostrar otros productos de seguridad o iluminación que tenemos en GalviusTech.\n\n¿Quieres que te cuente sobre alguna otra cosa?",
+        "fecha": "2026-10-29T18:29:18.497Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSN0FCOEZBNDQ4NDg4MkJBN0Q4AA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -21274,7 +21286,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
