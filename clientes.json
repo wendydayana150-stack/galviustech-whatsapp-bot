@@ -95,8 +95,8 @@
     "telefono": "573136051780",
     "nombre": "J",
     "primerContacto": "2026-10-29T12:33:59.310Z",
-    "ultimoContacto": "2026-10-29T12:33:59.310Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:34:56.233Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,20 +122,35 @@
         "fecha": "2026-10-29T12:33:58.316Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MDUxNzgwFQIAERgSQTUzQUQzMkM4RUJEQTg0N0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Grasias",
+        "fecha": "2026-10-29T12:34:53.485Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto, estoy para ayudarte. ¿En qué municipio o vereda lo usarías y para qué lo necesitas? Así te recomiendo el módem ideal para ti. 😊",
+        "fecha": "2026-10-29T12:34:55.075Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MDUxNzgwFQIAERgSNzNDNEQzNzRDRjBGMkMwMEVDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1467714715293999",
