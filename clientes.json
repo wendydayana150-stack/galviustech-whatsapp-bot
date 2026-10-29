@@ -3,8 +3,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-10-29T07:41:06.758Z",
-    "ultimoContacto": "2026-10-29T07:41:06.758Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T07:43:45.497Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-29T07:41:05.640Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSNTJEOENEMzhBREVBNjlCRUJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuales son los pasos para para imprimir.",
+        "fecha": "2026-10-29T07:43:42.177Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento cómo usar la *Impresora Térmica Portátil NETUM* en pocos pasos:\n\n1. Carga la impresora con el cable USB hasta que tenga batería.\n2. Enciéndela y coloca el rollo de papel térmico (ya viene incluido).\n3. Activa el Bluetooth en tu celular.\n4. Empareja la impresora con tu celular desde la app que uses para imprimir.\n5. Desde el celular, abre el documento o imagen y manda a imprimir.\n\nEs súper fácil y práctica para imprimir donde estés, sin tinta ni cables molestos 😊\n\n¿Para qué la necesitas principalmente? Así te digo si es la mejor opción para ti.",
+        "fecha": "2026-10-29T07:43:44.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSREI4OEI5NjdDNjBFMTQ0QkNCAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573138381094",
