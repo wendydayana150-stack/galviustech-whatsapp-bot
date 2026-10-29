@@ -1645,8 +1645,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:54:23.673Z",
-    "mensajes": 28,
+    "ultimoContacto": "2026-10-29T02:54:49.512Z",
+    "mensajes": 29,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2109,15 +2109,55 @@
         "fecha": "2026-10-29T02:54:21.845Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNEY5RDUzQzM0RTAwRkE4NDgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Hello Plum Smartwatch",
+        "fecha": "2026-10-29T02:54:45.566Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-29T02:54:45.566Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQTgzRjU0MDg1QjlDN0YxNTI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-29T02:54:46.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRTQ0NzNBN0VCMkY0MDQyMTU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hello Plum Smartwatch",
+        "fecha": "2026-10-29T02:54:46.970Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSOTkxMDM3NkVDRjgyRTk5MEE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Hello Plum Smartwatch*\n💰 *$ 189.900* ya con *30% de descuento* 🔥\n✅ Llamadas por Bluetooth y notificaciones de WhatsApp\n✅ Mide ritmo cardíaco, oxígeno y sueño\n✅ Resiste lluvia y sudor; batería de 4 a 5 días\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T02:54:47.587Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNTdENjkyQjQ1N0JGMEIzMDg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T02:54:48.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNTg0OUExQkM2QkE5RTE5NjU5AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "reloj-curren-deportivo-chronograph"
+      "productoId": "reloj-premium"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reloj-curren-deportivo-chronograph",
+    "ultimoProducto": "reloj-premium",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
