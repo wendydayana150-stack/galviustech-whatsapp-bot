@@ -437,8 +437,8 @@
     "telefono": "573026506613",
     "nombre": "broth",
     "primerContacto": "2026-10-29T13:13:44.593Z",
-    "ultimoContacto": "2026-10-29T13:32:29.956Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-29T13:34:13.473Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -632,6 +632,25 @@
         "fecha": "2026-10-29T13:32:27.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSQTlEN0NENEY0MzRBMjRERjczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea el equipo no tiene  Internet  solo simplemente  cuando hace la recarga allí te llega  el WiFi  o q",
+        "fecha": "2026-10-29T13:34:09.137Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem no tiene internet por sí solo, funciona con la SIM que le pongas.\n\nCuando le insertas la SIM y esa SIM tiene un plan o recarga con datos activos, el módem convierte esa señal móvil en WiFi para que puedas conectar varios dispositivos a internet donde estés.\n\nO sea, la inversión es en el módem, y tú eliges y manejas con el operador el plan o recarga que prefieras.",
+        "fecha": "2026-10-29T13:34:11.452Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSMTc4MkU2RDdGNTVFQ0MwQjU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T13:34:12.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSNjAwOEMwODc0ODBGNkEwOTc4AA=="
       }
     ],
     "paso": "pedido_nombre",
