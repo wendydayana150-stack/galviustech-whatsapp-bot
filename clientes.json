@@ -3,8 +3,8 @@
     "telefono": "573102919824",
     "nombre": "Jacqueline",
     "primerContacto": "2026-10-29T00:54:46.714Z",
-    "ultimoContacto": "2026-10-29T00:57:07.228Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T00:57:46.770Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,13 +81,25 @@
         "fecha": "2026-10-29T00:57:06.470Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTE5ODI0FQIAERgSNzBBNDQwMzk0RkY0NTJBQjM0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-10-29T00:57:44.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si no tienes planeado usar muchos datos o es un uso ocasional, el módem 4G más económico puede ser suficiente para ti.\n\nEste equipo cuesta **$169.900 + $26.000 de envío**, es portátil, fácil de usar, con buena cobertura para estudio y trabajo en tu zona.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo reserve para enviártelo? ¿Lo quieres recibir en casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-29T00:57:45.851Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTE5ODI0FQIAERgSMjBGRjczMjQwQTM0Q0ZGQUVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
