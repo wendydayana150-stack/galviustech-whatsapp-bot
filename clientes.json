@@ -3,8 +3,8 @@
     "telefono": "573215686076",
     "nombre": "jairodejesusescobarescoba",
     "primerContacto": "2026-10-29T01:34:19.496Z",
-    "ultimoContacto": "2026-10-29T01:34:19.496Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T01:34:39.688Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-29T01:34:18.472Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1Njg2MDc2FQIAERgSOUJFNkIzRDUwRTk0NDE3QUQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches cual es el costo",
+        "fecha": "2026-10-29T01:34:35.603Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches 😊 La inversión para la Impresora Térmica Portátil NETUM es de **$249.900** con un 30% de descuento y con envío GRATIS a toda Colombia.  \n\nEsta impresora es portátil, no necesita tinta porque usa impresión térmica en blanco y negro, y es ideal para trabajos, estudio, negocios y para que la lleves a donde quieras imprimir sin depender de papelerías.\n\n¿Para qué la necesitas principalmente, para tareas, documentos o para facturas y recibos?",
+        "fecha": "2026-10-29T01:34:37.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njg2MDc2FQIAERgSOURFMTJFNDFCMjgyQUY5MDQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-29T01:34:38.005Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njg2MDc2FQIAERgSQUVCQzg4ODVDRjA4REM1RkFBAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205539270",
