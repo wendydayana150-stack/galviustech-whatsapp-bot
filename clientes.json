@@ -7161,8 +7161,8 @@
     "telefono": "CO.1146250857773152",
     "nombre": "jhc",
     "primerContacto": "2026-10-29T12:37:09.518Z",
-    "ultimoContacto": "2026-10-29T15:17:26.353Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T16:34:51.135Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7230,6 +7230,25 @@
         "fecha": "2026-10-29T15:17:25.326Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE0NjI1MDg1Nzc3MzE1MhUUABEYEjAwNDY2OTNGMzE3NUZFNzA4QQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-10-29T16:21:29.042Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE0NjI1MDg1Nzc3MzE1MhUUABEYEjAyRUNGOUY2NjhBRjgzRURFMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No aún no, la puedo ver más tarde",
+        "fecha": "2026-10-29T16:34:48.057Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta cuando decidas. Recuerda que la *Impresora NETUM* tiene envío gratis, garantía por 30 días, y te ahorra el problema de buscar dónde imprimir cuando más lo necesitas.\n\nCuando quieras, aquí estoy para ayudarte con cualquier duda o para dejarte el pedido listo.\n\n¿Quieres que te recuerde la promo en otro momento o prefieres que te muestre otro producto mientras tanto? 😊",
+        "fecha": "2026-10-29T16:34:50.013Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE0NjI1MDg1Nzc3MzE1MhUUABEYEjc5OEIxNjIwRkNFRjc2MkQzRQA="
       }
     ],
     "paso": "conversando",
@@ -7240,13 +7259,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
