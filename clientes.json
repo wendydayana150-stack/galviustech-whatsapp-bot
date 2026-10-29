@@ -49,8 +49,8 @@
     "telefono": "584225004377",
     "nombre": "🇻🇪Adrián🇻🇪",
     "primerContacto": "2026-10-29T12:35:40.189Z",
-    "ultimoContacto": "2026-10-29T12:35:40.189Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:36:59.729Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -76,6 +76,18 @@
         "fecha": "2026-10-29T12:35:39.089Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjI1MDA0Mzc3FQIAERgSRDBFMUM1MTU5MkQ2MjExMjRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-10-29T12:36:57.022Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buenos días! ¿Me cuentas en qué municipio o vereda lo necesitas y para qué lo usarías? Así te recomiendo el módem que mejor te funciona. ¿Lo quieres más para estudio, trabajo, casa o negocio?",
+        "fecha": "2026-10-29T12:36:58.645Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjI1MDA0Mzc3FQIAERgSMTIwOTI2ODNCODI3REI3QTg5AA=="
       }
     ],
     "paso": "conversando",
@@ -89,7 +101,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573002015248",
