@@ -462,8 +462,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:25:51.545Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-29T05:26:27.987Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -786,15 +786,41 @@
         "fecha": "2026-10-29T05:25:50.242Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSQzI3NDI2NjFFMzY5MDJGMzk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Curren Blanche (Mujer)",
+        "fecha": "2026-10-29T05:26:25.156Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Curren Blanche (Mujer)",
+        "fecha": "2026-10-29T05:26:25.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNUM2NjVCOTQ0NzdDRjczOEQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Curren Blanche Elegance para Mujer*\n💰 *$ 169.900* ya con *30% de descuento* 🔥\n✅ Diseño elegante con detalles en pedrería\n✅ Combina con todo tu estilo\n✅ Un regalo perfecto para alguien especial\n🚚 Envío $26.000 y *pagas al recibir*\n🎨 Colores: Azul, Verde",
+        "fecha": "2026-10-29T05:26:25.955Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNEYwMzg5QjZDREY3OTg4NzRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T05:26:26.665Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNzZFMTYxOUMyRDIyRTEzRDE0AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "reloj-skmei-minimalista-black-edition"
+      "productoId": "reloj-curren-blanche-elegance-para-mujer"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reloj-skmei-minimalista-black-edition",
+    "ultimoProducto": "reloj-curren-blanche-elegance-para-mujer",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
