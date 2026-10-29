@@ -56,8 +56,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-10-29T05:36:44.382Z",
-    "ultimoContacto": "2026-10-29T05:36:44.382Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T05:38:44.536Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,20 +83,35 @@
         "fecha": "2026-10-29T05:36:43.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNUQ3NkEzMUNGNjY3QkVDQUY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "y como bajo la señal a esos modem df ose supone la sel",
+        "fecha": "2026-10-29T05:38:40.539Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico rapidito: estos módems tienen una antena más potente que la de un celular normal, diseñada para captar señal incluso en fincas o zonas rurales donde el celular suele fallar.\n\nSolo tienes que poner una SIM de Claro, Movistar, Tigo, WOM u otro operador compatible, encender el módem y él va a captar la señal móvil que haya y la convierte en WiFi para que puedas conectar tus dispositivos.\n\nMuchas personas en zonas rurales y veredas ya están usando este módem para tener internet estable sin depender de fibra o cables.\n\n¿Me cuentas en qué municipio o vereda lo necesitas para recomendarte la mejor versión? Así tendrás internet sin preocuparte por la señal.",
+        "fecha": "2026-10-29T05:38:43.217Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNjZEMUM3Q0QzOTY4QjJCMTI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042672822",
