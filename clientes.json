@@ -454,8 +454,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:16:27.284Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-29T02:17:03.076Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -630,10 +630,35 @@
         "fecha": "2026-10-29T02:16:26.232Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSOUY2N0QxNjE2NzRFRkExNkYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que llegue a casa",
+        "fecha": "2026-10-29T02:17:00.011Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te dejo el pedido listo para que te llegue a tu casa en Bogotá.  \n\nSolo necesito que me confirmes el nombre completo y tu celular para avanzar.  \n\nQuedo pendiente para dejar todo listo y que disfrutes tu conexión 4G/5G donde la necesites.",
+        "fecha": "2026-10-29T02:17:01.257Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSMTQ1QTgwM0IxRUJBRjFCMzk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-29T02:17:02.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNjdGNzdDMUIyQjBGQTQ1QUNCAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573160722007",
+      "departamento": "Bogota"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
