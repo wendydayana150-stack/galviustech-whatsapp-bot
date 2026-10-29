@@ -1554,8 +1554,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:38:18.425Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-10-29T02:51:18.267Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1942,9 +1942,35 @@
         "fecha": "2026-10-29T02:38:17.224Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSOEYyQkMyMUE1REQyRjRCRTY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Curren 8475 (Hombre)",
+        "fecha": "2026-10-29T02:51:15.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Curren 8475 (Hombre)",
+        "fecha": "2026-10-29T02:51:15.898Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNjAxRUQzN0EwMjY5NzgxM0M1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Curren 8475 Original Para Hombre*\n💰 *$ 159.900* ya con *30% de descuento* 🔥\n✅ Diseño deportivo negro mate con detalles en verde\n✅ Cronógrafo funcional\n✅ Caja y correa metálica resistente\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T02:51:16.501Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSREQyQkYyMjlCMjAzRUQ5RkYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T02:51:17.141Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQUMxQzlBMTNEOTI1NjM0OTc3AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
       "productoId": "reloj-curren-8475-original-para-hombre"
     },
