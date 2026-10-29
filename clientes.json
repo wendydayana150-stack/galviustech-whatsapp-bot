@@ -3594,8 +3594,8 @@
     "telefono": "573104435076",
     "nombre": "Jose Epinayu",
     "primerContacto": "2026-10-29T12:14:13.901Z",
-    "ultimoContacto": "2026-10-29T12:14:13.901Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:59:24.921Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3621,20 +3621,62 @@
         "fecha": "2026-10-29T12:14:04.553Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0NDM1MDc2FQIAERgSMjA2MjdFNjQ2NzdCRDYxMTE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una afueras del pueblo,  para el trabajo",
+        "fecha": "2026-10-29T12:59:17.853Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:59:20.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDM1MDc2FQIAERgSNkFBNzk5NzA1QzZGNTIxMkQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:59:20.710Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDM1MDc2FQIAERgSOEM3OTA3MTdCMkU3OUY5MzdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:59:21.322Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDM1MDc2FQIAERgSRjI2MzQ0ODI2OEY5ODQ0M0ZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:59:22.068Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para las afueras del pueblo y uso en trabajo, te recomiendo estas tres versiones de módem que tenemos:\n\n📶 *Módem WiFi Portátil 4G* - La opción más económica, ideal para conectarte donde no hay fibra, conectar varios dispositivos y llevarlo fácil a donde necesites. La batería dura hasta 14 horas seguidas.\n\n🚀 *Módem WiFi Portátil 4G/5G* - Recomendado porque funciona con 4G o 5G según la cobertura, te da lo mejor para ahora y para futuro, sin notar pérdida de velocidad si solo hay 4G.\n\n⚡ *Módem WiFi Portátil 5G* - Para zonas con buena cobertura 5G y que buscas la máxima velocidad móvil.\n\nLos precios con envío son:\n- 4G: **$169.900 + $26.000 envío**\n- 4G/5G: **$189.900 + $26.000 envío**\n- 5G: **$199.900 + $26.000 envío**\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar tu pedido listo? ¿O prefieres que te cuente más detalles de alguna versión en particular?",
+        "fecha": "2026-10-29T12:59:22.088Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0NDM1MDc2FQIAERgSNThCNDkwOTVEQ0FERjE2RjRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2614052869044545",
