@@ -190,8 +190,8 @@
     "telefono": "CO.923138627398544",
     "nombre": "Jhon",
     "primerContacto": "2026-10-29T01:10:30.007Z",
-    "ultimoContacto": "2026-10-29T01:13:44.799Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T01:14:15.762Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -294,6 +294,25 @@
         "fecha": "2026-10-29T01:13:42.930Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSRDA4Mjk2MTlCQ0I1OEEwOTFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y eso tiene internet o como es",
+        "fecha": "2026-10-29T01:14:12.490Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no trae internet incluido, funciona con una SIM de cualquier operador (Claro, Movistar, Tigo, WOM).\n\nCon la SIM activa y recarga tú mismo escoges el plan y los megas que quieras. Cuando confirmes tu compra, te enviamos de obsequio una SIM Card Claro sin datos; tú la activas y recargas según tus necesidades.",
+        "fecha": "2026-10-29T01:14:14.187Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSRDQ4QUI2NzM1RDlDQkIxNUIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T01:14:14.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSRDAwMkQzMzE4QzM5NDA3MEI3AA=="
       }
     ],
     "paso": "pedido_nombre",
