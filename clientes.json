@@ -11939,8 +11939,8 @@
     "telefono": "573213943536",
     "nombre": "Teresa",
     "primerContacto": "2026-10-29T05:09:05.863Z",
-    "ultimoContacto": "2026-10-29T12:55:34.593Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T12:56:23.606Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12024,13 +12024,97 @@
         "fecha": "2026-10-29T12:55:33.443Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSM0FGOTZBQzU3RENCMjcxMDhCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora NETUM",
+        "fecha": "2026-10-29T12:56:16.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T12:56:16.420Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMEFBN0M0QjQ2NTYyRDkyODBDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T12:56:17.143Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMzQ2Mzc4QUMxRjNDMUQ4OUI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T12:56:17.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSNDVEN0RENTZEQ0Y2NDcxMUM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil NETUM*\n💰 Antes ~$ 356.900~, *hoy $ 249.900* con *30% de descuento* 🔥\n✅ Imprime SIN TINTA: nunca más compras cartuchos\n✅ Hojas tamaño carta desde tu celular\n✅ Portátil: cabe en el bolso o la mochila\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-10-29T12:56:18.448Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSNkVDNUE2NDg5ODFBQTg2MDQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tambien tenemos estas promociones que incluyen el Impresora NETUM:",
+        "fecha": "2026-10-29T12:56:19.003Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMUU3RTkzNTBBQzMxMEU1MUI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termica + Camara",
+        "fecha": "2026-10-29T12:56:19.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSQjU3Qjc3OEY0RUVBNjhGNTY2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎁 *COMBO Impresora Termica Portatil + Camara de seguridad* por solo $ 269.900",
+        "fecha": "2026-10-29T12:56:20.225Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSNEYyQjY4NENENzUzMzBGMjA3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-10-29T12:56:20.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSRDE1MjZBRTVEQ0I5ODkxMDEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] COMBO Impresora Termical + Reloj",
+        "fecha": "2026-10-29T12:56:21.473Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSRjA2RUJGRjFDQjI2MUNEMTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎁 *COMBO Impresora Termica Portatil + Reloj* por solo $ 269.900",
+        "fecha": "2026-10-29T12:56:21.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMTMxREQ5OUIxMkUyQkQ0MkExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Que prefieres?\n[Opciones: Con camara de regalo | Con reloj de regalo | Solo este producto]",
+        "fecha": "2026-10-29T12:56:22.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSQjJCOTU1MDBDOEVCMDUzNjBFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
