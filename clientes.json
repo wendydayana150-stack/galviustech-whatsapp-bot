@@ -10788,8 +10788,8 @@
     "telefono": "573215825543",
     "nombre": "De rodillas Soloantedios",
     "primerContacto": "2026-10-29T08:37:56.910Z",
-    "ultimoContacto": "2026-10-29T14:46:12.969Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-29T14:46:29.343Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10959,23 +10959,35 @@
         "fecha": "2026-10-29T14:46:11.848Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSMzQxQUJCQTZCQzFBNzQzMDI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Angel Manuel. Para confirmar tu pedido del Módem WiFi Portátil 4G a $169.900 + $26.000 de envío (total $195.900), solo necesito que me confirmes si esa es la versión que quieres. \n\nRecuerda que pagas al recibir y tienes garantía de 30 días. Si prefieres otra versión (4G/5G o 5G), dime cuál y te la dejo lista.\n\n¿Me confirmas el modelo y me envías tu dirección completa, barrio y medio de pago? Así lo dejamos listo.",
+        "fecha": "2026-10-29T14:46:27.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSREU0ODcyMTlFOTAwOTVGMzk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 169.900) 🙌 Ya tengo tu nombre, tu celular y tu departamento, no hace falta repetirlo.\n\nSolo me falta: ¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-29T14:46:28.464Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSOTQ1NTY4MEE2RjJFRDkzRDkyAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_ciudad",
     "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 189900,
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
       "telefono": "573215825543",
       "nombreCliente": "Angel Manuel argel",
       "celular": "3215825543",
-      "departamento": "Antioquia",
-      "ciudad": "Apartado",
-      "direccion": "Barrio obrero bloque 3 apartado Antioquia"
+      "departamento": "Antioquia"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
