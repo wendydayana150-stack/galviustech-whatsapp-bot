@@ -1107,8 +1107,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:37:58.060Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-10-29T02:38:18.425Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1483,9 +1483,21 @@
         "fecha": "2026-10-29T02:37:56.891Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQUNCNDlFREI0OTNGMTU3MjcyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Relojes",
+        "fecha": "2026-10-29T02:38:17.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Relojes]",
+        "fecha": "2026-10-29T02:38:17.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSOEYyQkMyMUE1REQyRjRCRTY5AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "reloj-curren-8475-original-para-hombre"
     },
