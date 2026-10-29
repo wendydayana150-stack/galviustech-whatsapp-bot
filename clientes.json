@@ -3,8 +3,8 @@
     "telefono": "573234000309",
     "nombre": "jhonfpss9",
     "primerContacto": "2026-10-29T10:49:58.803Z",
-    "ultimoContacto": "2026-10-29T10:49:58.803Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T10:51:43.235Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-29T10:49:57.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MDAwMzA5FQIAERgSODRERDFBMzAyODAzNkQ2NzM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q precio la mensualidad",
+        "fecha": "2026-10-29T10:51:39.967Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para el Modem WiFi Portátil es única: puedes usarlo sin mensualidad fija, solo compras el módem y recargas la SIM según lo que necesites.\n\nLos precios son:\n\n• 4G: $169.900 + $26.000 envío  \n• 4G/5G: $189.900 + $26.000 envío  \n• 5G: $199.900 + $26.000 envío  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nEl modem sirve para estudiar, trabajar o conectarte donde no llega fibra. ¿En qué municipio o vereda piensas usarlo? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-10-29T10:51:42.046Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDAwMzA5FQIAERgSMjU2ODQ5Rjc2MDg4MzJDMUU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216469593",
