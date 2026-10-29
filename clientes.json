@@ -2362,8 +2362,8 @@
     "telefono": "573103621813",
     "nombre": "Hugodoc Colombia",
     "primerContacto": "2026-10-29T03:25:02.014Z",
-    "ultimoContacto": "2026-10-29T05:18:22.741Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-29T05:19:43.761Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2590,6 +2590,18 @@
         "fecha": "2026-10-29T05:18:21.747Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSNUVCMjc4NzJFMTk2MjBEMTFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero pensarlo??? gracias.",
+        "fecha": "2026-10-29T05:19:39.481Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieras pensarlo con calma. Recuerda que la promoción con 30% de descuento es por tiempo limitado y hay unidades disponibles.\n\nSi quieres, te dejo el dato que pagas al recibir y tienes garantía de 30 días para probarla sin riesgo.\n\n¿Hay alguna duda que te puedo aclarar para ayudarte a decidir?",
+        "fecha": "2026-10-29T05:19:41.020Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSMEU0NzVFNDhCMTk2OEE3ODNCAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -2602,7 +2614,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
