@@ -859,8 +859,8 @@
     "telefono": "573148540867",
     "nombre": "😎jhon callejas👍🏻🙏🏻",
     "primerContacto": "2026-10-29T13:20:16.745Z",
-    "ultimoContacto": "2026-10-29T14:23:51.826Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T14:23:55.629Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -917,6 +917,18 @@
         "fecha": "2026-10-29T14:23:50.697Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NTQwODY3FQIAERgSNTMxQjQ5N0ZBNzcyQTAxODRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-29T14:23:53.316Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, quedo atenta si más adelante quieres que te ayude con internet o algo más 😊\n\nQue tengas un excelente día, ¡gracias a ti!",
+        "fecha": "2026-10-29T14:23:54.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NTQwODY3FQIAERgSMDc5NDQzQUI0QzIwOTE4NkMwAA=="
       }
     ],
     "paso": "conversando",
@@ -927,7 +939,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
