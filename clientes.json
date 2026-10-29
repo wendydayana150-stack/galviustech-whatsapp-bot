@@ -10788,8 +10788,8 @@
     "telefono": "573215825543",
     "nombre": "De rodillas Soloantedios",
     "primerContacto": "2026-10-29T08:37:56.910Z",
-    "ultimoContacto": "2026-10-29T08:58:07.613Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-29T14:45:21.930Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10945,6 +10945,13 @@
         "fecha": "2026-10-29T08:58:06.362Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSQkJFMjA2MUFBQjI1QUZDMTRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:  *Nombre:* Angel Manuel argel      *Celular:* 3215825543.   *Departamento:* Antioquia *Ciudad:* Apartado.   *Direccion:* Barrio obrero bloque 3 apartado Antioquia      - *Producto:* Modem WiFi Portatil 4G  *Valor del producto:* $169.900 *Envío:* $26.000 *Total a pagar:* $195.900 *Medio de pago:* Contra entrega",
+        "fecha": "2026-10-29T14:45:20.692Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSMjk2NERBQTkyRTcyM0Y3OUY4AA=="
       }
     ],
     "paso": "pedido_barrio",
@@ -10959,7 +10966,7 @@
       "ciudad": "Apartado",
       "direccion": "Barrio obrero bloque 3 apartado Antioquia"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -10970,9 +10977,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
