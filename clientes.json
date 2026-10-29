@@ -307,8 +307,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:21:41.325Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-29T05:22:02.560Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -460,15 +460,48 @@
         "fecha": "2026-10-29T05:21:40.052Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSQTdEOTIzMkZFREQ5Njk1Mjc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Smartwatch S13 MAX",
+        "fecha": "2026-10-29T05:21:59.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch S13 MAX",
+        "fecha": "2026-10-29T05:21:59.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSMUY0RjgzQjk4MUVDMjVDQ0NDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Smartwatch S13 MAX",
+        "fecha": "2026-10-29T05:21:59.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNDdFQjM2MzJBRDAyNjE4MTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Smartwatch S13 MAX*\n💰 *$ 99.900* ya con *30% de descuento* 🔥\n✅ Recibe llamadas y mensajes en tu muñeca\n✅ Controla tu ritmo cardíaco y actividad\n✅ Pantalla que se ve bien hasta bajo el sol\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T05:22:00.667Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNDJEOEMxM0M3M0NBMzc5QzA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T05:22:01.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSODUxOTFCOTZDNTYwQTY1RUEzAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica-portatil-goojprt-pt-210"
+      "productoId": "smartwatch-s13-max"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
+    "ultimoProducto": "smartwatch-s13-max",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
