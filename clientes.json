@@ -849,7 +849,11 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573148540867",
@@ -909,7 +913,8 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
@@ -956,7 +961,11 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573114183635",
@@ -1043,7 +1052,8 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
@@ -32738,8 +32748,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 2,
+      "horas1": true,
+      "horas3": true
     }
   },
   {
