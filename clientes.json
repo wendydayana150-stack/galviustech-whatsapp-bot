@@ -258,8 +258,8 @@
     "telefono": "573186469551",
     "nombre": "Dalys 🥰🥰🥰",
     "primerContacto": "2026-10-29T12:37:18.164Z",
-    "ultimoContacto": "2026-10-29T12:42:04.989Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T12:43:03.719Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -343,6 +343,25 @@
         "fecha": "2026-10-29T12:42:03.908Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSQ0IxNzgzQTAxNzAwM0M3MkRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene que estar nonectado a la energía?",
+        "fecha": "2026-10-29T12:43:00.190Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, no necesitas tenerlo conectado a la energía todo el tiempo.\n\nEl módem tiene batería recargable USB-C que dura hasta 14 horas de uso continuo con una carga completa, así que puedes usarlo sin estar conectado mientras estás donde lo necesites.\n\n¿Quieres que te ayude a dejar el pedido listo para que tengas internet ya?",
+        "fecha": "2026-10-29T12:43:01.974Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSNUQyNDk0MTNDOTQ4NzYzOTFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T12:43:02.744Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSNTgyREYxQUExMThGODVCQ0U3AA=="
       }
     ],
     "paso": "conversando",
