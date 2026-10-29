@@ -49,8 +49,8 @@
     "telefono": "573043280457",
     "nombre": "TEVE🙏🏿💰",
     "primerContacto": "2026-10-29T12:21:03.260Z",
-    "ultimoContacto": "2026-10-29T12:21:38.347Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T12:21:48.307Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,10 +122,27 @@
         "fecha": "2026-10-29T12:21:37.240Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQzMjgwNDU3FQIAERgSMDFEN0M0N0MxNEQwQTBDNjA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-29T12:21:47.027Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T12:21:47.264Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQzMjgwNDU3FQIAERgSNTc1NjlDMkVBMUFFQzA4NDUxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573043280457"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
