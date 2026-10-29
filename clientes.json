@@ -190,8 +190,8 @@
     "telefono": "CO.923138627398544",
     "nombre": "Jhon",
     "primerContacto": "2026-10-29T01:10:30.007Z",
-    "ultimoContacto": "2026-10-29T01:14:15.762Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-29T01:15:14.282Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -313,6 +313,25 @@
         "fecha": "2026-10-29T01:14:14.852Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSRDAwMkQzMzE4QzM5NDA3MEI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero una pregunta ak no ay señal funciona",
+        "fecha": "2026-10-29T01:15:10.729Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador, ni Claro, Movistar, Tigo ni WOM, el módem no conectará porque depende de esa señal móvil.\n\nEso sí, la antena del módem es más potente que la del celular, entonces a veces puede captar señal donde el celular no la ve.",
+        "fecha": "2026-10-29T01:15:12.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSODY0NERCQ0YzRDVFNDc1NENDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T01:15:13.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSN0ZGRkQwMzg0RTYwMDYwMzQwAA=="
       }
     ],
     "paso": "pedido_nombre",
