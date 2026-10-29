@@ -23958,8 +23958,8 @@
     "telefono": "573027848857",
     "nombre": "dailson Moreno",
     "primerContacto": "2026-10-29T03:47:22.060Z",
-    "ultimoContacto": "2026-10-29T17:11:39.477Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-29T17:12:19.002Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24136,10 +24136,34 @@
         "fecha": "2026-10-29T17:11:33.407Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSQzk4MDYxODQzMTM1ODFFOEM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dailson Moreno",
+        "fecha": "2026-10-29T17:12:14.794Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial, Dailson! Te voy a dejar el pedido listo con el Módem WiFi Portátil 4G/5G para que tengas internet en tu finca sin complicaciones.",
+        "fecha": "2026-10-29T17:12:16.822Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSMTQ0NTlEOTY3QjZCMkY0QTZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T17:12:17.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSRjM0QkNFRTdBRUIwODA0MUExAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573027848857"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
