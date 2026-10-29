@@ -462,8 +462,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:24:13.034Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-29T05:24:33.834Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -712,9 +712,21 @@
         "fecha": "2026-10-29T05:24:11.535Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNEM2NURBQzdCODUyOTlCNUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-10-29T05:24:32.967Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T05:24:32.967Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNkM5MzhFMjU0MzcwOUFFNzlEAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p"
     },
