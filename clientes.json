@@ -243,8 +243,8 @@
     "telefono": "CO.923138627398544",
     "nombre": "Jhon",
     "primerContacto": "2026-10-29T01:10:30.007Z",
-    "ultimoContacto": "2026-10-29T01:15:14.282Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T01:16:14.013Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -385,6 +385,25 @@
         "fecha": "2026-10-29T01:15:13.389Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSN0ZGRkQwMzg0RTYwMDYwMzQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "UMM mejor lo compro después",
+        "fecha": "2026-10-29T01:16:10.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, a veces hay que pensarlo bien. Solo recuerda que mientras más pronto tengas tu propio módem, menos tiempo pierdes buscando WiFi o esperando que llegue la fibra a tu zona.\n\nSi quieres, te puedo ayudar a dejar el pedido listo hoy mismo para que lo recibas rápido cuando decidas.",
+        "fecha": "2026-10-29T01:16:12.482Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSQzAxOThEM0Q0MDY1Q0Q1QTE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T01:16:13.109Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTIzMTM4NjI3Mzk4NTQ0FRQAERgSNjkzRTgxQ0JBNzhGQTFFMDQ1AA=="
       }
     ],
     "paso": "pedido_nombre",
