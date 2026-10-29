@@ -3215,7 +3215,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
             encabezado +
                   "\n\n" +
                   (tenemos ? `Estos son los datos que me enviaste, verifica que estén bien:\n${tenemos}\n\n` : "") +
-                  "🚚 Enviamos a toda Colombia con Interrapidísimo o Coordinadora y llega en 2 a 4 días hábiles.\n\n" +
+                  `🚚 Enviamos a toda Colombia con Interrapidísimo o Coordinadora y llega en ${config.plazoEntrega(pedido.ciudad, pedido.departamento)} días hábiles.\n\n` +
                   `Para dejar listo tu envío solo me falta:\n${piden}\n\nPuedes enviarme todo en un solo mensaje 😊`
       );
       sesion.paso = faltantes[0].paso;
@@ -3828,7 +3828,7 @@ function preguntaOtrosProductos(texto) {
 // mensaje de compromiso ("¿CONFIRMA QUE ESTA SEGURO(A) DE RECIBIR SU PEDIDO?").
 function recordarPedidoRegistrado(sesion, pedido) {
       const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
-      sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "" };
+      sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "", ciudad: pedido.ciudad || "", departamento: pedido.departamento || "" };
       sesion.esperandoConfirmacionCompromiso = true;
       if (!Array.isArray(sesion.historial)) sesion.historial = [];
       const nota = `(Ya quedo REGISTRADO el pedido del cliente: ${pedido.nombreProducto}, total ${formatearPrecio(total)} con envio, pago ${pedido.medioPago || "contraentrega"}, para ${pedido.ciudad || ""}. Se le pidio confirmar que lo va a recibir. No le vuelvas a preguntar que producto quiere ni le pidas los datos otra vez.)`;
@@ -4075,7 +4075,7 @@ async function manejarTextoLibre(telefono, texto) {
             if (CONFIRMA_COMPROMISO.test(texto)) {
                   sesion.esperandoConfirmacionCompromiso = false;
                   const nombre = String(ped.nombre || "").split(" ")[0];
-                  const confirmacion = `¡Perfecto${nombre ? ", " + nombre : ""}! ✅ Tu pedido de *${ped.nombreProducto}* quedó confirmado (total ${formatearPrecio(ped.total)} con envío).\n\n📦 Lo despachamos en las horas de la tarde y te llega en 2 a 4 días hábiles. Apenas salga te enviamos el número de guía por aquí. ¡Gracias por tu compra! 🙌`;
+                  const confirmacion = `¡Perfecto${nombre ? ", " + nombre : ""}! ✅ Tu pedido de *${ped.nombreProducto}* quedó confirmado (total ${formatearPrecio(ped.total)} con envío).\n\n📦 Lo despachamos en las horas de la tarde y te llega en ${config.plazoEntrega(ped.ciudad, ped.departamento)} días hábiles. Apenas salga te enviamos el número de guía por aquí. ¡Gracias por tu compra! 🙌`;
                   await enviarTexto(telefono, confirmacion);
                   if (Array.isArray(sesion.historial)) {
                         sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: confirmacion });
