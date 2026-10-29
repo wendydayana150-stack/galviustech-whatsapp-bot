@@ -4056,8 +4056,8 @@
     "telefono": "573246159590",
     "nombre": "Relax😎",
     "primerContacto": "2026-10-29T12:19:01.403Z",
-    "ultimoContacto": "2026-10-29T13:30:49.929Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T13:32:14.115Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4129,6 +4129,18 @@
         "fecha": "2026-10-29T13:30:48.216Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSRTYxQzMzNUJDMkNGMTVEQjVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero no tengo señal de teléfono",
+        "fecha": "2026-10-29T13:32:10.620Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador, lamentablemente el módem no te servirá porque necesita una SIM con señal para funcionar.\n\nDime, ¿tu celular tampoco tiene señal ahí o has confirmado que en absoluto no hay ninguna señal, ni siquiera débil? A veces el módem capta mejor señal que el celular común, pero si no hay nada, no funcionará.  \n\n¿Quieres que te ayude a explorar otras opciones o qué te parece?",
+        "fecha": "2026-10-29T13:32:12.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2MTU5NTkwFQIAERgSMTFCOTExMTdFOEY2MTJCOUQyAA=="
       }
     ],
     "paso": "conversando",
