@@ -3,8 +3,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-10-29T07:41:06.758Z",
-    "ultimoContacto": "2026-10-29T07:45:41.400Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T07:46:47.131Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,10 +61,27 @@
         "fecha": "2026-10-29T07:45:40.108Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSM0JFNkY2RTNERUY3NTNCOTVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-29T07:46:45.402Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T07:46:45.772Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSQTNBRjhCREZGMkRFNThGQzdEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573107776234"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
