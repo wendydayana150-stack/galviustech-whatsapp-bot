@@ -5262,8 +5262,8 @@
     "telefono": "573214620425",
     "nombre": "Jhonatan",
     "primerContacto": "2026-10-29T12:18:12.543Z",
-    "ultimoContacto": "2026-10-29T12:28:18.625Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T14:48:00.554Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5359,6 +5359,20 @@
         "fecha": "2026-10-29T12:28:16.077Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0NjIwNDI1FQIAERgSMDdGQ0YyMzgzNDFGQjZFODA0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el Módem WiFi Portátil 4G/5G está en *$189.900 + $26.000 de envío*, pagas al recibir con garantía de 30 días.\n\nSolo necesito que me digas tu nombre, celular, departamento, ciudad, dirección completa y barrio para dejar todo listo.\n\n¿Me compartes esos datos? Así te lo envío rápido.",
+        "fecha": "2026-10-29T14:47:58.253Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NjIwNDI1FQIAERgSMDRFOTQ5REZCQURBQ0RCNjNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-29T14:47:59.569Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0NjIwNDI1FQIAERgSRTg5REMwNDdGODc0NDVEMTNBAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -5380,8 +5394,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
