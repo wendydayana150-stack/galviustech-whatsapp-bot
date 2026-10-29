@@ -23188,8 +23188,8 @@
     "telefono": "573136252589",
     "nombre": "Uber Villada Silva",
     "primerContacto": "2026-10-28T23:12:51.385Z",
-    "ultimoContacto": "2026-10-29T04:14:08.754Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T14:35:53.711Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23311,6 +23311,20 @@
         "fecha": "2026-10-29T04:14:07.780Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNjA3NUYyRjQ4MTRDMjYwNzJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para facturas tipo D1 la mejor opción es la Impresora Térmica Portátil Goojprt PT-210, inversión de $149.900 + $26.000 de envío, pagas al recibir.\n\n¿La quieres? Por favor, mándame tu nombre completo, celular, ciudad, dirección y barrio para dejar el pedido listo. Así la tienes rápido en tus manos. \n\n¿Qué me dices?",
+        "fecha": "2026-10-29T14:35:50.645Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSNTdGNDVEODhCMTk4NUQ3NERFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil Goojprt PT-210* ($ 149.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T14:35:51.838Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MjUyNTg5FQIAERgSRTBBRkM4QTg3RTIzNTJGNUZFAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -23331,9 +23345,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
