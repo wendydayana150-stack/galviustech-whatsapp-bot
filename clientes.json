@@ -1765,8 +1765,8 @@
     "telefono": "573011058213",
     "nombre": "Harvey",
     "primerContacto": "2026-10-29T12:13:42.218Z",
-    "ultimoContacto": "2026-10-29T12:13:42.218Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:28:12.933Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1792,6 +1792,18 @@
         "fecha": "2026-10-29T12:13:37.287Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDExMDU4MjEzFQIAERgSNzA0QTcyOTAyOEMyNjJFODVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y q plan maneja",
+        "fecha": "2026-10-29T12:28:08.724Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con la SIM de cualquier operador en Colombia: Claro, Movistar, Tigo, WOM, ETB, el que prefieras o al que tengas cobertura.\n\nNo viene con un plan activo incluido, solo con la tarjeta SIM física de Claro como obsequio cuando compras. Tú eliges y activas el plan o la recarga que más te convenga según tu uso.\n\n¿En qué municipio o vereda lo usarías y para qué? Así te recomiendo la versión que más te conviene.",
+        "fecha": "2026-10-29T12:28:11.550Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDExMDU4MjEzFQIAERgSMDM4NDA3MjM5NkRCMEY2NUQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -1805,7 +1817,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CA.2603986576760687",
