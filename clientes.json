@@ -3,8 +3,8 @@
     "telefono": "573115471370",
     "nombre": "Dayana",
     "primerContacto": "2026-10-29T03:31:20.172Z",
-    "ultimoContacto": "2026-10-29T03:31:20.172Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T03:32:07.776Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-29T03:31:19.260Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NDcxMzcwFQIAERgSRTc2RTAzMzJDOTMxQzQxMUYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el precio de la impresora térmica portátil?",
+        "fecha": "2026-10-29T03:32:04.900Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil NETUM cuesta **$249.900 con envío GRATIS** y ya tiene un 30% de descuento incluido.\n\nEs ideal porque imprime sin tinta, es portátil, fácil de usar y perfecta para trabajos, tareas o documentos en tamaño carta sin depender de papelerías.\n\n¿Para qué la necesitas principalmente, para documentos y trabajos, o para imprimir etiquetas o recibos?",
+        "fecha": "2026-10-29T03:32:06.004Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NDcxMzcwFQIAERgSNUE5OTY0NDU1NEZCQjA1MUY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-29T03:32:06.700Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NDcxMzcwFQIAERgSMjE1M0Y1OUQ0QjlBNjRCNDdCAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207175949",
