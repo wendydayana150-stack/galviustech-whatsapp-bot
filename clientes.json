@@ -505,8 +505,8 @@
     "telefono": "573216600978",
     "nombre": "dario",
     "primerContacto": "2026-10-29T12:17:52.578Z",
-    "ultimoContacto": "2026-10-29T12:17:52.578Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:21:51.151Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -532,20 +532,62 @@
         "fecha": "2026-10-29T12:17:51.467Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSMUVFQjQzNDc4Njg1NjY0MENGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola cual es el  precio",
+        "fecha": "2026-10-29T12:21:46.389Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:21:47.940Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSMTJCMkJCOThDMjJFMjNBMTBEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:21:48.614Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSNTE0Rjg2MURBQkRGRTZCNTg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:21:49.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSOEU3NTExRjk3RjZCQ0VBNjJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-10-29T12:21:49.938Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\nEl Módem WiFi Portátil 4G tiene conexión para varios dispositivos, es fácil de transportar y perfecto para fincas o viajes.\n\nLa inversión sería de **$169.900 + $26.000 de envío**, y paga al recibir con garantía de 30 días.\n\nTambién tenemos el 4G/5G por $189.900 + envío y el 5G por $199.900 + envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías principalmente? Así te recomiendo el mejor para ti.",
+        "fecha": "2026-10-29T12:21:49.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSQTEwNDI4QkY3MzE0NDU5OTRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573059200499",
