@@ -49,8 +49,8 @@
     "telefono": "573172910318",
     "nombre": "Willi Andres",
     "primerContacto": "2026-10-29T12:19:08.469Z",
-    "ultimoContacto": "2026-10-29T12:19:08.469Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:19:38.420Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -76,6 +76,18 @@
         "fecha": "2026-10-29T12:19:07.494Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyOTEwMzE4FQIAERgSMDY2RDQwNThCM0M0RUEyMjNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-10-29T12:19:35.766Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, ¿en qué municipio o vereda lo necesitas y para qué lo usarías más? Así te recomiendo el módem que mejor te sirve y con el mejor precio.\n\n¿Quieres conectarte desde casa, para viajar, tu negocio o para estudiar?",
+        "fecha": "2026-10-29T12:19:36.948Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyOTEwMzE4FQIAERgSOTcyNzdGQzI4MDNGMzk0RUYzAA=="
       }
     ],
     "paso": "conversando",
@@ -89,7 +101,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573246159590",
