@@ -109,8 +109,8 @@
     "telefono": "573103621813",
     "nombre": "Hugodoc Colombia",
     "primerContacto": "2026-10-29T03:25:02.014Z",
-    "ultimoContacto": "2026-10-29T03:25:02.014Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T03:31:32.999Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -143,6 +143,18 @@
         "fecha": "2026-10-29T03:24:59.541Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSQUVDMDAyQUI1NjhCRTVGRjFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuántas hojas por mínuto puedo imprimir???",
+        "fecha": "2026-10-29T03:31:30.261Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, te cuento que la Impresora Térmica Portátil NETUM imprime rápido, es ideal para que no pierdas tiempo cuando necesitas imprimir documentos, trabajos o facturas en tamaño carta.\n\nNo tengo el dato exacto de hojas por minuto, pero su impresión es eficiente para tareas diarias, y la batería dura hasta 30 horas con carga completa, así que te acompaña todo el día.\n\n¿Para qué la usarías principalmente? Así te cuento más detalles que te sirvan.",
+        "fecha": "2026-10-29T03:31:32.048Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNjIxODEzFQIAERgSQjQ2N0ZEMEZGOUExNzA4NDM5AA=="
       }
     ],
     "paso": "conversando",
@@ -156,7 +168,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218889164",
