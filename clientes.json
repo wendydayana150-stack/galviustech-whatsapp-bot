@@ -240,8 +240,8 @@
     "telefono": "573000161843",
     "nombre": "Oscarpro",
     "primerContacto": "2026-10-29T12:13:12.540Z",
-    "ultimoContacto": "2026-10-29T12:13:12.540Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:13:58.124Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -267,20 +267,35 @@
         "fecha": "2026-10-29T12:13:07.874Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAwMTYxODQzFQIAERgSRjNCQ0MyQTVFRTYwNjZGODVFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como funsiona ese interne",
+        "fecha": "2026-10-29T12:13:45.329Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el módem funciona así:\n\nInsertas la SIM de tu operador (Claro, Movistar, Tigo, WOM) en el equipo, lo prendes, y crea una señal WiFi que puedes compartir con hasta 10 dispositivos (celulares, computadores, tablets).\n\nTiene batería recargable que dura hasta 14 horas seguidas, y es super fácil de llevar a donde vayas.\n\n¿En qué municipio o vereda lo usarías principalmente y para qué lo necesitas? Así te recomiendo la versión que mejor te va.",
+        "fecha": "2026-10-29T12:13:46.796Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAwMTYxODQzFQIAERgSQTFGOEU5QjNFRTQxMkUyREY5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1448274087465676",
