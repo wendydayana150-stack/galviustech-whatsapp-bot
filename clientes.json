@@ -49,8 +49,8 @@
     "telefono": "573142314274",
     "nombre": "manuel",
     "primerContacto": "2026-10-29T04:25:24.163Z",
-    "ultimoContacto": "2026-10-29T04:25:24.163Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T04:26:22.638Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,6 +83,18 @@
         "fecha": "2026-10-29T04:25:23.035Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSQTY2N0ExNjU0QkEwQ0EzMjUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para todo",
+        "fecha": "2026-10-29T04:26:19.427Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿me cuentas en qué ciudad o vereda estás y para qué necesitas la impresora térmica portátil NETUM? Así te puedo recomendar exactamente cómo te facilita la vida, ¿vale? \n\nLa impresora NETUM es perfecta para imprimir documentos tamaño carta sin tinta y sin complicaciones, ideal para estudiar, trabajar o tu emprendimiento.\n\n¿Para qué la necesitas?",
+        "fecha": "2026-10-29T04:26:21.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMzE0Mjc0FQIAERgSMzUzRDU4NkJBNjZFMjQwNTMyAA=="
       }
     ],
     "paso": "conversando",
@@ -96,7 +108,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573171401316",
