@@ -3,8 +3,8 @@
     "telefono": "573233130846",
     "nombre": "Gustavo Clavijo Díaz",
     "primerContacto": "2026-10-29T12:10:34.050Z",
-    "ultimoContacto": "2026-10-29T12:10:34.050Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:10:42.172Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,45 @@
         "fecha": "2026-10-29T12:10:33.007Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzMTMwODQ2FQIAERgSMTJCRUI4NTFERjc5QzVCRjRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "que valor tiene",
+        "fecha": "2026-10-29T12:10:36.515Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:10:38.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTMwODQ2FQIAERgSNzE0N0FDNkJFNEEyQ0Q1RDEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:10:39.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTMwODQ2FQIAERgSMDlGOTg4OEQ0MjE5NEE0MjAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:10:40.562Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTMwODQ2FQIAERgSMDE5QUU3RUJFQzE3MkEwNTFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:10:41.164Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento rápido:\n\nLos módems tienen buena cobertura, conectan varios dispositivos y los llevas donde quieras sin complicaciones.\n\nLas opciones y su inversión son:\n- Módem WiFi Portátil 4G: **$169.900 + $26.000 de envío**  \n- Módem WiFi Portátil 4G/5G: **$189.900 + $26.000 de envío**  \n- Módem WiFi Portátil 5G: **$199.900 + $26.000 de envío**  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías principalmente? Así te recomiendo el que mejor te conviene.",
+        "fecha": "2026-10-29T12:10:41.171Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTMwODQ2FQIAERgSNDIwM0Y4MEI5MTgwQjQ4MjRBAA=="
       }
     ],
     "paso": "conversando",
@@ -43,7 +82,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234248433",
