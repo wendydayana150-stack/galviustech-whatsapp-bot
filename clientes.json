@@ -3,8 +3,8 @@
     "telefono": "18293505203",
     "nombre": "Personal.",
     "primerContacto": "2026-10-29T20:58:58.005Z",
-    "ultimoContacto": "2026-10-29T20:58:58.005Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T20:59:47.520Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -24,6 +24,52 @@
         "fecha": "2026-10-29T20:58:56.895Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJGQUZGQ0YyQjlEMTFDRDhCODQA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Medellin",
+        "fecha": "2026-10-29T20:59:41.533Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T20:59:43.509Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJEMEUzOTdGNDA5Q0Y4QjZDQkYA"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T20:59:44.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBIwNUZCNUVGRTNCODJDMDE5MzAA"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T20:59:44.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBI1NjQzNEUxM0FENjVFNkMyRTQA"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-10-29T20:59:45.466Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Medellín tienes buena cobertura para nuestro módem. La inversión por el Modem WiFi Portátil 4G es de **$169.900 + $26.000 de envío**. \n\nCon este equipo conectas hasta 10 dispositivos a la vez, batería que dura hasta 14 horas y recarga por USB-C. Ideal para tener internet sin depender de fibra óptica ni instalaciones.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo usarías para trabajo, estudio, casa o viajar? Así te oriento mejor.",
+        "fecha": "2026-10-29T20:59:45.472Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBIxQzAxODI1Mjk3ODg3MkUyNTIA"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T20:59:46.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBIwNDAzNkU1NjRFMzMzRDU3MzYA"
       }
     ],
     "paso": "conversando",
@@ -37,7 +83,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573174885199",
