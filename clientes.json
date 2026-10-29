@@ -1505,8 +1505,8 @@
     "telefono": "573204086716",
     "nombre": "Harold Silva",
     "primerContacto": "2026-10-29T12:09:28.231Z",
-    "ultimoContacto": "2026-10-29T12:09:28.231Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:16:21.156Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1532,20 +1532,69 @@
         "fecha": "2026-10-29T12:09:27.280Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSNTk2MTFBNTdBMTY0Nzk5QUM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Acá inirida Guainía",
+        "fecha": "2026-10-29T12:16:14.860Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:16:17.573Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSQzRCOUM1NUVFNEU2MzkzRjA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:16:18.306Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSNTE5QkRBOURGNkVGMEI0N0RBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:16:18.951Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSMkUwNDNGOTUxNkNBREUwQzNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:16:19.563Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Inírida, Guainía 🌳\n\nNuestros módems WiFi portátiles son ideales para ti porque:\n✅ Otorgan mejor cobertura que un celular gracias a su antena potente\n✅ Puedes conectar varios dispositivos a la vez, para que toda la familia se conecte\n✅ Son fáciles de llevar y usar, sin instalación complicada\n\nTe presento las 3 versiones con sus precios e inversión total con envío + $26.000:\n\n- Modem WiFi Portátil 4G: $169.900 + $26.000 envío\n- Modem WiFi Portátil 4G/5G: $189.900 + $26.000 envío\n- Modem WiFi Portátil 5G: $199.900 + $26.000 envío\n\nTe recomiendo el modem 4G/5G para que tengas la mejor señal disponible tanto en 4G como 5G, que en zonas rurales puede ser intermitente, así usas siempre la que esté mejor.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué vas a usar el módem principalmente, estudio, trabajo, hogar o negocio?",
+        "fecha": "2026-10-29T12:16:19.574Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSNkZCMTdGMUYwMEMwNTgzQ0M1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T12:16:20.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MDg2NzE2FQIAERgSNkREQ0I1NjQ2NkEwRkYwMDlEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573164807011",
