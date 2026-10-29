@@ -23790,8 +23790,8 @@
     "telefono": "573192166589",
     "nombre": "Diana Molina Ruiz",
     "primerContacto": "2026-10-27T15:27:36.156Z",
-    "ultimoContacto": "2026-10-27T15:27:36.156Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T11:23:06.127Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -23799,13 +23799,25 @@
         "fecha": "2026-10-27T15:27:34.574Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTkyMTY2NTg5FQIAERgSNTU5NDREMDY1QkRGMTkxRjUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¿Cuál es el costo del módem WiFi 4G/5G?",
+        "fecha": "2026-10-29T11:23:03.034Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem WiFi 4G/5G te permite llevar internet contigo donde no llega la fibra, ideal para fincas, veredas, casas o mientras viajas, y conecta varios dispositivos al mismo tiempo sin complicarte con instalaciones.\n\nLa inversión para este módem es de **$189.900 + $26.000 de envío**, pagas al recibir y tiene garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué municipio o vereda lo quieres usar para recomendarte la mejor opción?",
+        "fecha": "2026-10-29T11:23:05.081Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTkyMTY2NTg5FQIAERgSMTI4RTg5MkQ5N0U0MTNERTU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -23814,9 +23826,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
