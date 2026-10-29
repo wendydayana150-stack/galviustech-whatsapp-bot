@@ -409,8 +409,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-10-29T10:05:04.354Z",
-    "ultimoContacto": "2026-10-29T10:29:02.041Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T10:31:57.411Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -455,6 +455,18 @@
         "fecha": "2026-10-29T10:29:00.577Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjUwMzEwMTc4OEM1QTQxQ0VFNAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En otra ocasión",
+        "fecha": "2026-10-29T10:31:53.443Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando quieras estoy aquí para ayudarte con la impresora NETUM o cualquier otro producto. Recuerda que esta impresora te puede ahorrar tiempo y la incomodidad de tener que buscar donde imprimir cuando estás fuera de casa. ¿Quieres que te muestre también otras opciones como modems, lámparas o cámaras para lo que necesites?",
+        "fecha": "2026-10-29T10:31:56.017Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjVEMjlEMjkxMTJDNzMwOUMzQwA="
       }
     ],
     "paso": "conversando",
@@ -465,7 +477,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
