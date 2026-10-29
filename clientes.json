@@ -1107,8 +1107,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:37:22.314Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-29T02:37:58.060Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1471,6 +1471,18 @@
         "fecha": "2026-10-29T02:37:21.319Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSMUIxMDhGQjA0MUMyOEQ1N0VBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si categoría",
+        "fecha": "2026-10-29T02:37:55.291Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, te dejo las categorías para que veas cuál te interesa más:\n\n📶 *Módem WiFi portátiles* para tener internet donde estés  \n🖨️ *Impresoras térmicas* para imprimir sin tinta y sin cables  \n💡 *Lámparas solares* que se cargan con el sol, sin electricidad  \n📹 *Cámaras de seguridad* para vigilar tu casa o negocio desde el celular  \n⌚ *Relojes inteligentes* y relojes tradicionales con estilo  \n🎁 *Combos* que juntan productos con descuento\n\n¿Cuál categoría quieres que te muestre primero?",
+        "fecha": "2026-10-29T02:37:56.891Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQUNCNDlFREI0OTNGMTU3MjcyAA=="
       }
     ],
     "paso": "confirmar_producto",
