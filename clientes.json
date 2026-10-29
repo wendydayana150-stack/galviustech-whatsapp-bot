@@ -49,8 +49,8 @@
     "telefono": "573132591284",
     "nombre": ".",
     "primerContacto": "2026-10-29T12:51:16.233Z",
-    "ultimoContacto": "2026-10-29T12:51:16.233Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:52:14.592Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,6 +83,18 @@
         "fecha": "2026-10-29T12:51:15.233Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNTkxMjg0FQIAERgSQTJFM0RCQzQ3NDU3QTRGRTI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-29T12:52:11.432Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, no hay problema. Solo dime si te interesa en algún momento la Impresora Termica Portátil NETUM, que es ideal para imprimir documentos tamaño carta sin tinta y súper fácil de llevar a todos lados.\n\n¿Para qué la necesitarías si te interesa más adelante?",
+        "fecha": "2026-10-29T12:52:13.255Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNTkxMjg0FQIAERgSQjlGNUI2RkQ3NUMxMkNCNDk1AA=="
       }
     ],
     "paso": "conversando",
@@ -96,7 +108,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573125647651",
