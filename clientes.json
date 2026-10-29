@@ -17386,8 +17386,8 @@
     "telefono": "573107776234",
     "nombre": "Arnaldo Ulloa Gaitán 🇨🇴",
     "primerContacto": "2026-10-29T07:41:06.758Z",
-    "ultimoContacto": "2026-10-29T14:56:57.068Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T16:02:03.063Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17470,6 +17470,13 @@
         "fecha": "2026-10-29T14:40:46.700Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSNTNFRTI5QjVFM0ZDRDMxOTZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-29T16:01:22.398Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Nzc2MjM0FQIAERgSM0I4QkQ3Q0QyMEM4NTJBMzhGAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -17490,8 +17497,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
