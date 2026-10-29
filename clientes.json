@@ -3,8 +3,8 @@
     "telefono": "CO.2234860437095424",
     "nombre": "ALIANDRAVILLA0568",
     "primerContacto": "2026-10-29T00:37:03.863Z",
-    "ultimoContacto": "2026-10-29T00:37:03.863Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T00:37:11.589Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-10-29T00:37:02.830Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIzNDg2MDQzNzA5NTQyNBUUABEYEkQ2QUE4QjExOTZGMTVFOTVGQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto. Vale",
+        "fecha": "2026-10-29T00:37:07.477Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* cuesta **$249.900** con envío GRATIS a toda Colombia y la pagas al recibir. Imprime hojas tamaño carta sin usar tinta, es portátil y fácil de usar desde tu celular por Bluetooth. Ideal para imprimir documentos, facturas o trabajos rápido donde estés.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas principalmente? ¿Para tareas, documentos o para facturación o recibos de negocio?",
+        "fecha": "2026-10-29T00:37:09.873Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIzNDg2MDQzNzA5NTQyNBUUABEYEjc5RkQzMDk4ODM3MEZDREM4NwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-29T00:37:10.500Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIzNDg2MDQzNzA5NTQyNBUUABEYEjUzNDNEOTEyREQ4QkZCMzM3MgA="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573229771014",
