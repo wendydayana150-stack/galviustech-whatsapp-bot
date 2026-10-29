@@ -3,8 +3,8 @@
     "telefono": "573219921003",
     "nombre": "alexandercastrellon53",
     "primerContacto": "2026-10-29T02:18:00.583Z",
-    "ultimoContacto": "2026-10-29T02:18:00.583Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T02:18:04.905Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-10-29T02:17:58.479Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5OTIxMDAzFQIAERgSOUIxRUZDRTMxQjBDNDU5QkNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-29T02:18:02.389Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, la asesora de GalviusTech 😊\n\nPara poder ayudarte con el módem WiFi portátil, dime porfa:\n📍 ¿En qué municipio o vereda lo vas a usar?\n💻 ¿Lo necesitas para estudio, trabajo, hogar o negocio?\n\nAsí te recomiendo el mejor según tu necesidad. ¿Me cuentas?",
+        "fecha": "2026-10-29T02:18:03.849Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5OTIxMDAzFQIAERgSODkwMTA5OUFFMkY1QTZFNTg3AA=="
       }
     ],
     "paso": "conversando",
@@ -43,7 +55,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573116468970",
