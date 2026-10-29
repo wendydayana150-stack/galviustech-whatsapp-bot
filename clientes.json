@@ -462,8 +462,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:24:58.361Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-10-29T05:25:18.647Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -736,15 +736,41 @@
         "fecha": "2026-10-29T05:24:57.171Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSQjhDQTMzQ0EwNjk3NzE1QjVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Skmei Black Edition",
+        "fecha": "2026-10-29T05:25:16.098Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Skmei Black Edition",
+        "fecha": "2026-10-29T05:25:16.098Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNjY1RjQ0MjBGQjA4MTlFRTFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Skmei Minimalista Black Edition*\n💰 *$ 139.900* ya con *30% de descuento* 🔥\n✅ Diseño minimalista negro mate\n✅ Acero inoxidable resistente\n✅ Combina con un look elegante o casual\n🚚 Envío $26.000 y *pagas al recibir*\n🎨 Colores: Negro, Plateado",
+        "fecha": "2026-10-29T05:25:16.858Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSRDlGODc2ODlFQzgyREU1RTRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T05:25:17.481Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSMjgxOUUxOUE3M0QyN0U1MzY0AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p"
+      "productoId": "reloj-skmei-minimalista-black-edition"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "camara-inteligente-de-vigilancia-wi-fi-zem-v380-1080p",
+    "ultimoProducto": "reloj-skmei-minimalista-black-edition",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
