@@ -655,8 +655,8 @@
     "telefono": "573234000309",
     "nombre": "jhonfpss9",
     "primerContacto": "2026-10-29T10:49:58.803Z",
-    "ultimoContacto": "2026-10-29T10:51:43.235Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T12:05:58.824Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -694,6 +694,25 @@
         "fecha": "2026-10-29T10:51:42.046Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MDAwMzA5FQIAERgSMjU2ODQ5Rjc2MDg4MzJDMUU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T11:58:23.217Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDAwMzA5FQIAERgSQTc5NDc4Q0NEOEE0OEQ5NjZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La pregunta",
+        "fecha": "2026-10-29T12:05:55.971Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, ¿para qué lo necesitas principalmente? ¿Estudio, trabajo, tu negocio o casa? Así te ayudo a elegir el modem ideal para tu caso.",
+        "fecha": "2026-10-29T12:05:57.742Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDAwMzA5FQIAERgSQzkwN0E2NzYyMEZENUIwMEU1AA=="
       }
     ],
     "paso": "conversando",
@@ -709,8 +728,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
