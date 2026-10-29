@@ -3,8 +3,8 @@
     "telefono": "573026506613",
     "nombre": "broth",
     "primerContacto": "2026-10-29T13:13:44.593Z",
-    "ultimoContacto": "2026-10-29T13:13:44.593Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T13:15:24.766Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,20 +30,35 @@
         "fecha": "2026-10-29T13:13:43.561Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSQjM3RTgxQ0QxNDk4MTUyQUVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajo",
+        "fecha": "2026-10-29T13:15:20.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para trabajar. \n\nAhora dime, ¿en qué municipio o vereda lo vas a usar? Así te recomiendo la mejor opción para que tengas buena conexión en tu lugar de trabajo.\n\nMientras me respondes, te cuento que nuestros módems ofrecen estos beneficios clave:\n\n📶 Mejor cobertura que un celular porque tienen antena potente  \n🚀 Internet para varios dispositivos al mismo tiempo  \n📲 Fácil de transportar y usar sin complicaciones  \n\nCuando me digas dónde, te muestro las 3 versiones con sus precios para que elijas la que más te conviene. ¿Dónde lo vas a usar?",
+        "fecha": "2026-10-29T13:15:23.471Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSRERDRUEwRjY1NUI0ODhBOUM0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573171166841",
