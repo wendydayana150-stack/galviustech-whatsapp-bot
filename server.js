@@ -2368,6 +2368,24 @@ async function enviarListaCombos(telefono) {
       if (registro) registro.wamid = respuesta.data?.messages?.[0]?.id || null;
 }
 
+// Primer mensaje sin producto (oct-2026, Wendy: "si o si iniciar saludando, enviar las opciones que tenemos de
+// productos y enviar catalogo, preguntar cual es el producto que buscan y llevar al cierre").
+async function saludarConCatalogo(telefono, nombreCliente) {
+      const sesion = obtenerSesion(telefono);
+      sesion.paso = "conversando";
+      sesion.saludoConCatalogo = true;
+      const nombre = String(nombreCliente || "").trim().split(/\s+/)[0];
+      const saludo = `¡Hola${nombre && /^[\p{L}]{2,}$/u.test(nombre) ? " " + nombre : ""}! 👋 Bienvenid@ a *GALVIUSTECH*, soy Michell 😊`;
+      await enviarTexto(telefono, `${saludo}\n\n🛍️ Mira todo el catálogo con fotos y precios aquí: ${LINK_CATALOGO}`);
+      const opciones =
+            "Estos son nuestros productos 👇\n\n" +
+            LISTA_PRODUCTOS_GALVIUS + "\n\n" +
+            "🔥 Todo con *30% de descuento* y *pagas al recibir* ✅\n\n" +
+            "¿Cuál producto estás buscando? 😍 Te muestro fotos y precio al instante 📸";
+      await enviarTexto(telefono, opciones);
+      if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: `${saludo}\n\n${opciones}` });
+}
+
 async function manejarSaludo(telefono, nombreCliente) {
       const sesion = obtenerSesion(telefono);
       sesion.paso = "conversando";
@@ -4242,6 +4260,17 @@ async function manejarTextoLibre(telefono, texto) {
             }
       }
 
+      // Respuesta al saludo con catalogo: si nombra una categoria ("impresora", "el modem"), se le presenta igual que
+      // a quien llega preguntando por ella (fotos, precio y pregunta para avanzar a la venta).
+      if (sesion.saludoConCatalogo && !sesion.ultimaCategoria && !sesion.ultimoProducto && !detectarProductoEspecifico(texto)) {
+            const categoriaElegida = detectarProductoPorPalabraClave(texto);
+            if (categoriaElegida) {
+                  sesion.saludoConCatalogo = false;
+                  await enviarInfoCategoria(telefono, categoriaElegida, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
+                  return;
+            }
+      }
+
       const productoDetectado = detectarProductoEspecifico(texto);
       const categoriaDetectada = !productoDetectado ? detectarProductoPorPalabraClave(texto) : null;
       let enfoqueProducto = null;
@@ -5519,8 +5548,11 @@ app.post("/webhook", async (req, res) => {
                               // Oct-2026 (Wendy): si el mensaje viene de un anuncio de clic a WhatsApp, Meta manda en
                               // "referral" el titulo y texto del anuncio. Con eso se identifica el producto aunque el
                               // cliente solo escriba "Quiero mas informacion"; si no se identifica, va el menu.
+                              // 29-oct-2026 (Wendy: "llegan clientes y no se sabe por cual producto llegan"): el texto del anuncio
+                              // mandaba a modems a clientes que no habian dicho que buscaban. Ahora el producto sale solo de lo que
+                              // escribe el cliente; si no nombra ninguno, se saluda con el catalogo y se pregunta cual busca.
                               const ref = mensaje.referral || {};
-                              const textoDet = [texto, ref.headline, ref.body].filter(Boolean).join(" \n");
+                              const textoDet = texto;
                               if (ref.headline || ref.body) console.log(`Anuncio de ${telefono}: ${String(ref.headline || ref.body).slice(0, 80)}`);
                               const especifico = detectarProductoEspecifico(textoDet);
                               const deteccion = detectarProductoPorPalabraClave(textoDet);
@@ -5551,7 +5583,7 @@ app.post("/webhook", async (req, res) => {
                               } else if (deteccion) {
                                     await enviarInfoCategoria(telefono, deteccion, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
                               } else {
-                                    await manejarSaludo(telefono, nombreCliente);
+                                    await saludarConCatalogo(telefono, nombreCliente);
                               }
                         } else {
                               await manejarTextoLibre(telefono, texto);
