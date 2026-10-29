@@ -976,8 +976,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:31:42.353Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-29T02:32:00.880Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1197,16 +1197,29 @@
         "fecha": "2026-10-29T02:31:41.429Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRDQyQkM5MzY2QjE5OEQ2QTU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Faber Andrey sancho",
+        "fecha": "2026-10-29T02:31:59.914Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-29T02:31:59.916Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRjk3MDMzNzUwREREQURCOEFDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573160722007",
       "departamento": "Bogota",
-      "direccion": "Calle 128C#93B-28 suba rincón"
+      "direccion": "Calle 128C#93B-28 suba rincón",
+      "nombreCliente": "Faber Andrey sancho"
     },
     "pausado": false,
     "etapaManual": null,
