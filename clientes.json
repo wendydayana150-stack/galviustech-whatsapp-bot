@@ -1044,8 +1044,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:32:00.880Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-29T02:32:33.302Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1277,9 +1277,21 @@
         "fecha": "2026-10-29T02:31:59.916Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRjk3MDMzNzUwREREQURCOEFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3112874340\nEso es pago contra en trega",
+        "fecha": "2026-10-29T02:32:32.442Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-29T02:32:32.445Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSQTc4QUIzODREQUExNEZDNTUxAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -1287,7 +1299,8 @@
       "telefono": "573160722007",
       "departamento": "Bogota",
       "direccion": "Calle 128C#93B-28 suba rincón",
-      "nombreCliente": "Faber Andrey sancho"
+      "nombreCliente": "Faber Andrey sancho",
+      "celular": "3112874340"
     },
     "pausado": false,
     "etapaManual": null,
