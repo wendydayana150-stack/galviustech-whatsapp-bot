@@ -3,8 +3,8 @@
     "telefono": "573215825543",
     "nombre": "De rodillas Soloantedios",
     "primerContacto": "2026-10-29T08:37:56.910Z",
-    "ultimoContacto": "2026-10-29T08:51:46.146Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T08:54:38.882Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -76,10 +76,27 @@
         "fecha": "2026-10-29T08:51:45.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSNzhDMzQ1NEVGOTgyMDAzODI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-29T08:54:37.447Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T08:54:37.783Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSN0JFODc4N0E1MEQ1NTQzMTAyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573215825543"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
