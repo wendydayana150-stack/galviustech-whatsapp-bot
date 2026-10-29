@@ -1471,8 +1471,8 @@
     "telefono": "573108822738",
     "nombre": "caro",
     "primerContacto": "2026-10-29T12:13:53.155Z",
-    "ultimoContacto": "2026-10-29T12:13:53.155Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:26:01.051Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1498,20 +1498,62 @@
         "fecha": "2026-10-29T12:13:45.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4ODIyNzM4FQIAERgSQ0Y1NzcyNjhGRjc3RkQ0Q0UwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio?",
+        "fecha": "2026-10-29T12:25:54.978Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:25:57.760Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4ODIyNzM4FQIAERgSRTBGOUIyOTgyMEVFMDAyRDk3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:25:58.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4ODIyNzM4FQIAERgSNjM4M0ZBN0I2NEI0NUM3QUFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:25:59.076Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4ODIyNzM4FQIAERgSNTdCQzM2QTQxQkM2OUY2MDI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:25:59.738Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento rápido: \n\nTenemos 3 versiones del módem para que elijas la que mejor te sirve:\n\n📶 *Modem WiFi Portátil 4G*  \n- Internet estable en zonas sin fibra óptica  \n- Conecta varios dispositivos al mismo tiempo  \nLa inversión es de **$169.900 + $26.000 de envío**.  \n\n📶 *Modem WiFi Portátil 4G/5G* (mi recomendación si no sabes la cobertura 5G exacta)  \n- Funciona en redes 4G y 5G para mayor flexibilidad  \n- Ideal para viajes, trabajo y estudio en sitios sin fibra  \nLa inversión es de **$189.900 + $26.000 de envío**.  \n\n📶 *Modem WiFi Portátil 5G*  \n- Máxima velocidad con cobertura 5G  \n- Perfecto si tienes 5G seguro en tu zona  \nLa inversión es de **$199.900 + $26.000 de envío**.  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué municipio o vereda lo usarías para recomendarte la mejor opción?",
+        "fecha": "2026-10-29T12:25:59.752Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4ODIyNzM4FQIAERgSOUQxMzZBNjJDMENEMUI3NTlCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573024059584",
