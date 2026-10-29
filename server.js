@@ -602,6 +602,7 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
       return true;
 }
 
+const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias)/i;
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
 // Lamparas 3 lentes x3 con envio gratis: confirmado por Wendy (27-oct-2026). La lista vive en config.js.
 const ENVIO_GRATIS_IDS = config.ENVIO_GRATIS_IDS;
@@ -4154,6 +4155,21 @@ async function manejarTextoLibre(telefono, texto) {
             // espera pendiente de "me prometio mandar los datos en conversacion libre" queda
             // obsoleta (ver esperandoDatosPedidoLibre mas abajo).
             sesion.esperandoDatosPedidoLibre = null;
+            return;
+      }
+
+      // NO LE INTERESA (29-oct-2026, Wendy: "cuando el cliente diga que no le interesa, enviar catalogo y decir que tambien
+      // hay otras opciones muy buenas e interesantes"). Una sola vez por chat; si despues insiste, responde la IA.
+      if (sesion.paso === "conversando" && !sesion.catalogoPorNoInteres && NO_LE_INTERESA.test(String(texto))) {
+            sesion.catalogoPorNoInteres = true;
+            const respuesta =
+                  "¡Entiendo, gracias por contarme! 😊 Te cuento que también tenemos *otras opciones muy buenas e interesantes* 👇\n\n" +
+                  LISTA_PRODUCTOS_GALVIUS + "\n\n" +
+                  "🔥 Todo con *30% de descuento* y *pagas al recibir* ✅\n\n" +
+                  "¿Alguna te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
+            await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+            await enviarTexto(telefono, respuesta);
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: respuesta });
             return;
       }
 
