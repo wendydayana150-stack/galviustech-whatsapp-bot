@@ -3,8 +3,8 @@
     "telefono": "573122785671",
     "nombre": "Yolima Callejas",
     "primerContacto": "2026-10-29T05:53:35.462Z",
-    "ultimoContacto": "2026-10-29T05:53:35.462Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T05:55:38.936Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-10-29T05:53:34.345Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNzg1NjcxFQIAERgSNjI2NDhFMzQ3MkJGNjA1Rjk2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y a color no",
+        "fecha": "2026-10-29T05:55:37.446Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-10-29T05:55:37.448Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNzg1NjcxFQIAERgSN0EzM0I0NURFNkJDMzg4RUI1AA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,13 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": {
+      "desde": "2026-10-29T05:55:37.448Z",
+      "quiereAviso": false
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573175353453",
