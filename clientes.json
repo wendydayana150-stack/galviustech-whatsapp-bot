@@ -8307,8 +8307,8 @@
     "telefono": "CO.2499961897153427",
     "nombre": "Ketty Gonzalez",
     "primerContacto": "2026-10-29T03:01:40.868Z",
-    "ultimoContacto": "2026-10-29T03:01:40.868Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T11:23:02.307Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8341,6 +8341,46 @@
         "fecha": "2026-10-29T03:01:39.825Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEjFENTEwRDlEMUNERUYwMTM3MgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T11:09:25.189Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEjBENjVBRDVCNzM5MkVENzZGQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 sigues por ahí? Quiero asegurarme de que te haya quedado clara toda la info.\nSi tienes alguna pregunta puntual, dimela con confianza y te ayudo a resolverla. 🙋‍♀️",
+        "fecha": "2026-10-29T11:20:44.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEkU2MkMzRTg4NEMxNDFBQzA2MwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T11:20:45.465Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEjVDMUY4QkI2RjI3MEVFNzhGNwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-10-29T11:20:46.023Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEkJBMTFEQTlFRjk4OUVFMEU3RgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias estoy revisando. Más tarde le daré una respuesta",
+        "fecha": "2026-10-29T11:22:58.024Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta a cualquier duda que te surja. Recuerda que la impresora NETUM te ahorra tiempo y el viaje a la papelería porque imprimes en cualquier lugar desde el celular y sin tinta. ¿Quieres que te cuente cómo funciona mientras tanto?",
+        "fecha": "2026-10-29T11:22:59.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjQ5OTk2MTg5NzE1MzQyNxUUABEYEkU2ODEyNzMyRDY0MzQwMTRCMQA="
       }
     ],
     "paso": "conversando",
@@ -8351,14 +8391,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
