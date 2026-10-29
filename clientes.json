@@ -56,8 +56,8 @@
     "telefono": "573105150232",
     "nombre": "Francisco",
     "primerContacto": "2026-10-29T01:28:42.085Z",
-    "ultimoContacto": "2026-10-29T01:33:14.502Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T01:33:43.563Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -160,6 +160,18 @@
         "fecha": "2026-10-29T01:33:13.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MTUwMjMyFQIAERgSRjM2QjI4MEI2RkNDNDcwMTAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-10-29T01:33:42.453Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-10-29T01:33:42.453Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MTUwMjMyFQIAERgSQTIyRkJBNDYxRjQ4NUZCMUQ5AA=="
       }
     ],
     "paso": "conversando",
