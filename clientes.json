@@ -102,8 +102,8 @@
     "telefono": "573105363578",
     "nombre": "lewischarles1403",
     "primerContacto": "2026-10-29T09:49:06.398Z",
-    "ultimoContacto": "2026-10-29T09:54:08.410Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T09:54:46.871Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -237,6 +237,25 @@
         "fecha": "2026-10-29T09:54:07.457Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSRUU1MEQzOTA3QUNBNzNCQjQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo recojo en oficina interrapidisimo sector galeria",
+        "fecha": "2026-10-29T09:54:44.074Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya tengo que lo recoges en la oficina de Interrapidísimo del sector Galería en Rionegro.\n\nTe ayudo a dejar el pedido listo para que solo confirmes tus datos con el sistema y quede todo organizado para el envío.",
+        "fecha": "2026-10-29T09:54:45.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSQTNGOTI3NjhCRTRCODRFRkNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T09:54:45.754Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSQjJGNzE0MDM3RDg5MDVGMDU0AA=="
       }
     ],
     "paso": "pedido_nombre",
