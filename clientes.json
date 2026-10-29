@@ -14228,8 +14228,8 @@
     "telefono": "573213943536",
     "nombre": "Teresa",
     "primerContacto": "2026-10-29T05:09:05.863Z",
-    "ultimoContacto": "2026-10-29T13:02:55.529Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-10-29T14:15:18.724Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14581,18 +14581,25 @@
         "fecha": "2026-10-29T13:02:54.547Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSNTM4NEM1OTQ4QjgwRUNGRUMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Buen dia",
+        "fecha": "2026-10-29T14:15:17.146Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMDc3MTY0NDI1ODlDNTg2RDM0AA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "impresora-termica"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Entonces se borra más rápido las letras\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
