@@ -49,8 +49,8 @@
     "telefono": "573239768833",
     "nombre": "Andrés Cortes",
     "primerContacto": "2026-10-29T12:06:43.939Z",
-    "ultimoContacto": "2026-10-29T12:06:43.939Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T12:07:46.337Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -76,20 +76,69 @@
         "fecha": "2026-10-29T12:06:43.037Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSNDE4M0Y0MDQwNEM5QzdDQTQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola es para una vereda en cajica cundinamarca",
+        "fecha": "2026-10-29T12:07:39.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T12:07:42.475Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSQTI5NDM3NUI2QUUwRUVENDYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T12:07:43.124Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSMzA4MUUyMDIxOUQxNERDMjJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T12:07:43.871Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSQzU1Q0VFNEU0NTYxMUIzOTRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T12:07:44.535Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Cajicá te puede servir mucho nuestro módem porque tiene mejor cobertura que el celular, ideal para zonas sin fibra óptica como veredas.\n\nTe cuento las 3 versiones que tenemos para que elijas:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000 de envío  \n✅ Conexión estable 4G y hasta 10 dispositivos  \n\n📶 Modem WiFi Portátil 4G/5G: $189.900 + $26.000 de envío  \n✅ Funciona en 4G y donde haya 5G también, la opción más segura  \n\n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 de envío  \n✅ Ideal si ya tienes buena cobertura 5G para máxima velocidad  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo usarías principalmente? ¿Estudio, trabajo, casa o negocio? Así te recomiendo la mejor opción.",
+        "fecha": "2026-10-29T12:07:44.545Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSQURBQkFBQkFENDVDMTY4OUE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T12:07:45.243Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NzY4ODMzFQIAERgSMkU1NEI1Qjg0OEVDNzY2MkVDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573246870348",
