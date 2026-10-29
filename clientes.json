@@ -409,8 +409,8 @@
     "telefono": "573128122830",
     "nombre": "Álvarez",
     "primerContacto": "2026-10-29T05:11:55.342Z",
-    "ultimoContacto": "2026-10-29T05:22:02.560Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-29T05:23:25.198Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -595,9 +595,21 @@
         "fecha": "2026-10-29T05:22:01.423Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSODUxOTFCOTZDNTYwQTY1RUEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-10-29T05:23:23.728Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T05:23:23.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MTIyODMwFQIAERgSNDE3OTUzRDFGMkNEODExOEEwAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "smartwatch-s13-max"
     },
