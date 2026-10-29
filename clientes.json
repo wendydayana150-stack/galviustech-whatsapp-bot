@@ -83,8 +83,8 @@
     "telefono": "573135029974",
     "nombre": "Stiven",
     "primerContacto": "2026-10-29T16:45:05.210Z",
-    "ultimoContacto": "2026-10-29T18:18:05.818Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T18:18:34.022Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -205,9 +205,21 @@
         "fecha": "2026-10-29T18:18:04.620Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MDI5OTc0FQIAERgSQUE0RDY0MDQzMEE5M0MzNDc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienda del mister",
+        "fecha": "2026-10-29T18:18:32.802Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-29T18:18:32.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MDI5OTc0FQIAERgSN0M3MjQwMzk0NzdEMEVFMjA4AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -216,7 +228,8 @@
       "departamento": "Antioquia",
       "nombreCliente": "Jeiner Ramirez",
       "celular": "3135029974",
-      "ciudad": "Rionegro Antioquia vereda el carmin"
+      "ciudad": "Rionegro Antioquia vereda el carmin",
+      "direccion": "Tienda del mister"
     },
     "pausado": false,
     "etapaManual": null,
