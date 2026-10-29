@@ -14274,8 +14274,8 @@
     "telefono": "573213943536",
     "nombre": "Teresa",
     "primerContacto": "2026-10-29T05:09:05.863Z",
-    "ultimoContacto": "2026-10-29T14:16:01.856Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-29T14:16:17.010Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14641,13 +14641,30 @@
         "fecha": "2026-10-29T14:16:00.647Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSODk2Q0QxRDVBMzc2RUQxQTY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 😊 Quedamos entonces con la Impresora NETUM a $249.900 con envío GRATIS y el papel térmico que necesites para empezar a imprimir sin complicaciones.\n\n¿Cuál presentación de papel quieres agregar?  \nY para dejar listo el pedido necesito tu nombre completo, celular, departamento y ciudad, dirección y barrio.  \n\nRecuerda que pagas al recibir y tienes garantía de 30 días. ¿Me pasas esos datos para enviártela?",
+        "fecha": "2026-10-29T14:16:15.026Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMTg5NkJBMkVDNTk4ODk3QjYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T14:16:15.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSNDVEQjQyRjg5ODQ0NkEwNUY4AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "impresora-termica"
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573213943536"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
