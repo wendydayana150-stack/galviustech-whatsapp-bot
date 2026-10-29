@@ -102,8 +102,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-10-29T05:36:44.382Z",
-    "ultimoContacto": "2026-10-29T05:41:46.528Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-29T05:43:18.200Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -184,6 +184,18 @@
         "fecha": "2026-10-29T05:41:45.393Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSMEE2NDRCRDgzMTBDMUY4RTc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no cv moreno to la señal satelital para llevarla a ese módem que ofreces",
+        "fecha": "2026-10-29T05:43:15.262Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Mira, el módem que tenemos funciona solo con señal móvil (4G o 5G) de un operador como Claro, Movistar, Tigo o WOM.\n\nSi solo tienes internet satelital donde estás, lamentablemente ese módem no lo puede usar, porque no está diseñado para captar señal satelital, solo celular.\n\nSi quieres, dime la vereda o municipio donde estás para confirmarte qué opciones tienes, ¿vale?",
+        "fecha": "2026-10-29T05:43:16.978Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSRUFGMzZCNEFGNEYzQjYxOTQzAA=="
       }
     ],
     "paso": "conversando",
