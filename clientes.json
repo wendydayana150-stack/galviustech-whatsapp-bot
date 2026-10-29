@@ -3322,8 +3322,8 @@
     "telefono": "573244599640",
     "nombre": "Guillermo Kabrera",
     "primerContacto": "2026-10-29T15:07:15.227Z",
-    "ultimoContacto": "2026-10-29T15:07:15.227Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T16:16:41.962Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3343,6 +3343,25 @@
         "fecha": "2026-10-29T15:07:14.350Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ0NTk5NjQwFQIAERgSNkE1NjJDQjgxMTRBNDY0MzAwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T16:11:09.785Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0NTk5NjQwFQIAERgSQjZDNjlCRjREOUMyRDBFREEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Información y precio",
+        "fecha": "2026-10-29T16:16:39.063Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime ¿de cuál producto quieres info y precio? \n\n¿Es para internet (modem), impresión (impresora térmica), iluminación (lámpara solar), seguridad (cámara) o relojes? Así te ayudo con datos súper claros y el precio exacto con envío. ¿Cuál tienes en mente?",
+        "fecha": "2026-10-29T16:16:40.982Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0NTk5NjQwFQIAERgSOEM2QzRBNzYwNDQwRjkwNjE1AA=="
       }
     ],
     "paso": "conversando",
@@ -3358,8 +3377,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
