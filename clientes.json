@@ -56,8 +56,8 @@
     "telefono": "573105150232",
     "nombre": "Francisco",
     "primerContacto": "2026-10-29T01:28:42.085Z",
-    "ultimoContacto": "2026-10-29T01:31:47.833Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T01:33:14.502Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,25 @@
         "fecha": "2026-10-29T01:31:46.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MTUwMjMyFQIAERgSMjg5NjFDOUQ4REYyQUU3N0I1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo con los datos del celular y necesitamos para diez personas",
+        "fecha": "2026-10-29T01:33:10.822Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial que necesitas para 10 personas, justo el módem 4G/5G soporta esa cantidad simultáneamente.\n\nEste modem convierte la señal del celular en WiFi para que todos se conecten. Además, su antena capta señal mejor que el celular solo, ideal para que nadie se quede sin conexión en la vereda La Popa.\n\nLa inversión sería de **$189.900 + $26.000 de envío**, y pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar tu pedido listo para enviártelo?",
+        "fecha": "2026-10-29T01:33:12.823Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MTUwMjMyFQIAERgSNDU2NEMyQzM0MDUzQzY5NjY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T01:33:13.526Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MTUwMjMyFQIAERgSRjM2QjI4MEI2RkNDNDcwMTAxAA=="
       }
     ],
     "paso": "conversando",
