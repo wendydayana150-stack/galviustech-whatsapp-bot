@@ -976,8 +976,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:24:16.769Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-29T02:31:42.353Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1185,6 +1185,18 @@
         "fecha": "2026-10-29T02:24:15.717Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNTgwNjRDQUQzQ0RDNTQwQjc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 128C#93B-28 suba rincón",
+        "fecha": "2026-10-29T02:31:41.427Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! Ya tengo tu dirección 🏠\n\nAhora, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-29T02:31:41.429Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRDQyQkM5MzY2QjE5OEQ2QTU1AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1193,7 +1205,8 @@
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573160722007",
-      "departamento": "Bogota"
+      "departamento": "Bogota",
+      "direccion": "Calle 128C#93B-28 suba rincón"
     },
     "pausado": false,
     "etapaManual": null,
