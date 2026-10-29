@@ -36415,8 +36415,8 @@
     "telefono": "573227671557",
     "nombre": "Lutis 53",
     "primerContacto": "2026-10-27T15:21:27.824Z",
-    "ultimoContacto": "2026-10-29T14:29:34.300Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-29T14:30:22.951Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "bot",
@@ -36495,6 +36495,20 @@
         "fecha": "2026-10-29T14:29:33.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjcxNTU3FQIAERgSNDFGNTFBODRGM0NDMjRDMTMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, Wendy te mostró las opciones con sus precios: el módem 4G a $169.900, el 4G/5G a $189.900 y el 5G a $199.900, todos con envío de $26.000, pagando al recibir. \n\n¿Cuál prefieres? Y pásame nombre completo, celular, departamento, ciudad, dirección y barrio para dejar todo listo.",
+        "fecha": "2026-10-29T14:30:20.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjcxNTU3FQIAERgSRjc1MzEwQUFDQzZDQ0U2MThBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 169.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T14:30:21.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjcxNTU3FQIAERgSQzMyREY1NkE4Mzc3MUM3QUVEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -36504,7 +36518,7 @@
       "precio": 169900,
       "telefono": "573227671557"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
