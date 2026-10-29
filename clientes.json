@@ -5428,8 +5428,8 @@
     "telefono": "CA.2603986576760687",
     "nombre": "Edna",
     "primerContacto": "2026-10-29T12:13:36.402Z",
-    "ultimoContacto": "2026-10-29T12:18:51.064Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T13:38:17.591Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5513,6 +5513,25 @@
         "fecha": "2026-10-29T12:18:49.944Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjQxMTlGNkVGRTIwMDYwMEY5NAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T13:20:28.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEkI0OTQxRDNBMTc1QTAzRjY3NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias voy a pensarlo",
+        "fecha": "2026-10-29T13:38:14.642Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tomar la decisión con calma es importante 😊 Recuerda que tener tu propio módem te evita depender de redes ajenas, facilita conectar varios dispositivos y te da internet estable donde estudias. La promoción con el 30% de descuento no dura para siempre, así que aprovecha cuando estés list@.  \n\n¿Qué te preocupa o qué más quisieras saber para animarte? Estoy aquí para ayudarte.",
+        "fecha": "2026-10-29T13:38:16.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ0EuMjYwMzk4NjU3Njc2MDY4NxUUABEYEjFBMjVEMUI1RDAyNUIzQkNFMgA="
       }
     ],
     "paso": "conversando",
@@ -5523,13 +5542,12 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
