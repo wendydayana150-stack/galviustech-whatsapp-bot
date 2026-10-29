@@ -12164,8 +12164,8 @@
     "telefono": "573213943536",
     "nombre": "Teresa",
     "primerContacto": "2026-10-29T05:09:05.863Z",
-    "ultimoContacto": "2026-10-29T13:02:11.590Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-29T13:02:30.099Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12493,6 +12493,18 @@
         "fecha": "2026-10-29T13:02:10.543Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMERCMTZBRTk1MjYwNkNFNDlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Entonces se borra más rápido las letras",
+        "fecha": "2026-10-29T13:02:27.559Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No tengo ese dato confirmado con el fabricante, así que para no darte información que no sea segura, prefiero confirmarlo con el equipo y te aviso. Igualmente la Impresora NETUM es ideal para imprimir rápido documentos importantes sin depender de papelerías ni tintas.\n\n¿Quieres que te ayude a dejar tu pedido listo mientras confirmo eso para ti?",
+        "fecha": "2026-10-29T13:02:28.858Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzOTQzNTM2FQIAERgSMEVEMTgyNEJGRDgzRTg3OTJBAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -12503,8 +12515,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Entonces se borra más rápido las letras\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
