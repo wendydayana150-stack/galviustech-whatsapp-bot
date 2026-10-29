@@ -8061,8 +8061,8 @@
     "telefono": "573186469551",
     "nombre": "Dalys 🥰🥰🥰",
     "primerContacto": "2026-10-29T12:37:18.164Z",
-    "ultimoContacto": "2026-10-29T20:04:13.504Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-10-29T20:09:39.311Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8417,13 +8417,41 @@
         "fecha": "2026-10-29T20:04:12.467Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSRDA0MzRFNTQ1NzNEMTIwQTFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Curren Blanche (Mujer)",
+        "fecha": "2026-10-29T20:09:37.220Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Curren Blanche (Mujer)",
+        "fecha": "2026-10-29T20:09:37.220Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSMjk0MjhGQTUyQUJDQzhCRUI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Curren Blanche Elegance para Mujer*\n💰 *$ 169.900* ya con *30% de descuento* 🔥\n✅ Diseño elegante con detalles en pedrería\n✅ Combina con todo tu estilo\n✅ Un regalo perfecto para alguien especial\n🚚 Envío $26.000 y *pagas al recibir*\n🎨 Colores: Azul, Verde",
+        "fecha": "2026-10-29T20:09:37.949Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSNzc4RkQzODk1NDVBMjY4MEJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T20:09:38.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSQ0YwRDc3QUJCRjk3MUY0RjQxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reloj-curren-blanche-elegance-para-mujer"
+    },
     "pausado": false,
     "etapaManual": "Compra más adelante",
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "reloj-curren-blanche-elegance-para-mujer",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
