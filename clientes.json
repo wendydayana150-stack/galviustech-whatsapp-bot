@@ -753,8 +753,8 @@
     "telefono": "573152440991",
     "nombre": "Yenis",
     "primerContacto": "2026-10-29T10:27:26.606Z",
-    "ultimoContacto": "2026-10-29T10:27:26.606Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T11:03:59.887Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -787,6 +787,18 @@
         "fecha": "2026-10-29T10:27:25.558Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyNDQwOTkxFQIAERgSRTMxNkI1NTY5MDU4MDM3Q0I2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas",
+        "fecha": "2026-10-29T11:03:56.045Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, para tareas y trabajos la mejor opción que tienes es la Impresora Térmica Portátil NETUM.\n\n🖨️ Imprime hojas tamaño carta, ideal para tus trabajos, apuntes o documentos del colegio o la universidad.\n🖤 No usa tinta ni cartuchos, solo papel térmico que viene incluido.\n👜 Portátil, con batería recargable que dura hasta 30 horas.\n📲 Se conecta por Bluetooth a tu celular para imprimir fácil y rápido.\nMide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, cabe perfecto en tu mochila o bolso.\n\nLa inversión es de **$249.900** con envío GRATIS a toda Colombia y pagas contra entrega, además tienes garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te cuente cómo funciona o te ayudo a dejar tu pedido listo?",
+        "fecha": "2026-10-29T11:03:58.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyNDQwOTkxFQIAERgSNEI1QTdEMkUyMzg4OTI4NkMwAA=="
       }
     ],
     "paso": "conversando",
@@ -800,7 +812,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573209605260",
