@@ -712,8 +712,8 @@
     "telefono": "573107512906",
     "nombre": "Joaquín",
     "primerContacto": "2026-10-29T10:43:46.064Z",
-    "ultimoContacto": "2026-10-29T10:43:46.064Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T11:53:57.772Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -739,13 +739,66 @@
         "fecha": "2026-10-29T10:43:44.956Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSMzQwNDlCQzZEQ0FGRDY0OTREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T11:48:22.400Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSMzQ4NDBDREVGMjc2MkNCNjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de hato Corozal pero estamos a 30 kilómetros del pueblo donde está la 📡",
+        "fecha": "2026-10-29T11:53:51.701Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-29T11:53:53.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSRERCNjA1NDdFMDA3NDA5QjkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T11:53:54.543Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSQUU1QjI3QjIzNTEyNEZBNEYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-29T11:53:55.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSNzJGMjU2MEI5Q0NDOEY1MTE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-29T11:53:55.838Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, en Hato Corozal, ese modem está genial porque capta mejor señal que un celular común, ideal para estar a 30 km del pueblo y aún así tener internet.\n\nMira las 3 opciones que tenemos con su inversión + envío así eliges la que más te conviene:\n\n📶 Modem WiFi Portátil 4G: $169.900 + $26.000  \n📶 Modem WiFi Portátil 4G/5G: $189.900 + $26.000 (recomendado para mayor cobertura y velocidad)  \n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 (si ya tienes buen 5G en tu zona)\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo usarías principalmente? Así te ayudo a decidir el más adecuado.",
+        "fecha": "2026-10-29T11:53:55.845Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSQjg3M0JCQ0RCM0QzMjc0OTNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-10-29T11:53:56.649Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTEyOTA2FQIAERgSQTVGQ0UxQzkwQjZERTZDQjA0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -754,8 +807,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
