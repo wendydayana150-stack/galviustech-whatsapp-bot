@@ -1720,8 +1720,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:56:39.434Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-10-29T02:57:57.489Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2248,15 +2248,32 @@
         "fecha": "2026-10-29T02:56:38.400Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSOEQ1MDU5QjcxQjI1RTEzQjYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Le envié mi dirección donde vivo y saldré a recogerlo Gracias que tenga buenas noches",
+        "fecha": "2026-10-29T02:57:54.398Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Faber, entonces te preparo el envío para que lo recojas en la transportadora más cercana a tu dirección.\n\nMuchas gracias a ti, que tengas una buena noche. Si necesitas algo más, me avisas.",
+        "fecha": "2026-10-29T02:57:55.609Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRkI2NzVDQjE4QTUwMjkxMTcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido del *Modem WiFi Portatil 4G/5G* ya quedó confirmado y registrado, no hace falta confirmarlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-10-29T02:57:56.465Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSN0Y1NjM3NDNFOEVGQzU4ODU4AA=="
       }
     ],
-    "paso": "confirmar_producto",
-    "pedido": {
-      "productoId": "reloj-premium"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reloj-premium",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
