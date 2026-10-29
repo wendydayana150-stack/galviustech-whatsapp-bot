@@ -34012,8 +34012,8 @@
     "telefono": "573009758360",
     "nombre": "princesa",
     "primerContacto": "2026-10-27T12:28:47.103Z",
-    "ultimoContacto": "2026-10-27T18:09:57.138Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-29T11:24:13.921Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -34151,6 +34151,52 @@
         "fecha": "2026-10-27T18:09:55.947Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSRTJCMjk1Nzk2MUM5RjgxMkFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me regalas foto",
+        "fecha": "2026-10-29T11:24:10.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-10-29T11:24:10.189Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T11:24:10.189Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSNTJCOTcwMEY4NzI5NjAzM0VFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T11:24:11.051Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSQkE3MzhENkZGNzBEMUIyOEU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T11:24:11.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSQzEwNkY0NjkwRTg4RjYxQjE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T11:24:12.319Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSNEIzRkIwNUY4QzJBQjlGNUNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T11:24:12.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzU4MzYwFQIAERgSNzM3Njk0QjNBQjQ3ODQ1MzYzAA=="
       }
     ],
     "paso": "conversando",
@@ -34166,9 +34212,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
