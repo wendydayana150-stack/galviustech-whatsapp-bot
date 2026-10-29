@@ -1107,8 +1107,8 @@
     "telefono": "573160722007",
     "nombre": "💂💂",
     "primerContacto": "2026-10-29T02:03:42.156Z",
-    "ultimoContacto": "2026-10-29T02:36:50.765Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-10-29T02:37:05.608Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1433,13 +1433,41 @@
         "fecha": "2026-10-29T02:36:49.543Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSRkI1QTVFNUY3MUZENkQ2NjA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Curren 8475 (Hombre)",
+        "fecha": "2026-10-29T02:37:03.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Curren 8475 (Hombre)",
+        "fecha": "2026-10-29T02:37:03.009Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSMjlFOTBENkJGQkU3OEUzMjkwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Curren 8475 Original Para Hombre*\n💰 *$ 159.900* ya con *30% de descuento* 🔥\n✅ Diseño deportivo negro mate con detalles en verde\n✅ Cronógrafo funcional\n✅ Caja y correa metálica resistente\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-10-29T02:37:03.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSNUYzQzU0MTQ0ODMzMEVBNDVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-10-29T02:37:04.345Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYwNzIyMDA3FQIAERgSMERCNUVFMjlFQzAwNDYxRTY2AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reloj-curren-8475-original-para-hombre"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "reloj-curren-8475-original-para-hombre",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
