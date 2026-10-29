@@ -194,8 +194,8 @@
     "telefono": "573105363578",
     "nombre": "lewischarles1403",
     "primerContacto": "2026-10-29T09:49:06.398Z",
-    "ultimoContacto": "2026-10-29T10:03:05.320Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-10-29T10:04:11.686Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -489,6 +489,18 @@
         "fecha": "2026-10-29T10:03:04.245Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSNkY5OThGMDAyNEE3ODM4NjA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luego te escribo boy consultar en casa gracias",
+        "fecha": "2026-10-29T10:04:08.115Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando decidas. Recuerda que la promoción con descuento del módem 4G/5G es por pocos días y las unidades pueden agotarse.\n\nSi quieres, cuando estés list@ te ayudo a dejar el pedido listo rápido y fácil.\n\nQue te vaya muy bien, ¡hasta pronto!",
+        "fecha": "2026-10-29T10:04:10.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSQzcyRTQ4MEIzRkU4QURGREVFAA=="
       }
     ],
     "paso": "conversando",
@@ -499,7 +511,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
