@@ -549,8 +549,8 @@
     "telefono": "573162693476",
     "nombre": "guevaraeduar29",
     "primerContacto": "2026-10-29T13:42:56.212Z",
-    "ultimoContacto": "2026-10-29T13:42:56.212Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T14:45:13.640Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -583,6 +583,52 @@
         "fecha": "2026-10-29T13:42:55.298Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSOEJCNUM1ODAwRDdENEEwODcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio de la foto copiadora",
+        "fecha": "2026-10-29T14:45:09.884Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-10-29T14:45:09.947Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T14:45:09.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSOEJENjJFRDZFMUJBRTI5MUUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T14:45:10.613Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSQUQ0MTg2NzAxRDNBNDU0RDNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T14:45:11.283Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSRUVEM0YwRUY4QkNFMzdFOTRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-29T14:45:11.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSQzI1QzM5Q0M3NkUyREJEODAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-29T14:45:12.441Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNjkzNDc2FQIAERgSMTAxNTZBQTZENDY3QTU2OEM4AA=="
       }
     ],
     "paso": "conversando",
@@ -596,7 +642,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573212285249",
