@@ -212,8 +212,8 @@
     "telefono": "573226139899",
     "nombre": "Jhon Osorio",
     "primerContacto": "2026-10-29T12:27:09.366Z",
-    "ultimoContacto": "2026-10-29T12:29:01.248Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T12:30:27.635Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -285,6 +285,18 @@
         "fecha": "2026-10-29T12:28:59.647Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2MTM5ODk5FQIAERgSRDM0MTJEOEMxOUVDQTU5OEFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias luego lo compro",
+        "fecha": "2026-10-29T12:30:25.257Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, no hay problema. Recuerda que la promoción del 30% de descuento está activa y cuánto antes decidas, más rápido tendrás el internet estable en tu zona.\n\n¿Quieres que te deje aquí la info para cuando decidas o prefieres que te avise si hay alguna novedad? Así te apoyo cuando estés listo.",
+        "fecha": "2026-10-29T12:30:26.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2MTM5ODk5FQIAERgSMzdEQzA1N0IyNDZBMjFDMzExAA=="
       }
     ],
     "paso": "conversando",
@@ -295,7 +307,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
