@@ -102,8 +102,8 @@
     "telefono": "573105363578",
     "nombre": "lewischarles1403",
     "primerContacto": "2026-10-29T09:49:06.398Z",
-    "ultimoContacto": "2026-10-29T09:54:46.871Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-29T09:55:09.158Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -256,16 +256,29 @@
         "fecha": "2026-10-29T09:54:45.754Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSQjJGNzE0MDM3RDg5MDVGMDU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luis Carlos Dávila muñoz",
+        "fecha": "2026-10-29T09:55:07.784Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-29T09:55:07.787Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSQzg1NjgwOENGN0VCREMxRUQwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573105363578",
       "departamento": "Caldas",
-      "direccion": "Recoge en oficina de la transportadora"
+      "direccion": "Recoge en oficina de la transportadora",
+      "nombreCliente": "Luis Carlos Dávila muñoz"
     },
     "pausado": false,
     "etapaManual": null,
