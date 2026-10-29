@@ -3,8 +3,8 @@
     "telefono": "CO.1671819467887845",
     "nombre": "Alexis",
     "primerContacto": "2026-10-29T02:32:19.111Z",
-    "ultimoContacto": "2026-10-29T02:33:52.266Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-29T02:34:37.992Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -88,6 +88,18 @@
         "fecha": "2026-10-29T02:33:51.330Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEkIyQjQ4NDBENTc1NjVCN0RCMQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias paso",
+        "fecha": "2026-10-29T02:34:35.575Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que por ahora no sea el momento. Recuerda que la promoción con 30% de descuento puede cambiar, así que cuando quieras, aquí estoy para ayudarte a tener internet sin complicaciones en donde lo necesites.\n\n¿Quieres que te deje información por si decides luego o prefieres que te avise cuando haya novedades?",
+        "fecha": "2026-10-29T02:34:36.783Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEkEzRkM1NTgyOUMzQ0U4MUMzOQA="
       }
     ],
     "paso": "conversando",
@@ -98,7 +110,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
