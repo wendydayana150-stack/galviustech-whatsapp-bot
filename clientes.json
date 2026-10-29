@@ -3,8 +3,8 @@
     "telefono": "CO.1671819467887845",
     "nombre": "Alexis",
     "primerContacto": "2026-10-29T02:32:19.111Z",
-    "ultimoContacto": "2026-10-29T02:32:26.381Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T02:33:52.266Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,52 @@
         "fecha": "2026-10-29T02:32:25.336Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEjFERkE5ODY4NTBEMTA1MUFFQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Debo pagar algún plan de WiFi en mi simcard?",
+        "fecha": "2026-10-29T02:33:47.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T02:33:49.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEjQ3RjU1RTMzOUEyQTUwQzZGNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T02:33:49.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEkQ3MkRGOEI1M0M1RjVFRDNBQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-29T02:33:50.657Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEkY1NkNDRTQ1N0QxQkZENUM2NAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-10-29T02:33:51.321Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión en el módem 4G/5G es de **$189.900 + $26.000 de envío**, con garantía de 30 días y pago contra entrega.\n\nEl módem funciona con la SIM de cualquier operador (Claro, Movistar, Tigo, WOM), pero DEBES activar un plan o recarga de datos en tu SIM para que tengas internet. El dispositivo solo provee la señal WiFi a partir de la red móvil que tengas con la SIM.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda piensas usarlo? Así te confirmo que la señal 4G/5G esté disponible para que te funcione bien.",
+        "fecha": "2026-10-29T02:33:51.330Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3MTgxOTQ2Nzg4Nzg0NRUUABEYEkIyQjQ4NDBENTc1NjVCN0RCMQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
