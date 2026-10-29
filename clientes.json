@@ -17811,8 +17811,8 @@
     "telefono": "CO.927593016701047",
     "nombre": "José Kalinin Ramirez Sanc",
     "primerContacto": "2026-10-29T02:49:16.880Z",
-    "ultimoContacto": "2026-10-29T02:49:16.880Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T14:32:34.014Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17845,6 +17845,18 @@
         "fecha": "2026-10-29T02:49:15.729Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTI3NTkzMDE2NzAxMDQ3FRQAERgSNjY1NUY5Q0Y2QkE0RTZCNTUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a mirar el catálogo",
+        "fecha": "2026-10-29T14:32:30.449Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, cuando tengas claro qué necesitas o si quieres que te muestre otra categoría me avisas. \n\nRecuerda que la Impresora NETUM es la mejor para hojas tamaño carta y para imprimir trabajos o documentos sin complicaciones.\n\n¿Quieres que te mande info de las otras opciones también? \n🖨️ Impresoras térmicas\n📶 Módem WiFi\n💡 Lámparas solares\n📹 Cámaras de seguridad\n⌚ Relojes inteligentes\n🎁 Combos\n\n¿Cuál te interesa explorar?",
+        "fecha": "2026-10-29T14:32:32.842Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTI3NTkzMDE2NzAxMDQ3FRQAERgSNUUyMTlFMDgwRkEzQ0VCODAxAA=="
       }
     ],
     "paso": "conversando",
@@ -17855,14 +17867,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
