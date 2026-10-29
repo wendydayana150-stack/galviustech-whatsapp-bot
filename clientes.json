@@ -102,8 +102,8 @@
     "telefono": "573105363578",
     "nombre": "lewischarles1403",
     "primerContacto": "2026-10-29T09:49:06.398Z",
-    "ultimoContacto": "2026-10-29T09:55:20.674Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-29T09:55:27.657Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -280,9 +280,21 @@
         "fecha": "2026-10-29T09:55:19.457Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSRDhBRkU1QTkzMUE5MTI0MUE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Rionegro",
+        "fecha": "2026-10-29T09:55:26.708Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-29T09:55:26.710Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzYzNTc4FQIAERgSMEVBQjg3NzRCOTEzMzExRTI3AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -291,7 +303,8 @@
       "departamento": "Caldas",
       "direccion": "Recoge en oficina de la transportadora",
       "nombreCliente": "Luis Carlos Dávila muñoz",
-      "celular": "3105363578"
+      "celular": "3105363578",
+      "ciudad": "Rionegro"
     },
     "pausado": false,
     "etapaManual": null,
