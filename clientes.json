@@ -1698,8 +1698,8 @@
     "telefono": "573132591284",
     "nombre": ".",
     "primerContacto": "2026-10-29T12:51:16.233Z",
-    "ultimoContacto": "2026-10-29T12:52:14.592Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T13:55:35.969Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1744,6 +1744,25 @@
         "fecha": "2026-10-29T12:52:13.255Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNTkxMjg0FQIAERgSQjlGNUI2RkQ3NUMxMkNCNDk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T13:53:22.694Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNTkxMjg0FQIAERgSMTVENDQ0NjBFNThBRUM0RDBGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-29T13:55:30.935Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, sin problema. Si luego necesitas imprimir documentos, trabajos o facturas y quieres una opción práctica y sin complicaciones, aquí estoy para ayudarte.\n\n¿Hay algún otro producto de GalviusTech que te llame la atención? Por ejemplo:\n\n📶 Módem WiFi  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes  \n🎁 Combos  \n\n¿Quieres que te muestre algo de estas categorías?",
+        "fecha": "2026-10-29T13:55:33.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNTkxMjg0FQIAERgSNTg5Qjg4QzcxMkFDRjk1N0Y5AA=="
       }
     ],
     "paso": "conversando",
@@ -1759,8 +1778,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
