@@ -56,8 +56,8 @@
     "telefono": "573145196901",
     "nombre": "edgard",
     "primerContacto": "2026-10-29T13:55:11.152Z",
-    "ultimoContacto": "2026-10-29T13:55:30.819Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-29T13:57:40.451Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,10 +122,34 @@
         "fecha": "2026-10-29T13:55:29.235Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSN0JEMzkxQTYxRjMyNTFCQTIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No aguanta  la quiero sin sin",
+        "fecha": "2026-10-29T13:57:34.581Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! El Módem WiFi Portátil 4G/5G es una excelente inversión para que tengas internet donde no llega la fibra, ya sea para trabajar, estudiar o simplemente para tu hogar. \n\nLlega en 2 a 4 días hábiles después de despacharse, y puedes pagar contra entrega con garantía de 30 días. \n\n¿Quieres que te lo envíe a tu casa o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-10-29T13:57:38.142Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSRDkwQjdGNEVDOEFGM0ZBM0IwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-29T13:57:39.332Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSRTA4MThCMzM4QzczN0IwMkU3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573145196901"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
