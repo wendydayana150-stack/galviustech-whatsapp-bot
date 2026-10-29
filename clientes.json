@@ -49,8 +49,8 @@
     "telefono": "573245053110",
     "nombre": "miguel",
     "primerContacto": "2026-10-29T06:02:59.547Z",
-    "ultimoContacto": "2026-10-29T06:02:59.547Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T06:04:32.333Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,6 +83,25 @@
         "fecha": "2026-10-29T06:02:58.380Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1MDUzMTEwFQIAERgSQkM1Q0JCNkFDMkZFQkEwQ0Y4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-10-29T06:04:28.824Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para la Impresora Térmica Portátil NETUM es de **$249.900** con **envío GRATIS** a toda Colombia y pagas contra entrega, además tiene garantía de 30 días. Es portable, imprime sin tinta en hojas tamaño carta y es ideal para estudiantes, emprendedores o trabajo móvil.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas principalmente? ¿Para tareas, documentos o facturas? Así te confirmo que es la mejor opción para ti.",
+        "fecha": "2026-10-29T06:04:30.505Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1MDUzMTEwFQIAERgSRUE3NjVCNTBGQTAzMTlFRjNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-29T06:04:31.283Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1MDUzMTEwFQIAERgSODRCQzIxNkM1M0M1Njg0MTQxAA=="
       }
     ],
     "paso": "conversando",
@@ -96,7 +115,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1511980417429593",
