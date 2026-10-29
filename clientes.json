@@ -1971,8 +1971,8 @@
     "telefono": "573145557541",
     "nombre": "Consultorio  Psicológico  Olga Lucia Avila M.",
     "primerContacto": "2026-10-29T09:44:27.131Z",
-    "ultimoContacto": "2026-10-29T09:44:27.131Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T11:26:16.275Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2005,6 +2005,25 @@
         "fecha": "2026-10-29T09:44:25.916Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NTU3NTQxFQIAERgSMkVDOTJDRkEyQTAxRkYwOUE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-29T11:08:24.567Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTU3NTQxFQIAERgSREYyRDAxMDlEMEU4MEU3OEFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola, soy la psicóloga Olga Lucía 😊\n¿Cómo podemos ayudarte?\n🤍🙌🧠",
+        "fecha": "2026-10-29T11:26:13.757Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Olga Lucía 😊, qué gusto atenderte. Soy Michell de GalviusTech. Cuéntame, ¿para qué necesitas la impresora? ¿Es para documentos, tareas, recibos o etiquetas? Así te recomiendo la mejor opción para ti. ¿Y en qué ciudad o municipio estás?",
+        "fecha": "2026-10-29T11:26:15.147Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTU3NTQxFQIAERgSMTA0REQ3RTA1QzhDM0YxMTAyAA=="
       }
     ],
     "paso": "conversando",
@@ -2020,8 +2039,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
