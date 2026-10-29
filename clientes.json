@@ -3,8 +3,8 @@
     "telefono": "573236086426",
     "nombre": "~🕷",
     "primerContacto": "2026-10-29T00:48:46.147Z",
-    "ultimoContacto": "2026-10-29T00:48:46.147Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T00:49:38.130Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-29T00:48:45.328Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MDg2NDI2FQIAERgSODRERDAyMEFCQUE2M0MxMTQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-10-29T00:49:37.119Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-10-29T00:49:37.119Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MDg2NDI2FQIAERgSRkEzRjdFQUE0OEVGMkM3NEM0AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1444278817888504",
