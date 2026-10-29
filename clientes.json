@@ -1413,8 +1413,8 @@
     "telefono": "573207678860",
     "nombre": "Yolanda Palomino",
     "primerContacto": "2026-10-29T01:06:48.206Z",
-    "ultimoContacto": "2026-10-29T01:06:48.206Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-29T01:40:38.215Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1447,6 +1447,18 @@
         "fecha": "2026-10-29T01:06:47.306Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3Njc4ODYwFQIAERgSNEJDNkE0MUNFN0Y5RTE4RUMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok muchas gracias",
+        "fecha": "2026-10-29T01:40:35.649Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! Cuando quieras, aquí estoy para ayudarte con la Impresora Térmica Portátil NETUM o cualquier otro producto que necesites.\n\n¿Para qué te gustaría usar la impresora? Así te cuento cómo te puede facilitar tus tareas.",
+        "fecha": "2026-10-29T01:40:37.215Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3Njc4ODYwFQIAERgSMUQzMjA0RjQ2REUyOUNGQThCAA=="
       }
     ],
     "paso": "conversando",
@@ -1460,7 +1472,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1170622098872897",
