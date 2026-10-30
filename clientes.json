@@ -19443,8 +19443,8 @@
     "telefono": "573115513787",
     "nombre": "GVM",
     "primerContacto": "2026-10-29T10:59:04.008Z",
-    "ultimoContacto": "2026-10-29T15:23:15.933Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:30:52.343Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19491,6 +19491,13 @@
         "fecha": "2026-10-29T15:23:15.139Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NTEzNzg3FQIAERgSNDc4MzIzQjE3NDA0NjRGODEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola GVM, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:30:51.273Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTEzNzg3FQIAERgSREY2OTI2RjFCMTlFNDdBMzgzAA=="
       }
     ],
     "paso": "conversando",
@@ -19506,9 +19513,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
