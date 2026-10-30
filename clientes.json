@@ -888,8 +888,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-10-29T20:11:31.053Z",
-    "ultimoContacto": "2026-10-30T04:31:18.490Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T12:53:14.899Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -950,13 +950,52 @@
         "fecha": "2026-10-30T11:19:38.824Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQzhFRUQ1MzRCMjYwNjk2RjgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem wifi?",
+        "fecha": "2026-10-30T12:53:07.926Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-30T12:53:11.934Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQTYxNUI2QTg2N0NFRTlGRkZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-30T12:53:12.915Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNENERkU4QUU4NDdGMEQyQzUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-30T12:53:13.445Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQ0Y5RThGRjA3RDI2NkQzREIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-10-30T12:53:13.915Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Te cuento rápido sobre el modem WiFi portátil 4G/5G, que es la opción más segura para casi todas las zonas hoy:\n\n🚀 Conexión 4G y 5G, para usar donde no hay fibra óptica.  \n📶 Funciona en fincas, veredas, para estudiar, trabajar o viajar.  \n📱 Conecta hasta 10 dispositivos al mismo tiempo.  \n🔋 Batería dura hasta 14 horas con una sola carga.  \n✅ Fácil de usar: solo pones tu SIM, lo prendes y listo.  \n💰 La inversión sería de *$189.900* + $26.000 de envío.  \n✅ Pagas al recibir y tiene garantía de 30 días con GalviusTech.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o zona lo necesitas para que te confirme que es la mejor opción para ti?",
+        "fecha": "2026-10-30T12:53:13.927Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQUNDOUREQzcwNzcyRjkzMDhEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -965,9 +1004,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
