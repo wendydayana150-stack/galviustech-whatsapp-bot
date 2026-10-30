@@ -6222,6 +6222,9 @@ async function enviarTandaReactivacion() {
                         }
                         await guardarCliente(r.telefono, r.nombre);
                         ok++;
+                        // Cada envio guarda clientes.json en GitHub: espaciados para no llegar al limite de GitHub (29-oct-2026,
+                        // un envio de 157 seguidos lo bloqueo ~20 min y el bot dejo de guardar chats)
+                        await new Promise((s) => setTimeout(s, 10000));
                   } catch (e) {
                         fallos++;
                         console.error(`Reactivacion: fallo con ${r.telefono}:`, e.response?.data?.error?.message || e.message);
@@ -6245,6 +6248,115 @@ async function enviarTandaReactivacion() {
             reactivacionEnCurso = false;
       }
 }
+// RECUPERAR PRESENTACIONES SIN VIDEO (30-oct-2026, Wendy: "mañana a las 8am enviar las imagenes que faltaron y video a
+// los chats que se respondieron mal" / "necesitamos recuperar clientes"). A las 8 a. m. de Bogota, a quien recibio la
+// presentacion vieja de modems o de la NETUM (1 foto, sin video) y no compro: si escribio hace menos de 23 h le llegan
+// 3 fotos + video + mensaje para cerrar; si ya paso la ventana de WhatsApp, se pone de primero en reactivar.json para que
+// la tanda de las 10 a. m. le mande la plantilla. Un solo guardado al final en cada archivo (no uno por cliente).
+let ultimaRecuperacionMedia = null;
+async function recuperarPresentacionesSinVideo() {
+      const horaBogota = (new Date().getUTCHours() - 5 + 24) % 24;
+      const hoy = fechaBogotaTexto(new Date());
+      if (horaBogota !== 8 || ultimaRecuperacionMedia === hoy) return;
+      ultimaRecuperacionMedia = hoy;
+      try {
+            const { datos: clientes } = await leerJSON(CLIENTES_API);
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const conPedido = new Set(pedidos.map((p) => p.telefono));
+            const enVentana = [], fueraVentana = [];
+            for (const c of clientes) {
+                  if (c.recuperoMedia || c.pausado || conPedido.has(c.telefono)) continue;
+                  if (c.paso && !["conversando", "inicio"].includes(c.paso)) continue;
+                  const conv = c.conversacion || [];
+                  const textosBot = conv.filter((m) => m.rol === "bot").map((m) => String(m.texto || ""));
+                  if (textosBot.some((t) => t.startsWith("[Video]"))) continue;
+                  const categoria = textosBot.some((t) => t.startsWith("[Bienvenida de modems")) ? "modem" : textosBot.some((t) => t.startsWith("[Presenta la NETUM")) ? "impresora" : null;
+                  if (!categoria) continue;
+                  const ultimoCliente = [...conv].reverse().find((m) => m.rol === "cliente");
+                  if (!ultimoCliente) continue;
+                  const horas = (Date.now() - new Date(ultimoCliente.fecha).getTime()) / 3600000;
+                  if (horas > 24 * 3) continue; // solo chats recientes
+                  const idProducto = categoria === "impresora" ? "impresora-termica" : catalogo.some((p) => p.id === c.ultimoProducto && p.categoria === "modem") ? c.ultimoProducto : "modem-4g5g";
+                  const item = { c, categoria, idProducto, ultimoMensajeCliente: ultimoCliente.fecha };
+                  (horas < 23 ? enVentana : fueraVentana).push(item);
+            }
+            console.log(`Recuperacion de presentaciones: ${enVentana.length} en ventana, ${fueraVentana.length} a plantilla.`);
+            const enviados = [];
+            for (const { c, idProducto } of enVentana) {
+                  const producto = catalogo.find((p) => p.id === idProducto);
+                  if (!producto) continue;
+                  try {
+                        await cargarSesionSiNueva(c.telefono);
+                        const sesion = obtenerSesion(c.telefono);
+                        if (sesion.pausado || (sesion.paso && !["conversando", "inicio"].includes(sesion.paso))) continue;
+                        const nombre = producto.nombreCorto || producto.nombre;
+                        if (idProducto === "impresora-termica") {
+                              for (const url of (producto.imagenes || []).slice(0, 3)) await enviarImagen(c.telefono, url, nombre);
+                              await enviarVideo(c.telefono, VIDEO_NETUM_CALIDAD, "Mira la calidad de impresión de la NETUM 🖨️");
+                              sesion.videoNetumCalidadEnviado = true;
+                        } else {
+                              await enviarFotosYVideo(c.telefono, producto, nombre);
+                        }
+                        sesion.ultimoProducto = idProducto;
+                        await enviarBotones(
+                              c.telefono,
+                              `¡Hola! 👋 Te comparto más fotos y el video del *${nombre}* para que lo veas mejor 🎥\n\n🔥 Hoy en *${formatearPrecio(producto.precio)}*${textoEnvio(idProducto)}, con *30% de descuento* por *últimos días* y *últimas unidades*.\n✅ *Pagas al recibir*: lo revisas antes de pagar.\n\n¿Te lo envío? 🚚`,
+                              [
+                                    { id: `pedir_${idProducto}`, titulo: "✅ Sí, envíamelo" },
+                                    { id: "ver_catalogo", titulo: "Ver otros" },
+                              ]
+                        );
+                        enviados.push(c.telefono);
+                  } catch (e) {
+                        console.error(`Recuperacion de presentaciones: fallo con ${c.telefono}:`, e.response?.data?.error?.message || e.message);
+                  }
+                  await new Promise((s) => setTimeout(s, 15000));
+            }
+            // Un solo guardado: los mensajes quedan en el chat y se marca para no repetir
+            await conColaDeArchivo(CLIENTES_API, async () => {
+                  for (let intentos = 4; intentos > 0; intentos--) {
+                        try {
+                              const { datos, sha } = await leerJSON(CLIENTES_API);
+                              const marcados = new Set([...enviados, ...fueraVentana.map((f) => f.c.telefono)]);
+                              for (const c of datos) {
+                                    if (!marcados.has(c.telefono)) continue;
+                                    c.recuperoMedia = true;
+                                    const sesionViva = sesiones[c.telefono];
+                                    if (sesionViva && Array.isArray(sesionViva.transcripcion) && sesionViva.transcripcion.length >= (c.conversacion || []).length) c.conversacion = sesionViva.transcripcion;
+                              }
+                              await guardarJSON(CLIENTES_API, datos, sha, `Recuperacion: fotos y video a ${enviados.length} clientes`);
+                              return;
+                        } catch (e) {
+                              if (!(e.response?.status === 409 || e.response?.status === 422)) throw e;
+                        }
+                  }
+            });
+            // Los que ya pasaron las 24 h van de primeros en la lista de la plantilla de las 10 a. m.
+            if (fueraVentana.length) {
+                  for (let intentos = 4; intentos > 0; intentos--) {
+                        try {
+                              const { datos, sha } = await leerJSON(REACTIVAR_API);
+                              const pendientes = new Set(datos.filter((x) => !x.enviado).map((x) => x.telefono));
+                              const nuevos = fueraVentana
+                                    .filter((f) => !pendientes.has(f.c.telefono))
+                                    .map((f) => {
+                                          const p = catalogo.find((x) => x.id === f.idProducto);
+                                          return { telefono: f.c.telefono, nombre: f.c.nombre || "", categoria: f.categoria, producto: p ? p.nombreCorto || p.nombre : "nuestros productos", ultimoMensajeCliente: f.ultimoMensajeCliente, enPedido: false, enviado: false };
+                                    });
+                              const resto = datos.filter((x) => !nuevos.some((n) => n.telefono === x.telefono));
+                              await guardarJSON(REACTIVAR_API, [...nuevos, ...resto], sha, `Recuperacion: ${nuevos.length} clientes a la plantilla de reactivacion`);
+                              break;
+                        } catch (e) {
+                              if (!(e.response?.status === 409 || e.response?.status === 422)) throw e;
+                        }
+                  }
+            }
+            console.log(`Recuperacion de presentaciones: ${enviados.length} con fotos y video, ${fueraVentana.length} a la plantilla.`);
+      } catch (error) {
+            console.error("Error en la recuperacion de presentaciones:", error.response?.data || error.message);
+      }
+}
+
 // TANDA DIARIA AUTOMATICA (oct-2026, Wendy: "mañana envia la siguiente tanda de 200"): una tanda por dia entre
 // las 10 y las 11 a. m. de Bogota, mientras queden clientes pendientes en reactivar.json.
 async function tandaReactivacionAutomatica() {
@@ -6678,6 +6790,9 @@ app.listen(PUERTO, () => {
       setInterval(() => {
             tandaReactivacionAutomatica().catch((error) => console.error("Error en reactivacion automatica:", error.response?.data || error.message));
       }, 20 * 60 * 1000);
+      setInterval(() => {
+            recuperarPresentacionesSinVideo().catch((error) => console.error("Error en recuperacion de presentaciones:", error.response?.data || error.message));
+      }, 10 * 60 * 1000);
       // Rescate de pedidos a medias: revisa cada hora (envia solo una vez por cliente)
       setInterval(() => {
             rescatarPedidosAMedias().catch((error) => console.error("Error en rescate de pedidos a medias:", error.response?.data || error.message));
