@@ -19401,8 +19401,8 @@
     "telefono": "573215825543",
     "nombre": "De rodillas Soloantedios",
     "primerContacto": "2026-10-29T08:37:56.910Z",
-    "ultimoContacto": "2026-10-29T14:46:29.343Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-30T00:09:27.976Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19586,6 +19586,27 @@
         "fecha": "2026-10-29T14:46:28.464Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSOTQ1NTY4MEE2RjJFRDkzRDkyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que quedamos a mitad de tu pedido, no quiero que se te quede pendiente.\n\nSolo me falta este dato para dejarlo listo: ¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-29T16:01:21.357Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSOUI3NEFFMDY4M0EwOTM1NkVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\n¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-29T16:51:13.401Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSNTRCMzJFREI5QzI0ODM5RDZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenas noches",
+        "fecha": "2026-10-30T00:09:26.728Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1ODI1NTQzFQIAERgSMERFMzg5RjcxRTVEQkY0RTEzAA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -19598,7 +19619,7 @@
       "celular": "3215825543",
       "departamento": "Antioquia"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
@@ -19609,9 +19630,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
