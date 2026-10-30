@@ -3,8 +3,8 @@
     "telefono": "573234521340",
     "nombre": "Enrique Marchena",
     "primerContacto": "2026-10-30T22:49:37.226Z",
-    "ultimoContacto": "2026-10-30T22:49:37.226Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-30T22:52:59.642Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,52 @@
         "fecha": "2026-10-30T22:49:36.239Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSQjc0MzlBMTJENjdGQzI2MzA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto un módem",
+        "fecha": "2026-10-30T22:52:56.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-10-30T22:52:56.134Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-30T22:52:56.134Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSRkJFMUZBOEQ2Rjc0MzNDOEZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-30T22:52:56.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSMkY2MDhDQjk1NTNGODQ5OEIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-10-30T22:52:57.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSMjlENjY4REZBMzJENkYzRjNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Modem 4G/5G en video 🎥",
+        "fecha": "2026-10-30T22:52:57.751Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSRkE1MkUxMzE3MDU4MkQwOTBDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n🔥 *30% de descuento* en todos los módems. Precios (+ $26.000 de envío):\n• *Modem 4G*: $ 169.900\n• *Modem 4G/5G*: $ 189.900\n• *Modem 5G*: $ 199.900\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n📍 ¿En qué municipio o vereda lo vas a usar? Así te digo cuál te funciona mejor.",
+        "fecha": "2026-10-30T22:52:58.324Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSNzY4NUYxMUM2NjVDRjdBQTREAA=="
       }
     ],
     "paso": "conversando",
@@ -31,13 +77,16 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573214310838",
