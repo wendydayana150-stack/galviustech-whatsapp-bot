@@ -30390,8 +30390,8 @@
     "telefono": "CO.927593016701047",
     "nombre": "José Kalinin Ramirez Sanc",
     "primerContacto": "2026-10-29T02:49:16.880Z",
-    "ultimoContacto": "2026-10-30T00:18:05.011Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-30T13:56:56.280Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30539,14 +30539,27 @@
         "fecha": "2026-10-30T00:18:03.744Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTI3NTkzMDE2NzAxMDQ3FRQAERgSQjgxMkFEOUZCMjkxQUQyRThCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a mirar catalogo",
+        "fecha": "2026-10-30T13:56:54.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-30T13:56:54.781Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTI3NTkzMDE2NzAxMDQ3FRQAERgSMEY0NDEyQURCQzM5NzlBNEY3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "CO.927593016701047"
+      "telefono": "CO.927593016701047",
+      "nombreCliente": "Voy a mirar catalogo"
     },
     "pausado": false,
     "etapaManual": null,
