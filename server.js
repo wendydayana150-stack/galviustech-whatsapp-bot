@@ -1965,11 +1965,18 @@ async function enviarRecordatoriosPendientes() {
                         recordatoriosEnviadosEnProceso.add(clave);
                   } catch (errorEnvio) {
                         console.error(`Error enviando recordatorio ${p.tier} a ${p.telefono}:`, errorEnvio.response?.data || errorEnvio.message);
+                        // Error definitivo de WhatsApp (ej. mas de 24 h sin escribir): se da por hecho para no
+                        // reintentarlo cada pocos minutos. Si fue pasajero (sin respuesta, 5xx, 429), se reintenta.
+                        const estado = errorEnvio.response?.status;
+                        if (estado && estado < 500 && estado !== 429) recordatoriosEnviadosEnProceso.add(clave);
                   }
             }
 
-            if (pendientes.length > 0) {
-                  await marcarRecordatoriosEnviados(pendientes);
+            // 29-oct-2026 (Wendy: "clientes desde las 7am sin seguimiento en todo el dia"): antes se marcaban TODOS
+            // como enviados aunque el envio fallara, y el mensaje no quedaba guardado en el chat del panel.
+            const enviados = pendientes.filter((p) => recordatoriosEnviadosEnProceso.has(`${p.telefono}|${p.tier}`));
+            if (enviados.length > 0) {
+                  await marcarRecordatoriosEnviados(enviados);
             }
       } catch (error) {
             console.error("Error enviando recordatorios:", error.response?.data || error.message);
@@ -2050,6 +2057,13 @@ async function marcarRecordatoriosEnviados(pendientes) {
                   const cliente = datos.find((c) => c.telefono === p.telefono);
                   if (!cliente) continue;
                   if (!cliente.recordatorios) cliente.recordatorios = {};
+                  // El seguimiento queda guardado en el chat (sin tocar ultimoContacto ni reiniciar el tope, que es lo que
+                  // haria guardarCliente): asi se ve en el panel y la IA lo tiene en cuenta si el cliente responde.
+                  const sesionViva = sesiones[p.telefono];
+                  if (sesionViva && Array.isArray(sesionViva.transcripcion) && sesionViva.transcripcion.length >= (cliente.conversacion || []).length) {
+                        cliente.conversacion = sesionViva.transcripcion;
+                        cambios = true;
+                  }
                   if (!cliente.recordatorios[p.tier]) {
                         cliente.recordatorios[p.tier] = true;
                         // Suma al tope compartido de 2 seguimientos automaticos (ver comentario en
