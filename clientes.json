@@ -5761,8 +5761,8 @@
     "telefono": "573145196901",
     "nombre": "edgard",
     "primerContacto": "2026-10-29T13:55:11.152Z",
-    "ultimoContacto": "2026-10-29T16:54:13.222Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-30T00:04:03.104Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5924,6 +5924,13 @@
         "fecha": "2026-10-29T16:54:12.100Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSRDc4NEE1QzcxRTI4N0QyQTBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "el ecovoc no es cierta la publicidad de que es GRATIS el internet y no funciona",
+        "fecha": "2026-10-30T00:04:01.610Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1MTk2OTAxFQIAERgSMjJGQzlGN0ZEMTlGRDVCREE1AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -5934,7 +5941,7 @@
       "telefono": "573145196901",
       "nombreCliente": "MUI alto"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
