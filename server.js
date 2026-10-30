@@ -3118,6 +3118,15 @@ async function finalizarPedidoSesion(telefono) {
                   }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
+                  // PAPEL COMO ULTIMA OPCION (29-oct-2026, Wendy: "ya cuando el cliente envie los datos, confirmar los datos y
+                  // ofrecer las hojas y rollos como ultima opcion")
+                  const idImpresora = pedidoAGuardar.productoId || "";
+                  const lineaPapel = ID_IMPRESORAS_CARTA.includes(idImpresora) ? LINEA_PAPEL_CARTA : ID_IMPRESORAS_ROLLO.includes(idImpresora) ? LINEA_PAPEL_ROLLOS : null;
+                  if (lineaPapel) {
+                        const ofertaPapel = "Y por último 😊 ¿quieres agregar papel a tu pedido? Te llega en el *mismo envío*:\n\n" + lineaPapel + "\n\nSi quieres alguno, dime cuál y te lo agrego 📦";
+                        await enviarTexto(telefono, ofertaPapel);
+                        if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: ofertaPapel });
+                  }
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
@@ -4100,7 +4109,12 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
                   (sabeUso ? "¿Cuál te llevas? 😊 Te la dejo lista hoy." : "¿Qué vas a imprimir, para decirte cuál te sirve más?");
       } else if (OBJECION_PAPEL.test(texto) && !(/impresora/i.test(texto) && PREGUNTA_PRECIO.test(texto)) && !/rollos? (de )?7|clabel|pt-?210|p5|mini/i.test(texto) && (sesion.ultimoProducto === "impresora-termica" || !esImpresoraSuelta(sesion.ultimoProducto))) {
             // Wendy (26-oct-2026): siempre se ofrece el papel adicional en el mismo mensaje, con pregunta para agregarlo
-            respuesta = TEXTO_PAPEL_NETUM + "\n\n" + "¿Cuál te agrego a tu pedido? 🚚 La NETUM va con envío GRATIS y pagas al recibir";
+            // 29-oct-2026 (Wendy): los precios del papel se dan cuando el cliente ya decidio comprar (al confirmar los datos)
+            respuesta =
+                  "📄 La NETUM *no usa tinta ni papel normal* (de resma): imprime en *papel térmico tamaño carta*.\n\n" +
+                  "✅ *Trae un rollo de papel incluido* para que empieces a imprimir.\n" +
+                  "🛒 Después el papel lo consigues *con nosotros mismos* o en papelerías.\n\n" +
+                  "¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*";
       }
 
       if (!respuesta) return false;
@@ -4434,7 +4448,9 @@ async function manejarTextoLibre(telefono, texto) {
                   }
                   // PAPEL SIEMPRE (oct-2026, Wendy): si ofrece una impresora con precio y no menciono el papel, se agrega
                   // antes de la pregunta final.
-                  if (/\$\s?\d/.test(visible) && !/(rollo|hojas|papel)/i.test(visible)) {
+                  // 29-oct-2026 (Wendy): el papel ya NO se ofrece con el precio; se ofrece al final, cuando el cliente ya dio
+                  // sus datos y se le confirma el pedido (ver finalizarPedidoSesion). Se deja desactivado.
+                  if (false && /\$\s?\d/.test(visible) && !/(rollo|hojas|papel)/i.test(visible)) {
                         const ofrecidos = productosOfrecidos(visible).map((p) => p.id);
                         const lineas = [];
                         if (ofrecidos.some((id) => ID_IMPRESORAS_CARTA.includes(id))) lineas.push(LINEA_PAPEL_CARTA);
