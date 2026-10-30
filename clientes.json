@@ -27092,8 +27092,8 @@
     "telefono": "CO.1122438507375643",
     "nombre": "Sirley Diosa",
     "primerContacto": "2026-10-29T06:46:17.440Z",
-    "ultimoContacto": "2026-10-30T18:03:22.223Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-30T18:03:26.195Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -27213,6 +27213,18 @@
         "fecha": "2026-10-30T18:03:19.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMjQzODUwNzM3NTY0MxUUABEYEjhERUY2MkQzMkREMkE1N0RFOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mil gracias por su atención",
+        "fecha": "2026-10-30T18:03:23.768Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto, para lo que necesites estoy aquí 😊 Que tengas un excelente día. Cuando quieras seguimos conversando, no dudes en escribirme.\n\n¿Quieres que te deje la info de contacto para que me escribas directo cuando quieras?",
+        "fecha": "2026-10-30T18:03:25.069Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMjQzODUwNzM3NTY0MxUUABEYEkU5M0YzMUI5RkU0RjRBNzI0QwA="
       }
     ],
     "paso": "conversando",
@@ -27223,7 +27235,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
