@@ -24421,8 +24421,8 @@
     "telefono": "CO.1096886676581020",
     "nombre": "Jackeline Scott",
     "primerContacto": "2026-10-29T06:18:10.069Z",
-    "ultimoContacto": "2026-10-29T15:28:22.892Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:38:47.971Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24462,13 +24462,20 @@
         "fecha": "2026-10-29T15:28:21.724Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA5Njg4NjY3NjU4MTAyMBUUABEYEjJERkM2MDEwQ0E2NkFBNDNGRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jackeline Scott, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:38:46.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA5Njg4NjY3NjU4MTAyMBUUABEYEkVEMzc2MTE3M0M4M0RCRTdFMAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -24477,9 +24484,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
