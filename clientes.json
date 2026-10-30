@@ -26923,8 +26923,8 @@
     "telefono": "CO.1421057559689396",
     "nombre": "BRIAN",
     "primerContacto": "2026-10-29T05:15:17.863Z",
-    "ultimoContacto": "2026-10-29T15:31:25.736Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:42:50.987Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -26971,6 +26971,13 @@
         "fecha": "2026-10-29T15:31:24.807Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyMTA1NzU1OTY4OTM5NhUUABEYEjE3MEE5RTk4MTQyQzdDNTA3MQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola BRIAN, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:42:49.974Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyMTA1NzU1OTY4OTM5NhUUABEYEkQ1QzlBMTRBRUMyRDA5Mjk0NQA="
       }
     ],
     "paso": "conversando",
@@ -26986,9 +26993,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
