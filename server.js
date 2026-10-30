@@ -1947,9 +1947,9 @@ async function enviarRecordatoriosPendientes() {
                         } else if (p.tier === "horas1") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
                         } else if (p.tier === "horas3") {
-                              await enviarTexto(p.telefono, config.mensajeRecordatorio3Horas(nombreProducto, precioTexto));
-                              // Ultimo seguimiento (tope de 2): ademas el listado de todo lo que vendemos (Wendy, oct-2026)
-                              await enviarListadoProductos(p.telefono, "Y si buscas algo más, esto es todo lo que tenemos en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
+                              // Ultimo seguimiento (tope de 2): catalogo + reactivacion con la promocion y las otras opciones (Wendy, oct-2026)
+                              await enviarTexto(p.telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+                              await enviarTexto(p.telefono, mensajeReactivacionOpciones(obtenerSesion(p.telefono)));
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
