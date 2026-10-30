@@ -9355,8 +9355,8 @@
     "telefono": "573125647651",
     "nombre": "Hernan Urueña",
     "primerContacto": "2026-10-29T12:51:00.971Z",
-    "ultimoContacto": "2026-10-29T15:16:30.107Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:16:53.319Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9445,6 +9445,13 @@
         "fecha": "2026-10-30T00:18:55.535Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1NjQ3NjUxFQIAERgSOTNCODJEMjFCRjE3QkQ4MUFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Hernan Urueña, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:16:51.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NjQ3NjUxFQIAERgSOEFFODRENzE2NzMwQzc3NkZBAA=="
       }
     ],
     "paso": "conversando",
@@ -9460,9 +9467,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
