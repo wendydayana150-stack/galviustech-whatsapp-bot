@@ -1140,8 +1140,8 @@
     "telefono": "573238503618",
     "nombre": "Fredy Gomez",
     "primerContacto": "2026-10-29T22:06:48.937Z",
-    "ultimoContacto": "2026-10-30T01:52:44.386Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T21:58:10.943Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1295,6 +1295,18 @@
         "fecha": "2026-10-30T13:05:30.290Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NTAzNjE4FQIAERgSNUM3QUJCRDE3QjBGREVENjVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Todavía no por hay para la otra semana yo estoy en una finca i no hay plata todavía",
+        "fecha": "2026-10-30T21:58:09.750Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Mira, también tenemos estas opciones más económicas:\n\n• *Modem 4G*: *$ 169.900*. Internet WiFi donde no llega la fibra: finca o vereda\n• *Modem 5G*: *$ 199.900*. Velocidad 5G convertida en WiFi\n\n🚚 Pagas al recibir + $26.000 de envío.\n\n¿Cuál te gusta más? Te lo dejo listo hoy 🙌",
+        "fecha": "2026-10-30T21:58:09.757Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NTAzNjE4FQIAERgSOUUwNTZDOUYwRkYxRDM4NjUwAA=="
       }
     ],
     "paso": "conversando",
@@ -1307,12 +1319,15 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-06",
+      "texto": "Todavía no por hay para la otra semana yo estoy en una finca i no hay plata todavía",
+      "desde": "2026-10-30T21:58:09.751Z",
+      "avisado": false
+    },
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
