@@ -496,7 +496,7 @@ const CATEGORIA_INFO = {
       lampara: {
             titulo: "Lamparas Solares",
             emoji: "💡",
-            palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar"],
+            palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar", "reflector"],
             resumen: null,
             pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
       },
@@ -3936,7 +3936,7 @@ async function enviarVersionesModem(telefono) {
 const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
-      "💡 *Lámparas solares*\n" +
+      "💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n" +
       "📹 *Cámaras de seguridad*\n" +
       "⌚ *Relojes inteligentes*\n" +
       "🕰️ *Relojes*\n" +
