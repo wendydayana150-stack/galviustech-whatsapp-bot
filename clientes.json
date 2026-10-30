@@ -12877,8 +12877,8 @@
     "telefono": "CO.1506644858188739",
     "nombre": "Jenny Arcos",
     "primerContacto": "2026-10-29T12:24:03.117Z",
-    "ultimoContacto": "2026-10-29T15:18:23.923Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:21:14.338Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12967,6 +12967,13 @@
         "fecha": "2026-10-30T00:19:31.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUwNjY0NDg1ODE4ODczORUUABEYEkJDQUFENUIzODAzRTFFMzYzQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jenny Arcos, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:21:13.142Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNjY0NDg1ODE4ODczORUUABEYEkJDRUM4RjE0MkFGREE1NDU2OAA="
       }
     ],
     "paso": "conversando",
@@ -12982,9 +12989,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
