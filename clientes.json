@@ -1437,8 +1437,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-10-29T20:11:31.053Z",
-    "ultimoContacto": "2026-10-30T15:46:34.835Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-30T18:43:39.248Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1685,10 +1685,28 @@
         "fecha": "2026-10-30T17:53:16.442Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQTdCM0M5MTczODNGQkM5Njg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-30T18:43:37.863Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-30T18:43:38.124Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQ0Q2NjQ1NEZDN0NGQzc2MzVCAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573174885199",
+      "departamento": "Atlantico"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -1700,9 +1718,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
