@@ -11401,8 +11401,8 @@
     "telefono": "CO.28978811315104298",
     "nombre": "Albertomejia",
     "primerContacto": "2026-10-29T12:35:45.460Z",
-    "ultimoContacto": "2026-10-30T15:18:43.082Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T16:39:10.744Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11491,6 +11491,18 @@
         "fecha": "2026-10-30T16:23:39.164Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjg5Nzg4MTEzMTUxMDQyOTgVFAARGBJDOEZBOTRDQjZFNzE3M0MwMEUA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me ha explicado su funcionamiento , cual es la cobertura , además , vivo en un lugar donde no llega la señal de ningún operador , tendría que ser satelital",
+        "fecha": "2026-10-30T16:39:07.381Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, vivir donde no hay señal de ningún operador es un reto. El módem necesita una SIM de un operador móvil (Claro, Movistar, Tigo, WOM) para funcionar.\n\nPero te cuento que la antena del módem es mucho más potente que la de un celular normal y suele captar señal donde el celular no. ¿Confirmas que en tu lugar no hay señal siquiera intermitente con ningún operador?\n\nSi es así, el módem no puede conectarse porque no es satelital. ¿Quieres que te ayude a mirar otras opciones que tengas para internet satelital? ¿O prefieres que te recomiende algo diferente?",
+        "fecha": "2026-10-30T16:39:09.744Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjg5Nzg4MTEzMTUxMDQyOTgVFAARGBIyQzNCRjhEQTZBMzVBREJCQjIA"
       }
     ],
     "paso": "conversando",
@@ -11506,8 +11518,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
