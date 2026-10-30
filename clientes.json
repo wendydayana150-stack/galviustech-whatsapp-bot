@@ -3,8 +3,8 @@
     "telefono": "CO.2250821498824907",
     "nombre": "Janier",
     "primerContacto": "2026-10-30T18:01:03.788Z",
-    "ultimoContacto": "2026-10-30T18:01:03.788Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-30T18:03:34.944Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-30T18:01:02.750Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjI1MDgyMTQ5ODgyNDkwNxUUABEYEjhENDM3QTQ0MDg3MzgwQTc2NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-30T18:03:32.537Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! ¿Quieres que te ayude a encontrar algo específico para que puedas aprovechar esta promo? 😊\n\n¿Para qué lo necesitas o qué te gustaría tener? Así te recomiendo lo mejor según eso. ¿Qué dices?",
+        "fecha": "2026-10-30T18:03:33.788Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjI1MDgyMTQ5ODgyNDkwNxUUABEYEkZFOTZBRkQxN0M2QTAzRTgwNAA="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218313361",
