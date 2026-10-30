@@ -24794,8 +24794,8 @@
     "telefono": "573245053110",
     "nombre": "miguel",
     "primerContacto": "2026-10-29T06:02:59.547Z",
-    "ultimoContacto": "2026-10-29T15:28:56.769Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:39:42.584Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24861,6 +24861,13 @@
         "fecha": "2026-10-29T15:28:53.605Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1MDUzMTEwFQIAERgSODg3MzE4NjFFNzJDMTBFQTBEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola miguel, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:39:40.651Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1MDUzMTEwFQIAERgSNzg5REJEMjdBOTg5RDVBOUIwAA=="
       }
     ],
     "paso": "conversando",
@@ -24876,9 +24883,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
