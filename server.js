@@ -547,9 +547,9 @@ function lineaPrecioNetum(netum) {
       return `💰 Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}* con *30% de descuento* 🔥`;
 }
 const TEXTO_PAPEL_NETUM_CORTO =
-      "📄 *Papel:* usa *papel térmico tamaño carta* (no usa tinta ni papel normal). *Trae un rollo de papel* para empezar y después te lo vendemos nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
+      "📄 *Papel:* usa *papel térmico tamaño carta*, *sin tinta*. *Trae un rollo de papel* para empezar y después te lo vendemos nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
 const TEXTO_PAPEL_NETUM =
-      "📄 La NETUM *no usa tinta ni papel normal* (de resma): imprime en *papel térmico tamaño carta*.\n\n" +
+      "📄 La NETUM imprime en *papel térmico tamaño carta*, *sin tinta*.\n\n" +
       "✅ Con la impresora va *un rollo de papel incluido*.\n" +
       "🛒 El papel lo consigues *con nosotros mismos* y, si no, en papelerías. Si quieres, te lo agrego de una vez y llega en el mismo envío:\n" +
       "• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000";
@@ -4111,7 +4111,7 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
             // Wendy (26-oct-2026): siempre se ofrece el papel adicional en el mismo mensaje, con pregunta para agregarlo
             // 29-oct-2026 (Wendy): los precios del papel se dan cuando el cliente ya decidio comprar (al confirmar los datos)
             respuesta =
-                  "📄 La NETUM *no usa tinta ni papel normal* (de resma): imprime en *papel térmico tamaño carta*.\n\n" +
+                  "📄 La NETUM imprime en *papel térmico tamaño carta*, *sin tinta*.\n\n" +
                   "✅ *Trae un rollo de papel incluido* para que empieces a imprimir.\n" +
                   "🛒 Después el papel lo consigues *con nosotros mismos* o en papelerías.\n\n" +
                   "¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*";
