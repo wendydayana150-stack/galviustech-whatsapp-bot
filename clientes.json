@@ -319,8 +319,8 @@
     "telefono": "573238503618",
     "nombre": "Fredy Gomez",
     "primerContacto": "2026-10-29T22:06:48.937Z",
-    "ultimoContacto": "2026-10-29T22:41:49.215Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T01:52:44.386Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -406,6 +406,18 @@
         "fecha": "2026-10-30T00:48:42.372Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NTAzNjE4FQIAERgSQjU5RTYxMTQ0QjMwRjdDRjE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-10-30T01:52:42.650Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-10-30T01:52:42.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NTAzNjE4FQIAERgSOEY0RTM0QkI5RENCNTBBOUZBAA=="
       }
     ],
     "paso": "conversando",
@@ -421,9 +433,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
