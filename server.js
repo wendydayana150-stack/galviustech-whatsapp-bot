@@ -2968,7 +2968,7 @@ const CLIENTE_POSPONE = /(otro d[ií]a|otro momento|m[aá]s adelante|(luego|desp
 const MENSAJE_APROVECHA_DESCUENTO =
       "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
 
-const NO_ES_NOMBRE = /\b(es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
+const NO_ES_NOMBRE = /\b(eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
 
 // Quita las preguntas con las que la IA cierra su respuesta (ej. "¿Para qué necesitas el internet?") cuando
 // estamos en la toma de datos del pedido: despues de responder la duda se retoma el dato que falta, y una
@@ -3352,6 +3352,27 @@ async function manejarFlujoPedido(telefono, texto) {
             }
             const productoIdEnfoque = sesion.pedido?.productoId || sesion.ultimoProducto || null;
             const enfoqueProducto = productoIdEnfoque ? { tipo: "producto", valor: productoIdEnfoque } : null;
+            // 29-oct-2026 (Wendy, caso Dailson): el cliente seguia preguntando y Michell repetia "Ahora si, ¿cual es tu
+            // nombre completo?" despues de cada respuesta. A la segunda pregunta seguida se sale del pedido (los datos
+            // que ya dio se guardan) y se le responde normal, cerrando con "¿Te lo envio?" en vez del dato.
+            sesion.desviosPedido = (sesion.desviosPedido || 0) + 1;
+            if (sesion.desviosPedido >= 2) {
+                  sesion.desviosPedido = 0;
+                  sesion.paso = "conversando";
+                  try {
+                        const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
+                        if (mensajeVisible) await enviarTexto(telefono, mensajeVisible);
+                  } catch (error) {
+                        console.error("Error respondiendo pregunta al salir del flujo de pedido:", error.response?.data || error.message);
+                  }
+                  if (productoIdEnfoque && catalogo.some((p) => p.id === productoIdEnfoque)) {
+                        await enviarBotones(telefono, "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir", [
+                              { id: `pedir_${productoIdEnfoque}`, titulo: "✅ Sí, envíamelo" },
+                              { id: "ver_catalogo", titulo: "Ver otros" },
+                        ]);
+                  }
+                  return true;
+            }
             try {
                   const { mensajeVisible } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
                   const respuesta = quitarPreguntasFinales(mensajeVisible);
@@ -3364,6 +3385,8 @@ async function manejarFlujoPedido(telefono, texto) {
             await enviarTexto(telefono, preguntaParaRetomar(definicionActual));
             return true;
       }
+
+      sesion.desviosPedido = 0; // respondio con un dato: se reinicia el conteo de preguntas seguidas
 
       // Intenta rescatar datos que el cliente haya mandado todos juntos en un solo mensaje
       // (celular, departamento, medio de pago), sin importar en que paso del flujo estemos. Solo
