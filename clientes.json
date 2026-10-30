@@ -14504,8 +14504,8 @@
     "telefono": "573216600978",
     "nombre": "dario",
     "primerContacto": "2026-10-29T12:17:52.578Z",
-    "ultimoContacto": "2026-10-29T15:19:17.546Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:23:21.778Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14619,6 +14619,13 @@
         "fecha": "2026-10-30T00:19:45.661Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSODAyREUwRjJEMjdGMkI3MDQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola dario, sobre Modem 4G",
+        "fecha": "2026-10-30T15:23:14.415Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2NjAwOTc4FQIAERgSNzQ1NkQxNUUwMjRDQUJERTU5AA=="
       }
     ],
     "paso": "conversando",
@@ -14634,9 +14641,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
