@@ -13756,8 +13756,8 @@
     "telefono": "573106612250",
     "nombre": "Carmen Elena Moreno",
     "primerContacto": "2026-10-29T12:19:36.111Z",
-    "ultimoContacto": "2026-10-29T15:19:04.484Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:22:21.870Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13797,13 +13797,20 @@
         "fecha": "2026-10-29T15:19:03.571Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2NjEyMjUwFQIAERgSNTM4ODEwRkRBM0Y2Q0I2QzQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Carmen Elena Moreno, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:22:20.613Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2NjEyMjUwFQIAERgSRjJEMzE3RTlCNzg1OEIzMjcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -13812,9 +13819,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
