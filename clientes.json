@@ -3,8 +3,8 @@
     "telefono": "573234521340",
     "nombre": "Enrique Marchena",
     "primerContacto": "2026-10-30T22:49:37.226Z",
-    "ultimoContacto": "2026-10-30T22:52:59.642Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T22:55:21.853Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,13 +70,52 @@
         "fecha": "2026-10-30T22:52:58.324Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSNzY4NUYxMUM2NjVDRjdBQTREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es caro",
+        "fecha": "2026-10-30T22:55:16.432Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-30T22:55:19.353Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSRDA5NTJERDZGNjM0NDcyQkZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-30T22:55:19.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSNzZBNkVDQTM5ODdGQUJFMzczAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-30T22:55:20.365Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSN0QyQkVDMzI3NjY2QTg2MzFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-10-30T22:55:20.863Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que el precio puede parecer alto, pero piensa que es una inversión para tener internet propio sin depender de fibra ni instalaciones, ideal para tu finca, vereda o para viajar. Con una sola recarga conectas toda la familia y evitas comprar varios paquetes por celular.\n\nLa opción más económica es el *Modem WiFi Portatil 4G* por **$169.900 + $26.000 de envío** con garantía y pago al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o zona lo necesitas? Así te confirmo que te funciona perfecto.",
+        "fecha": "2026-10-30T22:55:20.867Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NTIxMzQwFQIAERgSQjY3QkU4Mzg1OUY4MzFDQkIwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
