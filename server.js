@@ -3126,6 +3126,7 @@ async function finalizarPedidoSesion(telefono) {
                         const ofertaPapel = "Y por último 😊 ¿quieres agregar papel a tu pedido? Te llega en el *mismo envío*:\n\n" + lineaPapel + "\n\nSi quieres alguno, dime cuál y te lo agrego 📦";
                         await enviarTexto(telefono, ofertaPapel);
                         if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: ofertaPapel });
+                        sesion.ofertaPapel = { tipo: lineaPapel === LINEA_PAPEL_CARTA ? "carta" : "rollo", fecha: new Date().toISOString() };
                   }
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
@@ -3954,6 +3955,47 @@ function preguntaOtrosProductos(texto) {
 
 // Deja en el historial de la IA el pedido que se acaba de registrar y marca que se espera la respuesta al
 // mensaje de compromiso ("¿CONFIRMA QUE ESTA SEGURO(A) DE RECIBIR SU PEDIDO?").
+// Papel que se ofrece al confirmar el pedido de una impresora (29-oct-2026, Wendy: "si el cliente acepta el papel, es
+// solamente agregarlo al pedido y confirmar venta al cliente").
+const OPCIONES_PAPEL = {
+      carta: [
+            { patron: /\b200\b|doscientas|75[.,]?000|75 ?mil/i, nombre: "200 hojas térmicas tamaño carta", precio: 75000 },
+            { patron: /\b52\b|cincuenta y dos|35[.,]?000|35 ?mil/i, nombre: "52 hojas térmicas tamaño carta", precio: 35000 },
+            { patron: /rollo|10[.,]?000|10 ?mil/i, nombre: "Rollo térmico tamaño carta (9 m)", precio: 10000 },
+      ],
+      rollo: [
+            { patron: /\b10\b|diez|30[.,]?000|30 ?mil/i, nombre: "10 rollos térmicos (7 m)", precio: 30000 },
+            { patron: /\b5\b|cinco|17[.,]?000|17 ?mil/i, nombre: "5 rollos térmicos (7 m)", precio: 17000 },
+            { patron: /\b1\b|\bun rollo\b|\buno\b|4[.,]?000|4 ?mil/i, nombre: "1 rollo térmico (7 m)", precio: 4000 },
+      ],
+};
+
+async function agregarPapelAlPedido(telefono, opcion) {
+      let pedidoActualizado = null;
+      await conColaDeArchivo(PEDIDOS_API, async () => {
+            let intentosRestantes = 4;
+            while (true) {
+                  try {
+                        const { datos, sha } = await leerJSON(PEDIDOS_API);
+                        const pedido = datos.find((p) => p.telefono === telefono && Date.now() - new Date(p.fecha).getTime() < 24 * 3600 * 1000);
+                        if (!pedido) return;
+                        pedido.extras = [...(pedido.extras || []), { nombre: opcion.nombre, precio: opcion.precio }];
+                        pedido.nombreProducto = `${pedido.nombreProducto} + ${opcion.nombre}`;
+                        pedido.precio = (Number(pedido.precio) || 0) + opcion.precio;
+                        await guardarJSON(PEDIDOS_API, datos, sha, "Papel agregado al pedido");
+                        pedidoActualizado = pedido;
+                        return;
+                  } catch (error) {
+                        const esConflicto = error.response?.status === 409 || error.response?.status === 422;
+                        if (esConflicto && intentosRestantes-- > 0) continue;
+                        console.error("Error agregando papel al pedido:", error.response?.data || error.message);
+                        return;
+                  }
+            }
+      });
+      return pedidoActualizado;
+}
+
 function recordarPedidoRegistrado(sesion, pedido) {
       const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
       sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "", ciudad: pedido.ciudad || "", departamento: pedido.departamento || "" };
@@ -4196,6 +4238,25 @@ async function manejarTextoLibre(telefono, texto) {
       if (espera) sesion.esperaCompra = { ...espera, desde: new Date().toISOString(), avisado: false };
 
       // Respuesta al mensaje de compromiso de un pedido recien registrado
+      // ACEPTA EL PAPEL (29-oct-2026): se suma al pedido ya registrado y se le confirma la venta, sin pasar por Wendy.
+      if (sesion.ofertaPapel && Date.now() - new Date(sesion.ofertaPapel.fecha).getTime() < 24 * 3600 * 1000 && /(rollo|hoja|papel|\d|\buno\b|cinco|diez|doscientas|\bmil\b)/i.test(texto) && !/^\s*no\b/i.test(texto)) {
+            const opcion = (OPCIONES_PAPEL[sesion.ofertaPapel.tipo] || []).find((o) => o.patron.test(texto));
+            if (opcion) {
+                  const pedido = await agregarPapelAlPedido(telefono, opcion);
+                  if (pedido) {
+                        sesion.ofertaPapel = null;
+                        const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
+                        if (sesion.ultimoPedidoRegistrado) sesion.ultimoPedidoRegistrado = { ...sesion.ultimoPedidoRegistrado, nombreProducto: pedido.nombreProducto, total };
+                        const confirmacion = `¡Listo! ✅ Te agregué *${opcion.nombre}* (${formatearPrecio(opcion.precio)}) a tu pedido y te llega en el *mismo envío* 📦\n\n🧾 Tu pedido: *${pedido.nombreProducto}*\n💰 Total: *${formatearPrecio(total)}* con envío, pagas al recibir.\n\n¡Gracias por tu compra! 🙌`;
+                        await enviarTexto(telefono, confirmacion);
+                        if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: confirmacion });
+                        return;
+                  }
+                  sesion.necesitaAtencion = true;
+                  sesion.motivoAtencion = `El cliente acepto agregar papel (${opcion.nombre}, ${formatearPrecio(opcion.precio)}) pero no se pudo sumar automaticamente al pedido. Agregarlo a mano.`;
+            }
+      }
+
       if (sesion.esperandoConfirmacionCompromiso && sesion.ultimoPedidoRegistrado) {
             const ped = sesion.ultimoPedidoRegistrado;
             if (NIEGA_COMPROMISO.test(texto)) {
