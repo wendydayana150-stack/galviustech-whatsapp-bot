@@ -26473,8 +26473,8 @@
     "telefono": "573103965488",
     "nombre": "Carlos Paez",
     "primerContacto": "2026-10-29T05:22:23.898Z",
-    "ultimoContacto": "2026-10-29T15:30:49.320Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:41:57.579Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -26521,6 +26521,13 @@
         "fecha": "2026-10-29T15:30:45.962Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzOTY1NDg4FQIAERgSRURGRDc0RTA3ODhERTY2RTIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Carlos Paez, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:41:56.402Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzOTY1NDg4FQIAERgSNkI0OTZDNzM4ODFGQjEzNTg1AA=="
       }
     ],
     "paso": "conversando",
@@ -26536,9 +26543,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
