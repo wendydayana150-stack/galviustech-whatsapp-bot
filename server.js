@@ -634,7 +634,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
             // Oct-2026 (159 chats de impresora, 92 se fueron despues del primer mensaje sin contestar): una foto y el
             // video de la calidad de impresion, y un texto corto con el precio arriba (antes iba todo el detalle del papel).
-            for (const url of (netum.imagenes || []).slice(0, 1)) {
+            for (const url of (netum.imagenes || []).slice(0, 2)) {
                   try {
                         await enviarImagen(telefono, url, "Impresora Térmica Portátil NETUM");
                   } catch (e) {
@@ -4428,6 +4428,16 @@ async function manejarTextoLibre(telefono, texto) {
 
                   // VIDEO DE LA NETUM (oct-2026, Wendy): si pregunta como se usa o pide video, se manda una vez.
                   const hablaDeNetum = (productoActual || idProductoEnfocado || sesion.ultimoProducto) === "impresora-termica" || sesion.ultimaCategoria === "impresora";
+                  // 29-oct-2026 (Wendy: "siempre que el cliente llegue preguntando por la impresora, enviar las imagenes y
+                  // video"): si pregunta por la impresora y todavia no ha visto el video de la calidad, se le manda.
+                  if (hablaDeNetum && !sesion.videoNetumCalidadEnviado && /(impres|netum|imprim)/i.test(texto)) {
+                        try {
+                              await enviarVideo(telefono, VIDEO_NETUM_CALIDAD, "Mira la calidad de impresión de la NETUM 🖨️");
+                              sesion.videoNetumCalidadEnviado = true;
+                        } catch (e) {
+                              console.error("No se pudo enviar el video de calidad de la NETUM:", e.message);
+                        }
+                  }
                   if (hablaDeNetum && !sesion.videoNetumCajaEnviado && /(papel|hoja|resma|rollo|qu[eé] (trae|incluye|viene)|viene con)/i.test(texto)) {
                         try {
                               await enviarVideo(telefono, VIDEO_NETUM_CAJA, "Así llega la NETUM, con su rollo de papel incluido 📦");
