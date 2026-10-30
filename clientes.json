@@ -3,8 +3,8 @@
     "telefono": "573214310838",
     "nombre": "Julian",
     "primerContacto": "2026-10-30T19:11:49.948Z",
-    "ultimoContacto": "2026-10-30T19:15:55.136Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T19:16:55.776Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -62,9 +62,28 @@
         "fecha": "2026-10-30T19:15:54.200Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSQTBGNjFCMEIxNDAxMjBCMjY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Julian vargas , se puede pago contra entrega",
+        "fecha": "2026-10-30T19:16:51.376Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Exacto, Julian! ✅ Pagas al recibir (contraentrega) y tiene garantía de 30 días. La inversión por el Módem WiFi Portátil 4G es de **$169.900 + $26.000 de envío**. \n\nEste módem te da conexión estable en zonas rurales o donde no llega fibra, ideal para estudiar, trabajar o viajar, y puedes conectar varios dispositivos a la vez.\n\n¿Me ayudas contando en qué lugar o vereda lo vas a usar para dejar tu pedido listo?",
+        "fecha": "2026-10-30T19:16:53.454Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSMzk1MTJCMzExRDE4NTUwQUYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-30T19:16:54.678Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSQTcxMjg1NzhERkI0RTgwN0I3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
