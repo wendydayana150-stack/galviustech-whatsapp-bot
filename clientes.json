@@ -7775,8 +7775,8 @@
     "telefono": "573114183635",
     "nombre": "Dios. Es. Amor",
     "primerContacto": "2026-10-29T13:16:33.323Z",
-    "ultimoContacto": "2026-10-29T15:15:22.543Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:15:01.298Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7862,13 +7862,20 @@
         "fecha": "2026-10-29T15:15:21.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MTgzNjM1FQIAERgSMUNBNzc0NDkzMkFGREY4OTlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Dios. Es. Amor, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:14:59.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTgzNjM1FQIAERgSNTJFNkY1RTBFQzkwRkE2M0M4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -7877,9 +7884,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "datosLibre2h": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
