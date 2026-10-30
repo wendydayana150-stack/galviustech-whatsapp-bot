@@ -12538,8 +12538,8 @@
     "telefono": "573243124537",
     "nombre": "Juan Galvis",
     "primerContacto": "2026-10-29T12:25:41.584Z",
-    "ultimoContacto": "2026-10-29T15:08:59.339Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:21:00.949Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12658,13 +12658,20 @@
         "fecha": "2026-10-29T15:08:53.248Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzMTI0NTM3FQIAERgSNDhGMjFEMkNGNTE1RDdCMjE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Juan Galvis, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:20:59.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzMTI0NTM3FQIAERgSNEMzMTVFRTg2RkQ5RDBFRTIzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -12673,9 +12680,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas3": true,
-      "horas1": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
