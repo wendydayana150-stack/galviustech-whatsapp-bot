@@ -8585,8 +8585,8 @@
     "telefono": "573150622475",
     "nombre": "harold",
     "primerContacto": "2026-10-29T13:02:49.696Z",
-    "ultimoContacto": "2026-10-30T15:15:57.231Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:22:25.291Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8682,6 +8682,18 @@
         "fecha": "2026-10-30T15:15:55.970Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwNjIyNDc1FQIAERgSNTU0RjRFREJDNTBGQkVFRUQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Más rato le escribo",
+        "fecha": "2026-10-30T15:22:22.487Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, Harold, quedo atenta cuando me escribas para ayudarte con la Impresora NETUM. Recuerda que la promoción con envío gratis y 30% de descuento dura poco tiempo, para que aproveches al máximo. ¿Quieres que te guarde una unidad mientras? 😊",
+        "fecha": "2026-10-30T15:22:24.333Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwNjIyNDc1FQIAERgSNTY4N0JBMDI0QzQ5RDQwRkFCAA=="
       }
     ],
     "paso": "conversando",
@@ -8692,7 +8704,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
