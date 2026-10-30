@@ -23733,8 +23733,8 @@
     "telefono": "573004058423",
     "nombre": "Luis Torres",
     "primerContacto": "2026-10-29T07:26:22.947Z",
-    "ultimoContacto": "2026-10-29T15:27:21.235Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:37:40.891Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23832,13 +23832,20 @@
         "fecha": "2026-10-29T15:27:19.589Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0MDU4NDIzFQIAERgSNjFEQ0I5MkZBNjIzMDMyMTRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luis Torres, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:37:39.677Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0MDU4NDIzFQIAERgSNkFBRTAwNjk2OUZDRDU3MEI1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -23847,9 +23854,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
