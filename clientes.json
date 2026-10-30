@@ -28646,8 +28646,8 @@
     "telefono": "573137627235",
     "nombre": "Santiago",
     "primerContacto": "2026-10-29T04:42:07.791Z",
-    "ultimoContacto": "2026-10-29T15:33:38.819Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:45:46.782Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -28694,6 +28694,13 @@
         "fecha": "2026-10-29T15:33:37.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NjI3MjM1FQIAERgSOTdDQ0IwRTlDMjZDNjJGRDNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Santiago, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:45:43.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NjI3MjM1FQIAERgSNEVDRDAzOTc2NUUxMTM4QTQyAA=="
       }
     ],
     "paso": "conversando",
@@ -28709,9 +28716,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
