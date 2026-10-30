@@ -20825,8 +20825,8 @@
     "telefono": "573152440991",
     "nombre": "Yenis",
     "primerContacto": "2026-10-29T10:27:26.606Z",
-    "ultimoContacto": "2026-10-29T15:24:35.650Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:33:07.133Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20904,6 +20904,13 @@
         "fecha": "2026-10-29T15:24:34.757Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyNDQwOTkxFQIAERgSN0I3M0E3NTUwRUMxNENERDU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Yenis, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:33:05.973Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyNDQwOTkxFQIAERgSMUU2MzU4NTdGRDI0QjE3OEM0AA=="
       }
     ],
     "paso": "conversando",
@@ -20919,9 +20926,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
