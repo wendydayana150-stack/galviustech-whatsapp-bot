@@ -34532,8 +34532,8 @@
     "telefono": "573156054603",
     "nombre": "Cielo",
     "primerContacto": "2026-10-29T03:39:35.271Z",
-    "ultimoContacto": "2026-10-30T15:48:01.579Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T18:02:46.442Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -34615,6 +34615,18 @@
         "fecha": "2026-10-30T17:53:58.626Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2MDU0NjAzFQIAERgSRjBFQjZBOTU4OTVFMzlBOTZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias muy amable si algo me comunico",
+        "fecha": "2026-10-30T18:02:43.307Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! 😊 Aquí estaré cuando necesites, no dudes en escribirme si decides imprimir sin complicaciones.\n\nRecuerda que contigo siempre tienes la mejor opción para imprimir en tamaño carta sin tinta, fácil y portátil.\n\n¿Quieres que te deje el dato de envío para que tengas la impresora NETUM lista cuando decidas?",
+        "fecha": "2026-10-30T18:02:45.121Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MDU0NjAzFQIAERgSM0YxNTdCQkM3NTNFMEYyN0FDAA=="
       }
     ],
     "paso": "conversando",
@@ -34625,14 +34637,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
