@@ -21559,8 +21559,8 @@
     "telefono": "573188520901",
     "nombre": "JD",
     "primerContacto": "2026-10-29T11:25:39.902Z",
-    "ultimoContacto": "2026-10-30T15:30:39.117Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T19:33:40.343Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -21642,6 +21642,18 @@
         "fecha": "2026-10-30T17:33:58.966Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NTIwOTAxFQIAERgSNzZBMjREMzZDRTc2Q0ZFMzA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Relojes inteligentes",
+        "fecha": "2026-10-30T19:33:39.064Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Smartwatches]",
+        "fecha": "2026-10-30T19:33:39.066Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NTIwOTAxFQIAERgSQjVBNUNENjdERDI3QTk1RjZBAA=="
       }
     ],
     "paso": "conversando",
@@ -21657,9 +21669,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
