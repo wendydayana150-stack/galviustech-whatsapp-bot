@@ -28892,8 +28892,8 @@
     "telefono": "CO.1130404196479524",
     "nombre": "Cali Fe Rr",
     "primerContacto": "2026-10-29T04:26:11.012Z",
-    "ultimoContacto": "2026-10-29T15:34:08.614Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:46:26.001Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -28933,13 +28933,20 @@
         "fecha": "2026-10-29T15:34:04.130Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDQwNDE5NjQ3OTUyNBUUABEYEjlERjNEMzhFQUMxNzg4MjhBOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Cali Fe Rr, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:46:24.868Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDQwNDE5NjQ3OTUyNBUUABEYEjM1RTYxNERCRjVFM0YxREZDMgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -28948,9 +28955,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
