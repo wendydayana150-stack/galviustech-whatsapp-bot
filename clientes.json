@@ -20528,8 +20528,8 @@
     "telefono": "573146165245",
     "nombre": "Enrrique Chamorro",
     "primerContacto": "2026-10-29T10:38:31.224Z",
-    "ultimoContacto": "2026-10-29T15:24:13.173Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:32:25.948Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20576,6 +20576,13 @@
         "fecha": "2026-10-29T15:24:12.246Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTY1MjQ1FQIAERgSNDU5OEZFRUUyM0NCN0M2ODlDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Enrrique Chamorro, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:32:24.856Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTY1MjQ1FQIAERgSMDMwQTU2RjE3RTYwMkEzODQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -20591,9 +20598,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
