@@ -8360,8 +8360,8 @@
     "telefono": "573013122424",
     "nombre": "cava happy",
     "primerContacto": "2026-10-29T13:04:36.787Z",
-    "ultimoContacto": "2026-10-29T15:15:56.884Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:15:43.660Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8464,6 +8464,13 @@
         "fecha": "2026-10-30T00:18:46.081Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEzMTIyNDI0FQIAERgSN0FGMDAwN0JCN0IyNDE1OEZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola cava happy, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:15:42.354Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEzMTIyNDI0FQIAERgSODk0OTA2MTNBMDcwNTIyMjY2AA=="
       }
     ],
     "paso": "conversando",
@@ -8479,9 +8486,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
