@@ -22255,8 +22255,8 @@
     "telefono": "573124775173",
     "nombre": "romarines88",
     "primerContacto": "2026-10-29T09:30:37.395Z",
-    "ultimoContacto": "2026-10-29T15:26:19.121Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:36:04.194Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22296,13 +22296,20 @@
         "fecha": "2026-10-29T15:26:15.983Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0Nzc1MTczFQIAERgSMTI5M0NGMTk4MEI4ODcwMUVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola romarines88, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:36:01.216Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0Nzc1MTczFQIAERgSNzQzNTI1RkM0NjhFMzA2QUYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -22311,9 +22318,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
