@@ -21012,8 +21012,8 @@
     "telefono": "CO.1503347198299146",
     "nombre": "Shirley Y Heiner",
     "primerContacto": "2026-10-29T10:25:08.089Z",
-    "ultimoContacto": "2026-10-29T15:24:50.346Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:33:34.373Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -21053,13 +21053,20 @@
         "fecha": "2026-10-29T15:24:49.450Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUwMzM0NzE5ODI5OTE0NhUUABEYEjg1RjlDODAyRjFFMzY1RjZEOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Shirley Y Heiner, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:33:33.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwMzM0NzE5ODI5OTE0NhUUABEYEkRCMTJCOTM0QkEwQ0M4MERGOQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -21068,9 +21075,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
