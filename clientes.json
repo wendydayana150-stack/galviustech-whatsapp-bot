@@ -16535,8 +16535,8 @@
     "telefono": "573183397437",
     "nombre": "Pedro Laiton",
     "primerContacto": "2026-10-29T12:13:06.068Z",
-    "ultimoContacto": "2026-10-29T15:20:45.629Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:26:34.236Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16642,13 +16642,20 @@
         "fecha": "2026-10-30T00:20:10.729Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzMzk3NDM3FQIAERgSODk3MTYxNkEyRTFGOUI4NDIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Pedro Laiton, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:26:32.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzMzk3NDM3FQIAERgSNEE5RTg2ODU1RjBGQzUzOUFFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -16657,9 +16664,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
