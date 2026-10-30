@@ -27355,8 +27355,8 @@
     "telefono": "593989131435",
     "nombre": "Hna. Patricia Vela",
     "primerContacto": "2026-10-29T06:14:12.905Z",
-    "ultimoContacto": "2026-10-30T15:39:01.247Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T17:50:36.313Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -27450,6 +27450,25 @@
         "fecha": "2026-10-30T17:43:53.512Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSMDFGNkZDRkY0MjFFMEU5MkFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias",
+        "fecha": "2026-10-30T17:50:34.592Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-30T17:50:34.593Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSQTRFRTY2RkE0NkNDQjAzNzhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Entiendo, gracias por contarme! 😊 Te cuento que también tenemos *otras opciones muy buenas e interesantes* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento* y *pagas al recibir* ✅\n\n¿Alguna te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-30T17:50:35.259Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSRDQ3QTIwQTZDMEFBMTJCNDZGAA=="
       }
     ],
     "paso": "conversando",
@@ -27465,9 +27484,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
