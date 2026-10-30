@@ -1115,8 +1115,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-10-29T20:11:31.053Z",
-    "ultimoContacto": "2026-10-30T12:53:14.899Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:45:41.553Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1272,6 +1272,18 @@
         "fecha": "2026-10-30T14:58:34.127Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMzc5NTE2Q0RBNDc2NjcyQjlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ese modem necesita una sim ?",
+        "fecha": "2026-10-30T15:45:38.683Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, el módem funciona con SIM de cualquier operador (Claro, Movistar, Tigo, WOM). \n\nY cuando confirmes tu pedido, te mandamos una sorpresa, una SIM de Claro sin plan ni megas activados, para que la puedas activar con el plan que prefieras. 🎁 \n\n¿Ya tienes el lugar donde lo usarías? Así te confirmo que te funciona perfecto.",
+        "fecha": "2026-10-30T15:45:40.529Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMjNGODIwMzdFRDBEOEVDMjU1AA=="
       }
     ],
     "paso": "conversando",
@@ -1287,9 +1299,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
