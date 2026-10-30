@@ -3,8 +3,8 @@
     "telefono": "573208317214",
     "nombre": "Mauricio",
     "primerContacto": "2026-10-30T03:34:21.483Z",
-    "ultimoContacto": "2026-10-30T03:34:21.483Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-30T04:30:42.500Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,20 @@
         "fecha": "2026-10-30T03:34:20.623Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MzE3MjE0FQIAERgSNjkxN0E0NDJGRjVDNzI3NDMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-30T04:30:39.906Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MzE3MjE0FQIAERgSNjdBNUUwRUM1MDlGMkUzRkQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍",
+        "fecha": "2026-10-30T04:30:41.411Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MzE3MjE0FQIAERgSNjRGQkVFRTdFN0VERjgxNjExAA=="
       }
     ],
     "paso": "conversando",
@@ -43,7 +57,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102189193",
