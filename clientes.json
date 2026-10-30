@@ -25342,8 +25342,8 @@
     "telefono": "573145626369",
     "nombre": "Anibal",
     "primerContacto": "2026-10-29T05:45:16.576Z",
-    "ultimoContacto": "2026-10-29T15:29:55.283Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:40:50.252Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -25390,6 +25390,13 @@
         "fecha": "2026-10-29T15:29:52.246Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NjI2MzY5FQIAERgSNjUxOEFBMDgwRUQzNzRFREYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Anibal, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:40:49.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NjI2MzY5FQIAERgSMjU4NDQxODQxRTFENDQwNjU5AA=="
       }
     ],
     "paso": "conversando",
@@ -25405,9 +25412,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
