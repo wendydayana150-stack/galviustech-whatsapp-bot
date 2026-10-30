@@ -13839,8 +13839,8 @@
     "telefono": "573172910318",
     "nombre": "Willi Andres",
     "primerContacto": "2026-10-29T12:19:08.469Z",
-    "ultimoContacto": "2026-10-30T15:22:35.045Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-30T15:24:52.157Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13899,6 +13899,18 @@
         "fecha": "2026-10-30T15:22:33.881Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyOTEwMzE4FQIAERgSNjE0NzRCMjdGQjEwREE5MEE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no",
+        "fecha": "2026-10-30T15:24:49.338Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, quedo atenta si cambias de opinión o necesitas ayuda con internet en tu zona.\n\nRecuerda que nuestros módems están hechos para darte mejor cobertura en fincas, veredas y lugares sin fibra; muchos ya están conectados y trabajando desde sus casas con GalviusTech.\n\nCuando quieras, aquí estoy para ti 😊\n\n¿Quieres que te muestre alguna otra cosa que te ayude?",
+        "fecha": "2026-10-30T15:24:51.309Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyOTEwMzE4FQIAERgSQjE4MzYxOTMwMUQxNkUwMEFGAA=="
       }
     ],
     "paso": "conversando",
@@ -13909,7 +13921,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
