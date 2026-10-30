@@ -3877,6 +3877,21 @@ const MENSAJE_OTRAS_OPCIONES =
       "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
+// Reactivacion con las opciones (29-oct-2026, Wendy: "no se le envio mensaje de reactivar para que el cliente decidiera,
+// un mensaje de que aprovechara la promocion"): a quien dejo de responder primero se le invita a decidirse aprovechando
+// la promocion (nombrando el producto que estaba viendo) y despues van las otras opciones.
+function mensajeReactivacionOpciones(sesion) {
+      const prod = sesion?.ultimoProducto ? catalogo.find((p) => p.id === sesion.ultimoProducto) : null;
+      const nombre = prod ? prod.nombreCorto || prod.nombre : null;
+      return (
+            "¡Hola de nuevo! 👋 " + (nombre ? `¿Pudiste decidirte por el *${nombre}*?` : "¿Pudiste decidirte?") + "\n\n" +
+            "🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\n" +
+            "Y si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n" +
+            LISTA_PRODUCTOS_GALVIUS + "\n\n" +
+            "¿Te dejo listo tu pedido o te muestro alguna? 😍"
+      );
+}
+
 // Listado bonito de todo lo que vendemos + link de la tienda en un mensaje aparte (oct-2026, Wendy: enviarlo
 // tambien cuando el cliente deja de responder y cuando ya compro).
 async function enviarListadoProductos(telefono, intro, cierre) {
@@ -4867,9 +4882,12 @@ app.post("/admin/chat/:telefono/opciones", requiereLogin, async (req, res) => {
             sesion.motivoAtencion = null;
             if (!sesion.paso || sesion.paso === "inicio") sesion.paso = "conversando";
             // El link va primero y el listado (que termina con la pregunta) al final, para que lo ultimo sea la pregunta
+            // Si el cliente dejo de responder (lo ultimo es de Michell), va el mensaje de reactivacion con la promocion
+            const ultimoMsg = (sesion.transcripcion || []).slice(-1)[0];
+            const mensajeOpciones = ultimoMsg && ultimoMsg.rol !== "cliente" ? mensajeReactivacionOpciones(sesion) : MENSAJE_OTRAS_OPCIONES;
             await enviarTexto(telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
-            await enviarTexto(telefono, MENSAJE_OTRAS_OPCIONES);
-            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: MENSAJE_OTRAS_OPCIONES });
+            await enviarTexto(telefono, mensajeOpciones);
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: mensajeOpciones });
             await guardarCliente(telefono);
             res.redirect(`/admin/chat/${encodeURIComponent(telefono)}`);
       } catch (error) {
