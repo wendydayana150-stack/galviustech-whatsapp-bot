@@ -3,8 +3,8 @@
     "telefono": "573214310838",
     "nombre": "Julian",
     "primerContacto": "2026-10-30T19:11:49.948Z",
-    "ultimoContacto": "2026-10-30T19:15:13.045Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T19:15:55.136Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43,6 +43,25 @@
         "fecha": "2026-10-30T19:15:11.918Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSQTg2M0FFMTEwNEQyMDdERDhCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "queria antes confirmar una informacion es compatible con cualuier operador?",
+        "fecha": "2026-10-30T19:15:50.803Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí! Nuestro Módem WiFi Portatil 4G es compatible con SIM de todos los operadores en Colombia: Claro, Movistar, Tigo, WOM y ETB.\n\nSolo necesitas insertar la SIM de tu preferencia y listo, tendrás internet para conectar hasta 10 dispositivos.",
+        "fecha": "2026-10-30T19:15:53.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSNzRCMjY5NDg4NERDMTQ2MkFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-30T19:15:54.200Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MzEwODM4FQIAERgSQTBGNjFCMEIxNDAxMjBCMjY3AA=="
       }
     ],
     "paso": "pedido_nombre",
