@@ -13338,8 +13338,8 @@
     "telefono": "573136505646",
     "nombre": "Hernando Calderón Patiño",
     "primerContacto": "2026-10-29T12:21:09.123Z",
-    "ultimoContacto": "2026-10-29T15:18:50.300Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:21:54.571Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13414,13 +13414,20 @@
         "fecha": "2026-10-30T00:19:39.712Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTA1NjQ2FQIAERgSMEEyRjZCQzMzMDIyRjg1ODVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Hernando Calderón Patiño, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:21:52.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTA1NjQ2FQIAERgSNEI1NzZCOTZEQ0RGMkIzQUJFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -13429,9 +13436,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
