@@ -3,8 +3,8 @@
     "telefono": "573023072521",
     "nombre": "Andrés",
     "primerContacto": "2026-10-30T16:12:16.773Z",
-    "ultimoContacto": "2026-10-30T16:12:16.773Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-30T16:13:29.183Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,20 +24,35 @@
         "fecha": "2026-10-30T16:12:15.909Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzMDcyNTIxFQIAERgSMzU5OTBCODUxM0U3OTYwRTY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impermeable termico",
+        "fecha": "2026-10-30T16:13:24.401Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Estás preguntando por una impresora térmica portátil, que además sea resistente al agua, ¿cierto? \n\nLa *Impresora Térmica Portátil NETUM* que tenemos es ideal para imprimir documentos, facturas y guías tamaño carta SIN tinta y es portátil y fácil de usar. Sin embargo, te aclaro que no es impermeable, es para uso en interiores o lugares secos.\n\n¿Para qué tipo de impresiones la necesitas? Así te recomiendo la mejor opción para ti y te cuento precio y envío. ¿La quieres para estudio, trabajo, negocio o algo más?",
+        "fecha": "2026-10-30T16:13:28.180Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzMDcyNTIxFQIAERgSNzJFQ0VCNDNBMTU2QzgwNTk5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208317214",
