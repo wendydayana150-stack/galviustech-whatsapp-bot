@@ -27548,8 +27548,8 @@
     "telefono": "573229138164",
     "nombre": "Yairo Alfonso",
     "primerContacto": "2026-10-29T05:09:56.913Z",
-    "ultimoContacto": "2026-10-29T15:31:51.388Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:43:31.360Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -27589,13 +27589,20 @@
         "fecha": "2026-10-29T15:31:50.149Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5MTM4MTY0FQIAERgSRjBERDM0RjYwRkQ2QzhCQzlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Yairo Alfonso, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:43:30.132Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5MTM4MTY0FQIAERgSODVERjA2QzU0RkI4OEIxMjRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -27604,9 +27611,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
