@@ -20418,8 +20418,8 @@
     "telefono": "573125456264",
     "nombre": "Novoa",
     "primerContacto": "2026-10-29T10:40:39.656Z",
-    "ultimoContacto": "2026-10-29T15:24:06.323Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:32:12.972Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -20498,13 +20498,20 @@
         "fecha": "2026-10-29T15:24:05.406Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI1NDU2MjY0FQIAERgSOTUyNzZEMTEyRjJFMURBQkU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Novoa, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:32:11.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI1NDU2MjY0FQIAERgSRTAyRjYxM0RGRjE2ODc2RkQxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -20513,9 +20520,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
