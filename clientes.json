@@ -6673,8 +6673,8 @@
     "telefono": "573026506613",
     "nombre": "broth",
     "primerContacto": "2026-10-29T13:13:44.593Z",
-    "ultimoContacto": "2026-10-29T13:41:10.723Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-10-30T00:05:31.217Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6906,6 +6906,27 @@
         "fecha": "2026-10-29T13:37:21.812Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSM0VFMDhDMTUwMjI1QzE2MTcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Sigo pendiente de tu pedido, ya casi queda listo.\n\nPara empezar, cual es tu nombre completo?",
+        "fecha": "2026-10-29T16:01:16.364Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSN0JCQkZCRUYyRjMyNDI1NzY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-30T00:05:29.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSNkIzMjRCMTIyOTYzNTk3REZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares*\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-10-30T00:05:30.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI2NTA2NjEzFQIAERgSRDI5MzU4QjE3OUVDQTE0RTQ4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6927,9 +6948,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
