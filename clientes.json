@@ -15364,8 +15364,8 @@
     "telefono": "CO.2614052869044545",
     "nombre": "gaviriaduarteluzelena",
     "primerContacto": "2026-10-29T12:14:07.391Z",
-    "ultimoContacto": "2026-10-29T15:19:57.905Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-30T15:24:56.277Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -15503,13 +15503,20 @@
         "fecha": "2026-10-30T00:19:57.246Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjYxNDA1Mjg2OTA0NDU0NRUUABEYEjQyOEFFMzMzMzc2QzgwNTREMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola gaviriaduarteluzelena, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:24:55.271Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjYxNDA1Mjg2OTA0NDU0NRUUABEYEjIzMjBEMkI0QzM1RDc3QzBFQgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -15518,9 +15525,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
