@@ -9183,8 +9183,8 @@
     "telefono": "573222383942",
     "nombre": "Lorena Mendoza 🪽",
     "primerContacto": "2026-10-29T12:51:54.224Z",
-    "ultimoContacto": "2026-10-29T15:16:22.621Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-30T15:16:38.852Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9325,13 +9325,20 @@
         "fecha": "2026-10-29T15:16:21.352Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMzgzOTQyFQIAERgSNkQ0QzcxMUVCNDc5QkZBRTNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Lorena Mendoza 🪽, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:16:37.651Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMzgzOTQyFQIAERgSMDYzMjJGQjg4MjM1MDg4NkIxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -9340,9 +9347,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "datosLibre2h": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
