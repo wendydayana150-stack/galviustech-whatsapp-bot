@@ -24343,8 +24343,8 @@
     "telefono": "573182360843",
     "nombre": "Luna Spa",
     "primerContacto": "2026-10-29T06:18:27.667Z",
-    "ultimoContacto": "2026-10-29T15:28:16.072Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:38:34.919Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24391,6 +24391,13 @@
         "fecha": "2026-10-29T15:28:11.448Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyMzYwODQzFQIAERgSNkE2MTY5N0M1NkY1Njg0RTY0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luna Spa, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:38:33.630Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyMzYwODQzFQIAERgSNThEOTQ5MUE3Qjc0QjVENTUyAA=="
       }
     ],
     "paso": "conversando",
@@ -24406,9 +24413,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
