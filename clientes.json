@@ -30469,8 +30469,8 @@
     "telefono": "573156054603",
     "nombre": "Cielo",
     "primerContacto": "2026-10-29T03:39:35.271Z",
-    "ultimoContacto": "2026-10-29T15:35:46.022Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:48:01.579Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30517,6 +30517,13 @@
         "fecha": "2026-10-29T15:35:43.236Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2MDU0NjAzFQIAERgSQTk3NUJCRjQxMzIwNjUzNDYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Cielo, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:48:00.221Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MDU0NjAzFQIAERgSREZDNDE5OUJBRTE3QzE5MkFFAA=="
       }
     ],
     "paso": "conversando",
@@ -30532,9 +30539,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
