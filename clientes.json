@@ -19248,8 +19248,8 @@
     "telefono": "573188520901",
     "nombre": "JD",
     "primerContacto": "2026-10-29T11:25:39.902Z",
-    "ultimoContacto": "2026-10-29T15:23:01.631Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:30:39.117Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19296,6 +19296,13 @@
         "fecha": "2026-10-29T15:23:00.717Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NTIwOTAxFQIAERgSQTI2MDkwRjlBRjMxOTNFOTkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola JD, sobre Impresora NETUM",
+        "fecha": "2026-10-30T15:30:37.848Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NTIwOTAxFQIAERgSQTM5MDY3MEFEMDJDNUJGMEQzAA=="
       }
     ],
     "paso": "conversando",
@@ -19311,9 +19318,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
