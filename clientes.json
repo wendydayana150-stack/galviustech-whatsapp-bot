@@ -11283,8 +11283,8 @@
     "telefono": "573005213646",
     "nombre": "Liliana",
     "primerContacto": "2026-10-29T12:34:20.805Z",
-    "ultimoContacto": "2026-10-29T15:07:02.517Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-30T15:19:10.348Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11363,6 +11363,13 @@
         "fecha": "2026-10-29T15:07:01.660Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSMUY0REZDRDg2RDY3RTRGNkMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Liliana, sobre Modem 4G",
+        "fecha": "2026-10-30T15:19:08.856Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSQjY5RTFDQjQwOTM3MjQ4MTc5AA=="
       }
     ],
     "paso": "conversando",
@@ -11378,9 +11385,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
