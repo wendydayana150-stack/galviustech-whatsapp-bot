@@ -618,6 +618,33 @@ const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
 const MENSAJE_BIENVENIDA_MODEM =
       "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶";
 
+// 29-oct-2026 (Wendy: "siempre enviar 2 a 3 imagenes mas el video", "una sola imagen esta mal"): la presentacion de un
+// producto lleva hasta 3 fotos y su video. El video se sirve por jsDelivr (raw de GitHub no lo manda como video/mp4).
+function urlVideoServible(url) {
+      const m = String(url || "").match(/^https:\/\/raw\.githubusercontent\.com\/([^/]+)\/([^/]+)\/([^/]+)\/(.+)$/);
+      return m ? `https://cdn.jsdelivr.net/gh/${m[1]}/${m[2]}@${m[3]}/${m[4]}` : url;
+}
+async function enviarFotosYVideo(telefono, producto, caption) {
+      const sesion = obtenerSesion(telefono);
+      const fotos = (producto?.imagenes || []).filter((u) => /^https?:\/\//.test(u) && !/\.(mp4|mov|webm)(\?|$)/i.test(u)).slice(0, 3);
+      for (const url of fotos) {
+            try {
+                  await enviarImagen(telefono, url, caption || producto.nombreCorto || producto.nombre);
+            } catch (e) {
+                  console.error(`Foto de ${producto.id}:`, e.message);
+            }
+      }
+      if (!sesion.videosEnviados) sesion.videosEnviados = [];
+      if (producto?.video && !sesion.videosEnviados.includes(producto.id)) {
+            try {
+                  await enviarVideo(telefono, urlVideoServible(producto.video), `${producto.nombreCorto || producto.nombre} en video 🎥`);
+                  sesion.videosEnviados.push(producto.id);
+            } catch (e) {
+                  console.error(`Video de ${producto.id}:`, e.message);
+            }
+      }
+}
+
 async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       const sesion = obtenerSesion(telefono);
       // Impresoras (oct-2026, Wendy): SIEMPRE se ofrece primero la NETUM (impresora-termica, tamaño carta):
@@ -673,7 +700,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             const info = infoCategoria("modem");
             const delModem = catalogo.filter((p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === "modem");
             const destacado = delModem.find((p) => p.id === info.variantePorDefecto) || delModem[0];
-            if (destacado?.imagenes?.[0]) await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
+            if (destacado) await enviarFotosYVideo(telefono, destacado, info.titulo);
             // Oct-2026 (Wendy, estudio de 185 chats: 42 se iban tras una bienvenida sin precio): si el cliente
             // llego preguntando el precio, la bienvenida trae los precios + envio y UNA sola pregunta.
             const disponibles = delModem.filter((p) => !p.agotado).sort((a, b) => a.precio - b.precio);
@@ -714,9 +741,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       const esVariantesConResumen = productos.length > 1 && info.resumen;
       if (esVariantesConResumen) {
             const destacado = productos.find((p) => p.id === info.variantePorDefecto) || productos[0];
-            if (destacado.imagenes && destacado.imagenes[0]) {
-                  await enviarImagen(telefono, destacado.imagenes[0], info.titulo);
-            }
+            await enviarFotosYVideo(telefono, destacado, info.titulo);
             await enviarTexto(telefono, info.resumen);
             // ANCLA DE PRECIO (sep-2026): antes esta categoria (ej. modem, con 3 versiones) no
             // mostraba NINGUN precio hasta despues de la pregunta de descubrimiento, a proposito,
@@ -736,9 +761,13 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                   await enviarTexto(telefono, lineaPrecio);
             }
       } else {
-            for (const p of productos) {
-                  if (p.imagenes && p.imagenes[0]) {
-                        await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+            if (productos.length === 1) {
+                  await enviarFotosYVideo(telefono, productos[0], `${productos[0].nombreCorto || productos[0].nombre} - ${formatearPrecio(productos[0].precio)}`);
+            } else {
+                  for (const p of productos) {
+                        if (p.imagenes && p.imagenes[0]) {
+                              await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+                        }
                   }
             }
 
@@ -2447,11 +2476,7 @@ async function manejarSeleccionProducto(telefono, productoId) {
       sesion.pedido.productoId = producto.id;
       sesion.ultimoProducto = producto.id;
 
-      if (producto.imagenes && producto.imagenes.length > 0) {
-            for (const url of producto.imagenes.slice(0, 3)) {
-                  await enviarImagen(telefono, url, producto.nombreCorto || producto.nombre);
-            }
-      }
+      await enviarFotosYVideo(telefono, producto);
 
       if (producto.tienda) {
             await enviarTarjetaProductoTienda(telefono, producto);
