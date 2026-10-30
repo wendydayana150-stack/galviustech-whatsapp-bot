@@ -7704,8 +7704,8 @@
     "telefono": "573236982731",
     "nombre": "Pijamas Dulce Amor",
     "primerContacto": "2026-10-29T13:17:04.124Z",
-    "ultimoContacto": "2026-10-29T15:15:15.935Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:14:47.511Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7745,13 +7745,20 @@
         "fecha": "2026-10-29T15:15:14.342Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2OTgyNzMxFQIAERgSNDdBMzA0Q0NFOTNBMTEzMUU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Pijamas Dulce Amor, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:14:46.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2OTgyNzMxFQIAERgSRjkzRTY3M0EzMzUyREUyMDBFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -7760,9 +7767,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
