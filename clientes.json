@@ -29772,8 +29772,8 @@
     "telefono": "573145500253",
     "nombre": "Amarte Mi 🤴🏾",
     "primerContacto": "2026-10-29T04:01:54.875Z",
-    "ultimoContacto": "2026-10-29T15:35:04.008Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-30T15:47:33.843Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29813,13 +29813,20 @@
         "fecha": "2026-10-29T15:35:00.823Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NTAwMjUzFQIAERgSRkI2N0Q2NDhDQTRCQzczMjdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Amarte Mi 🤴🏾, sobre Modem 4G/5G",
+        "fecha": "2026-10-30T15:47:32.443Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NTAwMjUzFQIAERgSQTkxQjJGQUM5M0Q5M0VCQzRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -29828,9 +29835,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
