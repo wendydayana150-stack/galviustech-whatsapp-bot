@@ -43694,8 +43694,8 @@
     "telefono": "573044045196",
     "nombre": "Los Amo",
     "primerContacto": "2026-10-29T01:22:24.762Z",
-    "ultimoContacto": "2026-10-29T17:42:13.688Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:23:28.782Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43742,6 +43742,13 @@
         "fecha": "2026-10-29T17:42:12.721Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0MDQ1MTk2FQIAERgSMzc5OTdGMTA2OUQ2Q0E3NkNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Los Amo, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:23:27.125Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0MDQ1MTk2FQIAERgSNjNDNzQ5QTk0Njg5QTNGNzRDAA=="
       }
     ],
     "paso": "conversando",
@@ -43757,9 +43764,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
