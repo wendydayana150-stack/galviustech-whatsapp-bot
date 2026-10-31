@@ -123,8 +123,8 @@
     "telefono": "CO.1507580654532639",
     "nombre": "Cecilia",
     "primerContacto": "2026-10-31T19:02:42.518Z",
-    "ultimoContacto": "2026-10-31T19:02:42.518Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T19:04:28.320Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -144,20 +144,69 @@
         "fecha": "2026-10-31T19:02:41.386Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEjhERTA0RjdENDA5MDk5OTUwNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precios fotos",
+        "fecha": "2026-10-31T19:04:24.748Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-10-31T19:04:24.749Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T19:04:24.749Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEjY5OThCOURDQjg2Mzc5MEREMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T19:04:25.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEkZDNTIyQTIyMTMwNTIwQTJGRQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T19:04:25.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEjE0Qzg2NjM4MUY4NDVEMDY1MQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T19:04:26.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEjYyNTdEMTlEQkJDNzc1QUUwQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T19:04:27.085Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNzU4MDY1NDUzMjYzORUUABEYEkNDODY4ODA5MThFODVBNjU3OQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102462802",
