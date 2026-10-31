@@ -3,8 +3,8 @@
     "telefono": "573136750191",
     "nombre": "Petra❤️",
     "primerContacto": "2026-10-31T14:43:24.945Z",
-    "ultimoContacto": "2026-10-31T14:43:24.945Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T14:43:34.277Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-31T14:43:23.954Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NzUwMTkxFQIAERgSRThEQ0JBN0QzMkUwMEM4MUM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-31T14:43:31.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor: ¿qué producto te interesa? ¿El módem para internet, una impresora, lámparas, cámaras o algún otro? Así te puedo contar la inversión con detalles y beneficios que se ajusten a lo que necesitas.\n\n¿Para qué usarías el producto que buscas?",
+        "fecha": "2026-10-31T14:43:33.292Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NzUwMTkxFQIAERgSRUU5QjY0NENFRTg4MkQzQkQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573114294669",
