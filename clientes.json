@@ -43616,8 +43616,8 @@
     "telefono": "573209929274",
     "nombre": "Francelina",
     "primerContacto": "2026-10-29T01:22:36.350Z",
-    "ultimoContacto": "2026-10-29T17:41:06.201Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:23:14.512Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43664,6 +43664,13 @@
         "fecha": "2026-10-29T17:41:03.479Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5OTI5Mjc0FQIAERgSNkVCMTJGQjNFNzJEQjhFREVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Francelina, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:23:13.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5OTI5Mjc0FQIAERgSODU3RDNGM0NENzg1QzM1OEIyAA=="
       }
     ],
     "paso": "conversando",
@@ -43679,9 +43686,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
