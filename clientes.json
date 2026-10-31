@@ -3,8 +3,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-10-31T21:22:46.993Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T21:23:32.866Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -94,16 +94,29 @@
         "fecha": "2026-10-31T21:22:45.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSNjgwMEJDQTUyNEU4NTM3Qzk4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jesús Ricardo gaitán Rodríguez",
+        "fecha": "2026-10-31T21:23:31.658Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-31T21:23:31.661Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSMzU3N0YzRjJGMTM1MzFEMDkxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573103789693",
       "departamento": "Arauca",
-      "direccion": "Recoge en oficina de la transportadora"
+      "direccion": "Recoge en oficina de la transportadora",
+      "nombreCliente": "Jesús Ricardo gaitán Rodríguez"
     },
     "pausado": false,
     "etapaManual": null,
