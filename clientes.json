@@ -3,8 +3,8 @@
     "telefono": "573108082748",
     "nombre": "Enriko",
     "primerContacto": "2026-10-31T15:17:47.748Z",
-    "ultimoContacto": "2026-10-31T15:19:51.728Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:20:47.249Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -63,6 +63,18 @@
         "fecha": "2026-10-31T15:19:50.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MDgyNzQ4FQIAERgSOUQ0MTY5MDJCRTBFODZBNTgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me es garante. Gracias",
+        "fecha": "2026-10-31T15:20:43.933Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por contarme. Si en tu zona no hay señal de ningún operador, el módem no podrá funcionar porque requiere esa SIM con cobertura móvil. \n\n¿Quieres que te muestre alguna otra solución o producto de GalviusTech que te pueda servir? Tenemos:\n\n📶 Módem WiFi  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n🎁 Combos  \n\n¿Alguna de estas opciones te interesa revisar?",
+        "fecha": "2026-10-31T15:20:45.436Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MDgyNzQ4FQIAERgSNzQyRTJCQTgzNTIyMjc2MzlGAA=="
       }
     ],
     "paso": "conversando",
@@ -71,8 +83,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No me es garante. Gracias\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
