@@ -28437,8 +28437,8 @@
     "telefono": "CO.1653138719836885",
     "nombre": "'",
     "primerContacto": "2026-10-29T11:39:10.876Z",
-    "ultimoContacto": "2026-10-31T16:50:05.849Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-31T16:50:33.428Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -28637,6 +28637,18 @@
         "fecha": "2026-10-31T16:50:04.498Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY1MzEzODcxOTgzNjg4NRUUABEYEjc2QUFBRTY5OEVEQTEyNTdEQgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ninguna",
+        "fecha": "2026-10-31T16:50:29.799Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta por si en futuro necesitas algo para conectar internet o seguridad en tu hogar o negocio. Aquí estaré para ayudarte. ¡Que tengas un buen día! 🌟",
+        "fecha": "2026-10-31T16:50:32.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY1MzEzODcxOTgzNjg4NRUUABEYEjE0QjA1MTY5OUZCMjRBODk3NAA="
       }
     ],
     "paso": "conversando",
@@ -28647,7 +28659,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
