@@ -43,8 +43,8 @@
     "telefono": "573504690148",
     "nombre": ".",
     "primerContacto": "2026-10-31T18:35:26.997Z",
-    "ultimoContacto": "2026-10-31T18:36:37.619Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T18:37:45.171Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,6 +130,25 @@
         "fecha": "2026-10-31T18:36:36.680Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA0NjkwMTQ4FQIAERgSM0VGNUQ0NDNCODQ5QzA4ODM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Debe haber señal de teléfono?",
+        "fecha": "2026-10-31T18:37:42.016Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con una SIM de celular, así que sí debe haber señal de teléfono. Pero no te preocupes, su antena es más potente que la del celular, diseñada para captar señal donde el celular común a veces no la agarra.\n\nPor eso funciona muy bien en zonas rurales como tu vereda Barro Blanco, donde es difícil tener buena conexión. ¿Actualmente tienes señal en tu celular ahí o es muy débil? Así te ayudo mejor.",
+        "fecha": "2026-10-31T18:37:43.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjkwMTQ4FQIAERgSQTI3RDUzOEQxQ0Q5RDIyNDZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T18:37:44.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA0NjkwMTQ4FQIAERgSNzlDNDYyMzZBQUIzRTNCN0ZBAA=="
       }
     ],
     "paso": "conversando",
