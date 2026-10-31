@@ -6190,6 +6190,23 @@ app.get("/admin/reactivar-lote", requiereLogin, async (req, res) => {
             res.status(500).send("No se pudo leer la lista de reactivacion.");
       }
 });
+// Marca en reactivar.json los clientes ya procesados de la tanda (se llama cada 20 envios y al final).
+async function marcarTandaEnviada(hechos, ok, fallos) {
+      let intentos = 4;
+      while (intentos-- > 0) {
+            try {
+                  const { datos: actual, sha } = await leerJSON(REACTIVAR_API);
+                  let cambios = false;
+                  for (const r of actual) if (hechos.has(r.telefono) && !r.enviado) { r.enviado = true; r.enviadoFecha = fechaBogotaTexto(new Date()); cambios = true; }
+                  if (!cambios) return;
+                  await guardarJSON(REACTIVAR_API, actual, sha, `Reactivacion: tanda enviada (${ok} ok, ${fallos} fallos)`);
+                  return;
+            } catch (e) {
+                  if (intentos <= 0) throw e;
+            }
+      }
+}
+
 // Envia la siguiente tanda (hasta 200). La usa el boton del panel y el envio automatico diario.
 async function enviarTandaReactivacion() {
       if (reactivacionEnCurso) return;
@@ -6200,14 +6217,20 @@ async function enviarTandaReactivacion() {
             const { datos } = await leerJSON(REACTIVAR_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
             const conPedido = new Set(pedidos.map((p) => p.telefono));
-            const tanda = datos.filter((r) => !r.enviado).slice(0, 200);
+            // Se recorren todos los pendientes hasta completar 200 envios reales (los que ya la recibieron no cuentan)
+            const tanda = datos.filter((r) => !r.enviado);
             for (const r of tanda) {
+                  if (ok >= 200) break;
                   hechos.add(r.telefono);
                   if (conPedido.has(r.telefono)) continue;
                   try {
                         await cargarSesionSiNueva(r.telefono);
                         const sesion = obtenerSesion(r.telefono);
                         if (sesion.pausado) continue;
+                        // 31-oct-2026: la tanda del 30-oct se corto con un reinicio antes de marcar los enviados y los
+                        // habria repetido. Si el chat ya muestra la plantilla en los ultimos 3 dias, se da por enviado.
+                        const yaRecibio = (sesion.transcripcion || []).some((m) => m.rol === "bot" && String(m.texto || "").startsWith("[Plantilla reactivacion") && Date.now() - new Date(m.fecha).getTime() < 3 * 24 * 3600000);
+                        if (yaRecibio || sesion.pausarSeguimiento) continue;
                         const ultimoBot = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "bot");
                         if (ultimoBot && Date.now() - new Date(ultimoBot.fecha).getTime() < 6 * 3600000) {
                               hechos.delete(r.telefono); // queda pendiente para la siguiente tanda
@@ -6224,6 +6247,7 @@ async function enviarTandaReactivacion() {
                         }
                         await guardarCliente(r.telefono, r.nombre);
                         ok++;
+                        if (ok % 20 === 0) await marcarTandaEnviada(hechos, ok, fallos).catch((e) => console.error("Reactivacion: no se pudo guardar el avance:", e.message));
                         // Cada envio guarda clientes.json en GitHub: espaciados para no llegar al limite de GitHub (29-oct-2026,
                         // un envio de 157 seguidos lo bloqueo ~20 min y el bot dejo de guardar chats)
                         await new Promise((s) => setTimeout(s, 10000));
@@ -6232,17 +6256,7 @@ async function enviarTandaReactivacion() {
                         console.error(`Reactivacion: fallo con ${r.telefono}:`, e.response?.data?.error?.message || e.message);
                   }
             }
-            let intentos = 4;
-            while (intentos-- > 0) {
-                  try {
-                        const { datos: actual, sha } = await leerJSON(REACTIVAR_API);
-                        for (const r of actual) if (hechos.has(r.telefono)) { r.enviado = true; r.enviadoFecha = fechaBogotaTexto(new Date()); }
-                        await guardarJSON(REACTIVAR_API, actual, sha, `Reactivacion: tanda enviada (${ok} ok, ${fallos} fallos)`);
-                        break;
-                  } catch (e) {
-                        if (intentos <= 0) throw e;
-                  }
-            }
+            await marcarTandaEnviada(hechos, ok, fallos);
             console.log(`Reactivacion: tanda terminada, ${ok} enviados, ${fallos} fallos.`);
       } catch (error) {
             console.error("Error en la tanda de reactivacion:", error.response?.data || error.message);
