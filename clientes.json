@@ -3,8 +3,8 @@
     "telefono": "573225817615",
     "nombre": "amazonasenvivo.tv",
     "primerContacto": "2026-10-31T15:07:56.733Z",
-    "ultimoContacto": "2026-10-31T15:07:56.733Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T15:08:05.887Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-10-31T15:07:55.342Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODE3NjE1FQIAERgSMTFDM0EwNjM5ODkyMUIwQjA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me intereza",
+        "fecha": "2026-10-31T15:08:02.183Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial que te interese la Impresora Térmica Portátil NETUM! 🖨️✨\n\nEsta impresora es ideal para imprimir documentos tamaño carta sin depender de tintas, solo usando papel térmico. Es ligera, portátil (mide 27.5x6.5x5 cm), batería dura hasta 30 horas y la cargas con USB. Te la llevas donde quieras y conectas por Bluetooth al celular para imprimir rápido.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión es de *$249.900 con envío GRATIS* a toda Colombia y pagas al recibir. ¿Para qué la necesitas principalmente? ¿Tareas, trabajos, facturas u otro uso?",
+        "fecha": "2026-10-31T15:08:04.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODE3NjE1FQIAERgSRDZGMTI4OTFFN0RFREM3RDFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-31T15:08:04.797Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODE3NjE1FQIAERgSRTUzRTNFNTM2NzJCNEUzMkNFAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573134464627",
