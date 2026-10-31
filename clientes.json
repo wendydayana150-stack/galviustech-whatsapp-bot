@@ -29171,8 +29171,8 @@
     "telefono": "CO.1511980417429593",
     "nombre": "Jhoncito😎😝",
     "primerContacto": "2026-10-29T06:01:54.461Z",
-    "ultimoContacto": "2026-10-31T11:24:18.307Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-31T11:24:27.069Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29321,9 +29321,21 @@
         "fecha": "2026-10-31T11:24:17.202Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEkM2NEZGNTRFOUVFREZFMTBFNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Florida",
+        "fecha": "2026-10-31T11:24:25.895Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-31T11:24:25.897Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEjAyNzZCN0IwMTBFRENDOEM2QwA="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -29332,7 +29344,8 @@
       "nombreCliente": "Tienesantana",
       "celular": "3115969207",
       "departamento": "Santander",
-      "ciudad": "Bucaramanga"
+      "ciudad": "Bucaramanga",
+      "direccion": "Florida"
     },
     "pausado": false,
     "etapaManual": null,
