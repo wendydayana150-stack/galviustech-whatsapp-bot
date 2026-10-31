@@ -3,8 +3,8 @@
     "telefono": "CO.1915826716070895",
     "nombre": "Estella ReinaFlórez",
     "primerContacto": "2026-10-31T20:21:11.013Z",
-    "ultimoContacto": "2026-10-31T20:21:11.013Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T20:21:18.567Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-10-31T20:21:09.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTkxNTgyNjcxNjA3MDg5NRUUABEYEjUwNUZEQzkwRjlCNDM3RTcwNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como trabaja din tinta",
+        "fecha": "2026-10-31T20:21:15.968Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. La Impresora Térmica Portátil NETUM no usa tinta ni cartuchos porque funciona con impresión térmica, es decir, imprime solo en blanco y negro usando papel térmico especial. Así nunca tendrás que gastar en tinta y es ideal para imprimir documentos, facturas o trabajos al instante. ¿Para qué la necesitas tú?",
+        "fecha": "2026-10-31T20:21:17.412Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTkxNTgyNjcxNjA3MDg5NRUUABEYEkU2MjlBMTBDOEM3MzY0QTJDRQA="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573117259226",
