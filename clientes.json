@@ -265,8 +265,8 @@
     "telefono": "573017184374",
     "nombre": "gatto negro 🐈‍⬛",
     "primerContacto": "2026-10-31T18:33:46.817Z",
-    "ultimoContacto": "2026-10-31T18:33:46.817Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T18:38:55.119Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -313,20 +313,35 @@
         "fecha": "2026-10-31T18:33:45.958Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MTg0Mzc0FQIAERgSMjNGRjA3QzlBNjI1MTBGNjI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como se recarga",
+        "fecha": "2026-10-31T18:38:52.577Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem tiene una batería recargable que dura hasta 14 horas de uso continuo con una carga completa.\n\nPara recargarlo solo conectas el cable USB-C que viene incluido a cualquier cargador o a tu computadora, y en aproximadamente unas horas estará listo para usar de nuevo.\n\n¿En qué municipio o vereda lo usarías? Así te recomiendo el modelo ideal para tu zona y uso.",
+        "fecha": "2026-10-31T18:38:54.192Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MTg0Mzc0FQIAERgSMTRGNUJEN0UyM0EzN0REREE3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217144014",
