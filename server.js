@@ -1901,6 +1901,10 @@ async function enviarRecordatoriosPendientes() {
                   }
 
                   if (!c.ultimoContacto) continue;
+                  // 31-oct-2026: el de 1 h y el de 2 h llegaban con 10 minutos de diferencia cuando ambos estaban vencidos
+                  // (ej. al abrir el horario a las 6 a. m.). Entre un recordatorio y el siguiente pasa al menos 1 hora.
+                  const ultimoEnvio = Math.max(new Date(recordatorios.ultimoEnvio || 0).getTime() || 0, ultimoRecordatorioEnMemoria.get(c.telefono) || 0);
+                  if (ahora - ultimoEnvio < 55 * 60 * 1000) continue;
                   const transcurrido = ahora - new Date(c.ultimoContacto).getTime();
 
                   // Cadencia actualizada sep-2026 a pedido de Wendy: antes eran 4 avisos (2/5/8/11h),
@@ -1943,6 +1947,25 @@ async function enviarRecordatoriosPendientes() {
                         const definicionFaltante = p.paso
                               ? DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === p.paso)
                               : null;
+
+                        // CIERRE AUTOMATICO (31-oct-2026, Wendy: "esta dejando los pedidos a medias sin cerrar"): si ya dio nombre,
+                        // celular, ciudad y direccion y solo falta el barrio y/o el medio de pago, el pedido se registra (barrio
+                        // por confirmar, pago contraentrega) y se marca para que el equipo lo confirme por llamada.
+                        const sesPedido = obtenerSesion(p.telefono);
+                        const ped = sesPedido.pedido || {};
+                        if (definicionFaltante && ["barrio", "medioPago"].includes(definicionFaltante.campo) && ped.productoId && ped.nombreCliente && ped.celular && ped.ciudad && ped.direccion) {
+                              const faltaban = [!ped.barrio && "barrio", !ped.medioPago && "medio de pago"].filter(Boolean).join(" y ");
+                              if (!ped.barrio) ped.barrio = "Por confirmar";
+                              if (!ped.medioPago) ped.medioPago = "Contraentrega";
+                              await finalizarPedidoSesion(p.telefono);
+                              if (!sesPedido.necesitaAtencion) {
+                                    sesPedido.necesitaAtencion = true;
+                                    sesPedido.motivoAtencion = `Pedido registrado automaticamente sin ${faltaban} (el cliente no respondio). Confirmar por llamada antes de despachar.`;
+                              }
+                              await guardarCliente(p.telefono);
+                              recordatoriosEnviadosEnProceso.add(clave);
+                              continue;
+                        }
 
                         if (definicionFaltante) {
                               await enviarTexto(
@@ -2008,6 +2031,7 @@ async function enviarRecordatoriosPendientes() {
             // 29-oct-2026 (Wendy: "clientes desde las 7am sin seguimiento en todo el dia"): antes se marcaban TODOS
             // como enviados aunque el envio fallara, y el mensaje no quedaba guardado en el chat del panel.
             const enviados = pendientes.filter((p) => recordatoriosEnviadosEnProceso.has(`${p.telefono}|${p.tier}`));
+            for (const p of enviados) ultimoRecordatorioEnMemoria.set(p.telefono, Date.now());
             if (enviados.length > 0) {
                   await marcarRecordatoriosEnviados(enviados);
             }
@@ -2079,6 +2103,7 @@ async function limpiarClientesInactivos() {
 // clientes.json (no sobre la copia que se leyo al inicio), y reintenta si otra escritura
 // simultanea invalido el sha. Asi no se pisan cambios que otra conversacion haya guardado mientras
 // se enviaban los mensajes.
+const ultimoRecordatorioEnMemoria = new Map();
 async function marcarRecordatoriosEnviados(pendientes) {
       await conColaDeArchivo(CLIENTES_API, async () => {
       let intentosRestantes = 4;
@@ -2099,6 +2124,7 @@ async function marcarRecordatoriosEnviados(pendientes) {
                   }
                   if (!cliente.recordatorios[p.tier]) {
                         cliente.recordatorios[p.tier] = true;
+                        cliente.recordatorios.ultimoEnvio = new Date().toISOString();
                         // Suma al tope compartido de 2 seguimientos automaticos (ver comentario en
                         // enviarRecordatoriosPendientes y ejecutarPromoDiaria).
                         cliente.recordatorios.seguimientosEnviados = (cliente.recordatorios.seguimientosEnviados || 0) + 1;
