@@ -15843,8 +15843,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-10-29T20:11:31.053Z",
-    "ultimoContacto": "2026-10-30T18:43:39.248Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-31T19:33:01.801Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16117,6 +16117,13 @@
         "fecha": "2026-10-31T11:20:15.385Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQjdBQjIyQUVBQzREOEQ0REVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de GALVIUSTECH.  ¡No queremos que te quedes sin tu módem Wi-Fi! 📶🔥  Estamos organizando los pedidos y las unidades disponibles pueden agotarse.  🎁 Recuerda que tienes: 🚚 ENVÍO GRATIS. 💵 PAGO CONTRAENTREGA. 📦 Recibes y pagas al momento de la entrega.  ¡Aprovecha la disponibilidad actual!  Solo necesitamos tus datos para dejar tu pedido listo. ❤️  *¿Te reservamos tu módem?*",
+        "fecha": "2026-10-31T19:33:00.681Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQjAzMjk3N0FFRjM4MkQyNkQ1AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -16127,7 +16134,7 @@
       "telefono": "573174885199",
       "departamento": "Atlantico"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -16138,10 +16145,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
