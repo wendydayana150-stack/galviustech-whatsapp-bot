@@ -3,8 +3,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-10-31T21:24:50.695Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-31T21:25:06.681Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,9 +118,21 @@
         "fecha": "2026-10-31T21:24:49.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSMDc2NjNFREVEMUI3OEI5OTY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En cravo norte Arauca",
+        "fecha": "2026-10-31T21:25:05.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, tarjeta con link de pago, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-31T21:25:05.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSQkVFNEQ2RUNEQzFCOTFGMzM2AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -129,7 +141,8 @@
       "departamento": "Arauca",
       "direccion": "Recoge en oficina de la transportadora",
       "nombreCliente": "Jesús Ricardo gaitán Rodríguez",
-      "celular": "3227573425"
+      "celular": "3227573425",
+      "ciudad": "En cravo norte Arauca"
     },
     "pausado": false,
     "etapaManual": null,
