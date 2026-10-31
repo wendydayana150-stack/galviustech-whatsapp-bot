@@ -40742,8 +40742,8 @@
     "telefono": "573244255330",
     "nombre": "yuleleon",
     "primerContacto": "2026-10-29T02:21:18.944Z",
-    "ultimoContacto": "2026-10-29T17:17:07.597Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-31T15:18:56.278Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -40860,13 +40860,20 @@
         "fecha": "2026-10-29T17:17:06.592Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ0MjU1MzMwFQIAERgSQUQ3MzJFREM2N0RFODA3NUZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola yuleleon, sobre Modem 4G/5G",
+        "fecha": "2026-10-31T15:18:55.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0MjU1MzMwFQIAERgSMUJEMjlFQ0NENkI0MDkxMEIyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -40875,9 +40882,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
