@@ -2262,8 +2262,8 @@
     "telefono": "573206572176",
     "nombre": "JORGE MARIO MENDOZA VILLA",
     "primerContacto": "2026-10-31T14:56:38.544Z",
-    "ultimoContacto": "2026-10-31T15:00:37.317Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T16:09:38.529Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2387,6 +2387,18 @@
         "fecha": "2026-10-31T16:08:20.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSNzNFRDgwMTA2RDlBNDJBNTQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ella giene scaner",
+        "fecha": "2026-10-31T16:09:35.238Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM no tiene escáner, solo imprime en blanco y negro sin tinta.\n\nEs ideal para imprimir documentos, trabajos o facturas desde tu celular de forma rápida y práctica.\n\nSi necesitas escanear, te puedo ayudar a buscar otra solución, ¿quieres? ¿O prefieres seguir con la Impresora NETUM para imprimir?\n\n¿Quieres que te la deje lista ya para envío? ¿A qué dirección te la envío?",
+        "fecha": "2026-10-31T16:09:37.470Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2NTcyMTc2FQIAERgSMzkxNEEzQ0UxMTM5QTc1QUYzAA=="
       }
     ],
     "paso": "conversando",
@@ -2402,8 +2414,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
