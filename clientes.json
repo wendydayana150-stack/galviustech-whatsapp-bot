@@ -2947,8 +2947,8 @@
     "telefono": "573195892728",
     "nombre": "Flor Milena Martinez",
     "primerContacto": "2026-10-31T14:07:30.589Z",
-    "ultimoContacto": "2026-10-31T14:07:30.589Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T15:32:26.415Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2995,10 +2995,27 @@
         "fecha": "2026-10-31T15:09:28.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk1ODkyNzI4FQIAERgSNUQyMTFFN0M1NDA2QUU5RjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, la quiero",
+        "fecha": "2026-10-31T15:32:25.164Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-10-31T15:32:25.384Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk1ODkyNzI4FQIAERgSMTU4RDk1MjFDNEEwRjREMzQ0AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573195892728"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -3010,8 +3027,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
