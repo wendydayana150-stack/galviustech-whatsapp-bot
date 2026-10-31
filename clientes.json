@@ -6789,8 +6789,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:30:36.959Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-10-31T19:17:23.022Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7024,6 +7024,13 @@
         "fecha": "2026-10-31T15:30:36.017Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMzBEMUM0QkQ0RjFERkEwMEYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Si señor, recibimos pago a Cuenta NU, Bancolombia, Nequi, Daviplata, BRE-B",
+        "fecha": "2026-10-31T19:17:21.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMzNCQzk5RTQ3N0MxM0Q2MkIwAA=="
       }
     ],
     "paso": "conversando",
@@ -7034,7 +7041,7 @@
       "telefono": "573185191551",
       "medioPago": "tarjeta"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
