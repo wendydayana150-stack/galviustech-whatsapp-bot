@@ -2903,6 +2903,15 @@ function municipioUnico(texto, departamento) {
       const r = envios99.buscarMunicipio(texto, departamento || "");
       return r.length === 1 ? { ciudad: tituloMunicipio(r[0].municipio), departamento: deptoDesdeDane(r[0].departamento) } : null;
 }
+// 31-oct-2026 (caso Laura Maria Ortega Gomez): "Ortega" es un municipio del Tolima y su nombre completo quedo como la
+// ciudad. En una linea suelta solo se toma como municipio si el nombre del municipio es casi toda la linea.
+function municipioDeLinea(linea, departamento) {
+      const muni = municipioUnico(linea, departamento);
+      if (!muni) return null;
+      const norm = (t) => String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase().replace(/[^a-z ]/g, "").trim();
+      const resto = norm(linea).replace(norm(muni.ciudad), "").replace(norm(muni.departamento), "").replace(/\b(municipio|ciudad|de|del|en)\b/g, "").trim();
+      return resto.length <= 3 ? muni : null;
+}
 function datosPorLineas(texto) {
       const lineas = String(texto || "").split(/\n+/).map((l) => l.trim()).filter(Boolean);
       const datos = {};
@@ -2931,7 +2940,7 @@ function datosPorLineas(texto) {
                   if (muni && !datos.ciudad) datos.ciudad = muni.ciudad;
                   continue;
             }
-            const muni = l.split(/\s+/).length <= 4 ? municipioUnico(l, "") : null;
+            const muni = l.split(/\s+/).length <= 4 ? municipioDeLinea(l, "") : null;
             if (muni) {
                   if (!datos.ciudad) datos.ciudad = muni.ciudad;
                   if (!datos.departamento && muni.departamento) datos.departamento = muni.departamento;
