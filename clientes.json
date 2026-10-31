@@ -70,8 +70,8 @@
     "telefono": "573113809839",
     "nombre": "Amanda Libreros",
     "primerContacto": "2026-10-31T23:28:37.923Z",
-    "ultimoContacto": "2026-10-31T23:28:37.923Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T23:37:13.516Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,6 +111,18 @@
         "fecha": "2026-10-31T23:28:36.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzODA5ODM5FQIAERgSMUVDN0E5N0EyNzA3QjdCN0Q1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas o documentos",
+        "fecha": "2026-10-31T23:37:10.390Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para tareas y documentos te recomiendo la *Impresora Térmica Portátil NETUM*. \n\n🔥 Imprime sin tinta, ahorro seguro. \n👜 Súper portátil, cabe en la mochila, mide 27.5 x 6.5 x 5 cm.\n📲 Imprime fácil desde tu celular por Bluetooth.\nLa inversión es de *$249.900 con envío GRATIS* y pagas al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad estás para coordinar el envío?",
+        "fecha": "2026-10-31T23:37:12.537Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzODA5ODM5FQIAERgSNTVGQjgwODg2ODkwQjUxMTNCAA=="
       }
     ],
     "paso": "conversando",
@@ -124,7 +136,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2131065834158705",
