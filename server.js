@@ -491,7 +491,7 @@ const CATEGORIA_INFO = {
       impresora: {
             titulo: "IMPRESORA TERMICA",
             emoji: "🖨️",
-            palabras: ["impresora", "imprimir"],
+            palabras: ["impresora", "imprimir", "copiadora", "fotocopiadora", "fotocopia", "sin tinta"],
             resumen: null,
             pregunta: "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
       },
@@ -988,8 +988,10 @@ await enviarTexto(telefono, instrucciones);
 
 function detectarPreguntaFotos(texto) {
       const t = texto.toLowerCase();
+      // 31-oct-2026 (caso Benjamin): "Fotocopiadora" contiene "foto" y Michell le mando fotos del modem. Solo cuenta la
+      // palabra foto/fotos/fotico, no fotocopia/fotocopiadora.
       return (
-            t.includes("foto") ||
+            /\bfot(o|os|ico|icos|ito|itos)\b/.test(t) ||
             t.includes("imagen") ||
             t.includes("imágen") ||
             t.includes("como se ve") ||
@@ -2833,8 +2835,16 @@ function datosDichosEnConversacion(sesion) {
             // LA CIUDAD NUNCA SE DEDUCE de la charla (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
             // vereda...? ¿para tu hogar?" respondio "Hogar" y quedo Ciudad: Hogar, sin preguntarsela). Siempre se
             // le pregunta en el paso pedido_ciudad y se guarda lo que ella responda.
+            // 31-oct-2026 (caso Benjamin): "Por coordinadora no me la envie" quedo como "Recoge en oficina de Coordinadora"
+            // aunque despues dio su direccion. Solo cuenta si quiere recoger (no si lo niega) y una direccion lo reemplaza.
+            if (/\b(cra|cr|kr|carrera|calle|cl|cll|diagonal|dg|transversal|tv|mz|manzana|avenida|av)\b\.?\s*\d|#\s*\d/i.test(texto)) {
+                  datos.direccion = texto;
+                  continue;
+            }
             const oficina = texto.match(/interrap\w*|inter\s*rap\w*|internet\s*r[aá]pid\w*|coordinadora|servientrega/i);
-            if (oficina || (/oficina/i.test(texto) && /(recog|oficina)/i.test(preguntaBot + texto))) {
+            const niega = /\bno\b[^.]{0,30}(interrap|inter\s*rap|coordinadora|servientrega|oficina)|(interrap|coordinadora|servientrega)[^.]{0,30}\bno\b/i.test(texto);
+            const quiereRecoger = /(recog|retir|oficina|la busco|voy por)/i.test(texto);
+            if (!niega && ((oficina && quiereRecoger) || (/oficina/i.test(texto) && /(recog|oficina)/i.test(preguntaBot + texto)))) {
                   const empresa = oficina ? (/inter/i.test(oficina[0]) ? "Interrapidísimo" : oficina[0][0].toUpperCase() + oficina[0].slice(1).toLowerCase()) : "la transportadora";
                   datos.direccion = `Recoge en oficina de ${empresa}`;
             }
