@@ -83,8 +83,8 @@
     "telefono": "573107892292",
     "nombre": "𝓐𝓖𝓤𝓘𝓡𝓡𝓔",
     "primerContacto": "2026-10-31T19:41:26.468Z",
-    "ultimoContacto": "2026-10-31T19:45:43.849Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-10-31T19:45:55.601Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -344,9 +344,21 @@
         "fecha": "2026-10-31T19:45:42.902Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSQkMzOTY4N0YyRkI5ODIwRTgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A interrapidisimo nomás oficina",
+        "fecha": "2026-10-31T19:45:54.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, tarjeta con link de pago, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-31T19:45:54.622Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSNjlBNUVDQTVCRjM2RENGQTk1AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -355,7 +367,9 @@
       "departamento": "Putumayo",
       "nombreCliente": "ESTEBAN aguirre",
       "celular": "3107892292",
-      "ciudad": "Putumayo la dorada"
+      "ciudad": "Putumayo la dorada",
+      "direccion": "A interrapidisimo nomás oficina",
+      "barrio": "No aplica (recoge en oficina)"
     },
     "pausado": false,
     "etapaManual": null,
