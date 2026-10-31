@@ -2794,7 +2794,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             ayuda: "Puedes pagar *contraentrega* (al recibir), por *transferencia* o con *Sistecrédito* a cuotas 😊",
             paso: "pedido_pago",
             tipo: "pago",
-            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, tarjeta con link de pago, Sistecrédito a cuotas u otro)",
             mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
       },
       {
@@ -3158,6 +3158,12 @@ async function finalizarPedidoSesion(telefono) {
                   if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
                   }
+                  // Tarjeta (31-oct-2026, Wendy: "si, con link de pago"): el link lo envia el equipo; se marca para atencion.
+                  if (/tarjeta|cr[eé]dito|d[eé]bito|\bnu\b|link/i.test(pedidoAGuardar.medioPago || "") && !esPagoSistecredito(pedidoAGuardar.medioPago)) {
+                        await enviarTexto(telefono, "💳 *Pago con tarjeta*\n\nEn unos minutos te enviamos por aquí el *link de pago* para que pagues con tu tarjeta de crédito o débito (incluida Nu). Apenas se confirme el pago, despachamos tu pedido 📦");
+                        sesion.necesitaAtencion = true;
+                        sesion.motivoAtencion = `Pedido con pago con TARJETA: enviar el link de pago al cliente (${pedidoAGuardar.nombreProducto}).`;
+                  }
                   if (esPagoSistecredito(pedidoAGuardar.medioPago)) {
                         await enviarTexto(telefono, config.mensajeSistecredito);
                         marcarSistecredito(sesion, pedidoAGuardar);
@@ -3329,7 +3335,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
       const piden = faltantes
             .map((d) =>
                   d.campo === "medioPago"
-                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia, Nequi o Sistecrédito (a cuotas)"
+                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia, Nequi, tarjeta (link de pago) o Sistecrédito (a cuotas)"
                         : `• *${ETIQUETAS_CAMPOS_PEDIDO[d.campo]}*`
             )
             .join("\n");
