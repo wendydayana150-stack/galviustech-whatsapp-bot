@@ -226,8 +226,8 @@
     "telefono": "573135579467",
     "nombre": "benjaminblancorivero313",
     "primerContacto": "2026-10-31T17:03:15.744Z",
-    "ultimoContacto": "2026-10-31T17:12:10.814Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-31T17:13:59.422Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -445,10 +445,37 @@
         "fecha": "2026-10-31T17:12:09.760Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSRDNBRjQwNDczQzMwQjFFN0UzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Benjamín Eduardo blanco rivero cr 13# 25_18 barrio el bolsillo ovejas sucre tel 3122729048",
+        "fecha": "2026-10-31T17:13:56.087Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, @Benjamín Eduardo Blanco Rivero, te dejo el pedido listo con esa dirección en Ovejas, Sucre y tu celular 3122729048.\n\nEl *Módem WiFi Portátil 4G* a *$169.900 + $26.000 de envío*, pagas al recibir y con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Prefieres pagar contra entrega o por transferencia?",
+        "fecha": "2026-10-31T17:13:57.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSQjA3NDI5MDVCMjE4NEVDRThDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 169.900) 🙌 Ya tengo tu celular, tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-31T17:13:58.341Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSM0ZBMjBFMzZBOEVDMUNGQTg2AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 169900,
+      "telefono": "573135579467",
+      "departamento": "Sucre",
+      "direccion": "Recoge en oficina de Coordinadora",
+      "celular": "3122729048"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
