@@ -226,8 +226,8 @@
     "telefono": "573135579467",
     "nombre": "benjaminblancorivero313",
     "primerContacto": "2026-10-31T17:03:15.744Z",
-    "ultimoContacto": "2026-10-31T17:15:01.095Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-31T17:15:14.730Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -476,9 +476,21 @@
         "fecha": "2026-10-31T17:14:59.894Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSMzAwNEU2NEU2RjYyMDVENkZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ovejas sucre",
+        "fecha": "2026-10-31T17:15:13.555Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-31T17:15:13.557Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSMThFMTQ0MUJBMEE1NDI5QzNBAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -487,7 +499,8 @@
       "departamento": "Sucre",
       "direccion": "Recoge en oficina de Coordinadora",
       "celular": "3122729048",
-      "nombreCliente": "Benjamín Eduardo blanco rivero"
+      "nombreCliente": "Benjamín Eduardo blanco rivero",
+      "ciudad": "Ovejas sucre"
     },
     "pausado": false,
     "etapaManual": null,
