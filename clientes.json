@@ -3,8 +3,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-10-31T21:28:58.163Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-31T21:29:04.726Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -194,6 +194,18 @@
         "fecha": "2026-10-31T21:28:40.712Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSODkyQ0EyMjUwOTRBMzZFNUZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Espero la guía",
+        "fecha": "2026-10-31T21:29:02.473Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tu pedido está registrado y en proceso de despacho. Llega en 1 a 3 días hábiles después de despachado.\n\nEn cuanto salga te enviaré el número de guía por este chat para que lo puedas rastrear tranquilo.\n\nMientras tanto, ¿quieres que te ayude con la configuración o cualquier otra duda? 😊",
+        "fecha": "2026-10-31T21:29:03.690Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSMDk0NjNFQ0IwQUZGNDVFMzQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -204,7 +216,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
