@@ -5228,8 +5228,8 @@
     "telefono": "573113012798",
     "nombre": "vivas yola",
     "primerContacto": "2026-10-31T17:16:15.898Z",
-    "ultimoContacto": "2026-10-31T17:16:15.898Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T19:56:56.316Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5270,6 +5270,18 @@
         "fecha": "2026-10-31T19:18:22.344Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMDEyNzk4FQIAERgSMTY5NzA1RkQ2Q0JFNDNGM0ZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ninguna",
+        "fecha": "2026-10-31T19:56:54.264Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, sin problema 😊\n\n¿Te gustaría contarme para qué necesitas algún equipo o qué necesitas solucionar? Así te puedo recomendar justo lo que te va a servir y ahorrar tiempo.\n\n¿Buscas internet, impresión, iluminación, seguridad o algo más? Cuéntame un poco para ayudarte mejor.",
+        "fecha": "2026-10-31T19:56:55.340Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMDEyNzk4FQIAERgSQTZCNzM5Q0I3MUExMkNGRTQzAA=="
       }
     ],
     "paso": "conversando",
@@ -5285,9 +5297,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
