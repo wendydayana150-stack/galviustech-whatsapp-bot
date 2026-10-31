@@ -42497,8 +42497,8 @@
     "telefono": "573003947137",
     "nombre": "Luis Barranco",
     "primerContacto": "2026-10-29T01:22:22.595Z",
-    "ultimoContacto": "2026-10-29T17:43:23.962Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:23:44.822Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42545,6 +42545,13 @@
         "fecha": "2026-10-29T17:43:18.638Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzOTQ3MTM3FQIAERgSQ0IyRjFCMjhDRTBCNzQ0NEI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luis Barranco, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:23:41.128Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzOTQ3MTM3FQIAERgSMzVDOEE1NDY1MTM2RkYzQkYxAA=="
       }
     ],
     "paso": "conversando",
@@ -42560,9 +42567,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
