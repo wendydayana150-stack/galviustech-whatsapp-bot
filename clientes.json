@@ -3,8 +3,8 @@
     "telefono": "573161249685",
     "nombre": "La Marca",
     "primerContacto": "2026-10-31T21:41:23.896Z",
-    "ultimoContacto": "2026-10-31T21:41:23.896Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T21:44:03.562Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,20 +51,62 @@
         "fecha": "2026-10-31T21:41:22.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYxMjQ5Njg1FQIAERgSNzczODcwNzU5ODA4MTM1RUY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precios",
+        "fecha": "2026-10-31T21:43:58.172Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T21:44:00.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYxMjQ5Njg1FQIAERgSODMwOEMxQ0I5M0IxMjc2ODZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-31T21:44:01.178Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYxMjQ5Njg1FQIAERgSMTA3Rjc1NTdEOEVGN0Y1NDgyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-31T21:44:01.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYxMjQ5Njg1FQIAERgSNUE5OEQ0RjI0MUYzREQ0NDc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-31T21:44:02.421Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento:\n\nLos módems portátiles tienen buena cobertura, ideales para fincas, veredas o si te mueves mucho, porque puedes conectar varios dispositivos y llevar internet contigo sin depender de fibra ni instalaciones.\n\nLa inversión sería:\n- Modem WiFi Portátil 4G: *$169.900* + $26.000 de envío\n- Modem WiFi Portátil 4G/5G: *$189.900* + $26.000 de envío (la más recomendada porque funciona donde haya 4G o 5G)\n- Modem WiFi Portátil 5G: *$199.900* + $26.000 de envío (la más rápida, si en tu zona hay buena señal 5G)\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o para qué lo necesitarías, para estudiar, trabajar, tu negocio o para el hogar? Así te ayudo a elegir el ideal.",
+        "fecha": "2026-10-31T21:44:02.425Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYxMjQ5Njg1FQIAERgSNjgzODFCMUUxMUFFOUM3ODREAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.4071146663182149",
