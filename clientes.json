@@ -3,8 +3,8 @@
     "telefono": "573135581358",
     "nombre": "jaime hernandez",
     "primerContacto": "2026-10-31T19:05:27.489Z",
-    "ultimoContacto": "2026-10-31T19:05:27.489Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T19:05:42.514Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-31T19:05:26.578Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTgxMzU4FQIAERgSNDdCNzgzNThGMzEyMzk3RDQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que cuesta",
+        "fecha": "2026-10-31T19:05:39.777Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro Jaime, ¿me dices cuál producto te interesa para darte el precio con detalles? ¿Quieres saber sobre un módem, una impresora, lámparas, cámaras o algún otro? Así te cuento bien la inversión y beneficios. ¿Cuál buscas?",
+        "fecha": "2026-10-31T19:05:41.539Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTgxMzU4FQIAERgSNzlBNUNEMkIwQjFGNDMyMzZEAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1309524107932027",
