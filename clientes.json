@@ -3,8 +3,8 @@
     "telefono": "573108082748",
     "nombre": "Enriko",
     "primerContacto": "2026-10-31T15:17:47.748Z",
-    "ultimoContacto": "2026-10-31T15:17:47.748Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T15:19:51.728Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,20 +51,35 @@
         "fecha": "2026-10-31T15:17:46.870Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MDgyNzQ4FQIAERgSOEI2MUE0RUFEMEI3RjBGMkREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesita inminentemente tarjeta SIM ?",
+        "fecha": "2026-10-31T15:19:48.774Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem necesita una SIM de cualquier operador en Colombia para funcionar (Claro, Movistar, Tigo, WOM). \n\n🍀 Eso te da la libertad de usar la que mejor te convenga o la que ya tengas.\n\nPor cierto, ¿en qué municipio o vereda lo vas a usar y para qué principalmente? Así te ayudo a elegir el mejor modelo para ti.",
+        "fecha": "2026-10-31T15:19:50.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MDgyNzQ4FQIAERgSOUQ0MTY5MDJCRTBFODZBNTgzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573219470683",
