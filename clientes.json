@@ -3,8 +3,8 @@
     "telefono": "573102462802",
     "nombre": "Mónica Urquiza",
     "primerContacto": "2026-10-31T18:57:35.974Z",
-    "ultimoContacto": "2026-10-31T18:57:35.974Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T18:58:28.334Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,6 +51,18 @@
         "fecha": "2026-10-31T18:57:34.904Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNDYyODAyFQIAERgSRURCQkYzNDU3QkQ4QzU5MDkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Arenal sur de bolivar",
+        "fecha": "2026-10-31T18:58:25.581Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Arenal, Sur de Bolívar. \n\nDame un dato más: ¿Para qué necesitas el módem? ¿Estudio, trabajo, tu negocio o para la casa? Así te recomiendo el que mejor se ajusta a tu situación.\n\nMientras te cuento rápido los beneficios:\n- Internet donde no llega la fibra, sin instalación.\n- Puedes conectar varios dispositivos al WiFi.\n- Es fácil de llevar y usar.\n\n¿Me cuentas para qué lo usarías?",
+        "fecha": "2026-10-31T18:58:27.350Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNDYyODAyFQIAERgSODRBMUFDOTE3ODM3NkI5QTk3AA=="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573202159442",
