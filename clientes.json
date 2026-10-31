@@ -3,8 +3,8 @@
     "telefono": "573122435841",
     "nombre": "jarminto quiñones",
     "primerContacto": "2026-10-31T12:41:18.348Z",
-    "ultimoContacto": "2026-10-31T12:41:18.348Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T12:49:59.148Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,20 +51,35 @@
         "fecha": "2026-10-31T12:41:17.403Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDM1ODQxFQIAERgSRDU2RDlCNkY4QjQyMDUyNEJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Viene así como está, hay con bluetooth",
+        "fecha": "2026-10-31T12:49:55.595Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem WiFi portátil 4G/5G viene listo para usar, solo le pones la SIM y ya.\n\nSobre Bluetooth, estos módems inalámbricos no usan Bluetooth para compartir internet, sino WiFi, que conecta hasta 10 dispositivos a la vez.\n\nImagínate tener internet estable en tu casa, finca o donde sea sin depender del celular y con mejor señal que un móvil común.\n\n¿En qué zona o municipio lo usarías para recomendarte el mejor modelo para tu cobertura?",
+        "fecha": "2026-10-31T12:49:58.104Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDM1ODQxFQIAERgSMzQxREVCOUVBQzI4NzEwNTMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102955646",
