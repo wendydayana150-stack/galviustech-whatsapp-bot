@@ -6197,8 +6197,8 @@
     "telefono": "573145404827",
     "nombre": "Esto Si Es Unico Amor",
     "primerContacto": "2026-10-31T18:28:41.720Z",
-    "ultimoContacto": "2026-10-31T21:37:29.913Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T21:37:33.162Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6278,6 +6278,18 @@
         "fecha": "2026-10-31T21:37:29.022Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSQUJFNDY3MENDMTM5MUUzRTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puede uno hablar con un asesor",
+        "fecha": "2026-10-31T21:37:31.206Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que quieras hablar con un asesor directamente. Ya le di aviso a mi equipo para que te dé seguimiento personalizado en breve y te ayude con todo lo que necesites. ¿Quieres que te comparta mientras la info de los modems WiFi portátiles para que veas las opciones? Así aprovechas y avanzamos. ¿En qué municipio o vereda lo necesitas? 😊",
+        "fecha": "2026-10-31T21:37:32.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSODJBMjY4RjJERkU2MjRFNEI1AA=="
       }
     ],
     "paso": "conversando",
@@ -6286,8 +6298,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Puede uno hablar con un asesor\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
