@@ -3,8 +3,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-10-31T21:21:45.566Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-31T21:22:46.993Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,10 +75,36 @@
         "fecha": "2026-10-31T21:21:44.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSQTZEQTkxOTA3RTg2RUEwMDNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En oficina de cravo norte Arauca",
+        "fecha": "2026-10-31T21:22:43.344Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, te dejo la impresora lista para envío a la oficina de Interrapidísimo en Cravo Norte, Arauca.\n\nENVÍO GRATIS y llega en 1 a 3 días hábiles después del despacho.\n\nTe ayudo a dejar el pedido listo para que solo esperes a que llegue. ¿Me confirmas si quieres pagar contraentrega o por transferencia?",
+        "fecha": "2026-10-31T21:22:45.005Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSOUJCMEE5NDYyNjhENjAyQTkxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-31T21:22:45.887Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSNjgwMEJDQTUyNEU4NTM3Qzk4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573103789693",
+      "departamento": "Arauca",
+      "direccion": "Recoge en oficina de la transportadora"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
