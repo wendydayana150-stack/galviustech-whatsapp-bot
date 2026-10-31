@@ -3,8 +3,8 @@
     "telefono": "573156361122",
     "nombre": "Ruth",
     "primerContacto": "2026-10-31T14:26:00.623Z",
-    "ultimoContacto": "2026-10-31T14:26:00.623Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T14:27:40.309Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,52 @@
         "fecha": "2026-10-31T14:25:59.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSQjk1RTg3MzQ3NEI3RjQwNkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprimir imágenes religiosas plantillas y transferir de a vela",
+        "fecha": "2026-10-31T14:27:37.094Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-10-31T14:27:37.096Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T14:27:37.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSMjA1MTBEMkNEODQ3MzUyODJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T14:27:37.704Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSRUJFNTNBMzU5M0MxRUU1RDcxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T14:27:38.181Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSMUNCN0U4OTUwRkU1NUQ3MDI2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T14:27:38.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSOTMzNTI3MDhFOTQ5RDBDMTBEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T14:27:39.226Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSQjNBRTU1MkU2RjYxMDIwMTA0AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +103,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225949837",
