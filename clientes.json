@@ -3926,8 +3926,8 @@
     "telefono": "573102987185",
     "nombre": "Jhon Arbelaez",
     "primerContacto": "2026-10-31T18:48:28.715Z",
-    "ultimoContacto": "2026-10-31T18:48:28.715Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T21:09:21.965Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3968,13 +3968,59 @@
         "fecha": "2026-10-31T20:56:37.590Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSOUVBMUE4NzdBMTdFMjI5ODRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene fotos de los productos",
+        "fecha": "2026-10-31T21:09:18.578Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-10-31T21:09:18.580Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T21:09:18.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSNjYzRDU4RUExQ0I1ODMyMThCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T21:09:19.426Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSRTlDQjc2MEJERDE0Rjc0NTcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T21:09:19.919Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSNDk1RTJFOUJCOUJBQ0JERjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T21:09:20.484Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSNDRCRTIyOTUwNDdGQTk0QzEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T21:09:21.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTg3MTg1FQIAERgSQTlBNDVBQjlBRDFBNjJDODNCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -3983,10 +4029,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true,
-      "ultimoEnvio": "2026-10-31T20:56:54.246Z"
+      "seguimientosEnviados": 0
     }
   },
   {
