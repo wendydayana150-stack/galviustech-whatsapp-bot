@@ -3770,8 +3770,8 @@
     "telefono": "573216091676",
     "nombre": "Yurleida",
     "primerContacto": "2026-10-29T15:34:22.207Z",
-    "ultimoContacto": "2026-10-31T00:10:27.545Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-10-31T00:10:44.842Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "bot",
@@ -3954,9 +3954,21 @@
         "fecha": "2026-10-31T00:10:26.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSNUM5RDdCQkVDMUIwREM3NUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es para revibir",
+        "fecha": "2026-10-31T00:10:43.792Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-10-31T00:10:43.794Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSM0UwN0RCQkFFMjUwODcxMUM5AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -3966,7 +3978,8 @@
       "celular": "3225701835",
       "departamento": "Choco",
       "ciudad": "bojaya",
-      "direccion": "vereda alfonsolopez"
+      "direccion": "vereda alfonsolopez",
+      "barrio": "Es para revibir"
     },
     "pausado": false,
     "etapaManual": null,
