@@ -368,8 +368,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:30:25.466Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-31T15:30:30.134Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -565,9 +565,28 @@
         "fecha": "2026-10-31T15:30:24.472Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRUU3ODZCMDg4QUNGMDk2QUI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-31T15:30:27.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! Aquí estaré cuando quieras avanzar con tu pedido o si tienes alguna otra consulta.\n\nRecuerda que la Impresora NETUM tiene envío gratis y garantía de 30 días, perfecta para imprimir sin tinta y donde quieras.\n\n¿Quieres que te deje preparada la orden para que no la pierdas?",
+        "fecha": "2026-10-31T15:30:28.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRkI5MDk1NkQwMzVDQjU0QkZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T15:30:29.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRUQ2Qjk1NDUxRDZCMEFDQjQ1AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
