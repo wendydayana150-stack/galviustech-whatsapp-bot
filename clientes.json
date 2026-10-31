@@ -42575,8 +42575,8 @@
     "telefono": "573113698748",
     "nombre": "Lanza",
     "primerContacto": "2026-10-29T01:19:26.056Z",
-    "ultimoContacto": "2026-10-29T17:44:30.108Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:23:58.025Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -42616,13 +42616,20 @@
         "fecha": "2026-10-29T17:44:29.017Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNjk4NzQ4FQIAERgSQzhCQTJGMEY0QTE0NjZFRjAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Lanza, sobre Modem 4G/5G",
+        "fecha": "2026-10-31T15:23:56.619Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNjk4NzQ4FQIAERgSNUFDQzYzOUExQTk5MjFFMzY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -42631,9 +42638,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
