@@ -226,8 +226,8 @@
     "telefono": "573135579467",
     "nombre": "benjaminblancorivero313",
     "primerContacto": "2026-10-31T17:03:15.744Z",
-    "ultimoContacto": "2026-10-31T17:13:59.422Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-31T17:15:01.095Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -464,9 +464,21 @@
         "fecha": "2026-10-31T17:13:58.341Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSM0ZBMjBFMzZBOEVDMUNGQTg2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Benjamín Eduardo blanco rivero",
+        "fecha": "2026-10-31T17:14:59.890Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-31T17:14:59.894Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSMzAwNEU2NEU2RjYyMDVENkZGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -474,7 +486,8 @@
       "telefono": "573135579467",
       "departamento": "Sucre",
       "direccion": "Recoge en oficina de Coordinadora",
-      "celular": "3122729048"
+      "celular": "3122729048",
+      "nombreCliente": "Benjamín Eduardo blanco rivero"
     },
     "pausado": false,
     "etapaManual": null,
