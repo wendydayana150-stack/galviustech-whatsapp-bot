@@ -126,8 +126,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:21:45.096Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T15:24:58.739Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -167,6 +167,45 @@
         "fecha": "2026-10-31T15:21:44.175Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQTk0RTNDNTY3QjIxRThDM0I3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ustedes reciben pago con tarjeta nu",
+        "fecha": "2026-10-31T15:24:54.126Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T15:24:55.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSREI5RTJBMkM1MzUyMDEyNDg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T15:24:56.409Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNkJFNEE0NEY1MEMyNDQ1MjRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-10-31T15:24:56.983Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNEM0M0E1RkMxQTUzNDBBOUEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-10-31T15:24:57.553Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, recibimos pago con tarjeta además de contraentrega, transferencia y Sistecredito para que pagues como prefieras.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTe recuerdo que la Impresora NETUM cuesta *$249.900* con envío gratis y regalo de papel para empezar. ¿Quieres que te ayude a dejar tu pedido listo para que lo recibas rápido? ¿A qué dirección te lo envío?",
+        "fecha": "2026-10-31T15:24:57.556Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRkE1RDE1NTFGRUQ1NEJGQjdGAA=="
       }
     ],
     "paso": "conversando",
@@ -180,7 +219,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108082748",
