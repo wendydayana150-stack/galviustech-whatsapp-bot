@@ -2027,8 +2027,8 @@
     "telefono": "573176575975",
     "nombre": "Esperanza Arenas",
     "primerContacto": "2026-10-31T21:16:37.284Z",
-    "ultimoContacto": "2026-10-31T21:16:37.284Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T23:26:16.095Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2075,6 +2075,18 @@
         "fecha": "2026-10-31T22:26:32.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc2NTc1OTc1FQIAERgSOUU5ODRBRDA2QzMyMUZERDFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por ahora no",
+        "fecha": "2026-10-31T23:26:13.703Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que por ahora no. ¿Hay algo puntual que te gustaría saber sobre la impresora térmica NETUM para cuando decidas? Así te dejo la info lista para ayudarte rápido. ¿Para qué la necesitarías principalmente?",
+        "fecha": "2026-10-31T23:26:15.212Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc2NTc1OTc1FQIAERgSNjcxRDlFNTQ2MTU3MDQyMDgyAA=="
       }
     ],
     "paso": "conversando",
@@ -2090,9 +2102,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-10-31T22:26:38.469Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
