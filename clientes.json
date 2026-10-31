@@ -313,8 +313,8 @@
     "telefono": "573138568062",
     "nombre": "nelsonsanchez1494",
     "primerContacto": "2026-10-31T14:28:44.167Z",
-    "ultimoContacto": "2026-10-31T14:28:44.167Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T14:31:17.847Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -361,6 +361,18 @@
         "fecha": "2026-10-31T14:28:43.288Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM4NTY4MDYyFQIAERgSOEY5QzU1REJBODZCNDc3NUFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Espero su mensaje",
+        "fecha": "2026-10-31T14:31:15.819Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres que te recomiende el módem ideal para ti. Solo dime en qué municipio o vereda lo usarás y para qué lo necesitas principalmente: ¿trabajo, estudios, hogar o negocio?\n\nAsí te puedo decir cuál de los 3 modelos es la mejor opción para ti y te paso el precio exacto con todos los beneficios. ¿Me cuentas?",
+        "fecha": "2026-10-31T14:31:16.725Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM4NTY4MDYyFQIAERgSOUFDODRGOTJCRERBOUJFRjM0AA=="
       }
     ],
     "paso": "conversando",
@@ -374,7 +386,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573156361122",
