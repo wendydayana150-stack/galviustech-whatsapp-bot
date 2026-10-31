@@ -3,8 +3,8 @@
     "telefono": "573227879393",
     "nombre": "Graciela",
     "primerContacto": "2026-10-31T22:49:06.467Z",
-    "ultimoContacto": "2026-10-31T22:49:06.467Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T22:49:20.597Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-10-31T22:49:05.544Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3ODc5MzkzFQIAERgSOUM3M0EwNkJCMkRBM0IwRTkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si imprime hojas",
+        "fecha": "2026-10-31T22:49:17.134Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la Impresora Térmica Portátil NETUM imprime hojas tamaño carta, ideal para tareas, documentos, cotizaciones y facturas. Lo mejor: imprime sin tinta, solo con papel térmico, que ya viene incluido. ¿Para qué la vas a usar principalmente, para tareas o para algo más?",
+        "fecha": "2026-10-31T22:49:19.191Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3ODc5MzkzFQIAERgSNTI5ODA3MjVBOEEwMTQyMUFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-10-31T22:49:19.755Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3ODc5MzkzFQIAERgSNzczQTc5NjhBQTA5NDgwRTVBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213822863",
