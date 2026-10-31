@@ -40664,8 +40664,8 @@
     "telefono": "573142402166",
     "nombre": "PedroG",
     "primerContacto": "2026-10-29T02:25:54.650Z",
-    "ultimoContacto": "2026-10-29T17:16:01.305Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:18:43.281Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -40712,6 +40712,13 @@
         "fecha": "2026-10-29T17:16:00.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDAyMTY2FQIAERgSRDc3QzI5NURCRTI2MEI0QjZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola PedroG, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:18:41.863Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDAyMTY2FQIAERgSOEQ3MDI3OEMwRjMwRkRCNTJDAA=="
       }
     ],
     "paso": "conversando",
@@ -40727,9 +40734,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
