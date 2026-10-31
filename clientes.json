@@ -3,8 +3,8 @@
     "telefono": "573105763807",
     "nombre": "GARZON JUAN",
     "primerContacto": "2026-10-31T23:43:19.671Z",
-    "ultimoContacto": "2026-10-31T23:43:19.671Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T23:43:28.763Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-31T23:43:18.831Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NzYzODA3FQIAERgSOUIwRDkzMTJFQzVFNzRFODZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Presio",
+        "fecha": "2026-10-31T23:43:26.601Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para darte el precio bien, dime qué producto te interesa: ¿modem, impresora, lámpara o cámara? Así te paso la inversión exacta con beneficios y envío. ¿Qué necesitas para tu uso o negocio?",
+        "fecha": "2026-10-31T23:43:27.969Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NzYzODA3FQIAERgSRkQ3QjE0NTVBQUJCN0MwNTkxAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573156311204",
