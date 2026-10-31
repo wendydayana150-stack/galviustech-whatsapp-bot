@@ -29171,8 +29171,8 @@
     "telefono": "CO.1511980417429593",
     "nombre": "Jhoncito😎😝",
     "primerContacto": "2026-10-29T06:01:54.461Z",
-    "ultimoContacto": "2026-10-31T11:24:10.416Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-31T11:24:18.307Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29309,9 +29309,21 @@
         "fecha": "2026-10-31T11:24:08.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEjdDQzQ4MjMzMzIzNUQxMTBGNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bucaramanga",
+        "fecha": "2026-10-31T11:24:17.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-10-31T11:24:17.202Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEkM2NEZGNTRFOUVFREZFMTBFNQA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -29319,7 +29331,8 @@
       "telefono": "CO.1511980417429593",
       "nombreCliente": "Tienesantana",
       "celular": "3115969207",
-      "departamento": "Santander"
+      "departamento": "Santander",
+      "ciudad": "Bucaramanga"
     },
     "pausado": false,
     "etapaManual": null,
