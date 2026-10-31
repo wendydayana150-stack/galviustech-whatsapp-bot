@@ -35012,8 +35012,8 @@
     "telefono": "CO.1511980417429593",
     "nombre": "Jhoncito😎😝",
     "primerContacto": "2026-10-29T06:01:54.461Z",
-    "ultimoContacto": "2026-10-31T11:24:27.069Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-31T19:51:13.043Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -35188,6 +35188,13 @@
         "fecha": "2026-10-31T15:09:33.412Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEjQzQTk4OTM2RUZBOUY4RjNGRQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de GALVIUSTECH.  ¡No queremos que te quedes sin tu módem Wi-Fi! 📶🔥  Estamos organizando los pedidos y las unidades disponibles pueden agotarse.  🎁 Recuerda que tienes: 🚚 ENVÍO GRATIS. 💵 PAGO CONTRAENTREGA. 📦 Recibes y pagas al momento de la entrega.  ¡Aprovecha la disponibilidad actual!  Solo necesitamos tus datos para dejar tu pedido listo. ❤️  *¿Te reservamos tu módem?*",
+        "fecha": "2026-10-31T19:51:11.864Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEkVCQkFCNjQwQzQzMzAyOEY2NAA="
       }
     ],
     "paso": "pedido_barrio",
@@ -35202,7 +35209,7 @@
       "ciudad": "Bucaramanga",
       "direccion": "Florida"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
@@ -35213,9 +35220,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
