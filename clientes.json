@@ -6247,8 +6247,8 @@
     "telefono": "573145404827",
     "nombre": "Esto Si Es Unico Amor",
     "primerContacto": "2026-10-31T18:28:41.720Z",
-    "ultimoContacto": "2026-10-31T21:40:54.381Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-31T21:40:58.493Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6422,16 +6422,29 @@
         "fecha": "2026-10-31T21:40:53.064Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSRUQ1RTg2OENDMkUwQ0VENEY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Garantia",
+        "fecha": "2026-10-31T21:40:57.735Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-31T21:40:57.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSNjVEQjg5NzY5RDczOUZCODc3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573145404827",
       "departamento": "Cordoba",
-      "direccion": "Recoge en oficina de Interrapidísimo"
+      "direccion": "Recoge en oficina de Interrapidísimo",
+      "nombreCliente": "Garantia"
     },
     "pausado": false,
     "etapaManual": null,
