@@ -1947,7 +1947,7 @@ async function enviarRecordatoriosPendientes() {
                         if (definicionFaltante) {
                               await enviarTexto(
                                     p.telefono,
-                                    config.mensajeRecordatorioPedidoPendiente(definicionFaltante.pregunta, p.tier)
+                                    mensajePedidoPendienteProducto(p.productoId, definicionFaltante.pregunta, p.tier) || config.mensajeRecordatorioPedidoPendiente(definicionFaltante.pregunta, p.tier)
                                     );
                               recordatoriosEnviadosEnProceso.add(clave);
                               continue;
@@ -6349,6 +6349,31 @@ async function reactivacionNueveAm() {
       } catch (error) {
             console.error("Error en la reactivacion de las 9 a. m.:", error.response?.data || error.message);
       }
+}
+
+// PEDIDO PENDIENTE CON EL PRODUCTO (31-oct-2026, mensaje de Wendy: "cuando el cliente dice si quiero pero no responde o
+// no envia los datos, enviar mensaje asi adaptandolo al producto"). Va en el primer y segundo recordatorio del pedido.
+function mensajePedidoPendienteProducto(productoId, preguntaFaltante, tier) {
+      const p = productoId ? catalogo.find((x) => x.id === productoId) : null;
+      if (!p || (tier !== "horas1" && tier !== "horas3")) return null;
+      const cat = String(p.categoria || (p.id.startsWith("combo-") ? "combo" : "")).toLowerCase();
+      const emoji = { impresora: "🖨️", modem: "📶", lampara: "💡", camara: "📹", reloj: "⌚", smartwatch: "⌚", combo: "🎁" }[cat] || "📦";
+      const corto = { impresora: "Impresora", modem: "Módem", camara: "Cámara", reloj: "Reloj", smartwatch: "Reloj", combo: "Combo" }[cat] || (/reflector/i.test(p.id) ? "Reflectores" : cat === "lampara" ? "Lámpara" : p.nombreCorto || p.nombre);
+      const envio = ENVIO_GRATIS_IDS.includes(p.id) ? "🚚 *ENVÍO GRATIS.*" : "🚚 *ENVÍO A TODA COLOMBIA.*";
+      const pregunta = preguntaFaltante ? `\n\n👉 ${preguntaFaltante}` : "";
+      if (tier === "horas3") {
+            const tu = /s$/i.test(corto) ? "tus" : "tu";
+            return `¡Hola de nuevo! 👋 ${tu[0].toUpperCase() + tu.slice(1)} *${corto}* ${tu === "tus" ? "siguen apartados" : "sigue apartado"}, pero quedan las *últimas unidades* 🔥\n\n💵 Pagas al recibir.${pregunta}`;
+      }
+      return (
+            "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de *GALVIUSTECH*.\n\n" +
+            `¡No queremos que te quedes sin tu *${String(p.nombre).toUpperCase()}* ${emoji}🔥\n\n` +
+            "Estamos organizando los pedidos y quedan las *últimas unidades* disponibles.\n\n" +
+            "🎁 Recuerda que tienes:\n" + envio + "\n💵 *PAGO CONTRAENTREGA.*\n📦 Recibes y pagas al momento de la entrega.\n\n" +
+            "¡Aprovecha la disponibilidad actual!\n\n" +
+            "Solo necesitamos tus datos para dejar tu pedido listo. ❤️\n\n" +
+            `¿Te reservamos ${/s$/i.test(corto) ? "tus" : "tu"} *${corto}*?` + pregunta
+      );
 }
 
 // RECUPERAR PRESENTACIONES SIN VIDEO (30-oct-2026, Wendy: "mañana a las 8am enviar las imagenes que faltaron y video a
