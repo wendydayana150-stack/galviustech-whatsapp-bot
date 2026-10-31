@@ -29171,8 +29171,8 @@
     "telefono": "CO.1511980417429593",
     "nombre": "Jhoncito😎😝",
     "primerContacto": "2026-10-29T06:01:54.461Z",
-    "ultimoContacto": "2026-10-31T11:23:48.428Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-31T11:24:10.416Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29297,16 +29297,29 @@
         "fecha": "2026-10-31T11:23:47.095Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEkE3RDczREMwQzk4MUQ1OUFDMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santander",
+        "fecha": "2026-10-31T11:24:08.987Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-31T11:24:08.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEjdDQzQ4MjMzMzIzNUQxMTBGNwA="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "CO.1511980417429593",
       "nombreCliente": "Tienesantana",
-      "celular": "3115969207"
+      "celular": "3115969207",
+      "departamento": "Santander"
     },
     "pausado": false,
     "etapaManual": null,
