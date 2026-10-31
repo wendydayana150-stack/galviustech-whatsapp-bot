@@ -214,6 +214,8 @@ function destinatario(id) {
 }
 
 async function enviarTexto(telefono, texto) {
+      // WhatsApp usa *un* asterisco para negrilla; la IA a veces escribe **doble** y el cliente ve los asteriscos (oct-2026)
+      texto = String(texto).replace(/\*\*([^*\n]+?)\*\*/g, "*$1*");
       const registro = registrarMensaje(telefono, "bot", texto);
       const cuerpo = { messaging_product: "whatsapp", ...destinatario(telefono), type: "text", text: { body: texto } };
       const opciones = { headers: { Authorization: `Bearer ${META_TOKEN}` } };
@@ -5113,13 +5115,13 @@ app.post("/admin/chat/:telefono/cerrar-venta", requiereLogin, async (req, res) =
                   let ultimoCliente = "";
                   if (sesion.historial.length && sesion.historial[sesion.historial.length - 1].role === "user") ultimoCliente = sesion.historial.pop().content;
                   const nota =
-                        "(NOTA INTERNA DEL EQUIPO, el cliente NO escribio esto. Wendy, de nuestro equipo, le dio al cliente los precios y la promocion que ves arriba en la conversacion: esos son los precios validos para este cliente aunque el producto no aparezca igual en el catalogo. Retoma tu la conversacion para cerrar la venta, en un mensaje corto y amable. " +
+                        "(NOTA INTERNA DEL EQUIPO, el cliente NO escribio esto; NUNCA menciones nombres del equipo al cliente, habla de esos mensajes como tuyos. Alguien de nuestro equipo le dio al cliente los precios y la promocion que ves arriba en la conversacion: esos son los precios validos para este cliente aunque el producto no aparezca igual en el catalogo. Retoma tu la conversacion para cerrar la venta, en un mensaje corto y amable. " +
                         (ultimoCliente ? `Lo ultimo que escribio el cliente fue: "${ultimoCliente}". ` : "") +
-                        "Si el cliente ya eligio que se lleva, agrega ACCION_PEDIDO con el producto del catalogo que corresponda. Si todavia no eligio, recuerdale en una o dos lineas las opciones que le ofrecio Wendy con su precio, preguntale cual se lleva y pidele de una vez sus datos para el envio: nombre completo, celular, departamento y ciudad, direccion completa y barrio. Recuerdale que paga al recibir. No vuelvas a saludar ni a presentarte.)";
+                        "Si el cliente ya eligio que se lleva, agrega ACCION_PEDIDO con el producto del catalogo que corresponda. Si todavia no eligio, recuerdale en una o dos lineas las opciones que se le ofrecieron con su precio, preguntale cual se lleva y pidele de una vez sus datos para el envio: nombre completo, celular, departamento y ciudad, direccion completa y barrio. Recuerdale que paga al recibir. No vuelvas a saludar ni a presentarte.)";
                   const { mensajeVisible, productoId, productoActual } = await preguntarleALaIA(sesion, nota, sesion.ultimoProducto ? { tipo: "producto", valor: sesion.ultimoProducto } : null, telefono);
                   // La nota no se queda en el historial tal cual (Michell creeria despues que el cliente la escribio)
                   const turnoNota = sesion.historial.find((h) => h.role === "user" && h.content === nota);
-                  if (turnoNota) turnoNota.content = ultimoCliente || "(El cliente esta viendo las opciones que le ofrecio Wendy)";
+                  if (turnoNota) turnoNota.content = ultimoCliente || "(El cliente esta viendo las opciones que le ofreci)";
                   if (mensajeVisible) await enviarTexto(telefono, mensajeVisible);
                   if (productoActual && catalogo.some((p) => p.id === productoActual)) sesion.ultimoProducto = productoActual;
                   if (productoId && catalogo.some((p) => p.id === productoId)) {
