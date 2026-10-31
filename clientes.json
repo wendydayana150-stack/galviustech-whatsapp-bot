@@ -3770,8 +3770,8 @@
     "telefono": "573216091676",
     "nombre": "Yurleida",
     "primerContacto": "2026-10-29T15:34:22.207Z",
-    "ultimoContacto": "2026-10-31T00:10:12.051Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-31T00:10:27.545Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "bot",
@@ -3942,9 +3942,21 @@
         "fecha": "2026-10-31T00:10:10.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSOEE1QjY5OTY4Njg4MUU0NDlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "vereda alfonsolopez",
+        "fecha": "2026-10-31T00:10:26.491Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-10-31T00:10:26.493Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSNUM5RDdCQkVDMUIwREM3NUU3AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -3953,7 +3965,8 @@
       "nombreCliente": "einformacion",
       "celular": "3225701835",
       "departamento": "Choco",
-      "ciudad": "bojaya"
+      "ciudad": "bojaya",
+      "direccion": "vereda alfonsolopez"
     },
     "pausado": false,
     "etapaManual": null,
