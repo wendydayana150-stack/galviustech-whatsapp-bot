@@ -233,8 +233,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:28:21.006Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-31T15:28:27.361Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -392,10 +392,35 @@
         "fecha": "2026-10-31T15:28:19.935Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNkVDRkE2NTg2RTQwRDg4MDAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ala carrera",
+        "fecha": "2026-10-31T15:28:23.779Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te dejo el pedido listo ya mismo para que no pierdas tiempo.\n\nSolo dime la dirección completa donde quieres que te la enviemos y cómo prefieres pagar.\n\nLa impresora NETUM a $249.900 con envío gratis y garantía de 30 días, lista para que imprimas sin tinta ni complicaciones.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Dónde te la envío?",
+        "fecha": "2026-10-31T15:28:24.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMzkzMEZBNUY5RUQ5MURDRURCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo cómo pagas, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-31T15:28:26.512Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMjZEMUE5QkY4RDFBQUNBMTU4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573185191551",
+      "medioPago": "tarjeta"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
