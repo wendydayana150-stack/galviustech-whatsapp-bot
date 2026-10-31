@@ -5362,8 +5362,8 @@
     "telefono": "573147725266",
     "nombre": "Arley Vargas",
     "primerContacto": "2026-10-31T18:19:02.636Z",
-    "ultimoContacto": "2026-10-31T18:19:02.636Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T20:50:37.576Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5431,13 +5431,25 @@
         "fecha": "2026-10-31T20:26:43.038Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NzI1MjY2FQIAERgSQkMwNEM2MzFCMDgxMzE1RDA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchísimas gracias",
+        "fecha": "2026-10-31T20:50:34.622Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto! 😊 ¿Me cuentas para qué lo necesitas? Así te recomiendo el modelo ideal para que no falles con la conexión donde lo vayas a usar. ¿Es para trabajo, estudio, viaje o para la casa?",
+        "fecha": "2026-10-31T20:50:36.403Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NzI1MjY2FQIAERgSNEVFMkZEMTAyMEI5NjVCMDU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -5446,10 +5458,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true,
-      "ultimoEnvio": "2026-10-31T20:26:46.286Z"
+      "seguimientosEnviados": 0
     }
   },
   {
