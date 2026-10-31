@@ -40890,8 +40890,8 @@
     "telefono": "573223960463",
     "nombre": "Deisy",
     "primerContacto": "2026-10-29T02:19:39.280Z",
-    "ultimoContacto": "2026-10-29T17:18:12.381Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T15:19:09.450Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -40969,6 +40969,13 @@
         "fecha": "2026-10-29T17:18:11.483Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTYwNDYzFQIAERgSRDA5QjU0N0U2RDE5NUE3NDBDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Deisy, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:19:08.228Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTYwNDYzFQIAERgSOTlGRDczNjgzNTkxMTZEMjk1AA=="
       }
     ],
     "paso": "conversando",
@@ -40984,9 +40991,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
