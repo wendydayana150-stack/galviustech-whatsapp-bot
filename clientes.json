@@ -9678,8 +9678,8 @@
     "telefono": "573133558141",
     "nombre": "😎😎😎😎😎",
     "primerContacto": "2026-10-31T15:25:40.657Z",
-    "ultimoContacto": "2026-10-31T15:25:40.657Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T20:33:21.120Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9747,6 +9747,18 @@
         "fecha": "2026-10-31T17:28:20.776Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNTU4MTQxFQIAERgSMUFDMTc4NzIxRUU3NUI0REQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "https://www.facebook.com/share/r/19hPYEoBVZ/",
+        "fecha": "2026-10-31T20:33:18.662Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No puedo abrir enlaces, pero si me cuentas qué producto o información viste ahí, con gusto te ayudo con lo que necesites. ¿Buscas un modem, algún otro equipo o información de envío?",
+        "fecha": "2026-10-31T20:33:19.826Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNTU4MTQxFQIAERgSNDBBNTc3RDkxN0M2MTcyREIzAA=="
       }
     ],
     "paso": "conversando",
@@ -9762,9 +9774,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
