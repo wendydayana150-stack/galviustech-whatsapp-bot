@@ -125,8 +125,8 @@
     "telefono": "573124121233",
     "nombre": "Cardenas Cuero",
     "primerContacto": "2026-10-31T21:48:56.587Z",
-    "ultimoContacto": "2026-10-31T21:48:56.587Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T21:58:26.864Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -173,20 +173,35 @@
         "fecha": "2026-10-31T21:48:55.696Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MTIxMjMzFQIAERgSMDc0QTA2ODI0MEUxRkY0NzBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San Miguel la dorada Putumayo",
+        "fecha": "2026-10-31T21:58:21.868Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, San Miguel La Dorada en Putumayo. ¿Para qué lo necesitas principalmente? ¿Para estudiar, trabajar, tu hogar o para tu negocio?\n\nTe recuerdo que los módems de GalviusTech tienen mejor cobertura que un celular común en zonas rurales como esa, ideal para conectarte sin depender de fibra óptica.",
+        "fecha": "2026-10-31T21:58:23.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MTIxMjMzFQIAERgSQ0Y4NDQ4NTdGQ0NDMzUzNUYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142145078",
