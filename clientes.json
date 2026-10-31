@@ -3,8 +3,8 @@
     "telefono": "573178327411",
     "nombre": "Mirian",
     "primerContacto": "2026-10-31T17:45:04.223Z",
-    "ultimoContacto": "2026-10-31T17:45:04.223Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T17:45:16.539Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-10-31T17:45:03.397Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4MzI3NDExFQIAERgSMDE2MTMzOTNFRDVDNUM2RThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio porfa",
+        "fecha": "2026-10-31T17:45:13.234Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio de la Impresora Térmica Portátil NETUM es *$249.900* con un 30% de descuento, y tiene *envío GRATIS* a toda Colombia. Esta impresora es portátil, no usa tinta, y puedes imprimir desde tu celular documentos, facturas o trabajos tamaño carta. Además tiene batería que dura hasta 30 horas, y mide 27.5 cm de largo por 6.5 cm de ancho.\n\n¿Para qué la necesitas principalmente? ¿Para imprimir trabajos, facturas o para otro uso?",
+        "fecha": "2026-10-31T17:45:15.107Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4MzI3NDExFQIAERgSRThFMjlDMjY2MDcxQzRDRUEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-31T17:45:15.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4MzI3NDExFQIAERgSNjAwOEEyNUMyQ0FBNjc0NEUxAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573150658283",
