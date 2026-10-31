@@ -3770,8 +3770,8 @@
     "telefono": "573216091676",
     "nombre": "Yurleida",
     "primerContacto": "2026-10-29T15:34:22.207Z",
-    "ultimoContacto": "2026-10-31T00:09:48.057Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-31T00:10:03.273Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "bot",
@@ -3918,16 +3918,29 @@
         "fecha": "2026-10-31T00:09:47.042Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSRDNEMzdCQ0Q4QjZFRDMyMTYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Choco bojaya",
+        "fecha": "2026-10-31T00:10:02.122Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-10-31T00:10:02.123Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSMUFBQkQyN0QzNEFBNkNCNjk2AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "573216091676",
       "nombreCliente": "einformacion",
-      "celular": "3225701835"
+      "celular": "3225701835",
+      "departamento": "Choco"
     },
     "pausado": false,
     "etapaManual": null,
