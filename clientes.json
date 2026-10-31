@@ -5164,8 +5164,8 @@
     "telefono": "18293505203",
     "nombre": "Personal.",
     "primerContacto": "2026-10-29T20:58:58.005Z",
-    "ultimoContacto": "2026-10-30T15:20:22.349Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T14:44:53.957Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "bot",
@@ -5337,6 +5337,25 @@
         "fecha": "2026-10-30T17:23:17.394Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJCRTBGNDEwQTg0ODAyMkVDQUIA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Están muy caros",
+        "fecha": "2026-10-31T14:44:44.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que el precio te preocupa, totalmente válido. 😊 \n\nPiensa que con una sola recarga en el módem conectas toda la familia, sin contratos ni instalaciones costosas. Además, en zonas sin fibra ni buen WiFi, el módem te da internet estable para que puedas trabajar, estudiar o comunicarte sin interrupciones. \n\nLa inversión del modelo 4G, el más económico, es de *$169.900 + $26.000 envío*, y dura hasta 14 horas con una carga. \n\n¿Quieres que te ayude a evaluar si te conviene según cuánto tiempo y dinero ahorras al no depender de buscar WiFi o papelerías? ¿O prefieres saber cómo pagar a cuotas con Sistecredito? \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas un poco más de para qué lo necesitas? Así te oriento mejor.",
+        "fecha": "2026-10-31T14:44:52.475Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBJFODMwMThFNTQ3MzMzRjk5REQA"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T14:44:53.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLMTgyOTM1MDUyMDMVAgARGBIzNTAyOTNBMTU0Mzk0RUVDOUQA"
       }
     ],
     "paso": "conversando",
@@ -5352,9 +5371,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
