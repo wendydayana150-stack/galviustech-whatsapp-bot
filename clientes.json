@@ -233,8 +233,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:26:16.915Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-31T15:28:05.416Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -356,6 +356,18 @@
         "fecha": "2026-10-31T15:26:15.972Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQzE5RTk0MUIwOTAxM0UzQTc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito q me dejes tiempo  q este en ma casa",
+        "fecha": "2026-10-31T15:28:02.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, lo que prefieras, quedo atenta para cuando estés en casa y puedas recibir la impresora NETUM.\n\nRecuerda que la promoción y envío gratis están vigentes por pocos días, así que cuando estés listo me escribes para ayudarte a dejar el pedido listo.\n\n¿Quieres que te recuerde la oferta más adelante o prefieres que te la reserve ya?",
+        "fecha": "2026-10-31T15:28:04.444Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRjk1QkVGOTc5NUExRUU0ODdFAA=="
       }
     ],
     "paso": "conversando",
@@ -366,7 +378,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
