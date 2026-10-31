@@ -63,8 +63,8 @@
     "telefono": "573137491601",
     "nombre": "miguelguerrero20267",
     "primerContacto": "2026-10-31T23:06:50.019Z",
-    "ultimoContacto": "2026-10-31T23:06:50.019Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T23:07:57.107Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -84,6 +84,18 @@
         "fecha": "2026-10-31T23:06:49.201Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NDkxNjAxFQIAERgSRjJGQ0UzRUIxMEVBODJDRDg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto mide de largo y cuánto de alto  y de ancho",
+        "fecha": "2026-10-31T23:07:53.965Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Para ayudarte mejor, ¿me dices a cuál producto te refieres? Por ejemplo, ¿quieres saber las medidas de la impresora, lámpara, módem, cámara o reloj? Así te doy la info exacta. ¿Cuál te interesa?",
+        "fecha": "2026-10-31T23:07:56.271Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NDkxNjAxFQIAERgSOTMxREM4NUZFN0FBQzNFODlCAA=="
       }
     ],
     "paso": "conversando",
@@ -97,7 +109,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145903690",
