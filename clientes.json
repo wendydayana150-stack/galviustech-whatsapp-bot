@@ -3,8 +3,8 @@
     "telefono": "573114625764",
     "nombre": "J.T",
     "primerContacto": "2026-10-31T21:45:40.063Z",
-    "ultimoContacto": "2026-10-31T21:45:40.063Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T21:46:33.507Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-10-31T21:45:39.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NjI1NzY0FQIAERgSRUY1NTc4M0Q0QzU2QjYyN0QwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio real",
+        "fecha": "2026-10-31T21:46:30.846Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para la Impresora Térmica Portátil NETUM es de *$249.900* con envío GRATIS y pagas al recibir. Imprime hojas tamaño carta sin tinta, es portátil y perfecta para imprimir documentos, facturas o trabajos desde el celular, sin depender de una impresora grande. ¿Para qué la necesitas principalmente, tareas, facturas o documentos?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-10-31T21:46:32.185Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NjI1NzY0FQIAERgSNkFCRDVDQjVDRkFFQTczNkQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-10-31T21:46:32.724Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NjI1NzY0FQIAERgSM0NEQ0YyMzBDNjgzN0E3RThCAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573161249685",
