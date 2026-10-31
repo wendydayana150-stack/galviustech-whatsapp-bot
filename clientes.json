@@ -41840,8 +41840,8 @@
     "telefono": "573202963682",
     "nombre": "Alfonso López Holguín",
     "primerContacto": "2026-10-29T02:06:25.238Z",
-    "ultimoContacto": "2026-10-29T17:28:02.484Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:21:11.937Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -41888,6 +41888,13 @@
         "fecha": "2026-10-29T17:28:01.498Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyOTYzNjgyFQIAERgSMzRDRjEwNkI5QkI3QjVFRjVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Alfonso López Holguín, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:21:10.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyOTYzNjgyFQIAERgSRDcwQTYzQzVBMzVGQjY5NzIzAA=="
       }
     ],
     "paso": "conversando",
@@ -41903,9 +41910,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
