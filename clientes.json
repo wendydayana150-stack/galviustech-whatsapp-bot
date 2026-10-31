@@ -41401,8 +41401,8 @@
     "telefono": "573127434173",
     "nombre": "Lius",
     "primerContacto": "2026-10-29T02:15:18.285Z",
-    "ultimoContacto": "2026-10-29T17:22:35.584Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:20:02.969Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -41449,6 +41449,13 @@
         "fecha": "2026-10-29T17:22:33.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NDM0MTczFQIAERgSMjFGRTMxNkVEODg5N0MxMTJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Lius, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:20:01.706Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NDM0MTczFQIAERgSMEMzRDZDQTQ4MkVFMUNBQ0ZCAA=="
       }
     ],
     "paso": "conversando",
@@ -41464,9 +41471,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
