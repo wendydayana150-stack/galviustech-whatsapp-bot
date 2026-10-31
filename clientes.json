@@ -83,8 +83,8 @@
     "telefono": "573107892292",
     "nombre": "𝓐𝓖𝓤𝓘𝓡𝓡𝓔",
     "primerContacto": "2026-10-31T19:41:26.468Z",
-    "ultimoContacto": "2026-10-31T19:45:03.715Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-10-31T19:45:10.755Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -277,9 +277,28 @@
         "fecha": "2026-10-31T19:45:02.916Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSQkQ1MDA2ODFCQUQzQUQ0MjcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Será que con ese si funciona",
+        "fecha": "2026-10-31T19:45:08.195Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, con toda seguridad funciona mejor que tu celular. Este módem está diseñado especialmente para lugares como La Dorada donde la señal puede ser débil o intermitente.\n\nSu antena es más potente y tiene mejor alcance, así que capta señal Claro más fuerte y estable, dándote internet continuo para estudiar, trabajar o lo que necesites.\n\n¿Quieres que te deje el pedido listo para enviártelo rápido y lo pruebes tú mismo?",
+        "fecha": "2026-10-31T19:45:09.283Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSNTk1Q0ZCNUQxQTBCMENEQTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T19:45:09.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSMzNDQTc5OTFFNDFFNzE5RTMwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
