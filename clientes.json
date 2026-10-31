@@ -958,8 +958,8 @@
     "telefono": "573224832341",
     "nombre": "YULIANA RAMIREZ",
     "primerContacto": "2026-10-31T16:12:38.417Z",
-    "ultimoContacto": "2026-10-31T16:12:38.417Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T17:16:24.549Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1006,6 +1006,18 @@
         "fecha": "2026-10-31T16:12:37.311Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODMyMzQxFQIAERgSOTI4MUZCREIwNEQ2MjAyRTY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-10-31T17:16:19.687Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊\n\nPara recomendarte el módem ideal necesito saber:\n\n📍 ¿En qué municipio o vereda lo usarás?  \n💻 ¿Lo necesitas para estudiar, trabajar, tu negocio o tu hogar?\n\nAsí te confirmo cuál modelo te conviene más según tu zona y propósito. ¿Me cuentas?",
+        "fecha": "2026-10-31T17:16:20.824Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODMyMzQxFQIAERgSOTY3RDc5MkMzOENDRkJFREZBAA=="
       }
     ],
     "paso": "conversando",
@@ -1019,7 +1031,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573209205155",
