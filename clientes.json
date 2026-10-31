@@ -4143,8 +4143,8 @@
     "telefono": "573156361122",
     "nombre": "Ruth",
     "primerContacto": "2026-10-31T14:26:00.623Z",
-    "ultimoContacto": "2026-10-31T16:30:46.017Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T16:31:42.015Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4289,6 +4289,18 @@
         "fecha": "2026-10-31T16:30:45.104Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSQTBDOUVBOTYwNTBDNjM1RUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-31T16:31:39.593Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Quedo atenta cuando quieras retomar o si tienes alguna duda más.\n\n¿Qué otra cosita te gustaría conocer para tu casa, negocio o estudio? 💡📶🖨️",
+        "fecha": "2026-10-31T16:31:40.926Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MzYxMTIyFQIAERgSNEY5NUY1OTM1NEVBRDE2NTFEAA=="
       }
     ],
     "paso": "conversando",
@@ -4299,7 +4311,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
