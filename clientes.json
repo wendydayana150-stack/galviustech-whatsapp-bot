@@ -3564,8 +3564,8 @@
     "telefono": "573175542979",
     "nombre": "Erika Camargo",
     "primerContacto": "2026-10-31T19:20:11.519Z",
-    "ultimoContacto": "2026-10-31T20:33:31.673Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-10-31T21:37:46.498Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3669,6 +3669,18 @@
         "fecha": "2026-10-31T21:36:40.594Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1NTQyOTc5FQIAERgSMEVDOENBOTlDQTZDQzM4NTdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mas adelante  yo te aviso",
+        "fecha": "2026-10-31T21:37:44.632Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Erika, quedo atenta cuando decidas. Recuerda que la promoción con el 30% de descuento es por pocos días y el envío es gratis.\n\nSi tienes dudas o quieres que te arme el pedido en cualquier momento, solo me escribes.\n\nQuedo aquí para ayudarte cuando quieras 😊",
+        "fecha": "2026-10-31T21:37:45.766Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1NTQyOTc5FQIAERgSMzQ1ODgzOTE4M0ZBMDMyMzAxAA=="
       }
     ],
     "paso": "conversando",
@@ -3679,14 +3691,12 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-10-31T21:36:45.865Z"
+      "seguimientosEnviados": 0
     }
   },
   {
