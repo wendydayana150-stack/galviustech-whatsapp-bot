@@ -3770,8 +3770,8 @@
     "telefono": "573216091676",
     "nombre": "Yurleida",
     "primerContacto": "2026-10-29T15:34:22.207Z",
-    "ultimoContacto": "2026-10-31T00:08:46.140Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-10-31T00:09:48.057Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "bot",
@@ -3906,15 +3906,28 @@
         "fecha": "2026-10-31T00:08:45.257Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSMzhEODQwNDI2NDU5RDVFNTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3225701835",
+        "fecha": "2026-10-31T00:09:47.040Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-31T00:09:47.042Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDkxNjc2FQIAERgSRDNEMzdCQ0Q4QjZFRDMyMTYyAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "573216091676",
-      "nombreCliente": "einformacion"
+      "nombreCliente": "einformacion",
+      "celular": "3225701835"
     },
     "pausado": false,
     "etapaManual": null,
