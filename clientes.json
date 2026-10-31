@@ -70,8 +70,8 @@
     "telefono": "573003986208",
     "nombre": "josedavid66a",
     "primerContacto": "2026-10-31T14:33:55.602Z",
-    "ultimoContacto": "2026-10-31T14:33:55.602Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T14:36:05.219Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,6 +111,18 @@
         "fecha": "2026-10-31T14:33:54.687Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzOTg2MjA4FQIAERgSRUJCRTY5QkJBMjIxQzJBOEQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas y documentos",
+        "fecha": "2026-10-31T14:36:02.431Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto para tareas y documentos la mejor opción es la Impresora Térmica Portátil NETUM. 🖨️✨\n\nImprime en hojas tamaño carta, sin tinta ni cartuchos, solo papel térmico que ya viene incluido. Es super compacta (27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto), fácil para llevar en el bolso o morral. La batería dura hasta 30 horas con 3 horas de carga. \n\nLa inversión es de *$249.900 con envío GRATIS* y pagas al recibir, con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te la envíe a tu ciudad o prefieres pasar por la oficina de la transportadora?",
+        "fecha": "2026-10-31T14:36:04.282Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzOTg2MjA4FQIAERgSMDdFOTQzODczMDZFQjdDQUREAA=="
       }
     ],
     "paso": "conversando",
@@ -124,7 +136,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573238866611",
