@@ -186,8 +186,8 @@
     "telefono": "573126971185",
     "nombre": "Benjamín",
     "primerContacto": "2026-10-31T17:33:44.381Z",
-    "ultimoContacto": "2026-10-31T17:33:44.381Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T17:51:14.534Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,6 +207,31 @@
         "fecha": "2026-10-31T17:33:43.225Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2OTcxMTg1FQIAERgSNDFENDI4MDNDMjg2MTMyOTQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cámara de seguridad",
+        "fecha": "2026-10-31T17:51:12.752Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Camara de Seguridad]",
+        "fecha": "2026-10-31T17:51:12.753Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "*📹 Camara de Seguridad*\n\n*Camara 5 antenas* - $ 119.900\n*Camara 3 lentes* - $ 209.900",
+        "fecha": "2026-10-31T17:51:12.754Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTcxMTg1FQIAERgSNUVEQUMyQjhBMDBFQThFMTAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-10-31T17:51:13.526Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2OTcxMTg1FQIAERgSOERFQzk3MzY4Mjg2ODE1QTVBAA=="
       }
     ],
     "paso": "conversando",
@@ -214,13 +239,16 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "camara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103789837",
