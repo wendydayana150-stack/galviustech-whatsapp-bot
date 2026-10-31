@@ -63,8 +63,8 @@
     "telefono": "573137491601",
     "nombre": "miguelguerrero20267",
     "primerContacto": "2026-10-31T23:06:50.019Z",
-    "ultimoContacto": "2026-10-31T23:07:57.107Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T23:08:27.464Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -96,13 +96,25 @@
         "fecha": "2026-10-31T23:07:56.271Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3NDkxNjAxFQIAERgSOTMxREM4NUZFN0FBQzNFODlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ala inpresora",
+        "fecha": "2026-10-31T23:08:25.303Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, como un control remoto delgado. Es compacta y fácil de llevar en el bolso o mochila.\n\n¿Para qué la necesitas? Así te explico todo lo que puede hacer para ese uso.",
+        "fecha": "2026-10-31T23:08:26.478Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3NDkxNjAxFQIAERgSRjE3NUVDOTkzNjI1QUEwNDcxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
