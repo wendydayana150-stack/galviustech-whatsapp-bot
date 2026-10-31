@@ -368,8 +368,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-10-31T15:28:27.361Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-10-31T15:30:25.466Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -546,6 +546,25 @@
         "fecha": "2026-10-31T15:28:26.512Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMjZEMUE5QkY4RDFBQUNBMTU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Listo ahora q te vaya hacer el pedido te dejo todos mis datos",
+        "fecha": "2026-10-31T15:30:22.528Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo al pendiente para cuando me envíes tus datos y así dejarte el pedido listo con la Impresora NETUM.\n\nRecuerda que llega en 1 a 3 días hábiles y puedes revisar antes de pagar.",
+        "fecha": "2026-10-31T15:30:23.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQjFFRjIwQTUwRjI5RUZERUJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-10-31T15:30:24.472Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRUU3ODZCMDg4QUNGMDk2QUI3AA=="
       }
     ],
     "paso": "pedido_nombre",
