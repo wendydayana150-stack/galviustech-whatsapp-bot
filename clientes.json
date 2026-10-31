@@ -3,8 +3,8 @@
     "telefono": "573042796358",
     "nombre": "💕💙🐼",
     "primerContacto": "2026-10-31T17:07:54.012Z",
-    "ultimoContacto": "2026-10-31T17:07:54.012Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T17:08:39.615Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-31T17:07:53.102Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNzk2MzU4FQIAERgSNDNEQTUyNDFDNkE1QkI5MDg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-10-31T17:08:35.810Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 😄 ¿Me cuentas en qué ciudad o vereda vas a usar el módem, y para qué lo necesitas? ¿Estudio, trabajo, casa o negocio? Así te ayudo a elegir el mejor modelo para ti.\n\n¿Cuál es la zona donde lo quieres usar?",
+        "fecha": "2026-10-31T17:08:36.847Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNzk2MzU4FQIAERgSM0ZDNDZEOEU4QTRFOTM5RTgwAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2209937093292862",
