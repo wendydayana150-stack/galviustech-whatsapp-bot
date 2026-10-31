@@ -212,8 +212,8 @@
     "telefono": "CO.1571482971333021",
     "nombre": "Yusleybi Sulbaran 🎀❤️‍🩹",
     "primerContacto": "2026-10-31T20:27:42.434Z",
-    "ultimoContacto": "2026-10-31T20:33:46.870Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-31T20:37:17.456Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -342,10 +342,28 @@
         "fecha": "2026-10-31T20:33:45.796Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU3MTQ4Mjk3MTMzMzAyMRUUABEYEkZENUZDNTFEMjU1MjQ1NjY2OAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-10-31T20:37:15.274Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-31T20:37:15.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU3MTQ4Mjk3MTMzMzAyMRUUABEYEkIyRTdGNjJDMkY2RjVCQzZBRAA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "CO.1571482971333021",
+      "departamento": "Magdalena"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
