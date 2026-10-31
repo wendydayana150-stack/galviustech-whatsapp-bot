@@ -6247,8 +6247,8 @@
     "telefono": "573145404827",
     "nombre": "Esto Si Es Unico Amor",
     "primerContacto": "2026-10-31T18:28:41.720Z",
-    "ultimoContacto": "2026-10-31T21:40:07.763Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-31T21:40:54.381Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6403,10 +6403,36 @@
         "fecha": "2026-10-31T21:40:06.813Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSQ0ExMzFDRjJBNzgxMjc1RTYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina interrapidisimo",
+        "fecha": "2026-10-31T21:40:51.161Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, te dejo entonces el pedido listo para envío a la oficina de Interrapidísimo en Puerto Libertador.\n\nSolo me haces saber cómo prefieres pagar: ¿contra entrega en efectivo, transferencia a Bancolombia/Nequi, tarjeta por link o Sistecredito a cuotas?",
+        "fecha": "2026-10-31T21:40:52.298Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSNDhFNzUyQzlFRjg3MDYwOUNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-10-31T21:40:53.064Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDA0ODI3FQIAERgSRUQ1RTg2OENDMkUwQ0VENEY4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 189900,
+      "telefono": "573145404827",
+      "departamento": "Cordoba",
+      "direccion": "Recoge en oficina de Interrapidísimo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
