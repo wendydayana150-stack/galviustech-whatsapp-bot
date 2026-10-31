@@ -42961,8 +42961,8 @@
     "telefono": "573115816512",
     "nombre": "Eder nisperuza",
     "primerContacto": "2026-10-29T01:41:32.561Z",
-    "ultimoContacto": "2026-10-29T17:33:34.157Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:21:52.802Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43002,13 +43002,20 @@
         "fecha": "2026-10-29T17:33:29.784Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODE2NTEyFQIAERgSMEVDMkJDODY1RjM5M0I0N0UxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Eder nisperuza, sobre Modem 4G/5G",
+        "fecha": "2026-10-31T15:21:51.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODE2NTEyFQIAERgSNDg1N0UwQjZDMTQxNzUxQkVFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -43017,9 +43024,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
