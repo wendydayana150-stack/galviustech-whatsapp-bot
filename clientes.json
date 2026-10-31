@@ -83,8 +83,8 @@
     "telefono": "573107892292",
     "nombre": "𝓐𝓖𝓤𝓘𝓡𝓡𝓔",
     "primerContacto": "2026-10-31T19:41:26.468Z",
-    "ultimoContacto": "2026-10-31T19:45:15.077Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-10-31T19:45:22.924Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -308,15 +308,28 @@
         "fecha": "2026-10-31T19:45:14.114Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSRTFFOEQ4OUM2QUQ3MEI5RUNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "ESTEBAN aguirre",
+        "fecha": "2026-10-31T19:45:21.508Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-10-31T19:45:21.525Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODkyMjkyFQIAERgSQkYyQUZCMUVFRjMyRkZFNDc5AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573107892292",
-      "departamento": "Putumayo"
+      "departamento": "Putumayo",
+      "nombreCliente": "ESTEBAN aguirre"
     },
     "pausado": false,
     "etapaManual": null,
