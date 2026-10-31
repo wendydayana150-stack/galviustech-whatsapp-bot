@@ -4522,7 +4522,10 @@ async function manejarTextoLibre(telefono, texto) {
                   }
                   // 30% DE DESCUENTO SIEMPRE (oct-2026, Wendy): todo mensaje que da un precio lo menciona. Va ANTES de
                   // la pregunta final (antes se pegaba al final y tapaba la pregunta, caso yinnetterinconrivera1973).
-                  if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible)) {
+                  // 31-oct-2026 (Wendy: "esta enviando muchos mensajes y muy largos"): el 30% se dice una sola vez por chat.
+                  if (/30\s?%/.test(visible)) sesion.dijo30 = true;
+                  if (/\$\s?\d/.test(visible) && !/30\s?%/.test(visible) && !sesion.dijo30) {
+                        sesion.dijo30 = true;
                         const linea30 = "🔥 Ya tiene el *30% de descuento* por promoción.";
                         const bloques = visible.split(/\n\s*\n/);
                         // "?" en cualquier parte del ultimo bloque, no solo al final (caso Johana 26-oct-2026: la IA cerro con
@@ -4611,7 +4614,9 @@ async function manejarTextoLibre(telefono, texto) {
                   // precio y no termino con una pregunta de compra, se agrega una. Con un producto puntual, el boton
                   // directo; si mostro varias versiones, que elija cual se lleva.
                   const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
-                  if (!cierreEnviado && !productoId && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
+                  // Si Michell ya termino con una pregunta, o el boton "¿Te lo envio?" salio en sus ultimos mensajes, no se agrega otro
+                  const botonReciente = (sesion.transcripcion || []).filter((m) => m.rol === "bot").slice(-4).some((m) => /Te lo env[ií]o\?|Te la env[ií]o\?/.test(m.texto || ""));
+                  if (!cierreEnviado && !productoId && !botonReciente && !/\?\s*$/.test(ultimoBloque.trim()) && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
                         cierreEnviado = true;
                         const sinPapel = visible.split("\n").filter((l) => !/(rollo|hojas|papel|env[ií]o)/i.test(l)).join("\n");
                         const precios = (sinPapel.match(/\$\s?\d[\d.,]*/g) || []).length;
