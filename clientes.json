@@ -29171,8 +29171,8 @@
     "telefono": "CO.1511980417429593",
     "nombre": "Jhoncito😎😝",
     "primerContacto": "2026-10-29T06:01:54.461Z",
-    "ultimoContacto": "2026-10-31T11:21:44.845Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-31T11:23:48.428Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29285,15 +29285,28 @@
         "fecha": "2026-10-31T11:21:43.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEjYzMjQyNzM3MDJENDlGQkM2NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3115969207",
+        "fecha": "2026-10-31T11:23:47.093Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-10-31T11:23:47.095Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUxMTk4MDQxNzQyOTU5MxUUABEYEkE3RDczREMwQzk4MUQ1OUFDMAA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 169900,
       "telefono": "CO.1511980417429593",
-      "nombreCliente": "Tienesantana"
+      "nombreCliente": "Tienesantana",
+      "celular": "3115969207"
     },
     "pausado": false,
     "etapaManual": null,
