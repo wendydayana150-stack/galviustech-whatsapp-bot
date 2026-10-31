@@ -6264,6 +6264,68 @@ async function enviarTandaReactivacion() {
             reactivacionEnCurso = false;
       }
 }
+// REACTIVACION DE LAS 9 A. M. (31-oct-2026, Wendy: "enviar mensaje de reactivacion a las 9"): a quien escribio en las
+// ultimas 23 h, dejo de responder y no ha recibido nada en 3 h, le llega el catalogo + el mensaje de reactivacion con la
+// promocion. Solo el dia indicado, uno cada 30 s y un solo guardado al final.
+const DIA_REACTIVACION_9AM = "2026-10-31";
+let reactivacion9amHecha = false;
+async function reactivacionNueveAm() {
+      const horaBogota = (new Date().getUTCHours() - 5 + 24) % 24;
+      if (reactivacion9amHecha || horaBogota !== 9 || fechaBogotaTexto(new Date()) !== DIA_REACTIVACION_9AM) return;
+      reactivacion9amHecha = true;
+      try {
+            const { datos: clientes } = await leerJSON(CLIENTES_API);
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const conPedido = new Set(pedidos.map((p) => p.telefono));
+            const enviados = [];
+            for (const c of clientes) {
+                  if (c.reactivado9am || c.pausado || c.pausarSeguimiento || conPedido.has(c.telefono)) continue;
+                  if (c.paso && !["conversando", "inicio"].includes(c.paso)) continue;
+                  const conv = c.conversacion || [];
+                  const ultimo = conv[conv.length - 1];
+                  const ultimoCliente = [...conv].reverse().find((m) => m.rol === "cliente");
+                  if (!ultimo || ultimo.rol === "cliente" || !ultimoCliente) continue;
+                  if (Date.now() - new Date(ultimoCliente.fecha).getTime() > 23 * 3600000) continue;
+                  if (Date.now() - new Date(ultimo.fecha).getTime() < 3 * 3600000) continue;
+                  try {
+                        await cargarSesionSiNueva(c.telefono);
+                        const sesion = obtenerSesion(c.telefono);
+                        if (sesion.pausado || (sesion.transcripcion || []).slice(-1)[0]?.rol === "cliente") continue;
+                        const mensaje = mensajeReactivacionOpciones(sesion);
+                        await enviarTexto(c.telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
+                        await enviarTexto(c.telefono, mensaje);
+                        if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: mensaje });
+                        enviados.push(c.telefono);
+                  } catch (e) {
+                        console.error(`Reactivacion 9 a. m.: fallo con ${c.telefono}:`, e.response?.data?.error?.message || e.message);
+                  }
+                  await new Promise((s) => setTimeout(s, 30000));
+            }
+            if (enviados.length) {
+                  await conColaDeArchivo(CLIENTES_API, async () => {
+                        for (let intentos = 4; intentos > 0; intentos--) {
+                              try {
+                                    const { datos, sha } = await leerJSON(CLIENTES_API);
+                                    for (const c of datos) {
+                                          if (!enviados.includes(c.telefono)) continue;
+                                          c.reactivado9am = true;
+                                          const sesionViva = sesiones[c.telefono];
+                                          if (sesionViva && Array.isArray(sesionViva.transcripcion) && sesionViva.transcripcion.length >= (c.conversacion || []).length) c.conversacion = sesionViva.transcripcion;
+                                    }
+                                    await guardarJSON(CLIENTES_API, datos, sha, `Reactivacion 9 a. m.: ${enviados.length} clientes`);
+                                    return;
+                              } catch (e) {
+                                    if (!(e.response?.status === 409 || e.response?.status === 422)) throw e;
+                              }
+                        }
+                  });
+            }
+            console.log(`Reactivacion 9 a. m.: ${enviados.length} mensajes enviados.`);
+      } catch (error) {
+            console.error("Error en la reactivacion de las 9 a. m.:", error.response?.data || error.message);
+      }
+}
+
 // RECUPERAR PRESENTACIONES SIN VIDEO (30-oct-2026, Wendy: "mañana a las 8am enviar las imagenes que faltaron y video a
 // los chats que se respondieron mal" / "necesitamos recuperar clientes"). A las 8 a. m. de Bogota, a quien recibio la
 // presentacion vieja de modems o de la NETUM (1 foto, sin video) y no compro: si escribio hace menos de 23 h le llegan
@@ -6806,6 +6868,9 @@ app.listen(PUERTO, () => {
       setInterval(() => {
             tandaReactivacionAutomatica().catch((error) => console.error("Error en reactivacion automatica:", error.response?.data || error.message));
       }, 20 * 60 * 1000);
+      setInterval(() => {
+            reactivacionNueveAm().catch((error) => console.error("Error en reactivacion 9 a. m.:", error.response?.data || error.message));
+      }, 5 * 60 * 1000);
       setInterval(() => {
             recuperarPresentacionesSinVideo().catch((error) => console.error("Error en recuperacion de presentaciones:", error.response?.data || error.message));
       }, 10 * 60 * 1000);
