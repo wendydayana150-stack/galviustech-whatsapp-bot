@@ -3,8 +3,8 @@
     "telefono": "573023987769",
     "nombre": "Pablo Mestre",
     "primerContacto": "2026-10-31T23:14:23.070Z",
-    "ultimoContacto": "2026-10-31T23:14:23.070Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T23:20:39.474Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-10-31T23:14:22.066Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzOTg3NzY5FQIAERgSQUYwNDgyMTdFNDk3OUM1MEFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches como esta usted Señorita ya usted sabe mi nombre Pablo Mestre De Cartagena de bolívar la verdad ya tengo su contacto cualquier momento yo la llamo Que tenga una excelente noche",
+        "fecha": "2026-10-31T23:20:36.523Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches, Pablo. Gracias por escribirme, quedo atenta para ayudarte en lo que necesites cuando decidas. 😊\n\n¿Quieres que te muestre alguno de nuestros productos o prefieres que te ayude a resolver una duda puntual ahora?",
+        "fecha": "2026-10-31T23:20:38.335Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzOTg3NzY5FQIAERgSMjc0NjZDRTUxMjE3RTBENkVEAA=="
       }
     ],
     "paso": "conversando",
@@ -34,10 +46,13 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573125127935",
