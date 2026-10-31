@@ -2377,6 +2377,13 @@
         "fecha": "2026-10-31T18:05:40.172Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4NjQ3MTg3FQIAERgSNThFMTJDQ0IzQTQ0MTA2N0I3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-31T19:08:16.665Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4NjQ3MTg3FQIAERgSQjlBMDFGNzlCRENCNTlCOTY1AA=="
       }
     ],
     "paso": "conversando",
@@ -2390,7 +2397,11 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573219774078",
@@ -3608,6 +3619,20 @@
         "fecha": "2026-10-31T18:08:16.655Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIwOTkzNzA5MzI5Mjg2MhUUABEYEjYwQTFDNzNERUYxNEVCQUI0QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-31T19:08:17.472Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIwOTkzNzA5MzI5Mjg2MhUUABEYEjQwMkFDNTE5NDREMDZCMjI0RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍",
+        "fecha": "2026-10-31T19:08:18.098Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIwOTkzNzA5MzI5Mjg2MhUUABEYEkRCODFCQzJFMEZGQTU3RTNDRAA="
       }
     ],
     "paso": "conversando",
@@ -3623,8 +3648,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 2,
+      "horas1": true,
+      "horas3": true
     }
   },
   {
