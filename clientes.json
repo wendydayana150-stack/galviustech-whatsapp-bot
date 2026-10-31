@@ -361,8 +361,8 @@
     "telefono": "573216071743",
     "nombre": "Pipe",
     "primerContacto": "2026-10-31T11:40:11.448Z",
-    "ultimoContacto": "2026-10-31T11:40:11.448Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T12:01:12.349Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -409,6 +409,45 @@
         "fecha": "2026-10-31T11:40:09.927Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE2MDcxNzQzFQIAERgSREE0Q0M4NzRGMjYwMjdCODY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-10-31T12:01:06.563Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-10-31T12:01:09.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDcxNzQzFQIAERgSRDVCNDlBRDYwMTJBRkQ2REI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-31T12:01:09.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDcxNzQzFQIAERgSQzY3NzE3OUZDQzM0RkJEMjQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-10-31T12:01:10.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDcxNzQzFQIAERgSMEQ2REZERkYxRkZENEE3MkRBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-10-31T12:01:11.146Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio depende del módem que elijas:\n\n📶 El *Modem WiFi Portatil 4G* te da internet estable y conexión para varios dispositivos, ideal si quieres ahorrar.  \n⚡ Si quieres más velocidad y compatibilidad con 5G, el *Modem 4G/5G* es la opción más segura para zonas con cobertura mixta.  \n🚀 Y si tienes buena señal 5G y buscas la máxima velocidad, está el *Modem 5G*.  \n\nLa inversión sería:  \n• $169.900 + $26.000 de envío para el 4G  \n• $189.900 + $26.000 de envío para el 4G/5G  \n• $199.900 + $26.000 de envío para el 5G  \n\n✅ Pagas al recibir y tienen garantía de 30 días.  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo vas a usar y para qué lo necesitas? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-10-31T12:01:11.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE2MDcxNzQzFQIAERgSQjI4NTQ0NEQxMjY3QTE2MDM4AA=="
       }
     ],
     "paso": "conversando",
@@ -422,7 +461,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573181889323",
