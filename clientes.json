@@ -43032,8 +43032,8 @@
     "telefono": "573134411698",
     "nombre": "Angela Cabrera",
     "primerContacto": "2026-10-29T01:39:40.007Z",
-    "ultimoContacto": "2026-10-29T17:35:04.626Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:22:05.711Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43080,6 +43080,13 @@
         "fecha": "2026-10-29T17:34:39.545Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0NDExNjk4FQIAERgSQjhDRTlERTk0QjVFNDcwQkRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Angela Cabrera, sobre Impresora NETUM",
+        "fecha": "2026-10-31T15:22:04.443Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0NDExNjk4FQIAERgSRUU5NUY4QTNERkZBRTQwNkE0AA=="
       }
     ],
     "paso": "conversando",
@@ -43095,9 +43102,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
