@@ -2545,8 +2545,8 @@
     "telefono": "573178327411",
     "nombre": "Mirian",
     "primerContacto": "2026-10-31T17:45:04.223Z",
-    "ultimoContacto": "2026-10-31T18:33:23.914Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-31T19:07:03.866Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2662,6 +2662,13 @@
         "fecha": "2026-10-31T18:33:22.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4MzI3NDExFQIAERgSOTM1QzAyRDQzNkEyODJCQUU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes alguna duda?",
+        "fecha": "2026-10-31T19:07:02.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4MzI3NDExFQIAERgSMEZDRDc0NTMwMkQzNkZFN0RDAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2671,7 +2678,7 @@
       "precio": 249900,
       "telefono": "573178327411"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
