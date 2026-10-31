@@ -575,8 +575,8 @@
     "telefono": "573175542979",
     "nombre": "Erika Camargo",
     "primerContacto": "2026-10-31T19:20:11.519Z",
-    "ultimoContacto": "2026-10-31T19:20:11.519Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T19:39:34.676Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -596,6 +596,18 @@
         "fecha": "2026-10-31T19:20:10.502Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1NTQyOTc5FQIAERgSN0NDRURERjlGMTZEQUJGQ0UxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A como",
+        "fecha": "2026-10-31T19:39:32.677Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, ¿cuál producto te interesa exactamente para darte el precio? Tenemos módem, impresora, lámparas, cámaras, y más. ¿Para qué lo necesitas? Así te recomiendo el mejor para ti. ¿Me cuentas?",
+        "fecha": "2026-10-31T19:39:33.717Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1NTQyOTc5FQIAERgSMDRDQzJFQjM1MkI5OTE1RjIzAA=="
       }
     ],
     "paso": "conversando",
@@ -609,7 +621,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573236723525",
