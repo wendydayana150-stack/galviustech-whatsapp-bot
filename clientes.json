@@ -130,8 +130,8 @@
     "telefono": "584146452807",
     "nombre": "Jesus Angel Parra G",
     "primerContacto": "2026-10-31T14:29:28.345Z",
-    "ultimoContacto": "2026-10-31T14:29:28.345Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T14:31:00.630Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -178,6 +178,18 @@
         "fecha": "2026-10-31T14:29:26.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MTQ2NDUyODA3FQIAERgSODYxMTc1NTQ1QzNGQjE3RjM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola estoy en vzla funciona para este país ?",
+        "fecha": "2026-10-31T14:30:58.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, entiendo que estás en Venezuela, pero los módems que tenemos son compatibles con SIM de operadores en Colombia, así que no funcionarán con redes venezolanas. \n\nSi quieres, puedo ayudarte con opciones para Colombia o ver si necesitas otra solución. ¿Quieres que te muestre los módems que tenemos para zonas rurales o urbanas en Colombia? ¿O qué necesitas exactamente para internet?",
+        "fecha": "2026-10-31T14:30:59.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MTQ2NDUyODA3FQIAERgSRjMyRUNGQTUyNDBFQjNEM0RGAA=="
       }
     ],
     "paso": "conversando",
@@ -191,7 +203,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042534398",
