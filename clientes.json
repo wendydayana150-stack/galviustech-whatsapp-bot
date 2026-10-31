@@ -3,8 +3,8 @@
     "telefono": "573242913550",
     "nombre": "💞 Gaitán 🫠😜🥰AjC..r",
     "primerContacto": "2026-10-31T19:35:47.366Z",
-    "ultimoContacto": "2026-10-31T19:35:47.366Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T19:36:29.620Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,20 +51,35 @@
         "fecha": "2026-10-31T19:35:46.478Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyOTEzNTUwFQIAERgSNTRFREUzRUQ4NTRERjRFQzRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Él wifi es satelital o no",
+        "fecha": "2026-10-31T19:36:26.236Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no es satelital, funciona con la SIM de un operador celular (Claro, Movistar, Tigo, WOM). \n\nSi en tu zona no llega señal de ningún operador celular, el módem no podrá conectarse, porque necesita esa señal para dar internet por WiFi.\n\n¿En qué municipio o vereda lo usarías? Así confirmo si hay buena cobertura para ese servicio. ¿Y para qué lo necesitas principalmente?",
+        "fecha": "2026-10-31T19:36:28.735Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyOTEzNTUwFQIAERgSRUE0QUVBMDIwQzUxN0REQkVBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2064077087628677",
