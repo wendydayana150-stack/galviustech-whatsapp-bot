@@ -70,8 +70,8 @@
     "telefono": "573181889323",
     "nombre": "fransiscoramoncarruyogonz",
     "primerContacto": "2026-10-31T11:38:26.250Z",
-    "ultimoContacto": "2026-10-31T11:43:29.108Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-10-31T11:44:02.669Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,13 +200,25 @@
         "fecha": "2026-10-31T11:43:28.035Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxODg5MzIzFQIAERgSQjE3Mzk2M0IzNTE3NDFBNjYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que plan trabajas",
+        "fecha": "2026-10-31T11:43:59.924Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no incluye plan, funciona con la SIM que uses (Claro, Movistar, Tigo, WOM).  Tú eliges el plan o la recarga que prefieras para usar.\n\nSi quieres te ayudo a dejar tu pedido listo con el modem 4G que es el más económico y funciona muy bien en San Juan del Cesar. ¿Te lo envío a tu dirección?",
+        "fecha": "2026-10-31T11:44:01.698Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxODg5MzIzFQIAERgSOEM1MUE0MkQ2QjRENTI5QkI3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
