@@ -3,8 +3,8 @@
     "telefono": "573118113919",
     "nombre": "Sandro Escalante",
     "primerContacto": "2026-10-31T21:29:47.864Z",
-    "ultimoContacto": "2026-10-31T21:29:47.864Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T21:30:01.488Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,20 +51,35 @@
         "fecha": "2026-10-31T21:29:46.758Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4MTEzOTE5FQIAERgSQkZGNzE4NUUwNTk5REVDMTJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se le puede meter una sim",
+        "fecha": "2026-10-31T21:29:59.521Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem WiFi portátil funciona con SIM Card de cualquier operador en Colombia (Claro, Movistar, Tigo, WOM).\n\nSolo pones la SIM, lo enciendes y conecta hasta 10 dispositivos por WiFi.\n\n¿Me cuentas en qué ciudad o vereda lo usarías y para qué lo necesitas? Así te recomiendo la opción ideal.",
+        "fecha": "2026-10-31T21:30:00.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4MTEzOTE5FQIAERgSMkUzMTEzRDI0NUI3OTM4OTJCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573184843039",
