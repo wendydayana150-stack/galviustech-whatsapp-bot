@@ -2064,8 +2064,8 @@
     "telefono": "573182017869",
     "nombre": "Henry Armando",
     "primerContacto": "2026-10-31T19:23:21.720Z",
-    "ultimoContacto": "2026-10-31T19:23:21.720Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T20:32:27.164Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2112,6 +2112,18 @@
         "fecha": "2026-10-31T20:26:33.236Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgyMDE3ODY5FQIAERgSOTY4MTM5NjhBQTU2RkU3OTFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-10-31T20:32:25.268Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto, ¿quieres que te ayude a dejar tu pedido listo para que la impresora te llegue rápido? Así empiezas a imprimir sin perder tiempo. ¿Cuáles son tu ciudad y cómo prefieres pagar, contraentrega o transferencia?",
+        "fecha": "2026-10-31T20:32:26.103Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgyMDE3ODY5FQIAERgSOUQxNDZFRjhCMzI0NjdDMjk5AA=="
       }
     ],
     "paso": "conversando",
@@ -2127,9 +2139,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-10-31T20:26:46.286Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
