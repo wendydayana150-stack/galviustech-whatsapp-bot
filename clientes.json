@@ -432,6 +432,13 @@
         "fecha": "2026-10-31T12:29:30.785Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTU1NjQ2FQIAERgSNUVGNTM4QkJFNUVENUYxRDM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-31T13:30:15.445Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTU1NjQ2FQIAERgSOTI5OEU1MzhENTU5RDU0MzAwAA=="
       }
     ],
     "paso": "conversando",
@@ -445,7 +452,11 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573142927280",
