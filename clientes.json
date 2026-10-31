@@ -63,8 +63,8 @@
     "telefono": "573234224400",
     "nombre": "Jorge Hernandez",
     "primerContacto": "2026-10-31T15:52:21.561Z",
-    "ultimoContacto": "2026-10-31T15:52:21.561Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T15:54:40.477Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -84,20 +84,62 @@
         "fecha": "2026-10-31T15:52:20.611Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjI0NDAwFQIAERgSRUU5MDJFQTg5RTRDNzc3MjM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora termica",
+        "fecha": "2026-10-31T15:54:37.147Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Térmica Portátil NETUM",
+        "fecha": "2026-10-31T15:54:37.148Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjI0NDAwFQIAERgSRUQ3OUNDNUM2QzM5QkJBRTdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Térmica Portátil NETUM",
+        "fecha": "2026-10-31T15:54:37.743Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjI0NDAwFQIAERgSQ0Y4NjMyNUFBQzJCRDBCNEMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-10-31T15:54:38.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjI0NDAwFQIAERgSQzM4NUYwODMwQjZCQzNCMzI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Presenta la NETUM con fotos y pregunta para que la necesita]",
+        "fecha": "2026-10-31T15:54:38.992Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! 🖨️ *Impresora Térmica Portátil NETUM*\n\n💰 Antes ~$ 356.900~, *hoy $ 249.900* con *30% de descuento* 🔥\n🚚 *Envío GRATIS* y *pagas al recibir*: la revisas antes de pagar\n\n✅ Imprime *SIN TINTA*, hojas *tamaño carta* (blanco y negro)\n✅ *Portátil*, batería recargable y se conecta a tu celular\n📄 *Trae papel incluido* para que empieces a imprimir\n\n⏳ Precio de promoción por *últimos días* y *últimas unidades*\n\n¿Para qué la vas a usar? 👇\n📄 Tareas o documentos\n🧾 Recibos o facturas\n🏷️ Etiquetas",
+        "fecha": "2026-10-31T15:54:38.992Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjI0NDAwFQIAERgSMkJDNDQ3NzdDOTA1RTlFNDdDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimoProducto": "impresora-termica",
+    "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1146133757860628",
