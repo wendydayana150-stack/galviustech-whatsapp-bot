@@ -333,8 +333,8 @@
     "telefono": "573135579467",
     "nombre": "benjaminblancorivero313",
     "primerContacto": "2026-10-31T17:03:15.744Z",
-    "ultimoContacto": "2026-10-31T17:17:54.235Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-10-31T17:19:30.638Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -688,6 +688,18 @@
         "fecha": "2026-10-31T17:17:53.099Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSN0FFRDJDODdGQjFEQTE3OUE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ustedes no distribuyen Torres con dvd cd",
+        "fecha": "2026-10-31T17:19:28.145Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En GalviusTech no manejamos torres con DVD o CD, pero tenemos varias opciones para conectividad, impresión, seguridad y más.\n\nEstos son los otros productos que tenemos:  \n📶 Módem WiFi portatil  \n🖨️ Impresoras térmicas portátiles  \n💡 Lámparas solares de seguridad  \n📹 Cámaras de seguridad inteligentes  \n⌚ Relojes y smartwatches  \n🎁 Combos especiales de nuestros productos  \n\n¿Quieres que te muestre alguna de estas categorías o buscas algo específico para conectar o reproducir contenido?",
+        "fecha": "2026-10-31T17:19:29.657Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTc5NDY3FQIAERgSRTRCRjlDRUNBRDREM0JDM0E4AA=="
       }
     ],
     "paso": "conversando",
@@ -698,7 +710,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
