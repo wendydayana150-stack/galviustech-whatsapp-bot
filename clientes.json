@@ -41550,8 +41550,8 @@
     "telefono": "573224377182",
     "nombre": ",Liney Roja",
     "primerContacto": "2026-10-29T02:10:01.966Z",
-    "ultimoContacto": "2026-10-29T17:24:47.507Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-10-31T15:20:31.232Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -41591,13 +41591,20 @@
         "fecha": "2026-10-29T17:24:46.484Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0Mzc3MTgyFQIAERgSRTA5ODM0OTkwMTNFMThBRjE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola ,Liney Roja, sobre Modem 4G/5G",
+        "fecha": "2026-10-31T15:20:29.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0Mzc3MTgyFQIAERgSNTI3MTExQ0EyNUQyMzg1NTJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -41606,9 +41613,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
