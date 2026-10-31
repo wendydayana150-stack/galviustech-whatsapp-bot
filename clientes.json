@@ -70,8 +70,8 @@
     "telefono": "573205045571",
     "nombre": "Maria",
     "primerContacto": "2026-10-31T11:52:20.752Z",
-    "ultimoContacto": "2026-10-31T11:52:20.752Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T11:54:27.000Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,20 +118,69 @@
         "fecha": "2026-10-31T11:52:19.822Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSMDY5MDYwM0JBMDk4NTdBNDVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ese es el uco precio no hay más bajo",
+        "fecha": "2026-10-31T11:54:21.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-31T11:54:23.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSRDZERkI0MzA2NDE3NzVEMzlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-31T11:54:24.257Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSNjcwODBBQzQwMjVCMThEM0E3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-10-31T11:54:24.760Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSM0M5MzcyMzU3MUM5RUJBQzcxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-10-31T11:54:25.265Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, esos son los precios finales con el 30% de descuento aplicado y envío a toda Colombia. \n\nLos modems GalviusTech garantizan mejor cobertura que un celular común, ideal para fincas y veredas donde no llega la fibra. Además conectas varios dispositivos a la vez y lo llevas donde quieras sin instalaciones.\n\n¿Me cuentas para qué lo vas a usar? Así te recomiendo el que mejor te sirve entre las tres opciones.\n\n💰 *Modem 4G/5G*: $ 189.900 + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-10-31T11:54:25.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSQjIzQUNFMkI2MDUyMDRFNjNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-10-31T11:54:25.813Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSMzlCRjI5N0VBNzkyMzc4RjJBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573152441831",
