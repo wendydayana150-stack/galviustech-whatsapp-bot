@@ -70,8 +70,8 @@
     "telefono": "573181889323",
     "nombre": "fransiscoramoncarruyogonz",
     "primerContacto": "2026-10-31T11:38:26.250Z",
-    "ultimoContacto": "2026-10-31T11:38:26.250Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-10-31T11:41:28.551Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,6 +118,18 @@
         "fecha": "2026-10-31T11:38:25.255Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxODg5MzIzFQIAERgSRDZCRDc0RDlGREUyRjkwQzcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-10-31T11:41:25.005Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, la asesora de GalviusTech. 😊\n\n¿En qué municipio o vereda necesitas el módem y para qué lo necesitas? (trabajo, estudio, hogar, viaje, negocio)\n\nAsí te puedo recomendar la opción que mejor te sirva. ¿Me ayudas?",
+        "fecha": "2026-10-31T11:41:27.412Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxODg5MzIzFQIAERgSNkE1MkI1MjM4OUJDMzIyMjc1AA=="
       }
     ],
     "paso": "conversando",
@@ -131,7 +143,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573106068573",
