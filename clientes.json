@@ -9407,8 +9407,8 @@
     "telefono": "573003986208",
     "nombre": "josedavid66a",
     "primerContacto": "2026-10-31T14:33:55.602Z",
-    "ultimoContacto": "2026-10-31T15:47:22.754Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-10-31T19:30:47.014Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9486,6 +9486,13 @@
         "fecha": "2026-10-31T19:20:25.682Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzOTg2MjA4FQIAERgSNkRCRjNDNDkxMjlBRDA0QUY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de GALVIUSTECH.  ¡No queremos que te quedes sin tu IMPRESORA TERMICA PORTATIL 📶🔥  Estamos organizando los pedidos y quedan las ultimas unidades disponibles.  🎁 Recuerda que tienes: 🚚 ENVÍO GRATIS. 💵 PAGO CONTRAENTREGA. 📦 Recibes y pagas al momento de la entrega.  ¡Aprovecha la disponibilidad actual!  Solo necesitamos tus datos para dejar tu pedido listo. ❤️  ¿Te reservamos tu Impresora?",
+        "fecha": "2026-10-31T19:30:45.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzOTg2MjA4FQIAERgSNTEyRDQ5RjM3NDVFMzJCMkFEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -9495,7 +9502,7 @@
       "precio": 249900,
       "telefono": "573003986208"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -9506,8 +9513,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
