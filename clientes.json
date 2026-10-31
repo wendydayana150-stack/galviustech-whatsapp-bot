@@ -279,6 +279,13 @@
         "fecha": "2026-10-31T11:52:43.004Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NzY0ODkxFQIAERgSNTk5NEIwQ0QzM0UzMTA5RTIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-31T13:00:15.441Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NzY0ODkxFQIAERgSQzMxMzJERTU3Mzc3NDcxNjhFAA=="
       }
     ],
     "paso": "conversando",
@@ -292,7 +299,11 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573205045571",
@@ -411,6 +422,13 @@
         "fecha": "2026-10-31T11:56:29.284Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSNUNBQzRBRjk4RDBDODFGQkUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\nTe quedó alguna duda o hubo algo que no te terminó de cuadrar? Cuéntame y te ayudo. 🙋‍♀️\n\nMientras tanto, aqui puedes entrar y darte una vueltica mirando mas opciones: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-10-31T13:00:16.692Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDQ1NTcxFQIAERgSOThERTYwNjQ4NDA4QjlDQUM0AA=="
       }
     ],
     "paso": "conversando",
@@ -426,7 +444,8 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true
     }
   },
   {
