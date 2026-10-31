@@ -38695,8 +38695,8 @@
     "telefono": "593989131435",
     "nombre": "Hna. Patricia Vela",
     "primerContacto": "2026-10-29T06:14:12.905Z",
-    "ultimoContacto": "2026-10-31T15:01:10.212Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-10-31T18:29:36.899Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -38879,6 +38879,18 @@
         "fecha": "2026-10-31T17:08:39.205Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSNTlFNzZBNzJEMkNDMDdGNTg1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No quiero estos mensajes",
+        "fecha": "2026-10-31T18:29:33.376Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa si te molesté con tanta info, no era la idea 😊. Quedo atenta cuando necesites algo o si quieres que te ayude con la impresora NETUM o cualquier otro producto. ¿Quieres que te cuente algo específico o prefieres que te espere a que me digas?",
+        "fecha": "2026-10-31T18:29:35.642Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTg5MTMxNDM1FQIAERgSQUVDNEZCMjE3MDA1MUEwNkRDAA=="
       }
     ],
     "paso": "conversando",
@@ -38889,14 +38901,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
