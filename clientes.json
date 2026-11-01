@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:03:45.486Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-11-01T16:03:48.317Z",
+    "mensajes": 35,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22302,9 +22302,21 @@
         "fecha": "2026-11-01T16:03:44.533Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQzNEOUIxNTY2QjNFNDc0MEMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-01T16:03:47.187Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo cómo pagas, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-01T16:03:47.521Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMjU1MTZCOEQ4MTg5QzhFODBFAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
