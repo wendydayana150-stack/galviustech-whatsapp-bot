@@ -2295,8 +2295,8 @@
     "telefono": "573147653839",
     "nombre": "victor puche",
     "primerContacto": "2026-11-01T20:45:57.631Z",
-    "ultimoContacto": "2026-11-01T20:45:57.631Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:53:47.856Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2343,6 +2343,18 @@
         "fecha": "2026-11-01T21:49:15.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NjUzODM5FQIAERgSMjc0MEM4MEQ5Qzk3ODIxOTRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-01T21:53:46.658Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-01T21:53:46.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NjUzODM5FQIAERgSRkFGQjNCQkMxREQ1MTYzOUU5AA=="
       }
     ],
     "paso": "conversando",
@@ -2358,9 +2370,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T21:49:16.618Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
