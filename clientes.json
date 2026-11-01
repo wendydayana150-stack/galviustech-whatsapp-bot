@@ -43,8 +43,8 @@
     "telefono": "573017070136",
     "nombre": "Brey Monica",
     "primerContacto": "2026-11-01T21:07:32.127Z",
-    "ultimoContacto": "2026-11-01T21:07:32.127Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:08:06.875Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -91,20 +91,69 @@
         "fecha": "2026-11-01T21:07:29.348Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSMzlFMDFCOERBRUVGREY4NTY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sincelejo",
+        "fecha": "2026-11-01T21:08:02.222Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-01T21:08:04.234Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSMjg2Mjc1OEVCN0U3NkIyNjQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-01T21:08:04.762Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSODA3NUFDMTU1Mzc3RjI0RTU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-01T21:08:05.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSMTcxMjI4OUY0MjdGRjQxMjMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-01T21:08:05.677Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Sincelejo es buena zona para 4G y 5G, dependiendo de dónde estés.\n\nEstos son los modelos y precios con envío:\n📶 Modem WiFi Portátil 4G: $169.900\n📶 Modem WiFi Portátil 4G/5G: $189.900\n📶 Modem WiFi Portátil 5G: $199.900\nTodos conectan varios dispositivos, son portátiles y fáciles de usar. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo necesitas para trabajar, estudiar o para tu casa? Así te recomiendo el modelo ideal.",
+        "fecha": "2026-11-01T21:08:05.681Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSNzQwRkY4NDBFOUI2NDcyQzEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-01T21:08:06.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDcwMTM2FQIAERgSNkU5QTAwMUE5MUQyM0NFN0IwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573194241011",
