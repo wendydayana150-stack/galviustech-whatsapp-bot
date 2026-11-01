@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:10:53.318Z",
-    "mensajes": 46,
+    "ultimoContacto": "2026-11-01T16:11:01.520Z",
+    "mensajes": 47,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22496,9 +22496,28 @@
         "fecha": "2026-11-01T16:10:52.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQ0Y0RDE5RDg4RjI2Rjc1NjM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya te lo envie",
+        "fecha": "2026-11-01T16:10:59.039Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No veo esos datos en los mensajes anteriores, por si quieres compartirlos otra vez para dejar todo listo y enviarte el link de pago seguro.\n\nAsí de una vez te preparo el pedido y te llega rapidito con envío gratis. ¿Me confirmas tu nombre completo y celular?",
+        "fecha": "2026-11-01T16:10:59.871Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMzZDNTJBNjM1ODE5RjNDNDU0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-01T16:11:00.398Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRDVCNDcwQzBFMEEwMjJBMkMzAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
