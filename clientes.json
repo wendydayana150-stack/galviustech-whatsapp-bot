@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:12:40.755Z",
-    "mensajes": 50,
+    "ultimoContacto": "2026-11-01T16:12:49.147Z",
+    "mensajes": 51,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22558,9 +22558,21 @@
         "fecha": "2026-11-01T16:12:39.790Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSOEVCMzFCMDJDMTc3NkIyQzBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cali",
+        "fecha": "2026-11-01T16:12:48.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-01T16:12:48.149Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMEM2RDI2RjUxMUFBMzJEREExAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -22570,7 +22582,8 @@
       "nombreCliente": "Adelaida Castañeda",
       "direccion": "La dirección es carrera 28 d número 83-22",
       "celular": "3128355931",
-      "departamento": "Cauca"
+      "departamento": "Cauca",
+      "ciudad": "Cali"
     },
     "pausado": false,
     "etapaManual": null,
