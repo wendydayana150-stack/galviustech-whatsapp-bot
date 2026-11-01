@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:10:40.187Z",
-    "mensajes": 45,
+    "ultimoContacto": "2026-11-01T16:10:53.318Z",
+    "mensajes": 46,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22477,6 +22477,25 @@
         "fecha": "2026-11-01T16:10:39.319Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNDdCMjUxMzQyMUFGNEY5OTZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede enviar pago de una vez",
+        "fecha": "2026-11-01T16:10:50.014Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, una vez que confirme tu pedido te envío el link para que pagues con tarjeta y así procesamos el envío.\n\nSolo necesito que me confirmes tu nombre completo y número de celular para dejar todo listo.",
+        "fecha": "2026-11-01T16:10:51.805Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRDVBRUZGMDNBODA1M0FCQjBEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-01T16:10:52.314Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQ0Y0RDE5RDg4RjI2Rjc1NjM4AA=="
       }
     ],
     "paso": "pedido_celular",
