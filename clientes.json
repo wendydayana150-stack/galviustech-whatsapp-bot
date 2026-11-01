@@ -22805,8 +22805,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T17:25:26.078Z",
-    "mensajes": 58,
+    "ultimoContacto": "2026-11-01T17:35:47.089Z",
+    "mensajes": 59,
     "conversacion": [
       {
         "rol": "cliente",
@@ -23683,16 +23683,23 @@
         "fecha": "2026-11-01T17:25:24.774Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSODY2OUY0REQyQjZGQ0Q3MDg1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Adelaida 😊 Para pagar con tu tarjeta Nu (o cualquier banco), lo haces desde la app de Nu a nuestra *llave Bre-B*, a *Nequi* o a *Bancolombia*:\r\n\r\n*BRE-B*\r\n@3023890578\r\n\r\n*NEQUI*\r\n3023890578\r\nHector Rojas\r\n\r\n*BANCOLOMBIA*\r\nCuenta de ahorros\r\n41100042485\r\n\r\n💰 *Total a pagar: $249.900* (envío GRATIS a Cali)\r\n\r\nCuando hagas el pago, envíanos por aquí la *foto o captura del comprobante* y despachamos tu Impresora NETUM 📦🙌",
+        "fecha": "2026-11-01T17:35:45.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSOTNEOUY1RTgxRjhDRUVGQTU3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "Pedido con pago con TARJETA: enviar el link de pago al cliente (Impresora Térmica Portátil NETUM).",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
