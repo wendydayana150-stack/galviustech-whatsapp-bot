@@ -24,6 +24,13 @@
         "fecha": "2026-11-01T10:54:14.889Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyMjQ1Mjc5FQIAERgSNUI1MDY3NjBEMzYyNzA0NDFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-01T11:59:05.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyMjQ1Mjc5FQIAERgSQ0ZBODFFNDZGRTNGOTc2NEIzAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +44,12 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-01T11:59:07.023Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573165000306",
