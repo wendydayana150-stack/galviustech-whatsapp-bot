@@ -3,8 +3,8 @@
     "telefono": "573136184862",
     "nombre": "Chagualo",
     "primerContacto": "2026-11-01T21:17:10.215Z",
-    "ultimoContacto": "2026-11-01T21:17:10.215Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:17:28.179Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-11-01T21:17:09.213Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2MTg0ODYyFQIAERgSNjE1QTY5N0FDMDdGQjgyRDMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprime una hoja de tamaño carta y oficio",
+        "fecha": "2026-11-01T21:17:25.190Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM imprime hojas tamaño carta, con medidas de 27.5 cm x 6.5 cm x 5 cm, y es ideal para trabajos, documentos y facturas en ese formato. Pero no imprime tamaño oficio, solo carta. \n\n¿Para qué la necesitas principalmente? Así te confirmo si esta impresora se ajusta o buscas otra.",
+        "fecha": "2026-11-01T21:17:26.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MTg0ODYyFQIAERgSMzZDNjU4NTA4Qzk5ODZBNzQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-01T21:17:27.199Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2MTg0ODYyFQIAERgSNEMyNDM3RUJDQjFDMDg0RDg1AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142639044",
