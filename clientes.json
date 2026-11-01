@@ -3,8 +3,8 @@
     "telefono": "CO.3583754665120339",
     "nombre": "Jose Manuel Chilhueso",
     "primerContacto": "2026-11-01T21:34:32.833Z",
-    "ultimoContacto": "2026-11-01T21:34:32.833Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:34:47.438Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-01T21:34:31.938Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEjM1OUJGOEMwNEQyRUU4QjVFQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa",
+        "fecha": "2026-11-01T21:34:44.049Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Qué bien que te interese, Jose. 😊 Para orientarte mejor, ¿cuál de estos productos te gustaría? \n\n📶 Módem WiFi portátil  \n🖨️ Impresora térmica  \n💡 Lámpara solar  \n📹 Cámara de seguridad  \n⌚ Reloj inteligente  \n\nCuéntame para qué lo necesitas o dónde lo usarías, así te ayudo con la mejor opción y precio. ¿Me dices?",
+        "fecha": "2026-11-01T21:34:46.404Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEjVDNDM3NjcxOTdCRDFFMjA5RgA="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573505953021",
