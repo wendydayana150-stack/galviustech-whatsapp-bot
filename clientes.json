@@ -63,8 +63,8 @@
     "telefono": "CO.2364788084355200",
     "nombre": "Paola Daza",
     "primerContacto": "2026-11-01T01:52:08.058Z",
-    "ultimoContacto": "2026-11-01T01:59:47.631Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-01T02:00:44.165Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -162,6 +162,25 @@
         "fecha": "2026-11-01T01:59:46.646Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjlERDY4MTAzQTZDRkY3RUFCQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero aca no coje ninguna señal",
+        "fecha": "2026-11-01T02:00:40.526Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en Mongue no hay señal de ningún operador, realmente el módem no podría conectarse porque funciona con una SIM celular. \n\n¿Estás seguro de que no hay ni señal débil de Claro, Movistar, Tigo o WOM? La antena del módem es más potente y a veces capta señal donde el celular no.\n\n¿Quieres que te ayude a revisar si hay alguna solución para ti o prefieres que te muestre otras opciones?",
+        "fecha": "2026-11-01T02:00:42.317Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEkY2ODQ4QjNCREI4MjA2MkNBNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-01T02:00:42.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjVBNTdBRTE3RjMwNDM3Mzc1NgA="
       }
     ],
     "paso": "conversando",
