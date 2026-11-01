@@ -3,8 +3,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-01T18:17:53.758Z",
-    "ultimoContacto": "2026-11-01T18:23:48.451Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-01T18:24:21.103Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,9 +122,28 @@
         "fecha": "2026-11-01T18:23:47.448Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSOUE2OTAyMUJBNTk3NDQ3RjQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "o sea es solar?",
+        "fecha": "2026-11-01T18:24:18.423Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, totalmente solar. Se carga con el sol y no necesita cables ni conexión a la red eléctrica.  \n\nIdeal para exteriores donde no hay toma de corriente o no quieres gastar en luz.  \n\n¿Te la envío ya a tu dirección en Medellín?",
+        "fecha": "2026-11-01T18:24:19.218Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNzhDMkYwOEEzMjJFNjY4OUFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-01T18:24:19.870Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSQzk2Q0MwNkU0QTY4MjBFNUJDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
       "nombreProducto": "LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.",
