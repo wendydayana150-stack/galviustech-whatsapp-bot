@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:03:48.317Z",
-    "mensajes": 35,
+    "ultimoContacto": "2026-11-01T16:04:49.151Z",
+    "mensajes": 36,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22314,15 +22314,28 @@
         "fecha": "2026-11-01T16:03:47.521Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMjU1MTZCOEQ4MTg5QzhFODBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Adelaida Castañeda",
+        "fecha": "2026-11-01T16:04:48.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-01T16:04:48.043Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQjNENjgzRjNGMTc0QTkzNjE4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573185191551",
-      "medioPago": "tarjeta"
+      "medioPago": "tarjeta",
+      "nombreCliente": "Adelaida Castañeda"
     },
     "pausado": false,
     "etapaManual": null,
