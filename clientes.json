@@ -3,8 +3,8 @@
     "telefono": "573147903241",
     "nombre": "Muñoz",
     "primerContacto": "2026-11-01T01:18:52.832Z",
-    "ultimoContacto": "2026-11-01T01:18:52.832Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T01:18:57.396Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-01T01:18:51.841Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSQURBNDE1MkJCMjkyMDlDRDM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-01T01:18:54.290Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor ¿de cuál producto quieres saber el precio? ¿Es módem, impresora, lámpara, cámara o algún otro? Así te cuento su inversión y beneficios específicos. ¿Para qué lo necesitas tú?",
+        "fecha": "2026-11-01T01:18:56.102Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSODk4QTEzQjQ1REU4NUY4QUEwAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1909934883324342",
