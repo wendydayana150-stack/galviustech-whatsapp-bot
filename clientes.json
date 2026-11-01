@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:11:52.278Z",
-    "mensajes": 48,
+    "ultimoContacto": "2026-11-01T16:12:12.306Z",
+    "mensajes": 49,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22527,9 +22527,28 @@
         "fecha": "2026-11-01T16:11:51.391Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMjRBNzAyQjAzNjg5QjdDODAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Adelaida Castañeda",
+        "fecha": "2026-11-01T16:12:09.440Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Adelaida. Ya dejo tu pedido listo para que puedas pagar con tarjeta y recibir la Impresora Térmica Portátil NETUM en Cali, barrio Mojica 1, carrera 28D #83-22, con envío gratis.\n\nEn un momento te llega el link de pago seguro para que confirmes tu compra. ¿Quieres que te lo envíe por aquí o prefieres que te lo mande por WhatsApp?",
+        "fecha": "2026-11-01T16:12:10.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNEVCQjM0MUM5RkUwM0JFQ0FEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, tu celular, dónde lo recibes y cómo pagas, no hace falta repetirlo.\n\nSolo me falta: En que departamento vives?",
+        "fecha": "2026-11-01T16:12:11.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRThBRTMzNUE1MkI0MkI0ODdCAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -22537,7 +22556,8 @@
       "telefono": "573185191551",
       "medioPago": "tarjeta",
       "nombreCliente": "Adelaida Castañeda",
-      "direccion": "La dirección es carrera 28 d número 83-22"
+      "direccion": "La dirección es carrera 28 d número 83-22",
+      "celular": "3128355931"
     },
     "pausado": false,
     "etapaManual": null,
