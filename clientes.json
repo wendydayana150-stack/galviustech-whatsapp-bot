@@ -3,8 +3,8 @@
     "telefono": "573206326971",
     "nombre": "gracias Dios por todo",
     "primerContacto": "2026-11-01T17:59:23.317Z",
-    "ultimoContacto": "2026-11-01T17:59:23.317Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T17:59:26.873Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,6 +51,18 @@
         "fecha": "2026-11-01T17:59:20.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MzI2OTcxFQIAERgSRTVGNzdDOTY4NDg0QTFBRjE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas tardes",
+        "fecha": "2026-11-01T17:59:24.642Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas tardes, soy Michell 😊 Cuéntame, ¿en qué municipio o vereda necesitas el módem y para qué lo vas a usar? ¿Trabajar, estudiar, para tu negocio o para el hogar? Así te recomiendo el mejor para ti.",
+        "fecha": "2026-11-01T17:59:25.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MzI2OTcxFQIAERgSNEY3N0IxMTBFMDZCMTVEQTNFAA=="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217143754",
