@@ -3,8 +3,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-01T18:17:53.758Z",
-    "ultimoContacto": "2026-11-01T18:30:46.746Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-01T18:31:11.468Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,6 +203,18 @@
         "fecha": "2026-11-01T18:30:45.632Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSRjMxQzkzNDVBNzIxMDVEOTQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no mande nada no mebinteresactumptoducto",
+        "fecha": "2026-11-01T18:31:09.795Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por avisarme. Quedo atenta si más adelante necesitas ayuda o información sobre algún producto.  \n\nQue tengas un buen día.",
+        "fecha": "2026-11-01T18:31:10.526Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSQjMwMTE1Mjc3MTQ5MjQ5NUQ0AA=="
       }
     ],
     "paso": "conversando",
@@ -218,7 +230,7 @@
     "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
