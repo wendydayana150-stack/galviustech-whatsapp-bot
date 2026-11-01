@@ -3,8 +3,8 @@
     "telefono": "573147903241",
     "nombre": "Muñoz",
     "primerContacto": "2026-11-01T01:18:52.832Z",
-    "ultimoContacto": "2026-11-01T01:18:57.396Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-01T01:20:29.480Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,55 @@
         "fecha": "2026-11-01T01:18:56.102Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSODk4QTEzQjQ1REU4NUY4QUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora y proyector",
+        "fecha": "2026-11-01T01:20:25.795Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-11-01T01:20:25.796Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSMTIzRkM2NTFDRUMzQTJGMkQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-11-01T01:20:26.619Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSMkJEMTkxMDM2N0FCNTJDNDQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Proyector Smart Cinema",
+        "fecha": "2026-11-01T01:20:27.214Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSRDc3QzQyQTU4MzUwM0Q3NEQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Proyector Portátil Minimalista Smart Cinema*\n💰 *$ 279.900* ya con *30% de descuento* 🔥\n✅ Ves películas en la pared, tamaño cine\n✅ Proyecta desde tu celular, sin cables\n✅ Portátil y con control remoto fácil de usar\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-01T01:20:27.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSQkE5RDRCRTBDMDFEN0ExRENBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-01T01:20:28.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3OTAzMjQxFQIAERgSRThDRTlENDQwM0Y4QjUzRkI3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "proyector-portatil-minimalista-smart-cinema"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "proyector-portatil-minimalista-smart-cinema",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
