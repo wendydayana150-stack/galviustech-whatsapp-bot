@@ -1949,8 +1949,8 @@
     "telefono": "573155961646",
     "nombre": "Roger Artesanias",
     "primerContacto": "2026-10-31T21:58:22.701Z",
-    "ultimoContacto": "2026-10-31T21:58:22.701Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T00:07:58.396Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1991,6 +1991,18 @@
         "fecha": "2026-11-01T00:06:33.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1OTYxNjQ2FQIAERgSNTczMkM1MTlCRjZBMTE3MEFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Después te doy respuesta",
+        "fecha": "2026-11-01T00:07:55.706Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Roger, cuando quieras aquí estoy para ayudarte con cualquier duda o para mostrarte los productos que más te interesen.\n\n¿Quieres que te deje información de algún producto mientras tanto para que lo tengas a la mano?",
+        "fecha": "2026-11-01T00:07:56.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1OTYxNjQ2FQIAERgSN0YwRUNDRDYxMzRFNUE4NzA3AA=="
       }
     ],
     "paso": "conversando",
@@ -2006,10 +2018,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T00:06:36.139Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
