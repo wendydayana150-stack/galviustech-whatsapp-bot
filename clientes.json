@@ -3,8 +3,8 @@
     "telefono": "573135860534",
     "nombre": "Luz Pardo ❤️🙏🏻",
     "primerContacto": "2026-11-01T21:02:40.829Z",
-    "ultimoContacto": "2026-11-01T21:02:40.829Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:02:45.190Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-01T21:02:39.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1ODYwNTM0FQIAERgSMTNBN0IxRTdEN0IzQkIyQ0Y0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valor",
+        "fecha": "2026-11-01T21:02:42.226Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la *Impresora Térmica Portátil NETUM* imprime hojas tamaño carta sin tinta, es portátil, rápida y compatible con Android e iPhone. Perfecta para imprimir tareas, documentos o facturas sin depender de una impresora fija. La inversión es de *$249.900 con envío GRATIS a toda Colombia* y pagas al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas para qué la necesitas principalmente?",
+        "fecha": "2026-11-01T21:02:44.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1ODYwNTM0FQIAERgSNzI0QTNFQjkxM0Q4NTgxQkQ2AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573017423793",
