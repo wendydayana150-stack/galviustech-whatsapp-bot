@@ -748,8 +748,8 @@
     "telefono": "573202750528",
     "nombre": "Juan",
     "primerContacto": "2026-11-01T01:53:19.363Z",
-    "ultimoContacto": "2026-11-01T03:10:19.821Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-01T03:10:44.728Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -801,6 +801,18 @@
         "fecha": "2026-11-01T03:10:18.294Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyNzUwNTI4FQIAERgSRUFBOTZFN0FBQ0JFRTFFOEEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-01T03:10:43.592Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Quedas anotado y te escribo apenas llegue la impresora a color.\n\nY si mientras tanto te sirve en blanco y negro, ¿te dejo lista la *NETUM* con envío GRATIS? 🚚",
+        "fecha": "2026-11-01T03:10:43.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyNzUwNTI4FQIAERgSMzQ1RDk5RTlFMjk5ODAzNTkwAA=="
       }
     ],
     "paso": "conversando",
@@ -816,7 +828,7 @@
     "esperaCompra": null,
     "interesColor": {
       "desde": "2026-11-01T03:10:18.294Z",
-      "quiereAviso": false
+      "quiereAviso": true
     },
     "recordatorios": {
       "seguimientosEnviados": 0
