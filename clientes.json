@@ -3,8 +3,8 @@
     "telefono": "573151286613",
     "nombre": "Lau 🤎🫀",
     "primerContacto": "2026-11-01T02:19:58.246Z",
-    "ultimoContacto": "2026-11-01T02:19:58.246Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T02:21:45.709Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,6 +51,18 @@
         "fecha": "2026-11-01T02:19:57.126Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxMjg2NjEzFQIAERgSMzIyQjBENzU3MURCNzMwQjBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es Para Usarlo En una mina pero no Coje señal",
+        "fecha": "2026-11-01T02:21:43.308Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en esa mina no hay señal de ningún operador, ni Claro, ni Movistar, ni Tigo, el módem no podrá conectarse porque necesita señal celular para funcionar.\n\nPero dime, ¿confirmaste que ahí no llega señal ni siquiera débil? A veces la antena del módem es más potente y puede captar mejor que un celular. ¿Has probado con otro equipo o alguien más confirmó la falta total de señal? \n\n¿Quieres que te ayude a revisar si alguna versión podría funcionar o prefieres que veamos otras opciones?",
+        "fecha": "2026-11-01T02:21:44.721Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxMjg2NjEzFQIAERgSRkMxMjY4MDNCQzEyNDVCRjg5AA=="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104256498",
