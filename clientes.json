@@ -130,8 +130,8 @@
     "telefono": "CO.1297180449206064",
     "nombre": "Eddie",
     "primerContacto": "2026-11-01T01:48:10.629Z",
-    "ultimoContacto": "2026-11-01T01:51:24.646Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-01T01:55:58.176Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -226,6 +226,52 @@
         "fecha": "2026-11-01T01:51:23.497Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEjhGMkI1QjlGRDg4Q0EzOUQ3QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "T confirmo más tarde vale",
+        "fecha": "2026-11-01T01:55:52.865Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-01T01:55:53.920Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEjIwNkYwODdDNTNCRjQ1RDZGOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-01T01:55:54.615Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEkE4NjMwMDFDMjBCRjY0OTEyQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-01T01:55:55.188Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEkUzNThFN0ZDOTc1QkQxQUEyRQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-01T01:55:55.832Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro Eddie, quedo pendiente cuando decidas. Recuerda que esta promoción con 30% de descuento y envío gratis es por pocos días y queda poca disponibilidad 😊\n\nSi quieres, te ayudo con cualquier duda mientras tanto.\n\n¿Quieres que te muestre algún otro producto o categoría para que vayas viendo?\n\n💰 *Impresora NETUM*: $ 249.900 con *envío GRATIS* 🚚. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-01T01:55:55.836Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEkFGOTU5RTg1NDFGREMwQTc2NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-01T01:55:56.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTI5NzE4MDQ0OTIwNjA2NBUUABEYEjcwNzgzREE3MTNBNDQ5NDIzNAA="
       }
     ],
     "paso": "conversando",
@@ -236,7 +282,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
