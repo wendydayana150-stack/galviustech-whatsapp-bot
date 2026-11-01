@@ -3040,7 +3040,8 @@ const CLIENTE_POSPONE = /(otro d[ií]a|otro momento|m[aá]s adelante|(luego|desp
 const MENSAJE_APROVECHA_DESCUENTO =
       "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
 
-const NO_ES_NOMBRE = /\b(eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
+// 31-oct-2026: tambien quedaron como nombre "Garantia" (pregunta por la garantia) y "einformacion" (de "Quiero mas informacion")
+const NO_ES_NOMBRE = /informaci|garant[ií]a|\b(hola|quiero|precio|cuotas?|pago|env[ií]o|funciona|aparato|recibir|revibir|eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
 
 // Quita las preguntas con las que la IA cierra su respuesta (ej. "¿Para qué necesitas el internet?") cuando
 // estamos en la toma de datos del pedido: despues de responder la duda se retoma el dato que falta, y una
