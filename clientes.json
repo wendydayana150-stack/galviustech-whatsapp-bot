@@ -3,8 +3,8 @@
     "telefono": "573246864022",
     "nombre": "Esperanza Cáceres Lopez",
     "primerContacto": "2026-11-01T22:53:14.448Z",
-    "ultimoContacto": "2026-11-01T22:53:14.448Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T22:53:21.907Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-01T22:53:13.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODY0MDIyFQIAERgSNjIxRkY2QzYxMjBDNTg2RUY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que cuests",
+        "fecha": "2026-11-01T22:53:19.250Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor ¿qué producto te interesa para darte el precio exacto? 📶 modem, 🖨️ impresora, 💡 lámpara o 📹 cámara? Así te cuento la inversión y beneficios para que veas como te ayuda. ¿Para qué lo necesitas?",
+        "fecha": "2026-11-01T22:53:20.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODY0MDIyFQIAERgSQ0QyNjgxOEY1QzIwRDI2Q0M0AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573125329914",
