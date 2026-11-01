@@ -3,8 +3,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-01T18:17:53.758Z",
-    "ultimoContacto": "2026-11-01T18:22:25.583Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-01T18:22:36.746Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -84,10 +84,34 @@
         "fecha": "2026-11-01T18:22:24.564Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSQTE3RTBENzA2QkExNEQzOUNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "si",
+        "fecha": "2026-11-01T18:22:33.546Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya te ayudo a dejar el pedido listo con la Lámpara Panel Solar y Sensor de Movimiento x 3 unidades.  \n\nPor favor, dime cómo prefieres pagar, ¿contraentrega o transferencia?",
+        "fecha": "2026-11-01T18:22:35.038Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNkI1RDIzNUJBQkYwN0ZERjU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.* ($ 139.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-01T18:22:35.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSQ0VENTJDRDMwNzRBQzRERDdGAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
+      "nombreProducto": "LAMPARA PANEL SOLAR Y SENSOR DE MOVIMIENTO X 3 Unid.",
+      "precio": 139900,
+      "telefono": "573006281232"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
