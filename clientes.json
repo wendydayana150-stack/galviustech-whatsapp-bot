@@ -7085,8 +7085,8 @@
     "telefono": "CO.1300342768899515",
     "nombre": "Mery Cely Manco",
     "primerContacto": "2026-10-31T23:02:32.266Z",
-    "ultimoContacto": "2026-10-31T23:02:32.266Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T16:46:28.477Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7127,13 +7127,59 @@
         "fecha": "2026-11-01T11:10:10.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEkQwNUM4REU2NTBCM0JDQUQ1OAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por favor envíe fotos",
+        "fecha": "2026-11-01T16:46:24.468Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-01T16:46:24.472Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-01T16:46:24.472Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEjNEOUE5OTYwNkZENzdGRDFBMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-01T16:46:25.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEjlCRjNBQUI3RTBFMDA0QkFERQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-01T16:46:25.962Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEjJFQkY1QTAzMUQxOTFDRkY2NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-01T16:46:26.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEjJEMzQzOEJDNEVDMDk2MjI0QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-01T16:46:27.217Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTMwMDM0Mjc2ODg5OTUxNRUUABEYEjgyRDcyMkQ5MDg5ODY4NUIzMgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -7142,10 +7188,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T11:10:31.875Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
