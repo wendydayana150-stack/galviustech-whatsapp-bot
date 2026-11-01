@@ -43,8 +43,8 @@
     "telefono": "573232120981",
     "nombre": "Marina F. R.",
     "primerContacto": "2026-11-01T23:49:58.225Z",
-    "ultimoContacto": "2026-11-01T23:49:58.225Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T23:50:15.790Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -64,20 +64,35 @@
         "fecha": "2026-11-01T23:49:57.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyMTIwOTgxFQIAERgSMTU4NzYyN0VCQ0Y5QzNDMDA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El precio",
+        "fecha": "2026-11-01T23:50:13.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro Marina, dime qué producto te interesa para darte el precio exacto y los beneficios que tiene.\n\nPor ejemplo:\n📶 Módem WiFi 4G/5G\n🖨️ Impresora térmica NETUM tamaño carta\n💡 Alguna lámpara solar\n📹 Cámara de seguridad\n\n¿Para qué lo necesitas? Así te recomiendo justo lo que buscas y te cuento la inversión. ¿Qué me dices?",
+        "fecha": "2026-11-01T23:50:14.993Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyMTIwOTgxFQIAERgSMUYwODlBRjdFQzJDQTFBQzMzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573059023051",
