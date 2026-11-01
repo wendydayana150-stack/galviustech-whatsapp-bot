@@ -3,8 +3,8 @@
     "telefono": "573124342230",
     "nombre": "litisdatapamplona",
     "primerContacto": "2026-11-01T01:31:32.268Z",
-    "ultimoContacto": "2026-11-01T01:31:32.268Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T01:33:53.882Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-01T01:31:31.088Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MzQyMjMwFQIAERgSMDI1Q0Q4MzcyMjRCRDc4OTgwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tarea y documento",
+        "fecha": "2026-11-01T01:33:50.862Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para tareas y documentos te va perfecta la Impresora Térmica Portátil NETUM 🖨️✨. Imprime hojas tamaño carta, sin tinta, portátil, batería duradera y fácil de usar desde el celular. La inversión es de *$249.900* con envío GRATIS a toda Colombia, y pagas al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o municipio estás para coordinar el envío?",
+        "fecha": "2026-11-01T01:33:53.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MzQyMjMwFQIAERgSMkZEMjJBQjZGN0MyNUUwMEQzAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.984623261320984",
