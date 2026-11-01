@@ -3,8 +3,8 @@
     "telefono": "573104256498",
     "nombre": "3104256498",
     "primerContacto": "2026-11-01T02:19:07.396Z",
-    "ultimoContacto": "2026-11-01T02:19:07.396Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T02:19:22.414Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-01T02:19:06.387Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjU2NDk4FQIAERgSMDJGODc1NEREMjEwQzdCN0Y2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches en cuanto sale una",
+        "fecha": "2026-11-01T02:19:19.582Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches 😊 Para darte buen precio necesito saber qué producto quieres, ¿un módem, impresora, lámpara o cámara? ¿O quieres que te muestre las opciones para que elijas? ¡Así te ayudo mejor! ¿Para qué lo necesitas?",
+        "fecha": "2026-11-01T02:19:21.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjU2NDk4FQIAERgSOUM3MDU5QjYzNTJFNjE5RkYzAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135591624",
