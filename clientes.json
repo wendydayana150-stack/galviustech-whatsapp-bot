@@ -70,8 +70,8 @@
     "telefono": "573202081517",
     "nombre": "joserey5661 José Rey@hima",
     "primerContacto": "2026-11-01T00:10:14.673Z",
-    "ultimoContacto": "2026-11-01T00:13:35.577Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-01T00:14:14.467Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -154,6 +154,18 @@
         "fecha": "2026-11-01T00:13:34.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyMDgxNTE3FQIAERgSRDI2N0UxMUY4NzE0REE1REExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias no me sirve",
+        "fecha": "2026-11-01T00:14:12.238Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que necesitas imprimir en tamaño oficio, la NETUM es para carta.\n\nEn GalviusTech también tenemos otros productos como:\n\n📶 Módem WiFi  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes  \n🎁 Combos  \n\n¿Quieres que te muestre alguna de estas opciones o prefieres que te ayude a encontrar otra solución?",
+        "fecha": "2026-11-01T00:14:13.293Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMDgxNTE3FQIAERgSNjI2NDMyOTg5NDg5Nzg5MTBCAA=="
       }
     ],
     "paso": "conversando",
@@ -164,7 +176,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
