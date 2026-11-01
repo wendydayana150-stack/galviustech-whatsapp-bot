@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:12:12.306Z",
-    "mensajes": 49,
+    "ultimoContacto": "2026-11-01T16:12:40.755Z",
+    "mensajes": 50,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22546,9 +22546,21 @@
         "fecha": "2026-11-01T16:12:11.396Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSRThBRTMzNUE1MkI0MkI0ODdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valle del cauca",
+        "fecha": "2026-11-01T16:12:39.789Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-01T16:12:39.790Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSOEVCMzFCMDJDMTc3NkIyQzBEAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -22557,7 +22569,8 @@
       "medioPago": "tarjeta",
       "nombreCliente": "Adelaida Castañeda",
       "direccion": "La dirección es carrera 28 d número 83-22",
-      "celular": "3128355931"
+      "celular": "3128355931",
+      "departamento": "Cauca"
     },
     "pausado": false,
     "etapaManual": null,
