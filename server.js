@@ -2820,7 +2820,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             ayuda: "Puedes pagar *contraentrega* (al recibir), por *transferencia* o con *Sistecrédito* a cuotas 😊",
             paso: "pedido_pago",
             tipo: "pago",
-            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, tarjeta con link de pago, Sistecrédito a cuotas u otro)",
+            pregunta: "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
             mensajeError: "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
       },
       {
@@ -3185,11 +3185,10 @@ async function finalizarPedidoSesion(telefono) {
                   if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
                   }
-                  // Tarjeta (31-oct-2026, Wendy: "si, con link de pago"): el link lo envia el equipo; se marca para atencion.
-                  if (/tarjeta|cr[eé]dito|d[eé]bito|\bnu\b|link/i.test(pedidoAGuardar.medioPago || "") && !esPagoSistecredito(pedidoAGuardar.medioPago)) {
-                        await enviarTexto(telefono, "💳 *Pago con tarjeta*\n\nEn unos minutos te enviamos por aquí el *link de pago* para que pagues con tu tarjeta de crédito o débito (incluida Nu). Apenas se confirme el pago, despachamos tu pedido 📦");
-                        sesion.necesitaAtencion = true;
-                        sesion.motivoAtencion = `Pedido con pago con TARJETA: enviar el link de pago al cliente (${pedidoAGuardar.nombreProducto}).`;
+                  // Tarjeta (1-nov-2026, Wendy): no hay link; se envian las cuentas (Nequi, llave Bre-B, Bancolombia).
+                  if (/tarjeta|cr[eé]dito|d[eé]bito|\bnu\b|link/i.test(pedidoAGuardar.medioPago || "") && !esPagoSistecredito(pedidoAGuardar.medioPago) && !(pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
+                        await enviarTexto(telefono, "💳 *Pago con tarjeta*\n\nDesde la app de tu banco o de tu tarjeta (incluida Nu) puedes pagar a nuestra *llave Bre-B*, a *Nequi* o a *Bancolombia* 👇");
+                        await enviarTexto(telefono, config.mensajeDatosTransferencia);
                   }
                   if (esPagoSistecredito(pedidoAGuardar.medioPago)) {
                         await enviarTexto(telefono, config.mensajeSistecredito);
@@ -3362,7 +3361,7 @@ async function manejarMensajeCatalogo(telefono, texto) {
       const piden = faltantes
             .map((d) =>
                   d.campo === "medioPago"
-                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia, Nequi, tarjeta (link de pago) o Sistecrédito (a cuotas)"
+                        ? "• *Medio de pago:* contraentrega (pagas al recibir), transferencia Bancolombia, Nequi, llave Bre-B o Sistecrédito (a cuotas)"
                         : `• *${ETIQUETAS_CAMPOS_PEDIDO[d.campo]}*`
             )
             .join("\n");
