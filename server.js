@@ -613,7 +613,7 @@ const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustec
 // unboxing con el rollo de papel incluido (25 s) cuando preguntan por el papel, la duda que mas frena la compra.
 const VIDEO_NETUM_CALIDAD = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-2.mp4";
 const VIDEO_NETUM_CAJA = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-3.mp4";
-const envioDe = (id) => (ENVIO_GRATIS_IDS.includes(id) ? 0 : Number(config.COSTO_ENVIO) || 0);
+const envioDe = (id, pedido) => config.costoEnvio(id, pedido?.ciudad, pedido?.departamento);
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
 
 const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
@@ -3153,7 +3153,7 @@ function pareceCancelacionDePedido(texto) {
 // y le pega el link al cliente. Queda marcado en el panel como "necesita atencion" con esos datos.
 function marcarSistecredito(sesion, pedido) {
       sesion.necesitaAtencion = true;
-      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio + envioDe(pedido.productoId))} (con envío) · Producto: ${pedido.nombreProducto}`;
+      sesion.motivoAtencion = `💳 Pago con Sistecrédito: genera la venta en Credinet (Venta rápida) y envíale el link. Cédula: ${pedido.cedula || "(pedirla)"} · Valor: ${formatearPrecio(pedido.precio + envioDe(pedido.productoId, pedido))} (con envío) · Producto: ${pedido.nombreProducto}`;
 }
 
 // Registra el pedido de la sesion cuando ya estan todos los datos (antes vivia dentro de
@@ -4076,7 +4076,7 @@ async function agregarPapelAlPedido(telefono, opcion) {
 }
 
 function recordarPedidoRegistrado(sesion, pedido) {
-      const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
+      const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId, pedido);
       sesion.ultimoPedidoRegistrado = { nombreProducto: pedido.nombreProducto, total, nombre: pedido.nombreCliente || "", ciudad: pedido.ciudad || "", departamento: pedido.departamento || "" };
       sesion.esperandoConfirmacionCompromiso = true;
       if (!Array.isArray(sesion.historial)) sesion.historial = [];
@@ -4324,7 +4324,7 @@ async function manejarTextoLibre(telefono, texto) {
                   const pedido = await agregarPapelAlPedido(telefono, opcion);
                   if (pedido) {
                         sesion.ofertaPapel = null;
-                        const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId);
+                        const total = (Number(pedido.precio) || 0) + envioDe(pedido.productoId, pedido);
                         if (sesion.ultimoPedidoRegistrado) sesion.ultimoPedidoRegistrado = { ...sesion.ultimoPedidoRegistrado, nombreProducto: pedido.nombreProducto, total };
                         const confirmacion = `¡Listo! ✅ Te agregué *${opcion.nombre}* (${formatearPrecio(opcion.precio)}) a tu pedido y te llega en el *mismo envío* 📦\n\n🧾 Tu pedido: *${pedido.nombreProducto}*\n💰 Total: *${formatearPrecio(total)}* con envío, pagas al recibir.\n\n¡Gracias por tu compra! 🙌`;
                         await enviarTexto(telefono, confirmacion);
@@ -5514,7 +5514,7 @@ function valoresDesdePedido(pedido) {
             producto: pedido.nombreProducto || producto?.nombre || "",
             valorDeclarado: precio,
             contraentrega: ES_CONTRAENTREGA.test(pedido.medioPago || "contraentrega"),
-            valorCobrar: precio + envioDe(pedido.productoId),
+            valorCobrar: precio + envioDe(pedido.productoId, pedido),
             peso: paquete.weight_kg,
             largo: paquete.length_cm,
             ancho: paquete.width_cm,
