@@ -1319,6 +1319,13 @@
         "fecha": "2026-11-01T22:38:52.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNTIyMDI1FQIAERgSNDBCOTc2NjA5RTY5MkU0MUJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-11-01T23:39:15.439Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNTIyMDI1FQIAERgSRDBGNUU2QzE1ODhERTAxMEUxAA=="
       }
     ],
     "paso": "conversando",
@@ -1334,7 +1341,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-01T23:39:20.899Z"
     }
   },
   {
@@ -1362,6 +1371,13 @@
         "fecha": "2026-11-01T22:33:53.162Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYxMjM4NTU4MzI0NjM3NxUUABEYEjMyN0IyOTIxNkY0NjQyODREQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-01T23:39:16.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYxMjM4NTU4MzI0NjM3NxUUABEYEjE5Q0E3OTQ4QjEwMzYyRTNFMwA="
       }
     ],
     "paso": "conversando",
@@ -1375,7 +1391,12 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-01T23:39:20.899Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573165367782",
@@ -3506,6 +3527,27 @@
         "fecha": "2026-11-01T22:39:15.523Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDM2Mjc5MTI0MzkzODAxNxUUABEYEkI1REFFOERERDQ2NDBFQ0IxQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Te cuento que la *NETUM* trae *papel incluido* y luego el papel lo consigues con nosotros o en papelerías 📄\n\nSigue en *$ 249.900* con envío GRATIS, pero quedan pocas unidades con este precio. ¿Te la envío? 🚚\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-11-01T23:39:17.007Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDM2Mjc5MTI0MzkzODAxNxUUABEYEkY2MkREOTc4MEUyMzgxM0ZERAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-11-01T23:39:17.569Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDM2Mjc5MTI0MzkzODAxNxUUABEYEkE5RTM5NDZFRjg4RDNGNjI1RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y también tenemos *otras opciones muy buenas* en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento* y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-11-01T23:39:18.114Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDM2Mjc5MTI0MzkzODAxNxUUABEYEjc5Nzc5RTg4MzczOERGMDg5NQA="
       }
     ],
     "paso": "conversando",
@@ -3521,9 +3563,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-01T22:39:17.025Z"
+      "ultimoEnvio": "2026-11-01T23:39:20.899Z",
+      "horas3": true
     }
   },
   {
@@ -3621,6 +3664,27 @@
         "fecha": "2026-11-01T22:39:16.121Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEjlDRjI5MUM0REVCNUQ0MEQ4RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Te cuento que la *NETUM* trae *papel incluido* y luego el papel lo consigues con nosotros o en papelerías 📄\n\nSigue en *$ 249.900* con envío GRATIS, pero quedan pocas unidades con este precio. ¿Te la envío? 🚚\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-11-01T23:39:18.672Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEjUzMTg4NUE4NEZERDdGRjU1MgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-11-01T23:39:19.184Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEkI4NEQ2RTUyNzAyOTEyNEI5QQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y también tenemos *otras opciones muy buenas* en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento* y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-11-01T23:39:19.657Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzU4Mzc1NDY2NTEyMDMzORUUABEYEjM4RjQyMThENDVBOUEyOEMzOQA="
       }
     ],
     "paso": "conversando",
@@ -3636,9 +3700,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-01T22:39:17.025Z"
+      "ultimoEnvio": "2026-11-01T23:39:20.899Z",
+      "horas3": true
     }
   },
   {
