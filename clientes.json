@@ -3,8 +3,8 @@
     "telefono": "573213522025",
     "nombre": "Enrique",
     "primerContacto": "2026-11-01T22:37:14.683Z",
-    "ultimoContacto": "2026-11-01T22:37:14.683Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T22:37:18.472Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-01T22:37:13.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNTIyMDI1FQIAERgSNzc4RDA1MjkxRDI2QzRERThEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-01T22:37:16.443Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro Enrique, ¿de cuál producto quieres el precio? ¿el módem, la impresora, las lámparas, las cámaras o algún combo? Así te doy la info exacta y te ayudo con lo que necesitas. ¿Para qué lo quieres usar?",
+        "fecha": "2026-11-01T22:37:17.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNTIyMDI1FQIAERgSM0M0MzU1RDRFMkQ1OUZBRDQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1612385583246377",
