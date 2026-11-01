@@ -21825,8 +21825,8 @@
     "telefono": "573185191551",
     "nombre": ".",
     "primerContacto": "2026-10-31T15:21:45.096Z",
-    "ultimoContacto": "2026-11-01T16:09:36.572Z",
-    "mensajes": 44,
+    "ultimoContacto": "2026-11-01T16:10:40.187Z",
+    "mensajes": 45,
     "conversacion": [
       {
         "rol": "cliente",
@@ -22458,16 +22458,36 @@
         "fecha": "2026-11-01T16:09:35.593Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSQzkxRTE2QUQzQTUyRDk2MTYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con tarjeta de crédito",
+        "fecha": "2026-11-01T16:10:34.891Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Excelente, te dejo listo el pedido de la Impresora Térmica Portátil NETUM para envío a Cali, barrio Mojica 1, carrera 28D #83-22. \n\nAhora te envío el link seguro para que pagues con tu tarjeta de crédito y quede confirmado. ¿Me puedes confirmar nombre completo y celular para completar el pedido?",
+        "fecha": "2026-11-01T16:10:38.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSMzM5RDc5NjVDMzVCQkQyQTE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, dónde lo recibes y cómo pagas, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-01T16:10:39.319Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg1MTkxNTUxFQIAERgSNDdCMjUxMzQyMUFGNEY5OTZBAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573185191551",
       "medioPago": "tarjeta",
-      "nombreCliente": "Adelaida Castañeda"
+      "nombreCliente": "Adelaida Castañeda",
+      "direccion": "La dirección es carrera 28 d número 83-22"
     },
     "pausado": false,
     "etapaManual": null,
