@@ -3,8 +3,8 @@
     "telefono": "573202081517",
     "nombre": "joserey5661 José Rey@hima",
     "primerContacto": "2026-11-01T00:10:14.673Z",
-    "ultimoContacto": "2026-11-01T00:10:14.673Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T00:11:12.763Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-01T00:10:13.739Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyMDgxNTE3FQIAERgSNjc2NDY0NUJGNTZCMzc5MTE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para imprimir letras de canciones y documentos",
+        "fecha": "2026-11-01T00:11:10.159Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, para imprimir letras de canciones y documentos lo ideal es la *Impresora Térmica Portátil NETUM*. \n\nImprime hojas tamaño carta, no usa tinta y es super portable; la llevas en el bolso y conectas al celular por Bluetooth. La inversión es de *$249.900 con envío gratis*, y tiene batería que dura hasta 30 horas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o municipio estarías usándola? Así te confirmo todo para tu pedido.",
+        "fecha": "2026-11-01T00:11:11.815Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMDgxNTE3FQIAERgSNkI3RDEyMTE4NDZGMEFBMTQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573228831138",
