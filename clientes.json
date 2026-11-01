@@ -63,8 +63,8 @@
     "telefono": "CO.2364788084355200",
     "nombre": "Paola Daza",
     "primerContacto": "2026-11-01T01:52:08.058Z",
-    "ultimoContacto": "2026-11-01T01:52:08.058Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T01:58:54.419Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,20 +111,35 @@
         "fecha": "2026-11-01T01:52:06.929Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjEyNjQ3RkJEQTQ5OEJFREQ2NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay que colocarle sim?",
+        "fecha": "2026-11-01T01:58:52.171Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem necesita una SIM de cualquier operador en Colombia (Claro, Movistar, Tigo, WOM). La SIM se inserta fácil y listo, no tienes que hacer instalación complicada.\n\n¿En qué zona o municipio lo vas a usar y para qué necesitas internet? Así te recomiendo la mejor versión del modem para ti.",
+        "fecha": "2026-11-01T01:58:53.377Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjdCOTdEMDE4RTdDNTE1Nzk0QQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1297180449206064",
