@@ -3,8 +3,8 @@
     "telefono": "573014635008",
     "nombre": "Adriana",
     "primerContacto": "2026-11-01T21:12:57.303Z",
-    "ultimoContacto": "2026-11-01T21:12:57.303Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T21:13:05.242Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-01T21:12:56.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE0NjM1MDA4FQIAERgSNzE5RkUyNzM0ODhGNjM2QUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio, garantía",
+        "fecha": "2026-11-01T21:13:02.412Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* cuesta *$249.900* con *envío GRATIS* a toda Colombia y 30 días de garantía. Imprime hojas tamaño carta sin tinta, es portátil y se conecta por Bluetooth desde el celular, ideal para estudiar, trabajar o emprender.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas principalmente, para tareas y documentos o para recibos y etiquetas?",
+        "fecha": "2026-11-01T21:13:03.876Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE0NjM1MDA4FQIAERgSNTYwNkRBMDI0MkNDQTYxMzEzAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573126835059",
