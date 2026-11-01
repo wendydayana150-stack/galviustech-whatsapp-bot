@@ -1458,8 +1458,8 @@
     "telefono": "CO.993364583136021",
     "nombre": "🤪",
     "primerContacto": "2026-11-01T22:09:02.281Z",
-    "ultimoContacto": "2026-11-01T22:11:20.026Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-01T23:20:32.934Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1537,6 +1537,18 @@
         "fecha": "2026-11-01T23:19:17.470Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTkzMzY0NTgzMTM2MDIxFRQAERgSREM3MEI1Mjc3NTIzREY1MDg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no",
+        "fecha": "2026-11-01T23:20:30.489Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, cuando decidas que te puede ayudar imprimir donde estés, aquí estoy para apoyarte.\n\nRecuerda que con la Impresora NETUM evitas desplazarte a papelerías y ahorras en tinta para imprimir tareas o documentos al instante.\n\n¿Quieres que te guarde la info para cuando decidas comprar o quieres que te muestre otras cosas que tenemos?",
+        "fecha": "2026-11-01T23:20:31.737Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTkzMzY0NTgzMTM2MDIxFRQAERgSRTY2OTI4REU2MDRENzk1MkUyAA=="
       }
     ],
     "paso": "conversando",
@@ -1552,9 +1564,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T23:19:36.934Z"
+      "seguimientosEnviados": 0
     }
   },
   {
