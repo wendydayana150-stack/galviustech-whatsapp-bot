@@ -3,8 +3,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-01T18:17:53.758Z",
-    "ultimoContacto": "2026-11-01T18:17:53.758Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T18:22:25.583Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -72,20 +72,35 @@
         "fecha": "2026-11-01T18:17:52.592Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSRUIwNTQzNEI2MEMxNzQ1RkNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Medellín y es para la entrada de mi casa afuera en la acera quexesxespaciopublico y necesito que solo encienda y comience a grabar vi as nfonpasen por el sector",
+        "fecha": "2026-11-01T18:22:22.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para ese uso te recomendaría la Lámpara Panel Solar y Sensor de Movimiento x 3 unidades. \n\nTu inversión sería de $139.900 + $26.000 de envío.  \nFunciona con energía solar y se activa automáticamente al detectar movimiento para iluminar y disuadir intrusos, ideal para exteriores como entradas y aceras.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te separe este combo para proteger la entrada de tu casa?",
+        "fecha": "2026-11-01T18:22:24.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSQTE3RTBENzA2QkExNEQzOUNFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "lampara-panel-solar-y-sensor-de-movimiento-x-3-unid",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573206326971",
