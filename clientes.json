@@ -19471,8 +19471,8 @@
     "telefono": "573206067314",
     "nombre": "Oscar Cuteño 🎶",
     "primerContacto": "2026-10-31T19:03:58.920Z",
-    "ultimoContacto": "2026-10-31T21:11:38.664Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-01T23:08:05.471Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19686,6 +19686,25 @@
         "fecha": "2026-11-01T12:10:22.247Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MDY3MzE0FQIAERgSMTREMTZDNkZFOTRGNjgyQjI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Oscar Cuteño 🎶, sobre modem WiFi portátil",
+        "fecha": "2026-11-01T20:39:15.879Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MDY3MzE0FQIAERgSMDEwRDA1MDkyNkZCRjExNTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aún no me han pagado, pero apenas me paguen hago un pedido listo",
+        "fecha": "2026-11-01T23:08:02.650Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto, Oscar! Entiendo, quedo atenta para cuando tengas listo el pago y así te ayudo a dejar el pedido listo rápido.\n\nRecuerda que con el módem 4G tienes internet en fincas y veredas sin fibra, para conectar varios dispositivos fácil y rápido. ¿Quieres que te cuente más o prefieres que te lo reserve mientras?",
+        "fecha": "2026-11-01T23:08:04.548Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MDY3MzE0FQIAERgSNTk0ODExRkFCRkI3REMyMUFEAA=="
       }
     ],
     "paso": "confirmar_producto",
@@ -19695,19 +19714,20 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
-    "ultimaCategoria": "impresora",
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-15",
+      "texto": "Aún no me han pagado, pero apenas me paguen hago un pedido listo",
+      "desde": "2026-11-01T23:08:02.651Z",
+      "avisado": false
+    },
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T12:10:35.221Z",
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
