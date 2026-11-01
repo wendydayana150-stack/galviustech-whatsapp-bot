@@ -63,8 +63,8 @@
     "telefono": "573107650768",
     "nombre": "🙏🏻",
     "primerContacto": "2026-11-01T23:27:13.154Z",
-    "ultimoContacto": "2026-11-01T23:27:13.154Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-01T23:27:29.237Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,18 @@
         "fecha": "2026-11-01T23:27:12.360Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NjUwNzY4FQIAERgSMjdBMzhENTVEN0IwODk2QTZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio ,imprime en oficicio",
+        "fecha": "2026-11-01T23:27:26.346Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM cuesta *$249.900* con envío GRATIS, ¡y ya tiene el 30% de descuento!\n\nImprime en tamaño carta, ideal para oficinas, trabajos y documentos. Además, no usa tinta, solo papel térmico, y es súper portátil, cabe en el bolso o mochila.\n\n¿Para qué tipo de documentos necesitas imprimir en la oficina?",
+        "fecha": "2026-11-01T23:27:27.800Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NjUwNzY4FQIAERgSOTZDMjdCMDFDODM0RDhDRDkzAA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +129,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573023592760",
