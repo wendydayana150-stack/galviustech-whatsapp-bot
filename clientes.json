@@ -63,8 +63,8 @@
     "telefono": "CO.2364788084355200",
     "nombre": "Paola Daza",
     "primerContacto": "2026-11-01T01:52:08.058Z",
-    "ultimoContacto": "2026-11-01T02:00:44.165Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-01T02:02:19.609Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -181,6 +181,18 @@
         "fecha": "2026-11-01T02:00:42.979Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjVBNTdBRTE3RjMwNDM3Mzc1NgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No, pero muchas gracias!",
+        "fecha": "2026-11-01T02:02:16.999Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribir, ojalá pronto tengas mejor señal y podamos ayudarte con internet. Si en algún momento necesitas algo más, aquí estoy para ayudarte.\n\nTe dejo la puerta abierta para cuando quieras volver a contactarnos, ¿quieres que te guarde mi contacto por si más adelante quieres?",
+        "fecha": "2026-11-01T02:02:18.611Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjM2NDc4ODA4NDM1NTIwMBUUABEYEjNENkM3NjM0NjIwOTA1QzI3QgA="
       }
     ],
     "paso": "conversando",
@@ -191,7 +203,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
