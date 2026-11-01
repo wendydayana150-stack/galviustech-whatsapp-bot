@@ -1458,8 +1458,8 @@
     "telefono": "CO.993364583136021",
     "nombre": "🤪",
     "primerContacto": "2026-11-01T22:09:02.281Z",
-    "ultimoContacto": "2026-11-01T23:20:32.934Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-01T23:21:45.353Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1549,6 +1549,18 @@
         "fecha": "2026-11-01T23:20:31.737Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTkzMzY0NTgzMTM2MDIxFRQAERgSRTY2OTI4REU2MDRENzk1MkUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy amable por ahora No",
+        "fecha": "2026-11-01T23:21:42.863Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribirme, quedo atenta si más adelante te interesa la impresora o cualquier otra cosa para tu estudio o trabajo.\n\nSi te parece, aprovecha el descuento actual cuando decidas ya que no sabemos cuánto tiempo dure.\n\n¿Quieres que te cuente qué más productos útiles tenemos para que lo tengas en cuenta?",
+        "fecha": "2026-11-01T23:21:44.380Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTkzMzY0NTgzMTM2MDIxFRQAERgSQUU1RTgxRUNFMjU3ODgwMTgyAA=="
       }
     ],
     "paso": "conversando",
@@ -1559,7 +1571,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
