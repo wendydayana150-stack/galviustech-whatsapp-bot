@@ -3,8 +3,8 @@
     "telefono": "CO.1098359146315127",
     "nombre": "⟬⟭𝓐𝓻𝓶𝔂⋅₊‧ ⟭⟬ ‧₊ ⋅💜",
     "primerContacto": "2026-11-02T01:40:51.504Z",
-    "ultimoContacto": "2026-11-02T01:40:51.504Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T01:40:55.080Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T01:40:50.204Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA5ODM1OTE0NjMxNTEyNxUUABEYEjk2QThERjg5RjE2NzI1QTlFMQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio por favor gracias",
+        "fecha": "2026-11-02T01:40:52.927Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor ¿qué producto te interesa? ¿Módem, impresora, lámpara, cámara, reloj o algún combo? Así te paso el precio exacto y te cuento los beneficios que te da. ¿Para qué lo necesitas principalmente?",
+        "fecha": "2026-11-02T01:40:53.975Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA5ODM1OTE0NjMxNTEyNxUUABEYEkI0QzRCRDRDMzdENUI1RTRDQwA="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573155789342",
