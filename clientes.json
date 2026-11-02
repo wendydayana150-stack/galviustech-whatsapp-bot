@@ -3,8 +3,8 @@
     "telefono": "573205934687",
     "nombre": "Fagave",
     "primerContacto": "2026-11-02T02:41:21.365Z",
-    "ultimoContacto": "2026-11-02T02:41:21.365Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T02:42:33.864Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,20 +24,42 @@
         "fecha": "2026-11-02T02:41:20.424Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTM0Njg3FQIAERgSMzQyQkNGRTc5NTlFQjU5MDAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresión es térmica se borra con el tiempo",
+        "fecha": "2026-11-02T02:42:29.986Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresión de la impresora térmica *NETUM* es en blanco y negro y se hace sin tinta, perfecta para imprimir rápido y sin complicaciones.\n\nSobre si se borra con el tiempo, no tengo un dato confirmado exacto. Pero si quieres, puedo consultar con el equipo y te aviso para que tengas la información completa.\n\n¿Para qué la necesitas principalmente? Así te recomiendo la impresora que mejor se ajuste.  🖨️✨",
+        "fecha": "2026-11-02T02:42:32.284Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTM0Njg3FQIAERgSNkJCREUwOEE5RDMyQTgwQzlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-02T02:42:32.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTM0Njg3FQIAERgSRDM0RDdEQUE2MkMwMTQxRDgwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108629329",
