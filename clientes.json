@@ -1132,8 +1132,8 @@
     "telefono": "573108629329",
     "nombre": "jesus",
     "primerContacto": "2026-11-02T02:36:43.148Z",
-    "ultimoContacto": "2026-11-02T04:11:21.027Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T04:12:12.666Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1255,13 +1255,25 @@
         "fecha": "2026-11-02T04:11:19.812Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NjI5MzI5FQIAERgSREI1MTQ2QzlEMEFDMjQ1RDNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio de la impresora",
+        "fecha": "2026-11-02T04:12:10.283Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* cuesta *$249.900 con envío GRATIS*, ya tiene un 30% de descuento. Imprime hojas tamaño carta, sin tinta, por Bluetooth desde el celular. Mide 27.5 x 6.5 x 5 cm, ideal para tareas, trabajos, facturas o documentos cuando estás fuera de la oficina.\n\n¿Para qué la necesitas? ¿Estudio, negocio o papeles puntuales de tu trabajo?",
+        "fecha": "2026-11-02T04:12:11.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NjI5MzI5FQIAERgSRDQ5RjIxMDVGRjUxNzM1ODg4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "proyector-portatil-minimalista-smart-cinema",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
