@@ -12887,8 +12887,8 @@
     "telefono": "573107555802",
     "nombre": "🌹🌷🌸🌷🌹",
     "primerContacto": "2026-11-01T23:50:11.403Z",
-    "ultimoContacto": "2026-11-02T14:46:47.697Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T14:48:08.098Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13086,6 +13086,18 @@
         "fecha": "2026-11-02T14:46:46.680Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3NTU1ODAyFQIAERgSOUU0RDIzMUI2RDI5M0FERTVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Okay gracias",
+        "fecha": "2026-11-02T14:48:01.889Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto, para lo que necesites estoy aquí 😊\n\nSi luego quieres que te prepare el pedido o tienes dudas, me escribes sin problema.\n\n¿Quieres que te muestre alguna otra categoría? Por ejemplo:  \n📶 Módem WiFi  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes\n\n¿Qué te interesa?",
+        "fecha": "2026-11-02T14:48:06.992Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3NTU1ODAyFQIAERgSOUE0QThEQkNCMTNENDNGMDIxAA=="
       }
     ],
     "paso": "conversando",
@@ -13096,7 +13108,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
