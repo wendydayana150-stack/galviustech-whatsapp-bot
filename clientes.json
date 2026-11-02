@@ -4698,8 +4698,8 @@
     "telefono": "573115548637",
     "nombre": "Geraldine",
     "primerContacto": "2026-11-02T12:44:48.090Z",
-    "ultimoContacto": "2026-11-02T16:11:37.854Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T17:12:50.993Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4805,6 +4805,25 @@
         "fecha": "2026-11-02T17:12:00.438Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSODkwMjQ4RkY0MDM0MzhEQTI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no muchas gracias",
+        "fecha": "2026-11-02T17:12:47.040Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribirme 😊 Si en el futuro necesitas la impresora o cualquier otro producto de GalviusTech, aquí estaré para ayudarte sin problema.\n\nQue tengas un excelente día. ¡Un abrazo! 🤗",
+        "fecha": "2026-11-02T17:12:49.379Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSMEJENjU5MjBGOTUzODg0RjhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-02T17:12:49.970Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSM0ZGMUUyODk4MjZENTk1RjlFAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -4825,9 +4844,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T17:12:02.037Z"
+      "seguimientosEnviados": 0
     }
   },
   {
