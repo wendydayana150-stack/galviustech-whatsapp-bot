@@ -5189,8 +5189,8 @@
     "telefono": "573218641292",
     "nombre": "Galincho",
     "primerContacto": "2026-11-02T11:49:01.716Z",
-    "ultimoContacto": "2026-11-02T14:30:38.651Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-02T16:19:46.776Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5368,6 +5368,13 @@
         "fecha": "2026-11-02T15:36:41.957Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQUM0RDdGRDY5QUQzNzJGN0NEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 Te entiendo, y tengo una buena noticia: puedes llevarte la *Impresora NETUM* *hoy mismo a cuotas* con *Sistecrédito* 💳, sin tener toda la plata en la mano.\r\n\r\nSi aún no lo has usado, solo descargas la app y te registras gratis 👇\r\nhttps://www.sistecredito.com/descargar-app/\r\n\r\nCuando te aprueben el cupo me escribes y te dejo el pedido listo con *envío GRATIS* 🚚 ¿Ya tienes Sistecrédito?",
+        "fecha": "2026-11-02T16:19:45.366Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQ0QwNkJCNTVDQUEzQUQwM0I4AA=="
       }
     ],
     "paso": "conversando",
@@ -5377,7 +5384,7 @@
       "precio": 249900,
       "telefono": "573218641292"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -5388,9 +5395,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T15:36:44.154Z"
+      "seguimientosEnviados": 0
     }
   },
   {
