@@ -85,8 +85,8 @@
     "telefono": "573128213766",
     "nombre": "Mabel",
     "primerContacto": "2026-11-02T04:05:15.145Z",
-    "ultimoContacto": "2026-11-02T04:05:15.145Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T04:06:51.534Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -106,6 +106,18 @@
         "fecha": "2026-11-02T04:05:14.163Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MjEzNzY2FQIAERgSMTRBRUVEMTYzOTUyOUI0RjE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-02T04:06:48.763Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell, ¿quieres que te cuente sobre algún producto en especial o para qué lo necesitas? Así te ayudo mejor con lo que buscas.\n\n¿Para qué uso tienes en mente la conexión o el gadget? ¿En qué ciudad o vereda estás?",
+        "fecha": "2026-11-02T04:06:50.646Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MjEzNzY2FQIAERgSN0Y0RTMwMTVENDQ1MkJEMkNEAA=="
       }
     ],
     "paso": "conversando",
@@ -119,7 +131,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573002667507",
