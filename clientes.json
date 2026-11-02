@@ -5006,8 +5006,8 @@
     "telefono": "573208844303",
     "nombre": "Flaca",
     "primerContacto": "2026-11-02T02:31:15.427Z",
-    "ultimoContacto": "2026-11-02T02:31:15.427Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:17:48.527Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5048,6 +5048,18 @@
         "fecha": "2026-11-02T12:01:20.929Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4ODQ0MzAzFQIAERgSMjA2RTAzMDcyQkQ4QUM2ODlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo quiero una sola",
+        "fecha": "2026-11-02T13:17:45.690Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 😊 Solo una unidad, ¿de qué producto te gustaría? ¿Módem, impresora, lámpara, cámara, o algún otro? \n\nCuéntame para qué la necesitas, así te hago una recomendación que realmente te sirva. ¿Para estudiar, trabajar, tu negocio o para tu casa?",
+        "fecha": "2026-11-02T13:17:47.543Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4ODQ0MzAzFQIAERgSRjYyMTU5REUwQUIxMjVFRUU3AA=="
       }
     ],
     "paso": "conversando",
@@ -5063,10 +5075,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T12:03:27.154Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
