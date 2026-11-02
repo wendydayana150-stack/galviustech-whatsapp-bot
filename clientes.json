@@ -3,8 +3,8 @@
     "telefono": "573103104724",
     "nombre": "Edwin Ospino",
     "primerContacto": "2026-11-02T03:04:22.702Z",
-    "ultimoContacto": "2026-11-02T03:04:22.702Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T03:04:26.950Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T03:04:21.734Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMTA0NzI0FQIAERgSREMwQ0I0NUZENzJBQzYwNDk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio gracias",
+        "fecha": "2026-11-02T03:04:24.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime por favor cuál producto te interesa para darte el precio exacto y contarte sus mejores beneficios. ¿Quieres un módem, una impresora, lámparas, cámara o algo más?",
+        "fecha": "2026-11-02T03:04:26.002Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMTA0NzI0FQIAERgSMTJGREQ4OTA0Q0FDOUM3QkQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573148141662",
