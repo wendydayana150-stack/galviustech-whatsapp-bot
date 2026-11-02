@@ -3070,7 +3070,7 @@ const MENSAJE_APROVECHA_DESCUENTO =
       "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
 
 // 31-oct-2026: tambien quedaron como nombre "Garantia" (pregunta por la garantia) y "einformacion" (de "Quiero mas informacion")
-const NO_ES_NOMBRE = /informaci|garant[ií]a|\b(hola|quiero|precio|cuotas?|pago|env[ií]o|funciona|aparato|recibir|revibir|eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
+const NO_ES_NOMBRE = /informaci|garant[ií]a|econ[oó]mic|\b(xq|xk|aki|aqu[ií]|car[oa]|barat[oa]|m[aá]s|menos|sale|salen|vale|cuesta|hola|quiero|precio|cuotas?|pago|env[ií]o|funciona|aparato|recibir|revibir|eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
 
 // Quita las preguntas con las que la IA cierra su respuesta (ej. "¿Para qué necesitas el internet?") cuando
 // estamos en la toma de datos del pedido: despues de responder la duda se retoma el dato que falta, y una
@@ -4226,6 +4226,14 @@ async function avisarComprasProgramadas() {
 }
 
 const SI_CORTO = /^((s[ií]+|claro|dale|ok)[,\s]*(s[ií]|quiero|lo quiero|la quiero|por favor|porfa|claro|de una|dale|me interesa|se[nñ]or(a)?)?|claro( que s[ií])?|de una|listo|ok(ay|a)?|(a|ah)?\s?buen[oa]s?|va|vale|perfecto|me interesa|lo quiero|la quiero|env[ií]e?melo|env[ií]alo|h[aá]gale|👍+|👌+|✅)[\s!.,👍👌😊🙏]*$/i;
+// 2-nov-2026 (caso Carlos, modem): "Bueno" a "¿Quieres que te explique como funciona?" arrancaba el pedido porque
+// antes, en el mismo mensaje, decia "dejarte el pedido listo". Ahora solo cuenta la ULTIMA pregunta del mensaje.
+function ultimaPreguntaDe(texto) {
+      const t = String(texto || "").replace(/\[Opciones:[^\]]*\]/g, "").trim();
+      const partes = t.split(/(?<=[.!?])\s+|\n+/).filter((x) => x.includes("?"));
+      return partes.length ? partes[partes.length - 1] : t.split(/\n+/).pop() || "";
+}
+const OFRECE_OTRA_COSA = /(te explique|te cuente|te muestre|te mande (fotos|el video|m[aá]s)|te env[ií]e (fotos|el video)|te avise|te recuerde|te agende|otr[oa]s? (opciones|productos))/i;
 const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres|en qu[eé] (ciudad|municipio)|cu[aá]l es tu ciudad|a qu[eé] ciudad|desde qu[eé] ciudad|tus datos|nombre completo)/i;
 
 // Respuestas fijas a las objeciones de la impresora (ver GUION NETUM). Solo si se viene hablando de impresoras.
@@ -4270,6 +4278,7 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
                   // 2-nov-2026 (Wendy): respuesta exacta cuando preguntan por las hojas.
                   "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n" +
                   "✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n" +
+                  (/(cu[aá]nto|precio|valor|vale|cuesta)/i.test(texto) ? LINEA_PAPEL_CARTA.replace(" para agregar a tu pedido", " con nosotros") + "\n\n" : "") +
                   "¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*";
       }
 
@@ -4460,7 +4469,7 @@ async function manejarTextoLibre(telefono, texto) {
       if (sesion.paso === "conversando" && SI_CORTO.test(String(texto).trim())) {
             const ultimoBot = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "bot");
             const productoCierre = catalogo.find((p) => p.id === sesion.ultimoProducto && !p.agotado);
-            if (productoCierre && ultimoBot && PREGUNTA_CIERRE.test(ultimoBot.texto || "")) {
+            if (productoCierre && ultimoBot && PREGUNTA_CIERRE.test(ultimaPreguntaDe(ultimoBot.texto)) && !OFRECE_OTRA_COSA.test(ultimaPreguntaDe(ultimoBot.texto))) {
                   if (productoCierre.id.startsWith("combo-")) await iniciarPedido(telefono, productoCierre.id);
                   else await iniciarPedido(telefono, productoCierre.id);
                   return;
