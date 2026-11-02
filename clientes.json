@@ -3,8 +3,8 @@
     "telefono": "573165081184",
     "nombre": "JDB1992",
     "primerContacto": "2026-11-02T13:41:36.449Z",
-    "ultimoContacto": "2026-11-02T13:41:36.449Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:42:24.601Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T13:41:35.526Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY1MDgxMTg0FQIAERgSQTQ2RUU5MzAwMDZFNUExQ0E5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto cuesta uno solo",
+        "fecha": "2026-11-02T13:42:21.281Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! Solo dime, ¿te refieres a un módem, una impresora, una lámpara o una cámara? Así te paso el precio exacto con promoción y los beneficios que tiene ese producto. ¿Cuál te interesa?",
+        "fecha": "2026-11-02T13:42:23.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY1MDgxMTg0FQIAERgSMTgzNTZBMzU0REMxQzRERjRGAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135972536",
