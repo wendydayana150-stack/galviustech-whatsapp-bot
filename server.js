@@ -615,6 +615,7 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
 // Rechazo fuerte (1-nov-2026): "no compra", "no mande nada", "no mas informacion", "adios", "otro proveedor".
 // Se tolera la escritura con errores ("no mebinteresa", "nuscar otro proveedor").
 const CLIENTE_RECHAZA = /(\bno\s*(compr[oa]|lo compro|voy a comprar)|no\s*(me\s*)?(mand|env[ií])[ae]s?\s*(nada|m[aá]s)|no\s*m[aá]s\s*info|no\s*me\s*b?\s*interes|no\s*mebinteres|otro\s*provee|buscar\s*otr|nuscar|\badi[oó]s\b|\bchao\b|no\s*me\s*sirve|no\s*respond|no\s*resuelv)/i;
+const PIDE_INFO_GENERICA = /^[\s¡!¿?.,]*(hola|buen(os|as) (d[ií]as|tardes|noches))?[\s¡!¿?.,]*((quiero|quisiera|me gustar[ií]a)\s*(conseguir|tener|recibir)?\s*)?(m[aá]s\s*)?(info|informaci[oó]n)(\s*sobre esto)?[\s!.?]*$|^\s*(s[ií]+|ok|okey|dale|claro|bueno|listo|de una)\s*[.!👍]*\s*$|^\s*(hola|buenas|buen(os|as) (d[ií]as|tardes|noches))[\s!.,]*$|^[\s¿]*(cu[aá]nto (vale|cuesta)|precio|valor)[\s?]*$|cat[aá]logo|qu[eé] (venden|tienen|productos)/i;
 const CLIENTE_RETOMA = /(\bquiero\b|env[ií]a(me|lo|mela)|\bpedido\b|\bprecio\b|cu[aá]nto (vale|cuesta)|me (lo|la) llevo)/i;
 const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias)/i;
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
@@ -4380,6 +4381,25 @@ async function manejarTextoLibre(telefono, texto) {
 
       // NO LE INTERESA (29-oct-2026, Wendy: "cuando el cliente diga que no le interesa, enviar catalogo y decir que tambien
       // hay otras opciones muy buenas e interesantes"). Una sola vez por chat; si despues insiste, responde la IA.
+      // CLIENTE SIN PRODUCTO ELEGIDO (1-nov-2026, Wendy, caso Mabel): ya se saludo con el catalogo y el cliente
+      // vuelve a escribir "Quiero mas informacion" o "Si" sin decir que busca. La IA respondia con preguntas
+      // genericas; ahora va otra vez el link del catalogo y el menu de categorias para que toque una (max 2 veces).
+      if (
+            sesion.paso === "conversando" && !sesion.ultimoProducto && !sesion.ultimaCategoria &&
+            (sesion.catalogoSinProducto || 0) < 2 && PIDE_INFO_GENERICA.test(String(texto)) &&
+            !detectarProductoEspecifico(texto) && !detectarProductoPorPalabraClave(texto) && !detectarProductoTienda(texto) && !detectarCategoriaTienda(texto)
+      ) {
+            sesion.catalogoSinProducto = (sesion.catalogoSinProducto || 0) + 1;
+            const respuesta = "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ " + LINK_CATALOGO + "\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸";
+            await enviarTexto(telefono, respuesta);
+            const hayCombos = catalogo.some((p) => p.id.startsWith("combo-"));
+            await enviarListaCategorias(telefono, categoriasDisponibles(), [
+                  ...(hayCombos ? [{ id: "ver_combos", titulo: "PROMOCION COMBOS" }] : []),
+                  ...(hayProductosTienda() ? [{ id: "ver_tienda", titulo: "Ver toda la tienda" }] : []),
+            ]);
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: respuesta });
+            return;
+      }
       if (CLIENTE_RECHAZA.test(String(texto)) || NO_LE_INTERESA.test(String(texto))) sesion.rechazoCliente = Date.now();
       else if (sesion.rechazoCliente && CLIENTE_RETOMA.test(String(texto))) sesion.rechazoCliente = null;
       if (sesion.paso === "conversando" && !sesion.catalogoPorNoInteres && (NO_LE_INTERESA.test(String(texto)) || CLIENTE_RECHAZA.test(String(texto)))) {
