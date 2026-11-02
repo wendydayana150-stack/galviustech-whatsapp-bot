@@ -3,8 +3,8 @@
     "telefono": "573225870307",
     "nombre": "María Cecilia Palacios",
     "primerContacto": "2026-11-02T11:30:08.190Z",
-    "ultimoContacto": "2026-11-02T11:30:08.190Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T11:32:05.689Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-02T11:30:07.177Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1ODcwMzA3FQIAERgSRkY3REQ3NzFDMTZDRjhBMDcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se va usar para todo tipo de trabajo que desee imprimir",
+        "fecha": "2026-11-02T11:32:01.757Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la *Impresora Térmica Portátil NETUM* te va perfecta para eso. Es portátil, imprime hojas tamaño carta, sin tinta (solo papel térmico), ideal para documentos, contratos, facturas y trabajos. La inversión es de *$249.900 con envío GRATIS*.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o municipio la usarías para enviártela?",
+        "fecha": "2026-11-02T11:32:04.556Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1ODcwMzA3FQIAERgSNjAxNzFFQzdEODQ2RjJCNzg5AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232449169",
