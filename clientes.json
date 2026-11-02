@@ -3435,8 +3435,8 @@
     "telefono": "CO.1041883455578922",
     "nombre": "Aleida Avendaño de R.",
     "primerContacto": "2026-11-02T12:47:21.513Z",
-    "ultimoContacto": "2026-11-02T12:47:21.513Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T15:56:22.453Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3477,6 +3477,18 @@
         "fecha": "2026-11-02T14:56:12.412Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA0MTg4MzQ1NTU3ODkyMhUUABEYEjk1RThEOTEwRENFMjcwQTAxMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola, más tarde que tenga algo de tiempo disponible, leo y analizó.\nMuchas gracias.",
+        "fecha": "2026-11-02T15:56:18.752Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro Aleida, quedo atenta para cuando tengas tiempo y quieras revisar con calma 😊\n\nRecuerda que la promo del 30% es por últimos días y unidades, así que te conviene aprovechar cuanto antes.\n\nSi quieres, te puedo ayudar a dejar el pedido listo apenas decidas, sin compromiso.\n\n¿Quieres que te avise cuando quede poco stock o alguna novedad?",
+        "fecha": "2026-11-02T15:56:21.290Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA0MTg4MzQ1NTU3ODkyMhUUABEYEkQ5RTUzQkE3NjBCMEM5Q0QzNgA="
       }
     ],
     "paso": "conversando",
@@ -3492,10 +3504,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T14:56:18.528Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
