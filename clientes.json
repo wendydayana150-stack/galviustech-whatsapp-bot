@@ -3504,8 +3504,8 @@
     "telefono": "CO.1973185653657424",
     "nombre": "HML🥰😘😍",
     "primerContacto": "2026-11-01T22:05:48.738Z",
-    "ultimoContacto": "2026-11-01T22:05:48.738Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T00:28:24.096Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3546,13 +3546,25 @@
         "fecha": "2026-11-02T00:09:19.435Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk3MzE4NTY1MzY1NzQyNBUUABEYEjkwOTlDMEYzMjQxNTlDRDAwRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Les pregunto si imprime en papel de block \nGracias",
+        "fecha": "2026-11-02T00:28:21.414Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, dime para qué necesitas imprimir y así te recomiendo la impresora que mejor te sirve 🙌\n\nPor ejemplo:\n🖨️ Para tareas, documentos tamaño carta y trabajos grandes está la *Impresora Termica Portatil NETUM*.\n🖨️ Para facturas, recibos o etiquetas hay otras impresoras más pequeñas.\n\nPero todas nuestras impresoras usan papel térmico especial, no papel normal de block.\n\n¿Qué tipo de impresión necesitas hacer?",
+        "fecha": "2026-11-02T00:28:23.013Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk3MzE4NTY1MzY1NzQyNBUUABEYEjREM0YxQUQ0ODEzNEQyMTI3NQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -3561,10 +3573,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T00:09:25.102Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
