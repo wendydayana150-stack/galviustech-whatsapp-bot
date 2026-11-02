@@ -3,8 +3,8 @@
     "telefono": "573227447365",
     "nombre": "Leonorlopez",
     "primerContacto": "2026-11-02T00:45:34.334Z",
-    "ultimoContacto": "2026-11-02T00:45:34.334Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T00:45:41.241Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,6 +51,18 @@
         "fecha": "2026-11-02T00:45:33.420Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NDQ3MzY1FQIAERgSRDUyMzQxMzUwRDM3ODE3RDQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola infor",
+        "fecha": "2026-11-02T00:45:38.361Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿me cuentas en qué municipio o vereda necesitas el módem y para qué lo necesitas? ¿Trabajo, estudio, hogar o viajes? Así te recomiendo el que mejor te sirve y te cuento el precio exacto con envío.",
+        "fecha": "2026-11-02T00:45:40.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NDQ3MzY1FQIAERgSQjZERkE2MjM0Mzk0QzRBMDlDAA=="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113758302",
