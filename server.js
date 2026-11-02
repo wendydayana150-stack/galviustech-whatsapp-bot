@@ -499,7 +499,7 @@ const CATEGORIA_INFO = {
       impresora: {
             titulo: "IMPRESORA TERMICA",
             emoji: "🖨️",
-            palabras: ["impresora", "imprimir", "copiadora", "fotocopiadora", "fotocopia", "sin tinta"],
+            palabras: ["impresora", "imprimir", "copiadora", "fotocopiadora", "fotocopia", "sin tinta", "enpresora", "inpresora", "impresoras", "imprecora"],
             resumen: null,
             pregunta: "Cuentame, para que la necesitas: negocio, tienda, restaurante, domicilios u otro uso? Y en que ciudad estas?",
       },
@@ -1721,6 +1721,48 @@ async function comproHacepoco(telefono) {
       }
 }
 
+// FILTRO FIJO DE LAS RESPUESTAS DE LA IA (2-nov-2026, Wendy: "¿por que no se estan tomando las reglas que ya dije?").
+// La IA a veces se salta instrucciones del prompt; aqui se corrige su texto ANTES de enviarlo, siempre.
+const LINEA_HOJAS_NETUM = "La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊";
+const LINEA_CUENTAS_PAGO = "Puedes pagar desde la app de tu banco o de tu tarjeta a nuestra *llave Bre-B* @3023890578, a *Nequi* 3023890578 (Hector Rojas) o a *Bancolombia* ahorros 41100042485 💳";
+function sanearRespuestaIA(texto) {
+      if (!texto) return texto;
+      let puso = { hojas: false, cuentas: false };
+      const porFrase = (linea, fn) => linea.split(/(?<=[.!?])\s+/).map(fn).filter((x) => x !== null).join(" ");
+      let lineas = String(texto).split("\n").map((linea) =>
+            porFrase(linea, (f) => {
+                  // 1) Papel: nunca "hoja normal", "papel normal", "rollo especial"...
+                  if (/(hojas? normal|papel (normal|est[aá]ndar|bond|com[uú]n)|rollo especial|no usa hoja|parece una hoja)/i.test(f)) {
+                        if (puso.hojas) return null;
+                        puso.hojas = true;
+                        return LINEA_HOJAS_NETUM;
+                  }
+                  // 2) Tarjeta: no hay link de pago (Sistecredito si tiene su link)
+                  if (/link (de pago|seguro|para (pagar|enviar))|enlace de pago/i.test(f) && !/sistecr/i.test(f)) {
+                        if (puso.cuentas) return null;
+                        puso.cuentas = true;
+                        return LINEA_CUENTAS_PAGO;
+                  }
+                  // 3) Nunca "pregunta lo que quieras" ante preguntas tecnicas
+                  if (/pregunta lo que quieras|qu[eé] quieres saber primero/i.test(f)) return null;
+                  return f;
+            })
+      );
+      let t = lineas.join("\n");
+      // 4) Nombres del equipo
+      t = t.replace(/\bWendy\b/gi, "el equipo");
+      // 5) Tiempos de entrega: maximo 1 a 3 dias habiles
+      t = t.replace(/\b(\d+)\s*(a|y|-)\s*(\d+)\s*d[ií]as(\s*h[aá]biles)?/gi, (m, a, sep, b) => (Number(b) > 3 ? "1 a 3 días hábiles" : m));
+      t = t.replace(/\b([4-9]|1\d)\s*d[ií]as\s*h[aá]biles/gi, "3 días hábiles");
+      // 6) NETUM con envio GRATIS: si la linea habla de la NETUM y le suma $26.000, se corrige
+      t = t.split("\n").map((l) => (/(netum|impresora t[eé]rmica port[aá]til\b(?! de etiq))/i.test(l) && !/(mini|p5|pt-?210|clabel)/i.test(l) ? l.replace(/\+\s*\$\s?26[.,]?000\s*(de\s*)?env[ií]o/gi, "con envío GRATIS") : l)).join("\n");
+      // 7) No insistir con "te aseguro que"
+      t = t.replace(/,?\s*pero te aseguro que\s*/gi, ". ").replace(/\bte aseguro que\s*/gi, "");
+      // Mayuscula al inicio de cada frase (por los cambios de arriba)
+      t = t.replace(/(^|[.!?]\s+|\n)([a-záéíóúñ])/g, (m, p, c) => p + c.toUpperCase());
+      return t.replace(/\n{3,}/g, "\n\n").trim();
+}
+
 async function preguntarleALaIA(sesion, mensajeCliente, enfoqueProducto, telefono) {
       sesion.historial.push({ role: "user", content: mensajeCliente });
       const promptSistema = config.construirSystemPrompt(catalogo, enfoqueProducto) + (telefono ? await notaPedidosDelCliente(telefono) : "");
@@ -1848,7 +1890,7 @@ let lineas = textoCompleto.split("\n");
             else if (tipo === "PAUSAR_SEGUIMIENTO") pausarSeguimiento = /^s[ií]/i.test(valor);
             return l.slice(0, m.index);
       });
-      const mensajeVisible = lineas.join("\n").trim();
+      const mensajeVisible = sanearRespuestaIA(lineas.join("\n").trim());
 
 return { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos };
 }
@@ -4687,7 +4729,7 @@ async function manejarTextoLibre(telefono, texto) {
                   const hablaDeNetum = (productoActual || idProductoEnfocado || sesion.ultimoProducto) === "impresora-termica" || sesion.ultimaCategoria === "impresora";
                   // 29-oct-2026 (Wendy: "siempre que el cliente llegue preguntando por la impresora, enviar las imagenes y
                   // video"): si pregunta por la impresora y todavia no ha visto el video de la calidad, se le manda.
-                  if (hablaDeNetum && !sesion.videoNetumCalidadEnviado && /(impres|netum|imprim)/i.test(texto)) {
+                  if (!sesion.videoNetumCalidadEnviado && ((hablaDeNetum && /(impres|netum|imprim|enpres|inpres|impre)/i.test(texto)) || (fotosProductos || []).includes("impresora-termica"))) {
                         try {
                               await enviarVideo(telefono, VIDEO_NETUM_CALIDAD, "Mira la calidad de impresión de la NETUM 🖨️");
                               sesion.videoNetumCalidadEnviado = true;
