@@ -3569,8 +3569,8 @@
     "telefono": "CO.1973185653657424",
     "nombre": "HML🥰😘😍",
     "primerContacto": "2026-11-01T22:05:48.738Z",
-    "ultimoContacto": "2026-11-02T00:29:10.662Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-02T00:30:54.576Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3669,6 +3669,18 @@
         "fecha": "2026-11-02T00:29:09.596Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk3MzE4NTY1MzY1NzQyNBUUABEYEkY5MkMxRDMxNTQ5NjBBNzAyRAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Les realizó el pedido este próximo sábado venidero \nMe interesa \nSolo blanco y negro?",
+        "fecha": "2026-11-02T00:30:52.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-02T00:30:52.722Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk3MzE4NTY1MzY1NzQyNBUUABEYEjUwNDFBOUYyMUZDRTJFMDA2MQA="
       }
     ],
     "paso": "conversando",
@@ -3682,7 +3694,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-02T00:30:52.721Z",
+      "quiereAviso": false
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
