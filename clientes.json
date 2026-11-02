@@ -1132,8 +1132,8 @@
     "telefono": "573108629329",
     "nombre": "jesus",
     "primerContacto": "2026-11-02T02:36:43.148Z",
-    "ultimoContacto": "2026-11-02T02:36:43.148Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T04:10:20.096Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1153,6 +1153,18 @@
         "fecha": "2026-11-02T02:36:42.116Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NjI5MzI5FQIAERgSMTMyODBCQTIxMkU3MDlEQUIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas noches",
+        "fecha": "2026-11-02T04:10:17.612Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenas noches, soy Michell, ¿en qué puedo ayudarte hoy? ¿Estás interesado en alguna conexión de internet, impresora, lámparas, cámaras o algún otro producto de GalviusTech? Cuéntame para qué lo necesitas.",
+        "fecha": "2026-11-02T04:10:19.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NjI5MzI5FQIAERgSMkM0MDIxODRBNkIxOTI1NkI0AA=="
       }
     ],
     "paso": "conversando",
@@ -1166,7 +1178,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573015323128",
