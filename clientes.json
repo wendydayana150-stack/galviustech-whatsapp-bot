@@ -3,8 +3,8 @@
     "telefono": "573104247129",
     "nombre": "lu alfonsot",
     "primerContacto": "2026-11-02T02:53:58.365Z",
-    "ultimoContacto": "2026-11-02T02:53:58.365Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T02:54:04.118Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T02:53:57.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MjQ3MTI5FQIAERgSREM0RDJENTc4QjgzREQyRDY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Más información",
+        "fecha": "2026-11-02T02:54:01.912Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, ¿qué categoría o producto te interesa ver más? 😄\n\n¿Quieres saber de modems, impresoras, lámparas solares, cámaras o algo de la tienda online? 📶🖨️💡📹⌚\n\nCuéntame para qué necesitas el producto y dónde lo vas a usar, así te recomienso lo mejor para ti. ¿Qué dices?",
+        "fecha": "2026-11-02T02:54:03.135Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MjQ3MTI5FQIAERgSODdEQTI1OEZBODc4MkQwM0Q1AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573143716526",
