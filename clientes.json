@@ -3,8 +3,8 @@
     "telefono": "573015323128",
     "nombre": "Naiyara",
     "primerContacto": "2026-11-02T02:35:07.628Z",
-    "ultimoContacto": "2026-11-02T02:35:07.628Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T02:35:11.333Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T02:35:06.699Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1MzIzMTI4FQIAERgSMjYwNzI5MkFBQTYzNDQyRTUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-02T02:35:09.356Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Para ayudarte bien, dime ¿qué producto te interesa? ¿Módem, impresora, lámpara, cámara, reloj? 😊  \n\nAsí te muestro lo que necesitas de una vez. ¿Qué uso le darías, para casa, negocio, estudio, o viaje?",
+        "fecha": "2026-11-02T02:35:10.438Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1MzIzMTI4FQIAERgSRUM0OURGMDBCNUY2MzY5MkRBAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208844303",
