@@ -3,8 +3,8 @@
     "telefono": "CO.1564448892380315",
     "nombre": "mi princesa",
     "primerContacto": "2026-11-02T17:22:57.836Z",
-    "ultimoContacto": "2026-11-02T17:23:03.741Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T18:35:17.558Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -63,6 +63,18 @@
         "fecha": "2026-11-02T18:31:52.764Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU2NDQ0ODg5MjM4MDMxNRUUABEYEjI0MDhBMDU5MTY1QjkyMzVERAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-02T18:35:16.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-02T18:35:16.541Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2NDQ0ODg5MjM4MDMxNRUUABEYEkExMEZBRUMxODFFREY3RjAxOAA="
       }
     ],
     "paso": "conversando",
@@ -78,9 +90,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T18:31:59.691Z"
+      "seguimientosEnviados": 0
     }
   },
   {
