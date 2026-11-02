@@ -9926,8 +9926,8 @@
     "telefono": "573059023051",
     "nombre": "Freddy Rguez",
     "primerContacto": "2026-11-01T23:39:52.937Z",
-    "ultimoContacto": "2026-11-02T12:45:15.747Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T12:46:28.145Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10000,6 +10000,18 @@
         "fecha": "2026-11-02T12:45:14.693Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU5MDIzMDUxFQIAERgSRDdBNkM2RjIyMDRFNzdFQUNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene que ser full color",
+        "fecha": "2026-11-02T12:46:26.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-02T12:46:26.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU5MDIzMDUxFQIAERgSRDIwN0Y1QTlEQUMwOERBQUM5AA=="
       }
     ],
     "paso": "conversando",
@@ -10013,7 +10025,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-02T12:46:26.840Z",
+      "quiereAviso": false
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
