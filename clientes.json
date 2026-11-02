@@ -2036,8 +2036,8 @@
     "telefono": "573004793140",
     "nombre": "Antonio",
     "primerContacto": "2026-11-02T09:40:25.528Z",
-    "ultimoContacto": "2026-11-02T09:40:25.528Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:15:46.324Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2078,13 +2078,59 @@
         "fecha": "2026-11-02T12:00:29.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSMjkwQzFFNDA0NUI5NERDNTQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio impresora",
+        "fecha": "2026-11-02T13:15:40.498Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T13:15:42.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSOUNCOUQwOUIyRjYyNDVBQzg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T13:15:42.797Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSM0UyRUNCNEE5OTVDODJEOTI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T13:15:43.354Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSN0E5NEYyMTQ4QUY0M0NCMzExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-02T13:15:43.947Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para la *Impresora Térmica Portátil NETUM* es de *$249.900* con *envío GRATIS* a toda Colombia. Imprime hojas tamaño carta sin tinta, es portátil y conecta por Bluetooth a tu celular, ideal para estudiar, trabajar o emprender. Además, tiene batería que dura hasta 30 horas y se recarga en 3 horas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas, para tareas, documentos o para tu negocio?",
+        "fecha": "2026-11-02T13:15:43.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSNDIxQjdEQjA4QjgxM0VBN0NFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-02T13:15:44.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSN0EyM0E0MTFFQUJGQUFBRTA0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -2093,10 +2139,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T12:03:27.154Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
