@@ -1465,8 +1465,8 @@
     "telefono": "573246864022",
     "nombre": "Esperanza Cáceres Lopez",
     "primerContacto": "2026-11-01T22:53:14.448Z",
-    "ultimoContacto": "2026-11-01T22:53:21.907Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T00:02:09.807Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1505,6 +1505,18 @@
         "fecha": "2026-11-01T23:59:17.092Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODY0MDIyFQIAERgSRjIwNUU3QjdFMDYzMTc0MURBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero más onformacion",
+        "fecha": "2026-11-02T00:02:06.672Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, para orientarte mejor, dime cuál producto te interesa: \n\n📶 Módem WiFi portátil, para tener internet donde lo necesites.  \n🖨️ Impresora térmica portátil, para imprimir sin tinta y sin depender de papelerías.  \n💡 Lámparas solares para iluminar sin costo de luz eléctrica.  \n📹 Cámaras de seguridad para vigilar tu casa o negocio desde el celular.  \n\n¿Qué te gustaría conocer más? ¿Para qué lo necesitas o en qué zona lo vas a usar? Así te doy detalles que te sirvan.",
+        "fecha": "2026-11-02T00:02:08.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODY0MDIyFQIAERgSOEU2NUIxODBBNzUwMDUyQUY3AA=="
       }
     ],
     "paso": "conversando",
@@ -1520,9 +1532,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T23:59:27.951Z"
+      "seguimientosEnviados": 0
     }
   },
   {
