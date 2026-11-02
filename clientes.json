@@ -3,8 +3,8 @@
     "telefono": "573168527577",
     "nombre": "rubby🩺💊💉",
     "primerContacto": "2026-11-02T15:36:58.453Z",
-    "ultimoContacto": "2026-11-02T15:40:39.066Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T15:41:44.581Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -147,14 +147,27 @@
         "fecha": "2026-11-02T15:40:37.968Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NTI3NTc3FQIAERgSNzAxN0Y4NUU3REVGNDA4RkRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y Xque aki sale más económica",
+        "fecha": "2026-11-02T15:41:43.418Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-02T15:41:43.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NTI3NTc3FQIAERgSNEMzNTRDNEJDRUQzNEJFQ0VBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "573168527577"
+      "telefono": "573168527577",
+      "nombreCliente": "Y Xque aki sale más económica"
     },
     "pausado": false,
     "etapaManual": null,
