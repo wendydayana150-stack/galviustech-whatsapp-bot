@@ -5006,8 +5006,8 @@
     "telefono": "573208844303",
     "nombre": "Flaca",
     "primerContacto": "2026-11-02T02:31:15.427Z",
-    "ultimoContacto": "2026-11-02T13:17:48.527Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T13:18:07.393Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5060,13 +5060,25 @@
         "fecha": "2026-11-02T13:17:47.543Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4ODQ0MzAzFQIAERgSRjYyMTU5REUwQUIxMjVFRUU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Impresora",
+        "fecha": "2026-11-02T13:18:04.807Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Para que te sirva bien, ¿me cuentas para qué necesitas la impresora? ¿Para hacer tareas, trabajos o documentos tamaño carta? ¿O para imprimir recibos, etiquetas o guías? Así te recomiendo la opción perfecta para ti.",
+        "fecha": "2026-11-02T13:18:06.233Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4ODQ0MzAzFQIAERgSMUUyMkRBNEExNzk0NDM5ODU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
