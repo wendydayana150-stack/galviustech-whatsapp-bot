@@ -3988,8 +3988,8 @@
     "telefono": "573004793140",
     "nombre": "Antonio",
     "primerContacto": "2026-11-02T09:40:25.528Z",
-    "ultimoContacto": "2026-11-02T13:19:14.169Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-02T14:26:34.596Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4095,6 +4095,18 @@
         "fecha": "2026-11-02T14:21:14.944Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSRjhGOUMxNzU0NzU0REVCOENDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias la tendré en cuenta.",
+        "fecha": "2026-11-02T14:26:31.531Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando decidas estoy para ayudarte 😊 Recuerda que la impresora te ahorra tiempo y gastos en tinta, ideal para tener siempre a la mano.\n\n¿Quieres que te comparta también opciones de modems, lámparas o cámaras, por si te interesan para tu hogar o trabajo?",
+        "fecha": "2026-11-02T14:26:33.498Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NzkzMTQwFQIAERgSMkU0QjU3NzU0NTRCRkQ2MzRCAA=="
       }
     ],
     "paso": "conversando",
@@ -4105,14 +4117,12 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T14:21:16.897Z"
+      "seguimientosEnviados": 0
     }
   },
   {
