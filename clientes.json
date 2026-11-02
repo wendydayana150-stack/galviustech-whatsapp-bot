@@ -418,8 +418,8 @@
     "telefono": "573218641292",
     "nombre": "Galincho",
     "primerContacto": "2026-11-02T11:49:01.716Z",
-    "ultimoContacto": "2026-11-02T11:49:01.716Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T12:32:20.489Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -459,6 +459,18 @@
         "fecha": "2026-11-02T11:49:00.455Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQ0RCMjlCMjVDM0U4NEExQUIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hl",
+        "fecha": "2026-11-02T12:32:17.784Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué te puedo ayudar hoy? ¿Quieres conocer nuestras impresoras térmicas portátiles o algún otro producto? ¿Para qué necesitas imprimir?",
+        "fecha": "2026-11-02T12:32:19.179Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSMTQ0MTlDNzU0QzUyNTY5MDRBAA=="
       }
     ],
     "paso": "conversando",
@@ -472,7 +484,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124850288",
