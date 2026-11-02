@@ -1326,8 +1326,8 @@
     "telefono": "573115548637",
     "nombre": "Geraldine",
     "primerContacto": "2026-11-02T12:44:48.090Z",
-    "ultimoContacto": "2026-11-02T12:44:48.090Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:59:46.200Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1374,10 +1374,27 @@
         "fecha": "2026-11-02T13:51:13.397Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSMDc3NEExMzA4ODE0RkVFREFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-02T13:59:44.962Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-02T13:59:45.268Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSMUM3N0FCNEMxQkZCQUE0QzRFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573115548637"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -1389,9 +1406,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T13:51:19.393Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
