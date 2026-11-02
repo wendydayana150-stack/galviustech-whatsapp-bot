@@ -3,8 +3,8 @@
     "telefono": "573214948921",
     "nombre": "Ivette",
     "primerContacto": "2026-11-02T13:23:17.595Z",
-    "ultimoContacto": "2026-11-02T13:23:17.595Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:24:27.809Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-02T13:23:16.441Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0OTQ4OTIxFQIAERgSRjRBRjhCMjg5Mjg1N0M3RDczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Explícame eso que imprime sin tinta",
+        "fecha": "2026-11-02T13:24:25.195Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 La Impresora Térmica Portátil NETUM imprime sin tinta porque usa *tecnología térmica*: solo necesita papel especial que reacciona al calor para formar la impresión en blanco y negro.\n\nEsto significa que jamás gastarás en cartuchos ni tóners, solo tendrás que usar papel térmico que es económico y duradero.\n\n¿Para qué la necesitas? Así te explico mejor cómo te ayuda esta impresora portátil.",
+        "fecha": "2026-11-02T13:24:26.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0OTQ4OTIxFQIAERgSMDk4OUJFNzIyQUVDOEM5RjA0AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573508351926",
