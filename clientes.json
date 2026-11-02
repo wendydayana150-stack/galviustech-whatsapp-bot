@@ -878,8 +878,8 @@
     "telefono": "573015711075",
     "nombre": "cesar",
     "primerContacto": "2026-11-02T12:04:52.691Z",
-    "ultimoContacto": "2026-11-02T12:04:52.691Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:08:53.597Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -906,6 +906,18 @@
         "fecha": "2026-11-02T13:08:44.200Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE1NzExMDc1FQIAERgSM0ExMzFEOEMwNDlGMzUzODM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no podemos responder, pero lo haremos lo antes posible.",
+        "fecha": "2026-11-02T13:08:51.087Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por tu mensaje. Quedo atenta cuando puedas escribirme para ayudarte con lo que necesites. 😊",
+        "fecha": "2026-11-02T13:08:52.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE1NzExMDc1FQIAERgSOTY5NjA1MzhGNEM4QUU1QTgwAA=="
       }
     ],
     "paso": "conversando",
@@ -916,14 +928,12 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T13:08:47.930Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
