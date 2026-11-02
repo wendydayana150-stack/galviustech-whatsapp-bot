@@ -5075,8 +5075,8 @@
     "telefono": "CO.29940377922231102",
     "nombre": "Angie",
     "primerContacto": "2026-11-02T13:08:36.702Z",
-    "ultimoContacto": "2026-11-02T13:08:36.702Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T19:55:36.446Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5144,6 +5144,18 @@
         "fecha": "2026-11-02T15:13:04.622Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBI5NUFGQjBENzYyQTg1OUM4MTYA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-02T19:55:31.315Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 Soy Michell de GalviusTech, ¿en qué ciudad estás y para qué necesitas la impresora térmica portátil? ¿Es para tareas, para tu negocio o para otro uso? Así te recomiendo lo mejor para ti. ¿Me cuentas?",
+        "fecha": "2026-11-02T19:55:35.079Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBJBRERBNEI1OEJGN0VDNEUwN0UA"
       }
     ],
     "paso": "conversando",
@@ -5159,10 +5171,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T15:13:09.951Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
