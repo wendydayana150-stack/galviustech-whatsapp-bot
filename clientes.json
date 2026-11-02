@@ -6582,8 +6582,8 @@
     "telefono": "573124850288",
     "nombre": "mauricio medina",
     "primerContacto": "2026-11-02T11:44:43.201Z",
-    "ultimoContacto": "2026-11-02T16:43:29.547Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T17:52:45.434Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6638,6 +6638,18 @@
         "fecha": "2026-11-02T17:51:55.825Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0ODUwMjg4FQIAERgSN0Q0RkUyNzUyNTFFQjUwREY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que pena, ya compramos",
+        "fecha": "2026-11-02T17:52:39.317Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Me alegra que hayan elegido con nosotros 😊\n\n¿Quieres que te ayude con instalación o configuración cuando te llegue el producto?\n\n¿O prefieres que te guarde el contacto para futuras compras?",
+        "fecha": "2026-11-02T17:52:44.162Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0ODUwMjg4FQIAERgSN0Q5RjA1MEREMzQwQzZEMzE3AA=="
       }
     ],
     "paso": "conversando",
@@ -6653,9 +6665,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T17:52:10.741Z"
+      "seguimientosEnviados": 0
     }
   },
   {
