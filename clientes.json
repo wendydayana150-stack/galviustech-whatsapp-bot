@@ -3,8 +3,8 @@
     "telefono": "573102915047",
     "nombre": "emollis",
     "primerContacto": "2026-11-02T01:32:24.329Z",
-    "ultimoContacto": "2026-11-02T01:32:24.329Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T01:32:27.923Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T01:32:23.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTE1MDQ3FQIAERgSM0UxNERBQThCQTkyNjIxN0RCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto vale",
+        "fecha": "2026-11-02T01:32:25.778Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, ¿me puedes contar para qué producto quieres saber el precio? ¿Es para internet, para imprimir, iluminar o seguridad? Así te doy la info exacta con beneficios y la mejor recomendación para lo que necesitas. ¿Para qué lo usarías?",
+        "fecha": "2026-11-02T01:32:26.855Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTE1MDQ3FQIAERgSNDUwODJGMDQ2Mzg2NTMyNjZDAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2131668274407638",
