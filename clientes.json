@@ -194,8 +194,8 @@
     "telefono": "573222896880",
     "nombre": "griselda blanco",
     "primerContacto": "2026-11-02T14:04:05.247Z",
-    "ultimoContacto": "2026-11-02T14:15:11.726Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T14:17:59.099Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -304,6 +304,18 @@
         "fecha": "2026-11-02T14:15:10.586Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyODk2ODgwFQIAERgSQjM4MjY4MzU3Qzc5QzlFMzMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias en el momento estoy retirado hablamos después",
+        "fecha": "2026-11-02T14:17:56.412Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, griselda, quedo atenta cuando puedas 😊 Recuerda que la promo del 30% es por pocos días y hay pocas unidades. Cuando decidas, aquí estoy para ayudarte con lo que necesites.\n\n¡Que tengas un lindo día! 🌟",
+        "fecha": "2026-11-02T14:17:58.059Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODk2ODgwFQIAERgSRkFENUJFNEE3N0EwMkVDRURFAA=="
       }
     ],
     "paso": "conversando",
@@ -314,7 +326,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
