@@ -2832,8 +2832,8 @@
     "telefono": "573045218000",
     "nombre": "",
     "primerContacto": "2026-11-02T11:42:50.492Z",
-    "ultimoContacto": "2026-11-02T14:17:11.129Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-02T14:17:51.407Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2939,6 +2939,18 @@
         "fecha": "2026-11-02T14:17:10.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSMDBDMzM1NTJCQjAyNzA4RTFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuando decida comprarla YO me comunicaré con udes.",
+        "fecha": "2026-11-02T14:17:48.247Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres pensarlo con calma. Recuerda que la promoción con 30% de descuento y envío gratis puede cambiar, por eso siempre es bueno aprovecharla cuando estés seguro.\n\nEstoy aquí para ayudarte cuando decidas comprarla o si tienes alguna otra pregunta, ¿quieres que te comparta otras opciones de impresoras o productos mientras tanto?",
+        "fecha": "2026-11-02T14:17:50.251Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSM0RDNzFFM0ZEQTdBNEM1MkIxAA=="
       }
     ],
     "paso": "conversando",
@@ -2949,7 +2961,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
