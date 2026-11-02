@@ -557,11 +557,11 @@ function lineaPrecioNetum(netum) {
       return `💰 Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}* con *30% de descuento* 🔥`;
 }
 const TEXTO_PAPEL_NETUM_CORTO =
-      "📄 *Papel:* usa *papel térmico tamaño carta*, *sin tinta*. *Trae un rollo de papel* para empezar y después te lo vendemos nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
+      "📄 *Papel:* usa *hojas térmicas*, que consigues en *cualquier papelería* o *con nosotros*. *Trae papel incluido* para empezar; con nosotros: rollo de 9 m $10.000, 52 hojas $35.000 o 200 hojas $75.000.";
 const TEXTO_PAPEL_NETUM =
-      "📄 La NETUM imprime en *papel térmico tamaño carta*, *sin tinta*.\n\n" +
-      "✅ Con la impresora va *un rollo de papel incluido*.\n" +
-      "🛒 El papel lo consigues *con nosotros mismos* y, si no, en papelerías. Si quieres, te lo agrego de una vez y llega en el mismo envío:\n" +
+      "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n" +
+      "✅ Con la impresora va *papel incluido*.\n" +
+      "🛒 Si quieres, te lo agrego de una vez y llega en el mismo envío:\n" +
       "• Rollo tamaño carta (9 m): $10.000\n• 52 hojas tamaño carta: $35.000\n• 200 hojas tamaño carta: $75.000";
 // Mas economicas que la NETUM, en orden de precio, con para que sirve cada una (de la guia de impresoras de config.js)
 const USO_IMPRESORAS_ECONOMICAS = {
@@ -570,7 +570,7 @@ const USO_IMPRESORAS_ECONOMICAS = {
       "impresora-termica-portatil-goojprt-pt-210": "recibos y tirillas de negocio (tipo POS), guías y comandas",
       "impresora-termica-portatil-de-etiquetas-clabel-221b": "etiquetas adhesivas con precio, código de barras y vencimiento",
 };
-const OBJECION_PAPEL = /(papel (normal|com[uú]n|bond|de resma)|resma|hojas? (normal|com[uú]n|bond|de cuaderno)|qu[eé] (papel|hojas)|(d[oó]nde|donde) (lo |la |las |los )?(consigo|compro|venden|consigue|encuentro)|(papel|hojas|rollos?)\b.*\b(cu[aá]nto|precio|valor|vale|cuesta|consigo|compro|venden)|(cu[aá]nto|precio|valor|vale|cuesta)\b.*\b(papel|hojas|rollos?)\b)/i;
+const OBJECION_PAPEL = /((usa|utiliza|lleva|sirve|funciona|imprime)\s+(con\s+|en\s+)?(cualquier\s+)?(hojas?|papel)|(hojas?|papel)\s+(normal|com[uú]n|corriente|carta|especial)|papel (normal|com[uú]n|bond|de resma)|resma|hojas? (normal|com[uú]n|bond|de cuaderno)|qu[eé] (papel|hojas)|(d[oó]nde|donde) (lo |la |las |los )?(consigo|compro|venden|consigue|encuentro)|(papel|hojas|rollos?)\b.*\b(cu[aá]nto|precio|valor|vale|cuesta|consigo|compro|venden)|(cu[aá]nto|precio|valor|vale|cuesta)\b.*\b(papel|hojas|rollos?)\b)/i;
 const OBJECION_PRECIO = /(\bcar[oa]\b|costos[oa]|m[aá]s (econ[oó]mic|barat)|algo (econ[oó]mic|barat)|otra (m[aá]s )?(econ[oó]mic|barat)|no (tengo|tengo ahorita|tengo ahora) (la |el |ese |esa |tanto |tanta )?(plata|dinero|presupuesto|con qu[eé])|no me alcanza|no me queda (plata|dinero)|no hay plata|sin plata|cuando tenga (la )?plata|presupuesto|muy elevad)/i;
 const OBJECION_COLOR = /(imprim\w*\s+(a |en )?colou?r(?!\s*(negro|blanco))|\ba colou?r(es)?\b|\ben colou?r\b(?!\s*(negro|blanco|rosad|azul|gris|rojo|verde|plateado|dorado))|\ba colores\b|full colou?r|fotos? (a|en) colou?r|blanco y negro (o|y) (a )?colou?r|solo (imprime )?(en )?blanco y negro)/i;
 const PREGUNTA_AVISO_COLOR = /avise cuando llegue la impresora a color/i;
@@ -4244,9 +4244,9 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
             // Wendy (26-oct-2026): siempre se ofrece el papel adicional en el mismo mensaje, con pregunta para agregarlo
             // 29-oct-2026 (Wendy): los precios del papel se dan cuando el cliente ya decidio comprar (al confirmar los datos)
             respuesta =
-                  "📄 La NETUM imprime en *papel térmico tamaño carta*, *sin tinta*.\n\n" +
-                  "✅ *Trae un rollo de papel incluido* para que empieces a imprimir.\n" +
-                  "🛒 Después el papel lo consigues *con nosotros mismos* o en papelerías.\n\n" +
+                  // 2-nov-2026 (Wendy): respuesta exacta cuando preguntan por las hojas.
+                  "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n" +
+                  "✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n" +
                   "¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*";
       }
 
