@@ -388,6 +388,14 @@ async function enviarDocumentoPorId(telefono, mediaId, nombreArchivo, caption) {
 }
 
 async function enviarBotones(telefono, texto, botones) {
+      // 1-nov-2026 (Wendy, caso lampara Medellin): el boton "¿Te lo envio?" no va si el cliente ya dijo que no
+      // compra, ni se repite si ya salio en los ultimos mensajes del bot.
+      if (/te lo env[ií]o/i.test(texto)) {
+            const ses = sesiones[telefono];
+            if (ses?.rechazoCliente && Date.now() - ses.rechazoCliente < 24 * 3600 * 1000) return;
+            const ultimosBot = (ses?.transcripcion || []).filter((m) => m.rol === "bot").slice(-3);
+            if (ultimosBot.some((m) => /te lo env[ií]o/i.test(m.texto || ""))) return;
+      }
       const listaBotones = botones.map((b) => b.titulo).join(" | ");
       const registro = registrarMensaje(telefono, "bot", `${texto}\n[Opciones: ${listaBotones}]`);
       const respuesta = await axios.post(
@@ -604,6 +612,10 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
       return true;
 }
 
+// Rechazo fuerte (1-nov-2026): "no compra", "no mande nada", "no mas informacion", "adios", "otro proveedor".
+// Se tolera la escritura con errores ("no mebinteresa", "nuscar otro proveedor").
+const CLIENTE_RECHAZA = /(\bno\s*(compr[oa]|lo compro|voy a comprar)|no\s*(me\s*)?(mand|env[ií])[ae]s?\s*(nada|m[aá]s)|no\s*m[aá]s\s*info|no\s*me\s*b?\s*interes|no\s*mebinteres|otro\s*provee|buscar\s*otr|nuscar|\badi[oó]s\b|\bchao\b|no\s*me\s*sirve|no\s*respond|no\s*resuelv)/i;
+const CLIENTE_RETOMA = /(\bquiero\b|env[ií]a(me|lo|mela)|\bpedido\b|\bprecio\b|cu[aá]nto (vale|cuesta)|me (lo|la) llevo)/i;
 const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias)/i;
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
 // Lamparas 3 lentes x3 con envio gratis: confirmado por Wendy (27-oct-2026). La lista vive en config.js.
@@ -4368,7 +4380,9 @@ async function manejarTextoLibre(telefono, texto) {
 
       // NO LE INTERESA (29-oct-2026, Wendy: "cuando el cliente diga que no le interesa, enviar catalogo y decir que tambien
       // hay otras opciones muy buenas e interesantes"). Una sola vez por chat; si despues insiste, responde la IA.
-      if (sesion.paso === "conversando" && !sesion.catalogoPorNoInteres && NO_LE_INTERESA.test(String(texto))) {
+      if (CLIENTE_RECHAZA.test(String(texto)) || NO_LE_INTERESA.test(String(texto))) sesion.rechazoCliente = Date.now();
+      else if (sesion.rechazoCliente && CLIENTE_RETOMA.test(String(texto))) sesion.rechazoCliente = null;
+      if (sesion.paso === "conversando" && !sesion.catalogoPorNoInteres && (NO_LE_INTERESA.test(String(texto)) || CLIENTE_RECHAZA.test(String(texto)))) {
             sesion.catalogoPorNoInteres = true;
             const respuesta =
                   "¡Entiendo, gracias por contarme! 😊 Te cuento que también tenemos *otras opciones muy buenas e interesantes* 👇\n\n" +
@@ -4415,7 +4429,7 @@ async function manejarTextoLibre(telefono, texto) {
 
       // Pidio mas detalles del producto que venia viendo: la ficha completa del catalogo y el boton de cierre al final
       const productoFicha = catalogo.find((p) => p.id === sesion.ultimoProducto);
-      if (sesion.paso === "conversando" && productoFicha && PIDE_MAS_DETALLES.test(texto) && (productoFicha.descripcion || "").trim()) {
+      if (sesion.paso === "conversando" && productoFicha && PIDE_MAS_DETALLES.test(texto) && !sesion.rechazoCliente && !CLIENTE_RECHAZA.test(texto) && (productoFicha.descripcion || "").trim()) {
             let ficha = productoFicha.descripcion.trim();
             if (ficha.length > 2800) ficha = ficha.slice(0, 2800).replace(/\s+\S*$/, "") + "...";
             await enviarTexto(telefono, `*${productoFicha.nombre}*\n\n${ficha}`);
