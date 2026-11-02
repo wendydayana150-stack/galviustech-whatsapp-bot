@@ -3,8 +3,8 @@
     "telefono": "573012796581",
     "nombre": "Mónica Sofía Abad",
     "primerContacto": "2026-11-02T03:04:53.412Z",
-    "ultimoContacto": "2026-11-02T03:04:53.412Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T03:06:02.947Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,25 @@
         "fecha": "2026-11-02T03:04:51.997Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyNzk2NTgxFQIAERgSNkNGQ0Y1NUQ5QzJDNDdEMjRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas soy docente",
+        "fecha": "2026-11-02T03:06:00.003Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para imprimir tareas y documentos en hoja tamaño carta, la mejor opción es la Impresora Térmica Portátil NETUM. Imprime sin tinta, es portátil y fácil de usar conectándola por Bluetooth al celular. La inversión sería de *$249.900 con envío GRATIS*. ¿En qué ciudad o municipio estás para coordinar el envío?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-02T03:06:01.325Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNzk2NTgxFQIAERgSMkI1MkU2NEMyQUIzOThGRTQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-02T03:06:01.938Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNzk2NTgxFQIAERgSMkU2QzlCMERGOTJCRDNGNjdBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103104724",
