@@ -205,8 +205,8 @@
     "telefono": "573128213766",
     "nombre": "Mabel",
     "primerContacto": "2026-11-02T04:05:15.145Z",
-    "ultimoContacto": "2026-11-02T04:07:12.327Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-02T04:32:54.038Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -250,11 +250,18 @@
         "fecha": "2026-11-02T04:07:11.270Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4MjEzNzY2FQIAERgSMUNBNUIwNDIzRjc1MzM0RENDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí, Mabel! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\r\n\r\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\r\n\r\nDime cuál producto te gusta y te mando fotos, video y precio al instante 📸",
+        "fecha": "2026-11-02T04:32:52.938Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4MjEzNzY2FQIAERgSMkIwN0YwODVBQTBBMTBFMjI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": null,
