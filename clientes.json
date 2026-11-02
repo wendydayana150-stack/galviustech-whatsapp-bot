@@ -1326,8 +1326,8 @@
     "telefono": "573115548637",
     "nombre": "Geraldine",
     "primerContacto": "2026-11-02T12:44:48.090Z",
-    "ultimoContacto": "2026-11-02T13:59:46.200Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-02T14:00:02.004Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1386,6 +1386,25 @@
         "fecha": "2026-11-02T13:59:45.268Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSMUM3N0FCNEMxQkZCQUE0QzRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esa funciona con hoja normal",
+        "fecha": "2026-11-02T13:59:58.753Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM NO usa hoja normal, imprime en papel térmico tamaño carta incluido. Así no tienes que comprar tinta ni cartuchos, solo el rollo especial térmico que también vendemos si quieres más adelante.",
+        "fecha": "2026-11-02T14:00:00.428Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSRkIwMjZDQUI5QjkxMEVGNTkzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-02T14:00:00.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1NTQ4NjM3FQIAERgSMEQ4RjRFOTMwQkE0OUMxNDkzAA=="
       }
     ],
     "paso": "pedido_nombre",
