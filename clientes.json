@@ -418,8 +418,8 @@
     "telefono": "573218641292",
     "nombre": "Galincho",
     "primerContacto": "2026-11-02T11:49:01.716Z",
-    "ultimoContacto": "2026-11-02T12:32:51.799Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T12:33:21.198Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -502,10 +502,27 @@
         "fecha": "2026-11-02T12:32:50.431Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSOThFQjFDQzFCMDQ5MDhFMDFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-02T12:33:19.530Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-02T12:33:19.908Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQzc5NjNCRTA4NTExMkY2QUVBAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573218641292"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
