@@ -3,8 +3,8 @@
     "telefono": "573168527577",
     "nombre": "rubby🩺💊💉",
     "primerContacto": "2026-11-02T15:36:58.453Z",
-    "ultimoContacto": "2026-11-02T15:40:10.757Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T15:40:39.066Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,10 +128,34 @@
         "fecha": "2026-11-02T15:40:09.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY4NTI3NTc3FQIAERgSQkI4QkRENkU5MUYxREUyOUE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ésa",
+        "fecha": "2026-11-02T15:40:34.500Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te ayudo a dejar tu pedido listo para la *Impresora Térmica Portátil NETUM*.\n\nSolo necesito que me confirmes a qué ciudad o barrio lo enviamos y cómo prefieres pagar, ¿contraentrega o transferencia?",
+        "fecha": "2026-11-02T15:40:36.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NTI3NTc3FQIAERgSQjJDNUJFRjczRjU4QkE3MTE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-02T15:40:37.968Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY4NTI3NTc3FQIAERgSNzAxN0Y4NUU3REVGNDA4RkRGAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573168527577"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
