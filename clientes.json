@@ -1214,8 +1214,8 @@
     "telefono": "573150834783",
     "nombre": "Ruben Dario",
     "primerContacto": "2026-11-02T11:38:05.991Z",
-    "ultimoContacto": "2026-11-02T11:38:05.991Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T12:56:24.442Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1242,6 +1242,18 @@
         "fecha": "2026-11-02T12:40:28.245Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUwODM0NzgzFQIAERgSM0UzNjlGNTk4RkQzMDkzMzhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "mañana hablamos,muchas gracias",
+        "fecha": "2026-11-02T12:56:21.622Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribir, Ruben 😊 Quedo atenta para cuando decidas, recuerda que la promo del 30% y el envío están activos solo por poco tiempo.\n\n¿Quieres que te deje alguna info lista para cuando hables mañana?",
+        "fecha": "2026-11-02T12:56:23.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUwODM0NzgzFQIAERgSRTIxNjU2Q0M4QTc1NzE2MTg1AA=="
       }
     ],
     "paso": "conversando",
@@ -1252,14 +1264,12 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T12:40:34.990Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
