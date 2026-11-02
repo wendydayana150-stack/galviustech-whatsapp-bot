@@ -3,8 +3,8 @@
     "telefono": "CO.2131668274407638",
     "nombre": "Dios Yfe",
     "primerContacto": "2026-11-02T01:31:45.129Z",
-    "ultimoContacto": "2026-11-02T01:31:45.129Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T01:31:57.972Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T01:31:44.051Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjEzMTY2ODI3NDQwNzYzOBUUABEYEjczNEMwQTUxNTU4QThBQjNEQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esto sirbe para computador grasias",
+        "fecha": "2026-11-02T01:31:54.695Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, pero para ayudarte mejor dime primero ¿qué producto te interesa?\n\nPor ejemplo, nuestro módem WiFi portátil es ideal para conectar tu computador en cualquier lugar donde haya señal móvil, y nuestras impresoras térmicas portátil pueden imprimir desde el celular o computador via Bluetooth dependiendo del modelo.\n\n¿Me cuentas cuál producto te gustaría usar con tu computador? Así te digo si es compatible y cuál te conviene. ¿O necesitas internet, imprimir o ambas cosas?",
+        "fecha": "2026-11-02T01:31:56.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjEzMTY2ODI3NDQwNzYzOBUUABEYEjRCRjE1MEZDRjMwRjAyQzUwMwA="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232954317",
