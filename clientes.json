@@ -3,8 +3,8 @@
     "telefono": "573181968063",
     "nombre": "😎",
     "primerContacto": "2026-11-02T00:21:43.225Z",
-    "ultimoContacto": "2026-11-02T00:21:43.225Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T00:21:47.427Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T00:21:42.439Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxOTY4MDYzFQIAERgSQkI4QzQ1QUM0NjIyRDlEQkVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-02T00:21:45.735Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, ¿de cuál producto quieres saber el precio? ¿Módem, impresora, lámpara, cámara o algún otro? Así te doy el valor exacto con sus beneficios y envío.",
+        "fecha": "2026-11-02T00:21:46.716Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxOTY4MDYzFQIAERgSMzVEMkU4NUQ2RjUzOTBEMzk5AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103379665",
