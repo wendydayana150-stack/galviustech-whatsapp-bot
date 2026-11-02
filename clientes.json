@@ -5075,8 +5075,8 @@
     "telefono": "CO.29940377922231102",
     "nombre": "Angie",
     "primerContacto": "2026-11-02T13:08:36.702Z",
-    "ultimoContacto": "2026-11-02T19:55:46.737Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T19:56:01.134Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5187,6 +5187,18 @@
         "fecha": "2026-11-02T19:55:44.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBIyQjNERDEwMEVGNzc1MkY3NUIA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-02T19:55:59.847Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Quedas anotado y te escribo apenas llegue la impresora a color.\n\nY si mientras tanto te sirve en blanco y negro, ¿te dejo lista la *NETUM* con envío GRATIS? 🚚",
+        "fecha": "2026-11-02T19:55:59.847Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBI3QUFBQzFCQjYyMEEyRTIwNEQA"
       }
     ],
     "paso": "conversando",
@@ -5202,7 +5214,7 @@
     "esperaCompra": null,
     "interesColor": {
       "desde": "2026-11-02T19:55:44.887Z",
-      "quiereAviso": false
+      "quiereAviso": true
     },
     "recordatorios": {
       "seguimientosEnviados": 0
