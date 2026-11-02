@@ -3605,8 +3605,8 @@
     "telefono": "573114963390",
     "nombre": "Nancybella 👩‍👧",
     "primerContacto": "2026-11-01T21:51:37.499Z",
-    "ultimoContacto": "2026-11-01T21:51:37.499Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T00:12:28.830Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3647,6 +3647,18 @@
         "fecha": "2026-11-01T23:59:24.464Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0OTYzMzkwFQIAERgSQjJBQ0UzMjRCN0VDNDkxNkRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por la información",
+        "fecha": "2026-11-02T00:12:25.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, Nancybella 😊 ¿Quieres que te muestre fotos y precios de algún producto en particular? ¿O me cuentas para qué lo necesitas y en qué ciudad estás para recomendarte lo mejor?",
+        "fecha": "2026-11-02T00:12:27.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0OTYzMzkwFQIAERgSMEU5NzQ3QUYzRkVBQUVDOTU1AA=="
       }
     ],
     "paso": "conversando",
@@ -3662,10 +3674,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-01T23:59:27.951Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
