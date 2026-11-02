@@ -3,8 +3,8 @@
     "telefono": "573234742515",
     "nombre": "Alejandra",
     "primerContacto": "2026-11-02T12:00:43.870Z",
-    "ultimoContacto": "2026-11-02T12:00:43.870Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T12:01:52.491Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-02T12:00:42.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NzQyNTE1FQIAERgSRTAxRDg3MTlEMTJDNjdFMUNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-02T12:01:45.988Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-02T12:01:45.989Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzQyNTE1FQIAERgSMjQ2OEU2RTY5NEQ3NzMzQ0ZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-02T12:01:46.656Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzQyNTE1FQIAERgSQURCOTY5QkI3QjMwNzE5NTMyAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +56,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218641292",
