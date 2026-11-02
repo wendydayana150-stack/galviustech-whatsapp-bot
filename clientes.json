@@ -500,8 +500,8 @@
     "telefono": "573218641292",
     "nombre": "Galincho",
     "primerContacto": "2026-11-02T11:49:01.716Z",
-    "ultimoContacto": "2026-11-02T12:33:21.198Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T12:40:29.893Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -596,6 +596,25 @@
         "fecha": "2026-11-02T12:33:19.908Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQzc5NjNCRTA4NTExMkY2QUVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-02T12:40:26.561Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial,",
+        "fecha": "2026-11-02T12:40:27.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSRTFEQzg0QzBCM0QzRkRDNUREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-02T12:40:28.789Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NjQxMjkyFQIAERgSQUQwQ0Y3QkNENDI1MTZBMUJFAA=="
       }
     ],
     "paso": "pedido_nombre",
