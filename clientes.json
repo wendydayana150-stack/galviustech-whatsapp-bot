@@ -2832,8 +2832,8 @@
     "telefono": "573045218000",
     "nombre": "",
     "primerContacto": "2026-11-02T11:42:50.492Z",
-    "ultimoContacto": "2026-11-02T11:42:50.492Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T14:16:21.793Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2874,13 +2874,66 @@
         "fecha": "2026-11-02T13:51:17.315Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSNkYxMzVGQUMzNkJFOUIxN0MyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio impresoras",
+        "fecha": "2026-11-02T14:16:15.245Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T14:16:16.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSRjkwOTBGM0Y4QTlGNjJDRTgwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T14:16:17.731Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSNDk4NTNENUFENDNDQzg4MjNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-02T14:16:18.324Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSNjhGNDYxQjBDNTI4NDBFRDMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-02T14:16:18.854Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión para la *Impresora Térmica Portátil NETUM* es de *$249.900* con envío GRATIS a toda Colombia. Imprime hojas tamaño carta, es portátil, sin tinta (solo usa papel térmico) y conecta por Bluetooth con tu celular, ideal para estudios, trabajos o emprendimientos.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas, para imprimir documentos tamaño carta o recibos/etiquetas más pequeños? Así te recomiendo la mejor impresora para ti.",
+        "fecha": "2026-11-02T14:16:18.855Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSQzYwMjVENzJERkY2MUZGNTUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-02T14:16:19.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSNkRFRTMxMzZGRkFBNEZGMjIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-11-02T14:16:19.959Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjE4MDAwFQIAERgSMjdBNDNCNjg2MjY0REZGREI0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -2889,10 +2942,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T13:51:19.393Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
