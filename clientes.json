@@ -3,8 +3,8 @@
     "telefono": "573012531940",
     "nombre": "Jaime Rodríguez",
     "primerContacto": "2026-11-02T13:58:05.799Z",
-    "ultimoContacto": "2026-11-02T13:58:05.799Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T13:58:33.399Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-02T13:58:04.625Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyNTMxOTQwFQIAERgSMUNDQTkyQkE0QTNFNDY1OTY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy en Barranquilla",
+        "fecha": "2026-11-02T13:58:29.426Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, de GalviusTech.\n\nLa inversión en la Impresora Térmica Portátil NETUM es de *$249.900* con envío GRATIS y pagas al recibir.\n\nEsta impresora es ideal para que imprimas documentos o trabajos en tamaño carta desde tu celular sin usar tinta, y es tan compacta que cabe en tu bolso (mide 27.5 x 6.5 x 5 cm).\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas principalmente, para tareas y documentos o para cosas como recibos y etiquetas?",
+        "fecha": "2026-11-02T13:58:32.164Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyNTMxOTQwFQIAERgSQjZBN0MyODA1OTdGQUUzQjlBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133717823",
