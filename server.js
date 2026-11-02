@@ -3065,7 +3065,7 @@ const ANUNCIA_PREGUNTA = /^\s*(hola[\s,!.]*)?(((tengo|ten[ií]a|hay)\s+)?(una|ot
 
 // Palabras que no aparecen en un nombre completo pero si en un comentario ("Es para la casa y terreno")
 // El cliente deja la compra para despues ("otro dia me comunico", "luego te escribo", "lo pienso"): oct-2026, Wendy
-const CLIENTE_POSPONE = /(otro d[ií]a|otro momento|m[aá]s adelante|(luego|despu[eé]s|ma[ñn]ana)\s+(te |le |les )?(escrib|comunic|aviso|confirm|hablo|digo)|me comunico|(te|le|les) (escribo|aviso|confirmo|hablo) (luego|despu[eé]s|ma[ñn]ana|otro)|lo (voy a )?pens|por ahora no|cuando tenga|yo (te |le )?aviso)/i;
+const CLIENTE_POSPONE = /(otro d[ií]a|otro momento|m[aá]s adelante|(luego|despu[eé]s|ma[ñn]ana)\s+(te |le |les )?(escrib|comunic|aviso|confirm|hablo|digo)|me comunico|(te|le|les) (escribo|aviso|confirmo|hablo) (luego|despu[eé]s|ma[ñn]ana|otro)|lo (voy a )?pens|por ahora no|cuando tenga|yo[\s.]*((te|le)[\s.]*)?aviso|(te|le|se) lo confirmo|(yo )?(te|le|me) (escribo|comunico|aviso|confirmo|cuento|digo)\b|cuando (decida|me decida|pueda|est[eé] list)|hablamos (luego|despu|desp|otro|ma[ñn]ana|m[aá]s)|lo tendr[eé] en cuenta|m[aá]s tarde|la otra semana|la pr[oó]xima (semana|quincena)|(confirm|escrib|avis|compr|pid|decid|habl|comunic|llam)\w*\b.{0,30}\b(el |este |esta |pr[oó]xim[oa] )?(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|fin de semana|semana|quincena|mes)\b)/i;
 const MENSAJE_APROVECHA_DESCUENTO =
       "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
 
@@ -3443,7 +3443,7 @@ async function manejarFlujoPedido(telefono, texto) {
       // Deja la compra para despues en medio del pedido (oct-2026, Wendy, chat de Jhon): Michell repetia "Ahora si,
       // ¿cual es tu nombre completo?" despues de cada despedida. La primera vez se le recuerda que el descuento es
       // por ultimos dias y ultimas unidades; si igual lo deja para despues, se despide sin volver a pedir datos.
-      if (CLIENTE_POSPONE.test(texto)) {
+      if (CLIENTE_POSPONE.test(texto) && !(SIN_PLATA.test(texto) && !sesion.ofrecioSistecreditoSinPlata)) {
             if (!sesion.descuentoRecordadoAlPosponer) {
                   sesion.descuentoRecordadoAlPosponer = true;
                   await enviarTexto(telefono, MENSAJE_APROVECHA_DESCUENTO);
@@ -4477,6 +4477,15 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       if (sesion.paso === "conversando" && (await ofrecerSistecreditoSinPlata(telefono, sesion, texto))) return;
+      // POSPONE EN LA CONVERSACION (2-nov-2026, Wendy: "nunca envio el mensaje de que quedan las ultimas unidades"):
+      // antes solo funcionaba en la toma de datos. Ahora, si el cliente deja la compra para despues ("te lo confirmo
+      // el sabado", "yo te aviso", "mas tarde"), va el mensaje de ultimos dias y ultimas unidades (una vez por chat).
+      if (sesion.paso === "conversando" && !sesion.descuentoRecordadoAlPosponer && !sesion.rechazoCliente && CLIENTE_POSPONE.test(texto) && !CLIENTE_RECHAZA.test(texto)) {
+            sesion.descuentoRecordadoAlPosponer = true;
+            await enviarTexto(telefono, MENSAJE_APROVECHA_DESCUENTO);
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: MENSAJE_APROVECHA_DESCUENTO });
+            return;
+      }
       if (sesion.paso === "conversando" && (await responderObjecionImpresora(telefono, sesion, texto))) return;
       if (sesion.paso === "conversando" && (await responderObjecionPrecio(telefono, sesion, texto))) return;
 
