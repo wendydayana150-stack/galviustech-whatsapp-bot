@@ -13282,8 +13282,8 @@
     "telefono": "573025666566",
     "nombre": "Wilson Granada",
     "primerContacto": "2026-11-02T00:50:25.277Z",
-    "ultimoContacto": "2026-11-02T14:49:33.627Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-02T17:01:26.939Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13476,6 +13476,18 @@
         "fecha": "2026-11-02T16:59:34.484Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI1NjY2NTY2FQIAERgSRTI5Q0I1QzdDNzFENkVGRDM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muchas gracias un feliz día",
+        "fecha": "2026-11-02T17:01:23.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por el tiempo 😊 Si más adelante quieres, aquí estaré para ayudarte con la impresora o cualquier otro producto. Que tengas un excelente día ¡bendiciones! 🌟",
+        "fecha": "2026-11-02T17:01:25.937Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI1NjY2NTY2FQIAERgSOEE4NUJBRjMzRjczOURBQ0I5AA=="
       }
     ],
     "paso": "conversando",
@@ -13486,15 +13498,12 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T16:59:35.349Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
