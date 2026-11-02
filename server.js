@@ -616,6 +616,22 @@ async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
 // Se tolera la escritura con errores ("no mebinteresa", "nuscar otro proveedor").
 const CLIENTE_RECHAZA = /(\bno\s*(compr[oa]|lo compro|voy a comprar)|no\s*(me\s*)?(mand|env[ií])[ae]s?\s*(nada|m[aá]s)|no\s*m[aá]s\s*info|no\s*me\s*b?\s*interes|no\s*mebinteres|otro\s*provee|buscar\s*otr|nuscar|\badi[oó]s\b|\bchao\b|no\s*me\s*sirve|no\s*respond|no\s*resuelv)/i;
 const PIDE_INFO_GENERICA = /^[\s¡!¿?.,]*(hola|buen(os|as) (d[ií]as|tardes|noches))?[\s¡!¿?.,]*((quiero|quisiera|me gustar[ií]a)\s*(conseguir|tener|recibir)?\s*)?(m[aá]s\s*)?(info|informaci[oó]n)(\s*sobre esto)?[\s!.?]*$|^\s*(s[ií]+|ok|okey|dale|claro|bueno|listo|de una)\s*[.!👍]*\s*$|^\s*(hola|buenas|buen(os|as) (d[ií]as|tardes|noches))[\s!.,]*$|^[\s¿]*(cu[aá]nto (vale|cuesta)|precio|valor)[\s?]*$|cat[aá]logo|qu[eé] (venden|tienen|productos)/i;
+// SIN PLATA -> SISTECREDITO (2-nov-2026, Wendy, caso Galincho: "cuando tenga los recursos, ahorita no tengo").
+const SIN_PLATA = /(recursos|no tengo (la |el |ese |esa |tanto |tanta |ahorita |ahora |en el momento )?(plata|dinero|presupuesto|con qu[eé]|platica|lucas|billete)|no me alcanza|no me queda (plata|dinero)|no hay plata|sin plata|ando (corto|pelad|sin)|cuando (tenga|reciba|me llegue|consiga)\s+(la |el )?(plata|dinero|platica|pago|sueldo|con qu[eé])|cuando tenga\s*[.!]*$|cuando (me paguen|cobre)|(en|para) (la )?(quincena|fin de mes|pr[oó]xim[oa] (mes|semana|quincena))|ahorita no (tengo|puedo)|no cuento con)/i;
+async function ofrecerSistecreditoSinPlata(telefono, sesion, texto) {
+      if (sesion.ofrecioSistecreditoSinPlata || !SIN_PLATA.test(String(texto))) return false;
+      sesion.ofrecioSistecreditoSinPlata = true;
+      const prod = catalogo.find((p) => p.id === (sesion.pedido?.productoId || sesion.ultimoProducto));
+      const nombreProd = prod ? `la *${prod.nombreCorto || prod.nombre}*` : "tu producto";
+      const respuesta =
+            `Te entiendo 😊 Puedes llevarte ${nombreProd} *hoy mismo a cuotas* con *Sistecrédito* 💳\n\n` +
+            "Si aún no lo has usado, solo descargas la app y te registras gratis 👇\n" +
+            "https://www.sistecredito.com/descargar-app/\n\n" +
+            "Cuando te aprueben el cupo me escribes y te dejo el pedido listo 🙌 ¿Ya tienes Sistecrédito?";
+      await enviarTexto(telefono, respuesta);
+      if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: respuesta });
+      return true;
+}
 const CLIENTE_RETOMA = /(\bquiero\b|env[ií]a(me|lo|mela)|\bpedido\b|\bprecio\b|cu[aá]nto (vale|cuesta)|me (lo|la) llevo)/i;
 const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias)/i;
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
@@ -3440,6 +3456,13 @@ async function manejarFlujoPedido(telefono, texto) {
 
       // Comentario en vez de nombre (caso Ever: "Es para la casa y terreno" no es un nombre): se responde y se retoma.
       const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto) && Object.keys(datosPorLineas(texto)).length < 2;
+      // Sin plata en medio del pedido: sale del pedido (los datos dados se guardan) y ofrece Sistecredito.
+      if (!sesion.ofrecioSistecreditoSinPlata && SIN_PLATA.test(String(texto))) {
+            sesion.paso = "conversando";
+            sesion.desviosPedido = 0;
+            await ofrecerSistecreditoSinPlata(telefono, sesion, texto);
+            return true;
+      }
       if (noPareceNombre || pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
             // Solo manda "?": no entendio que se le pide. Se le explica el dato, sin pasar por la IA (caso luis miguel).
             if (/^\s*[?¿]+\s*$/.test(texto)) {
@@ -4444,6 +4467,7 @@ async function manejarTextoLibre(telefono, texto) {
             }
       }
 
+      if (sesion.paso === "conversando" && (await ofrecerSistecreditoSinPlata(telefono, sesion, texto))) return;
       if (sesion.paso === "conversando" && (await responderObjecionImpresora(telefono, sesion, texto))) return;
       if (sesion.paso === "conversando" && (await responderObjecionPrecio(telefono, sesion, texto))) return;
 
