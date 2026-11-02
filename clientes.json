@@ -9336,8 +9336,8 @@
     "telefono": "573113304803",
     "nombre": "carlos alfonso aguirre.sa",
     "primerContacto": "2026-11-02T00:13:27.651Z",
-    "ultimoContacto": "2026-11-02T12:56:58.595Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T12:58:22.591Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9468,6 +9468,18 @@
         "fecha": "2026-11-02T12:56:57.568Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzMzA0ODAzFQIAERgSQjNFRDVDNTFFQkJENzI3NUY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo.te.aviso.gracia",
+        "fecha": "2026-11-02T12:58:19.515Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, quedo atenta para cuando decidas 😊 Recuerda que la promoción es por poco tiempo y entre más rápido confirmes, antes lo recibes. Cuando quieras, aquí estoy para ayudarte.",
+        "fecha": "2026-11-02T12:58:21.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzMzA0ODAzFQIAERgSRTU2MTU1QkQ3N0NBN0E3NEFGAA=="
       }
     ],
     "paso": "conversando",
@@ -9478,7 +9490,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
