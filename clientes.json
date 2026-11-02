@@ -3,8 +3,8 @@
     "telefono": "573143716526",
     "nombre": "Wifrido Stand",
     "primerContacto": "2026-11-02T02:52:03.893Z",
-    "ultimoContacto": "2026-11-02T02:52:03.893Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T02:53:09.652Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T02:52:02.872Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzNzE2NTI2FQIAERgSOUNCNzRCMUJENUI2NTRCQjAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Los relojes inteligentes que funciones aparte de la tienen",
+        "fecha": "2026-11-02T02:53:06.181Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, tenemos estos relojes inteligentes con funciones super útiles:\n\n⌚ *Smartwatch Z01 Mini AMOLED* \n⌚ *Hello Plum Smartwatch*\n⌚ *Smartwatch S13 MAX* \n\nLas funciones incluyen:  \n- Monitor de ritmo cardíaco  \n- Contador de pasos y calorías  \n- Alarmas y notificaciones del celular  \n- Control de música  \n- Compatible con Android y iPhone  \n- Pantalla táctil y diseño moderno  \n\n¿Para qué los quieres usar? ¿Deportivo, trabajo o uso diario? Así te ayudo a elegir el que mejor te sirve. ¿Quieres que te mande fotos y precios?",
+        "fecha": "2026-11-02T02:53:08.680Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzNzE2NTI2FQIAERgSMUYwMzk2RTgwNTVGM0JBNjM5AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225756230",
