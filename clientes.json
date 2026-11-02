@@ -3,8 +3,8 @@
     "telefono": "573107804241",
     "nombre": "EdwinAHTorito",
     "primerContacto": "2026-11-02T02:00:25.754Z",
-    "ultimoContacto": "2026-11-02T02:00:25.754Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T02:00:35.142Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,20 +24,35 @@
         "fecha": "2026-11-02T02:00:24.744Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODA0MjQxFQIAERgSNUZBODI5ODA3MzI3RjgyMzEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprime en hojas normal",
+        "fecha": "2026-11-02T02:00:32.475Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿para qué necesitas imprimir? \n\nSi es en hojas tamaño carta (papel normal), la *Impresora Térmica Portátil NETUM* es la mejor opción para ti. Imprime en papel térmico tamaño carta sin tinta ni cartuchos, ideal para tareas, documentos y facturas desde el celular. \n\n¿Quieres que te comparta el precio y fotos de la Impresora NETUM? ¿O para qué uso específico necesitas imprimir?",
+        "fecha": "2026-11-02T02:00:34.047Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODA0MjQxFQIAERgSRTBGODI0NDU3Mjc3MUM3NTRGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573105526726",
