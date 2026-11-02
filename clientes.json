@@ -3,8 +3,8 @@
     "telefono": "573126785286",
     "nombre": "Ulises García Cueter",
     "primerContacto": "2026-11-02T16:59:26.053Z",
-    "ultimoContacto": "2026-11-02T16:59:26.053Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T16:59:45.154Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T16:59:25.104Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2Nzg1Mjg2FQIAERgSNEEyQUQzMTAzRTA0NjZCN0M2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que valor tiene.?",
+        "fecha": "2026-11-02T16:59:40.473Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Ulises, ¿me dices cuál producto te interesa? Por ejemplo, un módem, impresora, lámpara o cámara. Así te cuento el precio exacto con sus beneficios para que veas la mejor opción para ti. ¿Para qué lo necesitas?",
+        "fecha": "2026-11-02T16:59:44.053Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2Nzg1Mjg2FQIAERgSQ0Q5MUFGQzk2MTAyOURDREQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573023226599",
