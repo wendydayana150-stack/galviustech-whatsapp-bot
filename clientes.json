@@ -3,8 +3,8 @@
     "telefono": "CO.1564448892380315",
     "nombre": "mi princesa",
     "primerContacto": "2026-11-02T17:22:57.836Z",
-    "ultimoContacto": "2026-11-02T17:22:57.836Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T17:23:03.741Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-02T17:22:56.196Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU2NDQ0ODg5MjM4MDMxNRUUABEYEjAyMUIwMDUwNzg4NjFCMjEwNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Están ubicados en colombia",
+        "fecha": "2026-11-02T17:22:59.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, 📍 somos de Espinal, Tolima y hacemos envíos a toda Colombia 🚚 Te llega hasta la puerta de tu casa.\n\nMe cuentas, ¿Para qué necesitas la Impresora Térmica Portátil NETUM? ¿Trabajo, estudio, negocio o algo más? Así te ayudo mejor.",
+        "fecha": "2026-11-02T17:23:02.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2NDQ0ODg5MjM4MDMxNRUUABEYEjU0MTg2MTNGMTBBRjdDNjNFQwA="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142776247",
