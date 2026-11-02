@@ -3,8 +3,8 @@
     "telefono": "573225589580",
     "nombre": "Angelacardenas",
     "primerContacto": "2026-11-02T00:03:48.929Z",
-    "ultimoContacto": "2026-11-02T00:03:48.929Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T00:04:44.783Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-02T00:03:47.960Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NTg5NTgwFQIAERgSNzlEOTk3QzlBRTgwMThBNTM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "fotosyprecios",
+        "fecha": "2026-11-02T00:04:42.255Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Angelacardenas, ¿qué categoría te interesa para mostrarte fotos y precios? 😃\nTe recuerdo algunas opciones:\n\n📶 Módem WiFi portátil  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n⌚ Relojes inteligentes  \n\n¿Para qué lo necesitas? ¿Trabajo, estudio o seguridad? Así te recomiendo lo ideal.",
+        "fecha": "2026-11-02T00:04:43.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NTg5NTgwFQIAERgSMkExNUNENUJGMzYzRjkyNjQwAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573163875178",
