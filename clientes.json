@@ -2634,8 +2634,8 @@
     "telefono": "573234742515",
     "nombre": "Alejandra",
     "primerContacto": "2026-11-02T12:00:43.870Z",
-    "ultimoContacto": "2026-11-02T12:02:55.370Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-02T14:27:26.435Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2753,6 +2753,18 @@
         "fecha": "2026-11-02T14:11:14.775Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NzQyNTE1FQIAERgSNjNBRkIxNzFFMTM5REUxODkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-02T14:27:25.134Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-02T14:27:25.134Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NzQyNTE1FQIAERgSRUUyRjZGNzA3MkQ4Q0YxOTU5AA=="
       }
     ],
     "paso": "conversando",
@@ -2768,10 +2780,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T14:11:17.499Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
