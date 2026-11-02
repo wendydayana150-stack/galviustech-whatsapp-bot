@@ -5075,8 +5075,8 @@
     "telefono": "CO.29940377922231102",
     "nombre": "Angie",
     "primerContacto": "2026-11-02T13:08:36.702Z",
-    "ultimoContacto": "2026-11-02T19:55:43.165Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-02T19:55:46.737Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5175,6 +5175,18 @@
         "fecha": "2026-11-02T19:55:40.852Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBIyMkZBQjFGQzkxNTVCRTEyQzEA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprime a color?",
+        "fecha": "2026-11-02T19:55:44.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-02T19:55:44.887Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk5NDAzNzc5MjIyMzExMDIVFAARGBIyQjNERDEwMEVGNzc1MkY3NUIA"
       }
     ],
     "paso": "conversando",
@@ -5188,7 +5200,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-02T19:55:44.887Z",
+      "quiereAviso": false
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
