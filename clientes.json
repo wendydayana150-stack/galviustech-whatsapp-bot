@@ -1263,8 +1263,8 @@
     "telefono": "573204520902",
     "nombre": "LUIS ALVARO OROZCO MAZO",
     "primerContacto": "2026-11-02T14:06:01.017Z",
-    "ultimoContacto": "2026-11-02T14:06:01.017Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T15:12:54.878Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "bot",
@@ -1272,9 +1272,28 @@
         "fecha": "2026-11-02T15:06:09.043Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0NTIwOTAyFQIAERgSNDY3NTI5RUY4NDVDMTMzMTEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "si, busco los nuevos aires acondicionados portátiles\ngracias",
+        "fecha": "2026-11-02T15:12:53.256Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola LUIS! 👋 Bienvenid@ a *GALVIUSTECH*, soy Michell 😊\n\n🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-11-02T15:12:53.259Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NTIwOTAyFQIAERgSNkFGRkRDRTAzNzYxQTYzODdDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Estos son nuestros productos 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento* y *pagas al recibir* ✅\n\n¿Cuál producto estás buscando? 😍 Te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-02T15:12:53.921Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NTIwOTAyFQIAERgSQkE4QTMyMzNGMUNEOUM2MEY0AA=="
       }
     ],
-    "paso": "inicio",
+    "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
@@ -1287,9 +1306,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T15:06:23.604Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
