@@ -1020,8 +1020,8 @@
     "telefono": "CO.1123591936928545",
     "nombre": "Ismael Valenciano Gomez",
     "primerContacto": "2026-11-02T06:20:44.824Z",
-    "ultimoContacto": "2026-11-02T06:27:52.753Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-02T11:51:34.094Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1149,6 +1149,18 @@
         "fecha": "2026-11-02T11:00:31.720Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMzU5MTkzNjkyODU0NRUUABEYEkU2ODgyQjEwQTIzOTYyNzBCRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por ahora no",
+        "fecha": "2026-11-02T11:51:30.655Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, gracias a ti por escribir 😊 Quedo atenta cuando quieras, aquí estoy para ayudarte con cualquiera de nuestros productos.\n\nRecuerda que la promo del 30% y el envío gratis en la impresora NETUM están por tiempo limitado.\n\n¿Quieres que te avise cuando tengamos novedades o nuevas ofertas?",
+        "fecha": "2026-11-02T11:51:32.714Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMzU5MTkzNjkyODU0NRUUABEYEjJGMDYxNDg3RDk5NTQwRkJGQwA="
       }
     ],
     "paso": "conversando",
@@ -1159,14 +1171,12 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-02T11:03:00.210Z"
+      "seguimientosEnviados": 0
     }
   },
   {
