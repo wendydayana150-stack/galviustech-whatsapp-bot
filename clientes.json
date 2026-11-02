@@ -23,8 +23,8 @@
     "telefono": "573222896880",
     "nombre": "griselda blanco",
     "primerContacto": "2026-11-02T14:04:05.247Z",
-    "ultimoContacto": "2026-11-02T14:04:05.247Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-02T14:08:37.792Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-02T14:04:04.031Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyODk2ODgwFQIAERgSQzlDNUM2NEI5N0JERkQ3NEJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy amable gracias",
+        "fecha": "2026-11-02T14:08:35.317Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, griselda 😊 ¿Quieres que te muestre alguna categoría o producto antes de avanzar? Así podemos ver qué te sirve mejor. ¿En qué ciudad o municipio estás? Así te puedo recomendar lo que mejor funciona en tu zona.",
+        "fecha": "2026-11-02T14:08:36.662Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyODk2ODgwFQIAERgSMENGMTkxRTczOEM4OThBOEY0AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573103388584",
