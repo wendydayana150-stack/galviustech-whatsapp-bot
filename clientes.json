@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T16:55:51.561Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-03T19:02:18.119Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,6 +130,18 @@
         "fecha": "2026-11-03T19:01:48.371Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNkZEQ0Y5OEU0NzQzN0FBM0NDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual es la oficina transportadora?",
+        "fecha": "2026-11-03T19:02:13.694Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La transportadora principal es Interrapidísimo, y si tu zona no tiene cobertura, enviamos por Coordinadora. \n\nEn Malambo usualmente es Interrapidísimo, y puedes recoger en su oficina más cercana si quieres.\n\n¿Quieres que te pase la dirección exacta de la oficina o prefieres que te llegue hasta la puerta de tu casa? Así mismo, ¿cómo prefieres pagar: contra entrega o por transferencia?",
+        "fecha": "2026-11-03T19:02:17.004Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNDY5NUIzOTc0RTcyRTRGMDA2AA=="
       }
     ],
     "paso": "conversando",
@@ -145,10 +157,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-03T19:01:49.310Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
