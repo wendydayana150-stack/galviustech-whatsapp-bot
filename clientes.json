@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T16:19:24.959Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-03T16:34:31.593Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,52 @@
         "fecha": "2026-11-03T16:19:23.984Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSN0JFMjY0ODBEQjI1MzMwRDFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem wifi",
+        "fecha": "2026-11-03T16:34:27.828Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-11-03T16:34:27.830Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-03T16:34:27.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQTY1NDUxN0FCQzZFMTMxNkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-03T16:34:28.604Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNDcwNTQ0RERDRUY5ODFGNDJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-03T16:34:29.229Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNkM1NUU1N0JCMjhGNzMyNjUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Modem 4G/5G en video 🎥",
+        "fecha": "2026-11-03T16:34:29.786Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMjlFMDI4NkZENzk4ODIwMjlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-11-03T16:34:30.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMjMzNTgzMkZBQUE1RUU5QzM2AA=="
       }
     ],
     "paso": "conversando",
@@ -31,13 +77,16 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573123872267",
