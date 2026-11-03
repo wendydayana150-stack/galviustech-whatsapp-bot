@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:05:17.683Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-03T19:05:44.458Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -240,6 +240,18 @@
         "fecha": "2026-11-03T19:05:16.580Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSRjE4QUM4RUM3QkQ0QUFCRTQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Llave Bre -B",
+        "fecha": "2026-11-03T19:05:43.413Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
+        "fecha": "2026-11-03T19:05:43.415Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSRDdBQTlGRDQzQ0ExMTQ0MDdBAA=="
       }
     ],
     "paso": "pedido_pago",
