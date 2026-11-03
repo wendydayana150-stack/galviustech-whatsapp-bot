@@ -3,8 +3,8 @@
     "telefono": "573166527402",
     "nombre": "Cristina",
     "primerContacto": "2026-11-03T00:27:41.734Z",
-    "ultimoContacto": "2026-11-03T00:37:09.235Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-03T14:44:05.675Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -153,11 +153,18 @@
         "fecha": "2026-11-03T12:01:54.997Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSMUVENUQyNzQ2NTVEMDBENjBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tengo una *sorpresa para ti* con la *Impresora NETUM* 🖨️\r\n\r\n🎁 *Si confirmas HOY*, te regalo un *rollo de papel tamaño carta EXTRA* (valor $10.000) además del que ya trae.\r\n\r\n💰 *$249.900* con *30% de descuento*\r\n🚚 *Envío GRATIS* y *pagas al recibir* (la revisas antes de pagar)\r\n⏳ Quedan *últimas unidades* a este precio\r\n\r\n¿Te la dejo lista? Responde *SÍ* y te pido tus datos 🙌",
+        "fecha": "2026-11-03T14:44:03.774Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSQUQ5RjgxRDU3MEQ1MzBCQTA4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -168,10 +175,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-03T12:01:58.960Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
