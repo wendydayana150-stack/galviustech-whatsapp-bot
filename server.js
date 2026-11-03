@@ -633,7 +633,7 @@ async function ofrecerSistecreditoSinPlata(telefono, sesion, texto) {
       return true;
 }
 const CLIENTE_RETOMA = /(\bquiero\b|env[ií]a(me|lo|mela)|\bpedido\b|\bprecio\b|cu[aá]nto (vale|cuesta)|me (lo|la) llevo)/i;
-const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias)/i;
+const NO_LE_INTERESA = /(no (me |nos )?(interesa|interes[oó])|no estoy interesad|no estamos interesad|ya no (lo |la )?necesito|no (lo |la )?necesito|no gracias|^\s*no,? gracias|\bno+,? (muchas )?gracias|^\s*ya no,? (muchas |gracias|me interesa|la quiero|lo quiero|la necesito|lo necesito)|no,? por ahora (no|ninguno|nada))/i;
 const CLIENTE_SE_DESPIDE = /(^\s*(ok|okey|vale|listo|bueno|gracias|muchas gracias|no|no gracias|nop)\b[\s.!,]*(gracias|muchas gracias)?[\s.!😊🙏👍]*$|ya (la |lo )?compr|averigu|despu[eé]s|otro momento|m[aá]s adelante|lo (voy a )?pens|solo quer[ií]a saber|por ahora no|para la pr[oó]xima|no me interesa|no estoy interesad|cuando tenga)/i;
 // Lamparas 3 lentes x3 con envio gratis: confirmado por Wendy (27-oct-2026). La lista vive en config.js.
 const ENVIO_GRATIS_IDS = config.ENVIO_GRATIS_IDS;
@@ -3513,6 +3513,15 @@ async function manejarFlujoPedido(telefono, texto) {
 
       // Comentario en vez de nombre (caso Ever: "Es para la casa y terreno" no es un nombre): se responde y se retoma.
       const noPareceNombre = definicionActual.tipo === "nombre" && NO_ES_NOMBRE.test(texto) && Object.keys(datosPorLineas(texto)).length < 2;
+      // 3-nov-2026 (caso Geraldine): "Ya no muchas gracias" en medio del pedido -> Michell seguia con "Ahora si, ¿cual es
+      // tu nombre completo?". Si rechaza, sale del pedido y se despide sin pedir mas datos.
+      if (NO_LE_INTERESA.test(String(texto)) || CLIENTE_RECHAZA.test(String(texto))) {
+            sesion.paso = "conversando";
+            sesion.desviosPedido = 0;
+            sesion.rechazoCliente = Date.now();
+            await enviarTexto(telefono, "¡Entiendo, gracias por contarme! 😊 Aquí quedo para cuando lo necesites. ¡Que tengas un lindo día! 🙌");
+            return true;
+      }
       // Sin plata en medio del pedido: sale del pedido (los datos dados se guardan) y ofrece Sistecredito.
       if (!sesion.ofrecioSistecreditoSinPlata && SIN_PLATA.test(String(texto))) {
             sesion.paso = "conversando";
