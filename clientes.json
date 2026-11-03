@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:04:13.198Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-03T19:04:34.207Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -197,9 +197,21 @@
         "fecha": "2026-11-03T19:04:11.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSRkQ4OTkzNjRENTJCNDEwQTBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Malambo atlantico",
+        "fecha": "2026-11-03T19:04:33.185Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-03T19:04:33.188Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMzZGMTJCNjFEMzlERUREMjBEAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -208,7 +220,8 @@
       "departamento": "Atlantico",
       "direccion": "Recoge en oficina de la transportadora",
       "nombreCliente": "Julie paola hernandez hernandez",
-      "celular": "57291193"
+      "celular": "57291193",
+      "ciudad": "Malambo atlantico"
     },
     "pausado": false,
     "etapaManual": null,
