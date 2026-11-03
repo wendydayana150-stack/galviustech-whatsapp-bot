@@ -290,7 +290,9 @@ const costoEnvio = (productoId, ciudad, departamento) => {
 const ENVIO_GRATIS_IDS = ["impresora-termica", "lamparas-3-lentes-x-2-2"];
 const precioCOP = (n) => "$" + Math.round(Number(n) || 0).toLocaleString("es-CO");
 
+const costoEnvioBase = (id, ciudad, depto) => costoEnvio(id, ciudad, depto);
 const mensajeResumenPedido = (pedido) => {
+            const costoEnvio = (id, ciudad, depto) => (pedido.envioGratisRegalo ? 0 : costoEnvioBase(id, ciudad, depto));
             const linea = (etiqueta, valor) => `*${etiqueta}:* ${valor || "-"}`;
             const resumen = [
                         linea("Nombre", pedido.nombreCliente),
@@ -301,6 +303,7 @@ const mensajeResumenPedido = (pedido) => {
                         linea("Barrio", pedido.barrio),
                         linea("Producto", pedido.nombreProducto),
                         ...(typeof pedido.precio === "number" ? [linea("Valor del producto", precioCOP(pedido.precio)), linea("Envío", costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento) === 0 ? "GRATIS" : precioCOP(costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento))), linea("Total a pagar", precioCOP(pedido.precio + costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento)))] : []),
+                        ...(pedido.regalo ? [linea("🎁 Regalo", pedido.regalo)] : []),
                         linea("Medio de pago", pedido.medioPago),
                         ...(pedido.cedula ? [linea("Cédula", pedido.cedula)] : []),
             ].join("\n");
@@ -539,3 +542,4 @@ module.exports = {
             mensajePromoImpresoraDiaAnterior,
             mensajePromoModemDiaAnterior,
 };
+

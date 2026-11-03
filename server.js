@@ -642,7 +642,21 @@ const VIDEO_NETUM = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustec
 // unboxing con el rollo de papel incluido (25 s) cuando preguntan por el papel, la duda que mas frena la compra.
 const VIDEO_NETUM_CALIDAD = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-2.mp4";
 const VIDEO_NETUM_CAJA = "https://cdn.jsdelivr.net/gh/wendydayana150-stack/galviustech-whatsapp-bot@main/images/impresora-termica/netum-video-3.mp4";
-const envioDe = (id, pedido) => config.costoEnvio(id, pedido?.ciudad, pedido?.departamento);
+const envioDe = (id, pedido) => (pedido?.envioGratisRegalo ? 0 : config.costoEnvio(id, pedido?.ciudad, pedido?.departamento));
+// REGALO POR CONFIRMAR HOY (3-nov-2026, Wendy): si en las ultimas 48 h se le ofrecio el regalo y confirma, el pedido
+// lo lleva: NETUM -> rollo de papel extra gratis; los demas -> envio gratis.
+const MARCA_REGALO_HOY = "Si confirmas HOY";
+function aplicarRegaloSiSeOfrecio(sesion, pedido) {
+      const desde = Date.now() - 48 * 3600 * 1000;
+      const ofrecido = (sesion.transcripcion || []).some((m) => m.rol === "bot" && String(m.texto || "").includes(MARCA_REGALO_HOY) && new Date(m.fecha || 0).getTime() >= desde);
+      if (!ofrecido || !pedido || pedido.regalo) return;
+      if (pedido.productoId === "impresora-termica") {
+            pedido.regalo = "Rollo de papel tamaño carta EXTRA gratis (por confirmar hoy)";
+      } else if (config.costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento) > 0) {
+            pedido.envioGratisRegalo = true;
+            pedido.regalo = "Envío GRATIS (por confirmar hoy)";
+      }
+}
 const textoEnvio = (id) => (ENVIO_GRATIS_IDS.includes(id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío");
 
 const PREGUNTA_PRECIO = /\b(precio|cu[aá]nto|valor|costo|vale|cuesta)\b/i;
@@ -3250,6 +3264,7 @@ async function finalizarPedidoSesion(telefono) {
             // pensando que ya compro, pero el pedido nunca llega a Dropi/despacho. Asi fue como se
             // perdio la venta de Jose Gabriel Diaz Gutierrez (584261736349) el 22/09.
             const pedidoAGuardar = sesion.pedido;
+            aplicarRegaloSiSeOfrecio(sesion, pedidoAGuardar);
             const guardadoExitoso = await guardarPedido(pedidoAGuardar);
 
             if (guardadoExitoso) {
