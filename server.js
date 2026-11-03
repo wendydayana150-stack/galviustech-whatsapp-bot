@@ -506,9 +506,17 @@ const CATEGORIA_INFO = {
       lampara: {
             titulo: "Lamparas Solares",
             emoji: "💡",
-            palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar", "reflector"],
+            palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar"],
             resumen: null,
             pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+      },
+      // Reflectores solares (3-nov-2026, Wendy subio a la tienda 100W, 500W, 1000W y combos x2: "que siempre los ofrezca").
+      reflector: {
+            titulo: "Reflectores Solares",
+            emoji: "☀️",
+            palabras: ["reflector", "reflectores", "reflertor", "refletor", "1000w", "500w", "200w", "100w"],
+            resumen: null,
+            pregunta: "¿Para dónde lo necesitas: casa, finca o negocio? ¿Y en qué ciudad estás? 📍",
       },
       camara: {
             titulo: "Camara de Seguridad",
@@ -760,6 +768,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: bienvenida });
             return;
       }
+      if (categoria === "reflector" && (await presentarReflectores(telefono, sesion))) return;
       const productos = catalogo.filter(
             (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
@@ -828,7 +837,67 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             }
       }
 
+      if (categoria === "lampara" || categoria === "camara") await ofrecerReflectoresUnaVez(telefono, sesion);
       await enviarTexto(telefono, info.pregunta);
+}
+
+// REFLECTORES SOLARES (3-nov-2026, Wendy: "subi unos productos, subirlo a Michell y que siempre los ofrezca").
+const reflectoresDisponibles = () => catalogo.filter((p) => (p.categoria || "").trim().toLowerCase() === "reflector" && !p.agotado).sort((a, b) => a.precio - b.precio);
+const LINEA_OFERTA_REFLECTORES = () => {
+      const r = reflectoresDisponibles();
+      return r.length ? `🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W y 1000W desde *${formatearPrecio(r[0].precio)}* (no pagan luz y se prenden solos al anochecer)` : "";
+};
+function textoListaReflectores() {
+      const r = reflectoresDisponibles();
+      return (
+            "☀️ *NUEVOS REFLECTORES SOLARES* 🆕\n" +
+            "Con panel solar y *control remoto*: no gastan luz, se prenden solos al anochecer y resisten lluvia (IP67) 🌧️\n\n" +
+            r.map((p) => `${/^combo/i.test(p.nombre) ? "🔥" : "•"} *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
+            "\n\n🚚 Envío a toda Colombia y *pagas al recibir* ✅"
+      );
+}
+// Una foto por modelo (los 2 de 100W son el mismo tamaño: va una sola) + la lista con todos los precios.
+async function presentarReflectores(telefono, sesion) {
+      const r = reflectoresDisponibles();
+      if (!r.length) return false;
+      sesion.ultimaCategoria = "reflector";
+      sesion.ofrecioReflectores = true;
+      if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+      const vistos = new Set();
+      // El 200W suelto usa la foto del combo x2: no se repite.
+      const fotosCombos = new Set(r.filter((p) => /^combo/i.test(p.nombre)).flatMap((p) => p.imagenes || []));
+      for (const p of r) {
+            const clave = (/^combo/i.test(p.nombre) ? "x2-" : "") + ((/(\d+)\s*W\b/i.exec(p.nombre) || [])[1] || p.id);
+            if (vistos.has(clave) || !p.imagenes?.[0] || (!/^combo/i.test(p.nombre) && fotosCombos.has(p.imagenes[0]))) continue;
+            vistos.add(clave);
+            try {
+                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+                  if (!sesion.fotosEnviadas.includes(p.id)) sesion.fotosEnviadas.push(p.id);
+            } catch (e) {
+                  console.error("Fotos reflectores:", e.message);
+            }
+      }
+      const texto = textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
+      registrarMensaje(telefono, "bot", "[Envio fotos y precios de los reflectores solares]");
+      await enviarTexto(telefono, texto);
+      sumarAlHistorialBot(sesion, texto);
+      return true;
+}
+// Mensaje del bot al historial de la IA sin dejar 2 "assistant" seguidos (la API exige que alternen).
+function sumarAlHistorialBot(sesion, texto) {
+      if (!Array.isArray(sesion.historial)) return;
+      const ultimo = sesion.historial[sesion.historial.length - 1];
+      if (ultimo && ultimo.role === "assistant") ultimo.content += "\n" + texto;
+      else if (ultimo) sesion.historial.push({ role: "assistant", content: texto });
+}
+// En lamparas y camaras (clientes que buscan luz o seguridad) se ofrecen los reflectores una vez por chat.
+async function ofrecerReflectoresUnaVez(telefono, sesion) {
+      const linea = LINEA_OFERTA_REFLECTORES();
+      if (!linea || sesion.ofrecioReflectores) return;
+      sesion.ofrecioReflectores = true;
+      const texto = `${linea}. Si quieres te mando fotos 📸`;
+      await enviarTexto(telefono, texto);
+      sumarAlHistorialBot(sesion, texto);
 }
 
 
@@ -884,6 +953,8 @@ const ETIQUETAS_BOTON_COMBO = {
       "combo-impresora-termica-portatil-reloj": "Con reloj de regalo",
       "pack-3-lamparas-de-seguridad-con-sensor-y-control-remoto": "Pack 3 con control",
       "pack-3-lamparas-solares-led-con-sensor-de-movimiento": "Pack 3 solares LED",
+      "promo-2-reflectores-solares-led-200w": "x2 Reflectores 200W",
+      "reflectores-x2-500w-con-control-remoto": "x2 Reflectores 500W",
 };
 
 function etiquetaBotonCombo(combo) {
@@ -900,7 +971,7 @@ function etiquetaBotonCombo(combo) {
 // producto. Maximo 2, para que quepan en los botones junto a "No, gracias".
 const PALABRAS_CATEGORIA_COMBO = {
       modem: /m[oó]dem|router/i, router: /m[oó]dem|router/i, impresora: /impresora/i,
-      lampara: /l[aá]mpara/i,
+      lampara: /l[aá]mpara/i, reflector: /reflector/i,
 };
 // Producto principal del combo: lo que va antes del "+" o " y " (en "Modem + Reloj" el reloj es el regalo)
 const principalDelCombo = (nombre) => String(nombre || "").split(/\+|\sy\s/)[0];
@@ -3712,6 +3783,7 @@ const GRUPOS_TIENDA = [
       { id: "smartwatch", titulo: "Smartwatches", emoji: "📱", categorias: ["smartwatch"] },
       { id: "camara", titulo: "Camaras de seguridad", emoji: "📹", categorias: ["camara"] },
       { id: "impresora", titulo: "Impresoras", emoji: "🖨️", categorias: ["impresora"] },
+      { id: "reflector", titulo: "Reflectores solares", emoji: "☀️", categorias: ["reflector"] },
       { id: "lampara", titulo: "Lamparas solares", emoji: "💡", categorias: ["lampara"] },
       { id: "modem", titulo: "Modems y routers", emoji: "📶", categorias: ["modem", "router"] },
       { id: "otros", titulo: "Mas productos", emoji: "🛍️", categorias: ["otros"] },
@@ -4091,7 +4163,8 @@ async function enviarVersionesModem(telefono) {
 const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
-      "💡 *Lámparas solares* y *Reflectores solares 200W* (combo x2 $199.900)\n" +
+      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W con control remoto (desde $138.900)\n" +
+      "💡 *Lámparas solares* con sensor de movimiento\n" +
       "📹 *Cámaras de seguridad*\n" +
       "⌚ *Relojes inteligentes*\n" +
       "🕰️ *Relojes*\n" +
