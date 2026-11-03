@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:04:59.304Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-03T19:05:17.683Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -221,6 +221,25 @@
         "fecha": "2026-11-03T19:04:58.048Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNjU1N0JBMkQzMThDRUU3MzM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este dispositivo finciona con tpsos los operadores?",
+        "fecha": "2026-11-03T19:05:13.791Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, Paola 😊\n\nEl modem funciona con SIM de cualquier operador en Colombia: Claro, Movistar, Tigo, WOM y ETB, según la cobertura que tengas donde estés.\n\nAsí que puedes usar la SIM que ya tienes o cualquiera que prefieras.\n\nAsí avances y no pierdes tiempo.",
+        "fecha": "2026-11-03T19:05:16.018Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQTVBOTlGOUM2RDcwRkU4Mjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-03T19:05:16.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSRjE4QUM4RUM3QkQ0QUFCRTQ1AA=="
       }
     ],
     "paso": "pedido_pago",
