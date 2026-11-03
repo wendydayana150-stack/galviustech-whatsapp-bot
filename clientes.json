@@ -59,8 +59,8 @@
     "telefono": "573233838271",
     "nombre": "Dina Contreras",
     "primerContacto": "2026-11-03T15:40:30.489Z",
-    "ultimoContacto": "2026-11-03T15:40:30.489Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-03T15:40:56.802Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,6 +80,25 @@
         "fecha": "2026-11-03T15:40:29.311Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzODM4MjcxFQIAERgSNEIxN0NBMTBBRjhEMDVBODZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-03T15:40:53.365Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-03T15:40:53.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzODM4MjcxFQIAERgSODczNkVCMzZFQzYxMTZBQUM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-03T15:40:53.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzODM4MjcxFQIAERgSMjNFMTZDRjNEMzYwQUFDNkU2AA=="
       }
     ],
     "paso": "conversando",
@@ -93,7 +112,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213762253",
