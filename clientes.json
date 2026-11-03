@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:02:18.119Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-03T19:03:06.311Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -142,6 +142,25 @@
         "fecha": "2026-11-03T19:02:17.004Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNDY5NUIzOTc0RTcyRTRGMDA2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Recoger en la oficina transportadora",
+        "fecha": "2026-11-03T19:03:02.793Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, Paola, te preparo el envío para que recojas en la oficina de Interrapidísimo en Malambo.\n\nSolo dime cómo quieres pagar, ¿contra entrega o por transferencia a Bancolombia o Nequi? Así dejo todo listo para ti.\n\n¿Me confirmas?",
+        "fecha": "2026-11-03T19:03:04.458Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQkQ0MzFCQUE3QzVBRTYxOERFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-03T19:03:05.058Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSRThCMjA2N0M4RjQ5NjkxMzU3AA=="
       }
     ],
     "paso": "conversando",
