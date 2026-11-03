@@ -3320,8 +3320,8 @@
     "telefono": "573166527402",
     "nombre": "Cristina",
     "primerContacto": "2026-11-03T00:27:41.734Z",
-    "ultimoContacto": "2026-11-03T15:56:09.782Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-03T19:03:44.004Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3536,6 +3536,18 @@
         "fecha": "2026-11-03T18:51:49.613Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSQkYzNDAyNzBDNTRFRTQ3N0U3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias",
+        "fecha": "2026-11-03T19:03:39.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con gusto, Cristina 😊 Quedo atenta cuando estés lista, aquí tienes la mejor opción en impresoras para tus tareas.\n\n¿Quieres que te muestre algo más del catálogo o te ayudo con otro producto?",
+        "fecha": "2026-11-03T19:03:42.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSRTAyQjc2RUVEQUEwQjYzMjBBAA=="
       }
     ],
     "paso": "conversando",
@@ -3551,10 +3563,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-03T18:51:50.581Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
