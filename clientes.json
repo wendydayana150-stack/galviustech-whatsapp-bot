@@ -3,8 +3,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:03:27.501Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-03T19:03:45.789Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -173,16 +173,29 @@
         "fecha": "2026-11-03T19:03:26.410Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSQjkyQjRCQkU5MTYyQjJGODMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Julie paola hernandez hernandez",
+        "fecha": "2026-11-03T19:03:43.496Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-03T19:03:43.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMTM1NEZFRkM3RjRBMjZEMTVDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573174885199",
       "departamento": "Atlantico",
-      "direccion": "Recoge en oficina de la transportadora"
+      "direccion": "Recoge en oficina de la transportadora",
+      "nombreCliente": "Julie paola hernandez hernandez"
     },
     "pausado": false,
     "etapaManual": null,
