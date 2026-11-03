@@ -1605,8 +1605,8 @@
     "telefono": "573166527402",
     "nombre": "Cristina",
     "primerContacto": "2026-11-03T00:27:41.734Z",
-    "ultimoContacto": "2026-11-03T14:44:05.675Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-03T15:55:58.869Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1769,6 +1769,18 @@
         "fecha": "2026-11-03T15:55:13.650Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSQzM5QTM5NDdFOEI2NkE0N0MzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias",
+        "fecha": "2026-11-03T15:55:54.435Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias a ti! 😊 Cualquier cosa que necesites, aquí estoy para ayudarte.\n\n¿Quieres que te deje lista la Impresora NETUM para envío? 🚚",
+        "fecha": "2026-11-03T15:55:57.346Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY2NTI3NDAyFQIAERgSOTU3Rjg1RkU5NjE1NUMwMUNEAA=="
       }
     ],
     "paso": "conversando",
@@ -1784,9 +1796,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-03T15:55:20.750Z"
+      "seguimientosEnviados": 0
     }
   },
   {
