@@ -128,8 +128,8 @@
     "telefono": "573174885199",
     "nombre": "Paola",
     "primerContacto": "2026-11-03T16:19:24.959Z",
-    "ultimoContacto": "2026-11-03T19:07:38.562Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-03T23:17:51.649Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -429,11 +429,18 @@
         "fecha": "2026-11-03T19:07:37.414Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSNTYxNDAzMTc0RUI4NkY5NDk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, nos confirmas si realizaste el pago?",
+        "fecha": "2026-11-03T23:17:50.086Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc0ODg1MTk5FQIAERgSMjQ0RjYyNTM3NzZBODM5MTI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
