@@ -42981,8 +42981,8 @@
     "telefono": "573213495523",
     "nombre": "Ydiel Hernández",
     "primerContacto": "2026-10-31T18:15:40.926Z",
-    "ultimoContacto": "2026-10-31T18:15:40.926Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-03T05:01:56.039Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -43050,6 +43050,18 @@
         "fecha": "2026-10-31T20:15:48.884Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNDk1NTIzFQIAERgSMkREQjJDNDZEM0VDNjkzMUY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-03T05:01:54.738Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-03T05:01:54.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNDk1NTIzFQIAERgSNDA5REZCODUwN0U3MzQyNjA5AA=="
       }
     ],
     "paso": "conversando",
@@ -43065,10 +43077,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "seguimientosEnviados": 2,
-      "horas3": true,
-      "ultimoEnvio": "2026-10-31T20:15:54.985Z"
+      "seguimientosEnviados": 0
     }
   },
   {
