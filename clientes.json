@@ -3,8 +3,8 @@
     "telefono": "573004653191",
     "nombre": "Rebeca Romero Cardona",
     "primerContacto": "2026-11-04T16:58:08.143Z",
-    "ultimoContacto": "2026-11-04T16:58:08.143Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T16:58:11.407Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-04T16:58:07.106Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA0NjUzMTkxFQIAERgSMzEwOTExNDU0Mzc3OTREOEE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-04T16:58:09.456Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-04T16:58:09.456Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NjUzMTkxFQIAERgSRTFGRjEzOTc0NDI1RDc1Mjk4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-04T16:58:10.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA0NjUzMTkxFQIAERgSRjJBMUIzQTIzNURFMzZFQTAyAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +56,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216146112",
