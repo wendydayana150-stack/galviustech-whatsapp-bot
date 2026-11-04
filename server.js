@@ -561,6 +561,47 @@ function categoriasDisponibles() {
 // Precio con ancla (antes/hoy), el papel explicado desde el inicio y respuestas fijas a las objeciones que mas
 // frenan: papel normal/donde lo consigo, "esta caro / hay mas economico / no tengo plata" y "no imprime a color".
 const PRECIO_ANTES_NETUM = 356900; // dato de Wendy (26-oct-2026)
+// GUION DE VENTAS GANADOR NETUM (4-nov-2026, Wendy). Pasos 1-2 (necesidad y beneficios), 3 (oferta), 4 (datos) y 5 (indecisos).
+const GUION_NETUM_PRESENTACION =
+      "¡Hola! 😍👋 ¡Bienvenido(a) a *GALVIUSTECH*!\n\n" +
+      "🔥 ¿Te imaginas poder imprimir tus apuntes, documentos y trabajos *sin tener que comprar tinta ni cartuchos*?\n\n" +
+      "😍 *¡MIRA TODO LO QUE PUEDES HACER CON ELLA!*\n\n" +
+      "🖨️ *IMPRESORA TÉRMICA PORTÁTIL NETUM*\n" +
+      "✅ ¡Imprime *SIN TINTA* ni cartuchos!\n" +
+      "📱 Conexión Bluetooth con dispositivos compatibles\n" +
+      "🎒 Diseño portátil y práctico\n" +
+      "📚 Ideal para estudiantes, emprendedores, negocios y oficinas\n" +
+      "💰 Ahorra en la compra de tinta\n\n" +
+      "¡Una herramienta que querrás tener a tu alcance para tus actividades diarias!";
+function guionNetumOferta(netum) {
+      return (
+            "🚨🔥 *¡ATENCIÓN! ¡ESTAMOS EN LAS ÚLTIMAS UNIDADES DE LA PROMOCIÓN!*\n\n" +
+            "¡Esta puede ser tu oportunidad de llevarte tu impresora NETUM con un precio especial!\n\n" +
+            `🎁 *DESCUENTO PROMOCIONAL:* antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}*\n` +
+            "🚚 *ENVÍO GRATIS*\n💵 *PAGA CONTRAENTREGA*\n\n" +
+            "¡No necesitas pagar por adelantado para realizar tu pedido! Pagas al recibirlo, según las condiciones de entrega.\n\n" +
+            "⚠️ La promoción está sujeta a disponibilidad de inventario.\n\n" +
+            "🏷️ Si la necesitas para *etiquetas, guías o recibos*, o buscas algo *más económico*, también tenemos otras impresoras desde $109.900 😉\n\n" +
+            "😍 *¿QUIERES APROVECHAR EL PRECIO ESPECIAL ANTES DE QUE SE AGOTEN?*"
+      );
+}
+const GUION_NETUM_DATOS =
+      "¡Excelente decisión! 😍🎉\n\n" +
+      "Vamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n" +
+      "📦 Solo necesitamos tus datos:\n\n" +
+      "👤 Nombre completo\n📱 Celular\n📍 Departamento\n🏙️ Ciudad o municipio\n🏠 Dirección\n📌 Barrio o vereda\n\n" +
+      "🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n" +
+      "🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\n" +
+      "¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊";
+const GUION_NETUM_INDECISOS =
+      "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n" +
+      "¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n" +
+      "¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n" +
+      "🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\n" +
+      "Imagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n" +
+      "🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n" +
+      "❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\n" +
+      "Responde *LA QUIERO* y continuamos con tu pedido.";
 function lineaPrecioNetum(netum) {
       return `💰 Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}* con *30% de descuento* 🔥`;
 }
@@ -612,6 +653,8 @@ function yaRespondioUsoImpresora(sesion) {
 }
 async function preguntarUsoImpresoraSiFalta(telefono, sesion, id) {
       if (!esImpresoraSuelta(id) || sesion.usoImpresora || (sesion.preguntoUsoImpresora || 0) >= 2) return false;
+      // Con el guion NETUM (4-nov-2026) la oferta ya invita a decir si es para etiquetas o si busca algo mas economico
+      if (sesion.guionNetum && id === "impresora-termica") return false;
       if (yaRespondioUsoImpresora(sesion)) return false;
       const ultimoCliente = [...(sesion.transcripcion || [])].reverse().find((m) => m.rol === "cliente");
       if (ultimoCliente && CLIENTE_SE_DESPIDE.test(ultimoCliente.texto || "")) return false;
@@ -710,6 +753,11 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                   await enviarTexto(telefono, "¡Claro! 🖨️ Cuéntame: ¿qué vas a imprimir? 👇\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios, códigos o productos\n📄 Tareas, trabajos o documentos en hoja tamaño carta");
                   return;
             }
+            // Llega pidiendo impresora para etiquetas (4-nov-2026, Wendy): se le ofrecen las de etiquetas, no la NETUM
+            if (opciones.texto && PIDE_ETIQUETAS.test(opciones.texto) && !/carta|tarea|document/i.test(opciones.texto)) {
+                  sesion.paso = "conversando";
+                  if (await responderObjecionImpresora(telefono, sesion, opciones.texto)) return;
+            }
             sesion.ultimoProducto = netum.id;
             if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
             // Oct-2026 (159 chats de impresora, 92 se fueron despues del primer mensaje sin contestar): una foto y el
@@ -730,19 +778,14 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                   }
             }
             if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
-            registrarMensaje(telefono, "bot", "[Presenta la NETUM con fotos y pregunta para que la necesita]");
-            sesion.preguntoUsoImpresora = (sesion.preguntoUsoImpresora || 0) + 1;
-            await enviarTexto(
-                  telefono,
-                  "¡Claro! 🖨️ *Impresora Térmica Portátil NETUM*\n\n" +
-                        lineaPrecioNetum(netum) + "\n" +
-                        "🚚 *Envío GRATIS* y *pagas al recibir*: la revisas antes de pagar\n\n" +
-                        "✅ Imprime *SIN TINTA*, hojas *tamaño carta* (blanco y negro)\n" +
-                        "✅ *Portátil*, batería recargable y se conecta a tu celular\n" +
-                        "📄 *Trae papel incluido* para que empieces a imprimir\n\n" +
-                        "⏳ Precio de promoción por *últimos días* y *últimas unidades*\n\n" +
-                        "¿Para qué la vas a usar? 👇\n📄 Tareas o documentos\n🧾 Recibos o facturas\n🏷️ Etiquetas"
-            );
+            registrarMensaje(telefono, "bot", "[Guion NETUM: necesidad, beneficios y oferta]");
+            sesion.guionNetum = true;
+            const yaSaludo = (sesion.historial || []).some((m) => m.role === "assistant");
+            const presentacion = yaSaludo ? GUION_NETUM_PRESENTACION.replace(/^¡Hola! 😍👋 ¡Bienvenido\(a\) a \*GALVIUSTECH\*!\n\n/, "") : GUION_NETUM_PRESENTACION;
+            await enviarTexto(telefono, presentacion);
+            const oferta = guionNetumOferta(netum);
+            await enviarTexto(telefono, oferta);
+            sumarAlHistorialBot(sesion, presentacion + "\n\n" + oferta);
             return;
       }
       // Modems (oct-2026, mensaje redactado por Wendy): 1 foto del modem + bienvenida que pregunta
@@ -2216,9 +2259,9 @@ async function enviarRecordatoriosPendientes() {
                                     p.telefono,
                                     p.tier === "horas1"
                                           ? `Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *${precioTexto}* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?`
-                                          : `¡Hola de nuevo! 👋 Te cuento que la *NETUM* trae *papel incluido* y luego el papel lo consigues con nosotros o en papelerías 📄\n\nSigue en *${precioTexto}* con envío GRATIS, pero quedan pocas unidades con este precio. ¿Te la envío? 🚚`,
+                                          : GUION_NETUM_INDECISOS,
                                     [
-                                          { id: "pedir_impresora-termica", titulo: "✅ Sí, la quiero" },
+                                          { id: "pedir_impresora-termica", titulo: "✅ LA QUIERO" },
                                           { id: "ver_catalogo", titulo: "Ver otros" },
                                     ]
                               );
@@ -2909,6 +2952,10 @@ async function iniciarPedido(telefono, productoId) {
                   telefono,
                   `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) 🙌 Ya tengo ${yaTengo}, no hace falta repetirlo.\n\nSolo me falta: ${faltante.pregunta.replace(/^(Para empezar|Por ultimo),\s*/i, "")}`
                   );
+            return;
+      }
+      if (producto.id === "impresora-termica") {
+            await enviarTexto(telefono, GUION_NETUM_DATOS);
             return;
       }
       if (/^(lampara|reflector)$/.test((producto.categoria || "").trim().toLowerCase())) {
@@ -4454,7 +4501,7 @@ function ultimaPreguntaDe(texto) {
       return partes.length ? partes[partes.length - 1] : t.split(/\n+/).pop() || "";
 }
 const OFRECE_OTRA_COSA = /(te explique|te cuente|te muestre|te mande (fotos|el video|m[aá]s)|te env[ií]e (fotos|el video)|te avise|te recuerde|te agende|otr[oa]s? (opciones|productos))/i;
-const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres|en qu[eé] (ciudad|municipio)|cu[aá]l es tu ciudad|a qu[eé] ciudad|desde qu[eé] ciudad|tus datos|nombre completo)/i;
+const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres|en qu[eé] (ciudad|municipio)|cu[aá]l es tu ciudad|a qu[eé] ciudad|desde qu[eé] ciudad|tus datos|nombre completo|continuamos con tu pedido|aprovechar el precio especial|te gustar[ií]a aprovecharlo)/i;
 
 // Respuestas fijas a las objeciones de la impresora (ver GUION NETUM). Solo si se viene hablando de impresoras.
 // Cada respuesta termina con una pregunta de cierre (o de uso, si aun no se sabe para que la quiere).
@@ -4467,7 +4514,21 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
       const sabeUso = !!sesion.usoImpresora || yaRespondioUsoImpresora(sesion);
       let respuesta = null;
 
-      if (OBJECION_COLOR.test(texto)) {
+      if (PIDE_ETIQUETAS.test(texto) && !sesion.ofrecioImpresorasEtiquetas && !/carta|tarea|document/i.test(texto)) {
+            // 4-nov-2026 (Wendy): "si lo quiere para etiquetas, saber ofrecer las demas opciones"
+            const deEtiquetas = IMPRESORAS_ETIQUETAS.map((id) => catalogo.find((p) => p.id === id && !p.agotado)).filter(Boolean);
+            if (deEtiquetas.length) {
+                  sesion.ofrecioImpresorasEtiquetas = true;
+                  await enviarFotosOpciones(telefono, sesion, deEtiquetas);
+                  respuesta =
+                        "¡Claro! 🏷️ Para *etiquetas, guías y códigos* te sirven mejor estas (imprimen en rollo, *sin tinta*):\n\n" +
+                        deEtiquetas.map((p) => `🖨️ *${p.nombreCorto || p.nombre}*: *${formatearPrecio(p.precio)}*. Para ${USO_IMPRESORAS_ECONOMICAS[p.id]}`).join("\n") +
+                        "\n\n🚚 Envío $26.000 y *pagas al recibir* ✅\n\n¿Qué vas a etiquetar? Así te digo cuál te sirve más 😊";
+            }
+      }
+      if (respuesta) {
+            // ya respondio etiquetas
+      } else if (OBJECION_COLOR.test(texto)) {
             const aColor = catalogo.find((p) => !p.agotado && !p.id.startsWith("combo-") && (p.categoria || "").trim().toLowerCase() === "impresora" && /(a color|full color|impresi[oó]n (a|en) color)/i.test(`${p.nombre} ${p.descripcion || ""}`));
             if (aColor) {
                   respuesta = `Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro*.\n\nSi necesitas color, tenemos la *${aColor.nombre}*: *${formatearPrecio(aColor.precio)}*${textoEnvio(aColor.id)}, pagas al recibir.\n\n¿Te la envío? 🚚`;
@@ -4484,6 +4545,11 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
                   .filter((p) => p && (!netum || p.precio < netum.precio))
                   .sort((a, b) => a.precio - b.precio);
             if (!economicas.length) return false;
+            // 4-nov-2026 (Wendy): "enviar todas las opciones" cuando dice que es muy costosa: fotos + precios
+            if (!sesion.fotosEconomicasImpresora) {
+                  sesion.fotosEconomicasImpresora = true;
+                  await enviarFotosOpciones(telefono, sesion, economicas);
+            }
             const lista = economicas.map((p) => `🖨️ *${p.nombreCorto || p.nombre}*: *${formatearPrecio(p.precio)}*. Para ${USO_IMPRESORAS_ECONOMICAS[p.id]}`).join("\n");
             respuesta =
                   "¡Claro! 😊 Tenemos impresoras térmicas más económicas. Son *más pequeñas*: sirven para *recibos, etiquetas y notas*, no para hojas tamaño carta.\n\n" +
@@ -4509,6 +4575,23 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
             sesion.historial.push({ role: "assistant", content: respuesta });
       }
       return true;
+}
+
+// Pide la impresora para etiquetas, guias o codigos: se le ofrecen las impresoras de rollo (de la guia de config.js)
+const PIDE_ETIQUETAS = /(etiqueta|sticker|c[oó]digos? de barras?|\bqr\b|gu[ií]as? de env|marcar (productos|precios)|rotul|precios? (a|de) (los |mis )?productos|adhesiv)/i;
+const IMPRESORAS_ETIQUETAS = ["impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "impresora-termica-portatil-goojprt-pt-210"];
+// Una foto por opcion (sin repetir las que ya vio), con nombre y precio
+async function enviarFotosOpciones(telefono, sesion, productos) {
+      if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+      for (const p of productos) {
+            if (!p.imagenes?.[0] || sesion.fotosEnviadas.includes(p.id)) continue;
+            try {
+                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+                  sesion.fotosEnviadas.push(p.id);
+            } catch (e) {
+                  console.error("Fotos de opciones:", e.message);
+            }
+      }
 }
 
 // Producto que el cliente nombra en el mensaje ("El proyector, pero no tengo el dinero"), si lo hay
@@ -6464,7 +6547,7 @@ app.post("/admin/cierre-medias", requiereLogin, async (req, res) => {
 
 // RECUPERAR CLIENTES DE IMPRESORA (oct-2026, Wendy): llegaron 133 del anuncio de la NETUM y ninguno compro.
 // Un mensaje UNO por cliente: a los que solo preguntaron (dentro de 24 h) y a los que dijeron "si" y no dieron datos.
-const MSJ_RECUPERAR_IMPRESORA = "¡Hola! 😊 Te cuento algo que muchos preguntan: la NETUM imprime en blanco y negro, sin tinta, y ya trae papel. Esta semana tiene 30% de descuento, *envío GRATIS* y pagas al recibir 🚚 ¿Te la separo?";
+const MSJ_RECUPERAR_IMPRESORA = GUION_NETUM_INDECISOS;
 const MSJ_RECUPERAR_PEDIDO_IMPRESORA = "¡Hola! Tu impresora NETUM está lista para enviarte 🚚 El envío es *GRATIS*. Solo mándame en un mensaje: nombre, celular, ciudad y dirección, y pagas al recibir.";
 async function listaRecuperarImpresora() {
       const { datos } = await leerJSON(CLIENTES_API);
