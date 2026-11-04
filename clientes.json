@@ -63,8 +63,8 @@
     "telefono": "573157315202",
     "nombre": "María Nelly Vega Vasquez",
     "primerContacto": "2026-11-04T17:11:51.289Z",
-    "ultimoContacto": "2026-11-04T17:11:51.289Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:13:59.611Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,25 @@
         "fecha": "2026-11-04T17:11:50.202Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU3MzE1MjAyFQIAERgSRjFDQTQ1QjA1NzM2N0JEQ0I2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es posible el envío hasta Leticia amazonas",
+        "fecha": "2026-11-04T17:13:56.584Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después del despacho, pero para Leticia, Amazonas, el envío es un poco especial porque es zona apartada. El costo de envío para allá sería de $39.900. ¿Qué producto te interesa que te envíe para esa dirección?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-04T17:13:57.705Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3MzE1MjAyFQIAERgSQTUyQTIxNTBBQjNBQkU3NTlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-04T17:13:58.442Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU3MzE1MjAyFQIAERgSMjNGOEI5MTg5RDIwMUExMzAzAA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +136,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573155687424",
