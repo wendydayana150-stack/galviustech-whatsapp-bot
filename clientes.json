@@ -70,8 +70,8 @@
     "telefono": "573226936453",
     "nombre": "Chris",
     "primerContacto": "2026-11-04T16:32:18.186Z",
-    "ultimoContacto": "2026-11-04T16:40:05.517Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-04T16:40:33.990Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -137,13 +137,32 @@
         "fecha": "2026-11-04T16:40:04.544Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSMTIxNkIxQkY1MEFGOTQ3OUYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora trabaja con Bluetooth",
+        "fecha": "2026-11-04T16:40:29.918Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la *Impresora Térmica Portátil NETUM* se conecta al celular por Bluetooth, compatible con Android e iPhone. \n\nEs portátil, fácil de usar y no necesita tinta porque imprime en blanco y negro con papel térmico. Ideal para trabajo, estudios o negocios, y llevas documentos tamaño carta sin problema (mide 27.5 cm x 6.5 cm x 5 cm).\n\n¿Para qué la necesitarías principalmente, para documentos, facturas o etiquetas?",
+        "fecha": "2026-11-04T16:40:32.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSMzgyNzQxN0JFM0FCMzdFMUZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-04T16:40:33.212Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSNTc0NDU5QjQwNkRCMDFDNUNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
