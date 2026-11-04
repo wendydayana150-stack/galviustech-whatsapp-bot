@@ -3,8 +3,8 @@
     "telefono": "573218875692",
     "nombre": "Yeison",
     "primerContacto": "2026-11-04T14:02:22.151Z",
-    "ultimoContacto": "2026-11-04T14:02:22.151Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T14:03:21.361Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -58,6 +58,18 @@
         "fecha": "2026-11-04T14:02:20.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4ODc1NjkyFQIAERgSNDMyMDgyNjNFMkM3RjA4RkMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy interesado",
+        "fecha": "2026-11-04T14:03:15.002Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, encantada de ayudarte 😊 Para poder recomendarte mejor, ¿me puedes contar en qué ciudad o vereda estás y para qué necesitas el reflector solar? ¿Será para tu casa, finca, negocio o algún otro lugar?",
+        "fecha": "2026-11-04T14:03:20.316Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4ODc1NjkyFQIAERgSNkRFM0E5RTBFQTg3QzE4REE3AA=="
       }
     ],
     "paso": "conversando",
@@ -71,7 +83,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133159002",
