@@ -3,8 +3,8 @@
     "telefono": "573188574491",
     "nombre": "Pedro José",
     "primerContacto": "2026-11-04T17:54:11.057Z",
-    "ultimoContacto": "2026-11-04T17:54:20.058Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-04T17:54:30.150Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,25 @@
         "fecha": "2026-11-04T17:54:19.041Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NTc0NDkxFQIAERgSNDVBNERCQzFFNTVEQUJCRjlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "una pregunta",
+        "fecha": "2026-11-04T17:54:27.313Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, dime ¿qué pregunta tienes? Estoy para ayudarte con lo que necesites. ¿Te interesa algo de impresión o internet portátil?",
+        "fecha": "2026-11-04T17:54:28.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NTc0NDkxFQIAERgSRDQ4OEY1NkZCNUEwQkU4OUE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-04T17:54:29.217Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NTc0NDkxFQIAERgSODZDNDM4MUQ1QUZGMTAwM0U3AA=="
       }
     ],
     "paso": "conversando",
