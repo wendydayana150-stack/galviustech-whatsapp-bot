@@ -76,8 +76,8 @@
     "telefono": "573118670279",
     "nombre": "romeingeniero1953",
     "primerContacto": "2026-11-04T21:16:51.312Z",
-    "ultimoContacto": "2026-11-04T21:19:02.303Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-04T21:19:39.548Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -136,6 +136,18 @@
         "fecha": "2026-11-04T21:19:01.071Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSQjI0MzY5MUMxMkI4M0NEN0JFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-04T21:19:38.466Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Quedas anotado y te escribo apenas llegue la impresora a color.\n\nY si mientras tanto te sirve en blanco y negro, ¿te dejo lista la *NETUM* con envío GRATIS? 🚚",
+        "fecha": "2026-11-04T21:19:38.466Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSOTIxMkM2MjEwOUQ5OUFGNTUzAA=="
       }
     ],
     "paso": "conversando",
@@ -151,7 +163,7 @@
     "esperaCompra": null,
     "interesColor": {
       "desde": "2026-11-04T21:19:01.071Z",
-      "quiereAviso": false
+      "quiereAviso": true
     },
     "anuncio": {
       "titulo": "🖨️ ¡Imprime sin tinta! Envío gratis + paga contraentrega",
