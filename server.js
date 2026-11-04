@@ -848,15 +848,15 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
 const reflectoresDisponibles = () => catalogo.filter((p) => (p.categoria || "").trim().toLowerCase() === "reflector" && !p.agotado).sort((a, b) => a.precio - b.precio);
 const LINEA_OFERTA_REFLECTORES = () => {
       const r = reflectoresDisponibles();
-      return r.length ? `🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W y 1000W desde *${formatearPrecio(r[0].precio)}* (no pagan luz y se prenden solos al anochecer)` : "";
+      return r.length ? `🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W y 1000W desde *${formatearPrecio(r[0].precio)}* con envío GRATIS (no pagan luz y se prenden solos al anochecer)` : "";
 };
 function textoListaReflectores() {
       const r = reflectoresDisponibles();
       return (
             "☀️ *NUEVOS REFLECTORES SOLARES* 🆕\n" +
             "Con panel solar y *control remoto*: no gastan luz, se prenden solos al anochecer y resisten lluvia (IP67) 🌧️\n\n" +
-            r.map((p) => `${/^combo/i.test(p.nombre) ? "🔥" : "•"} *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}${ENVIO_GRATIS_IDS.includes(p.id) ? " (envío GRATIS)" : ""}`).join("\n") +
-            "\n\n🚚 Envío a toda Colombia y *pagas al recibir* ✅"
+            r.map((p) => `${/^combo/i.test(p.nombre) ? "🔥" : "•"} *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}${ENVIO_GRATIS_IDS.includes(p.id) || r.every((x) => ENVIO_GRATIS_IDS.includes(x.id)) ? "" : " + envío"}`).join("\n") +
+            (r.every((x) => ENVIO_GRATIS_IDS.includes(x.id)) ? "\n\n🚚 *Envío GRATIS* a toda Colombia y *pagas al recibir* ✅" : "\n\n🚚 Envío a toda Colombia y *pagas al recibir* ✅")
       );
 }
 // GUION LAMPARAS Y REFLECTORES (4-nov-2026, Wendy: "subir como prioridad a la hora de vender las lamparas o reflectores,
@@ -2873,7 +2873,7 @@ async function iniciarPedido(telefono, productoId) {
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   recordarPedidoRegistrado(sesion, nuevoPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -3446,7 +3446,7 @@ async function finalizarPedidoSesion(telefono) {
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -4244,7 +4244,7 @@ const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
       "🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n" +
-      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900)\n" +
+      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900) con *envío GRATIS*\n" +
       "💡 *Lámparas solares* con sensor de movimiento\n" +
       "📹 *Cámaras de seguridad*\n" +
       "⌚ *Relojes inteligentes*\n" +
@@ -4255,7 +4255,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Reactivacion con las opciones (29-oct-2026, Wendy: "no se le envio mensaje de reactivar para que el cliente decidiera,
