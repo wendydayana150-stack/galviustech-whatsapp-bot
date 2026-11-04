@@ -4215,6 +4215,10 @@ function detectarProductoEspecifico(texto) {
       const tiendaDet = detectarProductoTienda(texto);
       if (tiendaDet && tiendaDet.tipo === "producto") return tiendaDet.id;
       const t = texto.toLowerCase();
+      if (/impresora|c[aá]mara|vigilancia|reflector|l[aá]mpara/.test(t) && !/m[oó]dem|router/.test(t)) {
+            if (t.includes("netum") || ((t.includes("impresora") || t.includes("imprimir")) && /carta|hoja|tarea|estudi|colegio|universidad|trabajos/.test(t))) return "impresora-termica";
+            return null;
+      }
       // Impresoras (oct-2026): hay varias (negocio y estudio). La palabra "impresora" sola ya no
       // significa la impresora tamaño carta: solo cuando el cliente habla de carta, hojas,
       // tareas o estudio. Si no, queda como categoria y Michell pregunta para que la necesita.
@@ -4237,6 +4241,11 @@ function detectarProductoEspecifico(texto) {
 
 function detectarProductoPorPalabraClave(texto) {
       const t = texto.toLowerCase();
+      // 4-nov-2026 (casos Chris y Mary): el producto que el cliente NOMBRA gana sobre palabras sueltas como "wifi" o "5g"
+      // ("la impresora tiene conexion wifi" iba a modems). Orden: impresora, reflector, lampara (incluye "tipo camara"), camara.
+      const disponibles = categoriasDisponibles();
+      const nombrada = /impresora|imprimir/.test(t) ? "impresora" : /reflector|\d{3,4}\s*w\b/.test(t) ? "reflector" : /l[aá]mpara/.test(t) ? "lampara" : /c[aá]mara|vigilancia/.test(t) ? "camara" : null;
+      if (nombrada && disponibles.includes(nombrada) && !/m[oó]dem|router/.test(t)) return nombrada;
       for (const categoria of categoriasDisponibles()) {
             const info = infoCategoria(categoria);
             if (info.palabras.some((palabra) => t.includes(palabra))) {
@@ -4874,7 +4883,9 @@ async function manejarTextoLibre(telefono, texto) {
             }
       }
 
-      const productoDetectado = detectarProductoEspecifico(texto);
+      let productoDetectado = detectarProductoEspecifico(texto);
+      // "Para exterior 5g inalambrica" hablando de camaras no es un modem (4-nov-2026, caso Mary)
+      if (productoDetectado && /^modem/.test(productoDetectado) && ["camara", "impresora", "reflector", "lampara"].includes(sesion.ultimaCategoria) && !/m[oó]dem|router|internet|datos|sim\b/i.test(texto)) productoDetectado = null;
       const categoriaDetectada = !productoDetectado ? detectarProductoPorPalabraClave(texto) : null;
       let enfoqueProducto = null;
       if (productoDetectado) {
