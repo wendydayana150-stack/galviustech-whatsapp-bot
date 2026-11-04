@@ -105,8 +105,8 @@
     "telefono": "573114888569",
     "nombre": "FERNANDO",
     "primerContacto": "2026-11-04T15:59:07.053Z",
-    "ultimoContacto": "2026-11-04T15:59:07.053Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T16:00:13.888Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,6 +126,18 @@
         "fecha": "2026-11-04T15:59:04.596Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0ODg4NTY5FQIAERgSNTY1MERBNTM4QTk2Qjc3RDYyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Relojes",
+        "fecha": "2026-11-04T16:00:12.757Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Relojes]",
+        "fecha": "2026-11-04T16:00:12.759Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0ODg4NTY5FQIAERgSNDI3MEU4ODlCODgyMUNEM0I1AA=="
       }
     ],
     "paso": "conversando",
@@ -139,7 +151,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573007167975",
