@@ -8482,8 +8482,8 @@
     "telefono": "573203009435",
     "nombre": ".",
     "primerContacto": "2026-11-04T15:54:15.673Z",
-    "ultimoContacto": "2026-11-04T16:37:03.132Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-04T19:31:23.677Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8536,13 +8536,32 @@
         "fecha": "2026-11-04T18:38:16.499Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzMDA5NDM1FQIAERgSQzcwOUNBRTdBMjZGMEQzODNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "NETUM ESA ME INTERESA CUANTAS COPIAS SACA",
+        "fecha": "2026-11-04T19:31:17.940Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora Térmica Portátil NETUM* imprime rápido y sin tinta, ideal para documentos, trabajos y facturas en hoja tamaño carta. La batería dura hasta 30 horas con carga completa y tarda 3 horas en cargarse.\n\nNo tengo el dato exacto de cuántas copias saca con cada carga, pero está diseñada para un uso prolongado en estudio, trabajo o negocio. Además, trae papel térmico tamaño carta incluido para que la uses desde ya.\n\n¿Te gustaría que te ayude a dejar el pedido listo para que la recibas con envío GRATIS?",
+        "fecha": "2026-11-04T19:31:21.838Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDA5NDM1FQIAERgSMzE4RTQzRDIyRjBENTFBQ0U0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-04T19:31:22.604Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzMDA5NDM1FQIAERgSNUVBRTY4MzIyQTlGNkM0NDg0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -8551,11 +8570,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T18:38:25.463Z",
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "anuncio": null
   },
   {
     "telefono": "573163169601",
