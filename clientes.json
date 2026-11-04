@@ -1232,8 +1232,8 @@
     "telefono": "CO.3427592554078899",
     "nombre": "Tefi🥰🤪",
     "primerContacto": "2026-11-04T15:17:35.093Z",
-    "ultimoContacto": "2026-11-04T15:17:35.093Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T15:55:23.800Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1287,11 +1287,18 @@
         "fecha": "2026-11-04T15:17:33.763Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMzQyNzU5MjU1NDA3ODg5ORUUABEYEjVBMDREMjQzNEYzMTc4NjM2OQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋😍 Te cuento directo el precio que me preguntaste:\r\n\r\n🔥 *COMBO X2 LÁMPARAS SOLARES JORTAN DE 500W*\r\n✅ Dos lámparas solares con sus paneles solares\r\n💡 Protección IP67 · 🎮 Control remoto\r\n🏡 Ideales para espacios exteriores\r\n\r\n🎁 *ENVÍO GRATIS* · 💵 *PAGO CONTRAENTREGA*\r\n🔥 *Precio especial por promoción: $249.900* por las 2\r\n\r\nCuéntame, ¿dónde necesitas instalar tus lámparas? 👇\r\n🏡 Casa o patio\r\n🌳 Finca o vereda\r\n🏪 Negocio\r\n🚗 Entrada o parqueadero",
+        "fecha": "2026-11-04T15:55:22.519Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzQyNzU5MjU1NDA3ODg5ORUUABEYEkRENjY2Q0M5NjI3NDgyMkJBNQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "reflector",
@@ -1300,7 +1307,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233149689",
