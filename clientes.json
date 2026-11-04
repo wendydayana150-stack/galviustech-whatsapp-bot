@@ -43,8 +43,8 @@
     "telefono": "573116982434",
     "nombre": "yuli",
     "primerContacto": "2026-11-04T17:19:51.556Z",
-    "ultimoContacto": "2026-11-04T17:25:54.952Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-04T17:26:11.348Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,6 +141,18 @@
         "fecha": "2026-11-04T17:25:54.020Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2OTgyNDM0FQIAERgSMUI1MkFGQkQ2MUFEQTJFOEE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay más métodos de pago",
+        "fecha": "2026-11-04T17:26:07.682Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola de nuevo, para la *Impresora térmica NETUM* puedes pagar:\n\n1) Contraentrega en efectivo al recibir tu pedido.\n2) Transferencia a Bancolombia, Nequi o a la llave Bre-B (te paso los datos si quieres).\n3) Sistecredito para pagar a cuotas (si ya tienes cupo aprobado).\n\n¿Quieres que te envíe los datos para transferencia o prefieres contraentrega? ¿O prefieres que te deje listo el pedido para que lo puedas pagar con Sistecredito?",
+        "fecha": "2026-11-04T17:26:09.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2OTgyNDM0FQIAERgSQ0EyMUUwOUZCNTNDNDdBOTVEAA=="
       }
     ],
     "paso": "conversando",
