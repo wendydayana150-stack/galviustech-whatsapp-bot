@@ -3,8 +3,8 @@
     "telefono": "573213320135",
     "nombre": "rosalbamottamotta66",
     "primerContacto": "2026-11-04T17:59:53.362Z",
-    "ultimoContacto": "2026-11-04T17:59:53.362Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T18:00:35.492Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-04T17:59:52.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzIwMTM1FQIAERgSOUJFOEQ1NEZGNDcxNUEzMEMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto. vale",
+        "fecha": "2026-11-04T18:00:32.888Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para ayudarte bien, ¿me cuentas qué producto te interesa? Modem, impresora, lámpara, cámara o algo más? Así te doy el precio exacto con beneficios y opciones.\n\n¿Para qué lo necesitas y en qué ciudad estás?",
+        "fecha": "2026-11-04T18:00:34.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzIwMTM1FQIAERgSQzQ4NUIyOEJBRDNDNDM5QkUzAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145003746",
