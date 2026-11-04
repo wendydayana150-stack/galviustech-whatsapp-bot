@@ -3,8 +3,8 @@
     "telefono": "CO.1478413640830802",
     "nombre": "Fe Y Oración",
     "primerContacto": "2026-11-04T22:07:13.768Z",
-    "ultimoContacto": "2026-11-04T22:07:20.078Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-04T22:08:26.345Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -36,13 +36,59 @@
         "fecha": "2026-11-04T22:07:19.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEjc1QzgwMkZCOUU4OTc4ODI1NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más informaciónq cuesta la impresora de documentos y fotos",
+        "fecha": "2026-11-04T22:08:22.196Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-04T22:08:22.199Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-04T22:08:22.199Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEjI5RkY4NjE2OEI1QjI1MjVDMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-04T22:08:22.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEjg3RkQwRTg5RTk3M0FENEY2RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-04T22:08:23.616Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEkY5REUwQzBFMjdGNDMxQTExNgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-04T22:08:24.334Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEkRFN0FFMDBDMzk1M0RBMTQ0QQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-04T22:08:25.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEjQzNDg0NkY4Rjk4MUQwNTM1MwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
