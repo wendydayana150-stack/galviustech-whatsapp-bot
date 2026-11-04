@@ -504,8 +504,8 @@
     "telefono": "573102198340",
     "nombre": "Martha Rodríguez Guerrero",
     "primerContacto": "2026-11-04T21:22:21.048Z",
-    "ultimoContacto": "2026-11-04T22:02:54.235Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-04T22:04:44.428Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -626,9 +626,21 @@
         "fecha": "2026-11-04T22:02:52.746Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSMEYzMERFNTY2NEE2NzlFQjk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No por qué lo eh echo y me lo mandan y luego no tengo como resolveras bien ocho días antes te escribo",
+        "fecha": "2026-11-04T22:04:43.421Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 😊 Aquí te espero cuando quieras retomarlo. Recuerda que la promoción es por pocos días, ¡que tengas un lindo día! 🙌",
+        "fecha": "2026-11-04T22:04:43.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSQkQ5RTAyREQ4OTExODRFRTNCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
