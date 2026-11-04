@@ -149,8 +149,8 @@
     "telefono": "573178377440",
     "nombre": "Samuel Pushaina",
     "primerContacto": "2026-11-04T21:40:37.251Z",
-    "ultimoContacto": "2026-11-04T21:59:54.526Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-04T22:01:15.820Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -255,13 +255,25 @@
         "fecha": "2026-11-04T21:59:52.994Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSRjg3QjNBODJEMzFGRDYxQUNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este que precio",
+        "fecha": "2026-11-04T22:01:12.880Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El *Módem WiFi Portátil 4G* tiene una inversión de *$169.900 + $26.000 de envío*. Con él podrás conectar hasta 10 dispositivos simultáneamente y llevar tu internet donde lo necesites, ideal para fincas, viajes o estudio sin depender de fibra óptica. Además, cuenta con garantía de 30 días y pagas al recibir.\n\n¿En qué lugar lo usarías para asegurarte que tiene buena cobertura? Así te ayudo a dejar tu pedido listo.",
+        "fecha": "2026-11-04T22:01:14.826Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSQTI2NkNDNEQwNTY3M0Y0MjYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
