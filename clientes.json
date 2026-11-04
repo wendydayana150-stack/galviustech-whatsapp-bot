@@ -3,8 +3,8 @@
     "telefono": "573133045021",
     "nombre": "William C",
     "primerContacto": "2026-11-04T19:28:13.497Z",
-    "ultimoContacto": "2026-11-04T19:31:11.294Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-04T19:32:17.603Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -88,6 +88,18 @@
         "fecha": "2026-11-04T19:31:10.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzMDQ1MDIxFQIAERgSNTlCRjQ2ODU1NkEyNjc0ODVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No, ya con eso es suficiente muchas gracias",
+        "fecha": "2026-11-04T19:32:15.033Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! Si en cualquier momento necesitas algo más, aquí estoy para ayudarte. Que tengas un excelente día. 😊",
+        "fecha": "2026-11-04T19:32:16.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzMDQ1MDIxFQIAERgSNjE5MTY4NThGRUYwMzgwQUZEAA=="
       }
     ],
     "paso": "conversando",
@@ -98,7 +110,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
