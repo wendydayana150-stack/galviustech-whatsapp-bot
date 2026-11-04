@@ -508,7 +508,7 @@ const CATEGORIA_INFO = {
             emoji: "💡",
             palabras: ["lampara", "lámpara", "linterna", "panel solar", "luz solar"],
             resumen: null,
-            pregunta: "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+            pregunta: "Cuéntame, ¿dónde necesitas instalar tus lámparas? 👇\n🏡 Casa o patio\n🌳 Finca o vereda\n🏪 Negocio\n🚗 Entrada o parqueadero",
       },
       // Reflectores solares (3-nov-2026, Wendy subio a la tienda 100W, 500W, 1000W y combos x2: "que siempre los ofrezca").
       reflector: {
@@ -516,7 +516,7 @@ const CATEGORIA_INFO = {
             emoji: "☀️",
             palabras: ["reflector", "reflectores", "reflertor", "refletor", "1000w", "500w", "200w", "100w"],
             resumen: null,
-            pregunta: "¿Para dónde lo necesitas: casa, finca o negocio? ¿Y en qué ciudad estás? 📍",
+            pregunta: "Cuéntame, ¿dónde necesitas instalar tus lámparas? 👇\n🏡 Casa o patio\n🌳 Finca o vereda\n🏪 Negocio\n🚗 Entrada o parqueadero",
       },
       camara: {
             titulo: "Camara de Seguridad",
@@ -769,6 +769,9 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             return;
       }
       if (categoria === "reflector" && (await presentarReflectores(telefono, sesion, opciones.texto))) return;
+      if (categoria === "lampara" && (await presentarComboLamparas(telefono, sesion))) {
+            await enviarTexto(telefono, "Y estas son las *otras opciones* de lámparas que tenemos 👇");
+      }
       const productos = catalogo.filter(
             (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
@@ -852,9 +855,36 @@ function textoListaReflectores() {
       return (
             "☀️ *NUEVOS REFLECTORES SOLARES* 🆕\n" +
             "Con panel solar y *control remoto*: no gastan luz, se prenden solos al anochecer y resisten lluvia (IP67) 🌧️\n\n" +
-            r.map((p) => `${/^combo/i.test(p.nombre) ? "🔥" : "•"} *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
+            r.map((p) => `${/^combo/i.test(p.nombre) ? "🔥" : "•"} *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}${ENVIO_GRATIS_IDS.includes(p.id) ? " (envío GRATIS)" : ""}`).join("\n") +
             "\n\n🚚 Envío a toda Colombia y *pagas al recibir* ✅"
       );
+}
+// GUION LAMPARAS Y REFLECTORES (4-nov-2026, Wendy: "subir como prioridad a la hora de vender las lamparas o reflectores,
+// vender asi y como esta vendiendo y enviando las otras opciones de lamparas tambien"): primero el COMBO X2 JORTAN 500W
+// (envio gratis, contraentrega), despues las otras opciones como antes, y al final "¿donde necesitas instalar tus lamparas?".
+const ID_COMBO_LAMPARAS = "reflectores-x2-500w-con-control-remoto";
+async function presentarComboLamparas(telefono, sesion) {
+      const combo = catalogo.find((p) => p.id === ID_COMBO_LAMPARAS && !p.agotado);
+      if (!combo || sesion.guionComboLamparas) return false;
+      sesion.guionComboLamparas = true;
+      sesion.ofrecioReflectores = true;
+      if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+      await enviarFotosYVideo(telefono, combo, `🔥 COMBO X2 LÁMPARAS SOLARES JORTAN 500W - ${formatearPrecio(combo.precio)}`);
+      if (!sesion.fotosEnviadas.includes(combo.id)) sesion.fotosEnviadas.push(combo.id);
+      const yaSaludo = (sesion.historial || []).some((m) => m.role === "assistant");
+      const texto =
+            (yaSaludo ? "" : "¡Hola! 👋😍 Bienvenido(a) a *GALVIUSTECH*.\n\n") +
+            "¿Te gustaría iluminar tu finca, patio, jardín o negocio con energía solar? ☀️ ¡Tenemos justo una alternativa para ti! 😍\n\n" +
+            "🔥 *COMBO X2 LÁMPARAS SOLARES JORTAN DE 500W*\n" +
+            "✅ Dos lámparas solares\n☀️ Paneles solares\n💡 Protección IP67 indicada en el empaque\n🎮 Control remoto\n🏡 Ideales para espacios exteriores\n\n" +
+            "🎁 *¡Y LO MEJOR ES QUE TENEMOS BENEFICIOS PARA TI!*\n" +
+            "🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n" +
+            `🔥 *PRECIO ESPECIAL POR PROMOCIÓN: ${formatearPrecio(combo.precio)}* por las 2\n\n` +
+            "¡Puedes recibir tu combo en casa y pagar al momento de la entrega! 📦";
+      registrarMensaje(telefono, "bot", "[Guion: presenta el Combo x2 Lamparas Jortan 500W]");
+      await enviarTexto(telefono, texto);
+      sumarAlHistorialBot(sesion, texto);
+      return true;
 }
 // Una foto por modelo (los 2 de 100W son el mismo tamaño: va una sola) + la lista con todos los precios.
 // El cliente pregunta por UN reflector puntual (ej. el anuncio: "¿Cuánto cuesta el combo de 2 lámparas 500W solares?"):
@@ -881,8 +911,8 @@ async function presentarReflectorPuntual(telefono, sesion, p) {
             `💰 *${formatearPrecio(p.precio)}*${combo ? " por los 2 reflectores (cada uno trae su panel)" : ""}\n\n` +
             "✅ No gastan luz: se cargan con el sol y se prenden solos al anochecer\n" +
             "✅ Resisten lluvia (IP67) y el control trae temporizador\n" +
-            "🚚 Envío a toda Colombia y *pagas al recibir* ✅\n\n" +
-            (desde && desde.id !== p.id ? `También hay de 1 unidad desde ${formatearPrecio(desde.precio)}.\n\n` : "") +
+            (ENVIO_GRATIS_IDS.includes(p.id) ? "🚚 *Envío GRATIS* y *pagas al recibir* ✅\n\n" : "🚚 Envío a toda Colombia y *pagas al recibir* ✅\n\n") +
+            (p.id !== ID_COMBO_LAMPARAS && catalogo.some((x) => x.id === ID_COMBO_LAMPARAS && !x.agotado) ? `🔥 Y en promoción: *Combo x2 Lámparas Jortan 500W* con *envío GRATIS* por ${formatearPrecio(catalogo.find((x) => x.id === ID_COMBO_LAMPARAS).precio)}.\n\n` : desde && desde.id !== p.id ? `También hay de 1 unidad desde ${formatearPrecio(desde.precio)}.\n\n` : "") +
             infoCategoria("reflector").pregunta;
       registrarMensaje(telefono, "bot", `[Presenta ${p.nombreCorto || p.nombre} con fotos y precio]`);
       await enviarTexto(telefono, texto);
@@ -893,7 +923,10 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
       const r = reflectoresDisponibles();
       if (!r.length) return false;
       const puntual = reflectorPuntual(textoCliente);
-      if (puntual) return presentarReflectorPuntual(telefono, sesion, puntual);
+      if (puntual && puntual.id !== ID_COMBO_LAMPARAS) return presentarReflectorPuntual(telefono, sesion, puntual);
+      // Guion: primero el combo x2 500W, despues las otras opciones (sin repetir la foto del combo).
+      const conGuion = await presentarComboLamparas(telefono, sesion);
+      if (conGuion) sesion.ultimoProducto = ID_COMBO_LAMPARAS;
       sesion.ultimaCategoria = "reflector";
       sesion.ofrecioReflectores = true;
       if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
@@ -902,7 +935,7 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
       const fotosCombos = new Set(r.filter((p) => /^combo/i.test(p.nombre)).flatMap((p) => p.imagenes || []));
       for (const p of r) {
             const clave = (/^combo/i.test(p.nombre) ? "x2-" : "") + ((/(\d+)\s*W\b/i.exec(p.nombre) || [])[1] || p.id);
-            if (vistos.has(clave) || !p.imagenes?.[0] || (!/^combo/i.test(p.nombre) && fotosCombos.has(p.imagenes[0]))) continue;
+            if (vistos.has(clave) || !p.imagenes?.[0] || (!/^combo/i.test(p.nombre) && fotosCombos.has(p.imagenes[0])) || (conGuion && p.id === ID_COMBO_LAMPARAS)) continue;
             vistos.add(clave);
             try {
                   await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
@@ -911,7 +944,7 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
                   console.error("Fotos reflectores:", e.message);
             }
       }
-      const texto = textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
+      const texto = (conGuion ? "Y estas son las *otras opciones* que tenemos 👇\n\n" : "") + textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
       registrarMensaje(telefono, "bot", "[Envio fotos y precios de los reflectores solares]");
       await enviarTexto(telefono, texto);
       sumarAlHistorialBot(sesion, texto);
@@ -2840,7 +2873,7 @@ async function iniciarPedido(telefono, productoId) {
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   recordarPedidoRegistrado(sesion, nuevoPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -2876,6 +2909,14 @@ async function iniciarPedido(telefono, productoId) {
                   telefono,
                   `Genial, elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) 🙌 Ya tengo ${yaTengo}, no hace falta repetirlo.\n\nSolo me falta: ${faltante.pregunta.replace(/^(Para empezar|Por ultimo),\s*/i, "")}`
                   );
+            return;
+      }
+      if (/^(lampara|reflector)$/.test((producto.categoria || "").trim().toLowerCase())) {
+            // Paso 5 del guion de lamparas y reflectores (Wendy, 4-nov-2026)
+            await enviarTexto(
+                  telefono,
+                  `😍 ¡Perfecto! Vamos a preparar tu pedido de *${producto.nombre}* (${formatearPrecio(producto.precio)}).\n\nPara realizar el envío necesitamos:\n📌 Nombre completo\n📌 Número de celular\n📌 Departamento\n📌 Ciudad o municipio\n📌 Dirección\n📌 Barrio o vereda\n\n🚚 ${ENVIO_GRATIS_IDS.includes(producto.id) ? "¡Envío gratis y pago contraentrega!" : "¡Pago contraentrega!"}\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊`
+            );
             return;
       }
       await enviarTexto(
@@ -3385,6 +3426,11 @@ async function finalizarPedidoSesion(telefono) {
                         await enviarTexto(telefono, config.mensajeSistecredito);
                         marcarSistecredito(sesion, pedidoAGuardar);
                   }
+                  const prodPedido = catalogo.find((p) => p.id === pedidoAGuardar.productoId);
+                  if (prodPedido && /^(lampara|reflector)$/.test((prodPedido.categoria || "").trim().toLowerCase())) {
+                        // Paso 6 del guion de lamparas y reflectores (Wendy, 4-nov-2026)
+                        await enviarTexto(telefono, `🎉 *¡FELICIDADES POR TU COMPRA!*\n\nTu pedido de *GALVIUSTECH* está en proceso de confirmación.\n\n☀️ *${prodPedido.id === ID_COMBO_LAMPARAS ? "COMBO X2 LÁMPARAS SOLARES JORTAN" : (prodPedido.nombre || "").toUpperCase()}*\n\nGracias por confiar en nosotros ❤️ Te estaremos informando sobre el proceso de envío. ¡Esperamos que disfrutes tu compra!`);
+                  }
                   await enviarTexto(telefono, config.mensajeResumenPedido(pedidoAGuardar));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   // PAPEL COMO ULTIMA OPCION (29-oct-2026, Wendy: "ya cuando el cliente envie los datos, confirmar los datos y
@@ -3400,7 +3446,7 @@ async function finalizarPedidoSesion(telefono) {
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -4197,7 +4243,8 @@ async function enviarVersionesModem(telefono) {
 const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
-      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W con control remoto (desde $138.900)\n" +
+      "🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n" +
+      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900)\n" +
       "💡 *Lámparas solares* con sensor de movimiento\n" +
       "📹 *Cámaras de seguridad*\n" +
       "⌚ *Relojes inteligentes*\n" +
@@ -4208,7 +4255,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM y 💡 Lámparas 3 lentes x3 con envío GRATIS) y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ Combo x2 Lámparas Jortan 500W con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Reactivacion con las opciones (29-oct-2026, Wendy: "no se le envio mensaje de reactivar para que el cliente decidiera,
