@@ -504,8 +504,8 @@
     "telefono": "573102198340",
     "nombre": "Martha Rodríguez Guerrero",
     "primerContacto": "2026-11-04T21:22:21.048Z",
-    "ultimoContacto": "2026-11-04T22:04:44.428Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-04T22:05:38.546Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -638,14 +638,34 @@
         "fecha": "2026-11-04T22:04:43.422Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSQkQ5RTAyREQ4OTExODRFRTNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ojalá y pueda comprarlo y no suba de precio porque si sube me quedaría con las ganas",
+        "fecha": "2026-11-04T22:05:34.645Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la promoción actual con descuento y envío gratis es por últimas unidades, así que es buena idea asegurarla pronto para no perderla.\n\nImagínate tener la impresora NETUM lista en tu mochila para imprimir cualquier documento o trabajo al instante, sin depender de papelerías.\n\n¿Qué dirección te la enviamos o prefieres recogerla en la oficina? 🖨️✨\n\n💰 *Impresora NETUM*: $ 249.900 con *envío GRATIS* 🚚. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-04T22:05:36.529Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSRjRBODg5QzEwREFBMUE0MDQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-04T22:05:37.504Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSMTE2NjUyMzhDRkNFMDcwNTQzAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "573102198340"
+      "telefono": "573102198340",
+      "nombreCliente": "Si pero y el precio"
     },
     "pausado": false,
     "etapaManual": null,
