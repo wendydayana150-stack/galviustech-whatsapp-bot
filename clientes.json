@@ -3,8 +3,8 @@
     "telefono": "573207330870",
     "nombre": "Maricel Marin",
     "primerContacto": "2026-11-04T17:42:45.540Z",
-    "ultimoContacto": "2026-11-04T17:42:45.540Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:42:54.606Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-04T17:42:44.728Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3MzMwODcwFQIAERgSNDZENDk3MUQ0MzEyMzA2RjhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-04T17:42:53.162Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-04T17:42:53.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3MzMwODcwFQIAERgSMEE2OUExQTcxOTEzNzVGQjE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-04T17:42:53.646Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3MzMwODcwFQIAERgSQjg2MjFFMEU1NTY3REY4NUJBAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +56,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573197014020",
