@@ -1718,6 +1718,13 @@
         "fecha": "2026-11-04T16:25:44.642Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1NDA4Njc1FQIAERgSODcyQzcwNUJDQzEzQzA5MUM0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-04T17:29:14.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1NDA4Njc1FQIAERgSOUI1QTcyQkY5Nzc4OTY0QzIzAA=="
       }
     ],
     "paso": "conversando",
@@ -1731,7 +1738,12 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-04T17:29:16.834Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1591759366331057",
@@ -5607,6 +5619,27 @@
         "fecha": "2026-11-04T16:29:14.453Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjMzMDg3NzEyNzc0NjgxNBUUABEYEjE4NkNENjVGNDU0RTZBQUZEMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Te cuento que la *NETUM* trae *papel incluido* y luego el papel lo consigues con nosotros o en papelerías 📄\n\nSigue en *$ 249.900* con envío GRATIS, pero quedan pocas unidades con este precio. ¿Te la envío? 🚚\n[Opciones: ✅ Sí, la quiero | Ver otros]",
+        "fecha": "2026-11-04T17:29:15.044Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMzMDg3NzEyNzc0NjgxNBUUABEYEjhCQUU3RTQ3Q0M1MTMyNUQwNwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-11-04T17:29:15.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMzMDg3NzEyNzc0NjgxNBUUABEYEkY4NUUzQjM4MzQwNzYxQkM2OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Y también tenemos *otras opciones muy buenas* en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🔥 Todo con *30% de descuento* y pagas al recibir ✅\n¿Cuál te llama la atención? 😍",
+        "fecha": "2026-11-04T17:29:16.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMzMDg3NzEyNzc0NjgxNBUUABEYEjJGNkYwNDNFQ0NFMTU1ODI3RAA="
       }
     ],
     "paso": "conversando",
@@ -5623,8 +5656,9 @@
     "interesColor": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-04T16:29:15.491Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-04T17:29:16.834Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
