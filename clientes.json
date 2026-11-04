@@ -3,8 +3,8 @@
     "telefono": "573114207881",
     "nombre": "Pedro Jaraba",
     "primerContacto": "2026-11-04T19:45:25.042Z",
-    "ultimoContacto": "2026-11-04T19:45:25.042Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T19:45:30.360Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,6 +51,18 @@
         "fecha": "2026-11-04T19:45:23.903Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MjA3ODgxFQIAERgSNzVDODUyRDUxNEUyRkNGQjE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-04T19:45:26.580Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, ¿en qué municipio o vereda necesitas usar el módem? Así te recomiendo el mejor para lo que vas a hacer. ¿Lo necesitas para trabajo, estudio, tu negocio o para tu hogar?",
+        "fecha": "2026-11-04T19:45:28.560Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MjA3ODgxFQIAERgSOTgxMDYxMzBFQkI4NEQyNDg0AA=="
       }
     ],
     "paso": "conversando",
@@ -65,7 +77,10 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
-    "anuncio": null
+    "anuncio": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573242460507",
