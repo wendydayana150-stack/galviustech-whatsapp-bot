@@ -891,7 +891,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
 const reflectoresDisponibles = () => catalogo.filter((p) => (p.categoria || "").trim().toLowerCase() === "reflector" && !p.agotado).sort((a, b) => a.precio - b.precio);
 const LINEA_OFERTA_REFLECTORES = () => {
       const r = reflectoresDisponibles();
-      return r.length ? `🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W y 1000W desde *${formatearPrecio(r[0].precio)}* con envío GRATIS (no pagan luz y se prenden solos al anochecer)` : "";
+      return r.length ? `🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W, 1000W y 2000W desde *${formatearPrecio(r[0].precio)}* con envío GRATIS (no pagan luz y se prenden solos al anochecer)` : "";
 };
 function textoListaReflectores() {
       const r = reflectoresDisponibles();
@@ -4300,7 +4300,7 @@ const LISTA_PRODUCTOS_GALVIUS =
       "📶 *Módem WiFi portátil* 4G y 4G/5G\n" +
       "🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n" +
       "🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n" +
-      "🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900) con *envío GRATIS*\n" +
+      "🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n" +
       "💡 *Lámparas solares* con sensor de movimiento\n" +
       "📹 *Cámaras de seguridad*\n" +
       "⌚ *Relojes inteligentes*\n" +
