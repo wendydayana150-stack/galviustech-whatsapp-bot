@@ -3,8 +3,8 @@
     "telefono": "CO.1478413640830802",
     "nombre": "Fe Y Oración",
     "primerContacto": "2026-11-04T22:07:13.768Z",
-    "ultimoContacto": "2026-11-04T22:07:13.768Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T22:07:20.078Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-04T22:07:12.660Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEkMxMDcwMTBBMDMzRUY5NDRFNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Q cuesta",
+        "fecha": "2026-11-04T22:07:17.192Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! ¿Qué producto te interesa? Tenemos módems, impresoras, lámparas, cámaras y más. Cuéntame para qué lo necesitas o dónde lo usarías, así te doy el precio con los beneficios que te aporta y la mejor opción para ti. ¿Qué buscas exactamente?",
+        "fecha": "2026-11-04T22:07:19.006Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3ODQxMzY0MDgzMDgwMhUUABEYEjc1QzgwMkZCOUU4OTc4ODI1NQA="
       }
     ],
     "paso": "conversando",
@@ -38,7 +50,10 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
-    "anuncio": null
+    "anuncio": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573154097527",
