@@ -7297,7 +7297,7 @@ app.get("/catalogo-meta.csv", (req, res) => {
 const LINK_TIENDA_FEED = "https://galviustech.cercia.co";
 // Catalogo en linea (oct-2026): es el que se le envia al cliente cuando pide ver mas opciones.
 // Cada pedido o pregunta hecha desde ahi llega con un codigo "Ref:" igual al id del producto en catalog.json.
-const LINK_CATALOGO = "https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW";
+const LINK_CATALOGO = "https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt";
 
 app.get("/", (req, res) => {
       res.send("Bot de Galviustech corriendo correctamente");
