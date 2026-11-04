@@ -105,8 +105,8 @@
     "telefono": "573116982434",
     "nombre": "yuli",
     "primerContacto": "2026-11-04T17:19:51.556Z",
-    "ultimoContacto": "2026-11-04T17:27:06.651Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-04T17:28:25.455Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -227,6 +227,18 @@
         "fecha": "2026-11-04T17:27:05.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2OTgyNDM0FQIAERgSQkRGMUIwRjRCMjJGNTEzNjJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No tiene otro método de pago",
+        "fecha": "2026-11-04T17:28:22.627Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Así es, esos son los métodos que tenemos disponibles: contraentrega, transferencia o Sistecredito a cuotas.\n\nNo hay opción para pagar con tarjeta directamente en el chat, pero con transferencia puedes pagar desde la app de tu banco o billetera digital.\n\n¿Quieres que te deje el pedido listo con la *Impresora NETUM* y cuál método prefieres para pagar?",
+        "fecha": "2026-11-04T17:28:24.459Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2OTgyNDM0FQIAERgSQjc1RjREMUUyRTU0OTU5M0YzAA=="
       }
     ],
     "paso": "conversando",
