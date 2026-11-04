@@ -3,8 +3,8 @@
     "telefono": "573024059584",
     "nombre": "juandavid2058",
     "primerContacto": "2026-11-04T01:36:53.297Z",
-    "ultimoContacto": "2026-11-04T01:36:53.297Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T01:38:03.682Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-04T01:36:52.387Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDU5NTg0FQIAERgSNkE1MDUxQkI0MjY2OUI5MEZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Número del guía",
+        "fecha": "2026-11-04T01:37:59.940Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Para ayudarte con el número de guía, primero necesito saber qué producto compraste y cuándo realizaste el pedido, ya que desde aquí gestionamos ventas y asesorías, pero no tenemos acceso directo al seguimiento de envíos.\n\nSi quieres, dime el producto o si necesitas algo más para hacer un pedido nuevo. ¿Te ayudo con eso?",
+        "fecha": "2026-11-04T01:38:02.720Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDU5NTg0FQIAERgSQzgwN0VFREE2MTYwOUY4RUE2AA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2211357133068483",
