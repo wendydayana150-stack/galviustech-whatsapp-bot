@@ -3,8 +3,8 @@
     "telefono": "573002031784",
     "nombre": "fiore.acunamolinav",
     "primerContacto": "2026-11-04T17:26:16.748Z",
-    "ultimoContacto": "2026-11-04T17:26:16.748Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:26:20.851Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-04T17:26:15.801Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyMDMxNzg0FQIAERgSNENDOTBGQjNEQzBERkRGRkNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Valor",
+        "fecha": "2026-11-04T17:26:19.027Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-04T17:26:19.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyMDMxNzg0FQIAERgSNDU4Mzg2QkVCQkM2QjE2M0EzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-04T17:26:19.812Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyMDMxNzg0FQIAERgSQTczMTdCMjY5NTJGRDQ2MzYwAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +56,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2744017686049850",
