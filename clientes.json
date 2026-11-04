@@ -3,8 +3,8 @@
     "telefono": "573147247992",
     "nombre": "Miosky",
     "primerContacto": "2026-11-04T16:30:28.875Z",
-    "ultimoContacto": "2026-11-04T16:30:28.875Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T16:30:48.637Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-04T16:30:27.845Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3MjQ3OTkyFQIAERgSMTAzQ0FDRDU4QTI2MTc1MDk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Comk se usa?",
+        "fecha": "2026-11-04T16:30:45.112Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, Miosky, ¿por cuál producto quieres que te explique cómo se usa? ¿El módem, la impresora, la lámpara o alguna cámara? Así te cuento rápido y bien exacto. ¿Cuál te interesa?",
+        "fecha": "2026-11-04T16:30:47.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3MjQ3OTkyFQIAERgSRDFGMzI4RkM1QjJBRjNGNEIxAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +49,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205400706",
