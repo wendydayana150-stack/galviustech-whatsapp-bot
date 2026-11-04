@@ -2653,8 +2653,8 @@
     "telefono": "573112007060",
     "nombre": "lubaque",
     "primerContacto": "2026-11-04T18:29:29.343Z",
-    "ultimoContacto": "2026-11-04T18:29:29.343Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T20:33:17.002Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2695,6 +2695,18 @@
         "fecha": "2026-11-04T20:31:54.185Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMDA3MDYwFQIAERgSQUYzNDlGQkQyMTdFNkE4Qjk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias, después miramos",
+        "fecha": "2026-11-04T20:33:13.334Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, cuando quieras aquí estaré para ayudarte 😊\n\nRecuerda que los precios que tenemos con descuento pueden cambiar y las unidades son limitadas, así que aprovecha cuando estés list@.\n\n¿Quieres que te guarde alguna info o producto para que no la pierdas? 😄",
+        "fecha": "2026-11-04T20:33:15.860Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMDA3MDYwFQIAERgSMzY3NzEzNEM1MjJGQ0YwREY3AA=="
       }
     ],
     "paso": "conversando",
@@ -2705,16 +2717,14 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T20:32:00.656Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "anuncio": null
   },
   {
     "telefono": "573188526946",
