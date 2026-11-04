@@ -4747,8 +4747,8 @@
     "telefono": "573116095222",
     "nombre": "Mary",
     "primerContacto": "2026-11-04T16:07:17.654Z",
-    "ultimoContacto": "2026-11-04T16:10:30.585Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-04T18:43:27.336Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4918,11 +4918,18 @@
         "fecha": "2026-11-04T18:19:27.392Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSNDI0RTc5RjNFNkIxRDhBQ0JFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] 📹 Cámara de Seguridad Doble Lente + memoria de 64 GB de obsequio",
+        "fecha": "2026-11-04T18:43:25.617Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSNjY2MEVFRjQ2NTA2RDREQzU2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "camara",
@@ -4933,10 +4940,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T18:19:30.365Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
