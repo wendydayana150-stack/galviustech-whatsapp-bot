@@ -3,8 +3,8 @@
     "telefono": "573188574491",
     "nombre": "Pedro José",
     "primerContacto": "2026-11-04T17:54:11.057Z",
-    "ultimoContacto": "2026-11-04T17:54:11.057Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:54:20.058Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-04T17:54:10.149Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NTc0NDkxFQIAERgSODE0MTlGQTMwQUI4MjY2QkE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "buenas tardes",
+        "fecha": "2026-11-04T17:54:17.366Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿en qué te puedo ayudar hoy? ¿Quieres conocer alguna solución de impresión o conectividad en Colombia? ¿Qué necesitas exactamente?",
+        "fecha": "2026-11-04T17:54:19.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NTc0NDkxFQIAERgSNDVBNERCQzFFNTVEQUJCRjlBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573202437368",
