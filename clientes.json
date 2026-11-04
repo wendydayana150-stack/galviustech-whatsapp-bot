@@ -2875,8 +2875,8 @@
     "telefono": "573142831051",
     "nombre": "Danilo Agudelo",
     "primerContacto": "2026-11-04T17:18:55.668Z",
-    "ultimoContacto": "2026-11-04T19:04:25.951Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-04T19:04:41.556Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2959,13 +2959,41 @@
         "fecha": "2026-11-04T19:04:24.921Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSMTE5RTEyQTZGRjJCMzRGNEY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Mini Impresora Bluetooth",
+        "fecha": "2026-11-04T19:04:39.200Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-11-04T19:04:39.200Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSMTFBQ0QzOUE5NEE2MzA1NkM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Mini Impresora Térmica Portátil Bluetooth*\n💰 *$ 109.900* ya con *30% de descuento* 🔥\n✅ Notas, listas, QR y stickers desde el celular\n✅ Sin tinta y cabe en el bolsillo\n✅ Incluye un rollo de papel para empezar\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-04T19:04:39.802Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSQjA2Njk0NzA3N0UxRjM4RTQ1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-04T19:04:40.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSMTM5MzEzN0Y1RjFENTdCNEEwAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "mini-impresora-termica-portatil-bluetooth"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
