@@ -4202,8 +4202,8 @@
     "telefono": "573122115610",
     "nombre": "Jaime Álvarez",
     "primerContacto": "2026-11-04T18:02:50.663Z",
-    "ultimoContacto": "2026-11-04T18:58:18.390Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-04T21:01:35.356Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4295,6 +4295,18 @@
         "fecha": "2026-11-04T20:01:54.949Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTE1NjEwFQIAERgSNjFFOERCMEM4ODE1OEMwQzFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ustedes tienen tienda en Medellín?",
+        "fecha": "2026-11-04T21:01:32.566Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\nNo tenemos tienda física en Medellín, pero el pedido se despacha rápido desde aquí y llega en 1 día hábil después del despacho a Medellín.\n\n¿Quieres que deje tu pedido listo para enviártela a Medellín? ¿Me puedes confirmar la dirección?",
+        "fecha": "2026-11-04T21:01:34.099Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTE1NjEwFQIAERgSRUVCNTA5OTQyRkQ0ODcyNTI1AA=="
       }
     ],
     "paso": "conversando",
@@ -4310,10 +4322,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T20:02:09.826Z"
-    }
+      "seguimientosEnviados": 0
+    },
+    "anuncio": null
   },
   {
     "telefono": "573213320135",
