@@ -3202,8 +3202,8 @@
     "telefono": "573154015155",
     "nombre": "jhonmuebles0",
     "primerContacto": "2026-11-04T15:59:48.008Z",
-    "ultimoContacto": "2026-11-04T15:59:48.008Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:26:05.116Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3230,6 +3230,18 @@
         "fecha": "2026-11-04T17:09:22.516Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU0MDE1MTU1FQIAERgSNzQyREY4NTg4NkY0MTM5QzRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por comunicarte con Nova Muebles. ¿Cómo podemos ayudarte?",
+        "fecha": "2026-11-04T17:26:02.399Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, encantada de ayudarte con soluciones de internet portátil, impresoras, lámparas solares, cámaras de seguridad y más.\n\n¿Quieres que te muestre qué tenemos para conectarte mejor o iluminar tu espacio? Cuéntame qué necesitas o en qué ciudad estás para recomendarte lo mejor. ¿Qué te interesa hoy?",
+        "fecha": "2026-11-04T17:26:04.219Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU0MDE1MTU1FQIAERgSMDYxRUU1MzgzNzM1QkRBRkQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -3245,9 +3257,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T17:09:34.287Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
