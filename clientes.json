@@ -123,8 +123,8 @@
     "telefono": "573116095222",
     "nombre": "Mary",
     "primerContacto": "2026-11-04T16:07:17.654Z",
-    "ultimoContacto": "2026-11-04T16:08:19.813Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-04T16:09:46.036Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -202,6 +202,38 @@
         "fecha": "2026-11-04T16:08:18.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSNzhBRDk4QkUxNjBFMEY3MUQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] 📹 Camara de Seguridad",
+        "fecha": "2026-11-04T16:09:43.954Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Camara de Seguridad]",
+        "fecha": "2026-11-04T16:09:43.954Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "*📹 Camara de Seguridad*\n\n*Camara 5 antenas* - $ 119.900\n*Camara 3 lentes* - $ 209.900",
+        "fecha": "2026-11-04T16:09:43.955Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSRjFCRkZBN0VBNjA3NkMxNEU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W y 1000W desde *$ 138.900* con envío GRATIS (no pagan luz y se prenden solos al anochecer). Si quieres te mando fotos 📸",
+        "fecha": "2026-11-04T16:09:44.607Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSRTkxODVFOUQxQ0I1REIxNDU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-11-04T16:09:45.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MDk1MjIyFQIAERgSM0RBRDk2NjUzMDE5Q0RGMzY4AA=="
       }
     ],
     "paso": "conversando",
@@ -209,7 +241,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
-    "ultimaCategoria": "impresora",
+    "ultimaCategoria": "camara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
