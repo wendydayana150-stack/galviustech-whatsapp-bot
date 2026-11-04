@@ -480,8 +480,8 @@
     "telefono": "573102198340",
     "nombre": "Martha Rodríguez Guerrero",
     "primerContacto": "2026-11-04T21:22:21.048Z",
-    "ultimoContacto": "2026-11-04T22:00:29.398Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-04T22:01:10.777Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -559,10 +559,27 @@
         "fecha": "2026-11-04T22:00:28.220Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSNDNDOEI4ODI0Q0Q0RTFENDY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si por favor",
+        "fecha": "2026-11-04T22:01:09.347Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n📦 Solo necesitamos tus datos:\n\n👤 Nombre completo\n📱 Celular\n📍 Departamento\n🏙️ Ciudad o municipio\n🏠 Dirección\n📌 Barrio o vereda\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊",
+        "fecha": "2026-11-04T22:01:09.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSQzdEN0QxMjI5MjEzQ0Q3OThBAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573102198340"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
