@@ -1587,6 +1587,7 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.pausarSeguimiento = !!sesion.pausarSeguimiento || !!existente.pausarSeguimiento;
             existente.esperandoDatosPedidoLibre = sesion.esperandoDatosPedidoLibre || null;
             existente.esperaCompra = sesion.esperaCompra || existente.esperaCompra || null;
+            existente.anuncio = sesion.anuncio || existente.anuncio || null;
             // Pidio impresora a color (no hay en el catalogo): para escribirle cuando llegue
             existente.interesColor = sesion.interesColor || existente.interesColor || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
@@ -1618,6 +1619,7 @@ async function guardarCliente(telefono, nombreCliente) {
                   esperandoDatosPedidoLibre: sesion.esperandoDatosPedidoLibre || null,
                   esperaCompra: sesion.esperaCompra || null,
                   interesColor: sesion.interesColor || null,
+                  anuncio: sesion.anuncio || null,
             });
       }
 
@@ -4586,6 +4588,35 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
       return true;
 }
 
+// PRODUCTO DEL ANUNCIO (4-nov-2026): solo cuenta si el titulo + texto del anuncio nombran UNA sola categoria
+// (el 29-oct se dejo de usar porque anuncios con varios productos mandaban clientes a modems por error).
+function categoriaDeAnuncio(ref) {
+      const t = `${ref?.headline || ""} ${ref?.body || ""}`.toLowerCase();
+      if (!t.trim()) return null;
+      const hay = {
+            impresora: /impresora|imprim|sin tinta|netum/.test(t),
+            reflector: /reflector|\b\d{3,4}\s*w\b/.test(t),
+            lampara: !/reflector|\b\d{3,4}\s*w\b/.test(t) && /l[aá]mpara|luz solar|solares/.test(t),
+            modem: /m[oó]dem|router|internet port[aá]til|wi-?fi port[aá]til/.test(t),
+            camara: /c[aá]mara de (seguridad|vigilancia)|c[aá]maras? (wifi|ip)|vigilancia/.test(t) && !/l[aá]mpara/.test(t),
+      };
+      const cats = Object.keys(hay).filter((k) => hay[k] && categoriasDisponibles().includes(k));
+      return cats.length === 1 ? cats[0] : null;
+}
+// "Precio" / "Valor" sin decir de que producto (4-nov-2026): se dan los precios de lo que mas se anuncia, en vez del catalogo otra vez
+const PIDE_PRECIO_SOLO = /^[\s¡!¿?.,]*(hola[\s,!.]*)?(buen(os|as)[\s.]*(d[ií]as|tardes|noches)[\s,!.]*)?(y\s+)?(el\s+|qu[eé]\s+|cu[aá]l\s+es\s+el\s+)?(precio|valor|costo|cu[aá]nto[\s.]*(vale|cuesta|es|sale)|qu[eé] precio( tiene)?|cu[aá]l es el precio)[\s?!.,]*(gracias|porfa|por favor)?[\s?!.]*$/i;
+function mensajePreciosSinProducto() {
+      const netum = catalogo.find((p) => p.id === "impresora-termica" && !p.agotado);
+      const combo = catalogo.find((p) => p.id === "reflectores-x2-500w-con-control-remoto" && !p.agotado);
+      const modems = catalogo.filter((p) => (p.categoria || "").trim().toLowerCase() === "modem" && !p.agotado && !p.id.startsWith("combo-")).sort((a, b) => a.precio - b.precio);
+      const lineas = [
+            netum && `🖨️ *Impresora NETUM sin tinta* (hoja carta): *${formatearPrecio(netum.precio)}* · envío GRATIS`,
+            combo && `☀️ *Combo x2 Lámparas Solares Jortan 500W*: *${formatearPrecio(combo.precio)}* · envío GRATIS`,
+            modems[0] && `📶 *Módem WiFi portátil*: desde *${formatearPrecio(modems[0].precio)}*`,
+      ].filter(Boolean);
+      return "¡Claro! 😊 Estos son los precios de lo que tenemos en promoción:\n\n" + lineas.join("\n") + "\n\n💵 Todo lo *pagas al recibir* ✅\n\n¿Cuál de estos viste en el anuncio? Te mando fotos y te lo dejo listo 📸";
+}
+
 // Pide la impresora para etiquetas, guias o codigos: se le ofrecen las impresoras de rollo (de la guia de config.js)
 const PIDE_ETIQUETAS = /(etiqueta|sticker|c[oó]digos? de barras?|\bqr\b|gu[ií]as? de env|marcar (productos|precios)|rotul|precios? (a|de) (los |mis )?productos|adhesiv)/i;
 const IMPRESORAS_ETIQUETAS = ["impresora-termica-portatil-de-etiquetas-clabel-221b", "mini-impresora-de-etiquetas-termica-p5-bluetooth", "mini-impresora-termica-portatil-bluetooth", "impresora-termica-portatil-goojprt-pt-210"];
@@ -4730,10 +4761,17 @@ async function manejarTextoLibre(telefono, texto) {
       // genericas; ahora va otra vez el link del catalogo y el menu de categorias para que toque una (max 2 veces).
       if (
             sesion.paso === "conversando" && !sesion.ultimoProducto && !sesion.ultimaCategoria &&
-            (sesion.catalogoSinProducto || 0) < 2 && PIDE_INFO_GENERICA.test(String(texto)) &&
+            (sesion.catalogoSinProducto || 0) < 2 && (PIDE_INFO_GENERICA.test(String(texto)) || PIDE_PRECIO_SOLO.test(String(texto).trim())) &&
             !detectarProductoEspecifico(texto) && !detectarProductoPorPalabraClave(texto) && !detectarProductoTienda(texto) && !detectarCategoriaTienda(texto)
       ) {
             sesion.catalogoSinProducto = (sesion.catalogoSinProducto || 0) + 1;
+            if (PIDE_PRECIO_SOLO.test(String(texto).trim()) && !sesion.preciosSinProducto) {
+                  sesion.preciosSinProducto = true;
+                  const precios = mensajePreciosSinProducto();
+                  await enviarTexto(telefono, precios);
+                  if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: precios });
+                  return;
+            }
             const respuesta = "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ " + LINK_CATALOGO + "\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸";
             await enviarTexto(telefono, respuesta);
             const hayCombos = catalogo.some((p) => p.id.startsWith("combo-"));
@@ -5711,6 +5749,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             </div>
             ${req.query.error ? `<div class="error-envio">${escaparHtml(req.query.error)}</div>` : ""}
             <div class="pausa">
+            ${cliente.anuncio ? `<div style="margin-bottom:6px">📣 Llegó por el anuncio: <strong>${escaparHtml(String(cliente.anuncio.titulo || ""))}</strong>${cliente.anuncio.texto ? ` <span style="color:#666">— ${escaparHtml(String(cliente.anuncio.texto).slice(0, 160))}</span>` : ""}</div>` : ""}
             Estado del bot: <strong>${cliente.pausado ? "Pausado" : "Activo"}</strong> -
             <a href="/admin/pausa/${encodeURIComponent(cliente.telefono)}">${cliente.pausado ? "Reanudar bot" : "Pausar bot"}</a>
             ${cliente.pausado ? `<form method="post" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/reactivar-responder" style="display:inline"><button type="submit" style="margin-left:10px;padding:4px 10px;border-radius:6px;border:none;background:#2e7d32;color:#fff;cursor:pointer">▶️ Reactivar bot y responder</button></form>` : ""}
@@ -6187,7 +6226,11 @@ app.post("/webhook", async (req, res) => {
                               // escribe el cliente; si no nombra ninguno, se saluda con el catalogo y se pregunta cual busca.
                               const ref = mensaje.referral || {};
                               const textoDet = texto;
-                              if (ref.headline || ref.body) console.log(`Anuncio de ${telefono}: ${String(ref.headline || ref.body).slice(0, 80)}`);
+                              if (ref.headline || ref.body) {
+                                    console.log(`Anuncio de ${telefono}: ${String(ref.headline || "")} | ${String(ref.body || "").slice(0, 120)}`);
+                                    sesion.anuncio = { titulo: String(ref.headline || "").slice(0, 200), texto: String(ref.body || "").slice(0, 500), url: ref.source_url || null, fecha: new Date().toISOString() };
+                              }
+                              const catAnuncio = categoriaDeAnuncio(ref);
                               const especifico = detectarProductoEspecifico(textoDet);
                               const deteccion = detectarProductoPorPalabraClave(textoDet);
                               sesion.paso = "conversando";
@@ -6216,6 +6259,11 @@ app.post("/webhook", async (req, res) => {
                                     await manejarSeleccionProducto(telefono, especifico);
                               } else if (deteccion) {
                                     await enviarInfoCategoria(telefono, deteccion, { preguntaPrecio: PREGUNTA_PRECIO.test(texto), texto });
+                              } else if (catAnuncio) {
+                                    // 4-nov-2026 (Wendy, "llegan sin especificar que producto quieren"): escribio el texto automatico
+                                    // del anuncio y el anuncio nombra UN solo producto: se arranca con el guion de ese producto.
+                                    console.log(`Producto por anuncio para ${telefono}: ${catAnuncio}`);
+                                    await enviarInfoCategoria(telefono, catAnuncio, { preguntaPrecio: PREGUNTA_PRECIO.test(texto), texto: `${texto} ${ref.headline || ""} ${ref.body || ""}` });
                               } else {
                                     await saludarConCatalogo(telefono, nombreCliente);
                               }
