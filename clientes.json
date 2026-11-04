@@ -2648,8 +2648,8 @@
     "telefono": "573142831051",
     "nombre": "Danilo Agudelo",
     "primerContacto": "2026-11-04T17:18:55.668Z",
-    "ultimoContacto": "2026-11-04T17:18:55.668Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T18:58:31.736Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2696,6 +2696,18 @@
         "fecha": "2026-11-04T18:19:14.272Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSQzZENUNFNTJBRkU1REE2OEMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-04T18:58:30.659Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-04T18:58:30.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSQ0QzRTU0MTE3MTY3ODlCOTVCAA=="
       }
     ],
     "paso": "conversando",
@@ -2711,9 +2723,7 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T18:19:30.365Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
