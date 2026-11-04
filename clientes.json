@@ -1557,6 +1557,13 @@
         "fecha": "2026-11-04T17:26:19.812Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyMDMxNzg0FQIAERgSQTczMTdCMjY5NTJGRDQ2MzYwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-04T18:29:14.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyMDMxNzg0FQIAERgSMDA3ODRCQjU3NTI0NjZFRUU5AA=="
       }
     ],
     "paso": "conversando",
@@ -1572,7 +1579,9 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-04T18:29:17.629Z"
     }
   },
   {
@@ -1600,6 +1609,13 @@
         "fecha": "2026-11-04T17:23:18.789Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjc0NDAxNzY4NjA0OTg1MBUUABEYEkE0Qzc4QjM0QTYyNDcxNTY0MAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-04T18:29:15.082Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjc0NDAxNzY4NjA0OTg1MBUUABEYEkVBMTRERDA1MTc2NUY5QjU3MgA="
       }
     ],
     "paso": "conversando",
@@ -1613,7 +1629,12 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-04T18:29:17.629Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573116982434",
@@ -3401,6 +3422,20 @@
         "fecha": "2026-11-04T17:29:14.209Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1NDA4Njc1FQIAERgSOUI1QTcyQkY5Nzc4OTY0QzIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW",
+        "fecha": "2026-11-04T18:29:15.707Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1NDA4Njc1FQIAERgSMkQ1NjU4NTI5NUQzMUM1MDk3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W y 1000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍",
+        "fecha": "2026-11-04T18:29:16.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1NDA4Njc1FQIAERgSNzQ3ODhCNjVCRjdGRjM1RTA1AA=="
       }
     ],
     "paso": "conversando",
@@ -3417,8 +3452,9 @@
     "interesColor": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-04T17:29:16.834Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-04T18:29:17.629Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
