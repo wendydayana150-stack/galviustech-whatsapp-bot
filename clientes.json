@@ -368,8 +368,8 @@
     "telefono": "573209560520",
     "nombre": "NOCHAR🥰😜",
     "primerContacto": "2026-11-04T21:08:39.882Z",
-    "ultimoContacto": "2026-11-04T21:18:21.256Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-04T21:18:59.913Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -533,16 +533,29 @@
         "fecha": "2026-11-04T21:18:20.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NTYwNTIwFQIAERgSNkQ4OEUxRkRFN0EyMDQ2RjBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3209560520",
+        "fecha": "2026-11-04T21:18:58.676Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-04T21:18:58.678Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NTYwNTIwFQIAERgSNDE3NzE5MUY4QTIwQTkwRUZEAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573209560520",
       "departamento": "Vaupes",
-      "nombreCliente": "Nombre completo: Nohemí Chagres Rodríguez."
+      "nombreCliente": "Nombre completo: Nohemí Chagres Rodríguez.",
+      "celular": "3209560520"
     },
     "pausado": false,
     "etapaManual": null,
