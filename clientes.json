@@ -3,8 +3,8 @@
     "telefono": "573507017873",
     "nombre": "Fernando Cortés",
     "primerContacto": "2026-11-04T16:14:21.248Z",
-    "ultimoContacto": "2026-11-04T16:14:21.248Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T16:14:24.868Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-04T16:14:19.518Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA3MDE3ODczFQIAERgSRDkxQzVDNjIwNTk2NUM3MDU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-04T16:14:22.741Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/23UGuEHyEvA7E9Kc7GZdhW\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-04T16:14:22.741Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA3MDE3ODczFQIAERgSN0U0NzYyNjBDRjc0RUZGMDA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-04T16:14:23.280Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA3MDE3ODczFQIAERgSODYzMkM5RkM3OEZENTc5MkVCAA=="
       }
     ],
     "paso": "conversando",
@@ -37,7 +56,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1427802592339606",
