@@ -76,8 +76,8 @@
     "telefono": "573118670279",
     "nombre": "romeingeniero1953",
     "primerContacto": "2026-11-04T21:16:51.312Z",
-    "ultimoContacto": "2026-11-04T21:16:51.312Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T21:19:02.303Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -124,6 +124,18 @@
         "fecha": "2026-11-04T21:16:50.094Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSQjU4RTM2OUVDREJGNDk1NUUwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pregunta: imprime a color?",
+        "fecha": "2026-11-04T21:19:01.070Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-04T21:19:01.071Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjcwMjc5FQIAERgSQjI0MzY5MUMxMkI4M0NEN0JFAA=="
       }
     ],
     "paso": "conversando",
@@ -137,12 +149,18 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-04T21:19:01.071Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "🖨️ ¡Imprime sin tinta! Envío gratis + paga contraentrega",
       "texto": "Portátil, práctica y sin cartuchos de tinta. Ideal para tu negocio, estudio o trabajo. 🚚 Envío gratis y pago contraentrega. ¡Escríbenos y pide la tuya!\n\n📲 Escríbenos a GALVIUSTECH y consulta precio, compatibilidad y disponibilidad. ¡Haz tu pedido hoy!",
       "url": "https://fb.me/4tTBti71Y",
       "fecha": "2026-11-04T21:16:47.153Z"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
     }
   },
   {
