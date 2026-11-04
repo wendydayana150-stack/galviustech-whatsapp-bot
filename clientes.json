@@ -1412,8 +1412,8 @@
     "telefono": "573102084155",
     "nombre": "Luis Yimer Olarte",
     "primerContacto": "2026-11-04T19:19:56.141Z",
-    "ultimoContacto": "2026-11-04T19:19:56.141Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T20:33:59.852Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1467,13 +1467,45 @@
         "fecha": "2026-11-04T20:21:53.404Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMDg0MTU1FQIAERgSRUVGOUNFRUUzNDlFMDZBODNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "quiero información de la de 109000",
+        "fecha": "2026-11-04T20:33:55.106Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-11-04T20:33:57.108Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDg0MTU1FQIAERgSRjc2MEIxNEJGRDNFMTlBRDZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Mini Impresora Bluetooth]",
+        "fecha": "2026-11-04T20:33:57.947Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te refieres a la Mini Impresora Térmica Portátil Bluetooth que cuesta $109.900. \n\nEs compacta y económica, ideal para imprimir recibos, notas, etiquetas, códigos QR y comandas, perfecta para emprendimientos con poco volumen. Imprime sin tinta con Bluetooth desde tu celular.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas? Así es la mejor opción para tu uso.",
+        "fecha": "2026-11-04T20:33:57.951Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDg0MTU1FQIAERgSOUE1NDE5MzI2RTUxNzY5RkVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-11-04T20:33:58.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMDg0MTU1FQIAERgSRUM2RDIyQTBCMERENzFFQjRCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1488,9 +1520,7 @@
       "fecha": "2026-11-04T19:19:52.073Z"
     },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T20:22:01.382Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
