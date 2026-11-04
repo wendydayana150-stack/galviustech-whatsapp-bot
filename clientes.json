@@ -529,8 +529,8 @@
     "telefono": "573209560520",
     "nombre": "NOCHAR🥰😜",
     "primerContacto": "2026-11-04T21:08:39.882Z",
-    "ultimoContacto": "2026-11-04T21:20:31.303Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-04T21:35:18.710Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -718,9 +718,21 @@
         "fecha": "2026-11-04T21:20:30.192Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NTYwNTIwFQIAERgSNkMxM0YwNUI1RDA5QzRDOTJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Carr 5 No 18-103 \nBarrio \"Las Brisas\"",
+        "fecha": "2026-11-04T21:35:17.447Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-04T21:35:17.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NTYwNTIwFQIAERgSOUY1MDBGQjEyNDc4OTA1QUE2AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -729,7 +741,9 @@
       "departamento": "Vaupes",
       "nombreCliente": "Nombre completo: Nohemí Chagres Rodríguez.",
       "celular": "3209560520",
-      "ciudad": "En el Municipio de Mitu Vaupés"
+      "ciudad": "En el Municipio de Mitu Vaupés",
+      "barrio": "\"Las Brisas\"",
+      "direccion": "Carr 5 No 18-103 \nBarrio \"Las Brisas\""
     },
     "pausado": false,
     "etapaManual": null,
