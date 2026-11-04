@@ -3,8 +3,8 @@
     "telefono": "573155076254",
     "nombre": "Sarami",
     "primerContacto": "2026-11-04T17:13:37.329Z",
-    "ultimoContacto": "2026-11-04T17:13:37.329Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T17:15:22.869Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-04T17:13:36.380Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1MDc2MjU0FQIAERgSRTNEMDFGMDM2MTE4RkUxMzc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tareas",
+        "fecha": "2026-11-04T17:15:20.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊 Para tareas y trabajos, te recomiendo la Impresora Térmica Portátil NETUM.\n\nImprime hojas tamaño carta sin tinta, portátil, con batería que dura hasta 30 horas, conecta por Bluetooth y trae papel térmico incluido. Tamaño de 27.5x6.5x5 cm, cabe en la mochila o bolso.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión es de $249.900 con envío GRATIS y pagas al recibir. ¿En qué ciudad estás para coordinar el envío?",
+        "fecha": "2026-11-04T17:15:21.637Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1MDc2MjU0FQIAERgSNzc3MUE0QjRFN0M0NkI3M0QyAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573157315202",
