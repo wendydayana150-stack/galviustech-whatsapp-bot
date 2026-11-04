@@ -768,7 +768,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: bienvenida });
             return;
       }
-      if (categoria === "reflector" && (await presentarReflectores(telefono, sesion))) return;
+      if (categoria === "reflector" && (await presentarReflectores(telefono, sesion, opciones.texto))) return;
       const productos = catalogo.filter(
             (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
@@ -857,9 +857,43 @@ function textoListaReflectores() {
       );
 }
 // Una foto por modelo (los 2 de 100W son el mismo tamaño: va una sola) + la lista con todos los precios.
-async function presentarReflectores(telefono, sesion) {
+// El cliente pregunta por UN reflector puntual (ej. el anuncio: "¿Cuánto cuesta el combo de 2 lámparas 500W solares?"):
+// se le responde ese, no la lista completa (4-nov-2026: 6 de 7 clientes del anuncio recibieron 5 fotos y 7 precios y no respondieron).
+function reflectorPuntual(texto) {
+      const t = String(texto || "").toLowerCase();
+      const w = (/(\d{3,4})\s*(w|vatios|watts?)\b/.exec(t) || [])[1];
+      const x2 = /combo|x\s*2\b|\b2\b|\bdos\b|par de|pack/.test(t);
+      if (!w) return null;
+      const r = reflectoresDisponibles().filter((p) => new RegExp("\\b" + w + "W", "i").test(p.nombre) && /^combo/i.test(p.nombre) === x2);
+      return r[0] || null;
+}
+async function presentarReflectorPuntual(telefono, sesion, p) {
+      sesion.ultimaCategoria = "reflector";
+      sesion.ultimoProducto = p.id;
+      sesion.ofrecioReflectores = true;
+      if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+      await enviarFotosYVideo(telefono, p, `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+      if (!sesion.fotosEnviadas.includes(p.id)) sesion.fotosEnviadas.push(p.id);
+      const combo = /^combo/i.test(p.nombre);
+      const desde = reflectoresDisponibles()[0];
+      const texto =
+            `${combo ? "🔥" : "☀️"} *${p.nombreCorto || p.nombre}* con panel solar y control remoto\n` +
+            `💰 *${formatearPrecio(p.precio)}*${combo ? " por los 2 reflectores (cada uno trae su panel)" : ""}\n\n` +
+            "✅ No gastan luz: se cargan con el sol y se prenden solos al anochecer\n" +
+            "✅ Resisten lluvia (IP67) y el control trae temporizador\n" +
+            "🚚 Envío a toda Colombia y *pagas al recibir* ✅\n\n" +
+            (desde && desde.id !== p.id ? `También hay de 1 unidad desde ${formatearPrecio(desde.precio)}.\n\n` : "") +
+            infoCategoria("reflector").pregunta;
+      registrarMensaje(telefono, "bot", `[Presenta ${p.nombreCorto || p.nombre} con fotos y precio]`);
+      await enviarTexto(telefono, texto);
+      sumarAlHistorialBot(sesion, texto);
+      return true;
+}
+async function presentarReflectores(telefono, sesion, textoCliente) {
       const r = reflectoresDisponibles();
       if (!r.length) return false;
+      const puntual = reflectorPuntual(textoCliente);
+      if (puntual) return presentarReflectorPuntual(telefono, sesion, puntual);
       sesion.ultimaCategoria = "reflector";
       sesion.ofrecioReflectores = true;
       if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
@@ -4705,7 +4739,7 @@ async function manejarTextoLibre(telefono, texto) {
             const categoriaElegida = detectarProductoPorPalabraClave(texto);
             if (categoriaElegida) {
                   sesion.saludoConCatalogo = false;
-                  await enviarInfoCategoria(telefono, categoriaElegida, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
+                  await enviarInfoCategoria(telefono, categoriaElegida, { preguntaPrecio: PREGUNTA_PRECIO.test(texto), texto });
                   return;
             }
       }
@@ -6036,11 +6070,11 @@ app.post("/webhook", async (req, res) => {
                               } else if (categoriaTienda) {
                                     await enviarGrupoTienda(telefono, categoriaTienda);
                               } else if (categoriaDelEspecifico) {
-                                    await enviarInfoCategoria(telefono, categoriaDelEspecifico, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
+                                    await enviarInfoCategoria(telefono, categoriaDelEspecifico, { preguntaPrecio: PREGUNTA_PRECIO.test(texto), texto });
                               } else if (especifico) {
                                     await manejarSeleccionProducto(telefono, especifico);
                               } else if (deteccion) {
-                                    await enviarInfoCategoria(telefono, deteccion, { preguntaPrecio: PREGUNTA_PRECIO.test(texto) });
+                                    await enviarInfoCategoria(telefono, deteccion, { preguntaPrecio: PREGUNTA_PRECIO.test(texto), texto });
                               } else {
                                     await saludarConCatalogo(telefono, nombreCliente);
                               }
