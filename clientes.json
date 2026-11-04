@@ -70,8 +70,8 @@
     "telefono": "573226936453",
     "nombre": "Chris",
     "primerContacto": "2026-11-04T16:32:18.186Z",
-    "ultimoContacto": "2026-11-04T16:32:18.186Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-04T16:40:05.517Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -91,6 +91,52 @@
         "fecha": "2026-11-04T16:32:17.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSN0RDMTM2NjdDOEU4QUExNDVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La impresora tiene conexión de wi-fi al celular o de bluetooth",
+        "fecha": "2026-11-04T16:40:01.964Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-11-04T16:40:01.967Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-04T16:40:01.968Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSN0Y1NTg1QTAzRTM4QTI0OEEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-04T16:40:02.937Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSODU3ODk2OEQ0MzRGNDhBRkQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-04T16:40:03.496Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSRkRGRTg3Njk2Q0NFQjcwNEQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Modem 4G/5G en video 🎥",
+        "fecha": "2026-11-04T16:40:04.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSMDI3MkNBRDUxQ0FEMkFBNzE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\nPara orientarte mejor, cuéntanos dos cosas:\n📍 ¿En qué municipio o vereda necesitas utilizarlo?\n💻 ¿Lo necesitas principalmente para estudiar, trabajar, tu negocio o tu hogar?\n\nEl equipo requiere una SIM de operador y es importante revisar la cobertura y la compatibilidad antes de comprar.\n\n✅ *Pagas al recibir* (contra entrega) y tiene *garantía de 30 días*. Lo abres y lo revisas antes de pagar.\n\n¡Queremos ayudarte a conocer la opción que mejor se ajuste a tus necesidades! 📶",
+        "fecha": "2026-11-04T16:40:04.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2OTM2NDUzFQIAERgSMTIxNkIxQkY1MEFGOTQ3OUYzAA=="
       }
     ],
     "paso": "conversando",
@@ -98,13 +144,16 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null
+    "interesColor": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147247992",
