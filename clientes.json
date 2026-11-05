@@ -7192,8 +7192,8 @@
     "telefono": "CO.1796388798313221",
     "nombre": "Cristian",
     "primerContacto": "2026-11-05T01:04:58.744Z",
-    "ultimoContacto": "2026-11-05T18:23:50.207Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T20:27:12.826Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7275,6 +7275,18 @@
         "fecha": "2026-11-05T19:33:03.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjM4ODc5ODMxMzIyMRUUABEYEkMzQjI1RkVGMDQ1M0ZDM0E3MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-11-05T20:27:09.858Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ok, gracias por decirme. ¿Me cuentas dónde estás o para qué necesitas el módem? Así te puedo ayudar con la mejor opción sin compromiso. ¿Vives en un lugar con señal 4G o 5G?",
+        "fecha": "2026-11-05T20:27:11.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjM4ODc5ODMxMzIyMRUUABEYEjJEOEQxNTQ1MUExRTk0NDM0MAA="
       }
     ],
     "paso": "conversando",
@@ -7296,9 +7308,7 @@
       "fecha": "2026-11-05T01:04:54.412Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T19:33:09.029Z"
+      "seguimientosEnviados": 0
     },
     "caliente": null
   },
