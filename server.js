@@ -585,6 +585,19 @@ function guionNetumOferta(netum) {
             "😍 *¿QUIERES APROVECHAR EL PRECIO ESPECIAL ANTES DE QUE SE AGOTEN?*"
       );
 }
+// Version corta del guion (4-nov-2026): lo mejor de los pasos 1 a 3 en un solo mensaje
+function guionNetumCorto(netum, yaSaludo) {
+      return (
+            (yaSaludo ? "" : "¡Hola! 😍👋 Bienvenido(a) a *GALVIUSTECH*\n\n") +
+            "🖨️ *IMPRESORA TÉRMICA PORTÁTIL NETUM*\n" +
+            "Imprime tus apuntes, documentos y trabajos *SIN TINTA* ni cartuchos, desde tu celular por Bluetooth 📱\n\n" +
+            `🎁 Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, *hoy ${formatearPrecio(netum.precio)}*\n` +
+            "🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*\n" +
+            "🚨 Últimas unidades de la promoción\n\n" +
+            "🏷️ Para etiquetas o algo más económico, tenemos otras desde $109.900\n\n" +
+            "😍 *¿Quieres aprovechar el precio especial?*"
+      );
+}
 const GUION_NETUM_DATOS =
       "¡Excelente decisión! 😍🎉\n\n" +
       "Vamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n" +
@@ -762,30 +775,22 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
             // Oct-2026 (159 chats de impresora, 92 se fueron despues del primer mensaje sin contestar): una foto y el
             // video de la calidad de impresion, y un texto corto con el precio arriba (antes iba todo el detalle del papel).
-            for (const url of (netum.imagenes || []).slice(0, 2)) {
+            // 4-nov-2026 (Wendy: "recortar y dejar lo mejor, enviar menos fotos"): 1 foto y un solo texto corto.
+            // El video de la calidad de impresion va en el primer recordatorio.
+            for (const url of (netum.imagenes || []).slice(0, 1)) {
                   try {
                         await enviarImagen(telefono, url, "Impresora Térmica Portátil NETUM");
                   } catch (e) {
                         console.error("Fotos NETUM: no se pudo enviar una foto:", e.message);
                   }
             }
-            if (!sesion.videoNetumCalidadEnviado) {
-                  try {
-                        await enviarVideo(telefono, VIDEO_NETUM_CALIDAD, "Mira la calidad de impresión de la NETUM 🖨️");
-                        sesion.videoNetumCalidadEnviado = true;
-                  } catch (e) {
-                        console.error("Video calidad NETUM:", e.message);
-                  }
-            }
             if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
             registrarMensaje(telefono, "bot", "[Guion NETUM: necesidad, beneficios y oferta]");
             sesion.guionNetum = true;
             const yaSaludo = (sesion.historial || []).some((m) => m.role === "assistant");
-            const presentacion = yaSaludo ? GUION_NETUM_PRESENTACION.replace(/^¡Hola! 😍👋 ¡Bienvenido\(a\) a \*GALVIUSTECH\*!\n\n/, "") : GUION_NETUM_PRESENTACION;
-            await enviarTexto(telefono, presentacion);
-            const oferta = guionNetumOferta(netum);
-            await enviarTexto(telefono, oferta);
-            sumarAlHistorialBot(sesion, presentacion + "\n\n" + oferta);
+            const corto = guionNetumCorto(netum, yaSaludo);
+            await enviarTexto(telefono, corto);
+            sumarAlHistorialBot(sesion, corto);
             return;
       }
       // Modems (oct-2026, mensaje redactado por Wendy): 1 foto del modem + bienvenida que pregunta
@@ -812,9 +817,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             return;
       }
       if (categoria === "reflector" && (await presentarReflectores(telefono, sesion, opciones.texto))) return;
-      if (categoria === "lampara" && (await presentarComboLamparas(telefono, sesion))) {
-            await enviarTexto(telefono, "Y estas son las *otras opciones* de lámparas que tenemos 👇");
-      }
+      const guionLamparas = categoria === "lampara" && (await presentarComboLamparas(telefono, sesion));
       const productos = catalogo.filter(
             (p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === categoria
       );
@@ -863,7 +866,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       } else {
             if (productos.length === 1) {
                   await enviarFotosYVideo(telefono, productos[0], `${productos[0].nombreCorto || productos[0].nombre} - ${formatearPrecio(productos[0].precio)}`);
-            } else {
+            } else if (!guionLamparas) {
                   for (const p of productos) {
                         if (p.imagenes && p.imagenes[0]) {
                               await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
@@ -879,7 +882,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                   await enviarTexto(telefono, info.resumen);
             } else {
                   const lineas = productos.map((p) => `*${p.nombreCorto || p.nombre}* - ${formatearPrecio(p.precio)}`).join("\n");
-                  await enviarTexto(telefono, `*${info.emoji} ${info.titulo}*\n\n${lineas}`);
+                  await enviarTexto(telefono, guionLamparas ? `Y si buscas otra opción, también tenemos estas lámparas 👇 (te mando fotos de la que quieras)\n\n${lineas}` : `*${info.emoji} ${info.titulo}*\n\n${lineas}`);
             }
       }
 
@@ -912,18 +915,23 @@ async function presentarComboLamparas(telefono, sesion) {
       sesion.guionComboLamparas = true;
       sesion.ofrecioReflectores = true;
       if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
-      await enviarFotosYVideo(telefono, combo, `🔥 COMBO X2 LÁMPARAS SOLARES JORTAN 500W - ${formatearPrecio(combo.precio)}`);
+      if (combo.imagenes?.[0]) {
+            try {
+                  await enviarImagen(telefono, combo.imagenes[0], `🔥 COMBO X2 LÁMPARAS SOLARES JORTAN 500W - ${formatearPrecio(combo.precio)}`);
+            } catch (e) {
+                  console.error("Foto combo lamparas:", e.message);
+            }
+      }
       if (!sesion.fotosEnviadas.includes(combo.id)) sesion.fotosEnviadas.push(combo.id);
       const yaSaludo = (sesion.historial || []).some((m) => m.role === "assistant");
       const texto =
-            (yaSaludo ? "" : "¡Hola! 👋😍 Bienvenido(a) a *GALVIUSTECH*.\n\n") +
-            "¿Te gustaría iluminar tu finca, patio, jardín o negocio con energía solar? ☀️ ¡Tenemos justo una alternativa para ti! 😍\n\n" +
-            "🔥 *COMBO X2 LÁMPARAS SOLARES JORTAN DE 500W*\n" +
-            "✅ Dos lámparas solares\n☀️ Paneles solares\n💡 Protección IP67 indicada en el empaque\n🎮 Control remoto\n🏡 Ideales para espacios exteriores\n\n" +
-            "🎁 *¡Y LO MEJOR ES QUE TENEMOS BENEFICIOS PARA TI!*\n" +
-            "🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n" +
-            `🔥 *PRECIO ESPECIAL POR PROMOCIÓN: ${formatearPrecio(combo.precio)}* por las 2\n\n` +
-            "¡Puedes recibir tu combo en casa y pagar al momento de la entrega! 📦";
+            (yaSaludo ? "" : "¡Hola! 👋😍 Bienvenido(a) a *GALVIUSTECH*\n\n") +
+            "☀️ ¿Quieres iluminar tu finca, patio o negocio con energía solar?\n\n" +
+            "🔥 *COMBO X2 LÁMPARAS SOLARES JORTAN 500W*\n" +
+            "✅ 2 lámparas con su panel solar y control remoto\n" +
+            "💡 Resisten lluvia (IP67), ideales para exteriores\n\n" +
+            `🎁 *Precio especial: ${formatearPrecio(combo.precio)}* por las 2\n` +
+            "🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*";
       registrarMensaje(telefono, "bot", "[Guion: presenta el Combo x2 Lamparas Jortan 500W]");
       await enviarTexto(telefono, texto);
       sumarAlHistorialBot(sesion, texto);
@@ -945,7 +953,13 @@ async function presentarReflectorPuntual(telefono, sesion, p) {
       sesion.ultimoProducto = p.id;
       sesion.ofrecioReflectores = true;
       if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
-      await enviarFotosYVideo(telefono, p, `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+      if (p.imagenes?.[0]) {
+            try {
+                  await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
+            } catch (e) {
+                  console.error("Foto reflector:", e.message);
+            }
+      }
       if (!sesion.fotosEnviadas.includes(p.id)) sesion.fotosEnviadas.push(p.id);
       const combo = /^combo/i.test(p.nombre);
       const desde = reflectoresDisponibles()[0];
@@ -976,7 +990,7 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
       const vistos = new Set();
       // El 200W suelto usa la foto del combo x2: no se repite.
       const fotosCombos = new Set(r.filter((p) => /^combo/i.test(p.nombre)).flatMap((p) => p.imagenes || []));
-      for (const p of r) {
+      for (const p of conGuion ? [] : r) {
             const clave = (/^combo/i.test(p.nombre) ? "x2-" : "") + ((/(\d+)\s*W\b/i.exec(p.nombre) || [])[1] || p.id);
             if (vistos.has(clave) || !p.imagenes?.[0] || (!/^combo/i.test(p.nombre) && fotosCombos.has(p.imagenes[0])) || (conGuion && p.id === ID_COMBO_LAMPARAS)) continue;
             vistos.add(clave);
@@ -987,7 +1001,11 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
                   console.error("Fotos reflectores:", e.message);
             }
       }
-      const texto = (conGuion ? "Y estas son las *otras opciones* que tenemos 👇\n\n" : "") + textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
+      const texto = conGuion
+            ? "Y si buscas otro tamaño, tenemos *reflectores* con panel y control remoto, todos con *envío GRATIS* 👇\n" +
+              r.filter((p) => p.id !== ID_COMBO_LAMPARAS).map((p) => `• ${p.nombreCorto || p.nombre}: ${formatearPrecio(p.precio)}`).join("\n") +
+              "\n\n" + infoCategoria("reflector").pregunta
+            : textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
       registrarMensaje(telefono, "bot", "[Envio fotos y precios de los reflectores solares]");
       await enviarTexto(telefono, texto);
       sumarAlHistorialBot(sesion, texto);
@@ -1537,6 +1555,19 @@ function parsearLineas(texto) {
 // detal"): el bot le confirmo "tu pedido queda completo", pero el pedido nunca quedo guardado en
 // pedidos.json. Ahora reintenta igual que las demas funciones, y devuelve true/false para que quien
 // llama sepa si de verdad quedo guardado antes de confirmarle al cliente que todo esta listo.
+// Medio de pago con un nombre limpio (4-nov-2026: quedaban cosas como "Contra en trega en total cuanto es")
+function normalizarMedioPago(texto) {
+      const t = String(texto || "").toLowerCase().replace(/\s+/g, "");
+      if (!t) return texto;
+      if (/siste|cr[eé]dito|cuota/.test(t)) return "Sistecrédito";
+      if (/tarjeta|d[eé]bito|\bnu\b/.test(t)) return "Tarjeta (paga a cuentas)";
+      if (/nequi/.test(t)) return "Transferencia (Nequi)";
+      if (/bre-?b|llave/.test(t)) return "Transferencia (Bre-B)";
+      if (/transf|bancol|davipl|pse|consign/.test(t)) return "Transferencia";
+      if (/contra|entrega|efectiv|recibir/.test(t)) return "Contraentrega";
+      return texto;
+}
+
 async function guardarPedido(pedido) {
       let exito = false;
       await conColaDeArchivo(PEDIDOS_API, async () => {
@@ -1544,6 +1575,18 @@ async function guardarPedido(pedido) {
       while (true) {
       try {
             const { datos, sha } = await leerJSON(PEDIDOS_API);
+            // 4-nov-2026 (caso Vanessa, Cienaga): el mismo producto del mismo cliente quedaba 2 veces. Si ya hay uno
+            // de los ultimos 7 dias, se actualizan sus datos en vez de crear otro.
+            const hace7 = Date.now() - 7 * 24 * 60 * 60 * 1000;
+            const igual = datos.findIndex((x) => x.telefono === pedido.telefono && x.productoId === pedido.productoId && new Date(x.fecha || 0).getTime() > hace7);
+            if (igual >= 0) {
+                  const limpio = Object.fromEntries(Object.entries(pedido).filter(([, v]) => v !== null && v !== undefined && v !== ""));
+                  datos[igual] = { ...datos[igual], ...limpio, fecha: datos[igual].fecha, actualizado: new Date().toISOString() };
+                  console.log(`Pedido repetido de ${pedido.telefono} (${pedido.productoId}): se actualizo el existente`);
+                  await guardarJSON(PEDIDOS_API, datos, sha, "Pedido actualizado (no se duplico)");
+                  exito = true;
+                  return;
+            }
             datos.unshift({ ...pedido, fecha: new Date().toISOString() });
             await guardarJSON(PEDIDOS_API, datos, sha, "Nuevo pedido registrado");
             exito = true;
@@ -1588,6 +1631,7 @@ async function guardarCliente(telefono, nombreCliente) {
             existente.esperandoDatosPedidoLibre = sesion.esperandoDatosPedidoLibre || null;
             existente.esperaCompra = sesion.esperaCompra || existente.esperaCompra || null;
             existente.anuncio = sesion.anuncio || existente.anuncio || null;
+            existente.caliente = sesion.caliente === null ? null : sesion.caliente || existente.caliente || null;
             // Pidio impresora a color (no hay en el catalogo): para escribirle cuando llegue
             existente.interesColor = sesion.interesColor || existente.interesColor || null;
             if (existente.etapaManual === undefined) existente.etapaManual = null;
@@ -1620,6 +1664,7 @@ async function guardarCliente(telefono, nombreCliente) {
                   esperaCompra: sesion.esperaCompra || null,
                   interesColor: sesion.interesColor || null,
                   anuncio: sesion.anuncio || null,
+                  caliente: sesion.caliente || null,
             });
       }
 
@@ -2254,7 +2299,21 @@ async function enviarRecordatoriosPendientes() {
                         const nombreProducto = producto?.nombre || null;
                         const precioTexto = producto ? formatearPrecio(producto.precio) : null;
 
-                        if (p.productoId === "impresora-termica" && (p.tier === "horas1" || p.tier === "horas3")) {
+                        if (p.productoId === "impresora-termica" && p.tier === "horas1" && !obtenerSesion(p.telefono).videoNetumCalidadEnviado) {
+                              // 4-nov-2026 (estudio: los recordatorios de texto no los responde nadie): el primero es el VIDEO
+                              // de la calidad de impresion, con una pregunta corta y el boton para pedirla.
+                              const ses = obtenerSesion(p.telefono);
+                              try {
+                                    await enviarVideo(p.telefono, VIDEO_NETUM_CALIDAD, "Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta");
+                                    ses.videoNetumCalidadEnviado = true;
+                              } catch (e) {
+                                    console.error("Video NETUM en recordatorio:", e.message);
+                              }
+                              await enviarBotones(p.telefono, `Así imprime 😍 Hoy *${precioTexto}* con *envío GRATIS* y *pagas al recibir*. ¿Te la envío? 🚚`, [
+                                    { id: "pedir_impresora-termica", titulo: "✅ LA QUIERO" },
+                                    { id: "ver_catalogo", titulo: "Ver otros" },
+                              ]);
+                        } else if (p.productoId === "impresora-termica" && (p.tier === "horas1" || p.tier === "horas3")) {
                               // NETUM (oct-2026): el recordatorio generico no reactivaba a nadie; este va con el precio, la
                               // urgencia de la promocion y un boton para pedirla de una
                               await enviarBotones(
@@ -2267,13 +2326,13 @@ async function enviarRecordatoriosPendientes() {
                                           { id: "ver_catalogo", titulo: "Ver otros" },
                                     ]
                               );
-                              if (p.tier === "horas3") await enviarListadoProductos(p.telefono, "Y también tenemos *otras opciones muy buenas* en *GALVIUSTECH* 👇", "🔥 Todo con *30% de descuento* y pagas al recibir ✅\n¿Cuál te llama la atención? 😍");
+                              // 4-nov-2026: sin el listado completo detras (eran 3 mensajes seguidos)
                         } else if (p.tier === "horas1") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio1Hora(nombreProducto, precioTexto));
                         } else if (p.tier === "horas3") {
                               // Ultimo seguimiento (tope de 2): catalogo + reactivacion con la promocion y las otras opciones (Wendy, oct-2026)
-                              await enviarTexto(p.telefono, "🛍️ Mira todo el catálogo con fotos y precios aquí: " + LINK_CATALOGO);
-                              await enviarTexto(p.telefono, mensajeReactivacionOpciones(obtenerSesion(p.telefono)));
+                              // 4-nov-2026: un solo mensaje (antes eran 2: link + listado)
+                              await enviarTexto(p.telefono, mensajeReactivacionOpciones(obtenerSesion(p.telefono)) + "\n\n🛍️ Catálogo con fotos y precios: " + LINK_CATALOGO);
                         } else if (p.tier === "horas5") {
                               await enviarTexto(p.telefono, config.mensajeRecordatorio5Horas(nombreProducto, precioTexto));
                               for (const combo of imagenesPromoParaProducto(p.productoId)) {
@@ -3282,6 +3341,9 @@ function pareceRespuestaValidaPedido(texto, tipo) {
             case "ciudad":
                   // Respuestas de "para que lo usas" no son una ciudad (caso Vanessa: "Hogar")
                   if (/^(el |la |mi |para (el |la |mi )?)?(hogar|casa|finca|negocio|trabajo|trabajar|estudio|estudiar|oficina|empresa|tienda|uso personal)\s*[.!]*$/i.test(limpio)) return false;
+                  // 4-nov-2026 (pedidos con ciudad "Cuánto se demora en llegar"): una pregunta o una frase no es una ciudad
+                  if (/\?|\b(cu[aá]nto|cuanto|demora|tarda|llega|precio|valor|cuesta|quiero|gracias|pregunta|env[ií]o|pago|pagar|total|cuando|c[oó]mo|qu[eé])\b/i.test(limpio)) return false;
+                  if (limpio.length > 60 || limpio.split(/\s+/).length > 8) return false;
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "departamento":
                   // Caso Javier: "Javier" quedo como departamento. Solo vale un departamento de Colombia o un municipio
@@ -3460,9 +3522,11 @@ async function finalizarPedidoSesion(telefono) {
             // perdio la venta de Jose Gabriel Diaz Gutierrez (584261736349) el 22/09.
             const pedidoAGuardar = sesion.pedido;
             aplicarRegaloSiSeOfrecio(sesion, pedidoAGuardar);
+            pedidoAGuardar.medioPago = normalizarMedioPago(pedidoAGuardar.medioPago);
             const guardadoExitoso = await guardarPedido(pedidoAGuardar);
 
             if (guardadoExitoso) {
+                  sesion.caliente = null;
                   if ((pedidoAGuardar.medioPago || "").toLowerCase().includes("transf")) {
                         await enviarTexto(telefono, config.mensajeDatosTransferencia);
                   }
@@ -4623,7 +4687,7 @@ const IMPRESORAS_ETIQUETAS = ["impresora-termica-portatil-de-etiquetas-clabel-22
 // Una foto por opcion (sin repetir las que ya vio), con nombre y precio
 async function enviarFotosOpciones(telefono, sesion, productos) {
       if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
-      for (const p of productos) {
+      for (const p of productos.slice(0, 2)) {
             if (!p.imagenes?.[0] || sesion.fotosEnviadas.includes(p.id)) continue;
             try {
                   await enviarImagen(telefono, p.imagenes[0], `${p.nombreCorto || p.nombre} - ${formatearPrecio(p.precio)}`);
@@ -4696,8 +4760,18 @@ async function responderObjecionPrecio(telefono, sesion, texto) {
       return true;
 }
 
+// CLIENTE CALIENTE (4-nov-2026, estudio): pregunta como pagar, la garantia, donde estamos, cuando llega o el total.
+// Se marca en el panel ("🔥 Llamar hoy") para que el equipo lo llame el mismo dia. El bot sigue atendiendo normal.
+const CLIENTE_CALIENTE = /(forma(s)? de pago|c[oó]mo (se )?pag|m[eé]todos? de pago|garant[ií]a|d[oó]nde (est[aá]n|quedan|son)|ubicad|cu[aá]ndo (me )?llega|cu[aá]nto (se )?demora|cu[aá]nto (ser[ií]a|es|queda) (el )?total|en total|me la env[ií]|me lo env[ií]|la quiero|lo quiero|c[eé]dula|contra ?entrega)/i;
+function marcarSiEsCaliente(sesion, texto) {
+      if (!CLIENTE_CALIENTE.test(String(texto || "")) || !(sesion.ultimoProducto || sesion.ultimaCategoria)) return;
+      if (sesion.caliente && Date.now() - new Date(sesion.caliente.fecha).getTime() < 48 * 3600 * 1000) return;
+      sesion.caliente = { fecha: new Date().toISOString(), texto: String(texto).slice(0, 120) };
+}
+
 async function manejarTextoLibre(telefono, texto) {
       const sesion = obtenerSesion(telefono);
+      marcarSiEsCaliente(sesion, texto);
       // "Espero a fin de mes / la quincena / el 30": se guarda la fecha para la columna "Compra mas adelante"
       if (USO_IMPRESORA.test(texto) && !sesion.usoImpresora) sesion.usoImpresora = texto.slice(0, 80);
       const espera = detectarEsperaCompra(texto);
@@ -5375,6 +5449,24 @@ app.get("/admin", requiereLogin, async (req, res) => {
             </div>
             </div>`;
 
+            const hace48 = Date.now() - 48 * 3600 * 1000;
+            const calientes = clientes
+                  .filter((c) => c.caliente && new Date(c.caliente.fecha).getTime() > hace48 && !telefonosConPedido.has(c.telefono))
+                  .sort((a, b) => new Date(b.caliente.fecha) - new Date(a.caliente.fecha));
+            const bloqueCalientes = calientes.length === 0 ? "" : `
+            <div class="atencion-caja" style="border-color:#e67e22;background:#fff7ef">
+            <div class="atencion-titulo" style="color:#b9550b">🔥 Llamar hoy: preguntaron cómo pagar, garantía o envío (${calientes.length})</div>
+            <div class="atencion-lista">
+            ${calientes.map((c) => `
+                  <div class="atencion-tarjeta">
+                  <div class="tarjeta-nombre">${escaparHtml(c.nombre || "(sin nombre)")}</div>
+                  <div class="tarjeta-tel">${escaparHtml(c.telefono)} · ${formatearFechaHora(c.caliente.fecha)}</div>
+                  <div class="atencion-motivo">"${escaparHtml(String(c.caliente.texto || ""))}" · ${escaparHtml(String(c.ultimoProducto || c.ultimaCategoria || ""))}</div>
+                  <a href="/admin/chat/${encodeURIComponent(c.telefono)}" style="color:#b9550b;font-weight:bold;">Ver chat</a>
+                  </div>`).join("")}
+            </div>
+            </div>`;
+
             const filasPedidos = pedidos
             .map(
                   (p) => `
@@ -5430,7 +5522,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			<a href="/admin/promo-diaria" style="display:inline-block;background:#e67e22;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Enviar promo del dia a todos</a>
 			<a href="/admin/productos" style="display:inline-block;background:#0a6ed1;color:white;padding:8px 16px;border-radius:6px;text-decoration:none;font-size:14px;margin-left:8px;">Productos y precios</a></p>
 			${req.query.promoDiariaEnviada !== undefined ? `<p style="color:#e67e22;font-weight:bold;">Promo del dia enviada a ${parseInt(req.query.promoDiariaEnviada, 10) || 0} cliente(s).</p>` : ""}
-			${bloqueAtencion}
+			${bloqueAtencion}${bloqueCalientes}
 			<input type="text" id="buscador" onkeyup="filtrarClientes()" placeholder="Buscar por nombre o telefono..." style="width:100%;max-width:400px;padding:10px;border:1px solid #ccc;border-radius:6px;font-size:14px;margin-bottom:10px;display:block;">
 			<div style="margin-bottom:15px;">
 			<a href="/admin?filtro=hoy&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "hoy" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Hoy</a>
