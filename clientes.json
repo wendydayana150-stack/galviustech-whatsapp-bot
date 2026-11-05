@@ -3,8 +3,8 @@
     "telefono": "573126750275",
     "nombre": "Ulber",
     "primerContacto": "2026-11-05T20:34:03.608Z",
-    "ultimoContacto": "2026-11-05T20:34:03.608Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T20:34:42.059Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-11-05T20:34:02.664Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NzUwMjc1FQIAERgSM0UwOEUzMjk5QUI5NEREMDBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto tiempo de garantía",
+        "fecha": "2026-11-05T20:34:38.386Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM tiene garantía de 30 días y la puedes pagar al recibir sin adelantar nada. Imprime sin tinta, es portátil y mide 27.5 x 6.5 x 5 cm, perfecta para llevar en tu bolso. \n\n¿Para qué necesitarías la impresora?\n\n💰 *Impresora NETUM*: $ 249.900 con *envío GRATIS* 🚚. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-05T20:34:40.713Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NzUwMjc1FQIAERgSRUM3ODU3Q0I4NTBGRUI4NDc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-05T20:34:41.267Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NzUwMjc1FQIAERgSRkZBQTc5OTQ3NUQwOERENjI0AA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,13 @@
       "url": "https://fb.me/50qmpm0Mc",
       "fecha": "2026-11-05T20:34:01.880Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-05T20:34:38.386Z",
+      "texto": "Cuanto tiempo de garantía"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113833594",
