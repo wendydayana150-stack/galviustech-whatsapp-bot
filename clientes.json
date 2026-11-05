@@ -303,8 +303,8 @@
     "telefono": "CO.2196689657895793",
     "nombre": "mayelaurango",
     "primerContacto": "2026-11-05T04:07:17.844Z",
-    "ultimoContacto": "2026-11-05T04:07:17.844Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T12:19:46.964Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -379,13 +379,52 @@
         "fecha": "2026-11-05T12:01:55.797Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE5NjY4OTY1Nzg5NTc5MxUUABEYEjI5NzdERUY5MEY3NTc4RjU5MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuál son esas lámparas solares",
+        "fecha": "2026-11-05T12:19:38.360Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lamparas 3 lentes X 2",
+        "fecha": "2026-11-05T12:19:42.392Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5NjY4OTY1Nzg5NTc5MxUUABEYEjZFODdEQ0M4QTMzNEJBOUUxQgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Solar 2 Unidades",
+        "fecha": "2026-11-05T12:19:43.513Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5NjY4OTY1Nzg5NTc5MxUUABEYEjIzOTkwMjEwRTI0Qzc2Rjk3NgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara 3 lentes x3 unidades",
+        "fecha": "2026-11-05T12:19:44.346Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5NjY4OTY1Nzg5NTc5MxUUABEYEjcyMjI4RjVCODQyMEY1N0UyRQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Lamparas 3 lentes X 2, Lampara Solar 2 Unidades, Lampara 3 lentes x3 unidades]",
+        "fecha": "2026-11-05T12:19:45.159Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento sobre las *lamparas solares* que tenemos:\n\n1. *Lamparas 3 lentes X 2* por $160.000  \n   - 3 lentes para mayor área de iluminación  \n   - Ideal para entradas, garajes, patios, fincas y negocios  \n   - Carga con energía solar y diseño tipo cámara  \n   - Son 2 unidades con envío GRATIS  \n\n2. *Lampara con sensor X 2 unidades* por $119.900  \n   - Panel solar que aprovecha energía gratis  \n   - Iluminación LED con sensores de movimiento  \n   - Diseño tipo cámara para seguridad  \n   - Perfecta para exteriores  \n\n3. *Lampara panel solar y sensor de movimiento X 3 unidades* por $139.900  \n   - 3 lámparas con sensor inteligente de movimiento  \n   - Diseño tipo cámara, carga 100% solar  \n   - Ideal para fachadas, patios y garajes  \n   - Ideal para instalar en exterior  \n\n4. *Lamparas 3 lentes X3* por $199.900  \n   - 3 lámparas solares de 3 lentes cada una  \n   - Iluminación amplia y sensor de movimiento  \n   - Diseño que espanta intrusos  \n   - Envío GRATIS  \n\nTodas funcionan con energía solar, sin necesidad de cableado, perfectas para iluminar y aumentar seguridad en tu casa, finca o negocio sin gastar en luz.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a escoger la que mejor te sirva? ¿Para dónde la necesitas?",
+        "fecha": "2026-11-05T12:19:45.171Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5NjY4OTY1Nzg5NTc5MxUUABEYEkRFN0NFQkYwMzZGNjQ0N0E0MAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "lamparas-3-lentes-x-2",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -400,10 +439,7 @@
       "fecha": "2026-11-05T04:07:13.081Z"
     },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T12:03:16.320Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
