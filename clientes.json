@@ -4226,8 +4226,8 @@
     "telefono": "573003292449",
     "nombre": "Luis Bonadiez",
     "primerContacto": "2026-11-05T03:11:43.077Z",
-    "ultimoContacto": "2026-11-05T03:11:43.077Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T18:28:06.473Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4295,11 +4295,18 @@
         "fecha": "2026-11-05T12:02:01.982Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzMjkyNDQ5FQIAERgSMkU4QTAzNkYxNkY0ODJBRUFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Luis! 👋 Te escribo porque quedan las *últimas unidades* del *Módem WiFi Portátil* en promoción 🔥\r\n\r\n📶 Internet en tu casa, finca o vereda: conectas celulares, TV y computador al mismo tiempo\r\n🔋 Batería recargable y funciona con la SIM de cualquier operador\r\n💰 *4G: $169.900* · *4G/5G: $189.900* (+ $26.000 de envío)\r\n💵 *Pagas al recibir* y tiene garantía de 30 días\r\n\r\n¿Te lo separo antes de que se acaben? Solo envíame tu nombre, celular, ciudad y dirección 🙌",
+        "fecha": "2026-11-05T18:28:05.239Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzMjkyNDQ5FQIAERgSNjJFRUVCQUQyRUVCRjU4MDFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
@@ -4316,11 +4323,9 @@
       "fecha": "2026-11-05T03:11:39.781Z"
     },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T12:03:16.320Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "caliente": null
   },
   {
     "telefono": "573215391539",
