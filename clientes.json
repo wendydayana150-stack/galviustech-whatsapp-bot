@@ -3,8 +3,8 @@
     "telefono": "CO.1756343453160623",
     "nombre": "Claudia Patricia Lopez",
     "primerContacto": "2026-11-05T17:05:32.183Z",
-    "ultimoContacto": "2026-11-05T17:08:28.581Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-05T17:09:35.339Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -157,9 +157,21 @@
         "fecha": "2026-11-05T17:08:27.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc1NjM0MzQ1MzE2MDYyMxUUABEYEkQ0RDM4ODRDMDY5Rjg1QUNGQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora no hablo con mi hermano",
+        "fecha": "2026-11-05T17:09:34.073Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 😊 Aquí te espero cuando quieras retomarlo. Recuerda que la promoción es por pocos días, ¡que tengas un lindo día! 🙌",
+        "fecha": "2026-11-05T17:09:34.074Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc1NjM0MzQ1MzE2MDYyMxUUABEYEkIwMTZCODk3QzI4QTA2RkIwRQA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
