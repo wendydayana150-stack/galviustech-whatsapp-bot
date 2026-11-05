@@ -76,8 +76,8 @@
     "telefono": "573001167577",
     "nombre": "Nathaly",
     "primerContacto": "2026-11-05T00:03:54.347Z",
-    "ultimoContacto": "2026-11-05T00:04:58.824Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T00:09:29.300Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -156,6 +156,32 @@
         "texto": "[Envio fotos: Mini Impresora Bluetooth]",
         "fecha": "2026-11-05T00:04:58.334Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y en cuánto saldría las hojas",
+        "fecha": "2026-11-05T00:09:24.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La mini impresora trae un rollo de papel térmico incluido para que empieces a imprimir ya. Cuando necesites más papel, tenemos estas opciones:\n\n- Rollo de papel térmico de 7 metros por $4.000\n- 5 rollos por $17.000\n- 10 rollos por $30.000\n\n¿Quieres que te agregue algunos rollos al pedido para que no te quede sin papel? 😊",
+        "fecha": "2026-11-05T00:09:26.278Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMTY3NTc3FQIAERgSMzhGRTg1MDU4RjNBMjZCOUJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-05T00:09:27.086Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMTY3NTc3FQIAERgSMzlCM0Y2NjBFOTgyQUREMjM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-05T00:09:27.940Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMTY3NTc3FQIAERgSRjlEOUE4MzkxQzk0MkZGMDExAA=="
       }
     ],
     "paso": "conversando",
