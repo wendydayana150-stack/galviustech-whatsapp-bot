@@ -351,8 +351,8 @@
     "telefono": "573126403448",
     "nombre": "Olmer",
     "primerContacto": "2026-11-05T15:53:30.441Z",
-    "ultimoContacto": "2026-11-05T15:53:30.441Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T17:11:00.482Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -406,6 +406,18 @@
         "fecha": "2026-11-05T17:02:40.580Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NDAzNDQ4FQIAERgSM0I3REYxODY3N0NFREU5MEJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por tu mensaje. En este momento no estamos disponibles, pero te responderemos tan pronto regresemos.",
+        "fecha": "2026-11-05T17:10:58.148Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribir. Cuando estés listo para resolver tu conexión con uno de nuestros módems o cualquier producto, aquí estaré para ayudarte 😊 ¡Que tengas un buen día!",
+        "fecha": "2026-11-05T17:10:59.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NDAzNDQ4FQIAERgSRDA3MjYwMTg1NUZFNDg3OUNCAA=="
       }
     ],
     "paso": "conversando",
@@ -416,7 +428,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
@@ -427,10 +439,9 @@
       "fecha": "2026-11-05T15:53:27.356Z"
     },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T17:02:42.454Z",
-      "seguimientosEnviados": 1
-    }
+      "seguimientosEnviados": 0
+    },
+    "caliente": null
   },
   {
     "telefono": "573003877352",
