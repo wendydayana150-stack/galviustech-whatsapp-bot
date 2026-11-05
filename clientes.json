@@ -2922,8 +2922,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T12:41:21.566Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-11-05T16:18:50.939Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3271,16 +3271,30 @@
         "fecha": "2026-11-05T12:41:20.322Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjlGNTU0OTQzN0Q3NzFBQjAwRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, perfecto en esta semana realizas el pedido, recuerda que nos quedan las ultimas unidades y en descuento",
+        "fecha": "2026-11-05T16:12:14.458Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjVBM0UwQTY3MTA4OEY5MDUwOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, la pediras dias despues. Te confirmo que las impresoras estan en PROMOCION y quedan las ultimas unidades.",
+        "fecha": "2026-11-05T16:18:49.654Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkJDMkQ0REI0RTc2NDA1RTU0NQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Mini Impresora Térmica Portátil Bluetooth: \"No\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
