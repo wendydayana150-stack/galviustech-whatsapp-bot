@@ -11393,8 +11393,8 @@
     "telefono": "573224790307",
     "nombre": "Pablo",
     "primerContacto": "2026-11-04T22:54:12.358Z",
-    "ultimoContacto": "2026-11-05T18:13:35.854Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T18:20:26.018Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11517,13 +11517,25 @@
         "fecha": "2026-11-05T18:13:34.239Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NzkwMzA3FQIAERgSNEIzRkYzRENBQzUzMEZBODQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy caro acá lasdan a.25 la garantía es mientras llega",
+        "fecha": "2026-11-05T18:20:21.952Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que el precio pueda parecer alto al compararlo, pero piensa que con estas lámparas solares Jortan 500W tienes:\n\n✅ Iluminación potente para grandes espacios exteriores  \n✅ Funcionan 100% con energía solar, sin costo de electricidad  \n✅ Resistencia total al agua y clima (certificación IP67) y control remoto incluido  \n\nLa inversión es de $249.900 con envío gratis y pagas al recibir, con garantía de 30 días para que te quede tranquilo. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a separar tu combo para que puedas probarlas sin riesgo? ¿O prefieres conocer otras opciones más económicas?",
+        "fecha": "2026-11-05T18:20:24.836Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NzkwMzA3FQIAERgSQTNFNDE2RUQ3M0ZFMTM5QUY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
     "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -11540,7 +11552,10 @@
     "recordatorios": {
       "seguimientosEnviados": 0
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-05T18:20:21.952Z",
+      "texto": "Muy caro acá lasdan a.25 la garantía es mientras llega"
+    }
   },
   {
     "telefono": "573216365195",
