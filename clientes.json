@@ -3657,8 +3657,8 @@
     "telefono": "573235476376",
     "nombre": "Diosito cuida mis hijitos",
     "primerContacto": "2026-11-04T23:06:44.405Z",
-    "ultimoContacto": "2026-11-04T23:08:46.162Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T01:06:26.751Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3731,6 +3731,59 @@
         "fecha": "2026-11-05T00:11:53.432Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSRDlCNzJGRDNBNTcwNzA0NzkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me dices q tienes impresoras más  económicas?",
+        "fecha": "2026-11-05T01:06:19.786Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro, para opciones más económicas tenemos estas impresoras térmicas, que imprimen en rollos (recibos, etiquetas, guías), no en hoja tamaño carta:\n\n🖨️ Mini Impresora Térmica Portátil Bluetooth – $109.900  \n🖨️ Mini Impresora de Etiquetas P5 – $139.900  \n🖨️ Goojprt PT-210 – $149.900  \n🖨️ Clabel 221B – $155.000  \n\nSon ideales para etiquetas, recibos o comandas, y tienen envío de $26.000.\n\n¿Quieres que te muestre fotos de estas opciones para que elijas la que mejor te sirve?",
+        "fecha": "2026-11-05T01:06:21.995Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSODRGMTAyQkM4OERDNTkxOEJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-11-05T01:06:22.784Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSRjhFNDA2RUJBRUQ2QjU0NkQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-11-05T01:06:23.593Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSOUY5RUNBNkMwMzk0QjQ1RkMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-11-05T01:06:24.316Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSM0IwNUE4NEU2RjEwQjc1MzNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-11-05T01:06:25.026Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSNzRGMkE3MUYwQzVDRURBMTBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Mini Impresora Bluetooth, Impresora Etiquetas P5, Impresora Goojprt PT-210, Impresora Clabel 221B]",
+        "fecha": "2026-11-05T01:06:25.639Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te gusta más? 😊 Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-05T01:06:25.639Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDc2Mzc2FQIAERgSOENDOEQwN0Q2NjcyQzA2ODUxAA=="
       }
     ],
     "paso": "conversando",
@@ -3752,9 +3805,7 @@
       "fecha": "2026-11-04T23:06:40.457Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T00:12:04.506Z"
+      "seguimientosEnviados": 0
     }
   },
   {
