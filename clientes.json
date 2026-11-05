@@ -7192,8 +7192,8 @@
     "telefono": "CO.1796388798313221",
     "nombre": "Cristian",
     "primerContacto": "2026-11-05T01:04:58.744Z",
-    "ultimoContacto": "2026-11-05T20:30:52.027Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-05T20:30:58.000Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7338,6 +7338,18 @@
         "fecha": "2026-11-05T20:30:50.860Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjM4ODc5ODMxMzIyMRUUABEYEjMyRTkxQTg5NTQ2OTM2REFCNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-11-05T20:30:55.556Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribirme, cualquier cosa aquí estoy para apoyarte 😊 ¡Que tengas un buen día! Si cambias de opinión con el módem o cualquier equipo, me avisas.\n\n¿Quieres que te guarde el contacto para cuando lo necesites?",
+        "fecha": "2026-11-05T20:30:56.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjM4ODc5ODMxMzIyMRUUABEYEjEyRDFEMDc3NUZBOEU5NzJFNwA="
       }
     ],
     "paso": "conversando",
@@ -7348,7 +7360,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
