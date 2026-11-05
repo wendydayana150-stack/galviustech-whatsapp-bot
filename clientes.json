@@ -3,8 +3,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T04:01:00.831Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-05T04:01:17.166Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -178,6 +178,25 @@
         "fecha": "2026-11-05T04:00:59.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjA3OUZEMjcyNTVGRjhGMkREOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En esta semana agobel pedido",
+        "fecha": "2026-11-05T04:01:13.718Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, cuando confirmes tus datos te preparan el envío y llega en 1 a 3 días hábiles.",
+        "fecha": "2026-11-05T04:01:14.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjVDQTZEQzI1ODVDMkJFREQ3NAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-05T04:01:15.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjZFODI0MDk0OTkzMkYxODU5QwA="
       }
     ],
     "paso": "pedido_celular",
