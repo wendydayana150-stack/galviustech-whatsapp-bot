@@ -21388,8 +21388,8 @@
     "telefono": "573142831051",
     "nombre": "Danilo Agudelo",
     "primerContacto": "2026-11-04T17:18:55.668Z",
-    "ultimoContacto": "2026-11-04T19:04:41.556Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-05T18:01:47.435Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -21519,13 +21519,20 @@
         "fecha": "2026-11-04T21:12:01.900Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSNjEyQjFERDlDRjY5RENDQjFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Danilo! 👋 Te escribo porque quedan las *últimas unidades* de la *Mini Impresora Térmica Bluetooth* en promoción 🔥\r\n\r\n🧾 Imprime recibos, etiquetas y notas sin tinta desde tu celular\r\n💰 Hoy en *$109.900* (+ $26.000 de envío)\r\n💵 *Pagas al recibir* y tiene garantía de 30 días\r\n\r\n¿Te la separo antes de que se acaben? Solo envíame tu nombre, celular, ciudad y dirección 🙌",
+        "fecha": "2026-11-05T18:01:46.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyODMxMDUxFQIAERgSODlFRUNBNzk1Qjg4QjUwMEEwAA=="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "mini-impresora-termica-portatil-bluetooth"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
@@ -21536,11 +21543,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T21:12:04.623Z",
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "anuncio": null,
+    "caliente": null
   },
   {
     "telefono": "573206927069",
