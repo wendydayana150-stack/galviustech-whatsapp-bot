@@ -355,8 +355,8 @@
     "telefono": "573128386316",
     "nombre": "Pedrobenito",
     "primerContacto": "2026-11-05T13:00:28.978Z",
-    "ultimoContacto": "2026-11-05T13:29:40.754Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-05T14:35:25.180Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -516,6 +516,18 @@
         "fecha": "2026-11-05T14:31:54.813Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4Mzg2MzE2FQIAERgSOTdFQTVCMzAzNjg1MEM4MDg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero omofunciona,este,aparato,hay,q,meterle,paquete,o,no,",
+        "fecha": "2026-11-05T14:35:20.585Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que funciona. Este módem necesitas meterle un paquete de datos de cualquier operador (Claro, Movistar, Tigo, WOM) para que tenga internet y te conectes. \n\nEl módem convierte esa señal móvil en WiFi, para que puedas conectar varios dispositivos al mismo tiempo sin problema, y con mejor cobertura que el celular solo. \n\n¿Quieres que te ayude a dejar tu pedido listo para que tengas internet ya?",
+        "fecha": "2026-11-05T14:35:23.861Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4Mzg2MzE2FQIAERgSRkI2NTMyNzExNzlEMkZBODk1AA=="
       }
     ],
     "paso": "conversando",
@@ -537,9 +549,7 @@
       "fecha": "2026-11-05T13:00:22.062Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T14:32:03.074Z"
+      "seguimientosEnviados": 0
     }
   },
   {
