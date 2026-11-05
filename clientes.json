@@ -3,8 +3,8 @@
     "telefono": "573001313549",
     "nombre": "albeirodiazsegovia18",
     "primerContacto": "2026-11-05T16:41:24.642Z",
-    "ultimoContacto": "2026-11-05T16:42:49.946Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T16:44:21.297Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -70,13 +70,25 @@
         "fecha": "2026-11-05T16:42:48.880Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAxMzEzNTQ5FQIAERgSMTYyMzQ1NUIzRTAwMENCMDdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tiene que Aver señal del operador",
+        "fecha": "2026-11-05T16:44:15.624Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, para que el módem funcione necesita señal de un operador celular como Claro, Movistar, Tigo o WOM. Pero el módem está diseñado con una antena potente que capta mejor la señal que un celular común, lo que ayuda mucho en fincas, veredas o zonas rurales donde usualmente la señal es baja.\n\n¿En qué municipio o vereda lo quieres usar, y para qué principalmente? Así te recomiendo la mejor versión para tu caso.",
+        "fecha": "2026-11-05T16:44:20.192Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxMzEzNTQ5FQIAERgSNjA2OTgwQjMxMzY5RUFBN0VDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
