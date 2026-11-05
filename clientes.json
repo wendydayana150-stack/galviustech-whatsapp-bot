@@ -614,8 +614,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T12:40:07.896Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-05T12:40:25.085Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -915,6 +915,18 @@
         "fecha": "2026-11-05T12:40:06.632Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjAxN0U2MzhBMEM4MDk4QkU0RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No lo mandes",
+        "fecha": "2026-11-05T12:40:22.372Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, no te preocupes, dejo el pedido en pausa. Quedo atenta cuando estés listo para continuar o si quieres que te ayude con algo más. Gracias por avisar.",
+        "fecha": "2026-11-05T12:40:23.584Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkI5MDQwMjI1NTAxMjNEQzgzRAA="
       }
     ],
     "paso": "conversando",
@@ -925,7 +937,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": true,
     "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Mini Impresora Térmica Portátil Bluetooth: \"No\"",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
