@@ -3,8 +3,8 @@
     "telefono": "573009701886",
     "nombre": "astrid",
     "primerContacto": "2026-11-05T23:26:41.187Z",
-    "ultimoContacto": "2026-11-05T23:26:41.187Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T23:26:45.225Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -133,6 +133,18 @@
         "fecha": "2026-11-05T23:26:40.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NzAxODg2FQIAERgSMDQyOUI3RUUxQUI5REU3QUVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio TIERRALTA Córdoba una vereda vía urra",
+        "fecha": "2026-11-05T23:26:42.742Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por compartir la info. En Tierralta, Córdoba, y especialmente en veredas como la Vía Urra, el módem 4G/5G es ideal porque capta mejor la señal que un celular normal y te da internet para varios dispositivos.\n\nLlega en 1 a 3 días hábiles después del despacho y puedes empezar a usarlo fácil, solo pones la SIM. \n\nLa inversión es de $189.900 + $26.000 de envío, pagas al recibir con garantía de 30 días. ¿Te lo envío a tu dirección o prefieres recogerlo en la oficina?",
+        "fecha": "2026-11-05T23:26:44.244Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzAxODg2FQIAERgSMjEzOThERjM2NEVCOEM5NjBBAA=="
       }
     ],
     "paso": "conversando",
@@ -153,7 +165,10 @@
       "url": "https://fb.me/6YhEYWqib",
       "fecha": "2026-11-05T23:22:18.507Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136584696",
