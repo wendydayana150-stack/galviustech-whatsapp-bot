@@ -614,8 +614,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T11:02:02.970Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-05T12:39:57.269Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -891,6 +891,18 @@
         "fecha": "2026-11-05T11:02:01.679Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjlGRjBBNTcyNUFDOTgyMkE0QQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-11-05T12:39:55.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo 😊 Cuéntame, ¿qué te preocupa o qué te gustaría cambiar de tu pedido? Te ayudo a dejarlo como lo necesitas.",
+        "fecha": "2026-11-05T12:39:55.622Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjIyRkM4RDE3NkM3Rjk2MjQ2OAA="
       }
     ],
     "paso": "conversando",
@@ -900,7 +912,7 @@
     "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": true,
-    "motivoAtencion": "Pedido registrado automaticamente sin barrio y medio de pago (el cliente no respondio). Confirmar por llamada antes de despachar.",
+    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Mini Impresora Térmica Portátil Bluetooth: \"No\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
@@ -912,9 +924,7 @@
       "fecha": "2026-11-05T03:58:01.456Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T11:03:11.576Z"
+      "seguimientosEnviados": 0
     }
   },
   {
