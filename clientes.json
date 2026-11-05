@@ -3,8 +3,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T04:01:23.231Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-05T04:01:37.058Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -209,16 +209,29 @@
         "fecha": "2026-11-05T04:01:21.946Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkJBOUEwMTVCQjRGNEVENUQzNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Antioquia,bello",
+        "fecha": "2026-11-05T04:01:35.730Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-05T04:01:35.730Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkQxODNEQjJEQTdFMjNCRkYyRgA="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "mini-impresora-termica-portatil-bluetooth",
       "nombreProducto": "Mini Impresora Térmica Portátil Bluetooth",
       "precio": 109900,
       "telefono": "CO.1766364994384068",
       "nombreCliente": "Eduardo",
-      "celular": "3238607449"
+      "celular": "3238607449",
+      "departamento": "Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
