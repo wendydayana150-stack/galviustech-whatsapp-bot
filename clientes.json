@@ -11524,8 +11524,8 @@
     "telefono": "573006885701",
     "nombre": "Eduardo Barreto",
     "primerContacto": "2026-11-04T22:20:37.495Z",
-    "ultimoContacto": "2026-11-04T22:20:45.906Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T18:12:25.250Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11612,11 +11612,18 @@
         "fecha": "2026-11-05T00:21:59.467Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2ODg1NzAxFQIAERgSNTFBODEzN0ZDMTA2NjMxRDI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Eduardo! 👋 Te escribo porque quedan las *últimas unidades* de la *Impresora Térmica NETUM* en promoción 🔥\r\n\r\n🖨️ Imprime tareas, guías y documentos tamaño carta *sin tinta* desde tu celular\r\n💰 Hoy en *$249.900* con *ENVÍO GRATIS*\r\n💵 *Pagas al recibir* y tiene garantía de 30 días\r\n\r\nY si buscas algo más económico para recibos o etiquetas, tenemos la *Mini Impresora desde $109.900* 😊\r\n\r\n¿Te la separo antes de que se acaben? Solo envíame tu nombre, celular, ciudad y dirección 🙌",
+        "fecha": "2026-11-05T18:12:24.267Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2ODg1NzAxFQIAERgSMkNGRDhCREE0NjY1NDFDRTU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -11633,11 +11640,9 @@
       "fecha": "2026-11-04T22:20:32.923Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T00:22:03.087Z",
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "caliente": null
   },
   {
     "telefono": "573178581318",
