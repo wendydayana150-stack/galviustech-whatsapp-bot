@@ -75,8 +75,8 @@
     "telefono": "573017134131",
     "nombre": "Ivon Barbosa Roca 🙌🏻",
     "primerContacto": "2026-11-05T19:16:07.637Z",
-    "ultimoContacto": "2026-11-05T19:16:07.637Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T20:23:48.753Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,18 @@
         "fecha": "2026-11-05T20:22:42.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MTM0MTMxFQIAERgSMkNFMkUzOTVFMkQ5NkQzMUUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dónde están ubicados?",
+        "fecha": "2026-11-05T20:23:44.917Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\n¿En qué ciudad o municipio te gustaría que te enviemos la impresora térmica portátil NETUM? Es ideal para imprimir documentos, trabajos y facturas sin depender de tinta ni cartuchos.",
+        "fecha": "2026-11-05T20:23:47.545Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MTM0MTMxFQIAERgSNEUyRjg4MkNFMjM0MURCMDA0AA=="
       }
     ],
     "paso": "conversando",
@@ -136,11 +148,12 @@
       "url": "https://fb.me/6GaNKGBZq",
       "fecha": "2026-11-05T19:16:05.690Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-05T20:23:44.917Z",
+      "texto": "Dónde están ubicados?"
+    },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T20:23:11.372Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
