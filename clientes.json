@@ -392,8 +392,8 @@
     "telefono": "CO.1659314632511527",
     "nombre": "Jordan Alfredo Guerrero",
     "primerContacto": "2026-11-05T01:10:57.444Z",
-    "ultimoContacto": "2026-11-05T01:25:57.262Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-05T01:26:18.368Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -522,9 +522,21 @@
         "fecha": "2026-11-05T01:25:56.189Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY1OTMxNDYzMjUxMTUyNxUUABEYEjJGQjRGNDQ0MjA2OUJEQ0YxRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santa fe granada cundinamarca",
+        "fecha": "2026-11-05T01:26:17.003Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-05T01:26:17.004Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY1OTMxNDYzMjUxMTUyNxUUABEYEjFDOTkzNEZGOTJFMEI3Q0MxRAA="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -533,7 +545,8 @@
       "departamento": "Cundinamarca",
       "celular": "20521587",
       "nombreCliente": "Martin flores  cd",
-      "ciudad": "cundinamarca"
+      "ciudad": "cundinamarca",
+      "direccion": "Santa fe granada cundinamarca"
     },
     "pausado": false,
     "etapaManual": null,
