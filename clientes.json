@@ -3,8 +3,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T03:59:54.057Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-05T04:00:13.940Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,10 +128,34 @@
         "fecha": "2026-11-05T03:59:52.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkE0NTFGQjlEMDhGMkZBM0Q4OQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mirale la primera y algo el pedido",
+        "fecha": "2026-11-05T04:00:09.439Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 🙌 La Mini Impresora Térmica Portátil Bluetooth es súper práctica, compacta, imprime sin tinta y con conexión Bluetooth desde tu celular.\n\nTe la dejo lista para pedido, ¿quieres que te la envíe a tu casa o prefieres recogerla en la oficina de la transportadora?",
+        "fecha": "2026-11-05T04:00:11.088Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjA5NzY4MDhBMTk2OTQ5NDk4OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Mini Impresora Térmica Portátil Bluetooth* ($ 109.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-05T04:00:12.323Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjI1QkQ0OUE0Nzg0NTMwNkFFRgA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "mini-impresora-termica-portatil-bluetooth",
+      "nombreProducto": "Mini Impresora Térmica Portátil Bluetooth",
+      "precio": 109900,
+      "telefono": "CO.1766364994384068"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
