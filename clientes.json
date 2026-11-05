@@ -3,8 +3,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T04:01:17.166Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-05T04:01:23.231Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -197,15 +197,28 @@
         "fecha": "2026-11-05T04:01:15.840Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEjZFODI0MDk0OTkzMkYxODU5QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3238607449",
+        "fecha": "2026-11-05T04:01:21.945Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-05T04:01:21.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkJBOUEwMTVCQjRGNEVENUQzNgA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "mini-impresora-termica-portatil-bluetooth",
       "nombreProducto": "Mini Impresora Térmica Portátil Bluetooth",
       "precio": 109900,
       "telefono": "CO.1766364994384068",
-      "nombreCliente": "Eduardo"
+      "nombreCliente": "Eduardo",
+      "celular": "3238607449"
     },
     "pausado": false,
     "etapaManual": null,
