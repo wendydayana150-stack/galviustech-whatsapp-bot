@@ -270,8 +270,8 @@
     "telefono": "573126047662",
     "nombre": "abelardojulioortiz",
     "primerContacto": "2026-11-05T00:15:56.061Z",
-    "ultimoContacto": "2026-11-05T00:28:28.180Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-05T00:30:33.188Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -362,6 +362,18 @@
         "fecha": "2026-11-05T00:28:27.118Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MDQ3NjYyFQIAERgSQUE4NUM0QTg3MEI1MjA3QkY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En este momento no. Muchas gracias",
+        "fecha": "2026-11-05T00:30:30.497Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De nada, cualquier cosa aquí estoy para ayudarte cuando decidas. Recuerda que la Impresora NETUM está en promoción y con envío gratis, perfecto para cuando necesites imprimir sin complicaciones.\n\n¿Quieres que te comparta info de otros productos que podrían interesarte?",
+        "fecha": "2026-11-05T00:30:32.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MDQ3NjYyFQIAERgSMTEyQzQ0MDRDRjQ5RDRDRDhEAA=="
       }
     ],
     "paso": "conversando",
@@ -372,7 +384,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
