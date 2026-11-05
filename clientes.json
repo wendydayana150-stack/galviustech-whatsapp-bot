@@ -12945,8 +12945,8 @@
     "telefono": "573102198340",
     "nombre": "Martha Rodríguez Guerrero",
     "primerContacto": "2026-11-04T21:22:21.048Z",
-    "ultimoContacto": "2026-11-04T22:07:33.194Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-05T18:11:17.541Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13150,6 +13150,13 @@
         "fecha": "2026-11-05T00:12:03.307Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSOEJEODc5OUM5Rjk2RUUzRjFEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Martha! 👋 Te escribo porque quedan las *últimas unidades* de la *Impresora Térmica NETUM* en promoción 🔥\r\n\r\n🖨️ Imprime tareas, guías y documentos tamaño carta *sin tinta* desde tu celular\r\n💰 Hoy en *$249.900* con *ENVÍO GRATIS*\r\n💵 *Pagas al recibir* y tiene garantía de 30 días\r\n\r\nY si buscas algo más económico para recibos o etiquetas, tenemos la *Mini Impresora desde $109.900* 😊\r\n\r\n¿Te la separo antes de que se acaben? Solo envíame tu nombre, celular, ciudad y dirección 🙌",
+        "fecha": "2026-11-05T18:11:16.181Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMTk4MzQwFQIAERgSQUNBN0JGOUIwOUE4OEI5MTdEAA=="
       }
     ],
     "paso": "conversando",
@@ -13160,7 +13167,7 @@
       "telefono": "573102198340",
       "nombreCliente": "Si pero y el precio"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -13177,11 +13184,9 @@
       "fecha": "2026-11-04T21:22:17.142Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T00:12:04.506Z",
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "caliente": null
   },
   {
     "telefono": "573193163265",
