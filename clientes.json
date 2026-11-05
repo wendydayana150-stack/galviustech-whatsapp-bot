@@ -10735,8 +10735,8 @@
     "telefono": "573218013206",
     "nombre": "Miguel",
     "primerContacto": "2026-11-04T23:16:01.062Z",
-    "ultimoContacto": "2026-11-04T23:16:05.356Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T18:15:01.332Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10852,11 +10852,18 @@
         "fecha": "2026-11-05T11:03:04.863Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4MDEzMjA2FQIAERgSODkwMTBFRjlGRjU5QzhFRTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Te escribo porque quedan las *últimas unidades* del *Combo x2 Reflectores Solares Jortan 500W* en promoción 🔥\r\n\r\n☀️ Se cargan con el sol, *sin pagar luz*, y traen control remoto\r\n💰 Los 2 por *$249.900* con *ENVÍO GRATIS*\r\n💵 *Pagas al recibir* y tienen garantía de 30 días\r\n\r\nTambién hay reflectores individuales desde $138.900 con envío gratis 😊\r\n\r\n¿Te los separo antes de que se acaben? Solo envíame tu nombre, celular, ciudad y dirección 🙌",
+        "fecha": "2026-11-05T18:15:00.251Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4MDEzMjA2FQIAERgSQTlCNkY2Q0QxNzBEMUFDOTJEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
     "ultimaCategoria": "reflector",
@@ -10873,11 +10880,9 @@
       "fecha": "2026-11-04T23:15:53.724Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T11:03:11.577Z",
-      "horas3": true
-    }
+      "seguimientosEnviados": 0
+    },
+    "caliente": null
   },
   {
     "telefono": "573235476376",
