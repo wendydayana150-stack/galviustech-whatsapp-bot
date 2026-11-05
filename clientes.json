@@ -614,8 +614,8 @@
     "telefono": "CO.1766364994384068",
     "nombre": "Eduardo Herrera",
     "primerContacto": "2026-11-05T03:58:06.523Z",
-    "ultimoContacto": "2026-11-05T12:40:30.301Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-11-05T12:40:46.394Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -939,6 +939,18 @@
         "fecha": "2026-11-05T12:40:29.032Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkI0MTUwREQzN0MzMUJEQjlBNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quitame los datos",
+        "fecha": "2026-11-05T12:40:43.676Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No puedo borrar los datos que ya están en el sistema, pero si quieres podemos dejar el pedido en pausa para que no siga adelante hasta que me digas. ¿Querés que haga eso por ti?",
+        "fecha": "2026-11-05T12:40:44.957Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc2NjM2NDk5NDM4NDA2OBUUABEYEkQ5QkVEODdDMkVBMTRENEQzRQA="
       }
     ],
     "paso": "conversando",
