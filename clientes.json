@@ -3,8 +3,8 @@
     "telefono": "573114184364",
     "nombre": "Luz Dayana",
     "primerContacto": "2026-11-05T18:37:17.783Z",
-    "ultimoContacto": "2026-11-05T18:37:17.783Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T18:37:25.099Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,13 +51,45 @@
         "fecha": "2026-11-05T18:37:15.638Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MTg0MzY0FQIAERgSMUQ5QzAzQTMwQ0YzMjgzODU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio",
+        "fecha": "2026-11-05T18:37:19.281Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-05T18:37:22.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTg0MzY0FQIAERgSQjM3NjgwNTU3QTFDRDgzMDhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-05T18:37:23.343Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTg0MzY0FQIAERgSNEI3NzFCOTkwREMzRjVFRTdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 5G]",
+        "fecha": "2026-11-05T18:37:24.097Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 El Modem WiFi Portátil 4G cuesta *$169.900 + $26.000 de envío*, la versión 4G/5G está en *$189.900 + $26.000 de envío*, y el Modem WiFi Portátil 5G tiene un precio de *$199.900 + $26.000 de envío*.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTodos son fáciles de usar, portátiles y ofrecen conexión para varios dispositivos a la vez, ideales para zonas sin fibra óptica o cuando viajas. ¿En qué municipio o vereda lo usarías principalmente? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-11-05T18:37:24.102Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MTg0MzY0FQIAERgSMzI5NTBBMEYzQkIxREYyQUY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -71,7 +103,10 @@
       "url": "https://fb.me/6YhEYWqib",
       "fecha": "2026-11-05T18:37:12.389Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218256650",
