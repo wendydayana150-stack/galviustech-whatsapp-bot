@@ -6511,8 +6511,8 @@
     "telefono": "573102686482",
     "nombre": "Camilo Andres Ramirez",
     "primerContacto": "2026-11-05T01:14:48.979Z",
-    "ultimoContacto": "2026-11-05T18:24:23.734Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T19:38:18.134Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6642,6 +6642,25 @@
         "fecha": "2026-11-05T19:33:02.267Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyNjg2NDgyFQIAERgSNkE1MkYzQjFCNkQyNEQwMzMyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-05T19:38:12.788Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El combo x2 reflectores solares Jortan 500W tiene una inversión de *$249.900* con *envío gratis* y pagas cuando lo recibes. \n\nEstos reflectores son súper potentes, resistentes al agua (IP67) y traen control remoto para que manejes la luz fácil desde donde estés. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Dónde los usarías, en tu casa, finca o negocio? Así te confirmo si es la mejor opción para ti.",
+        "fecha": "2026-11-05T19:38:16.527Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNjg2NDgyFQIAERgSNjI3NzMzMjdGMTg3MTU4MTFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-05T19:38:17.135Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyNjg2NDgyFQIAERgSRTE1OTI4RTI5Qzg4NTUwNUM2AA=="
       }
     ],
     "paso": "conversando",
@@ -6663,9 +6682,7 @@
       "fecha": "2026-11-05T01:14:40.911Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T19:33:09.029Z"
+      "seguimientosEnviados": 0
     },
     "caliente": null
   },
