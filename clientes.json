@@ -16012,8 +16012,8 @@
     "telefono": "573137882318",
     "nombre": "Wilder",
     "primerContacto": "2026-11-04T20:42:36.018Z",
-    "ultimoContacto": "2026-11-05T18:07:34.509Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-05T19:23:39.726Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -16109,6 +16109,18 @@
         "fecha": "2026-11-05T19:12:59.071Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3ODgyMzE4FQIAERgSNEMyQzZBQkMzN0ZFMzE2Q0NDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-05T19:23:38.596Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-05T19:23:38.596Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3ODgyMzE4FQIAERgSNDBBNTcyQzg2QTZDQ0FERjlFAA=="
       }
     ],
     "paso": "conversando",
@@ -16130,9 +16142,7 @@
       "fecha": "2026-11-04T20:42:31.355Z"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-05T19:13:20.899Z"
+      "seguimientosEnviados": 0
     },
     "caliente": null
   },
