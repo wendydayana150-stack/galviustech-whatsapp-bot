@@ -801,11 +801,21 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             const info = infoCategoria("modem");
             const delModem = catalogo.filter((p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === "modem");
             const destacado = delModem.find((p) => p.id === info.variantePorDefecto) || delModem[0];
-            if (destacado) await enviarFotosYVideo(telefono, destacado, info.titulo);
+            // 5-nov-2026 (Wendy, "enviar menos fotos"): 1 sola foto, sin video. Antes iban 3 fotos + video.
+            const fotoModem = (destacado?.imagenes || []).find((u) => /^https?:\/\//.test(u) && !/\.(mp4|mov|webm)(\?|$)/i.test(u));
+            if (fotoModem) {
+                  try {
+                        await enviarImagen(telefono, fotoModem, info.titulo);
+                  } catch (e) {
+                        console.error("Foto modem bienvenida:", e.message);
+                  }
+            }
             // Oct-2026 (Wendy, estudio de 185 chats: 42 se iban tras una bienvenida sin precio): si el cliente
             // llego preguntando el precio, la bienvenida trae los precios + envio y UNA sola pregunta.
             const disponibles = delModem.filter((p) => !p.agotado).sort((a, b) => a.precio - b.precio);
-            const bienvenida = opciones.preguntaPrecio && disponibles.length
+            // 5-nov-2026: de 22 clientes nuevos, 7 que escribieron "Quiero más información" recibieron la bienvenida SIN
+            // precio y se fueron sin contestar. Ahora la bienvenida siempre trae los precios.
+            const bienvenida = disponibles.length
                   ? "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n" +
                     "🔥 *30% de descuento* en todos los módems. Precios (+ $26.000 de envío):\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
                     "\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n" +
