@@ -3002,6 +3002,12 @@ async function iniciarPedido(telefono, productoId) {
             // Si ya esta todo, se confirma el medio de pago para cerrar con un dato fresco
             let faltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
             if (!faltante) {
+                  // 5-nov-2026 (Wendy): si el cliente ya dijo como paga (ej. "pago contraentrega") NO se le
+                  // vuelve a preguntar; con todos los datos se registra de una vez.
+                  if (pagoDicho) {
+                        await finalizarPedidoSesion(telefono);
+                        return;
+                  }
                   delete sesion.pedido.medioPago;
                   faltante = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.campo === "medioPago");
             }
@@ -3229,6 +3235,8 @@ function faltaCampo(pedido, d) {
 // Medio de pago que el cliente dijo en sus ultimos mensajes (ej. "SISTECREDITO" antes de confirmar
 // la compra). Manda sobre el del pedido anterior: caso real 13-oct-2026, el cliente dijo
 // Sistecredito y Michell le mando los datos de transferencia de su compra anterior.
+const PIDE_MEDIO_PAGO = /m[eé]todo de pago|medio de pago|c[oó]mo (prefieres |quieres |vas a )?pagar|prefieres pagar|pagar contra ?entrega .{0,60}transferencia|contra ?entrega o (por )?transferencia/i;
+
 function medioPagoReciente(sesion) {
       const mensajes = (sesion.historial || []).filter((m) => m.role === "user" && typeof m.content === "string").slice(-6).reverse();
       for (const m of mensajes) {
@@ -5027,7 +5035,7 @@ async function manejarTextoLibre(telefono, texto) {
       }
 
       try {
-            const { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
+            let { mensajeVisible, productoId, productoActual, necesitaAsesor, pausarSeguimiento, fotosProductos } = await preguntarleALaIA(sesion, texto, enfoqueProducto, telefono);
 
             // Se pone en true apenas el cliente reciba ALGO (texto, botones, o se le inicie un
             // pedido/combo). Sirve para detectar el caso en que la IA respondio sin lanzar ningun
@@ -5040,6 +5048,17 @@ async function manejarTextoLibre(telefono, texto) {
             // Oct-2026 (Wendy: "se estan perdiendo clientes por sus errores"): si el cliente agradece, dice que no, que
             // ya compro o que lo va a pensar, no se le mandan botones ni "¿Cuál te llevas?" ni la pregunta de uso.
             if (CLIENTE_SE_DESPIDE.test(texto)) cierreEnviado = true;
+            // 5-nov-2026 (Wendy, caso Jordan): la IA mandaba "Ya te dejo el pedido listo... solo falta confirmar el
+            // metodo de pago. ¿Contra entrega o transferencia?" justo antes del mensaje del pedido. Si el pedido ya
+            // arranca (ACCION_PEDIDO) o el cliente ya dijo como paga, ese texto sobra y no se manda.
+            if (mensajeVisible && PIDE_MEDIO_PAGO.test(mensajeVisible) && ((productoId && catalogo.some((p) => p.id === productoId)) || medioPagoReciente(sesion))) {
+                  if (productoId && catalogo.some((p) => p.id === productoId)) mensajeVisible = "";
+                  else {
+                        // Sin pedido en marcha solo se quita el parrafo que pregunta el pago; el resto de la respuesta si va
+                        const resto = mensajeVisible.split(/\n\s*\n/).filter((b) => !PIDE_MEDIO_PAGO.test(b)).join("\n\n").trim();
+                        if (resto) mensajeVisible = resto;
+                  }
+            }
             if (mensajeVisible) {
                   // RESPALDO DE PRECIO (oct-2026, Wendy): si el cliente pregunto el precio y la IA respondio
                   // sin dar ninguno (caso real: "Que precio lo tienes" -> solo caracteristicas), se agrega.
