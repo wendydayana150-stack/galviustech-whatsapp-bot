@@ -8959,8 +8959,8 @@
     "telefono": "573103794041",
     "nombre": "indularte007",
     "primerContacto": "2026-11-04T19:07:43.448Z",
-    "ultimoContacto": "2026-11-04T19:07:43.448Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-05T00:41:24.424Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9035,6 +9035,18 @@
         "fecha": "2026-11-04T21:11:58.302Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzk0MDQxFQIAERgSQ0JGQjIyNUJDQjI1NzgwMjRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-05T00:41:23.223Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-05T00:41:23.223Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzk0MDQxFQIAERgSRjVFOTk1NEZDNzU1M0FDNDU4AA=="
       }
     ],
     "paso": "conversando",
@@ -9056,10 +9068,7 @@
       "fecha": "2026-11-04T19:07:39.849Z"
     },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-04T21:12:04.623Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
