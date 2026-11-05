@@ -2266,7 +2266,9 @@ async function enviarRecordatoriosPendientes() {
                         // por confirmar, pago contraentrega) y se marca para que el equipo lo confirme por llamada.
                         const sesPedido = obtenerSesion(p.telefono);
                         const ped = sesPedido.pedido || {};
-                        if (definicionFaltante && ["barrio", "medioPago"].includes(definicionFaltante.campo) && ped.productoId && ped.nombreCliente && ped.celular && ped.ciudad && ped.direccion) {
+                        const ultimosCliente = (sesPedido.historial || []).filter((m) => m.role === "user" && typeof m.content === "string").slice(-4);
+                        const dijoQueNo = ultimosCliente.some((m) => CLIENTE_DESISTE_PEDIDO.test(m.content)) || CLIENTE_DESISTE_PEDIDO.test(ped.direccion || "") || CLIENTE_DESISTE_PEDIDO.test(ped.barrio || "");
+                        if (!dijoQueNo && definicionFaltante && ["barrio", "medioPago"].includes(definicionFaltante.campo) && ped.productoId && ped.nombreCliente && ped.celular && ped.ciudad && ped.direccion) {
                               const faltaban = [!ped.barrio && "barrio", !ped.medioPago && "medio de pago"].filter(Boolean).join(" y ");
                               if (!ped.barrio) ped.barrio = "Por confirmar";
                               if (!ped.medioPago) ped.medioPago = "Contraentrega";
@@ -3491,6 +3493,10 @@ function pareceMasPreguntaQueRespuesta(texto, tipoEsperado) {
 // siguio respondiendo "Ese numero no me quedo claro" una y otra vez). Se revisa como mensaje
 // corto y exacto (no "no quiero cancelar mi suscripcion" ni nada mas largo) para no confundirlo
 // con otra cosa.
+const PIDE_SOPORTE = /no (me )?(aparece|sale|funciona|prende|enciende|conecta|carga|sirve el|reconoce)|instal|configur|ya (me )?(lleg[oó]|lo tengo|la tengo|lo recib|la recib)|c[oó]mo (lo|la) (conecto|uso|prendo|configuro)/i;
+
+const CLIENTE_DESISTE_PEDIDO = /todav[ií]a no|a[uú]n no (voy|lo|la|quiero)|no (voy|vamos) a (hacer|pedir|comprar)|no voy hacer|sin afan|solo (estaba|estoy) (preguntando|averiguando|mirando)|no lo (mandes|env[ií]es|despaches)|no la (mandes|env[ií]es|despaches)|no (me )?(lo|la) (mandes|env[ií]es)|no quiero (el|hacer el) pedido|m[aá]s adelante (lo|la|te)|luego (lo|la|te) (pido|aviso|confirmo)/i;
+
 function pareceCancelacionDePedido(texto) {
       const limpio = (texto || "").trim().toLowerCase();
       if (!limpio) return false;
@@ -3739,6 +3745,19 @@ async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       const definicionActual = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === sesion.paso);
       if (!definicionActual) return false;
+
+      // 5-nov-2026 (caso Eduardo): en medio del pedido escribio "Todavía no voy hacer el pedido sin afanes" y Michell lo
+      // guardo como su direccion; despues el pedido se registro solo y el cliente pidio que NO se lo mandaran.
+      if (CLIENTE_DESISTE_PEDIDO.test(texto)) {
+            sesion.paso = "conversando";
+            sesion.pedido = {};
+            sesion.desistioPedido = new Date().toISOString();
+            await enviarTexto(
+                  telefono,
+                  "Listo, sin afán 😊 No te registro nada por ahora. Cuando quieras hacer el pedido me escribes y lo dejamos listo en un momento 🙌"
+                  );
+            return true;
+      }
 
       if (pareceCancelacionDePedido(texto)) {
             sesion.paso = "conversando";
@@ -4994,7 +5013,8 @@ async function manejarTextoLibre(telefono, texto) {
 
       // Respuesta al saludo con catalogo: si nombra una categoria ("impresora", "el modem"), se le presenta igual que
       // a quien llega preguntando por ella (fotos, precio y pregunta para avanzar a la venta).
-      if (sesion.saludoConCatalogo && !sesion.ultimaCategoria && !sesion.ultimoProducto && !detectarProductoEspecifico(texto)) {
+      // 5-nov-2026: "No me aparece la palabra wifi" (cliente instalando su modem) recibia la bienvenida de ventas del modem.
+      if (sesion.saludoConCatalogo && !sesion.ultimaCategoria && !sesion.ultimoProducto && !detectarProductoEspecifico(texto) && !PIDE_SOPORTE.test(texto)) {
             const categoriaElegida = detectarProductoPorPalabraClave(texto);
             if (categoriaElegida) {
                   sesion.saludoConCatalogo = false;
