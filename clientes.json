@@ -3,8 +3,8 @@
     "telefono": "CO.2186883915546210",
     "nombre": "Javi Mejia",
     "primerContacto": "2026-11-06T16:19:44.765Z",
-    "ultimoContacto": "2026-11-06T16:19:44.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T16:24:23.801Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,13 +51,52 @@
         "fecha": "2026-11-06T16:19:43.751Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE4Njg4MzkxNTU0NjIxMBUUABEYEkYzNTBBQzE1RkI4NzMyODRDOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que costo tiene ?",
+        "fecha": "2026-11-06T16:24:13.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-06T16:24:21.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE4Njg4MzkxNTU0NjIxMBUUABEYEjU0NDlBRTI5QTBDMUQ4QkQ0NwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-06T16:24:21.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE4Njg4MzkxNTU0NjIxMBUUABEYEjA5OUEzOEVERkZFMzQ3RDg5MAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-06T16:24:22.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE4Njg4MzkxNTU0NjIxMBUUABEYEkU0RkNFMjRGRDUzOEJDRTNBMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-11-06T16:24:22.815Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te cuento:\n\nEl módem WiFi portátil 4G cuesta *$169.900*, el 4G/5G está en *$189.900* y el 5G en *$199.900* — la inversión incluye conexión para varios dispositivos, ideal para zonas sin fibra óptica y espacios donde necesitas internet fiable. A esto le sumas $26.000 de envío a toda Colombia.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué municipio o vereda lo usarías? Así te recomiendo la mejor opción para tu caso.",
+        "fecha": "2026-11-06T16:24:22.819Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE4Njg4MzkxNTU0NjIxMBUUABEYEjQ4MTJDOUNGNTVEMTM2OUQ2RQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -71,7 +110,10 @@
       "url": "https://fb.me/588EJVtYa",
       "fecha": "2026-11-06T16:19:41.108Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573013864344",
