@@ -3,8 +3,8 @@
     "telefono": "573506356719",
     "nombre": "😏😏😏",
     "primerContacto": "2026-11-06T12:59:44.123Z",
-    "ultimoContacto": "2026-11-06T12:59:44.123Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T13:02:01.792Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,52 @@
         "fecha": "2026-11-06T12:59:42.917Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSNTNGRjRBM0NERkNCODNFNDlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito una impresora para imprimir fotos de 13 x18 y 20x30 y que sea rapida",
+        "fecha": "2026-11-06T13:01:57.457Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-06T13:01:57.459Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-06T13:01:57.459Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSQzg3RENCQ0Q2Qjg1NDkyNUE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-06T13:01:58.097Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSRTUwQzQ4NTRCNEJBQjIxNDc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-06T13:01:58.783Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSRDBBOUI5NTg5OUU3OTVGMDk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-06T13:01:59.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSQTgyNTcyQTEzRTRDMDBGOEEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-06T13:02:00.301Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSOEY5NDQ3MTZDQjg0MjVGNTc4AA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +96,10 @@
       "url": "https://www.instagram.com/p/DfV38VsMPy5/",
       "fecha": "2026-11-06T12:59:42.083Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205527885",
