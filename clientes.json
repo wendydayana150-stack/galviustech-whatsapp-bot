@@ -337,8 +337,8 @@
     "telefono": "573239540355",
     "nombre": "Juan  😎",
     "primerContacto": "2026-11-06T21:20:22.487Z",
-    "ultimoContacto": "2026-11-06T21:20:22.487Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T22:27:22.670Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -365,6 +365,18 @@
         "fecha": "2026-11-06T22:24:50.867Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NTQwMzU1FQIAERgSRDg3M0E0MTRCMjAxRTZFQjJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No muy caro",
+        "fecha": "2026-11-06T22:27:19.092Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tenemos opciones para todos los presupuestos, ¿qué te interesa más?\n\n¿Quieres internet portátil (modem), impresora para tu negocio o estudio, lámparas solares para iluminar, cámaras de seguridad o algo más? \n\nCuéntame para qué lo necesitas y así te recomiendo la mejor opción con precio justo para ti. ¿Dónde estás ubicado y para qué usarías el producto?",
+        "fecha": "2026-11-06T22:27:21.716Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NTQwMzU1FQIAERgSQUYwQTI0OTQzMzU4QzAzNEM3AA=="
       }
     ],
     "paso": "conversando",
@@ -382,9 +394,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T22:24:52.738Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
