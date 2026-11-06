@@ -3,8 +3,8 @@
     "telefono": "573027848857",
     "nombre": "Dailson Moreno",
     "primerContacto": "2026-11-06T00:55:24.489Z",
-    "ultimoContacto": "2026-11-06T00:55:24.489Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T01:02:43.263Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,13 +51,59 @@
         "fecha": "2026-11-06T00:55:23.647Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSRUM1MjREMjlEQzU5QjM1QTRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero ver los otros",
+        "fecha": "2026-11-06T01:02:35.843Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 Te muestro las 3 versiones de nuestro módem para que elijas la que más te conviene:\n\n📶 *Modem WiFi Portátil 4G* - $169.900 + $26.000 de envío  \n✅ Fácil de usar y transportar  \n✅ Excelente para fincas y veredas sin fibra óptica  \n\n📶 *Modem WiFi Portátil 4G/5G* - $189.900 + $26.000 de envío  \n✅ Funciona en zonas con 4G y 5G  \n✅ Perfecto para trabajo, estudio y viajes  \n\n📶 *Modem WiFi Portátil 5G* - $199.900 + $26.000 de envío  \n✅ Velocidad máxima en zonas con cobertura 5G  \n✅ Ideal si tienes señal 5G y quieres lo último en tecnología  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo necesitas principalmente? Así te ayudo a escoger el mejor para ti.",
+        "fecha": "2026-11-06T01:02:39.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSQjUxRkRFODA1RDE0NURFN0E3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-06T01:02:40.434Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSNzYwOTdBNEU5RjRGRThGRDA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-06T01:02:40.998Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSNzIwNjkwQ0UxODIzQzJCRENCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-06T01:02:41.484Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSRjc5RUMzODRFMDlCQ0RFRjgyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-06T01:02:41.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSQ0NEOUIyMzdBQzdDQTk4RUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-06T01:02:42.410Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -71,7 +117,10 @@
       "url": "https://fb.me/2bt9PWPrvf",
       "fecha": "2026-11-06T00:55:21.388Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009701886",
