@@ -3,8 +3,8 @@
     "telefono": "573108393308",
     "nombre": "عربيزي",
     "primerContacto": "2026-11-06T23:56:08.013Z",
-    "ultimoContacto": "2026-11-06T23:56:08.013Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T23:56:49.515Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,13 +30,25 @@
         "fecha": "2026-11-06T23:56:07.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSNjJBQTg0N0M4MUZCRkQ0RDMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El es de carga o como funsiona",
+        "fecha": "2026-11-06T23:56:47.204Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem es de carga con batería recargable por USB-C y dura hasta 14 horas con una sola carga completa. Solo necesitas insertar la SIM del operador, prenderlo y conectar tus dispositivos por WiFi, ¡así de fácil!\n\n¿Para qué lo necesitas principalmente? ¿Trabajo, estudio, tu negocio o tu casa?",
+        "fecha": "2026-11-06T23:56:48.540Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSMEU2N0IyMzQ3N0MwMDhGRTExAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -50,7 +62,10 @@
       "url": "https://fb.me/6y6wd98zu",
       "fecha": "2026-11-06T23:56:06.482Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1110454751896050",
