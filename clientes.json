@@ -3,8 +3,8 @@
     "telefono": "573102240834",
     "nombre": ".",
     "primerContacto": "2026-11-06T18:57:36.525Z",
-    "ultimoContacto": "2026-11-06T18:57:36.525Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T18:58:49.505Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-11-06T18:57:35.537Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMjQwODM0FQIAERgSMENBNkRCNERFNzEzM0RBNzdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El moden precio y con cuál operador funciona",
+        "fecha": "2026-11-06T18:58:44.297Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 El módem WiFi portátil funciona con SIM de cualquier operador del país: Claro, Movistar, Tigo o WOM, según cobertura de tu zona.\n\n💥 Tenemos tres versiones con inversión desde:  \n- $169.900 el 4G  \n- $189.900 el 4G/5G (recomendado, funciona en zonas con 4G o ya con 5G)  \n- $199.900 el 5G (para zonas con buena señal 5G y máxima velocidad)  \n\n✅ Conecta varios dispositivos, fácil de usar y con mejor cobertura que el celular en fincas o zonas rurales  \n✅ Pagas al recibir, garantía de 30 días  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías principalmente? Así te recomiendo la versión ideal para ti.",
+        "fecha": "2026-11-06T18:58:48.580Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMjQwODM0FQIAERgSQjQ1NTYzQ0Q1NUEyMDM3ODhDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573175304680",
