@@ -77,8 +77,8 @@
     "telefono": "573118473844",
     "nombre": "patriciarico2021",
     "primerContacto": "2026-11-06T15:41:09.001Z",
-    "ultimoContacto": "2026-11-06T16:11:28.016Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-06T16:11:31.696Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -244,16 +244,29 @@
         "fecha": "2026-11-06T16:11:27.081Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSMjJDMTQ1QzQxOTEzNkNGRkIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3202872183",
+        "fecha": "2026-11-06T16:11:29.588Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-06T16:11:29.590Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSRDZDQTgwM0MwNjJDNTQ4MTQwAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
       "nombreProducto": "Reflector Solar 1000W Jortan con Panel y Control Remoto",
       "precio": 189900,
       "telefono": "573118473844",
       "nombreCliente": "Todos traen su panel",
-      "departamento": "Guaviare"
+      "departamento": "Guaviare",
+      "celular": "3202872183"
     },
     "pausado": false,
     "etapaManual": null,
