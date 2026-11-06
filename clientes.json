@@ -3,8 +3,8 @@
     "telefono": "573027848857",
     "nombre": "Dailson Moreno",
     "primerContacto": "2026-11-06T00:55:24.489Z",
-    "ultimoContacto": "2026-11-06T01:03:22.591Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-06T01:04:13.622Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -148,6 +148,18 @@
         "fecha": "2026-11-06T01:03:21.052Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSRDEwMjc1REJFMUQ1NTlDMTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que medio de pago maneja \n\n\nDaviplata \nBancolombia \nNequi \nContra entrega",
+        "fecha": "2026-11-06T01:04:10.431Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ofrecemos estos medios de pago:  \n\n1️⃣ Contraentrega: pagas en efectivo al recibir el módem  \n2️⃣ Transferencia a Bancolombia (cuenta 41100042485)  \n3️⃣ Nequi o a la “llave Bre-B” en el 3023890578  \n\nPuedes pagar desde la app de tu banco o billetera (Daviplata, Nequi, Bancolombia) a la cuenta o llave que te dije. \n\nSi quieres, dejo tu pedido listo para que lo recibas pronto, ¿me das la dirección?",
+        "fecha": "2026-11-06T01:04:12.550Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSODFCNURFMzFCMDgxNzYzOUYyAA=="
       }
     ],
     "paso": "conversando",
@@ -168,7 +180,10 @@
       "url": "https://fb.me/2bt9PWPrvf",
       "fecha": "2026-11-06T00:55:21.388Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-06T01:04:10.431Z",
+      "texto": "Que medio de pago maneja \n\n\nDaviplata \nBancolombia \nNequi \nContra entrega"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
