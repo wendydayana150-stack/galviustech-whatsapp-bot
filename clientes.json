@@ -3,8 +3,8 @@
     "telefono": "573027848857",
     "nombre": "Dailson Moreno",
     "primerContacto": "2026-11-06T00:55:24.489Z",
-    "ultimoContacto": "2026-11-06T01:07:31.025Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-06T01:07:48.590Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -289,15 +289,35 @@
         "fecha": "2026-11-06T01:07:29.862Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSMDk3NzYzNjhGQzM0NDczREUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok sii",
+        "fecha": "2026-11-06T01:07:45.092Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, ya te dejo el pedido del *Modem WiFi Portátil 4G/5G* para que puedas recogerlo en la oficina de la transportadora más cercana a tu corregimiento. \n\n¡Voy a necesitar que me pases tus datos para dejar todo preparado!",
+        "fecha": "2026-11-06T01:07:46.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSRTFCODVBOUVDMUNBRDBGOTRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 189.900) 🙌 Ya tengo tu nombre y cómo pagas, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-06T01:07:47.471Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSNzY1MUFCNEM4MDY1NjkxQjgxAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573027848857",
-      "medioPago": "contraentrega"
+      "medioPago": "contraentrega",
+      "nombreCliente": "Entra oh no"
     },
     "pausado": false,
     "etapaManual": null,
