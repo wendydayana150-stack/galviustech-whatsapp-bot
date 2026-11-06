@@ -351,8 +351,8 @@
     "telefono": "573506356719",
     "nombre": "😏😏😏",
     "primerContacto": "2026-11-06T12:59:44.123Z",
-    "ultimoContacto": "2026-11-06T14:07:54.635Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-06T14:07:59.482Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -481,6 +481,25 @@
         "fecha": "2026-11-06T14:07:53.479Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSMjc0RENGQUJERDk4NkFEOUU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y que imprima super rapido",
+        "fecha": "2026-11-06T14:07:56.343Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM imprime rápido desde el celular, sin tinta y con batería para varias horas. Ideal para documentos tamaño carta, apuntes o facturas en blanco y negro.\n\nLa inversión es de $249.900 con envío GRATIS y pagas al recibir, ahorras tiempo y dinero sin depender de papelerías. ¿Quieres que te ayude a dejar tu pedido listo para que la recibas rápido?",
+        "fecha": "2026-11-06T14:07:57.876Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSOTcxQjVCQThDQzhEOTM3QTk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-06T14:07:58.379Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MzU2NzE5FQIAERgSNUFCN0I0QzY4NzM3MTFERkY1AA=="
       }
     ],
     "paso": "conversando",
@@ -496,7 +515,7 @@
     "esperaCompra": {
       "fecha": "2026-12-20",
       "texto": "Y que imprima super rapido",
-      "desde": "2026-11-06T14:07:03.082Z",
+      "desde": "2026-11-06T14:07:56.343Z",
       "avisado": false
     },
     "interesColor": null,
