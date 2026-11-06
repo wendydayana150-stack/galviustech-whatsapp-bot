@@ -77,8 +77,8 @@
     "telefono": "573118473844",
     "nombre": "patriciarico2021",
     "primerContacto": "2026-11-06T15:41:09.001Z",
-    "ultimoContacto": "2026-11-06T15:59:32.104Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-06T16:08:03.769Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -168,10 +168,34 @@
         "fecha": "2026-11-06T15:59:31.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSODkyNTQxNUYxQjg4NTEyODQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Son dos combos x2 de 500W de 249,900 y un reflector de 1000W de $189,900",
+        "fecha": "2026-11-06T16:07:58.906Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, estarías hablando de una inversión en iluminación solar potente y eficiente: dos combos x2 de reflectores Jortan de 500W a $249.900 cada combo, más un reflector solar Jortan de 1000W a $189.900, todos con envío gratis y pago al recibir.\n\n¿Me pasas la dirección para dejarte el pedido listo y coordinamos el envío?",
+        "fecha": "2026-11-06T16:08:02.021Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSRjk3MDM3MEUyMTFGOTFGNzc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "😍 ¡Perfecto! Vamos a preparar tu pedido de *Reflector Solar 1000W Jortan con Panel y Control Remoto* ($ 189.900).\n\nPara realizar el envío necesitamos:\n📌 Nombre completo\n📌 Número de celular\n📌 Departamento\n📌 Ciudad o municipio\n📌 Dirección\n📌 Barrio o vereda\n\n🚚 ¡Envío gratis y pago contraentrega!\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊",
+        "fecha": "2026-11-06T16:08:02.918Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSMTZGQ0JFMjk5RUZCNjZFNzg0AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
+      "nombreProducto": "Reflector Solar 1000W Jortan con Panel y Control Remoto",
+      "precio": 189900,
+      "telefono": "573118473844"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
