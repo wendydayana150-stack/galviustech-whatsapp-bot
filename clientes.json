@@ -504,8 +504,8 @@
     "telefono": "573232954317",
     "nombre": "alsocoromero2018",
     "primerContacto": "2026-11-06T13:35:58.085Z",
-    "ultimoContacto": "2026-11-06T13:35:58.085Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T14:57:32.189Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -545,6 +545,18 @@
         "fecha": "2026-11-06T14:42:42.413Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyOTU0MzE3FQIAERgSMDAxNENDREVFRDIyNkNGMEFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-06T14:57:30.759Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-06T14:57:30.759Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTU0MzE3FQIAERgSRUExNUY1Qjk5Mzg4QzdDQkQxAA=="
       }
     ],
     "paso": "conversando",
@@ -567,9 +579,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T14:42:44.219Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
