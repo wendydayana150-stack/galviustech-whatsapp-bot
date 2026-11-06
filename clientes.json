@@ -71,8 +71,8 @@
     "telefono": "573215742819",
     "nombre": "🤐🤐🤐",
     "primerContacto": "2026-11-06T22:13:11.284Z",
-    "ultimoContacto": "2026-11-06T22:13:11.284Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T22:37:13.635Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -98,13 +98,25 @@
         "fecha": "2026-11-06T22:13:10.361Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1NzQyODE5FQIAERgSODBGRTVGQkJFMUFGRUNCQUYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A no pensé que era satelital",
+        "fecha": "2026-11-06T22:37:10.653Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Así es, no es satelital. Este módem sirve con la SIM de cualquier operador móvil (Claro, Movistar, Tigo, WOM) y está diseñado para captar señal mucho mejor que el celular común, especialmente en zonas rurales o veredas donde no hay fibra óptica. \n\n¿Me cuentas en qué municipio o vereda lo necesitas y para qué lo usarías? Así te ayudo a escoger la mejor versión para ti.",
+        "fecha": "2026-11-06T22:37:12.676Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NzQyODE5FQIAERgSRENDNDYyOUI5ODc3MjMyMzk1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -118,7 +130,10 @@
       "url": "https://fb.me/6y6wd98zu",
       "fecha": "2026-11-06T22:13:09.723Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102304306",
