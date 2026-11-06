@@ -7106,6 +7106,121 @@ async function tandaReactivacionAutomatica() {
       console.log("Reactivacion automatica: enviando la tanda del dia.");
       await enviarTandaReactivacion();
 }
+
+// Primer nombre limpio para saludar (solo si parece un nombre de verdad, no un usuario o emojis)
+function nombreValido(nombre) {
+      const primero = String(nombre || "").trim().split(/\s+/)[0] || "";
+      if (!/^[A-Za-zÁÉÍÓÚÑáéíóúñ]{2,10}$/.test(primero)) return "";
+      return primero[0].toUpperCase() + primero.slice(1).toLowerCase();
+}
+
+// MENSAJE DE ESCASEZ AL DIA SIGUIENTE (6-nov-2026, Wendy: "siempre enviar el dia despues mensaje de escasez y que esta en
+// ultimos dias de promocion"). Todos los dias a las 9 a. m. de Bogota, a cada cliente que escribio AYER, no compro y no
+// siguio la conversacion, le llega un mensaje de ultimas unidades / ultimos dias de promocion con su producto. Si ya paso
+// la ventana de 24 h de WhatsApp, se pone de primero en reactivar.json para que la tanda de las 10 a. m. le mande la plantilla.
+// No se le envia a quien dijo que no le interesa ni a respuestas automaticas de otros negocios.
+const NO_ESCASEZ = /^\s*no[\s,.!]*(gracias|muchas gracias|me interesa|por ahora)?[\s.!]*$|\bahora no\b|no (me )?interesa|gracias por (tu|su) mensaje|en este momento no (estamos|podemos)/i;
+let ultimaEscasezDiaSiguiente = null;
+function mensajeEscasezDiaSiguiente(nombreCliente, productoId, categoria) {
+      const hola = `¡Hola${nombreCliente ? " " + nombreCliente : ""}! 👋`;
+      const p = productoId ? catalogo.find((x) => x.id === productoId) : null;
+      const la = p && ["impresora", "lampara"].includes(p.categoria) && !/^(combo|pack)/i.test(p.id) ? "la" : "lo";
+      const cierre = `\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te ${la} separo antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌`;
+      if (categoria === "modem" || p?.categoria === "modem") {
+            const precio = (id) => formatearPrecio(catalogo.find((x) => x.id === id)?.precio || 0);
+            return `${hola} Ayer te interesó el *Módem WiFi portátil* 📶\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*:\n• Módem 4G: *${precio("modem-4g")}*\n• Módem 4G/5G: *${precio("modem-4g5g")}*\n• Módem 5G: *${precio("modem-portatil-5g")}*\n(+ $26.000 de envío)\n\nLe pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador.` + cierre;
+      }
+      if (p) {
+            const nombre = p.nombreCorto || p.nombre;
+            const antes = p.id === "impresora-termica" ? `Antes ~${formatearPrecio(PRECIO_ANTES_NETUM)}~, hoy` : "Hoy";
+            return `${hola} Ayer te interesó *${nombre}* 🔥\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*.\n\n💰 ${antes} *${formatearPrecio(p.precio)}*${textoEnvio(p.id)}` + cierre;
+      }
+      return `${hola} Ayer nos pediste información 😊\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*. Esto es lo que tenemos:\n\n${LISTA_PRODUCTOS_GALVIUS}\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Cuál te interesa? Te envío fotos y precio 😍`;
+}
+async function escasezDiaSiguiente() {
+      const horaBogota = (new Date().getUTCHours() - 5 + 24) % 24;
+      const hoy = fechaBogotaTexto(new Date());
+      if (horaBogota !== 9 || ultimaEscasezDiaSiguiente === hoy) return;
+      ultimaEscasezDiaSiguiente = hoy;
+      const ayer = fechaBogotaTexto(new Date(Date.now() - 24 * 3600000));
+      try {
+            const { datos: clientes } = await leerJSON(CLIENTES_API);
+            const { datos: pedidos } = await leerJSON(PEDIDOS_API);
+            const conPedido = new Set(pedidos.map((p) => p.telefono));
+            const enVentana = [], fueraVentana = [];
+            for (const c of clientes) {
+                  if (c.escasezFecha === hoy || c.pausado || c.pausarSeguimiento || c.necesitaAtencion || conPedido.has(c.telefono)) continue;
+                  if (c.paso && !["conversando", "inicio"].includes(c.paso)) continue;
+                  const conv = c.conversacion || [];
+                  const ultimo = conv[conv.length - 1];
+                  const ultimoCliente = [...conv].reverse().find((m) => m.rol === "cliente");
+                  if (!ultimo || !ultimoCliente || ultimo.rol === "cliente") continue;
+                  if (fechaBogotaTexto(new Date(ultimoCliente.fecha)) !== ayer) continue;
+                  if (NO_ESCASEZ.test(String(ultimoCliente.texto || "")) || NO_LE_INTERESA.test(String(ultimoCliente.texto || "")) || CLIENTE_RECHAZA.test(String(ultimoCliente.texto || ""))) continue;
+                  const horas = (Date.now() - new Date(ultimoCliente.fecha).getTime()) / 3600000;
+                  (horas < 23.5 ? enVentana : fueraVentana).push({ c, ultimoMensajeCliente: ultimoCliente.fecha });
+            }
+            console.log(`Escasez dia siguiente: ${enVentana.length} en ventana, ${fueraVentana.length} a plantilla.`);
+            const enviados = [];
+            for (const { c } of enVentana) {
+                  try {
+                        await cargarSesionSiNueva(c.telefono);
+                        const sesion = obtenerSesion(c.telefono);
+                        if (sesion.pausado || (sesion.transcripcion || []).slice(-1)[0]?.rol === "cliente") continue;
+                        const productoId = sesion.ultimoProducto || c.ultimoProducto || c.pedido?.productoId || null;
+                        const nombre = nombreValido(c.nombre);
+                        const mensaje = mensajeEscasezDiaSiguiente(nombre, productoId, sesion.ultimaCategoria || c.ultimaCategoria);
+                        await enviarTexto(c.telefono, mensaje);
+                        if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "assistant", content: mensaje });
+                        enviados.push(c.telefono);
+                  } catch (e) {
+                        console.error(`Escasez dia siguiente: fallo con ${c.telefono}:`, e.response?.data?.error?.message || e.message);
+                  }
+                  await new Promise((s) => setTimeout(s, 15000));
+            }
+            await conColaDeArchivo(CLIENTES_API, async () => {
+                  for (let intentos = 4; intentos > 0; intentos--) {
+                        try {
+                              const { datos, sha } = await leerJSON(CLIENTES_API);
+                              const marcados = new Set([...enviados, ...fueraVentana.map((f) => f.c.telefono)]);
+                              if (!marcados.size) return;
+                              for (const c of datos) {
+                                    if (!marcados.has(c.telefono)) continue;
+                                    c.escasezFecha = hoy;
+                                    const sesionViva = sesiones[c.telefono];
+                                    if (sesionViva && Array.isArray(sesionViva.transcripcion) && sesionViva.transcripcion.length >= (c.conversacion || []).length) c.conversacion = sesionViva.transcripcion;
+                              }
+                              await guardarJSON(CLIENTES_API, datos, sha, `Escasez dia siguiente: ${enviados.length} clientes`);
+                              return;
+                        } catch (e) {
+                              if (!(e.response?.status === 409 || e.response?.status === 422)) throw e;
+                        }
+                  }
+            });
+            if (fueraVentana.length) {
+                  for (let intentos = 4; intentos > 0; intentos--) {
+                        try {
+                              const { datos, sha } = await leerJSON(REACTIVAR_API);
+                              const pendientes = new Set(datos.filter((x) => !x.enviado).map((x) => x.telefono));
+                              const nuevos = fueraVentana
+                                    .filter((f) => !pendientes.has(f.c.telefono))
+                                    .map((f) => {
+                                          const p = catalogo.find((x) => x.id === (f.c.ultimoProducto || f.c.pedido?.productoId));
+                                          return { telefono: f.c.telefono, nombre: f.c.nombre || "", categoria: f.c.ultimaCategoria || p?.categoria || null, producto: p ? p.nombreCorto || p.nombre : "nuestros productos", ultimoMensajeCliente: f.ultimoMensajeCliente, enPedido: false, enviado: false };
+                                    });
+                              const resto = datos.filter((x) => !nuevos.some((n) => n.telefono === x.telefono));
+                              await guardarJSON(REACTIVAR_API, [...nuevos, ...resto], sha, `Escasez dia siguiente: ${nuevos.length} clientes a la plantilla`);
+                              break;
+                        } catch (e) {
+                              if (!(e.response?.status === 409 || e.response?.status === 422)) throw e;
+                        }
+                  }
+            }
+            console.log(`Escasez dia siguiente: ${enviados.length} enviados, ${fueraVentana.length} a la plantilla.`);
+      } catch (error) {
+            console.error("Error en escasez del dia siguiente:", error.response?.data || error.message);
+      }
+}
 app.post("/admin/reactivar-lote", requiereLogin, async (req, res) => {
       if (reactivacionEnCurso) return res.redirect("/admin/reactivar-lote");
       res.redirect("/admin/reactivar-lote");
@@ -7528,6 +7643,9 @@ app.listen(PUERTO, () => {
       setInterval(() => {
             tandaReactivacionAutomatica().catch((error) => console.error("Error en reactivacion automatica:", error.response?.data || error.message));
       }, 20 * 60 * 1000);
+      setInterval(() => {
+            escasezDiaSiguiente().catch((error) => console.error("Error en escasez del dia siguiente:", error.response?.data || error.message));
+      }, 5 * 60 * 1000);
       setInterval(() => {
             reactivacionNueveAm().catch((error) => console.error("Error en reactivacion 9 a. m.:", error.response?.data || error.message));
       }, 5 * 60 * 1000);
