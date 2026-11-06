@@ -77,8 +77,8 @@
     "telefono": "573118473844",
     "nombre": "patriciarico2021",
     "primerContacto": "2026-11-06T15:41:09.001Z",
-    "ultimoContacto": "2026-11-06T16:10:58.000Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-06T16:11:28.016Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -225,14 +225,35 @@
         "fecha": "2026-11-06T16:10:56.950Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSQjU1MTA5NkRBRjYxRTAyOUFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jormary Fernández Rico \nGuaviare \nSan José \nBicentenario 2 mz c casa 9",
+        "fecha": "2026-11-06T16:11:23.198Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto Jormary, ya te dejo el pedido listo con los 2 combos x2 reflectores solares Jortan 500W y el reflector solar Jortan 1000W, todo con envío gratis y pago al recibir.\n\nEn breve te van a pedir los datos uno a uno para confirmar tu dirección y celular.\n\n¿Quieres que te ayude con algo más mientras esperas?",
+        "fecha": "2026-11-06T16:11:25.869Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSMUZBQzBGNjhDRUY1OEI4REEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Reflector Solar 1000W Jortan con Panel y Control Remoto* ($ 189.900) 🙌 Ya tengo tu nombre y tu departamento, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-06T16:11:27.081Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSMjJDMTQ1QzQxOTEzNkNGRkIyAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
       "nombreProducto": "Reflector Solar 1000W Jortan con Panel y Control Remoto",
       "precio": 189900,
-      "telefono": "573118473844"
+      "telefono": "573118473844",
+      "nombreCliente": "Todos traen su panel",
+      "departamento": "Guaviare"
     },
     "pausado": false,
     "etapaManual": null,
