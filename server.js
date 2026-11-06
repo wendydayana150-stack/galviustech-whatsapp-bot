@@ -784,6 +784,16 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
                         console.error("Fotos NETUM: no se pudo enviar una foto:", e.message);
                   }
             }
+            // 6-nov-2026 (Wendy: "enviar imagen y video siempre"): el video de la calidad de impresion va en la bienvenida
+            // (antes iba en el primer recordatorio; ese recordatorio ahora sale con el precio y el boton).
+            if (!sesion.videoNetumCalidadEnviado) {
+                  try {
+                        await enviarVideo(telefono, VIDEO_NETUM_CALIDAD, "Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta");
+                        sesion.videoNetumCalidadEnviado = true;
+                  } catch (e) {
+                        console.error("Video NETUM bienvenida:", e.message);
+                  }
+            }
             if (!sesion.fotosEnviadas.includes(netum.id)) sesion.fotosEnviadas.push(netum.id);
             registrarMensaje(telefono, "bot", "[Guion NETUM: necesidad, beneficios y oferta]");
             sesion.guionNetum = true;
@@ -801,13 +811,24 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             const info = infoCategoria("modem");
             const delModem = catalogo.filter((p) => !p.id.startsWith("combo-") && !p.tienda && (p.categoria || "").trim().toLowerCase() === "modem");
             const destacado = delModem.find((p) => p.id === info.variantePorDefecto) || delModem[0];
-            // 5-nov-2026 (Wendy, "enviar menos fotos"): 1 sola foto, sin video. Antes iban 3 fotos + video.
+            // 5-nov-2026 (Wendy, "enviar menos fotos"): 1 sola foto. 6-nov-2026: + el video (abajo).
             const fotoModem = (destacado?.imagenes || []).find((u) => /^https?:\/\//.test(u) && !/\.(mp4|mov|webm)(\?|$)/i.test(u));
             if (fotoModem) {
                   try {
                         await enviarImagen(telefono, fotoModem, info.titulo);
                   } catch (e) {
                         console.error("Foto modem bienvenida:", e.message);
+                  }
+            }
+            // 6-nov-2026 (Wendy: "enviar imagen y video siempre"): despues de la foto va el video del modem.
+            const videoModem = destacado?.video || delModem.find((p) => p.video)?.video;
+            if (videoModem) {
+                  try {
+                        await enviarVideo(telefono, urlVideoServible(videoModem), "Mira cómo funciona el módem WiFi portátil 📶🎥");
+                        if (!sesion.videosEnviados) sesion.videosEnviados = [];
+                        if (destacado && !sesion.videosEnviados.includes(destacado.id)) sesion.videosEnviados.push(destacado.id);
+                  } catch (e) {
+                        console.error("Video modem bienvenida:", e.message);
                   }
             }
             // Oct-2026 (Wendy, estudio de 185 chats: 42 se iban tras una bienvenida sin precio): si el cliente
