@@ -593,6 +593,13 @@
         "fecha": "2026-11-06T20:09:05.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NTM1MzcwFQIAERgSM0M5OUZFRUI2NTVDRjgxRDMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-06T21:14:50.276Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NTM1MzcwFQIAERgSMDk0RkIyNUU4Q0Q2NDREOTcwAA=="
       }
     ],
     "paso": "conversando",
@@ -613,7 +620,12 @@
       "url": "https://fb.me/b219CByaQ",
       "fecha": "2026-11-06T20:09:04.785Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-06T21:14:51.486Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573105438047",
