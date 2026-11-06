@@ -3,8 +3,8 @@
     "telefono": "573105550339",
     "nombre": "Victor Cubides",
     "primerContacto": "2026-11-06T14:41:28.687Z",
-    "ultimoContacto": "2026-11-06T14:41:28.687Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T14:44:45.287Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -51,13 +51,25 @@
         "fecha": "2026-11-06T14:41:27.578Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NTUwMzM5FQIAERgSMEQxRTcxMzkzN0Y0RjM0OEJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Chinavita boyaca",
+        "fecha": "2026-11-06T14:44:41.016Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por decirme que estás en Chinavita, Boyacá.\n\nAhora, ¿para qué necesitas el módem? ¿Trabajo, estudio, tu casa o tu negocio? Así te recomiendo la mejor opción para que tengas internet estable donde lo necesites.",
+        "fecha": "2026-11-06T14:44:44.062Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NTUwMzM5FQIAERgSMjM5NkM2RjhDOTM3NUZDRUI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -71,7 +83,10 @@
       "url": "https://fb.me/7J9iZDs86",
       "fecha": "2026-11-06T14:41:25.686Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573222015689",
