@@ -77,8 +77,8 @@
     "telefono": "573118473844",
     "nombre": "patriciarico2021",
     "primerContacto": "2026-11-06T15:41:09.001Z",
-    "ultimoContacto": "2026-11-06T16:09:37.605Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-06T16:10:58.000Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -206,9 +206,28 @@
         "fecha": "2026-11-06T16:09:36.577Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSQjY5NTI4RTUwMzcwRkQwM0U4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto sé demoran en llegar a San José del Guaviare",
+        "fecha": "2026-11-06T16:10:52.976Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después de que se despache el pedido y el envío es gratis con GalviusTech.\n\n¿Quieres que te deje listo el pedido para que llegue a San José del Guaviare? ¿Me pasas la dirección completa para coordinar?",
+        "fecha": "2026-11-06T16:10:56.395Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSRjE1MjZDQzJGQTUwQzZDQzI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-06T16:10:56.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NDczODQ0FQIAERgSQjU1MTA5NkRBRjYxRTAyOUFDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
       "nombreProducto": "Reflector Solar 1000W Jortan con Panel y Control Remoto",
