@@ -3,8 +3,8 @@
     "telefono": "573227810448",
     "nombre": "colombclaro4",
     "primerContacto": "2026-11-06T22:15:05.956Z",
-    "ultimoContacto": "2026-11-06T22:15:05.956Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T22:15:11.987Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-11-06T22:15:05.096Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3ODEwNDQ4FQIAERgSMkZBQjBERTM5NzlDNTEwQzI1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-06T22:15:07.320Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, para ayudarte con los módems WiFi portátiles 4G y 5G.\n\nDime, ¿en qué municipio o vereda necesitas internet? ¿Y para qué lo usarías más: trabajo, estudio, negocio o en casa? Así te recomiendo el modem que mejor te sirve.",
+        "fecha": "2026-11-06T22:15:10.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3ODEwNDQ4FQIAERgSNUFEQ0QxQ0VFQjAwMzA2MTNFAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
       "url": "https://fb.me/588EJVtYa",
       "fecha": "2026-11-06T22:15:04.556Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215742819",
