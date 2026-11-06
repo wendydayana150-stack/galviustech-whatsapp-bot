@@ -432,8 +432,8 @@
     "telefono": "573205871944",
     "nombre": "tapianeiver",
     "primerContacto": "2026-11-06T21:11:03.371Z",
-    "ultimoContacto": "2026-11-06T21:11:03.371Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-06T22:18:51.989Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -473,6 +473,18 @@
         "fecha": "2026-11-06T22:14:51.865Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSMjFCODRCMDJBNEU4RTdGOTk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-06T22:18:50.866Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-06T22:18:50.866Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSQTY3MDQwOEI4N0JGN0U3MEZGAA=="
       }
     ],
     "paso": "conversando",
@@ -495,9 +507,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T22:14:54.184Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
