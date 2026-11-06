@@ -3165,8 +3165,8 @@
     "telefono": "573009701886",
     "nombre": "astrid",
     "primerContacto": "2026-11-05T23:26:41.187Z",
-    "ultimoContacto": "2026-11-06T15:28:18.681Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-06T15:28:42.614Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3340,11 +3340,18 @@
         "fecha": "2026-11-06T15:28:17.506Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NzAxODg2FQIAERgSMjM0RUVCRDYxQUI0RDg2RUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Astrid! 👋 Te escribo por el *Módem WiFi portátil* que viste 📶\r\n\r\nQuedan las *últimas unidades* en promoción:\r\n• Módem 4G: *$169.900*\r\n• Módem 4G/5G: *$189.900*\r\n• Módem 5G: *$199.900*\r\n(+ $26.000 de envío)\r\n\r\n✅ Le pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador\r\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\r\n\r\n¿Te lo separo? Solo envíame tu nombre, ciudad y dirección 🙌",
+        "fecha": "2026-11-06T15:28:40.145Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NzAxODg2FQIAERgSNzAxRTgwRkYzQ0IyOURDQUIzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
