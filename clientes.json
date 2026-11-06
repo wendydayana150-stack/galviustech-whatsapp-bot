@@ -1722,8 +1722,8 @@
     "telefono": "573027848857",
     "nombre": "Dailson Moreno",
     "primerContacto": "2026-11-06T00:55:24.489Z",
-    "ultimoContacto": "2026-11-06T01:24:58.589Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-06T15:09:59.095Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2250,6 +2250,13 @@
         "fecha": "2026-11-06T12:02:45.555Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSNDdERUUxNEJBM0JCRDBGMzhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, regaleme el nombre del corregimiento y valido",
+        "fecha": "2026-11-06T15:09:57.751Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ4ODU3FQIAERgSOUNCQjY3NDA3MTgyRUJBQjY3AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -2260,7 +2267,7 @@
       "telefono": "573027848857",
       "nombreCliente": "Solo este producto"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2281,10 +2288,7 @@
       "texto": "Que medio de pago maneja \n\n\nDaviplata \nBancolombia \nNequi \nContra entrega"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T12:02:46.608Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
