@@ -3436,8 +3436,9 @@ const ANUNCIA_PREGUNTA = /^\s*(hola[\s,!.]*)?(((tengo|ten[ií]a|hay)\s+)?(una|ot
 // Palabras que no aparecen en un nombre completo pero si en un comentario ("Es para la casa y terreno")
 // El cliente deja la compra para despues ("otro dia me comunico", "luego te escribo", "lo pienso"): oct-2026, Wendy
 const CLIENTE_POSPONE = /(otro d[ií]a|otro momento|m[aá]s adelante|(luego|despu[eé]s|ma[ñn]ana)\s+(te |le |les )?(escrib|comunic|aviso|confirm|hablo|digo)|me comunico|(te|le|les) (escribo|aviso|confirmo|hablo) (luego|despu[eé]s|ma[ñn]ana|otro)|lo (voy a )?pens|por ahora no|cuando tenga|yo[\s.]*((te|le)[\s.]*)?aviso|(te|le|se) lo confirmo|(yo )?(te|le|me) (escribo|comunico|aviso|confirmo|cuento|digo)\b|cuando (decida|me decida|pueda|est[eé] list)|hablamos (luego|despu|desp|otro|ma[ñn]ana|m[aá]s)|lo tendr[eé] en cuenta|m[aá]s tarde|la otra semana|la pr[oó]xima (semana|quincena)|(confirm|escrib|avis|compr|pid|ped|decid|habl|comunic|llam|encarg|separ)\w*\b.{0,40}\b(el |este |esta |pr[oó]xim[oa] )?(lunes|martes|mi[eé]rcoles|jueves|viernes|s[aá]bado|domingo|fin de semana|semana|quincena|mes|enero|febrero|marzo|abril|mayo|junio|julio|agosto|septiembre|octubre|noviembre|diciembre|navidad|a[ñn]o)\b|despu[eé]s del? (\d|los? \d|la quincena|pago|fin))/i;
+// 7-nov-2026 (Wendy, caso Miky "Yo aviso cuando envien"): los pedidos NO se apartan, son unidades en promocion.
 const MENSAJE_APROVECHA_DESCUENTO =
-      "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
+      "Lo siento 🙏 los pedidos no se apartan, ya que son unidades en *PROMOCIÓN* y quedan *pocas unidades* 🔥\n\nSi lo quieres asegurar, lo pedimos ahora mismo y pagas al recibir 🚚 ¿Seguimos?";
 
 // 31-oct-2026: tambien quedaron como nombre "Garantia" (pregunta por la garantia) y "einformacion" (de "Quiero mas informacion")
 const NO_ES_NOMBRE = /informaci|garant[ií]a|econ[oó]mic|\b(xq|xk|aki|aqu[ií]|car[oa]|barat[oa]|m[aá]s|menos|sale|salen|vale|cuesta|hola|quiero|precio|cuotas?|pago|env[ií]o|funciona|aparato|recibir|revibir|eso|esto|esa|se|carga|cargar|llega|sim|simca|simcard|ok|okey|aya|ah|oh|no|si|s[ií]|que|qu[eé]|como|c[oó]mo|cuanto|bueno|listo|gracias|esperando|especial|es|para|porque|por que|casa|terreno|finca|internet|vereda|se[nñ]al|cobertura|aparato|necesito|necesita|estoy|est[aá]|mi|me|lo|le|con|sin|muy|pero|tambi[eé]n|ya|aqu[ií]|all[aá]|bien|mal|usar|uso)\b/i;
@@ -4842,9 +4843,9 @@ async function responderObjecionPrecio(telefono, sesion, texto) {
                   "¿Cuál te gusta más? Te lo dejo listo hoy 🙌";
       } else {
             respuesta =
-                  `Te entiendo 😊 Si quieres, te separo el *${producto.nombreCorto || producto.nombre}* para cuando tengas el dinero, y lo pagas al recibir.\n\n` +
+                  `Te entiendo 😊 Te cuento que el *${producto.nombreCorto || producto.nombre}* no se puede apartar, porque son unidades en *PROMOCIÓN* y quedan pocas. Lo pagas al recibir 🚚\n\n` +
                   "🛍️ Y si buscas algo de menor precio, aquí ves todo lo que tenemos: " + LINK_CATALOGO + "\n\n" +
-                  "¿Para qué fecha te lo aparto?";
+                  "¿Lo pedimos de una vez?";
       }
       await enviarTexto(telefono, respuesta);
       if (Array.isArray(sesion.historial)) {
