@@ -3,8 +3,8 @@
     "telefono": "573132468720",
     "nombre": "EDUARDO GONZALEZ",
     "primerContacto": "2026-11-07T05:02:02.742Z",
-    "ultimoContacto": "2026-11-07T05:02:02.742Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T05:03:43.316Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-07T05:02:01.480Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSRkJENDE4MTZDRDk2MjdENURBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No terrible mantengo viajando",
+        "fecha": "2026-11-07T05:03:35.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-07T05:03:38.966Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSMTEyNUI2QUMzNDU0QkNFQUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-07T05:03:39.777Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSMzc2OEIzNEU5NUNCQjFGOTc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-07T05:03:40.474Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSMjMwQjM2MDdBNTAwMThDMjhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-07T05:03:41.183Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, para quien viaja mucho lo ideal es tener un módem que funcione en distintos lugares y que sea fácil de llevar.\n\nLas 3 opciones que tenemos son:\n• Modem 4G: conexión estable, buen alcance, ideal si en los lugares donde vas hay señal 4G.\n• Modem 4G/5G: la mejor opción para tener señal 4G o 5G según donde estés, versátil y potente.\n• Modem 5G: para zonas donde ya hay buena cobertura 5G y quieres velocidad máxima.\n\nLa inversión está en $199.900 + envío, dependiendo de la versión (el Modem 4G tiene envío gratis).\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o vereda andas para recomendarte mejor qué versión te conviene?",
+        "fecha": "2026-11-07T05:03:41.191Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSQjNBN0U1MEExQTVCMjY4M0Y4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T05:03:42.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNDY4NzIwFQIAERgSREY1NUIzMTU1RURDMkRCRjQ5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/588EJVtYa",
       "fecha": "2026-11-07T05:01:59.379Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573018417828",
