@@ -775,8 +775,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T00:35:34.469Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-07T02:02:48.754Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -884,6 +884,13 @@
         "fecha": "2026-11-07T00:35:33.507Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSOTdBMUFDMkM4QzlEOEUzQjlDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto María! 🙌 Ya casi queda listo tu *Módem WiFi Portátil 4G/5G* 📶\r\n\r\n✅ María Cortez Arias\r\n✅ Cel: 3108562030\r\n✅ Unguía, Chocó\r\n\r\n💰 *$189.900* + $26.000 de envío · 💵 *Pagas al recibir*\r\n\r\nSolo me falta tu *dirección y barrio* para despacharlo *mañana mismo* 🚚\r\n(Si prefieres recogerlo en la oficina de *Interrapidísimo* de Unguía, escríbeme *oficina*)",
+        "fecha": "2026-11-07T02:02:47.495Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSNThBN0IyRkYzM0QyNDBFNDA0AA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -896,7 +903,7 @@
       "nombreCliente": "María cortez arias",
       "celular": "3108562030"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
