@@ -3,8 +3,8 @@
     "telefono": "573507411194",
     "nombre": "Dios es grande",
     "primerContacto": "2026-11-07T22:54:56.344Z",
-    "ultimoContacto": "2026-11-07T22:54:56.344Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T22:55:08.299Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-07T22:54:55.500Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA3NDExMTk0FQIAERgSNTJBQjZDMUM5Mzc5M0FCNzJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Me gustaría conseguir más información sobre esto.",
+        "fecha": "2026-11-07T22:55:06.902Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-07T22:55:06.905Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA3NDExMTk0FQIAERgSMTUwM0I1MzI5RkFDMUU4RDIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-07T22:55:07.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA3NDExMTk0FQIAERgSQkY1MEQ4RTc1NjA5OTIwQkUzAA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +58,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042315101",
