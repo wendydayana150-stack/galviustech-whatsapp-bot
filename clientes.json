@@ -1504,8 +1504,8 @@
     "telefono": "573215697840",
     "nombre": "El lobo solitario",
     "primerContacto": "2026-11-06T23:37:15.236Z",
-    "ultimoContacto": "2026-11-07T01:32:41.086Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-11-07T01:36:01.929Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1890,6 +1890,18 @@
         "fecha": "2026-11-07T01:32:40.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSN0U4N0QzM0Y5NUU0RTYzQUYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo lo avisare",
+        "fecha": "2026-11-07T01:35:59.340Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta a que me escribas cuando estés lista para avanzar con el modem 4G/5G. No hay problema, tómate tu tiempo y cuando quieras seguimos. ¡Gracias por contar conmigo!",
+        "fecha": "2026-11-07T01:36:01.016Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSMjdGQjAwMTVFMzkxMjgzRDMwAA=="
       }
     ],
     "paso": "conversando",
@@ -1900,7 +1912,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
