@@ -409,8 +409,8 @@
     "telefono": "573224802039",
     "nombre": "FREMY MANUELA",
     "primerContacto": "2026-11-07T07:29:10.434Z",
-    "ultimoContacto": "2026-11-07T11:12:48.074Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-07T11:28:12.281Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -570,6 +570,25 @@
         "fecha": "2026-11-07T11:12:46.850Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSQkVCNTk0NzU5NjBBRDEwRERGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es q no entiendo el funciona sin señal....?? A ya en la finca no entra ninguna clase de señal",
+        "fecha": "2026-11-07T11:28:08.596Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico: el módem NO funciona sin señal celular. Necesita que haya al menos algo de señal 4G o 5G para conectarse.\n\nLo que sí hace el módem es captar mejor la señal que un celular común, pero si en la finca no hay señal de ningún operador, el módem tampoco tendrá internet.",
+        "fecha": "2026-11-07T11:28:10.187Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSMkM5QTE0NUFDNkE0RTRGQTU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-07T11:28:11.189Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSOTA3MUFFOEMwRDE4N0VGRDA4AA=="
       }
     ],
     "paso": "pedido_nombre",
