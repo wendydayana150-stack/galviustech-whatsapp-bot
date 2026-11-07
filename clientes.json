@@ -3,8 +3,8 @@
     "telefono": "573042188254",
     "nombre": "~ cuenta privado..",
     "primerContacto": "2026-11-07T21:14:51.574Z",
-    "ultimoContacto": "2026-11-07T21:14:51.574Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T21:19:45.341Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-07T21:14:50.640Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyMTg4MjU0FQIAERgSRTA4ODUwNjAwNTY3QUJBNUEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aaamm bueno",
+        "fecha": "2026-11-07T21:19:41.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, cuéntame en qué municipio o vereda lo necesitas y para qué lo vas a usar (trabajo, estudio, hogar o viajes). Así te recomiendo el módem que mejor se ajusta a tu necesidad para que no te quedes sin internet en esos momentos clave. ¿Qué me dices?",
+        "fecha": "2026-11-07T21:19:43.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyMTg4MjU0FQIAERgSMjgxODFBMzRDN0NCOTc1OTU0AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7IMaoIOMj",
       "fecha": "2026-11-07T21:14:49.593Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218029332",
