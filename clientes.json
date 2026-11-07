@@ -3,8 +3,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-07T22:13:33.617Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-07T22:14:28.457Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,6 +200,25 @@
         "fecha": "2026-11-07T22:13:32.853Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkM0MUM0QzVGRENBRDZCRTA4RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pago Cuando recibo mi pedido gracias",
+        "fecha": "2026-11-07T22:14:25.547Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Así es, Luis, pagas al recibir tu pedido en la oficina de la transportadora, sin necesidad de dar dinero por adelantado. Además, tienes garantía de 30 días por cualquier inconveniente.",
+        "fecha": "2026-11-07T22:14:27.085Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkJDQUQzNTFBNDFFQkMwOTVDMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-07T22:14:27.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjk2NDg4NzA0QUE2NjM1QTBCRAA="
       }
     ],
     "paso": "pedido_pago",
