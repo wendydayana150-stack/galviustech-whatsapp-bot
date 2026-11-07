@@ -165,8 +165,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T14:30:21.494Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-07T14:30:40.177Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -517,6 +517,18 @@
         "fecha": "2026-11-07T14:30:20.635Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSQjRCMzAyNTZDNUU4REEzNDZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ah no entonces asi no me servirá",
+        "fecha": "2026-11-07T14:30:37.771Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por la sinceridad, es mejor saberlo antes de que compres y el equipo no te sirva.\n\nSi en algún momento tienes señal débil o cambias de zona, aquí estaremos para ayudarte con el módem que necesitas.\n\n¿Quieres que te muestre otras opciones de productos para mejorar tu conectividad o seguridad?",
+        "fecha": "2026-11-07T14:30:39.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSNEUzOEQyNzRDMDVGQ0UxNEYyAA=="
       }
     ],
     "paso": "conversando",
@@ -527,7 +539,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-11-29",
