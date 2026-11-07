@@ -3,8 +3,8 @@
     "telefono": "573217221137",
     "nombre": "Mïky😍😍",
     "primerContacto": "2026-11-07T21:22:43.006Z",
-    "ultimoContacto": "2026-11-07T21:36:17.488Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-07T21:36:30.457Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -167,16 +167,29 @@
         "fecha": "2026-11-07T21:36:16.509Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjIxMTM3FQIAERgSM0JFNEE2RUUyODNBMURDQUQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barbacoas Nariño",
+        "fecha": "2026-11-07T21:36:29.559Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-07T21:36:29.560Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjIxMTM3FQIAERgSQjkyNjQ0RkJGN0VDMDIzMDU1AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573217221137",
       "nombreCliente": "José Manuel Ángulo",
-      "celular": "3217221137"
+      "celular": "3217221137",
+      "departamento": "Narino"
     },
     "pausado": false,
     "etapaManual": null,
