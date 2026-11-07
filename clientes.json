@@ -512,6 +512,13 @@
         "fecha": "2026-11-07T13:16:41.488Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NTgyOTYzFQIAERgSOTlENzlENjJDQjhDQ0I3OTU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-07T14:20:46.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NTgyOTYzFQIAERgSNUI1ODMxMEQzRDI5OEEwRTgyAA=="
       }
     ],
     "paso": "conversando",
@@ -532,7 +539,12 @@
       "url": "https://fb.me/5SysET6Tq",
       "fecha": "2026-11-07T13:16:40.100Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573226188296",
@@ -680,6 +692,13 @@
         "fecha": "2026-11-07T13:45:15.738Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSRDI2M0Y5MEQ5QkE5NzgyOEUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-07T14:20:47.824Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSMzgyRDFBNENERkFCRjBDRDg0AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -707,7 +726,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z"
     }
   },
   {
@@ -1151,6 +1172,13 @@
         "fecha": "2026-11-07T12:37:59.056Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQzVEOEFFMzJBRDhEMkU5OTFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-07T14:20:48.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSREJERjUwMUJFQzAyRTM3ODUzAA=="
       }
     ],
     "paso": "conversando",
@@ -1173,7 +1201,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z"
     }
   },
   {
@@ -1654,6 +1684,13 @@
         "fecha": "2026-11-07T12:14:09.150Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSOUJGMkMxNjlENzhGN0RGNkRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de *GALVIUSTECH*.\n\n¡No queremos que te quedes sin tu *MODEM WIFI PORTATIL 4G/5G* 📶🔥\n\nEstamos organizando los pedidos y quedan las *últimas unidades* disponibles.\n\n🎁 Recuerda que tienes:\n🚚 *ENVÍO A TODA COLOMBIA.*\n💵 *PAGO CONTRAENTREGA.*\n📦 Recibes y pagas al momento de la entrega.\n\n¡Aprovecha la disponibilidad actual!\n\nSolo necesitamos tus datos para dejar tu pedido listo. ❤️\n\n¿Te reservamos tu *Módem*?\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-07T14:20:49.930Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSMTM5Q0NBRjJBRjZDMzAyN0VFAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1682,9 +1719,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-07T12:14:30.344Z"
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z",
+      "horas1": true
     }
   },
   {
@@ -1992,6 +2030,13 @@
         "fecha": "2026-11-07T11:12:11.692Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4OTMyMzIxFQIAERgSRTIwRkI4NTJFQkRDNDVBRjRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-07T14:20:51.011Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4OTMyMzIxFQIAERgSQTJDMEFBOTU3M0IzOTc3NDc5AA=="
       }
     ],
     "paso": "conversando",
@@ -2014,7 +2059,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z"
     }
   },
   {
@@ -4485,6 +4532,13 @@
         "fecha": "2026-11-07T12:14:55.500Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSNDY2OEYzMDFGMUJBOEMyNUU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-07T14:20:52.153Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSMTBEMUE2Q0Y3RjlEMDRBREEyAA=="
       }
     ],
     "paso": "conversando",
@@ -4507,7 +4561,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-07T14:20:53.375Z"
     }
   },
   {
