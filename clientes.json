@@ -3,8 +3,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-07T22:13:29.620Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-07T22:13:33.617Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,9 +188,21 @@
         "fecha": "2026-11-07T22:13:28.735Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkFDQ0Q5Mjk3NzgzRDJGOEI3MAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luis Conal Gutierrez Gaitan",
+        "fecha": "2026-11-07T22:13:32.851Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-07T22:13:32.853Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkM0MUM0QzVGRENBRDZCRTA4RAA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -199,7 +211,8 @@
       "departamento": "Vichada",
       "direccion": "Recoge en oficina de Coordinadora",
       "celular": "1006950956",
-      "nombreCliente": "Luis Conal Gutierrez Gaitan"
+      "nombreCliente": "Luis Conal Gutierrez Gaitan",
+      "ciudad": "Luis Conal Gutierrez Gaitan"
     },
     "pausado": false,
     "etapaManual": null,
