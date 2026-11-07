@@ -4650,6 +4650,22 @@ function ultimaPreguntaDe(texto) {
 const OFRECE_OTRA_COSA = /(te explique|te cuente|te muestre|te mande (fotos|el video|m[aá]s)|te env[ií]e (fotos|el video)|te avise|te recuerde|te agende|otr[oa]s? (opciones|productos))/i;
 const PREGUNTA_CIERRE = /(te lo env[ií]o|te la env[ií]o|pedido listo|listo (el|tu) pedido|dejar(te)? (tu|el) pedido|quieres que te (lo|la|deje|ayude)|te (lo|la) (separo|dejo|aparto)|lo pedimos|seguimos con tu pedido|quieres pedir|s[ií], env[ií]amelo|cu[aá]l te llevas|te lo mando|lo quieres|la quieres|en qu[eé] (ciudad|municipio)|cu[aá]l es tu ciudad|a qu[eé] ciudad|desde qu[eé] ciudad|tus datos|nombre completo|continuamos con tu pedido|aprovechar el precio especial|te gustar[ií]a aprovecharlo)/i;
 
+const PREGUNTA_UBICACION = /(de )?d[oó]nde (son|est[aá]n|quedan|se ubican|los ubico|despachan)|ubicad[oa]s|tienda f[ií]sica|en qu[eé] ciudad (est[aá]n|quedan)/i;
+const PREGUNTA_SI_SIRVE = /(sirve|funciona|me sirve|sirva)\s+(para|pa)\b|para (esos|estos|mis) (trabajos|documentos|tareas)/i;
+const PRECIO_DEL_PAPEL = /(papel|hojas?|rollos?)\b.{0,25}\b(cu[aá]nto|precio|valor|vale|cuesta)|(cu[aá]nto|precio|valor|vale|cuesta)\b.{0,25}\b(papel|hojas?|rollos?)/i;
+// Cuantos temas distintos pregunta el cliente en el mismo mensaje (2 o mas: que responda la IA, no una respuesta fija)
+function preguntaVariasCosas(texto) {
+      const t = String(texto || "");
+      const temas = [
+            PREGUNTA_UBICACION.test(t),
+            PREGUNTA_SI_SIRVE.test(t),
+            OBJECION_PAPEL.test(t),
+            OBJECION_COLOR.test(t),
+            PREGUNTA_PRECIO.test(t) && !PRECIO_DEL_PAPEL.test(t),
+      ];
+      return temas.filter(Boolean).length >= 2;
+}
+
 // Respuestas fijas a las objeciones de la impresora (ver GUION NETUM). Solo si se viene hablando de impresoras.
 // Cada respuesta termina con una pregunta de cierre (o de uso, si aun no se sabe para que la quiere).
 async function responderObjecionImpresora(telefono, sesion, texto) {
@@ -4657,6 +4673,10 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
       if (nombrado && !esImpresoraSuelta(nombrado.id)) return false;
       const hablaDeImpresora = sesion.ultimaCategoria === "impresora" || esImpresoraSuelta(sesion.ultimoProducto) || /impresora/i.test(texto);
       if (!hablaDeImpresora) return false;
+      // 7-nov-2026 (Wendy, caso "te amo"): el cliente pregunto en UN mensaje de donde somos, el precio, si sirve
+      // para sus trabajos y que papel usa; la respuesta fija del papel solo contesto el papel y el resto quedo sin
+      // respuesta. Si el mensaje trae varias preguntas, responde la IA (ya conoce las reglas del papel y el color).
+      if (preguntaVariasCosas(texto)) return false;
       const netum = catalogo.find((p) => p.id === "impresora-termica");
       const sabeUso = !!sesion.usoImpresora || yaRespondioUsoImpresora(sesion);
       let respuesta = null;
