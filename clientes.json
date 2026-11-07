@@ -12164,8 +12164,8 @@
     "telefono": "573001611258",
     "nombre": "Angel",
     "primerContacto": "2026-11-06T13:39:50.794Z",
-    "ultimoContacto": "2026-11-06T13:39:50.794Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T15:19:25.138Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -12226,6 +12226,13 @@
         "fecha": "2026-11-06T15:47:35.026Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAxNjExMjU4FQIAERgSQjQzQjhGRDBFMEJBMjBFNzEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Angel, sobre nuestros productos",
+        "fecha": "2026-11-07T15:19:24.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAxNjExMjU4FQIAERgSOTM3MEY2M0IxQkYyNjlERTY5AA=="
       }
     ],
     "paso": "conversando",
@@ -12248,10 +12255,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T15:47:37.609Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-7"
   },
