@@ -2138,8 +2138,8 @@
     "telefono": "CO.1459518176328481",
     "nombre": "Manuel Hernández",
     "primerContacto": "2026-11-07T01:47:22.516Z",
-    "ultimoContacto": "2026-11-07T01:47:22.516Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T14:06:07.726Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2186,6 +2186,25 @@
         "fecha": "2026-11-07T12:14:13.951Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ1OTUxODE3NjMyODQ4MRUUABEYEkUzMTUzODVBMTA5MDQ5ODcxRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Manuel! 👋 Ayer te interesó *Impresora NETUM* 🔥\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*.\n\n💰 Antes ~$ 356.900~, hoy *$ 249.900* con *envío GRATIS* 🚚\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te la separo antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌",
+        "fecha": "2026-11-07T14:04:56.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1OTUxODE3NjMyODQ4MRUUABEYEjkwN0YyRUU1NDFDRDY1ODI5MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo t aviso reina",
+        "fecha": "2026-11-07T14:06:04.968Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Manuel, quedo atenta para cuando decidas 😌 Recuerda que esta promo dura poco y se están agotando rápido. Si quieres, te puedo ayudar a dejar el pedido listo ya mismo y así no pierdes la oportunidad. ¿Quieres que te lo deje preparado?",
+        "fecha": "2026-11-07T14:06:06.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1OTUxODE3NjMyODQ4MRUUABEYEkFENUU0QkM4RDdCOEU1NDQ4QgA="
       }
     ],
     "paso": "conversando",
@@ -2196,17 +2215,14 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T12:14:30.344Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
