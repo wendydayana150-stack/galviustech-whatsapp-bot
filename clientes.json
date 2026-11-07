@@ -3,8 +3,8 @@
     "telefono": "CO.1139183905133502",
     "nombre": "miltongon80",
     "primerContacto": "2026-11-07T01:27:55.232Z",
-    "ultimoContacto": "2026-11-07T01:27:55.232Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T01:28:56.261Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,14 +24,39 @@
         "fecha": "2026-11-07T01:27:54.333Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzOTE4MzkwNTEzMzUwMhUUABEYEjQ4QjNEOERDRTc3Q0FBOEZENgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas, impresora portátil qué pueda llevar en carro",
+        "fecha": "2026-11-07T01:28:54.657Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Térmica Portátil NETUM",
+        "fecha": "2026-11-07T01:28:54.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzOTE4MzkwNTEzMzUwMhUUABEYEkQ2Q0NGRTU1MjA2QTg2QTI2RgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Guion NETUM: necesidad, beneficios y oferta]",
+        "fecha": "2026-11-07T01:28:55.245Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "🖨️ *IMPRESORA TÉRMICA PORTÁTIL NETUM*\nImprime tus apuntes, documentos y trabajos *SIN TINTA* ni cartuchos, desde tu celular por Bluetooth 📱\n\n🎁 Antes ~$ 356.900~, *hoy $ 249.900*\n🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*\n🚨 Últimas unidades de la promoción\n\n🏷️ Para etiquetas o algo más económico, tenemos otras desde $109.900\n\n😍 *¿Quieres aprovechar el precio especial?*",
+        "fecha": "2026-11-07T01:28:55.245Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzOTE4MzkwNTEzMzUwMhUUABEYEkZCQjk1ODBGOEU3Qzk4ODE1NgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimoProducto": "impresora-termica",
+    "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -39,7 +64,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573184202274",
