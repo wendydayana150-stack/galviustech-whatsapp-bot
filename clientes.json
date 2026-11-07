@@ -3,8 +3,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-07T22:12:29.634Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-07T22:13:08.362Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,6 +164,18 @@
         "fecha": "2026-11-07T22:12:28.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkRDNTE5MDc3QkQxOUVDRkU2NgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Luis Conal Gutierrez Gaitan  CC 1006950956",
+        "fecha": "2026-11-07T22:13:07.359Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-11-07T22:13:07.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkNENDlENkY2NTczRTA4NUZDMgA="
       }
     ],
     "paso": "pedido_nombre",
@@ -173,7 +185,8 @@
       "precio": 199900,
       "telefono": "CO.2065632907475071",
       "departamento": "Vichada",
-      "direccion": "Recoge en oficina de Coordinadora"
+      "direccion": "Recoge en oficina de Coordinadora",
+      "celular": "1006950956"
     },
     "pausado": false,
     "etapaManual": null,
