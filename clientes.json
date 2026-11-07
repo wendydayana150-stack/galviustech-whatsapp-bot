@@ -437,8 +437,8 @@
     "telefono": "573226188296",
     "nombre": "Carlos Hernández",
     "primerContacto": "2026-11-07T13:07:24.254Z",
-    "ultimoContacto": "2026-11-07T13:09:56.658Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-07T13:44:55.065Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -548,6 +548,18 @@
         "fecha": "2026-11-07T13:44:07.402Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSODE5MTg2OUZFMDJBQkM0MkI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "😎😎😎",
+        "fecha": "2026-11-07T13:44:54.089Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-11-07T13:44:54.095Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSNkJDQkQxQzQ0QUE2NTg2NjI3AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -575,9 +587,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-07T13:44:10.711Z"
+      "seguimientosEnviados": 0
     }
   },
   {
