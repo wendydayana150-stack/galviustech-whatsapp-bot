@@ -675,8 +675,8 @@
     "telefono": "573215697840",
     "nombre": "El lobo solitario",
     "primerContacto": "2026-11-06T23:37:15.236Z",
-    "ultimoContacto": "2026-11-07T00:20:28.791Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-11-07T00:25:57.816Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -915,6 +915,18 @@
         "fecha": "2026-11-07T00:20:27.898Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSQzU0MjcyNEQzOEMzNTYxODA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sii pero entonces como voy a usar y en el campo donde yo vivo no agarra señal",
+        "fecha": "2026-11-07T00:25:54.760Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en el campo donde vives no hay señal de ningún operador, el módem no podrá conectarse porque necesita esa señal para transformar en WiFi. \n\nLo que sí puede hacer el módem es captar señal donde el celular no agarra bien porque tiene antena más potente, pero si no hay señal alguna, no funcionará. \n\nPor eso, antes de confirmar, revisa si en algún punto cercano sí hay algo de señal móvil. \n\nSi quieres, te ayudo a buscar alternativas o a evaluar si tu zona podría tener cobertura con el módem. ¿Quieres?",
+        "fecha": "2026-11-07T00:25:56.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSNTdBODIxNzA2MTFEMTU4MkVGAA=="
       }
     ],
     "paso": "conversando",
