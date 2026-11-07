@@ -257,8 +257,8 @@
     "telefono": "573224802039",
     "nombre": "FREMY MANUELA",
     "primerContacto": "2026-11-07T07:29:10.434Z",
-    "ultimoContacto": "2026-11-07T11:12:07.379Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-07T11:12:37.355Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -375,6 +375,18 @@
         "fecha": "2026-11-07T11:12:06.056Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSNURBMjVCMzZDNTJFOUVDNjFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A pero si funciona con sim a ya no entra señal",
+        "fecha": "2026-11-07T11:12:35.056Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem usa una SIM de cualquier operador (Claro, Movistar, Tigo, WOM) para capturar la señal y convertirla en WiFi.\n\nSi allá tienes señal de alguno de esos operadores, el módem te dará mejor cobertura y conexión estable que el celular, incluso donde tu celular a veces no agarra bien señal.\n\n¿Ya tienes SIM o prefieres que te enviemos una para que pruebes cómo te funciona?",
+        "fecha": "2026-11-07T11:12:36.125Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0ODAyMDM5FQIAERgSQ0I4N0UwQzZBODMyMzU0OUY3AA=="
       }
     ],
     "paso": "conversando",
