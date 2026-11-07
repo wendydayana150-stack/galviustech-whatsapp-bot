@@ -3249,7 +3249,9 @@ function datosDichosEnConversacion(sesion) {
             if (campos.celular && /^3\d{9}$/.test(campos.celular)) datos.celular = campos.celular;
             if (campos.departamento) datos.departamento = campos.departamento;
             if (campos.medioPago) datos.medioPago = esPagoSistecredito(campos.medioPago) ? "Sistecrédito" : campos.medioPago;
-            if (/nombre/i.test(preguntaBot) && /^[a-záéíóúñü]+(\s+[a-záéíóúñü]+){1,4}$/i.test(texto) && !campos.departamento) datos.nombreCliente = texto;
+            // 7-nov-2026 (caso Yese Cabrera): a "¿me das tu nombre?" respondio "Oye cuanto meses aguanta eso" y quedo
+            // como nombre (y su nombre real termino guardado como ciudad). Las preguntas no son un nombre.
+            if (/nombre/i.test(preguntaBot) && /^[a-záéíóúñü]+(\s+[a-záéíóúñü]+){1,4}$/i.test(texto) && !campos.departamento && !NO_ES_NOMBRE.test(texto)) datos.nombreCliente = texto;
             // LA CIUDAD NUNCA SE DEDUCE de la charla (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
             // vereda...? ¿para tu hogar?" respondio "Hogar" y quedo Ciudad: Hogar, sin preguntarsela). Siempre se
             // le pregunta en el paso pedido_ciudad y se guarda lo que ella responda.
