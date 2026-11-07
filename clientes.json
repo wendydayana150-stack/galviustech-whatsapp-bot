@@ -10305,8 +10305,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-06T15:28:33.097Z",
-    "ultimoContacto": "2026-11-06T15:29:10.897Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-07T15:42:57.224Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10347,6 +10347,18 @@
         "fecha": "2026-11-07T14:16:40.581Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSRDkwN0RDMkIzMkJCNkFBNEM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias debo esperar la próxima semanaconversamosos",
+        "fecha": "2026-11-07T15:42:56.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?",
+        "fecha": "2026-11-07T15:42:56.186Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNzc0N0FENUVCRUI3RUY5MkZFAA=="
       }
     ],
     "paso": "conversando",
@@ -10359,15 +10371,17 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-14",
+      "texto": "Gracias debo esperar la próxima semanaconversamosos",
+      "desde": "2026-11-07T15:42:56.181Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T17:35:12.160Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-7"
   },
