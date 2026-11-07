@@ -6209,8 +6209,8 @@
     "telefono": "573239540355",
     "nombre": "Juan  😎",
     "primerContacto": "2026-11-06T21:20:22.487Z",
-    "ultimoContacto": "2026-11-06T22:30:37.111Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-07T14:20:41.253Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6420,6 +6420,18 @@
         "fecha": "2026-11-07T14:10:30.686Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NTQwMzU1FQIAERgSM0JCRTk5OTY1NkI4OTdBOTFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-11-07T14:20:38.000Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que el modem pueda parecer caro, pero piensa que es una inversión que te brinda internet donde no hay fibra, sin contratos ni mensualidades.\n\nCon una sola recarga compartes internet en toda la casa o finca, ideal para familia, trabajo o estudio.\n\nSi quieres, también puedo mostrarte impresoras portátiles o lámparas solares que tenemos más económicas para complementar. ¿Quieres que te muestre esas opciones?",
+        "fecha": "2026-11-07T14:20:40.201Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NTQwMzU1FQIAERgSNTQzNjhFMEE3NkY5M0Y2OTRFAA=="
       }
     ],
     "paso": "conversando",
@@ -6437,10 +6449,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T12:14:30.344Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true,
     "escasezFecha": "2026-11-7"
