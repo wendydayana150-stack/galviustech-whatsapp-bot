@@ -516,8 +516,8 @@
     "telefono": "573215697840",
     "nombre": "El lobo solitario",
     "primerContacto": "2026-11-06T23:37:15.236Z",
-    "ultimoContacto": "2026-11-06T23:55:59.347Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-07T00:14:44.401Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -670,6 +670,25 @@
         "fecha": "2026-11-06T23:55:56.330Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSMzFFMTE3RDlFQUE0QkU4QzU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sii estoy muy seguro y lo quiero porque en el campo donde yo vivo no ahí señal por eso lo quiero más pero también quiero que el producto sea original",
+        "fecha": "2026-11-07T00:14:40.769Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem 4G/5G de GalviusTech es 100% original y cuenta con garantía de 30 días y soporte directo con nosotros. \n\nEste equipo está pensado justamente para lugares con señal débil o intermitente, como tu zona rural en Acandí, y tiene antena potente para captar señal mucho mejor que un celular común. \n\nTe lo envío confiado, llega sellado para que puedas revisar antes de pagar. \n\n¿Quieres que te deje el pedido listo entonces?",
+        "fecha": "2026-11-07T00:14:42.758Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSODZCNUQyMkZDQUQwMTJGREQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido del *Modem WiFi Portatil 4G/5G* ya quedó confirmado y registrado, no hace falta confirmarlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-11-07T00:14:43.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSQThCM0YxMzJEOTE5OTVCNTMyAA=="
       }
     ],
     "paso": "conversando",
@@ -690,7 +709,10 @@
       "url": "https://fb.me/6y6wd98zu",
       "fecha": "2026-11-06T23:37:13.626Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-07T00:14:40.769Z",
+      "texto": "Sii estoy muy seguro y lo quiero porque en el campo donde yo vivo no ahí señal por eso lo quiero más pero también quiero"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
