@@ -7985,8 +7985,8 @@
     "telefono": "573159967660",
     "nombre": "סמואל מולינה גיל",
     "primerContacto": "2026-11-06T18:48:55.598Z",
-    "ultimoContacto": "2026-11-06T18:48:55.598Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T14:12:43.540Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8061,13 +8061,25 @@
         "fecha": "2026-11-07T13:10:51.762Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU5OTY3NjYwFQIAERgSQkZCMEUxMzhERTc5Mjk5ODc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días, perdóname, preguntar, no es comprar, recuerda que hay un dicho que dice: el que pregunta es porque quiere saber!!! Por ahora está bien así, gracias!",
+        "fecha": "2026-11-07T14:12:40.578Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, totalmente de acuerdo 😊 Preguntar siempre ayuda a tomar la mejor decisión.\n\nCuando quieras, aquí estaré para aclararte cualquier duda sobre el módem o cualquier otro producto de GalviusTech.\n\n¿Quieres que te deje la info guardada para cuando decidas que te la envío sin compromiso? Así la tienes a mano.",
+        "fecha": "2026-11-07T14:12:42.552Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5OTY3NjYwFQIAERgSQkZENDRFQkM1RUNCOEU0MEI5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -8083,10 +8095,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T20:54:52.711Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true
   },
