@@ -3,8 +3,8 @@
     "telefono": "573184202274",
     "nombre": "Arboleda",
     "primerContacto": "2026-11-07T01:26:43.821Z",
-    "ultimoContacto": "2026-11-07T01:26:43.821Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T01:26:55.510Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-07T01:26:42.931Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0MjAyMjc0FQIAERgSOTk5QUYxNzQxODZCMjU2REQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-07T01:26:53.749Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-07T01:26:53.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MjAyMjc0FQIAERgSRDg2NUVENjY3MjVDMkM1MTI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-07T01:26:54.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MjAyMjc0FQIAERgSRTE2NTVDQ0I5NUE1RTNBQTIwAA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +58,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573052552612",
