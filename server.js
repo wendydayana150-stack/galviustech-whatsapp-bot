@@ -5214,12 +5214,17 @@ async function manejarTextoLibre(telefono, texto) {
                   const ultimoBloque = visible.split(/\n\s*\n/).pop() || "";
                   // Si Michell ya termino con una pregunta, o el boton "¿Te lo envio?" salio en sus ultimos mensajes, no se agrega otro
                   const botonReciente = (sesion.transcripcion || []).filter((m) => m.rol === "bot").slice(-4).some((m) => /Te lo env[ií]o\?|Te la env[ií]o\?/.test(m.texto || ""));
-                  if (!cierreEnviado && !productoId && !botonReciente && !/\?\s*$/.test(ultimoBloque.trim()) && /\$\s?\d/.test(visible) && !PREGUNTA_CIERRE.test(ultimoBloque)) {
+                  // 6-nov-2026 (Wendy: "solo envia mensaje sin pregunta de cierre, siempre lo mismo"): Michell terminaba con
+                  // "¿En que ciudad estas?" o "¿a tu casa o en la oficina?" y eso contaba como cierre, o el precio venia como
+                  // "$189.900 + $26.000 de envio" y la linea se descartaba por decir "envio" (0 precios = sin boton). Ahora
+                  // solo cuenta como cierre una pregunta de compra directa, y el envio se quita del precio antes de contar.
+                  const COMPRA_DIRECTA = /(te (lo|la) env[ií]o|te (lo|la) (separo|dejo|aparto|despacho|mando)|s[ií], env[ií]amelo|cu[aá]l te llevas|(lo|la) quieres|dejo (listo )?tu pedido|quieres pedir)/i;
+                  if (!cierreEnviado && !productoId && !botonReciente && /\$\s?\d/.test(visible) && !COMPRA_DIRECTA.test(ultimoBloque)) {
                         cierreEnviado = true;
-                        const sinPapel = visible.split("\n").filter((l) => !/(rollo|hojas|papel|env[ií]o)/i.test(l)).join("\n");
+                        const sinPapel = visible.split("\n").filter((l) => !/(rollo|hojas|papel)/i.test(l)).join("\n").replace(/\+?\s*\$\s?(26|39)[.,]?(000|900)\s*(de\s+)?(env[ií]o)?/gi, "");
                         const precios = (sinPapel.match(/\$\s?\d[\d.,]*/g) || []).length;
                         const nombrados = productosOfrecidos(visible);
-                        const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios === 1 ? idProductoEnfocado : null;
+                        const idCierre = productoActual && catalogo.some((p) => p.id === productoActual) ? productoActual : nombrados.length === 1 ? nombrados[0].id : precios <= 1 ? idProductoEnfocado || sesion.ultimoProducto || null : null;
                         if (idCierre && precios <= 2 && (await preguntarUsoImpresoraSiFalta(telefono, sesion, idCierre))) {
                               sesion.ultimoProducto = idCierre;
                         } else if (idCierre && precios <= 2) {
