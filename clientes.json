@@ -165,8 +165,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T13:32:57.490Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-07T13:40:16.069Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -305,6 +305,18 @@
         "fecha": "2026-11-07T13:32:56.582Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSMjRGMkUxNURFQzBCREEzNDE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea ese mes me pagan",
+        "fecha": "2026-11-07T13:40:13.521Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, puedes pedir el módem cuando ya tengas la plata y te lo enviamos rápido para que lo recibas en 1 a 3 días hábiles según tu ciudad.\n\nSi quieres, mientras tanto te puedo dejar el pedido reservado y lo activamos cuando estés listo.\n\n¿Quieres que te deje el pedido listo para ese momento o prefieres que te explique cómo pagar y las formas disponibles?",
+        "fecha": "2026-11-07T13:40:14.929Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSMjcyM0VGRkNCNUZBRTZGMTEyAA=="
       }
     ],
     "paso": "conversando",
@@ -317,7 +329,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-15",
+      "texto": "Osea ese mes me pagan",
+      "desde": "2026-11-07T13:40:13.523Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
