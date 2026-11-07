@@ -2179,7 +2179,12 @@ async function enviarRecordatoriosPendientes() {
       const ahora = Date.now();
       if (ahora - ultimaRevisionRecordatorios < 10 * 60 * 1000) return;
       ultimaRevisionRecordatorios = ahora;
-      if (!estaEnHorarioComercial()) return;
+      // 6-nov-2026 (Wendy: "escribir a los 30 minutos para recordar y cerrar la venta, no dejar que pase tanto tiempo"):
+      // el recordatorio de pedido a medias de 30 min tambien sale de 8 a 9:30 p. m. (caso Maria: dejo el pedido a las
+      // 7:35 p. m., el de 1 h caia a las 8:35, fuera de horario, y no le llego nada).
+      const bogotaMin = (((new Date().getUTCHours() - 5 + 24) % 24) * 60) + new Date().getUTCMinutes();
+      const soloPedidos30m = !estaEnHorarioComercial();
+      if (soloPedidos30m && !(bogotaMin >= 20 * 60 && bogotaMin < 21 * 60 + 30)) return;
       try {
             const { datos } = await leerJSON(CLIENTES_API);
             const { datos: pedidos } = await leerJSON(PEDIDOS_API);
@@ -2233,7 +2238,7 @@ async function enviarRecordatoriosPendientes() {
                   // horas1/3/5/7/9/11 (que es para el flujo ESTRUCTURADO de pedido, este caso es antes
                   // de eso). Se revisa antes que el resto para no perder el caso si por alguna razon
                   // ultimoContacto tambien coincidiera con otro tier.
-                  if (c.esperandoDatosPedidoLibre && !recordatorios.datosLibre2h) {
+                  if (!soloPedidos30m && c.esperandoDatosPedidoLibre && !recordatorios.datosLibre2h) {
                         const transcurridoDatosLibre = ahora - new Date(c.esperandoDatosPedidoLibre).getTime();
                         if (transcurridoDatosLibre >= 2 * 60 * 60 * 1000) {
                               const clave = `${c.telefono}|datosLibre2h`;
@@ -2255,7 +2260,11 @@ async function enviarRecordatoriosPendientes() {
                   // ahora son 6, cada 2 horas empezando a la 1 hora (1/3/5/7/9/11h), sin correrse mas
                   // alla del mismo tope de 11h que ya existia.
                   let tier = null;
-                  if (transcurrido >= 1 * 60 * 60 * 1000 && !recordatorios.horas1) tier = "horas1";
+                  // Pedido a medias (ya dijo que si y esta dando sus datos): primer recordatorio a los 30 minutos
+                  const pedidoAMedias = /^pedido_/.test(c.paso || "") && !!c.pedido?.productoId;
+                  if (pedidoAMedias && transcurrido >= 30 * 60 * 1000 && !recordatorios.pedido30m) tier = "pedido30m";
+                  else if (soloPedidos30m) tier = null;
+                  else if (transcurrido >= 1 * 60 * 60 * 1000 && !recordatorios.horas1) tier = "horas1";
                   // 29-oct-2026 (Wendy: "clientes que dejan de responder, a las 2 horas enviar mas opciones de producto y
                   // catalogo siempre"): el segundo seguimiento (se sigue llamando horas3) sale a las 2 horas.
                   else if (transcurrido >= 2 * 60 * 60 * 1000 && !recordatorios.horas3) tier = "horas3";
@@ -2313,6 +2322,11 @@ async function enviarRecordatoriosPendientes() {
                               continue;
                         }
 
+                        if (definicionFaltante && p.tier === "pedido30m") {
+                              await enviarTexto(p.telefono, mensajePedido30m(ped, definicionFaltante.pregunta));
+                              recordatoriosEnviadosEnProceso.add(clave);
+                              continue;
+                        }
                         if (definicionFaltante) {
                               await enviarTexto(
                                     p.telefono,
@@ -2487,7 +2501,7 @@ async function marcarRecordatoriosEnviados(pendientes) {
                         cliente.recordatorios.ultimoEnvio = new Date().toISOString();
                         // Suma al tope compartido de 2 seguimientos automaticos (ver comentario en
                         // enviarRecordatoriosPendientes y ejecutarPromoDiaria).
-                        cliente.recordatorios.seguimientosEnviados = (cliente.recordatorios.seguimientosEnviados || 0) + 1;
+                        if (p.tier !== "pedido30m") cliente.recordatorios.seguimientosEnviados = (cliente.recordatorios.seguimientosEnviados || 0) + 1;
                         cambios = true;
                   }
             }
@@ -6989,6 +7003,24 @@ async function reactivacionNueveAm() {
 
 // PEDIDO PENDIENTE CON EL PRODUCTO (31-oct-2026, mensaje de Wendy: "cuando el cliente dice si quiero pero no responde o
 // no envia los datos, enviar mensaje asi adaptandolo al producto"). Va en el primer y segundo recordatorio del pedido.
+// Recordatorio de los 30 minutos del pedido a medias (6-nov-2026, Wendy): le muestra lo que ya dio y le pide solo lo
+// que falta. No gasta el tope de 2 seguimientos (despues siguen los de 1 h y 2 h).
+function mensajePedido30m(ped, preguntaFaltante) {
+      const p = catalogo.find((x) => x.id === ped.productoId);
+      const nombre = String(ped.nombreCliente || "").trim().split(/\s+/)[0] || "";
+      const saludo = /^[A-Za-zÁÉÍÓÚÑáéíóúñ]{2,12}$/.test(nombre) ? `¡Hola ${nombre[0].toUpperCase() + nombre.slice(1).toLowerCase()}! 😊` : "¡Hola! 😊";
+      const ya = [
+            ped.nombreCliente && `✅ ${ped.nombreCliente}`,
+            ped.celular && `✅ Cel: ${ped.celular}`,
+            (ped.ciudad || ped.departamento) && `✅ ${[ped.ciudad, ped.departamento].filter(Boolean).join(", ")}`,
+            ped.direccion && `✅ ${ped.direccion}`,
+      ].filter(Boolean);
+      const producto = p ? `*${p.nombreCorto || p.nombre}*` : "pedido";
+      const precio = p ? `\n\n💰 *${formatearPrecio(p.precio)}*${textoEnvio(p.id)} · 💵 *Pagas al recibir*` : "\n\n💵 *Pagas al recibir*";
+      return `${saludo} Tu ${producto} ya está *casi listo para despachar* 🚚` + (ya.length ? `\n\n${ya.join("\n")}` : "") + precio +
+            `\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 ${preguntaFaltante}`;
+}
+
 function mensajePedidoPendienteProducto(productoId, preguntaFaltante, tier) {
       const p = productoId ? catalogo.find((x) => x.id === productoId) : null;
       if (!p || (tier !== "horas1" && tier !== "horas3")) return null;
