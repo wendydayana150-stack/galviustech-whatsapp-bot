@@ -10305,8 +10305,8 @@
     "telefono": "573006281232",
     "nombre": "hycproduccionesorrego",
     "primerContacto": "2026-11-06T15:28:33.097Z",
-    "ultimoContacto": "2026-11-07T15:42:57.224Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-07T15:43:02.865Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10359,6 +10359,18 @@
         "fecha": "2026-11-07T15:42:56.186Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSNzc0N0FENUVCRUI3RUY5MkZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bye",
+        "fecha": "2026-11-07T15:43:00.474Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por escribir, cualquier cosa aquí estoy para ayudarte 😊 Que tengas un buen día. ¡Hasta pronto!",
+        "fecha": "2026-11-07T15:43:01.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA2MjgxMjMyFQIAERgSRDFBMUQ3REM0MDYwRTMzQjc5AA=="
       }
     ],
     "paso": "conversando",
@@ -10369,7 +10381,7 @@
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-11-14",
