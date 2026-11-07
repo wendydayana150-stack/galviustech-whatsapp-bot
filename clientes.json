@@ -775,8 +775,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T02:21:26.390Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-07T02:22:20.489Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -922,9 +922,21 @@
         "fecha": "2026-11-07T02:21:25.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSRkNCOEVGMzY1REJGODBBNzk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A pero dónde yo vivo no hay señal",
+        "fecha": "2026-11-07T02:22:19.414Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-07T02:22:19.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSMTExRTVBNzIxNTFDNDQ0RkM5AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -932,7 +944,8 @@
       "telefono": "573118608700",
       "departamento": "Choco",
       "nombreCliente": "María cortez arias",
-      "celular": "3108562030"
+      "celular": "3108562030",
+      "ciudad": "A pero dónde yo vivo no hay señal"
     },
     "pausado": false,
     "etapaManual": null,
