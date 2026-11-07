@@ -3,8 +3,8 @@
     "telefono": "573107308166",
     "nombre": ".",
     "primerContacto": "2026-11-07T00:59:46.897Z",
-    "ultimoContacto": "2026-11-07T00:59:46.897Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T01:00:43.557Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,13 +30,25 @@
         "fecha": "2026-11-07T00:59:45.968Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MzA4MTY2FQIAERgSQzY2RDE5QjMwMDU2Nzg5MUEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-07T01:00:40.921Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto. Entonces cuéntame, ¿lo necesitas para trabajar, estudiar, tu hogar o negocio? Así te recomiendo el módem ideal para que aproveches bien la inversión y tengas buena señal donde lo uses.\n\n¿Me cuentas para qué lo quieres?",
+        "fecha": "2026-11-07T01:00:42.532Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MzA4MTY2FQIAERgSOUYyODFEQTM5QjgzMTBBQTdFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -50,7 +62,10 @@
       "url": "https://fb.me/6y6wd98zu",
       "fecha": "2026-11-07T00:59:45.194Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1411252807830451",
