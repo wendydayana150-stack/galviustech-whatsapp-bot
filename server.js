@@ -838,7 +838,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             // precio y se fueron sin contestar. Ahora la bienvenida siempre trae los precios.
             const bienvenida = disponibles.length
                   ? "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n" +
-                    "🔥 *30% de descuento* en todos los módems. Precios (+ $26.000 de envío):\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}`).join("\n") +
+                    "🔥 *30% de descuento* en todos los módems:\n" + disponibles.map((p) => `• *${p.nombreCorto || p.nombre}*: ${formatearPrecio(p.precio)}${ENVIO_GRATIS_IDS.includes(p.id) ? " con *envío GRATIS* 🚚" : " + $26.000 de envío"}`).join("\n") +
                     "\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n" +
                     "📍 ¿En qué municipio o vereda lo vas a usar? Así te digo cuál te funciona mejor."
                   : MENSAJE_BIENVENIDA_MODEM;
@@ -3024,7 +3024,7 @@ async function iniciarPedido(telefono, productoId) {
                   await enviarTexto(telefono, config.mensajeResumenPedido(nuevoPedido));
                   await enviarTexto(telefono, config.mensajeResponsabilidadPedido);
                   recordarPedidoRegistrado(sesion, nuevoPedido);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 , ☀️ todos los Reflectores solares y 📶 Módem 4G con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   await enviarTexto(
                         telefono,
@@ -3618,7 +3618,7 @@ async function finalizarPedidoSesion(telefono) {
                   // Oct-2026 (cliente Davidcorro): el resumen y el compromiso no entraban al historial de la IA, asi que
                   // cuando el cliente respondia "Confirmo mi pedido" el bot le preguntaba que producto queria.
                   recordarPedidoRegistrado(sesion, pedidoAGuardar);
-                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
+                  await enviarListadoProductos(telefono, "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇", "🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 , ☀️ todos los Reflectores solares y 📶 Módem 4G con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍");
             } else {
                   // No le decimos que ya quedo listo si en realidad no se guardo: le avisamos con
                   // honestidad que hubo un problema tecnico, y escalamos a Wendy (necesitaAtencion)
@@ -4449,7 +4449,7 @@ const LISTA_PRODUCTOS_GALVIUS =
 const MENSAJE_OTRAS_OPCIONES =
       "¡Claro que sí! 🙌 Mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n" +
       LISTA_PRODUCTOS_GALVIUS + "\n\n" +
-      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 y ☀️ todos los Reflectores solares con envío GRATIS) y pagas al recibir ✅\n" +
+      "🔥 Todo con *30% de descuento*\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 , ☀️ todos los Reflectores solares y 📶 Módem 4G con envío GRATIS) y pagas al recibir ✅\n" +
       "¿Cuál te llama la atención? 😍 Te muestro fotos y precio al instante 📸";
 
 // Reactivacion con las opciones (29-oct-2026, Wendy: "no se le envio mensaje de reactivar para que el cliente decidiera,
@@ -7186,7 +7186,7 @@ function mensajeEscasezDiaSiguiente(nombreCliente, productoId, categoria) {
       const cierre = `\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te ${la} separo antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌`;
       if (categoria === "modem" || p?.categoria === "modem") {
             const precio = (id) => formatearPrecio(catalogo.find((x) => x.id === id)?.precio || 0);
-            return `${hola} Ayer te interesó el *Módem WiFi portátil* 📶\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*:\n• Módem 4G: *${precio("modem-4g")}*\n• Módem 4G/5G: *${precio("modem-4g5g")}*\n• Módem 5G: *${precio("modem-portatil-5g")}*\n(+ $26.000 de envío)\n\nLe pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador.` + cierre;
+            return `${hola} Ayer te interesó el *Módem WiFi portátil* 📶\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*:\n• Módem 4G: *${precio("modem-4g")}*${textoEnvio("modem-4g")}\n• Módem 4G/5G: *${precio("modem-4g5g")}*${textoEnvio("modem-4g5g")}\n• Módem 5G: *${precio("modem-portatil-5g")}*${textoEnvio("modem-portatil-5g")}\n\nLe pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador.` + cierre;
       }
       if (p) {
             const nombre = p.nombreCorto || p.nombre;
