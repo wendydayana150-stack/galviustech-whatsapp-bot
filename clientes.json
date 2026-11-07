@@ -117,8 +117,8 @@
     "telefono": "573108393308",
     "nombre": "عربيزي",
     "primerContacto": "2026-11-06T23:56:08.013Z",
-    "ultimoContacto": "2026-11-07T00:00:40.813Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-07T00:06:32.778Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -238,6 +238,18 @@
         "fecha": "2026-11-07T00:00:39.789Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSMDE5MEU2RURFOEE5RjRFMjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero cuando no Ay ya señal no tiene wifi",
+        "fecha": "2026-11-07T00:06:30.179Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem necesita que haya señal móvil (4G o 5G) para convertirla en WiFi. Si no hay señal de ningún operador en tu zona, lamentablemente no podrá generar conexión.\n\n¿Pero qué tal si me cuentas en qué municipio o vereda estás? Así te confirmo si el módem puede funcionar bien ahí y cuál es la mejor opción para ti.",
+        "fecha": "2026-11-07T00:06:31.882Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MzkzMzA4FQIAERgSMjZCNDUzMzE1REQ3OEM1OERDAA=="
       }
     ],
     "paso": "conversando",
