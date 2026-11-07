@@ -3,8 +3,8 @@
     "telefono": "573155569322",
     "nombre": "",
     "primerContacto": "2026-11-07T15:33:27.625Z",
-    "ultimoContacto": "2026-11-07T15:33:27.625Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T15:36:20.684Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-07T15:33:26.798Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1NTY5MzIyFQIAERgSNjNCQUFEN0Q5MTk2MkQwQjJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo puedo usar sin estar conectado a una corriente 🔌",
+        "fecha": "2026-11-07T15:36:17.006Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem WiFi portátil funciona con batería recargable USB-C y dura hasta 14 horas de uso continuo sin necesidad de estar conectado a corriente.\n\nPor cierto, ¿en qué lugar lo usarías y para qué lo necesitas principalmente? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-11-07T15:36:19.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1NTY5MzIyFQIAERgSMzY3QTUzQjU3NTg0Njg4NTUwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-07T15:33:25.700Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573146724539",
