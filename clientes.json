@@ -3,8 +3,8 @@
     "telefono": "573145626865",
     "nombre": "mineyis Brito.",
     "primerContacto": "2026-11-07T13:33:50.694Z",
-    "ultimoContacto": "2026-11-07T13:33:50.694Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T13:34:01.861Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-07T13:33:49.554Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NjI2ODY1FQIAERgSREIwRENBQkYwQkM1RUIyMjNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Escanea",
+        "fecha": "2026-11-07T13:33:59.263Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech. La impresora térmica portátil NETUM NO escanea, solo imprime en blanco y negro sin tinta, de forma rápida y desde tu celular. Es ideal para documentos, tareas y facturas cuando no quieres depender de una impresora grande. ¿Para qué la necesitas exactamente? Así te ayudo mejor.",
+        "fecha": "2026-11-07T13:34:00.764Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NjI2ODY1FQIAERgSNjQxQkFGQzIzRDVBQTMxMDAzAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5g1ceOoh3",
       "fecha": "2026-11-07T13:33:48.133Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113428481",
