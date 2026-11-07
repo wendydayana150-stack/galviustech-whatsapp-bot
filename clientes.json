@@ -3,8 +3,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-07T22:05:03.190Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T22:05:56.451Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-07T22:05:02.314Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjkzMTJGQ0NDQzc4N0YyQzYzQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cumaribo vichada",
+        "fecha": "2026-11-07T22:05:50.354Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-07T22:05:53.200Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjk2Q0NDRERGRDNGN0Q5OTE4RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-07T22:05:53.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjY2RDVERDA0N0RGMDhDMkY0RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-07T22:05:54.257Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkVENkMxRUM1REM4NUM2MjBGNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-07T22:05:54.761Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Cumaribo en Vichada. Ahí el envío a domicilio te cuesta $39.900 porque es zona especial.\n\nEn zonas rurales como la tuya, el modem tiene mejor cobertura que un celular normal, porque tiene una antena más potente que facilita la señal 4G y 5G donde otros no llegan.\n\n*Las opciones que tienes son*:\n\n📶 Modem WiFi Portátil 4G: $199.900 con envió GRATIS. Ideal para cubrir lo básico a buen precio.\n\n📶 Modem WiFi Portátil 4G/5G: $199.900 + $39.900 de envío. Funciona en 4G y 5G, perfecto si hay 5G cerca para más velocidad.\n\n📶 Modem WiFi Portátil 5G: $199.900 + $39.900 de envío. Solo si confirmas que tienes buena cobertura 5G en tu zona.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué necesitas el modem? ¿Estudio, trabajo, hogar o negocio? Así afino la recomendación para ti.",
+        "fecha": "2026-11-07T22:05:54.773Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkFCQTlGN0E3Q0IzQTc4RTE1NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-07T22:05:55.347Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkE3MEU4ODYwOERDNEE1RUUwNwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/7IMaoIOMj",
       "fecha": "2026-11-07T22:05:00.921Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573239305319",
