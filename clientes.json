@@ -2162,8 +2162,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T12:22:19.917Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-11-07T12:22:23.243Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2464,6 +2464,18 @@
         "fecha": "2026-11-07T12:22:18.913Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSOEM1MTlFNjU5NEYxREZCREQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me interesa",
+        "fecha": "2026-11-07T12:22:21.629Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por avisarme, quedo atenta si cambias de opinión o necesitas algo en el futuro 😊 ¡Que tengas un buen día!",
+        "fecha": "2026-11-07T12:22:22.342Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSMkFEMUY0MUFCMzQwOUUxRTg5AA=="
       }
     ],
     "paso": "conversando",
@@ -2485,7 +2497,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
