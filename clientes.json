@@ -1803,8 +1803,8 @@
     "telefono": "573225374391",
     "nombre": "Edgar Garcia",
     "primerContacto": "2026-11-06T23:07:04.686Z",
-    "ultimoContacto": "2026-11-07T01:08:40.743Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-07T01:11:03.485Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1873,13 +1873,25 @@
         "fecha": "2026-11-07T01:08:39.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSODgyQzlBMUI2OEI1RDYyM0EwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este es un módem o portátil para saber",
+        "fecha": "2026-11-07T01:11:00.567Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Es un módem WiFi portátil, o sea, que lo llevas a donde quieras para tener internet propio sin depender de cables ni instalaciones, conecta varios dispositivos por WiFi, y funciona con la SIM de tu operador celular.\n\nIdeal para fincas, veredas, viajes, trabajo o estudio en cualquier sitio con señal móvil.\n\n¿En qué lugar planeas usarlo más? Así te recomiendo la mejor opción entre 4G, 4G/5G o 5G.",
+        "fecha": "2026-11-07T01:11:02.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSODkzQkU1MEY5NjgyNTYyODY4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
