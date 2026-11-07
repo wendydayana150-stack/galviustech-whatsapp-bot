@@ -3,8 +3,8 @@
     "telefono": "573105241617",
     "nombre": "🌅",
     "primerContacto": "2026-11-07T00:26:05.678Z",
-    "ultimoContacto": "2026-11-07T00:26:05.678Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T00:27:14.020Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,13 +30,25 @@
         "fecha": "2026-11-07T00:26:04.874Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MjQxNjE3FQIAERgSQkIxOTg4RTIzNkFCQUNDMjJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Son de batería?",
+        "fecha": "2026-11-07T00:27:11.606Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, los módems WiFi portátiles 4G, 4G/5G y 5G cuentan con batería recargable USB-C que dura hasta 14 horas de uso continuo con una carga completa.\n\nAsí puedes tener internet sin estar pegado a un enchufe, ideal para fincas, viajes o donde no tengas corriente eléctrica.\n\n¿Para qué zona o municipio necesitas el módem? Así te recomiendo la mejor opción para tu conexión.",
+        "fecha": "2026-11-07T00:27:13.168Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MjQxNjE3FQIAERgSNURDMzRFQjRCRTdFNDI0MUE4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -50,7 +62,10 @@
       "url": "https://fb.me/588EJVtYa",
       "fecha": "2026-11-07T00:26:04.389Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118608700",
