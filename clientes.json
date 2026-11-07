@@ -2314,8 +2314,8 @@
     "telefono": "573205871944",
     "nombre": "tapianeiver",
     "primerContacto": "2026-11-06T21:11:03.371Z",
-    "ultimoContacto": "2026-11-06T22:18:51.989Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-07T00:40:04.817Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2367,13 +2367,41 @@
         "fecha": "2026-11-06T22:18:50.866Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSQTY3MDQwOEI4N0JGN0U3MEZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Reflector Solar 100W",
+        "fecha": "2026-11-07T00:40:02.518Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 100W",
+        "fecha": "2026-11-07T00:40:02.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSMjc0RTU2NTNENjQ3MzNDM0Q3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reflector Solar 100W GDTimes GD-756 con Control Remoto*\n💰 *$ 138.900* ya con *30% de descuento* 🔥\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-07T00:40:03.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSQzlDQkI0MTY3MUVGRUFEODI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T00:40:03.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1ODcxOTQ0FQIAERgSOTI2MkI5MTg5QTYyMjVEN0U1AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reflector-solar-gdtimes-gd-756-100w"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "reflector-solar-gdtimes-gd-756-100w",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
