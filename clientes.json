@@ -3,8 +3,8 @@
     "telefono": "573108620619",
     "nombre": "Guepar2",
     "primerContacto": "2026-11-07T00:39:14.985Z",
-    "ultimoContacto": "2026-11-07T00:39:14.985Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T00:39:40.579Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,25 @@
         "fecha": "2026-11-07T00:39:14.158Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NjIwNjE5FQIAERgSNjZDODQ1Nzg3OEQ0Mjg5NUM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Venden el papel",
+        "fecha": "2026-11-07T00:39:36.425Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, la Impresora Térmica Portátil NETUM ya incluye papel térmico para que empieces a imprimir de una vez 😄. Además, sí vendemos papel térmico adicional en estas presentaciones:\n\n📝 Rollo tamaño carta 9 metros por $10.000  \n📝 Paquete de 52 hojas tamaño carta por $35.000  \n📝 Paquete de 200 hojas tamaño carta por $75.000  \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nEl papel que usamos es especial para impresión térmica, lo consigues con nosotros o en cualquier papelería. ¿Quieres que te aparte una impresora NETUM y te agrego papel para que no te quedes sin suministros?",
+        "fecha": "2026-11-07T00:39:39.238Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NjIwNjE5FQIAERgSOTMyOTgxQjZCQzg1MTREOTlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-07T00:39:39.758Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NjIwNjE5FQIAERgSNzVBQzczODc0RTc5REVBNEVGAA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +69,10 @@
       "url": "https://fb.me/a9tXnep1A",
       "fecha": "2026-11-07T00:39:13.489Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573205364301",
