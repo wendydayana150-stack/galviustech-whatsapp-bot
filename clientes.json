@@ -1791,8 +1791,8 @@
     "telefono": "573225374391",
     "nombre": "Edgar Garcia",
     "primerContacto": "2026-11-06T23:07:04.686Z",
-    "ultimoContacto": "2026-11-06T23:07:04.686Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T01:05:49.873Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1825,6 +1825,18 @@
         "fecha": "2026-11-07T00:15:47.518Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSQjY1MEZDNzRCNUM1NTREM0EwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo lo voy a pedir pero me salio un compromiso y voy a esperar hasta la otra semana",
+        "fecha": "2026-11-07T01:05:48.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?",
+        "fecha": "2026-11-07T01:05:48.421Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSMDdGODYwNzFDOTlEMzBFN0QwAA=="
       }
     ],
     "paso": "conversando",
@@ -1837,7 +1849,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-13",
+      "texto": "Yo lo voy a pedir pero me salio un compromiso y voy a esperar hasta la otra semana",
+      "desde": "2026-11-07T01:05:48.421Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
@@ -1847,9 +1864,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T00:15:49.314Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
