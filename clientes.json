@@ -3,8 +3,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T13:18:26.046Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T13:21:43.030Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-07T13:18:25.081Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSNDgyQzBCNDY0MTY1NjJBMDRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En cuantos días llega",
+        "fecha": "2026-11-07T13:21:40.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El pedido llega en 1 a 3 días hábiles después del despacho, pero si estás en Bogotá es en 1 a 2 días, y en Medellín en 1 día hábil.\n\nPor cierto, ¿en qué ciudad o municipio estás para confirmarte si te llega a domicilio o debes recoger en oficina?",
+        "fecha": "2026-11-07T13:21:41.921Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSNTExQzY5RkFERjJERTRFODY1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7IMaoIOMj",
       "fecha": "2026-11-07T13:18:23.591Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573009582963",
