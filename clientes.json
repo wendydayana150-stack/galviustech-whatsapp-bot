@@ -182,8 +182,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T00:35:16.840Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-07T00:35:34.469Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -279,16 +279,29 @@
         "fecha": "2026-11-07T00:35:15.785Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSOUZGQ0MxOEFFMTg3RUVGMDI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3108562030",
+        "fecha": "2026-11-07T00:35:33.506Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-07T00:35:33.507Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSOTdBMUFDMkM4QzlEOEUzQjlDAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 189900,
       "telefono": "573118608700",
       "departamento": "Choco",
-      "nombreCliente": "María cortez arias"
+      "nombreCliente": "María cortez arias",
+      "celular": "3108562030"
     },
     "pausado": false,
     "etapaManual": null,
