@@ -63,8 +63,8 @@
     "telefono": "573104104282",
     "nombre": "Luisa",
     "primerContacto": "2026-11-07T11:20:27.994Z",
-    "ultimoContacto": "2026-11-07T11:24:47.734Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-07T12:38:00.200Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -193,6 +193,18 @@
         "fecha": "2026-11-07T12:34:07.391Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSODBDQjhBMTIzMDU2OUNEQUY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Voy a hablar con mi esposo y te cuento",
+        "fecha": "2026-11-07T12:37:59.056Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Solo te cuento que este 🔥 *30% de descuento* es por *últimos días* y quedan *últimas unidades* con esta promoción, así que te recomiendo aprovecharlo ya para no quedarte sin él.\n\nSi quieres te lo dejo apartado ahora mismo y pagas al recibir 🚚 ¿Seguimos?",
+        "fecha": "2026-11-07T12:37:59.056Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQzVEOEFFMzJBRDhEMkU5OTFBAA=="
       }
     ],
     "paso": "conversando",
@@ -215,9 +227,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T12:34:08.553Z"
+      "seguimientosEnviados": 0
     }
   },
   {
