@@ -3,8 +3,8 @@
     "telefono": "CO.1795864254981437",
     "nombre": "Camilo 😘😘😘",
     "primerContacto": "2026-11-07T16:54:18.397Z",
-    "ultimoContacto": "2026-11-07T16:54:18.397Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T16:55:50.344Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-07T16:54:17.489Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEkI4RkRCMTIyRTBGQzQ4M0Y0RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto precio",
+        "fecha": "2026-11-07T16:55:43.453Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-07T16:55:47.012Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEjAwMzM2MUUzQTY5MUIxOEEwRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-07T16:55:47.566Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEjIxMzU2NTQ1Qzg0RDU3RjI2OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-07T16:55:48.137Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEkYyRDQ0RkY1RDZGNzlCMDk4MQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-07T16:55:48.669Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, aquí te va el precio con lo mejor de cada módem:\n\n- *Modem 4G*: ideal para fincas y sitios sin fibra, con mejor cobertura que el celular y 14 horas de batería. Inversión de *$199.900* con envío GRATIS.\n\n- *Modem 4G/5G*: versátil, conecta varios dispositivos, funciona donde haya 4G o 5G, perfecto para trabajo y estudio. La inversión es de *$199.900* + $26.000 de envío.\n\n- *Modem 5G*: la máxima velocidad cuando tienes cobertura 5G, portable y fácil de usar. La inversión es *$199.900* + $26.000 de envío.\n\n✅ Pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas dónde lo usarías para recomendarte el mejor según tu zona?",
+        "fecha": "2026-11-07T16:55:48.678Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEjhBNzQ5QjQyMTIxOUZBRDE5OQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-07T16:55:49.210Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NTg2NDI1NDk4MTQzNxUUABEYEjAxMUVCN0I0NjJEQjE2MTlENQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/7IMaoIOMj",
       "fecha": "2026-11-07T16:54:16.263Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145637882",
