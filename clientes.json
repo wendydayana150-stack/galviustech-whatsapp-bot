@@ -3,8 +3,8 @@
     "telefono": "573246695342",
     "nombre": "Wilmer Sánchez",
     "primerContacto": "2026-11-07T00:01:36.381Z",
-    "ultimoContacto": "2026-11-07T00:01:36.381Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T00:03:34.088Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -30,6 +30,18 @@
         "fecha": "2026-11-07T00:01:35.492Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2Njk1MzQyFQIAERgSNEE3RkU4OEI4MkZEQzVGODZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "tengo una pregunta eso atrae la señal 📶 por que donde yo vivo es una verdad pero la señal es pésima",
+        "fecha": "2026-11-07T00:03:30.438Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 📶 Los módems GalviusTech tienen antenas potentes diseñadas para captar señal más fuerte y dar mejor cobertura que un celular común, especialmente en zonas rurales o con señal débil.\n\nPor eso son ideales para lugares donde el celular no funciona bien. ¿En qué municipio o vereda estás? Así te confirmo cuál modelo te conviene más para esa zona.",
+        "fecha": "2026-11-07T00:03:33.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2Njk1MzQyFQIAERgSNEEwODYzOTAzRjNDNTI2RUY0AA=="
       }
     ],
     "paso": "conversando",
@@ -50,7 +62,10 @@
       "url": "https://fb.me/588EJVtYa",
       "fecha": "2026-11-07T00:01:34.897Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108393308",
