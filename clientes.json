@@ -63,8 +63,8 @@
     "telefono": "573217221137",
     "nombre": "Mïky😍😍",
     "primerContacto": "2026-11-07T21:22:43.006Z",
-    "ultimoContacto": "2026-11-07T21:39:11.995Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-07T21:39:28.824Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -308,6 +308,18 @@
         "fecha": "2026-11-07T21:39:10.953Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MjIxMTM3FQIAERgSQzBDNkNDODE5ODBCRkNBMEI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No Envíes Todavía",
+        "fecha": "2026-11-07T21:39:26.884Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta cuando quieras continuar. Recuerda que la promoción y el envío son por tiempo limitado, así que cuando decidas me avisas para hacer tu pedido sin problemas. ¿Quieres que te comparta alguna otra info mientras tanto?",
+        "fecha": "2026-11-07T21:39:27.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MjIxMTM3FQIAERgSQzY0OTFFQzAxNUJDOEJCRjk4AA=="
       }
     ],
     "paso": "conversando",
@@ -318,7 +330,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
