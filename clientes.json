@@ -165,8 +165,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T13:40:16.069Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-07T13:40:21.528Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -317,10 +317,36 @@
         "fecha": "2026-11-07T13:40:14.929Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSMjcyM0VGRkNCNUZBRTZGMTEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si quieros para el 29 de noviembre en tierralta cordoba \nEl 27 me lo despache para que el 29 esté ya en la oficina interrapidisimo",
+        "fecha": "2026-11-07T13:40:17.961Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para que te llegue el 29 a la oficina de Interrapidisimo en Tierralta, el pedido debe despacharse el 27 a más tardar.\n\nTe ayudo a dejar el pedido listo para que solo confirmes el 27 y lo enviemos sin demora. Así no pierdes tiempo cuando estés listo.\n\n¿Me compartes tu nombre y celular y lo dejo listo de una vez?",
+        "fecha": "2026-11-07T13:40:19.652Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSMzM0ODE1NkYyODNDNkZFMEZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-07T13:40:20.482Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSQ0I2RUMyRTk3QkYyNTMyQjg3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573024004585",
+      "departamento": "Cordoba",
+      "direccion": "Recoge en oficina de Interrapidísimo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -330,9 +356,9 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
-      "fecha": "2026-11-15",
-      "texto": "Osea ese mes me pagan",
-      "desde": "2026-11-07T13:40:13.523Z",
+      "fecha": "2026-11-29",
+      "texto": "Si quieros para el 29 de noviembre en tierralta cordoba \nEl 27 me lo despache para que el 29 esté ya en la oficina inter",
+      "desde": "2026-11-07T13:40:17.961Z",
       "avisado": false
     },
     "interesColor": null,
