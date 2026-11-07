@@ -3,8 +3,8 @@
     "telefono": "573104104282",
     "nombre": "Luisa",
     "primerContacto": "2026-11-07T11:20:27.994Z",
-    "ultimoContacto": "2026-11-07T11:20:27.994Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T11:22:20.820Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-07T11:20:27.130Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSNzlENjE3Nzc3MTFDNzgwRUU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola sería para Manizales",
+        "fecha": "2026-11-07T11:22:14.509Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-07T11:22:16.864Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSRDEwRkFEMzI3QUVBRDk4NTAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-07T11:22:17.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQ0MxM0JBRjc0MDhFNURFNUY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-07T11:22:18.317Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSMzI4RTNEMEQwRTkxM0I3QURFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-07T11:22:18.824Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Manizales es una ciudad con buena cobertura 4G y 5G.\n\n🔥 Aquí las opciones para que elijas según lo que necesites:\n• *Modem WiFi Portatil 4G*: $199.900 con *envío GRATIS*, te sirve para conexión estable en 4G.\n• *Modem WiFi Portatil 4G/5G*: $199.900 + $26.000 envío, para que tengas la máxima compatibilidad y velocidad 5G si la cobertura lo permite.\n• *Modem WiFi Portatil 5G*: $199.900 + $26.000 envío, si quieres la mejor velocidad 5G disponible.\n\nLos tres conectan varios dispositivos y tienen batería para horas de uso fuera de casa.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo necesitas principalmente? ¿Trabajo, estudio o casa? Así te recomiendo el ideal.",
+        "fecha": "2026-11-07T11:22:18.833Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSNDQxMzdBRTFDMjU2QkM0NkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-07T11:22:19.496Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQjAxOTk0QkZCRThFNzhFNjgyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-07T11:20:25.908Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573127366068",
