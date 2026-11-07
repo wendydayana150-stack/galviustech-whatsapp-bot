@@ -1504,8 +1504,8 @@
     "telefono": "573215697840",
     "nombre": "El lobo solitario",
     "primerContacto": "2026-11-06T23:37:15.236Z",
-    "ultimoContacto": "2026-11-07T01:30:55.150Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-11-07T01:32:41.086Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1883,11 +1883,18 @@
         "fecha": "2026-11-07T01:30:54.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSMDhDNTczMjk1NDQzNjQ2MjNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Dime en que fecha te lo enviamos?",
+        "fecha": "2026-11-07T01:32:40.150Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1Njk3ODQwFQIAERgSN0U4N0QzM0Y5NUU0RTYzQUYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
