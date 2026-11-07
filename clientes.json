@@ -541,6 +541,13 @@
         "fecha": "2026-11-07T13:09:55.170Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSQTczOUM5QTE1RjM3MjdBRjlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-07T13:44:07.402Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2MTg4Mjk2FQIAERgSODE5MTg2OUZFMDJBQkM0MkI0AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -568,7 +575,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-07T13:44:10.711Z"
     }
   },
   {
@@ -699,6 +708,13 @@
         "fecha": "2026-11-07T12:43:54.595Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjcyMDgzFQIAERgSMzI4NkZERTVGRUY1QjUyMjg5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-07T13:44:08.491Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjcyMDgzFQIAERgSODI1QzU5NTZEOTMwQzM5REE5AA=="
       }
     ],
     "paso": "conversando",
@@ -719,7 +735,12 @@
       "url": "https://fb.me/7utFznaHm",
       "fecha": "2026-11-07T12:43:52.879Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-07T13:44:10.711Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573144653446",
@@ -766,6 +787,13 @@
         "fecha": "2026-11-07T12:44:07.300Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NjUzNDQ2FQIAERgSOEMwNDYyNTdGNzcyOEQ0Mzc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍\n\n🛍️ Catálogo con fotos y precios: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-07T13:44:09.481Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NjUzNDQ2FQIAERgSMzA2Rjc5MjJDMkI4MTMwMjE5AA=="
       }
     ],
     "paso": "conversando",
@@ -789,8 +817,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-07T12:44:08.647Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-07T13:44:10.711Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
