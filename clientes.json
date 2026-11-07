@@ -3,8 +3,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-07T22:11:30.707Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-07T22:11:48.036Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -133,9 +133,28 @@
         "fecha": "2026-11-07T22:11:29.905Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjgwNDExRkVDRTMxN0YzNzhERAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me llamo, Luis Conal Gutierrez Gaitan CC 1006950956",
+        "fecha": "2026-11-07T22:11:45.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Luis, voy a dejar tu pedido del Modem WiFi Portátil 4G listo para que lo recojas en la oficina de la transportadora en Cumaribo.",
+        "fecha": "2026-11-07T22:11:46.523Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkMwQ0UzRjZGQzc3RTkwRDI2OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T22:11:47.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjZCNDNEMUQzOTgxOTZCQkE5OQA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
