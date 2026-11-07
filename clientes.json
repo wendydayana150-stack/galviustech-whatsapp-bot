@@ -165,8 +165,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T13:47:43.429Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-07T14:07:13.633Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -410,17 +410,30 @@
         "fecha": "2026-11-07T13:47:42.464Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSNjQ5ODVCOTBCMEFDODgxODgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-07T14:07:12.138Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu nombre, tu celular, tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: ¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-07T14:07:12.500Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSQkNGNTRDQTlFMTZBMjlGOUZEAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573024004585",
       "departamento": "Cordoba",
-      "direccion": "Recoge en oficina de Interrapidísimo",
-      "nombreCliente": "Déjamelo reservado por fa"
+      "direccion": "Recoge en oficina de la transportadora",
+      "nombreCliente": "Oye cuanto meses aguanta eso",
+      "celular": "3024004585"
     },
     "pausado": false,
     "etapaManual": null,
