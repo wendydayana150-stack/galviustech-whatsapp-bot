@@ -8991,8 +8991,8 @@
     "telefono": "573159967660",
     "nombre": "סמואל מולינה גיל",
     "primerContacto": "2026-11-06T18:48:55.598Z",
-    "ultimoContacto": "2026-11-07T14:16:15.481Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-07T15:57:02.996Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9139,6 +9139,18 @@
         "fecha": "2026-11-07T15:23:34.909Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU5OTY3NjYwFQIAERgSMjQ2Q0VBQkM4RUNBRDMzRkE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por ahora está bien así gracias",
+        "fecha": "2026-11-07T15:57:00.174Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta por si más adelante quieres retomar o tienes alguna pregunta. \n\nRecuerda que el módem es una inversión que te da internet donde más lo necesitas, sin depender de fibra ni instalaciones. \n\n¿Quieres que te guarde la info para avisarte si hay alguna promoción nueva?",
+        "fecha": "2026-11-07T15:57:02.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU5OTY3NjYwFQIAERgSNzVFQkRDQUI2MEU0NTEyQjdGAA=="
       }
     ],
     "paso": "conversando",
@@ -9149,7 +9161,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
@@ -9161,9 +9173,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T15:23:36.065Z"
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true,
     "escasezFecha": "2026-11-7"
