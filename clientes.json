@@ -3,8 +3,8 @@
     "telefono": "573104104282",
     "nombre": "Luisa",
     "primerContacto": "2026-11-07T11:20:27.994Z",
-    "ultimoContacto": "2026-11-07T11:22:20.820Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-07T11:23:17.525Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -83,6 +83,25 @@
         "fecha": "2026-11-07T11:22:19.496Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQjAxOTk0QkZCRThFNzhFNjgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Casa",
+        "fecha": "2026-11-07T11:23:14.725Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para casa en Manizales, el *Modem WiFi Portátil 4G/5G* es la mejor inversión porque funciona perfecto donde haya 4G o 5G, te permite conectar varios dispositivos y es súper fácil de usar y mover.\n\nLa inversión sería de $199.900 + $26.000 de envío, pagas al recibir y tienes garantía de 30 días.\n\n¿Quieres que te lo envíe a tu dirección o prefieres recogerlo en una oficina de transporte?",
+        "fecha": "2026-11-07T11:23:16.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSQ0IwRTZCNkY0MjlEMEQ2OUFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T11:23:16.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA0MTA0MjgyFQIAERgSMUY1NjI5OEZFRUVGMENGQjc0AA=="
       }
     ],
     "paso": "conversando",
