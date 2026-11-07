@@ -775,8 +775,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T02:23:34.474Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-07T02:24:21.460Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -982,6 +982,25 @@
         "fecha": "2026-11-07T02:23:33.549Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSQUZCM0Q3OThFMUQwMDZBNjczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aca dónde yo vivo no hay señal eso es conseñal no",
+        "fecha": "2026-11-07T02:24:18.543Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si no hay señal de ningún operador ahí, el módem no va a funcionar porque depende de la SIM para tener internet. \n\nPero la antena del módem es más potente que un celular, a veces sí agarra señal donde el celular no. ¿Has confirmado si tu celular no tiene señal justo donde lo usarías?\n\nSi me confirmas eso, te ayudo con la mejor opción para tu zona.\n\n¿Quieres contarme más sobre tu cobertura actual?",
+        "fecha": "2026-11-07T02:24:19.836Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSNzAyRUY5M0E0NDc0OUNCNUEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T02:24:20.425Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSQjVFMTBCOEIwRTU4NUU4NjAzAA=="
       }
     ],
     "paso": "conversando",
