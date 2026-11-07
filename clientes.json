@@ -63,8 +63,8 @@
     "telefono": "573019248713",
     "nombre": "𝓙𝓾𝓪𝓷𝓲𝓼 𝓐𝓒",
     "primerContacto": "2026-11-07T23:27:58.405Z",
-    "ultimoContacto": "2026-11-07T23:27:58.405Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-07T23:39:24.217Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,52 @@
         "fecha": "2026-11-07T23:27:57.607Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSNDBBOUM0MENBQUM1QjUwOEREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muéstrame la de 109",
+        "fecha": "2026-11-07T23:39:21.222Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-07T23:39:21.225Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-07T23:39:21.225Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSNTQ2OUM1MjIwN0VFREE2NkI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-07T23:39:21.729Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSNUNERkZCNTMwMDI2QkQ4MDRDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-07T23:39:22.141Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSMDQzODQwNjkwQzVFQUJFMDgxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-07T23:39:22.577Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSNzc2NzdDNDcyOUY2MEI0NjY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T23:39:23.005Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSMTZDOUQwOTg4OTExQTkyMTBGAA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +163,10 @@
       "url": "https://www.instagram.com/p/DfbI2e6sNhn/",
       "fecha": "2026-11-07T23:27:56.198Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573106014773",
