@@ -123,8 +123,8 @@
     "telefono": "573019248713",
     "nombre": "𝓙𝓾𝓪𝓷𝓲𝓼 𝓐𝓒",
     "primerContacto": "2026-11-07T23:27:58.405Z",
-    "ultimoContacto": "2026-11-07T23:49:48.482Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-07T23:50:37.813Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -215,6 +215,18 @@
         "fecha": "2026-11-07T23:49:47.536Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSMTYxMENGNUM2RTFDODVDQzZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y tiene garantía",
+        "fecha": "2026-11-07T23:50:35.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, la Impresora NETUM tiene garantía de 30 días con GalviusTech para que compres con toda confianza y respaldo. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nAdemás, su ventaja es que imprime sin tinta, es portátil y compatible con Android e iPhone. La inversión es de $249.900 con envío gratis y pagas contra entrega. ¿Quieres que te ayude a dejar tu pedido listo?",
+        "fecha": "2026-11-07T23:50:36.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MjQ4NzEzFQIAERgSOEU5Nzc1RDEzODI0NjQ0MzZEAA=="
       }
     ],
     "paso": "conversando",
@@ -235,7 +247,10 @@
       "url": "https://www.instagram.com/p/DfbI2e6sNhn/",
       "fecha": "2026-11-07T23:27:56.198Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-07T23:50:35.664Z",
+      "texto": "Y tiene garantía"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
