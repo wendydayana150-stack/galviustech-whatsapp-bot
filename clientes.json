@@ -78,8 +78,8 @@
     "telefono": "573113428481",
     "nombre": "..",
     "primerContacto": "2026-11-07T13:32:27.619Z",
-    "ultimoContacto": "2026-11-07T13:32:31.055Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-07T13:38:10.312Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -124,6 +124,18 @@
         "fecha": "2026-11-07T13:32:30.234Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNDI4NDgxFQIAERgSQzY3MkNCQzM1NjA3RjcyQ0EzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno días \nDónde vivo no entra los datos",
+        "fecha": "2026-11-07T13:38:07.813Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenos días 😊\n\nSi en tu zona no entra señal de ningún operador (Claro, Movistar, Tigo o WOM), el módem no podrá conectar porque funciona con una SIM de celular. \n\nPero la antena del módem es más potente que la del celular, a veces capta señal débil donde el celular no tiene. ¿Segur@ que no tienes señal ni siquiera intermitente en ese lugar?",
+        "fecha": "2026-11-07T13:38:09.282Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNDI4NDgxFQIAERgSNjRFNDlERUMwNDA2RkJDRDBBAA=="
       }
     ],
     "paso": "conversando",
