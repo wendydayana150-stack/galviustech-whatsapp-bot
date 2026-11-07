@@ -165,8 +165,8 @@
     "telefono": "573024004585",
     "nombre": "😻Yese Cabrera♥️",
     "primerContacto": "2026-11-07T13:18:26.046Z",
-    "ultimoContacto": "2026-11-07T13:46:40.272Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-07T13:46:48.349Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -367,9 +367,28 @@
         "fecha": "2026-11-07T13:46:39.316Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSNDU3MUQxMzAwOTY5Rjc1REI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la oficina",
+        "fecha": "2026-11-07T13:46:45.258Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el pago lo haces directamente en la oficina de Interrapidisimo al recoger el módem, sin pagar nada antes.\n\n¿Me das tu nombre y celular para dejar el pedido listo y que solo tengas que confirmar el día que bajes?",
+        "fecha": "2026-11-07T13:46:46.815Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSRDVGMTRGNjIzN0ZBOTdENkQyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-07T13:46:47.419Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0MDA0NTg1FQIAERgSREVBQkUyRTQwRjFCRDI4MDZBAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
