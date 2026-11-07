@@ -775,8 +775,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T02:02:48.754Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-07T02:19:48.919Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -891,6 +891,18 @@
         "fecha": "2026-11-07T02:02:47.495Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSNThBN0IyRkYzM0QyNDBFNDA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-07T02:19:45.287Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Me puedes escribir la dirección completa donde lo envío o prefieres que quede en la oficina de Interrapidísimo de Unguía para que lo recojas? Así lo dejo listo para ti.",
+        "fecha": "2026-11-07T02:19:47.899Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSQjk1QTdGMDNCMjI3QjJGNjlGAA=="
       }
     ],
     "paso": "pedido_ciudad",
