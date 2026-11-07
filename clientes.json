@@ -775,8 +775,8 @@
     "telefono": "573118608700",
     "nombre": "María",
     "primerContacto": "2026-11-07T00:23:09.929Z",
-    "ultimoContacto": "2026-11-07T02:19:48.919Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-07T02:21:26.390Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -903,6 +903,25 @@
         "fecha": "2026-11-07T02:19:47.899Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSQjk1QTdGMDNCMjI3QjJGNjlGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como es eso cuánto se paga al mes",
+        "fecha": "2026-11-07T02:21:22.895Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no tiene cuota mensual fija, ni contrato ni instalación.\n\nSolo haces la inversión inicial de $189.900 + $26.000 de envío y usas la SIM de tu operador con el plan o recarga que prefieras.\n\nPor ejemplo, recargas tu línea con datos y todo se conecta al módem; con una sola recarga puedes compartir internet con todos en casa o negocio.\n\nAsí lo pruebas y ves lo fácil que es.",
+        "fecha": "2026-11-07T02:21:24.794Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSQUI4MzAyMzZBNEJFMzlFMDc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en qué ciudad o municipio vives?",
+        "fecha": "2026-11-07T02:21:25.418Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjA4NzAwFQIAERgSRkNCOEVGMzY1REJGODBBNzk1AA=="
       }
     ],
     "paso": "pedido_ciudad",
