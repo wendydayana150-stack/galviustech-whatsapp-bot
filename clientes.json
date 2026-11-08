@@ -3,8 +3,8 @@
     "telefono": "573156183890",
     "nombre": "Nancy Mena",
     "primerContacto": "2026-11-08T23:55:42.439Z",
-    "ultimoContacto": "2026-11-08T23:55:42.439Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T23:55:47.828Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-08T23:55:41.557Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU2MTgzODkwFQIAERgSMkEzM0Q2NjgwM0NENzdEODQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hi",
+        "fecha": "2026-11-08T23:55:44.476Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿en qué ciudad o municipio necesitas usar el módem WiFi portátil 4G/5G? Y para qué lo quieres, ¿trabajo, estudio, hogar o viaje? Así te recomiendo el que mejor se adapte a ti.",
+        "fecha": "2026-11-08T23:55:46.486Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU2MTgzODkwFQIAERgSOTYyQzA1MUVCOUU1QTIzQkEzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T23:55:40.224Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213683294",
