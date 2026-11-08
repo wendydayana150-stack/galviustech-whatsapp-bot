@@ -78,8 +78,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:50:20.905Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-11-08T19:51:18.487Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -424,9 +424,28 @@
         "fecha": "2026-11-08T19:50:19.842Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQzg5RUM2RjlCODM1QzhEOTA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puedo abrirlo td antes de pagar y si no me gusta lo puedo dejar ahy",
+        "fecha": "2026-11-08T19:51:16.080Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que puedes abrirlo y revisarlo antes de pagar para que estés seguro.\n\nSi no te gusta o algo no está bien, puedes devolverlo en la oficina sin problema antes de pagar.\n\nEso te da total tranquilidad.\n\n¿Quieres que te deje el pedido listo para que empieces a tener internet donde lo necesites?",
+        "fecha": "2026-11-08T19:51:17.145Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQTgxQkJEOUI0MTU2RDk1NDE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T19:51:17.665Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSRkYxQUVBQkVGQ0FFRDFEMDQxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
