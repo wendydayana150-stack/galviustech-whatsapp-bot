@@ -3,8 +3,8 @@
     "telefono": "573118673271",
     "nombre": "",
     "primerContacto": "2026-11-08T00:51:43.120Z",
-    "ultimoContacto": "2026-11-08T00:57:00.594Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-08T00:57:39.303Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -161,6 +161,18 @@
         "fecha": "2026-11-08T00:56:59.733Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMzYyQjZDQzkwOUYxNkM1RTVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ustedes no cuentas con esa app",
+        "fecha": "2026-11-08T00:57:37.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, nosotros no ofrecemos la app, pero la mayoría de apps para punto de venta (POS) permiten conectar varias impresoras y enviar las comandas donde necesites.\n\nSi quieres, te puedo recomendar algunas apps que funcionan bien con la Goojprt PT-210 y que tienen esa función para imprimir en caja y cocina a la vez.\n\n¿Quieres que te comparta algunas opciones de apps? Y mientras, ¿te ayudo a dejar listo el pedido de las impresoras?",
+        "fecha": "2026-11-08T00:57:38.395Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRTg0NkU5OUI5NDU2NUMyMUUwAA=="
       }
     ],
     "paso": "conversando",
