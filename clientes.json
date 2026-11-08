@@ -124,8 +124,8 @@
     "telefono": "573162534054",
     "nombre": "lamihurca",
     "primerContacto": "2026-11-08T13:12:02.689Z",
-    "ultimoContacto": "2026-11-08T13:12:02.689Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T13:30:59.495Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -158,13 +158,25 @@
         "fecha": "2026-11-08T13:12:01.666Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSRTU3MTJCRjE4RTIyNzBBMkNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo es el manejo? Hay que estar recargando  o qué?",
+        "fecha": "2026-11-08T13:30:55.871Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los módems funcionan con una SIM que le pones para tener internet, igual que un celular, así que sí, toca comprar recargas según tu consumo, pero con la ventaja de que con una sola recarga pueden conectarse hasta 10 dispositivos a la vez.\n\nEso te ayuda a ahorrar porque no necesitas recargar cada celular por separado, y tienes internet propio donde lo necesites, sin contratos ni instalaciones.\n\n¿Para qué lo necesitas principalmente? ¿Trabajo, estudio, hogar o viajes? Así te recomiendo la mejor opción.",
+        "fecha": "2026-11-08T13:30:58.480Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSRDFFRUNFMTNEQjNDRkYyRDY5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -178,7 +190,10 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-08T13:12:00.393Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573137529061",
