@@ -3,8 +3,8 @@
     "telefono": "573118673271",
     "nombre": "",
     "primerContacto": "2026-11-08T00:51:43.120Z",
-    "ultimoContacto": "2026-11-08T00:51:43.120Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T00:52:53.258Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -31,13 +31,73 @@
         "fecha": "2026-11-08T00:51:42.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRTc3NkVDQUJCN0YwMzMwQTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola necesito una impresora para recibo y otra para comanda",
+        "fecha": "2026-11-08T00:52:46.922Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto 🙌 Para recibos y comandas te recomiendo nuestra impresora *Goojprt PT-210* a $149.900 más $26.000 de envío, que imprime rápido y sin tinta, ideal para negocios.\n\nSi también quieres una de tamaño carta para documentos o impresiones más grandes, puedo mostrarte la NETUM, pero para recibos y comandas esta es la mejor 👌\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te deje listo el pedido de la Mini Goojprt PT-210 o quieres ver otras opciones de impresoras para recibos y comandas?",
+        "fecha": "2026-11-08T00:52:49.316Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSM0FFMTYwMEYwQjM1NjdEODJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-08T00:52:49.872Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRUMyOUU4QUU0OEQ3OTI3RDMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T00:52:50.235Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSNzEwNTUxNUMwQTBBMzMyMUYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-11-08T00:52:50.618Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRkIzQTc1MjQwNkY4RjA1MTQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-11-08T00:52:50.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRDcyNTNFMTExNDU4N0E4NkFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5",
+        "fecha": "2026-11-08T00:52:51.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSQ0JBRDcwQjQ0OTJDMkIxQTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-11-08T00:52:51.837Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSNjcyQjVCNDA5REI5Mjc0OTUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Goojprt PT-210, Mini Impresora Bluetooth, Impresora Etiquetas P5, Impresora Clabel 221B]",
+        "fecha": "2026-11-08T00:52:52.191Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -51,7 +111,10 @@
       "url": "https://fb.me/6A8E6s0JV",
       "fecha": "2026-11-08T00:51:41.394Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573226325748",
