@@ -3,8 +3,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:25:14.011Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-08T22:25:54.681Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -162,16 +162,29 @@
         "fecha": "2026-11-08T22:25:12.982Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNTJFMjYzQTgzM0JBMEJBRTQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ayapel Córdoba",
+        "fecha": "2026-11-08T22:25:53.791Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-08T22:25:53.792Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMkVBQTYyQUIwNDMwOTA1MjQ0AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573243835391",
       "nombreCliente": "Cristian Camilo Tejada Suárez",
-      "celular": "3042364113"
+      "celular": "3042364113",
+      "departamento": "Cordoba"
     },
     "pausado": false,
     "etapaManual": null,
