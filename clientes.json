@@ -63,8 +63,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:14:14.183Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-08T14:14:50.073Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -234,6 +234,25 @@
         "fecha": "2026-11-08T14:14:13.283Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSMDE3N0IyQTIzMUEwNEE5MzBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El escribió",
+        "fecha": "2026-11-08T14:14:47.650Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, Michell aquí.",
+        "fecha": "2026-11-08T14:14:48.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSNTUwRjZGNTczQTVBOUQ4N0M2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-08T14:14:49.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSOTY2NUQwQjE3NEM5RTA5NEI4AA=="
       }
     ],
     "paso": "pedido_celular",
