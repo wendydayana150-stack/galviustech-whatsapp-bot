@@ -19383,8 +19383,8 @@
     "telefono": "573105550339",
     "nombre": "Victor Cubides",
     "primerContacto": "2026-11-06T14:41:28.687Z",
-    "ultimoContacto": "2026-11-07T14:24:16.755Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-08T15:15:16.074Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -19529,13 +19529,20 @@
         "fecha": "2026-11-07T16:31:12.621Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1NTUwMzM5FQIAERgSNTEwMjlGMEFEQkU5QUZEQUI4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Victor Cubides, sobre Modem 4G/5G",
+        "fecha": "2026-11-08T15:15:14.932Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1NTUwMzM5FQIAERgSQkYxMzA0QUJBQTQyMjQwMDI4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -19551,10 +19558,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T16:31:13.670Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-8"
   },
