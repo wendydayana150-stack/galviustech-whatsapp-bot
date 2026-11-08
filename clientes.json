@@ -3,8 +3,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:24:38.749Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-08T22:25:14.011Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -150,15 +150,28 @@
         "fecha": "2026-11-08T22:24:37.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNDQwOUU4NTk0NDc5OEQ1NUZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3042364113 whatsapp 3243835391",
+        "fecha": "2026-11-08T22:25:12.981Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-08T22:25:12.982Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNTJFMjYzQTgzM0JBMEJBRTQzAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573243835391",
-      "nombreCliente": "Cristian Camilo Tejada Suárez"
+      "nombreCliente": "Cristian Camilo Tejada Suárez",
+      "celular": "3042364113"
     },
     "pausado": false,
     "etapaManual": null,
