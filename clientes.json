@@ -3,8 +3,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:24:05.112Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-08T22:24:38.749Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,14 +138,27 @@
         "fecha": "2026-11-08T22:24:04.224Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMDI4REFBRDA2RjdDMDg4NzBBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cristian Camilo Tejada Suárez",
+        "fecha": "2026-11-08T22:24:37.793Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-08T22:24:37.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNDQwOUU4NTk0NDc5OEQ1NUZBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
-      "telefono": "573243835391"
+      "telefono": "573243835391",
+      "nombreCliente": "Cristian Camilo Tejada Suárez"
     },
     "pausado": false,
     "etapaManual": null,
