@@ -3,8 +3,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:06:43.695Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-08T14:07:30.000Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -131,6 +131,18 @@
         "fecha": "2026-11-08T14:06:42.857Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSOTQzMTBBMkVCNTU1NTg3NjE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Deme espera",
+        "fecha": "2026-11-08T14:07:27.655Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, respeto que quieras esperar. Quedo atenta cuando decidas para ayudarte con el pedido y que aproveches el descuento. Mientras tanto, si te surge alguna duda, aquí estoy para ayudarte.\n\n¿Quieres que te comparta más información o fotos del módem mientras tanto?",
+        "fecha": "2026-11-08T14:07:29.147Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQjIwRDYwMzJCNjVEMEYyRUUwAA=="
       }
     ],
     "paso": "conversando",
@@ -141,7 +153,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
