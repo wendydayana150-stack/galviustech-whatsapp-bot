@@ -123,8 +123,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:33:20.455Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-08T22:34:15.605Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -361,9 +361,21 @@
         "fecha": "2026-11-08T22:33:19.515Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQjk4QThFNDY1NzI3RDc2NDBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de ayapel",
+        "fecha": "2026-11-08T22:34:14.625Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-08T22:34:14.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMkU2OTE1NkMxOUFEM0NFQzEzAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -371,7 +383,8 @@
       "telefono": "573243835391",
       "nombreCliente": "Cristian Camilo Tejada Suárez",
       "celular": "3042364113",
-      "departamento": "Cordoba"
+      "departamento": "Cordoba",
+      "ciudad": "Municipio de ayapel"
     },
     "pausado": false,
     "etapaManual": null,
