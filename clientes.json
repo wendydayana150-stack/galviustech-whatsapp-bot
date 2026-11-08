@@ -32200,8 +32200,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-11-08T13:04:15.575Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-11-08T13:08:25.265Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -32532,6 +32532,18 @@
         "fecha": "2026-11-08T13:04:14.592Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSODI5QjdFOUEyQUZGRUFCRjg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso me están diciendo hace una semana",
+        "fecha": "2026-11-08T13:08:22.719Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que la espera puede ser frustrante. Estamos haciendo todo lo posible para que llegue rápido.\n\nEn cuanto tengamos novedades o el número de guía, te lo envío de inmediato por aquí.\n\nMientras tanto, ¿quieres que te explique cómo usar la impresora para que la tengas lista cuando te llegue?",
+        "fecha": "2026-11-08T13:08:24.335Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSOTAyNzA1OTI0QTAzOThGODMwAA=="
       }
     ],
     "paso": "conversando",
@@ -32540,8 +32552,8 @@
     "etapaManual": "Subir a Dropi",
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Eso me están diciendo hace una semana\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
