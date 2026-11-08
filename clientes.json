@@ -269,8 +269,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-08T23:08:02.939Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-08T23:17:16.424Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -349,10 +349,27 @@
         "fecha": "2026-11-08T23:08:01.962Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSNzg4NUU2NzFEMjdFOTdENUY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-08T23:17:14.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-08T23:17:15.371Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSOEFGQzM1RDkyOEY3M0I1NzA4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573124221460"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
