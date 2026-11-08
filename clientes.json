@@ -138,8 +138,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:54:09.242Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-11-08T19:57:17.527Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -553,9 +553,28 @@
         "fecha": "2026-11-08T19:54:08.339Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMUYzRjFFQjNBMEMxRDQ2MDdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si es datos normal no se consume enseguida si conecta más de 5 celular",
+        "fecha": "2026-11-08T19:57:14.637Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La conexión usa los datos de la SIM normal que pongas, y al conectar varios celulares todos consumen de ese mismo paquete.\n\nPor eso es importante poner una recarga o plan que cubra el uso que vas a tener con todos los dispositivos.\n\nAsí toda la familia o equipo puede navegar sin gastar en cada celular por separado.\n\n¿Quieres que te ayude a dejar el pedido listo para que tengas tu internet propio ya?",
+        "fecha": "2026-11-08T19:57:16.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQThCMTU2MjFDM0YwNUI4QTExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T19:57:16.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQkYyM0EyMUFDOUEzNDVCQUJCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
