@@ -124,8 +124,8 @@
     "telefono": "573162534054",
     "nombre": "lamihurca",
     "primerContacto": "2026-11-08T13:12:02.689Z",
-    "ultimoContacto": "2026-11-08T13:37:30.442Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-08T13:42:26.045Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -209,6 +209,25 @@
         "fecha": "2026-11-08T13:37:29.516Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSM0YyMUMwOERGMEEzOTVGNTk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero hay que estar recargando o cómo es la cosa",
+        "fecha": "2026-11-08T13:42:22.609Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, tienes que recargar la SIM que metas al modem, igual que un celular. La ventaja es que una sola recarga sirve para conectar varios dispositivos al mismo tiempo, por ejemplo todos en la casa, así ahorras porque no recargas cada celular por separado.\n\nEl módem no tiene contrato ni mensualidad fija, solo pagas cuando compres la recarga que necesites según tu uso.\n\n¿En qué municipio o zona lo usarás? Así te confirmo si hay buena señal y te ayudo a dejar tu pedido listo.",
+        "fecha": "2026-11-08T13:42:24.648Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSOUE1NDg4MDc2MUNDMkIyODI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T13:42:25.232Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSNzRCQzREQjUwMkNENkI0NjlFAA=="
       }
     ],
     "paso": "conversando",
