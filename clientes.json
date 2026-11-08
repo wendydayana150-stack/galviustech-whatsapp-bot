@@ -63,8 +63,8 @@
     "telefono": "573245767768",
     "nombre": "capi",
     "primerContacto": "2026-11-08T20:13:46.764Z",
-    "ultimoContacto": "2026-11-08T20:20:49.345Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-08T20:21:11.986Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -174,9 +174,21 @@
         "fecha": "2026-11-08T20:20:48.267Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNDQ2Q0YxQjAxQjQ3NzFBMDhGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio las Mercedes",
+        "fecha": "2026-11-08T20:21:10.489Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-08T20:21:10.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNDQwODE2ODFCNDFENkIwMUIzAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -186,7 +198,8 @@
       "departamento": "Santander",
       "nombreCliente": "Javier pabon",
       "direccion": "calle 5 número 5 35 Barrio las Mercedes",
-      "ciudad": "Matanza"
+      "ciudad": "Matanza",
+      "barrio": "Barrio las Mercedes"
     },
     "pausado": false,
     "etapaManual": null,
