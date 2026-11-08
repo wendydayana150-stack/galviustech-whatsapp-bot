@@ -78,8 +78,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:44:17.670Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-08T19:46:01.129Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -307,13 +307,32 @@
         "fecha": "2026-11-08T19:44:16.786Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSRjM4NTc3RTFCNjAyODI4MUMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si es solo señal normal",
+        "fecha": "2026-11-08T19:45:57.291Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si por \"señal normal\" te refieres a señal 2G o 3G, el módem WiFi portátil 4G/5G no funcionará bien porque necesita señal 4G o 5G para conectarse.\n\nPara que el módem rinda bien, debe captar al menos señal 4G del operador que uses en la SIM.\n\n¿Quieres contarme dónde lo usarías? Así confirmamos si la señal 4G está disponible o te ayudo con otra opción.",
+        "fecha": "2026-11-08T19:45:59.552Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMTk2OEVDNTlGRkYxNkVCOTg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T19:46:00.197Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQjVBMjJBMUVFMTQzNEE5ODEwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g",
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
