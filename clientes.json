@@ -45,8 +45,8 @@
     "telefono": "573122964990",
     "nombre": "Luz Edith",
     "primerContacto": "2026-11-08T20:18:13.615Z",
-    "ultimoContacto": "2026-11-08T21:32:34.705Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-08T21:33:48.427Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -132,6 +132,18 @@
         "fecha": "2026-11-08T21:32:33.880Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyOTY0OTkwFQIAERgSQkU3OTA0OEREOUU2QjhFNjdCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Grasias yo les aviso",
+        "fecha": "2026-11-08T21:33:45.009Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando quieras aquí estaré para ayudarte con la impresora NETUM o cualquier otro producto que necesites. Recuerda que la promoción con el 30% de descuento y envío gratis puede terminar pronto, ¿Quieres que te deje el pedido listo por si decides más adelante?",
+        "fecha": "2026-11-08T21:33:47.479Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyOTY0OTkwFQIAERgSOERFNTJFOTNCQUFBNzJBNkUzAA=="
       }
     ],
     "paso": "conversando",
@@ -142,7 +154,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
