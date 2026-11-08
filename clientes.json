@@ -123,8 +123,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:30:54.152Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-08T22:32:42.627Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -330,6 +330,25 @@
         "fecha": "2026-11-08T22:30:52.287Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNjk5OUNDMzgxNzVENTJERTQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Chica lo que pasa es que yo vivo en una vereda entonces por eso me gustaría que me lo mande al interrapidicimo de ayapel Córdoba del Departamento de Córdoba",
+        "fecha": "2026-11-08T22:32:39.480Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zona rural como vereda el pedido se envía a oficina Interrapidísimo en Ayapel, para que lo recojas sin problema.\n\nLlega en 1 a 3 días hábiles luego del despacho.\n\nLa inversión por el modem 4G/5G es $199.900 + $26.000 de envío, pagas al recibir y con garantía.\n\n¿Quieres que te ayude a dejar tu pedido listo para que lo envíe a Ayapel?",
+        "fecha": "2026-11-08T22:32:41.313Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQkRBOEIxMENGM0UwNDE5NDZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T22:32:41.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQ0ExQTY3RTQ1QjAwM0IzRTk2AA=="
       }
     ],
     "paso": "pedido_direccion",
