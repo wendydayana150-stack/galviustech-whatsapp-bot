@@ -3,8 +3,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:10:22.840Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T22:13:10.683Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-08T22:10:22.005Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMDI3ODUzNTkyNTdCMkQ4QTA2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Aque distancia llega la Potencia del Internet chica",
+        "fecha": "2026-11-08T22:13:04.219Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T22:13:07.266Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQUYzREE4QTUyM0FBNjhDMzU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T22:13:07.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQzQ1Nzk3QjZENDhBMTQxQzE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-08T22:13:08.352Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMzI2REQ3NjYzNDg5RkUzRTQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-08T22:13:08.873Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "La potencia del internet depende mucho de la cobertura del operador y la señal en tu zona, pero nuestros módems tienen antenas potentes que captan señal mucho mejor que un celular común, ideal para zonas rurales o viviendas alejadas.\n\nTe recuerdo los 3 modelos con sus precios y beneficios:\n• Modem 4G: $199.900 con envío GRATIS, conexión estable en zonas rurales.\n• Modem 4G/5G: $199.900 + $26.000 envío, funcional donde haya señal 4G o 5G.\n• Modem 5G: $199.900 + $26.000 envío, la máxima velocidad si tienes cobertura 5G.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo necesitas para orientarte mejor?",
+        "fecha": "2026-11-08T22:13:08.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMjYzOTE4NkEyQTdDNkREMUVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-08T22:13:09.412Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSMjE3Q0I2MTM5Q0NDRkI0OUVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/791cDlUIR",
       "fecha": "2026-11-08T22:10:20.927Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573148038815",
