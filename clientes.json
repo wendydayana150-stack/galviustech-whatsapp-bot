@@ -537,6 +537,13 @@
         "fecha": "2026-11-07T23:03:50.290Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzNDk5MTA3FQIAERgSRTlEMkRGMDBBMzBGMDYyNjQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-08T00:11:04.667Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzNDk5MTA3FQIAERgSMEU3MDJDRERGNzgxMDg5NjZBAA=="
       }
     ],
     "paso": "conversando",
@@ -557,7 +564,12 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-07T23:03:49.324Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-08T00:11:06.392Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573507411194",
@@ -2230,6 +2242,13 @@
         "fecha": "2026-11-07T23:40:36.340Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzNjMxNTMxFQIAERgSMzgzMTUyODU5QjMwMDA4RjdEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-08T00:11:05.392Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzNjMxNTMxFQIAERgSMUFGMzM3MkU3QUNFMUQ3M0IwAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2257,7 +2276,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-08T00:11:06.392Z"
     }
   },
   {
