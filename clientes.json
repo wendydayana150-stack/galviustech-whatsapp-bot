@@ -3,8 +3,8 @@
     "telefono": "573227665002",
     "nombre": "Mauricio",
     "primerContacto": "2026-11-08T16:15:03.827Z",
-    "ultimoContacto": "2026-11-08T16:15:03.827Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T16:25:27.425Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-08T16:15:02.841Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjY1MDAyFQIAERgSNURBODE4RTI3MkQ2M0QyQUJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Funciona donde no hay señal de ningún operador.",
+        "fecha": "2026-11-08T16:25:24.111Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no llega señal de ningún operador, el módem no podrá conectarse porque necesita esa señal móvil para funcionar. Pero dime, ¿tu celular realmente no tiene señal ahí o es muy débil? A veces el módem capta mejor porque tiene antena más potente.\n\n¿En qué municipio o vereda estás? Así reviso mejor si te llega alguna señal o cobertura cercana.",
+        "fecha": "2026-11-08T16:25:26.523Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjY1MDAyFQIAERgSNDI0OUYzQ0ZCNTAwMTFBQUE1AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T16:15:01.630Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217298243",
