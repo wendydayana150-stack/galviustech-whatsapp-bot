@@ -3,8 +3,8 @@
     "telefono": "573113814254",
     "nombre": ".",
     "primerContacto": "2026-11-08T19:30:47.597Z",
-    "ultimoContacto": "2026-11-08T19:30:47.597Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T19:32:36.293Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-08T19:30:46.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzODE0MjU0FQIAERgSRUVFOTZDMDE0NDY4MDhCMUMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede revisar el pedido antes de pagarlo",
+        "fecha": "2026-11-08T19:32:34.251Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, puedes abrir el paquete y revisar el módem antes de pagar. Además, llega sellado en una bolsa transparente para que veas que está nuevo y completo. \n\n¿En qué ciudad o vereda lo vas a usar para recomendarte el modelo ideal?",
+        "fecha": "2026-11-08T19:32:35.385Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzODE0MjU0FQIAERgSMEREODg5RDdERDI2QTI4MjMyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T19:30:45.462Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207954954",
