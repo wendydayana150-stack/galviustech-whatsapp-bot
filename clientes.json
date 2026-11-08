@@ -123,8 +123,8 @@
     "telefono": "573218549315",
     "nombre": "Doctor",
     "primerContacto": "2026-11-08T16:28:01.947Z",
-    "ultimoContacto": "2026-11-08T16:29:11.638Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-08T16:47:32.361Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -169,13 +169,59 @@
         "fecha": "2026-11-08T16:29:09.845Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSQzAxRTYwREYxMEVCRkE4ODU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En Medellín",
+        "fecha": "2026-11-08T16:47:26.635Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T16:47:28.990Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSQjk5OTMwNjEyRERDMjY5NkI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T16:47:29.620Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSQTQzN0U5ODg1RDcyNTkzQjdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-08T16:47:30.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSNzJEODNDRDRBMEMzNDMwQ0MyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-08T16:47:30.730Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Medellín te recomiendo estas opciones que tenemos con *30% de descuento* y envío:\n\n📶 Modem WiFi Portátil 4G: $199.900 con envío GRATIS  \n📶 Modem WiFi Portátil 4G/5G: $199.900 + $26.000 de envío  \n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 de envío  \n\nTienen batería para hasta 14 horas, conectas varios dispositivos y te dan mejor cobertura que un celular común, perfecto para casa, trabajo o salir.\n\n¿Para qué lo necesitas principalmente? Así te ayudo a elegir el que más te conviene.",
+        "fecha": "2026-11-08T16:47:30.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSNTAxNTgyN0VBNzdDODk5NzcwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-08T16:47:31.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE4NTQ5MzE1FQIAERgSNUFCRTdCRTlBQjlEOEFFQjMzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
