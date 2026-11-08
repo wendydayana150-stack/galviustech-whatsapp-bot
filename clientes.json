@@ -123,8 +123,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:17:32.799Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-08T14:17:51.852Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -373,6 +373,18 @@
         "fecha": "2026-11-08T14:17:31.790Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQ0FDODk2MkYyM0UxRDA1M0E2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me lo puedes guardar",
+        "fecha": "2026-11-08T14:17:50.946Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
+        "fecha": "2026-11-08T14:17:50.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSOTg3MkI3MTM3QkZGOTZFQjU3AA=="
       }
     ],
     "paso": "pedido_pago",
