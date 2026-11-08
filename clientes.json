@@ -63,8 +63,8 @@
     "telefono": "573245767768",
     "nombre": "capi",
     "primerContacto": "2026-11-08T20:13:46.764Z",
-    "ultimoContacto": "2026-11-08T20:16:21.428Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-08T20:20:49.345Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -162,14 +162,31 @@
         "fecha": "2026-11-08T20:16:20.498Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSMjIwM0UyQkFBNUNENTJGMkM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nombre : Javier pabon \nCelular : 3245767768\nDepartamento: matanza Santander \nDirección: calle 5 número 5 35 Barrio las Mercedes",
+        "fecha": "2026-11-08T20:20:48.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre, tu departamento, tu ciudad y tu dirección.\n\nAhora, ¿en que barrio queda esa direccion?",
+        "fecha": "2026-11-08T20:20:48.267Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNDQ2Q0YxQjAxQjQ3NzFBMDhGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
-      "telefono": "573245767768"
+      "telefono": "573245767768",
+      "celular": "3245767768",
+      "departamento": "Santander",
+      "nombreCliente": "Javier pabon",
+      "direccion": "calle 5 número 5 35 Barrio las Mercedes",
+      "ciudad": "Matanza"
     },
     "pausado": false,
     "etapaManual": null,
