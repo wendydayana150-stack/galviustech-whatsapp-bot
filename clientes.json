@@ -3,8 +3,8 @@
     "telefono": "573245767768",
     "nombre": "capi",
     "primerContacto": "2026-11-08T20:13:46.764Z",
-    "ultimoContacto": "2026-11-08T20:13:46.764Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T20:15:56.943Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-08T20:13:45.858Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSMzhFQTAwMTdCMDM5NDFCNjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Modem 4g 199.900 envio gratis el primero",
+        "fecha": "2026-11-08T20:15:51.704Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T20:15:53.205Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSRDQ4ODkxODRCODczQ0I3RTlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T20:15:54.047Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNDlCRTk1RTVFMjgwMDVCQ0ExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T20:15:54.610Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSRjdFMkQ4OTk5REE2MkFBQjdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-11-08T20:15:55.218Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el *Modem WiFi Portatil 4G* cuesta *$199.900* con *envío GRATIS*, y es ideal para fincas, veredas y lugares sin fibra óptica.\n\n✅ Conecta varios dispositivos a la vez, tiene batería recargable USB-C que dura hasta 14 horas, y es fácil de usar y llevar.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas para qué lo necesitarías? Así te ayudo a confirmar que es el ideal para ti.",
+        "fecha": "2026-11-08T20:15:55.222Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSREMzRkEyQkM2NEE2MUQ3OUVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T20:15:55.782Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNDEzRDUwRDI4RjM1OUQwMTg5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T20:13:44.624Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124272973",
