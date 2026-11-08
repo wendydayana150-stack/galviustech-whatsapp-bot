@@ -3,8 +3,8 @@
     "telefono": "573242506270",
     "nombre": "Christian Cortes",
     "primerContacto": "2026-11-08T23:07:06.903Z",
-    "ultimoContacto": "2026-11-08T23:07:06.903Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T23:07:41.899Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,52 @@
         "fecha": "2026-11-08T23:07:05.884Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSNTRGODY3MEY1NzBERTc0NDgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Coge full",
+        "fecha": "2026-11-08T23:07:37.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:07:39.455Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSMTI5OEJCMTgxRENENjBGRjQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:07:40.012Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSNUE4NDAxRTlFQjEzQkRBNUNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:07:40.515Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSRTUwNTZGRjI4MzI2NTQxMDE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-11-08T23:07:41.038Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Si tu señal es full, lo mejor es el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío. \n\nHace conexión rápida con 4G y 5G donde esté disponible, conecta hasta 10 dispositivos y es fácil de llevar y usar. Te da internet para toda la familia o varios aparatos sin drama.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLlega en 1 a 3 días hábiles y pagas al recibir. ¿Te lo envío a tu casa o lo prefieres recoger en oficina?",
+        "fecha": "2026-11-08T23:07:41.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSQ0Y1MjlFNzBBRTE3NTc5N0QzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +96,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T23:07:04.375Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573124221460",
