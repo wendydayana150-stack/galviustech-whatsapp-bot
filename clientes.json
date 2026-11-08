@@ -3,8 +3,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:03:18.651Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T14:03:28.493Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,59 @@
         "fecha": "2026-11-08T14:03:17.833Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSNTUyMzQyMUVDMkNDQ0RBQ0JEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve para rural",
+        "fecha": "2026-11-08T14:03:22.697Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T14:03:25.847Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQUFCMjkzODUwOTc1N0MzQTAwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T14:03:26.327Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSNDIxRTJFNUI4NjUyRjUxMjQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-08T14:03:26.802Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQUZDN0ZCRDg3N0FCMjI1NTE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-08T14:03:27.219Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, estos módems están diseñados especialmente para zonas rurales y veredas. Su antena es más potente que la de un celular común, por eso te da mejor señal y cobertura donde el celular no alcanza bien.\n\nTe paso las 3 opciones con sus beneficios, inversión y envío:\n\n📶 *Modem WiFi Portatil 4G*  \n- Perfecto para fincas, hogares y viajar. \n- Conecta hasta 10 dispositivos. \n- Envío GRATIS. \n- Inversión: $199.900\n\n📶 *Modem WiFi Portatil 4G/5G*  \n- Para zonas con señal 4G y 5G. \n- Ideal para trabajo, estudio y negocios móviles. \n- Envío $26.000. \n- Inversión: $199.900\n\n📶 *Modem WiFi Portatil 5G*  \n- Para las mejores velocidades si tienes cobertura 5G. \n- Envío $26.000. \n- Inversión: $199.900\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo usarías? Así te ayudo a elegir el mejor para tu caso.",
+        "fecha": "2026-11-08T14:03:27.227Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSMzJBNTVBOTg1MDQ2MjE4QjNDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-08T14:03:27.681Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSREIzRDM3Q0U2QTYxNkVBRTEwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +103,10 @@
       "url": "https://fb.me/791cDlUIR",
       "fecha": "2026-11-08T14:03:16.636Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133578649",
