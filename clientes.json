@@ -117,8 +117,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-08T22:52:58.275Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T23:08:02.939Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -151,13 +151,59 @@
         "fecha": "2026-11-08T22:52:57.265Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSRjAyQTQ1OUU2MjZFMzc2NTA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la vereda",
+        "fecha": "2026-11-08T23:07:58.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:07:59.909Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSREY5QjNEMjM3QUNDMjYzMDUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:08:00.370Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSNzE3MkMzRUQwNkFCQzQxRDhGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T23:08:00.881Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSNTc3NTUzRUZCNTI1MTZDMjIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-11-08T23:08:01.348Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 🌳 Para vereda lo ideal es el *Modem WiFi Portátil 4G/5G* porque funciona donde solo hay 4G o ya hay cobertura 5G. Así tendrás conexión rápida y estable para varios dispositivos, sin depender de fibra óptica ni instalar nada.\n\nLa inversión sería de $199.900 + $26.000 de envío, con pago contra entrega y garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo vas a usar para estudio, trabajo, hogar o negocio? Así te confirmo que es justo lo que necesitas.",
+        "fecha": "2026-11-08T23:08:01.353Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSNzY3NkM2RUIwNTBDMkVDRjgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T23:08:01.962Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSNzg4NUU2NzFEMjdFOTdENUY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -171,7 +217,10 @@
       "url": "https://fb.me/8eRzGYwdg",
       "fecha": "2026-11-08T22:52:55.802Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108173127",
