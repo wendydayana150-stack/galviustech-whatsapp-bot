@@ -138,8 +138,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T20:01:01.903Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-11-08T20:01:55.732Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -684,15 +684,28 @@
         "fecha": "2026-11-08T20:01:01.101Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMUJEN0JDQ0U3Rjg3RkRGNTJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yujeidis González Epieyu",
+        "fecha": "2026-11-08T20:01:54.709Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-08T20:01:54.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSNTlFRTU0NEU4QThGMjExOTRDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573207954954",
-      "departamento": "La Guajira"
+      "departamento": "La Guajira",
+      "nombreCliente": "Yujeidis González Epieyu"
     },
     "pausado": false,
     "etapaManual": null,
