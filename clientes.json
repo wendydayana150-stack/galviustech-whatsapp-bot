@@ -9233,8 +9233,8 @@
     "telefono": "573227392190",
     "nombre": "??",
     "primerContacto": "2026-11-07T08:40:06.975Z",
-    "ultimoContacto": "2026-11-07T08:40:06.975Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T15:14:23.559Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9281,6 +9281,13 @@
         "fecha": "2026-11-07T12:14:08.213Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzkyMTkwFQIAERgSRDFDODQ0NzBFREJFNEY5NDUzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola ??, sobre nuestros productos",
+        "fecha": "2026-11-08T15:14:21.608Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzkyMTkwFQIAERgSMkM1OUFBQzQ3RkI5MTI5N0VFAA=="
       }
     ],
     "paso": "conversando",
@@ -9303,10 +9310,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T12:14:30.344Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-8"
   },
