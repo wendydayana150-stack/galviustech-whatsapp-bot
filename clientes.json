@@ -63,8 +63,8 @@
     "telefono": "573117290861",
     "nombre": "El Maryon y tal😉",
     "primerContacto": "2026-11-08T19:07:28.695Z",
-    "ultimoContacto": "2026-11-08T19:15:18.612Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-08T19:19:23.774Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,16 +198,29 @@
         "fecha": "2026-11-08T19:15:17.520Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3MjkwODYxFQIAERgSMjQ5Q0FFRkU4RTZGMTFFNjkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3116520533",
+        "fecha": "2026-11-08T19:19:22.619Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-08T19:19:22.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3MjkwODYxFQIAERgSRDlCMjIzNjNGMTA3NjVGRTM2AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573117290861",
       "departamento": "La Guajira",
-      "nombreCliente": "Interrapidicimos"
+      "nombreCliente": "Interrapidicimos",
+      "celular": "3116520533"
     },
     "pausado": false,
     "etapaManual": null,
