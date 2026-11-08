@@ -575,8 +575,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T23:21:12.724Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-08T23:23:06.090Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -877,6 +877,25 @@
         "fecha": "2026-11-08T23:21:11.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQUNFMjU5REY2Q0ZGN0FFMzkyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Contraentrega",
+        "fecha": "2026-11-08T23:23:02.567Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entonces tu pedido queda con pago contraentrega, así pagas cuando recibas el módem en la oficina de Interrapidísimo en Ayapel.\n\nLlega en 1 a 3 días hábiles después de despachado y tienes 30 días de garantía.\n\nSi quieres, puedo ayudarte a dejar tu pedido completamente listo para enviar. ¿Lo hacemos?",
+        "fecha": "2026-11-08T23:23:04.016Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSQUU4RjYyMkFEODZCM0NGNjU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, tu pedido del *Modem WiFi Portatil 4G/5G* ya quedó confirmado y registrado, no hace falta confirmarlo de nuevo 😊 En cuanto se despache te comparto el número de guía.",
+        "fecha": "2026-11-08T23:23:05.250Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSOEU5NUVERkZFRjQ0QzM4RkYzAA=="
       }
     ],
     "paso": "conversando",
@@ -897,11 +916,12 @@
       "url": "https://fb.me/791cDlUIR",
       "fecha": "2026-11-08T22:10:20.927Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-08T23:23:02.567Z",
+      "texto": "Contraentrega"
+    },
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-08T23:21:15.840Z"
+      "seguimientosEnviados": 0
     }
   },
   {
