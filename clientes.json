@@ -9016,8 +9016,8 @@
     "telefono": "573127366068",
     "nombre": "Rosa Elvira",
     "primerContacto": "2026-11-07T10:54:03.251Z",
-    "ultimoContacto": "2026-11-07T10:56:49.671Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-08T15:13:56.999Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9110,13 +9110,20 @@
         "fecha": "2026-11-07T13:04:07.518Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3MzY2MDY4FQIAERgSODU2Q0VBNzAwOEJENkJCNDIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Rosa Elvira, sobre Modem 4G/5G",
+        "fecha": "2026-11-08T15:13:56.003Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3MzY2MDY4FQIAERgSQkVGOEQ3MjIyNTFFMjNGRTQyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -9132,10 +9139,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T13:04:08.656Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-8"
   },
