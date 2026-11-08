@@ -3,8 +3,8 @@
     "telefono": "573233121139",
     "nombre": "diego Ramírez",
     "primerContacto": "2026-11-08T15:00:29.096Z",
-    "ultimoContacto": "2026-11-08T15:00:29.096Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T15:00:56.706Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,52 @@
         "fecha": "2026-11-08T15:00:28.110Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzMTIxMTM5FQIAERgSNkE4Njk3QzQzNzEwOEVBRUYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y sirve en una vereda donde no coje nada de internet solo señal de Tigo",
+        "fecha": "2026-11-08T15:00:50.816Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T15:00:53.839Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTIxMTM5FQIAERgSM0ZEQTNBMTIzRjQwM0NFQkU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T15:00:54.416Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTIxMTM5FQIAERgSQjRCODc2RDY1M0FDQzMyQkRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-08T15:00:54.938Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTIxMTM5FQIAERgSNEY1NUNCNTg1N0IwNzA1NTIyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-08T15:00:55.494Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, justo esos lugares son donde el módem brilla. Tiene una antena potente que capta mejor la señal 4G o 5G que un celular común, así que si hay señal Tigo aunque el celular no funcione bien, este módem la aprovechará para darte WiFi estable para conectar varios dispositivos.\n\nLos tres modelos que tenemos son:\n- Modem WiFi Portátil 4G $199.900 con envío GRATIS\n- Modem WiFi Portátil 4G/5G $199.900 + $26.000 de envío\n- Modem WiFi Portátil 5G $199.900 + $26.000 de envío\n\nTe recomiendo el 4G/5G porque funciona donde hay 4G o 5G y es más seguro para zonas rurales donde a veces solo hay 4G aún.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo quieres usar en la vereda? ¿Trabajo, estudio, hogar o negocio? Así te ayudo mejor a decidir.",
+        "fecha": "2026-11-08T15:00:55.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzMTIxMTM5FQIAERgSQTI1MEQyMjJBNkZDN0Y1REVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +96,10 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-08T15:00:26.662Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217301259",
