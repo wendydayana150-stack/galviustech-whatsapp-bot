@@ -63,8 +63,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:16:43.081Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-08T14:17:08.163Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -277,9 +277,21 @@
         "fecha": "2026-11-08T14:16:42.026Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSMDg0RDUxMzhBMDBDNUFEMENBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjamelo apartado está semana",
+        "fecha": "2026-11-08T14:17:07.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-08T14:17:07.074Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSMDk3N0U4ODI1OUIyOTFCNzhBAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -287,7 +299,8 @@
       "telefono": "573144523645",
       "nombreCliente": "Deme espera",
       "celular": "3144523645",
-      "departamento": "Guaviare"
+      "departamento": "Guaviare",
+      "ciudad": "Déjamelo apartado está semana"
     },
     "pausado": false,
     "etapaManual": null,
