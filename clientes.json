@@ -78,8 +78,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:49:19.917Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-11-08T19:49:58.223Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -386,10 +386,35 @@
         "fecha": "2026-11-08T19:49:18.863Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQkU5QkJBRUM3MTVDOTREMjg3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si dejame el pedido",
+        "fecha": "2026-11-08T19:49:55.464Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, te ayudo a dejar el pedido listo para que recibas el módem 4G/5G en Uribia.",
+        "fecha": "2026-11-08T19:49:56.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSNkJENEMyRTgzRTkxQTE5RUJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-08T19:49:57.312Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMjJFMUU2QzY4ODNFNURCMUQ2AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573207954954",
+      "departamento": "La Guajira"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
