@@ -138,8 +138,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:58:59.525Z",
-    "mensajes": 27,
+    "ultimoContacto": "2026-11-08T19:59:40.136Z",
+    "mensajes": 28,
     "conversacion": [
       {
         "rol": "cliente",
@@ -615,6 +615,25 @@
         "fecha": "2026-11-08T19:58:58.222Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMEYzQjFFMDkyOUYxRDJCOTlBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo retiro hasta el viernes",
+        "fecha": "2026-11-08T19:59:37.458Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, cuando estés lista para retirarlo el viernes solo me avisas y te organizo el envío para que quede listo y lo recojas sin problema.",
+        "fecha": "2026-11-08T19:59:38.687Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSMEQ4Nzg3QjhERkU5MDU1NEEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-08T19:59:39.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSOEVFRDY5MDVBMDk2RUUzRDJEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -633,7 +652,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-13",
+      "texto": "Lo retiro hasta el viernes",
+      "desde": "2026-11-08T19:59:37.459Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
