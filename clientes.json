@@ -3,8 +3,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:06:25.544Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-08T14:06:43.695Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -119,6 +119,18 @@
         "fecha": "2026-11-08T14:06:24.776Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSODRERjdBRkZCMzlFNDBDNzIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Deme espera está semana",
+        "fecha": "2026-11-08T14:06:41.645Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que quieres pensarlo esta semana, pero recuerda que la promoción con 30% de descuento está por tiempo limitado y las unidades pueden agotarse pronto.\n\nSi te parece, puedo dejarte el pedido reservado con solo tu nombre y ciudad para que no pierdas la oportunidad.\n\n¿Quieres que haga eso o prefieres que lo dejamos para cuando tú decidas?",
+        "fecha": "2026-11-08T14:06:42.857Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSOTQzMTBBMkVCNTU1NTg3NjE4AA=="
       }
     ],
     "paso": "conversando",
