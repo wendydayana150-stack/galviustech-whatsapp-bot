@@ -63,8 +63,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:14:50.073Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-08T14:16:33.225Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -253,15 +253,28 @@
         "fecha": "2026-11-08T14:14:49.249Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSOTY2NUQwQjE3NEM5RTA5NEI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3144523645",
+        "fecha": "2026-11-08T14:16:32.219Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-08T14:16:32.221Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQTEwNTQ1NzVFMjBEQUFDNzJEAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573144523645",
-      "nombreCliente": "Deme espera"
+      "nombreCliente": "Deme espera",
+      "celular": "3144523645"
     },
     "pausado": false,
     "etapaManual": null,
