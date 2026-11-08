@@ -8287,8 +8287,8 @@
     "telefono": "573009582963",
     "nombre": "Samuel  Rodriguez",
     "primerContacto": "2026-11-07T13:16:42.548Z",
-    "ultimoContacto": "2026-11-07T13:16:42.548Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T15:13:05.031Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8335,6 +8335,13 @@
         "fecha": "2026-11-07T15:23:30.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NTgyOTYzFQIAERgSNUFDMTI5MzZDOTA2Mzg3QkNFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Samuel  Rodriguez, sobre nuestros productos",
+        "fecha": "2026-11-08T15:13:03.836Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NTgyOTYzFQIAERgSOTlDNDBGMUJEQkI4NTczRDBFAA=="
       }
     ],
     "paso": "conversando",
@@ -8357,10 +8364,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-07T15:23:36.064Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-8"
   },
