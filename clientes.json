@@ -3,8 +3,8 @@
     "telefono": "573242506270",
     "nombre": "Christian Cortes",
     "primerContacto": "2026-11-08T23:07:06.903Z",
-    "ultimoContacto": "2026-11-08T23:12:05.019Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-08T23:12:29.080Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,6 +172,18 @@
         "fecha": "2026-11-08T23:12:03.931Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSOTczRkVBOTRDMUU4QzMzODU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo te escribo",
+        "fecha": "2026-11-08T23:12:26.512Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta para cuando estés listo 😊\n\nRecuerda que el módem 4G/5G es la mejor opción para tener internet en fincas o veredas donde no llega fibra.\n\nCuando decidas, aquí estaré para ayudarte con tu pedido sin compromiso. ¡Un abrazo!",
+        "fecha": "2026-11-08T23:12:27.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSQUQyRUVCMUYyMDFDNjEwODY5AA=="
       }
     ],
     "paso": "conversando",
@@ -182,7 +194,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
