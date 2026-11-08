@@ -123,8 +123,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:41:29.997Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-11-08T22:45:18.817Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -385,9 +385,21 @@
         "fecha": "2026-11-08T22:41:29.091Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSOTRCOEYzQzU4NkQxQjkzRDU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "OFICINA CL 9 3 32 OFICINA PRINCIPAL / CENTRO\nAYAPEL / CÓRDOBA",
+        "fecha": "2026-11-08T22:45:17.832Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, lo recoges en la oficina 👍 No hace falta el barrio.\n\nPor ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-08T22:45:17.832Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSOEQzQjhFN0MzOTczQjc2MkMwAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -397,7 +409,8 @@
       "celular": "3042364113",
       "departamento": "Cordoba",
       "ciudad": "Municipio de ayapel",
-      "direccion": "La cuidad de Montería del Departamento de Córdoba del municipio de ayapel"
+      "direccion": "La cuidad de Montería del Departamento de Córdoba del municipio de ayapel (recoge en oficina de la transportadora)",
+      "barrio": "No aplica (recoge en oficina)"
     },
     "pausado": false,
     "etapaManual": null,
