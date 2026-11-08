@@ -24866,8 +24866,8 @@
     "telefono": "573103789693",
     "nombre": "Richards Rodríguez el sentimental",
     "primerContacto": "2026-10-31T21:18:14.510Z",
-    "ultimoContacto": "2026-11-08T13:08:25.265Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-11-08T22:30:34.630Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -25210,16 +25210,23 @@
         "fecha": "2026-11-08T13:08:24.335Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSOTAyNzA1OTI0QTAzOThGODMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia Sr Jesus",
+        "fecha": "2026-11-08T22:30:33.276Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzNzg5NjkzFQIAERgSMDExNUJDMTVFNjNBOUM1MjI0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": "Subir a Dropi",
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Eso me están diciendo hace una semana\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
