@@ -63,8 +63,8 @@
     "telefono": "CO.978873691483721",
     "nombre": "Cristina Pedraza",
     "primerContacto": "2026-11-08T14:09:11.247Z",
-    "ultimoContacto": "2026-11-08T14:09:11.247Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T14:31:19.767Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,13 +97,59 @@
         "fecha": "2026-11-08T14:09:10.355Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSNzMzMDk0NDkyMDBEMzVGODdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrancas Guajira",
+        "fecha": "2026-11-08T14:31:14.412Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-08T14:31:16.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSOTgwRTNBNTQyOTkxOTRENTdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-08T14:31:17.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSRDgyNzNDQzI1RDdBODhFNzI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-08T14:31:17.696Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSMTRCM0IxMEEzMzdGNTNFRERDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-08T14:31:18.285Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Barrancas Guajira es zona donde el módem mejora mucho la señal de celular, ideal para tener internet en la finca o casa.\n\nLas opciones que tienes son estas tres versiones:\n📶 Modem WiFi Portátil 4G — $199.900 con envío GRATIS. La opción más económica, buena para 4G.\n📶 Modem WiFi Portátil 4G/5G — $199.900 + $26.000 de envío. Funciona en 4G y 5G, para más velocidad donde haya cobertura.\n📶 Modem WiFi Portátil 5G — $199.900 + $26.000 de envío. Solo para zonas con 5G y quiere la máxima velocidad.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTodas conectan varios dispositivos, son fáciles de usar y duran hasta 14 horas por carga. ¿Para qué lo usarías principalmente? ¿Estudio, trabajo, hogar o negocio?",
+        "fecha": "2026-11-08T14:31:18.288Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSRjJBMTBCM0RGQkREMUIyMUE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-08T14:31:18.848Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTc4ODczNjkxNDgzNzIxFRQAERgSRTVEMTc1NTI1OTMxMkMyMzU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -117,7 +163,10 @@
       "url": "https://fb.me/51cL21efr",
       "fecha": "2026-11-08T14:09:09.226Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144523645",
