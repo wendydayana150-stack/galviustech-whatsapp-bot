@@ -3,8 +3,8 @@
     "telefono": "573227665002",
     "nombre": "Mauricio",
     "primerContacto": "2026-11-08T16:15:03.827Z",
-    "ultimoContacto": "2026-11-08T16:26:13.175Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-08T16:26:18.247Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -95,6 +95,18 @@
         "fecha": "2026-11-08T16:26:11.762Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NjY1MDAyFQIAERgSQ0EyREI0QTMzQzZENzVENzlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay nada de señal.",
+        "fecha": "2026-11-08T16:26:15.773Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por aclarar. Si realmente no llega señal de ningún operador, entonces con cualquier módem que use SIM no podrás conectarte, porque requiere señal móvil para funcionar.\n\nDime, ¿has probado en otro punto cercano a la vereda por si hay señal intermitente? A veces puede captar donde el celular no llega.\n\n¿Quieres que te ayude a ver otras opciones de conectividad o productos para tu lugar?",
+        "fecha": "2026-11-08T16:26:17.372Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NjY1MDAyFQIAERgSQzU0REY4REQ2MkJBNjg0MjE3AA=="
       }
     ],
     "paso": "conversando",
