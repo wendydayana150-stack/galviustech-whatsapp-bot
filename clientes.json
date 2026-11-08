@@ -138,8 +138,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T20:02:18.755Z",
-    "mensajes": 33,
+    "ultimoContacto": "2026-11-08T20:02:50.523Z",
+    "mensajes": 34,
     "conversacion": [
       {
         "rol": "cliente",
@@ -708,9 +708,21 @@
         "fecha": "2026-11-08T20:02:17.619Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSNDRCMjgyNUVGNENEQTFBMDEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio de uribia la guajira",
+        "fecha": "2026-11-08T20:02:49.475Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-08T20:02:49.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSRTY0REQyNDcyNjU0NDEwMEIxAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -718,7 +730,8 @@
       "telefono": "573207954954",
       "departamento": "La Guajira",
       "nombreCliente": "Yujeidis González Epieyu",
-      "celular": "3207954954"
+      "celular": "3207954954",
+      "ciudad": "En el municipio de uribia la guajira"
     },
     "pausado": false,
     "etapaManual": null,
