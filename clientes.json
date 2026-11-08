@@ -13600,8 +13600,8 @@
     "telefono": "573005213646",
     "nombre": "Liliana",
     "primerContacto": "2026-11-06T17:11:07.290Z",
-    "ultimoContacto": "2026-11-06T17:11:07.290Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-08T01:34:28.192Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13683,6 +13683,18 @@
         "fecha": "2026-11-07T14:15:35.778Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSNzU5MzJGNUI4QUEwNThGOEEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-08T01:34:27.220Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-08T01:34:27.220Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA1MjEzNjQ2FQIAERgSODNGMDgwQzRDMDE3NUI2RjQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -13705,10 +13717,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-06T19:14:52.773Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "recuperoMedia": true,
     "escasezFecha": "2026-11-7"
