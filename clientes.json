@@ -63,8 +63,8 @@
     "telefono": "573144523645",
     "nombre": "Edison",
     "primerContacto": "2026-11-08T14:03:18.651Z",
-    "ultimoContacto": "2026-11-08T14:16:33.225Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-08T14:16:43.081Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -265,16 +265,29 @@
         "fecha": "2026-11-08T14:16:32.221Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSQTEwNTQ1NzVFMjBEQUFDNzJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "San José del guaviare",
+        "fecha": "2026-11-08T14:16:42.024Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-08T14:16:42.026Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ0NTIzNjQ1FQIAERgSMDg0RDUxMzhBMDBDNUFEMENBAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573144523645",
       "nombreCliente": "Deme espera",
-      "celular": "3144523645"
+      "celular": "3144523645",
+      "departamento": "Guaviare"
     },
     "pausado": false,
     "etapaManual": null,
