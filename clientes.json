@@ -329,8 +329,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-08T23:39:07.961Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-08T23:39:55.319Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -445,9 +445,21 @@
         "fecha": "2026-11-08T23:39:06.895Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSMDRDNzZCOEYxMDc3NUYwMEU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En los barrios de los comuneros",
+        "fecha": "2026-11-08T23:39:54.247Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-08T23:39:54.248Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSOEJFRkVGRUNDNDY0M0JFRTJGAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -457,7 +469,8 @@
       "nombreCliente": "José Antonio gaitan cumanaica",
       "direccion": "Calle 19 carrera 49 barrios los comuneros",
       "departamento": "Guainia",
-      "ciudad": "Inírida"
+      "ciudad": "Inírida",
+      "barrio": "En los barrios de los comuneros"
     },
     "pausado": false,
     "etapaManual": null,
