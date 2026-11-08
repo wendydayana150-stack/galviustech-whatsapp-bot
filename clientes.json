@@ -138,8 +138,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-08T19:26:22.088Z",
-    "ultimoContacto": "2026-11-08T19:59:40.136Z",
-    "mensajes": 28,
+    "ultimoContacto": "2026-11-08T20:00:03.344Z",
+    "mensajes": 29,
     "conversacion": [
       {
         "rol": "cliente",
@@ -634,9 +634,28 @@
         "fecha": "2026-11-08T19:59:39.269Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSOEVFRDY5MDVBMDk2RUUzRDJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En donde lo voy a retirar",
+        "fecha": "2026-11-08T20:00:00.629Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o a la oficina de Interrapidísimo más cercana si vives en zona rural o vereda.\n\nEn Uribia te llegarían a la oficina de Interrapidísimo para que los recojas allá cuando quieras.\n\n¿Quieres que te deje el pedido listo para que aproveches ya la promoción?",
+        "fecha": "2026-11-08T20:00:01.640Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSRTVEQTg3RTQ0Nzk3M0VGQzNBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-08T20:00:02.262Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSODdFMDg3MjBEQTRDRTUzMjZCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
