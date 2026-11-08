@@ -123,8 +123,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T22:30:50.493Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-08T22:30:54.152Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -318,6 +318,18 @@
         "fecha": "2026-11-08T22:29:56.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNEY5MzgzMzM3QTQ2QzhBODk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Asii",
+        "fecha": "2026-11-08T22:30:52.286Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)?",
+        "fecha": "2026-11-08T22:30:52.287Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNjk5OUNDMzgxNzVENTJERTQwAA=="
       }
     ],
     "paso": "pedido_direccion",
