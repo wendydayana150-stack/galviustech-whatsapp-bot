@@ -198,6 +198,13 @@
         "fecha": "2026-11-09T21:08:33.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQzMDc2NzYwFQIAERgSOTdGQzAxQjI2NjYwNEVEQzI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-09T22:08:33.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQzMDc2NzYwFQIAERgSREJFNzFBMjVFOTI1NTQ5QTE4AA=="
       }
     ],
     "paso": "conversando",
@@ -221,8 +228,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-09T21:08:35.138Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-09T22:08:35.619Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
@@ -2425,6 +2433,13 @@
         "fecha": "2026-11-09T21:33:40.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjBDQjdFQzQ2RjFDNkFDMDIwMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-09T22:08:34.806Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjVBNzk4MjIwM0Q1NEY0ODcyMQA="
       }
     ],
     "paso": "pedido_nombre",
@@ -2447,7 +2462,9 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-09T22:08:35.619Z"
     }
   },
   {
