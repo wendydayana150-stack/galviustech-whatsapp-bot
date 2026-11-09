@@ -3,8 +3,8 @@
     "telefono": "573238564895",
     "nombre": "Mmmm",
     "primerContacto": "2026-11-09T01:38:51.260Z",
-    "ultimoContacto": "2026-11-09T01:38:51.260Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T01:39:52.795Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-09T01:38:50.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NTY0ODk1FQIAERgSNERGMUNDMzlEMTExNUMwRDkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Departamento la Guajira municipio Albania",
+        "fecha": "2026-11-09T01:39:49.161Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, y para qué necesitas principalmente el módem, ¿trabajo, estudio, hogar o para un negocio? Así te recomiendo el que mejor te sirve.\n\nMientras tanto te cuento que estos módems son ideales para zonas rurales como Albania, captan señal mejor que un celular común y conectan hasta 10 dispositivos a la vez. Imagínate tener wifi estable sin depender de fibra ni instalaciones complicadas. ¿Qué uso le das tú?",
+        "fecha": "2026-11-09T01:39:51.751Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NTY0ODk1FQIAERgSMzBCNjlEQUE4MkQ1MUMyQ0VGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/791cDlUIR",
       "fecha": "2026-11-09T01:38:49.146Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234642642",
