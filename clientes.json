@@ -3,8 +3,8 @@
     "telefono": "CO.2694535780963261",
     "nombre": "Achipiz",
     "primerContacto": "2026-11-09T09:23:20.156Z",
-    "ultimoContacto": "2026-11-09T11:14:26.835Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-09T11:14:50.020Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,13 +80,48 @@
         "fecha": "2026-11-09T11:14:25.641Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEkFDNjJCQjY3QTQ4RTc2NEQzOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Reflector Solar 500W",
+        "fecha": "2026-11-09T11:14:46.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 500W",
+        "fecha": "2026-11-09T11:14:46.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEjVENzA0MjBFRUIyRjVCRkQzQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 500W",
+        "fecha": "2026-11-09T11:14:47.604Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEjkzNzMyMEE5NTNEQzQzMDM1MAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reflector Solar LED 500W Jortan con Control Remoto*\n💰 *$ 169.900* ya con *30% de descuento* 🔥\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-09T11:14:48.208Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEjQ0OUU0QzQzMzVBOUY4ODI4OQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-09T11:14:48.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEjgwNzBEMDE4ODM4MzlENTgzRgA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reflector-solar-led-500w-con-control-remoto"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "reflector-solar-led-500w-con-control-remoto",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
