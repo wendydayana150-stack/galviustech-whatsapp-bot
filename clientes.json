@@ -3,8 +3,8 @@
     "telefono": "CO.1505496461679395",
     "nombre": "Jesica Linares",
     "primerContacto": "2026-11-09T14:18:49.199Z",
-    "ultimoContacto": "2026-11-09T14:18:49.199Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T14:19:50.837Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-09T14:18:48.170Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUwNTQ5NjQ2MTY3OTM5NRUUABEYEkRGNEE0MEZDRjMzNDY0RUE0QQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Se puede hacer impresiones a color",
+        "fecha": "2026-11-09T14:19:49.623Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-09T14:19:49.626Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNTQ5NjQ2MTY3OTM5NRUUABEYEjhEOTk3M0JDNDk3OUQ1QjU0RQA="
       }
     ],
     "paso": "conversando",
@@ -50,9 +62,15 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-09T14:19:49.626Z",
+      "quiereAviso": false
+    },
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573054591369",
