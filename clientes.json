@@ -7801,8 +7801,8 @@
     "telefono": "573118673271",
     "nombre": "",
     "primerContacto": "2026-11-08T00:51:43.120Z",
-    "ultimoContacto": "2026-11-08T00:58:35.591Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-09T00:59:47.058Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8042,6 +8042,20 @@
         "fecha": "2026-11-08T12:01:13.215Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSQTU2MTBERkE5QUYwNkI3MjMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola cliente, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-11-09T00:16:08.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMkUwREI1M0UyRkExQURGQTc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te escribo para confirmar si deseas la *IMPRESORA*. La promoción termina en pocos días y nos quedan las *últimas unidades* 🔥 Pagas al recibir 🚚 ¿Te la enviamos?",
+        "fecha": "2026-11-09T00:59:45.700Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSN0I2M0M0QkMxNkZFQTU5ODY5AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -8051,7 +8065,7 @@
       "precio": 149900,
       "telefono": "573118673271"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
@@ -8069,12 +8083,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-08T12:01:18.957Z",
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
