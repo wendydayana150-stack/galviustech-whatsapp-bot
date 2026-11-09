@@ -5591,8 +5591,8 @@
     "telefono": "573245767768",
     "nombre": "capi",
     "primerContacto": "2026-11-08T20:13:46.764Z",
-    "ultimoContacto": "2026-11-09T15:18:28.060Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-09T17:48:03.764Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5797,11 +5797,18 @@
         "fecha": "2026-11-09T15:18:26.481Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSMjEwNzMzNjVBNzhCNkZDOEIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] ",
+        "fecha": "2026-11-09T17:48:02.241Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NzY3NzY4FQIAERgSNzM2OEE2QUZGNUYxRUU4NzMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
