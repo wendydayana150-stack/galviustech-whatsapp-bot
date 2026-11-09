@@ -9394,8 +9394,8 @@
     "telefono": "573162534054",
     "nombre": "lamihurca",
     "primerContacto": "2026-11-08T13:12:02.689Z",
-    "ultimoContacto": "2026-11-09T16:26:40.569Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-09T16:27:54.893Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9581,6 +9581,25 @@
         "fecha": "2026-11-09T16:26:39.667Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSMkMwNEZDMzg5MjMzMjRFQURDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para fin de mes",
+        "fecha": "2026-11-09T16:27:52.071Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando estés listo me avisas para dejarte el pedido listo y aproveches la promo. Mientras tanto, ¿quieres que te comparta más info para que vayas con toda la confianza cuando decidas?",
+        "fecha": "2026-11-09T16:27:53.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSQzI2Rjk2RDZFNjIxQkY0N0M1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-09T16:27:54.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSRkY4NkM2QjM0NDJGMjQ4RTU1AA=="
       }
     ],
     "paso": "conversando",
@@ -9601,8 +9620,8 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-11-30",
-      "texto": "En estos momentos no dispongo de dinero. Sería para fin de mes",
-      "desde": "2026-11-09T16:26:30.115Z",
+      "texto": "Para fin de mes",
+      "desde": "2026-11-09T16:27:52.071Z",
       "avisado": false
     },
     "interesColor": null,
