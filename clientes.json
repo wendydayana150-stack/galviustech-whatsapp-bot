@@ -9394,8 +9394,8 @@
     "telefono": "573162534054",
     "nombre": "lamihurca",
     "primerContacto": "2026-11-08T13:12:02.689Z",
-    "ultimoContacto": "2026-11-09T16:23:23.378Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-09T16:26:31.118Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9557,9 +9557,21 @@
         "fecha": "2026-11-09T16:23:22.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSRUI5M0Y5Nzg1MzZCM0U5NDcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En estos momentos no dispongo de dinero. Sería para fin de mes",
+        "fecha": "2026-11-09T16:26:30.114Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Puedes llevarte la *Modem 4G/5G* *hoy mismo a cuotas* con *Sistecrédito* 💳\n\nSi aún no lo has usado, solo descargas la app y te registras gratis 👇\nhttps://www.sistecredito.com/descargar-app/\n\nCuando te aprueben el cupo me escribes y te dejo el pedido listo 🙌 ¿Ya tienes Sistecrédito?",
+        "fecha": "2026-11-09T16:26:30.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSQkRFMkUyMjVERDQ5M0RGN0M4AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -9575,7 +9587,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-30",
+      "texto": "En estos momentos no dispongo de dinero. Sería para fin de mes",
+      "desde": "2026-11-09T16:26:30.115Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
