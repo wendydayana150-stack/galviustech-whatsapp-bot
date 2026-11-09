@@ -3,8 +3,8 @@
     "telefono": "CO.2694535780963261",
     "nombre": "Achipiz",
     "primerContacto": "2026-11-09T09:23:20.156Z",
-    "ultimoContacto": "2026-11-09T09:28:07.056Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-09T09:28:27.982Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-11-09T09:28:05.996Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEkNGNDc0RkFGRTMwQzVFQUU5QQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-09T09:28:26.949Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Quedas anotado y te escribo apenas llegue la impresora a color.\n\nY si mientras tanto te sirve en blanco y negro, ¿te dejo lista la *NETUM* con envío GRATIS? 🚚",
+        "fecha": "2026-11-09T09:28:26.949Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEjgyOEVEODdBMTQ4RTIzM0VGNgA="
       }
     ],
     "paso": "conversando",
@@ -64,7 +76,7 @@
     "esperaCompra": null,
     "interesColor": {
       "desde": "2026-11-09T09:28:05.996Z",
-      "quiereAviso": false
+      "quiereAviso": true
     },
     "anuncio": {
       "titulo": "Importech Colombia",
