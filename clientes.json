@@ -10951,8 +10951,8 @@
     "telefono": "573118673271",
     "nombre": "",
     "primerContacto": "2026-11-08T00:51:43.120Z",
-    "ultimoContacto": "2026-11-09T00:59:47.058Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-09T14:44:31.812Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11227,6 +11227,13 @@
         "fecha": "2026-11-09T12:01:18.341Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSRjdEREJDMDBBNTM3MjYwNDNEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 ¿Pudiste ver nuestro mensaje? Ayer nos preguntaste por las *dos impresoras*. Te confirmo que la promoción termina en pocos días y quedan las *últimas unidades* 🔥 Pagas al recibir 🚚 ¿Te las enviamos?",
+        "fecha": "2026-11-09T14:44:30.661Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMDQwMThENTVDM0VFMzE1Q0MyAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11236,7 +11243,7 @@
       "precio": 149900,
       "telefono": "573118673271"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
@@ -11254,11 +11261,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-09T12:01:20.760Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
