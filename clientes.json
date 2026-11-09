@@ -203,8 +203,8 @@
     "telefono": "573228320482",
     "nombre": "La Vida Es Bella",
     "primerContacto": "2026-11-09T14:13:21.480Z",
-    "ultimoContacto": "2026-11-09T14:13:21.480Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T14:25:19.326Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -237,6 +237,18 @@
         "fecha": "2026-11-09T14:13:20.726Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI4MzIwNDgyFQIAERgSMzAzRDgzRDU4MzkwMUIwRjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "tiene capacidad para cuántas copias",
+        "fecha": "2026-11-09T14:25:15.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM no tiene una capacidad limitada fija de copias, porque funciona con batería y papel térmico: mientras tengas carga y papel, puedes imprimir la cantidad que necesites, sin tinta ni cartuchos.\n\nImagina imprimir tus documentos, facturas o trabajos cuando quieras, sin depender de una impresora grande o papelerías.\n\n¿Para qué tipo de documentos o trabajos necesitas usarla principalmente? Así te cuento cómo te facilitaría la vida esta impresora portátil.",
+        "fecha": "2026-11-09T14:25:18.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI4MzIwNDgyFQIAERgSODI2OEQwNDFCM0E1MEMwNzQyAA=="
       }
     ],
     "paso": "conversando",
@@ -257,7 +269,10 @@
       "url": "https://fb.me/8zdoWvRDv",
       "fecha": "2026-11-09T14:13:19.563Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573206075330",
