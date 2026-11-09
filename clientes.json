@@ -3,8 +3,8 @@
     "telefono": "CO.1023596520767741",
     "nombre": "Luis Angélico Morales",
     "primerContacto": "2026-11-09T12:07:23.789Z",
-    "ultimoContacto": "2026-11-09T12:07:23.789Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T12:08:12.145Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-09T12:07:22.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjY0NTg4MDhFMzE2NDA3RDRENwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito la información eso lo hace el envío",
+        "fecha": "2026-11-09T12:08:08.089Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, pero para ayudarte mejor necesito saber cuál producto te interesa específicamente, ¿el módem, la impresora, las lámparas, las cámaras o algún otro? Así te cuento el precio con envío incluido y características clave para que lo tengas claro. ¿Me cuentas?",
+        "fecha": "2026-11-09T12:08:10.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjNERjIxNDExRUMzMjNEMkVGMwA="
       }
     ],
     "paso": "conversando",
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1793347145327912",
