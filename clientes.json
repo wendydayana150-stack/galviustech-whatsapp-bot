@@ -3,8 +3,8 @@
     "telefono": "573147595976",
     "nombre": "hidro ranurado",
     "primerContacto": "2026-11-09T12:19:07.210Z",
-    "ultimoContacto": "2026-11-09T12:19:07.210Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T12:19:43.754Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-09T12:19:06.406Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSRTFCNzZCNTU2OTMwNUY2NzAyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "hola buenos días",
+        "fecha": "2026-11-09T12:19:40.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Buen día! Soy Michell de GalviusTech 😊\n\n¿En qué municipio o vereda necesitas el módem y para qué lo usarías? Trabajo, estudio, hogar o viaje, para orientarte mejor.\n\n¿Ya usas algún tipo de internet o estarías estrenando conexión?",
+        "fecha": "2026-11-09T12:19:42.955Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSOTUxMEE0MjlEMjI1QjY0NjE2AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/ljtvPcbDR",
       "fecha": "2026-11-09T12:19:05.383Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1023596520767741",
