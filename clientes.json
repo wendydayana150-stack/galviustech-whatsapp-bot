@@ -3,8 +3,8 @@
     "telefono": "CO.2694535780963261",
     "nombre": "Achipiz",
     "primerContacto": "2026-11-09T09:23:20.156Z",
-    "ultimoContacto": "2026-11-09T09:23:20.156Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T09:28:07.056Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-09T09:23:19.115Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEkQ2RENCMTdDQUQ0RThBNTE0QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprimen a color",
+        "fecha": "2026-11-09T09:28:05.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-09T09:28:05.996Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NDUzNTc4MDk2MzI2MRUUABEYEkNGNDc0RkFGRTMwQzVFQUU5QQA="
       }
     ],
     "paso": "conversando",
@@ -50,14 +62,20 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-09T09:28:05.996Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "Importech Colombia",
       "texto": "🚨 ¡DEJA DE GASTAR EN TINTA Y HAZ TU DÍA MÁS PRÁCTICO! 🖨️🔥\n\n¿Eres emprendedor, estudiante, tienes un negocio o necesitas imprimir constantemente?\n\n¡ESTO ES JUSTO LO QUE ESTABAS BUSCANDO! 😍\n\n💥 **¡CONOCE LA IMPRESORA TÉRMICA PORTÁTIL NETUM!**\n\nImagina tener una impresora compacta que puedes llevar contigo y utilizar sin preocuparte por comprar tinta ni cartuchos.\n\n✨ ¿POR QUÉ NECESITAS UNA?\n\n✅ IMPRESIÓN SIN TINTA NI CARTUCHOS.\n✅ Conexión Bluetooth con dispositivos compatibles.\n✅ Diseño portátil",
       "url": "https://fb.me/8zdoWvRDv",
       "fecha": "2026-11-09T09:23:17.313Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208128510",
