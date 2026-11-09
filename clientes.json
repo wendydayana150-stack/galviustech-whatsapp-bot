@@ -3992,8 +3992,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-09T14:04:02.039Z",
-    "mensajes": 32,
+    "ultimoContacto": "2026-11-09T15:19:32.041Z",
+    "mensajes": 33,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4480,16 +4480,23 @@
         "fecha": "2026-11-09T14:04:01.017Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSODE5NTI0MEVGQ0IyMUNCQkJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia Sr cristian",
+        "fecha": "2026-11-09T15:19:30.975Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSOTA5RkE0RTNBNDk3Q0Q1MEUyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "Pedido registrado automaticamente sin medio de pago (el cliente no respondio). Confirmar por llamada antes de despachar.",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
