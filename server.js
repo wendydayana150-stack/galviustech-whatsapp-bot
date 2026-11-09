@@ -7077,7 +7077,7 @@ function mensajePedidoPendienteProducto(productoId, preguntaFaltante, tier) {
             "🎁 Recuerda que tienes:\n" + envio + "\n💵 *PAGO CONTRAENTREGA.*\n📦 Recibes y pagas al momento de la entrega.\n\n" +
             "¡Aprovecha la disponibilidad actual!\n\n" +
             "Solo necesitamos tus datos para dejar tu pedido listo. ❤️\n\n" +
-            `¿Te reservamos ${/s$/i.test(corto) ? "tus" : "tu"} *${corto}*?` + pregunta
+            `¿Te enviamos ${/s$/i.test(corto) ? "tus" : "tu"} *${corto}*?` + pregunta
       );
 }
 
