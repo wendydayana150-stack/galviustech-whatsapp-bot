@@ -12750,8 +12750,8 @@
     "telefono": "CO.2065632907475071",
     "nombre": "conal.Gutix.1",
     "primerContacto": "2026-11-07T22:05:03.190Z",
-    "ultimoContacto": "2026-11-09T15:07:38.810Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-11-09T15:08:22.623Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -13218,6 +13218,18 @@
         "fecha": "2026-11-09T15:07:37.717Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEjFCODc3NUUwNUEwNTk1RTUzMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No sólo quiero una",
+        "fecha": "2026-11-09T15:08:19.026Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Luis, que te entiendo. Tener un solo módem portátil 4G es ideal para que tengas internet estable donde lo necesitas, sin depender del WiFi de otros ni complicaciones.\n\nSolo con ese módem puedes conectar hasta 10 dispositivos, así que toda la familia o equipo puede usarlo sin problema.\n\n¿Quieres que te ayude a terminar tu pedido y programar el envío?",
+        "fecha": "2026-11-09T15:08:21.705Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA2NTYzMjkwNzQ3NTA3MRUUABEYEkFFMUUyNTA1OUE4RTlBOURGRgA="
       }
     ],
     "paso": "conversando",
@@ -13238,7 +13250,10 @@
       "url": "https://fb.me/7IMaoIOMj",
       "fecha": "2026-11-07T22:05:00.921Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-09T15:08:19.026Z",
+      "texto": "No sólo quiero una"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
