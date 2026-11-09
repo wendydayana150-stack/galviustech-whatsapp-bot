@@ -63,8 +63,8 @@
     "telefono": "573245885689",
     "nombre": "Yoana Ochoa",
     "primerContacto": "2026-11-09T04:03:25.889Z",
-    "ultimoContacto": "2026-11-09T04:37:45.256Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-09T04:38:44.701Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,6 +109,18 @@
         "fecha": "2026-11-09T04:37:44.062Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1ODg1Njg5FQIAERgSOTI5QjQwNDkzOUMxMkIyQUNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A si por favor gracias",
+        "fecha": "2026-11-09T04:38:43.798Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Quedas anotado y te escribo apenas llegue la impresora a color.\n\nY si mientras tanto te sirve en blanco y negro, ¿te dejo lista la *NETUM* con envío GRATIS? 🚚",
+        "fecha": "2026-11-09T04:38:43.798Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1ODg1Njg5FQIAERgSNzQ3ODAyMUI3OUE1MzhDNjRBAA=="
       }
     ],
     "paso": "conversando",
@@ -124,7 +136,7 @@
     "esperaCompra": null,
     "interesColor": {
       "desde": "2026-11-09T04:37:44.062Z",
-      "quiereAviso": false
+      "quiereAviso": true
     },
     "anuncio": {
       "titulo": "Importech Colombia",
