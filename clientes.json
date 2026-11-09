@@ -3,8 +3,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-11-09T11:20:29.000Z",
-    "ultimoContacto": "2026-11-09T11:22:08.466Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-09T11:22:15.560Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -118,9 +118,21 @@
         "fecha": "2026-11-09T11:22:07.324Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkQyMDNBNkZDRjk2QzRENEIwOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-11-09T11:22:14.523Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-11-09T11:22:14.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkFCMjQxNUJFODBBNTdEOTIxNgA="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "calculadira-pantalla"
     },
