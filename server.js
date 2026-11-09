@@ -5865,6 +5865,7 @@ app.post("/admin/etapa/:telefono", requiereLogin, async (req, res) => {
       }
 });
 
+const ultimoEnvioManual = new Map();
 app.post("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
       subirArchivoChat.single("archivo")(req, res, async (errorSubida) => {
             const volverConError = (mensajeError) =>
@@ -5880,6 +5881,13 @@ app.post("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
 
             try {
                   const mensaje = (req.body.mensaje || "").trim();
+                  // 9-nov-2026 (Wendy, caso Dios&Familia): varios clics en "Enviar" mandaron el mismo mensaje 4 veces.
+                  // El mismo texto al mismo cliente dentro de 30 segundos se ignora.
+                  const claveRepetido = req.params.telefono + "|" + mensaje;
+                  if (!req.file && mensaje && Date.now() - (ultimoEnvioManual.get(claveRepetido) || 0) < 30000) {
+                        return res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
+                  }
+                  if (!req.file && mensaje) ultimoEnvioManual.set(claveRepetido, Date.now());
                   if (req.file) {
                         await enviarArchivoManual(req.params.telefono, req.file, mensaje);
                   } else if (mensaje) {
@@ -5888,6 +5896,7 @@ app.post("/admin/chat/:telefono/enviar", requiereLogin, (req, res) => {
                   res.redirect(`/admin/chat/${encodeURIComponent(req.params.telefono)}`);
             } catch (error) {
                   console.error("Error enviando mensaje manual:", error.response?.data || error.message);
+                  ultimoEnvioManual.delete(req.params.telefono + "|" + (req.body.mensaje || "").trim());
                   const mensajeError = error.esMensajeAmigable
                         ? error.message
                         : "Hubo un error enviando el mensaje. Intenta de nuevo.";
@@ -5970,7 +5979,7 @@ app.get("/admin/chat/:telefono", requiereLogin, async (req, res) => {
             </div>
             <div class="aviso">${cliente.pausado ? "El bot esta pausado, tus mensajes se enviaran directamente al cliente." : "Al escribir aqui, el bot se pausara automaticamente para este cliente."}</div>
             <div class="archivo-nombre" id="nombreArchivo"></div>
-            <form class="escribir" method="POST" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/enviar" enctype="multipart/form-data">
+            <form class="escribir" method="POST" action="/admin/chat/${encodeURIComponent(cliente.telefono)}/enviar" enctype="multipart/form-data" onsubmit="if (this.dataset.enviando) return false; this.dataset.enviando = '1'; var b = this.querySelector('button[type=submit]'); setTimeout(function () { b.disabled = true; b.textContent = 'Enviando...'; }, 0); return true;">
             <label class="adjuntar" title="Adjuntar foto o video">
             📎
             <input type="file" name="archivo" accept="image/*,video/*,.pdf,.doc,.docx,.xls,.xlsx,.ppt,.pptx,.txt" onchange="document.getElementById('nombreArchivo').textContent = this.files[0] ? 'Adjunto: ' + this.files[0].name : '';">
