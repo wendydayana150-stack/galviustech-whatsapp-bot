@@ -263,6 +263,13 @@
         "fecha": "2026-11-09T12:22:50.873Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSODM0NkFGQTJFQ0ZDMDY0MDc0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-09T13:31:08.889Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSQjhDNEI3ODk0NTZBNkQ5MEIzAA=="
       }
     ],
     "paso": "conversando",
@@ -285,7 +292,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-09T13:31:10.878Z"
     }
   },
   {
@@ -682,6 +691,13 @@
         "fecha": "2026-11-09T12:31:08.905Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjUzNzczRDE1RjlCMEZCMzU2MQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-09T13:31:09.752Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjdCQjJBNDVGMzRGNzIzMTU0MAA="
       }
     ],
     "paso": "conversando",
@@ -709,9 +725,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-09T12:31:10.259Z"
+      "ultimoEnvio": "2026-11-09T13:31:10.878Z",
+      "horas3": true
     }
   },
   {
