@@ -3,8 +3,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-11-09T11:20:29.000Z",
-    "ultimoContacto": "2026-11-09T11:21:17.280Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-09T11:22:08.466Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,13 +92,41 @@
         "fecha": "2026-11-09T11:21:15.901Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjI0Njk5QjE2MUUzNjVCRTFBQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Calculadora LCD 2 en 1",
+        "fecha": "2026-11-09T11:22:05.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Calculadora LCD 2 en 1",
+        "fecha": "2026-11-09T11:22:05.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkI5MjJFM0VENjdEMDJDODkxNAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Calculadora 2 en 1 con Tableta de Escritura LCD*\n💰 *$ 55.000* ya con *30% de descuento* 🔥\n✅ Calculadora y libreta LCD en uno\n✅ Batería solar de larga duración\n✅ Plegable y fácil de llevar\n🚚 Envío $26.000 y *pagas al recibir*\n⚠️ Agotado por el momento",
+        "fecha": "2026-11-09T11:22:06.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjNCQTg1OEI0QUZDMkQ0OUIzQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Este modelo se agoto por ahora. Quieres ver otros?\n[Opciones: Ver similares | Ver la tienda]",
+        "fecha": "2026-11-09T11:22:07.324Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkQyMDNBNkZDRjk2QzRENEIwOAA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "calculadira-pantalla"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "calculadira-pantalla",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
