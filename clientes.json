@@ -8860,8 +8860,8 @@
     "telefono": "573162534054",
     "nombre": "lamihurca",
     "primerContacto": "2026-11-08T13:12:02.689Z",
-    "ultimoContacto": "2026-11-08T13:45:33.195Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-09T15:11:30.337Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8990,13 +8990,20 @@
         "fecha": "2026-11-08T15:51:08.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSNTU4QTMwRTNBM0NBNTFGRDZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola lamihurca, sobre Modem 4G/5G",
+        "fecha": "2026-11-09T15:11:29.181Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTYyNTM0MDU0FQIAERgSQTJFMDVEMzFGMkU5NzU2MTZCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -9012,10 +9019,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-08T15:51:10.039Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-9"
   },
