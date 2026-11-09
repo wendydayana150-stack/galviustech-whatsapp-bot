@@ -166,8 +166,8 @@
     "telefono": "573147595976",
     "nombre": "hidro ranurado",
     "primerContacto": "2026-11-09T12:19:07.210Z",
-    "ultimoContacto": "2026-11-09T12:22:51.739Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-09T13:43:25.836Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -279,13 +279,59 @@
         "fecha": "2026-11-09T13:31:08.889Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSQjhDNEI3ODk0NTZBNkQ5MEIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No me acuerdo",
+        "fecha": "2026-11-09T13:43:19.920Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-09T13:43:22.921Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSNzE1QzE5NjYxNzBDMTQwMUEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-09T13:43:23.473Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSRTlDMzVFMzc5N0NBMzdEQ0ZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-09T13:43:23.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSRkYzQjBBQzUwOTk2ODk4NkY1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-09T13:43:24.504Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "No hay problema, ¿qué te parece si te recuerdo rápido los modelos y precios para que veas cuál te llama más la atención? \n\nTenemos:\n📶 Módem 4G: $199.900 con envío gratis, ideal para uso en casa o finca donde hay 4G.\n📶 Módem 4G/5G: $199.900 + $26.000 envío, para que aproveches 5G si hay cobertura.\n📶 Módem 5G: $199.900 + $26.000 envío, para máxima velocidad donde 5G esté fuerte.\n\n¿Cómo te suena alguna de estas opciones? ¿Te interesa que te la deje lista para enviar?",
+        "fecha": "2026-11-09T13:43:24.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSRkY5MkE3RUY4OThGOEM1MjRFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-09T13:43:25.005Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTk1OTc2FQIAERgSMjU1QTY2NjEyMkUxMDQ5NEJEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -301,9 +347,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T13:31:10.878Z"
+      "seguimientosEnviados": 0
     }
   },
   {
