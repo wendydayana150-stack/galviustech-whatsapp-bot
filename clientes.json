@@ -11709,6 +11709,13 @@
         "fecha": "2026-11-09T15:27:47.932Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMjc3NkY2QkU4ODZDOURBNEVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora Goojprt PT-210* ya está *casi listo para despachar* 🚚\n\n💰 *$ 149.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-09T16:01:24.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSOUM3MjQxN0Q2Nzc2NkJDNzg4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11736,7 +11743,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-09T16:01:25.897Z"
     }
   },
   {
