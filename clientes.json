@@ -2369,8 +2369,8 @@
     "telefono": "CO.1023596520767741",
     "nombre": "Luis Angélico Morales",
     "primerContacto": "2026-11-09T12:07:23.789Z",
-    "ultimoContacto": "2026-11-09T23:25:45.371Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-09T23:26:24.206Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2629,9 +2629,21 @@
         "fecha": "2026-11-09T23:25:44.411Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjMxNkRFRjFBMjhBMDY0MTc1MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el suroeste del departamento de Vaupés",
+        "fecha": "2026-11-09T23:26:23.161Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-09T23:26:23.163Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEkFBRTE1MjlCRkYyREY0MDA1RQA="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -2641,7 +2653,8 @@
       "celular": "3143548061",
       "departamento": "Vaupes",
       "ciudad": "Comunidad de Puerto Ortega pirá Vaupés",
-      "direccion": "Puerto Ortega pirá"
+      "direccion": "Puerto Ortega pirá",
+      "barrio": "En el suroeste del departamento de Vaupés"
     },
     "pausado": false,
     "etapaManual": null,
