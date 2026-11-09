@@ -3,8 +3,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-11-09T11:20:29.000Z",
-    "ultimoContacto": "2026-11-09T11:22:44.178Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-09T11:23:22.911Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -149,9 +149,21 @@
         "fecha": "2026-11-09T11:22:42.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkEzREMxMTlEQjQyMjU4RUI4MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero sería para más adelante,no tengo el dinero en este momento",
+        "fecha": "2026-11-09T11:23:21.674Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Puedes llevarte la *Impresora NETUM* *hoy mismo a cuotas* con *Sistecrédito* 💳\n\nSi aún no lo has usado, solo descargas la app y te registras gratis 👇\nhttps://www.sistecredito.com/descargar-app/\n\nCuando te aprueben el cupo me escribes y te dejo el pedido listo 🙌 ¿Ya tienes Sistecrédito?",
+        "fecha": "2026-11-09T11:23:21.675Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjg5MUUyODA1QjUxNjE2NTRCMQA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
