@@ -3,8 +3,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-11-09T11:20:29.000Z",
-    "ultimoContacto": "2026-11-09T11:20:29.000Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T11:20:34.454Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-11-09T11:20:27.850Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkNEMkQ2QUNFRTQ5ODFCN0U4MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por favor",
+        "fecha": "2026-11-09T11:20:30.753Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech, ¿quieres que te cuente sobre la Impresora Térmica Portátil NETUM? Es ideal para imprimir documentos y trabajos en tamaño carta, sin gastar en tinta ni cartuchos. La inversión sería de $249.900 con envío GRATIS y pagas al recibir. ¿Para qué la necesitarías?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-09T11:20:32.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkI1MzlEM0MwQjMxNDc5NUU4OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-09T11:20:33.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjQ5NUU0NzhCQ0I2RDQwMjg5OAA="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8zdoWvRDv",
       "fecha": "2026-11-09T11:20:26.360Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2694535780963261",
