@@ -2018,6 +2018,11 @@ function sanearRespuestaIA(texto) {
                   }
                   // 3) Nunca "pregunta lo que quieras" ante preguntas tecnicas
                   if (/pregunta lo que quieras|qu[eé] quieres saber primero/i.test(f)) return null;
+                  // 3b) 8-nov-2026 (Wendy, caso Jose Antonio): las transportadoras NO entregan en veredas.
+                  // Nunca "llega ... a tu vereda": se cambia por la oficina de la transportadora del municipio.
+                  if (/(lleg|env[ií]|despach|entreg|recib|mand|transportadora|interrap|coordinadora|pedido)/i.test(f)) {
+                        f = f.replace(/(a|hasta|en|para)\s+(tu|la|su|esa|esta)\s+(misma\s+)?(vereda|finca|zona rural)/gi, "a la oficina de la transportadora de tu municipio");
+                  }
                   return f;
             })
       );
