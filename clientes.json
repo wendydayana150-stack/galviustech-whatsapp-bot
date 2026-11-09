@@ -1081,8 +1081,8 @@
     "telefono": "573243835391",
     "nombre": "Cristian Tejada",
     "primerContacto": "2026-11-08T22:10:22.840Z",
-    "ultimoContacto": "2026-11-08T23:23:06.090Z",
-    "mensajes": 21,
+    "ultimoContacto": "2026-11-09T01:00:30.521Z",
+    "mensajes": 22,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1402,6 +1402,18 @@
         "fecha": "2026-11-08T23:23:05.250Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSOEU5NUVERkZFRjQ0QzM4RkYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno esta bien gracias",
+        "fecha": "2026-11-09T01:00:27.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias a ti! 😊 Recuerda que tu pedido está registrado y pronto lo recibirás en Interrapidísimo Ayapel.\n\nSi necesitas ayuda con la configuración o cualquier otra cosa, aquí estoy para apoyarte.\n\n¡Que tengas un excelente día!",
+        "fecha": "2026-11-09T01:00:29.579Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzODM1MzkxFQIAERgSNjczOURDQkQxRkE0RTM3MUQ2AA=="
       }
     ],
     "paso": "conversando",
@@ -1412,7 +1424,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
     "motivoAtencion": "Pedido registrado automaticamente sin medio de pago (el cliente no respondio). Confirmar por llamada antes de despachar.",
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
