@@ -603,8 +603,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-09T00:11:12.733Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-09T00:20:52.780Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -759,6 +759,18 @@
         "fecha": "2026-11-09T00:11:11.838Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSQzNDMzY4RkM5RjIzNDkwNTkxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En interrapidisimo",
+        "fecha": "2026-11-09T00:20:49.711Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Llega en 1 a 3 días hábiles después que se despache el pedido por Interrapidísimo a tu vereda.\n\nEl modem tiene batería recargable USB-C que dura hasta 14 horas en uso continuo, para que te conectes todo el día sin problema.\n\n¿Quieres que te ayude a dejar el pedido listo? Así lo recibes rápido y sin complicaciones.",
+        "fecha": "2026-11-09T00:20:51.846Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSMzRDQThEQzFGMkYyODc3MEJEAA=="
       }
     ],
     "paso": "conversando",
@@ -781,9 +793,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-09T00:11:15.444Z"
+      "seguimientosEnviados": 0
     }
   },
   {
