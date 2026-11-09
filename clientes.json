@@ -2369,8 +2369,8 @@
     "telefono": "CO.1023596520767741",
     "nombre": "Luis Angélico Morales",
     "primerContacto": "2026-11-09T12:07:23.789Z",
-    "ultimoContacto": "2026-11-09T23:24:52.603Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-09T23:25:01.145Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2581,15 +2581,28 @@
         "fecha": "2026-11-09T23:24:51.425Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjE2MDUxMzE2NjFDQzAyQ0IxMQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3143548061",
+        "fecha": "2026-11-09T23:25:00.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-09T23:25:00.128Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjZBMTk0MzI0RTBFMTREMTgwMwA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "CO.1023596520767741",
-      "nombreCliente": "Luis Angélico Morales"
+      "nombreCliente": "Luis Angélico Morales",
+      "celular": "3143548061"
     },
     "pausado": false,
     "etapaManual": null,
