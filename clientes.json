@@ -3,8 +3,8 @@
     "telefono": "573122131929",
     "nombre": "Yuli Montoya",
     "primerContacto": "2026-11-09T20:45:35.927Z",
-    "ultimoContacto": "2026-11-09T20:45:35.927Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T21:49:09.602Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,6 +44,18 @@
         "fecha": "2026-11-09T21:48:33.672Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMxOTI5FQIAERgSMkU4NkVEMkUxM0RCQzVBRjU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-09T21:49:08.374Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-09T21:49:08.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMxOTI5FQIAERgSNzJEMkNFNjFBQTE3QzVBNURGAA=="
       }
     ],
     "paso": "conversando",
@@ -66,9 +78,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T21:48:35.151Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
