@@ -3,8 +3,8 @@
     "telefono": "573234247429",
     "nombre": "Deibis Salas",
     "primerContacto": "2026-11-09T16:28:49.624Z",
-    "ultimoContacto": "2026-11-09T16:38:58.887Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-09T16:39:23.800Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -155,6 +155,25 @@
         "fecha": "2026-11-09T16:38:57.908Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSRjBBNUVCM0M2NEZBMjFDREYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si pero le hago la compra para el 25",
+        "fecha": "2026-11-09T16:39:20.760Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te entiendo. El precio y la disponibilidad pueden cambiar, pero quedo atenta para ayudarte a dejar el pedido listo cuando quieras hacer la compra el 25 o 26.\n\nRecuerda que cuanto antes confirmes, antes te llega y empiezas a disfrutar internet con mejor cobertura para tu zona.",
+        "fecha": "2026-11-09T16:39:22.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSRUM5QkM1ODNDMEEwOUY1OTE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-09T16:39:23.032Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSOEJDMUY0OERCOERFMjc1MjI4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -174,8 +193,8 @@
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-11-25",
-      "texto": "Le are la compra el 25 o 26 si puedes esperar porfa dónde está ubicado",
-      "desde": "2026-11-09T16:34:03.009Z",
+      "texto": "Si pero le hago la compra para el 25",
+      "desde": "2026-11-09T16:39:20.762Z",
       "avisado": false
     },
     "interesColor": null,
