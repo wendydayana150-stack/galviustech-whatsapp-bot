@@ -2209,8 +2209,8 @@
     "telefono": "CO.1023596520767741",
     "nombre": "Luis Angélico Morales",
     "primerContacto": "2026-11-09T12:07:23.789Z",
-    "ultimoContacto": "2026-11-09T15:12:56.903Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-09T21:33:41.732Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2388,6 +2388,13 @@
         "fecha": "2026-11-09T17:51:24.633Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjY0MEE5ODc2NUEyQUUzOTBCMwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenas tardes, me confirmas si deseas la IMPRESORA? QUEDAN LAS ULTIMAS UNIDADES",
+        "fecha": "2026-11-09T21:33:40.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjBDQjdFQzQ2RjFDNkFDMDIwMAA="
       }
     ],
     "paso": "pedido_nombre",
@@ -2397,7 +2404,7 @@
       "precio": 249900,
       "telefono": "CO.1023596520767741"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
@@ -2410,11 +2417,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-09T17:51:25.863Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
