@@ -3,8 +3,8 @@
     "telefono": "CO.1793347145327912",
     "nombre": ".",
     "primerContacto": "2026-11-09T11:20:29.000Z",
-    "ultimoContacto": "2026-11-09T11:22:15.560Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-09T11:22:44.178Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,15 +130,37 @@
         "fecha": "2026-11-09T11:22:14.524Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkFCMjQxNUJFODBBNTdEOTIxNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesan",
+        "fecha": "2026-11-09T11:22:39.689Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial 🙌 La Impresora NETUM mide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto; es compacta, fácil de llevar y dura hasta 30 horas con una sola carga. Imprime en blanco y negro directo desde tu celular por Bluetooth, sin complicaciones y sin tinta.\n\n¿Te la envío a tu casa o prefieres recogerla en la oficina?",
+        "fecha": "2026-11-09T11:22:41.629Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEjkxMjlBNjVFNEEyMDlBOUJEOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n📦 Solo necesitamos tus datos:\n\n👤 Nombre completo\n📱 Celular\n📍 Departamento\n🏙️ Ciudad o municipio\n🏠 Dirección\n📌 Barrio o vereda\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊",
+        "fecha": "2026-11-09T11:22:42.631Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5MzM0NzE0NTMyNzkxMhUUABEYEkEzREMxMTlEQjQyMjU4RUI4MQA="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "calculadira-pantalla"
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "CO.1793347145327912"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "calculadira-pantalla",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
