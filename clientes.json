@@ -10380,8 +10380,8 @@
     "telefono": "573237688679",
     "nombre": "Marcela Ortiz",
     "primerContacto": "2026-11-08T05:19:00.492Z",
-    "ultimoContacto": "2026-11-08T05:19:00.492Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T15:14:01.210Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10428,6 +10428,13 @@
         "fecha": "2026-11-08T12:01:07.442Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM3Njg4Njc5FQIAERgSNjY5NDIzRUFFODlBN0NEQjM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Marcela Ortiz, sobre nuestros productos",
+        "fecha": "2026-11-09T15:13:59.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM3Njg4Njc5FQIAERgSODEwRjE4OUJGMUUwNUUxRDU2AA=="
       }
     ],
     "paso": "conversando",
@@ -10450,10 +10457,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-08T12:01:18.957Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-9"
   },
