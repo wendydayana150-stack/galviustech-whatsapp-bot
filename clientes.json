@@ -3,8 +3,8 @@
     "telefono": "573234247429",
     "nombre": "Deibis Salas",
     "primerContacto": "2026-11-09T16:28:49.624Z",
-    "ultimoContacto": "2026-11-09T16:40:36.989Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-09T16:41:04.900Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -222,9 +222,21 @@
         "fecha": "2026-11-09T16:40:36.013Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSNjcxNDZDMjI2QzJFNjE4QTFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Nose la verdad como soy nuevo doy de pueblo",
+        "fecha": "2026-11-09T16:41:03.893Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-09T16:41:03.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSQzM2Nzg1RDA1QTU2QTlCNDZCAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -234,7 +246,8 @@
       "celular": "1028280302",
       "departamento": "Antioquia",
       "ciudad": "Medellín",
-      "direccion": "Pero estoy en el ejercito cuando salga de permiso le envío la dirección"
+      "direccion": "Pero estoy en el ejercito cuando salga de permiso le envío la dirección",
+      "barrio": "Nose la verdad como soy nuevo doy de pueblo"
     },
     "pausado": false,
     "etapaManual": null,
