@@ -11325,8 +11325,8 @@
     "telefono": "573118673271",
     "nombre": "",
     "primerContacto": "2026-11-08T00:51:43.120Z",
-    "ultimoContacto": "2026-11-09T14:44:31.812Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-09T15:27:48.747Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11608,6 +11608,20 @@
         "fecha": "2026-11-09T14:44:30.661Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMDQwMThENTVDM0VFMzE1Q0MyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-09T15:27:47.182Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSNTdFNDFGOTVEM0E4QjcyOUFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte por el *Impresora Goojprt PT-210*?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍",
+        "fecha": "2026-11-09T15:27:47.932Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE4NjczMjcxFQIAERgSMjc3NkY2QkU4ODZDOURBNEVBAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11617,7 +11631,7 @@
       "precio": 149900,
       "telefono": "573118673271"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
