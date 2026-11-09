@@ -3,8 +3,8 @@
     "telefono": "573238564895",
     "nombre": "Mmmm",
     "primerContacto": "2026-11-09T01:38:51.260Z",
-    "ultimoContacto": "2026-11-09T01:42:58.436Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-09T01:43:02.075Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -174,6 +174,25 @@
         "fecha": "2026-11-09T01:42:56.716Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4NTY0ODk1FQIAERgSMUQxMzEwREFDRkE4Qjk0OUQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dime",
+        "fecha": "2026-11-09T01:42:59.652Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya te dejo el pedido listo para el módem 4G/5G.\n\nSolo dime si prefieres que te llegue a tu vereda en Albania o prefieres recogerlo en la oficina de Interrapidísimo.",
+        "fecha": "2026-11-09T01:43:00.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NTY0ODk1FQIAERgSMzZGMkEwRDM4NzgwM0Q3OTRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-09T01:43:01.017Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4NTY0ODk1FQIAERgSMEZFMjQ3Rjc1MUJCNTc2OEY5AA=="
       }
     ],
     "paso": "pedido_celular",
