@@ -3619,8 +3619,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-09T00:20:52.780Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-09T15:27:08.351Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3787,16 +3787,23 @@
         "fecha": "2026-11-09T00:20:51.846Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSMzRDQThEQzFGMkYyODc3MEJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hola buen dia, te envio la GUIA, pedido listo para reclamar el dia MIERCOLES por favor mucha responsabilidad con el ENVIO, ya que muchos piden pedidos y nunca reclaman",
+        "fecha": "2026-11-09T15:27:07.043Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSRkMwRjFCMEU4ODBBRDM1MUQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "Pedido registrado automaticamente sin medio de pago (el cliente no respondio). Confirmar por llamada antes de despachar.",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
