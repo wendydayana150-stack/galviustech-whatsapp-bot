@@ -2371,7 +2371,7 @@ async function enviarRecordatoriosPendientes() {
                               await enviarBotones(
                                     p.telefono,
                                     p.tier === "horas1"
-                                          ? `Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *${precioTexto}* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la aparto?`
+                                          ? `Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *${precioTexto}* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?`
                                           : GUION_NETUM_INDECISOS,
                                     [
                                           { id: "pedir_impresora-termica", titulo: "✅ LA QUIERO" },
@@ -6774,7 +6774,7 @@ async function mensajesCierreMedias() {
             if (def) {
                   lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Tu pedido del *${producto.nombreCorto || producto.nombre}* a ${precio} ya está casi listo 📦\n\n${urgencia}\n${confianza}\n\nPara despacharlo hoy solo me falta un dato: ¿${def.pregunta.replace(/^Para empezar,\s*/i, "").replace(/^¿/, "").replace(/^\w/, (l) => l.toUpperCase())}` });
             } else {
-                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} Te tengo apartado el *${producto.nombreCorto || producto.nombre}* a ${precio}.\n\n${urgencia}\n${confianza}\n\n¿Te lo envío?`, botones: [{ id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" }, { id: "ver_catalogo", titulo: "Ver otros" }] });
+                  lista.push({ telefono: c.telefono, nombre: c.nombre, texto: `${saludo} El *${producto.nombreCorto || producto.nombre}* sigue en promoción a ${precio}.\n\n${urgencia}\n${confianza}\n\n¿Te lo envío?`, botones: [{ id: `pedir_${producto.id}`, titulo: "✅ Sí, envíamelo" }, { id: "ver_catalogo", titulo: "Ver otros" }] });
             }
       }
       return lista;
@@ -7055,7 +7055,7 @@ function mensajePedido30m(ped, preguntaFaltante) {
       const producto = p ? `*${p.nombreCorto || p.nombre}*` : "pedido";
       const precio = p ? `\n\n💰 *${formatearPrecio(p.precio)}*${textoEnvio(p.id)} · 💵 *Pagas al recibir*` : "\n\n💵 *Pagas al recibir*";
       return `${saludo} Tu ${producto} ya está *casi listo para despachar* 🚚` + (ya.length ? `\n\n${ya.join("\n")}` : "") + precio +
-            `\n\n🔥 Quedan las *últimas unidades*, termina tu pedido para dejártelo separado.\n\n👉 ${preguntaFaltante}`;
+            `\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 ${preguntaFaltante}`;
 }
 
 function mensajePedidoPendienteProducto(productoId, preguntaFaltante, tier) {
@@ -7068,7 +7068,7 @@ function mensajePedidoPendienteProducto(productoId, preguntaFaltante, tier) {
       const pregunta = preguntaFaltante ? `\n\n👉 ${preguntaFaltante}` : "";
       if (tier === "horas3") {
             const tu = /s$/i.test(corto) ? "tus" : "tu";
-            return `¡Hola de nuevo! 👋 ${tu[0].toUpperCase() + tu.slice(1)} *${corto}* ${tu === "tus" ? "siguen apartados" : "sigue apartado"}, pero quedan las *últimas unidades* 🔥\n\n💵 Pagas al recibir.${pregunta}`;
+            return `¡Hola de nuevo! 👋 ${tu[0].toUpperCase() + tu.slice(1)} *${corto}* ${tu === "tus" ? "siguen" : "sigue"} en promoción, pero quedan las *últimas unidades* 🔥\n\n💵 Pagas al recibir.${pregunta}`;
       }
       return (
             "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de *GALVIUSTECH*.\n\n" +
@@ -7220,7 +7220,7 @@ function mensajeEscasezDiaSiguiente(nombreCliente, productoId, categoria) {
       const hola = `¡Hola${nombreCliente ? " " + nombreCliente : ""}! 👋`;
       const p = productoId ? catalogo.find((x) => x.id === productoId) : null;
       const la = p && ["impresora", "lampara"].includes(p.categoria) && !/^(combo|pack)/i.test(p.id) ? "la" : "lo";
-      const cierre = `\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te ${la} separo antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌`;
+      const cierre = `\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te ${la} envío antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌`;
       if (categoria === "modem" || p?.categoria === "modem") {
             const precio = (id) => formatearPrecio(catalogo.find((x) => x.id === id)?.precio || 0);
             return `${hola} Ayer te interesó el *Módem WiFi portátil* 📶\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*:\n• Módem 4G: *${precio("modem-4g")}*${textoEnvio("modem-4g")}\n• Módem 4G/5G: *${precio("modem-4g5g")}*${textoEnvio("modem-4g5g")}\n• Módem 5G: *${precio("modem-portatil-5g")}*${textoEnvio("modem-portatil-5g")}\n\nLe pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador.` + cierre;
