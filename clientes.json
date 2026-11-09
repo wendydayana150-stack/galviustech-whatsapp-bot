@@ -9642,8 +9642,8 @@
     "telefono": "573175314953",
     "nombre": "elmo",
     "primerContacto": "2026-11-08T12:08:59.973Z",
-    "ultimoContacto": "2026-11-08T12:09:07.557Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-09T15:12:27.931Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9736,6 +9736,13 @@
         "fecha": "2026-11-08T14:11:04.741Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1MzE0OTUzFQIAERgSQjY1MEM2NEIxNzgzRTI5MTVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola elmo, sobre Modem 4G",
+        "fecha": "2026-11-09T15:12:26.893Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1MzE0OTUzFQIAERgSNTE0ODc1QjkyNUIyQjg3Qzk0AA=="
       }
     ],
     "paso": "conversando",
@@ -9758,10 +9765,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-08T14:11:05.802Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-9"
   },
