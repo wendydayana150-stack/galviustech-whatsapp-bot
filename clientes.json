@@ -3,8 +3,8 @@
     "telefono": "573234247429",
     "nombre": "Deibis Salas",
     "primerContacto": "2026-11-09T16:28:49.624Z",
-    "ultimoContacto": "2026-11-09T16:28:49.624Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-09T16:34:06.366Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-09T16:28:48.835Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSRUI1MjZBRDQ2MDU1NjdGMEMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Le are la compra el 25 o 26 si puedes esperar porfa dónde está ubicado",
+        "fecha": "2026-11-09T16:34:03.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\nMientras, ¿me cuentas para qué lo vas a usar? Así te confirmo cuál modem es el ideal para ti. ¿Será para estudio, trabajo, casa o viajes?",
+        "fecha": "2026-11-09T16:34:05.535Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MjQ3NDI5FQIAERgSNENFNTFCNTM0QjY4RjhDRjZDAA=="
       }
     ],
     "paso": "conversando",
@@ -49,7 +61,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-25",
+      "texto": "Le are la compra el 25 o 26 si puedes esperar porfa dónde está ubicado",
+      "desde": "2026-11-09T16:34:03.009Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
@@ -57,7 +74,13 @@
       "url": "https://fb.me/55TAlqVgf",
       "fecha": "2026-11-09T16:28:47.937Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-09T16:34:03.007Z",
+      "texto": "Le are la compra el 25 o 26 si puedes esperar porfa dónde está ubicado"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573204241734",
