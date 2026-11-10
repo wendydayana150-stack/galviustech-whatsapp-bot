@@ -125,8 +125,8 @@
     "telefono": "573122130763",
     "nombre": "Juan.g.🍀🤠",
     "primerContacto": "2026-11-10T00:31:39.729Z",
-    "ultimoContacto": "2026-11-10T03:12:37.826Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-10T03:13:34.552Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -372,6 +372,18 @@
         "fecha": "2026-11-10T03:12:36.625Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSMzUzQzQ0RDdEM0Y5MUQwODBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Perfecto gracias feliz noche",
+        "fecha": "2026-11-10T03:13:32.298Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti, que tengas muy buena noche 🌙😊. Aquí quedo atenta para cuando necesites algo más.\n\nQue descanses 💫",
+        "fecha": "2026-11-10T03:13:33.377Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSODUxRkIwRkU3NkMzMzBGOTQzAA=="
       }
     ],
     "paso": "conversando",
@@ -382,7 +394,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
