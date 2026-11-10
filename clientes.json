@@ -5610,8 +5610,8 @@
     "telefono": "573124221460",
     "nombre": "José Antonio",
     "primerContacto": "2026-11-08T22:52:58.275Z",
-    "ultimoContacto": "2026-11-09T15:27:08.351Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-10T11:08:07.454Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5785,6 +5785,18 @@
         "fecha": "2026-11-09T15:27:07.043Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSRkMwRjFCMEU4ODBBRDM1MUQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "🆗",
+        "fecha": "2026-11-10T11:08:03.110Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por tu confianza, José Antonio. 😊\n\nTu pedido con módem WiFi 4G/5G en Interrapidísimo está en proceso y te llegará en 1 a 3 días hábiles.\n\nSi necesitas ayuda con la configuración o cualquier duda, aquí estoy.\n\n¿Quieres que te muestre otros productos que te pueden servir en tu vereda o para tu hogar?",
+        "fecha": "2026-11-10T11:08:06.236Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0MjIxNDYwFQIAERgSRDE1QTI4QzNCMkMwRjIwNUE0AA=="
       }
     ],
     "paso": "conversando",
@@ -5795,7 +5807,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
