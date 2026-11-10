@@ -1952,8 +1952,8 @@
     "telefono": "573217279915",
     "nombre": "Sandra Dicue",
     "primerContacto": "2026-11-09T14:33:16.481Z",
-    "ultimoContacto": "2026-11-09T14:33:16.481Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-10T15:07:07.497Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2007,6 +2007,13 @@
         "fecha": "2026-11-09T16:41:24.560Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Mjc5OTE1FQIAERgSNUVBOERBOUU2OUIxRDJERTk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Sandra Dicue, sobre Impresora NETUM",
+        "fecha": "2026-11-10T15:07:05.644Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Mjc5OTE1FQIAERgSRERCRUZEQzhGQTlDQTY5NEU2AA=="
       }
     ],
     "paso": "conversando",
@@ -2029,10 +2036,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T16:41:29.500Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
