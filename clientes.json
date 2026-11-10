@@ -3004,8 +3004,8 @@
     "telefono": "CO.1023596520767741",
     "nombre": "Luis Angélico Morales",
     "primerContacto": "2026-11-09T12:07:23.789Z",
-    "ultimoContacto": "2026-11-09T23:27:01.044Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-10T14:33:32.816Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3323,11 +3323,18 @@
         "fecha": "2026-11-09T23:27:00.108Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEkJCNDZFQTE0ODkyRDM0NDhEMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia, estamos al tanto del PAGO, no hemos recibido ningún COMPROBANTE DE PAGO",
+        "fecha": "2026-11-10T14:33:31.692Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyMzU5NjUyMDc2Nzc0MRUUABEYEjVGRTY0NEQ3M0Q2QzFERUU5OQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
