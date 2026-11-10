@@ -2608,8 +2608,8 @@
     "telefono": "573135411222",
     "nombre": "Jhon ales",
     "primerContacto": "2026-11-09T12:53:54.919Z",
-    "ultimoContacto": "2026-11-09T12:53:54.919Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-10T15:08:28.830Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2656,6 +2656,13 @@
         "fecha": "2026-11-09T15:06:02.714Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDExMjIyFQIAERgSRkExOUNFNkJDRTY4QUVENEYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jhon ales, sobre nuestros productos",
+        "fecha": "2026-11-10T15:08:27.474Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDExMjIyFQIAERgSNEM5QUNGMThBREI1NjJFNEREAA=="
       }
     ],
     "paso": "conversando",
@@ -2678,10 +2685,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T15:06:03.854Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
