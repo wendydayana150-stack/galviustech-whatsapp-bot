@@ -125,8 +125,8 @@
     "telefono": "573122130763",
     "nombre": "Juan.g.🍀🤠",
     "primerContacto": "2026-11-10T00:31:39.729Z",
-    "ultimoContacto": "2026-11-10T01:09:12.403Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-10T01:12:38.726Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -315,21 +315,43 @@
         "fecha": "2026-11-10T01:09:11.296Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSOEI0RkRCMDlBMTM5MjVEREZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Otro se puede en efectivo al recibir",
+        "fecha": "2026-11-10T01:12:34.411Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Juan Gabriel Quintero Duque\n*Celular:* 3122130763\n*Departamento:* Antioquia\n*Ciudad:* Municipio de Puerto triunfo Antioquia\n*Direccion:* CALLE 21 # 23 A-07, Doradal interrapicimo (recoge en oficina de la transportadora)\n*Barrio:* No aplica (recoge en oficina)\n*Producto:* Modem WiFi Portatil 4G/5G\n*Valor del producto:* $199.900\n*Envío:* $26.000\n*Total a pagar:* $225.900\n*Medio de pago:* Contraentrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 1 a 3 días hábiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-11-10T01:12:35.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSMTkwRkE4MDNDQTg2MkQwMDAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-11-10T01:12:36.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSN0M3MDNBQTlEMDY0NjE0QjdCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-10T01:12:36.816Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSQ0Y5QkM1RTdEMDM0OUVDMTEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 , ☀️ todos los Reflectores solares y 📶 Módem 4G con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-11-10T01:12:37.429Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSRDk2RjA1ODkwOUU4OUZDQjNCAA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 199900,
-      "telefono": "573122130763",
-      "departamento": "Antioquia",
-      "nombreCliente": "Juan Gabriel Quintero Duque",
-      "celular": "3122130763",
-      "ciudad": "Municipio de Puerto triunfo Antioquia",
-      "direccion": "CALLE 21 # 23 A-07, Doradal interrapicimo (recoge en oficina de la transportadora)",
-      "barrio": "No aplica (recoge en oficina)"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
