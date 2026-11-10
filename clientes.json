@@ -125,8 +125,8 @@
     "telefono": "573122130763",
     "nombre": "Juan.g.🍀🤠",
     "primerContacto": "2026-11-10T00:31:39.729Z",
-    "ultimoContacto": "2026-11-10T01:03:21.172Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-10T01:03:54.842Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -291,9 +291,21 @@
         "fecha": "2026-11-10T01:03:20.046Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSNzM5QTg1RjZFOUU2MTE3QTkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de Puerto triunfo Antioquia",
+        "fecha": "2026-11-10T01:03:53.876Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-10T01:03:53.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSMDMyRDlGMTg4RDQ3NjMwNzM0AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -301,7 +313,8 @@
       "telefono": "573122130763",
       "departamento": "Antioquia",
       "nombreCliente": "Juan Gabriel Quintero Duque",
-      "celular": "3122130763"
+      "celular": "3122130763",
+      "ciudad": "Municipio de Puerto triunfo Antioquia"
     },
     "pausado": false,
     "etapaManual": null,
