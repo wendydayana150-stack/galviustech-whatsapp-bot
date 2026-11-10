@@ -3,8 +3,8 @@
     "telefono": "573107879258",
     "nombre": "Yolanda Guerrero",
     "primerContacto": "2026-11-10T00:55:08.012Z",
-    "ultimoContacto": "2026-11-10T00:55:08.012Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-10T00:56:11.748Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,59 @@
         "fecha": "2026-11-10T00:55:06.925Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSQ0U4NTA0RTBDMEEzQkQ4QjM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en una vereda de Casanare donde la señal es muy mala.",
+        "fecha": "2026-11-10T00:56:05.314Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-10T00:56:08.411Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSNzkwNjdDN0QzNDRGREE4RjUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-10T00:56:09.051Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSRjcyQzFENkVFMEQ2QTcxQjdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-10T00:56:09.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSODYyRkIwODg4QjVFN0M4MjIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-10T00:56:09.973Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, viviendo en vereda con mala señal, necesitas una solución que mejore tu conexión para que no te quedes sin internet justo cuando más lo necesitas.\n\nNuestros modems están diseñados para captar señal más potente que un celular común, ideal para zonas rurales como la tuya en Casanare.\n\nTe recomiendo estas 3 opciones con su inversión y envío:\n\n🔹 Modem WiFi Portátil 4G: $199.900 con envío GRATIS, opción económica y estable.\n🔹 Modem WiFi Portátil 4G/5G: $199.900 + $26.000 envío, lo mejor si quieres esperar a cubrir ambos 4G y 5G.\n🔹 Modem WiFi Portátil 5G: $199.900 + $26.000 envío, para máxima velocidad donde ya hay buena cobertura 5G.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me dices para qué lo usarías principalmente? (estudio, trabajo, hogar o negocio) para ayudarte mejor.",
+        "fecha": "2026-11-10T00:56:09.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSMEQ2NUJFRTAxMEY5MjYzNjQ5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-10T00:56:10.560Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3ODc5MjU4FQIAERgSQTY4QjIyNTJERUFFRDQ4MDkyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +85,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122130763",
