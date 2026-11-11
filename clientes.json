@@ -1329,8 +1329,8 @@
     "telefono": "573151336959",
     "nombre": "Liber",
     "primerContacto": "2026-11-09T19:49:31.795Z",
-    "ultimoContacto": "2026-11-09T19:49:31.795Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-11T14:39:21.170Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1384,6 +1384,13 @@
         "fecha": "2026-11-10T14:04:53.379Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUxMzM2OTU5FQIAERgSQzM5NzAyRkJFREIxOTI1NjQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Liber, sobre módem WiFi portátil",
+        "fecha": "2026-11-11T14:39:19.895Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUxMzM2OTU5FQIAERgSNjZCRjcwNTdENTYyNTVEQzRDAA=="
       }
     ],
     "paso": "conversando",
@@ -1406,10 +1413,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T21:58:34.890Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
