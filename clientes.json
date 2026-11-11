@@ -1145,8 +1145,8 @@
     "telefono": "573184995005",
     "nombre": "Yelsid Cupitra",
     "primerContacto": "2026-11-09T20:20:20.430Z",
-    "ultimoContacto": "2026-11-09T20:20:20.430Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-11T14:38:54.471Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1200,6 +1200,13 @@
         "fecha": "2026-11-10T14:04:21.559Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0OTk1MDA1FQIAERgSMkZENUNGRkIwMTA2M0Q4NTE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Yelsid Cupitra, sobre Impresora NETUM",
+        "fecha": "2026-11-11T14:38:52.832Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0OTk1MDA1FQIAERgSRkREODQxRTgwOUJENzE2RUUxAA=="
       }
     ],
     "paso": "conversando",
@@ -1222,10 +1229,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T22:28:35.167Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
