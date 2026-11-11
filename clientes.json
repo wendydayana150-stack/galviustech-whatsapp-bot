@@ -2242,8 +2242,8 @@
     "telefono": "573212022645",
     "nombre": "Edil",
     "primerContacto": "2026-11-09T15:18:34.755Z",
-    "ultimoContacto": "2026-11-09T15:18:34.755Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-11T14:41:23.077Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2297,6 +2297,13 @@
         "fecha": "2026-11-10T14:05:57.849Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMDIyNjQ1FQIAERgSREM1NUFBRUJENjk3OTdFNUU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Edil, sobre nuestros productos",
+        "fecha": "2026-11-11T14:41:21.897Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMDIyNjQ1FQIAERgSRkI2QjdEMzdFNkUzNDhDQ0EyAA=="
       }
     ],
     "paso": "conversando",
@@ -2319,10 +2326,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T17:21:36.603Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
