@@ -5647,6 +5647,7 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			<a href="/admin?filtro=7dias&categoria=${categoriaActiva}" style="margin-right:8px;padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "7dias" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Ultimos 7 dias</a>
 			<a href="/admin?filtro=todos&categoria=${categoriaActiva}" style="padding:6px 12px;border-radius:6px;text-decoration:none;font-size:13px;${filtroActivo === "todos" ? "background:#222;color:white;" : "background:#eee;color:#222;"}">Todos</a>
 			<button type="button" onclick="eliminarSeleccionados()" style="margin-left:12px;padding:6px 12px;border-radius:6px;font-size:13px;background:#c0392b;color:white;border:none;cursor:pointer;">Eliminar seleccionados</button>
+			<button type="button" onclick="reactivarSeleccionados()" style="margin-left:8px;padding:6px 12px;border-radius:6px;font-size:13px;background:#1e8449;color:white;border:none;cursor:pointer;">📨 Reactivar seleccionados</button>
 			</div>
 			<div style="margin-bottom:15px;">
 			<span style="font-size:13px;color:#555;margin-right:6px;">Interes:</span>
@@ -5681,6 +5682,21 @@ app.get("/admin", requiereLogin, async (req, res) => {
 			var texto = tarjetas[i].textContent.toLowerCase();
 			tarjetas[i].style.display = texto.indexOf(q) !== -1 ? "" : "none";
 			}
+			}
+			function reactivarSeleccionados() {
+			var checks = document.querySelectorAll(".check-eliminar:checked");
+			if (checks.length === 0) { alert("Selecciona al menos un cliente"); return; }
+			if (!confirm("Enviar mensaje de reactivacion a " + checks.length + " cliente(s)? A quien escribio hace mas de 24 h le llega la plantilla de WhatsApp.")) return;
+			var form = document.createElement("form");
+			form.method = "POST";
+			form.action = "/admin/reactivar-seleccionados";
+			for (var i = 0; i < checks.length; i++) {
+			var input = document.createElement("input");
+			input.type = "hidden"; input.name = "telefonos"; input.value = checks[i].value;
+			form.appendChild(input);
+			}
+			document.body.appendChild(form);
+			form.submit();
 			}
 			function eliminarSeleccionados() {
 			var checks = document.querySelectorAll(".check-eliminar:checked");
@@ -7378,6 +7394,45 @@ app.get("/admin/eliminar/:telefono", requiereLogin, async (req, res) => {
 	}
 });
 
+// 11-nov-2026 (Wendy): reactivar a mano los clientes que ella marque en el panel. Se ponen de primeros en la lista
+// de reactivacion y sale la tanda de una vez (mensaje normal si escribio hace menos de 24 h, si no la plantilla).
+// La tanda ya se salta a quien tiene pedido, esta pausado o recibio la plantilla en los ultimos 3 dias.
+app.post("/admin/reactivar-seleccionados", requiereLogin, async (req, res) => {
+      try {
+            let telefonos = req.body.telefonos || [];
+            if (!Array.isArray(telefonos)) telefonos = [telefonos];
+            const elegidos = new Set(telefonos.map(String));
+            const { datos: clientes } = await leerJSON(CLIENTES_API);
+            const nuevos = [];
+            for (const c of clientes) {
+                  if (!elegidos.has(c.telefono)) continue;
+                  const conv = c.conversacion || [];
+                  const ultimoCliente = [...conv].reverse().find((m) => m.rol === "cliente");
+                  const idProducto = c.ultimoProducto || c.pedido?.productoId || null;
+                  const p = catalogo.find((x) => x.id === idProducto);
+                  const categoria = c.ultimaCategoria || (/impresora/i.test(idProducto || "") ? "impresora" : "modem");
+                  const producto = p ? p.nombreCorto || p.nombre : categoria === "impresora" ? "Impresora NETUM" : "nuestros productos";
+                  nuevos.push({ telefono: c.telefono, nombre: c.nombre || "", categoria, producto, ultimoMensajeCliente: ultimoCliente?.fecha || c.ultimoContacto || new Date().toISOString(), enPedido: false, enviado: false });
+            }
+            if (nuevos.length) {
+                  for (let intentos = 4; intentos > 0; intentos--) {
+                        try {
+                              const { datos, sha } = await leerJSON(REACTIVAR_API);
+                              const resto = datos.filter((x) => !elegidos.has(x.telefono));
+                              await guardarJSON(REACTIVAR_API, [...nuevos, ...resto], sha, `Reactivacion manual: ${nuevos.length} clientes elegidos en el panel`);
+                              break;
+                        } catch (e) {
+                              if (!(e.response?.status === 409 || e.response?.status === 422) || intentos <= 1) throw e;
+                        }
+                  }
+                  enviarTandaReactivacion().catch((e) => console.error("Reactivacion manual: error en la tanda:", e.message));
+            }
+            res.redirect("/admin/reactivar-lote");
+      } catch (error) {
+            console.error("Error reactivando clientes seleccionados:", error.response?.data || error.message);
+            res.status(500).send("Hubo un error reactivando los clientes.");
+      }
+});
 app.post("/admin/eliminar-varios", requiereLogin, async (req, res) => {
 	try {
 		let telefonos = req.body.telefonos || [];
