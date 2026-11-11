@@ -2010,8 +2010,8 @@
     "telefono": "573204241734",
     "nombre": ".",
     "primerContacto": "2026-11-09T16:19:22.218Z",
-    "ultimoContacto": "2026-11-09T16:19:22.218Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-11T14:41:09.852Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2065,6 +2065,13 @@
         "fecha": "2026-11-10T14:05:25.698Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MjQxNzM0FQIAERgSMEQxQjE4RDU2MTYwMkMyNjdBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola ., sobre nuestros productos",
+        "fecha": "2026-11-11T14:41:08.747Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MjQxNzM0FQIAERgSMjE3MUI5Qjg2RUM2NzAzMENCAA=="
       }
     ],
     "paso": "conversando",
@@ -2087,10 +2094,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-09T18:21:25.838Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-10"
   },
