@@ -3,8 +3,8 @@
     "telefono": "573227516685",
     "nombre": "Rene",
     "primerContacto": "2026-11-11T16:34:33.696Z",
-    "ultimoContacto": "2026-11-11T16:34:33.696Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-11T16:44:06.134Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-11T16:34:32.804Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3NTE2Njg1FQIAERgSREVDQjA4RTY5REJCOERBOEFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cundinamarca lostañ gracias",
+        "fecha": "2026-11-11T16:44:02.271Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Cundinamarca. ¿Lo necesitas para trabajar, estudiar, para tu negocio o uso en casa? Así te recomiendo el módem que mejor te sirve y te cuento los beneficios que más te interesan.",
+        "fecha": "2026-11-11T16:44:05.294Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3NTE2Njg1FQIAERgSREU5Q0JFNzcyQjZBQzU1NEIyAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/2dRmD9Ej0g",
       "fecha": "2026-11-11T16:34:30.960Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1795864254981437",
