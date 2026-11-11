@@ -2410,8 +2410,8 @@
     "telefono": "CO.1505496461679395",
     "nombre": "Jesica Linares",
     "primerContacto": "2026-11-09T14:18:49.199Z",
-    "ultimoContacto": "2026-11-10T16:46:33.119Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-11T14:12:04.893Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2543,6 +2543,18 @@
         "fecha": "2026-11-11T14:11:06.514Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTUwNTQ5NjQ2MTY3OTM5NRUUABEYEjQzN0NGRUM5ODY0QTJCNDlGMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "S color",
+        "fecha": "2026-11-11T14:11:59.749Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que la NETUM no imprime a color, solo blanco y negro, pero esto te ahorra dinero porque no usas cartuchos ni tinta.\n\nPara impresión a color aún no tenemos impresoras portátiles, pero si quieres te aviso cuando tengamos novedades. ¿Quieres que te avise? \n\n¿Para qué la usarías? Así te ayudo mejor a elegir.",
+        "fecha": "2026-11-11T14:12:03.743Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTUwNTQ5NjQ2MTY3OTM5NRUUABEYEjUyQ0RFNzI3MzE2REQwQThEQgA="
       }
     ],
     "paso": "conversando",
@@ -2563,9 +2575,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-11T14:11:07.585Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-11"
   },
