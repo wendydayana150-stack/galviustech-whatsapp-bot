@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T22:59:01.435Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-12T23:00:05.246Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -125,6 +125,18 @@
         "fecha": "2026-11-12T22:59:00.743Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSRDdCMzhCOERFRjhCMEEwQjlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-12T23:00:01.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, te ayudo a dejar tu pedido listo. Por favor, envíame tu nombre completo, número de celular, ciudad y dirección donde quieres que te enviemos el combo.\n\nTe recuerdo que el pago es contraentrega y tienes garantía de 30 días.\n\n¿Me envías esos datos?",
+        "fecha": "2026-11-12T23:00:04.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSQkI3MzE2NDg2REFDMTdFREJCAA=="
       }
     ],
     "paso": "conversando",
@@ -136,7 +148,7 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null,
+    "esperandoDatosPedidoLibre": "2026-11-12T23:00:05.025Z",
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": {
