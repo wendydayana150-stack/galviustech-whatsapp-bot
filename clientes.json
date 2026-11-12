@@ -3,8 +3,8 @@
     "telefono": "573219713132",
     "nombre": "Erik León 🦁🦁💪💪",
     "primerContacto": "2026-11-12T18:23:00.826Z",
-    "ultimoContacto": "2026-11-12T18:23:00.826Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T18:26:15.243Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-12T18:23:00.195Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5NzEzMTMyFQIAERgSQTQ4ODM4OEYyRDZBODQ2QkVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo así que con la SIM del operador, pensé que se pagaba alguna mensualidad por ello?",
+        "fecha": "2026-11-12T18:26:12.564Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que no, solo usas la SIM prepago o pospago que prefieras, sin contratos ni mensualidades fijas. Tú decides cuándo y cuánto recargar según lo que necesites.\n\nEl módem funciona con la SIM de tu operador actual (Claro, Movistar, Tigo, WOM), entonces pagas solo lo que recargas en esa SIM, nada más.\n\n¿En qué municipio o vereda lo usas y para qué lo necesitas? Así te ayudo a elegir el mejor modelo para ti.",
+        "fecha": "2026-11-12T18:26:14.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5NzEzMTMyFQIAERgSMzA0QzgxRkNCRTM4NEVGNjlCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/53sQQeDhJ",
       "fecha": "2026-11-12T18:22:58.971Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232265855",
