@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T13:58:38.609Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-12T13:59:45.674Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -303,9 +303,21 @@
         "fecha": "2026-11-12T13:58:38.010Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQUMwM0JERTMzMEVGNEQzQUJCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si claro",
+        "fecha": "2026-11-12T13:59:44.682Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900) 🙌 Ya tengo tu celular, tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-12T13:59:45.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSNzA3MTM4QkY1OERBQThBNjUzAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -313,10 +325,7 @@
       "telefono": "573239424536",
       "celular": "3239424536",
       "departamento": "Bolivar",
-      "nombreCliente": "Leidy cristina torres sanabria",
-      "ciudad": "Sii me entendio",
-      "direccion": "Santa rosa sur de Bolivar",
-      "barrio": "Calle 11# 13_52"
+      "direccion": "Recoge en oficina de Interrapidísimo"
     },
     "pausado": false,
     "etapaManual": null,
