@@ -296,7 +296,7 @@ const costoEnvio = (productoId, ciudad, departamento) => {
 };
 // Productos con envio GRATIS (Wendy: NETUM oct-2026; Lamparas 3 lentes x3 el 27-oct-2026)
 // 4-nov-2026 (Wendy): todos los reflectores con envio gratis. 6-nov-2026: Modem 4G $199.900 con envio gratis.
-const ENVIO_GRATIS_IDS = ["impresora-termica", "modem-4g", "lamparas-3-lentes-x-2-2", "reflector-solar-gdtimes-gd-756-100w", "reflector-solar-led-200w", "reflector-solar-led-500w-con-control-remoto", "reflector-solar-jortan-1000w-con-panel-y-control-remoto", "promo-2-reflectores-solares-led-200w", "reflectores-x2-500w-con-control-remoto", "reflector-solar-jortan-2000w"];
+const ENVIO_GRATIS_IDS = ["impresora-termica", "modem-4g", "lamparas-3-lentes-x-2-2", "reflector-solar-gdtimes-gd-756-100w", "reflector-solar-led-200w", "reflector-solar-led-500w-con-control-remoto", "reflector-solar-jortan-1000w-con-panel-y-control-remoto", "promo-2-reflectores-solares-led-200w", "reflectores-x2-500w-con-control-remoto", "reflector-solar-jortan-2000w", "combo-x2-reflectores-jortan-2000w", "combo-x2-reflectores-jortan-1000w", "reflector-solar-jortan-5000w", "combo-x3-reflectores-100w"];
 const precioCOP = (n) => "$" + Math.round(Number(n) || 0).toLocaleString("es-CO");
 
 const costoEnvioBase = (id, ciudad, depto) => costoEnvio(id, ciudad, depto);
