@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T13:42:29.231Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-12T13:44:11.691Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,14 +198,29 @@
         "fecha": "2026-11-12T13:42:28.644Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQjE3RkZDNjczODA5QTFDRkU0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Leidy cristina torres sanabria \n\n3239424536\n\nSata rosa sur de Bolivar",
+        "fecha": "2026-11-12T13:44:10.815Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre, tu celular y tu departamento.\n\nAhora, ¿en qué ciudad o municipio vives?",
+        "fecha": "2026-11-12T13:44:10.823Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSNThGM0MxRUE2OTczMEVENUFCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
-      "telefono": "573239424536"
+      "telefono": "573239424536",
+      "celular": "3239424536",
+      "departamento": "Bolivar",
+      "nombreCliente": "Leidy cristina torres sanabria"
     },
     "pausado": false,
     "etapaManual": null,
