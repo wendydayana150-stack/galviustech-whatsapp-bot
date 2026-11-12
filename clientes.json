@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:02:15.109Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-12T23:03:20.423Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -216,16 +216,29 @@
         "fecha": "2026-11-12T23:02:14.418Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNkVDMjE2NzdDMkU1ODcwNDFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3234197121",
+        "fecha": "2026-11-12T23:03:19.691Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-12T23:03:19.693Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNjAyRUY4NzVFMERGNjM2MTFDAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "reflectores-x2-500w-con-control-remoto",
       "nombreProducto": "Combo x2 Reflectores Solares Jortan 500W con Control Remoto",
       "precio": 249900,
       "telefono": "573234197121",
       "departamento": "Risaralda",
-      "nombreCliente": "Marco Queragama"
+      "nombreCliente": "Marco Queragama",
+      "celular": "3234197121"
     },
     "pausado": false,
     "etapaManual": null,
