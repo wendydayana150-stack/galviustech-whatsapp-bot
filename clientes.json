@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:12:12.025Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-11-12T23:12:15.812Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -403,6 +403,18 @@
         "fecha": "2026-11-12T23:12:11.199Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNjE0Qjc1QjQ3QjBCODE3NEEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el sábado",
+        "fecha": "2026-11-12T23:12:14.111Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Marco, los pedidos se despachan en las tardes de lunes a viernes, así que si confirmaste hoy, puede salir hoy o mañana sin falta, y normalmente llega en 1 a 3 días hábiles. Si quieres el sábado seguro ya lo tienes.\n\n¿Quieres que te deje el pedido listo para que lo recibas en la oficina de la transportadora con la referencia que me diste?",
+        "fecha": "2026-11-12T23:12:15.266Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSMjc4N0E1RjMzMjgzQjRFMTJFAA=="
       }
     ],
     "paso": "conversando",
@@ -415,7 +427,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-14",
+      "texto": "Para el sábado",
+      "desde": "2026-11-12T23:12:14.111Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
