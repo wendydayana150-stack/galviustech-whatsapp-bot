@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:00:21.510Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-11-12T14:00:46.921Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -346,9 +346,21 @@
         "fecha": "2026-11-12T14:00:19.804Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRTYzMTc2QzY5NDREMUU3RjgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Leidy cristina torres sanabria",
+        "fecha": "2026-11-12T14:00:46.255Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-12T14:00:46.256Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQUYwODQwMUFDQ0E2RjAyNUY3AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -357,7 +369,8 @@
       "celular": "3239424536",
       "departamento": "Bolivar",
       "direccion": "Recoge en oficina de Interrapidísimo",
-      "nombreCliente": "A la oficina"
+      "nombreCliente": "A la oficina",
+      "ciudad": "Leidy cristina torres sanabria"
     },
     "pausado": false,
     "etapaManual": null,
