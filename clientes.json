@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:09:28.153Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-11-12T23:11:24.577Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -379,6 +379,18 @@
         "fecha": "2026-11-12T23:09:27.335Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNDUyRDY3MDZCODJGNzMyMERFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya no",
+        "fecha": "2026-11-12T23:11:22.450Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, Marco, quedo atenta si necesitas cualquier cosa más. Gracias por confiar en GalviusTech, que disfrutes tus reflectores.\n\nUn abrazo.",
+        "fecha": "2026-11-12T23:11:23.865Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSMjM2QjBFREIwRjBDNDEyOTJCAA=="
       }
     ],
     "paso": "conversando",
@@ -389,7 +401,7 @@
     "ultimaCategoria": "reflector",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
