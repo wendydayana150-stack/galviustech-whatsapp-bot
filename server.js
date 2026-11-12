@@ -816,6 +816,9 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
             if (fotoModem) {
                   try {
                         await enviarImagen(telefono, fotoModem, info.titulo);
+                        // 12-nov-2026: cuenta como foto ya vista, para no mandar otra tanda de modems en la siguiente respuesta.
+                        if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+                        if (destacado && !sesion.fotosEnviadas.includes(destacado.id)) sesion.fotosEnviadas.push(destacado.id);
                   } catch (e) {
                         console.error("Foto modem bienvenida:", e.message);
                   }
@@ -1235,6 +1238,13 @@ function detectarPreguntaUso(texto) {
             t.includes("manual") ||
             t.includes("tutorial")
             );
+}
+
+function esSoloPreguntaUso(texto) {
+      const t = String(texto || "").toLowerCase();
+      const otraDuda = /se[nñ]al|cobertura|campo|finca|vereda|rural|precio|vale|valor|cuesta|cu[aá]nto|sirve|necesita|sin internet|\bsim\b|simcard|operador|garant|env[ií]o|cuota|pago|diferencia|velocidad|bater[ií]a|dura/;
+      const palabras = t.split(/\s+/).filter(Boolean).length;
+      return !otraDuda.test(t) && palabras <= 8;
 }
 
 async function enviarModoDeUso(telefono) {
@@ -5054,7 +5064,10 @@ async function manejarTextoLibre(telefono, texto) {
       const productoContexto = idContexto ? catalogo.find((p) => p.id === idContexto) : null;
       const contextoTienda = (tiendaDet && tiendaDet.tipo === "producto") || !!productoContexto?.tienda;
 
-      if (!contextoTienda && detectarPreguntaUso(texto)) {
+      // 12-nov-2026 (Wendy, caso Leidy): "Este internet como funciona, necesita de señal o no, es para campo" recibia
+      // solo el instructivo fijo de "Modo de uso" y su pregunta (señal / campo) quedaba sin respuesta. El texto fijo
+      // solo va cuando el cliente pregunta UNICAMENTE como se usa; si trae otra duda, la responde Michell (la IA).
+      if (!contextoTienda && detectarPreguntaUso(texto) && esSoloPreguntaUso(texto)) {
             await enviarModoDeUso(telefono);
             return;
       }
@@ -5180,9 +5193,15 @@ async function manejarTextoLibre(telefono, texto) {
                   // fotos de esos productos (las que aun no ha visto), luego el texto y al final la pregunta de cierre.
                   if (!(fotosProductos && fotosProductos.length) && /\$\s?\d/.test(visible)) {
                         if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
-                        const nuevos = productosOfrecidos(visible).filter((p) => p.imagenes && p.imagenes[0] && !sesion.fotosEnviadas.includes(p.id)).slice(0, 3);
+                        // 12-nov-2026 (Wendy: "siempre que preguntan o dicen algo esta enviando las mismas imagenes"): las fotos
+                        // automaticas salen solo si el cliente todavia no ha visto fotos de esa categoria (ej. ya vio el modem 4G:
+                        // no se le manda otra tanda del 4G/5G en cada respuesta), y 1 foto por producto, no 3. Si el cliente
+                        // pide fotos, eso lo atiende enviarFotosProducto aparte.
+                        const catDe = (p) => (p.categoria || "").trim().toLowerCase();
+                        const catsVistas = new Set([...(sesion.fotosEnviadas || []).map((id) => catalogo.find((x) => x.id === id)).filter(Boolean).map(catDe)].filter(Boolean));
+                        const nuevos = productosOfrecidos(visible).filter((p) => p.imagenes && p.imagenes[0] && !sesion.fotosEnviadas.includes(p.id) && !catsVistas.has(catDe(p))).slice(0, 3);
                         for (const p of nuevos) {
-                              const urls = nuevos.length === 1 ? p.imagenes.slice(0, 3) : [p.imagenes[0]];
+                              const urls = [p.imagenes[0]];
                               for (const url of urls) {
                                     try {
                                           await enviarImagen(telefono, url, p.nombreCorto || p.nombre);
@@ -5305,10 +5324,13 @@ async function manejarTextoLibre(telefono, texto) {
             // impresoras de negocio para que el cliente elija). Se manda la primera foto de cada una
             // solo con el nombre (sin precio: el precio lo da la IA cuando corresponde).
             if (fotosProductos && fotosProductos.length) {
+                  if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
+                  // 12-nov-2026 (Wendy): no se repiten fotos de productos que el cliente ya vio en este chat.
                   const conFoto = fotosProductos
                         .map((id) => catalogo.find((p) => p.id === id))
-                        .filter((p) => p && p.imagenes && p.imagenes[0]);
+                        .filter((p) => p && p.imagenes && p.imagenes[0] && !sesion.fotosEnviadas.includes(p.id));
                   for (const p of conFoto) {
+                        sesion.fotosEnviadas.push(p.id);
                         try {
                               await enviarImagen(telefono, p.imagenes[0], p.nombreCorto || p.nombre);
                         } catch (e) {
