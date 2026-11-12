@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:10:59.864Z",
-    "mensajes": 31,
+    "ultimoContacto": "2026-11-12T14:11:21.059Z",
+    "mensajes": 32,
     "conversacion": [
       {
         "rol": "cliente",
@@ -532,6 +532,18 @@
         "fecha": "2026-11-12T14:10:59.265Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQTk1MzIxQTM5RUZBQTNGOTYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No gracias por ahora no",
+        "fecha": "2026-11-12T14:11:18.749Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Leidy, quedo atenta por si en algún momento quieres ver algo o necesitas ayuda con el módem.\n\nRecuerda que la promoción con envío gratis y pago contra entrega está vigente y son pocas unidades.\n\nCuando decidas, aquí estaré para ayudarte. ¡Que tengas un buen día!",
+        "fecha": "2026-11-12T14:11:20.483Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRkFFNTRDOEMxNTcyMTExMzE0AA=="
       }
     ],
     "paso": "conversando",
@@ -542,7 +554,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
