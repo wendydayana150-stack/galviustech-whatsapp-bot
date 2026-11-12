@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T13:57:26.052Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-12T13:58:38.609Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -284,9 +284,28 @@
         "fecha": "2026-11-12T13:57:25.459Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSOUFFQjI2N0M0OTg4NEFBRUQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como así donde lo voy a pagar",
+        "fecha": "2026-11-12T13:58:35.534Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquila, eso es lo más fácil 😊\n\nCuando el paquete llegue a la oficina de Interrapidísimo en tu municipio, vas allá, lo revisas y pagas en efectivo antes de llevártelo.\n\nNo pagas nada por adelantado ni al hacer el pedido.\n\n¿Quieres que deje tu pedido listo para que te llegue a la oficina y puedas pasarlo a recoger?",
+        "fecha": "2026-11-12T13:58:37.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSNTJENDEyRDAyQ0E1MzZGN0E3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T13:58:38.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQUMwM0JERTMzMEVGNEQzQUJCAA=="
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
