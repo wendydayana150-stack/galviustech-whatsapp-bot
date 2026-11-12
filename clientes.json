@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:04:36.389Z",
-    "mensajes": 26,
+    "ultimoContacto": "2026-11-12T14:08:08.551Z",
+    "mensajes": 27,
     "conversacion": [
       {
         "rol": "cliente",
@@ -458,6 +458,18 @@
         "fecha": "2026-11-12T14:04:35.817Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSOUNDODFBNzc4Mjg5MzRFQ0FBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "O sea q yo pago por contraentrega",
+        "fecha": "2026-11-12T14:08:06.469Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exactamente, Leidy, pagas contraentrega en la oficina de Interrapidísimo cuando recojas tu módem.\n\n¿Quieres que te deje el pedido listo para que te llegue lo antes posible?",
+        "fecha": "2026-11-12T14:08:07.956Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQ0NCMkU5QTBDRDQ4QjBGQzAzAA=="
       }
     ],
     "paso": "conversando",
@@ -473,7 +485,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-12T14:08:06.469Z",
+      "texto": "O sea q yo pago por contraentrega"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
