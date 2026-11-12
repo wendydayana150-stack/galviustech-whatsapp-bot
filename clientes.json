@@ -3,8 +3,8 @@
     "telefono": "CO.1607510927600151",
     "nombre": "🥰🥰",
     "primerContacto": "2026-11-12T23:18:53.964Z",
-    "ultimoContacto": "2026-11-12T23:18:53.964Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T23:19:27.091Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,25 @@
         "fecha": "2026-11-12T23:18:52.847Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTYwNzUxMDkyNzYwMDE1MRUUABEYEjY0REI0NTg4RjdCQjUzOENCNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta es satelital o hay que insertarle alguna tarjeta así una SIM card",
+        "fecha": "2026-11-12T23:19:25.100Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, para los módems WiFi portátiles de GalviusTech necesitas insertar una SIM card de cualquier operador celular en Colombia (Claro, Movistar, Tigo, WOM).\n\nNo son satelitales, funcionan con señal móvil 4G o 5G según el modelo para darte internet donde tengas cobertura celular.\n\n¿Quieres que te cuente las opciones y precios de los módems para que elijas el mejor según tu zona?",
+        "fecha": "2026-11-12T23:19:26.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTYwNzUxMDkyNzYwMDE1MRUUABEYEjc1QjAyNDVGM0VGRjRDMkRCQQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207954954",
