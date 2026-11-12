@@ -63,8 +63,8 @@
     "telefono": "CO.2697670650664297",
     "nombre": "Johanna Guzman",
     "primerContacto": "2026-11-12T20:59:42.705Z",
-    "ultimoContacto": "2026-11-12T20:59:42.705Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T21:01:26.999Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-11-12T20:59:41.780Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEkQxRjNCNTlCNzQxQTRFRDc3OQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos tardes",
+        "fecha": "2026-11-12T21:01:23.891Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿qué tal? Soy Michell, ¿en qué puedo ayudarte hoy con nuestros productos de GalviusTech? ¿Buscas internet portátil, una impresora o algo más? ¿Me cuentas para qué lo necesitas?",
+        "fecha": "2026-11-12T21:01:25.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEjAyMDlFMjlERjk1MEJBRDg4MQA="
       }
     ],
     "paso": "conversando",
@@ -117,7 +129,10 @@
       "url": "https://fb.me/5fLVRH8kP",
       "fecha": "2026-11-12T20:59:40.240Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573116197663",
