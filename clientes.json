@@ -3,8 +3,8 @@
     "telefono": "573146439585",
     "nombre": "Luis Alvarez😎",
     "primerContacto": "2026-11-12T18:00:42.222Z",
-    "ultimoContacto": "2026-11-12T18:00:42.222Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T18:02:56.298Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-12T18:00:41.217Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NDM5NTg1FQIAERgSMTc2MDZBMkIxM0JGQzBGNUNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea que el pago mensual ds 199",
+        "fecha": "2026-11-12T18:02:51.228Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión de $199.900 es por el módem, que pagas una sola vez, no es un pago mensual. Con este equipo tienes internet propio sin contrato ni mensualidad fija, usas las recargas que quieras para la SIM y conectas varios dispositivos a la vez. ¿Me cuentas para qué lo necesitas? Así te ayudo a elegir el mejor modelo para ti.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-12T18:02:54.568Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NDM5NTg1FQIAERgSMTYzOTY4MTBGMEMxRkQ4NjY4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T18:02:55.408Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NDM5NTg1FQIAERgSOTE4RDgwRDEyMjlGMTk3M0U4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/7BciqmjFn",
       "fecha": "2026-11-12T18:00:39.421Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "5215564800390",
