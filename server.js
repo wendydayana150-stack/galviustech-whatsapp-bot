@@ -994,7 +994,32 @@ async function enviarCatalogoSolar(telefono, sesion) {
             sumarAlHistorialBot(sesion, texto);
       } catch (e) {
             console.error("Catalogo solar:", e.message);
+            return;
       }
+      programarSeguimientoCatalogoSolar(telefono);
+}
+// 12-nov-2026 (Wendy: "a los 10 minutos enviar mensaje de que si le gusto algun producto"): si el cliente
+// no escribe nada en los 10 minutos siguientes al catalogo solar, Michell le hace seguimiento una sola vez.
+// No sale si Wendy lo pauso, si el chat espera atencion, si pidio que no le insistan o si ya esta haciendo el pedido.
+function programarSeguimientoCatalogoSolar(telefono) {
+      const enviadoEn = Date.now();
+      setTimeout(async () => {
+            try {
+                  const sesion = sesiones[telefono];
+                  if (!sesion || sesion.seguimientoCatalogoSolar) return;
+                  if (sesion.pausado || sesion.necesitaAtencion || sesion.pausarSeguimiento) return;
+                  if (/^pedido_/.test(sesion.paso || "")) return;
+                  const escribioDespues = (sesion.transcripcion || []).some((m) => m && m.rol !== "bot" && new Date(m.fecha).getTime() > enviadoEn);
+                  if (escribioDespues) return;
+                  sesion.seguimientoCatalogoSolar = true;
+                  const texto = "¿Te gustó alguna de las opciones del catálogo? 😊 Cuéntame cuál te llamó la atención y te ayudo con tu pedido. Pagas cuando lo recibes en tu casa 🚚";
+                  await enviarTexto(telefono, texto);
+                  sumarAlHistorialBot(sesion, texto);
+                  await guardarCliente(telefono);
+            } catch (e) {
+                  console.error("Seguimiento catalogo solar:", e.message);
+            }
+      }, 10 * 60 * 1000);
 }
 async function presentarReflectorPuntual(telefono, sesion, p) {
       sesion.ultimaCategoria = "reflector";
@@ -4738,6 +4763,32 @@ function preguntaVariasCosas(texto) {
 
 // Respuestas fijas a las objeciones de la impresora (ver GUION NETUM). Solo si se viene hablando de impresoras.
 // Cada respuesta termina con una pregunta de cierre (o de uso, si aun no se sabe para que la quiere).
+// SOLO PAPEL O ROLLOS (12-nov-2026, Wendy: "si llega algun cliente preguntando para comprar solo rollos o papel termico,
+// venderlo y ofrecer el envio aparte"): si el cliente pide papel o rollos y no viene hablando de una impresora, se le
+// dan todas las presentaciones con precio + $26.000 de envio. Despues la IA cierra con ACCION_PEDIDO (ids papel-*).
+const PIDE_PAPEL_SOLO = /\b(rollos?|papel|hojas?)\s+(t[eé]rmic\w*|para (la |mi |el )?(impresora|dat[aá]fono|caja|registradora|pos|etiquetas))|\b(rollos?|papel t[eé]rmico|hojas? t[eé]rmicas?)\b/i;
+const INTENCION_COMPRA_PAPEL = /(compr|vend|precio|cu[aá]nto|vale|valor|cuesta|necesito|ocupo|tienen|tienes|tiene|manejan|hay|quiero|busco|consig|t[eé]rmic)/i;
+const TEXTO_PAPEL_SOLO =
+      "¡Claro que sí! 😊 Te vendemos el *papel térmico* solo, sin necesidad de comprar impresora:\n\n" +
+      "🧻 *Rollos térmicos de 7 m* (impresoras pequeñas de recibos y etiquetas):\n• 1 rollo: $4.000\n• 5 rollos: $17.000\n• 10 rollos: $30.000\n\n" +
+      "📄 *Papel térmico tamaño carta* (impresoras portátiles tamaño carta):\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas: $35.000\n• 200 hojas: $75.000\n\n" +
+      "🚚 El envío va aparte: *$26.000* a cualquier parte de Colombia, y *pagas al recibir* ✅\n\n" +
+      "¿Cuál te sirve y cuántos te envío?";
+async function venderPapelSolo(telefono, sesion, texto) {
+      if (sesion.ofrecioPapelSolo || sesion.ofertaPapel) return false;
+      if (sesion.paso !== "inicio" && sesion.paso !== "conversando") return false;
+      const t = String(texto || "");
+      if (!PIDE_PAPEL_SOLO.test(t) || !INTENCION_COMPRA_PAPEL.test(t)) return false;
+      if (/impresora|netum|clabel|pt-?210|\bp5\b|modem|m[oó]dem|reflector|l[aá]mpara|c[aá]mara|reloj/i.test(t)) return false;
+      if (sesion.ultimaCategoria === "impresora" || esImpresoraSuelta(sesion.ultimoProducto) || sesion.ultimoProducto === "impresora-termica") return false;
+      sesion.ofrecioPapelSolo = true;
+      sesion.ultimaCategoria = "papel";
+      if (sesion.paso === "inicio") sesion.paso = "conversando";
+      await enviarTexto(telefono, TEXTO_PAPEL_SOLO);
+      if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: t }, { role: "assistant", content: TEXTO_PAPEL_SOLO });
+      return true;
+}
+
 async function responderObjecionImpresora(telefono, sesion, texto) {
       const nombrado = productoNombradoEn(texto);
       if (nombrado && !esImpresoraSuelta(nombrado.id)) return false;
@@ -6528,6 +6579,8 @@ app.post("/webhook", async (req, res) => {
                         if (await manejarMensajeCatalogo(telefono, texto)) {
                               // Pedido o pregunta enviada desde el catalogo en linea (ver manejarMensajeCatalogo).
                               if (sesion.paso === "inicio") sesion.paso = "conversando";
+                        } else if (await venderPapelSolo(telefono, sesion, texto)) {
+                              // Solo quiere rollos o papel termico (ver venderPapelSolo).
                         } else if (sesion.paso === "inicio") {
                               // Oct-2026 (Wendy): si el mensaje viene de un anuncio de clic a WhatsApp, Meta manda en
                               // "referral" el titulo y texto del anuncio. Con eso se identifica el producto aunque el
