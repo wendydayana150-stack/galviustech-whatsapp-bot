@@ -880,6 +880,13 @@
         "fecha": "2026-11-12T17:13:25.267Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEkFDQUE4Qzc0MUU5QzhFQjY4RgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-12T18:24:08.520Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEkQwM0FBOUQ5ODEzNEQ3QzFEOQA="
       }
     ],
     "paso": "conversando",
@@ -905,7 +912,9 @@
       "texto": "Solo quiero los rollos no quiero la impresora"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-12T18:24:10.036Z"
     }
   },
   {
