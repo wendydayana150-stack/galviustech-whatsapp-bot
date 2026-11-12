@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:02:41.445Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-11-12T14:02:54.689Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -382,6 +382,25 @@
         "fecha": "2026-11-12T14:02:40.754Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSOURBMkM5OTRGNEU1NTJFNjQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y la guia me la envias",
+        "fecha": "2026-11-12T14:02:52.105Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, una vez que despachemos tu pedido te enviamos el número de guía para que puedas hacer seguimiento y sepas cuándo llega a la oficina de Interrapidísimo.\n\n¿Listo para dejar tu pedido registrado y que te lo enviemos? Así avanzamos con todo.",
+        "fecha": "2026-11-12T14:02:53.529Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRjFDMzBBNzdBNzRDM0VBRDMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T14:02:54.030Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRjVCQ0I3QjdBRkI0Qjg1QTgwAA=="
       }
     ],
     "paso": "pedido_pago",
@@ -407,7 +426,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-12T14:02:52.105Z",
+      "texto": "Y la guia me la envias"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
