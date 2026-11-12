@@ -3375,6 +3375,9 @@ function datosPorLineas(texto) {
                   if (!datos.departamento) datos.departamento = campos.departamento;
                   const muni = municipioUnico(l, campos.departamento);
                   if (muni && !datos.ciudad) datos.ciudad = muni.ciudad;
+                  // 12-nov-2026 (caso Leidy: "Sata rosa sur de Bolivar"): la linea trae el municipio junto al departamento
+                  // aunque no lo reconozcamos; se guarda la linea como ciudad en vez de volver a preguntarla.
+                  if (!muni && !datos.ciudad && normalizarNombre(l) !== normalizarNombre(campos.departamento) && normalizarNombre(l).split(" ").length > normalizarNombre(campos.departamento).split(" ").length) datos.ciudad = l;
                   continue;
             }
             const muni = l.split(/\s+/).length <= 4 ? municipioDeLinea(l, "") : null;
@@ -3416,6 +3419,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   // 4-nov-2026 (pedidos con ciudad "Cuánto se demora en llegar"): una pregunta o una frase no es una ciudad
                   if (/\?|\b(cu[aá]nto|cuanto|demora|tarda|llega|precio|valor|cuesta|quiero|gracias|pregunta|env[ií]o|pago|pagar|total|cuando|c[oó]mo|qu[eé])\b/i.test(limpio)) return false;
                   if (limpio.length > 60 || limpio.split(/\s+/).length > 8) return false;
+                  // 12-nov-2026 (caso Leidy: "Sii me entendio" quedo como su ciudad): una confirmacion no es una ciudad
+                  if (/\b(entend\w*|entiende\w*|s[ií]+|ok|okey|listo|claro|dale|perfecto|aja|correcto|exacto|ya te (dije|lo dije|escrib\w*))\b/i.test(limpio)) return false;
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "departamento":
                   // Caso Javier: "Javier" quedo como departamento. Solo vale un departamento de Colombia o un municipio
@@ -3848,6 +3853,37 @@ async function manejarFlujoPedido(telefono, texto) {
             }
             sesion.paso = siguiente.paso;
             await enviarTexto(telefono, `Perfecto, lo recoges en la oficina 👍 No hace falta el barrio.\n\n${siguiente.pregunta}`);
+            return true;
+      }
+
+      // 12-nov-2026 (caso Leidy): cuando se le pidio la direccion volvio a escribir su municipio ("Santa rosa sur de
+      // Bolivar") y quedo como direccion; despues la direccion quedo como barrio. Si en el paso de la direccion manda
+      // solo su municipio/departamento (sin numeros ni vereda/finca), se le explica que falta la direccion.
+      if (definicionActual.campo === "direccion" && !/\d/.test(texto) && !RECOGE_EN_OFICINA.test(texto) && !/\b(vereda|finca|casa|barrio|sector|corregimiento|km|kil[oó]metro|frente|lote|manzana|mz|calle|carrera|cra|diagonal|transversal|avenida|av)\b/i.test(texto)) {
+            const tn = normalizarNombre(texto);
+            const ciudadN = normalizarNombre(sesion.pedido.ciudad);
+            const deptoN = normalizarNombre(sesion.pedido.departamento);
+            const esSuMunicipio = (ciudadN && (tn.includes(ciudadN) || ciudadN.includes(tn))) || (deptoN && tn.includes(deptoN)) || !!extraerCamposPedido(texto).departamento;
+            if (esSuMunicipio) {
+                  if (!sesion.pedido.ciudad || !pareceRespuestaValidaPedido(sesion.pedido.ciudad, "ciudad")) sesion.pedido.ciudad = texto.trim();
+                  await enviarTexto(telefono, "¡Listo, ya tengo tu municipio! 😊 Ahora necesito la *dirección*: calle y número (o vereda / finca).\n\nSi prefieres recogerlo en la oficina de Interrapidísimo de tu municipio, escríbeme *oficina*.");
+                  return true;
+            }
+      }
+      // 12-nov-2026 (caso Leidy): en el paso del pago escribio "A interrapidisimo no lo pueden enviar" (quiere recogerlo en
+      // la oficina) y Michell contesto "No identifique ese medio de pago". Si en los pasos del final menciona la oficina
+      // o la transportadora, se marca que recoge en oficina; si ademas dice que paga alla, es contraentrega.
+      if (["medioPago", "barrio"].includes(definicionActual.campo) && /oficina|interrap|inter\s*rap|r[aá]pid[ií]simo|coordinadora|servientrega|recoger|recojo|transportadora/i.test(texto) && !pareceRespuestaValidaPedido(texto, "pago")) {
+            if (!RECOGE_EN_OFICINA.test(sesion.pedido.direccion || "")) sesion.pedido.direccion = `${sesion.pedido.direccion || ""} (recoge en oficina de la transportadora)`.trim();
+            if (!sesion.pedido.barrio) sesion.pedido.barrio = "No aplica (recoge en oficina)";
+            if (definicionActual.campo === "medioPago" && /\bpag/i.test(texto)) sesion.pedido.medioPago = "Contraentrega";
+            const siguiente = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
+            if (!siguiente) {
+                  await finalizarPedidoSesion(telefono);
+                  return true;
+            }
+            sesion.paso = siguiente.paso;
+            await enviarTexto(telefono, `¡Claro que sí! 😊 Te lo enviamos por *Interrapidísimo* y lo recoges en la oficina de tu municipio.\n\n${siguiente.pregunta}`);
             return true;
       }
 
