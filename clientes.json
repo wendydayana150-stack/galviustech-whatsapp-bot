@@ -3,8 +3,8 @@
     "telefono": "CO.1743082396756871",
     "nombre": "Dulce Luna",
     "primerContacto": "2026-11-12T16:48:37.066Z",
-    "ultimoContacto": "2026-11-12T16:51:48.388Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-12T16:52:36.323Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,6 +87,25 @@
         "fecha": "2026-11-12T16:51:47.302Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjJGMDM0NTFDQUM1NDlBQzYyNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo quiero los rollos no quiero la impresora",
+        "fecha": "2026-11-12T16:52:33.232Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, pero el papel térmico solo lo vendemos como complemento para quienes compran la impresora con nosotros, porque es específico para estos equipos.\n\nSi algún día decides llevar la Impresora NETUM, te puedo agregar el papel que necesitas sin problema. ¿Quieres que te muestre más detalles o te ayude con la impresora?\n\n¿O prefieres conocer otras opciones de impresoras o productos de GalviusTech?",
+        "fecha": "2026-11-12T16:52:34.530Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjBBMjdBM0NFNUExMzdDRkJFNwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-12T16:52:35.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjMxNUQ3ODNFRjE5NEEyMkZCRAA="
       }
     ],
     "paso": "conversando",
@@ -107,7 +126,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-12T16:52:33.232Z",
+      "texto": "Solo quiero los rollos no quiero la impresora"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
