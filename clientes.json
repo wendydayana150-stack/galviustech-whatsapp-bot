@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:03:42.426Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-12T23:04:15.168Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -252,9 +252,21 @@
         "fecha": "2026-11-12T23:03:41.839Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSODlFODg0MDZGOTY1OTY1M0YwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso no sabe",
+        "fecha": "2026-11-12T23:04:14.638Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-12T23:04:14.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNzQ3RkRFODYyNjM0OUJCRUIxAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "reflectores-x2-500w-con-control-remoto",
       "nombreProducto": "Combo x2 Reflectores Solares Jortan 500W con Control Remoto",
@@ -263,7 +275,8 @@
       "departamento": "Risaralda",
       "nombreCliente": "Marco Queragama",
       "celular": "3234197121",
-      "ciudad": "Es municipio"
+      "ciudad": "Es municipio",
+      "direccion": "Eso no sabe"
     },
     "pausado": false,
     "etapaManual": null,
