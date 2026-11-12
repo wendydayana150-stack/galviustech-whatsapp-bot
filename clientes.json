@@ -240,6 +240,13 @@
         "fecha": "2026-11-12T21:25:59.168Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSREQxQTY1NDBDREU0MUY2QjZEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-12T22:04:08.718Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSQzU4RDhFRjRFNEI1QzZFQjg4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -270,7 +277,9 @@
       "texto": "Trabajos y fotografias de cédula"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-12T22:04:10.993Z"
     }
   },
   {
@@ -371,6 +380,13 @@
         "fecha": "2026-11-12T21:00:53.249Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NjMwODYyFQIAERgSQTA1QjM5MUI1RUU0NTNERkFGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-12T22:04:09.603Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjMwODYyFQIAERgSMTUxM0I3OEM5NDU0REU3QkVCAA=="
       }
     ],
     "paso": "conversando",
@@ -391,7 +407,12 @@
       "url": "https://fb.me/7BciqmjFn",
       "fecha": "2026-11-12T21:00:51.838Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-12T22:04:10.993Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.2697670650664297",
@@ -505,6 +526,13 @@
         "fecha": "2026-11-12T21:02:24.093Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEjhBOUY3MUQwOURENzhDQUEwNQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-12T22:04:10.140Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEjk5MDlBNTdERENBNTM5MTFCNAA="
       }
     ],
     "paso": "conversando",
@@ -527,7 +555,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-12T22:04:10.993Z"
     }
   },
   {
