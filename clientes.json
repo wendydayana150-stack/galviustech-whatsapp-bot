@@ -138,8 +138,8 @@
     "telefono": "573158193709",
     "nombre": "trijoglana123",
     "primerContacto": "2026-11-12T21:27:07.080Z",
-    "ultimoContacto": "2026-11-12T21:27:07.080Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T22:34:49.881Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -179,6 +179,18 @@
         "fecha": "2026-11-12T22:34:09.270Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4MTkzNzA5FQIAERgSQTc3QkQwOENCNzhDQzQ1NzQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias.",
+        "fecha": "2026-11-12T22:34:45.863Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Qué bien que te haya servido la info 😊 ¿Hay algo más que quieras saber o quieres que te ayude a armar tu pedido?",
+        "fecha": "2026-11-12T22:34:49.082Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4MTkzNzA5FQIAERgSNzhGOUI2NjBEOTA5QTJFQkVFAA=="
       }
     ],
     "paso": "conversando",
@@ -196,9 +208,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-12T22:34:11.517Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
