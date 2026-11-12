@@ -63,8 +63,8 @@
     "telefono": "CO.1743082396756871",
     "nombre": "Dulce Luna",
     "primerContacto": "2026-11-12T16:48:37.066Z",
-    "ultimoContacto": "2026-11-12T16:52:36.323Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-12T17:01:12.752Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -166,6 +166,13 @@
         "fecha": "2026-11-12T16:52:35.361Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjMxNUQ3ODNFRjE5NEEyMkZCRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuantos rollos necesitas???",
+        "fecha": "2026-11-12T17:01:11.769Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEkIyNzgzOUIxMzBBQUEwOUI1RgA="
       }
     ],
     "paso": "conversando",
@@ -175,7 +182,7 @@
       "precio": 249900,
       "telefono": "CO.1743082396756871"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
