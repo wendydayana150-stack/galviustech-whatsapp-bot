@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T22:53:40.931Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T22:55:30.945Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -50,6 +50,45 @@
         "fecha": "2026-11-12T22:53:40.268Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSMDE0MEU5MjVBMjJERTdFNENFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito más foto",
+        "fecha": "2026-11-12T22:55:28.724Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-12T22:55:28.724Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Combo x2 Reflectores 500W",
+        "fecha": "2026-11-12T22:55:28.724Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNkJGRUUwODVFQzA2MEU1NDU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Combo x2 Reflectores 500W",
+        "fecha": "2026-11-12T22:55:29.215Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNjNFRjkxNUVGMUYxMjA4M0Y4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Combo x2 Reflectores 500W",
+        "fecha": "2026-11-12T22:55:29.726Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNkFGMDBENDM0QjQ1QzgwQTgyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T22:55:30.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSRDNGMzA0NzRGQUQ4RTJEQkFFAA=="
       }
     ],
     "paso": "conversando",
@@ -70,7 +109,10 @@
       "url": "https://fb.me/7E88m8JPi",
       "fecha": "2026-11-12T22:53:38.684Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573506393442",
