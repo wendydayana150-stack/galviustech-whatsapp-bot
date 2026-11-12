@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:03:38.949Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-12T23:03:42.426Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -240,6 +240,18 @@
         "fecha": "2026-11-12T23:03:38.271Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNTIxNTE2NjBERkM2OUQ4Q0QzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Apia Risaralda",
+        "fecha": "2026-11-12T23:03:41.839Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, ya tengo tu municipio! 😊 Ahora necesito la *dirección*: calle y número (o vereda / finca).\n\nSi prefieres recogerlo en la oficina de Interrapidísimo de tu municipio, escríbeme *oficina*.",
+        "fecha": "2026-11-12T23:03:41.839Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSODlFODg0MDZGOTY1OTY1M0YwAA=="
       }
     ],
     "paso": "pedido_direccion",
