@@ -63,8 +63,8 @@
     "telefono": "CO.2697670650664297",
     "nombre": "Johanna Guzman",
     "primerContacto": "2026-11-12T20:59:42.705Z",
-    "ultimoContacto": "2026-11-12T21:01:31.093Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-12T21:01:35.808Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,18 @@
         "fecha": "2026-11-12T21:01:30.097Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEkM4N0NGRjBEQkQzMDhCMzMwMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como es el proceso de compra",
+        "fecha": "2026-11-12T21:01:33.332Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El proceso es muy sencillo: cuando decidas qué producto quieres, solo me dices y yo te ayudo a dejar tu pedido listo.\n\nLuego el sistema te irá pidiendo tus datos (nombre, celular, dirección, etc.) uno a uno, para que no tengas que enviar todo junto.\n\nPagas al recibir el producto en tu casa o en la oficina de la transportadora, sin adelantar nada. ¿Quieres que te cuente sobre algún producto en especial para ir avanzando? ¿Cuál te interesa más?",
+        "fecha": "2026-11-12T21:01:34.821Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjY5NzY3MDY1MDY2NDI5NxUUABEYEjA0ODgzNDRENzU0MTlDMTU5QwA="
       }
     ],
     "paso": "conversando",
