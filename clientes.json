@@ -3,8 +3,8 @@
     "telefono": "CO.1774149317131144",
     "nombre": "alcon",
     "primerContacto": "2026-11-12T18:34:50.377Z",
-    "ultimoContacto": "2026-11-12T18:34:50.377Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T18:37:04.688Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,59 @@
         "fecha": "2026-11-12T18:34:49.355Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEkZGQjdCRTFCRTQzQzcxQzYzMQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por favor me puedes enviar fotos o vídeos de funcionalidad de la impresora",
+        "fecha": "2026-11-12T18:37:00.895Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-12T18:37:00.897Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-12T18:37:00.897Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEjc5Qzk0RkE3NjhBRjdBQzY2OQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-12T18:37:01.608Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEjk5RTM2NzQ5ODU2QTdCNTlEMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-12T18:37:02.320Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEkVGQUE3MzAzREM0QTU4NEZDQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-12T18:37:03.039Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEjhBNkIwQkFCRTVEQUU4QjRFMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para recomendarte la ideal 😊 ¿para qué la vas a usar? 👇\n📄 Tareas, trabajos o documentos\n🧾 Recibos o facturas de tu negocio\n🏷️ Etiquetas de precios o productos",
+        "fecha": "2026-11-12T18:37:03.857Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc3NDE0OTMxNzEzMTE0NBUUABEYEjE1OTAwNTZGMDNCRTVBQTE0MwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +85,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573123335396",
