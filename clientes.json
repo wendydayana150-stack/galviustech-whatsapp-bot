@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:01:48.541Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-12T23:02:15.109Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -197,10 +197,36 @@
         "fecha": "2026-11-12T23:01:47.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSMTIxQzM4NTUzQzBGOTUwNjg1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y bolla reclamar en otro sábado",
+        "fecha": "2026-11-12T23:02:11.986Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, Marco, puedes retirar el pedido en la oficina de la transportadora cuando prefieras, incluso un sábado, según el horario de atención local.\n\nTe dejo el pedido listo con esa opción para que no pierdas la promoción.\n\n¿Confirmas que lo enviamos a la oficina cerca de la iglesia para que lo recojas cuando puedas?",
+        "fecha": "2026-11-12T23:02:13.668Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNjc0ODM2MTI3MkNCRTExOTZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Combo x2 Reflectores Solares Jortan 500W con Control Remoto* ($ 249.900) 🙌 Ya tengo tu nombre y tu departamento, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-12T23:02:14.418Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNkVDMjE2NzdDMkU1ODcwNDFEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_celular",
+    "pedido": {
+      "productoId": "reflectores-x2-500w-con-control-remoto",
+      "nombreProducto": "Combo x2 Reflectores Solares Jortan 500W con Control Remoto",
+      "precio": 249900,
+      "telefono": "573234197121",
+      "departamento": "Risaralda",
+      "nombreCliente": "Marco Queragama"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
@@ -208,7 +234,7 @@
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": "2026-11-12T23:00:05.025Z",
+    "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": {
