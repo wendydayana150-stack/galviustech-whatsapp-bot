@@ -3,8 +3,8 @@
     "telefono": "CO.1743082396756871",
     "nombre": "Dulce Luna",
     "primerContacto": "2026-11-12T16:48:37.066Z",
-    "ultimoContacto": "2026-11-12T16:49:46.073Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-12T16:51:48.388Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,9 +68,28 @@
         "fecha": "2026-11-12T16:49:45.231Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjJDQ0ZDQTkxNDQxRjk5NjI3RgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito uno de 200 hojas tamaño carta y dos rollos de 9. Metros",
+        "fecha": "2026-11-12T16:51:44.645Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te agrego el paquete de 200 hojas tamaño carta por $75.000 y dos rollos de 9 metros a $10.000 cada uno.\n\n¿Quieres que te ayude a dejar el pedido completo con la impresora Térmica Portátil NETUM y el papel que necesitas para que lo recibas ya en casa? Recuerda que la impresora tiene envío gratis y pagas contra entrega.",
+        "fecha": "2026-11-12T16:51:46.556Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEkY0RTc2MUIxMUQzQzU4NDY1RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T16:51:47.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0MzA4MjM5Njc1Njg3MRUUABEYEjJGMDM0NTFDQUM1NDlBQzYyNwA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
