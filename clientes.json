@@ -3,8 +3,8 @@
     "telefono": "573234603797",
     "nombre": "Verónica",
     "primerContacto": "2026-11-12T21:21:21.026Z",
-    "ultimoContacto": "2026-11-12T21:21:21.026Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T21:22:05.835Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-11-12T21:21:19.202Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSMEFCNDUwMzlFNTA1QUFEM0VGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenas tardes como funciona con teléfono Bluetooth como no entiendo",
+        "fecha": "2026-11-12T21:22:02.268Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, ¿cómo estás? Soy Michell de GalviusTech. La Impresora Térmica Portátil NETUM funciona conectándose por Bluetooth a tu celular (Android o iPhone). Solo la enciendes, emparejas por Bluetooth y puedes imprimir documentos, trabajos o recibos sin tinta ni cartuchos.\n\nDime, ¿para qué la necesitas principalmente, para tareas o para tu negocio? Así te cuento mejor cómo te puede servir.",
+        "fecha": "2026-11-12T21:22:04.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSMERBMjE5Q0M5OEIxNjU5MzdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así funciona la Impresora NETUM 🖨️",
+        "fecha": "2026-11-12T21:22:05.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSMzA1OURGQTk4QjUzOUZERUFFAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
       "url": "https://fb.me/5fLVRH8kP",
       "fecha": "2026-11-12T21:21:17.882Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573005433538",
