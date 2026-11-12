@@ -921,6 +921,7 @@ async function enviarInfoCategoria(telefono, categoria, opciones = {}) {
       }
 
       if (categoria === "lampara" || categoria === "camara") await ofrecerReflectoresUnaVez(telefono, sesion);
+      if (categoria === "lampara") await enviarCatalogoSolar(telefono, sesion);
       await enviarTexto(telefono, info.pregunta);
 }
 
@@ -982,6 +983,19 @@ function reflectorPuntual(texto) {
       const r = reflectoresDisponibles().filter((p) => new RegExp("\\b" + w + "W", "i").test(p.nombre) && /^combo/i.test(p.nombre) === x2);
       return r[0] || null;
 }
+// 12-nov-2026 (Wendy: "si o si enviar el catalogo donde salen las demas opciones de reflectores"): a quien pregunta por
+// reflectores o lamparas solares (ej. el anuncio del combo 500W) se le manda el link del catalogo una vez por chat.
+async function enviarCatalogoSolar(telefono, sesion) {
+      if (sesion.catalogoSolarEnviado) return;
+      sesion.catalogoSolarEnviado = true;
+      const texto = "☀️ Mira *todas las opciones* de reflectores y lámparas solares, con fotos y precios, en nuestro catálogo 👇\n🛍️ " + LINK_CATALOGO;
+      try {
+            await enviarTexto(telefono, texto);
+            sumarAlHistorialBot(sesion, texto);
+      } catch (e) {
+            console.error("Catalogo solar:", e.message);
+      }
+}
 async function presentarReflectorPuntual(telefono, sesion, p) {
       sesion.ultimaCategoria = "reflector";
       sesion.ultimoProducto = p.id;
@@ -1006,6 +1020,7 @@ async function presentarReflectorPuntual(telefono, sesion, p) {
             (p.id !== ID_COMBO_LAMPARAS && catalogo.some((x) => x.id === ID_COMBO_LAMPARAS && !x.agotado) ? `🔥 Y en promoción: *Combo x2 Lámparas Jortan 500W* con *envío GRATIS* por ${formatearPrecio(catalogo.find((x) => x.id === ID_COMBO_LAMPARAS).precio)}.\n\n` : desde && desde.id !== p.id ? `También hay de 1 unidad desde ${formatearPrecio(desde.precio)}.\n\n` : "") +
             infoCategoria("reflector").pregunta;
       registrarMensaje(telefono, "bot", `[Presenta ${p.nombreCorto || p.nombre} con fotos y precio]`);
+      await enviarCatalogoSolar(telefono, sesion);
       await enviarTexto(telefono, texto);
       sumarAlHistorialBot(sesion, texto);
       return true;
@@ -1041,6 +1056,7 @@ async function presentarReflectores(telefono, sesion, textoCliente) {
               "\n\n" + infoCategoria("reflector").pregunta
             : textoListaReflectores() + "\n\n" + infoCategoria("reflector").pregunta;
       registrarMensaje(telefono, "bot", "[Envio fotos y precios de los reflectores solares]");
+      await enviarCatalogoSolar(telefono, sesion);
       await enviarTexto(telefono, texto);
       sumarAlHistorialBot(sesion, texto);
       return true;
@@ -5227,6 +5243,9 @@ async function manejarTextoLibre(telefono, texto) {
                   // FOTOS + INFO + CIERRE (oct-2026, Wendy: el cliente pidio "Combos con descuento" y solo le llegaron
                   // precios): si Michell ofrece productos con precio y la IA no pidio fotos, se mandan primero las
                   // fotos de esos productos (las que aun no ha visto), luego el texto y al final la pregunta de cierre.
+                  if (productosOfrecidos(visible).some((p) => /^(reflector|lampara)$/.test((p.categoria || "").trim().toLowerCase())) || /reflector|l[aá]mpara(s)? solar/i.test(texto)) {
+                        await enviarCatalogoSolar(telefono, sesion);
+                  }
                   if (!(fotosProductos && fotosProductos.length) && /\$\s?\d/.test(visible)) {
                         if (!sesion.fotosEnviadas) sesion.fotosEnviadas = [];
                         // 12-nov-2026 (Wendy: "siempre que preguntan o dicen algo esta enviando las mismas imagenes"): las fotos
