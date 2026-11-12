@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T13:50:27.315Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-12T13:53:40.317Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -234,9 +234,21 @@
         "fecha": "2026-11-12T13:50:26.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSQkQyRDQ0MDUxNzJBRkI2MkY3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 11# 13_52",
+        "fecha": "2026-11-12T13:53:39.358Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-12T13:53:39.358Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSOEVCODRCMkFGMTUzNkY0Q0JCAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -246,7 +258,8 @@
       "departamento": "Bolivar",
       "nombreCliente": "Leidy cristina torres sanabria",
       "ciudad": "Sii me entendio",
-      "direccion": "Santa rosa sur de Bolivar"
+      "direccion": "Santa rosa sur de Bolivar",
+      "barrio": "Calle 11# 13_52"
     },
     "pausado": false,
     "etapaManual": null,
