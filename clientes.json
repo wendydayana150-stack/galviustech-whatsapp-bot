@@ -392,8 +392,8 @@
     "telefono": "593959709313",
     "nombre": "estefania",
     "primerContacto": "2026-11-12T14:28:07.978Z",
-    "ultimoContacto": "2026-11-12T14:28:07.978Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T16:48:32.335Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -447,6 +447,18 @@
         "fecha": "2026-11-12T16:34:10.403Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTU5NzA5MzEzFQIAERgSOUU4QzRCNTdGNzJCNjNDMDcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-12T16:48:31.615Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-12T16:48:31.615Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTU5NzA5MzEzFQIAERgSRkU3OEM3Q0RBMDA5MEJGMjZGAA=="
       }
     ],
     "paso": "conversando",
@@ -469,10 +481,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-12T16:34:11.512Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
