@@ -426,6 +426,13 @@
         "fecha": "2026-11-12T18:33:44.625Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzMzM1Mzk2FQIAERgSNEM5ODM1MDIzNTExMTQ2Q0NGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-12T19:34:08.649Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzMzM1Mzk2FQIAERgSMDYzNUVGMEI2MjFBMEMwNjUyAA=="
       }
     ],
     "paso": "conversando",
@@ -446,7 +453,12 @@
       "url": "https://fb.me/7BciqmjFn",
       "fecha": "2026-11-12T18:33:43.203Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-12T19:34:10.623Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573219713132",
@@ -594,6 +606,13 @@
         "fecha": "2026-11-12T18:30:38.634Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5NzEzMTMyFQIAERgSMzczQUREQ0I0QTg5RjA4NUJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-12T19:34:09.725Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5NzEzMTMyFQIAERgSRTRBMjI0NjFBQzI4OTQwMTNGAA=="
       }
     ],
     "paso": "conversando",
@@ -616,7 +635,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-12T19:34:10.623Z"
     }
   },
   {
