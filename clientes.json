@@ -3,8 +3,8 @@
     "telefono": "573234603797",
     "nombre": "Verónica",
     "primerContacto": "2026-11-12T21:21:21.026Z",
-    "ultimoContacto": "2026-11-12T21:22:05.835Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-12T21:23:34.761Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,25 @@
         "fecha": "2026-11-12T21:22:05.151Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSMzA1OURGQTk4QjUzOUZERUFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Trabajos y fotografias de cédula",
+        "fecha": "2026-11-12T21:23:31.549Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM solo imprime en blanco y negro y no puede imprimir fotografías ni escanear documentos, solo textos y gráficos simples como trabajos, apuntes y documentos tipo cédula en blanco y negro.\n\nMide 27.5 cm de largo x 6.5 cm de ancho x 5 cm de alto, es muy portátil y viene con papel térmico tamaño carta incluido para que empieces a imprimir de una.\n\n¿Cómo quieres que te apoye para dejar el pedido listo y que la recibas pronto?",
+        "fecha": "2026-11-12T21:23:33.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSNDIwNzkwQUQyNTMzQjA3M0ZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-12T21:23:34.100Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0NjAzNzk3FQIAERgSNUYwQzkxRDIyQ0FCMzk4M0Y3AA=="
       }
     ],
     "paso": "conversando",
@@ -76,7 +95,10 @@
       "url": "https://fb.me/5fLVRH8kP",
       "fecha": "2026-11-12T21:21:17.882Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-12T21:23:31.549Z",
+      "texto": "Trabajos y fotografias de cédula"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
