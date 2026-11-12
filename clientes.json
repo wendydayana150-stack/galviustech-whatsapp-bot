@@ -3,8 +3,8 @@
     "telefono": "573116197663",
     "nombre": "clausierra",
     "primerContacto": "2026-11-12T20:28:23.872Z",
-    "ultimoContacto": "2026-11-12T20:28:23.872Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T20:30:11.925Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-12T20:28:23.298Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2MTk3NjYzFQIAERgSODA4QzA0QUU1RjlBRTgyMDAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si mi sin no tiene datos no funciona o si",
+        "fecha": "2026-11-12T20:30:08.559Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem necesita una SIM con datos para funcionar, pero la SIM puede ser de cualquier operador (Claro, Movistar, Tigo, WOM). Te recuerdo que con la compra te enviamos una SIM física de Claro de regalo, pero sin plan ni recarga; tú activas el que necesites.\n\n¿Y para qué necesitas el módem? ¿Para estudio, trabajo o navegación en casa? Así te ayudo a elegir el mejor modelo.",
+        "fecha": "2026-11-12T20:30:11.303Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2MTk3NjYzFQIAERgSMTFBRTA2ODY3OUYzNEU0MzE1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -52,7 +64,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1920810315957534",
