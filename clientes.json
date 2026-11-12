@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:00:17.344Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-11-12T14:00:21.510Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -334,9 +334,21 @@
         "fecha": "2026-11-12T14:00:16.636Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSODY3NjQwRERCNzdFODQ2NEIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A la oficina",
+        "fecha": "2026-11-12T14:00:19.801Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-12T14:00:19.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRTYzMTc2QzY5NDREMUU3RjgxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -344,7 +356,8 @@
       "telefono": "573239424536",
       "celular": "3239424536",
       "departamento": "Bolivar",
-      "direccion": "Recoge en oficina de Interrapidísimo"
+      "direccion": "Recoge en oficina de Interrapidísimo",
+      "nombreCliente": "A la oficina"
     },
     "pausado": false,
     "etapaManual": null,
