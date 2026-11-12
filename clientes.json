@@ -3,8 +3,8 @@
     "telefono": "573207954954",
     "nombre": "Dios&Familia❤️🙏",
     "primerContacto": "2026-11-12T23:18:18.740Z",
-    "ultimoContacto": "2026-11-12T23:18:18.740Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-12T23:18:52.687Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-12T23:18:18.074Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQ0Q0REUxMUM1MzQ2NkIwMzRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Te Iva a decir q si lo puedo retirarlo el sábado",
+        "fecha": "2026-11-12T23:18:50.224Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿qué producto te interesa retirar el sábado? Así te confirmo si podemos coordinar la entrega o si necesitas recogerlo en la oficina de la transportadora más cercana a tu zona. ¿Me cuentas?",
+        "fecha": "2026-11-12T23:18:52.012Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA3OTU0OTU0FQIAERgSQjAxNkY2MzM1NEM3M0FBNzhCAA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234197121",
