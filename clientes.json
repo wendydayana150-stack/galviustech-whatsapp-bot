@@ -3,8 +3,8 @@
     "telefono": "573239424536",
     "nombre": "Leidy Trr💗",
     "primerContacto": "2026-11-12T13:26:46.165Z",
-    "ultimoContacto": "2026-11-12T14:03:46.807Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-11-12T14:04:04.496Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -413,9 +413,21 @@
         "fecha": "2026-11-12T14:03:46.202Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSMjg4NkYzMDM4Qzg1Njg4MkJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A santa rosa sur de Bolivar",
+        "fecha": "2026-11-12T14:04:03.833Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-12T14:04:03.834Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5NDI0NTM2FQIAERgSRTc2RjE3OTMxQzBGQUNBQUI3AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -424,7 +436,8 @@
       "celular": "3239424536",
       "departamento": "Bolivar",
       "direccion": "Recoge en oficina de la transportadora",
-      "nombreCliente": "A la oficina"
+      "nombreCliente": "A la oficina",
+      "ciudad": "A santa rosa sur de Bolivar"
     },
     "pausado": false,
     "etapaManual": null,
