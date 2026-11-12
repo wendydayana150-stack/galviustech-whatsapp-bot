@@ -3,8 +3,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:04:15.168Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-12T23:04:29.580Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -264,9 +264,21 @@
         "fecha": "2026-11-12T23:04:14.638Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNzQ3RkRFODYyNjM0OUJCRUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Parte de iglesia",
+        "fecha": "2026-11-12T23:04:28.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-12T23:04:28.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSRkUwNzc4RTJCMEU2QjU5MUMxAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "reflectores-x2-500w-con-control-remoto",
       "nombreProducto": "Combo x2 Reflectores Solares Jortan 500W con Control Remoto",
@@ -276,7 +288,8 @@
       "nombreCliente": "Marco Queragama",
       "celular": "3234197121",
       "ciudad": "Es municipio",
-      "direccion": "Eso no sabe"
+      "direccion": "Eso no sabe",
+      "barrio": "Parte de iglesia"
     },
     "pausado": false,
     "etapaManual": null,
