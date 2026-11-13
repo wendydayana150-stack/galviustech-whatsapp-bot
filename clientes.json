@@ -366,8 +366,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:47:19.382Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-13T01:50:17.325Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -761,14 +761,30 @@
         "fecha": "2026-11-13T01:47:18.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRkNGQjc1OTBDQjM5Q0MyNjBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre es Adela Sofía Pushaina Aguilar \nCelular :3207246292\nMunicipio uribia la guajira \nen oficina de interrapidicimo",
+        "fecha": "2026-11-13T01:50:16.618Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre, tu departamento y tu ciudad.\n\nAhora, ¿cual es tu direccion completa?",
+        "fecha": "2026-11-13T01:50:16.625Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSQzg5NEI3Q0ZEQzRDMUFEN0UxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
-      "telefono": "573181675955"
+      "telefono": "573181675955",
+      "celular": "3207246292",
+      "departamento": "La Guajira",
+      "nombreCliente": "Adela Sofía Pushaina Aguilar",
+      "ciudad": "Uribia"
     },
     "pausado": false,
     "etapaManual": null,
