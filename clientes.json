@@ -3,8 +3,8 @@
     "telefono": "573152912686",
     "nombre": "cosméticos",
     "primerContacto": "2026-11-13T20:46:41.536Z",
-    "ultimoContacto": "2026-11-13T20:46:41.536Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T20:46:53.794Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-13T20:46:40.507Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUyOTEyNjg2FQIAERgSQjJBNjg0Q0E0ODUwMzExNzQwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muy buenas tardes",
+        "fecha": "2026-11-13T20:46:44.778Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell, ¿en qué te puedo ayudar hoy? ¿Buscas soluciones de conectividad, impresoras portátiles, o algo más específico? ¿Me cuentas para qué necesitas el equipo?",
+        "fecha": "2026-11-13T20:46:47.623Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUyOTEyNjg2FQIAERgSRjU5QTFCQTc1RjQzQzVFRjAzAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/4v71glhV4",
       "fecha": "2026-11-13T20:46:39.235Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1674439984352430",
