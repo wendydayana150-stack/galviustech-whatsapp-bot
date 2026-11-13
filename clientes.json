@@ -3,8 +3,8 @@
     "telefono": "573178377440",
     "nombre": "Samuel Pushaina",
     "primerContacto": "2026-11-13T13:54:01.041Z",
-    "ultimoContacto": "2026-11-13T13:59:06.686Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-13T13:59:36.661Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,9 +130,21 @@
         "fecha": "2026-11-13T13:59:05.754Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSN0U4MEYwODhFMzJENDZFQkJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de Urubia",
+        "fecha": "2026-11-13T13:59:35.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-13T13:59:35.543Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSNDNEMTA2NjZDRTI1NEI4MDgyAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -140,7 +152,8 @@
       "telefono": "573178377440",
       "departamento": "La Guajira",
       "nombreCliente": "Samuel Pushaina",
-      "celular": "3178377440"
+      "celular": "3178377440",
+      "ciudad": "Municipio de Urubia"
     },
     "pausado": false,
     "etapaManual": null,
