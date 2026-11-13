@@ -3,8 +3,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-13T15:31:36.485Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T15:31:58.898Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,45 @@
         "fecha": "2026-11-13T15:31:35.801Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRjVFMzkxODVGNDVCQjM2RTgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero imprimir en envases plásticos",
+        "fecha": "2026-11-13T15:31:53.563Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para imprimir en envases plásticos lo ideal son impresoras de etiquetas, porque la Impresora Termica Portátil NETUM imprime hoja tamaño carta, no etiquetas adhesivas. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nTe recomiendo la Impresora Térmica Portátil de Etiquetas Clabel 221B por $155.000 + $26.000 de envío. Es perfecta para etiquetas de producto con precio, código y más. ¿Quieres que te la muestre?",
+        "fecha": "2026-11-13T15:31:57.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSOTQzRDY1M0QxNTRDQUZEMDI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T15:31:57.782Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSNjJGQzRDOUI4ODI5RDdGQzM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-11-13T15:31:58.173Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSMDJBNjA0M0I2QzNEMTNFNkU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora Clabel 221B]",
+        "fecha": "2026-11-13T15:31:58.627Z",
+        "estado": "enviado"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +89,10 @@
       "url": "https://fb.me/5fLVRH8kP",
       "fecha": "2026-11-13T15:31:34.636Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213074623",
