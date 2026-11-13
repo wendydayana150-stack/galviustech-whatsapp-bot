@@ -303,8 +303,8 @@
     "telefono": "573158678182",
     "nombre": "Dios es amor",
     "primerContacto": "2026-11-13T15:21:30.262Z",
-    "ultimoContacto": "2026-11-13T15:21:30.262Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T15:31:30.565Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -350,6 +350,13 @@
         "fecha": "2026-11-13T15:21:29.683Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4Njc4MTgyFQIAERgSMkQ1QTBGRUJDQUQzMkM2MkE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te gustó alguna de las opciones del catálogo? 😊 Cuéntame cuál te llamó la atención y te ayudo con tu pedido. Pagas cuando lo recibes en tu casa 🚚",
+        "fecha": "2026-11-13T15:31:29.684Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4Njc4MTgyFQIAERgSRTIzMEJBM0QxRjg2QjlDMjYxAA=="
       }
     ],
     "paso": "conversando",
@@ -370,7 +377,10 @@
       "url": "https://fb.me/6BFMakUJy",
       "fecha": "2026-11-13T15:21:28.168Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573028491704",
