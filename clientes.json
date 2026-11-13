@@ -3,8 +3,8 @@
     "telefono": "573214250405",
     "nombre": "🥰😘😘🥰",
     "primerContacto": "2026-11-13T03:19:56.839Z",
-    "ultimoContacto": "2026-11-13T03:19:56.839Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T03:20:02.436Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-13T03:19:56.163Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE0MjUwNDA1FQIAERgSMEJEQzA3MzgxQkJEOTMzOUQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Maneja contra entrega a bahía Solano choco",
+        "fecha": "2026-11-13T03:19:58.893Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después de que se despache el pedido.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nSí, hacemos envío contra entrega a Bahía Solano, Chocó. El modem 4G/5G y el 5G llevan un costo de envío de $26.000, el 4G tiene envío gratis. ¿Cuál versión te interesa para recomendarte mejor? ¿Lo necesitas para estudio, trabajo, hogar o negocio?",
+        "fecha": "2026-11-13T03:20:01.194Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MjUwNDA1FQIAERgSMTg5MzRFOTI1QjNDQzE0QTEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T03:20:01.658Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE0MjUwNDA1FQIAERgSREYzMTBCOUE1NDM2ODJFQkM5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,13 @@
       "url": "https://fb.me/53sQQeDhJ",
       "fecha": "2026-11-13T03:19:54.840Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-13T03:19:58.893Z",
+      "texto": "Maneja contra entrega a bahía Solano choco"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573106252155",
