@@ -275,8 +275,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:43:05.498Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-13T01:43:14.260Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -563,6 +563,13 @@
         "fecha": "2026-11-13T01:43:04.944Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSREY4RUYwMDZDNDg2RDJGQ0Y1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola, Adela Sofía! 😊 Disculpa la confusión, ya tengo tu nombre: *Adela Sofía Pushaina Aguilar*.\r\n\r\nTu *Módem WiFi Portátil 4G* ($199.900 con *envío GRATIS*) va para *Uribia, La Guajira*. Como vives en una ranchería, te lo enviamos a la *oficina de Interrapidísimo de Uribia* y lo recoges ahí, pagando al recibir ✅\r\n\r\nSolo confírmame:\r\n1️⃣ ¿A qué número de celular te avisamos cuando llegue? (puede ser este mismo o el de un familiar)\r\n2️⃣ ¿Te queda bien recogerlo en la oficina de Interrapidísimo de Uribia?",
+        "fecha": "2026-11-13T01:43:13.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRUZCRThGQjY0ODYyMUJDOTY4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -573,7 +580,7 @@
       "telefono": "573181675955",
       "departamento": "La Guajira"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
