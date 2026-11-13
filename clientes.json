@@ -3,8 +3,8 @@
     "telefono": "573135618689",
     "nombre": "Yilser Hurtado 😍🥰",
     "primerContacto": "2026-11-13T22:52:11.584Z",
-    "ultimoContacto": "2026-11-13T23:04:13.627Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-13T23:04:27.563Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,9 +231,28 @@
         "fecha": "2026-11-13T23:04:12.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSNjExMzFFNTUwMjg1QTYyRTEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-13T23:04:24.860Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente! Te ayudo a dejar todo listo entonces. ¿Me puedes confirmar la dirección exacta donde quieres que te enviemos el módem y las lámparas? Así te llega rápido y sin problema.",
+        "fecha": "2026-11-13T23:04:25.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSODcxNzcwQ0U1RDEwNUEzMUM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 199.900) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-13T23:04:26.900Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSQUZFN0MwRDNCMEVCQjBFMkZFAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
