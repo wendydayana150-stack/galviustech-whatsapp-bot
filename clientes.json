@@ -3,8 +3,8 @@
     "telefono": "573223944303",
     "nombre": "Mgl",
     "primerContacto": "2026-11-13T16:12:38.683Z",
-    "ultimoContacto": "2026-11-13T16:19:52.297Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-13T16:24:55.543Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -75,10 +75,34 @@
         "fecha": "2026-11-13T16:19:51.387Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNTNDMTFDQzM2M0JFRkI5MkI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si me lo puedes enviar  estoy ubicado   en la gavarra   catatumbo",
+        "fecha": "2026-11-13T16:24:50.407Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después del despacho, a la oficina de la transportadora más cercana de La Gavarra, Catatumbo, para que lo recojas sin problema.\n\nTe recomiendo el *Modem WiFi Portátil 4G/5G* por su compatibilidad y buen balance entre cobertura y velocidad, la inversión es $199.900 + $26.000 de envío, pagas al recibir con garantía de 30 días.\n\n¿Quieres que te ayude a dejar el pedido listo para despacho?",
+        "fecha": "2026-11-13T16:24:53.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSOUU0NjdGRkNEREU1MzcxMDBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-13T16:24:54.922Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSRTcyRUI1OUNGNDEzREM3MTQxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573223944303"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -90,7 +114,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-13T16:24:50.407Z",
+      "texto": "Si me lo puedes enviar  estoy ubicado   en la gavarra   catatumbo"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
