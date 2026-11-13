@@ -3552,8 +3552,8 @@
     "telefono": "573046060557",
     "nombre": "💞SANDRA AMOR💞",
     "primerContacto": "2026-11-13T00:23:42.471Z",
-    "ultimoContacto": "2026-11-13T00:23:42.471Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T12:09:58.138Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3600,13 +3600,45 @@
         "fecha": "2026-11-13T12:00:47.547Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2MDYwNTU3FQIAERgSNzc4RkQzNDM5NDNFMjhERUZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuál es el módem 5g como de grande es",
+        "fecha": "2026-11-13T12:09:52.103Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-13T12:09:56.179Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MDYwNTU3FQIAERgSQTUwRDgyRTlCQjk5MzhGNjY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 5G]",
+        "fecha": "2026-11-13T12:09:56.772Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "El modem WiFi portátil 5G mide parecido a un celular pequeño, es fácil de llevar y conectar donde necesites internet rápido sin depender de fibra óptica.\n\nTiene batería recargable USB-C que dura hasta 14 horas en uso continuo, conectas hasta 10 dispositivos al WiFi y se instala fácil, solo pones la SIM y enciendes.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión para este modem 5G es de $199.900 + $26.000 de envio, pagas al recibir y tienes garantía de 30 días. ¿En qué parte de Colombia lo usarías para confirmarte la cobertura?",
+        "fecha": "2026-11-13T12:09:56.775Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MDYwNTU3FQIAERgSNDY3RkYxQkNENERGMjFCRjREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T12:09:57.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MDYwNTU3FQIAERgSRjE3OTVCQzk3Rjk3MzNGQjNFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -3622,10 +3654,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T12:00:51.289Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
