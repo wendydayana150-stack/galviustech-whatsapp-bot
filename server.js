@@ -4805,15 +4805,16 @@ function preguntaVariasCosas(texto) {
 // Cada respuesta termina con una pregunta de cierre (o de uso, si aun no se sabe para que la quiere).
 // SOLO PAPEL O ROLLOS (12-nov-2026, Wendy: "si llega algun cliente preguntando para comprar solo rollos o papel termico,
 // venderlo y ofrecer el envio aparte"): si el cliente pide papel o rollos y no viene hablando de una impresora, se le
-// dan todas las presentaciones con precio + $26.000 de envio. Despues la IA cierra con ACCION_PEDIDO (ids papel-*).
+// dan las presentaciones con precio y que el envio va aparte segun la ciudad. Wendy calcula el envio: la IA pregunta
+// que quiere y la ciudad y marca NECESITA_ASESOR (no arranca el pedido sola).
 const PIDE_PAPEL_SOLO = /\b(rollos?|papel|hojas?)\s+(t[eé]rmic\w*|para (la |mi |el )?(impresora|dat[aá]fono|caja|registradora|pos|etiquetas))|\b(rollos?|papel t[eé]rmico|hojas? t[eé]rmicas?)\b/i;
 const INTENCION_COMPRA_PAPEL = /(compr|vend|precio|cu[aá]nto|vale|valor|cuesta|necesito|ocupo|tienen|tienes|tiene|manejan|hay|quiero|busco|consig|t[eé]rmic)/i;
 const TEXTO_PAPEL_SOLO =
       "¡Claro que sí! 😊 Te vendemos el *papel térmico* solo, sin necesidad de comprar impresora:\n\n" +
       "🧻 *Rollos térmicos de 7 m* (impresoras pequeñas de recibos y etiquetas):\n• 1 rollo: $4.000\n• 5 rollos: $17.000\n• 10 rollos: $30.000\n\n" +
       "📄 *Papel térmico tamaño carta* (impresoras portátiles tamaño carta):\n• Rollo tamaño carta (9 m): $10.000\n• 52 hojas: $35.000\n• 200 hojas: $75.000\n\n" +
-      "🚚 El envío va aparte: *$26.000* a cualquier parte de Colombia, y *pagas al recibir* ✅\n\n" +
-      "¿Cuál te sirve y cuántos te envío?";
+      "🚚 *El envío va aparte* y su valor depende de tu ciudad. Pagas al recibir ✅\n\n" +
+      "¿Cuál te sirve, cuántos necesitas y para qué ciudad o municipio es? Así te calculo el envío 😊";
 async function venderPapelSolo(telefono, sesion, texto) {
       if (sesion.ofrecioPapelSolo || sesion.ofertaPapel) return false;
       if (sesion.paso !== "inicio" && sesion.paso !== "conversando") return false;
