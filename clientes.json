@@ -3,8 +3,8 @@
     "telefono": "573135586231",
     "nombre": "Maria",
     "primerContacto": "2026-11-13T19:04:40.945Z",
-    "ultimoContacto": "2026-11-13T19:05:31.169Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-13T19:06:13.832Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -81,13 +81,25 @@
         "fecha": "2026-11-13T19:05:30.384Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NTg2MjMxFQIAERgSMzI5MzA2QkYyOUNFRTQzRUYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Por el momento una",
+        "fecha": "2026-11-13T19:06:10.934Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el Combo trae dos reflectores para que cubras dos espacios y tengas más iluminación y seguridad sin gastar en luz. Pero si por ahora solo quieres uno, tengo el reflector solar Jortan 500W individual a $169.900 con envío gratis y pago contra entrega.\n\n¿Quieres que te envíe ese o prefieres aprovechar el combo? ¿A qué ciudad te lo envío?",
+        "fecha": "2026-11-13T19:06:13.063Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NTg2MjMxFQIAERgSMTI4NkYzREQ5QzI1MzJBMDcxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
+    "ultimoProducto": "reflector-solar-led-500w-con-control-remoto",
     "ultimaCategoria": "reflector",
     "necesitaAtencion": false,
     "motivoAtencion": null,
