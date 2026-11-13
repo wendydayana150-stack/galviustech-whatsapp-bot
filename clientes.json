@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:22:50.466Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-13T21:23:23.773Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -262,9 +262,21 @@
         "fecha": "2026-11-13T21:22:49.680Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNUNFRkYzNzAyRUM0RUVDMzgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio puerto meluk medio baudo",
+        "fecha": "2026-11-13T21:23:22.686Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-13T21:23:22.689Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSQzdGNDlFQzA1MkFBMjdCRTVCAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -272,7 +284,8 @@
       "telefono": "573045232179",
       "nombreCliente": "Wilfran morroco caizamo",
       "celular": "3045232179",
-      "departamento": "Choco"
+      "departamento": "Choco",
+      "ciudad": "Municipio puerto meluk medio baudo"
     },
     "pausado": false,
     "etapaManual": null,
