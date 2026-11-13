@@ -3,8 +3,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-13T18:12:52.433Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T18:16:56.026Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-13T18:12:51.506Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMTVEQTQ3NjVEN0VGQTAzNUE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto bale el internet",
+        "fecha": "2026-11-13T18:16:48.007Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi Portátil 4G cuesta $199.900 con envío GRATIS; el 4G/5G y el 5G valen $199.900 con *envío GRATIS* 🚚 cada uno.\n\nEstos equipos te dan internet propio para conectar varios dispositivos donde no llega fibra óptica, ideales para estudiar, trabajar o viajar. La inversión la haces una sola vez y olvídate de mensualidades fijas o instalaciones complicadas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué lugar lo necesitas para recomendarte la mejor opción?",
+        "fecha": "2026-11-13T18:16:54.528Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSNTRCQjM0QUQwQkYxMDlFODZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T18:16:55.194Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSQTM4ODk2QjNBQkI3RUJFMEQ1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-13T18:12:50.088Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122302640",
