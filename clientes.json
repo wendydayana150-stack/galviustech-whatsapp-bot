@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:45:34.849Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-11-13T01:46:25.928Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -662,6 +662,25 @@
         "fecha": "2026-11-13T01:45:34.143Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNDQzQzI2MEEyRUIyMEM2MzFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya te dije mi nombre completo es Adela Sofía Pushaina Aguilar",
+        "fecha": "2026-11-13T01:46:21.262Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, Adela Sofía, ya tengo tu nombre completo registrado: *Adela Sofía Pushaina Aguilar*.\n\nTu pedido del Módem WiFi Portátil 4G por $199.900 con envío GRATIS ya está listo para enviarse a la oficina de Interrapidísimo en Uribia.\n\nTe llegará un aviso por este mismo número cuando puedas pasar a recogerlo y pagas al recibir.",
+        "fecha": "2026-11-13T01:46:24.285Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNDI3MzZFOTkzODI3MDM5RjM5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:46:24.796Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSOEJBNERGNEM2ODNENDREOUVEAA=="
       }
     ],
     "paso": "pedido_nombre",
