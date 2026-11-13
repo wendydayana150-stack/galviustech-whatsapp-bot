@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:43:14.260Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-13T01:44:37.932Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -612,9 +612,28 @@
         "fecha": "2026-11-13T01:43:13.664Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRUZCRThGQjY0ODYyMUJDOTY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si puede ser por éste mismo número",
+        "fecha": "2026-11-13T01:44:35.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Adela Sofía. Usaremos este número para avisarte cuando el módem llegue a la oficina de Interrapidisimo en Uribia. \n\nAsí podrás ir a recogerlo sin problema y empezar a disfrutar de tu internet 4G. \n\n¿Quieres que te ayude con otro detalle o cerramos todo para que te llegue pronto?",
+        "fecha": "2026-11-13T01:44:36.752Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMjY3QzM1OUI4RDA0MzE3ODhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T01:44:37.266Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMDFGNjYzOUQ4MTJEMzY4MDdGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
