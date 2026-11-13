@@ -85,8 +85,8 @@
     "telefono": "573212550375",
     "nombre": "mani",
     "primerContacto": "2026-11-13T06:10:27.414Z",
-    "ultimoContacto": "2026-11-13T06:12:41.125Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-13T06:13:19.591Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -177,13 +177,32 @@
         "fecha": "2026-11-13T06:12:40.289Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyNTUwMzc1FQIAERgSRTlCQzE2MTI0RTg2MTQ4QjVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es grande cuanto más o menos mide",
+        "fecha": "2026-11-13T06:13:16.880Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cada módem es compacto y fácil de llevar contigo donde vayas, pero no tengo las medidas exactas en el catálogo.\n\nLo que sí te aseguro es que son portátiles, diseñados para que los puedas usar en finca, vereda, trabajo o viajes sin problema.\n\n¿Quieres que te ayude a dejar el pedido listo o prefieres más detalles de funcionamiento?\n\n💰 *Modem 4G/5G*: $ 199.900 + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-13T06:13:18.213Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNTUwMzc1FQIAERgSQzEwQUZDQjVENzQxRTM0QjlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T06:13:18.717Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNTUwMzc1FQIAERgSMzY3M0JCQjQxNTg0NkM3Q0JCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
