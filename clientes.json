@@ -441,8 +441,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:52:11.490Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-11-13T01:52:40.792Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -879,21 +879,43 @@
         "fecha": "2026-11-13T01:52:10.825Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMzk2QUQyQkQ2MkIyRTdBMzE4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En efectivo",
+        "fecha": "2026-11-13T01:52:37.297Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo! Ya quedo registrado tu pedido con estos datos, por favor verifica que todo este correcto:\n\n*Nombre:* Adela Sofía Pushaina Aguilar\n*Celular:* 3207246292\n*Departamento:* La Guajira\n*Ciudad:* Uribia\n*Direccion:* Envíamelo en oficina de interrapidicimo de uribia y de ahí lo retiraré\n*Barrio:* No aplica (recoge en oficina)\n*Producto:* Modem WiFi Portatil 4G\n*Valor del producto:* $199.900\n*Envío:* GRATIS\n*Total a pagar:* $199.900\n*Medio de pago:* Contraentrega\n\nTu pedido incluye de regalo una SIMCARD de Claro. 🎁\n\nMuchas gracias por confiar en GalviusTech! 😊\n\nCada envio genera un costo logistico desde que sale de nuestra bodega, por eso te pedimos estar pendiente de las llamadas o mensajes de la transportadora, y avisarnos con anticipacion si necesitas cambiar algun dato.\n\nLa mayoria de nuestros pedidos se envian con INTERRAPIDISIMO; si tu zona no tiene cobertura, lo enviamos con COORDINADORA.\n\nTu pedido sera despachado en las horas de la tarde y llegara en un plazo de 1 a 3 días hábiles. Cualquier duda, aqui estoy para ayudarte.",
+        "fecha": "2026-11-13T01:52:38.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRUY5NEUyOEFBNjg4QUJDOUY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "⚠️ *IMPORTANTE – RESPONSABILIDAD AL SOLICITAR SU PEDIDO*\n\nEstimado cliente 😊, al momento de confirmar y solicitar su pedido, usted está adquiriendo un compromiso de recibirlo.\n\n📦 Nosotros preparamos, empacamos y enviamos cada pedido especialmente para usted, asumiendo costos de transporte y logística.\nPor eso, le pedimos por favor solicitar únicamente si está seguro(a) de recibirlo. 🙏\n\n❌ Evitemos pedir productos para luego no reclamarlos o rechazarlos sin una razón justificada, ya que esto genera gastos y pérdidas para nuestro negocio.\n\n✅ Si confirma su pedido, entendemos que está de acuerdo en recibirlo cuando llegue.\n\n💛 Gracias por valorar nuestro trabajo y ayudarnos a brindar un mejor servicio.\n\n¿CONFIRMA QUE ESTÁ SEGURO(A) DE RECIBIR SU PEDIDO? 📦🚚",
+        "fecha": "2026-11-13T01:52:39.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNDQ1MEJBOUM5MUYyNENDNTFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-13T01:52:39.498Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMjZGOTM1OEM4RUI2MzYzN0JEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🎉 ¡Gracias por tu compra! Mientras llega tu pedido, mira todo lo que tenemos para ti en *GALVIUSTECH* 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Envío a toda Colombia por $26.000 (🖨️ Impresora NETUM, 💡 Lámparas 3 lentes x3 , ☀️ todos los Reflectores solares y 📶 Módem 4G con envío GRATIS) y pagas al recibir ✅\nSi algo te gusta, escríbeme y te lo agrego 😍",
+        "fecha": "2026-11-13T01:52:39.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSQzQzQzgzQUVEQkE5Nzg1NzA1AA=="
       }
     ],
-    "paso": "pedido_pago",
-    "pedido": {
-      "productoId": "modem-4g",
-      "nombreProducto": "Modem WiFi Portatil 4G",
-      "precio": 199900,
-      "telefono": "573181675955",
-      "celular": "3207246292",
-      "departamento": "La Guajira",
-      "nombreCliente": "Adela Sofía Pushaina Aguilar",
-      "ciudad": "Uribia",
-      "direccion": "Envíamelo en oficina de interrapidicimo de uribia y de ahí lo retiraré",
-      "barrio": "No aplica (recoge en oficina)"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
