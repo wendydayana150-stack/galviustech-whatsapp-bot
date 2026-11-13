@@ -3183,9 +3183,13 @@ async function iniciarPedido(telefono, productoId) {
             return;
       }
 
+      // 13-nov-2026 (caso Mingo): ya habia dado nombre y cedula, toco "Sí, envíamelo" y el pedido arranco de cero
+      // pidiendole otra vez el nombre. Los datos que ya dio en este pedido se conservan.
+      const datosPrevios = sesion.pedido || {};
       sesion.paso = "pedido_nombre";
       sesion.ultimoProducto = producto.id;
       sesion.pedido = { productoId, nombreProducto: producto.nombre, precio: producto.precio, telefono };
+      for (const k of ["nombreCliente", "celular", "cedula", "departamento", "ciudad", "direccion", "barrio"]) if (datosPrevios[k]) sesion.pedido[k] = datosPrevios[k];
       const pagoDicho = medioPagoReciente(sesion);
       if (pagoDicho) sesion.pedido.medioPago = pagoDicho;
       // No volver a pedir lo que el cliente ya dijo en la conversacion
@@ -4079,6 +4083,21 @@ async function manejarFlujoPedido(telefono, texto) {
             await ofrecerSistecreditoSinPlata(telefono, sesion, texto);
             return true;
       }
+      // 13-nov-2026 (caso Mingo): "Si lo puedo retirar en la gavarra" mientras se le pedian los datos se tomo como duda y
+      // Michell lo saco del pedido con "Cuando resuelvas tus dudas, ¿te lo envío?". Es la respuesta de donde lo recibe.
+      if (!sesion.pedido.direccion && definicionActual.campo !== "direccion" && /\b(retir|recog|recoj)\w*/i.test(texto) && !/\bno\b[^.]{0,25}(retir|recog|recoj)/i.test(texto) && String(texto).trim().split(/\s+/).length <= 12) {
+            sesion.pedido.direccion = "Recoge en oficina de Interrapidísimo";
+            sesion.pedido.barrio = "No aplica (recoge en oficina)";
+            sesion.desviosPedido = 0;
+            const siguiente = DEFINICIONES_CAMPOS_PEDIDO.find((d) => faltaCampo(sesion.pedido, d));
+            if (!siguiente) {
+                  await finalizarPedidoSesion(telefono);
+                  return true;
+            }
+            sesion.paso = siguiente.paso;
+            await enviarTexto(telefono, `¡Claro que sí! 👍 Lo recoges en la oficina de Interrapidísimo y pagas al recibir.\n\n${preguntaParaRetomar(siguiente).replace(/^Ahora sí, /, "Ahora, ")}`);
+            return true;
+      }
       if (noPareceNombre || pareceMasPreguntaQueRespuesta(texto, definicionActual.tipo)) {
             // Solo manda "?": no entendio que se le pide. Se le explica el dato, sin pasar por la IA (caso luis miguel).
             if (/^\s*[?¿]+\s*$/.test(texto)) {
@@ -4096,7 +4115,10 @@ async function manejarFlujoPedido(telefono, texto) {
             // nombre completo?" despues de cada respuesta. A la segunda pregunta seguida se sale del pedido (los datos
             // que ya dio se guardan) y se le responde normal, cerrando con "¿Te lo envio?" en vez del dato.
             sesion.desviosPedido = (sesion.desviosPedido || 0) + 1;
-            if (sesion.desviosPedido >= 2) {
+            // 13-nov-2026 (caso Mingo): si ya esta dando sus datos, se le responde y se sigue con el pedido; solo se
+            // sale del pedido si sigue preguntando mucho (4 seguidas).
+            const yaDioDatos = ["nombreCliente", "celular", "departamento", "ciudad", "direccion"].some((k) => sesion.pedido?.[k]);
+            if (sesion.desviosPedido >= (yaDioDatos ? 4 : 2)) {
                   sesion.desviosPedido = 0;
                   sesion.paso = "conversando";
                   try {
@@ -5530,7 +5552,7 @@ async function manejarTextoLibre(telefono, texto) {
                   // "$189.900 + $26.000 de envio" y la linea se descartaba por decir "envio" (0 precios = sin boton). Ahora
                   // solo cuenta como cierre una pregunta de compra directa, y el envio se quita del precio antes de contar.
                   const COMPRA_DIRECTA = /(te (lo|la) env[ií]o|te (lo|la) (separo|dejo|aparto|despacho|mando)|s[ií], env[ií]amelo|cu[aá]l te llevas|(lo|la) quieres|dejo (listo )?tu pedido|quieres pedir)/i;
-                  if (!cierreEnviado && !productoId && !botonReciente && /\$\s?\d/.test(visible) && !COMPRA_DIRECTA.test(ultimoBloque)) {
+                  if (!cierreEnviado && !productoId && !botonReciente && !/^pedido_/.test(sesion.paso || "") && /\$\s?\d/.test(visible) && !COMPRA_DIRECTA.test(ultimoBloque)) {
                         cierreEnviado = true;
                         const sinPapel = visible.split("\n").filter((l) => !/(rollo|hojas|papel)/i.test(l)).join("\n").replace(/\+?\s*\$\s?(26|39)[.,]?(000|900)\s*(de\s+)?(env[ií]o)?/gi, "");
                         const precios = (sinPapel.match(/\$\s?\d[\d.,]*/g) || []).length;
@@ -5667,7 +5689,9 @@ async function manejarTextoLibre(telefono, texto) {
                   // UNA sola vez por producto y nunca si el cliente esta reclamando (necesitaAtencion).
                   !sesion.botonesOfrecidos[idProductoEnfocado] &&
                   !sesion.necesitaAtencion &&
-                  !cierreEnviado
+                  !cierreEnviado &&
+                  // 13-nov-2026 (caso Mingo): el boton salio en plena toma de datos y al tocarlo el pedido volvia a empezar
+                  !/^pedido_/.test(sesion.paso || "")
                   ) {
                   const productoEnfocado = catalogo.find((p) => p.id === idProductoEnfocado);
                   if (productoEnfocado && (await preguntarUsoImpresoraSiFalta(telefono, sesion, idProductoEnfocado))) {
