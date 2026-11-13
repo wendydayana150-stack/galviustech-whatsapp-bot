@@ -3,8 +3,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:51:47.335Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-13T01:52:25.849Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -126,14 +126,28 @@
         "fecha": "2026-11-13T01:51:46.593Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSOUFFMjlGOTcxNzQ3NkY1MkY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Jhonatan David izquierdo \n3136562896",
+        "fecha": "2026-11-13T01:52:25.011Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre y tu celular.\n\nAhora, ¿en que departamento vives?",
+        "fecha": "2026-11-13T01:52:25.014Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSMEM2NEUzQUUzRUIyRTI4RThBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
-      "telefono": "573136584696"
+      "telefono": "573136584696",
+      "celular": "3136562896",
+      "nombreCliente": "Jhonatan David izquierdo"
     },
     "pausado": false,
     "etapaManual": null,
