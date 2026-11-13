@@ -3,8 +3,8 @@
     "telefono": "573106252155",
     "nombre": "Antidio 😍",
     "primerContacto": "2026-11-13T03:12:47.032Z",
-    "ultimoContacto": "2026-11-13T03:12:47.032Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T03:13:44.167Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-13T03:12:46.508Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA2MjUyMTU1FQIAERgSMkZFOUM1RDNBN0RGMDVENkQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Internet satelital coje esque yo busco uno para llevarlo para un sector montañoso allá no hay señal",
+        "fecha": "2026-11-13T03:13:40.617Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo la urgencia, pero te soy sincera: el módem funciona con señal de alguna operadora móvil (Claro, Movistar, Tigo, WOM). Si en esa montaña no hay señal de ningún operador, aunque sea débil, el módem no tendria conexión, porque no es satelital.\n\nDime, ¿confirmaste que tu celular no tiene señal en ese lugar? A veces el módem capta donde el celular a veces no, por su antena potente. ¿Cómo es tu situación ahora con la señal ahí? \n\n¿Quieres que te explique mejor las opciones o necesitas otra solución para esa zona?",
+        "fecha": "2026-11-13T03:13:43.411Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA2MjUyMTU1FQIAERgSQTMxQUJBNkVGNDcwOUZGMjM1AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7BciqmjFn",
       "fecha": "2026-11-13T03:12:45.592Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573104737426",
