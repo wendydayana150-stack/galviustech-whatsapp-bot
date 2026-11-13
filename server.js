@@ -135,12 +135,36 @@ async function cargarSesionSiNueva(telefono) {
                                             esperaCompra: cliente.esperaCompra || null,
                                             interesColor: cliente.interesColor || null,
                               };
+                              await marcarSiYaCompro(telefono);
                               return;
                   }
         } catch (error) {
                   console.error("Error cargando sesion persistida:", error.response?.data || error.message);
         }
         obtenerSesion(telefono);
+        await marcarSiYaCompro(telefono);
+}
+
+// 12-nov-2026 (Wendy, caso Yujeidis: "si este cliente ya hizo pedido porque Michell envia mensaje de bienvenida y
+// volviendo a ofrecer?"): al borrar el chat se pierde el historial, pero el pedido sigue en pedidos.json. Si el cliente
+// tiene un pedido de los ultimos 30 dias, no se le da la bienvenida de ventas ni la presentacion de productos: responde
+// la IA, que ya recibe sus pedidos (notaPedidosDelCliente) y le ayuda con lo que pregunte.
+async function marcarSiYaCompro(telefono) {
+      const sesion = sesiones[telefono];
+      if (!sesion || (sesion.paso && sesion.paso !== "inicio" && sesion.paso !== "conversando")) return;
+      try {
+            if (Date.now() - cachePedidos.t > 60 * 1000) cachePedidos = { t: Date.now(), datos: (await leerJSON(PEDIDOS_API)).datos || [] };
+            const suyos = cachePedidos.datos.filter((p) => p.telefono === telefono && Date.now() - new Date(p.fecha).getTime() < 30 * 86400000);
+            if (!suyos.length) return;
+            const ultimo = suyos[suyos.length - 1];
+            sesion.yaCompro = true;
+            sesion.paso = "conversando";
+            sesion.saludoConCatalogo = false;
+            if (!sesion.ultimoProducto) sesion.ultimoProducto = ultimo.productoId || null;
+            if (!sesion.ultimaCategoria) sesion.ultimaCategoria = (catalogo.find((x) => x.id === ultimo.productoId)?.categoria || "").trim().toLowerCase() || "pedido";
+      } catch (e) {
+            console.error("Revisando pedidos del cliente:", e.message);
+      }
 }
 
 // Devuelve el registro que acaba de guardar (no solo lo empuja al arreglo) para que quien envia
@@ -2029,7 +2053,7 @@ async function notaPedidosDelCliente(telefono) {
             const suyos = cachePedidos.datos.filter((p) => p.telefono === telefono).slice(-3);
             if (!suyos.length) return "";
             const lista = suyos.map((p) => `${p.nombreProducto} para ${p.ciudad || "?"}${p.departamento ? ", " + p.departamento : ""} (${p.medioPago || "pago ?"}, registrado el ${String(p.fecha || "").slice(0, 10)})`).join("; ");
-            return `\n\nESTE CLIENTE YA TIENE PEDIDO(S) REGISTRADO(S): ${lista}. NO le vuelvas a pedir datos de envio ni le preguntes a donde enviarlo para ese pedido. Si pregunta si ya se envio o por la guia: dile con calma que su pedido esta registrado y en proceso de despacho, que llega en 1 a 3 dias habiles despues de despachado y que en cuanto salga le enviamos el numero de guia por este chat; no inventes que ya salio ni inventes una guia. Si quiere otro producto, ese si es un pedido nuevo.`;
+            return `\n\nESTE CLIENTE YA TIENE PEDIDO(S) REGISTRADO(S): ${lista}. NO le vuelvas a pedir datos de envio ni le preguntes a donde enviarlo para ese pedido. Si pregunta si ya se envio o por la guia: dile con calma que su pedido esta registrado y en proceso de despacho, que llega en 1 a 3 dias habiles despues de despachado y que en cuanto salga le enviamos el numero de guia por este chat; no inventes que ya salio ni inventes una guia. Si quiere otro producto, ese si es un pedido nuevo. MUY IMPORTANTE (12-nov-2026, caso Yujeidis): si el cliente habla de recoger o retirar en la oficina, de un dia ("el sabado"), de cuando llega, de pagar o de confirmar, SE REFIERE A ESE PEDIDO YA REGISTRADO: confirmale con el nombre del producto (ej. 'Perfecto, tu *Modem WiFi 4G/5G* queda para recoger en la oficina el sabado 🙌') y NO le preguntes que producto quiere ni le presentes productos. Si el cliente dice 'si', 'eso', 'esto es lo que te estoy diciendo' o algo parecido, NUNCA repitas la misma pregunta: toma lo que ya dijo y avanza. Si tiene varios pedidos y no es claro cual, nombralos y preguntale una sola vez. Si pide cambiar la fecha, la oficina o algo del envio, confirmale que le avisas al equipo y agrega NECESITA_ASESOR: SI.`;
       } catch (e) {
             return "";
       }
