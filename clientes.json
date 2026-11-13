@@ -3,8 +3,8 @@
     "telefono": "573223944303",
     "nombre": "Mgl",
     "primerContacto": "2026-11-13T16:12:38.683Z",
-    "ultimoContacto": "2026-11-13T16:35:46.190Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-13T16:35:54.227Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -144,6 +144,25 @@
         "fecha": "2026-11-13T16:35:45.408Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNzhCQzQ0OTJGNkE2MjY1MzNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como me puedes ayudar",
+        "fecha": "2026-11-13T16:35:50.915Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te ayudo a que tengas internet propio llevando el modem 4G/5G hasta donde estás, para que puedas conectar varios dispositivos sin depender del WiFi ajeno o la señal débil de tu celular.\n\nNo necesitas instalación, solo pones la SIM, enciendes y listo, el modem crea tu red WiFi para que puedas trabajar o estudiar sin corte.\n\nSi te parece, dejo tu pedido listo con envío rápido y garantía, solo necesito que me confirmes para avanzar.",
+        "fecha": "2026-11-13T16:35:53.015Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSRkIwRDM4OUUxMUFEQjc3QTI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en que departamento vives?",
+        "fecha": "2026-11-13T16:35:53.606Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSMDRGQjM4MDAyQkU1QjMzMDFBAA=="
       }
     ],
     "paso": "pedido_departamento",
