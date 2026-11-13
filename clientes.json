@@ -3,8 +3,8 @@
     "telefono": "573122130763",
     "nombre": "Juan.g.🍀🤠",
     "primerContacto": "2026-11-13T16:49:20.111Z",
-    "ultimoContacto": "2026-11-13T16:50:36.902Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-13T16:53:25.385Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -29,16 +29,23 @@
         "fecha": "2026-11-13T16:50:10.814Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSNjNFMDMxMjY5RTI0NjdDMUM1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Hola mira el paso a paso",
+        "fecha": "2026-11-13T16:53:24.036Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSMTJEMjNBOTExNDA4NDNDODY0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Hola cómo estás ya estoy reclamando el paquete\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
