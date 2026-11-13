@@ -3,8 +3,8 @@
     "telefono": "573171150138",
     "nombre": "yahshua",
     "primerContacto": "2026-11-13T00:29:32.567Z",
-    "ultimoContacto": "2026-11-13T00:29:32.567Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T00:31:07.817Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,52 @@
         "fecha": "2026-11-13T00:29:31.838Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSOTk4MUM1NEQ4RDJERUJDNDE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sirve para imprimir fotos al gusto",
+        "fecha": "2026-11-13T00:31:04.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-13T00:31:04.553Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-13T00:31:04.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSN0Y1RTRCNTA5NDZCNUEwODU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-13T00:31:05.158Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSOTY4MTgyRDYwNkU3NkZDMjg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-13T00:31:05.722Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSNkI1NTgzOTFCMUFBMEM0QzA1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-13T00:31:06.306Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSNjI1RUQyMzA3NUZDNzQyNEY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T00:31:06.977Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcxMTUwMTM4FQIAERgSNzY1MEE0OUEyQjlDMjdEQkU4AA=="
       }
     ],
     "paso": "conversando",
@@ -52,7 +98,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573046060557",
