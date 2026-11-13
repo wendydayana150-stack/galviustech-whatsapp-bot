@@ -3,8 +3,8 @@
     "telefono": "573224561962",
     "nombre": "Carvajal Angie",
     "primerContacto": "2026-11-13T01:34:44.553Z",
-    "ultimoContacto": "2026-11-13T01:34:44.553Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T01:36:43.261Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,58 @@
         "fecha": "2026-11-13T01:34:43.993Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSQUQ3NzdFM0FBNTAxNTlBNzU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Combo de dos lámparas y panel solar",
+        "fecha": "2026-11-13T01:36:41.045Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] 🔥 COMBO X2 LÁMPARAS SOLARES JORTAN 500W - $ 249.900",
+        "fecha": "2026-11-13T01:36:41.046Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSOTlEQzAwM0ZBNjk1RjAwQ0ZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Guion: presenta el Combo x2 Lamparas Jortan 500W]",
+        "fecha": "2026-11-13T01:36:41.489Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "☀️ ¿Quieres iluminar tu finca, patio o negocio con energía solar?\n\n🔥 *COMBO X2 LÁMPARAS SOLARES JORTAN 500W*\n✅ 2 lámparas con su panel solar y control remoto\n💡 Resisten lluvia (IP67), ideales para exteriores\n\n🎁 *Precio especial: $ 249.900* por las 2\n🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*",
+        "fecha": "2026-11-13T01:36:41.489Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSMDkwNDI3Qzk4NkQwRjM3QkJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Lamparas Solares]",
+        "fecha": "2026-11-13T01:36:41.885Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Y si buscas otra opción, también tenemos estas lámparas 👇 (te mando fotos de la que quieras)\n\n*Lamparas 3 lentes X 2* - $ 160.000\n*Lampara Solar 2 Unidades* - $ 119.900\n*LAMPARA PANEL SOLAR x 3 unid.* - $ 139.900\n*Lampara 3 lentes x3 unidades* - $ 199.900\n*Lámpara Solar de Pared* - $ 79.900",
+        "fecha": "2026-11-13T01:36:41.885Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSNEMzRDAwNzYyQUFBMTcwMjdGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "☀️ Mira *todas las opciones* de reflectores y lámparas solares, con fotos y precios, en nuestro catálogo 👇\n🛍️ https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-13T01:36:42.280Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSOUEzNTdCMzkyRjAxMzRBMjg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuéntame, ¿dónde necesitas instalar tus lámparas? 👇\n🏡 Casa o patio\n🌳 Finca o vereda\n🏪 Negocio\n🚗 Entrada o parqueadero",
+        "fecha": "2026-11-13T01:36:42.676Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NTYxOTYyFQIAERgSQUU4MTUyN0U4NUY1QTc0NThGAA=="
       }
     ],
     "paso": "conversando",
@@ -31,7 +83,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "lampara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -39,7 +91,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573123934651",
