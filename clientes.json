@@ -3,8 +3,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-13T18:16:56.026Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-13T18:17:59.462Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-11-13T18:16:55.194Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSQTM4ODk2QjNBQkI3RUJFMEQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Allá de donde son a",
+        "fecha": "2026-11-13T18:17:55.055Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o a la oficina de la transportadora si estás en zona rural.\n\nCuéntame, ¿en qué municipio o vereda lo usarías? Así te recomiendo el módem ideal para tu lugar o lo que necesitas hacer con el internet.",
+        "fecha": "2026-11-13T18:17:58.621Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSNTFFNjk2RENDMUY2NTk1NjEzAA=="
       }
     ],
     "paso": "conversando",
@@ -76,7 +88,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-13T18:12:50.088Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-13T18:17:55.055Z",
+      "texto": "Allá de donde son a"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
