@@ -316,8 +316,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:25:17.583Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-13T21:50:02.406Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -515,6 +515,13 @@
         "fecha": "2026-11-13T21:25:16.611Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNUI4MjM4NTQ2NDkzQkFBOTVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Se envia a Itsmina oses a la OFICINA de interrapidisimo, si? Confírmame metodo de pago",
+        "fecha": "2026-11-13T21:50:01.461Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNjYxNDg5MUEwRUIzMTAwMTUwAA=="
       }
     ],
     "paso": "pedido_pago",
@@ -530,7 +537,7 @@
       "direccion": "Será no le pueden mandar en istmina",
       "barrio": "Es un municipio que se llama istmina"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
