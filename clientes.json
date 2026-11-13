@@ -3,8 +3,8 @@
     "telefono": "573223944303",
     "nombre": "Mgl",
     "primerContacto": "2026-11-13T16:12:38.683Z",
-    "ultimoContacto": "2026-11-13T16:39:44.269Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-13T16:39:50.245Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -175,9 +175,28 @@
         "fecha": "2026-11-13T16:39:43.554Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSMzlEQTdGRUMzNjg0Q0ExMDBFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si lo puedo retirar  en la gavarra",
+        "fecha": "2026-11-13T16:39:45.875Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, en zonas como La Gavarra donde no hay entrega a domicilio, el pedido queda disponible para que lo recojas en la oficina de Interrapidisimo o Coordinadora que te quede más cerca.\n\nLlega en 1 a 3 días hábiles después del despacho, con tu pedido listo para que lo recojas cuando puedas.\n\n¿Te ayudo a dejar tu pedido listo para que puedas ir por él?",
+        "fecha": "2026-11-13T16:39:49.000Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSMzE0N0UwOEJFQTVCQzhDQ0Q3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T16:39:49.612Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNTU1RDJCMzAxODU1Rjk3QUEwAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
