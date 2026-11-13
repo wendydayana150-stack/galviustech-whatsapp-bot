@@ -3,8 +3,8 @@
     "telefono": "573115785885",
     "nombre": "Daira Lizeth Garcia",
     "primerContacto": "2026-11-13T10:26:57.558Z",
-    "ultimoContacto": "2026-11-13T10:26:57.558Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T10:27:04.019Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-13T10:26:56.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1Nzg1ODg1FQIAERgSNzgwOEZDQzFDMEEwQzgwNzRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno Días",
+        "fecha": "2026-11-13T10:26:59.312Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Buenos días, soy Michell de GalviusTech 😄\n\n¿En qué ciudad o municipio estás? Así te ayudo con el producto que necesitas, ¿va para estudio, trabajo, hogar o negocio? ¿O quizás para tus viajes? 📍💻\n\n¿Me cuentas para qué lo buscas?",
+        "fecha": "2026-11-13T10:27:03.336Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Nzg1ODg1FQIAERgSNzlENkEwNDExNkM1MzA3RTg0AA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573108450476",
