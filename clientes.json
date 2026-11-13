@@ -2172,8 +2172,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-13T19:29:39.269Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T23:48:58.579Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2220,6 +2220,18 @@
         "fecha": "2026-11-13T21:33:16.071Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSNjJCNENFNURFNDcwMDFCREQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-13T23:48:57.804Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-13T23:48:57.805Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRjhDOUYxOTVGMTNCQzA5MUE5AA=="
       }
     ],
     "paso": "conversando",
@@ -2242,10 +2254,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T21:33:17.488Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
