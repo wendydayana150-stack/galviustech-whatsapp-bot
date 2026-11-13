@@ -3,8 +3,8 @@
     "telefono": "573223944303",
     "nombre": "Mgl",
     "primerContacto": "2026-11-13T16:12:38.683Z",
-    "ultimoContacto": "2026-11-13T16:26:36.712Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-13T16:31:11.762Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -101,14 +101,28 @@
         "fecha": "2026-11-13T16:26:35.714Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSODNEMzUxNEFBMThDQ0UyNEMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mingo perozo\n27491256",
+        "fecha": "2026-11-13T16:31:10.837Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre y tu celular.\n\nAhora, ¿en que departamento vives?",
+        "fecha": "2026-11-13T16:31:10.843Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNjU4QTlCQ0Q3NEE4RjRDRkRGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
-      "telefono": "573223944303"
+      "telefono": "573223944303",
+      "celular": "27491256",
+      "nombreCliente": "Mingo perozo"
     },
     "pausado": false,
     "etapaManual": null,
