@@ -275,8 +275,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:41:54.672Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-13T01:43:05.498Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -544,6 +544,25 @@
         "fecha": "2026-11-13T01:41:54.085Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRjRCMThFMjc0OTA4REFFMjJFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre es Adela Sofía Pushaina Aguilar",
+        "fecha": "2026-11-13T01:43:03.273Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias, Adela Sofía. Ya con ese nombre quedó registrado para el pedido del módem 4G, ahora el sistema te pedirá la dirección y otros datos para completar.\n\nSi necesitas algo más, aquí estoy para ayudarte.",
+        "fecha": "2026-11-13T01:43:04.506Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMEEwN0JCREM4OURDRjUzMTk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:43:04.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSREY4RUYwMDZDNDg2RDJGQ0Y1AA=="
       }
     ],
     "paso": "pedido_nombre",
