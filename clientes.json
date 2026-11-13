@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:45:08.569Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-13T01:45:34.849Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -643,6 +643,25 @@
         "fecha": "2026-11-13T01:45:07.831Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNjBGNzhERDJDREM2RTAwQTdFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre es Adela Sofía Pushaina Aguilar",
+        "fecha": "2026-11-13T01:45:32.209Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias, Adela Sofía! Ya tu pedido del Módem WiFi Portátil 4G queda listo y el sistema usará este número para contactarte con la información del envío.\n\nSi quieres, puedo ayudarte a dejar listo algún otro producto o resolver alguna duda que tengas.",
+        "fecha": "2026-11-13T01:45:33.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRDBGMzU2NjNCQjFBQzkxM0IwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:45:34.143Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNDQzQzI2MEEyRUIyMEM2MzFGAA=="
       }
     ],
     "paso": "pedido_nombre",
