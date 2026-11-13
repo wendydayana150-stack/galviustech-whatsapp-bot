@@ -3,8 +3,8 @@
     "telefono": "573178377440",
     "nombre": "Samuel Pushaina",
     "primerContacto": "2026-11-13T13:54:01.041Z",
-    "ultimoContacto": "2026-11-13T13:56:32.594Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-13T13:57:02.511Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -94,10 +94,28 @@
         "fecha": "2026-11-13T13:56:31.671Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSNkU4NTkxOTlDNzZDNTIxODFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-13T13:57:01.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-13T13:57:01.744Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSRTk5QTY5RjZCRkY0QjBFOUQyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573178377440",
+      "departamento": "La Guajira"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
