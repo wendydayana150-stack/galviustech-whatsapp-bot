@@ -983,8 +983,8 @@
     "telefono": "573146610026",
     "nombre": "René González",
     "primerContacto": "2026-11-13T10:54:08.076Z",
-    "ultimoContacto": "2026-11-13T13:16:07.804Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-13T15:29:54.768Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1076,13 +1076,45 @@
         "fecha": "2026-11-13T15:17:35.374Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSNjA3RjFFRTZGRkM4NjcxRkIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuanto es el mínimo",
+        "fecha": "2026-11-13T15:29:49.682Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-13T15:29:53.074Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSNTE3OUVDNDM5ODNCMEQwMUY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G]",
+        "fecha": "2026-11-13T15:29:53.508Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "El precio mínimo en total para tener internet donde quieras es con el módem 4G, que sale en $199.900 con envío GRATIS. \n\nTe da conexión estable, batería recargable hasta 14 horas y soporta hasta 10 dispositivos conectados a la vez.\n\nEs una inversión para que no dependas de buscar WiFi o si estás en finca o vereda sin fibra.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo deje listo y te lo enviamos a tu dirección? \n¿Dónde te lo enviamos?",
+        "fecha": "2026-11-13T15:29:53.515Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSM0E3MzFFNEI5RUYyNDJFNjhBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T15:29:54.014Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSNTZFREQ2QTk0MkIzNEMzQkQ3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1098,9 +1130,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T15:17:38.041Z"
+      "seguimientosEnviados": 0
     }
   },
   {
