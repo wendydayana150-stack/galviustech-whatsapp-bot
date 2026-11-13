@@ -3270,7 +3270,8 @@ function extraerCamposPedido(texto) {
       const matchCelular = original.match(/(?:\+?57[\s-]*)?(\d[\d\s-]{5,12}\d)/);
       if (matchCelular) {
             const digitos = matchCelular[1].replace(/\D/g, "");
-            if (digitos.length >= 7 && digitos.length <= 10) {
+            // 13-nov-2026 (caso Mingo: mando su cedula "27491256" y quedo como celular): un celular tiene 10 digitos
+            if (digitos.length === 10) {
                   resultado.celular = digitos;
                   marcarPosicion(matchCelular.index);
             }
@@ -3318,7 +3319,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             paso: "pedido_celular",
             tipo: "celular",
             pregunta: "Cual es tu numero de celular?",
-            mensajeError: "Ese numero no me quedo claro. Me puedes escribir tu numero de celular completo (10 digitos)?",
+            mensajeError: "Ese número no me quedó claro 🤔 Escríbeme tu celular completo (10 dígitos). Si es el mismo de este WhatsApp, escríbeme *este mismo* 😊",
       },
       {
             campo: "departamento",
@@ -3396,10 +3397,22 @@ function datosDichosEnConversacion(sesion) {
             if (campos.celular && /^3\d{9}$/.test(campos.celular)) datos.celular = campos.celular;
             if (campos.departamento) datos.departamento = campos.departamento;
             if (campos.medioPago) datos.medioPago = esPagoSistecredito(campos.medioPago) ? "Sistecrédito" : campos.medioPago;
+            // 13-nov-2026 (caso Mingo: "estoy ubicado en la gavarra catatumbo" y luego se le pregunto la ciudad otra vez).
+            // Solo cuando dice explicitamente donde vive o esta ubicado; nunca de otras frases.
+            const lugar = texto.match(/\b(?:estoy ubicad[oa]|me encuentro|vivo|resido|soy|somos|estamos ubicad[oa]s)\s+(?:en|de)\s+(?:el municipio de |la ciudad de |el pueblo de |la vereda )?([a-záéíóúñü][a-záéíóúñü .]{2,40}?)\s*(?:[,.!?]|$|\s+(?:y|pero|me|lo|la|por|para|que|cuanto|cu[aá]nto)\b)/i);
+            if (lugar && !datos.ciudad) {
+                  const sitio = lugar[1].replace(/^(la|el|los|las|una|un)\s+/i, "").trim();
+                  const sinDepto = extraerCamposPedido(sitio).departamento;
+                  if (pareceRespuestaValidaPedido(sitio, "ciudad") && !/^(casa|finca|trabajo|campo|zona rural|colombia|venezuela|aqu[ií]|ac[aá]|all[aá])$/i.test(sitio) && !(sinDepto && normalizarNombre(sitio) === normalizarNombre(sinDepto))) {
+                        const muni = municipioUnico(sitio, sinDepto || "");
+                        datos.ciudad = muni ? muni.ciudad : sitio.replace(/\b\w/g, (c) => c.toUpperCase());
+                        if (muni && !datos.departamento) datos.departamento = muni.departamento;
+                  }
+            }
             // 7-nov-2026 (caso Yese Cabrera): a "¿me das tu nombre?" respondio "Oye cuanto meses aguanta eso" y quedo
             // como nombre (y su nombre real termino guardado como ciudad). Las preguntas no son un nombre.
             if (/nombre/i.test(preguntaBot) && /^[a-záéíóúñü]+(\s+[a-záéíóúñü]+){1,4}$/i.test(texto) && !campos.departamento && !NO_ES_NOMBRE.test(texto)) datos.nombreCliente = texto;
-            // LA CIUDAD NUNCA SE DEDUCE de la charla (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
+            // LA CIUDAD NO SE DEDUCE de otras frases de la charla, solo de "vivo en / estoy ubicado en" (caso Vanessa 26-oct-2026: al saludo "¿En que municipio o
             // vereda...? ¿para tu hogar?" respondio "Hogar" y quedo Ciudad: Hogar, sin preguntarsela). Siempre se
             // le pregunta en el paso pedido_ciudad y se guarda lo que ella responda.
             // 31-oct-2026 (caso Benjamin): "Por coordinadora no me la envie" quedo como "Recoge en oficina de Coordinadora"
@@ -3489,8 +3502,13 @@ function datosPorLineas(texto) {
       for (const l of lineas) {
             if (ES_SALUDO.test(l)) continue;
             const digitos = l.replace(/[\s().+-]/g, "").replace(/^57(?=3\d{9}$)/, "");
-            if (/^\d{7,10}$/.test(digitos)) {
+            if (/^\d{10}$/.test(digitos)) {
                   if (!datos.celular) datos.celular = digitos;
+                  continue;
+            }
+            // Caso Mingo: un numero de 6 a 9 digitos no es celular, casi siempre es la cedula
+            if (/^\d{6,9}$/.test(digitos)) {
+                  if (!datos.cedula) datos.cedula = digitos;
                   continue;
             }
             const barrio = l.match(/^barrio\s*:?\s+(.{2,60})$/i);
@@ -3542,8 +3560,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   if (/\d|\n/.test(limpio) || ES_DIRECCION.test(limpio) || /\bbuen[oa]s?\b|\bd[ií]as?\b|\bsaludos\b/i.test(limpio)) return false;
                   return limpio.length >= 3 && tieneLetra && (!soloLetrasYEspacios || tieneVocal);
             case "celular": {
-                  const digitos = limpio.replace(/\D/g, "");
-                  return digitos.length >= 7;
+                  const digitos = limpio.replace(/\D/g, "").replace(/^57(?=\d{10}$)/, "");
+                  return digitos.length === 10;
             }
             case "ciudad":
                   // Respuestas de "para que lo usas" no son una ciudad (caso Vanessa: "Hogar")
@@ -4142,7 +4160,7 @@ async function manejarFlujoPedido(telefono, texto) {
                   await finalizarPedidoSesion(telefono);
                   return true;
             }
-            const nombres = { nombreCliente: "tu nombre", celular: "tu celular", departamento: "tu departamento", ciudad: "tu ciudad", direccion: "tu dirección", barrio: "tu barrio" };
+            const nombres = { nombreCliente: "tu nombre", celular: "tu celular", cedula: "tu cédula", departamento: "tu departamento", ciudad: "tu ciudad", direccion: "tu dirección", barrio: "tu barrio" };
             const lista = recibidos.map((k) => nombres[k]).filter(Boolean);
             const yaTengo = lista.length > 1 ? lista.slice(0, -1).join(", ") + " y " + lista[lista.length - 1] : lista[0];
             sesion.paso = siguiente.paso;
@@ -4166,6 +4184,22 @@ async function manejarFlujoPedido(telefono, texto) {
             if (definicionActual.campo === "nombreCliente" && extraidos.textoAntesDelPrimerDato) {
                   textoParaValidar = extraidos.textoAntesDelPrimerDato;
             }
+            // "Este mismo": el celular es el mismo numero de WhatsApp desde el que escribe
+            if (definicionActual.campo === "celular" && /^\s*(es\s+)?(el\s+|este\s+|ese\s+)?(mismo|este)(\s+n[uú]mero)?(\s+de(l)?\s+(este\s+)?(whats\w*|wasap|guasap|chat))?\s*[.!]*\s*$/i.test(texto)) {
+                  textoParaValidar = String(telefono).replace(/^57(?=\d{10}$)/, "");
+            }
+            // 13-nov-2026 (caso Mingo): a "La Gabarra es del Norte de Santander, si?" respondio "Es corento" y Michell
+            // dijo "No reconocí ese departamento". Si confirma el departamento que se le acaba de proponer, ese es.
+            let confirmoPropuesta = textoParaValidar !== texto && definicionActual.campo === "celular";
+            if (definicionActual.campo === "departamento" && /^\s*(es\s+|si\s+es\s+)?(s[ií]+|correc?t[oa]|core?n?to|exact[oa]|as[ií] es|claro|afirmativo|ese|esa|ese mismo|esa misma|s[ií] se[nñ]or[a]?)(?![a-záéíóúñ])[\s.!,]*(es\s+)?(correc?to|core?n?to)?[\s.!]*$/i.test(texto)) {
+                  const propuesto = [...(sesion.transcripcion || [])].reverse().filter((m) => m.rol === "bot").slice(0, 3)
+                        .filter((m) => /\?/.test(m.texto || "") && String(m.texto).length < 250 && m.texto !== definicionActual.mensajeError)
+                        .map((m) => extraerCamposPedido(m.texto).departamento).find(Boolean);
+                  if (propuesto) {
+                        textoParaValidar = propuesto;
+                        confirmoPropuesta = true;
+                  }
+            }
 
             // Caso Javier: respondio "Contra entrega" cuando se le pedia el barrio y quedo como barrio. Si el mensaje solo
             // trae otro dato (el medio de pago o el celular), ese dato ya se guardo arriba y se vuelve a pedir el actual.
@@ -4181,7 +4215,7 @@ async function manejarFlujoPedido(telefono, texto) {
             // pido"). Saludos, preguntas, peticiones de fotos o "en otro momento" los responde Michell.
             const PARECE_CONVERSACION = /(^\s*(o|h)la+\b|^\s*(buen[oa]s|ok|okey|listo|gracias|si|s[ií]|dale)\s*[.!]*\s*$|\bq(u)?e+ cosa|\bdiferen|\bfoto|\bvideo|\bm[aá]nd(a|e|ame)\b|\benv[ií](a|e)me\b|otro momento|\bpido\b|\bquiero\b|solo (el|la|uno)\b|\bm[oó]n?dee?m?\b|\bcombo\b|\breloj\b|\bprecio\b|\bno sale\b|\bno me\b|\bconfirmar\b|para qu[eé]|por qu[eé]|\bcu[aá]l\b)/i;
             const esCampoDeTexto = ["nombre", "departamento", "ciudad", "direccion", "barrio", "pago"].includes(definicionActual.tipo);
-            if (esCampoDeTexto && PARECE_CONVERSACION.test(texto) && !(definicionActual.tipo === "pago" && pareceRespuestaValidaPedido(texto, "pago"))) {
+            if (!confirmoPropuesta && esCampoDeTexto && PARECE_CONVERSACION.test(texto) && !(definicionActual.tipo === "pago" && pareceRespuestaValidaPedido(texto, "pago"))) {
                   return false;
             }
 
