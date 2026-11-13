@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:18:39.855Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-13T21:19:21.311Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,13 +164,25 @@
         "fecha": "2026-11-13T21:18:39.052Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSQzlERDAzNUJGRTA5M0U2REQxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En hogar",
+        "fecha": "2026-11-13T21:19:18.303Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para uso en hogar en municipio te recomiendo el Modem WiFi Portátil 4G/5G a $199.900 + $26.000 de envío.\n\nTiene tecnología para conectar celulares, computadores y tablets, fácil de llevar, ideal para zonas sin fibra y para que toda la familia tenga internet en casa sin depender de WiFi compartido o lento.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Te lo envío a tu casa o prefieres recogerlo en la transportadora?",
+        "fecha": "2026-11-13T21:19:20.289Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNzBBRkE5MDIwQjZGNTkwQTQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
