@@ -672,7 +672,9 @@ function guionNetumCorto(netum, yaSaludo) {
             "🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*\n" +
             "🚨 Últimas unidades de la promoción\n\n" +
             "🏷️ Para etiquetas o algo más económico, tenemos otras desde $109.900\n\n" +
-            "😍 *¿Quieres aprovechar el precio especial?*"
+            // 13-nov-2026: 10 de 24 clientes de impresora no respondian a "¿Quieres aprovechar el precio especial?" (si/no
+            // muy temprano). Ahora cierra con una pregunta facil de contestar que lleva a la impresora que le sirve.
+            "😍 Cuéntame, *¿para qué la vas a usar?*\n📚 Tareas, documentos o trabajos\n🧾 Recibos, etiquetas o guías de tu negocio"
       );
 }
 const GUION_NETUM_DATOS =
@@ -5273,6 +5275,13 @@ async function manejarTextoLibre(telefono, texto) {
       // solo va cuando el cliente pregunta UNICAMENTE como se usa; si trae otra duda, la responde Michell (la IA).
       if (!contextoTienda && detectarPreguntaUso(texto) && esSoloPreguntaUso(texto)) {
             await enviarModoDeUso(telefono);
+            return;
+      }
+
+      // 13-nov-2026 (caso "Mandame catalogo por favor": le llegaron 4 fotos de la NETUM): si pide el catalogo, va el catalogo
+      if (/cat[aá]logo/i.test(texto) && !/Ref:/i.test(texto) && texto.length < 120) {
+            await enviarListadoProductos(telefono, "¡Claro! 😊 Estos son nuestros productos 👇", "🚚 Pagas al recibir ✅ ¿Cuál te interesa? Te muestro fotos y precio 😊");
+            if (Array.isArray(sesion.historial)) sesion.historial.push({ role: "user", content: texto }, { role: "assistant", content: "[Le envie el link del catalogo y la lista de productos]" });
             return;
       }
 
