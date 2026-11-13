@@ -3,8 +3,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:43:27.165Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T01:50:06.148Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,59 @@
         "fecha": "2026-11-13T01:43:26.579Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSM0Y2MTA1ODhERDdCQzlGNDAyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye mándame un vídeo de se producto",
+        "fecha": "2026-11-13T01:50:03.064Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-13T01:50:03.071Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-13T01:50:03.071Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSQzZDRDk1NDkzN0QzNjkzNzZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-13T01:50:03.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSRDE2OTY1RjIzQzE1NERFNEE4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-13T01:50:04.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSMDUxQzg1NDlERDQzMkRCMDE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-13T01:50:04.911Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSODYyNjQ3RTM2QUZDRUQ1NTE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T01:50:05.469Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSMkM1MDlFN0JFMEUyODJGRDhCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +85,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573224561962",
