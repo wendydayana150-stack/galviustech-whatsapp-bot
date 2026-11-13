@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:46:25.928Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-11-13T01:46:54.728Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -681,9 +681,28 @@
         "fecha": "2026-11-13T01:46:24.796Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSOEJBNERGNEM2ODNENDREOUVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno está bien lo espero",
+        "fecha": "2026-11-13T01:46:52.163Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Adela Sofía, muchas gracias por confiar en GalviusTech. Cuando te llegue el módem y tengas cualquier duda para configurarlo o usarlo, aquí estaré para ayudarte. \n\nQue disfrutes tu conexión sin complicaciones donde estés. 😊\n\n¿Quieres que te muestre alguna otra cosa útil para tu hogar o negocio mientras tanto?",
+        "fecha": "2026-11-13T01:46:53.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMzMwOTMwOTEzRUI5Q0E2M0M3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T01:46:54.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNTMwQ0I3NUQxNkQ4ODQ3RjAxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
