@@ -3,8 +3,8 @@
     "telefono": "573133879549",
     "nombre": "marygonsalez2026",
     "primerContacto": "2026-11-13T00:36:22.640Z",
-    "ultimoContacto": "2026-11-13T00:36:22.640Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T00:40:02.103Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-13T00:36:21.906Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzODc5NTQ5FQIAERgSRThCNDgzOTcxRDcwQUM1QzdBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En puente nacional Santander es una finca",
+        "fecha": "2026-11-13T00:39:58.817Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una finca en Puente Nacional, Santander, la mejor opción es el *Modem WiFi Portatil 4G/5G*.\n\nTe ofrece internet rápido y estable, funciona bien en zonas rurales, conecta hasta 10 dispositivos y es fácil de transportar. La inversión es de $199.900 + $26.000 de envío. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a la finca o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-11-13T00:40:00.560Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzODc5NTQ5FQIAERgSQzU1RUZCMjI0RENFOTRDQjA4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T00:40:01.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzODc5NTQ5FQIAERgSRjlGQjg0RDI2QzgzNzM2N0FCAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/53sQQeDhJ",
       "fecha": "2026-11-13T00:36:20.716Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573133700812",
