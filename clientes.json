@@ -3,8 +3,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:52:44.396Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-13T01:53:09.110Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -150,9 +150,21 @@
         "fecha": "2026-11-13T01:52:43.827Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSQzgzRTg5RkNGNjdBMzQ4OTk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oficina de interrrapidisimo",
+        "fecha": "2026-11-13T01:53:08.259Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-13T01:53:08.260Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSQkUzOEVCRjg2MTVCNTRDNjJBAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -161,7 +173,9 @@
       "celular": "3136562896",
       "nombreCliente": "Jhonatan David izquierdo",
       "departamento": "Cesar",
-      "ciudad": "Pueblo Bello"
+      "ciudad": "Pueblo Bello",
+      "direccion": "Oficina de interrrapidisimo",
+      "barrio": "No aplica (recoge en oficina)"
     },
     "pausado": false,
     "etapaManual": null,
