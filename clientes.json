@@ -126,8 +126,8 @@
     "telefono": "573184029915",
     "nombre": "cucci",
     "primerContacto": "2026-11-13T18:39:04.767Z",
-    "ultimoContacto": "2026-11-13T18:39:04.767Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T19:02:24.408Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -160,6 +160,32 @@
         "fecha": "2026-11-13T18:39:04.183Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSNTkzOTY0NzRDQUZERENCRUY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La quiero para imprimir trabajos y para etiquetas",
+        "fecha": "2026-11-13T19:02:22.376Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B - $ 155.000",
+        "fecha": "2026-11-13T19:02:22.378Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSMUZBRkFFMzg0RkQyQ0Q2NDkyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Etiquetas P5 - $ 139.900",
+        "fecha": "2026-11-13T19:02:23.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSRjY4MDM4RDg0QUY5NjdCQzM3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! 🏷️ Para *etiquetas, guías y códigos* te sirven mejor estas (imprimen en rollo, *sin tinta*):\n\n🖨️ *Impresora Clabel 221B*: *$ 155.000*. Para etiquetas adhesivas con precio, código de barras y vencimiento\n🖨️ *Impresora Etiquetas P5*: *$ 139.900*. Para marcar productos y organizar con etiquetas pequeñas\n🖨️ *Mini Impresora Bluetooth*: *$ 109.900*. Para notas, listas, stickers, QR y etiquetas sencillas\n🖨️ *Impresora Goojprt PT-210*: *$ 149.900*. Para recibos y tirillas de negocio (tipo POS), guías y comandas\n\n🚚 Envío $26.000 y *pagas al recibir* ✅\n\n¿Qué vas a etiquetar? Así te digo cuál te sirve más 😊",
+        "fecha": "2026-11-13T19:02:23.585Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSQTQzQTc2NDNDOTA4RTIxMjgyAA=="
       }
     ],
     "paso": "conversando",
@@ -180,7 +206,13 @@
       "url": "https://fb.me/6P7is994S",
       "fecha": "2026-11-13T18:39:02.968Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-13T19:02:22.376Z",
+      "texto": "La quiero para imprimir trabajos y para etiquetas"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573146127850",
