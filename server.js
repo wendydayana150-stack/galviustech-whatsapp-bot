@@ -67,6 +67,50 @@ const ETAPAS = [
 
 const sesiones = {};
 
+// TOPE DIARIO DE MENSAJES AUTOMATICOS (13-nov-2026, Wendy: "Michell no esta vendiendo impresora desde una semana"; caso
+// 573118673271: pidio precio de DOS impresoras y en 2 dias le llegaron 15 mensajes automaticos de 6 tareas distintas
+// (recordatorios, rescate de pedido, plantilla, presentacion con video, escasez...), cada una con su propio control).
+// Todas las tareas automaticas corren dentro de conAuto(); cualquier envio hecho desde ahi cuenta como una "ronda"
+// (los mensajes enviados con menos de 3 minutos de diferencia son la misma ronda). Maximo 2 rondas por dia (hora de
+// Bogota) mientras el cliente no responda; cuando el cliente escribe, se reinicia. Las respuestas normales de Michell
+// y los mensajes de Wendy desde el panel no cuentan ni se bloquean.
+const { AsyncLocalStorage } = require("async_hooks");
+const contextoAutomatico = new AsyncLocalStorage();
+const conAuto = (fn) => (...args) => contextoAutomatico.run(true, () => fn(...args));
+const MAX_RONDAS_AUTOMATICAS_DIA = 2;
+const rondasAutomaticas = new Map();
+const diaBogota = (ms) => new Date(ms - 5 * 3600 * 1000).toISOString().slice(0, 10);
+function rondasDeHoy(telefono, ahora) {
+      if (!rondasAutomaticas.has(telefono)) {
+            // Tras un reinicio se reconstruye con la transcripcion: rondas del bot de hoy despues del ultimo mensaje del cliente
+            const conv = sesiones[telefono]?.transcripcion || [];
+            let iCliente = -1;
+            conv.forEach((m, i) => { if (m && m.rol === "cliente") iCliente = i; });
+            const rondas = [];
+            for (const m of conv.slice(iCliente + 1)) {
+                  const t = new Date(m?.fecha || 0).getTime();
+                  if (m?.rol !== "bot" || !t || diaBogota(t) !== diaBogota(ahora)) continue;
+                  if (!rondas.length || t - rondas[rondas.length - 1] > 3 * 60 * 1000) rondas.push(t);
+            }
+            rondasAutomaticas.set(telefono, rondas);
+      }
+      return rondasAutomaticas.get(telefono).filter((t) => diaBogota(t) === diaBogota(ahora));
+}
+function permitirEnvioAutomatico(telefono) {
+      if (!contextoAutomatico.getStore()) return true;
+      const ahora = Date.now();
+      const rondas = rondasDeHoy(telefono, ahora);
+      const ultima = rondas[rondas.length - 1];
+      if (ultima && ahora - ultima < 3 * 60 * 1000) { rondas[rondas.length - 1] = ahora; rondasAutomaticas.set(telefono, rondas); return true; }
+      if (rondas.length >= MAX_RONDAS_AUTOMATICAS_DIA) {
+            console.log(`Tope de mensajes automaticos: no se envia a ${telefono} (${rondas.length} rondas hoy sin respuesta)`);
+            return false;
+      }
+      rondas.push(ahora);
+      rondasAutomaticas.set(telefono, rondas);
+      return true;
+}
+
 function obtenerSesion(telefono) {
         if (!sesiones[telefono]) {
                   sesiones[telefono] = { paso: "inicio", pedido: {}, historial: [], transcripcion: [], pausado: false, ultimoProducto: null, ultimaCategoria: null, necesitaAtencion: false, motivoAtencion: null, pausarSeguimiento: false, preguntasPorProducto: {}, botonesOfrecidos: {}, esperandoDatosPedidoLibre: null };
@@ -176,6 +220,7 @@ async function marcarSiYaCompro(telefono) {
 function registrarMensaje(telefono, rol, texto) {
         const sesion = obtenerSesion(telefono);
         const registro = { rol, texto, fecha: new Date().toISOString() };
+        if (rol === "cliente") rondasAutomaticas.set(telefono, []);
         if (rol === "bot") registro.estado = "enviado";
         sesion.transcripcion.push(registro);
         if (sesion.transcripcion.length > 200) {
@@ -238,6 +283,7 @@ function destinatario(id) {
 }
 
 async function enviarTexto(telefono, texto) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       // WhatsApp usa *un* asterisco para negrilla; la IA a veces escribe **doble** y el cliente ve los asteriscos (oct-2026)
       texto = String(texto).replace(/\*\*([^*\n]+?)\*\*/g, "*$1*");
       const registro = registrarMensaje(telefono, "bot", texto);
@@ -271,6 +317,7 @@ async function enviarTexto(telefono, texto) {
 // Si cambia el nombre o el idioma de la plantilla en el Administrador de WhatsApp, hay que
 // actualizar esos mismos valores aqui.
 async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProducto) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(
             telefono,
             "bot",
@@ -313,6 +360,7 @@ async function enviarPlantillaReactivacion(telefono, nombreCliente, nombreProduc
 }
 
 async function enviarImagen(telefono, urlImagen, caption) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -328,6 +376,7 @@ async function enviarImagen(telefono, urlImagen, caption) {
 }
 
 async function enviarVideo(telefono, urlVideo, caption) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -365,6 +414,7 @@ async function subirMediaWhatsApp(buffer, mimetype) {
 }
 
 async function enviarImagenPorId(telefono, mediaId, caption) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", `[Imagen] ${caption || ""}`);
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -380,6 +430,7 @@ async function enviarImagenPorId(telefono, mediaId, caption) {
 }
 
 async function enviarVideoPorId(telefono, mediaId, caption) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", `[Video] ${caption || ""}`);
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -412,6 +463,7 @@ async function enviarDocumentoPorId(telefono, mediaId, nombreArchivo, caption) {
 }
 
 async function enviarBotones(telefono, texto, botones) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       // 1-nov-2026 (Wendy, caso lampara Medellin): el boton "¿Te lo envio?" no va si el cliente ya dijo que no
       // compra, ni se repite si ya salio en los ultimos mensajes del bot.
       if (/te lo env[ií]o/i.test(texto)) {
@@ -445,6 +497,7 @@ async function enviarBotones(telefono, texto, botones) {
 }
 
 async function enviarListaCatalogo(telefono) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", "[Envio el catalogo de productos]");
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -1027,7 +1080,7 @@ async function enviarCatalogoSolar(telefono, sesion) {
 // No sale si Wendy lo pauso, si el chat espera atencion, si pidio que no le insistan o si ya esta haciendo el pedido.
 function programarSeguimientoCatalogoSolar(telefono) {
       const enviadoEn = Date.now();
-      setTimeout(async () => {
+      setTimeout(conAuto(async () => {
             try {
                   const sesion = sesiones[telefono];
                   if (!sesion || sesion.seguimientoCatalogoSolar) return;
@@ -1043,7 +1096,7 @@ function programarSeguimientoCatalogoSolar(telefono) {
             } catch (e) {
                   console.error("Seguimiento catalogo solar:", e.message);
             }
-      }, 10 * 60 * 1000);
+      }), 10 * 60 * 1000);
 }
 async function presentarReflectorPuntual(telefono, sesion, p) {
       sesion.ultimaCategoria = "reflector";
@@ -4292,6 +4345,7 @@ function detectarCategoriaTienda(texto) {
 }
 
 async function enviarListaProductosTienda(telefono, encabezado, cuerpo, productos, etiquetaRegistro) {
+      if (!permitirEnvioAutomatico(telefono)) return;
       const registro = registrarMensaje(telefono, "bot", `[Envio lista: ${etiquetaRegistro || encabezado}]`);
       const respuesta = await axios.post(
             GRAPH_URL,
@@ -7933,6 +7987,17 @@ const LINK_CATALOGO = "https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt";
 app.get("/", (req, res) => {
       res.send("Bot de Galviustech corriendo correctamente");
 });
+
+
+// Tareas automaticas: corren con el tope diario de mensajes (ver permitirEnvioAutomatico)
+enviarRecordatoriosPendientes = conAuto(enviarRecordatoriosPendientes);
+enviarPromoDiariaAutomatica = conAuto(enviarPromoDiariaAutomatica);
+tandaReactivacionAutomatica = conAuto(tandaReactivacionAutomatica);
+escasezDiaSiguiente = conAuto(escasezDiaSiguiente);
+reactivacionNueveAm = conAuto(reactivacionNueveAm);
+rescatarPedidosAMedias = conAuto(rescatarPedidosAMedias);
+avisarComprasProgramadas = conAuto(avisarComprasProgramadas);
+recuperarPresentacionesSinVideo = conAuto(recuperarPresentacionesSinVideo);
 
 app.listen(PUERTO, () => {
       console.log(`Servidor escuchando en el puerto ${PUERTO}`);
