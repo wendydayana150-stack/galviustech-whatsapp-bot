@@ -3,8 +3,8 @@
     "telefono": "573224623923",
     "nombre": "Yaneth",
     "primerContacto": "2026-11-13T23:44:01.534Z",
-    "ultimoContacto": "2026-11-13T23:57:16.045Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-13T23:58:23.554Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -133,16 +133,30 @@
         "fecha": "2026-11-13T23:57:15.300Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSQkJFQjc0M0JGRDY1Mjg4OTE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre es Ever Mix  \nCel 3134378330",
+        "fecha": "2026-11-13T23:58:22.479Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-13T23:58:22.483Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSQjAzMjY4OTUwNjhDMTcxNTVGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
       "telefono": "573224623923",
       "departamento": "Caqueta",
-      "ciudad": "Zona Rural En Una Vereda"
+      "ciudad": "Zona Rural En Una Vereda",
+      "celular": "3134378330",
+      "nombreCliente": "Ever Mix"
     },
     "pausado": false,
     "etapaManual": null,
