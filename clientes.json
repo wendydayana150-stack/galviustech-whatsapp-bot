@@ -3,8 +3,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:51:28.985Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-13T01:51:47.335Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -114,10 +114,27 @@
         "fecha": "2026-11-13T01:51:28.296Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSMzJCRjA2MUQ3NEI4OURBOEFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-13T01:51:46.205Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 199.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-13T01:51:46.593Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSOUFFMjlGOTcxNzQ3NkY1MkY0AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 199900,
+      "telefono": "573136584696"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
