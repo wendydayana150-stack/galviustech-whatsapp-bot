@@ -63,8 +63,8 @@
     "telefono": "573107699551",
     "nombre": "Henry Quintero",
     "primerContacto": "2026-11-13T19:22:35.345Z",
-    "ultimoContacto": "2026-11-13T19:22:35.345Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T19:25:16.663Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,6 +110,18 @@
         "fecha": "2026-11-13T19:22:34.695Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3Njk5NTUxFQIAERgSODUwNzJBQTM2RjUyOENGMDdDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Garantia?",
+        "fecha": "2026-11-13T19:25:13.436Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El combo x2 reflectores solares Jortan 500W tiene garantía de 30 días y soporte de GalviusTech para que estés tranquila. Además, cada reflector es resistente al agua con certificación IP67, ideal para exteriores.\n\n¿Dónde necesitas iluminar con estos reflectores?",
+        "fecha": "2026-11-13T19:25:15.836Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3Njk5NTUxFQIAERgSNTY0MzQzQzAwMURCRjVCOUIwAA=="
       }
     ],
     "paso": "conversando",
@@ -130,7 +142,13 @@
       "url": "https://fb.me/5wvrF5Hs9",
       "fecha": "2026-11-13T19:22:33.261Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-13T19:25:13.436Z",
+      "texto": "Garantia?"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135586231",
