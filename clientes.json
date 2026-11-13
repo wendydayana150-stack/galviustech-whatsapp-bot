@@ -83,8 +83,8 @@
     "telefono": "573146610026",
     "nombre": "René González",
     "primerContacto": "2026-11-13T10:54:08.076Z",
-    "ultimoContacto": "2026-11-13T10:54:08.076Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T13:12:58.344Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -131,13 +131,32 @@
         "fecha": "2026-11-13T13:10:31.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSOTVCN0MxRTQzQkJCMEU4REVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y eso es recargable es con sincar y cuanto es el precio",
+        "fecha": "2026-11-13T13:12:50.844Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem es recargable con batería USB-C y dura hasta 14 horas encendido sin cargar.\n\nFunciona con SIM card de cualquier operador (Claro, Movistar, Tigo, WOM) que tú mismo pones.\n\nLos precios con envío son:\n• Modem 4G: $199.900 con envío GRATIS\n• Modem 4G/5G: $199.900 + $26.000 de envío\n• Modem 5G: $199.900 + $26.000 de envío\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo necesitas o en qué zona lo usarías? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-11-13T13:12:57.133Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSRDMwODVBNjVBQjE3OUM2NUUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-13T13:12:57.677Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2NjEwMDI2FQIAERgSNDdFRTkxN0I5M0Q3RUZFRjMxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -153,10 +172,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T13:10:33.124Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
