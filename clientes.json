@@ -407,6 +407,13 @@
         "fecha": "2026-11-13T21:41:38.005Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc1MzU4MDM5MDEwODA4MhUUABEYEkM2RDk5OUIzRjk1RDgxNDVERQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-13T22:43:16.036Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc1MzU4MDM5MDEwODA4MhUUABEYEkQyMkIwODY3QTVCRTlENTE0MgA="
       }
     ],
     "paso": "conversando",
@@ -427,7 +434,12 @@
       "url": "https://fb.me/6Fc6pOt0w",
       "fecha": "2026-11-13T21:41:36.563Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-13T22:43:17.571Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573144399781",
@@ -1075,6 +1087,13 @@
         "fecha": "2026-11-13T21:43:15.911Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTY3NDQzOTk4NDM1MjQzMBUUABEYEkVBMUEyMDk3M0YyMzJFREM5OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-13T22:43:16.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTY3NDQzOTk4NDM1MjQzMBUUABEYEjhGNjcwOUM2MDgxMDUzMDlDQwA="
       }
     ],
     "paso": "conversando",
@@ -1098,8 +1117,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-13T21:43:16.638Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-13T22:43:17.571Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
