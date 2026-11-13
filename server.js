@@ -680,11 +680,10 @@ function guionNetumCorto(netum, yaSaludo) {
 const GUION_NETUM_DATOS =
       "¡Excelente decisión! 😍🎉\n\n" +
       "Vamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n" +
-      "📦 Solo necesitamos tus datos:\n\n" +
-      "👤 Nombre completo\n📱 Celular\n📍 Departamento\n🏙️ Ciudad o municipio\n🏠 Dirección\n📌 Barrio o vereda\n\n" +
       "🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n" +
       "🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\n" +
-      "¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊";
+      // 13-nov-2026 (Wendy): los datos se piden uno por uno, nunca todos en un solo mensaje
+      "Para empezar, ¿cuál es tu nombre completo? 😊";
 const GUION_NETUM_INDECISOS =
       "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n" +
       "¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n" +
@@ -3227,13 +3226,13 @@ async function iniciarPedido(telefono, productoId) {
             // Paso 5 del guion de lamparas y reflectores (Wendy, 4-nov-2026)
             await enviarTexto(
                   telefono,
-                  `😍 ¡Perfecto! Vamos a preparar tu pedido de *${producto.nombre}* (${formatearPrecio(producto.precio)}).\n\nPara realizar el envío necesitamos:\n📌 Nombre completo\n📌 Número de celular\n📌 Departamento\n📌 Ciudad o municipio\n📌 Dirección\n📌 Barrio o vereda\n\n🚚 ${ENVIO_GRATIS_IDS.includes(producto.id) ? "¡Envío gratis y pago contraentrega!" : "¡Pago contraentrega!"}\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊`
+                  `😍 ¡Perfecto! Vamos a preparar tu pedido de *${producto.nombre}* (${formatearPrecio(producto.precio)}).\n\n🚚 ${ENVIO_GRATIS_IDS.includes(producto.id) ? "¡Envío gratis y pago contraentrega!" : "¡Pago contraentrega!"}\n\nPara empezar, ¿cuál es tu nombre completo? 😊`
             );
             return;
       }
       await enviarTexto(
             telefono,
-            `¡Genial! 🙌 Elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?`
+            `¡Genial! 🙌 Elegiste *${producto.nombre}* (${formatearPrecio(producto.precio)}) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊`
             );
 }
 
