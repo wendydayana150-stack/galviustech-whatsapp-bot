@@ -3,8 +3,8 @@
     "telefono": "573224623923",
     "nombre": "Yaneth",
     "primerContacto": "2026-11-13T23:44:01.534Z",
-    "ultimoContacto": "2026-11-13T23:44:01.534Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T23:46:08.766Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-13T23:44:00.845Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSMzYzQjlBMEZCMzhBN0U1MTRCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Osea toca meter la simcard en ese aparato",
+        "fecha": "2026-11-13T23:46:05.731Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem necesita que metas una SIM de cualquier operador (Claro, Movistar, Tigo, WOM) para poder funcionar y darte internet por WiFi.\n\n¿Y para qué lo vas a usar principalmente? ¿Estudio, trabajo, en casa, finca o para viajar? Me cuentas para recomendarte el modelo ideal.",
+        "fecha": "2026-11-13T23:46:08.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSQ0IwMTU5N0Y1RkJCMkVCMEFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-13T23:43:59.603Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135618689",
