@@ -3,8 +3,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:52:25.849Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-13T01:52:44.396Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,16 +138,30 @@
         "fecha": "2026-11-13T01:52:25.014Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSMEM2NEUzQUUzRUIyRTI4RThBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pueblo bello cesar \nOficina de interrrapidisimo",
+        "fecha": "2026-11-13T01:52:43.824Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu departamento y tu ciudad.\n\nAhora, ¿cual es tu direccion completa?",
+        "fecha": "2026-11-13T01:52:43.827Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSQzgzRTg5RkNGNjdBMzQ4OTk1AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
       "telefono": "573136584696",
       "celular": "3136562896",
-      "nombreCliente": "Jhonatan David izquierdo"
+      "nombreCliente": "Jhonatan David izquierdo",
+      "departamento": "Cesar",
+      "ciudad": "Pueblo Bello"
     },
     "pausado": false,
     "etapaManual": null,
