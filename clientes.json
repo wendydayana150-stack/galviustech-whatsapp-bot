@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:23:23.773Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-13T21:23:59.000Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -274,6 +274,25 @@
         "fecha": "2026-11-13T21:23:22.689Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSQzdGNDlFQzA1MkFBMjdCRTVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La verdad nose hay si",
+        "fecha": "2026-11-13T21:23:56.732Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No hay problema, cuando te llegue puedo ayudarte con la configuración para que quede andando fácil y rápido, sin complicaciones.\n\nMientras tanto,",
+        "fecha": "2026-11-13T21:23:57.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNDI3QzM0RTg5REZEMzMwQTMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu direccion completa?",
+        "fecha": "2026-11-13T21:23:58.351Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSQzdEQzhBODQxOTEzRkYzMERCAA=="
       }
     ],
     "paso": "pedido_direccion",
