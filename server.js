@@ -3894,6 +3894,12 @@ async function manejarFlujoPedido(telefono, texto) {
       const sesion = obtenerSesion(telefono);
       const definicionActual = DEFINICIONES_CAMPOS_PEDIDO.find((d) => d.paso === sesion.paso);
       if (!definicionActual) return false;
+      // 12-nov-2026 (caso Adela Sofia: "Mi nombre es Adela Sofía Pushaina Aguilar" se tomo como comentario por el "mi" y
+      // el "es", y Michell le volvio a pedir el nombre): se quita "mi nombre es", "me llamo", "soy" antes de validar.
+      if (definicionActual.tipo === "nombre") {
+            const sinPrefijo = String(texto).replace(/^\s*((hola|buenas|buenos d[ií]as|buenas (tardes|noches))[,!.\s]+)?(mi nombre (completo )?(es|:)|me llamo|mi nombre|soy|nombre( completo)?\s*:)\s*/i, "");
+            if (sinPrefijo !== texto && sinPrefijo.trim().split(/\s+/).length >= 2) texto = sinPrefijo.trim();
+      }
 
       // 5-nov-2026 (caso Eduardo): en medio del pedido escribio "Todavía no voy hacer el pedido sin afanes" y Michell lo
       // guardo como su direccion; despues el pedido se registro solo y el cliente pidio que NO se lo mandaran.
