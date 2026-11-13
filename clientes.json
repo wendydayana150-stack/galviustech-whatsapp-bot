@@ -63,8 +63,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:19:20.033Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-13T01:21:17.698Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -136,13 +136,32 @@
         "texto": "[Envio fotos: Modem 4G, Modem 5G]",
         "fecha": "2026-11-13T01:19:19.717Z",
         "estado": "enviado"
+      },
+      {
+        "rol": "cliente",
+        "texto": "El 4G",
+        "fecha": "2026-11-13T01:21:14.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Excelente elección, el *Módem WiFi Portátil 4G* es perfecto para rancherías y zonas rurales sin fibra óptica porque capta señal más fuerte que un celular normal, y conectas hasta 10 dispositivos a la vez. \n\nLa inversión es de *$199.900 con envío GRATIS*, y pagas al recibir con garantía de 30 días. Es fácil de usar: solo pones la SIM de tu operador, lo enciendes y listo, batería dura hasta 14 horas. \n\n¿Lo necesitas para trabajar, estudiar, para tu negocio o uso en casa? Así te doy recomendaciones para que le saques el máximo provecho.",
+        "fecha": "2026-11-13T01:21:16.560Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRDA5RkExOUM0MjlFMUY1OTYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-13T01:21:17.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSQTBFQjlFRTZFMkEzQzYyMjExAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
