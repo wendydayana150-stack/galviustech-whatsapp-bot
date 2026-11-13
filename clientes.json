@@ -3,8 +3,8 @@
     "telefono": "573212550791",
     "nombre": "Alejo fonta 👨🏻‍🏭💦🛠️🚰👨🏻‍🔧",
     "primerContacto": "2026-11-13T21:43:31.467Z",
-    "ultimoContacto": "2026-11-13T21:43:31.467Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T21:43:51.073Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-13T21:43:30.790Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyNTUwNzkxFQIAERgSNzY4MkVBN0IzMzMzMkFGRTM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es necesario colocar sin card",
+        "fecha": "2026-11-13T21:43:48.129Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem requiere que le pongas una SIM card de cualquier operador en Colombia (Claro, Movistar, Tigo, WOM). Así puede captar la señal y hacer que tengas WiFi para conectar tus dispositivos. \n\n¿Dónde lo piensas usar? Así te recomiento la versión que mejor te sirve según la cobertura.",
+        "fecha": "2026-11-13T21:43:50.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyNTUwNzkxFQIAERgSMEZFMDJBNzc0OTc3MUQ1OENDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-13T21:43:29.724Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1753580390108082",
