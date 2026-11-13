@@ -3,8 +3,8 @@
     "telefono": "573178377440",
     "nombre": "Samuel Pushaina",
     "primerContacto": "2026-11-13T13:54:01.041Z",
-    "ultimoContacto": "2026-11-13T13:54:01.041Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T13:55:01.544Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,38 @@
         "fecha": "2026-11-13T13:54:00.317Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSMzgxMDFBMTEyOEVGREVEQzZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo quiero una de esas modem",
+        "fecha": "2026-11-13T13:54:59.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Bienvenida de modems: pregunta municipio y uso]",
+        "fecha": "2026-11-13T13:54:59.383Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem Portatiles",
+        "fecha": "2026-11-13T13:54:59.383Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSNjczRUUyODgzQThGNjA5NTI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo funciona el módem WiFi portátil 📶🎥",
+        "fecha": "2026-11-13T13:55:00.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSMTJDQjQyMTAyMjk2QUZFOTdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Gracias por interesarte en los módems Wi-Fi portátiles 4G/5G de GALVIUSTECH.\n\n🔥 *30% de descuento* en todos los módems:\n• *Modem 4G*: $ 199.900 con *envío GRATIS* 🚚\n• *Modem 4G/5G*: $ 199.900 + $26.000 de envío\n• *Modem 5G*: $ 199.900 + $26.000 de envío\n\n✅ *Pagas al recibir* (contra entrega) y tienen *garantía de 30 días*. Funcionan con la SIM de tu operador.\n\n📍 ¿En qué municipio o vereda lo vas a usar? Así te digo cuál te funciona mejor.",
+        "fecha": "2026-11-13T13:55:00.659Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc4Mzc3NDQwFQIAERgSNEM4MkZGREZGMjgwN0YzM0JGAA=="
       }
     ],
     "paso": "conversando",
@@ -31,7 +63,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -39,7 +71,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573208298212",
