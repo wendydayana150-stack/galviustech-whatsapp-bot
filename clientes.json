@@ -3,8 +3,8 @@
     "telefono": "573122130763",
     "nombre": "Juan.g.🍀🤠",
     "primerContacto": "2026-11-13T18:50:59.113Z",
-    "ultimoContacto": "2026-11-13T18:50:59.113Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T18:54:15.925Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17,6 +17,18 @@
         "fecha": "2026-11-13T18:50:58.169Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSOUY0QkY3QzZDQjQ3RDBCN0I3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La SIM es claro acá no hay señal de claro la necesita datos la cambiar de sim con datos cuando quiera",
+        "fecha": "2026-11-13T18:54:13.534Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, me dices que estás en una zona sin señal de Claro. El módem funciona con SIM de cualquier operador, pero requiere que haya señal donde lo uses.\n\nTen en cuenta que la antena del módem capta más fuerte que un celular, pero si en tu lugar no hay señal ni con el celular ni con Claro, entonces el módem no te va a servir. Puedes probar con SIM de otro operador que tenga señal en tu zona.\n\n¿En qué municipio o vereda estás para ayudarte a confirmar cuál operador tiene mejor señal allá?",
+        "fecha": "2026-11-13T18:54:15.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTMwNzYzFQIAERgSNzNEM0M5MkQ5MzNENjIyREZDAA=="
       }
     ],
     "paso": "conversando",
@@ -32,7 +44,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573184029915",
