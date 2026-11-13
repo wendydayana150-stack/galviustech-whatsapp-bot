@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:14:28.111Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T21:18:39.855Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -152,6 +152,18 @@
         "fecha": "2026-11-13T21:14:27.469Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSMUI4RDExNEM5QUUxQzYzNDUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio",
+        "fecha": "2026-11-13T21:18:36.619Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿y para qué lo necesitas más, para estudiar, trabajar, tu negocio o el hogar?\n\nAsí te recomiendo el modelo ideal para que tengas internet estable y accesorios que te ayuden en tu caso. ¿Me cuentas?",
+        "fecha": "2026-11-13T21:18:39.052Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSQzlERDAzNUJGRTA5M0U2REQxAA=="
       }
     ],
     "paso": "conversando",
@@ -172,7 +184,10 @@
       "url": "https://fb.me/8yrlB5MiC",
       "fecha": "2026-11-13T21:14:26.626Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573152912686",
