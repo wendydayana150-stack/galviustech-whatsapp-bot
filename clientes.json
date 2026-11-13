@@ -3,8 +3,8 @@
     "telefono": "573224623923",
     "nombre": "Yaneth",
     "primerContacto": "2026-11-13T23:44:01.534Z",
-    "ultimoContacto": "2026-11-13T23:54:17.121Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-13T23:57:16.045Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -121,10 +121,29 @@
         "fecha": "2026-11-13T23:54:16.372Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSNURGMjZCQ0JDODhFQzA5RkFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Siiii",
+        "fecha": "2026-11-13T23:57:14.906Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-13T23:57:15.300Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSQkJFQjc0M0JGRDY1Mjg4OTE3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 199900,
+      "telefono": "573224623923",
+      "departamento": "Caqueta",
+      "ciudad": "Zona Rural En Una Vereda"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
