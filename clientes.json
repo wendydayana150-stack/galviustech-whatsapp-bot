@@ -275,8 +275,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:41:09.775Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-13T01:41:54.672Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -525,9 +525,28 @@
         "fecha": "2026-11-13T01:41:08.983Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMUVCMzM2RDY3REMwMzEwMkFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno está bien",
+        "fecha": "2026-11-13T01:41:51.911Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, Adela Sofía! Te dejo el pedido preparado para el Módem WiFi Portátil 4G, así recibes internet donde más lo necesitas, sin complicaciones. \n\nCuando el sistema te pida los demás datos, los completas y listo, el envío sale rápido. \n\n¿Quieres que te apoye con algo más o con otro producto para aprovechar la oferta?",
+        "fecha": "2026-11-13T01:41:53.385Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRjc1NzhEN0NFRkVBNDEwNDg3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:41:54.085Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRjRCMThFMjc0OTA4REFFMjJFAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
