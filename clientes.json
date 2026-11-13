@@ -2352,8 +2352,8 @@
     "telefono": "573136584696",
     "nombre": "Jhonatan David",
     "primerContacto": "2026-11-13T01:43:27.165Z",
-    "ultimoContacto": "2026-11-13T01:55:30.877Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-13T15:14:25.644Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2556,14 +2556,21 @@
         "fecha": "2026-11-13T01:55:30.109Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSNEU4NzcwRUFBQ0FFREQ0M0Y2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Hola buen dia, envio GUIA pedido listo para reclamar el dia miércoles en la OFICINA de INTERRAPIDISIMO",
+        "fecha": "2026-11-13T15:14:24.358Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM2NTg0Njk2FQIAERgSREVFQjcxQUJDN0FEQ0NGQkE2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
-    "ultimaCategoria": null,
+    "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
