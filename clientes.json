@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:20:35.955Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-13T21:21:44.446Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,14 +207,27 @@
         "fecha": "2026-11-13T21:20:35.331Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSOTQ5MUVCRkY4NjlDRDkzNzY5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Wilfran morroco caizamo",
+        "fecha": "2026-11-13T21:21:43.637Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-13T21:21:43.640Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSRThGRUNEMDM4QUI2NzQyNjFBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
-      "telefono": "573045232179"
+      "telefono": "573045232179",
+      "nombreCliente": "Wilfran morroco caizamo"
     },
     "pausado": false,
     "etapaManual": null,
