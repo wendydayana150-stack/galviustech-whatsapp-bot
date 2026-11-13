@@ -427,8 +427,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:51:33.661Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-11-13T01:52:11.490Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -846,6 +846,25 @@
         "fecha": "2026-11-13T01:51:32.569Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMEExM0Y3NjUxRUQ2MDMxQ0Y5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tengo que pagarlo antes?",
+        "fecha": "2026-11-13T01:52:09.260Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, Adela Sofía, no necesitas pagar antes. ✅ Pagas al recibir el módem, así puedes abrirlo, revisarlo y asegurarte de que todo esté bien antes de dar el pago.\n\nAdemás, tienes garantía de 30 días con GalviusTech por si necesitas soporte o cualquier ayuda.",
+        "fecha": "2026-11-13T01:52:10.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMzA3QTM0RjA2NkU5RjczNzlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-13T01:52:10.825Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMzk2QUQyQkQ2MkIyRTdBMzE4AA=="
       }
     ],
     "paso": "pedido_pago",
