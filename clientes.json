@@ -123,8 +123,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:25:32.953Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-13T01:26:47.097Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -270,10 +270,35 @@
         "fecha": "2026-11-13T01:25:32.434Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNzRCMzAyRjIzMzlCNzVGMDFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si quiero pero \nCómo puedo comunicarme no tengo teléfono",
+        "fecha": "2026-11-13T01:26:44.058Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, nada complicado: aquí mismo por este chat podemos ir guiándote paso a paso y cuando confirmes el pedido el sistema te pedirá el nombre y dirección; si no tienes celular para recibir llamadas, igual avancemos para que no pierdas la promo. \n\nAdemás, GalviusTech te da garantía y soporte por este medio, así que cualquier duda que tengas la resuelves conmigo cuando quieras. \n\n¿Quieres que te deje el pedido listo ahora mismo y empezamos?",
+        "fecha": "2026-11-13T01:26:45.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNEIzMUUyNTRCNjIzNTI0QkFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:26:46.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMzcwM0NBRjg2Qjc5MjEwNzVEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 199900,
+      "telefono": "573181675955",
+      "departamento": "La Guajira"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
