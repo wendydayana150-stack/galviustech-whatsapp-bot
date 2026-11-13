@@ -126,8 +126,8 @@
     "telefono": "573184029915",
     "nombre": "cucci",
     "primerContacto": "2026-11-13T18:39:04.767Z",
-    "ultimoContacto": "2026-11-13T19:02:24.408Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-13T19:02:54.412Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -186,6 +186,25 @@
         "fecha": "2026-11-13T19:02:23.585Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSQTQzQTc2NDNDOTA4RTIxMjgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta esa impresora imprime sobre papel fotográfico adhesivo?",
+        "fecha": "2026-11-13T19:02:51.023Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No, la impresora térmica no imprime sobre papel fotográfico ni a color. Solo imprime en blanco y negro sobre papel térmico (adhesivo o no, según el papel que uses), tipo recibos o etiquetas, pero sin calidad de foto.\n\nPara fotos a color todavía no tenemos impresora. ¿Quieres que te avise cuando llegue alguna?\n\n¿Qué tipo de etiquetas o trabajos quieres imprimir? Así te ayudo mejor.",
+        "fecha": "2026-11-13T19:02:53.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSRTVGQjE1OTMyRDA2QjQyNzQxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-13T19:02:53.722Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg0MDI5OTE1FQIAERgSOEIzQkNDNkE5MjYzMzEwQUY3AA=="
       }
     ],
     "paso": "conversando",
