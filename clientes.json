@@ -3,8 +3,8 @@
     "telefono": "573028491704",
     "nombre": "👽",
     "primerContacto": "2026-11-13T15:08:51.856Z",
-    "ultimoContacto": "2026-11-13T15:08:51.856Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T15:09:57.698Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-13T15:08:51.059Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI4NDkxNzA0FQIAERgSN0Q5QTA4NTZBNjM0OTI5RTQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con q operador funciona",
+        "fecha": "2026-11-13T15:09:53.876Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los módems son compatibles con todas las SIM card de los operadores en Colombia: Claro, Movistar, Tigo, WOM, ETB. \n\nSolo necesitas usar la SIM de tu empresa preferida que tenga señal en tu zona, y el módem te dará mejor cobertura que un celular común. \n\n¿En qué municipio o vereda planeas usarlo y para qué lo necesitarías (trabajo, estudio, hogar, viaje)? Así te recomiendo la versión que más te conviene.",
+        "fecha": "2026-11-13T15:09:56.947Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI4NDkxNzA0FQIAERgSNDZBODA3NzFFMURGRkYxQ0ZDAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8yrlB5MiC",
       "fecha": "2026-11-13T15:08:49.997Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573006918462",
