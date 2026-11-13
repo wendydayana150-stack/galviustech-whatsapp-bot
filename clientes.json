@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:46:54.728Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-11-13T01:47:19.382Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -700,15 +700,26 @@
         "fecha": "2026-11-13T01:46:54.052Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNTMwQ0I3NUQxNkQ4ODQ3RjAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-13T01:47:17.420Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 199.900) y pagas al recibir 🚚\n\nPara enviártelo necesito:\n👤 Nombre completo\n📱 Celular\n📍 Departamento y ciudad\n🏠 Dirección\n\nPuedes mandármelos todos juntos o uno por uno. Empecemos: ¿cuál es tu nombre completo?",
+        "fecha": "2026-11-13T01:47:18.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSRkNGQjc1OTBDQjM5Q0MyNjBFAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
-      "telefono": "573181675955",
-      "departamento": "La Guajira"
+      "telefono": "573181675955"
     },
     "pausado": false,
     "etapaManual": null,
