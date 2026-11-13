@@ -795,7 +795,7 @@ function aplicarRegaloSiSeOfrecio(sesion, pedido) {
       if (!ofrecido || !pedido || pedido.regalo) return;
       if (pedido.productoId === "impresora-termica") {
             pedido.regalo = "Rollo de papel tamaño carta EXTRA gratis (por confirmar hoy)";
-      } else if (config.costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento) > 0) {
+      } else if (config.costoEnvio(pedido.productoId, pedido.ciudad, pedido.departamento) > 0 && !config.ES_TIBU_GABARRA.test(`${pedido.ciudad || ""} ${pedido.departamento || ""}`)) {
             pedido.envioGratisRegalo = true;
             pedido.regalo = "Envío GRATIS (por confirmar hoy)";
       }
