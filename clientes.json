@@ -63,8 +63,8 @@
     "telefono": "573122149149",
     "nombre": "3122149149rodrigo",
     "primerContacto": "2026-11-13T01:58:00.705Z",
-    "ultimoContacto": "2026-11-13T01:58:00.705Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T02:08:00.864Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,6 +110,13 @@
         "fecha": "2026-11-13T01:58:00.079Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyMTQ5MTQ5FQIAERgSNTk5QzdGRDE4NDg2QzIxRDY0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te gustó alguna de las opciones del catálogo? 😊 Cuéntame cuál te llamó la atención y te ayudo con tu pedido. Pagas cuando lo recibes en tu casa 🚚",
+        "fecha": "2026-11-13T02:08:00.084Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyMTQ5MTQ5FQIAERgSMTkyOUNCN0VEQzIxMjkzMzFDAA=="
       }
     ],
     "paso": "conversando",
@@ -130,7 +137,10 @@
       "url": "https://fb.me/7E88m8JPi",
       "fecha": "2026-11-13T01:57:58.512Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573136584696",
