@@ -118,8 +118,8 @@
     "telefono": "573045232179",
     "nombre": "Wilnersitho",
     "primerContacto": "2026-11-13T21:14:28.111Z",
-    "ultimoContacto": "2026-11-13T21:22:17.539Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-13T21:22:26.609Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,6 +231,25 @@
         "fecha": "2026-11-13T21:22:16.760Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSREQ2MjdFMDE4NEZBREZGMjYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hay está ejefe",
+        "fecha": "2026-11-13T21:22:24.446Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo entonces, ya dejé tu pedido para que nos pasen tus datos y coordinar el envío.",
+        "fecha": "2026-11-13T21:22:25.460Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSMzNGMjA0NTE1OUFCNUM3MDRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en que departamento vives?",
+        "fecha": "2026-11-13T21:22:25.963Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1MjMyMTc5FQIAERgSNUQwRjcyQUU0ODM0NUFBRTY3AA=="
       }
     ],
     "paso": "pedido_departamento",
