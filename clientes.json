@@ -3,8 +3,8 @@
     "telefono": "573205210409",
     "nombre": "Esperanza",
     "primerContacto": "2026-11-13T19:46:21.749Z",
-    "ultimoContacto": "2026-11-13T19:46:21.749Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-13T19:47:10.479Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-13T19:46:20.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MjEwNDA5FQIAERgSQzREODExMDVGMzhFRTRCNjYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esa impresora solo imprime a blanco y negro,y si se necesita imprimir a color entonces?",
+        "fecha": "2026-11-13T19:47:09.581Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-13T19:47:09.584Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MjEwNDA5FQIAERgSM0JCNTIzMjRDRURGMTBDMDQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -50,14 +62,20 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-13T19:47:09.584Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "Importech Colombia",
       "texto": "🚨 ¡DEJA DE GASTAR EN TINTA Y HAZ TU DÍA MÁS PRÁCTICO! 🖨️🔥\n\n¿Eres emprendedor, estudiante, tienes un negocio o necesitas imprimir constantemente?\n\n¡ESTO ES JUSTO LO QUE ESTABAS BUSCANDO! 😍\n\n💥 **¡CONOCE LA IMPRESORA TÉRMICA PORTÁTIL NETUM!**\n\nImagina tener una impresora compacta que puedes llevar contigo y utilizar sin preocuparte por comprar tinta ni cartuchos.\n\n✨ ¿POR QUÉ NECESITAS UNA?\n\n✅ IMPRESIÓN SIN TINTA NI CARTUCHOS.\n✅ Conexión Bluetooth con dispositivos compatibles.\n✅ Diseño portátil",
       "url": "https://fb.me/m8ricFujJ",
       "fecha": "2026-11-13T19:46:19.460Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573239109622",
