@@ -317,8 +317,8 @@
     "telefono": "573181675955",
     "nombre": "Adela Sofi@",
     "primerContacto": "2026-11-13T01:08:40.844Z",
-    "ultimoContacto": "2026-11-13T01:44:37.932Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-13T01:45:08.569Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -631,9 +631,21 @@
         "fecha": "2026-11-13T01:44:37.266Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSMDFGNjYzOUQ4MTJEMzY4MDdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-13T01:45:07.454Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-13T01:45:07.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgxNjc1OTU1FQIAERgSNjBGNzhERDJDREM2RTAwQTdFAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
