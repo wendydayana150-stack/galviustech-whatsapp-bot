@@ -3,8 +3,8 @@
     "telefono": "573044493830",
     "nombre": "VIOLETA SANCHEZ🥰",
     "primerContacto": "2026-11-13T02:21:25.754Z",
-    "ultimoContacto": "2026-11-13T02:28:52.992Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-13T02:29:20.660Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,10 +80,34 @@
         "fecha": "2026-11-13T02:28:52.142Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0NDkzODMwFQIAERgSNEFEMUMxMzVFQ0Y5MTRDRDBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-13T02:29:18.211Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te ayudo a dejar tu pedido listo con la Impresora Térmica Portátil NETUM, que es perfecta para imprimir documentos y apuntes sin depender de tinta ni cartuchos, y la llevas a donde la necesites.\n\n¿A qué ciudad te la enviamos?",
+        "fecha": "2026-11-13T02:29:19.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NDkzODMwFQIAERgSQjM5QzQ1REE1RTRFMjBEQTM0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n📦 Solo necesitamos tus datos:\n\n👤 Nombre completo\n📱 Celular\n📍 Departamento\n🏙️ Ciudad o municipio\n🏠 Dirección\n📌 Barrio o vereda\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\n¿Me compartes tus datos para registrar tu pedido? Puedes mandarlos todos juntos o uno por uno 😊",
+        "fecha": "2026-11-13T02:29:20.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NDkzODMwFQIAERgSOEE4NUQ0NjZBNEIwNDE5N0Y4AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573044493830"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
