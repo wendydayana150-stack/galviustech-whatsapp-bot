@@ -1203,8 +1203,8 @@
     "telefono": "573234197121",
     "nombre": "Marco😜💥",
     "primerContacto": "2026-11-12T22:53:40.931Z",
-    "ultimoContacto": "2026-11-12T23:12:34.852Z",
-    "mensajes": 29,
+    "ultimoContacto": "2026-11-13T01:23:28.132Z",
+    "mensajes": 30,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1658,11 +1658,18 @@
         "fecha": "2026-11-12T23:12:34.069Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSNTFEOEZGNjdGNjM3Q0Q5QkREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Pedido llega el dia sabado para ser reclamado.",
+        "fecha": "2026-11-13T01:23:27.368Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MTk3MTIxFQIAERgSQTM2RDdFNTVDNThDQjk5MTUzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
     "ultimaCategoria": "reflector",
