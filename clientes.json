@@ -3,8 +3,8 @@
     "telefono": "573223944303",
     "nombre": "Mgl",
     "primerContacto": "2026-11-13T16:12:38.683Z",
-    "ultimoContacto": "2026-11-13T16:16:50.171Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-13T16:19:52.297Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,32 @@
         "fecha": "2026-11-13T16:16:49.499Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNzNDRThCRThDQkVFMTJGNUIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me podrias dar el precion",
+        "fecha": "2026-11-13T16:19:47.311Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, aquí tienes precios y beneficios para los módems portátiles:\n\n- *Modem WiFi Portátil 4G*: conexión estable en zonas sin fibra, conecta hasta 10 dispositivos, con batería para 14 horas. La inversión es de $199.900 con *envío GRATIS*.\n\n- *Modem WiFi Portátil 4G/5G*: tecnología dual 4G y 5G para mayor compatibilidad y velocidad, ideal para trabajar, estudiar y viajar. La inversión es de $199.900 + $26.000 de envío.\n\n- *Modem WiFi Portátil 5G*: la mejor velocidad 5G para quienes tienen cobertura, fácil de usar y transportar. La inversión es de $199.900 + $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o vereda necesitas conectar? Así te ayudo a elegir el mejor para ti.",
+        "fecha": "2026-11-13T16:19:50.852Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSMDcwNzk0NEQ5NDAzNTMwNzBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-13T16:19:51.387Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTQ0MzAzFQIAERgSNTNDMTFDQzM2M0JFRkI5MkI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
