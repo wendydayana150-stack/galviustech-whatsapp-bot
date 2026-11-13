@@ -657,7 +657,7 @@ const USO_IMPRESORAS_ECONOMICAS = {
       "impresora-termica-portatil-de-etiquetas-clabel-221b": "etiquetas adhesivas con precio, código de barras y vencimiento",
 };
 const OBJECION_PAPEL = /((usa|utiliza|lleva|sirve|funciona|imprime)\s+(con\s+|en\s+)?(cualquier\s+)?(hojas?|papel)|(hojas?|papel)\s+(normal|com[uú]n|corriente|carta|especial)|papel (normal|com[uú]n|bond|de resma)|resma|hojas? (normal|com[uú]n|bond|de cuaderno)|qu[eé] (papel|hojas)|(d[oó]nde|donde) (lo |la |las |los )?(consigo|compro|venden|consigue|encuentro)|(papel|hojas|rollos?)\b.*\b(cu[aá]nto|precio|valor|vale|cuesta|consigo|compro|venden)|(cu[aá]nto|precio|valor|vale|cuesta)\b.*\b(papel|hojas|rollos?)\b)/i;
-const OBJECION_PRECIO = /(\bcar[oa]\b|costos[oa]|m[aá]s (econ[oó]mic|barat)|algo (econ[oó]mic|barat)|otra (m[aá]s )?(econ[oó]mic|barat)|no (tengo|tengo ahorita|tengo ahora) (la |el |ese |esa |tanto |tanta )?(plata|dinero|presupuesto|con qu[eé])|no me alcanza|no me queda (plata|dinero)|no hay plata|sin plata|cuando tenga (la )?plata|presupuesto|muy elevad)/i;
+const OBJECION_PRECIO = /(\bcar[oa]\b|costos[oa]|m[aá]s (econ[oó]mic|barat)|algo (econ[oó]mic|barat)|otra (m[aá]s )?(econ[oó]mic|barat)|(una|un|alguna|algun[oa]?)\s+(m[aá]s\s+)?(econ[oó]mic|barat)|necesito (algo |una |un )?(econ[oó]mic|barat)|no (tengo|tengo ahorita|tengo ahora) (la |el |ese |esa |tanto |tanta )?(plata|dinero|presupuesto|con qu[eé])|no me alcanza|no me queda (plata|dinero)|no hay plata|sin plata|cuando tenga (la )?plata|presupuesto|muy elevad)/i;
 const OBJECION_COLOR = /(imprim\w*\s+(a |en )?colou?r(?!\s*(negro|blanco))|\ba colou?r(es)?\b|\ben colou?r\b(?!\s*(negro|blanco|rosad|azul|gris|rojo|verde|plateado|dorado))|\ba colores\b|full colou?r|fotos? (a|en) colou?r|blanco y negro (o|y) (a )?colou?r|solo (imprime )?(en )?blanco y negro)/i;
 const PREGUNTA_AVISO_COLOR = /avise cuando llegue la impresora a color/i;
 
@@ -1336,6 +1336,8 @@ await enviarTexto(telefono, instrucciones);
 
 function detectarPreguntaFotos(texto) {
       const t = texto.toLowerCase();
+      // 12-nov-2026 (caso "Sirve para imprimir fotos al gusto"): preguntar si IMPRIME fotos no es pedir fotos del producto
+      if (/imprim\w*\s+(\w+\s+){0,2}fot|fot\w*\s+(\w+\s+){0,2}(imprim|impres)|(sirve|puedo|se puede|sacar)\s+(\w+\s+){0,3}fotos?\b/.test(t) && !/(m[aá]nd|env[ií]|p[aá]s|mu[eé]str)\w*/.test(t)) return false;
       // 31-oct-2026 (caso Benjamin): "Fotocopiadora" contiene "foto" y Michell le mando fotos del modem. Solo cuenta la
       // palabra foto/fotos/fotico, no fotocopia/fotocopiadora.
       return (
@@ -1465,6 +1467,16 @@ async function enviarFotosProducto(telefono, texto) {
                   if (marcado && lista.some((p) => p.id === marcado)) lista = lista.filter((p) => p.id === marcado);
                   if (!lista.length && marcado && catalogo.some((p) => p.id === marcado)) lista = [catalogo.find((p) => p.id === marcado)];
                   if (lista.length) { delUltimoMensaje = lista; break; }
+            }
+            // 12-nov-2026 (caso "Imágenes de estas?" despues de la lista de otras impresoras): si el cliente habla en
+            // plural (estas, esas, las otras, las opciones) se usan los productos del mensaje que nombro varios, aunque
+            // el ultimo mensaje de Michell hablara solo de uno (ahi le llegaban 4 fotos de la NETUM).
+            if (delUltimoMensaje.length < 2 && /\b(estas|estos|esas|esos|las otras|los otros|otras|otros|opciones|todas|todos|cada una)\b/i.test(texto)) {
+                  for (const m of mensajesDeMichell(sesion, 4)) {
+                        let lista = productosMencionados(m.texto);
+                        if (categoriaMencionada) lista = lista.filter((p) => (p.categoria || "").trim().toLowerCase() === categoriaMencionada || p.id.includes(categoriaMencionada));
+                        if (lista.length >= 2) { delUltimoMensaje = lista; break; }
+                  }
             }
       }
 
@@ -3275,7 +3287,7 @@ const DEFINICIONES_CAMPOS_PEDIDO = [
             paso: "pedido_direccion",
             tipo: "direccion",
             pregunta: "Cual es tu direccion completa?",
-            mensajeError: "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)?",
+            mensajeError: "Esa direccion me quedo muy incompleta. Me la puedes escribir completa (calle, numero, etc)? Si no la sabes, no te preocupes: escríbeme *oficina* y lo recoges en la oficina de Interrapidísimo de tu municipio 😊",
       },
       {
             campo: "barrio",
@@ -3486,6 +3498,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
                   if (limpio.length > 60 || limpio.split(/\s+/).length > 8) return false;
                   // 12-nov-2026 (caso Leidy: "Sii me entendio" quedo como su ciudad): una confirmacion no es una ciudad
                   if (/\b(entend\w*|entiende\w*|s[ií]+|ok|okey|listo|claro|dale|perfecto|aja|correcto|exacto|ya te (dije|lo dije|escrib\w*))\b/i.test(limpio)) return false;
+                  // 12-nov-2026 (caso Marco: "Es municipio" quedo como su ciudad): la palabra "municipio" o "vereda" sola no es un lugar
+                  if (/^(es |en |un |una |mi |el |la )*(un |una |el |la )?(municipio|vereda|pueblo|corregimiento|ciudad|caser[ií]o|inspecci[oó]n|zona rural|campo)\s*[.!]*$/i.test(limpio)) return false;
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "departamento":
                   // Caso Javier: "Javier" quedo como departamento. Solo vale un departamento de Colombia o un municipio
@@ -3494,6 +3508,8 @@ function pareceRespuestaValidaPedido(texto, tipo) {
             case "barrio":
                   return limpio.length >= 3 && (!soloLetrasYEspacios || tieneVocal);
             case "direccion":
+                  // 12-nov-2026 (caso Marco: "Eso no sabe" quedo como su direccion): no saber la direccion no es una direccion
+                  if (/\bno\s+(s[eé]|sabe|s[aá]bes|me acuerdo|recuerdo|tengo|hay|tiene)\b|\bni idea\b|\bnose\b/i.test(limpio) && !/\d/.test(limpio)) return false;
                   return limpio.length >= 5;
             case "cedula": {
                   const digitos = limpio.replace(/\D/g, "");
