@@ -45,8 +45,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:01:43.744Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-14T13:01:56.798Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -184,9 +184,21 @@
         "fecha": "2026-11-14T13:01:42.751Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkI3QjQ4NDI4MDM4RDJCN0MzMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Maicao",
+        "fecha": "2026-11-14T13:01:55.879Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-14T13:01:55.881Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjk1RkNFODQ0NTU2MzY1RTA4NgA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -194,7 +206,8 @@
       "telefono": "CO.1796096471656579",
       "nombreCliente": "Ver otros",
       "departamento": "La Guajira",
-      "celular": "3137277166"
+      "celular": "3137277166",
+      "ciudad": "Maicao"
     },
     "pausado": false,
     "etapaManual": null,
