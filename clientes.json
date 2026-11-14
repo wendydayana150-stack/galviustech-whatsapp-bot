@@ -644,8 +644,8 @@
     "telefono": "573135618689",
     "nombre": "Yilser Hurtado 😍🥰",
     "primerContacto": "2026-11-13T22:52:11.584Z",
-    "ultimoContacto": "2026-11-14T01:11:25.682Z",
-    "mensajes": 44,
+    "ultimoContacto": "2026-11-14T01:11:49.964Z",
+    "mensajes": 45,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1480,6 +1480,25 @@
         "fecha": "2026-11-14T01:11:24.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSQkIzRTBBM0I3RDFDNzNCRkRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-14T01:11:47.504Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Como ya te pregunté antes, necesito que me des tu nombre completo y ciudad para dejar tu pedido listo y enviártelo lo antes posible.",
+        "fecha": "2026-11-14T01:11:48.649Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSNTkxM0MxNEYzN0ZCQ0ZDQjgxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T01:11:49.131Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSQ0JCRDM2MjMyNjJENkU1REM5AA=="
       }
     ],
     "paso": "pedido_nombre",
