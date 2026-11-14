@@ -4645,8 +4645,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-13T18:44:29.465Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-14T02:24:02.524Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4736,6 +4736,18 @@
         "fecha": "2026-11-13T20:53:16.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMDY5RjVCRDdGODQ1N0U0QzA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mañana organizamos para mandar a buscar uno",
+        "fecha": "2026-11-14T02:23:58.634Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Cuando decidan, aquí estaré para ayudarte a dejar tu pedido listo y te envíe todo rápido.\n\nRecuerda que el pago es contraentrega y tienes garantía de 30 días.\n\n¿Quieres que te deje el pedido preparado para cuando me digas o prefieres que te recuerde mañana?",
+        "fecha": "2026-11-14T02:24:01.227Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSODExMDcyQ0I1REJFQjAwRjlBAA=="
       }
     ],
     "paso": "conversando",
@@ -4761,10 +4773,7 @@
       "texto": "Allá de donde son a"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T20:53:17.618Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
