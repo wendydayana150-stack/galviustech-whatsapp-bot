@@ -652,8 +652,8 @@
     "telefono": "573009568128",
     "nombre": "Jana 😎",
     "primerContacto": "2026-11-14T06:35:38.935Z",
-    "ultimoContacto": "2026-11-14T06:45:02.399Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-14T13:48:01.387Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -726,11 +726,18 @@
         "fecha": "2026-11-14T12:08:17.140Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NTY4MTI4FQIAERgSQUI2NTY4MTdFMjkxRDA0NTAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te cuento las más económicas (imprimen sin tinta):\r\n\r\n🏷️ *Impresora P5*: *$139.900* + $26.000 de envío. Para etiquetas, recibos y notas.\r\n🏷️ *Clabel 221B*: *$155.000* + $26.000 de envío. Para etiquetas.\r\n\r\nSi lo que necesitas es imprimir *hojas tamaño carta* (tareas, documentos), la indicada es la *NETUM*: $249.900 con *envío GRATIS*.\r\n\r\n✅ Pagas al recibir. ¿Cuál te dejo lista hoy? Dime y me pasas tu *nombre completo* 🙌",
+        "fecha": "2026-11-14T13:48:00.503Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NTY4MTI4FQIAERgSODg5QkQ3NjRDMTNDNTAxRjA3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -748,10 +755,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T12:08:24.728Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
