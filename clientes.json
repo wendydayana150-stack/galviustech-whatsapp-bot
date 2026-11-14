@@ -3,8 +3,8 @@
     "telefono": "573103018950",
     "nombre": "Jessica G Salcedo",
     "primerContacto": "2026-11-14T23:53:59.536Z",
-    "ultimoContacto": "2026-11-14T23:58:57.298Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-14T23:59:26.041Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,9 +176,28 @@
         "fecha": "2026-11-14T23:58:55.962Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSNzI0QUQ1MEE1MDk0NzI3QTNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De las que sirven para etiquetas adhesivas cual imprime etiquetas más grandes??",
+        "fecha": "2026-11-14T23:59:22.646Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La que imprime etiquetas adhesivas más grandes es la *Impresora Térmica Portátil de Etiquetas Clabel 221B*.\n\n✅ Etiquetas adhesivas medianas (rollo de 40x30 mm aprox)  \n✅ Perfecta para productos con precio, código de barras y fecha  \n✅ Precio de $155.000 + $26.000 de envío, pagas al recibir  \n\n¿Quieres que te la deje lista para envío?",
+        "fecha": "2026-11-14T23:59:24.109Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMEUyQjU4NUZGRUU3OTdEMDQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T23:59:25.150Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSNDU4QTdDOTQ1OTczRTQxODZBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
