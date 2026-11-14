@@ -3,8 +3,8 @@
     "telefono": "CO.1123732610558384",
     "nombre": "Arismendy",
     "primerContacto": "2026-11-14T01:45:44.668Z",
-    "ultimoContacto": "2026-11-14T01:45:44.668Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T01:47:18.221Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-14T01:45:43.974Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMzczMjYxMDU1ODM4NBUUABEYEjMyRjhFNzlDMTY3QTg2NUMyMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Imprime hoja oficio y carta",
+        "fecha": "2026-11-14T01:47:17.400Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-14T01:47:17.401Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMzczMjYxMDU1ODM4NBUUABEYEjUwMDhBMjM5QTcyM0Q4Q0M5NQA="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/m8ricFujJ",
       "fecha": "2026-11-14T01:45:42.531Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573215637176",
