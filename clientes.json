@@ -2462,8 +2462,8 @@
     "telefono": "573224999870",
     "nombre": "Rafael Enrique Bustillo F",
     "primerContacto": "2026-11-13T22:43:36.152Z",
-    "ultimoContacto": "2026-11-14T03:07:28.600Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-14T03:07:31.976Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2623,6 +2623,18 @@
         "fecha": "2026-11-14T03:07:27.826Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0OTk5ODcwFQIAERgSQkYwQzY0NDRGRjMxNkRFMzE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Un Asesor",
+        "fecha": "2026-11-14T03:07:30.275Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, ya voy a avisar para que un asesor te dé toda la ayuda personalizada que necesitas. En breve te escriben para resolver tus dudas con calma. Gracias por avisar.",
+        "fecha": "2026-11-14T03:07:31.338Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0OTk5ODcwFQIAERgSN0REMjUyMTg5QTAzRkZGODU3AA=="
       }
     ],
     "paso": "conversando",
@@ -2631,8 +2643,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Un Asesor\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
