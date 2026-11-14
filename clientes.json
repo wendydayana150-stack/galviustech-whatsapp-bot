@@ -3,8 +3,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T12:59:02.280Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T12:59:07.560Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-14T12:59:01.351Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjM1RjM4MjM2RDRBQ0EyMDI5MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Me gustaría conseguir más información sobre esto.",
+        "fecha": "2026-11-14T12:59:03.574Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro! Estos módems son ideales si necesitas internet en zonas sin fibra óptica, como fincas, veredas o viajes.\n\nConvierten la señal 4G o 5G en WiFi para que puedas conectar varios dispositivos a la vez y llevar tu propia conexión a todas partes.\n\nLa inversión va desde $199.900, con el Modem 4G que incluye envío gratis y es la opción más económica. El 4G/5G y el 5G cuestan $199.900 con *envío GRATIS* 🚚.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué municipio o vereda lo vas a usar y para qué lo necesitas? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-11-14T12:59:06.102Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjhERENDREY4MTYyRjkzNDU0MAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T12:59:06.742Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjlCMkFCMzQwODhBMTY5RThBMAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8yrlB5MiC",
       "fecha": "2026-11-14T12:58:59.715Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1829970721571684",
