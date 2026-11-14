@@ -5532,8 +5532,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:02:22.863Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-14T13:03:02.140Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5642,9 +5642,21 @@
         "fecha": "2026-11-14T13:02:21.516Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRjJFMDg5OTJFNEI4NkQ3RkI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver la tienda",
+        "fecha": "2026-11-14T13:03:01.242Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-11-14T13:03:01.242Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSOEJDMUYwODUyMEJDNzk4NDMzAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "mesa-plegable"
     },
