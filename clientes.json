@@ -4705,8 +4705,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-14T02:31:41.339Z",
-    "mensajes": 18,
+    "ultimoContacto": "2026-11-14T02:31:47.121Z",
+    "mensajes": 19,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4961,6 +4961,25 @@
         "fecha": "2026-11-14T02:31:40.465Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMTE5NUU3Q0YxQkM0QTNGOTJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno dale",
+        "fecha": "2026-11-14T02:31:44.354Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! Entonces te ayudo a dejar el pedido listo para que no pierdas la promoción ni la conexión donde la necesites.\n\nSolo confirme el nombre completo y la ciudad para empezar con el proceso.",
+        "fecha": "2026-11-14T02:31:45.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSRjM2RURGQzFGM0M2NzA1Qzg1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T02:31:46.192Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMTUzOEVGODZDQUVDNUY5Qzk2AA=="
       }
     ],
     "paso": "pedido_nombre",
