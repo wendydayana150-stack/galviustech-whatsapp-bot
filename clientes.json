@@ -3,8 +3,8 @@
     "telefono": "573103018950",
     "nombre": "Jessica G Salcedo",
     "primerContacto": "2026-11-14T23:53:59.536Z",
-    "ultimoContacto": "2026-11-14T23:58:25.973Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-14T23:58:57.298Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -157,6 +157,25 @@
         "fecha": "2026-11-14T23:58:25.114Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMUQ5OTY5MEE4NDFCQzJGNEExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y con esa puedo imprimir en etiquetas adhesivas ?",
+        "fecha": "2026-11-14T23:58:54.471Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM está diseñada para hojas térmicas tamaño carta, no para etiquetas adhesivas.\n\nSi necesitas imprimir etiquetas adhesivas con precio y código, la mejor opción es la Clabel 221B o la Mini P5 que son específicas para etiquetas.",
+        "fecha": "2026-11-14T23:58:55.383Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMjEzMTkxNjdEQjkzMjNERjc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T23:58:55.962Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSNzI0QUQ1MEE1MDk0NzI3QTNBAA=="
       }
     ],
     "paso": "pedido_nombre",
