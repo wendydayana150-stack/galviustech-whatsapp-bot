@@ -4645,8 +4645,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-14T02:26:10.661Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-14T02:27:01.657Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4784,6 +4784,18 @@
         "fecha": "2026-11-14T02:26:09.658Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMDkxQ0NFNzYyM0M3QjI5OTYxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mañana me avisas",
+        "fecha": "2026-11-14T02:26:58.816Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres pensarlo un poco más. Quedo atenta para ayudarte cuando decidas, pero ten en cuenta que la promoción con 30% de descuento y envío puede cambiar.\n\nMientras tanto, ¿quieres que te resuelva alguna duda o te cuente más detalles para que sea más fácil decidir?",
+        "fecha": "2026-11-14T02:27:00.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSREVBQzhBRUZGMEVFQjRBRDQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -4794,7 +4806,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
