@@ -166,6 +166,13 @@
         "fecha": "2026-11-14T13:00:14.793Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSRDcyN0JCODE0NEQzQzFDQTcwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-14T14:09:03.787Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSNTc0NzlDNjExOUY1NTEyRDVBAA=="
       }
     ],
     "paso": "conversando",
@@ -181,7 +188,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-14T14:09:06.180Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1796096471656579",
@@ -6125,6 +6137,13 @@
         "fecha": "2026-11-14T13:05:33.364Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRTEwRDU4NzM3MUQ3MUI2RUVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del COMBO Modem Wifi + Reloj Inteligente y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-14T14:09:05.048Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSMkQwODk4RjdFQjY1MTRDNjRGAA=="
       }
     ],
     "paso": "conversando",
@@ -6153,7 +6172,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-14T14:09:06.180Z"
     }
   },
   {
