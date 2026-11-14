@@ -3,8 +3,8 @@
     "telefono": "573103018950",
     "nombre": "Jessica G Salcedo",
     "primerContacto": "2026-11-14T23:53:59.536Z",
-    "ultimoContacto": "2026-11-14T23:58:13.133Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-14T23:58:25.973Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,10 +138,34 @@
         "fecha": "2026-11-14T23:58:12.269Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMThCN0VBNzZCRUQ3QzUwQUExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-14T23:58:22.704Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 😍 Te envío el video de la *Impresora Térmica Portátil NETUM* imprimiendo guías y documentos tamaño carta para que la veas en acción.\n\nRecuerda que imprime SIN TINTA, es portátil y dura hasta 30 horas de batería, mide 27.5 x 6.5 x 5 cm y trae papel térmico incluido.\n\n¿Quieres que te la deje lista para envío con envío GRATIS a tu ciudad?",
+        "fecha": "2026-11-14T23:58:24.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMzIxMEI3N0I2NEZDMUQwNjE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-14T23:58:25.114Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAzMDE4OTUwFQIAERgSMUQ5OTY5MEE4NDFCQzJGNEExAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573103018950"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
