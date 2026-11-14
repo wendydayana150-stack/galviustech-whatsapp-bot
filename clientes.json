@@ -3,8 +3,8 @@
     "telefono": "573170181102",
     "nombre": "ferias",
     "primerContacto": "2026-11-14T00:47:50.115Z",
-    "ultimoContacto": "2026-11-14T01:15:01.912Z",
-    "mensajes": 17,
+    "ultimoContacto": "2026-11-14T01:16:31.906Z",
+    "mensajes": 18,
     "conversacion": [
       {
         "rol": "cliente",
@@ -273,6 +273,18 @@
         "fecha": "2026-11-14T01:15:01.073Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSQjdFMkUxQjkxRUFENzEwMURCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No entonces no",
+        "fecha": "2026-11-14T01:16:29.768Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, gracias por decirlo con tanta honestidad. Si en algún momento necesitas ayuda con otra cosa o tienes cualquier duda, aquí estaré para apoyarte.\n\nQue tengas un buen día 😊",
+        "fecha": "2026-11-14T01:16:31.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSMUVFRUVBRDBBNDExQkUyNDY4AA=="
       }
     ],
     "paso": "conversando",
@@ -288,7 +300,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
