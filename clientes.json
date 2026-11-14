@@ -5545,8 +5545,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:03:11.993Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-14T13:03:34.727Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5679,15 +5679,34 @@
         "fecha": "2026-11-14T13:03:11.038Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRUJGREI0RjYyOUZFQkY0NUE5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Camara 5 antenas",
+        "fecha": "2026-11-14T13:03:33.470Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "*Camara de seguridad 5 antenas*\n💰 *$ 119.900* ya con *30% de descuento* 🔥\n✅ Cámara con 5 antenas y movimiento\n✅ Orientas la vigilancia hacia diferentes zonas\n✅ Para tu casa, negocio o finca\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-14T13:03:33.471Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSQkMxMzc0OEVGQkEyMzVGODFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T13:03:33.959Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRkNENEI3Rjk2OTFFODQ4MTE3AA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "mesa-plegable"
+      "productoId": "camara-de-seguridad-5-antenas"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "mesa-plegable",
+    "ultimoProducto": "camara-de-seguridad-5-antenas",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
