@@ -3,8 +3,8 @@
     "telefono": "CO.2220550715562160",
     "nombre": "✨👑 Gladys 🌻",
     "primerContacto": "2026-11-14T01:57:24.701Z",
-    "ultimoContacto": "2026-11-14T02:01:56.149Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-14T02:02:18.420Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -107,13 +107,41 @@
         "fecha": "2026-11-14T02:01:55.326Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEjYwQzc0NENENjFGMEFCMzQ3QgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Reflector Solar 200W",
+        "fecha": "2026-11-14T02:02:16.321Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 200W",
+        "fecha": "2026-11-14T02:02:16.322Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEkVBOENGNTY1NUZDNzlGRDA5OQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*REFLECTOR SOLAR LED 200W (1 unidad)*\n💰 *$ 149.900* ya con *30% de descuento* 🔥\n✅ Reflector LED\n✅ Panel solar\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-14T02:02:16.964Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEjFFRDBDMkUwODE3MzhEOTRCRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T02:02:17.437Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEjE3MDgyNzExQTc2QkRDRkZCOQA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reflector-solar-led-200w"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "reflector-solar-led-200w",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
