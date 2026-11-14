@@ -45,8 +45,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:01:13.669Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-14T13:01:24.983Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -160,14 +160,28 @@
         "fecha": "2026-11-14T13:01:12.800Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkE5QTg2MzU3NkZFQ0NGMEQyRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-14T13:01:23.835Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu nombre y tu departamento, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-14T13:01:24.159Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjg1QTJGODJFNkEwQjc3RTIxMwA="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
-      "telefono": "CO.1796096471656579"
+      "telefono": "CO.1796096471656579",
+      "nombreCliente": "Ver otros",
+      "departamento": "La Guajira"
     },
     "pausado": false,
     "etapaManual": null,
