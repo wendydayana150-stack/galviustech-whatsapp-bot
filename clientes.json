@@ -3,8 +3,8 @@
     "telefono": "573116647376",
     "nombre": "Josechon",
     "primerContacto": "2026-11-14T20:48:21.483Z",
-    "ultimoContacto": "2026-11-14T20:48:21.483Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T21:25:58.745Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-14T20:48:20.550Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSQkZBQTY5RkI2NEEwOUU3MDU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dónde se quedas que parte encuentra",
+        "fecha": "2026-11-14T21:25:54.857Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o a la oficina de la transportadora en tu ciudad si estás en vereda o zona rural.\n\n¿En qué municipio o vereda lo necesitarías? Así te recomiendo el módem que mejor cubre tu zona. ¿Para qué lo usarías principalmente, trabajo, estudio o casa?",
+        "fecha": "2026-11-14T21:25:57.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSNUNDMUJFREVDQTY2NEUxMDJCAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6BkvIAGuN",
       "fecha": "2026-11-14T20:48:19.402Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573013147852",
