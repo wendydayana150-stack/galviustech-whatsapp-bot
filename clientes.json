@@ -10111,8 +10111,8 @@
     "telefono": "573154083069",
     "nombre": "Myriam Torrado",
     "primerContacto": "2026-11-13T05:17:20.264Z",
-    "ultimoContacto": "2026-11-13T05:17:20.264Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T15:16:38.701Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10159,6 +10159,13 @@
         "fecha": "2026-11-13T12:00:34.408Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU0MDgzMDY5FQIAERgSRTJBMDA2MUU2RDhBNzgwMTUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Myriam Torrado, sobre Impresora NETUM",
+        "fecha": "2026-11-14T15:16:37.821Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU0MDgzMDY5FQIAERgSQkY2NDFDRkJDOEM2RTExOUQyAA=="
       }
     ],
     "paso": "conversando",
@@ -10181,10 +10188,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T12:00:51.289Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-14"
   },
