@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:08:06.386Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-14T05:09:06.290Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -282,9 +282,21 @@
         "fecha": "2026-11-14T05:08:05.612Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSNTg5ODYxRTAwNzcwQjdCNDUzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tablaza barrio los toros",
+        "fecha": "2026-11-14T05:09:05.265Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-14T05:09:05.265Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSRUYzNjA1RUI3QzA4MDhFQjA5AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -294,7 +306,8 @@
       "nombreCliente": "Alfredo Benítez estrada",
       "celular": "1046526804",
       "ciudad": "Medellín",
-      "direccion": "Te puedo mandar la ubicación en tiempo real y tu miras"
+      "direccion": "Te puedo mandar la ubicación en tiempo real y tu miras",
+      "barrio": "Tablaza barrio los toros"
     },
     "pausado": false,
     "etapaManual": null,
