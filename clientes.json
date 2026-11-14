@@ -5769,8 +5769,8 @@
     "telefono": "573205210409",
     "nombre": "Esperanza",
     "primerContacto": "2026-11-13T19:46:21.749Z",
-    "ultimoContacto": "2026-11-14T13:48:11.917Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-14T14:14:17.523Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5836,11 +5836,25 @@
         "fecha": "2026-11-14T13:48:10.850Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MjEwNDA5FQIAERgSNzgwRjU0QTc3QjgxMEQ1MjVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Esperanza! 👋 Ayer te interesó *Impresora NETUM* 🔥\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*.\n\n💰 Antes ~$ 356.900~, hoy *$ 249.900* con *envío GRATIS* 🚚\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te la envío antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌",
+        "fecha": "2026-11-14T14:09:37.614Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MjEwNDA5FQIAERgSOEQyQTlGNkMwRDhDODBFQzM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Ojo! La *Impresora NETUM* está con *30% de descuento* y quedan las *últimas unidades* en promoción.\r\n\r\nSi la quieres asegurar, dime tu *nombre completo* y te la dejo lista hoy. Pagas al recibir 🚚",
+        "fecha": "2026-11-14T14:14:16.702Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MjEwNDA5FQIAERgSOEI4NjFGNDQwNDlFRDgwQjNDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
