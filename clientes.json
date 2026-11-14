@@ -3,8 +3,8 @@
     "telefono": "CO.1123732610558384",
     "nombre": "Arismendy",
     "primerContacto": "2026-11-14T01:45:44.668Z",
-    "ultimoContacto": "2026-11-14T01:47:18.221Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-14T01:47:21.129Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-11-14T01:47:17.401Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyMzczMjYxMDU1ODM4NBUUABEYEjUwMDhBMjM5QTcyM0Q4Q0M5NQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "A color",
+        "fecha": "2026-11-14T01:47:20.485Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-14T01:47:20.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyMzczMjYxMDU1ODM4NBUUABEYEkQyQ0UyQjczNTBCQzNBRTU4OQA="
       }
     ],
     "paso": "conversando",
@@ -62,7 +74,10 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-14T01:47:20.485Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "Importech Colombia",
       "texto": "🚨 ¡DEJA DE GASTAR EN TINTA Y HAZ TU DÍA MÁS PRÁCTICO! 🖨️🔥\n\n¿Eres emprendedor, estudiante, tienes un negocio o necesitas imprimir constantemente?\n\n¡ESTO ES JUSTO LO QUE ESTABAS BUSCANDO! 😍\n\n💥 **¡CONOCE LA IMPRESORA TÉRMICA PORTÁTIL NETUM!**\n\nImagina tener una impresora compacta que puedes llevar contigo y utilizar sin preocuparte por comprar tinta ni cartuchos.\n\n✨ ¿POR QUÉ NECESITAS UNA?\n\n✅ IMPRESIÓN SIN TINTA NI CARTUCHOS.\n✅ Conexión Bluetooth con dispositivos compatibles.\n✅ Diseño portátil",
