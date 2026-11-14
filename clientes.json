@@ -3,8 +3,8 @@
     "telefono": "573170181102",
     "nombre": "ferias",
     "primerContacto": "2026-11-14T00:47:50.115Z",
-    "ultimoContacto": "2026-11-14T01:13:52.488Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-14T01:14:02.865Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -218,9 +218,28 @@
         "fecha": "2026-11-14T01:13:51.795Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSRTJEMjAyMTY4NUZEMTZCRjczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso es como una estarli disculpa",
+        "fecha": "2026-11-14T01:13:59.391Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No te preocupes, para aclararte: el módem no es un satélite, sino un dispositivo que transforma la señal móvil 4G/5G que recibe directamente de las antenas de los operadores en WiFi para que puedas conectarte con tus dispositivos.\n\nAsí puedes tener internet estable en lugares donde no llega la fibra ni la conexión fija.\n\n¿Quieres que te ayude a dejar el pedido para que lo pruebes? ¿Dónde lo necesitarías?",
+        "fecha": "2026-11-14T01:14:00.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSQjIyRTE4RjBGQjEwMDU3RTY0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T01:14:01.453Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSRUY5MUY4MDUyRkI0ODgxMThGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
