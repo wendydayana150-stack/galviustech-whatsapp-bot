@@ -5558,8 +5558,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:04:32.071Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-14T13:04:55.295Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5831,18 +5831,31 @@
         "fecha": "2026-11-14T13:04:29.971Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRTU2RjNBOThEOEFFNTZGQzcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-11-14T13:04:54.286Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Reloj Inteligente* ($ 289.900) 🙌 Ya tengo tu nombre, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-14T13:04:54.624Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSOEIwQjQ2MTdEMTZFQ0UwMDEzAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_celular",
     "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Camara de seguridad 5 antenas",
-      "precio": 119900,
-      "telefono": "573239109622"
+      "productoId": "combo-modem-wifi-reloj-inteligente",
+      "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
+      "precio": 289900,
+      "telefono": "573239109622",
+      "nombreCliente": "Ver otros"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
