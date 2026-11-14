@@ -3,8 +3,8 @@
     "telefono": "573215011260",
     "nombre": "😌",
     "primerContacto": "2026-11-14T18:25:59.754Z",
-    "ultimoContacto": "2026-11-14T18:25:59.754Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T18:26:41.201Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-14T18:25:58.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MDExMjYwFQIAERgSRTI2NUM5RTVERUQ4RDJDNTVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sii y cuando",
+        "fecha": "2026-11-14T18:26:38.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después de que se despache el pedido, y en ciudades como Bogotá o Medellín puede ser aún más rápido.\n\n¿Me cuentas en qué municipio o vereda lo usarías y para qué lo necesitas? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-11-14T18:26:40.326Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MDExMjYwFQIAERgSNTE4OEM4RTYzMTUzREI2NjNGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6BkvIAGuN",
       "fecha": "2026-11-14T18:25:57.611Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225623949",
