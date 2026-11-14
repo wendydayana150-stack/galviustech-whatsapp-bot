@@ -14130,8 +14130,8 @@
     "telefono": "573134219881",
     "nombre": "hugovillamizar340",
     "primerContacto": "2026-11-12T23:48:28.922Z",
-    "ultimoContacto": "2026-11-14T15:16:51.551Z",
-    "mensajes": 19,
+    "ultimoContacto": "2026-11-14T18:20:06.530Z",
+    "mensajes": 20,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14407,6 +14407,18 @@
         "fecha": "2026-11-14T16:22:52.075Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSQUI1QzMxMDQ1OTA2RUQxNThGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Donde estan ubicados ustedes",
+        "fecha": "2026-11-14T18:20:03.130Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\n¿En qué ciudad o municipio necesitas que te envíe el módem para confirmarte la entrega y la cobertura?",
+        "fecha": "2026-11-14T18:20:05.027Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSMjlFNUE1NDA5MzYxNUJDNjQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -14427,12 +14439,12 @@
       "url": "https://fb.me/53sQQeDhJ",
       "fecha": "2026-11-12T23:48:27.417Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-14T18:20:03.130Z",
+      "texto": "Donde estan ubicados ustedes"
+    },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T17:22:44.572Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-14"
   },
