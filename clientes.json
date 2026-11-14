@@ -63,8 +63,8 @@
     "telefono": "573224623923",
     "nombre": "Yaneth",
     "primerContacto": "2026-11-13T23:44:01.534Z",
-    "ultimoContacto": "2026-11-14T00:03:19.736Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-14T00:03:46.038Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -298,6 +298,18 @@
         "fecha": "2026-11-14T00:03:19.056Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSNzkyNTczNUJBNzVCNDA1Q0ZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuando me lo envían entonces",
+        "fecha": "2026-11-14T00:03:43.805Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después del despacho.\n\nSi quieres, te ayudo a dejar el pedido listo para que despachemos lo más pronto posible y no tengas que esperar más.\n\n¿Te lo dejo listo para enviar?",
+        "fecha": "2026-11-14T00:03:45.066Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0NjIzOTIzFQIAERgSRUQ5QkFBN0EzMTgzRUFGMURGAA=="
       }
     ],
     "paso": "conversando",
@@ -318,7 +330,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-13T23:43:59.603Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-14T00:03:43.805Z",
+      "texto": "Cuando me lo envían entonces"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
