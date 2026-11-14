@@ -664,8 +664,8 @@
     "telefono": "573009568128",
     "nombre": "Jana 😎",
     "primerContacto": "2026-11-14T06:35:38.935Z",
-    "ultimoContacto": "2026-11-14T13:48:01.387Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-14T14:14:05.460Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -745,11 +745,18 @@
         "fecha": "2026-11-14T13:48:00.503Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NTY4MTI4FQIAERgSODg5QkQ3NjRDMTNDNTAxRjA3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Ojo! Las *impresoras térmicas* están con *30% de descuento* y quedan las *últimas unidades* en promoción.\r\n\r\nSi la quieres asegurar, dime tu *nombre completo* y te la dejo lista hoy. Pagas al recibir 🚚",
+        "fecha": "2026-11-14T14:14:04.523Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NTY4MTI4FQIAERgSOTczRjhBOTg2QTEyNjEzRTZBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
