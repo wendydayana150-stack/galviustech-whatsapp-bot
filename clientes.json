@@ -1512,8 +1512,8 @@
     "telefono": "573217777299",
     "nombre": "iap",
     "primerContacto": "2026-11-14T02:28:34.885Z",
-    "ultimoContacto": "2026-11-14T13:48:22.598Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-14T14:14:29.436Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1591,11 +1591,18 @@
         "fecha": "2026-11-14T13:48:21.534Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSNkJFQUZCRjc4NERDQkQ5RTVEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Ojo! El *Modem 4G* está con *30% de descuento* y quedan las *últimas unidades* en promoción.\r\n\r\nSi lo quieres asegurar, dime tu *nombre completo* y te lo dejo listo hoy. Pagas al recibir 🚚",
+        "fecha": "2026-11-14T14:14:28.306Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSODJBQ0FDNUJCMjUwMDc4M0U3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
