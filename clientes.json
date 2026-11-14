@@ -17608,8 +17608,8 @@
     "telefono": "573042793480",
     "nombre": "Delwis Henrique",
     "primerContacto": "2026-11-12T15:49:31.399Z",
-    "ultimoContacto": "2026-11-12T15:49:31.399Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T14:50:10.919Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -17663,6 +17663,18 @@
         "fecha": "2026-11-13T14:11:24.868Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNzkzNDgwFQIAERgSREEwQTdCMUIwNEM0NkVBNUM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-14T14:50:07.126Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 👋 Para ayudarte mejor, ¿en qué municipio o vereda necesitas usar el módem y para qué lo vas a necesitar? (Estudio, trabajo, hogar, viajes o negocio).\n\nLos módems que tenemos son:\n\n📶 Modem WiFi Portátil 4G: Conexión estable para fincas y lugares sin fibra, conecta hasta 10 dispositivos.\n\n📶 Modem WiFi Portátil 4G/5G: Puedes usarlo en zonas con 4G o 5G, ideal para viajar o para casa.\n\n📶 Modem WiFi Portátil 5G: Máxima velocidad en zonas con buena cobertura 5G.\n\n¿Cuál localidad me dices para recomendarte el mejor según tu necesidad?",
+        "fecha": "2026-11-14T14:50:10.089Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNzkzNDgwFQIAERgSMTczRjQ4NDdGOTUwMUIyRjhEAA=="
       }
     ],
     "paso": "conversando",
@@ -17685,10 +17697,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-12T17:54:09.494Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-13"
   },
