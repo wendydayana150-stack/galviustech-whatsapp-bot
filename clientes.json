@@ -5545,8 +5545,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:03:34.727Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-14T13:03:49.763Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5698,11 +5698,26 @@
         "fecha": "2026-11-14T13:03:33.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRkNENEI3Rjk2OTFFODQ4MTE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-14T13:03:48.518Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Camara de seguridad 5 antenas* ($ 119.900) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-14T13:03:48.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSMEYwQkUxNzc3NjJDQTlGQ0RGAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "camara-de-seguridad-5-antenas"
+      "productoId": "camara-de-seguridad-5-antenas",
+      "nombreProducto": "Camara de seguridad 5 antenas",
+      "precio": 119900,
+      "telefono": "573239109622"
     },
     "pausado": false,
     "etapaManual": null,
