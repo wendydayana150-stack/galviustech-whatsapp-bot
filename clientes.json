@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:06:48.470Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-14T05:07:25.537Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -246,16 +246,29 @@
         "fecha": "2026-11-14T05:06:47.616Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSQ0M0NUU2RjNFRkYxQkE3OEJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "1046526804",
+        "fecha": "2026-11-14T05:07:24.528Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-14T05:07:24.529Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSNUU1OUYyNEJDNkIzMDk4NUY4AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573122678906",
       "departamento": "Vaupes",
-      "nombreCliente": "Alfredo Benítez estrada"
+      "nombreCliente": "Alfredo Benítez estrada",
+      "celular": "1046526804"
     },
     "pausado": false,
     "etapaManual": null,
