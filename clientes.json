@@ -7615,8 +7615,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-13T15:33:00.965Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-14T13:47:56.020Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7707,6 +7707,13 @@
         "fecha": "2026-11-13T16:07:35.006Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSMTMwOTNBNEZENkZCOUNGQkQwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Raúl! 😊 Tu *Impresora Clabel 221B* ($155.000 + $26.000 de envío, pagas al recibir) está casi lista para despacho 🚚\r\n\r\nSolo me falta tu *nombre completo* para registrarla hoy 🙌",
+        "fecha": "2026-11-14T13:47:55.113Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRjNERkVFOEQ5MTBCRkQ2QzZCAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -7716,7 +7723,7 @@
       "precio": 155000,
       "telefono": "573246859100"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
@@ -7734,11 +7741,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-13T18:03:59.816Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
