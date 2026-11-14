@@ -474,8 +474,8 @@
     "telefono": "573135618689",
     "nombre": "Yilser Hurtado 😍🥰",
     "primerContacto": "2026-11-13T22:52:11.584Z",
-    "ultimoContacto": "2026-11-13T23:06:45.858Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-14T00:58:59.629Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -854,9 +854,28 @@
         "fecha": "2026-11-14T00:43:16.004Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSM0NFMDBBRDFBNjg2MjJFRTZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "ENvio Gratis",
+        "fecha": "2026-11-14T00:58:54.924Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El Modem WiFi Portátil 4G tiene una inversión de $199.900 con envío GRATIS y pagas al recibir, ideal para fincas, veredas o viajes.\n\nConecta hasta 10 dispositivos y su batería dura hasta 14 horas para que no te quedes sin internet cuando más lo necesitas.\n\n¿En qué municipio o para qué lo uses principalmente? Así te ayudo a que sea la mejor inversión para ti.",
+        "fecha": "2026-11-14T00:58:58.419Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSMkU2NTcyRUIwQUUwMDM2QTlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T00:58:58.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSREE0OEY0QjEwNjA3QzJENjZDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -881,10 +900,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-14T00:43:16.792Z",
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
