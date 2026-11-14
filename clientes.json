@@ -3,8 +3,8 @@
     "telefono": "573170181102",
     "nombre": "ferias",
     "primerContacto": "2026-11-14T00:47:50.115Z",
-    "ultimoContacto": "2026-11-14T01:13:39.566Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-14T01:13:52.488Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -199,6 +199,25 @@
         "fecha": "2026-11-14T01:10:09.988Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSN0RDQTI5MEI3RkJDMkJDQTlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esa",
+        "fecha": "2026-11-14T01:13:49.550Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! Ya te dejé el pedido del módem 4G/5G listo para envío.\n\nSolo indícame a qué dirección quieres que te lo enviemos y lo despachamos rápido para que comiences a disfrutar tu conexión.",
+        "fecha": "2026-11-14T01:13:51.230Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSNkJCMkFFQkJCOTkwMTUwQjAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T01:13:51.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSRTJEMjAyMTY4NUZEMTZCRjczAA=="
       }
     ],
     "paso": "pedido_nombre",
