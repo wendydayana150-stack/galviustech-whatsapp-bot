@@ -9748,8 +9748,8 @@
     "telefono": "573108450476",
     "nombre": "Maicol Alan",
     "primerContacto": "2026-11-13T06:41:53.149Z",
-    "ultimoContacto": "2026-11-13T06:41:53.149Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T15:16:01.180Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9796,6 +9796,13 @@
         "fecha": "2026-11-13T12:00:32.289Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4NDUwNDc2FQIAERgSNzI3ODdGQjUyREVEQUY4NEYyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Maicol Alan, sobre nuestros productos",
+        "fecha": "2026-11-14T15:16:00.145Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4NDUwNDc2FQIAERgSOTM2RjRCMDMxN0FDQ0IxNjcyAA=="
       }
     ],
     "paso": "conversando",
@@ -9818,10 +9825,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-13T12:00:51.288Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-14"
   },
