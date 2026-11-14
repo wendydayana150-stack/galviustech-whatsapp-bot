@@ -1477,8 +1477,8 @@
     "telefono": "573217777299",
     "nombre": "iap",
     "primerContacto": "2026-11-14T02:28:34.885Z",
-    "ultimoContacto": "2026-11-14T02:34:12.167Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-14T13:48:22.598Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1549,11 +1549,18 @@
         "fecha": "2026-11-14T12:08:21.331Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSRTIxNDg0OEIyMEU2NDRENjk0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Te respondo: el módem funciona con la *SIM de un operador celular* (Claro, Movistar, Tigo o WOM), y capta mejor la señal que un celular. Si en tu finca el celular agarra señal, aunque sea poquita, el módem te da internet para varios equipos 📶\r\n\r\nSi no llega señal de ningún operador, ahí no funcionaría. ¿Tu celular agarra algo de señal en el campo?\r\n\r\n📶 *Modem 4G*: *$199.900* con *envío GRATIS* y pagas al recibir 🚚",
+        "fecha": "2026-11-14T13:48:21.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSNkJFQUZCRjc4NERDQkQ5RTVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -1571,10 +1578,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T12:08:24.728Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
