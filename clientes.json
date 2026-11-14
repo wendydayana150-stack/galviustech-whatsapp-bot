@@ -3,8 +3,8 @@
     "telefono": "573217777299",
     "nombre": "iap",
     "primerContacto": "2026-11-14T02:28:34.885Z",
-    "ultimoContacto": "2026-11-14T02:32:29.347Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-14T02:34:12.167Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-11-14T02:32:28.485Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSOTgzRTE4NkI0MDc0MkQ3MEYwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuando no hay señal  eso también conecta",
+        "fecha": "2026-11-14T02:34:09.151Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador, el módem no podrá conectarse porque depende de la red móvil para funcionar. \n\nPero, la antena del módem es más potente que la de un celular, así que a veces capta señal donde el celular muestra sin servicio. ¿Has probado si tu celular tiene señal ahí? Si confirmas que no hay nada, no te va a servir.\n\n¿Quieres contarme dónde específicamente para ayudarte a saber si te sirve el módem?",
+        "fecha": "2026-11-14T02:34:11.292Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSNjQ3NDhBMTlDM0MwRjYwMTlFAA=="
       }
     ],
     "paso": "conversando",
