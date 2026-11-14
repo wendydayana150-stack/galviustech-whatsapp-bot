@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T04:58:43.200Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-14T05:00:58.526Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,18 @@
         "fecha": "2026-11-14T04:58:42.490Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSOTkwQUZGNkJEQUQ5RTM1Qjg3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si no hay señal en las SIM a un así funciona",
+        "fecha": "2026-11-14T05:00:55.369Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem necesita señal de algún operador para funcionar, así que si donde estás no hay señal ni de Claro, Movistar, Tigo o WOM, lamentablemente no podrá conectarte. \n\nEso sí, la antena del módem es más potente que la de un celular común, por lo que a veces sí capta señal donde el celular no, ¿tu celular qué señala muestra justo en esa zona?\n\nCuéntame para ayudarte a confirmar si es viable o no y así no te quedas sin solución. ¿Quieres que te cuente de las otras dos opciones también?",
+        "fecha": "2026-11-14T05:00:57.721Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSREVGQURENjQ4Q0M1OUI0QThDAA=="
       }
     ],
     "paso": "conversando",
