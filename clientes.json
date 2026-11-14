@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:09:29.666Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-14T05:09:48.327Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -327,6 +327,18 @@
         "fecha": "2026-11-14T05:09:28.896Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSQ0E5RTE3NzJBMzNCQTkzMzAwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y una pregunta ala SIM hay que hacerle recarga",
+        "fecha": "2026-11-14T05:09:45.280Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! La SIM que usas en el módem no viene con datos incluidos, así que tú puedes recargarla con el plan o megas que más te convenga según lo que uses.\n\nTe entregamos la SIM física de Claro como obsequio cuando recibas el módem, pero tienes que activarla y recargarla tú mismo.\n\n¿Quieres que te ayude con algo más sobre el módem o tienes otra duda?",
+        "fecha": "2026-11-14T05:09:47.428Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSMkE1QTZGQkFEODMzRUM2NjY3AA=="
       }
     ],
     "paso": "conversando",
