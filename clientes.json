@@ -3,8 +3,8 @@
     "telefono": "573217777299",
     "nombre": "iap",
     "primerContacto": "2026-11-14T02:28:34.885Z",
-    "ultimoContacto": "2026-11-14T02:28:34.885Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T02:32:29.347Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-14T02:28:34.238Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSMDkwOTA1Mjg1MDk1NjRDNDM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como toca hacer para conectar en el campo",
+        "fecha": "2026-11-14T02:32:26.146Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el módem está diseñado justo para eso: llevar internet a zonas rurales como tu campo. Solo tienes que insertar la SIM de cualquier operador con buena señal allá, prender el módem, y crearás tu propia red WiFi para conectar celulares, computadores o tablets.\n\nLa batería dura hasta 14 horas, viene con recarga USB-C, y funciona mejor que un celular normal porque su antena tiene más potencia.\n\n¿Me dices en qué municipio o vereda lo usarás para recomendarte el mejor modelo y precio?",
+        "fecha": "2026-11-14T02:32:28.485Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3Nzc3Mjk5FQIAERgSOTgzRTE4NkI0MDc0MkQ3MEYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8cFycTTcU",
       "fecha": "2026-11-14T02:28:33.136Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2220550715562160",
