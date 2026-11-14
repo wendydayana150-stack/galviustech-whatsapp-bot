@@ -198,6 +198,13 @@
         "fecha": "2026-11-14T18:02:44.408Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY1NjgxNzU0FQIAERgSMDIxRURBRUIwMjNGMjk5RkQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-14T19:02:44.494Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY1NjgxNzU0FQIAERgSNUI1ODEwNUE3RUVBMjk5RTQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -221,8 +228,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T18:02:45.820Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-14T19:02:46.795Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
@@ -14556,6 +14564,13 @@
         "fecha": "2026-11-14T18:22:11.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSNUM3OURBRjk3NUI0MzQwRjczAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G* ya está *casi listo para despachar* 🚚\n\n💰 *$ 199.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-14T19:02:45.785Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSRDdGQkUwMkU0QTVDOTJCNkFEAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -14586,7 +14601,9 @@
       "texto": "Donde estan ubicados ustedes"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-14T19:02:46.795Z"
     },
     "escasezFecha": "2026-11-14"
   },
