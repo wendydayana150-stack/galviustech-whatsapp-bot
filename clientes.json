@@ -3,8 +3,8 @@
     "telefono": "573234018117",
     "nombre": "alejo12345😃😃😃",
     "primerContacto": "2026-11-14T03:03:17.214Z",
-    "ultimoContacto": "2026-11-14T03:03:17.214Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T03:03:21.023Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-14T03:03:16.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSQUFERjFDMjJGRTBBMDUwMTA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "🤔😃",
+        "fecha": "2026-11-14T03:03:18.517Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Qué bueno que te interesa! 😊 Cuéntame en qué zona o municipio lo usarías, y para qué principalmente (trabajo, estudio, hogar, viajes, negocio), así te recomiendo el que mejor te sirve y te ahorro tiempo.\n\n¿Dónde lo necesitas?",
+        "fecha": "2026-11-14T03:03:20.384Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSNDEyN0EzRUEzNjlBRTE0NDFBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8yrlB5MiC",
       "fecha": "2026-11-14T03:03:15.358Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217777299",
