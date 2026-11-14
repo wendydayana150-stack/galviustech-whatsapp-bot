@@ -4712,8 +4712,8 @@
     "telefono": "573147538455",
     "nombre": "🥰😘yazmin😍🥰",
     "primerContacto": "2026-11-13T21:56:10.681Z",
-    "ultimoContacto": "2026-11-14T16:21:48.432Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-14T16:26:18.358Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4971,15 +4971,29 @@
         "fecha": "2026-11-14T16:21:47.574Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NTM4NDU1FQIAERgSRjFCQzg2RjAyOEJGN0E1NTNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sandra Yazmin rojas Tello \n3147538455",
+        "fecha": "2026-11-14T16:26:17.143Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! 🙌 Ya tengo tu nombre y tu celular.\n\nAhora, ¿en qué ciudad o municipio vives?",
+        "fecha": "2026-11-14T16:26:17.157Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTM4NDU1FQIAERgSNDA4RDc2ODQ0NjI5OUM2MkM3AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573147538455",
-      "departamento": "Huila"
+      "departamento": "Huila",
+      "celular": "3147538455",
+      "nombreCliente": "Sandra Yazmin rojas Tello"
     },
     "pausado": false,
     "etapaManual": null,
