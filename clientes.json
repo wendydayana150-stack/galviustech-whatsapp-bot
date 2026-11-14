@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:06:12.707Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-14T05:06:21.008Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -222,6 +222,18 @@
         "fecha": "2026-11-14T05:06:11.925Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSOTkxNTdGOEY4ODZGNEUxOEU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Este",
+        "fecha": "2026-11-14T05:06:20.250Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no logre leer bien tu nombre. Me lo puedes escribir de nuevo?",
+        "fecha": "2026-11-14T05:06:20.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSRUExNjAwNkZEOEQ0NjQzMkU0AA=="
       }
     ],
     "paso": "pedido_nombre",
