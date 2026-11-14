@@ -105,8 +105,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:12:11.277Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-14T13:18:41.399Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -368,11 +368,18 @@
         "fecha": "2026-11-14T13:12:10.514Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjJFODEyQkRFQUQ5NzM0QkNFMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Me hace falta NOMBRES y cedula",
+        "fecha": "2026-11-14T13:18:40.510Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjc0NkE0QThCQTZDODgzQzdGQwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
