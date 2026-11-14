@@ -474,8 +474,8 @@
     "telefono": "573135618689",
     "nombre": "Yilser Hurtado 😍🥰",
     "primerContacto": "2026-11-13T22:52:11.584Z",
-    "ultimoContacto": "2026-11-14T00:59:27.715Z",
-    "mensajes": 23,
+    "ultimoContacto": "2026-11-14T00:59:40.593Z",
+    "mensajes": 24,
     "conversacion": [
       {
         "rol": "cliente",
@@ -904,9 +904,28 @@
         "fecha": "2026-11-14T00:59:27.033Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSNDA3REJCRDI4RDRGOUUxRkJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-14T00:59:38.127Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Okey, quedo atenta a que me digas tu ciudad o vereda para completar y dejar tu pedido listo.\n\nMientras tanto, ¿lo necesitas más para estudiar, trabajar o para toda la familia en casa?",
+        "fecha": "2026-11-14T00:59:39.315Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSRDBCNUYxQzU3MUFGMTNFQTZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T00:59:39.804Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSQjNEQzcyNzhCNTY1QjdCQzdCAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
