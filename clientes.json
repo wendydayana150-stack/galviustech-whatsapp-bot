@@ -45,8 +45,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:00:23.256Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-14T13:00:51.731Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -122,6 +122,25 @@
         "fecha": "2026-11-14T13:00:22.555Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkExRDRBQzhGRkRFOTFFREE2MAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En donde te encuentras",
+        "fecha": "2026-11-14T13:00:47.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o a la oficina de la transportadora en tu municipio si estás en zona rural.",
+        "fecha": "2026-11-14T13:00:50.095Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjM0MEVFRkUxOEM0ODE3OTlBOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T13:00:50.748Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkY0MDUwMEQ0N0VEQTkzRkY4NAA="
       }
     ],
     "paso": "pedido_nombre",
