@@ -3,8 +3,8 @@
     "telefono": "573170181102",
     "nombre": "ferias",
     "primerContacto": "2026-11-14T00:47:50.115Z",
-    "ultimoContacto": "2026-11-14T01:08:31.279Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-14T01:09:00.494Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,6 +130,25 @@
         "fecha": "2026-11-14T01:08:30.654Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSMDA0MjE1RTBGMUE5QUJFNjRBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes mostrar un vídeo",
+        "fecha": "2026-11-14T01:08:57.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, aquí te dejo las fotos y el video del módem 4G/5G para que veas cómo es y cómo funciona.",
+        "fecha": "2026-11-14T01:08:59.263Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSOEE3NTNEQzg3QUNENkI0NzQ0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T01:08:59.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcwMTgxMTAyFQIAERgSODcxMDJEOTFGMDU2OTJDMjM5AA=="
       }
     ],
     "paso": "pedido_nombre",
