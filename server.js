@@ -2138,6 +2138,9 @@ async function comproHacepoco(telefono) {
 // FILTRO FIJO DE LAS RESPUESTAS DE LA IA (2-nov-2026, Wendy: "¿por que no se estan tomando las reglas que ya dije?").
 // La IA a veces se salta instrucciones del prompt; aqui se corrige su texto ANTES de enviarlo, siempre.
 const LINEA_HOJAS_NETUM = "La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊";
+// 13-nov-2026 (Wendy): si la IA le estaba diciendo que NO imprime en papel normal, se mantiene el "no" (claro y amable)
+const LINEA_NO_HOJA_NORMAL = "En hoja normal *no imprime*: usa *hojas térmicas* tamaño carta, sin tinta, que consigues en papelería o con nosotros 😊";
+const PREGUNTA_PAPEL_NORMAL = /(hojas?|papel)\s+(normal|bond|com[uú]n|de (block|blok|bloc|cuaderno|resma|impresora)|corriente|reprograf|redman|carta (normal|com[uú]n))|\bresma\b|\breprograf/i;
 const LINEA_CUENTAS_PAGO = "Puedes pagar desde la app de tu banco o de tu tarjeta a nuestra *llave Bre-B* @3023890578, a *Nequi* 3023890578 (Hector Rojas) o a *Bancolombia* ahorros 41100042485 💳";
 function sanearRespuestaIA(texto) {
       if (!texto) return texto;
@@ -2149,7 +2152,7 @@ function sanearRespuestaIA(texto) {
                   if (/(hojas? normal|papel (normal|est[aá]ndar|bond|com[uú]n)|rollo especial|no usa hoja|parece una hoja)/i.test(f)) {
                         if (puso.hojas) return null;
                         puso.hojas = true;
-                        return LINEA_HOJAS_NETUM;
+                        return /\bno\b/i.test(f) ? LINEA_NO_HOJA_NORMAL : LINEA_HOJAS_NETUM;
                   }
                   // 2) Tarjeta: no hay link de pago (Sistecredito si tiene su link)
                   if (/link (de pago|seguro|para (pagar|enviar))|enlace de pago/i.test(f) && !/sistecr/i.test(f)) {
@@ -2175,6 +2178,10 @@ function sanearRespuestaIA(texto) {
       t = t.replace(/\b([4-9]|1\d)\s*d[ií]as\s*h[aá]biles/gi, "3 días hábiles");
       // 6) NETUM con envio GRATIS: si la linea habla de la NETUM y le suma $26.000, se corrige
       t = t.split("\n").map((l) => (/(netum|impresora t[eé]rmica port[aá]til\b(?! de etiq))/i.test(l) && !/(mini|p5|pt-?210|clabel)/i.test(l) ? l.replace(/\+\s*\$\s?26[.,]?000\s*(de\s*)?env[ií]o/gi, "con envío GRATIS") : l)).join("\n");
+      // 8) 13-nov-2026 (Wendy, caso Henry: "para que estés tranquila" a un hombre): sin palabras con genero hacia el cliente
+      t = t.replace(/para que (est[eé]s|quedes|te sientas) (tranquil|segur|confiad)[oa]s?(\s*\([oa]\))?/gi, "para tu tranquilidad");
+      t = t.replace(/\b(est[eé]s|quedes|te sientas) (tranquil|segur|confiad)[oa](\s*\([oa]\))?/gi, "tengas toda la tranquilidad");
+      t = t.replace(/\bbienvenid[oa]\b(?!\()/gi, (m) => (m[0] === "B" ? "Bienvenido(a)" : "bienvenido(a)"));
       // 7) No insistir con "te aseguro que"
       t = t.replace(/,?\s*pero te aseguro que\s*/gi, ". ").replace(/\bte aseguro que\s*/gi, "");
       // Mayuscula al inicio de cada frase (por los cambios de arriba)
@@ -5008,7 +5015,11 @@ async function responderObjecionImpresora(telefono, sesion, texto) {
             // 29-oct-2026 (Wendy): los precios del papel se dan cuando el cliente ya decidio comprar (al confirmar los datos)
             respuesta =
                   // 2-nov-2026 (Wendy): respuesta exacta cuando preguntan por las hojas.
-                  "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n" +
+                  // 13-nov-2026 (Wendy, caso cucci: "¿imprime sobre papel normal Redman?" y Michell no le dijo que no): si
+                  // pregunta por papel normal, se le dice claro que no, para que despues no piense que le mintieron.
+                  (PREGUNTA_PAPEL_NORMAL.test(texto)
+                        ? "📄 En hoja normal (bond, de block o de cuaderno) *no imprime*: es una impresora *térmica*, imprime *sin tinta* sobre *hojas térmicas* tamaño carta. Las consigues en papelería o con nosotros 😊\n\n"
+                        : "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n") +
                   "✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n" +
                   (/(cu[aá]nto|precio|valor|vale|cuesta)/i.test(texto) ? LINEA_PAPEL_CARTA.replace(" para agregar a tu pedido", " con nosotros") + "\n\n" : "") +
                   "¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*";
@@ -6121,7 +6132,7 @@ app.post("/admin/chat/:telefono/cerrar-venta", requiereLogin, async (req, res) =
                   const nota =
                         "(NOTA INTERNA DEL EQUIPO, el cliente NO escribio esto; NUNCA menciones nombres del equipo al cliente, habla de esos mensajes como tuyos. Alguien de nuestro equipo le dio al cliente los precios y la promocion que ves arriba en la conversacion: esos son los precios validos para este cliente aunque el producto no aparezca igual en el catalogo. Retoma tu la conversacion para cerrar la venta, en un mensaje corto y amable. " +
                         (ultimoCliente ? `Lo ultimo que escribio el cliente fue: "${ultimoCliente}". ` : "") +
-                        "Si el cliente ya eligio que se lleva, agrega ACCION_PEDIDO con el producto del catalogo que corresponda. Si todavia no eligio, recuerdale en una o dos lineas las opciones que se le ofrecieron con su precio, preguntale cual se lleva y pidele de una vez sus datos para el envio: nombre completo, celular, departamento y ciudad, direccion completa y barrio. Recuerdale que paga al recibir. No vuelvas a saludar ni a presentarte.)";
+                        "Si el cliente ya eligio que se lleva, agrega ACCION_PEDIDO con el producto del catalogo que corresponda. Si todavia no eligio, recuerdale en una o dos lineas las opciones que se le ofrecieron con su precio, preguntale cual se lleva y pidele SOLO su nombre completo (13-nov-2026, Wendy: los datos se piden uno por uno, nunca todos juntos). Recuerdale que paga al recibir. No vuelvas a saludar ni a presentarte.)";
                   const { mensajeVisible, productoId, productoActual } = await preguntarleALaIA(sesion, nota, sesion.ultimoProducto ? { tipo: "producto", valor: sesion.ultimoProducto } : null, telefono);
                   // La nota no se queda en el historial tal cual (Michell creeria despues que el cliente la escribio)
                   const turnoNota = sesion.historial.find((h) => h.role === "user" && h.content === nota);
@@ -6132,7 +6143,7 @@ app.post("/admin/chat/:telefono/cerrar-venta", requiereLogin, async (req, res) =
                         sesion.ultimoProducto = productoId;
                         sesion.esperandoDatosPedidoLibre = null;
                         await iniciarPedido(telefono, productoId);
-                  } else if (/nombre/i.test(mensajeVisible || "") && /direcci[oó]n/i.test(mensajeVisible || "")) {
+                  } else if (/nombre/i.test(mensajeVisible || "")) {
                         sesion.esperandoDatosPedidoLibre = new Date().toISOString();
                   }
                   if (!mensajeVisible && !productoId) throw new Error("La IA no devolvio ningun mensaje");
