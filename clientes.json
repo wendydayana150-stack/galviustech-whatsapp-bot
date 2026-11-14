@@ -45,8 +45,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:00:51.731Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-14T13:01:13.669Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -141,9 +141,28 @@
         "fecha": "2026-11-14T13:00:50.748Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkY0MDUwMEQ0N0VEQTkzRkY4NAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy en maicao la Guajira",
+        "fecha": "2026-11-14T13:01:10.016Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Maicao es un lugar donde ese módem te puede servir muy bien porque capta mejor la señal que un celular común y te conecta donde haya cobertura 4G o 5G.\n\nTe recuerdo que tienes tres opciones con la misma inversión:\n\n📶 Modem 4G a $199.900 con envío GRATIS  \n🚀 Modem 4G/5G a $199.900 + $26.000 de envío  \n⚡ Modem 5G a $199.900 + $26.000 de envío\n\nYo te recomendaría el *modem 4G/5G* porque así tienes lo mejor de los dos mundos, funciona en zonas 4G y también donde ya haya 5G disponible.\n\n¿Lo quieres para estudio, trabajo, para tu negocio o uso en casa? Así es la opción ideal.",
+        "fecha": "2026-11-14T13:01:12.126Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjAzNjVBNkEzOUVBMTQzMEFEQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T13:01:12.800Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkE5QTg2MzU3NkZFQ0NGMEQyRgA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
