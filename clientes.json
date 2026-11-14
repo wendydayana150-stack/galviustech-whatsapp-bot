@@ -5570,8 +5570,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:04:55.295Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-14T13:05:34.178Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5855,9 +5855,21 @@
         "fecha": "2026-11-14T13:04:54.624Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSOEIwQjQ2MTdEMTZFQ0UwMDEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Chao",
+        "fecha": "2026-11-14T13:05:33.363Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Entiendo, gracias por contarme! 😊 Aquí quedo para cuando lo necesites. ¡Que tengas un lindo día! 🙌",
+        "fecha": "2026-11-14T13:05:33.364Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRTEwRDU4NzM3MUQ3MUI2RUVCAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
