@@ -6634,8 +6634,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-14T02:43:58.347Z",
-    "mensajes": 24,
+    "ultimoContacto": "2026-11-14T13:49:17.276Z",
+    "mensajes": 25,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6976,6 +6976,13 @@
         "fecha": "2026-11-14T02:43:57.333Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSMUE2N0UzNzBDNjBBQTE0Nzk0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Como quedamos ayer, te dejo listo tu *Modem* hoy. Cuando llegue a la oficina, la transportadora te avisa y con el *número de guía* que te enviamos por aquí lo retiras, pagando al recibir ✅\r\n\r\nDime tu *nombre completo* y arrancamos 🙌",
+        "fecha": "2026-11-14T13:49:16.299Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSRkI0RDdBRTIxM0Q4OEE4QUU2AA=="
       }
     ],
     "paso": "conversando",
@@ -6986,7 +6993,7 @@
       "telefono": "573146127850",
       "medioPago": "Contra entrega"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
