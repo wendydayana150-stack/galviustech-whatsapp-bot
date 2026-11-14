@@ -336,9 +336,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     }
   },
   {
@@ -2191,9 +2192,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     }
   },
   {
@@ -4088,9 +4090,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas1": true
     }
   },
   {
@@ -5902,9 +5905,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
@@ -7009,9 +7013,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
@@ -8233,9 +8238,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
@@ -8395,9 +8401,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas1": true
     }
   },
   {
@@ -8906,9 +8913,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
@@ -9112,9 +9120,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-14T14:50:37.140Z"
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
@@ -17928,6 +17937,13 @@
         "fecha": "2026-11-14T14:50:10.089Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQyNzkzNDgwFQIAERgSMTczRjQ4NDdGOTUwMUIyRjhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-14T15:52:46.427Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQyNzkzNDgwFQIAERgSQkIzNDBBMDBBMTJBOTM3NjEwAA=="
       }
     ],
     "paso": "conversando",
@@ -17950,7 +17966,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-14T15:52:47.519Z"
     },
     "escasezFecha": "2026-11-13"
   },
