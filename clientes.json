@@ -6694,8 +6694,8 @@
     "telefono": "573146127850",
     "nombre": "J",
     "primerContacto": "2026-11-13T18:12:52.433Z",
-    "ultimoContacto": "2026-11-14T13:49:17.276Z",
-    "mensajes": 25,
+    "ultimoContacto": "2026-11-14T14:13:58.756Z",
+    "mensajes": 26,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7043,6 +7043,13 @@
         "fecha": "2026-11-14T13:49:16.299Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSRkI0RDdBRTIxM0Q4OEE4QUU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🔥 ¡Ojo! El *Modem 4G* está con *30% de descuento* y quedan las *últimas unidades* en promoción.\r\n\r\nSi lo quieres asegurar, dime tu *nombre completo* y te lo dejo listo hoy. Pagas al recibir 🚚",
+        "fecha": "2026-11-14T14:13:57.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2MTI3ODUwFQIAERgSRkE5QTBBQjhFODA3NUUxN0JBAA=="
       }
     ],
     "paso": "conversando",
@@ -7053,7 +7060,7 @@
       "telefono": "573146127850",
       "medioPago": "Contra entrega"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
