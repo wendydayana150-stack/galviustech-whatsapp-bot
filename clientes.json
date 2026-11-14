@@ -105,8 +105,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:04:28.530Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-14T13:04:57.239Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -280,6 +280,18 @@
         "fecha": "2026-11-14T13:04:27.545Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjNFOUZDQUQ1MUQ2MTdDMzA0QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye era municipio de uribia",
+        "fecha": "2026-11-14T13:04:56.114Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
+        "fecha": "2026-11-14T13:04:56.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjMzOTQ1NEQ0OEZBREFBRThCMwA="
       }
     ],
     "paso": "pedido_pago",
