@@ -3,8 +3,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T04:57:14.305Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-14T04:58:43.200Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-14T04:57:13.376Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSNjMxRDFGQjRCOTJCOURBOTkzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las selva del Vaupés",
+        "fecha": "2026-11-14T04:58:38.793Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, la selva del Vaupés es una zona rural donde la cobertura 4G suele ser más estable que la 5G y es importante tener señal fuerte. El *Modem WiFi Portátil 4G/5G* es ideal para ti porque capta tanto 4G como 5G, entonces siempre tendrás conexión aunque no haya 5G en tu zona.\n\nLa inversión sería de $199.900 + $26.000 de envío, paga contra entrega y con garantía de 30 días. Puede conectar hasta 10 dispositivos al mismo tiempo y dura hasta 14 horas de batería.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo necesitas para estudiar, trabajar, hacer videoconferencias, o para otro uso? Así te ayudo mejor.",
+        "fecha": "2026-11-14T04:58:41.914Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSRDU1MEUyOEI2MzlEOEE0QUJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-14T04:58:42.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSOTkwQUZGNkJEQUQ5RTM1Qjg3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8yrlB5MiC",
       "fecha": "2026-11-14T04:57:12.320Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2603763896732411",
