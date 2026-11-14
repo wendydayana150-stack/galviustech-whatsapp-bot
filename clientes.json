@@ -2462,8 +2462,8 @@
     "telefono": "573224999870",
     "nombre": "Rafael Enrique Bustillo F",
     "primerContacto": "2026-11-13T22:43:36.152Z",
-    "ultimoContacto": "2026-11-13T22:48:19.104Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-14T03:05:01.576Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2522,6 +2522,18 @@
         "fecha": "2026-11-14T00:53:15.980Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0OTk5ODcwFQIAERgSRTIzMzQwM0NGMDg1NDYwODVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Qt no está el día de la gizk",
+        "fecha": "2026-11-14T03:04:59.538Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, no entendí bien tu mensaje. ¿Podrías contarme en qué municipio o vereda necesitas el modem y para qué lo vas a usar? Así te puedo recomendar la mejor opción para que tengas internet donde más lo necesites.",
+        "fecha": "2026-11-14T03:05:00.871Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0OTk5ODcwFQIAERgSMDYzN0E0NUYyNjJENzE4NzRDAA=="
       }
     ],
     "paso": "conversando",
@@ -2544,10 +2556,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T00:53:17.263Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
