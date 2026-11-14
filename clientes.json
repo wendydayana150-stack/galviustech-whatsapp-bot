@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:06:05.203Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-14T05:06:12.707Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -203,6 +203,25 @@
         "fecha": "2026-11-14T05:06:04.438Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSMENCMEMxMTBEM0VGNThDODNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que llegue asta la casa",
+        "fecha": "2026-11-14T05:06:10.231Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, te dejo tu pedido listo para que te llegue el módem 4G/5G a tu casa, pago contra entrega y con garantía de 30 días.",
+        "fecha": "2026-11-14T05:06:11.378Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSQzgyRjM4QzFBMjdENzRBQjk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-14T05:06:11.925Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSOTkxNTdGOEY4ODZGNEUxOEU4AA=="
       }
     ],
     "paso": "pedido_nombre",
