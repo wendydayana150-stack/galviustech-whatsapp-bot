@@ -45,8 +45,8 @@
     "telefono": "CO.1796096471656579",
     "nombre": "frank",
     "primerContacto": "2026-11-14T12:59:02.280Z",
-    "ultimoContacto": "2026-11-14T13:00:20.849Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-14T13:00:23.256Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -110,6 +110,18 @@
         "fecha": "2026-11-14T13:00:20.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEjg4RTIxQUI2NjUyOENCRDVGQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-14T13:00:22.555Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-14T13:00:22.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc5NjA5NjQ3MTY1NjU3ORUUABEYEkExRDRBQzhGRkRFOTFFREE2MAA="
       }
     ],
     "paso": "pedido_nombre",
