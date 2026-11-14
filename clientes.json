@@ -1585,8 +1585,8 @@
     "telefono": "CO.2220550715562160",
     "nombre": "✨👑 Gladys 🌻",
     "primerContacto": "2026-11-14T01:57:24.701Z",
-    "ultimoContacto": "2026-11-14T02:04:28.808Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-14T13:48:55.101Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1907,13 +1907,20 @@
         "fecha": "2026-11-14T12:08:22.002Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEjIzOEQxODNBNjgyOUJCQjJDOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Gladys! 😊 Te separo la *Impresora NETUM* que elegiste:\r\n\r\n🖨️ *Impresora NETUM*: *$249.900* con *envío GRATIS* 🚚\r\n✅ Pagas al recibir y tiene garantía de 30 días\r\n📦 Trae papel incluido para empezar\r\n\r\nQuedan pocas unidades en promoción. ¿Te la dejo lista para despacho hoy? Dime tu *nombre completo* y arrancamos 🙌",
+        "fecha": "2026-11-14T13:48:54.092Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjIyMDU1MDcxNTU2MjE2MBUUABEYEkQ2Mjc0NzJBNzg5NUEwMDYwQwA="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
       "productoId": "impresora-termica"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
@@ -1931,10 +1938,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T12:08:24.728Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
