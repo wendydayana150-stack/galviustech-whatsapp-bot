@@ -5472,8 +5472,8 @@
     "telefono": "573239109622",
     "nombre": "El Negrou",
     "primerContacto": "2026-11-13T19:29:39.269Z",
-    "ultimoContacto": "2026-11-14T13:02:08.072Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-14T13:02:22.863Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5556,13 +5556,41 @@
         "fecha": "2026-11-14T13:02:07.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSOUMzMTBFM0E3RTgxQjFBOTJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Mesa Plegable Laptop",
+        "fecha": "2026-11-14T13:02:20.474Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mesa Plegable Laptop",
+        "fecha": "2026-11-14T13:02:20.474Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSMDJDNzBCMDc5OEIyNDE5NkRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Mesa Plegable Ergonómica para Laptop y Tablet*\n💰 *$ 59.900* ya con *30% de descuento* 🔥\n✅ Para usar el portátil en la cama o el sofá\n✅ Se dobla y se guarda en cualquier rincón\n✅ Ranura para sostener el celular o la tablet\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-14T13:02:21.041Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSQzcyNDA0NzE1Qzc3NDU4QTgzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-14T13:02:21.516Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM5MTA5NjIyFQIAERgSRjJFMDg5OTJFNEI4NkQ3RkI5AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "mesa-plegable"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "mesa-plegable",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
