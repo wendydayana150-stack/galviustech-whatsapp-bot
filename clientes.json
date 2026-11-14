@@ -474,8 +474,8 @@
     "telefono": "573135618689",
     "nombre": "Yilser Hurtado 😍🥰",
     "primerContacto": "2026-11-13T22:52:11.584Z",
-    "ultimoContacto": "2026-11-14T01:01:12.471Z",
-    "mensajes": 30,
+    "ultimoContacto": "2026-11-14T01:01:23.939Z",
+    "mensajes": 31,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1016,9 +1016,21 @@
         "fecha": "2026-11-14T01:01:11.842Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSMDA3NjRDRDA1NjA4QUIyM0VEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-14T01:01:22.919Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 199.900) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-14T01:01:23.282Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NjE4Njg5FQIAERgSQUQxMTMzNjc5NzEwRTkwMTJCAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
