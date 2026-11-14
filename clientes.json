@@ -63,8 +63,8 @@
     "telefono": "573122678906",
     "nombre": "Alfredo",
     "primerContacto": "2026-11-14T04:57:14.305Z",
-    "ultimoContacto": "2026-11-14T05:04:49.325Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-14T05:05:08.088Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -179,6 +179,18 @@
         "fecha": "2026-11-14T05:04:48.586Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSMkJCRTJGQUFFQTY1QTRBRTRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y una pregunta eso funciona con luz",
+        "fecha": "2026-11-14T05:05:05.956Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no necesita estar conectado a la luz todo el tiempo porque tiene batería recargable por USB-C que dura hasta 14 horas en uso continuo.\n\nSolo cargas la batería y luego lo puedes usar sin enchufar hasta que se agote la carga. Así lo puedes llevar a cualquier lado sin problema.\n\n¿Quieres aprovechar para que te deje el pedido listo y que te llegue a tu casa o prefieres recogerlo en la transportadora?",
+        "fecha": "2026-11-14T05:05:07.245Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNjc4OTA2FQIAERgSMjA5NUQzNThENTk5RDBEQjVFAA=="
       }
     ],
     "paso": "conversando",
