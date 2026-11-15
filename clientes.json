@@ -3,8 +3,8 @@
     "telefono": "CO.1476108624443878",
     "nombre": "Yo",
     "primerContacto": "2026-11-15T20:59:34.899Z",
-    "ultimoContacto": "2026-11-15T20:59:34.899Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T21:00:48.220Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-15T20:59:34.123Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ3NjEwODYyNDQ0Mzg3OBUUABEYEjlENUJFMzRFNzEyMzIzQ0ZBOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En montería pero como manejo un camión me sirve ya que es pequeño y lo puedo cargar en el volcillo",
+        "fecha": "2026-11-15T21:00:43.679Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Montería está bien cubierto por 4G y 5G; para tu camión lo ideal es el Modem WiFi Portatil 4G/5G, que conecta varios dispositivos y es fácil de transportar.\n\nLa inversión sería de $199.900 + $26.000 de envío, y lo pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a la dirección donde estás? 😃",
+        "fecha": "2026-11-15T21:00:46.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NjEwODYyNDQ0Mzg3OBUUABEYEkE3ODQwMUIxODg3NzdERDcwNwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-15T21:00:47.348Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ3NjEwODYyNDQ0Mzg3OBUUABEYEjQyNEM2QjVBMzYzOUExNDg2MAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/9JrNB1ikK",
       "fecha": "2026-11-15T20:59:32.543Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573209648208",
