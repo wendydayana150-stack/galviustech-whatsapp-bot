@@ -2824,8 +2824,8 @@
     "telefono": "573208488138",
     "nombre": "Venancio Castillo",
     "primerContacto": "2026-11-14T13:22:16.587Z",
-    "ultimoContacto": "2026-11-14T13:22:16.587Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T15:07:16.815Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2865,6 +2865,13 @@
         "fecha": "2026-11-14T14:30:35.000Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4NDg4MTM4FQIAERgSRTE2NTlGNzNFMzU5OTVGRTI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Venancio Castillo, sobre nuestros productos",
+        "fecha": "2026-11-15T15:07:15.801Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4NDg4MTM4FQIAERgSOEIyNUI0RTJDQUZGRkJFNDI5AA=="
       }
     ],
     "paso": "conversando",
@@ -2887,10 +2894,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T15:32:44.818Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-15"
   },
