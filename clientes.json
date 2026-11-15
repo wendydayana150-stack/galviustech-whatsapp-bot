@@ -11120,8 +11120,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-14T14:13:52.778Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-15T14:16:43.673Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11245,6 +11245,25 @@
         "fecha": "2026-11-14T14:13:51.702Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSQTMxRjA0QzlEOTY3MjhENTI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya compré por temu. Gracias",
+        "fecha": "2026-11-15T14:16:39.579Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Raúl, gracias por avisarme. Cualquier cosa que necesites o si más adelante quieres algo de GalviusTech, aquí estaré para ayudarte con atención personalizada y garantía.\n\nQue te vaya muy bien con tu compra y cualquier duda, escríbeme sin problema. ¡Saludos! 😊",
+        "fecha": "2026-11-15T14:16:42.338Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSOTlFRkI0OEQ2Q0U0MjFCMzUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-15T14:16:42.940Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRTc4NDZERDBCMjY0OTc3NTBCAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11272,12 +11291,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-14T16:52:44.704Z",
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
