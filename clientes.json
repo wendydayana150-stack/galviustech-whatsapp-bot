@@ -11166,8 +11166,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-15T16:05:30.064Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-15T16:06:34.152Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11394,9 +11394,28 @@
         "fecha": "2026-11-15T16:05:29.194Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSN0UwMTQxREUxQTc0MDQyREM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya compré",
+        "fecha": "2026-11-15T16:06:30.584Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, muchas gracias por confiar en GalviusTech 😊 Si necesitas ayuda con la impresora cuando te llegue o quieres más productos, aquí estoy para apoyarte.\n\n¿Quieres que te agregue asesoría para la configuración o algo más?",
+        "fecha": "2026-11-15T16:06:32.446Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSOUMxNUY5REZGMkUyQ0RFMUZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Impresora Térmica Portátil de Etiquetas Clabel 221B* ($ 155.000) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-15T16:06:33.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSMDgzMTFFQzA0QjMyOUZFMDJDAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_nombre",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
