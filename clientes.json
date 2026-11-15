@@ -3450,8 +3450,8 @@
     "telefono": "CO.1146250857773152",
     "nombre": "jhc",
     "primerContacto": "2026-11-14T09:34:54.159Z",
-    "ultimoContacto": "2026-11-14T09:34:54.159Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T15:08:07.225Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3498,6 +3498,13 @@
         "fecha": "2026-11-14T12:08:16.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE0NjI1MDg1Nzc3MzE1MhUUABEYEjVFNjBDQUVCRkQ1QjREM0UyMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola jhc, sobre Impresora NETUM",
+        "fecha": "2026-11-15T15:08:06.272Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE0NjI1MDg1Nzc3MzE1MhUUABEYEjZGNDc2MTUwNEE3QzBENEE4QwA="
       }
     ],
     "paso": "conversando",
@@ -3520,10 +3527,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T12:08:24.728Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-15"
   },
