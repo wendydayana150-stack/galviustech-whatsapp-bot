@@ -11166,8 +11166,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-15T15:26:36.077Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-15T16:05:18.747Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11343,9 +11343,28 @@
         "fecha": "2026-11-15T16:04:27.660Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSNjg2NEZBMzU5MTM1NzI2NDAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya compré en temu. Gracias",
+        "fecha": "2026-11-15T16:05:14.852Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, cualquier cosa aquí estaré para ayudarte en el futuro con GalviusTech. Que quede pendiente si necesitas algo más adelante. \n\n¿Quieres que te muestre otros productos que tenemos para casa o negocio?",
+        "fecha": "2026-11-15T16:05:17.321Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSMTg4RUExRkJGMTA0QzU5MDI0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-15T16:05:17.862Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRUJBRTYwMzYyQTRGQjZDMzNGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
@@ -11370,9 +11389,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-15T16:04:28.755Z"
+      "seguimientosEnviados": 0
     }
   },
   {
