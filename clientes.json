@@ -3,8 +3,8 @@
     "telefono": "573142459671",
     "nombre": "Ell Ner",
     "primerContacto": "2026-11-15T01:08:02.198Z",
-    "ultimoContacto": "2026-11-15T01:08:46.025Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-15T01:10:37.050Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -169,6 +169,18 @@
         "fecha": "2026-11-15T01:08:44.977Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSOTg2MEZDODdCMEIyNkE0ODVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En donde se encuentra su ubicación",
+        "fecha": "2026-11-15T01:10:34.905Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\n¿En qué ciudad o vereda estás para confirmar envío y cobertura de señal? Así te oriento mejor.",
+        "fecha": "2026-11-15T01:10:35.989Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSRkI0NTI4MEIxNUJFRUE2NDhEAA=="
       }
     ],
     "paso": "confirmar_producto",
