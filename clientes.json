@@ -3,8 +3,8 @@
     "telefono": "573142459671",
     "nombre": "Ell Ner",
     "primerContacto": "2026-11-15T01:08:02.198Z",
-    "ultimoContacto": "2026-11-15T01:10:37.050Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-15T01:13:05.650Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -181,6 +181,25 @@
         "fecha": "2026-11-15T01:10:35.989Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSRkI0NTI4MEIxNUJFRUE2NDhEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me interesa saber si hay posibilidad de hacer llegar hasta el amazonas",
+        "fecha": "2026-11-15T01:13:01.045Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, hacemos envíos a toda Colombia, incluido Amazonas. El envío a esa zona cuesta $26.000 adicionales al precio del producto.\n\n¿Quieres saber cuál versión del módem te sirve mejor para tu lugar y para qué lo usarías? Así te recomiendo la opción que más te conviene.",
+        "fecha": "2026-11-15T01:13:04.054Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSREI4Q0MzQzRCQzU2MkRCOUM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-15T01:13:04.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSNjREQkEwQjE1NTdCMTFGQTA3AA=="
       }
     ],
     "paso": "confirmar_producto",
