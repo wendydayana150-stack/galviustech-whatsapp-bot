@@ -11166,8 +11166,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-15T14:16:43.673Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-15T15:26:36.077Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -11317,6 +11317,25 @@
         "fecha": "2026-11-15T14:52:15.582Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSNUM3NTBBRUE3RTAzRDFBMjEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya compré. Gracias",
+        "fecha": "2026-11-15T15:26:32.012Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribirme y contarme. Si en algún momento quieres tu impresora Clabel 221B con garantía y atención personalizada, cuentas conmigo. Que te vaya excelente con tu compra. 😊",
+        "fecha": "2026-11-15T15:26:34.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRTc4MzU5MTE2RjZFNzc0ODEzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-15T15:26:35.431Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSM0QwMzI1NzJCRTExNzkzMkMwAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11344,9 +11363,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-15T14:52:16.771Z"
+      "seguimientosEnviados": 0
     }
   },
   {
