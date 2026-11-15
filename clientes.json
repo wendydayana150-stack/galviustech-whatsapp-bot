@@ -3,8 +3,8 @@
     "telefono": "573142459671",
     "nombre": "Ell Ner",
     "primerContacto": "2026-11-15T01:08:02.198Z",
-    "ultimoContacto": "2026-11-15T01:08:06.538Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-15T01:08:12.780Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,32 @@
         "fecha": "2026-11-15T01:08:05.734Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSN0QxQkE1MTMzRDA1MjYzNzc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bnas q cuenta",
+        "fecha": "2026-11-15T01:08:09.927Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, la inversión para el Modem WiFi Portátil 4G es de $199.900 con envío GRATIS y pagas al recibir. Es ideal para conectar toda tu familia, trabajar, estudiar o viajar sin depender de fibra óptica ni instalaciones complicadas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué municipio o vereda lo usarías para recomendarte la mejor opción según tu zona?",
+        "fecha": "2026-11-15T01:08:11.183Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSRjNCMDc4RUVBMjBFRDU0RDFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-15T01:08:11.767Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSMjQ0NjJGQUEwQUFENUZGMDg4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
