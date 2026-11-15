@@ -68,6 +68,13 @@
         "fecha": "2026-11-15T14:13:54.991Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5NjQ4MjA4FQIAERgSOUIwNTVERDAxMzRFQTgwQzU1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-15T15:14:27.985Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5NjQ4MjA4FQIAERgSNEY5NUZERTg3NEI2REQzRjREAA=="
       }
     ],
     "paso": "conversando",
@@ -85,7 +92,9 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-15T15:14:30.530Z"
     }
   },
   {
@@ -1791,9 +1800,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-15T14:12:19.176Z"
+      "ultimoEnvio": "2026-11-15T15:14:30.530Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-15"
   },
@@ -1945,9 +1955,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-15T14:12:19.176Z"
+      "ultimoEnvio": "2026-11-15T15:14:30.530Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-15"
   },
@@ -2139,9 +2150,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-15T14:12:19.176Z"
+      "ultimoEnvio": "2026-11-15T15:14:30.530Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-15"
   },
@@ -14957,6 +14969,13 @@
         "fecha": "2026-11-15T14:12:18.118Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSMjhBNkY4N0E5MkRGM0Y5NkZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 Tu *Módem* sigue en promoción, pero quedan las *últimas unidades* 🔥\n\n💵 Pagas al recibir.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-15T15:14:29.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MjE5ODgxFQIAERgSNzVGRTk4RTBERjZBODQxRTUxAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -14987,10 +15006,11 @@
       "texto": "Donde estan ubicados ustedes"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-15T14:12:19.176Z",
-      "horas1": true
+      "ultimoEnvio": "2026-11-15T15:14:30.530Z",
+      "horas1": true,
+      "horas3": true
     },
     "escasezFecha": "2026-11-14"
   },
