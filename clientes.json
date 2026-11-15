@@ -3,8 +3,8 @@
     "telefono": "573027846355",
     "nombre": "😇😇😇",
     "primerContacto": "2026-11-15T12:25:03.654Z",
-    "ultimoContacto": "2026-11-15T12:25:03.654Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T12:26:37.386Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-15T12:25:02.653Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI3ODQ2MzU1FQIAERgSNTBFQTk1RUZBREJDQTI0QTlEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ah agarra cualquier operadora?",
+        "fecha": "2026-11-15T12:26:33.189Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, los módems son compatibles con SIM Card de todos los operadores en Colombia: Claro, Movistar, Tigo, WOM y ETB. \n\nSolo debes insertar tu SIM, encenderlo y conectarte; es super fácil. ¿En qué municipio o vereda vas a usarlo? Así te recomiendo la mejor opción para tu zona.",
+        "fecha": "2026-11-15T12:26:36.156Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI3ODQ2MzU1FQIAERgSQTYzMEQwQTQ2QzdDQzEwQ0IzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5k0nycAUc",
       "fecha": "2026-11-15T12:25:00.952Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573007972385",
