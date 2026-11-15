@@ -3,8 +3,8 @@
     "telefono": "573245093543",
     "nombre": "Adrian",
     "primerContacto": "2026-11-15T22:43:09.222Z",
-    "ultimoContacto": "2026-11-15T22:43:09.222Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T22:43:43.009Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-15T22:43:08.420Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1MDkzNTQzFQIAERgSRjgwNkRGRENGQTlCMEI3QjU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como",
+        "fecha": "2026-11-15T22:43:39.337Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Dale! Para ayudarte bien, ¿puedes contarme en qué municipio o vereda necesitas el módem? Así mismo, ¿lo quieres para estudiar, trabajar, para tu casa o para viajar? \n\nMientras tanto, te recuerdo que los tres modelos que tenemos son:\n\n📶 Modem 4G (más económico y con envío gratis)  \n📶 Modem 4G/5G (ideal porque agarra 4G y 5G donde haya cobertura)  \n📶 Modem 5G (cuando tienes buena señal 5G y quieres la máxima velocidad)  \n\n¿Me cuentas algo de dónde y para qué lo usarías? Así te oriento mejor.",
+        "fecha": "2026-11-15T22:43:42.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1MDkzNTQzFQIAERgSMUFCODk4ODE3OTRFNUM2QjYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8q77vg4Wc",
       "fecha": "2026-11-15T22:43:07.023Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573117899112",
