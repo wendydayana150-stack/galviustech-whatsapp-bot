@@ -11266,6 +11266,13 @@
         "fecha": "2026-11-15T14:16:42.940Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRTc4NDZERDBCMjY0OTc3NTBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora Clabel 221B* ya está *casi listo para despachar* 🚚\n\n💰 *$ 155.000* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-15T14:52:15.582Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSNUM3NTBBRUE3RTAzRDFBMjEyAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -11293,7 +11300,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-15T14:52:16.771Z"
     }
   },
   {
