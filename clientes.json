@@ -2999,8 +2999,8 @@
     "telefono": "573225374391",
     "nombre": "Edgar Garcia",
     "primerContacto": "2026-11-14T13:00:15.649Z",
-    "ultimoContacto": "2026-11-14T13:00:15.649Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T15:07:42.419Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3027,6 +3027,13 @@
         "fecha": "2026-11-14T14:09:03.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSNTc0NzlDNjExOUY1NTEyRDVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Edgar Garcia, sobre nuestros productos",
+        "fecha": "2026-11-15T15:07:41.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1Mzc0MzkxFQIAERgSRDk1REZCNjIxNkZFODdGNDI5AA=="
       }
     ],
     "paso": "conversando",
@@ -3044,10 +3051,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T15:10:35.316Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-15"
   },
