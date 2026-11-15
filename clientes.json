@@ -3,8 +3,8 @@
     "telefono": "573142459671",
     "nombre": "Ell Ner",
     "primerContacto": "2026-11-15T01:08:02.198Z",
-    "ultimoContacto": "2026-11-15T01:08:02.198Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T01:08:06.538Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-15T01:08:01.395Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSNDkyMjkyNUFERTM4MkNFNUI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-15T01:08:04.063Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, ¿en qué municipio o vereda necesitas el módem y para qué lo quieres usar? Así te recomiendo el ideal para ti.",
+        "fecha": "2026-11-15T01:08:05.734Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyNDU5NjcxFQIAERgSN0QxQkE1MTMzRDA1MjYzNzc1AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6BkvIAGuN",
       "fecha": "2026-11-15T01:08:00.105Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573043197874",
