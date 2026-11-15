@@ -3660,8 +3660,8 @@
     "telefono": "573249976627",
     "nombre": "MI NEGRITA",
     "primerContacto": "2026-11-14T05:17:47.000Z",
-    "ultimoContacto": "2026-11-14T05:17:47.000Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-15T15:08:32.663Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3708,6 +3708,13 @@
         "fecha": "2026-11-14T12:08:17.955Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ5OTc2NjI3FQIAERgSQTA1OTQ0NEU3QTIzMzI2Rjc4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola MI NEGRITA, sobre Impresora NETUM",
+        "fecha": "2026-11-15T15:08:31.724Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ5OTc2NjI3FQIAERgSNjc3MzVGMDA5NTIxRTVBRjA3AA=="
       }
     ],
     "paso": "conversando",
@@ -3730,10 +3737,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-14T12:08:24.728Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-15"
   },
