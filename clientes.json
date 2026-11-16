@@ -970,8 +970,8 @@
     "telefono": "CO.1823763022184638",
     "nombre": "Sandra Patricia Salazar G",
     "primerContacto": "2026-11-15T05:25:02.405Z",
-    "ultimoContacto": "2026-11-16T17:22:50.917Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-16T17:23:12.103Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1075,13 +1075,55 @@
         "fecha": "2026-11-16T17:22:49.701Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjUzOUUwRkE5NUE2QUU2OTAyQgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Goojprt PT-210",
+        "fecha": "2026-11-16T17:23:08.548Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-11-16T17:23:08.549Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjQxN0RBMkQzQzUxNEEwNENDMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-11-16T17:23:09.279Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjlGQzI3NEU2NkIyQUY4OTQ1NAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Goojprt PT-210",
+        "fecha": "2026-11-16T17:23:09.928Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjE5ODEwMjlCODRFQjcxOEE1QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil Goojprt PT-210*\n💰 *$ 149.900* ya con *30% de descuento* 🔥\n✅ Recibos y tirillas al instante, tipo POS\n✅ Para tienda, domicilios y ventas en campo\n✅ Portátil y sin tinta\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-16T17:23:10.609Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjFCQUFGNDFFMEI0NjZBMUE0RAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-16T17:23:11.313Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjc4QUIxMzJFNzlDOTFENjhEMwA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica-portatil-goojprt-pt-210"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
