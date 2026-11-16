@@ -970,8 +970,8 @@
     "telefono": "CO.1823763022184638",
     "nombre": "Sandra Patricia Salazar G",
     "primerContacto": "2026-11-15T05:25:02.405Z",
-    "ultimoContacto": "2026-11-16T17:23:19.572Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-16T17:23:28.889Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1148,15 +1148,34 @@
         "fecha": "2026-11-16T17:23:18.815Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEkM0RjA1QkJDRjcyN0MzNzUzMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Clabel 221B",
+        "fecha": "2026-11-16T17:23:27.302Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-11-16T17:23:27.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjdFNDhGNzQyMzA0OTVGMjJCMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil de Etiquetas Clabel 221B*\n💰 *$ 155.000* ya con *30% de descuento* 🔥\n✅ Etiquetas con precio, código de barras y vencimiento\n✅ Sin tinta ni tóner\n✅ Incluye un rollo de etiquetas para empezar\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-16T17:23:27.973Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEkExNEY2RkM4NEYwNTBGN0UwMwA="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "mini-impresora-de-etiquetas-termica-p5-bluetooth"
+      "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "mini-impresora-de-etiquetas-termica-p5-bluetooth",
+    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
