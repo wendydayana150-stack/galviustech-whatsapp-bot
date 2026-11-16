@@ -6420,8 +6420,8 @@
     "telefono": "573246859100",
     "nombre": "RAÚL RINCÓN ROBLES",
     "primerContacto": "2026-11-13T15:31:36.485Z",
-    "ultimoContacto": "2026-11-15T16:06:34.152Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-16T14:26:20.316Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6674,6 +6674,25 @@
         "fecha": "2026-11-16T14:11:22.879Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSMzlERDJBMzQ4MDFFQjgzOURDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Le repito que ya la compré, por favor no me envíe ofertas.",
+        "fecha": "2026-11-16T14:26:15.743Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa si insistí, respetaré que ya tomaste tu decisión. Quedo atenta si en algún momento necesitas ayuda o información de GalviusTech. Que te vaya muy bien. 😊",
+        "fecha": "2026-11-16T14:26:18.912Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSRjNDRTgxQTlFMERDRDRBNEUxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-16T14:26:19.454Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ2ODU5MTAwFQIAERgSNzJEN0EwQkQ0MDcwRjNGMjU4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -6701,9 +6720,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-16T14:11:23.830Z"
+      "seguimientosEnviados": 0
     }
   },
   {
