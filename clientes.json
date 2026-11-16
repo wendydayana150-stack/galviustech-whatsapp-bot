@@ -756,8 +756,8 @@
     "telefono": "573007972385",
     "nombre": "Noralba Corona",
     "primerContacto": "2026-11-15T11:13:56.426Z",
-    "ultimoContacto": "2026-11-15T11:13:56.426Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-16T15:06:48.190Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -791,6 +791,13 @@
         "fecha": "2026-11-15T13:22:44.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA3OTcyMzg1FQIAERgSMDRFNUZFNTQ4MDRCQUE0NDY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Noralba Corona, sobre nuestros productos",
+        "fecha": "2026-11-16T15:06:47.065Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA3OTcyMzg1FQIAERgSNjc2QTI0REQzQUM4RTM4MDhGAA=="
       }
     ],
     "paso": "conversando",
@@ -808,10 +815,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-15T13:22:46.266Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-16"
   },
