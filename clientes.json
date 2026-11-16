@@ -970,8 +970,8 @@
     "telefono": "CO.1823763022184638",
     "nombre": "Sandra Patricia Salazar G",
     "primerContacto": "2026-11-15T05:25:02.405Z",
-    "ultimoContacto": "2026-11-16T15:07:12.992Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-16T17:22:06.586Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1039,6 +1039,18 @@
         "fecha": "2026-11-16T16:13:14.464Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjk0MDIyREMwNTRFN0MzMTg5MAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-16T17:22:05.245Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-16T17:22:05.245Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjU4M0ZDOThDN0JFNzIzQUEzNwA="
       }
     ],
     "paso": "conversando",
@@ -1061,10 +1073,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-16T17:13:10.166Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-16"
   },
