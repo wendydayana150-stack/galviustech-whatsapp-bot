@@ -908,8 +908,8 @@
     "telefono": "CO.1823763022184638",
     "nombre": "Sandra Patricia Salazar G",
     "primerContacto": "2026-11-15T05:25:02.405Z",
-    "ultimoContacto": "2026-11-15T05:25:02.405Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-16T15:07:12.992Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -956,6 +956,13 @@
         "fecha": "2026-11-15T12:02:46.234Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjBDNkM5RDUxQjk1REE0QTY5RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Sandra Patricia Salazar G, sobre Impresora NETUM",
+        "fecha": "2026-11-16T15:07:11.999Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEkRERkIxNDA5MzYzNENBQUYyRAA="
       }
     ],
     "paso": "conversando",
@@ -978,10 +985,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-15T12:02:52.148Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-16"
   },
