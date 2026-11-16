@@ -3,8 +3,8 @@
     "telefono": "573044306718",
     "nombre": "anibalalmario72",
     "primerContacto": "2026-11-16T14:23:43.456Z",
-    "ultimoContacto": "2026-11-16T14:23:43.456Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-16T22:12:34.787Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -44,13 +44,25 @@
         "fecha": "2026-11-16T15:33:09.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0MzA2NzE4FQIAERgSMDNCOTMyQkQwM0JCMzFGNkNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si el módem hay que mantenerlo conectado",
+        "fecha": "2026-11-16T22:12:29.072Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem tiene batería recargable por USB-C que dura hasta 14 horas de uso continuo. No necesitas tenerlo siempre conectado, así puedes llevarlo a donde quieras sin estar pegado a un enchufe. ¿En qué lugar lo usarías más, para estudiar, trabajar o tu negocio?",
+        "fecha": "2026-11-16T22:12:33.443Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0MzA2NzE4FQIAERgSQkEwMzk2RjAxM0ZFNDIxMjMyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -66,10 +78,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-16T16:33:09.207Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
