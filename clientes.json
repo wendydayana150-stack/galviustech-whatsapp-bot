@@ -576,8 +576,8 @@
     "telefono": "573003656252",
     "nombre": "Jose",
     "primerContacto": "2026-11-15T12:33:42.946Z",
-    "ultimoContacto": "2026-11-15T12:33:42.946Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-16T15:06:21.335Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -617,6 +617,13 @@
         "fecha": "2026-11-15T13:42:44.933Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAzNjU2MjUyFQIAERgSMENDNTgyNDRFNUY0QTRBNkYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jose, sobre nuestros productos",
+        "fecha": "2026-11-16T15:06:20.217Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAzNjU2MjUyFQIAERgSOTRFRjZBNTlCQzI0MDE2QTU3AA=="
       }
     ],
     "paso": "conversando",
@@ -639,10 +646,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-15T14:42:15.945Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-16"
   },
