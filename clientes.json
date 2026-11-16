@@ -970,8 +970,8 @@
     "telefono": "CO.1823763022184638",
     "nombre": "Sandra Patricia Salazar G",
     "primerContacto": "2026-11-15T05:25:02.405Z",
-    "ultimoContacto": "2026-11-16T17:23:28.889Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-16T17:23:43.355Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1167,15 +1167,41 @@
         "fecha": "2026-11-16T17:23:27.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEkExNEY2RkM4NEYwNTBGN0UwMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Mini Impresora Bluetooth",
+        "fecha": "2026-11-16T17:23:40.953Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Mini Impresora Bluetooth",
+        "fecha": "2026-11-16T17:23:40.953Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjNBRUEzQTM5MTc2MEE4NTIwNAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Mini Impresora Térmica Portátil Bluetooth*\n💰 *$ 109.900* ya con *30% de descuento* 🔥\n✅ Notas, listas, QR y stickers desde el celular\n✅ Sin tinta y cabe en el bolsillo\n✅ Incluye un rollo de papel para empezar\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-16T17:23:41.660Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjg1MTIwRjgzODY4QThCQUY3NgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-16T17:23:42.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgyMzc2MzAyMjE4NDYzOBUUABEYEjcyNjc0QkE1NjFEQ0I1ODhBQQA="
       }
     ],
     "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b"
+      "productoId": "mini-impresora-termica-portatil-bluetooth"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
+    "ultimoProducto": "mini-impresora-termica-portatil-bluetooth",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
