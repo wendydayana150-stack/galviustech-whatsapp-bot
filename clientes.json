@@ -823,8 +823,8 @@
     "telefono": "573215539953",
     "nombre": "te amaré asta último dese",
     "primerContacto": "2026-11-15T06:02:01.695Z",
-    "ultimoContacto": "2026-11-15T06:02:01.695Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-16T15:07:00.629Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -871,6 +871,13 @@
         "fecha": "2026-11-15T12:02:44.885Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1NTM5OTUzFQIAERgSNDRFOTdFNEZCRUM0QzIzQTVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola te amaré asta último dese, sobre nuestros productos",
+        "fecha": "2026-11-16T15:06:59.544Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1NTM5OTUzFQIAERgSMjBDNEQzQzlBNTBFRUExRTE4AA=="
       }
     ],
     "paso": "conversando",
@@ -893,10 +900,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-15T12:02:52.148Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-16"
   },
