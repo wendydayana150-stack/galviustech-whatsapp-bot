@@ -254,8 +254,8 @@
     "telefono": "CO.1080751465021836",
     "nombre": "Mary Es Mi Amor",
     "primerContacto": "2026-11-17T11:22:45.906Z",
-    "ultimoContacto": "2026-11-17T11:22:45.906Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-18T15:04:39.313Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -302,6 +302,13 @@
         "fecha": "2026-11-17T13:23:09.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTA4MDc1MTQ2NTAyMTgzNhUUABEYEkIzM0M5Q0ZEQURCNjhBQzc5MwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Mary Es Mi Amor, sobre Impresora NETUM",
+        "fecha": "2026-11-18T15:04:38.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTA4MDc1MTQ2NTAyMTgzNhUUABEYEjk4NDBGMzIwQzAxRTg0ODhDNwA="
       }
     ],
     "paso": "conversando",
@@ -324,10 +331,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-17T13:23:10.196Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-18"
   },
