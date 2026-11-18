@@ -3,8 +3,8 @@
     "telefono": "573186469551",
     "nombre": "Dalys 🥰🥰🥰",
     "primerContacto": "2026-11-18T15:40:21.772Z",
-    "ultimoContacto": "2026-11-18T15:40:21.772Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-18T15:41:06.307Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-18T15:40:20.861Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSRTlEMzZFMkIwNjdBODI3M0M4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ando buscando este",
+        "fecha": "2026-11-18T15:41:02.135Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, pero necesito que me digas exactamente cuál producto es o me envíes el nombre o una descripción corta para identificarlo bien y darte los detalles que necesitas.\n\n¿Es un módem, una impresora, una lámpara, una cámara o algo más? ¿Para qué lo necesitas principalmente?",
+        "fecha": "2026-11-18T15:41:05.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg2NDY5NTUxFQIAERgSRkEwNTUzOUJENjA1NTFEOEUwAA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217679522",
