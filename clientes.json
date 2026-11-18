@@ -3,8 +3,8 @@
     "telefono": "573502967982",
     "nombre": "Hola mi señor es mi guiaa",
     "primerContacto": "2026-11-18T02:50:59.168Z",
-    "ultimoContacto": "2026-11-18T02:50:59.168Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-18T02:51:18.466Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,52 @@
         "fecha": "2026-11-18T02:50:58.523Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTAyOTY3OTgyFQIAERgSOEQ3RDc4MUQ5MURDQzE4MTNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una buena de promoción",
+        "fecha": "2026-11-18T02:51:12.412Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "☀️ Mira *todas las opciones* de reflectores y lámparas solares, con fotos y precios, en nuestro catálogo 👇\n🛍️ https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-18T02:51:15.821Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyOTY3OTgyFQIAERgSMUMwOUI0NkUxODFGMUVFNDU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Combo x2 Reflectores 500W",
+        "fecha": "2026-11-18T02:51:16.313Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyOTY3OTgyFQIAERgSODdFODFBNURBNzNGMTI3QjA2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Combo x2 Reflectores 500W]",
+        "fecha": "2026-11-18T02:51:17.079Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Te cuento la promoción estrella que tenemos ahorita:\n\n🔥 *Combo x2 Reflectores Solares Jortan 500W con control remoto* por solo *$249.900* con envío GRATIS.\n\nDos reflectores para iluminar grandes áreas sin gastar en luz, con tecnología solar resistente al agua y fácil de controlar desde casa. La mejor solución para seguridad y ahorro en exteriores.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo reserve y te lo envíe? ¿O quieres que te muestre otras opciones de lamparas o reflectores? 💡🚚",
+        "fecha": "2026-11-18T02:51:17.083Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyOTY3OTgyFQIAERgSQjhCRTE5NzUzOTFEOEI3QzIwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-18T02:51:17.654Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTAyOTY3OTgyFQIAERgSNDE5OTMyNzQ5MkY1Njg2NzZFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "reflectores-x2-500w-con-control-remoto",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +78,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1080751465021836",
