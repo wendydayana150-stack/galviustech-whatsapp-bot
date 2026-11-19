@@ -3029,8 +3029,8 @@
     "telefono": "573147538455",
     "nombre": "🥰😘yazmin😍🥰",
     "primerContacto": "2026-11-13T21:56:10.681Z",
-    "ultimoContacto": "2026-11-19T13:05:39.914Z",
-    "mensajes": 26,
+    "ultimoContacto": "2026-11-19T13:06:15.169Z",
+    "mensajes": 27,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3467,6 +3467,18 @@
         "fecha": "2026-11-19T13:05:39.133Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ3NTM4NDU1FQIAERgSMjI3NDUyNURDRERFNUNDN0EwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya va para una semana y nada",
+        "fecha": "2026-11-19T13:06:12.316Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después de despachado, pero entiendo que ya pasó tiempo y eso no es lo ideal 🙁\n\nTu pedido está registrado y en proceso, te recomiendo estar pendiente del número de guía que te enviaremos para el seguimiento.\n\nSi quieres, puedo avisar al equipo para que te den soporte directo.\n\n¿Quieres que haga eso por ti?",
+        "fecha": "2026-11-19T13:06:14.409Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ3NTM4NDU1FQIAERgSQTJGOEY1NjhEQzhDOTY1NEE1AA=="
       }
     ],
     "paso": "conversando",
@@ -3475,8 +3487,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Ya va para una semana y nada\"",
     "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
