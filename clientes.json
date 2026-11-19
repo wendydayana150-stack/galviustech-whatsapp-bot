@@ -3,8 +3,8 @@
     "telefono": "573205911665",
     "nombre": "JEFFERSON CAMILO LÓPEZ CÁRDENAS",
     "primerContacto": "2026-11-19T21:49:35.077Z",
-    "ultimoContacto": "2026-11-19T21:49:35.077Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-19T21:50:18.159Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-19T21:49:34.386Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNDZGODRDNzE5ODU5NkIxNDQyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero eso es un repeat o si da internet",
+        "fecha": "2026-11-19T21:50:15.825Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí da internet, es un módem WiFi portátil que convierte la señal móvil 4G o 5G en WiFi para conectar varios dispositivos a internet donde estés. Perfecto si no tienes fibra óptica o necesitas conexión en finca, vereda, viajes, estudio o trabajo.\n\n¿Me contas en qué ciudad o municipio lo piensas usar y para qué principalmente? Así te recomiendo el modelo que mejor te sirve.",
+        "fecha": "2026-11-19T21:50:17.370Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNjhFMTE1QTZDNzZGODVDQ0M0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GnssIk5M",
       "fecha": "2026-11-19T21:49:33.261Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573227272379",
