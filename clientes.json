@@ -3,8 +3,8 @@
     "telefono": "573205911665",
     "nombre": "JEFFERSON CAMILO LÓPEZ CÁRDENAS",
     "primerContacto": "2026-11-19T21:49:35.077Z",
-    "ultimoContacto": "2026-11-19T21:52:15.762Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-19T21:52:59.254Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,13 +104,48 @@
         "fecha": "2026-11-19T21:52:14.972Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNjdBNzEyN0UyNzI4MTJFRkNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Reflector Solar 500W",
+        "fecha": "2026-11-19T21:52:56.831Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 500W",
+        "fecha": "2026-11-19T21:52:56.831Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSOTBCNkY1RTUxRjBGOTk1QjY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 500W",
+        "fecha": "2026-11-19T21:52:57.359Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNDFGODhCOTQ4OUQxQjZBQTBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reflector Solar LED 500W Jortan con Control Remoto*\n💰 *$ 169.900* ya con *30% de descuento* 🔥\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-19T21:52:57.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNkEyRUJBMzAyRjcyNjc5QjVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-19T21:52:58.342Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSMzM2MTM0Q0UxRjlCNTUxREY3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reflector-solar-led-500w-con-control-remoto"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "reflector-solar-led-500w-con-control-remoto",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
