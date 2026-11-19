@@ -5,7 +5,15 @@
     "primerContacto": "2026-11-19T10:32:32.189Z",
     "ultimoContacto": "2026-11-19T10:32:32.189Z",
     "mensajes": 1,
-    "conversacion": [],
+    "conversacion": [
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-19T11:35:23.359Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE1MTg1NjU0NzM0MTQ1NhUUABEYEjhENzM2QTMzOTRBNjBDOTNBOAA="
+      }
+    ],
     "paso": "inicio",
     "pedido": {},
     "pausado": false,
@@ -19,7 +27,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-19T11:35:24.573Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "50253038361",
