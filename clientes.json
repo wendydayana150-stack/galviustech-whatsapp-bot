@@ -3,8 +3,8 @@
     "telefono": "573205911665",
     "nombre": "JEFFERSON CAMILO LÓPEZ CÁRDENAS",
     "primerContacto": "2026-11-19T21:49:35.077Z",
-    "ultimoContacto": "2026-11-19T22:01:41.347Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-19T22:01:43.183Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -305,6 +305,18 @@
         "fecha": "2026-11-19T22:01:40.552Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNTI2ODdDRjcxODI4M0QwRTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio de morales Bolívar",
+        "fecha": "2026-11-19T22:01:42.491Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, ya tengo tu municipio! 😊 Ahora necesito la *dirección*: calle y número (o vereda / finca).\n\nSi prefieres recogerlo en la oficina de Interrapidísimo de tu municipio, escríbeme *oficina*.",
+        "fecha": "2026-11-19T22:01:42.492Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNDZDRUI0MTc1MjVDMENGQzE3AA=="
       }
     ],
     "paso": "pedido_direccion",
