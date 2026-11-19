@@ -78,8 +78,8 @@
     "telefono": "573115279549",
     "nombre": "sys",
     "primerContacto": "2026-11-19T20:53:30.951Z",
-    "ultimoContacto": "2026-11-19T20:59:48.647Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-19T21:00:08.339Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -155,6 +155,18 @@
         "fecha": "2026-11-19T20:59:47.933Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1Mjc5NTQ5FQIAERgSQTYwQ0M2MkZBQTI1REVDNDBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y es que en la finca no coje nada nada de señal",
+        "fecha": "2026-11-19T21:00:05.126Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si en tu finca no hay señal de ningún operador (Claro, Tigo, Movistar, WOM), el módem no podrá funcionar porque necesita una SIM con señal móvil.\n\nEl módem tiene antena potente para captar mejor que un celular normal, así que dime si el celular realmente no muestra señal en ese lugar o si es solo débil, para ver si el módem puede ayudar.\n\n¿Probaste con alguien más en la finca o un vecino si hay alguna señal intermitente? ¿O necesitas que te sugiera otra solución?",
+        "fecha": "2026-11-19T21:00:07.588Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Mjc5NTQ5FQIAERgSRUM4REY2Mzk2ODc4NTVEMTkxAA=="
       }
     ],
     "paso": "conversando",
