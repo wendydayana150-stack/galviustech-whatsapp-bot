@@ -109,8 +109,8 @@
     "telefono": "573115279549",
     "nombre": "sys",
     "primerContacto": "2026-11-19T20:53:30.951Z",
-    "ultimoContacto": "2026-11-19T21:00:08.339Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-19T21:00:58.129Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -198,6 +198,25 @@
         "fecha": "2026-11-19T21:00:07.588Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1Mjc5NTQ5FQIAERgSRUM4REY2Mzk2ODc4NTVEMTkxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No es muy poca la señal",
+        "fecha": "2026-11-19T21:00:55.549Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, si la señal es poca pero sí hay algo, nuestro módem 4G/5G tiene antena mucho más potente que un celular común, así que mejora la cobertura y conexión en esos sitios difíciles como fincas o veredas.\n\nLa inversión es de $199.900 + $26.000 de envío, pago contra entrega y garantía de 30 días.\n\n¿Quieres que te ayude a dejar tu pedido listo para que no dependas más de la señal del celular en la finca? 😊",
+        "fecha": "2026-11-19T21:00:57.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Mjc5NTQ5FQIAERgSREYyNUMyODhGMTFEREY5NzBGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-19T21:00:57.507Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1Mjc5NTQ5FQIAERgSMkQ3MkY0ODg0OUM3REM4NEJCAA=="
       }
     ],
     "paso": "conversando",
