@@ -3,8 +3,8 @@
     "telefono": "51916330943",
     "nombre": "jl1014",
     "primerContacto": "2026-11-19T13:59:38.765Z",
-    "ultimoContacto": "2026-11-19T13:59:38.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-19T14:00:35.215Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-19T13:59:38.156Z",
         "estado": "enviado",
         "wamid": "wamid.HBgLNTE5MTYzMzA5NDMVAgARGBI0NkI3RjE0RUVEQ0NDMkVGMzkA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es en peru",
+        "fecha": "2026-11-19T14:00:26.541Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme, pero GalviusTech hace envíos solo dentro de Colombia 🇨🇴. Si tienes familia o amigos allá que puedan recibir el paquete, podrías coordinar con ellos. ¿O me cuentas en qué parte de Colombia estarás para ayudarte con la mejor opción de módem? \n\n¿Quieres que te muestre las versiones disponibles para Colombia? 📶",
+        "fecha": "2026-11-19T14:00:34.377Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgLNTE5MTYzMzA5NDMVAgARGBI5NzY3RTgxQjVGQ0UwNzUwM0QA"
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8mWbe55Q5",
       "fecha": "2026-11-19T13:59:37.036Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1151856547341456",
