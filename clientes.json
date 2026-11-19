@@ -3,8 +3,8 @@
     "telefono": "573205911665",
     "nombre": "JEFFERSON CAMILO LÓPEZ CÁRDENAS",
     "primerContacto": "2026-11-19T21:49:35.077Z",
-    "ultimoContacto": "2026-11-19T21:50:18.159Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-19T21:50:29.784Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,18 @@
         "fecha": "2026-11-19T21:50:17.370Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSNjhFMTE1QTZDNzZGODVDQ0M0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En zonas donde no hay señal",
+        "fecha": "2026-11-19T21:50:26.118Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, en zonas sin señal de ningún operador el módem no podrá conectarse porque necesita una SIM con cobertura. Pero si hay señal débil, nuestro módem con antena potente suele captar mejor que un celular común.\n\n¿Me podrías decir el municipio o vereda exacta? Así te confirmo si en esa zona es viable y te recomiendo el mejor modelo para que no te quedes sin internet.",
+        "fecha": "2026-11-19T21:50:29.048Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSRUMzMzk3RjMyQUI4OUNGRjBEAA=="
       }
     ],
     "paso": "conversando",
