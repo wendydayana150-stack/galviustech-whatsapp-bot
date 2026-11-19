@@ -269,8 +269,8 @@
     "telefono": "573227272379",
     "nombre": "Cristian silva",
     "primerContacto": "2026-11-19T21:47:58.159Z",
-    "ultimoContacto": "2026-11-19T21:52:10.042Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-19T21:53:50.658Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -334,6 +334,18 @@
         "fecha": "2026-11-19T21:52:09.388Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MjcyMzc5FQIAERgSNUU5N0Q4MENGNEE1OUUzMUQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si vivo en el campo donde no entra la señal eso serviría",
+        "fecha": "2026-11-19T21:53:48.051Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu campo no hay señal de ningún operador (ni Claro, ni Tigo, ni Movistar, ni WOM), el módem no podrá conectarse porque funciona con una SIM celular.\n\nPero la antena del módem es mucho más potente que un celular común y a veces capta señal donde el celular no; ¿tu celular realmente no tiene ni una sola barra de señal allá?\n\nCuéntame para orientarte bien y no dejar que pierdas la oportunidad de tener buena conexión.",
+        "fecha": "2026-11-19T21:53:49.778Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MjcyMzc5FQIAERgSNzkzMUFEOTM2REE1RDhGMkYyAA=="
       }
     ],
     "paso": "conversando",
