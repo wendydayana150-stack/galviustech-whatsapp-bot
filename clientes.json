@@ -3,8 +3,8 @@
     "telefono": "573108165210",
     "nombre": "Darkis Esperanza Farfan",
     "primerContacto": "2026-11-19T22:38:36.798Z",
-    "ultimoContacto": "2026-11-19T22:38:36.798Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-19T22:41:10.268Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-19T22:38:36.191Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA4MTY1MjEwFQIAERgSREE2N0M1N0QxQTVGMkE5RTJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy de San Luis de Palenque Casanare pero vivo en la vereda barquereña de San Luis de Palenque",
+        "fecha": "2026-11-19T22:41:05.599Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para San Luis de Palenque en Casanare, que es zona rural, te recomiendo el *Modem WiFi Portatil 4G/5G* a $199.900 + $26.000 de envío.\n\n🚀 Este modem convierte la señal 4G o 5G en WiFi para varios dispositivos, ideal para fincas y veredas donde no llega la fibra óptica.\n\n🔋 Batería dura hasta 14 horas, fácil de usar y transportable.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a la vereda barquereña o prefieres recogerlo en la oficina de la transportadora de tu municipio?",
+        "fecha": "2026-11-19T22:41:09.010Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MTY1MjEwFQIAERgSODZFNjAzOEIyQkRERDk3NDkyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-19T22:41:09.595Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA4MTY1MjEwFQIAERgSNzRFRjJDMEU1REU4Mzg5RDZEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8HEQKIaM3",
       "fecha": "2026-11-19T22:38:34.794Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573138554781",
