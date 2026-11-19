@@ -3,8 +3,8 @@
     "telefono": "573205911665",
     "nombre": "JEFFERSON CAMILO LÓPEZ CÁRDENAS",
     "primerContacto": "2026-11-19T21:49:35.077Z",
-    "ultimoContacto": "2026-11-19T21:58:14.912Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-19T21:58:42.184Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -269,16 +269,29 @@
         "fecha": "2026-11-19T21:58:14.196Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSMjY5N0REMkRGODFCODZGRjk5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3205911665",
+        "fecha": "2026-11-19T21:58:41.407Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-19T21:58:41.407Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTExNjY1FQIAERgSRUI5MTEwNTVFRDVBMzBBNkUwAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573205911665",
       "departamento": "Bolivar",
-      "nombreCliente": "Yeferson camilo López cardenas"
+      "nombreCliente": "Yeferson camilo López cardenas",
+      "celular": "3205911665"
     },
     "pausado": false,
     "etapaManual": null,
