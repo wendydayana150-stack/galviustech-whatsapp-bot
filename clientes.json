@@ -3,8 +3,8 @@
     "telefono": "573206687776",
     "nombre": "yedir pernia",
     "primerContacto": "2026-11-20T14:28:29.083Z",
-    "ultimoContacto": "2026-11-20T14:28:29.083Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T14:29:33.180Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-20T14:28:28.138Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2Njg3Nzc2FQIAERgSMkEzOUM5RDdGQUU4QjIwMDE2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "y eso funciona sin otro internet",
+        "fecha": "2026-11-20T14:29:28.032Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, este módem capta la señal móvil 4G o 5G directamente de tu operador (Claro, Movistar, Tigo, WOM o ETB), y la convierte en WiFi para que conectes tus dispositivos sin depender de otro internet ni cableado.\n\nFunciona independiente, solo necesitas tener cobertura móvil en la zona donde lo uses.\n\n¿En qué municipio o vereda lo quieres usar para recomendarte la versión ideal?",
+        "fecha": "2026-11-20T14:29:32.210Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2Njg3Nzc2FQIAERgSQjgyMUZGNjU2MEJCQjBBMkJBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T14:28:26.514Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1442363308098297",
