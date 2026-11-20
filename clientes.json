@@ -1869,8 +1869,8 @@
     "telefono": "573024512088",
     "nombre": "Jorge Anzola 🦎",
     "primerContacto": "2026-11-20T05:43:42.658Z",
-    "ultimoContacto": "2026-11-20T05:43:42.658Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T12:31:32.061Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1917,6 +1917,18 @@
         "fecha": "2026-11-20T12:07:46.083Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSRDg5MTlGQkJDNzVFN0ZFNTZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola!",
+        "fecha": "2026-11-20T12:31:28.471Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas usar el módem? Así te ayudo a elegir el ideal para ti según para qué lo vas a usar (trabajo, estudio, hogar o viaje). ¿Me cuentas un poco?",
+        "fecha": "2026-11-20T12:31:31.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSREJEODk0NUVCRTA2MUJEOTUwAA=="
       }
     ],
     "paso": "conversando",
@@ -1939,10 +1951,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T12:08:00.796Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
