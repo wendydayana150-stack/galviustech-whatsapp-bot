@@ -3,8 +3,8 @@
     "telefono": "573212949225",
     "nombre": "edwincordoba485",
     "primerContacto": "2026-11-20T05:35:19.763Z",
-    "ultimoContacto": "2026-11-20T05:39:52.722Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-20T05:40:09.461Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -156,15 +156,28 @@
         "fecha": "2026-11-20T05:39:52.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSQjlDOEYyQkNBRTRCMkZBODZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sieto nobetamil bale",
+        "fecha": "2026-11-20T05:40:08.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-20T05:40:08.761Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSQkQzNUZCMjBBOTBDODQ4NTVDAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573212949225",
-      "departamento": "Putumayo"
+      "departamento": "Putumayo",
+      "nombreCliente": "Sieto nobetamil bale"
     },
     "pausado": false,
     "etapaManual": null,
