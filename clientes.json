@@ -3,8 +3,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T18:36:34.811Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T18:39:33.303Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-20T18:36:34.262Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSM0Q3OEU0QzVEMjg0NkY5NUNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es cierto y seguro? Y cuanto dura",
+        "fecha": "2026-11-20T18:39:26.391Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, es totalmente seguro y confiable. Estos módems fueron diseñados para darte mejor cobertura que un celular común, sobre todo en fincas, veredas y zonas sin fibra óptica.\n\nLa batería dura hasta 14 horas encendido continuo con una sola carga, ideal para usarlo todo el día sin problema.\n\n¿En qué municipio o vereda lo necesitas para recomendarte la mejor opción según la cobertura?\n\n💰 *Modem 4G/5G*: $ 199.900 + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-20T18:39:31.680Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSMjVBRDcxMjMxNkYzNDQzNDY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T18:39:32.631Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSOTc5QTg3Q0RBNEM3RDUzMTAxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T18:36:33.483Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573017402194",
