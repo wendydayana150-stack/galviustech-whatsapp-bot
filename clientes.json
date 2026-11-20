@@ -870,8 +870,8 @@
     "telefono": "CO.4497669390486913",
     "nombre": "Nestor Lopez",
     "primerContacto": "2026-11-20T19:25:21.249Z",
-    "ultimoContacto": "2026-11-20T20:32:40.635Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-20T22:34:40.757Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -959,6 +959,13 @@
         "fecha": "2026-11-20T20:32:39.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEjNCQzlENkUzNUJGQ0FBMTFDRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para Medellin tenemos envio pago contraentrega o pago por transferencia",
+        "fecha": "2026-11-20T22:34:39.683Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEkEyMDM0NkJGN0VDRjZERjRCMQA="
       }
     ],
     "paso": "conversando",
@@ -967,8 +974,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cuantos dispositivos se pueden conectar?\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
