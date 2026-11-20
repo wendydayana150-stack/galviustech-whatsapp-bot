@@ -2792,8 +2792,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T20:04:42.658Z",
-    "mensajes": 34,
+    "ultimoContacto": "2026-11-20T22:37:12.759Z",
+    "mensajes": 35,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3058,11 +3058,32 @@
         "fecha": "2026-11-20T20:04:41.728Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkVCMUE5NTBBQUNCMDczNTk2RgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Tenemos estas opciones para ti:  \n📶 Módem 4G con envío GRATIS por $199.900  \n📶 Módem 4G/5G por $199.900 + $26.000 de envío  \n\n¿Cuál de las dos prefieres? Por fa, dime solo tu nombre completo para dejar todo listo y recuerde que pagas al recibir.",
+        "fecha": "2026-11-20T22:37:11.113Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkE5MEY0MDY2RjNFQzg1RDE2RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-20T22:37:12.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkEyQTc1QkI4RkZFNDZEMDkxNgA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
-    "pausado": true,
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "CO.1027957743683407",
+      "departamento": "Cauca",
+      "ciudad": "Ocasiones Es DifíCil Estar Reseal"
+    },
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
