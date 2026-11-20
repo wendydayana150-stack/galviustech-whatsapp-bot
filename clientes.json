@@ -3,8 +3,8 @@
     "telefono": "573212949225",
     "nombre": "edwincordoba485",
     "primerContacto": "2026-11-20T05:35:19.763Z",
-    "ultimoContacto": "2026-11-20T05:40:23.193Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-20T05:40:37.797Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -180,9 +180,21 @@
         "fecha": "2026-11-20T05:40:22.312Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSQjI2QjQ5MUEzQkY1MTQ5QTcwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mocoa putumayo",
+        "fecha": "2026-11-20T05:40:37.080Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-20T05:40:37.082Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSOTExQjQwQjNERTgxMDczMzRFAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -190,7 +202,8 @@
       "telefono": "573212949225",
       "departamento": "Putumayo",
       "nombreCliente": "Sieto nobetamil bale",
-      "celular": "3212949225"
+      "celular": "3212949225",
+      "ciudad": "Mocoa putumayo"
     },
     "pausado": false,
     "etapaManual": null,
