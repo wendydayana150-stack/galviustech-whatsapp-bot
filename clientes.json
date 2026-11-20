@@ -1878,8 +1878,8 @@
     "telefono": "573024512088",
     "nombre": "Jorge Anzola 🦎",
     "primerContacto": "2026-11-20T05:43:42.658Z",
-    "ultimoContacto": "2026-11-20T12:40:01.074Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-20T12:45:59.577Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1981,6 +1981,18 @@
         "fecha": "2026-11-20T12:40:00.194Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSQjIyNDNDRTM2MDU4ODlFRkIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si Gusta desde un día antes del 1 de Diciembre me Escribe! Pues si yo no lo Hago! Lo nececito para Esa fecha...",
+        "fecha": "2026-11-20T12:45:54.750Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, entiendo que deseas comprar más adelante. Solo ten en cuenta que las unidades en promoción se van rápido y el precio puede cambiar. \n\nCuando estés listo(a) para pedir, aquí estaré para ayudarte y dejar todo listo. Si quieres, te puedo mostrar otros productos o darte más info mientras tanto. ¿Quieres ver algo más?",
+        "fecha": "2026-11-20T12:45:58.814Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSRjVEQUIyOTZGMjVBRUNCOEJDAA=="
       }
     ],
     "paso": "conversando",
@@ -1991,7 +2003,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-12-01",
