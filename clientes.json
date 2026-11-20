@@ -3,8 +3,8 @@
     "telefono": "573235428221",
     "nombre": "melaniredmia5cortes",
     "primerContacto": "2026-11-20T01:14:21.357Z",
-    "ultimoContacto": "2026-11-20T01:14:21.357Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T01:15:30.118Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-20T01:14:20.864Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1NDI4MjIxFQIAERgSQzNEMjA5RjEwRUM1NkRERTkwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero acá no hay señal de movil",
+        "fecha": "2026-11-20T01:15:25.799Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador (Claro, Movistar, Tigo, etc.), lamentablemente el módem no podrá conectarse porque funciona con SIM móvil.\n\nSin embargo, la antena del módem tiene más potencia que un celular normal y a veces capta señal donde el celular no, ¿ya verificaste bien si tu celular no tiene señal en ese lugar?\n\n¿En qué municipio o vereda estás? Así te confirmo mejor. ¿Actualmente usas algún tipo de internet allí?",
+        "fecha": "2026-11-20T01:15:29.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDI4MjIxFQIAERgSQUY2QUMxMkVFQjYwMDVGQjVGAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8HEQKIaM3",
       "fecha": "2026-11-20T01:14:19.980Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573105470097",
