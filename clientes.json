@@ -1761,8 +1761,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T16:16:09.597Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T19:36:49.695Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1838,16 +1838,23 @@
         "fecha": "2026-11-20T16:16:07.188Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjQ4NUIwNzEyOUIyNkQ1RDY1OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-11-20T19:36:48.854Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjExNzQ3ODA4Q0Y4NkQ2MjIxNgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"No.  Te.  Agradesco.   Esto.   Es.  Estafa.  Y.  Robo.   Parcero a.  Sean. Honestos.  Ganensen. El. \"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
