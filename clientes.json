@@ -363,8 +363,8 @@
     "telefono": "573102237887",
     "nombre": "getulioguevar65",
     "primerContacto": "2026-11-20T18:57:53.065Z",
-    "ultimoContacto": "2026-11-20T19:03:32.085Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T19:41:54.667Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -409,16 +409,23 @@
         "fecha": "2026-11-20T19:03:31.433Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMjM3ODg3FQIAERgSMkM4MDlFRTA0OTVDOUMyOTExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la SIM que va en el módem debe tener datos activos para que puedas usar internet, como cuando cargas saldo o plan en un celular.  Es una inversión para que toda tu familia o varios dispositivos se conecten con una sola recarga.  Si prefieres, tenemos otras opciones para lo que necesites. ¿Quieres que te cuente de alguna?",
+        "fecha": "2026-11-20T19:41:53.824Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMjM3ODg3FQIAERgSMEI3QzQyN0JEMkZGNTkyNjYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para Leticia Amazonas \nBa a funcionar en un corregimiento de Leticia \nCorregimiento de Tarapacá Amaz\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
