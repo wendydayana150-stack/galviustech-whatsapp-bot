@@ -190,8 +190,8 @@
     "telefono": "CO.4497669390486913",
     "nombre": "Nestor Lopez",
     "primerContacto": "2026-11-20T19:25:21.249Z",
-    "ultimoContacto": "2026-11-20T19:25:21.249Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T20:26:44.159Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,6 +231,18 @@
         "fecha": "2026-11-20T20:26:05.473Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEjJDOEM0RDQ3NDkzNDg0RjVFMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vivo en Medellin",
+        "fecha": "2026-11-20T20:26:41.700Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T20:26:43.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEkY2QUM3QUFENDZCQUJFNDZBMgA="
       }
     ],
     "paso": "conversando",
@@ -239,8 +251,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Vivo en Medellin\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
@@ -253,9 +265,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T20:26:08.133Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
