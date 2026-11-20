@@ -220,6 +220,13 @@
         "fecha": "2026-11-20T20:24:27.992Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzNDAyMTg1NjI4MzM2MBUUABEYEkI1MTdEQTNCOTdCNzE2REI0RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-20T21:26:04.870Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzNDAyMTg1NjI4MzM2MBUUABEYEkQ3MEFEQjVBMDc4OTBGNDk2NwA="
       }
     ],
     "paso": "conversando",
@@ -235,7 +242,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-20T21:26:06.568Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573148959967",
@@ -354,6 +366,13 @@
         "fecha": "2026-11-20T20:26:04.773Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyNzI1NzM5FQIAERgSQzgwQTY4MzY2NThDMThFMzNDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍\n\n🛍️ Catálogo con fotos y precios: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-20T21:26:05.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyNzI1NzM5FQIAERgSQUU2QjZGQjUxODAxQkNFMzgzAA=="
       }
     ],
     "paso": "conversando",
@@ -377,8 +396,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-20T20:26:08.133Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-20T21:26:06.568Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
