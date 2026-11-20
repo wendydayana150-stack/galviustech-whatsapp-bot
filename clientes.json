@@ -63,8 +63,8 @@
     "telefono": "573102237887",
     "nombre": "getulioguevar65",
     "primerContacto": "2026-11-20T18:57:53.065Z",
-    "ultimoContacto": "2026-11-20T18:57:53.065Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T19:03:32.085Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-11-20T18:57:52.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyMjM3ODg3FQIAERgSQTNCNjhFRTdDMERGRkI0MDQzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para Leticia Amazonas \nBa a funcionar en un corregimiento de Leticia \nCorregimiento de Tarapacá Amazonas",
+        "fecha": "2026-11-20T19:03:30.156Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T19:03:31.433Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyMjM3ODg3FQIAERgSMkM4MDlFRTA0OTVDOUMyOTExAA=="
       }
     ],
     "paso": "conversando",
@@ -105,8 +117,8 @@
     "etapaManual": null,
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Para Leticia Amazonas \nBa a funcionar en un corregimiento de Leticia \nCorregimiento de Tarapacá Amaz\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
@@ -117,7 +129,10 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T18:57:51.450Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232449169",
