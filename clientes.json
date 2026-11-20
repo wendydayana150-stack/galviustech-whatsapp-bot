@@ -382,8 +382,8 @@
     "telefono": "573107972989",
     "nombre": "javier rodriguez",
     "primerContacto": "2026-11-20T12:02:12.372Z",
-    "ultimoContacto": "2026-11-20T14:52:37.561Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-20T14:53:04.939Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -492,6 +492,18 @@
         "fecha": "2026-11-20T14:52:36.786Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSRDZEOEE3QTNBMDBENUNFOTI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok gracias olvidelo",
+        "fecha": "2026-11-20T14:53:02.137Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribirme 😊 Si más adelante quieres la impresora o cualquier otro producto, aquí estaré para ayudarte. Que tengas un buen día. ¡Un saludo!",
+        "fecha": "2026-11-20T14:53:04.254Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSOUUyODI4M0VGRjU2N0I2MUY4AA=="
       }
     ],
     "paso": "conversando",
@@ -502,7 +514,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
