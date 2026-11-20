@@ -3,8 +3,8 @@
     "telefono": "573046709601",
     "nombre": "Dios",
     "primerContacto": "2026-11-20T04:05:30.383Z",
-    "ultimoContacto": "2026-11-20T04:05:30.383Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T04:14:54.756Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-20T04:05:29.818Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NzA5NjAxFQIAERgSNkRFREQxNjM5MTI0QTNDNTU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-20T04:14:49.494Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas usar el módem? Así te recomiendo el que mejor se adapta a tu lugar y uso. ¿Lo vas a usar para estudiar, trabajar, tu hogar o negocio?",
+        "fecha": "2026-11-20T04:14:54.120Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzA5NjAxFQIAERgSNjExMzY3MjVDNTYxM0M1M0ZCAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GnssIk5M",
       "fecha": "2026-11-20T04:05:28.926Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573206880389",
