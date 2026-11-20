@@ -3,8 +3,8 @@
     "telefono": "573219869806",
     "nombre": "💋",
     "primerContacto": "2026-11-20T14:58:05.526Z",
-    "ultimoContacto": "2026-11-20T14:59:03.861Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T15:00:07.605Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-11-20T14:59:03.298Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5ODY5ODA2FQIAERgSMjVCQThGRjA4QTExNUYwOEEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y la garantía",
+        "fecha": "2026-11-20T15:00:00.979Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM tiene garantía de 30 días para que imprimas con tranquilidad y respaldo.\n\n✅ Además, te llega a tu casa con envío GRATIS y pagas al recibir, así puedes revisarla antes de pagar.\n¿Te la dejo lista para despacho hoy mismo? 😊",
+        "fecha": "2026-11-20T15:00:06.797Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5ODY5ODA2FQIAERgSNUZEOEIwNUVFNUZEN0I1MjM5AA=="
       }
     ],
     "paso": "conversando",
@@ -71,7 +83,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-20T15:00:00.979Z",
+      "texto": "Y la garantía"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
