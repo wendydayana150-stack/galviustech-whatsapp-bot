@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T09:56:00.049Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-20T09:56:51.301Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -255,6 +255,25 @@
         "fecha": "2026-11-20T09:55:59.460Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSMURBNEM5M0U0RkYxRTVERjk3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Solo quiero lo de Internet sin el reloj",
+        "fecha": "2026-11-20T09:56:47.207Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem WiFi portátil 4G/5G lo puedes comprar solo, sin reloj ni combos.\n\nLa inversión es de *$199.900 + $26.000 de envío*, pagas al recibir y con garantía de 30 días. Perfecto para tener internet estable en tus zonas de trabajo.",
+        "fecha": "2026-11-20T09:56:50.094Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNTM5N0QzOUMwNjg0NTkxRUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-20T09:56:50.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNEQ0RTIyRjcwODlFQkU4OTVEAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -282,7 +301,10 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T09:08:07.277Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-20T09:56:47.207Z",
+      "texto": "Solo quiero lo de Internet sin el reloj"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
