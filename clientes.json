@@ -382,8 +382,8 @@
     "telefono": "573107972989",
     "nombre": "javier rodriguez",
     "primerContacto": "2026-11-20T12:02:12.372Z",
-    "ultimoContacto": "2026-11-20T14:51:20.755Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T14:51:39.565Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -442,6 +442,25 @@
         "fecha": "2026-11-20T14:51:19.848Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSMkQ0NDcyMjVFNUUyNTA2MzM4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dirección punto físico ciudad",
+        "fecha": "2026-11-20T14:51:36.499Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o recoges en la oficina de la transportadora.\n\nSolo trabajamos con tienda virtual, no contamos con punto físico abierto al público. ¿Quieres que te ayude a dejar tu pedido listo para envío? ¿En qué ciudad o municipio lo quieres recibir?",
+        "fecha": "2026-11-20T14:51:38.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSMzNENDlDMDc3RTQwNkUwQjM4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T14:51:38.846Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSMjM1OEMyQkY4RUFBMDdFRDVCAA=="
       }
     ],
     "paso": "conversando",
