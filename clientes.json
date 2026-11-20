@@ -3,8 +3,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T18:39:58.799Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-20T18:40:37.687Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-11-20T18:39:57.935Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSNDRDN0NDMzgwQjU4QUJCOTZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay qué hacer mensualidad, ni recarga?",
+        "fecha": "2026-11-20T18:40:36.354Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T18:40:37.086Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSNUQyNjJCMzhBOUY1RDNBQjVGAA=="
       }
     ],
     "paso": "conversando",
@@ -77,7 +89,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Y cada cuanto pagó? O como es\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"No hay qué hacer mensualidad, ni recarga?\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
