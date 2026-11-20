@@ -3,8 +3,8 @@
     "telefono": "573212949225",
     "nombre": "edwincordoba485",
     "primerContacto": "2026-11-20T05:35:19.763Z",
-    "ultimoContacto": "2026-11-20T05:39:28.496Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-20T05:39:52.722Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -144,10 +144,28 @@
         "fecha": "2026-11-20T05:39:27.848Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSMzE4QTY5ODU4QzJGMzRENDVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-20T05:39:51.741Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-20T05:39:52.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSQjlDOEYyQkNBRTRCMkZBODZFAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573212949225",
+      "departamento": "Putumayo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
