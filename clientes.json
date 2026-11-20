@@ -4465,8 +4465,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T10:07:21.047Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-20T19:51:23.860Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4826,6 +4826,13 @@
         "fecha": "2026-11-20T12:07:41.160Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSRUZENDU5Q0Q2MjQ0RjdDQUY4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, me confirmas TUS DATOS para el envio. Nombres, Dirección completa y Teléfono",
+        "fecha": "2026-11-20T19:51:23.128Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNkY4M0ZFODQwNTU2ODA0MUM3AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -4837,7 +4844,7 @@
       "nombreCliente": "Ver otros",
       "ciudad": "Fuerza PúBlica"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
@@ -4858,11 +4865,7 @@
       "texto": "Solo quiero lo de Internet sin el reloj"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-20T13:07:42.193Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
