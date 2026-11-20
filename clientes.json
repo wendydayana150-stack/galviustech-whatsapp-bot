@@ -63,8 +63,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T16:10:00.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T16:12:47.987Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,13 +97,32 @@
         "fecha": "2026-11-20T16:09:59.985Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkM5QjBERUQyRjM1MDYzOTVCNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Más.  Información.",
+        "fecha": "2026-11-20T16:12:41.725Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico rápido los beneficios:\n\n- Internet propio donde lo necesites, sin depender de fibra óptica ni instalaciones complicadas.\n- Puedes compartir WiFi con hasta 10 dispositivos a la vez, ideal para familia o trabajo.\n- Portátil y fácil de usar, lo cargas con USB-C y lo llevas a donde vayas.\n\nTe recomiendo el *Modem 4G/5G* que funciona en zonas con señal 4G o 5G y es la opción más segura si no sabes qué cobertura tienes. Estarías hablando de una inversión de $199.900 + $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo necesitas principalmente? ¿Estudio, trabajo, hogar o viajes? Así te ayudo mejor a elegir.",
+        "fecha": "2026-11-20T16:12:46.673Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkE1RDc2NjZBRDEwNTFEOEJBQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T16:12:47.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkY2QUMxRjMxRkFCREY5Q0Y3MwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -117,7 +136,10 @@
       "url": "https://www.instagram.com/p/DfV1zodMh50/",
       "fecha": "2026-11-20T16:09:58.913Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573243607019",
