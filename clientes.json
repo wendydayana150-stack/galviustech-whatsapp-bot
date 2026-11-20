@@ -85,8 +85,8 @@
     "telefono": "CO.1162148670063968",
     "nombre": "Elisa💙💙",
     "primerContacto": "2026-11-20T00:46:22.594Z",
-    "ultimoContacto": "2026-11-20T00:53:31.696Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-20T00:54:36.185Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -234,6 +234,18 @@
         "fecha": "2026-11-20T00:53:30.378Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE2MjE0ODY3MDA2Mzk2OBUUABEYEkU5RjUxQ0JGQjM5Q0UwMzkxOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuanto demora en llegar a palestina",
+        "fecha": "2026-11-20T00:54:33.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Llega en 1 a 3 días hábiles después de despacharlo, contado desde que confirmes tu pedido.\n\n¿Quieres que te ayude a dejar el pedido listo para enviarlo ya a Palestina? ¿Prefieres que te lo lleven a tu casa o recoges en la oficina de la transportadora?\n\n💰 *Modem 4G/5G*: $ 199.900 + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-20T00:54:35.388Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE2MjE0ODY3MDA2Mzk2OBUUABEYEkZERTg1QkZGNjZDQjA4ODA2NAA="
       }
     ],
     "paso": "conversando",
@@ -249,7 +261,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-20T00:54:33.759Z",
+      "texto": "Cuanto demora en llegar a palestina"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
