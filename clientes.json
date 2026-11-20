@@ -3,8 +3,8 @@
     "telefono": "CO.1145897797944510",
     "nombre": "Are",
     "primerContacto": "2026-11-20T02:10:00.180Z",
-    "ultimoContacto": "2026-11-20T02:10:00.180Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T02:12:07.300Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-20T02:09:59.213Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE0NTg5Nzc5Nzk0NDUxMBUUABEYEjk4OUZCQUQwNkQwNDczOTQ2MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cartagena Bolivar",
+        "fecha": "2026-11-20T02:12:01.611Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Cartagena Bolívar. Aquí tienes las 3 opciones de módem para que elijas según tu necesidad:\n\n📶 Modem WiFi Portátil 4G: $199.900 con envío GRATIS. Ideal si buscas ahorrar y solo necesitas internet 4G fuerte y estable.\n\n📶 Modem WiFi Portátil 4G/5G: $199.900 + $26.000 de envío. Funciona en 4G y 5G, la opción más segura para que sigas conectado aunque la zona vaya mejorando a 5G.\n\n📶 Modem WiFi Portátil 5G: $199.900 + $26.000 de envío. Para velocidades máximas si tienes buena cobertura 5G en Cartagena.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLos tres conectan varios dispositivos y la batería dura hasta 14 horas. ¿Para qué lo necesitas principalmente, estudiar, trabajar, negocio o casa? Así te ayudo con la mejor recomendación.",
+        "fecha": "2026-11-20T02:12:05.539Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE0NTg5Nzc5Nzk0NDUxMBUUABEYEjdCNzFBMTNENUVCNkNFMkFEOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-20T02:12:06.367Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE0NTg5Nzc5Nzk0NDUxMBUUABEYEkQ3MTlDNkYwNjlEOUUzM0VBRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/8HEQKIaM3",
       "fecha": "2026-11-20T02:09:57.675Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573011975756",
