@@ -1761,8 +1761,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T19:38:27.819Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-20T19:39:55.384Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1883,6 +1883,18 @@
         "fecha": "2026-11-20T19:38:27.075Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjIzQjc2NERCQzE5NTJFREY1NAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ahora siento que si estoy hablando con un ser humano mi amigo o mi amiga es que me hablan de comprar un Internet móvil y están hablando de no pago de factura entonces eso sí, me llaman la atención, quisiera que de pronto me explicas un poco mejor y si te hago una compra a ti cuando llegue el producto lo pagaría pero antes de pagarlo quisiera probarlo verlo porque las otras veces he comprado uno con ustedes y no con otras personas es más compré dos y que no lo podía revisar y en vez de llegarme Moens me llegaron fue antenas para televisión entonces hay un poco mi desconfianza y si de pronto es posible que me regales su número telefónico o que tú me llames a mí para poder hablar del tema, porque si realmente estoy interesado en la compra de del módem si me va muy bien con el Boeing quisiera comprar otro más",
+        "fecha": "2026-11-20T19:39:53.887Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T19:39:54.660Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkI5NTdFNTNBN0VFQTQyRTQxRAA="
       }
     ],
     "paso": "conversando",
@@ -1892,7 +1904,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Pero. Siento.  Que.  Me. Habla. Un robot.\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Ahora siento que si estoy hablando con un ser humano mi amigo o mi amiga es que me hablan de comprar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
