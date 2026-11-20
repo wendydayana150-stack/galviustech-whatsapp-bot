@@ -3,8 +3,8 @@
     "telefono": "573229076302",
     "nombre": "Monito",
     "primerContacto": "2026-11-20T07:05:13.972Z",
-    "ultimoContacto": "2026-11-20T07:08:22.765Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-20T07:09:51.593Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-11-20T07:08:22.087Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSREJGQjJBNEY3QTQ1OURGNDQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mira es que acá donde yo vivo la señal es mala",
+        "fecha": "2026-11-20T07:09:48.818Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, en zonas con señal débil el módem 4G/5G te puede ayudar mucho porque tiene una antena más potente que un celular, capta mejor la señal y mejora la conexión.\n\n¿Tienes idea de qué operador tienes (Claro, Movistar, Tigo, WOM) para confirmar mejor? Y cuántos dispositivos quieres conectar con el módem? Así te asesoro con más detalle.",
+        "fecha": "2026-11-20T07:09:51.001Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSMjEyMERGQzJBOEQzRkQ1MkQyAA=="
       }
     ],
     "paso": "conversando",
