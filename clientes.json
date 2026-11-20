@@ -3,8 +3,8 @@
     "telefono": "573183059418",
     "nombre": "MC",
     "primerContacto": "2026-11-20T11:18:47.974Z",
-    "ultimoContacto": "2026-11-20T11:18:47.974Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T11:19:30.226Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-20T11:18:47.265Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzMDU5NDE4FQIAERgSMTExRTlEMERBNTM3MDIyNDc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y donde se consigue el papel de impresión",
+        "fecha": "2026-11-20T11:19:27.310Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la impresora usa hojas térmicas, que puedes conseguir en cualquier papelería o directamente con nosotros 😊 También la impresora trae papel incluido para que puedas empezar a usarla desde el primer día.\n\n¿Quieres que te muestre las opciones de papel térmico tamaño carta que tenemos disponibles?",
+        "fecha": "2026-11-20T11:19:28.557Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzMDU5NDE4FQIAERgSQzE5MDRGOTA5OUFERDdCM0ZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-20T11:19:29.162Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzMDU5NDE4FQIAERgSMzRGMDNDQkExRTJCNzNBRjlGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "papel-termico-carta-rollo-9m",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -52,7 +71,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573128274332",
