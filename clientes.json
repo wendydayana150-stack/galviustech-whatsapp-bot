@@ -449,6 +449,13 @@
         "fecha": "2026-11-20T16:03:59.076Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQzNjA3MDE5FQIAERgSNUM5MDMyODBFMjhEM0NFNkUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-20T17:06:04.745Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQzNjA3MDE5FQIAERgSQzI4RDAwMUNCNThEOUQxQzFBAA=="
       }
     ],
     "paso": "conversando",
@@ -469,7 +476,12 @@
       "url": "https://fb.me/7NaCUFLeF",
       "fecha": "2026-11-20T16:03:58.073Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-20T17:06:06.070Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1563852282216408",
@@ -509,6 +521,13 @@
         "fecha": "2026-11-20T15:56:36.519Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU2Mzg1MjI4MjIxNjQwOBUUABEYEjdDRjY2Mjg3MjRGNEY0QThFMQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-20T17:06:05.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2Mzg1MjI4MjIxNjQwOBUUABEYEjQyQzQ4NUMyNERCNzdEN0U4OAA="
       }
     ],
     "paso": "conversando",
@@ -529,7 +548,12 @@
       "url": "https://fb.me/6BBHyQZHM",
       "fecha": "2026-11-20T15:56:35.212Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-20T17:06:06.070Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1016436007473012",
@@ -1257,8 +1281,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-20T16:06:06.534Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-20T17:06:06.070Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
