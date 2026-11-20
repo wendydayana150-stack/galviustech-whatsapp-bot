@@ -3,8 +3,8 @@
     "telefono": "573229076302",
     "nombre": "Monito",
     "primerContacto": "2026-11-20T07:05:13.972Z",
-    "ultimoContacto": "2026-11-20T07:06:50.400Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T07:07:22.776Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,32 @@
         "fecha": "2026-11-20T07:06:49.656Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSNTAxNjU2RUQ2MTgyMUFCNzQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hogar",
+        "fecha": "2026-11-20T07:07:19.989Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para uso en casa y teniendo conexión para varios dispositivos, te recomiendo el *Modem WiFi Portatil 4G/5G* que funciona tanto con 4G como con 5G, perfecto para que tengas buena velocidad donde haya cobertura.\n\nLa inversión sería de $199.900 + $26.000 de envío, y pagas al recibir con garantía y soporte de GalviusTech.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me dices en qué municipio o vereda estás para confirmar la cobertura y el envío?",
+        "fecha": "2026-11-20T07:07:21.700Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSNEMyNTQ1QjYxQzYxODJGNTEwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T07:07:22.183Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSN0FFMDM4QjkxQkEzRDY5RTg5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
