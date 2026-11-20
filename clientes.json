@@ -3,8 +3,8 @@
     "telefono": "573046766607",
     "nombre": "MrFautinoParra",
     "primerContacto": "2026-11-20T15:29:33.481Z",
-    "ultimoContacto": "2026-11-20T15:32:00.002Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-20T15:33:15.394Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -137,9 +137,28 @@
         "fecha": "2026-11-20T15:31:59.247Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSNERFRDg2NzYxN0VGMjkxREUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Viene con Una Rema de hoja o tengo q comprarlas aparte",
+        "fecha": "2026-11-20T15:33:12.461Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora NETUM ya viene con papel térmico tamaño carta incluido para que empieces a imprimir de una vez.\n\nMás adelante, si quieres, puedes comprar más hojas térmicas con nosotros o en papelerías.\n\n¿Quieres que te deje el pedido listo para envío a Ciénaga? 😊",
+        "fecha": "2026-11-20T15:33:14.109Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSQTI2MEU0M0EyN0JDNkNGN0JBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T15:33:14.663Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSREUzMEMwRTY3Q0QzQzhFMTRBAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
