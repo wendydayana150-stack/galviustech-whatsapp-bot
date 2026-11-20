@@ -63,8 +63,8 @@
     "telefono": "CO.961374243493394",
     "nombre": "Lucelida",
     "primerContacto": "2026-11-20T11:03:58.449Z",
-    "ultimoContacto": "2026-11-20T11:03:58.449Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T11:07:15.740Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-11-20T11:03:57.715Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTYxMzc0MjQzNDkzMzk0FRQAERgSMDgyMTY1MzkzMUU1M0VGNDhFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias. También imprime en hojas tamaño oficio?...",
+        "fecha": "2026-11-20T11:07:14.878Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-20T11:07:14.880Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTYxMzc0MjQzNDkzMzk0FRQAERgSRUJDNDE5RkEyQzJDNjM4RTY3AA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +129,10 @@
       "url": "https://fb.me/5rjOqEwJd",
       "fecha": "2026-11-20T11:03:56.226Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1206562231722120",
