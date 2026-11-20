@@ -382,8 +382,8 @@
     "telefono": "573107972989",
     "nombre": "javier rodriguez",
     "primerContacto": "2026-11-20T12:02:12.372Z",
-    "ultimoContacto": "2026-11-20T12:02:12.372Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T14:51:20.755Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -430,6 +430,18 @@
         "fecha": "2026-11-20T14:07:40.440Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSM0I0MjQ4MTQ0MTE5RkMxQjA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenos días",
+        "fecha": "2026-11-20T14:51:18.024Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Buenos días, ¿Cómo te puedo ayudar con la Impresora Térmica Portátil NETUM? 😊 ¿Para qué la necesitas, para estudio, trabajo o tu negocio?",
+        "fecha": "2026-11-20T14:51:19.848Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3OTcyOTg5FQIAERgSMkQ0NDcyMjVFNUUyNTA2MzM4AA=="
       }
     ],
     "paso": "conversando",
@@ -452,10 +464,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T14:07:41.281Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
