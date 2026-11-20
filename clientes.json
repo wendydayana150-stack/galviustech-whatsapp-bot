@@ -3,8 +3,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T18:39:33.303Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T18:39:58.799Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-11-20T18:39:32.631Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSOTc5QTg3Q0RBNEM3RDUzMTAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cada cuanto pagó? O como es",
+        "fecha": "2026-11-20T18:39:57.505Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T18:39:57.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSNDRDN0NDMzgwQjU4QUJCOTZFAA=="
       }
     ],
     "paso": "conversando",
@@ -64,8 +76,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Y cada cuanto pagó? O como es\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
