@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T10:05:06.083Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-20T10:06:19.323Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -312,9 +312,28 @@
         "fecha": "2026-11-20T10:05:05.493Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSQUVDNUVFQUNCOThCNjM2MTc3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El envío es gratis o hay que pagarlo",
+        "fecha": "2026-11-20T10:06:15.824Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El envío para el *Módem WiFi Portátil 4G* es *GRATIS*, así que solo pagas los $199.900 cuando te llegue.\n\n¿Me das la dirección para dejarte el pedido listo hoy mismo?",
+        "fecha": "2026-11-20T10:06:18.076Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNzgyOTNGNEYyMzZGQUY2RTc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T10:06:18.602Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSQjkxRUUxOTQzMEExMTczODE3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "combo-modem-wifi-reloj-inteligente",
       "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
