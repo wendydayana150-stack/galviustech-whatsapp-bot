@@ -3,8 +3,8 @@
     "telefono": "573212949225",
     "nombre": "edwincordoba485",
     "primerContacto": "2026-11-20T05:35:19.763Z",
-    "ultimoContacto": "2026-11-20T05:35:19.763Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T05:35:24.917Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,25 @@
         "fecha": "2026-11-20T05:35:19.186Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSNzI4OEQ2MjcxRDk4NEVGRTdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas",
+        "fecha": "2026-11-20T05:35:23.898Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Aquí tienes todo el catálogo con fotos y precios 👇\n\n🛍️ https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt\n\nToca abajo el producto que te interesa y te muestro fotos y precio al instante 📸",
+        "fecha": "2026-11-20T05:35:23.899Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSNUYzRjMyMzI4NEZBQUY0MTIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de categorias]",
+        "fecha": "2026-11-20T05:35:24.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyOTQ5MjI1FQIAERgSRENEMjdCOEMzMDUwMjFGOTI0AA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +58,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573045278321",
