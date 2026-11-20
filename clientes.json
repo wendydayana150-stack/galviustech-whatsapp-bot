@@ -250,8 +250,8 @@
     "telefono": "CO.4497669390486913",
     "nombre": "Nestor Lopez",
     "primerContacto": "2026-11-20T19:25:21.249Z",
-    "ultimoContacto": "2026-11-20T20:28:02.962Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T20:32:40.635Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -327,6 +327,18 @@
         "fecha": "2026-11-20T20:28:02.091Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEjFCODRDMzlDMkM4NzdBODA5NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuantos dispositivos se pueden conectar?",
+        "fecha": "2026-11-20T20:32:39.064Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T20:32:39.753Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEjNCQzlENkUzNUJGQ0FBMTFDRgA="
       }
     ],
     "paso": "conversando",
@@ -336,7 +348,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cual es el proveedor de datos?\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cuantos dispositivos se pueden conectar?\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
