@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T09:55:52.775Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-20T09:56:00.049Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -243,19 +243,32 @@
         "fecha": "2026-11-20T09:55:52.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNEU3NzNFNzI1MzBCRTdGMDE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Con reloj de regalo",
+        "fecha": "2026-11-20T09:55:59.035Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *COMBO Modem Wifi + Reloj Inteligente* ($ 289.900) 🙌 Ya tengo tu nombre y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-20T09:55:59.460Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSMURBNEM5M0U0RkYxRTVERjk3AA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_celular",
     "pedido": {
-      "productoId": "modem-4g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 199900,
+      "productoId": "combo-modem-wifi-reloj-inteligente",
+      "nombreProducto": "COMBO Modem Wifi + Reloj Inteligente",
+      "precio": 289900,
       "telefono": "573135442045",
-      "ciudad": "Fuerza PúBlica"
+      "ciudad": "Fuerza PúBlica",
+      "nombreCliente": "Ver otros"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g",
+    "ultimoProducto": "combo-modem-wifi-reloj-inteligente",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
