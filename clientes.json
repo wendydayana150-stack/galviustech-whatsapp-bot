@@ -3476,8 +3476,8 @@
     "telefono": "573046766607",
     "nombre": "MrFautinoParra",
     "primerContacto": "2026-11-20T15:29:33.481Z",
-    "ultimoContacto": "2026-11-20T19:50:26.441Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-20T22:45:05.386Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3650,9 +3650,23 @@
         "fecha": "2026-11-20T19:50:25.263Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSRjI4MzQyODk5MDdBOTFGQzVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para Ciénaga, Magdalena, la *Impresora Térmica Portátil NETUM* es perfecta para imprimir documentos y fotos en blanco y negro, sin tinta ni cartuchos. La inversión es de $249.900 con ENVÍO GRATIS y pagas al recibir.\n\n¿Me confirmas tu nombre completo para dejarte el pedido listo?",
+        "fecha": "2026-11-20T22:45:03.984Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSRTQ3RjQwNjYxNDk4NjlBMDkyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre y tu departamento, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-20T22:45:04.817Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSRUU5QUE2RThDRjBCNTcxRkEzAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -3661,7 +3675,7 @@
       "departamento": "Magdalena",
       "nombreCliente": "Carlos González"
     },
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
