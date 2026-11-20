@@ -1878,8 +1878,8 @@
     "telefono": "573024512088",
     "nombre": "Jorge Anzola 🦎",
     "primerContacto": "2026-11-20T05:43:42.658Z",
-    "ultimoContacto": "2026-11-20T12:35:29.520Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T12:40:01.074Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1969,6 +1969,18 @@
         "fecha": "2026-11-20T12:35:28.579Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSQ0ZBNEIzMjg3RjM2QUQxMTA3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok Pero Con Seguridad lo necesito para el 1 de Diciembre! Seguiré con el descuento!!??",
+        "fecha": "2026-11-20T12:39:57.580Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! El descuento del 30% sigue activo y puedes aprovecharlo para el 1 de diciembre sin problema. \n\nSolo ten en cuenta que no apartamos productos, así que lo ideal es hacer el pedido lo antes posible para asegurar que te llegue a tiempo y sin esperar.\n\nEl módem 4G/5G está listo para enviarse con envío de $26.000 y pago contra entrega. ¿Te lo dejo listo para despacho hoy y así lo recibes rápido?",
+        "fecha": "2026-11-20T12:40:00.194Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0NTEyMDg4FQIAERgSQjIyNDNDRTM2MDU4ODlFRkIwAA=="
       }
     ],
     "paso": "conversando",
@@ -1981,7 +1993,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-12-01",
+      "texto": "Ok Pero Con Seguridad lo necesito para el 1 de Diciembre! Seguiré con el descuento!!??",
+      "desde": "2026-11-20T12:39:57.581Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
