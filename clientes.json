@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T09:54:13.129Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-20T09:55:52.775Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -231,6 +231,18 @@
         "fecha": "2026-11-20T09:54:12.365Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSODFBQTYyQzlGODE1MEZDREI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Viene el reloj y eso de Internet",
+        "fecha": "2026-11-20T09:55:49.650Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem no incluye reloj ni otros accesorios, solo el equipo para tener internet portátil 4G/5G, que conecta varios dispositivos donde vayas. Si quieres un reloj inteligente, tenemos varios modelos que puedo mostrarte.\n\n¿Quieres que te cuente sobre los relojes inteligentes que tenemos o prefieres solo el módem para empezar?",
+        "fecha": "2026-11-20T09:55:52.072Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNEU3NzNFNzI1MzBCRTdGMDE0AA=="
       }
     ],
     "paso": "confirmar_producto",
