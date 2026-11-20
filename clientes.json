@@ -63,8 +63,8 @@
     "telefono": "CO.961374243493394",
     "nombre": "Lucelida",
     "primerContacto": "2026-11-20T11:03:58.449Z",
-    "ultimoContacto": "2026-11-20T11:09:03.381Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T11:10:02.512Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,6 +140,18 @@
         "fecha": "2026-11-20T11:09:02.633Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTYxMzc0MjQzNDkzMzk0FRQAERgSQjdBNDZFN0MxQ0ZGRDgwQkRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Muchas gracias por la información. Dios les bendiga.",
+        "fecha": "2026-11-20T11:10:00.183Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribir 😊 Cualquier cosa aquí estoy para ayudarte cuando quieras.\n\n¡Bendiciones también para ti y que tengas un lindo día! 🌟",
+        "fecha": "2026-11-20T11:10:01.626Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTYxMzc0MjQzNDkzMzk0FRQAERgSM0E4NDI5MkI3OTY1QzMwODJFAA=="
       }
     ],
     "paso": "conversando",
@@ -150,7 +162,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
