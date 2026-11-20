@@ -3367,8 +3367,8 @@
     "telefono": "573247691101",
     "nombre": "...",
     "primerContacto": "2026-11-20T05:28:06.880Z",
-    "ultimoContacto": "2026-11-20T05:28:06.880Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T15:11:56.435Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3402,6 +3402,25 @@
         "fecha": "2026-11-20T12:07:47.336Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ3NjkxMTAxFQIAERgSQTU0QUU4MkYwNzRBMTc4NzgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola, quiero el Modem WiFi Portatil 5G de $199.900 que vi en el catálogo",
+        "fecha": "2026-11-20T15:11:55.480Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "🛍️ Mira todo el catálogo con fotos y precios aquí: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-20T15:11:55.489Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NjkxMTAxFQIAERgSQzI4QjlFREYxN0FCNjdDOTdFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! 😊 Estos son nuestros productos 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n🚚 Pagas al recibir ✅ ¿Cuál te interesa? Te muestro fotos y precio 😊",
+        "fecha": "2026-11-20T15:11:55.952Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ3NjkxMTAxFQIAERgSNEJBM0Q1OTg2MEM4NUVGN0YwAA=="
       }
     ],
     "paso": "conversando",
@@ -3419,10 +3438,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T12:08:00.796Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
