@@ -183,8 +183,8 @@
     "telefono": "573225544633",
     "nombre": "Ciro",
     "primerContacto": "2026-11-20T21:51:40.116Z",
-    "ultimoContacto": "2026-11-20T22:36:51.647Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-20T22:37:01.715Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -305,18 +305,25 @@
         "fecha": "2026-11-20T22:36:50.934Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSMzFBMTYwQUQ2Q0I4OUUwQzg2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem 5G tiene velocidad y cobertura para zonas donde ya hay señal 5G, y la inversión es de $199.900 + $26.000 de envío. Las otras opciones son el módem 4G con envío gratis por $199.900, o el 4G/5G por $199.900 + $26.000. ¿Cuál de los tres quieres llevar? Por favor dime tu nombre completo para dejar todo listo.",
+        "fecha": "2026-11-20T22:37:01.088Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSMjNCMkMxRTNEMzg4RUY0Q0QwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null,
+    "esperandoDatosPedidoLibre": "2026-11-20T22:37:01.554Z",
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
