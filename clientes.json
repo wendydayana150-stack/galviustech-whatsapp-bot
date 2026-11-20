@@ -3,8 +3,8 @@
     "telefono": "573235428221",
     "nombre": "melaniredmia5cortes",
     "primerContacto": "2026-11-20T01:14:21.357Z",
-    "ultimoContacto": "2026-11-20T01:15:30.118Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-20T01:15:33.315Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,25 @@
         "fecha": "2026-11-20T01:15:29.399Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1NDI4MjIxFQIAERgSQUY2QUMxMkVFQjYwMDVGQjVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como se hace",
+        "fecha": "2026-11-20T01:15:31.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dame un segundito para explicarte cómo funciona el módem.\n\nSolo debes insertar la SIM de tu operador (Claro, Tigo, Movistar o WOM), encender el módem y buscar la red WiFi que crea en tu celular o computador. Luego conectas tus dispositivos a esa red y listo, tienes internet donde tenga señal móvil.\n\n¿Me cuentas para que lo necesitas principalmente? Así te recomiendo el modelo que mejor te sirve.",
+        "fecha": "2026-11-20T01:15:32.802Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1NDI4MjIxFQIAERgSN0IxNTEzN0JFNENBMTk2MTk5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
