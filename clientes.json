@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T09:08:08.915Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T09:49:17.680Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-20T09:08:08.272Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNTVDNjZBNzBBRkYyM0I2RUI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como se intala",
+        "fecha": "2026-11-20T09:49:12.473Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La instalación es súper sencilla:\n\n1. Inserta la SIM de tu operador (Claro, Movistar, Tigo, WOM).\n2. Enciende el módem con el botón.\n3. Conecta el WiFi desde tu celular o computador buscando el nombre del módem.\n4. Listo, ya tienes internet para varios dispositivos.\n\n¿Para qué lo necesitas principalmente? ¿Estudio, trabajo, casa o negocio? Así te ayudo a elegir el mejor modelo para tu caso.",
+        "fecha": "2026-11-20T09:49:16.568Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSQTIzMzJEQUM2QTc3OTZCRTcwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T09:08:07.277Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234047720",
