@@ -190,8 +190,8 @@
     "telefono": "CO.4497669390486913",
     "nombre": "Nestor Lopez",
     "primerContacto": "2026-11-20T19:25:21.249Z",
-    "ultimoContacto": "2026-11-20T20:27:11.563Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-20T20:28:02.962Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -255,6 +255,18 @@
         "fecha": "2026-11-20T20:27:10.608Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEkYyQUYzMEYyNThFRjQ4RkI2MAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cual es el proveedor de datos?",
+        "fecha": "2026-11-20T20:28:01.595Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T20:28:02.091Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uNDQ5NzY2OTM5MDQ4NjkxMxUUABEYEjFCODRDMzlDMkM4NzdBODA5NwA="
       }
     ],
     "paso": "conversando",
@@ -264,7 +276,7 @@
     "ultimoProducto": null,
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cual es el proveedor de internet?\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Cual es el proveedor de datos?\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
