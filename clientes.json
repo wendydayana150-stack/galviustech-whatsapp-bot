@@ -3,8 +3,8 @@
     "telefono": "573135442045",
     "nombre": "Miguel Angel Bolívar",
     "primerContacto": "2026-11-20T09:08:08.915Z",
-    "ultimoContacto": "2026-11-20T09:56:51.301Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-20T10:02:56.169Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -274,6 +274,25 @@
         "fecha": "2026-11-20T09:56:50.591Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNEQ0RTIyRjcwODlFQkU4OTVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero no me dijo que el envío es grati",
+        "fecha": "2026-11-20T10:02:48.912Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tienes razón, mira: el *Modem WiFi Portátil 4G* es el único con envío GRATIS, cuesta *$199.900* y perfecto para zonas rurales y movilidad.\n\nPero el *Modem 4G/5G* que te recomendé tiene un envío de $26.000, pagando al recibir. Así que si quieres ahorrar en el envío, el 4G básico es la mejor opción para tener conexión confiable.",
+        "fecha": "2026-11-20T10:02:54.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNjQyMEQ3MzIwNDkwQTg0MUY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-20T10:02:55.381Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDQyMDQ1FQIAERgSNDAwQTcyQjA4QjQ5ODM5M0U5AA=="
       }
     ],
     "paso": "pedido_celular",
