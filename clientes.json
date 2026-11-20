@@ -1548,8 +1548,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T19:41:35.651Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-20T22:44:47.187Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1639,18 +1639,25 @@
         "fecha": "2026-11-20T19:41:34.855Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSMUNGQkUyQzYxM0IzNzIxMDU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Para que tengas claro, las opciones que te di son:\n\n• Modem 4G por $199.900 con envío GRATIS  \n• Modem 4G/5G por $199.900 + $26.000 de envío  \n• Modem 5G por $199.900 + $26.000 de envío  \n\nTodas con garantía y pagas al recibir. ¿Cuál te gustaría llevar? Solo dime tu nombre completo para dejar tu pedido listo.",
+        "fecha": "2026-11-20T22:44:46.425Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSQzVERjY3NzM3OUIwRkE3M0JDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": true,
+    "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
-    "esperandoDatosPedidoLibre": null,
+    "esperandoDatosPedidoLibre": "2026-11-20T22:44:47.003Z",
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": {
