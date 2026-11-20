@@ -1026,8 +1026,8 @@
     "telefono": "CO.1563852282216408",
     "nombre": "Salazar Mateo ",
     "primerContacto": "2026-11-20T15:56:37.330Z",
-    "ultimoContacto": "2026-11-20T15:56:37.330Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T18:11:40.015Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1067,6 +1067,25 @@
         "fecha": "2026-11-20T17:06:05.224Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTU2Mzg1MjI4MjIxNjQwOBUUABEYEjQyQzQ4NUMyNERCNzdEN0U4OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍\n\n🛍️ Catálogo con fotos y precios: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-20T18:11:08.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2Mzg1MjI4MjIxNjQwOBUUABEYEkFDMURBRjcyNkExODNFQzMxMgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias ya no",
+        "fecha": "2026-11-20T18:11:37.780Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias a ti por escribir. Si más adelante quieres internet estable en tu zona o trabajar sin depender de WiFi ajeno, aquí estaré para ayudarte 😊 Que tengas un buen día.",
+        "fecha": "2026-11-20T18:11:39.190Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTU2Mzg1MjI4MjIxNjQwOBUUABEYEjlBRkVFMDhGQ0M2NTg0MzA0NQA="
       }
     ],
     "paso": "conversando",
@@ -1077,7 +1096,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
@@ -1089,9 +1108,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T17:06:06.070Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
