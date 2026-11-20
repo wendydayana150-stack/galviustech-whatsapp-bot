@@ -1761,8 +1761,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T19:37:44.370Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-20T19:38:11.430Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1859,6 +1859,18 @@
         "fecha": "2026-11-20T19:37:43.557Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjkzNjdGQjlBQkI4MkUzODk4MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Perdón.",
+        "fecha": "2026-11-20T19:38:09.751Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T19:38:10.766Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjJGNDM3MzBEMzhGRDk4QUZCRAA="
       }
     ],
     "paso": "conversando",
@@ -1867,8 +1879,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Perdón.\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
