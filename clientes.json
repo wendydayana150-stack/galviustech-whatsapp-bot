@@ -3,8 +3,8 @@
     "telefono": "573046766607",
     "nombre": "MrFautinoParra",
     "primerContacto": "2026-11-20T15:29:33.481Z",
-    "ultimoContacto": "2026-11-20T15:30:16.130Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-20T15:30:39.680Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,15 +68,28 @@
         "fecha": "2026-11-20T15:30:15.393Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSQTYxMkIxMkI4QTNGNzhFQTVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Carlos González",
+        "fecha": "2026-11-20T15:30:38.830Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-20T15:30:38.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2NzY2NjA3FQIAERgSNEYxM0RDNDdBRkUxQ0Y4NEUxAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573046766607",
-      "departamento": "Magdalena"
+      "departamento": "Magdalena",
+      "nombreCliente": "Carlos González"
     },
     "pausado": false,
     "etapaManual": null,
