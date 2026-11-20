@@ -1563,8 +1563,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T22:46:28.578Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-20T22:47:55.931Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1673,6 +1673,25 @@
         "fecha": "2026-11-20T22:46:27.868Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSMTlBMUYyNjFBMTMwQjI1NTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y si no hay señal en mi pueblo",
+        "fecha": "2026-11-20T22:47:52.691Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Es importante que me digas en qué pueblo o vereda estás, porque el modem está diseñado para captar señal mejor que un celular normal en zonas rurales.\n\nSi en tu pueblo no hay señal de ningún operador (Claro, Movistar, Tigo, WOM), el modem no podrá conectarse porque funciona con SIM de operadores celulares.\n\nPero si hay alguna señal débil o intermitente, el módem puede mejorar bastante la conexión para que tengas internet. \n\n¿Me dices dónde estás ubicado para confirmar?",
+        "fecha": "2026-11-20T22:47:54.721Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSMUY5RjFDQzZFMjEwNUY3MTJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-20T22:47:55.192Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSQ0Q1RjcyNzNGN0U2M0RGNEYxAA=="
       }
     ],
     "paso": "conversando",
