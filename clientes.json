@@ -1782,8 +1782,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T19:39:55.384Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-20T19:42:26.060Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1916,16 +1916,23 @@
         "fecha": "2026-11-20T19:39:54.660Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkI5NTdFNTNBN0VFQTQyRTQxRAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la SIM que va en el módem debe tener datos activos para que puedas usar internet, como cuando cargas saldo o plan en un celular.  Es una inversión para que toda tu familia o varios dispositivos se conecten con una sola recarga.  Si prefieres, tenemos otras opciones para lo que necesites. ¿Quieres que te cuente de alguna?",
+        "fecha": "2026-11-20T19:42:25.292Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjY0REE1NjM3ODlBMjk1RjJBNgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Ahora siento que si estoy hablando con un ser humano mi amigo o mi amiga es que me hablan de comprar\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
