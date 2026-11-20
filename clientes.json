@@ -123,8 +123,8 @@
     "telefono": "573225544633",
     "nombre": "Ciro",
     "primerContacto": "2026-11-20T21:51:40.116Z",
-    "ultimoContacto": "2026-11-20T21:58:05.698Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-20T21:58:49.773Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -212,6 +212,18 @@
         "fecha": "2026-11-20T21:58:04.923Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSRkVENzI5QUNENjNBOEQwNjJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "?",
+        "fecha": "2026-11-20T21:58:48.474Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T21:58:49.105Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSMzEyNUJEQjc5RjFGRkY5MzY0AA=="
       }
     ],
     "paso": "conversando",
@@ -221,7 +233,7 @@
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Estoy interesado en el módem 5g\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"?\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
