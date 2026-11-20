@@ -123,8 +123,8 @@
     "telefono": "573225544633",
     "nombre": "Ciro",
     "primerContacto": "2026-11-20T21:51:40.116Z",
-    "ultimoContacto": "2026-11-20T21:57:21.989Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T21:58:05.698Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -200,6 +200,18 @@
         "fecha": "2026-11-20T21:57:21.039Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSOEFFQTU4MzBBOUU5RDdFNENFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy interesado en el módem 5g",
+        "fecha": "2026-11-20T21:58:04.599Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Disculpa, tuve un problema para procesar tu mensaje. Puedes intentar de nuevo?",
+        "fecha": "2026-11-20T21:58:04.923Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSRkVENzI5QUNENjNBOEQwNjJGAA=="
       }
     ],
     "paso": "conversando",
@@ -209,7 +221,7 @@
     "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Estoy interesado en el módem 5g  es para municipio Ansermanuevo\"",
+    "motivoAtencion": "El bot no pudo procesar este mensaje: \"Estoy interesado en el módem 5g\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
