@@ -3,8 +3,8 @@
     "telefono": "573229076302",
     "nombre": "Monito",
     "primerContacto": "2026-11-20T07:05:13.972Z",
-    "ultimoContacto": "2026-11-20T07:05:13.972Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T07:06:50.400Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-20T07:05:13.334Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSNEUyNDAzOURDMUQ2MERFNjc4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenos días",
+        "fecha": "2026-11-20T07:06:45.901Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas usar el módem? Así te ayudo a elegir el ideal según tu zona y para qué lo necesitas. ¿Es para estudiar, trabajar, tu negocio o tu hogar?",
+        "fecha": "2026-11-20T07:06:49.656Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI5MDc2MzAyFQIAERgSNTAxNjU2RUQ2MTgyMUFCNzQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6BBHyQZHM",
       "fecha": "2026-11-20T07:05:12.360Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573177519084",
