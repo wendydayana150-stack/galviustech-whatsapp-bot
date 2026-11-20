@@ -63,8 +63,8 @@
     "telefono": "573057190377",
     "nombre": "Gisselle",
     "primerContacto": "2026-11-20T15:29:05.174Z",
-    "ultimoContacto": "2026-11-20T15:29:05.174Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T15:29:43.818Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,13 +97,25 @@
         "fecha": "2026-11-20T15:29:04.495Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDU3MTkwMzc3FQIAERgSQjA4NDU3RUNBRjFFQzdFRTg3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno y pude para el televisor",
+        "fecha": "2026-11-20T15:29:39.914Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem WiFi portátil no se conecta directo al televisor, pero puedes compartir el internet con tu televisor si este tiene WiFi para conectarse a la señal del módem.\n\n¿Me cuentas en qué municipio o vereda necesitas usarlo para recomendarte la mejor opción? Así tienes internet donde más lo necesitas.",
+        "fecha": "2026-11-20T15:29:42.910Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDU3MTkwMzc3FQIAERgSNkVCQjEzOTRDMUZENjU3ODYyAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -117,7 +129,10 @@
       "url": "https://www.instagram.com/p/DfV1zodMh50/",
       "fecha": "2026-11-20T15:29:03.303Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147696488",
