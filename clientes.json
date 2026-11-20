@@ -3607,8 +3607,8 @@
     "telefono": "573212105127",
     "nombre": "😊",
     "primerContacto": "2026-11-20T00:28:54.854Z",
-    "ultimoContacto": "2026-11-20T00:28:54.854Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-20T11:12:06.846Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3648,6 +3648,18 @@
         "fecha": "2026-11-20T11:07:57.747Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEyMTA1MTI3FQIAERgSQzBGNDQ4QUVGNzRGRUY1ODc0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenas días",
+        "fecha": "2026-11-20T11:12:04.135Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell, encantada de ayudarte 😊\n\nSi me cuentas para qué necesitas el módem o donde lo usarías, te puedo recomendar el mejor modelo según tu necesidad. ¿En qué ciudad o vereda lo vas a usar?",
+        "fecha": "2026-11-20T11:12:06.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEyMTA1MTI3FQIAERgSN0QxODFFNzM1NkJFMjUyOUE0AA=="
       }
     ],
     "paso": "conversando",
@@ -3670,9 +3682,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T11:08:02.548Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
