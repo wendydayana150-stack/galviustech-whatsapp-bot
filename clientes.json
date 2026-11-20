@@ -498,8 +498,8 @@
     "telefono": "573158885939",
     "nombre": "Delia Escobar",
     "primerContacto": "2026-11-20T18:36:34.811Z",
-    "ultimoContacto": "2026-11-20T18:40:37.687Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-20T19:40:54.385Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -575,16 +575,23 @@
         "fecha": "2026-11-20T18:40:37.086Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSNUQyNjJCMzhBOUY1RDNBQjVGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Valor pago unico 199.900 + 26.000 envio",
+        "fecha": "2026-11-20T19:40:53.649Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU4ODg1OTM5FQIAERgSQjM2MUU0NDExNEMxRUQ5OUVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El bot no pudo procesar este mensaje: \"No hay qué hacer mensualidad, ni recarga?\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
