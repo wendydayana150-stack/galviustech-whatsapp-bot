@@ -208,6 +208,13 @@
         "fecha": "2026-11-21T15:30:10.045Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA4MDE0ODA2FQIAERgSMEY2NDhCMjA5MDE4NTkxQTI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Noppoo! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n✅ Noppoo\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu numero de celular?",
+        "fecha": "2026-11-21T16:08:34.077Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA4MDE0ODA2FQIAERgSQzFDQUJCMjA0NUE0RTE0MEMzAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -236,7 +243,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-21T16:08:35.754Z"
     }
   },
   {
@@ -378,6 +387,13 @@
         "fecha": "2026-11-21T15:06:42.961Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTM3NDQzOTQ1ODIxMjkwMhUUABEYEkZERjA5RkE4QjFFNTEyQkQ1MgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T16:08:34.962Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTM3NDQzOTQ1ODIxMjkwMhUUABEYEjMxOTk4RjAzRUEzQzFCRkZEMwA="
       }
     ],
     "paso": "conversando",
@@ -398,7 +414,12 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-21T15:06:41.839Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T16:08:35.754Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573127595177",
