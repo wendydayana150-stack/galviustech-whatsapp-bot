@@ -133,8 +133,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T15:02:41.176Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-21T15:02:55.168Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -360,6 +360,18 @@
         "fecha": "2026-11-21T15:02:40.470Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSQjQ0ODU1RkY5QkY3MUNEMjVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "cancelar",
+        "fecha": "2026-11-21T15:02:53.338Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, si quieres cancelar ese pedido te pido un momento para avisar al equipo y te darán la respuesta pronto.\n\nTe dejo la línea para que quede registrado:\n\n¿Hay algo más en lo que te pueda ayudar mientras tanto?",
+        "fecha": "2026-11-21T15:02:54.339Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSOEQ0RDJGMjJDQzFBMDlBNEFGAA=="
       }
     ],
     "paso": "conversando",
@@ -369,7 +381,7 @@
     "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente dudo o no confirmo que recibira su pedido de Impresora Térmica Portátil de Etiquetas Clabel 221B: \"quiero cancelar el envio\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"cancelar\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
