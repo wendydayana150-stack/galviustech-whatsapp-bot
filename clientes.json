@@ -3,8 +3,8 @@
     "telefono": "573128740463",
     "nombre": "100/barcelonista",
     "primerContacto": "2026-11-21T22:58:11.983Z",
-    "ultimoContacto": "2026-11-21T22:58:11.983Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T22:59:17.129Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-21T22:58:11.279Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4NzQwNDYzFQIAERgSQ0E3OTYzNjM1MDJFQjFENzc5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En facatativá",
+        "fecha": "2026-11-21T22:59:14.247Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Facatativá es un municipio con buena cobertura 4G y aún está en desarrollo el 5G, por eso te recomiendo el *Modem WiFi Portátil 4G/5G* para que tengas siempre conexión, ya sea con 4G o si llega el 5G en tu zona.\n\nLa inversión sería de $199.900 + $26.000 de envío. \nConecta hasta 10 dispositivos, batería que dura hasta 14 horas, fácil de usar y con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo quieres para trabajar, estudiar, en casa o para otro uso? Así te ayudo mejor.",
+        "fecha": "2026-11-21T22:59:16.390Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4NzQwNDYzFQIAERgSQzJCNUY4QURBODU0RDE2Njg4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/dTsBQQky7",
       "fecha": "2026-11-21T22:58:10.485Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.29441272162179715",
