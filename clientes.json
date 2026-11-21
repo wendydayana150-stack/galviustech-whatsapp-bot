@@ -10052,8 +10052,8 @@
     "telefono": "573045278321",
     "nombre": "Omar",
     "primerContacto": "2026-11-20T05:35:14.111Z",
-    "ultimoContacto": "2026-11-20T05:35:14.111Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T15:22:14.722Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10087,6 +10087,13 @@
         "fecha": "2026-11-20T12:07:46.891Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ1Mjc4MzIxFQIAERgSQkE4OEE0RTQ3Q0U5OTM3RUQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Omar, sobre nuestros productos",
+        "fecha": "2026-11-21T15:22:13.840Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ1Mjc4MzIxFQIAERgSMEZERjg3NkY4RDI1NDJGNEI4AA=="
       }
     ],
     "paso": "conversando",
@@ -10104,10 +10111,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T12:08:00.796Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
