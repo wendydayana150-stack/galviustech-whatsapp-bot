@@ -3,8 +3,8 @@
     "telefono": "573235140703",
     "nombre": "jhonny alexander",
     "primerContacto": "2026-11-21T19:19:41.815Z",
-    "ultimoContacto": "2026-11-21T19:19:41.815Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T19:20:49.662Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-21T19:19:41.036Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1MTQwNzAzFQIAERgSQTgxMjNGQTU1RTJEQzQzNzIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Veredad",
+        "fecha": "2026-11-21T19:20:45.782Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, muchas gracias por compartir que es en vereda.\n\nPara ti la mejor opción es el *Módem WiFi Portátil 4G/5G* porque funciona tanto en zonas con señal 4G como donde ya hay 5G, ideal para veredas y lugares sin fibra.\n\nLa inversión es de $199.900 + $26.000 de envío, y pagas al recibir. Te da internet rápido y conecta varios dispositivos para que toda la familia o equipo lo use.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo necesitas principalmente? ¿Para estudiar, trabajar o el hogar? Así te ayudo mejor.",
+        "fecha": "2026-11-21T19:20:48.152Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MTQwNzAzFQIAERgSQTA5M0EyOEJDMzhGNjdGNDJDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-21T19:20:48.795Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1MTQwNzAzFQIAERgSQjUxMkVENEVBQTA5OEU1RTRGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-21T19:19:40.191Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145466773",
