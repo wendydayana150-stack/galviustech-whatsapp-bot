@@ -3,8 +3,8 @@
     "telefono": "573002982166",
     "nombre": "Jose Camargo Asesor",
     "primerContacto": "2026-11-21T18:06:17.852Z",
-    "ultimoContacto": "2026-11-21T18:06:17.852Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T18:09:01.307Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-21T18:06:17.215Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDAyOTgyMTY2FQIAERgSNUI2QzgwREM5NkIyNDFDRTk0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y como es con el consumo del Internet ? \n\nYa que los operadores restringen las GB a compartir?",
+        "fecha": "2026-11-21T18:08:57.607Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la verdad el consumo dependerá del plan o recarga que actives en la SIM que uses en el módem, porque el módem solo convierte esa señal en WiFi para todos tus dispositivos.\n\nCon una sola recarga, por ejemplo, puedes conectar hasta 10 dispositivos y todos usan esos datos compartidos. Así te ahorras comprar muchos planes o recargas para cada celular.\n\nSi quieres, dime para qué lo necesitas (estudio, trabajo, hogar, negocio) para recomendarte el modelo ideal y ayudarte con las opciones de uso en tu zona. ¿Me cuentas?",
+        "fecha": "2026-11-21T18:09:00.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDAyOTgyMTY2FQIAERgSQTNFRTc4NzI1NEFBREI5QTU0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-21T18:06:16.024Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573043158062",
