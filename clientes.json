@@ -145,8 +145,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T15:02:58.604Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-21T15:03:17.916Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -396,6 +396,18 @@
         "fecha": "2026-11-21T15:02:57.980Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSQkE3M0NENDdBRjI2MEI5REI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "DALE ESTARE PENDIENTE LA CANCELACION",
+        "fecha": "2026-11-21T15:03:14.963Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta por si necesitas algo más o quieres revisar otros productos.\n\nRecuerda que en GalviusTech siempre tienes respaldo y atención personalizada.\n\n¿Quieres que te muestre otras opciones de impresoras, modems, lámparas o cámaras mientras esperas? 😊",
+        "fecha": "2026-11-21T15:03:17.249Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSNUFDQzdEQkU3MzUxOERENUUzAA=="
       }
     ],
     "paso": "conversando",
@@ -405,7 +417,7 @@
     "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"porfa\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"DALE ESTARE PENDIENTE LA CANCELACION\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
