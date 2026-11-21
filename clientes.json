@@ -319,8 +319,8 @@
     "telefono": "573202678238",
     "nombre": "jenny",
     "primerContacto": "2026-11-21T18:23:25.013Z",
-    "ultimoContacto": "2026-11-21T18:23:25.013Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T19:35:26.604Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -360,6 +360,18 @@
         "fecha": "2026-11-21T19:28:34.224Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyNjc4MjM4FQIAERgSMEU4OTBERjQxMzlBRDZBQTU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias por el dato sólo quería información para más adelante",
+        "fecha": "2026-11-21T19:35:25.564Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lo siento 🙏 los pedidos no se apartan, ya que son unidades en *PROMOCIÓN* y quedan *pocas unidades* 🔥\n\nSi lo quieres asegurar, lo pedimos ahora mismo y pagas al recibir 🚚 ¿Seguimos?",
+        "fecha": "2026-11-21T19:35:25.565Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyNjc4MjM4FQIAERgSQ0Y3NkFFNkY3QUFDQUY0MzM4AA=="
       }
     ],
     "paso": "conversando",
@@ -382,9 +394,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-21T19:28:36.544Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
