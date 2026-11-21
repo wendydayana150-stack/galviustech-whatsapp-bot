@@ -5016,8 +5016,8 @@
     "telefono": "573017929111",
     "nombre": "Flaca",
     "primerContacto": "2026-11-20T18:20:20.455Z",
-    "ultimoContacto": "2026-11-20T18:20:20.455Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T16:40:51.602Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5071,6 +5071,25 @@
         "fecha": "2026-11-21T14:12:28.132Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3OTI5MTExFQIAERgSMDVCQkM3REM3N0VEQjQ2RTAxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esa imprime fotos del celular",
+        "fecha": "2026-11-21T16:40:46.759Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM sí puede imprimir fotos desde el celular, pero solo en blanco y negro, como una fotocopia; no imprime a color ni con calidad de foto de estudio. Es ideal para imprimir documentos, trabajos y apuntes sin tinta ni cartuchos. ¿Para qué uso específico la quieres, así te confirmo que es la mejor opción?",
+        "fecha": "2026-11-21T16:40:50.060Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3OTI5MTExFQIAERgSMzA3RjkwRjJCMTI0QUQyOTAxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-21T16:40:50.853Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3OTI5MTExFQIAERgSNDRFREUzQkIxRDNFNEI1RDBFAA=="
       }
     ],
     "paso": "conversando",
@@ -5093,10 +5112,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T20:26:08.133Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
