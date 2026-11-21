@@ -9570,8 +9570,8 @@
     "telefono": "573177519084",
     "nombre": "Jairo Delgado",
     "primerContacto": "2026-11-20T07:00:32.250Z",
-    "ultimoContacto": "2026-11-20T07:00:32.250Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T15:21:36.320Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9618,6 +9618,13 @@
         "fecha": "2026-11-20T12:07:43.934Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc3NTE5MDg0FQIAERgSODQxRjZCRjQ1M0RENDdENTlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jairo Delgado, sobre nuestros productos",
+        "fecha": "2026-11-21T15:21:35.263Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc3NTE5MDg0FQIAERgSNDI0RTM3RkUzQzdDRTAzRTdCAA=="
       }
     ],
     "paso": "conversando",
@@ -9640,10 +9647,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T12:08:00.796Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
