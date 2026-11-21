@@ -9655,8 +9655,8 @@
     "telefono": "573112319551",
     "nombre": "William Escobar",
     "primerContacto": "2026-11-20T06:13:53.152Z",
-    "ultimoContacto": "2026-11-20T06:13:53.152Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T15:21:49.563Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9703,6 +9703,13 @@
         "fecha": "2026-11-20T12:07:44.706Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEyMzE5NTUxFQIAERgSQTMyNDdCRjJCMUJCMzMzOTAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola William Escobar, sobre nuestros productos",
+        "fecha": "2026-11-21T15:21:48.351Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEyMzE5NTUxFQIAERgSQ0IyODlCMTkyREQyQTcxN0RGAA=="
       }
     ],
     "paso": "conversando",
@@ -9725,10 +9732,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T12:08:00.796Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
