@@ -6026,8 +6026,8 @@
     "telefono": "573133455759",
     "nombre": "anacolmenarez017",
     "primerContacto": "2026-11-20T17:04:31.090Z",
-    "ultimoContacto": "2026-11-21T14:38:02.355Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-21T17:12:00.028Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6093,13 +6093,59 @@
         "fecha": "2026-11-21T15:38:35.205Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSMjRBMThDRDkwQTQ0MDNCNDUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la casa",
+        "fecha": "2026-11-21T17:11:52.686Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-21T17:11:56.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSRkZERUJBMzA2REIyMDQ2RUUyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-21T17:11:57.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSOUZCQjNFRjA4ODJCNTYyQUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-21T17:11:58.223Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSOEU1QkIxODkyNDlBQzA5REZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 4G/5G, Modem 5G]",
+        "fecha": "2026-11-21T17:11:58.792Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto para casa 😊 los módems portátiles te dan internet confiable sin depender de fibra ni cables, conectas varios dispositivos y lo llevas donde quieras.\n\nLas opciones y precios son:\n• Modem WiFi Portátil 4G por $199.900 con envío GRATIS.\n• Modem WiFi Portátil 4G/5G por $199.900 + $26.000 envío.\n• Módem WiFi Portátil 5G por $199.900 + $26.000 envío.\n\nLa inversión sería esa, garantía 30 días y pagas al recibir. Te recomiendo el 4G/5G que funciona bien donde hay señal 4G o algo de 5G, y es la opción más segura para casa.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o municipio estás para confirmarte la cobertura y envío?",
+        "fecha": "2026-11-21T17:11:58.803Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSOUMwQkQwNUZEMjdFRUE2OTU2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-21T17:11:59.318Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSMzdBMDZBRURFRUFFQTI3OTc1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -6115,10 +6161,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-21T16:38:34.196Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
