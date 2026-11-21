@@ -3,8 +3,8 @@
     "telefono": "CO.2192574621329955",
     "nombre": "Riaños Luna",
     "primerContacto": "2026-11-21T15:14:38.117Z",
-    "ultimoContacto": "2026-11-21T15:14:38.117Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T15:18:01.528Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-21T15:14:37.249Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE5MjU3NDYyMTMyOTk1NRUUABEYEjMzNTNDODQyRUFEQkQ1RjY2MgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Puerto Rico meta la vereda la venada",
+        "fecha": "2026-11-21T15:17:57.328Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, Puerto Rico Meta, vereda La Venada. Esa zona es rural, ¿lo necesitas para estudiar, trabajar, para tu negocio o para uso familiar en casa? \n\nTe recomiendo el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío. Tiene mejor cobertura que el celular, conecta hasta 10 dispositivos y sirve para todo eso sin depender de fibra. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLlega en 1 a 3 días hábiles. ¿Quieres que te lo envíe a tu dirección o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-11-21T15:18:00.223Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5MjU3NDYyMTMyOTk1NRUUABEYEkFBMjRFRTIzOEM4QzRGMEYwMwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-21T15:18:00.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE5MjU3NDYyMTMyOTk1NRUUABEYEjg3NDAxNEY5OTNDQzI4QjM1OAA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/dTsBQQky7",
       "fecha": "2026-11-21T15:14:35.945Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1374439458212902",
