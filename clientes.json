@@ -3,8 +3,8 @@
     "telefono": "573134158826",
     "nombre": "maría",
     "primerContacto": "2026-11-21T12:35:27.722Z",
-    "ultimoContacto": "2026-11-21T12:35:27.722Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T12:35:55.800Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,6 +24,18 @@
         "fecha": "2026-11-21T12:35:26.959Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM0MTU4ODI2FQIAERgSQjlENjlBRjI2NEY2QUNGNkE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "https://www.facebook.com/share/1CFafF52A7/",
+        "fecha": "2026-11-21T12:35:52.576Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias por compartir! ¿Qué necesitas saber o qué producto te interesa de GALVIUSTECH? 😊\n\n¿Me cuentas para qué lo quieres o en qué zona lo vas a usar? Así te ayudo a elegir la mejor opción para ti.",
+        "fecha": "2026-11-21T12:35:54.935Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM0MTU4ODI2FQIAERgSRkJGMkExMTFDRDE1MTQzOENFAA=="
       }
     ],
     "paso": "conversando",
@@ -39,7 +51,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223719822",
