@@ -63,8 +63,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T14:51:39.804Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-21T14:59:00.009Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -214,9 +214,21 @@
         "fecha": "2026-11-21T14:51:38.919Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSRjAzQTIzQTE3QTc5MjU3QUI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Alquería",
+        "fecha": "2026-11-21T14:58:59.038Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-21T14:58:59.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSRUM5NkFDMjk4MDA1NkRDMzg1AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
@@ -226,7 +238,8 @@
       "celular": "3227334563",
       "departamento": "Bogota",
       "ciudad": "Bogotá",
-      "direccion": "Autopista Sur #52 A 68, Puente Aranda, Bogotá, Cundinamarca"
+      "direccion": "Autopista Sur #52 A 68, Puente Aranda, Bogotá, Cundinamarca",
+      "barrio": "Alquería"
     },
     "pausado": false,
     "etapaManual": null,
