@@ -133,8 +133,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T15:02:37.024Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-21T15:02:41.176Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -348,6 +348,18 @@
         "fecha": "2026-11-21T15:02:36.394Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSNzYwOThCRDM1Q0E1NEUyMTFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "porfa",
+        "fecha": "2026-11-21T15:02:38.692Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Te dejo el pedido de la *Impresora Clabel 221B* lista para envío en Bogotá.\n\nSi quieres que agregue algún rollo de papel térmico, dime cuál prefieres: 1, 5 o 10 rollos.\n\n¿Quieres que te confirme el número de guía cuando despachen? Así vas pendiente. 😊",
+        "fecha": "2026-11-21T15:02:40.470Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSQjQ0ODU1RkY5QkY3MUNEMjVDAA=="
       }
     ],
     "paso": "conversando",
