@@ -3,8 +3,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-21T15:02:28.531Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T15:02:34.518Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-21T15:02:27.943Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSQzE5QTI4NjExREMzRDIyODMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas",
+        "fecha": "2026-11-21T15:02:32.021Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, soy Michell de GalviusTech 😊\n\nCuéntame, ¿para qué necesitas la impresión? ¿Para tareas, documentos o para tu negocio? Así te recomiendo la impresora que mejor te sirve.\n\n¿En qué ciudad estás?",
+        "fecha": "2026-11-21T15:02:33.784Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSQUEzN0YwRTc3OTRGRDJEMTE1AA=="
       }
     ],
     "paso": "conversando",
@@ -52,7 +64,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207715928",
