@@ -2976,8 +2976,8 @@
     "telefono": "573225544633",
     "nombre": "Ciro",
     "primerContacto": "2026-11-20T21:51:40.116Z",
-    "ultimoContacto": "2026-11-20T22:37:01.715Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-21T16:22:23.560Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3112,6 +3112,18 @@
         "fecha": "2026-11-21T14:08:14.242Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSMDFFQTk5MzU1QzIzQUY1MkQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pregunta como es el uso del módem 5 g",
+        "fecha": "2026-11-21T16:22:19.634Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 El módem 5G funciona fácil:\n\n1. Insertas la SIM de tu operador (Claro, Movistar, Tigo, WOM).\n2. Lo enciendes y crea una señal WiFi que puedes compartir hasta con 10 dispositivos.\n3. Conectas tu celular, computador, tablets o cualquier equipo a ese WiFi.\n4. La batería dura hasta 14 horas con carga completa, y se recarga por USB-C.\n\nEs ideal para lugares con señal 5G como ciudad o zonas con cobertura 5G, perfecto para trabajar, estudiar o viajar sin depender de WiFi fija.\n\n¿Quieres que te ayude a dejar el pedido listo y te lo envío a tu casa o recoges en oficina?",
+        "fecha": "2026-11-21T16:22:22.822Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI1NTQ0NjMzFQIAERgSMUNBRkU2MTBBQkU1OTU4OTE4AA=="
       }
     ],
     "paso": "conversando",
@@ -3129,10 +3141,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-21T00:44:25.101Z",
-      "datosLibre2h": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
