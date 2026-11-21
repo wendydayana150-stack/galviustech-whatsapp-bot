@@ -2327,8 +2327,8 @@
     "telefono": "573114590237",
     "nombre": "Deivid del monte",
     "primerContacto": "2026-11-20T20:50:06.631Z",
-    "ultimoContacto": "2026-11-21T05:05:58.750Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-21T14:45:35.752Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2502,15 +2502,28 @@
         "fecha": "2026-11-21T11:04:30.416Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NTkwMjM3FQIAERgSMzk3MTZBNDYyOEFFMjY2NDIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Genny Grimon",
+        "fecha": "2026-11-21T14:45:35.091Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-21T14:45:35.096Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NTkwMjM3FQIAERgSOEY1OEU4N0UzQ0JGM0QxQTk1AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573114590237",
-      "departamento": "Arauca"
+      "departamento": "Arauca",
+      "nombreCliente": "Genny Grimon"
     },
     "pausado": false,
     "etapaManual": null,
@@ -2530,10 +2543,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-21T14:24:04.719Z",
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
