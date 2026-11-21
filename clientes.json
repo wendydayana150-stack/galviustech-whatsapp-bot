@@ -869,6 +869,13 @@
         "fecha": "2026-11-21T14:31:35.270Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTgzOTAyNzQxMDc2OTE4ORUUABEYEkVFQzVEMzdEQTcwRjhFQjE1NwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T15:38:34.372Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTgzOTAyNzQxMDc2OTE4ORUUABEYEjBFOUMyQzQzMDE0NzRCMjBCQwA="
       }
     ],
     "paso": "conversando",
@@ -889,7 +896,12 @@
       "url": "https://fb.me/29ftfIpt9V",
       "fecha": "2026-11-21T14:31:33.974Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T15:38:36.007Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573223911800",
@@ -5643,6 +5655,13 @@
         "fecha": "2026-11-21T14:38:01.514Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSRkJFQjU0NUU3MzE1QTM2QTdCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T15:38:35.205Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSMjRBMThDRDkwQTQ0MDNCNDUyAA=="
       }
     ],
     "paso": "conversando",
@@ -5665,7 +5684,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T15:38:36.007Z"
     },
     "escasezFecha": "2026-11-21"
   },
