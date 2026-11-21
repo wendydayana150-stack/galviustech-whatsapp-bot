@@ -3,8 +3,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T14:50:09.376Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-21T14:50:16.505Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -130,9 +130,21 @@
         "fecha": "2026-11-21T14:50:08.517Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSNDJBRjVGNjIwNUFDQjI5QzZFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bogotá",
+        "fecha": "2026-11-21T14:50:15.730Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-21T14:50:15.733Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSOTEyNTQ5Njc0MUNBNTJDOUY4AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
@@ -140,7 +152,8 @@
       "telefono": "573227334563",
       "nombreCliente": "Santiago Andrés Martelo",
       "celular": "3227334563",
-      "departamento": "Bogota"
+      "departamento": "Bogota",
+      "ciudad": "Bogotá"
     },
     "pausado": false,
     "etapaManual": null,
