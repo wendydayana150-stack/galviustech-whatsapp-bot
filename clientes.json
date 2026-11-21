@@ -199,6 +199,13 @@
         "fecha": "2026-11-20T23:37:40.305Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA4NDEyMDkxFQIAERgSNUU2ODUzNjc3Mjc3MDkzMUExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T00:44:23.094Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA4NDEyMDkxFQIAERgSODUwNjg3REM2MzRBOTcwMjY3AA=="
       }
     ],
     "paso": "conversando",
@@ -219,7 +226,12 @@
       "url": "https://fb.me/bBHmBUf5x",
       "fecha": "2026-11-20T23:37:39.438Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T00:44:25.101Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573232937030",
@@ -259,6 +271,13 @@
         "fecha": "2026-11-20T23:35:20.329Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMyOTM3MDMwFQIAERgSNzhFOEJBMDhDRTYzMUNFMjhFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T00:44:24.018Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMyOTM3MDMwFQIAERgSREMzOEVGQzE5ODk0QTE5MTM3AA=="
       }
     ],
     "paso": "conversando",
@@ -281,7 +300,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T00:44:25.101Z"
     }
   },
   {
@@ -1015,9 +1036,10 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-20T23:44:22.780Z"
+      "ultimoEnvio": "2026-11-21T00:44:25.101Z",
+      "datosLibre2h": true
     }
   },
   {
@@ -1760,9 +1782,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-20T23:44:22.780Z"
+      "ultimoEnvio": "2026-11-21T00:44:25.101Z",
+      "horas3": true
     }
   },
   {
@@ -2091,9 +2114,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-20T23:44:22.780Z"
+      "ultimoEnvio": "2026-11-21T00:44:25.101Z",
+      "datosLibre2h": true
     }
   },
   {
