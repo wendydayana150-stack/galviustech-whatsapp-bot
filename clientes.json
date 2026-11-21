@@ -3,8 +3,8 @@
     "telefono": "573223911800",
     "nombre": "trujilloandrea913",
     "primerContacto": "2026-11-21T13:45:01.015Z",
-    "ultimoContacto": "2026-11-21T13:45:01.015Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T13:47:21.012Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-21T13:45:00.434Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTExODAwFQIAERgSMTA4MThBOEU4NjM2NzhEQkE1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ella imprime a color",
+        "fecha": "2026-11-21T13:47:20.115Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-21T13:47:20.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTExODAwFQIAERgSQkVGNDUyMTUyNDAzQzNDM0M1AA=="
       }
     ],
     "paso": "conversando",
@@ -50,14 +62,20 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-21T13:47:20.116Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "Importech Colombia",
       "texto": "🚨🔥 ¡DI ADIÓS A LOS CARTUCHOS DE TINTA Y A LAS IMPRESORAS GRANDES!\n\n¿Necesitas imprimir en tu negocio, trabajo, estudio o desde cualquier lugar? ¡Esta solución es para ti! 😍\n\n🖨️ **¡CONOCE LA IMPRESORA TÉRMICA PORTÁTIL NETUM!**\n\n✨ ¿Por qué todos deberían tener una?\n\n✅ **SIN TINTA:** olvídate de comprar cartuchos, utiliza papel térmico.\n✅ **CONEXIÓN BLUETOOTH:** conecta tu celular o PC de forma compatible.\n✅ **PORTÁTIL Y COMPACTA:** llévala contigo y ten una solución de impresión a la mano.\n✅ *",
       "url": "https://fb.me/5rux9QhVk",
       "fecha": "2026-11-21T13:44:59.337Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1576663087814575",
