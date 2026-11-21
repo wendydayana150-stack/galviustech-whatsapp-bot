@@ -97,6 +97,13 @@
         "fecha": "2026-11-21T16:54:16.691Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0NjkxMjkwFQIAERgSNEUwMkNDOUU2MjNFQjYzNzE1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T17:58:34.076Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NjkxMjkwFQIAERgSOTI4REVFNzJEMjc4RUExOEQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +124,12 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-21T16:54:15.771Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T17:58:36.501Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573102978562",
@@ -392,6 +404,13 @@
         "fecha": "2026-11-21T16:58:34.075Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDA5NDE2ODEyFQIAERgSNkNDNTY5NkIzMUZCMTdCRTQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-21T17:58:34.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDA5NDE2ODEyFQIAERgSMkM2QThDQkExMzZFMEQ2OEQ4AA=="
       }
     ],
     "paso": "conversando",
@@ -414,9 +433,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-21T16:58:34.980Z"
+      "ultimoEnvio": "2026-11-21T17:58:36.501Z",
+      "horas3": true
     }
   },
   {
@@ -6306,6 +6326,13 @@
         "fecha": "2026-11-21T17:26:29.185Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSQTFBNTc1REQzQTBBQzY4RjAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Ana! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n✅ Ana Karina colmenarez\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu numero de celular?",
+        "fecha": "2026-11-21T17:58:35.425Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSREZFRkRGQzYzM0U3Nzc2NTdEAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -6334,7 +6361,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-21T17:58:36.501Z"
     },
     "escasezFecha": "2026-11-21"
   },
