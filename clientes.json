@@ -4352,8 +4352,8 @@
     "telefono": "CO.1027957743683407",
     "nombre": "Marshall",
     "primerContacto": "2026-11-20T16:10:00.765Z",
-    "ultimoContacto": "2026-11-20T22:37:12.759Z",
-    "mensajes": 35,
+    "ultimoContacto": "2026-11-21T11:05:38.281Z",
+    "mensajes": 36,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4639,17 +4639,22 @@
         "fecha": "2026-11-21T11:04:31.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjQ1NDg3QUM5MDZCQzlERkZFOAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No escuchaste el audio que te envié. Voy a solicitarte el módem por ahí para el 5 de diciembre porque si me llega antes no tendría cómo pagarlo me entiendes entonces es eso mi amigo todavía no voy a hacer la compra",
+        "fecha": "2026-11-21T11:05:37.265Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, sin afán 😊 No te registro nada por ahora. Cuando quieras hacer el pedido me escribes y lo dejamos listo en un momento 🙌",
+        "fecha": "2026-11-21T11:05:37.269Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEkNCMTZDRjcyMDdBRTIyOERGOAA="
       }
     ],
-    "paso": "pedido_nombre",
-    "pedido": {
-      "productoId": "modem-4g5g",
-      "nombreProducto": "Modem WiFi Portatil 4G/5G",
-      "precio": 199900,
-      "telefono": "CO.1027957743683407",
-      "departamento": "Cauca",
-      "ciudad": "Ocasiones Es DifíCil Estar Reseal"
-    },
+    "paso": "conversando",
+    "pedido": {},
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -4658,7 +4663,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-12-05",
+      "texto": "No escuchaste el audio que te envié. Voy a solicitarte el módem por ahí para el 5 de diciembre porque si me llega antes ",
+      "desde": "2026-11-21T11:05:37.266Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
@@ -4666,13 +4676,12 @@
       "url": "https://www.instagram.com/p/DfV1zodMh50/",
       "fecha": "2026-11-20T16:09:58.913Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-21T11:05:37.265Z",
+      "texto": "No escuchaste el audio que te envié. Voy a solicitarte el módem por ahí para el 5 de diciembre porque si me llega antes "
+    },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-21T11:04:33.488Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
