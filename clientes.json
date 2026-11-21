@@ -7381,8 +7381,8 @@
     "telefono": "573206687776",
     "nombre": "yedir pernia",
     "primerContacto": "2026-11-20T14:28:29.083Z",
-    "ultimoContacto": "2026-11-20T14:29:33.180Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-21T15:19:04.135Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7434,13 +7434,20 @@
         "fecha": "2026-11-20T15:36:05.810Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2Njg3Nzc2FQIAERgSOTNEQjRDQ0RBODM5RkYzNjA5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola yedir pernia, sobre Modem 4G/5G",
+        "fecha": "2026-11-21T15:19:02.748Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2Njg3Nzc2FQIAERgSRUJCMUZBNEQ1MDU2ODIxM0E4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -7456,10 +7463,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-20T16:36:06.261Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-21"
   },
