@@ -3,8 +3,8 @@
     "telefono": "573113776248",
     "nombre": "Valery 🙏💪",
     "primerContacto": "2026-11-21T22:24:04.945Z",
-    "ultimoContacto": "2026-11-21T22:29:58.478Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-21T22:30:45.156Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,18 @@
         "fecha": "2026-11-21T22:29:57.583Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNzc2MjQ4FQIAERgSRTc4RTcxNzU0OUE5MUE5RjE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Entonces si me sirve voy a mirar bien le estaré avisando señorita",
+        "fecha": "2026-11-21T22:30:42.824Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, claro que sí, aquí estaré atenta para cuando decidas. Te recomiendo aprovechar que está a buen precio y con garantía para no quedarte sin internet cuando más lo necesitas. \n\nMientras tanto, ¿quieres que te cuente un poco más de cómo funciona el módem o de la batería para que vayas viendo?",
+        "fecha": "2026-11-21T22:30:44.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNzc2MjQ4FQIAERgSMEFDQkFFQzIxRjY3NzBGRkU5AA=="
       }
     ],
     "paso": "conversando",
@@ -114,7 +126,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
