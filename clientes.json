@@ -3,8 +3,8 @@
     "telefono": "CO.29441272162179715",
     "nombre": "fredi",
     "primerContacto": "2026-11-21T22:55:12.922Z",
-    "ultimoContacto": "2026-11-21T22:55:12.922Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T22:56:51.496Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-21T22:55:12.264Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBI4MjM1MTBGMEEyMkRDMkM0NjMA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bea me endica modem 5G",
+        "fecha": "2026-11-21T22:56:46.664Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 El *Modem WiFi Portátil 5G* cuesta $199.900 + $26.000 de envío.\n\n⚡ *Beneficios*:\n- Velocidad 5G para conexión rápida.\n- Ideal para hogares y fincas donde ya hay cobertura 5G.\n- Fácil de usar y llevar a donde quieras.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué ciudad o municipio lo vas a usar? Así confirmo que la cobertura 5G es buena allá para sacarle el mejor provecho.",
+        "fecha": "2026-11-21T22:56:50.286Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBIwNEY1OUI4OEE4MDlCMDU4QkEA"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-21T22:56:50.738Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBIwMkVGQ0FDQjY1MTU4RTY1NkEA"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/9V8wx8CTb",
       "fecha": "2026-11-21T22:55:11.054Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132741564",
