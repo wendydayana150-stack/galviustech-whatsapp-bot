@@ -1401,8 +1401,8 @@
     "telefono": "573114590237",
     "nombre": "Deivid del monte",
     "primerContacto": "2026-11-20T20:50:06.631Z",
-    "ultimoContacto": "2026-11-21T02:20:51.989Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-21T05:05:36.465Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1555,6 +1555,13 @@
         "fecha": "2026-11-21T02:20:25.032Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0NTkwMjM3FQIAERgSNEUyMTJDM0M4NEZEMjc1NTlGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] ",
+        "fecha": "2026-11-21T05:05:35.028Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0NTkwMjM3FQIAERgSM0E0MEMyOUIzQkI0QTA2QjUzAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -1565,7 +1572,7 @@
       "telefono": "573114590237",
       "departamento": "Arauca"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
