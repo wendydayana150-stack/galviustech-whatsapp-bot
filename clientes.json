@@ -1753,6 +1753,20 @@
         "fecha": "2026-11-21T14:07:42.943Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MDQxNjgwFQIAERgSMUYyQTM0MjA3MDU3ODdDRUU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta",
+        "fecha": "2026-11-21T14:24:02.381Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MDQxNjgwFQIAERgSNTM0Rjc4NkYzMzIxMTNFMTAyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Así imprime 😍 Hoy *$ 249.900* con *envío GRATIS* y *pagas al recibir*. ¿Te la envío? 🚚\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-21T14:24:03.068Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MDQxNjgwFQIAERgSRUI3MDUyNkI1RDIzNDQ4OTcwAA=="
       }
     ],
     "paso": "conversando",
@@ -1775,7 +1789,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T14:24:04.719Z"
     },
     "escasezFecha": "2026-11-21"
   },
@@ -2393,9 +2409,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-21T11:04:33.488Z"
+      "ultimoEnvio": "2026-11-21T14:24:04.719Z",
+      "horas1": true
     }
   },
   {
@@ -5320,6 +5337,13 @@
         "fecha": "2026-11-21T11:06:05.486Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjRFQTFGNDY0RTQ3RDUwMDZEOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-21T14:24:03.846Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAyNzk1Nzc0MzY4MzQwNxUUABEYEjVEODNENjkwMjI5NjkxNDZERQA="
       }
     ],
     "paso": "conversando",
@@ -5350,7 +5374,9 @@
       "texto": "No escuchaste el audio que te envié. Voy a solicitarte el módem por ahí para el 5 de diciembre porque si me llega antes "
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-21T14:24:04.719Z"
     }
   },
   {
