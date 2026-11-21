@@ -3,8 +3,8 @@
     "telefono": "573227334563",
     "nombre": "Santiago Martelo",
     "primerContacto": "2026-11-21T14:42:44.876Z",
-    "ultimoContacto": "2026-11-21T14:49:32.785Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-21T14:49:50.246Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -94,14 +94,27 @@
         "fecha": "2026-11-21T14:49:31.996Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSODc5OTUyNTE1QTYyNzMyNEQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santiago Andrés Martelo",
+        "fecha": "2026-11-21T14:49:49.381Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-21T14:49:49.384Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI3MzM0NTYzFQIAERgSN0ZCNjlGQ0Y4RjY5MTI2QkJGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b",
       "nombreProducto": "Impresora Térmica Portátil de Etiquetas Clabel 221B",
       "precio": 155000,
-      "telefono": "573227334563"
+      "telefono": "573227334563",
+      "nombreCliente": "Santiago Andrés Martelo"
     },
     "pausado": false,
     "etapaManual": null,
