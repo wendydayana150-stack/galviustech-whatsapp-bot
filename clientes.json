@@ -3,8 +3,8 @@
     "telefono": "573113776248",
     "nombre": "Valery 🙏💪",
     "primerContacto": "2026-11-21T22:24:04.945Z",
-    "ultimoContacto": "2026-11-21T22:28:34.979Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-21T22:29:58.478Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,6 +92,18 @@
         "fecha": "2026-11-21T22:28:33.958Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNzc2MjQ4FQIAERgSNzVCQTRDNDM2MkM4MUE2QTBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En donde están ubicados señorita",
+        "fecha": "2026-11-21T22:29:55.868Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa o a la oficina de la transportadora si vives en vereda. \n\n¿En qué ciudad o municipio estás para confirmarte el envío? ¿Te interesa el módem 4G/5G para tu finca o trabajo en el campo?",
+        "fecha": "2026-11-21T22:29:57.583Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNzc2MjQ4FQIAERgSRTc4RTcxNzU0OUE5MUE5RjE0AA=="
       }
     ],
     "paso": "conversando",
@@ -112,7 +124,10 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-21T22:24:03.359Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-21T22:29:55.868Z",
+      "texto": "En donde están ubicados señorita"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
