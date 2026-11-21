@@ -3,8 +3,8 @@
     "telefono": "593997889110",
     "nombre": "edinson",
     "primerContacto": "2026-11-21T16:28:13.852Z",
-    "ultimoContacto": "2026-11-21T16:28:13.852Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T16:28:17.033Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-21T16:28:13.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTk3ODg5MTEwFQIAERgSQjc2QUUyNkExNDJFRkVDNDFEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-21T16:28:14.924Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech, para ayudarte con los módems WiFi portátiles 4G y 5G.\n\n📍 ¿En qué municipio o vereda lo necesitas?\n💻 ¿Lo vas a usar para estudio, trabajo, negocio o en casa?\n\nCuéntame para recomendarte el mejor modem según tu necesidad. ¿Dónde lo vas a usar?",
+        "fecha": "2026-11-21T16:28:16.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTk3ODg5MTEwFQIAERgSODRGMDAyMkZFQUI5RkJEM0Q3AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8sAzYqEFa",
       "fecha": "2026-11-21T16:28:12.097Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573042750682",
