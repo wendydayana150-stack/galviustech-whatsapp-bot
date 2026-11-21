@@ -3,8 +3,8 @@
     "telefono": "573145466773",
     "nombre": "DEIBY🙌",
     "primerContacto": "2026-11-21T19:00:05.382Z",
-    "ultimoContacto": "2026-11-21T19:00:05.382Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-21T19:01:16.007Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-21T19:00:04.577Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NDY2NzczFQIAERgSQUMyMzkzQjAyOEQ0MzUxQzc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No hay internet",
+        "fecha": "2026-11-21T19:01:12.554Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Podrías contarme si no tienes internet en tu casa o si el problema es que el celular no capta señal donde estás? Nuestros módems tienen antenas más potentes para mejorar la conexión en zonas donde el celular falla.\n\nAsí te ayudo mejor a elegir el que te funcionará en tu caso, ¿ok? ¿Dónde exactamente lo necesitas usar?",
+        "fecha": "2026-11-21T19:01:15.182Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDY2NzczFQIAERgSMzNCOTg5NjU0NjJCNTY1NTlBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/dTsBQQky7",
       "fecha": "2026-11-21T19:00:03.469Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573202678238",
