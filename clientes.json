@@ -6039,8 +6039,8 @@
     "telefono": "573133455759",
     "nombre": "anacolmenarez017",
     "primerContacto": "2026-11-20T17:04:31.090Z",
-    "ultimoContacto": "2026-11-21T17:22:04.815Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-21T17:26:30.031Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6195,14 +6195,27 @@
         "fecha": "2026-11-21T17:22:04.030Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSMjU5NDVGMzMxRTExQzJFMEIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ana Karina colmenarez",
+        "fecha": "2026-11-21T17:26:29.182Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-21T17:26:29.185Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMzNDU1NzU5FQIAERgSQTFBNTc1REQzQTBBQzY4RjAzAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
-      "telefono": "573133455759"
+      "telefono": "573133455759",
+      "nombreCliente": "Ana Karina colmenarez"
     },
     "pausado": false,
     "etapaManual": null,
