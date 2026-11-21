@@ -123,8 +123,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-21T15:14:51.944Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-21T15:16:19.686Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -224,6 +224,18 @@
         "fecha": "2026-11-21T15:14:51.232Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSNkY3MkUyQzExNDUwMkI2NTRGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esperaré hasta fin de mes",
+        "fecha": "2026-11-21T15:16:17.579Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que quieras pensarlo con calma 😊 Solo recuerda que esta es una oferta especial con descuento del 30% y tiene pocas unidades disponibles.\n\nMientras tanto, qué te parece si te dejo toda la info para que cuando decidas no pierdas tiempo? O quieres que te avise si se acaba la promoción?\n\n¿Qué prefieres?",
+        "fecha": "2026-11-21T15:16:19.015Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSQzg3QTBBQUFDMUNEQTY5NkIxAA=="
       }
     ],
     "paso": "conversando",
@@ -236,7 +248,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-30",
+      "texto": "Esperaré hasta fin de mes",
+      "desde": "2026-11-21T15:16:17.580Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": null,
     "caliente": null,
