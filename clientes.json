@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:05:32.792Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-22T05:05:48.249Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,15 +188,30 @@
         "fecha": "2026-11-22T05:05:31.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSQTczODNDNkQwNUMyMjlBREQ0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ Sí, envíamelo",
+        "fecha": "2026-11-22T05:05:47.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 🙌 Elegiste *Modem WiFi Portatil 4G* ($ 199.900) y pagas al recibir 🚚\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-22T05:05:47.477Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSNDFGRTAzQkFDMEI3NTJBQTlEAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "pedido_nombre",
     "pedido": {
-      "productoId": "modem-4g5g"
+      "productoId": "modem-4g",
+      "nombreProducto": "Modem WiFi Portatil 4G",
+      "precio": 199900,
+      "telefono": "573505024575"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
