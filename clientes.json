@@ -3,8 +3,8 @@
     "telefono": "CO.1130881449570669",
     "nombre": "Faider",
     "primerContacto": "2026-11-22T21:02:49.891Z",
-    "ultimoContacto": "2026-11-22T21:02:49.891Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T21:04:24.961Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-22T21:02:48.931Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjI0Nzg0ODQzM0FCODAxREYzNAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como se utiliza",
+        "fecha": "2026-11-22T21:04:20.975Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico rápido cómo usar cualquiera de nuestros módems portátiles:\n\n1. Inserta la SIM de tu operador (Claro, Movistar, Tigo, WOM, etc.).\n2. Enciendes el módem con un botón.\n3. Conéctate a la red WiFi que genera con tu celular, computador o tablet.\n4. Ya estás listo para navegar donde tengas señal 4G o 5G.\n\nEs súper fácil y práctico, ideal para fincas, veredas o para moverte sin perder conexión.\n\n¿En qué sitio lo usarías tú? Así te ayudo a recomendar la mejor versión.",
+        "fecha": "2026-11-22T21:04:24.105Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEkQ4QjM0QjFEMkIxM0UyN0I1OQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T21:02:47.669Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573024993979",
