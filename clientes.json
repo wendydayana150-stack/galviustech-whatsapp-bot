@@ -3,8 +3,8 @@
     "telefono": "573226589757",
     "nombre": "Ariel Barrios",
     "primerContacto": "2026-11-22T16:01:31.486Z",
-    "ultimoContacto": "2026-11-22T16:01:31.486Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T16:02:05.604Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-22T16:01:30.767Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2NTg5NzU3FQIAERgSNzNBQzUyMTQyNUU0RTQ4ODNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Funciona con SIM?",
+        "fecha": "2026-11-22T16:02:02.755Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con SIM de cualquier operador en Colombia: Claro, Movistar, Tigo, WOM, ETB.\n\nTe comento que cuando confirmes tu compra te enviamos de regalo una SIMCARD física de Claro (sin plan ni megas activos, tú la activas cuando quieras).\n\n¿En qué municipio o vereda necesitas internet y para qué lo usarías? Así te recomiendo la versión que mejor te sirve.",
+        "fecha": "2026-11-22T16:02:04.756Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2NTg5NzU3FQIAERgSMkU4MTU3RUQwOTRCN0QzMkJEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/h7h0iCNBq",
       "fecha": "2026-11-22T16:01:29.796Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573126356740",
