@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:07:09.098Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-22T05:07:30.204Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -212,15 +212,28 @@
         "fecha": "2026-11-22T05:06:10.177Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSMUYwNzFFMzdEQTI3OURDQzFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3505024575",
+        "fecha": "2026-11-22T05:07:29.098Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-22T05:07:29.099Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSOEREODJBQjkwNTYzNzcwQUI3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
       "telefono": "573505024575",
-      "nombreCliente": "José Fabián gallo Loaiza"
+      "nombreCliente": "José Fabián gallo Loaiza",
+      "celular": "3505024575"
     },
     "pausado": false,
     "etapaManual": null,
