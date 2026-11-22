@@ -796,8 +796,8 @@
     "telefono": "573238868193",
     "nombre": "Warriors",
     "primerContacto": "2026-11-22T15:26:00.178Z",
-    "ultimoContacto": "2026-11-22T16:26:49.923Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-22T16:27:03.462Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -897,13 +897,41 @@
         "fecha": "2026-11-22T16:26:48.977Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMkVBNDdEMDE0OERGOTY4MzlDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Impresora Clabel 221B",
+        "fecha": "2026-11-22T16:27:01.665Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Clabel 221B",
+        "fecha": "2026-11-22T16:27:01.666Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSQkMzMDk4NTNDQTIzNTlFNTYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Impresora Térmica Portátil de Etiquetas Clabel 221B*\n💰 *$ 155.000* ya con *30% de descuento* 🔥\n✅ Etiquetas con precio, código de barras y vencimiento\n✅ Sin tinta ni tóner\n✅ Incluye un rollo de etiquetas para empezar\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-22T16:27:02.158Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMjA1QUVDNUE0ODI0QjIzOUIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-22T16:27:02.570Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMzE3MUQ2RjY4N0RFRUI3MEIyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "impresora-termica-portatil-de-etiquetas-clabel-221b"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "impresora-termica-portatil-de-etiquetas-clabel-221b",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
