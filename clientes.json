@@ -356,6 +356,13 @@
         "fecha": "2026-11-22T16:06:20.863Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSMzVBRDk3MjYwN0NDMEQ2M0NBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-22T17:12:08.122Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSODk4MURFREQxNjJGQzFEMzMxAA=="
       }
     ],
     "paso": "conversando",
@@ -378,7 +385,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-22T17:12:09.398Z"
     }
   },
   {
@@ -1150,9 +1159,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-22T16:12:09.580Z"
+      "ultimoEnvio": "2026-11-22T17:12:09.398Z",
+      "horas3": true
     }
   },
   {
