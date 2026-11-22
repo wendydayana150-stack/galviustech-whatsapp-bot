@@ -3,8 +3,8 @@
     "telefono": "CO.2754858501634337",
     "nombre": "RH Pérez",
     "primerContacto": "2026-11-22T21:55:54.189Z",
-    "ultimoContacto": "2026-11-22T21:55:54.189Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T22:08:16.387Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-22T21:55:53.154Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjc1NDg1ODUwMTYzNDMzNxUUABEYEkMxOEM0NDYxOEY4NEM5MzgyQQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En tierralta córdoba \nV/ Flores Arriba",
+        "fecha": "2026-11-22T22:08:12.142Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto que estés en Tierralta, Córdoba. Los módems GalviusTech están diseñados para zonas rurales como esa, con mejor cobertura que un celular normal.\n\nTe recomiendo el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío. Funciona bien donde hay 4G y donde ya hay 5G, te da internet para varios dispositivos, y es fácil de llevar.\n\nTambién está el más económico 4G y el 5G puro, pero el 4G/5G es la mejor opción por versatilidad.\n\nLlega en 1 a 3 días hábiles, te llega a la puerta o a la oficina de la transportadora si es zona rural.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu dirección o prefieres recogerlo en la transportadora?",
+        "fecha": "2026-11-22T22:08:14.739Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjc1NDg1ODUwMTYzNDMzNxUUABEYEjJENzY3RjgyMkFBNUQwQjMxMAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T22:08:15.437Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjc1NDg1ODUwMTYzNDMzNxUUABEYEjlGNDREQjQ0RDlEOUFGQjJCQQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/h7h0iCNBq",
       "fecha": "2026-11-22T21:55:51.629Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573233661568",
