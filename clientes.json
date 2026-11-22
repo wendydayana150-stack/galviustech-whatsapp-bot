@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:07:30.204Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-22T05:07:38.247Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -224,16 +224,29 @@
         "fecha": "2026-11-22T05:07:29.099Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSOEREODJBQjkwNTYzNzcwQUI3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Manizales Caldas",
+        "fecha": "2026-11-22T05:07:37.311Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-22T05:07:37.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSQzhBQ0MzMkQ0NTkzNjhGMzY4AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
       "precio": 199900,
       "telefono": "573505024575",
       "nombreCliente": "José Fabián gallo Loaiza",
-      "celular": "3505024575"
+      "celular": "3505024575",
+      "departamento": "Caldas"
     },
     "pausado": false,
     "etapaManual": null,
