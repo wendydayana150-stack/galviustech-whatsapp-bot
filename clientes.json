@@ -6921,8 +6921,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T17:01:30.916Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-22T17:01:40.398Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7184,9 +7184,21 @@
         "fecha": "2026-11-22T17:01:29.846Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSOEVFQTM2MTZFQzhDODczNTcxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Barrio el triunfo",
+        "fecha": "2026-11-22T17:01:39.520Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-22T17:01:39.521Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSRjgzOEFDOUI2Q0RERDRBREU2AA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -7196,7 +7208,8 @@
       "celular": "3225065441",
       "departamento": "Cauca",
       "ciudad": "Municipio Buenaventura",
-      "direccion": "si o no"
+      "direccion": "si o no",
+      "barrio": "Barrio el triunfo"
     },
     "pausado": false,
     "etapaManual": null,
