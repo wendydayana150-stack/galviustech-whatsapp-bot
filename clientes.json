@@ -267,8 +267,8 @@
     "telefono": "573215343771",
     "nombre": "Stefany Arango",
     "primerContacto": "2026-11-22T06:47:16.682Z",
-    "ultimoContacto": "2026-11-22T07:24:40.038Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-22T11:47:22.925Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -339,10 +339,27 @@
         "fecha": "2026-11-22T11:08:35.228Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE1MzQzNzcxFQIAERgSNTlENUREQzM5MkEwQUQyQkMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ LA QUIERO",
+        "fecha": "2026-11-22T11:47:21.827Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-22T11:47:22.061Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE1MzQzNzcxFQIAERgSQkY4NjY2Mjk3REM3RDcyMjMxAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573215343771"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -361,9 +378,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T11:08:42.414Z"
+      "seguimientosEnviados": 0
     }
   },
   {
