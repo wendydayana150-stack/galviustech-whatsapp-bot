@@ -2121,8 +2121,8 @@
     "telefono": "573226589757",
     "nombre": "Ariel Barrios",
     "primerContacto": "2026-11-22T16:01:31.486Z",
-    "ultimoContacto": "2026-11-22T16:02:05.604Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T22:54:12.395Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2181,6 +2181,18 @@
         "fecha": "2026-11-22T18:02:08.104Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI2NTg5NzU3FQIAERgSNkRBMjNCOUIwQzMzMjk3QjEwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy fuera de él país tan pronto esté de regreso los contacto",
+        "fecha": "2026-11-22T22:54:08.694Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, gracias por contarme. Recuerda que los módems son la mejor opción para tener internet rápido y sin complicaciones en Colombia, especialmente si usas el internet para trabajo, estudio o tu negocio.\n\nCuando estés listo o lista, aquí estaré para ayudarte a elegir el mejor modelo y dejarte el pedido listo para envío directo a tu casa.\n\n¿Quieres que te envíe la info para que la tengas a la mano cuando regreses? 😊",
+        "fecha": "2026-11-22T22:54:11.349Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI2NTg5NzU3FQIAERgSOTM1MDhDN0MyQjhCMzJBNUNBAA=="
       }
     ],
     "paso": "conversando",
@@ -2191,7 +2203,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
@@ -2203,10 +2215,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T18:02:10.606Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
