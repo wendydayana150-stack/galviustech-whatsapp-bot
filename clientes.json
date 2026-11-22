@@ -123,8 +123,8 @@
     "telefono": "584220175163",
     "nombre": "Andi",
     "primerContacto": "2026-11-22T19:25:00.273Z",
-    "ultimoContacto": "2026-11-22T20:32:42.852Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T20:34:08.462Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -176,13 +176,25 @@
         "fecha": "2026-11-22T20:32:42.113Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSNjcyQzdCOEIxQzkwM0RGMENCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para todo esto",
+        "fecha": "2026-11-22T20:34:05.688Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, para uso general que incluya trabajo, estudio y hogar, te recomiendo el *Modem WiFi Portatil 4G/5G*.\n\n🚀 Tiene tecnología 4G y 5G para conectarte donde haya señal, conecta varios dispositivos, es fácil de transportar y usar.\n\nLa inversión sería de $199.900 + $26.000 de envío, pagas al recibir con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Te lo envío a tu casa o prefieres recogerlo en oficina?",
+        "fecha": "2026-11-22T20:34:07.655Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSM0UxQTFEOEUxNEI0MEU2ODgzAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
