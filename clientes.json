@@ -6921,8 +6921,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T16:05:59.465Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-22T16:54:42.122Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7105,6 +7105,25 @@
         "fecha": "2026-11-22T16:42:09.992Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSRDAxMzU2NkVFMDI1OURDQjk1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hevert Montoya Baltan \ncédula 16508371\ncorreo baltan2123@hotmail.com \ncelular 3225065441",
+        "fecha": "2026-11-22T16:54:38.678Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Hevert Montoya Baltan 😊\n\nYa te dejo el pedido listo para la Impresora Térmica Portátil NETUM y te llegará a Servientrega Buenaventura.",
+        "fecha": "2026-11-22T16:54:40.642Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSNUNFM0E2MkI1N0I1QTI2N0FGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-22T16:54:41.421Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSNjBCMzU0OTA0Njc5REZBMTg0AA=="
       }
     ],
     "paso": "pedido_celular",
@@ -7136,9 +7155,7 @@
       "texto": "Hevert Montoya Baltan \ncédula 16508371\ncorreo baltan2123@hotmail.com \ncelular 3225065441"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-22T16:42:10.931Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-22"
   },
