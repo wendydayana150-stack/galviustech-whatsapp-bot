@@ -3,8 +3,8 @@
     "telefono": "573024524331",
     "nombre": "Yolanda",
     "primerContacto": "2026-11-22T14:33:21.911Z",
-    "ultimoContacto": "2026-11-22T14:33:45.517Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T15:06:18.275Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-22T14:33:21.155Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDI0NTI0MzMxFQIAERgSNjlFNTYxRkY0QTU2RUI3RkNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-22T15:06:14.316Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊\n\nEstos módems son ideales para tener internet propio sin depender de fibra óptica ni de conexiones fijas. Son portátiles, llevas tu WiFi a donde estés y pueden conectar hasta 10 dispositivos (celular, laptop, tablet) a la vez.\n\nSi trabajas, estudias o simplemente quieres tener internet en la finca o vereda, estos módems son la solución para que no te quedes sin señal.\n\n¿Me cuentas en qué zona o municipio lo usarías? Así te recomiendo la mejor opción para tu caso.",
+        "fecha": "2026-11-22T15:06:17.246Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDI0NTI0MzMxFQIAERgSRjgzQjEyMEVCNjQwODM1QTlFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
