@@ -6921,8 +6921,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T16:54:42.122Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-22T16:55:07.372Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7124,15 +7124,28 @@
         "fecha": "2026-11-22T16:54:41.421Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSNjBCMzU0OTA0Njc5REZBMTg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3225065441",
+        "fecha": "2026-11-22T16:55:06.438Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-22T16:55:06.439Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSMjI0MzM4NEY5QzM2OTNCMERBAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573127595177",
-      "nombreCliente": "Hevert Montoya Baltan"
+      "nombreCliente": "Hevert Montoya Baltan",
+      "celular": "3225065441"
     },
     "pausado": false,
     "etapaManual": null,
