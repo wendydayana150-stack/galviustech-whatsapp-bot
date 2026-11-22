@@ -63,8 +63,8 @@
     "telefono": "573107076764",
     "nombre": "Federico",
     "primerContacto": "2026-11-22T15:38:13.522Z",
-    "ultimoContacto": "2026-11-22T15:38:23.118Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T15:39:25.760Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -109,13 +109,32 @@
         "fecha": "2026-11-22T15:38:22.097Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDc2NzY0FQIAERgSN0MwQ0MwREUzRUFFMjE1OTZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo estoy ubicado en el municipio de guarne Antioquia y ese es portátil",
+        "fecha": "2026-11-22T15:39:21.951Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Guarne Antioquia. Para uso portátil y cobertura segura en tu zona, te recomiendo el *Módem WiFi Portátil 4G/5G*.\n\n🚀 Beneficios:\n- Funciona en 4G y 5G, para mayor compatibilidad según señal en tu área.\n- Conecta varios dispositivos simultáneamente.\n- Fácil de transportar, ideal para que lo lleves donde necesites conexión.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión sería de $199.900 + $26.000 de envío. ¿Quieres que te lo envíe a tu casa o prefieres recogerlo en oficina?",
+        "fecha": "2026-11-22T15:39:23.916Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDc2NzY0FQIAERgSQjYwMUFFMThCRURFNDczRTMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T15:39:24.494Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDc2NzY0FQIAERgSNzA5RDEwNzlCQ0ZBODkzREY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -129,7 +148,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T15:38:11.606Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-22T15:39:21.952Z",
+      "texto": "Yo estoy ubicado en el municipio de guarne Antioquia y ese es portátil"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
