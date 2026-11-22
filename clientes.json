@@ -3,8 +3,8 @@
     "telefono": "573203861382",
     "nombre": "enriquemoronta88",
     "primerContacto": "2026-11-22T00:41:49.859Z",
-    "ultimoContacto": "2026-11-22T00:45:56.255Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T00:52:03.324Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,18 @@
         "fecha": "2026-11-22T00:45:55.411Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzODYxMzgyFQIAERgSNjg3QzM1RTU3RDI1NDlENEI4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esa copiadora puede sacar copia de cédula todo tipos de documentos",
+        "fecha": "2026-11-22T00:52:00.676Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la *Impresora NETUM* puede imprimir todo tipo de documentos que tengas en formato digital en tu móvil: cédulas, facturas, trabajos, listas, apuntes, etc., siempre en blanco y negro y en tamaño carta.\n\nNo es escáner ni fotocopiadora, así que no copia de forma directa papel a papel; debes tener digitalizado el contenido para imprimirlo por Bluetooth.\n\n¿La necesitas principalmente para documentos personales, trabajo o algo más?",
+        "fecha": "2026-11-22T00:52:02.442Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzODYxMzgyFQIAERgSRjQ4RDlDNjdGMUFEQ0IwMEY4AA=="
       }
     ],
     "paso": "conversando",
@@ -76,7 +88,10 @@
       "url": "https://fb.me/cbKOxynUi",
       "fecha": "2026-11-22T00:41:47.651Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-22T00:52:00.676Z",
+      "texto": "Esa copiadora puede sacar copia de cédula todo tipos de documentos"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
