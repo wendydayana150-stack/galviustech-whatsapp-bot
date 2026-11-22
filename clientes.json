@@ -6921,8 +6921,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T16:55:20.632Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-22T16:55:39.553Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7148,9 +7148,21 @@
         "fecha": "2026-11-22T16:55:19.798Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSQjgzMDdDNDBEOUY4NTlBQjAyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Municipio Buenaventura",
+        "fecha": "2026-11-22T16:55:38.552Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-22T16:55:38.555Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSNURDNUVBRDI3MjJBNjI3OTZGAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -7158,7 +7170,8 @@
       "telefono": "573127595177",
       "nombreCliente": "Hevert Montoya Baltan",
       "celular": "3225065441",
-      "departamento": "Cauca"
+      "departamento": "Cauca",
+      "ciudad": "Municipio Buenaventura"
     },
     "pausado": false,
     "etapaManual": null,
