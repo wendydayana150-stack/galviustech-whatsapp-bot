@@ -1372,8 +1372,8 @@
     "telefono": "573238868193",
     "nombre": "Warriors",
     "primerContacto": "2026-11-22T15:26:00.178Z",
-    "ultimoContacto": "2026-11-22T18:45:16.009Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-22T18:45:42.239Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1565,15 +1565,41 @@
         "fecha": "2026-11-22T18:45:15.035Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSQkZFOTgzRTkwMkYwNTQxNTRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Curren 8475 (Hombre)",
+        "fecha": "2026-11-22T18:45:40.486Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Curren 8475 (Hombre)",
+        "fecha": "2026-11-22T18:45:40.486Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSREI3MjQ1MjIxMzQ4NUQ0MDY5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reloj Curren 8475 Original Para Hombre*\n💰 *$ 159.900* ya con *30% de descuento* 🔥\n✅ Diseño deportivo negro mate con detalles en verde\n✅ Cronógrafo funcional\n✅ Caja y correa metálica resistente\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-22T18:45:40.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMDVBQjlERDU0MzY3OUUwMDg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-22T18:45:41.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSRjc4MEMyOEM1Qzg3MjBGMUFBAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica-portatil-goojprt-pt-210"
+      "productoId": "reloj-curren-8475-original-para-hombre"
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica-portatil-goojprt-pt-210",
+    "ultimoProducto": "reloj-curren-8475-original-para-hombre",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
