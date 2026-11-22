@@ -3525,8 +3525,8 @@
     "telefono": "593963032989",
     "nombre": "Sol Morales",
     "primerContacto": "2026-11-21T20:18:11.696Z",
-    "ultimoContacto": "2026-11-22T14:51:37.812Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-22T14:51:49.082Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3642,9 +3642,21 @@
         "fecha": "2026-11-22T14:51:37.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSMTQ2NTMxOTMyRDU3MjIxQUE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cajica",
+        "fecha": "2026-11-22T14:51:48.110Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-22T14:51:48.112Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSRjNFNzVGQ0IzNjQwMTY5Qjg1AA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -3652,7 +3664,8 @@
       "telefono": "593963032989",
       "nombreCliente": "En papel termogrficp",
       "celular": "3052034063",
-      "departamento": "Cundinamarca"
+      "departamento": "Cundinamarca",
+      "ciudad": "Cajica"
     },
     "pausado": false,
     "etapaManual": null,
