@@ -123,8 +123,8 @@
     "telefono": "584220175163",
     "nombre": "Andi",
     "primerContacto": "2026-11-22T19:25:00.273Z",
-    "ultimoContacto": "2026-11-22T19:25:00.273Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T20:32:42.852Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -164,6 +164,18 @@
         "fecha": "2026-11-22T20:32:08.117Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSQUE3OTkzQTY0QzQwRUYxNDNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Okey",
+        "fecha": "2026-11-22T20:32:39.414Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, dime para qué lo necesitas: ¿para estudiar, trabajar, tu negocio o uso en casa? Así te recomiendo el módem que más te sirve. ¿Me cuentas?",
+        "fecha": "2026-11-22T20:32:42.113Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSNjcyQzdCOEIxQzkwM0RGMENCAA=="
       }
     ],
     "paso": "conversando",
@@ -186,9 +198,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T20:32:09.453Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
