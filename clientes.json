@@ -323,7 +323,15 @@
     "primerContacto": "2026-11-22T14:27:04.059Z",
     "ultimoContacto": "2026-11-22T14:27:04.059Z",
     "mensajes": 1,
-    "conversacion": [],
+    "conversacion": [
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-22T15:32:08.455Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEwMjQzMzkzOTI5Njg3MxUUABEYEjBFRDFGNDZCNkExQTU1Qzg1OAA="
+      }
+    ],
     "paso": "inicio",
     "pedido": {},
     "pausado": false,
@@ -337,7 +345,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-22T15:32:11.062Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "CO.1115651304406787",
@@ -644,8 +657,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-22T14:29:58.952Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-22T15:32:11.062Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
@@ -3873,6 +3887,13 @@
         "fecha": "2026-11-22T14:51:54.310Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSMUZCOTMyN0Q1NUVEODYxODNGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola En! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n✅ En papel termogrficp\n✅ Cel: 3052034063\n✅ Cajica, Cundinamarca\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu direccion completa?",
+        "fecha": "2026-11-22T15:32:09.869Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSMEREREYzNzQ3NkM4QkIyQjE0AA=="
       }
     ],
     "paso": "pedido_direccion",
@@ -3907,7 +3928,9 @@
       "texto": "La quiero mara hacer stencil de tatuajes"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-22T15:32:11.062Z"
     },
     "escasezFecha": "2026-11-22"
   },
