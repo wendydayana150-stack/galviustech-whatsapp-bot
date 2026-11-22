@@ -3525,8 +3525,8 @@
     "telefono": "593963032989",
     "nombre": "Sol Morales",
     "primerContacto": "2026-11-21T20:18:11.696Z",
-    "ultimoContacto": "2026-11-22T14:51:30.750Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-22T14:51:37.812Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3630,16 +3630,29 @@
         "fecha": "2026-11-22T14:51:29.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSQzQ4MkZGMzIzQzVEMzE5RjA1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cundinamarca",
+        "fecha": "2026-11-22T14:51:37.069Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-22T14:51:37.070Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSMTQ2NTMxOTMyRDU3MjIxQUE0AA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "593963032989",
       "nombreCliente": "En papel termogrficp",
-      "celular": "3052034063"
+      "celular": "3052034063",
+      "departamento": "Cundinamarca"
     },
     "pausado": false,
     "etapaManual": null,
