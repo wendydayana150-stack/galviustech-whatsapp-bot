@@ -3,8 +3,8 @@
     "telefono": "CO.1130881449570669",
     "nombre": "Faider",
     "primerContacto": "2026-11-22T21:02:49.891Z",
-    "ultimoContacto": "2026-11-22T21:10:05.262Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-22T21:10:25.198Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -195,6 +195,18 @@
         "fecha": "2026-11-22T21:10:04.296Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjE4RDg0NjMyODQyNUQwRDJDNQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Al recibir",
+        "fecha": "2026-11-22T21:10:24.271Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No identifique ese medio de pago. Me confirmas si es contraentrega, transferencia, Sistecrédito u otro?",
+        "fecha": "2026-11-22T21:10:24.272Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjNBRjYwMDQ3MDk0RTVGNkJGNgA="
       }
     ],
     "paso": "pedido_pago",
