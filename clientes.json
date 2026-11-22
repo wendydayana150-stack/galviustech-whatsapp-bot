@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:07:52.919Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-22T05:07:55.055Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -248,9 +248,21 @@
         "fecha": "2026-11-22T05:07:51.476Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSODg3OUM5MDBDRjkwRkVCMDM3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Manizales",
+        "fecha": "2026-11-22T05:07:54.165Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-22T05:07:54.168Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSNzI2MjFENEJDRjA4MjM1RjNEAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g",
       "nombreProducto": "Modem WiFi Portatil 4G",
@@ -259,7 +271,8 @@
       "nombreCliente": "José Fabián gallo Loaiza",
       "celular": "3505024575",
       "departamento": "Caldas",
-      "direccion": "Calle 19 # 2909"
+      "direccion": "Calle 19 # 2909",
+      "ciudad": "Manizales"
     },
     "pausado": false,
     "etapaManual": null,
