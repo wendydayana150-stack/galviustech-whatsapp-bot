@@ -3,8 +3,8 @@
     "telefono": "573115041287",
     "nombre": "FRANKY VILLAMIZAR",
     "primerContacto": "2026-11-22T19:10:42.520Z",
-    "ultimoContacto": "2026-11-22T19:10:42.520Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T19:11:17.273Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,52 @@
         "fecha": "2026-11-22T19:10:41.772Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1MDQxMjg3FQIAERgSQzIwMjZGQTE0RkYxMkYzMkZBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tienes impresora portátil tamaño carta",
+        "fecha": "2026-11-22T19:11:11.144Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-22T19:11:15.027Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MDQxMjg3FQIAERgSMDEwQTgyMEUzNDhCNkMwREU4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-22T19:11:15.458Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que sí. Tenemos la *Impresora Térmica Portátil NETUM* tamaño carta, ideal para imprimir documentos, trabajos o facturas sin depender de impresoras grandes ni tinta.\n\nEs portátil, conecta por Bluetooth con tu celular y usa hojas térmicas, así que no gastas en tinta.\n\nLa inversión es de *$249.900* con *envío GRATIS* y pagas al recibir. Mide 27.5 x 6.5 x 5 cm, como un control remoto delgado.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué la necesitas principalmente, para tareas, negocios o algo más? 😊",
+        "fecha": "2026-11-22T19:11:15.463Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MDQxMjg3FQIAERgSM0U1OTRBQzBERjcwNjZFNDg4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira la calidad de impresión de la NETUM 🖨️",
+        "fecha": "2026-11-22T19:11:15.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MDQxMjg3FQIAERgSREJBMjdBMkY3QUJENjYwOEEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T19:11:16.161Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MDQxMjg3FQIAERgSRjgxRTgzRjU5OTRCQzlGNzVEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +78,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573219316724",
