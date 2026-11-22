@@ -3,8 +3,8 @@
     "telefono": "573213309894",
     "nombre": "MG",
     "primerContacto": "2026-11-22T17:29:19.706Z",
-    "ultimoContacto": "2026-11-22T17:29:19.706Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T17:29:24.454Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-22T17:29:18.696Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzA5ODk0FQIAERgSMjAzNjk0M0REOTZGMkFGMkFBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-22T17:29:21.335Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Qué tal? ¿En qué municipio o vereda necesitas usar el módem y para qué te serviría principalmente? ¿Estudio, trabajo, negocio o para el hogar? Así te puedo recomendar el mejor modelo para ti.",
+        "fecha": "2026-11-22T17:29:23.467Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzA5ODk0FQIAERgSNTM2OEE1MDU5NUZEOEI4OTNEAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-22T17:29:17.196Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573213618538",
