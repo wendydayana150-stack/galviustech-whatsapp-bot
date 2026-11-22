@@ -796,8 +796,8 @@
     "telefono": "573238868193",
     "nombre": "Warriors",
     "primerContacto": "2026-11-22T15:26:00.178Z",
-    "ultimoContacto": "2026-11-22T15:26:00.178Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T16:25:36.459Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -830,6 +830,25 @@
         "fecha": "2026-11-22T15:25:59.478Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMzgwMDg2RThCMTIxOUZGMTA0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para negocio",
+        "fecha": "2026-11-22T16:25:32.894Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para negocio te recomiendo la *Impresora Térmica Portátil NETUM*. Imprime en hojas tamaño carta, sin tinta ni cartuchos, con conexión por Bluetooth directo desde tu celular.\n\nLa inversión es de *$249.900* con *envío GRATIS* a toda Colombia y pagas contra entrega.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Qué tipo de documentos o recibos necesitas imprimir principalmente? Así confirmamos que esta es la mejor opción para ti.",
+        "fecha": "2026-11-22T16:25:35.253Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSM0E1NDIxNzI4Q0Q5NUEzNDczAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T16:25:35.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMkMzN0UzMjAwQzEzMTY1RkI5AA=="
       }
     ],
     "paso": "conversando",
@@ -850,7 +869,10 @@
       "url": "https://fb.me/5fzLTzPbT",
       "fecha": "2026-11-22T15:25:58.360Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573024524331",
