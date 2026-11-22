@@ -3,8 +3,8 @@
     "telefono": "CO.1130881449570669",
     "nombre": "Faider",
     "primerContacto": "2026-11-22T21:02:49.891Z",
-    "ultimoContacto": "2026-11-22T21:09:06.305Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-22T21:09:23.707Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -171,9 +171,21 @@
         "fecha": "2026-11-22T21:09:05.313Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEkQ1ODFBQTIyMkQ1MTlGNEM2OQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Maicao la guajira",
+        "fecha": "2026-11-22T21:09:22.760Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-22T21:09:22.762Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjk5NUE5NzJBRTc5QUNGMjEyMQA="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -181,7 +193,8 @@
       "telefono": "CO.1130881449570669",
       "nombreCliente": "Faidy ipuana",
       "celular": "3126870425",
-      "departamento": "La Guajira"
+      "departamento": "La Guajira",
+      "ciudad": "Maicao la guajira"
     },
     "pausado": false,
     "etapaManual": null,
