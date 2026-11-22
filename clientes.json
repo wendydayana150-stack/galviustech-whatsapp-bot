@@ -3,8 +3,8 @@
     "telefono": "CO.1130881449570669",
     "nombre": "Faider",
     "primerContacto": "2026-11-22T21:02:49.891Z",
-    "ultimoContacto": "2026-11-22T21:10:25.198Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-22T21:10:33.180Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -207,6 +207,18 @@
         "fecha": "2026-11-22T21:10:24.272Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjNBRjYwMDQ3MDk0RTVGNkJGNgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El pedido",
+        "fecha": "2026-11-22T21:10:30.858Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya dejo tu pedido listo para envío con el módem 4G/5G.\n\nAhora el sistema te va a pedir tu nombre completo para completar el proceso. ¿Me lo envías?",
+        "fecha": "2026-11-22T21:10:32.383Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjI5MUMzMDY1MUI2QUQ5QzdCRgA="
       }
     ],
     "paso": "pedido_pago",
