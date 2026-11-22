@@ -153,8 +153,8 @@
     "telefono": "573217371152",
     "nombre": "Marilyn",
     "primerContacto": "2026-11-22T15:59:27.017Z",
-    "ultimoContacto": "2026-11-22T15:59:27.017Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T16:02:08.706Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -187,13 +187,25 @@
         "fecha": "2026-11-22T15:59:26.313Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSMUZERDk0RjlBRDc4MkM0RTgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como así que funciona con el siM de l teléfono",
+        "fecha": "2026-11-22T16:02:06.343Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, el módem no trae conexión propia, sino que usa una SIM card de tu operador de teléfono (Claro, Movistar, Tigo, WOM o ETB). \n\nSolo tienes que poner la SIM dentro, prender el módem y listo: convierte esa señal móvil en WiFi para conectar varios dispositivos a internet donde no llega fibra óptica. \n\n¿En qué municipio o vereda lo usarías para saber cuál versión te conviene más?",
+        "fecha": "2026-11-22T16:02:07.988Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSODY2REU5OUFCMzdGOEY1Nzk3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -207,7 +219,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T15:59:25.196Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2786809835050504",
