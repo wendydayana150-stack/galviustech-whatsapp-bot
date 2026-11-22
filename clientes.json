@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:08:53.222Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-22T05:08:57.879Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -324,6 +324,18 @@
         "fecha": "2026-11-22T05:08:52.434Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSODg4Mjc4OTczQUMxNUNENjQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias",
+        "fecha": "2026-11-22T05:08:55.389Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Con gusto! Quedo atenta para ayudarte cuando decidas. Recuerda que el módem tiene garantía y soporte, y pagas al recibir. ¡Que tengas una excelente noche!",
+        "fecha": "2026-11-22T05:08:56.862Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSNjE2RDYwQkFCQzc0MDRFRjk1AA=="
       }
     ],
     "paso": "conversando",
@@ -334,7 +346,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
