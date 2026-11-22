@@ -123,8 +123,8 @@
     "telefono": "573135398437",
     "nombre": "Hugo Alexis",
     "primerContacto": "2026-11-22T21:29:33.489Z",
-    "ultimoContacto": "2026-11-22T21:29:33.489Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T21:55:49.973Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -157,13 +157,32 @@
         "fecha": "2026-11-22T21:29:32.789Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1Mzk4NDM3FQIAERgSRkZCMkIyMkVGRDEzODY3N0M0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Santa Marta",
+        "fecha": "2026-11-22T21:55:44.506Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, gracias por decirme que estás en Santa Marta. \n\nAquí tienes las 3 opciones para que elijas la que más te convenga:\n\n📶 *Modem WiFi Portátil 4G*  \n- Mejor cobertura que un celular, ideal para fincas y veredas. \n- Conexión para varios dispositivos sin complicaciones. \n- Inversión de $199.900 con envío GRATIS.\n\n📶 *Modem WiFi Portátil 4G/5G*  \n- Funciona en zonas con 4G o cobertura 5G. \n- Portátil y fácil de usar para trabajo, estudio o viaje. \n- Inversión de $199.900 + $26.000 de envío.\n\n📶 *Modem WiFi Portátil 5G*  \n- Máxima velocidad si tienes buena señal 5G en tu zona. \n- Perfecto para moverte y tener internet rápido siempre. \n- Inversión de $199.900 + $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Cuál de estos te parece que se ajusta más a lo que necesitas? ¿Para qué lo usarías principalmente?",
+        "fecha": "2026-11-22T21:55:48.543Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mzk4NDM3FQIAERgSQkU5NDA4NzA0NEE3NTNGQzAzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-22T21:55:49.167Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1Mzk4NDM3FQIAERgSNEYwMzQ4OUY2Njk1MEU1N0UxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -177,7 +196,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T21:29:31.763Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573144251255",
