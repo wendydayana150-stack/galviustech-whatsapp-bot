@@ -198,8 +198,8 @@
     "telefono": "573213618538",
     "nombre": "flaco ⚔️",
     "primerContacto": "2026-11-22T17:17:48.340Z",
-    "ultimoContacto": "2026-11-22T17:17:48.340Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T18:30:27.979Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -226,6 +226,38 @@
         "fecha": "2026-11-22T18:22:08.121Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSMzMyQjY5RDY4MTM4QUUwNzI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cámaras de seguridad",
+        "fecha": "2026-11-22T18:30:25.639Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos y caracteristicas: Camara de Seguridad]",
+        "fecha": "2026-11-22T18:30:25.642Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "*📹 Camara de Seguridad*\n\n*Camara 5 antenas* - $ 119.900\n*Camara 3 lentes* - $ 209.900",
+        "fecha": "2026-11-22T18:30:25.643Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSMzRBNkQyNkUwNTY0N0M2RjhCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🆕☀️ *NUEVOS Reflectores Solares* con panel y control remoto: 100W, 500W, 1000W y 2000W desde *$ 138.900* con envío GRATIS (no pagan luz y se prenden solos al anochecer). Si quieres te mando fotos 📸",
+        "fecha": "2026-11-22T18:30:26.339Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSRkJBOUIzNTMzMUQwNTlENTU0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuentame, la necesitas para tu casa, finca o negocio? Y en que ciudad estas?",
+        "fecha": "2026-11-22T18:30:26.933Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSNTYwRUNFNTNDNTNBRTIzMDNEAA=="
       }
     ],
     "paso": "conversando",
@@ -233,7 +265,7 @@
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimaCategoria": "camara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -243,9 +275,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T18:22:10.428Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
