@@ -3,8 +3,8 @@
     "telefono": "573148651022",
     "nombre": "olveiroramosperez",
     "primerContacto": "2026-11-22T22:21:38.712Z",
-    "ultimoContacto": "2026-11-22T22:21:38.712Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T22:21:42.440Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-22T22:21:38.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4NjUxMDIyFQIAERgSMzhCMkI1Njg2REE0NjIyMDgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hl",
+        "fecha": "2026-11-22T22:21:39.863Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! ¿En qué municipio o vereda necesitas el módem y para qué lo quieres usar? (trabajo, estudio, hogar, viajes, negocio)\n\nAsí te recomiendo la opción que más te conviene y te cuento precio y beneficios. ¿Me cuentas?",
+        "fecha": "2026-11-22T22:21:41.636Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4NjUxMDIyFQIAERgSMTFEQ0VBNzc5OEIwRUU5MkI4AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T22:21:37.023Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2754858501634337",
