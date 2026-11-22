@@ -6626,8 +6626,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T16:04:50.676Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-22T16:05:59.465Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6791,14 +6791,27 @@
         "fecha": "2026-11-22T16:04:49.658Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSQ0JBOUU5MDExQTJDMTM2QkY2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hevert Montoya Baltan \ncédula 16508371\ncorreo baltan2123@hotmail.com \ncelular 3225065441",
+        "fecha": "2026-11-22T16:05:58.644Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-22T16:05:58.651Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSREZCNzE5MjFFMjQyODFGMjdFAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "573127595177"
+      "telefono": "573127595177",
+      "nombreCliente": "Hevert Montoya Baltan"
     },
     "pausado": false,
     "etapaManual": null,
@@ -6816,7 +6829,10 @@
     },
     "interesColor": null,
     "anuncio": null,
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-22T16:05:58.644Z",
+      "texto": "Hevert Montoya Baltan \ncédula 16508371\ncorreo baltan2123@hotmail.com \ncelular 3225065441"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     },
