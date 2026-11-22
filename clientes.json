@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:07:38.247Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-22T05:07:52.919Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -236,6 +236,18 @@
         "fecha": "2026-11-22T05:07:37.311Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSQzhBQ0MzMkQ0NTkzNjhGMzY4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 19 # 2909",
+        "fecha": "2026-11-22T05:07:51.475Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Gracias! Ya tengo tu dirección 🏠\n\nAhora, ¿en qué ciudad o municipio vives?",
+        "fecha": "2026-11-22T05:07:51.476Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSODg3OUM5MDBDRjkwRkVCMDM3AA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -246,7 +258,8 @@
       "telefono": "573505024575",
       "nombreCliente": "José Fabián gallo Loaiza",
       "celular": "3505024575",
-      "departamento": "Caldas"
+      "departamento": "Caldas",
+      "direccion": "Calle 19 # 2909"
     },
     "pausado": false,
     "etapaManual": null,
