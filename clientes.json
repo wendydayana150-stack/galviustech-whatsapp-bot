@@ -198,8 +198,8 @@
     "telefono": "573213618538",
     "nombre": "flaco ⚔️",
     "primerContacto": "2026-11-22T17:17:48.340Z",
-    "ultimoContacto": "2026-11-22T18:30:27.979Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T18:31:26.396Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -258,13 +258,59 @@
         "fecha": "2026-11-22T18:30:26.933Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSNTYwRUNFNTNDNTNBRTIzMDNEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mandé foto",
+        "fecha": "2026-11-22T18:31:22.165Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos solicitadas]",
+        "fecha": "2026-11-22T18:31:22.169Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-22T18:31:22.169Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSOTNBODkyQTU4RTVBRDAxQzI5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-22T18:31:23.288Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSOTAxNjk5RDhERDYxMjIzN0I1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-22T18:31:23.894Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSNTI1QTAzRjkyQTcyMDhGREQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-22T18:31:24.546Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSREM4N0Q1QjZBQzRFMTRFM0NCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Ahí tienes las fotos! 📸 🔥 Ya con 30% de descuento.\n¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T18:31:25.160Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNjE4NTM4FQIAERgSRjlCNDg0MkU1QTcxMTJEQzFFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "camara",
     "necesitaAtencion": false,
     "motivoAtencion": null,
