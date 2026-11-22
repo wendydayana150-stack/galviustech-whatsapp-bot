@@ -3,8 +3,8 @@
     "telefono": "573505024575",
     "nombre": "😊😊😊",
     "primerContacto": "2026-11-22T05:02:59.369Z",
-    "ultimoContacto": "2026-11-22T05:02:59.369Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T05:03:49.896Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-22T05:02:58.545Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSNDg4NTExODJGNzZCMEMzNjRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola buenas noches",
+        "fecha": "2026-11-22T05:03:46.379Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenas noches, ¿en qué municipio o vereda necesitas el módem? ¿Y para qué lo usarías, trabajo, estudio, negocio o hogar? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-11-22T05:03:49.019Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA1MDI0NTc1FQIAERgSRUNDRkNBM0RDNjY2NDc1NUE1AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5s0Zmuoz5",
       "fecha": "2026-11-22T05:02:57.545Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234018117",
