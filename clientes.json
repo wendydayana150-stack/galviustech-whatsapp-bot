@@ -6821,8 +6821,8 @@
     "telefono": "573117626114",
     "nombre": "Luis",
     "primerContacto": "2026-11-21T10:01:01.507Z",
-    "ultimoContacto": "2026-11-21T10:01:01.507Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T15:16:02.256Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6869,6 +6869,13 @@
         "fecha": "2026-11-21T12:04:23.054Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE3NjI2MTE0FQIAERgSM0M3MDA4MEE3QUZEMTAwOTMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Luis, sobre nuestros productos",
+        "fecha": "2026-11-22T15:16:01.285Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE3NjI2MTE0FQIAERgSN0E1NDI1QkZCRTI0RjdBNDY4AA=="
       }
     ],
     "paso": "conversando",
@@ -6891,10 +6898,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-21T12:04:27.566Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-22"
   },
