@@ -1035,8 +1035,8 @@
     "telefono": "573203861382",
     "nombre": "enriquemoronta88",
     "primerContacto": "2026-11-22T00:41:49.859Z",
-    "ultimoContacto": "2026-11-22T01:26:22.931Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-22T11:56:55.761Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1217,6 +1217,18 @@
         "fecha": "2026-11-22T11:08:37.993Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzODYxMzgyFQIAERgSQzY2NENGOEY3MzJFQTZGNzJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buen día para imprimir documentos hay que encender el Bluetooth del teléfono",
+        "fecha": "2026-11-22T11:56:50.559Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola, buen día 😊\n\nAsí es, para imprimir con la impresora NETUM debes encender el Bluetooth del celular, emparejarlo con la impresora y enviar el documento que quieres imprimir.\n\n¿Quieres que te la deje lista para que la recibas rápido?",
+        "fecha": "2026-11-22T11:56:54.878Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzODYxMzgyFQIAERgSMTI1NDA2MTE3OTgzNTNBMTA4AA=="
       }
     ],
     "paso": "conversando",
@@ -1242,9 +1254,7 @@
       "texto": "Esa copiadora puede sacar copia de cédula todo tipos de documentos"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T11:08:42.414Z"
+      "seguimientosEnviados": 0
     }
   },
   {
