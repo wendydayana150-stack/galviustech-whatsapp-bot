@@ -3525,8 +3525,8 @@
     "telefono": "593963032989",
     "nombre": "Sol Morales",
     "primerContacto": "2026-11-21T20:18:11.696Z",
-    "ultimoContacto": "2026-11-21T21:28:16.684Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T14:51:10.375Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3587,10 +3587,34 @@
         "fecha": "2026-11-22T14:20:00.556Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSNEVDNTgzRkYxQTBEQUY5NUVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La quiero mara hacer stencil de tatuajes",
+        "fecha": "2026-11-22T14:51:05.886Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! 🙌\nLa Impresora NETUM es ideal para imprimir diseños y plantillas en tamaño carta, sin tinta, fácil de usar y portátil.\nMide 27.5 cm de largo por 6.5 cm de ancho y 5 cm de alto, cabe en cualquier bolso.\n\nLlega en 1 a 3 días hábiles después del despacho.\n¿Me das la dirección para enviártela a tu casa? 😊",
+        "fecha": "2026-11-22T14:51:08.771Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSNDAwMUMwNUJCNEU1RUE3OEQ2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-22T14:51:09.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSNUJCQzhFRDQ0Qzg1NUM0NjJEAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "593963032989"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -3607,11 +3631,12 @@
       "url": "https://fb.me/5rux9QhVk",
       "fecha": "2026-11-21T20:18:09.635Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-22T14:51:05.888Z",
+      "texto": "La quiero mara hacer stencil de tatuajes"
+    },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T14:20:06.637Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-22"
   },
