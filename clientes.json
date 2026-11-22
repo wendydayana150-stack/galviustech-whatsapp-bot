@@ -3525,8 +3525,8 @@
     "telefono": "593963032989",
     "nombre": "Sol Morales",
     "primerContacto": "2026-11-21T20:18:11.696Z",
-    "ultimoContacto": "2026-11-22T14:51:14.157Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-22T14:51:30.750Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3618,15 +3618,28 @@
         "fecha": "2026-11-22T14:51:13.251Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSNDc3MzA5M0IyN0VBNzg4MkUyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3052034063",
+        "fecha": "2026-11-22T14:51:29.819Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-22T14:51:29.820Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTkzOTYzMDMyOTg5FQIAERgSQzQ4MkZGMzIzQzVEMzE5RjA1AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "593963032989",
-      "nombreCliente": "En papel termogrficp"
+      "nombreCliente": "En papel termogrficp",
+      "celular": "3052034063"
     },
     "pausado": false,
     "etapaManual": null,
