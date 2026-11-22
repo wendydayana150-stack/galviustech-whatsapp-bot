@@ -6948,8 +6948,8 @@
     "telefono": "573127595177",
     "nombre": "SOLO EL Y ELLA",
     "primerContacto": "2026-11-21T15:02:28.531Z",
-    "ultimoContacto": "2026-11-22T17:05:11.665Z",
-    "mensajes": 22,
+    "ultimoContacto": "2026-11-22T17:05:29.919Z",
+    "mensajes": 23,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7332,6 +7332,18 @@
         "fecha": "2026-11-22T17:05:10.875Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSMkUyOURCOEYxMzc1MzcwMTM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "no",
+        "fecha": "2026-11-22T17:05:27.956Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Listo, estoy atenta para lo que necesites en el futuro 😊\n\nGracias por confiar en GalviusTech, cualquier duda o pedido, aquí estoy para ayudarte.\n\n¡Que tengas un muy buen día! 🌟",
+        "fecha": "2026-11-22T17:05:28.890Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NTk1MTc3FQIAERgSOEYzNDlFNTA4NkUwMzU1Qzk1AA=="
       }
     ],
     "paso": "conversando",
@@ -7342,7 +7354,7 @@
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": {
       "fecha": "2026-11-30",
