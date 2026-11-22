@@ -63,8 +63,8 @@
     "telefono": "573126356740",
     "nombre": "YO...",
     "primerContacto": "2026-11-22T16:00:47.548Z",
-    "ultimoContacto": "2026-11-22T16:00:47.548Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T16:01:41.326Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-11-22T16:00:46.560Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MzU2NzQwFQIAERgSRTUxMTI0RkZBRTM4RkVBMkIxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Punto físico ? Tienda ??\n\nCali Valle",
+        "fecha": "2026-11-22T16:01:38.869Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\nSomos una tienda virtual, no tenemos punto físico abierto al público en Cali ni en ningún otro lugar.\n\nOye, ¿en qué te puedo ayudar hoy? ¿Qué producto te interesa? 🖨️🛠️",
+        "fecha": "2026-11-22T16:01:40.417Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MzU2NzQwFQIAERgSNThGNUY3NjQ1Qjg2QTI4MDk0AA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +129,10 @@
       "url": "https://fb.me/6LmTyqILu",
       "fecha": "2026-11-22T16:00:45.468Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573217371152",
