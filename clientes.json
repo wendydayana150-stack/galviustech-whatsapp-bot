@@ -1372,8 +1372,8 @@
     "telefono": "573238868193",
     "nombre": "Warriors",
     "primerContacto": "2026-11-22T15:26:00.178Z",
-    "ultimoContacto": "2026-11-22T16:27:54.248Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-22T18:45:16.009Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1553,9 +1553,21 @@
         "fecha": "2026-11-22T18:32:09.138Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSMTU2QzQ4NDg5M0QwN0U2NzZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Relojes",
+        "fecha": "2026-11-22T18:45:15.033Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio lista: Relojes]",
+        "fecha": "2026-11-22T18:45:15.035Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4ODY4MTkzFQIAERgSQkZFOTgzRTkwMkYwNTQxNTRDAA=="
       }
     ],
-    "paso": "confirmar_producto",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica-portatil-goojprt-pt-210"
     },
@@ -1577,10 +1589,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T18:32:10.118Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
