@@ -3,8 +3,8 @@
     "telefono": "CO.1130881449570669",
     "nombre": "Faider",
     "primerContacto": "2026-11-22T21:02:49.891Z",
-    "ultimoContacto": "2026-11-22T21:10:33.180Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-22T21:10:48.949Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -219,6 +219,18 @@
         "fecha": "2026-11-22T21:10:32.383Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEjI5MUMzMDY1MUI2QUQ5QzdCRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ok",
+        "fecha": "2026-11-22T21:10:47.304Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, cuando quieras me envías tu nombre completo para continuar con el pedido 😊\n\n¿Me lo compartes ahora?",
+        "fecha": "2026-11-22T21:10:47.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEzMDg4MTQ0OTU3MDY2ORUUABEYEkM2RDZEQ0E1M0U3NjcwMkY3NwA="
       }
     ],
     "paso": "pedido_pago",
