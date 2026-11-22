@@ -3,8 +3,8 @@
     "telefono": "573209152258",
     "nombre": "chamarravimario126",
     "primerContacto": "2026-11-21T23:55:57.844Z",
-    "ultimoContacto": "2026-11-21T23:58:31.567Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-22T00:00:30.205Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,13 +56,32 @@
         "fecha": "2026-11-21T23:58:30.708Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5MTUyMjU4FQIAERgSMkQzOUE3MEUwQ0U1OTI4RTVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "necesito 5G",
+        "fecha": "2026-11-22T00:00:26.955Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, el *Módem WiFi Portátil 5G* es ideal para conectar rápido en zonas con cobertura 5G y donde no llega la fibra.\n\nLa inversión sería de *$199.900 + $26.000 de envío*, pagas al recibir con garantía de 30 días. \nConecta hasta 10 dispositivos y tiene batería que dura hasta 14 horas. Además, es compatible con las SIM de todos los operadores en Colombia.\n\n¿Quieres que te ayude a dejar tu pedido listo para envío?",
+        "fecha": "2026-11-22T00:00:28.835Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTUyMjU4FQIAERgSQUY0QkFDNzI5NUI4QjE1Q0E4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-22T00:00:29.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTUyMjU4FQIAERgSMDNEMUIwRjVCRjExNTYwMDk0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
