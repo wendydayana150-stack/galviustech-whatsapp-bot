@@ -123,8 +123,8 @@
     "telefono": "584220175163",
     "nombre": "Andi",
     "primerContacto": "2026-11-22T19:25:00.273Z",
-    "ultimoContacto": "2026-11-22T20:34:08.462Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-22T20:35:16.050Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -188,6 +188,18 @@
         "fecha": "2026-11-22T20:34:07.655Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSM0UxQTFEOEUxNEI0MEU2ODgzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el 15 de éste mes",
+        "fecha": "2026-11-22T20:35:13.389Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El pedido se despacha el mismo día que confirmes, y llega en 1 a 3 días hábiles después del despacho.\n\nSi quieres, te ayudo a dejar tu pedido listo para que te llegue lo más pronto posible. ¿En qué ciudad o municipio estás para organizar el envío?",
+        "fecha": "2026-11-22T20:35:15.236Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTg0MjIwMTc1MTYzFQIAERgSOUZCNTBBQkE3QTVFNTUxQjdFAA=="
       }
     ],
     "paso": "conversando",
@@ -200,7 +212,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-12-15",
+      "texto": "Para el 15 de éste mes",
+      "desde": "2026-11-22T20:35:13.390Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
