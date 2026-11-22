@@ -3,8 +3,8 @@
     "telefono": "573107076764",
     "nombre": "Federico",
     "primerContacto": "2026-11-22T15:38:13.522Z",
-    "ultimoContacto": "2026-11-22T15:38:13.522Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-22T15:38:23.118Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-22T15:38:12.763Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDc2NzY0FQIAERgSNzc4NzNFRjJBMTA0NDJEQkJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y saber si usachi",
+        "fecha": "2026-11-22T15:38:20.478Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, para orientarte mejor: ¿lo necesitas para estudiar en la Usach o para otra actividad? También dime en qué municipio o vereda estás para recomendarte el módem ideal según la cobertura y uso. ¿Me cuentas?",
+        "fecha": "2026-11-22T15:38:22.097Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDc2NzY0FQIAERgSN0MwQ0MwREUzRUFFMjE1OTZEAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5oNQGm4Ad",
       "fecha": "2026-11-22T15:38:11.606Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216316863",
