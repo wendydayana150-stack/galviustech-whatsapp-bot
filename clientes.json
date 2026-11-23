@@ -3,8 +3,8 @@
     "telefono": "573019192523",
     "nombre": "derlijohana5",
     "primerContacto": "2026-11-23T13:34:56.734Z",
-    "ultimoContacto": "2026-11-23T13:34:56.734Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T13:35:07.424Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-23T13:34:55.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTkyNTIzFQIAERgSMTU5MjUwRjRBQjI0ODVFOUQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dónde están ubicados",
+        "fecha": "2026-11-23T13:35:03.737Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\nCon respecto a la impresora térmica portátil NETUM, ¿para qué la necesitas principalmente? Para enfocarme en la mejor solución para ti.",
+        "fecha": "2026-11-23T13:35:06.353Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTkyNTIzFQIAERgSQUIxQjU1OThGN0FDMjY5RDU3AA=="
       }
     ],
     "paso": "conversando",
@@ -52,7 +64,13 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-23T13:35:03.737Z",
+      "texto": "Dónde están ubicados"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573209131937",
