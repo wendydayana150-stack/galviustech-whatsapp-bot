@@ -1962,8 +1962,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:08:21.156Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-23T15:08:47.678Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2163,6 +2163,18 @@
         "fecha": "2026-11-23T15:08:20.057Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMEFDNDdDQzhDMzk3NTAyM0ZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Prefiero contraentrega",
+        "fecha": "2026-11-23T15:08:46.467Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Anotado! 👍\n\nAhora, ¿para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-11-23T15:08:46.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNjc1NkQ5NUI4QjY1QzA2Mzc5AA=="
       }
     ],
     "paso": "pedido_cedula",
@@ -2196,8 +2208,8 @@
       "fecha": "2026-11-23T10:46:35.412Z"
     },
     "caliente": {
-      "fecha": "2026-11-23T10:50:58.600Z",
-      "texto": "Lo quiero para trabajo para mi estudio"
+      "fecha": "2026-11-23T15:08:46.467Z",
+      "texto": "Prefiero contraentrega"
     },
     "recordatorios": {
       "seguimientosEnviados": 0
