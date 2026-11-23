@@ -3,8 +3,8 @@
     "telefono": "573107090533",
     "nombre": "Orozco G.",
     "primerContacto": "2026-11-23T14:03:36.321Z",
-    "ultimoContacto": "2026-11-23T14:08:55.631Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-23T14:09:09.235Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -166,16 +166,29 @@
         "fecha": "2026-11-23T14:08:54.587Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSMjQyMzNDMTA0MzU1N0VDNEE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3173519684",
+        "fecha": "2026-11-23T14:09:08.388Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-23T14:09:08.388Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSN0U0QTExNkIwNjRDMUM4OTg3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573107090533",
       "departamento": "Caqueta",
-      "nombreCliente": "Anguie paola trujillo"
+      "nombreCliente": "Anguie paola trujillo",
+      "celular": "3173519684"
     },
     "pausado": false,
     "etapaManual": null,
