@@ -9096,8 +9096,8 @@
     "telefono": "573197498131",
     "nombre": "w.a",
     "primerContacto": "2026-11-22T07:03:32.693Z",
-    "ultimoContacto": "2026-11-22T07:03:32.693Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T15:16:45.188Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -9144,6 +9144,13 @@
         "fecha": "2026-11-22T12:08:34.460Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTk3NDk4MTMxFQIAERgSMDg0RTM2NTJDNjc0QjgzNTFFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola w.a, sobre nuestros productos",
+        "fecha": "2026-11-23T15:16:43.976Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTk3NDk4MTMxFQIAERgSMzA2MkNFMjhBN0M2NDM4MEU3AA=="
       }
     ],
     "paso": "conversando",
@@ -9166,10 +9173,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T12:08:39.802Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-23"
   },
