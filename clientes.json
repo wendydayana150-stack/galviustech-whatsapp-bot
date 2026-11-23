@@ -3,8 +3,8 @@
     "telefono": "573023671923",
     "nombre": "Jhoan muñoz",
     "primerContacto": "2026-11-23T13:01:03.248Z",
-    "ultimoContacto": "2026-11-23T13:01:03.248Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T13:03:27.658Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-23T13:01:02.256Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIzNjcxOTIzFQIAERgSMzAyMDc4NzlDQTk5MThFQ0VCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una pregunta que color tienes",
+        "fecha": "2026-11-23T13:03:24.621Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los módems no tienen color específico, son en tonos neutrales para que sean prácticos y discretos donde los uses. Lo importante es que te ofrecen conexión estable y WiFi para varios dispositivos donde más lo necesites.\n\n¿Me cuentas en qué lugar lo usarías y para qué lo necesitas? Así te recomiendo el modelo ideal para ti.",
+        "fecha": "2026-11-23T13:03:26.742Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIzNjcxOTIzFQIAERgSNUJFNTlERUQ3MTc1RUM5RDQwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/bl73QdC6S",
       "fecha": "2026-11-23T13:01:01.268Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573188086600",
