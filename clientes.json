@@ -1962,8 +1962,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:06:51.626Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-23T15:07:26.489Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2115,9 +2115,21 @@
         "fecha": "2026-11-23T15:06:50.625Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNjA0OUEwNTI3NkU0NkYxOEVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Sistecredito a cuota",
+        "fecha": "2026-11-23T15:07:25.251Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-11-23T15:07:25.252Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQzBBRUExN0ZDNThCMDlFMzIzAA=="
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "pedido_cedula",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -2128,7 +2140,8 @@
       "nombreCliente": ":  tulio gaitan rodriguez",
       "celular": "3213301550",
       "direccion": "Oficina interrapidisimo \nCall 19 20 43/ comunero",
-      "barrio": "No aplica (recoge en oficina)"
+      "barrio": "No aplica (recoge en oficina)",
+      "medioPago": "Sistecredito"
     },
     "pausado": false,
     "etapaManual": null,
