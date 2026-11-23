@@ -3,8 +3,8 @@
     "telefono": "CO.3311474195716545",
     "nombre": "papi.com😉",
     "primerContacto": "2026-11-23T12:07:04.314Z",
-    "ultimoContacto": "2026-11-23T12:07:04.314Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T12:09:12.005Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,10 +37,34 @@
         "fecha": "2026-11-23T12:07:03.442Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMzMxMTQ3NDE5NTcxNjU0NRUUABEYEjRFRUMyREM4M0REMzQ4RjYzMwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La quiero universal",
+        "fecha": "2026-11-23T12:09:06.711Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la Impresora Térmica Portátil NETUM es la mejor opción para imprimir documentos, trabajos y facturas en tamaño carta desde el celular, sin tinta ni complicaciones.\n\nLa inversión es de $249.900 con envío gratis y pagas al recibir, con garantía y soporte desde GalviusTech.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿A qué dirección te la enviamos para que la tengas lista? 😊",
+        "fecha": "2026-11-23T12:09:10.351Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzMxMTQ3NDE5NTcxNjU0NRUUABEYEkJCMDUxNURBNkFBMkQzMjIzOAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-23T12:09:11.132Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMzMxMTQ3NDE5NTcxNjU0NRUUABEYEjlENENBMDk4M0Q4QTJFMzc0NAA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "CO.3311474195716545"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -57,7 +81,13 @@
       "url": "https://fb.me/5vUwhIpPT",
       "fecha": "2026-11-23T12:07:02.319Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-23T12:09:06.711Z",
+      "texto": "La quiero universal"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573142099987",
