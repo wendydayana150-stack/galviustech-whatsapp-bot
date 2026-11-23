@@ -2392,8 +2392,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-23T00:10:04.534Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-23T12:55:29.708Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2466,6 +2466,25 @@
         "fecha": "2026-11-23T12:02:19.919Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSOTc0RkFCODYwQUM3QkE4RkRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847",
+        "fecha": "2026-11-23T12:55:24.796Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Muchas gracias por tus datos, Elkin. Ya con eso te ayudo a dejar el pedido listo para que disfrutes de la Impresora Térmica Portátil NETUM con el mejor precio y envío gratis.\n\nTe va a llegar en 1 a 3 días hábiles después del despacho, y puedes abrirla y revisarla antes de pagar.",
+        "fecha": "2026-11-23T12:55:27.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSREYyMTc1QkUyRkRCQTQzMkQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-23T12:55:28.537Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRjg3RUY0QTU4RTJCMjVDMzgyAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -2496,11 +2515,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-23T12:02:21.146Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
