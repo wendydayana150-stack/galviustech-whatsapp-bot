@@ -6347,8 +6347,8 @@
     "telefono": "573217371152",
     "nombre": "Marilyn",
     "primerContacto": "2026-11-22T15:59:27.017Z",
-    "ultimoContacto": "2026-11-23T14:19:01.017Z",
-    "mensajes": 20,
+    "ultimoContacto": "2026-11-23T14:19:03.753Z",
+    "mensajes": 21,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6632,6 +6632,18 @@
         "fecha": "2026-11-23T14:18:59.966Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSNTIzREJCRjA4MEVFMkVEQjEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dirección interrapidicimo",
+        "fecha": "2026-11-23T14:19:02.616Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro que sí! 😊 Te lo enviamos por *Interrapidísimo* y lo recoges en la oficina de tu municipio.\n\nPor ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-23T14:19:02.617Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSRkIxQTk3OEU5MTQ5NTkzNDREAA=="
       }
     ],
     "paso": "pedido_pago",
@@ -6644,7 +6656,7 @@
       "celular": "3217371152",
       "departamento": "La Guajira",
       "ciudad": "Tlf 3217371152",
-      "direccion": "Uribia",
+      "direccion": "Uribia (recoge en oficina de la transportadora)",
       "barrio": "Yo soy de uribia la Guajira tlf 3217371152"
     },
     "pausado": false,
