@@ -1962,8 +1962,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:05:20.748Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-23T15:05:35.269Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2091,6 +2091,18 @@
         "fecha": "2026-11-23T15:05:19.607Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQkIwQ0VFMjQ2NENEN0UxMjQ4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Inirida guainía",
+        "fecha": "2026-11-23T15:05:34.089Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo, ya tengo tu municipio! 😊 Ahora necesito la *dirección*: calle y número (o vereda / finca).\n\nSi prefieres recogerlo en la oficina de Interrapidísimo de tu municipio, escríbeme *oficina*.",
+        "fecha": "2026-11-23T15:05:34.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNENBOUZCRDJDNUI4QkM0Qzg3AA=="
       }
     ],
     "paso": "pedido_direccion",
