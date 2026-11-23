@@ -1982,8 +1982,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:09:45.222Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-23T15:10:05.355Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2219,6 +2219,18 @@
         "fecha": "2026-11-23T15:09:44.198Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMzM1NDY3NDMzMUM4ODVDOEVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Buenas",
+        "fecha": "2026-11-23T15:10:04.276Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ese número de cédula no me quedó claro. Escríbemelo solo con números, por favor.",
+        "fecha": "2026-11-23T15:10:04.277Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQkZEOUU5MEJDMTRBODg5N0U2AA=="
       }
     ],
     "paso": "pedido_cedula",
