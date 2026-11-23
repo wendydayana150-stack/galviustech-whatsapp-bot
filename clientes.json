@@ -8328,8 +8328,8 @@
     "telefono": "CO.972321862301977",
     "nombre": "Leandro Jimenez",
     "primerContacto": "2026-11-22T13:39:50.237Z",
-    "ultimoContacto": "2026-11-22T13:39:50.237Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T15:14:46.832Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8376,6 +8376,13 @@
         "fecha": "2026-11-22T14:39:58.375Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTcyMzIxODYyMzAxOTc3FRQAERgSOEE2RjkxMjNEQzI4N0Y3NjYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Leandro Jimenez, sobre Impresora NETUM",
+        "fecha": "2026-11-23T15:14:45.626Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTcyMzIxODYyMzAxOTc3FRQAERgSMDNDODkwRDdENDFFMDg4RDgxAA=="
       }
     ],
     "paso": "conversando",
@@ -8398,10 +8405,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T15:42:10.606Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-23"
   },
