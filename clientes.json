@@ -1358,8 +1358,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T10:51:10.172Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-23T13:45:17.680Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1437,10 +1437,36 @@
         "fecha": "2026-11-23T12:52:08.633Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQTREQTkzQTg3RDMwNjI0Q0EzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Déjame listo...mi pedido",
+        "fecha": "2026-11-23T13:45:14.288Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Listo! 🙌 Te dejo el pedido listo para que lo recibas sin complicaciones.",
+        "fecha": "2026-11-23T13:45:15.743Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSM0EzODA1N0Q1NDVDNjU2QTBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-23T13:45:16.612Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNTA3RDlFNEUzOUZBMkJENDUzAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573213301550",
+      "departamento": "Guainia",
+      "ciudad": "Inírida"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -1462,10 +1488,7 @@
       "texto": "Lo quiero para trabajo para mi estudio"
     },
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-23T12:52:09.838Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
