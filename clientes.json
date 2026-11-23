@@ -1962,8 +1962,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T13:45:17.680Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-23T15:05:08.893Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2067,16 +2067,29 @@
         "fecha": "2026-11-23T14:15:29.590Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQzY1QTdEQzEwOEYzNzlFOEQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mi nombre es:  tulio gaitan rodriguez",
+        "fecha": "2026-11-23T15:05:07.545Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-23T15:05:07.559Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNDhEQjM3MDBCNUM1NERCNzhGAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573213301550",
       "departamento": "Guainia",
-      "ciudad": "Inírida"
+      "ciudad": "Inírida",
+      "nombreCliente": ":  tulio gaitan rodriguez"
     },
     "pausado": false,
     "etapaManual": null,
@@ -2099,9 +2112,7 @@
       "texto": "Lo quiero para trabajo para mi estudio"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-23T14:15:35.556Z"
+      "seguimientosEnviados": 0
     }
   },
   {
