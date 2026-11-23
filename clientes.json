@@ -3,8 +3,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-23T11:32:52.669Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-23T11:34:05.442Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -80,9 +80,21 @@
         "fecha": "2026-11-23T11:32:51.681Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQ0NCQUI0M0Q0NzhEQkYwOTAzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3142099987 numero celular",
+        "fecha": "2026-11-23T11:34:04.406Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-23T11:34:04.407Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSN0Y2RjkzMUI0Q0NBQkY1MTNGAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -90,7 +102,8 @@
       "telefono": "573142099987",
       "ciudad": "Buenaventura",
       "departamento": "Valle del Cauca",
-      "nombreCliente": "Jhon fredy chocho valencia"
+      "nombreCliente": "Jhon fredy chocho valencia",
+      "celular": "3142099987"
     },
     "pausado": false,
     "etapaManual": null,
