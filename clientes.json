@@ -3,8 +3,8 @@
     "telefono": "573107090533",
     "nombre": "Orozco G.",
     "primerContacto": "2026-11-23T14:03:36.321Z",
-    "ultimoContacto": "2026-11-23T14:03:36.321Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T14:05:06.535Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-23T14:03:35.282Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSMjE0MDI5OTZGQUZGQUNBREJBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como",
+        "fecha": "2026-11-23T14:05:01.758Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, para ayudarte bien dime en qué municipio o vereda lo usarías y para qué lo quieres (trabajo, estudio, hogar, viajes o negocio). Así te recomiendo el modem ideal y te cuento todo. ¿Me cuentas?",
+        "fecha": "2026-11-23T14:05:05.478Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSNzNEOUM2QTdDNDExQzJEQ0RFAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/kzhjeXvPN",
       "fecha": "2026-11-23T14:03:33.876Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1382741943805519",
