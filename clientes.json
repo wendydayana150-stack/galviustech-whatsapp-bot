@@ -6311,8 +6311,8 @@
     "telefono": "573217371152",
     "nombre": "Marilyn",
     "primerContacto": "2026-11-22T15:59:27.017Z",
-    "ultimoContacto": "2026-11-23T14:13:35.328Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-23T14:15:25.390Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6512,15 +6512,28 @@
         "fecha": "2026-11-23T14:13:34.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSRUY2Qzk4QjMzMDBFNkI1MUVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3217371152",
+        "fecha": "2026-11-23T14:15:23.995Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-23T14:15:24.075Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSRTc4QzA5MDMzNEY4Mjg3NEYzAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573217371152",
-      "nombreCliente": "Ahora te escribo"
+      "nombreCliente": "Ahora te escribo",
+      "celular": "3217371152"
     },
     "pausado": false,
     "etapaManual": null,
