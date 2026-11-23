@@ -8841,8 +8841,8 @@
     "telefono": "573206154692",
     "nombre": "Dale",
     "primerContacto": "2026-11-22T11:35:10.275Z",
-    "ultimoContacto": "2026-11-22T11:35:10.275Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T15:16:06.431Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8889,6 +8889,13 @@
         "fecha": "2026-11-22T13:38:34.505Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA2MTU0NjkyFQIAERgSQzRDNjE5NTM0QTNDREU5NDIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Dale, sobre nuestros productos",
+        "fecha": "2026-11-23T15:16:05.089Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA2MTU0NjkyFQIAERgSMjBFMkRGRjI1NEVGQkZDOUY1AA=="
       }
     ],
     "paso": "conversando",
@@ -8911,10 +8918,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T13:38:36.336Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-23"
   },
