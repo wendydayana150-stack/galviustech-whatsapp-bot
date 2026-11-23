@@ -8926,8 +8926,8 @@
     "telefono": "573135117486",
     "nombre": "Jhon Alex",
     "primerContacto": "2026-11-22T11:32:48.028Z",
-    "ultimoContacto": "2026-11-22T11:32:48.028Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T15:16:19.434Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8974,6 +8974,13 @@
         "fecha": "2026-11-22T13:38:35.475Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MTE3NDg2FQIAERgSRjhCM0I1M0NENjZBMzVDRTlCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jhon Alex, sobre nuestros productos",
+        "fecha": "2026-11-23T15:16:18.498Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MTE3NDg2FQIAERgSRDU0OTJFQ0Q2Nzk0OTgxNEFEAA=="
       }
     ],
     "paso": "conversando",
@@ -8996,10 +9003,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T13:38:36.336Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-23"
   },
