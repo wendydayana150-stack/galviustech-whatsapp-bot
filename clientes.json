@@ -3,8 +3,8 @@
     "telefono": "573115348153",
     "nombre": "diegorincon270682",
     "primerContacto": "2026-11-23T11:26:32.798Z",
-    "ultimoContacto": "2026-11-23T11:26:32.798Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T11:26:44.648Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-23T11:26:32.135Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1MzQ4MTUzFQIAERgSNEQ5NjBFRDc2NTVENkRBQkFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eved",
+        "fecha": "2026-11-23T11:26:41.011Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial, Eved! Cuéntame, ¿para qué necesitas el módem? ¿Trabajo, estudio, tu hogar o viajes? Así te ayudo a elegir el que más te sirve para tener buena conexión y estar siempre conectado.",
+        "fecha": "2026-11-23T11:26:43.719Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MzQ4MTUzFQIAERgSNEM3Njk4RjExN0UwNTY4RkE2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5pVDqhBDv",
       "fecha": "2026-11-23T11:26:31.277Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573173780721",
