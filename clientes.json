@@ -3,8 +3,8 @@
     "telefono": "573126644398",
     "nombre": "Jairo",
     "primerContacto": "2026-11-23T06:42:42.358Z",
-    "ultimoContacto": "2026-11-23T06:42:42.358Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T06:43:21.448Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-23T06:42:41.598Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2NjQ0Mzk4FQIAERgSNzdBODgyRTgzQTEwNzAwNTUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Arauca",
+        "fecha": "2026-11-23T06:43:16.773Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en Arauca la señal 5G puede ser limitada, por eso te recomiendo el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío.\n\nEste equipo te da conexión rápida 4G y también 5G si hay cobertura, conecta varios dispositivos y lo puedes llevar a donde quieras, sin instalación.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLlega en 1 a 3 días hábiles después del despacho. ¿Lo quieres para estudiar, trabajar, para la casa o para viajar?",
+        "fecha": "2026-11-23T06:43:20.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2NjQ0Mzk4FQIAERgSODgzRDE5NjhEREI4RkEwM0EwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5pVDqhBDv",
       "fecha": "2026-11-23T06:42:40.511Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573127724964",
