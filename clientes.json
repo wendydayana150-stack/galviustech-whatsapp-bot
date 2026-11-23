@@ -6065,8 +6065,8 @@
     "telefono": "573217371152",
     "nombre": "Marilyn",
     "primerContacto": "2026-11-22T15:59:27.017Z",
-    "ultimoContacto": "2026-11-22T16:07:56.911Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-23T14:12:04.900Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6204,6 +6204,25 @@
         "fecha": "2026-11-22T18:12:08.215Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSRUIwRkRGMEEwQjI4ODhDMEJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Marilyn! 👋 Ayer te interesó el *Módem WiFi portátil* 📶\n\n🚨 Quedan las *últimas unidades* y la promoción está en sus *últimos días*:\n• Módem 4G: *$ 199.900* con *envío GRATIS* 🚚\n• Módem 4G/5G: *$ 199.900* + $26.000 de envío\n• Módem 5G: *$ 199.900* + $26.000 de envío\n\nLe pones la SIM de tu operador y compartes internet WiFi a celulares, TV y computador.\n\n💵 *Pagas al recibir* · 🛡️ Garantía de 30 días\n\n¿Te lo envío antes de que se acabe? Solo envíame tu nombre, ciudad y dirección 🙌",
+        "fecha": "2026-11-23T14:11:40.002Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSQTZENzRDRTdBN0EzQTVGN0FEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ahora te escribo",
+        "fecha": "2026-11-23T14:12:03.903Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lo siento 🙏 los pedidos no se apartan, ya que son unidades en *PROMOCIÓN* y quedan *pocas unidades* 🔥\n\nSi lo quieres asegurar, lo pedimos ahora mismo y pagas al recibir 🚚 ¿Seguimos?",
+        "fecha": "2026-11-23T14:12:03.905Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzcxMTUyFQIAERgSQjk5RjY1MDY5Njg0QjNBQzNDAA=="
       }
     ],
     "paso": "conversando",
@@ -6226,10 +6245,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-22T18:12:09.357Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
