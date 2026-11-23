@@ -3,8 +3,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-23T11:29:15.828Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T11:31:39.420Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-23T11:29:15.072Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSNzIyNUJEOTEyQUZEMUUwMkU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Soy de la cuidad de buenaventura",
+        "fecha": "2026-11-23T11:31:35.733Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, gracias por contarme. Buenaventura es zona donde la cobertura 4G llega bien, pero el 5G aún está en desarrollo.\n\nTe recomiendo el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío. Lo mejor es que funciona tanto en 4G como 5G, así no te preocupas por señal.\n\nCon él conectas varios dispositivos, ideal para trabajar, estudiar o para tu hogar, y lo puedes llevar a donde necesites.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo usarías principalmente, para estudio, trabajo o en casa?",
+        "fecha": "2026-11-23T11:31:38.083Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQTI4NjFCOUFDMkU5NkI1RkVFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-23T11:31:38.572Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSOTIxODJGMzNGNjI3OTQwRUJEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/bl73QdC6S",
       "fecha": "2026-11-23T11:29:13.783Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573115348153",
