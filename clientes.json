@@ -24,6 +24,13 @@
         "fecha": "2026-11-23T14:36:03.145Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSQzRBN0Q3RUFBQTk4NEZFNTExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-23T15:42:37.671Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyODg5OTg3FQIAERgSRTdFNDEwQkJDRjhEOEM4OUJEAA=="
       }
     ],
     "paso": "conversando",
@@ -41,7 +48,9 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-23T15:42:40.666Z"
     }
   },
   {
@@ -607,8 +616,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-23T14:39:37.330Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-23T15:42:40.666Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
@@ -714,9 +724,10 @@
       "texto": "Dónde están ubicados"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-23T14:39:37.330Z"
+      "ultimoEnvio": "2026-11-23T15:42:40.666Z",
+      "horas3": true
     }
   },
   {
@@ -2243,6 +2254,13 @@
         "fecha": "2026-11-23T15:10:04.277Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQkZEOUU5MEJDMTRBODg5N0U2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n✅ :  tulio gaitan rodriguez\n✅ Cel: 3213301550\n✅ Inírida, Guainia\n✅ Oficina interrapidisimo \nCall 19 20 43/ comunero\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-11-23T15:42:39.694Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNUIxRjlEMEQ2RENENDE3RjRGAA=="
       }
     ],
     "paso": "pedido_cedula",
@@ -2280,7 +2298,9 @@
       "texto": "Prefiero contraentrega"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-23T15:42:40.667Z"
     }
   },
   {
