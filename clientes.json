@@ -3,8 +3,8 @@
     "telefono": "573107090533",
     "nombre": "Orozco G.",
     "primerContacto": "2026-11-23T14:03:36.321Z",
-    "ultimoContacto": "2026-11-23T14:06:51.367Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-23T14:07:29.554Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -116,6 +116,25 @@
         "fecha": "2026-11-23T14:06:50.299Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSNTVFQ0RGMUVCQURGMjUyRTJGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Disculpe la pregunta",
+        "fecha": "2026-11-23T14:07:26.206Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Tranquilo, pregunta lo que necesites, aquí estoy para ayudarte con todo lo que quieras saber del módem.",
+        "fecha": "2026-11-23T14:07:28.013Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSODRBNENGMzU3NTNGQjQyMjJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-23T14:07:28.675Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDkwNTMzFQIAERgSRkQzQTQxQTg3NEU3RjRDRTMxAA=="
       }
     ],
     "paso": "pedido_nombre",
