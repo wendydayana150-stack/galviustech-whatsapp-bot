@@ -542,6 +542,20 @@
         "fecha": "2026-11-23T13:37:00.539Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5ODQzNzY1FQIAERgSMDVCRDgzMDVGNDg2MDQyMkNDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta",
+        "fecha": "2026-11-23T14:39:32.638Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5ODQzNzY1FQIAERgSRDlEM0NBNDNFM0VERDYwQkVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Así imprime 😍 Hoy *$ 249.900* con *envío GRATIS* y *pagas al recibir*. ¿Te la envío? 🚚\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-23T14:39:33.575Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5ODQzNzY1FQIAERgSQjg0MDAwRjNBNUZBQ0I2NUJFAA=="
       }
     ],
     "paso": "conversando",
@@ -562,7 +576,12 @@
       "url": "https://fb.me/5vUwhIpPT",
       "fecha": "2026-11-23T13:36:59.551Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-23T14:39:37.330Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573019192523",
@@ -633,6 +652,20 @@
         "fecha": "2026-11-23T13:36:08.209Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE5MTkyNTIzFQIAERgSOTlDRjY1MjIwMTU3RTRCMDk2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta",
+        "fecha": "2026-11-23T14:39:34.499Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTkyNTIzFQIAERgSQzQxNUE5OUI0RDY3RTVERkFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Así imprime 😍 Hoy *$ 249.900* con *envío GRATIS* y *pagas al recibir*. ¿Te la envío? 🚚\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-23T14:39:35.281Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE5MTkyNTIzFQIAERgSMDk1QUM2NzlEOTFDQzZDQzYwAA=="
       }
     ],
     "paso": "conversando",
@@ -653,7 +686,9 @@
       "texto": "Dónde están ubicados"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-23T14:39:37.330Z"
     }
   },
   {
@@ -1387,10 +1422,11 @@
       "texto": "La quiero universal"
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-23T13:42:09.696Z",
-      "horas1": true
+      "ultimoEnvio": "2026-11-23T14:39:37.330Z",
+      "horas1": true,
+      "horas3": true
     }
   },
   {
