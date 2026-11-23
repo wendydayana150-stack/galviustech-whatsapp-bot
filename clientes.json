@@ -3,8 +3,8 @@
     "telefono": "573105328657",
     "nombre": "celinavaldes710",
     "primerContacto": "2026-11-23T00:26:49.084Z",
-    "ultimoContacto": "2026-11-23T00:26:49.084Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T00:27:24.833Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-23T00:26:48.176Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MzI4NjU3FQIAERgSQTI2RjAxQzlDRkIxMkY1REMxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Una preguntica esas impresoras no traen tinta porque sería bueno que también trajera tinta porque para sacar las copias a color no me no serviría para sacar las copias de",
+        "fecha": "2026-11-23T00:27:23.941Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te cuento con sinceridad 😊 la NETUM imprime solo en *blanco y negro* (por eso nunca gastas en tinta).\n\n🎨 Pronto nos llega una *impresora fotográfica a color*. ¿Quieres que te avise cuando llegue la impresora a color?",
+        "fecha": "2026-11-23T00:27:23.944Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MzI4NjU3FQIAERgSRDdGMDdDNDVFOUQ0OUU5MDAxAA=="
       }
     ],
     "paso": "conversando",
@@ -50,14 +62,20 @@
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
-    "interesColor": null,
+    "interesColor": {
+      "desde": "2026-11-23T00:27:23.944Z",
+      "quiereAviso": false
+    },
     "anuncio": {
       "titulo": "Importech Colombia",
       "texto": "🚨 ¡DEJA DE GASTAR EN TINTA Y HAZ TU DÍA MÁS PRÁCTICO! 🖨️🔥\n\n¿Eres emprendedor, estudiante, tienes un negocio o necesitas imprimir constantemente?\n\n¡ESTO ES JUSTO LO QUE ESTABAS BUSCANDO! 😍\n\n💥 **¡CONOCE LA IMPRESORA TÉRMICA PORTÁTIL NETUM!**\n\nImagina tener una impresora compacta que puedes llevar contigo y utilizar sin preocuparte por comprar tinta ni cartuchos.\n\n✨ ¿POR QUÉ NECESITAS UNA?\n\n✅ IMPRESIÓN SIN TINTA NI CARTUCHOS.\n✅ Conexión Bluetooth con dispositivos compatibles.\n✅ Diseño portátil",
       "url": "https://fb.me/6IemgyIkw",
       "fecha": "2026-11-23T00:26:47.074Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573245560254",
