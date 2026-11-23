@@ -3,8 +3,8 @@
     "telefono": "573123164207",
     "nombre": "Maria",
     "primerContacto": "2026-11-23T18:30:55.587Z",
-    "ultimoContacto": "2026-11-23T18:30:55.587Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T18:40:55.605Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -50,6 +50,13 @@
         "fecha": "2026-11-23T18:30:54.434Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzMTY0MjA3FQIAERgSNzI4RkFDMjc3N0U2MkU5REQzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te gustó alguna de las opciones del catálogo? 😊 Cuéntame cuál te llamó la atención y te ayudo con tu pedido. Pagas cuando lo recibes en tu casa 🚚",
+        "fecha": "2026-11-23T18:40:54.435Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzMTY0MjA3FQIAERgSRkJGNDEyRDkzMzE2NjYwMUVEAA=="
       }
     ],
     "paso": "conversando",
@@ -70,7 +77,10 @@
       "url": "https://fb.me/8he5Iecfn",
       "fecha": "2026-11-23T18:30:52.863Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102889987",
