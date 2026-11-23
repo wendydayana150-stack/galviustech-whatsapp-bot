@@ -1982,8 +1982,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:09:08.978Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-23T15:09:45.222Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2207,6 +2207,18 @@
         "fecha": "2026-11-23T15:09:07.852Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQUUwRDM0MDNGMzVDMzdENkUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Prefiero contraentrega",
+        "fecha": "2026-11-23T15:09:44.197Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Anotado! 👍\n\nAhora, ¿para pagarlo con Sistecrédito, ¿cuál es tu número de cédula? (la que tiene el cupo aprobado)",
+        "fecha": "2026-11-23T15:09:44.198Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMzM1NDY3NDMzMUM4ODVDOEVDAA=="
       }
     ],
     "paso": "pedido_cedula",
