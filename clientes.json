@@ -3,8 +3,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T10:46:37.332Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-23T10:49:43.394Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-23T10:46:36.496Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSRjUwMDU0ODFEN0Y1RjBEQjM2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo vivo en ciudad puerto inirida guainía",
+        "fecha": "2026-11-23T10:49:38.527Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, en Inírida, Guainía el envío para Modems 4G/5G y 5G es de $39.900, suma al precio del equipo.\n\nDado que es una zona que puede tener cobertura 4G y tal vez 5G, te recomiendo el *Modem WiFi Portátil 4G/5G* a $199.900 + $39.900 de envío.\n\nCon este equipo tendrás internet estable y puedes conectar varios dispositivos donde lo necesites, ideal para tu ciudad.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo quieres para trabajar, estudiar o para uso personal? Así te confirmo que es el mejor para ti.",
+        "fecha": "2026-11-23T10:49:42.449Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMDI2OTZDRTU3NDNGRUE5RUU5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5pVDqhBDv",
       "fecha": "2026-11-23T10:46:35.412Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573228124874",
