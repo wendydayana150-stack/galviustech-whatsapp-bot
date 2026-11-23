@@ -3,8 +3,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T10:49:43.394Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-23T10:51:10.172Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,6 +49,25 @@
         "fecha": "2026-11-23T10:49:42.449Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMDI2OTZDRTU3NDNGRUE5RUU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Lo quiero para trabajo para mi estudio",
+        "fecha": "2026-11-23T10:50:58.600Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para trabajo y estudio te va super bien el *Módem WiFi Portátil 4G/5G*.\n\n✅ Conecta hasta 10 dispositivos a la vez, para que puedas trabajar y estudiar sin líos.\n✅ Mejor cobertura que un celular en zonas rurales y urbanas, ideal para Inírida.\n✅ Batería dura hasta 14 horas y se carga con USB-C, fácil de llevar a todos lados.\n\nLa inversión es de $199.900 + $39.900 de envío = $239.800, y pagas al recibir.\n\n¿Quieres que te deje el pedido listo para despacho hoy? ¿A qué dirección te lo enviamos?",
+        "fecha": "2026-11-23T10:51:08.701Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSMUQ0MkFFQTBDNzVBQkI4NjU3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-23T10:51:09.232Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSQUFDMTcwNDJEOTc1MEIyOTU5AA=="
       }
     ],
     "paso": "conversando",
@@ -69,7 +88,10 @@
       "url": "https://fb.me/5pVDqhBDv",
       "fecha": "2026-11-23T10:46:35.412Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-23T10:50:58.600Z",
+      "texto": "Lo quiero para trabajo para mi estudio"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
