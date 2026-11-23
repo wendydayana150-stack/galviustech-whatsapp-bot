@@ -2005,8 +2005,8 @@
     "telefono": "573213301550",
     "nombre": "tulio diaz",
     "primerContacto": "2026-11-23T10:46:37.332Z",
-    "ultimoContacto": "2026-11-23T15:10:05.355Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-23T16:00:38.333Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2261,6 +2261,13 @@
         "fecha": "2026-11-23T15:42:39.694Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSNUIxRjlEMEQ2RENENDE3RjRGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para envio pago contraentrega. pagarías 225.900 te llega el pedido el dia miércoles, para reclamar",
+        "fecha": "2026-11-23T16:00:37.136Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzMzAxNTUwFQIAERgSOEE3RUEwMjc3NUU4NjA0OTg2AA=="
       }
     ],
     "paso": "pedido_cedula",
@@ -2277,7 +2284,7 @@
       "barrio": "No aplica (recoge en oficina)",
       "medioPago": "Sistecredito"
     },
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
@@ -2298,9 +2305,7 @@
       "texto": "Prefiero contraentrega"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-23T15:42:40.667Z"
+      "seguimientosEnviados": 0
     }
   },
   {
