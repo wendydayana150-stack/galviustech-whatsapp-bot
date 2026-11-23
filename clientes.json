@@ -3,8 +3,8 @@
     "telefono": "573053381167",
     "nombre": "Lupita de Alba👷🏽‍♀️",
     "primerContacto": "2026-11-23T13:16:56.775Z",
-    "ultimoContacto": "2026-11-23T13:21:10.104Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-23T13:21:19.602Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -111,6 +111,18 @@
         "fecha": "2026-11-23T13:21:09.218Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDUzMzgxMTY3FQIAERgSQjdCMUQ1M0ZEQTQ4NDEyQTREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y que garantía tiene el equipo",
+        "fecha": "2026-11-23T13:21:16.833Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem viene con garantía de 30 días para que puedas usarlo con confianza y cualquier inconveniente lo solucionamos rápido con nuestro soporte GalviusTech.\n\nAdemás, pagas al recibir, así que puedes abrirlo y revisarlo antes de dar el pago, viene sellado en bolsa transparente para que veas que es nuevo y completo.\n\n¿Te lo dejo listo para envío a Purísima Córdoba? 😊",
+        "fecha": "2026-11-23T13:21:18.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDUzMzgxMTY3FQIAERgSNUNFNjgwRjI4MjdDNjk0QjJBAA=="
       }
     ],
     "paso": "conversando",
@@ -131,7 +143,10 @@
       "url": "https://fb.me/5pVDqhBDv",
       "fecha": "2026-11-23T13:16:54.813Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-23T13:21:16.833Z",
+      "texto": "Y que garantía tiene el equipo"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
