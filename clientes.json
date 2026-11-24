@@ -375,8 +375,8 @@
     "telefono": "573223965673",
     "nombre": "Pava Loca",
     "primerContacto": "2026-11-24T17:59:36.704Z",
-    "ultimoContacto": "2026-11-24T20:31:24.544Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-24T20:34:10.388Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -435,13 +435,32 @@
         "fecha": "2026-11-24T20:31:23.797Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSMjlBMzU2QUVERkJCOEUyNDRDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la finca pero me gustaría ver la de conectar con el celular",
+        "fecha": "2026-11-24T20:34:05.807Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para finca la cámara de 3 lentes es ideal porque tiene vista desde el celular y buen alcance.\n\nImagina poder revisar tu finca donde estés y tener grabación como respaldo. Además es fácil de instalar y resistente.\n\nLa inversión es de $209.900 + $26.000 de envío, pagas al recibir y tienes garantía de 30 días.\n\n¿Quieres que te la deje lista para enviar? ¿Prefieres que llegue a tu casa o la recoges en la oficina de la transportadora?",
+        "fecha": "2026-11-24T20:34:09.115Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSODVDRTFCM0M5RUE1MDExRjlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T20:34:09.677Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSMDI4Qzg3QTEwNTQyMEZFQTM5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "camara-3-lentes",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
