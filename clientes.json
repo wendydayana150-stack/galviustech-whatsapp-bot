@@ -4556,8 +4556,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-23T23:30:40.106Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-24T11:32:46.641Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4689,6 +4689,25 @@
         "fecha": "2026-11-24T11:07:39.897Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRDBBN0YxRDBEMjYzMkVBQzMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya se los e mandado varias veces y nada eso me muestra un poco de descordonacion en su página virtual quien me garantiza que  esa que voy a recibir lo que estoy pidiendo?",
+        "fecha": "2026-11-24T11:32:41.101Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo perfectamente tu preocupación, Elkin. En GalviusTech te garantizamos que recibes exactamente la Impresora Térmica Portátil NETUM que pediste, sellada y nueva en bolsa transparente para que la revises antes de pagar.\n\nAdemás, tienes garantía de 30 días y soporte directo con nosotros para cualquier duda o problema.",
+        "fecha": "2026-11-24T11:32:44.553Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNTRFM0MzRTQxNUI1NUIxMDg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-24T11:32:45.618Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRDZBNzBBMUE2NzM0NTU1RTRGAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -4719,10 +4738,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-24T11:07:41.754Z",
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
