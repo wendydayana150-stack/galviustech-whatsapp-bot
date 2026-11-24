@@ -3,8 +3,8 @@
     "telefono": "573234835290",
     "nombre": "Adriana Sanchez",
     "primerContacto": "2026-11-24T22:15:02.811Z",
-    "ultimoContacto": "2026-11-24T22:16:06.191Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-24T22:17:41.078Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -56,6 +56,25 @@
         "fecha": "2026-11-24T22:16:05.423Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSNjE3MjhGMjA1MDgyRjgzRjlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es  para  una niña de cuarto de primaria",
+        "fecha": "2026-11-24T22:17:37.227Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una niña de cuarto de primaria la Impresora Térmica Portátil NETUM es ideal 🙌.\n\nImprime hojas tamaño carta, perfecta para tareas, trabajos y apuntes. No usa tinta, así que ahorras en cartuchos. Es portátil y fácil de llevar en el morral.\n\nLa inversión sería de *$249.900* con envío gratis y pagas al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te ayude a dejar el pedido listo para que la niña pueda usarla ya?",
+        "fecha": "2026-11-24T22:17:39.294Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSNUQxNDcwNDczMDg1MUI4M0EzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T22:17:40.029Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSNjc0NjgyODUxODBGQTYxOEE0AA=="
       }
     ],
     "paso": "conversando",
@@ -68,7 +87,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-12-20",
+      "texto": "Es  para  una niña de cuarto de primaria",
+      "desde": "2026-11-24T22:17:37.229Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
