@@ -927,8 +927,8 @@
     "telefono": "573153973514",
     "nombre": "vivir la vida",
     "primerContacto": "2026-11-24T15:37:04.042Z",
-    "ultimoContacto": "2026-11-24T15:37:04.042Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T18:16:57.073Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -975,10 +975,27 @@
         "fecha": "2026-11-24T17:43:41.124Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzOTczNTE0FQIAERgSMzJFOEYwREI3RjVGMkQ4MUMwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ LA QUIERO",
+        "fecha": "2026-11-24T18:16:55.614Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-24T18:16:56.053Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzOTczNTE0FQIAERgSRjk3RDhBNTZFNTgxRjlDMjg5AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573153973514"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -997,10 +1014,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-24T17:43:42.024Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
