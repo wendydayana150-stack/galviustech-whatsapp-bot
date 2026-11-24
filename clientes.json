@@ -4556,8 +4556,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-24T11:35:52.573Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-24T11:37:02.716Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4758,6 +4758,38 @@
         "fecha": "2026-11-24T11:35:50.599Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNEQ0NTA2N0FEQjMxNEI5NzYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya esta es la última ves que les mando mis datos si es difícil  no despachan entonces el pedido",
+        "fecha": "2026-11-24T11:36:57.775Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-24T11:37:00.233Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSOEEyOTY3RERFRDAwMzNFNTEyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-24T11:37:00.739Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Elkin, entiendo que te haya parecido complicado, disculpa la confusión. Yo me encargo de dejar todo listo para que te llegue sin problemas y sin que tengas que hacer más nada.\n\nLa impresora NETUM está en promoción a $249.900 con envío GRATIS y pagas contra entrega. Te llegará en 1 a 3 días hábiles a Barranquilla.\n\nTe dejo ya el pedido listo para que lo procesen:\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Querés que agilice el despacho ahora mismo?",
+        "fecha": "2026-11-24T11:37:00.744Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNkE5MDQxNUVEMkZBNTJBMTBFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, tu celular, tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: ¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-24T11:37:01.732Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRkNBQUZGNjlCMDc1ODU2REM4AA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -4766,10 +4798,10 @@
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573012090847",
+      "nombreCliente": "Elkin hernandez torres",
       "celular": "3012090847",
       "departamento": "Atlantico",
-      "direccion": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847",
-      "nombreCliente": "Elkin hernandez torres"
+      "direccion": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847"
     },
     "pausado": false,
     "etapaManual": null,
