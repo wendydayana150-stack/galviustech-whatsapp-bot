@@ -4556,8 +4556,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-24T11:35:11.000Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-24T11:35:52.573Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4739,6 +4739,25 @@
         "fecha": "2026-11-24T11:35:09.776Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRTVBNjhDODg4OTVDOEEzN0UyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847",
+        "fecha": "2026-11-24T11:35:47.374Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Elkin. La Impresora Térmica Portátil NETUM está en promoción a $249.900 con envío GRATIS y pago contra entrega, ideal para imprimir tareas, documentos y más sin tinta ni cartuchos.\n\nLa impresora mide 27.5 cm x 6.5 cm x 5 cm, cabe fácil en tu mochila o bolso y su batería dura hasta 30 horas con carga completa.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-24T11:35:49.783Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSMkMzQzM1NzRCRkRFOUI2QjE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en qué ciudad o municipio vives?",
+        "fecha": "2026-11-24T11:35:50.599Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNEQ0NTA2N0FEQjMxNEI5NzYzAA=="
       }
     ],
     "paso": "pedido_ciudad",
