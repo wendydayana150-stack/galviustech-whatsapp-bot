@@ -3,8 +3,8 @@
     "telefono": "573116647376",
     "nombre": "Josechon",
     "primerContacto": "2026-11-24T02:53:55.910Z",
-    "ultimoContacto": "2026-11-24T02:53:55.910Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T02:59:35.457Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,13 +24,32 @@
         "fecha": "2026-11-24T02:53:55.223Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSMDg4NzA5ODA2RkRDMDAxQzYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La solar de de grandes cuentas vales",
+        "fecha": "2026-11-24T02:59:30.847Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Para iluminar grandes espacios con energía solar, el *Reflector Solar LED 2000W Jortan* es la mejor opción. \n\n- Potencia alta para grandes áreas\n- Resistente a lluvia y clima extremo (IP67)\n- Control remoto para manejar la luz cómodamente\n\nLa inversión sería de *$229.900* + envío GRATIS y pagas al recibir.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te la envie a tu casa o prefieres recogerla en la oficina de la transportadora?",
+        "fecha": "2026-11-24T02:59:34.022Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSQkRERDAzNDlCQ0EwOUMzMjFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T02:59:34.484Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSNzdGNDg0NjBBQkRGMzYwNzQ0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "reflector-solar-jortan-2000w",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -39,7 +58,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573148818439",
