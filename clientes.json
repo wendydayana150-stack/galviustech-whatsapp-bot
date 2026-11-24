@@ -498,8 +498,8 @@
     "telefono": "573223965673",
     "nombre": "Pava Loca",
     "primerContacto": "2026-11-24T17:59:36.704Z",
-    "ultimoContacto": "2026-11-24T20:39:17.592Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-24T20:53:50.544Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -601,6 +601,18 @@
         "fecha": "2026-11-24T20:39:16.856Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSQ0UwRjdFNzM5MTVBNTYxNTYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Eso es mera estafa",
+        "fecha": "2026-11-24T20:53:45.824Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento que te hayas sentido así, no es para nada nuestra intención ni proceso. En GalviusTech somos muy serios, certificados y con garantía real de 30 días.\n\nEl paquete llega sellado, puedes abrirlo y revisar la cámara antes de pagar para tu tranquilidad.\n\nSi quieres, te ayudo a dejar tu pedido listo para que la recibas y puedas comprobarlo tú mismo.\n\n¿Qué te parece? ¿Te ayudo?",
+        "fecha": "2026-11-24T20:53:49.771Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSNkY2QjhGMjExQ0VCRkRCRjk1AA=="
       }
     ],
     "paso": "conversando",
@@ -609,8 +621,8 @@
     "etapaManual": null,
     "ultimoProducto": "camara-3-lentes",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Eso es mera estafa\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
