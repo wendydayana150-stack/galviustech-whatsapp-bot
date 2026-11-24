@@ -4556,8 +4556,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-24T11:33:25.627Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-24T11:35:11.000Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4727,9 +4727,21 @@
         "fecha": "2026-11-24T11:33:24.538Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSQzFGQkI1NjBCNzlDNkM0MDJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Elkin hernandez torres",
+        "fecha": "2026-11-24T11:35:09.773Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-24T11:35:09.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSRTVBNjhDODg4OTVDOEEzN0UyAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -4737,7 +4749,8 @@
       "telefono": "573012090847",
       "celular": "3012090847",
       "departamento": "Atlantico",
-      "direccion": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847"
+      "direccion": "Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847",
+      "nombreCliente": "Elkin hernandez torres"
     },
     "pausado": false,
     "etapaManual": null,
