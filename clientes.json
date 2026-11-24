@@ -611,8 +611,8 @@
     "telefono": "573223965673",
     "nombre": "Pava Loca",
     "primerContacto": "2026-11-24T17:59:36.704Z",
-    "ultimoContacto": "2026-11-24T20:53:50.544Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-24T21:32:55.998Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -726,16 +726,23 @@
         "fecha": "2026-11-24T20:53:49.771Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSNkY2QjhGMjExQ0VCRkRCRjk1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola ya te envío el catálogo",
+        "fecha": "2026-11-24T21:32:54.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSMzQ4MTlCQTJFMTA1OTcwMDlDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "camara-3-lentes",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Eso es mera estafa\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
