@@ -3,8 +3,8 @@
     "telefono": "573202073730",
     "nombre": "yesneider",
     "primerContacto": "2026-11-24T20:34:46.062Z",
-    "ultimoContacto": "2026-11-24T20:34:46.062Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T20:45:55.592Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-24T20:34:44.826Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAyMDczNzMwFQIAERgSRjBENzJFNjJBQjZDMDk0MDNBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Disculpe i eya yeva tarjeta o",
+        "fecha": "2026-11-24T20:45:52.079Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, el módem funciona con la SIM de cualquier operador (Claro, Movistar, Tigo, WOM), solo insertas tu tarjeta SIM y listo. \n\nCuando confirmes tu pedido, te enviamos de regalo una SIM de Claro sin plan ni saldo para que la actives si quieres. 🎁 \n\n¿Me cuentas en qué municipio o vereda lo vas a usar para recomendarte el mejor modelo?",
+        "fecha": "2026-11-24T20:45:54.801Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAyMDczNzMwFQIAERgSQjUzMEZCNzRCQzI0NTlEQzI2AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6koN0mHFP",
       "fecha": "2026-11-24T20:34:43.763Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573232685160",
