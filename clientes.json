@@ -139,6 +139,13 @@
         "fecha": "2026-11-24T17:59:35.962Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSQjA3NTdGMTBCMkI3NUJCMzFBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-24T19:08:41.182Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIzOTY1NjczFQIAERgSQTRGQkM1MDEyNzU2QjJEMzg3AA=="
       }
     ],
     "paso": "conversando",
@@ -159,7 +166,12 @@
       "url": "https://fb.me/6ZdtHA471",
       "fecha": "2026-11-24T17:59:35.097Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-24T19:08:42.907Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "593997641091",
@@ -763,6 +775,13 @@
         "fecha": "2026-11-24T18:03:41.137Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4MTY0ODcwFQIAERgSQjhBMUUyODQ4ODVEMkYwNjIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-24T19:08:41.713Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4MTY0ODcwFQIAERgSRjJGQzNBRkRDMDk2NUJEOTg3AA=="
       }
     ],
     "paso": "conversando",
@@ -791,9 +810,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-24T18:03:41.922Z"
+      "ultimoEnvio": "2026-11-24T19:08:42.907Z",
+      "horas3": true
     }
   },
   {
