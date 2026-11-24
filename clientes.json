@@ -2174,8 +2174,8 @@
     "telefono": "573204404810",
     "nombre": "Jorge Alvarez",
     "primerContacto": "2026-11-23T12:10:14.831Z",
-    "ultimoContacto": "2026-11-23T12:10:14.831Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T15:06:14.457Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2222,6 +2222,13 @@
         "fecha": "2026-11-23T14:12:09.750Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0NDA0ODEwFQIAERgSQzFCOTQ2RDYwNzlFMEQ2QkZCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Jorge Alvarez, sobre nuestros productos",
+        "fecha": "2026-11-24T15:06:13.219Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0NDA0ODEwFQIAERgSNDg2QTE1NzU0RTYzRTAzMzI0AA=="
       }
     ],
     "paso": "conversando",
@@ -2244,10 +2251,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-23T14:12:11.114Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-24"
   },
