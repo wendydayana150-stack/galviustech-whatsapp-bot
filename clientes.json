@@ -3,8 +3,8 @@
     "telefono": "573183898935",
     "nombre": "Orlando",
     "primerContacto": "2026-11-24T15:42:04.274Z",
-    "ultimoContacto": "2026-11-24T15:42:04.274Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T15:44:19.533Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-24T15:42:03.515Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTgzODk4OTM1FQIAERgSRUREQzExOUU0N0JFOTAwODBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El módem 5 g",
+        "fecha": "2026-11-24T15:44:14.782Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El *Modem WiFi Portatil 5G* cuesta $199.900 más $26.000 de envío.\n\n💡 Beneficios clave: conexión rápida 5G para conectar varios dispositivos, perfecto para zonas con buen 5G, fincas y viajes.\n\nFunciona con SIM de cualquier operador y dura hasta 14 horas encendido.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿En qué lugar lo vas a usar y para qué lo necesitas? Así te sirve perfecto.",
+        "fecha": "2026-11-24T15:44:17.972Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzODk4OTM1FQIAERgSRkY5MUFEOEJBOUIzNzhCQjBCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T15:44:18.635Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTgzODk4OTM1FQIAERgSQTY1RDBENkIzNkQyMjAzQjRDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/6ZdtHA471",
       "fecha": "2026-11-24T15:42:02.276Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573153973514",
