@@ -4135,6 +4135,13 @@
         "fecha": "2026-11-23T23:30:39.195Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNEZFNUI4QjI2OEM1MUExMzlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n✅ Cel: 3012090847\n✅ Atlantico\n✅ Como la pido? La  Necesito con la oferta \nMi nombre Elkin hernandez \nDepartamento Atlántico \nCiudad Barranquilla \nDirección Calle 49#16-146 Barrio cevillar casa Blanca de Rejas \nTeléfono 3012090847\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-24T00:02:37.229Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSOEZDODdFMzA0RTE1NTExQTU4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -4165,7 +4172,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-24T00:02:38.745Z"
     }
   },
   {
