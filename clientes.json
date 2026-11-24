@@ -3,8 +3,8 @@
     "telefono": "573116647376",
     "nombre": "Josechon",
     "primerContacto": "2026-11-24T02:53:55.910Z",
-    "ultimoContacto": "2026-11-24T03:04:30.960Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-24T03:06:24.554Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -67,13 +67,55 @@
         "fecha": "2026-11-24T03:04:30.076Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSQTMxREY1QTExOTY4NjgxNThCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Reflector Solar 1000W",
+        "fecha": "2026-11-24T03:06:21.809Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 1000W",
+        "fecha": "2026-11-24T03:06:21.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSQkVDMzMzQzQ5QjZDRUM5OEREAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 1000W",
+        "fecha": "2026-11-24T03:06:22.307Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSOUYzODk3Q0MwREE2NzFEQzMyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Reflector Solar 1000W",
+        "fecha": "2026-11-24T03:06:22.749Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSOUJDREVBNkI3MDYwNEYyRDlFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Reflector Solar 1000W Jortan con Panel y Control Remoto*\n💰 *$ 189.900* ya con *30% de descuento* 🔥\n🚚 Envío *GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-24T03:06:23.208Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSMTJDMTQ1QjY0NEUxNzhGNTJEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T03:06:23.615Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE2NjQ3Mzc2FQIAERgSQzRBMTQyQzgzOUY1MzBGRDM1AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "confirmar_producto",
+    "pedido": {
+      "productoId": "reflector-solar-jortan-1000w-con-panel-y-control-remoto"
+    },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "reflector-solar-jortan-2000w",
+    "ultimoProducto": "reflector-solar-jortan-1000w-con-panel-y-control-remoto",
     "ultimaCategoria": null,
     "necesitaAtencion": false,
     "motivoAtencion": null,
