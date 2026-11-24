@@ -63,8 +63,8 @@
     "telefono": "573238164870",
     "nombre": "ismaelenriquelopezsaavedr",
     "primerContacto": "2026-11-24T16:49:54.860Z",
-    "ultimoContacto": "2026-11-24T16:51:46.882Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-24T16:52:27.079Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,14 +140,27 @@
         "fecha": "2026-11-24T16:51:46.174Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM4MTY0ODcwFQIAERgSQjc3MTFDMjhCQThBQkY4MEQ1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pregunto",
+        "fecha": "2026-11-24T16:52:26.262Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-24T16:52:26.266Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM4MTY0ODcwFQIAERgSOEI0MkVCRjQzRUFFQjRGRTM2AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "573238164870"
+      "telefono": "573238164870",
+      "nombreCliente": "Pregunto"
     },
     "pausado": false,
     "etapaManual": null,
