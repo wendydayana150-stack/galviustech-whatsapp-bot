@@ -2761,8 +2761,8 @@
     "telefono": "573115348153",
     "nombre": "diegorincon270682",
     "primerContacto": "2026-11-23T11:26:32.798Z",
-    "ultimoContacto": "2026-11-23T11:27:24.194Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-24T15:06:27.309Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2833,13 +2833,20 @@
         "fecha": "2026-11-23T13:32:08.699Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1MzQ4MTUzFQIAERgSMTJEQUZGRDIwRUZEQzczQ0NCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola diegorincon270682, sobre Modem 4G/5G",
+        "fecha": "2026-11-24T15:06:26.209Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1MzQ4MTUzFQIAERgSQkI1MEU5NjREQ0U3QTVERjZGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -2855,10 +2862,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-23T13:32:09.721Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-24"
   },
