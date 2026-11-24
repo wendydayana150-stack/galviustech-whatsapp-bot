@@ -1613,8 +1613,8 @@
     "telefono": "573209131937",
     "nombre": "Fabián Melgarejo",
     "primerContacto": "2026-11-23T13:25:35.865Z",
-    "ultimoContacto": "2026-11-23T13:25:35.865Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T15:05:08.559Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1641,6 +1641,13 @@
         "fecha": "2026-11-23T14:29:24.749Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA5MTMxOTM3FQIAERgSNzFBMzJBRENBRTAzNDZCNzE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Fabián Melgarejo, sobre nuestros productos",
+        "fecha": "2026-11-24T15:05:07.594Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA5MTMxOTM3FQIAERgSNzU2RDRCNEM2NUIxNUI0M0RBAA=="
       }
     ],
     "paso": "conversando",
@@ -1658,10 +1665,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-23T15:32:39.828Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-24"
   },
