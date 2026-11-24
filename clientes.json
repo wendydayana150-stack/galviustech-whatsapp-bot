@@ -228,8 +228,8 @@
     "telefono": "573017094772",
     "nombre": "yanethcabrera1234era",
     "primerContacto": "2026-11-24T19:23:21.778Z",
-    "ultimoContacto": "2026-11-24T19:23:21.778Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T21:19:46.656Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -269,13 +269,32 @@
         "fecha": "2026-11-24T20:23:41.188Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE3MDk0NzcyFQIAERgSM0I3MjUxMjVFMkY0MEE1M0YzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda nueva apaya \nPuerto Leguizamo Putumayo",
+        "fecha": "2026-11-24T21:19:40.718Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, Puerto Leguizamo Putumayo. Ahí es importante saber que cobertura 5G es limitada, por eso te recomiendo el *Modem WiFi Portatil 4G/5G*.\n\nTiene conexión 4G y 5G para que funcione bien donde ya hay 5G y también donde solo tienes 4G en zonas rurales. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión sería de $199.900 + $26.000 de envío, total $225.900. 🏡 ¿Para qué lo necesitas principalmente: trabajo, estudio, hogar o viajes?",
+        "fecha": "2026-11-24T21:19:45.075Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDk0NzcyFQIAERgSNzk5RkNFRTU1MDE2MjUzMjQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T21:19:45.674Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE3MDk0NzcyFQIAERgSMEQ3NjYzMjY4MjUzODc2OEU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -291,9 +310,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-24T20:23:42.201Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
