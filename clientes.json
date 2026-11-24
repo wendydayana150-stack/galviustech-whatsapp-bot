@@ -63,8 +63,8 @@
     "telefono": "573107068281",
     "nombre": "Mery",
     "primerContacto": "2026-11-24T23:14:42.934Z",
-    "ultimoContacto": "2026-11-24T23:54:26.747Z",
-    "mensajes": 16,
+    "ultimoContacto": "2026-11-24T23:57:42.480Z",
+    "mensajes": 17,
     "conversacion": [
       {
         "rol": "cliente",
@@ -366,6 +366,25 @@
         "fecha": "2026-11-24T23:54:25.711Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSQjdCMzBGOUE4MUNDRUJFNDQ5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno le hago una pregunta pero ahí entre rapidísimo yo yo puedo Cancelar también por pagarle en efectivo entre rapidísimo así me queda más fácil",
+        "fecha": "2026-11-24T23:57:39.176Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, Héctor.\n\nCon Interrapidísimo pagas en efectivo al recoger el pedido, así que es cómodo y sin rollos de adelantar plata.",
+        "fecha": "2026-11-24T23:57:41.243Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSQ0M1MTdENTQ0QjNENjIyOEZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-24T23:57:41.706Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSMEQ3NDUwQTY5MjlDMDE1OTQ0AA=="
       }
     ],
     "paso": "pedido_pago",
