@@ -3,8 +3,8 @@
     "telefono": "573107068281",
     "nombre": "Mery",
     "primerContacto": "2026-11-24T23:14:42.934Z",
-    "ultimoContacto": "2026-11-24T23:14:42.934Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T23:15:50.282Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,19 +37,43 @@
         "fecha": "2026-11-24T23:14:42.169Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSRkRFM0IxNzg1N0RGRDJDOTExAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oye una pregunta para cuánto celular alcanza para conectarse al internet para cuándo porque yo necesito para este lunes",
+        "fecha": "2026-11-24T23:15:46.834Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, cada módem conecta hasta 10 dispositivos al mismo tiempo, así que puedes conectar varios celulares y otros aparatos sin problema.\n\nLlega en 1 a 3 días hábiles después de despacharlo.\n\n¿En qué municipio o vereda lo usarías? Así te recomiendo el modelo ideal para tu zona y uso.\n\n💰 *Modem 4G/5G*: $ 199.900 + $26.000 de envío. 🔥 Ya con 30% de descuento.\n✅ Pagas al recibir (contra entrega).",
+        "fecha": "2026-11-24T23:15:49.006Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSNjhFMzVENjFCNDM3NjgxODIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T23:15:49.430Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA3MDY4MjgxFQIAERgSMEMzRjFBMjgzREFDNzg4MDBBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-30",
+      "texto": "Oye una pregunta para cuánto celular alcanza para conectarse al internet para cuándo porque yo necesito para este lunes",
+      "desde": "2026-11-24T23:15:46.835Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
@@ -57,7 +81,10 @@
       "url": "https://fb.me/6koN0mHFP",
       "fecha": "2026-11-24T23:14:40.868Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234018117",
