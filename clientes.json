@@ -3530,8 +3530,8 @@
     "telefono": "573127724964",
     "nombre": "empresas timbiquin",
     "primerContacto": "2026-11-23T05:26:53.217Z",
-    "ultimoContacto": "2026-11-23T05:26:53.217Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T15:07:31.155Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3565,6 +3565,13 @@
         "fecha": "2026-11-23T12:02:09.724Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3NzI0OTY0FQIAERgSNDNCRDA3QTk3RUFFQkMwQkVDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola empresas timbiquin, sobre nuestros productos",
+        "fecha": "2026-11-24T15:07:30.139Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3NzI0OTY0FQIAERgSNUExQUEzREQ3MUMyRkU4NDdCAA=="
       }
     ],
     "paso": "conversando",
@@ -3582,10 +3589,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-23T12:02:21.146Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-24"
   },
