@@ -3,8 +3,8 @@
     "telefono": "573148818439",
     "nombre": "Lionel Quintero",
     "primerContacto": "2026-11-24T02:07:52.057Z",
-    "ultimoContacto": "2026-11-24T02:07:52.057Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T02:18:40.520Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-24T02:07:51.348Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ4ODE4NDM5FQIAERgSRjFENjQzM0E3QjBBMTgzOUU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el municipio el copey",
+        "fecha": "2026-11-24T02:18:24.916Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, El Copey. 📍\n\nAquí te dejo las opciones ideales para que tengas internet donde lo necesites, sin depender de fibra ni instalaciones:\n\n• *Modem 4G* $199.900 con envío GRATIS: conexión estable y potente en 4G, ideal si buscas economía.\n\n• *Modem 4G/5G* $199.900 + $26.000 envío: funciona en 4G y 5G, la mejor opción para mayor cobertura y velocidades, sin riesgo si tu zona aún no tiene 5G.\n\n• *Modem 5G* $199.900 + $26.000 envío: para usar donde haya buena cobertura 5G y quieras la máxima velocidad.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo vas a usar principalmente? Trabajo, estudio, hogar o negocio? Así te ayudo a elegir.",
+        "fecha": "2026-11-24T02:18:38.979Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4ODE4NDM5FQIAERgSQkJEOTlFODUxMkI1MENBRkE2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-24T02:18:39.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ4ODE4NDM5FQIAERgSMzk3N0YzQTZGRDc5NEFBREYwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/4RLiiSez8",
       "fecha": "2026-11-24T02:07:50.269Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573012888244",
