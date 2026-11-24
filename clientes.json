@@ -3,8 +3,8 @@
     "telefono": "573234835290",
     "nombre": "Adriana Sanchez",
     "primerContacto": "2026-11-24T22:15:02.811Z",
-    "ultimoContacto": "2026-11-24T22:15:02.811Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T22:16:06.191Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,25 @@
         "fecha": "2026-11-24T22:15:01.859Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSMThCNjdGNUMyNjBCRDRFQTczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Las hojas de  block",
+        "fecha": "2026-11-24T22:16:02.630Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil NETUM no imprime en hojas de block ni papel convencional. Usa hojas térmicas tamaño carta, que ya trae incluidas y puedes conseguirlas en cualquier papelería o con nosotros. Así imprimes sin tinta ni cartuchos, fácil y rápido.\n\n¿La necesitarías para imprimir documentos de estudio o para algo de negocio?",
+        "fecha": "2026-11-24T22:16:04.609Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSMThEODg1NTY5REYzREU2MjlEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-24T22:16:05.423Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0ODM1MjkwFQIAERgSNjE3MjhGMjA1MDgyRjgzRjlCAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +76,10 @@
       "url": "https://fb.me/azjLiw726",
       "fecha": "2026-11-24T22:15:00.430Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573052068206",
