@@ -377,6 +377,13 @@
         "fecha": "2026-11-24T15:23:11.133Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE1ODkyNjc5FQIAERgSMjM1REE0RjJCQzJCQURDMTQ3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-24T16:23:41.223Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE1ODkyNjc5FQIAERgSNzBFNkYyQURBMzExMjAzNDQ5AA=="
       }
     ],
     "paso": "conversando",
@@ -397,7 +404,12 @@
       "url": "https://fb.me/6ZdtHA471",
       "fecha": "2026-11-24T15:23:09.953Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-24T16:23:43.086Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573022361102",
@@ -4366,6 +4378,20 @@
         "fecha": "2026-11-24T15:14:08.751Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIyNDgzNjEyFQIAERgSQjI0MkEwRTY3MUU5NDJEQjhEAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta",
+        "fecha": "2026-11-24T16:23:41.943Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDgzNjEyFQIAERgSRDg0QUVEOTI0MEZFNTJEREJCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Así imprime 😍 Hoy *$ 249.900* con *envío GRATIS* y *pagas al recibir*. ¿Te la envío? 🚚\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-24T16:23:42.397Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIyNDgzNjEyFQIAERgSM0I0OTg5NUM3OTk0QkQ2QUIxAA=="
       }
     ],
     "paso": "conversando",
@@ -4388,7 +4414,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-24T16:23:43.087Z"
     },
     "escasezFecha": "2026-11-23"
   },
