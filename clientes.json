@@ -3,8 +3,8 @@
     "telefono": "573204355835",
     "nombre": "Edgar Ramos",
     "primerContacto": "2026-11-24T15:28:38.121Z",
-    "ultimoContacto": "2026-11-24T15:28:51.562Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-24T15:29:10.905Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,45 @@
         "fecha": "2026-11-24T15:28:50.562Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA0MzU1ODM1FQIAERgSQTQ5QTE1NUQ2NTAwMTQwNjRFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estudio",
+        "fecha": "2026-11-24T15:29:04.445Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora NETUM",
+        "fecha": "2026-11-24T15:29:08.304Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzU1ODM1FQIAERgSOTVERDZDRjgxQ0JFRjRFREZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Impresora NETUM]",
+        "fecha": "2026-11-24T15:29:08.791Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para estudio te recomiendo la *Impresora Térmica Portátil NETUM* que imprime en hojas tamaño carta, ideal para trabajos, tareas y documentos sin depender de papelerías.\n\nLa inversión sería de *$249.900*, con *envío GRATIS* y pagas al recibir. Es portátil, sin tinta, fácil de usar y dura hasta 30 horas de batería.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te la deje lista para envío? 😊",
+        "fecha": "2026-11-24T15:29:08.797Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzU1ODM1FQIAERgSRkI3MDFCNDA2QTM1QTVDRUExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T15:29:09.953Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA0MzU1ODM1FQIAERgSMzI3MDBDRThBRUM2QzI3QTFGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "papel",
     "necesitaAtencion": false,
     "motivoAtencion": null,
