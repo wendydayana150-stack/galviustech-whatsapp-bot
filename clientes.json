@@ -3,8 +3,8 @@
     "telefono": "573234018117",
     "nombre": "alejo12345😃😃😃",
     "primerContacto": "2026-11-24T22:52:42.435Z",
-    "ultimoContacto": "2026-11-24T22:52:42.435Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-24T22:52:48.604Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-24T22:52:41.439Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSRDE3RjE1QzQ2MDVEQkY0RDNCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "😃🤔",
+        "fecha": "2026-11-24T22:52:43.607Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Claro! Aquí te cuento rápido lo que hace cada uno para que veas cuál te conviene:\n\n📶 *Módem 4G*: Excelente para zonas con buena señal 4G. Ideal para estudiar, trabajar o estar conectado en casa o finca.\n\n📶 *Módem 4G/5G*: La mejor opción si no estás seguro de qué señal hay, porque agarra 4G o 5G donde haya. Muy versátil para viajar, negocio y más.\n\n📶 *Módem 5G*: Para lugares con buena cobertura 5G, la opción más rápida para conexión estable y veloz.\n\nLa inversión va desde $199.900, con envío gratis para el 4G y $26.000 para los otros dos.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Para qué lo usarías principalmente? Así te ayudo a elegir el que mejor te sirve.",
+        "fecha": "2026-11-24T22:52:47.194Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSQzUxRUFFOTkyQzkwNjM5MURGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-24T22:52:47.776Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0MDE4MTE3FQIAERgSODhDOUE0RjY4MTkzQTkxNjBDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/6koN0mHFP",
       "fecha": "2026-11-24T22:52:40.224Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234835290",
