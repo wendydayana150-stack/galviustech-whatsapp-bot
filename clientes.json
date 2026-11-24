@@ -4556,8 +4556,8 @@
     "telefono": "573012090847",
     "nombre": "Elkin Hernández Torres",
     "primerContacto": "2026-11-22T23:58:24.984Z",
-    "ultimoContacto": "2026-11-24T11:41:09.173Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-24T11:44:29.214Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4809,6 +4809,18 @@
         "fecha": "2026-11-24T11:41:07.966Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSQTIyMEY5N0RCRTJFOTFFMjZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esta vana no tiene seriedad esa información la e mandado varias veces primera ves que me pasa que aya que repetir tantas veces los datos de uno",
+        "fecha": "2026-11-24T11:44:25.619Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Lamento mucho la molestia, Elkin. Entiendo que repetir datos sea frustrante y no es la experiencia que queremos para ti. Voy a reportar esto para que mejoren el proceso y no te vuelva a pasar.\n\nSi quieres, puedo ayudarte personalmente para que esta vez sí quede todo perfecto y sin repetir más.\n\n¿Quieres que lo reiteremos ahora para que te quede claro y rápido?",
+        "fecha": "2026-11-24T11:44:27.994Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDEyMDkwODQ3FQIAERgSNDdCRTlFQzQ5NzE0MDdGQTNFAA=="
       }
     ],
     "paso": "pedido_ciudad",
@@ -4826,8 +4838,8 @@
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Esta vana no tiene seriedad esa información la e mandado varias veces primera ves que me pasa que ay\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
