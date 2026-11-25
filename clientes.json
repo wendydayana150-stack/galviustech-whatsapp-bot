@@ -63,8 +63,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-25T17:53:46.892Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-25T17:54:14.370Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -171,9 +171,28 @@
         "fecha": "2026-11-25T17:53:46.117Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSNzZDRjExN0E2OTY1N0EwRjA5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "S de la empresa para la empresa para",
+        "fecha": "2026-11-25T17:54:10.594Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Quieres la impresora para tu empresa? La NETUM es ideal para eso: imprime rápido documentos tamaño carta sin tinta, es portátil y fácil de usar desde el celular. La inversión es de $249.900 con envío gratis, pagas contraentrega y tienes 30 días de garantía. \n\n¿Quieres que te la deje lista para que la tengas cuanto antes?",
+        "fecha": "2026-11-25T17:54:12.389Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSNDIxNjcwMTUxNThCRjcyMkMxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T17:54:13.607Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSNkY2NUQ4QTA3QTA5RENDQkM0AA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
