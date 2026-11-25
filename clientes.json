@@ -3,8 +3,8 @@
     "telefono": "573172347869",
     "nombre": "Tumiña",
     "primerContacto": "2026-11-25T11:59:11.832Z",
-    "ultimoContacto": "2026-11-25T12:00:54.754Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-25T12:01:45.143Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,32 @@
         "fecha": "2026-11-25T12:00:53.690Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyMzQ3ODY5FQIAERgSQUE2OEZERkZDQzIxNzBFMzQ3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para la casa pero barato",
+        "fecha": "2026-11-25T12:01:41.770Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para la casa y buscando algo económico te recomiendo el *Modem WiFi Portátil 4G* por $199.900 con envío GRATIS. \nEste módem es ideal para fincas y zonas sin fibra, conecta hasta 10 dispositivos y tiene mejor cobertura que el celular. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu casa o prefieres recogerlo en alguna oficina cercana?",
+        "fecha": "2026-11-25T12:01:43.420Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyMzQ3ODY5FQIAERgSNUQxOTY2QkVGMDI3MDVCOUQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T12:01:44.009Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyMzQ3ODY5FQIAERgSQjM0MjA1QzAyN0YxNENEOEY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
