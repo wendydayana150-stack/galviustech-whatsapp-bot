@@ -607,8 +607,8 @@
     "telefono": "573234388914",
     "nombre": "yeni",
     "primerContacto": "2026-11-25T17:23:50.493Z",
-    "ultimoContacto": "2026-11-25T17:23:50.493Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T18:02:50.874Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -641,13 +641,39 @@
         "fecha": "2026-11-25T17:23:49.775Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSODlFMjNEOUJGOUFGRUE5QUFCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "cuál papel se utiliza",
+        "fecha": "2026-11-25T18:02:46.478Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Para la impresora térmica usamos *papel térmico* tamaño carta, que es especial y no necesita tinta. GalviusTech tiene varias opciones: rollo térmico tamaño carta de 9 metros por $10.000, paquete de 52 hojas por $35.000 o 200 hojas por $75.000.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te cuente cuál presentación te sirve según tu uso?",
+        "fecha": "2026-11-25T18:02:48.919Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSRURDMzU4OEIyRDRGMTdEQUMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-25T18:02:49.438Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSQzQzQzVBRTVDRUYzMjY3MEYxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T18:02:49.986Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSREQ5QTI3QUNENkQ5NkY4QkYxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "papel-termico-carta-rollo-9m",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -661,7 +687,10 @@
       "url": "https://fb.me/azjLiw726",
       "fecha": "2026-11-25T17:23:48.803Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573135272093",
