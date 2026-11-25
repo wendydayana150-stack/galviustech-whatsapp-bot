@@ -63,8 +63,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-25T17:54:51.115Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-25T17:55:06.615Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -214,6 +214,25 @@
         "fecha": "2026-11-25T17:54:50.298Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSQ0YyNjdGNzU2RUJBN0E2RDhBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "La seva la mis ma y el",
+        "fecha": "2026-11-25T17:55:03.944Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "No entendí muy bien tu mensaje,\n\nRecuerda que imprime sin tinta, portátil, tamaño carta, con batería de hasta 30 horas y fácil de conectar al celular por Bluetooth.",
+        "fecha": "2026-11-25T17:55:05.177Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSMzg5NjFCMDdGMTRBRTFFMjczAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-25T17:55:05.768Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSODBGMzc2MUM5OEQ1QjI5NTZFAA=="
       }
     ],
     "paso": "pedido_celular",
