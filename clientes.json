@@ -5223,8 +5223,8 @@
     "telefono": "573153973514",
     "nombre": "vivir la vida",
     "primerContacto": "2026-11-24T15:37:04.042Z",
-    "ultimoContacto": "2026-11-24T19:15:11.866Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-25T14:16:08.488Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5333,6 +5333,25 @@
         "fecha": "2026-11-25T14:15:52.632Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTUzOTczNTE0FQIAERgSNjZGMzk2RjU5OUEyMDU0N0FCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vale, ¡gracias!",
+        "fecha": "2026-11-25T14:16:05.781Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡De nada! 😊 👀🖨️📶💡📹",
+        "fecha": "2026-11-25T14:16:06.916Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzOTczNTE0FQIAERgSMDJCM0E1MDY5MjRDOUYzQ0E3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-25T14:16:07.490Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTUzOTczNTE0FQIAERgSRDlDNEI1RUQzQ0IzNDBCQkMzAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -5360,9 +5379,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-25T14:15:54.683Z"
+      "seguimientosEnviados": 0
     }
   },
   {
