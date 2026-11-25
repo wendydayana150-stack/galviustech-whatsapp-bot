@@ -3,8 +3,8 @@
     "telefono": "573172347869",
     "nombre": "Tumiña",
     "primerContacto": "2026-11-25T11:59:11.832Z",
-    "ultimoContacto": "2026-11-25T11:59:11.832Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T12:00:54.754Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-25T11:59:10.963Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTcyMzQ3ODY5FQIAERgSMzBGMDAyRjk4QjdEMzg3RTZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Mm bueno",
+        "fecha": "2026-11-25T12:00:50.550Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que talvez no es fácil decidir. Para darte la mejor recomendación, dime ¿para qué lo necesitas más, para estudiar, trabajar, para la casa o para viajar? Así te ayudo a escoger el modelo que mejor te sirve. ¿Me cuentas?",
+        "fecha": "2026-11-25T12:00:53.690Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTcyMzQ3ODY5FQIAERgSQUE2OEZERkZDQzIxNzBFMzQ3AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/3MF0SzxjY",
       "fecha": "2026-11-25T11:59:09.658Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573244285426",
