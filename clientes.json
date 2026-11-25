@@ -607,8 +607,8 @@
     "telefono": "573234388914",
     "nombre": "yeni",
     "primerContacto": "2026-11-25T17:23:50.493Z",
-    "ultimoContacto": "2026-11-25T18:03:09.822Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-25T18:05:20.536Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -693,13 +693,32 @@
         "fecha": "2026-11-25T18:03:09.053Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSQUE5NkVDQ0ZFQTRBNTVGNUEyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "y cuando se acabe el papel",
+        "fecha": "2026-11-25T18:05:16.474Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando se te acabe el papel para esas impresoras de etiquetas y recibos, puedes comprar rollos térmicos de 7 metros que son perfectos para ellas.\n\nLas opciones que tenemos son:\n\n- 1 Rollo Térmico (7 m): $4.000\n- 5 Rollos Térmicos (7 m): $17.000\n- 10 Rollos Térmicos (7 m): $30.000\n\nEl envío va aparte y depende de tu ciudad. ¿Quieres que te pase el pedido con algunos rollos ya?",
+        "fecha": "2026-11-25T18:05:19.338Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSNTNBM0Y0MjcyQzc1MTNERDU5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T18:05:19.802Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSMTBBQTE5N0IyRjJFNjNFNDBDAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "papel-termico-carta-rollo-9m",
+    "ultimoProducto": "papel-rollo-termico-7m-x1",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
