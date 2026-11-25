@@ -8714,8 +8714,8 @@
     "telefono": "CO.1126259983713554",
     "nombre": "Negra🦋",
     "primerContacto": "2026-11-23T14:25:01.868Z",
-    "ultimoContacto": "2026-11-25T18:53:11.620Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-25T18:56:05.545Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8844,10 +8844,36 @@
         "fecha": "2026-11-25T18:53:09.810Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEjhGREE4MDUxNDE3QUE1MDY0MwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me encantaría si llega a la oficina de interrapidisimo en balboa cauca",
+        "fecha": "2026-11-25T18:56:00.938Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, en ese caso el pedido lo enviamos para que lo recojas en la oficina de Interrapidisimo en Balboa, Cauca.\n\nLlega en 1 a 3 días hábiles después de despachar.\n\n¿Quieres que te ayude a dejar tu pedido listo para enviarlo para que lo recojas allá? 😊",
+        "fecha": "2026-11-25T18:56:03.720Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEjdFREI2QTBEMDQ1QTZCMDU3OAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento y dónde lo recibes, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-25T18:56:04.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEkEyNTU2NUMwRUU0MjRBM0U2QgA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "CO.1126259983713554",
+      "departamento": "Cauca",
+      "direccion": "Recoge en oficina de Interrapidísimo"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
