@@ -10473,8 +10473,8 @@
     "telefono": "CO.1126259983713554",
     "nombre": "Negra🦋",
     "primerContacto": "2026-11-23T14:25:01.868Z",
-    "ultimoContacto": "2026-11-25T19:40:40.268Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-25T22:46:57.059Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -10698,16 +10698,23 @@
         "fecha": "2026-11-25T19:40:39.409Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEjkzNENGNTA5MjhGRkQ0MTg4MQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buenas tardes, me confirmas el numero de telefono???",
+        "fecha": "2026-11-25T22:46:55.712Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEjBEQzgwRkM4OUMwQzExOTgxRgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "Pedido registrado automaticamente sin barrio y medio de pago (el cliente no respondio). Confirmar por llamada antes de despachar.",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
@@ -10720,9 +10727,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-25T19:40:42.992Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-24"
   },
