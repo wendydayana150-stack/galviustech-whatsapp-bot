@@ -1069,8 +1069,8 @@
     "telefono": "CO.1484166363849927",
     "nombre": "Armando Navarrete",
     "primerContacto": "2026-11-25T18:41:10.905Z",
-    "ultimoContacto": "2026-11-25T18:41:10.905Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T21:33:36.878Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1117,6 +1117,18 @@
         "fecha": "2026-11-25T20:50:37.455Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ4NDE2NjM2Mzg0OTkyNxUUABEYEjI2NTRGOTcyMTU2Mzk4M0UzMAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que precio tiene",
+        "fecha": "2026-11-25T21:33:33.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La inversión en la Impresora Térmica Portátil NETUM es de $249.900 con envío gratis y la puedes pagar al recibir. Es portátil, imprime sin tinta y la puedes usar desde el celular para tareas, documentos o tu negocio. ¿Para qué la necesitas principalmente?\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-25T21:33:35.891Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ4NDE2NjM2Mzg0OTkyNxUUABEYEjBDRjIwOTIyRjk3MzMxMzUyMAA="
       }
     ],
     "paso": "conversando",
@@ -1139,10 +1151,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T20:50:39.778Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
