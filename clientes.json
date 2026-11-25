@@ -325,8 +325,8 @@
     "telefono": "573018490069",
     "nombre": "Carmen Elisa",
     "primerContacto": "2026-11-25T13:34:07.123Z",
-    "ultimoContacto": "2026-11-25T13:34:07.123Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T14:41:20.508Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -366,13 +366,25 @@
         "fecha": "2026-11-25T14:39:50.027Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4NDkwMDY5FQIAERgSM0U5OUVDRDVDNzlGNDRGQzA2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Oís esta video solo me muestra como viene empacado más no como funciona",
+        "fecha": "2026-11-25T14:41:12.305Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, disculpa si el video no fue suficiente. El módem es super fácil de usar: solo pones la SIM de tu operador, lo enciendes y ya tienes WiFi para conectar hasta 10 dispositivos como celulares, computadores o tablets.\n\nAdemás, está diseñado para captar mejor señal en zonas rurales o donde el celular no alcanza bien, ideal para estudiar, trabajar o viajar sin depender de fibra ni instalaciones complicadas.\n\n¿Me dices en qué municipio o vereda lo necesitas para recomendarte el modelo que mejor te va?",
+        "fecha": "2026-11-25T14:41:19.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4NDkwMDY5FQIAERgSQUM4RDI2MzJGOURBMzU0Mjc2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -388,9 +400,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T14:39:51.018Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
