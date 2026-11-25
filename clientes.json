@@ -605,8 +605,8 @@
     "telefono": "573044930119",
     "nombre": "DAVEY",
     "primerContacto": "2026-11-25T20:45:05.767Z",
-    "ultimoContacto": "2026-11-25T20:45:05.767Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T22:18:01.806Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -646,6 +646,18 @@
         "fecha": "2026-11-25T21:50:36.183Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSRTQ3Q0QxMjM0QTkxNjkzMkFGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola",
+        "fecha": "2026-11-25T22:17:57.371Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell y estoy para ayudarte con los módems WiFi portátiles 4G y 5G que tenemos en GalviusTech.\n\n¿Me cuentas en qué municipio o vereda lo vas a usar? Así te recomendaré el modelo que mejor te funciona para trabajar, estudiar, tu negocio o tu casa. ¿Me cuentas?",
+        "fecha": "2026-11-25T22:18:00.720Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSMzRFREZCMUE0MDFEQjY1Rjc1AA=="
       }
     ],
     "paso": "conversando",
@@ -668,9 +680,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T21:50:38.239Z",
-      "seguimientosEnviados": 1
+      "seguimientosEnviados": 0
     }
   },
   {
