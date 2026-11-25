@@ -547,8 +547,8 @@
     "telefono": "573102997802",
     "nombre": "Ana cecilia Balanta Velez",
     "primerContacto": "2026-11-25T17:28:50.818Z",
-    "ultimoContacto": "2026-11-25T17:28:50.818Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T18:07:52.736Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -581,13 +581,32 @@
         "fecha": "2026-11-25T17:28:50.035Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTk3ODAyFQIAERgSNURCM0ZDNkJGREMyNDhDNDlCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Y cuanto es la mensualida",
+        "fecha": "2026-11-25T18:07:49.122Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La ventaja de nuestros módems es que NO tienen mensualidad fija ni contrato; haces una inversión única desde $199.900 según el modelo que elijas, y usas recargas prepago con la SIM de tu operador para cargar según tu consumo.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas para qué lo necesitas, estudio, trabajo o tu hogar? Así te recomiendo el que mejor te sirve.",
+        "fecha": "2026-11-25T18:07:51.436Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTk3ODAyFQIAERgSNTNFQ0VDMDcyMzY3OTg4QTRCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T18:07:52.150Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTk3ODAyFQIAERgSMzlDNTA1MThENTI3RjMwOTMwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -601,7 +620,10 @@
       "url": "https://fb.me/7CcDdtZOw",
       "fecha": "2026-11-25T17:28:48.778Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573234388914",
