@@ -605,8 +605,8 @@
     "telefono": "573044930119",
     "nombre": "DAVEY",
     "primerContacto": "2026-11-25T20:45:05.767Z",
-    "ultimoContacto": "2026-11-25T22:18:59.023Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-25T22:19:45.977Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -670,13 +670,32 @@
         "fecha": "2026-11-25T22:18:58.197Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSOUVBNEY1MTM3REFGOEY4OTE0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Leticia",
+        "fecha": "2026-11-25T22:19:42.426Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Leticia es una ciudad donde funciona muy bien la conexión 4G/5G, así que te recomiendo el *Modem WiFi Portátil 4G/5G*.\n\nEste equipo convierte la señal móvil 4G y 5G en WiFi para varios dispositivos, es fácil de transportar y perfecto para trabajar sin depender de la fibra óptica.\n\nLa inversión sería de $199.900 + $26.000 de envío, que es pago contra entrega y con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu dirección en Leticia?",
+        "fecha": "2026-11-25T22:19:44.530Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSOEM3MTAzNDBDRjM0MjczRDhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T22:19:45.113Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSQTk4QkM3OUQwNDY0NkQxRTM4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
