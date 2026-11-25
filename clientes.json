@@ -105,8 +105,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-25T17:56:53.473Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-25T17:57:24.420Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -313,9 +313,28 @@
         "fecha": "2026-11-25T17:56:52.758Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSMDAyMDMzQjVFRjM4NTAxRUZCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "H de caros y no me han enviado la",
+        "fecha": "2026-11-25T17:57:21.407Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que estás preocupado(a) por el envío y el precio. La Impresora Térmica Portátil NETUM tiene un precio promocional de $249.900 con envío gratis y pagas al recibir, sin adelantos ni sorpresas. Además tienes garantía de 30 días con respaldo de GalviusTech.\n\n¿Quieres que te ayude a dejar tu pedido listo para que te llegue rápido y seguro?",
+        "fecha": "2026-11-25T17:57:23.170Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSNjM4MTFGRkYyQjc1QjZEQTVCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T17:57:23.670Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSOUNBRDE5MjVFMThEODJCOUY0AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
