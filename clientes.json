@@ -3,8 +3,8 @@
     "telefono": "573245417570",
     "nombre": ".",
     "primerContacto": "2026-11-25T03:21:54.357Z",
-    "ultimoContacto": "2026-11-25T03:21:54.357Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T03:21:59.381Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-25T03:21:53.619Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ1NDE3NTcwFQIAERgSQkM4NERGMzI2MjYwMzg5QUI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-25T03:21:55.930Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 ¿En qué municipio o vereda lo vas a usar? Así te ayudo a elegir el módem que te dará mejor cobertura y rendimiento, además dime si lo necesitas para estudiar, trabajar, tu negocio o tu casa. ¿Me cuentas?",
+        "fecha": "2026-11-25T03:21:58.422Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ1NDE3NTcwFQIAERgSM0ZDQjI0QUI5N0I1MDNBQjFFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6ZdtHA471",
       "fecha": "2026-11-25T03:21:52.541Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573113523116",
