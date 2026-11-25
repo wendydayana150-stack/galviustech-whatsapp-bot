@@ -614,8 +614,8 @@
     "telefono": "573044930119",
     "nombre": "DAVEY",
     "primerContacto": "2026-11-25T20:45:05.767Z",
-    "ultimoContacto": "2026-11-25T22:22:40.068Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-25T22:23:07.895Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -746,9 +746,21 @@
         "fecha": "2026-11-25T22:22:39.136Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSM0E0RDRDMjZBN0ZBOEE3NTVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En leticia",
+        "fecha": "2026-11-25T22:23:06.959Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-25T22:23:06.962Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0OTMwMTE5FQIAERgSMUQxN0ZENkY1NTE1NTE2Q0REAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -756,7 +768,8 @@
       "telefono": "573044930119",
       "nombreCliente": "Jackson Davey Manuel Ramos",
       "celular": "3044930119",
-      "departamento": "Amazonas"
+      "departamento": "Amazonas",
+      "ciudad": "En leticia"
     },
     "pausado": false,
     "etapaManual": null,
