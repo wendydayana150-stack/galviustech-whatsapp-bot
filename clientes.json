@@ -1630,8 +1630,8 @@
     "telefono": "573155318157",
     "nombre": "Guerrero",
     "primerContacto": "2026-11-24T23:53:34.128Z",
-    "ultimoContacto": "2026-11-24T23:53:34.128Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T12:46:24.472Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1678,6 +1678,18 @@
         "fecha": "2026-11-25T11:03:50.887Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTU1MzE4MTU3FQIAERgSNkU5NEI3MjAzRDIxQUFEOEVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver otros",
+        "fecha": "2026-11-25T12:46:23.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio el catalogo de productos]",
+        "fecha": "2026-11-25T12:46:23.237Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTU1MzE4MTU3FQIAERgSQTdGQUM5QjI0MDIzOUIyRTBGAA=="
       }
     ],
     "paso": "conversando",
@@ -1700,10 +1712,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T11:03:52.002Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
