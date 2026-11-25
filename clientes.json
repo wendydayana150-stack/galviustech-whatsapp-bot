@@ -3,8 +3,8 @@
     "telefono": "573113523116",
     "nombre": "Diego Rodriguez",
     "primerContacto": "2026-11-25T03:01:53.672Z",
-    "ultimoContacto": "2026-11-25T03:01:53.672Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T03:06:54.760Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-25T03:01:52.936Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTEzNTIzMTE2FQIAERgSN0M2MTVFOURCQ0RGNDlFNTE3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Uso personal",
+        "fecha": "2026-11-25T03:06:49.717Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Gracias por contarme que es para uso personal. \n\nAhora dime, ¿para qué exactamente quieres usar la impresora? ¿Para imprimir documentos, trabajos, facturas o algo más? Así te recomiendo la mejor opción para tu caso.",
+        "fecha": "2026-11-25T03:06:53.799Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTEzNTIzMTE2FQIAERgSNzY3QzQ0MkVBQzIzQzYzRDBBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8o5776Vua",
       "fecha": "2026-11-25T03:01:51.576Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573044728130",
