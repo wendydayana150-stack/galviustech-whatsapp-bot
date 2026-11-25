@@ -8774,8 +8774,8 @@
     "telefono": "CO.1126259983713554",
     "nombre": "Negra🦋",
     "primerContacto": "2026-11-23T14:25:01.868Z",
-    "ultimoContacto": "2026-11-25T18:56:05.545Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-25T18:57:50.485Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -8923,16 +8923,29 @@
         "fecha": "2026-11-25T18:56:04.627Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEkEyNTU2NUMwRUU0MjRBM0U2QgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Heidy Bolaños",
+        "fecha": "2026-11-25T18:57:49.417Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-25T18:57:49.420Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTEyNjI1OTk4MzcxMzU1NBUUABEYEjhFNzNDMjkyRjFEOERFN0U3NwA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "CO.1126259983713554",
       "departamento": "Cauca",
-      "direccion": "Recoge en oficina de Interrapidísimo"
+      "direccion": "Recoge en oficina de Interrapidísimo",
+      "nombreCliente": "Heidy Bolaños"
     },
     "pausado": false,
     "etapaManual": null,
