@@ -607,8 +607,8 @@
     "telefono": "573234388914",
     "nombre": "yeni",
     "primerContacto": "2026-11-25T17:23:50.493Z",
-    "ultimoContacto": "2026-11-25T18:05:20.536Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-25T18:06:36.882Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -712,13 +712,25 @@
         "fecha": "2026-11-25T18:05:19.802Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSMTBBQTE5N0IyRjJFNjNFNDBDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "para la impresora grande manejan algún otro tipo de papel como el de fotografía ?",
+        "fecha": "2026-11-25T18:06:33.548Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La *Impresora NETUM* grande solo imprime en *papel térmico* tamaño carta, no maneja otro tipo de papel como el fotográfico. Imprime en blanco y negro, sin tinta, ideal para documentos, trabajos o facturas.\n\nSi necesitas imprimir fotos a color o en otro material, por ahora no tenemos ese equipo, pero pronto tendremos impresoras para fotos. ¿Quieres que te avise cuando lleguen?\n\n¿Para qué necesitas usar la impresora NETUM principalmente?",
+        "fecha": "2026-11-25T18:06:36.067Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM0Mzg4OTE0FQIAERgSQUNEMTJBQkUyMDVCOEM4QzJGAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "papel-rollo-termico-7m-x1",
+    "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
