@@ -6081,8 +6081,8 @@
     "telefono": "CO.966386153002665",
     "nombre": "Robinson",
     "primerContacto": "2026-11-24T14:24:22.249Z",
-    "ultimoContacto": "2026-11-24T14:24:22.249Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T15:14:50.548Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6122,6 +6122,13 @@
         "fecha": "2026-11-24T15:33:41.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgSQ08uOTY2Mzg2MTUzMDAyNjY1FRQAERgSQTc0NzFGOEI3NkFFNTBDRTcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Robinson, sobre nuestros productos",
+        "fecha": "2026-11-25T15:14:47.920Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgSQ08uOTY2Mzg2MTUzMDAyNjY1FRQAERgSMEFCM0Q5ODhERDQ5RjU1MkZCAA=="
       }
     ],
     "paso": "conversando",
@@ -6144,10 +6151,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-24T16:33:42.658Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-25"
   },
