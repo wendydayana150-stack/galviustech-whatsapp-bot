@@ -3,8 +3,8 @@
     "telefono": "573044728130",
     "nombre": "Emanuel Ciro",
     "primerContacto": "2026-11-25T02:53:39.107Z",
-    "ultimoContacto": "2026-11-25T02:53:39.107Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T02:53:44.574Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-25T02:53:38.373Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ0NzI4MTMwFQIAERgSMDFBNkE5RjUzM0I4RjdDMEVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Precio",
+        "fecha": "2026-11-25T02:53:40.382Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El Modem WiFi Portatil 4G cuesta $199.900 con envío GRATIS. Tiene conexión 4G para varios dispositivos, ideal para estudiar, trabajar o viajar sin depender de fibra óptica, y batería que dura hasta 14 horas. Es una inversión para estar siempre conectado donde estés.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué ciudad o municipio lo necesitas? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-11-25T02:53:43.488Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NzI4MTMwFQIAERgSNTVEMEY1MkUyRUI1RUI5QzVBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T02:53:43.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ0NzI4MTMwFQIAERgSQkExOTZFQzJGM0JDODJENjBEAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/6koN0mHFP",
       "fecha": "2026-11-25T02:53:37.364Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573007545240",
