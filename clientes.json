@@ -265,6 +265,13 @@
         "fecha": "2026-11-25T11:55:00.032Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQ0Mjg1NDI2FQIAERgSNTZBQUVFQjcyNjNEMkREMjIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-25T13:03:41.374Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQ0Mjg1NDI2FQIAERgSRENFNzYyNjYwMkI3NzkwQjlEAA=="
       }
     ],
     "paso": "conversando",
@@ -280,7 +287,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-25T13:03:43.458Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573219171550",
@@ -497,6 +509,13 @@
         "fecha": "2026-11-25T12:03:41.341Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzNTkzMzU3FQIAERgSRERERTY4MEM4OENBREE2RjJBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola de nuevo! 👋 ¿Pudiste decidirte?\n\n🔥 *Aprovecha la promoción*: el *30% de descuento* es por *últimos días* y *últimas unidades*, y *pagas al recibir* ✅ (lo revisas antes de pagar).\n\nY si buscas algo diferente, también tenemos estas opciones muy buenas 👇\n\n📶 *Módem WiFi portátil* 4G y 4G/5G\n🖨️ *Impresoras térmicas* (sin tinta, para negocio y estudio)\n🔥☀️ *Combo x2 Lámparas Solares Jortan 500W* con control remoto: $249.900 con *envío GRATIS*\n🆕☀️ *Reflectores solares* 100W, 500W, 1000W y 2000W (desde $138.900) con *envío GRATIS*\n💡 *Lámparas solares* con sensor de movimiento\n📹 *Cámaras de seguridad*\n⌚ *Relojes inteligentes*\n🕰️ *Relojes*\n📽️ *Proyectores*\n🎁 *Combos con descuento*\n\n¿Te dejo listo tu pedido o te muestro alguna? 😍\n\n🛍️ Catálogo con fotos y precios: https://claude.ai/artifact/92hei6649bhtiRhrzYwrdt",
+        "fecha": "2026-11-25T13:03:42.468Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzNTkzMzU3FQIAERgSQTJENTk0N0FFNjdGNEREOEJGAA=="
       }
     ],
     "paso": "conversando",
@@ -520,8 +539,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-25T12:03:51.290Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-25T13:03:43.458Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
