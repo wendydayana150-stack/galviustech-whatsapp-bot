@@ -3,8 +3,8 @@
     "telefono": "573135272093",
     "nombre": "Chocorramito",
     "primerContacto": "2026-11-25T15:52:45.192Z",
-    "ultimoContacto": "2026-11-25T15:52:45.192Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T15:55:10.881Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -61,6 +61,56 @@
         "fecha": "2026-11-25T15:52:44.273Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSQkU1M0U2MjU0NDNDN0RCRUVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Recargable o como funciona",
+        "fecha": "2026-11-25T15:52:50.504Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Como funciona",
+        "fecha": "2026-11-25T15:52:50.505Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSNDJEMEYzRjA1MzVGNkNGNzdCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "📖 *Modo de uso*\n\n1. Abre la tapa trasera y coloca la SIM Card (como la de tu celular).\n2. Cierra la tapa y manten presionado el boton de encendido unos segundos.\n3. Espera a que la pantalla muestre senal y la palabra WiFi.\n4. En tu celular o computador, busca la red WiFi que aparece en la pantalla del modem o en la etiqueta de atras.\n5. Ingresa la contrasena que tambien viene en la etiqueta de atras del equipo.\n6. Listo, ya tienes internet portatil donde quieras!\n\nLa bateria dura varias horas y se carga por cable USB-C.",
+        "fecha": "2026-11-25T15:52:51.254Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSRUQ2MzM5MEYxRDU0N0IwQkNDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Pero lo que yo quiero saber es hay que estarla recargando yo soy tigo hay que estar recargando o cómo funciona",
+        "fecha": "2026-11-25T15:54:01.285Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, funciona igual que la SIM de tu celular: tienes que recargarla con el plan o los megas que uses para tener internet.\n\nCon tu SIM Tigo ya cargada, el módem convierte esa señal en WiFi para varios dispositivos a la vez.\n\n¿Para qué lo necesitas? Trabajo, estudio, hogar o viajes, para ayudarte a ver qué versión te conviene más.",
+        "fecha": "2026-11-25T15:54:03.003Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSNTZDMTUyQTE2QjExODhBQjhDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T15:54:03.605Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSQ0NBNURFNzcyMzNFQjA0MENDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para tener internet",
+        "fecha": "2026-11-25T15:54:06.602Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para tener internet propio sin depender de WiFi ajeno o fibra, el módem 4G/5G es la mejor opción por su versatilidad: funciona en zonas con 4G o 5G, conecta varios dispositivos y es fácil de llevar.\n\nLa inversión sería de $199.900 + $26.000 de envío, y pagas al recibir. Tiene garantía y soporte de GalviusTech.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me dices en qué ciudad o vereda lo usarás para coordinar el envío?",
+        "fecha": "2026-11-25T15:54:08.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MjcyMDkzFQIAERgSMjlEQkJENDRFRjFDOTU3MjUwAA=="
       }
     ],
     "paso": "conversando",
@@ -81,7 +131,10 @@
       "url": "https://fb.me/7spXmiqwb",
       "fecha": "2026-11-25T15:50:32.924Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573147076248",
