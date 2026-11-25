@@ -3,8 +3,8 @@
     "telefono": "573135011434",
     "nombre": "maria ibarra",
     "primerContacto": "2026-11-25T23:21:48.090Z",
-    "ultimoContacto": "2026-11-25T23:21:48.090Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T23:25:05.403Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-25T23:21:47.195Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MDExNDM0FQIAERgSOTMwOUM0MEIxOTY1MDM5RDZDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "funciona con luz",
+        "fecha": "2026-11-25T23:25:02.306Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los módems portátiles no necesitan conectarse a la luz directa porque funcionan con batería recargable USB-C que dura hasta 14 horas. Solo la cargas y listo, ideal para usar en fincas, veredas o donde no haya electricidad.\n\n¿En qué lugar específico lo quieres usar? Así te oriento para que elijas el mejor modelo para tu zona.",
+        "fecha": "2026-11-25T23:25:04.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MDExNDM0FQIAERgSRDgxRkNDOEQxM0I5MDkzQkY2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/3MF0SzxjY",
       "fecha": "2026-11-25T23:21:46.126Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573243952769",
