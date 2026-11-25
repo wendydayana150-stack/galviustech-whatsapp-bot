@@ -3,8 +3,8 @@
     "telefono": "573219171550",
     "nombre": "díos ante todo",
     "primerContacto": "2026-11-25T11:14:18.764Z",
-    "ultimoContacto": "2026-11-25T11:14:18.764Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T11:16:08.608Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-25T11:14:17.447Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE5MTcxNTUwFQIAERgSM0Y4NzRDNERCNDJGMzI1MDhDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En una finca",
+        "fecha": "2026-11-25T11:16:02.704Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para una finca lo ideal es que tengas un módem con buena cobertura y que funcione en zonas sin fibra.\n\nTe recomiendo el *Módem WiFi Portátil 4G/5G* porque:\n• Funciona tanto en 4G como en 5G, para que no te quedes sin señal allá.\n• Puedes conectar varios dispositivos (celulares, tablets, computadores).\n• Fácil de usar y llevar donde necesites.\n\nLa inversión es de $199.900 + $26.000 de envío, pagas al recibir y con garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu finca o prefieres recogerlo en alguna oficina?",
+        "fecha": "2026-11-25T11:16:07.047Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5MTcxNTUwFQIAERgSNjg0NDgxODJFNDdFMjcyNkMzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T11:16:07.534Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE5MTcxNTUwFQIAERgSQUZCMEUxREE2NTZCOUJFNzRBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/6ZdtHA471",
       "fecha": "2026-11-25T11:14:16.426Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573203593357",
