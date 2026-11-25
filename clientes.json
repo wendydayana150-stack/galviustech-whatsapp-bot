@@ -3,8 +3,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-25T17:45:37.765Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T17:46:55.635Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-25T17:45:36.969Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSM0IxODBGQ0E2NEM2NTAzMjVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias a Dios que es el destinatario del",
+        "fecha": "2026-11-25T17:46:50.012Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola! Me parece que estás hablando de algo relacionado con un envío o entrega. ¿Quieres saber más sobre la impresora térmica portátil NETUM, que enviamos con envío gratis y pago contra entrega? ¿Para qué necesitas la impresora? Así te cuento cómo te puede facilitar imprimir sin depender de una oficina o papelería.",
+        "fecha": "2026-11-25T17:46:54.754Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSMjQzRkI4ODExOTU1NUQ1M0M5AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/8o5776Vua",
       "fecha": "2026-11-25T17:45:35.961Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573102997802",
