@@ -3,8 +3,8 @@
     "telefono": "573014658173",
     "nombre": "Richar alvarez",
     "primerContacto": "2026-11-25T15:19:03.360Z",
-    "ultimoContacto": "2026-11-25T15:19:03.360Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-25T15:19:16.714Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-25T15:19:02.685Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE0NjU4MTczFQIAERgSNjI5RDU3MkM2QTE5NkJEOUU4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Presio",
+        "fecha": "2026-11-25T15:19:04.741Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, la inversión para el *Modem WiFi Portátil 4G* es de *$199.900* con *envío GRATIS* incluido. Este equipo tiene conexión 4G, puede conectar hasta 10 dispositivos al mismo tiempo, y es ideal para fincas, veredas o lugares donde no hay fibra óptica.\n\nTambién tenemos el *Modem WiFi Portátil 4G/5G* y el *Modem WiFi Portátil 5G*, ambos a *$199.900* más $26.000 de envío.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué municipio o vereda lo necesitas para recomendarte el mejor?",
+        "fecha": "2026-11-25T15:19:14.829Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE0NjU4MTczFQIAERgSMjg1NkY5QkM4M0IxRTU3MEYzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-25T15:19:15.903Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE0NjU4MTczFQIAERgSOEJBRTNEOUQzOTlENjFCQTM4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/3MF0SzxjY",
       "fecha": "2026-11-25T15:19:01.751Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573216842829",
