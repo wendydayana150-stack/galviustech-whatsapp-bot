@@ -1392,8 +1392,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-25T19:07:09.016Z",
-    "mensajes": 32,
+    "ultimoContacto": "2026-11-25T21:20:56.354Z",
+    "mensajes": 33,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1861,9 +1861,21 @@
         "fecha": "2026-11-25T21:10:36.199Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSMTJDMDU1OTM1MzQyMDYwNzA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ LA QUIERO",
+        "fecha": "2026-11-25T21:20:55.266Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-25T21:20:55.524Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSQzgzNzIyOUU1NUE2M0U0N0FCAA=="
       }
     ],
-    "paso": "conversando",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -1889,10 +1901,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T21:10:37.221Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
