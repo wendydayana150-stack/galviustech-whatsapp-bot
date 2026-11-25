@@ -119,8 +119,8 @@
     "telefono": "573135011434",
     "nombre": "maria ibarra",
     "primerContacto": "2026-11-25T23:21:48.090Z",
-    "ultimoContacto": "2026-11-25T23:30:38.004Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-25T23:32:31.968Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -184,6 +184,18 @@
         "fecha": "2026-11-25T23:30:37.073Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1MDExNDM0FQIAERgSRUMyOUJFRTA2QjBFQ0Y2RUUxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "eso es solo para la señal no tiene Internet",
+        "fecha": "2026-11-25T23:32:29.194Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem convierte la señal móvil 4G/5G en WiFi para que varios dispositivos se conecten y tengan internet donde estés. Funciona con la SIM de tu operador (Claro, Movistar, Tigo, WOM) que tiene el plan o recarga de datos.\n\nEs perfecto para que tengas internet en casa, finca, vereda o viajes sin depender de fibra ni cables. ¿En qué zona lo quieres usar o cuál es el problema de internet que tienes ahora?",
+        "fecha": "2026-11-25T23:32:31.027Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1MDExNDM0FQIAERgSRDA2NkY1RjcwRTA4NzIxNEQ3AA=="
       }
     ],
     "paso": "conversando",
