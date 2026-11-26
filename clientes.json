@@ -6419,8 +6419,8 @@
     "telefono": "573105066844",
     "nombre": "RAMOS AURELINA",
     "primerContacto": "2026-11-25T13:00:44.465Z",
-    "ultimoContacto": "2026-11-25T13:00:44.465Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T15:13:31.453Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6460,6 +6460,13 @@
         "fecha": "2026-11-25T14:03:41.403Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTA1MDY2ODQ0FQIAERgSNDQ2Njc0RThGRkZCNzk1NUJCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola RAMOS AURELINA, sobre Impresora NETUM",
+        "fecha": "2026-11-26T15:13:30.483Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTA1MDY2ODQ0FQIAERgSN0U0OTAyNUU5QjVGREEyOTg4AA=="
       }
     ],
     "paso": "conversando",
@@ -6482,10 +6489,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T15:09:48.241Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
