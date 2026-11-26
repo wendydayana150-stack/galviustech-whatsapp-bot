@@ -905,8 +905,8 @@
     "telefono": "573222281029",
     "nombre": "Jose",
     "primerContacto": "2026-11-25T23:42:52.106Z",
-    "ultimoContacto": "2026-11-26T11:36:47.777Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-26T11:44:04.264Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -953,13 +953,25 @@
         "fecha": "2026-11-26T11:00:43.820Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjIyMjgxMDI5FQIAERgSNDA2MTJBNjdCQUEzQkU1NzQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Porque nomenvian un vídeo para ver la funsiones",
+        "fecha": "2026-11-26T11:43:59.814Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres ver cómo funciona el módem en video para entender mejor sus funciones.\n\nAunque aquí no puedo enviar un video, te puedo contar que nuestro módem WiFi portátil 4G/5G convierte la señal móvil en WiFi para conectar varios dispositivos simultáneamente, es fácil de usar, se lleva a cualquier lado y tiene batería hasta por 14 horas.\n\n¿Quieres que te recomiende la versión que mejor se adapte a tu zona y uso para que lo pruebes tú mismo? ¿En qué municipio o vereda vas a utilizarlo?",
+        "fecha": "2026-11-26T11:44:02.949Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjIyMjgxMDI5FQIAERgSODU0M0IzM0EyMUI3MzUwNzY4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
