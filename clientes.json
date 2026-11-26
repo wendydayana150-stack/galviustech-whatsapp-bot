@@ -5942,8 +5942,8 @@
     "telefono": "CO.1957518882291831",
     "nombre": "Thania Merida",
     "primerContacto": "2026-11-25T03:59:08.943Z",
-    "ultimoContacto": "2026-11-26T01:27:32.000Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-26T01:33:33.806Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6014,14 +6014,27 @@
         "fecha": "2026-11-26T01:27:31.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjdCMEMwRTMzOEY3MDdEMEEyOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ LA QUIERO",
+        "fecha": "2026-11-26T01:33:32.557Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu nombre, no hace falta repetirlo.\n\nSolo me falta: Cual es tu numero de celular?",
+        "fecha": "2026-11-26T01:33:32.923Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjlGRTlFQ0I4QTJEMUEzQzNGQgA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "CO.1957518882291831"
+      "telefono": "CO.1957518882291831",
+      "nombreCliente": "Ver otros"
     },
     "pausado": false,
     "etapaManual": null,
