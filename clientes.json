@@ -3,8 +3,8 @@
     "telefono": "573236218855",
     "nombre": "Ortega ",
     "primerContacto": "2026-11-25T23:59:59.365Z",
-    "ultimoContacto": "2026-11-25T23:59:59.365Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T00:02:06.629Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-25T23:59:58.455Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM2MjE4ODU1FQIAERgSODgxRUY3NkUzQjczN0QyRjU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes mandar un video como se hace para conectarce el paso a paso",
+        "fecha": "2026-11-26T00:02:00.847Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊 Para conectar cualquiera de nuestros módems portátiles es muy sencillo:\n\n1️⃣ Insertas la SIM de tu operador (Claro, Movistar, Tigo, WOM). \n2️⃣ Enciendes el módem con el botón. \n3️⃣ En tu celular o computador, buscas la red WiFi que muestra el módem (el nombre suele venir en una etiqueta pegada). \n4️⃣ Conectas usando la contraseña que también viene con el módem. \n5️⃣ ¡Listo! Ya tienes internet para varios dispositivos simultáneamente. \n\nEl módem es fácil de usar, portable y tiene batería recargable que dura hasta 14 horas seguidas.\n\n¿Lo usarías más para casa, finca, viajar o para tu negocio? Así te recomiendo el mejor modelo para ti.",
+        "fecha": "2026-11-26T00:02:05.563Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM2MjE4ODU1FQIAERgSRTE5MDdENjI0OTVGNjFFQTQ3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7spXmiqwb",
       "fecha": "2026-11-25T23:59:57.154Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573222281029",
