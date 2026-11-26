@@ -13922,8 +13922,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-26T11:14:43.249Z",
-    "mensajes": 35,
+    "ultimoContacto": "2026-11-26T11:16:35.579Z",
+    "mensajes": 36,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14434,6 +14434,18 @@
         "fecha": "2026-11-26T11:14:42.411Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQkJFNUY3NzlFQTJEQzAxOTVDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Listo q se reporten tambien",
+        "fecha": "2026-11-26T11:16:32.569Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ya informo al equipo para que revisen tu envío y te den pronta respuesta. \n\nQuedo atenta y en cuanto tenga novedades te aviso por aquí. \n\n¿Quieres que aproveche para mostrarte alguna lámpara o accesorio que te pueda servir mientras esperas?",
+        "fecha": "2026-11-26T11:16:34.565Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSMEVCQUNGNzg4NzlDNEQwQ0RFAA=="
       }
     ],
     "paso": "conversando",
@@ -14442,8 +14454,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Listo q se reporten tambien\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
