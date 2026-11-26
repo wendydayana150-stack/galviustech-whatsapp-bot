@@ -13922,8 +13922,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-26T11:22:45.994Z",
-    "mensajes": 39,
+    "ultimoContacto": "2026-11-26T11:31:31.845Z",
+    "mensajes": 40,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14482,6 +14482,18 @@
         "fecha": "2026-11-26T11:22:45.070Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSMjhERTNFNzVFN0NDNzVDNEIyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tal vez usted me puede dar los numero para yo contactar con ellos",
+        "fecha": "2026-11-26T11:31:28.596Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo, pero no manejo números de contacto directo para ese caso específico.\n\nLo que sí puedo hacer es reportar tu solicitud para que el equipo de atención te llame y te dé toda la información que necesitas.\n\n¿Prefieres que te deje el pedido a la espera hasta que te contacten o quieres ver otras opciones mientras tanto?",
+        "fecha": "2026-11-26T11:31:30.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSRTgzQzI1OEU5NTg4RjMyMTdDAA=="
       }
     ],
     "paso": "conversando",
@@ -14491,7 +14503,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"O que me llamen tambien para asi mismo uno esta pendiente\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Tal vez usted me puede dar los numero para yo contactar con ellos\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
