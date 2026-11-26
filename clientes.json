@@ -14086,8 +14086,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-26T11:33:06.637Z",
-    "mensajes": 41,
+    "ultimoContacto": "2026-11-26T12:45:53.835Z",
+    "mensajes": 42,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14670,16 +14670,23 @@
         "fecha": "2026-11-26T11:33:05.665Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQTYzNTVBMUIyMjM5MzM3RTgyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola Sr Jhon Fredy",
+        "fecha": "2026-11-26T12:45:52.635Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSNEM5QzNBQUQ4OThDM0U5N0Y2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Ojola q  mañana me avisan mas pronto posible\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
