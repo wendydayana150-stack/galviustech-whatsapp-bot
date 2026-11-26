@@ -3249,8 +3249,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-26T02:17:21.724Z",
-    "mensajes": 49,
+    "ultimoContacto": "2026-11-26T02:25:07.995Z",
+    "mensajes": 50,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4006,9 +4006,28 @@
         "fecha": "2026-11-26T02:17:20.805Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSQzk1NThDQzQxMjAzRjg4QzYzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola Mariluz te envío el perfil de",
+        "fecha": "2026-11-26T02:25:02.999Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! Soy Michell de GalviusTech 😊 Si quieres te ayudo a dejar listo el pedido de la Impresora Térmica Portátil NETUM, que imprime sin tinta hojas tamaño carta y es ideal para trabajos o negocio. \n\nSolo dime tu ciudad para hacer el envío gratis y confirmar dirección. ¿Cuál sería?",
+        "fecha": "2026-11-26T02:25:04.475Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSRjZDMDdGRDU2NTk2REZBQjczAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-26T02:25:05.822Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSRTI4MTc4MDQwNkM4NzI5QkE0AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
