@@ -3996,8 +3996,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-26T02:25:07.995Z",
-    "mensajes": 50,
+    "ultimoContacto": "2026-11-26T14:20:36.073Z",
+    "mensajes": 51,
     "conversacion": [
       {
         "rol": "cliente",
@@ -4793,6 +4793,18 @@
         "fecha": "2026-11-26T14:18:09.445Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSREE4MDY1QkEzQ0Q5NDdCNTg0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias al servicio de la empresa para la",
+        "fecha": "2026-11-26T14:20:31.132Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora NETUM imprime rápido sin tinta y la puedes llevar en el bolso: mide 27.5 x 6.5 x 5 cm y su batería dura hasta 30 horas con carga completa.\n\n¿Quieres que te la envíe a tu casa o prefieres recogerla en la oficina de la transportadora? Te recuerdo que el envío es gratis y pagas al recibir. ¿Me pasas tu ciudad y dirección?",
+        "fecha": "2026-11-26T14:20:35.256Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSM0MzMjAxMkZDNjJBNTEyQjFBAA=="
       }
     ],
     "paso": "conversando",
@@ -4821,9 +4833,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-26T14:18:16.504Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
