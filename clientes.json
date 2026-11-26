@@ -3861,8 +3861,8 @@
     "telefono": "573217391851",
     "nombre": "Alexander",
     "primerContacto": "2026-11-25T18:52:06.881Z",
-    "ultimoContacto": "2026-11-25T18:52:06.881Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T23:44:42.438Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3916,6 +3916,18 @@
         "fecha": "2026-11-26T14:07:34.294Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjE3MzkxODUxFQIAERgSRUNGODI5QTc4RDFDRjk2MzU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bueno",
+        "fecha": "2026-11-26T23:44:40.565Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, para ayudarte bien dime: ¿en qué municipio o vereda lo necesitas usar? Así te recomiendo el módem que mejor te sirve y puedes tener internet donde más lo necesitas. ¿Para qué lo vas a usar principalmente, trabajo, estudio, tu hogar o negocio?",
+        "fecha": "2026-11-26T23:44:41.627Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjE3MzkxODUxFQIAERgSMTUwMEY0MUM1OERDNUVDNTVFAA=="
       }
     ],
     "paso": "conversando",
@@ -3938,10 +3950,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T21:00:37.841Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
