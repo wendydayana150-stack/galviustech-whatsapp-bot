@@ -1809,8 +1809,8 @@
     "telefono": "573018968698",
     "nombre": "Iris Orozco",
     "primerContacto": "2026-11-25T21:51:57.806Z",
-    "ultimoContacto": "2026-11-26T15:56:32.247Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-26T15:57:21.894Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1907,6 +1907,18 @@
         "fecha": "2026-11-26T15:56:31.178Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSOEJEMTJBN0RGQTVCNjlBMjg3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias lo tendré encuenta",
+        "fecha": "2026-11-26T15:57:18.582Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, cuando quieras me escribes y te ayudo con lo que necesites para conectar bien donde estés.\n\nRecuerda que la promo del 30% es por poco tiempo y quedan unidades, así que no esperes mucho si lo necesitas ya.\n\n¿Qué tal si aprovechas y te dejo tu pedido listo ahora mismo? 😃",
+        "fecha": "2026-11-26T15:57:20.902Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSNUIyMENBMTJFNkJCMUUxNzQyAA=="
       }
     ],
     "paso": "conversando",
@@ -1917,7 +1929,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
