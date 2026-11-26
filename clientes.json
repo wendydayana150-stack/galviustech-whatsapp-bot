@@ -5377,8 +5377,8 @@
     "telefono": "573102997802",
     "nombre": "Ana cecilia Balanta Velez",
     "primerContacto": "2026-11-25T17:28:50.818Z",
-    "ultimoContacto": "2026-11-26T22:00:09.318Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-26T22:03:30.866Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5511,6 +5511,18 @@
         "fecha": "2026-11-26T22:00:08.184Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTAyOTk3ODAyFQIAERgSNkYyRTIyMjMwQTE0M0RCMTY0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo necesito es internet satelital",
+        "fecha": "2026-11-26T22:03:26.492Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, para internet satelital GalviusTech no maneja ese servicio. Nuestros módems funcionan con SIM de operadores móviles (Claro, Movistar, Tigo, WOM), así que requieren señal celular.\n\nSi en tu vereda no hay señal de ningún operador, lamentablemente el módem no te va a servir. ¿Sabes si hay al menos señal débil de algún operador ahí?\n\n¿Quieres que te muestre otros productos de GalviusTech que pueden ser útiles, como impresoras portátiles o lámparas solares?",
+        "fecha": "2026-11-26T22:03:29.811Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTAyOTk3ODAyFQIAERgSMzk1MjREQjI4OEFBMjY4NTA0AA=="
       }
     ],
     "paso": "conversando",
@@ -5519,8 +5531,8 @@
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
-    "necesitaAtencion": false,
-    "motivoAtencion": null,
+    "necesitaAtencion": true,
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Yo necesito es internet satelital\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
