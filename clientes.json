@@ -3,8 +3,8 @@
     "telefono": "CO.1427157086158845",
     "nombre": "Ronal Alexander",
     "primerContacto": "2026-11-26T23:43:50.120Z",
-    "ultimoContacto": "2026-11-26T23:43:50.120Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T23:44:03.447Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,52 @@
         "fecha": "2026-11-26T23:43:49.307Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQyNzE1NzA4NjE1ODg0NRUUABEYEkNBRTlDMDAxQTE1NTc2OUNEQgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Videos del producto",
+        "fecha": "2026-11-26T23:43:57.180Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te puedo enviar las fotos y videos de los tres modelos de módem para que veas cuál te gusta más:\n\n📶 Modem WiFi Portátil 4G  \n📶 Modem WiFi Portátil 4G/5G  \n📶 Modem WiFi Portátil 5G  \n\n¿Quieres que te las envíe para que las revises? ¿O tienes claro cuál te interesa?",
+        "fecha": "2026-11-26T23:44:00.655Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNzE1NzA4NjE1ODg0NRUUABEYEkQ4MTlDNTc5MUREMDFGMjJCRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G",
+        "fecha": "2026-11-26T23:44:01.375Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNzE1NzA4NjE1ODg0NRUUABEYEkNDNEVDOTJFQzU0RjM3NDQxOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-26T23:44:02.049Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNzE1NzA4NjE1ODg0NRUUABEYEkUzNDgzRDc1RTk5ODQ3ODBGQwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G, Modem 5G]",
+        "fecha": "2026-11-26T23:44:02.620Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te gusta más? 😊 Dime y te lo dejo listo, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-26T23:44:02.620Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQyNzE1NzA4NjE1ODg0NRUUABEYEkVGODFGNjg4MjlDNEE0QjUzMgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +96,10 @@
       "url": "https://fb.me/5kO3L7nr2",
       "fecha": "2026-11-26T23:43:48.031Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573137043062",
