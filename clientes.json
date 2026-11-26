@@ -5942,8 +5942,8 @@
     "telefono": "CO.1957518882291831",
     "nombre": "Thania Merida",
     "primerContacto": "2026-11-25T03:59:08.943Z",
-    "ultimoContacto": "2026-11-25T03:59:08.943Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T01:27:30.127Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -5990,10 +5990,27 @@
         "fecha": "2026-11-25T12:03:44.018Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjkxRDczMUYxRDMxNzMwN0UxRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] ✅ LA QUIERO",
+        "fecha": "2026-11-26T01:27:28.369Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-26T01:27:28.597Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjc5Mzk1QzZBQzIxM0ZGQjM1OAA="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "CO.1957518882291831"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -6012,10 +6029,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T12:03:51.290Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-25"
   },
