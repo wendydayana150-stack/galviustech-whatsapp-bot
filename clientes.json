@@ -7037,8 +7037,8 @@
     "telefono": "573203593357",
     "nombre": "Nergan",
     "primerContacto": "2026-11-25T10:58:58.777Z",
-    "ultimoContacto": "2026-11-25T10:58:58.777Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T15:14:24.139Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7085,6 +7085,13 @@
         "fecha": "2026-11-25T13:03:42.468Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjAzNTkzMzU3FQIAERgSQTJENTk0N0FFNjdGNEREOEJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Nergan, sobre nuestros productos",
+        "fecha": "2026-11-26T15:14:23.134Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjAzNTkzMzU3FQIAERgSQUI3NjUzQjgwNTlENEQzQkUyAA=="
       }
     ],
     "paso": "conversando",
@@ -7107,10 +7114,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T13:03:43.458Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
