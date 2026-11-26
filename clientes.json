@@ -13922,8 +13922,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-26T11:16:35.579Z",
-    "mensajes": 36,
+    "ultimoContacto": "2026-11-26T11:18:28.517Z",
+    "mensajes": 37,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14446,6 +14446,18 @@
         "fecha": "2026-11-26T11:16:34.565Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSMEVCQUNGNzg4NzlDNEQwQ0RFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Con de mañana son 4 dia",
+        "fecha": "2026-11-26T11:18:25.146Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, ya llevas varios días esperando y eso sí es bastante 🙁  \n\nVoy a insistir con el equipo para que te den una respuesta urgente y te ayuden a resolverlo rápido. \n\nMientras tanto, ¿quieres que te ayude con otro producto o prefieres esperar a que te confirmen el estado de tu pedido?",
+        "fecha": "2026-11-26T11:18:27.542Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQzc4MDlCQTJCNDY2NjA1OTc1AA=="
       }
     ],
     "paso": "conversando",
@@ -14455,7 +14467,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Listo q se reporten tambien\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Con de mañana son 4 dia\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
