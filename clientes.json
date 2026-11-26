@@ -6799,8 +6799,8 @@
     "telefono": "CO.1957518882291831",
     "nombre": "Thania Merida",
     "primerContacto": "2026-11-25T03:59:08.943Z",
-    "ultimoContacto": "2026-11-26T13:09:51.638Z",
-    "mensajes": 9,
+    "ultimoContacto": "2026-11-26T13:10:24.318Z",
+    "mensajes": 10,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6964,11 +6964,51 @@
         "fecha": "2026-11-26T13:09:50.607Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEkQyNzIzMTM4MzkwOTA1NTlEQwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Lampara Tipo Camara (1)",
+        "fecha": "2026-11-26T13:10:21.269Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Tipo Camara (1)",
+        "fecha": "2026-11-26T13:10:21.270Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjI1OUMxMDRGMTMwMDk4MjA0RgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Tipo Camara (1)",
+        "fecha": "2026-11-26T13:10:21.826Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjg0NDVBRkMzQjIyQUNDRTlDMgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Lampara Tipo Camara (1)",
+        "fecha": "2026-11-26T13:10:22.330Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjIwMTUyNDgxRDg0MDIyQ0E4QgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "*Lámpara Solar de Seguridad Tipo Cámara con Sensor de Movimiento*\n💰 *$ 49.900* ya con *30% de descuento* 🔥\n✅ Carga solar: cero factura de luz\n✅ Sensor de movimiento\n✅ Parece una cámara: da sensación de seguridad\n🚚 Envío $26.000 y *pagas al recibir*",
+        "fecha": "2026-11-26T13:10:22.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEkMxRDNFODJDOUM3MDQ3NEEzMwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver la tienda]",
+        "fecha": "2026-11-26T13:10:23.335Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjlDRDJENjNGRkFDQjE3OTIxMgA="
       }
     ],
-    "paso": "conversando",
+    "paso": "confirmar_producto",
     "pedido": {
-      "productoId": "impresora-termica",
+      "productoId": "lampara-solar-de-seguridad-tipo-camara-con-sensor-de-movimiento",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "CO.1957518882291831",
@@ -6976,7 +7016,7 @@
     },
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "lampara-solar-de-seguridad-tipo-camara-con-sensor-de-movimiento",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
