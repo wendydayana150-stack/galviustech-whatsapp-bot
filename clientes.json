@@ -2800,8 +2800,8 @@
     "telefono": "573188606201",
     "nombre": "w de caros",
     "primerContacto": "2026-11-25T17:45:37.765Z",
-    "ultimoContacto": "2026-11-26T00:07:52.501Z",
-    "mensajes": 43,
+    "ultimoContacto": "2026-11-26T00:47:55.971Z",
+    "mensajes": 44,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3457,9 +3457,28 @@
         "fecha": "2026-11-26T00:07:51.714Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSRUZCNUE1MEM2RjkyMjIyODlFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Gracias al servicio de la empresa y",
+        "fecha": "2026-11-26T00:47:51.593Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Encantada de ayudarte con la Impresora NETUM, que es perfecta para imprimir documentos sin depender de tinta ni papelerías. \n\n¿Me pasas tu ciudad y dirección para dejar tu pedido listo con envío gratis y pago contra entrega?",
+        "fecha": "2026-11-26T00:47:54.645Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSM0E3MzNGMDQ2QUIwRUE3NENBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-26T00:47:55.202Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSOUU3M0VGNUY5QTdDMzFENEY0AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
