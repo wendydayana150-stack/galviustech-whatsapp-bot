@@ -1809,8 +1809,8 @@
     "telefono": "573018968698",
     "nombre": "Iris Orozco",
     "primerContacto": "2026-11-25T21:51:57.806Z",
-    "ultimoContacto": "2026-11-26T14:21:27.223Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-26T15:55:30.767Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1883,6 +1883,18 @@
         "fecha": "2026-11-26T15:30:37.753Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSMTE2RDc2M0Q1QTMyMDI3MTc2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Esto es un complementario para la cobertura en internet?",
+        "fecha": "2026-11-26T15:55:25.222Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Exacto, el módem WiFi portátil funciona como solución propia para tener internet donde no llega fibra óptica ni buena señal fija. No dependes de conexiones públicas ni de la red móvil del celular directamente.\n\nTe da WiFi para varios dispositivos con mejor cobertura y señal estable gracias a su antena especial. Es ideal para fincas, veredas, trabajo remoto y estudiar sin interrupciones.\n\n¿Me cuentas dónde lo necesitas o para qué uso principal? Así te recomiendo la versión ideal. ¿Quieres?",
+        "fecha": "2026-11-26T15:55:29.716Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSRjg1NkVCMDI4RjMyODNFMDI2AA=="
       }
     ],
     "paso": "conversando",
@@ -1905,9 +1917,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-26T15:30:40.356Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
