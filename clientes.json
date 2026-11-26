@@ -7122,8 +7122,8 @@
     "telefono": "573242506270",
     "nombre": "Christian Cortes",
     "primerContacto": "2026-11-25T06:19:19.391Z",
-    "ultimoContacto": "2026-11-25T06:19:19.391Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T15:14:37.395Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -7170,6 +7170,13 @@
         "fecha": "2026-11-25T12:03:42.065Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSQzQyRUY4NDg3OTdCMUFGNjdDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Christian Cortes, sobre nuestros productos",
+        "fecha": "2026-11-26T15:14:36.264Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjQyNTA2MjcwFQIAERgSMTM0MjIxNDZEQUM5NjU4RERDAA=="
       }
     ],
     "paso": "conversando",
@@ -7192,10 +7199,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T12:03:51.290Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
