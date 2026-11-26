@@ -1732,8 +1732,8 @@
     "telefono": "573018968698",
     "nombre": "Iris Orozco",
     "primerContacto": "2026-11-25T21:51:57.806Z",
-    "ultimoContacto": "2026-11-25T21:51:57.806Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T14:21:27.223Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1787,13 +1787,25 @@
         "fecha": "2026-11-26T14:04:09.531Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSNjk3QkQ4QzdGNUZFNkM5QkIwAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Tú señal está mala",
+        "fecha": "2026-11-26T14:21:22.991Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que eso es un problema fuerte. Los módems de GalviusTech están diseñados específicamente para mejorar la señal en lugares donde el celular normalmente tiene mala cobertura, como fincas y zonas rurales. Su antena es mucho más potente, por eso suelen captar mejor que un celular común.\n\n¿Dónde exactamente estás usando internet? ¿En qué municipio o vereda? Así te puedo recomendar el módem que mejor te funcione y confirmar cobertura. ¿Quieres?",
+        "fecha": "2026-11-26T14:21:26.221Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDE4OTY4Njk4FQIAERgSMzY4NTZDM0ZBQTRENzI1REIwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1809,10 +1821,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-26T00:00:37.090Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-26"
   },
