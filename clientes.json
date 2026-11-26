@@ -3335,8 +3335,8 @@
     "telefono": "CO.2325082911620183",
     "nombre": "clauisagon2172",
     "primerContacto": "2026-11-25T19:06:44.601Z",
-    "ultimoContacto": "2026-11-26T18:58:07.130Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-26T18:58:32.433Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -3577,6 +3577,18 @@
         "fecha": "2026-11-26T18:58:06.028Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjMyNTA4MjkxMTYyMDE4MxUUABEYEkYzQkRFNkJDMzc0REE0QTZGOQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Deseo hablar primero",
+        "fecha": "2026-11-26T18:58:30.137Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que quieres hablar primero para resolver todas tus dudas. Ya he pasado tu caso para que un asesor humano de GalviusTech te contacte pronto y te dé toda la atención que necesitas.\n\n¿Hay algo puntual que quieras que les anticipe?",
+        "fecha": "2026-11-26T18:58:31.451Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMyNTA4MjkxMTYyMDE4MxUUABEYEkY0MjU1RDIyNENGNTRCNkZDQQA="
       }
     ],
     "paso": "conversando",
@@ -3586,7 +3598,7 @@
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Deseo hablar con alguien por teléfono\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Deseo hablar primero\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
