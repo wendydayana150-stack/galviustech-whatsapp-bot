@@ -6799,8 +6799,8 @@
     "telefono": "CO.1957518882291831",
     "nombre": "Thania Merida",
     "primerContacto": "2026-11-25T03:59:08.943Z",
-    "ultimoContacto": "2026-11-26T01:34:47.721Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-26T13:09:21.364Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6916,9 +6916,21 @@
         "fecha": "2026-11-26T12:00:44.477Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEkREOTE3RDc4OUYzN0I3NEU4QwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "[Selecciono] Ver toda la tienda",
+        "fecha": "2026-11-26T13:09:20.329Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio menu de la tienda]",
+        "fecha": "2026-11-26T13:09:20.329Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEkM5RjE3RjI5NkM1MDhEN0E2OQA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -6944,11 +6956,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-26T12:00:45.668Z",
-      "horas1": true,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-25"
   },
