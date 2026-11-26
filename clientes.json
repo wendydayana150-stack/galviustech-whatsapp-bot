@@ -6295,6 +6295,13 @@
         "fecha": "2026-11-26T01:34:46.500Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjZENjUxQzE0MTBCNUMxMjU4NwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Ver! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n✅ Ver otros\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu numero de celular?",
+        "fecha": "2026-11-26T02:10:36.257Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTk1NzUxODg4MjI5MTgzMRUUABEYEjI1RDQ5NDJGNTY5MkJBMjhENgA="
       }
     ],
     "paso": "pedido_celular",
@@ -6323,7 +6330,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-26T02:10:37.264Z"
     },
     "escasezFecha": "2026-11-25"
   },
