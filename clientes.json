@@ -13922,8 +13922,8 @@
     "telefono": "573142099987",
     "nombre": "Jakini Ronal",
     "primerContacto": "2026-11-23T11:29:15.828Z",
-    "ultimoContacto": "2026-11-26T11:18:28.517Z",
-    "mensajes": 37,
+    "ultimoContacto": "2026-11-26T11:20:55.102Z",
+    "mensajes": 38,
     "conversacion": [
       {
         "rol": "cliente",
@@ -14458,6 +14458,18 @@
         "fecha": "2026-11-26T11:18:27.542Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSQzc4MDlCQTJCNDY2NjA1OTc1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero q me confirme con el pedido para uno saber cuando llega pues ......",
+        "fecha": "2026-11-26T11:20:51.930Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, entiendo que es muy importante tener esa confirmación concreta para organizarte bien 🙌\n\nYa dejé el reporte para que te confirmen fecha exacta y estado del pedido, apenas me respondan te aviso por aquí sin falta.\n\n¿Quieres que mientras te comparta opciones de otros productos que te puedan interesar para tu hogar o trabajo? Así aprovechas mientras tanto.",
+        "fecha": "2026-11-26T11:20:53.832Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQyMDk5OTg3FQIAERgSODEwODYyQUYzMTQyMDAyMEM4AA=="
       }
     ],
     "paso": "conversando",
@@ -14467,7 +14479,7 @@
     "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Con de mañana son 4 dia\"",
+    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Quiero q me confirme con el pedido para uno saber cuando llega pues ......\"",
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
@@ -14478,7 +14490,10 @@
       "url": "https://fb.me/bl73QdC6S",
       "fecha": "2026-11-23T11:29:13.783Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-26T11:20:51.931Z",
+      "texto": "Quiero q me confirme con el pedido para uno saber cuando llega pues ......"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
