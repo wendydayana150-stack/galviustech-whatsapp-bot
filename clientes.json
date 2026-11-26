@@ -851,8 +851,8 @@
     "telefono": "573233998990",
     "nombre": "barretojuan426",
     "primerContacto": "2026-11-25T21:30:16.359Z",
-    "ultimoContacto": "2026-11-25T21:30:16.359Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-26T00:14:24.536Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -899,6 +899,18 @@
         "fecha": "2026-11-25T23:30:36.074Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjMzOTk4OTkwFQIAERgSQzExNEQwNDNCMkU3QjEyMzVCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hl",
+        "fecha": "2026-11-26T00:14:21.502Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Vi que saludaste, ¿dónde necesitas usar el módem? Así te recomiendo el mejor según tu zona y para qué lo vas a usar: estudiar, trabajar, negocio o tu hogar. ¿Qué me cuentas?",
+        "fecha": "2026-11-26T00:14:23.703Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjMzOTk4OTkwFQIAERgSNDQ1M0QwNDk2QzYxMEUzRjk5AA=="
       }
     ],
     "paso": "conversando",
@@ -921,10 +933,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-25T23:30:41.207Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     }
   },
   {
