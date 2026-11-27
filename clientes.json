@@ -760,6 +760,13 @@
         "fecha": "2026-11-27T22:42:25.010Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY1MDU0NDAyFQIAERgSRkY4NTk3MDkyRTIxNzU4MTY2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T23:51:46.720Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY1MDU0NDAyFQIAERgSNjkwNDY0RDQ3REQ0REI1ODcyAA=="
       }
     ],
     "paso": "conversando",
@@ -775,7 +782,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T23:51:48.919Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573213755216",
@@ -939,6 +951,13 @@
         "fecha": "2026-11-27T22:47:04.153Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSRDJFRTlDOUNDMkFGMDk5MUI3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola 😊 ¿Pudiste ver la *Impresora NETUM*?\n\n🔥 Hoy la tienes en *$ 249.900* con *envío GRATIS* y *pagas al recibir*: la revisas antes de pagar.\n\n⏳ Es precio de promoción por *últimos días* y *últimas unidades*. ¿Te la envío?\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-27T23:51:47.528Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSQkM5NEQ5QjhGMEExNURFQjQ1AA=="
       }
     ],
     "paso": "conversando",
@@ -966,7 +985,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T23:51:48.919Z"
     }
   },
   {
@@ -1086,6 +1107,13 @@
         "fecha": "2026-11-27T22:51:46.765Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1NDA4MDEwFQIAERgSODFDRjEzQTcwQjIwMjZBQkI1AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "👀 ¡Hola! Tenemos algo pendiente contigo...\n\n¿Recuerdas la impresora térmica *NETUM* que te gustó? 🖨️😍\n\n¡Todavía puedes tener la oportunidad de aprovechar nuestra promoción!\n\n🚨 Estamos manejando *últimas unidades con descuento especial* y no queremos que te quedes sin la tuya.\n\nImagínate imprimir tus contenidos sin tinta ni cartuchos, desde tu celular compatible y de una manera mucho más práctica.\n\n🎁 *Envío gratis*\n💵 *Pago contraentrega*\n\n❤️ ¡Danos la oportunidad de ayudarte a completar tu compra!\n\nResponde *LA QUIERO* y continuamos con tu pedido.\n[Opciones: ✅ LA QUIERO | Ver otros]",
+        "fecha": "2026-11-27T23:51:48.073Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1NDA4MDEwFQIAERgSQTNDREFGNjEwMTgzRTNEQTQxAA=="
       }
     ],
     "paso": "conversando",
@@ -1109,8 +1137,9 @@
     "caliente": null,
     "recordatorios": {
       "horas1": true,
-      "ultimoEnvio": "2026-11-27T22:51:47.807Z",
-      "seguimientosEnviados": 1
+      "ultimoEnvio": "2026-11-27T23:51:48.919Z",
+      "seguimientosEnviados": 2,
+      "horas3": true
     }
   },
   {
