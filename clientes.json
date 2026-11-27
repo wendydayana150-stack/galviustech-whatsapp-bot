@@ -528,7 +528,15 @@
     "primerContacto": "2026-11-27T19:38:20.815Z",
     "ultimoContacto": "2026-11-27T19:38:20.815Z",
     "mensajes": 1,
-    "conversacion": [],
+    "conversacion": [
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T20:41:46.708Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTc0NzgwMjkzMDI3NzgzNxUUABEYEkU0NzM4RTEyMTZDQUNFNDQwRQA="
+      }
+    ],
     "paso": "inicio",
     "pedido": {},
     "pausado": false,
@@ -542,7 +550,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T20:41:48.625Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573205033462",
@@ -582,6 +595,13 @@
         "fecha": "2026-11-27T19:32:36.365Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MDMzNDYyFQIAERgSMjk3QzgyMEZBOTY5QzYxNzQ4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T20:41:47.536Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MDMzNDYyFQIAERgSNUZFNzJCMzM0RjM4NjA1RTcyAA=="
       }
     ],
     "paso": "conversando",
@@ -602,7 +622,12 @@
       "url": "https://fb.me/7GHzHhVKo",
       "fecha": "2026-11-27T19:32:35.596Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T20:41:48.625Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573227349210",
