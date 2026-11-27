@@ -123,8 +123,8 @@
     "telefono": "CO.1034811242974764",
     "nombre": "Luzma Rojo",
     "primerContacto": "2026-11-27T13:36:30.376Z",
-    "ultimoContacto": "2026-11-27T13:36:30.376Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T13:57:46.437Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -157,6 +157,25 @@
         "fecha": "2026-11-27T13:36:29.398Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAzNDgxMTI0Mjk3NDc2NBUUABEYEkEyNjNBQUIxNTVCMUZBOURGRgA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que costo tiene?",
+        "fecha": "2026-11-27T13:57:41.283Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La impresora térmica portátil NETUM tiene una gran ventaja: imprime sin tinta, es súper fácil de usar y puedes llevarla adonde quieras porque es compacta (mide 27.5 x 6.5 x 5 cm). La inversión sería de $249.900 con envío GRATIS y pagas al recibir. ¿Para qué la necesitas? Así te cuento cómo te puede ayudar más.\n\n🔥 Ya tiene el *30% de descuento* por promoción.",
+        "fecha": "2026-11-27T13:57:45.090Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAzNDgxMTI0Mjk3NDc2NBUUABEYEjk3NEZDRjExQ0QyMDUxNjE4QwA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T13:57:45.601Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAzNDgxMTI0Mjk3NDc2NBUUABEYEjE3QjE5QTk4ODFBMTVDNTk4RAA="
       }
     ],
     "paso": "conversando",
@@ -177,7 +196,10 @@
       "url": "https://fb.me/7mD29ScT2",
       "fecha": "2026-11-27T13:36:28.167Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573000050650",
