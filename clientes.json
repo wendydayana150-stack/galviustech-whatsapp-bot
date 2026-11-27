@@ -3,8 +3,8 @@
     "telefono": "573506002914",
     "nombre": "Jorge Adrian Atehortua Lo",
     "primerContacto": "2026-11-27T23:39:10.749Z",
-    "ultimoContacto": "2026-11-27T23:39:10.749Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T23:41:13.243Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-27T23:39:10.079Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczNTA2MDAyOTE0FQIAERgSN0MwNEM5NEJBQ0YwREU4Njg4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-27T23:41:10.532Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😄\n\nCuéntame, ¿en qué municipio o vereda lo necesitas? Así puedo recomendarte el módem que mejor se adapta a tu lugar y uso.\n\n¿Lo vas a usar para trabajo, estudio, casa o viajes? Eso también me ayuda para darte la mejor opción.",
+        "fecha": "2026-11-27T23:41:12.311Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczNTA2MDAyOTE0FQIAERgSN0M5RTJFOUExMzkzMjY2NDdBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-27T23:39:09.161Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573224261386",
