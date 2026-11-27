@@ -3,8 +3,8 @@
     "telefono": "573145917883",
     "nombre": "Belén Castro",
     "primerContacto": "2026-11-27T17:14:20.259Z",
-    "ultimoContacto": "2026-11-27T17:14:20.259Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T17:15:06.383Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-27T17:14:19.513Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTE3ODgzFQIAERgSODI0MzY4MjE0NDFGOTVGMkQ2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Zzzzzzzsiydurssrdfrf e tre",
+        "fecha": "2026-11-27T17:15:00.896Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo que tal vez escribiste rápido o algo no quedó claro. ¿En qué municipio o vereda necesitas el módem y para qué lo vas a usar? Así te recomiendo el modelo ideal para que tengas internet donde más lo necesitas.",
+        "fecha": "2026-11-27T17:15:05.301Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTE3ODgzFQIAERgSQTJGQzVDMjg0N0NCMzdDMTFCAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GHzHhVKo",
       "fecha": "2026-11-27T17:14:18.696Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573218908772",
