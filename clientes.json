@@ -342,6 +342,13 @@
         "fecha": "2026-11-27T15:06:06.629Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MTM1OTIzFQIAERgSMUY3NDU5RTlDRjZFRkExRDlDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T16:11:47.225Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MTM1OTIzFQIAERgSRkFENzA5MTREQjkzRThCMTUzAA=="
       }
     ],
     "paso": "conversando",
@@ -357,7 +364,12 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T16:11:50.588Z",
+      "seguimientosEnviados": 1
+    }
   },
   {
     "telefono": "573115690444",
@@ -705,6 +717,13 @@
         "fecha": "2026-11-27T15:04:22.544Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTAzNDgxMTI0Mjk3NDc2NBUUABEYEjg3MDJEN0JFMTZBQkQ4M0I3NAA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Reflector Solar 1000W Jortan con Panel y Control Remoto y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T16:11:48.586Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTAzNDgxMTI0Mjk3NDc2NBUUABEYEjMyMTQyNTQ2REM1QTU5Q0Q5OAA="
       }
     ],
     "paso": "confirmar_producto",
@@ -729,7 +748,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T16:11:50.588Z"
     }
   },
   {
@@ -2641,9 +2662,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-27T15:11:48.739Z"
+      "ultimoEnvio": "2026-11-27T16:11:50.588Z",
+      "horas1": true
     }
   },
   {
@@ -3947,6 +3969,13 @@
         "fecha": "2026-11-27T15:05:53.862Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1MTk3NTY2FQIAERgSMzlGOUY3NUU5MTZCRjBDNDZBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos a mitad de la conversación y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T16:11:49.388Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1MTk3NTY2FQIAERgSRDA5MzUxNDgzNUU3MjIyQUFGAA=="
       }
     ],
     "paso": "conversando",
@@ -3969,7 +3998,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T16:11:50.588Z"
     },
     "escasezFecha": "2026-11-27"
   },
