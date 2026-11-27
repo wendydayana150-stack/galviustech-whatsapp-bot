@@ -6531,8 +6531,8 @@
     "telefono": "CO.2325082911620183",
     "nombre": "clauisagon2172",
     "primerContacto": "2026-11-25T19:06:44.601Z",
-    "ultimoContacto": "2026-11-26T18:58:32.433Z",
-    "mensajes": 15,
+    "ultimoContacto": "2026-11-27T14:53:36.211Z",
+    "mensajes": 16,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6785,16 +6785,23 @@
         "fecha": "2026-11-26T18:58:31.451Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjMyNTA4MjkxMTYyMDE4MxUUABEYEkY0MjU1RDIyNENGNTRCNkZDQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Hola buen dia",
+        "fecha": "2026-11-27T14:53:35.139Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjMyNTA4MjkxMTYyMDE4MxUUABEYEkFBOEYxNDVBM0E0QTk5RUFDNwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
-    "pausado": false,
+    "pausado": true,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
     "ultimaCategoria": "impresora",
-    "necesitaAtencion": true,
-    "motivoAtencion": "El cliente pregunto algo que la IA no pudo resolver con seguridad: \"Deseo hablar primero\"",
+    "necesitaAtencion": false,
+    "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
