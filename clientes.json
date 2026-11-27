@@ -3,8 +3,8 @@
     "telefono": "573132966899",
     "nombre": "❤️😎",
     "primerContacto": "2026-11-27T11:25:28.753Z",
-    "ultimoContacto": "2026-11-27T11:31:58.955Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-27T11:32:01.343Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -140,6 +140,18 @@
         "fecha": "2026-11-27T11:31:58.118Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyOTY2ODk5FQIAERgSNzg4QUNFQUM3MjFDRTg2RThCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Porque esque en este momento no tengo la plata pero después del 30 de este mes si lo mando a encargar listo",
+        "fecha": "2026-11-27T11:32:00.088Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Puedes llevarte la *Modem 4G* *hoy mismo a cuotas* con *Sistecrédito* 💳\n\nSi aún no lo has usado, solo descargas la app y te registras gratis 👇\nhttps://www.sistecredito.com/descargar-app/\n\nCuando te aprueben el cupo me escribes y te dejo el pedido listo 🙌 ¿Ya tienes Sistecrédito?",
+        "fecha": "2026-11-27T11:32:00.089Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyOTY2ODk5FQIAERgSNDMwNUE0RjNDQTdFMDlEODFGAA=="
       }
     ],
     "paso": "conversando",
@@ -152,7 +164,12 @@
     "motivoAtencion": null,
     "pausarSeguimiento": false,
     "esperandoDatosPedidoLibre": null,
-    "esperaCompra": null,
+    "esperaCompra": {
+      "fecha": "2026-11-30",
+      "texto": "Porque esque en este momento no tengo la plata pero después del 30 de este mes si lo mando a encargar listo",
+      "desde": "2026-11-27T11:32:00.089Z",
+      "avisado": false
+    },
     "interesColor": null,
     "anuncio": {
       "titulo": "Importech Colombia",
