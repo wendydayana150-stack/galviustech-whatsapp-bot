@@ -45,8 +45,8 @@
     "telefono": "573213755216",
     "nombre": "Dioselina Gracia",
     "primerContacto": "2026-11-27T22:40:33.312Z",
-    "ultimoContacto": "2026-11-27T22:40:33.312Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T22:42:34.113Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -79,6 +79,25 @@
         "fecha": "2026-11-27T22:40:32.466Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSNTgzQ0FEM0Y5RjFENTBCNzI5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si no necesita tinta como funciona?",
+        "fecha": "2026-11-27T22:42:28.791Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora Térmica Portátil NETUM imprime usando calor sobre papel térmico especial, por eso no necesita tinta ni cartuchos. Es perfecta para imprimir documentos, facturas o tareas sin preocuparte por recargar tinta. Además es portátil, cabe en tu bolso y se conecta por Bluetooth al celular.\n\n¿Para qué tipo de impresiones la usarías tú? Así te confirmo que es la mejor opción para ti.",
+        "fecha": "2026-11-27T22:42:32.587Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSQTI3OUY1MUNFNkUyODhFOEY3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así funciona la Impresora NETUM 🖨️",
+        "fecha": "2026-11-27T22:42:33.224Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSQzRGODUyNEZDQUNCQjk5Q0VEAA=="
       }
     ],
     "paso": "conversando",
@@ -99,7 +118,10 @@
       "url": "https://fb.me/a1NBJy4e8",
       "fecha": "2026-11-27T22:40:31.577Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573225894031",
