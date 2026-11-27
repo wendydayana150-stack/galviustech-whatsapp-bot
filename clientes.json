@@ -3,8 +3,8 @@
     "telefono": "573175033842",
     "nombre": "ningún tipo",
     "primerContacto": "2026-11-27T04:12:37.628Z",
-    "ultimoContacto": "2026-11-27T04:12:37.628Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T04:15:07.983Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-27T04:12:36.775Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTc1MDMzODQyFQIAERgSRjQ4QTI5RjNDMDFEM0ZDQTM5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En el municipio de Toledo norte de santander pero todo lomas es para viajar en carro de un departamento para otro",
+        "fecha": "2026-11-27T04:15:03.370Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para viajar y moverte entre departamentos, lo ideal es que lleves un módem que funcione bien en diferentes zonas, incluyendo las carreteras.\n\nTe recomiendo el *Modem WiFi Portátil 4G/5G* por $199.900 + $26.000 de envío. Este equipo capta señal 4G y 5G, te permite conectar varios dispositivos y es súper fácil de usar y transportar.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLlega en 1 a 3 días hábiles después de despacharlo. ¿Te lo envío a tu dirección o prefieres recogerlo en oficina?",
+        "fecha": "2026-11-27T04:15:07.063Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTc1MDMzODQyFQIAERgSQkYwRUM4OTMwNjQ0MkUyNTQ0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/5kO3L7nr2",
       "fecha": "2026-11-27T04:12:35.284Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573223771192",
