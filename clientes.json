@@ -3,8 +3,8 @@
     "telefono": "573022097126",
     "nombre": "Alberto Almanza",
     "primerContacto": "2026-11-27T11:33:39.212Z",
-    "ultimoContacto": "2026-11-27T11:34:56.559Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-27T11:35:28.220Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -49,13 +49,32 @@
         "fecha": "2026-11-27T11:34:55.598Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSQUYxRDE3ODlFMkMzNTZGMkIzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yo estoy en taraza antioquia",
+        "fecha": "2026-11-27T11:35:24.246Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para Tarazá, Antioquia, el módem que más te conviene es el *Módem WiFi Portátil 4G/5G* porque te asegura conexión tanto en zonas con 4G como con 5G cuando haya disponibilidad.\n\nLa inversión sería de *$199.900 + $26.000 de envío*. Conecta hasta 10 dispositivos al mismo tiempo, batería recargable USB-C, y diseñado para dar mejor cobertura que un celular en zonas rurales o sin fibra. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLlega en 1 a 3 días hábiles después del despacho. ¿Para qué lo vas a usar principalmente, para estudiar, trabajar o en la casa?",
+        "fecha": "2026-11-27T11:35:26.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSM0FFMEI2NjZFMEY4MEREMUE3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T11:35:27.151Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSQzkwREM1NDVGN0VDMTFDMzQ4AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
