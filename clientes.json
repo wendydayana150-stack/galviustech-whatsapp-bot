@@ -250,8 +250,8 @@
     "telefono": "CO.29441272162179715",
     "nombre": "fredi",
     "primerContacto": "2026-11-27T19:19:11.644Z",
-    "ultimoContacto": "2026-11-27T20:22:34.032Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-27T20:22:58.686Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -291,13 +291,25 @@
         "fecha": "2026-11-27T20:21:46.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBIyNzYwRkY1RDJGRTIzRDEzNjMA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Está BA con sicar o no",
+        "fecha": "2026-11-27T20:22:54.314Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem funciona con SIM de cualquier operador (Claro, Movistar, Tigo, WOM). Si quieres, con tu pedido te enviamos de regalo una SIMCARD de Claro, pero sin plan ni recarga; tú la activas y recargas como prefieras.\n\nPara ayudarte mejor, dime ¿en qué municipio o vereda lo usarías y para qué lo necesitas (trabajo, estudio, hogar, viajes)?",
+        "fecha": "2026-11-27T20:22:57.704Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBIxNkExMzQzODVBOEYxNjU3RTgA"
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
