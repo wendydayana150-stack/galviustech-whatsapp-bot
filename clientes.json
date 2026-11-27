@@ -3,8 +3,8 @@
     "telefono": "573135477575",
     "nombre": "ANTONIO",
     "primerContacto": "2026-11-27T23:51:26.145Z",
-    "ultimoContacto": "2026-11-27T23:51:26.145Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T23:52:51.093Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-27T23:51:25.235Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM1NDc3NTc1FQIAERgSQzYwMTdDMUIyM0Y0Q0M0NEFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cuánto vale",
+        "fecha": "2026-11-27T23:52:46.426Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la inversión para tener internet donde lo necesites, compartir con varios dispositivos y llevarlo fácil contigo es:\n\n• Modem WiFi Portátil 4G: $199.900 con envío GRATIS  \n• Modem WiFi Portátil 4G/5G: $199.900 + $26.000 de envío  \n• Modem WiFi Portátil 5G: $199.900 + $26.000 de envío  \n\n✅ Pagas al recibir (contra entrega) y tiene garantía de 30 días. \n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas para qué necesitas el modem o dónde lo usarías principalmente? Así te ayudo a elegir el ideal.",
+        "fecha": "2026-11-27T23:52:48.886Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDc3NTc1FQIAERgSNTUxOEUyMDVEM0E5NTgwRkZDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-27T23:52:49.685Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM1NDc3NTc1FQIAERgSQzg4M0M1MEVCOUFGMUY4Mjg3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-27T23:51:23.901Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.2074050143296840",
