@@ -45,8 +45,8 @@
     "telefono": "573213755216",
     "nombre": "Dioselina Gracia",
     "primerContacto": "2026-11-27T22:40:33.312Z",
-    "ultimoContacto": "2026-11-27T22:45:29.312Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-27T22:46:44.777Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -172,9 +172,28 @@
         "fecha": "2026-11-27T22:45:28.362Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSODNDMzNFRjU3RkY2RjQwODZEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Necesito imprimir etiquetas a color de 10x3",
+        "fecha": "2026-11-27T22:46:40.830Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La Impresora NETUM y nuestras impresoras térmicas solo imprimen en blanco y negro, no tienen opción a color.\n\nSi necesitas etiquetas de 10x3 cm en color, en este momento no tenemos impresoras para ese formato ni impresoras a color.\n\n¿Quieres que te avise cuando tengamos impresoras a color o te ayudo con alguna impresora térmica que imprima etiquetas en blanco y negro?",
+        "fecha": "2026-11-27T22:46:43.518Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSMUJEOEU1MTkyN0JBMUY4QUFCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T22:46:43.961Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSOTA2MzhENTg0RjYwOTE4MjNBAA=="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
