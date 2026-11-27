@@ -263,6 +263,13 @@
         "fecha": "2026-11-27T17:18:38.757Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ1OTE3ODgzFQIAERgSQjA3RjYyQjU3NUQyMENGRkE5AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-27T18:21:46.750Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ1OTE3ODgzFQIAERgSNUVDN0M4Q0NCRTlDNzM1QUY5AA=="
       }
     ],
     "paso": "conversando",
@@ -285,7 +292,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-27T18:21:48.314Z"
     }
   },
   {
@@ -9713,6 +9722,13 @@
         "fecha": "2026-11-27T17:21:46.743Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSMkQyOTZGQThCRjI2RDBERUZFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "🚨 ¡Hola! 😊 Tenemos pendiente tu pedido de *GALVIUSTECH*.\n\n¡No queremos que te quedes sin tu *IMPRESORA TÉRMICA PORTÁTIL NETUM* 🖨️🔥\n\nEstamos organizando los pedidos y quedan las *últimas unidades* disponibles.\n\n🎁 Recuerda que tienes:\n🚚 *ENVÍO GRATIS.*\n💵 *PAGO CONTRAENTREGA.*\n📦 Recibes y pagas al momento de la entrega.\n\n¡Aprovecha la disponibilidad actual!\n\nSolo necesitamos tus datos para dejar tu pedido listo. ❤️\n\n¿Te enviamos tu *Impresora*?\n\n👉 Cual es tu numero de celular?",
+        "fecha": "2026-11-27T18:21:47.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTg4NjA2MjAxFQIAERgSQTc3MTIzRDcyMkJDOENDRDFFAA=="
       }
     ],
     "paso": "pedido_celular",
@@ -9741,9 +9757,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0,
+      "seguimientosEnviados": 1,
       "pedido30m": true,
-      "ultimoEnvio": "2026-11-27T17:21:47.936Z"
+      "ultimoEnvio": "2026-11-27T18:21:48.314Z",
+      "horas1": true
     },
     "escasezFecha": "2026-11-27"
   },
