@@ -3,8 +3,8 @@
     "telefono": "573127914042",
     "nombre": "😍😍😍😍",
     "primerContacto": "2026-11-27T21:22:52.030Z",
-    "ultimoContacto": "2026-11-27T21:23:56.833Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-27T21:25:00.364Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,6 +68,18 @@
         "fecha": "2026-11-27T21:23:55.900Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSMzQ5RUNCRDFDRTY4QjdBOTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "De dónde son",
+        "fecha": "2026-11-27T21:24:57.380Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de Espinal, Tolima y hacemos envíos a toda Colombia 🚚 Te llega hasta la puerta de tu casa.\n\n¿En qué ciudad o municipio estarías para enviarte la Impresora NETUM? Así te confirmo el tiempo estimado de llegada.",
+        "fecha": "2026-11-27T21:24:59.430Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSOThERjI5QUYzQTREMjE2MkE0AA=="
       }
     ],
     "paso": "conversando",
@@ -88,7 +100,10 @@
       "url": "https://fb.me/a1NBJy4e8",
       "fecha": "2026-11-27T21:22:49.851Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-27T21:24:57.380Z",
+      "texto": "De dónde son"
+    },
     "recordatorios": {
       "seguimientosEnviados": 0
     }
