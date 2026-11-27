@@ -3,8 +3,8 @@
     "telefono": "CO.1707971680991274",
     "nombre": "Andrés Felipe B.C",
     "primerContacto": "2026-11-27T23:03:49.140Z",
-    "ultimoContacto": "2026-11-27T23:03:49.140Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T23:04:36.224Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-27T23:03:48.337Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTcwNzk3MTY4MDk5MTI3NBUUABEYEjk0OTE3Q0RDNjVCNTVFMUNCNwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo funcióna?",
+        "fecha": "2026-11-27T23:04:30.487Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te explico rápido cómo funciona el módem WiFi portátil:\n\n1. Insertas la SIM de tu operador (Claro, Movistar, Tigo, WOM).\n2. Enciendes el módem y genera una señal WiFi propia.\n3. Conectas tus dispositivos (celulares, laptops, tablets) a esa red WiFi.\n4. Tiene batería recargable USB-C que dura hasta 14 horas.\n\nEs súper fácil, no necesitas instalación ni fibra óptica, y gracias a su antena fuerte, capta mejor señal que un celular, ideal para zonas rurales o donde la señal es débil.\n\n¿Me cuentas en qué lugar lo usarías y qué quieres hacer con internet? Así te recomiendo el mejor modelo.",
+        "fecha": "2026-11-27T23:04:35.235Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTcwNzk3MTY4MDk5MTI3NBUUABEYEkZFNDU2RjQ0QjgxQTU0MURENwA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GHzHhVKo",
       "fecha": "2026-11-27T23:03:47.078Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573207918767",
