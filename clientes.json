@@ -3,8 +3,8 @@
     "telefono": "573022097126",
     "nombre": "Alberto Almanza",
     "primerContacto": "2026-11-27T11:33:39.212Z",
-    "ultimoContacto": "2026-11-27T11:33:39.212Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T11:34:56.559Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-27T11:33:38.245Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSRjg4QkU4NUE1RDZGN0JGRTdDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Donde están ubicados",
+        "fecha": "2026-11-27T11:34:53.238Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📍 Somos de *Espinal, Tolima* y hacemos envíos a *toda Colombia* 🚚 Te llega hasta la puerta de tu casa.\n\n¿Me cuentas en qué municipio o vereda necesitas el módem y para qué lo vas a usar: trabajo, estudio, hogar o viajes? Así te recomiendo la mejor opción para ti.",
+        "fecha": "2026-11-27T11:34:55.598Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSQUYxRDE3ODlFMkMzNTZGMkIzAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,13 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-27T11:33:36.088Z"
     },
-    "caliente": null
+    "caliente": {
+      "fecha": "2026-11-27T11:34:53.238Z",
+      "texto": "Donde están ubicados"
+    },
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132966899",
