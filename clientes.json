@@ -3,8 +3,8 @@
     "telefono": "573127914042",
     "nombre": "😍😍😍😍",
     "primerContacto": "2026-11-27T21:22:52.030Z",
-    "ultimoContacto": "2026-11-27T21:25:20.627Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-27T21:25:54.067Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -92,10 +92,35 @@
         "fecha": "2026-11-27T21:25:19.685Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSMjU2MUQzM0QyQUM0NTYxQzg5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Ya consulto",
+        "fecha": "2026-11-27T21:25:44.942Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, ¿quieres que te deje el pedido listo para enviártela a La Tebaida? Recuerda que pagas al recibir y tiene garantía de 30 días.\n\nSolo dime y te la dejo lista para que empieces a imprimir tus tareas cuando quieras.",
+        "fecha": "2026-11-27T21:25:52.230Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSMjExMDM0MDBGRTE0MUI4ODAwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Impresora Térmica Portátil NETUM* ($ 249.900) 🙌 Ya tengo tu departamento, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-27T21:25:53.291Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSNUM5NDAzMDJGQTgxOUY5QzNDAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573127914042",
+      "departamento": "Quindio"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
