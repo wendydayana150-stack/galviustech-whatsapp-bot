@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:33:15.463Z",
-    "mensajes": 10,
+    "ultimoContacto": "2026-11-27T20:33:31.379Z",
+    "mensajes": 11,
     "conversacion": [
       {
         "rol": "cliente",
@@ -159,9 +159,21 @@
         "fecha": "2026-11-27T20:33:14.396Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQzgzNjhCNzkxMkFGRkNGNzBCAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Calle 8",
+        "fecha": "2026-11-27T20:33:30.302Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-27T20:33:30.304Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQzU2RjJDN0M2M0RFNTJENjU3AA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -170,7 +182,8 @@
       "nombreCliente": "Euclides José Mejías",
       "celular": "3216904745",
       "departamento": "Vichada",
-      "ciudad": "Puerto Carreño"
+      "ciudad": "Puerto Carreño",
+      "direccion": "Calle 8"
     },
     "pausado": false,
     "etapaManual": null,
