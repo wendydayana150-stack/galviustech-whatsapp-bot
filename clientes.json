@@ -3,8 +3,8 @@
     "telefono": "573224261386",
     "nombre": "Eva Antolinez Valencia",
     "primerContacto": "2026-11-27T23:32:57.671Z",
-    "ultimoContacto": "2026-11-27T23:32:57.671Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T23:34:00.260Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-27T23:32:56.244Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0MjYxMzg2FQIAERgSQzk3ODgwQ0U2RDA4RDk3RTU5AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "En la Macarena meta",
+        "fecha": "2026-11-27T23:33:50.312Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para La Macarena Meta, que es una zona donde aún no llega la fibra óptica, lo ideal es tener un módem con buena cobertura y que funcione en redes 4G y 5G, por si ya hay señal 5G allí o cercana.\n\nTe recomiendo nuestro *Modem WiFi Portátil 4G/5G* por *$199.900 + $26.000 de envío*, que conecta varios dispositivos vía WiFi y es fácil de transportar. Es perfecto para lugares rurales y te da la opción de usar 4G o 5G según la señal que tengas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Lo quieres para trabajo, estudio, tu negocio o uso en casa? Así te ayudo mejor.",
+        "fecha": "2026-11-27T23:33:59.396Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0MjYxMzg2FQIAERgSQzRGQzkxQTNBRENGMzAyRTkxAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-27T23:32:54.800Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573155832798",
