@@ -310,8 +310,8 @@
     "telefono": "CO.29441272162179715",
     "nombre": "fredi",
     "primerContacto": "2026-11-27T19:19:11.644Z",
-    "ultimoContacto": "2026-11-27T20:24:43.469Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-27T20:25:21.415Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -406,6 +406,25 @@
         "fecha": "2026-11-27T20:24:42.680Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBI2MDFFQjE4M0Y1QjU4QzMxNDEA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Bea cuánto días aguanta de Batería",
+        "fecha": "2026-11-27T20:25:18.098Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "La batería dura hasta 14 horas seguidas con carga completa, no días pero seguro te aguanta toda una jornada de uso sin problema.\n\nEso me ayuda a recomendarte si es el mejor para ti.",
+        "fecha": "2026-11-27T20:25:19.984Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBJCODFDRThFNDJGRDRDMjNCNUMA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-27T20:25:20.591Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBJDRjkwRDlFNzZFQkE4MzE4RUEA"
       }
     ],
     "paso": "pedido_nombre",
