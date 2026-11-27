@@ -1735,8 +1735,8 @@
     "telefono": "CO.1452541410323507",
     "nombre": "Desiderio ❤️",
     "primerContacto": "2026-11-27T01:28:44.239Z",
-    "ultimoContacto": "2026-11-27T14:26:00.674Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-27T14:26:21.589Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2001,16 +2001,29 @@
         "fecha": "2026-11-27T14:25:59.769Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEkY0MUIyNjJENEM2OUZERTEyRQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Car 31N 70 sur 100 sur 207",
+        "fecha": "2026-11-27T14:26:20.411Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-27T14:26:20.412Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjA4NDI4RUREOUY3ODQxN0FGNgA="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
       "precio": 199900,
       "telefono": "CO.1452541410323507",
       "departamento": "Bogota",
-      "nombreCliente": "Desiderio Aníbal"
+      "nombreCliente": "Desiderio Aníbal",
+      "celular": "Car 31N 70 sur 100 sur 207"
     },
     "pausado": false,
     "etapaManual": null,
