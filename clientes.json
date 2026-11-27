@@ -2256,6 +2256,13 @@
         "fecha": "2026-11-27T14:29:12.508Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjJCNzAwRTk3MzA5RTlCQjA1NgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Desiderio! 😊 Tu *Modem 5G* ya está *casi listo para despachar* 🚚\n\n✅ Desiderio Aníbal\n✅ Cel: Car 31N 70 sur 100 sur 207\n✅ San Isidra, Bogota\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu direccion completa?",
+        "fecha": "2026-11-27T15:11:47.069Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjFDMUU5MjVDMkU1Q0MyNDM0OQA="
       }
     ],
     "paso": "pedido_direccion",
@@ -2287,7 +2294,9 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-27T15:11:48.739Z"
     }
   },
   {
@@ -8764,9 +8773,10 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-27T14:10:56.910Z"
+      "ultimoEnvio": "2026-11-27T15:11:48.739Z",
+      "horas3": true
     },
     "escasezFecha": "2026-11-27"
   },
