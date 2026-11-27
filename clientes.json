@@ -3,8 +3,8 @@
     "telefono": "573224011846",
     "nombre": "Santa",
     "primerContacto": "2026-11-27T17:36:13.665Z",
-    "ultimoContacto": "2026-11-27T17:36:13.665Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T17:37:05.308Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-27T17:36:12.909Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjI0MDExODQ2FQIAERgSMDVBMTE3OUM4NjdCMUYwNTdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que papel usa",
+        "fecha": "2026-11-27T17:37:04.355Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "📄 La impresora usa *hojas térmicas*, que las puedes conseguir en *cualquier papelería* o *con nosotros* 😊\n\n✅ Y ya *trae papel incluido* para que empieces a imprimir.\n\n¿Te la envío? 🚚 Va con *envío GRATIS* y *pagas al recibir*",
+        "fecha": "2026-11-27T17:37:04.356Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjI0MDExODQ2FQIAERgSMjdEMkNDQjg3MzdGMUEzQkY0AA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/6E7F0ErdY",
       "fecha": "2026-11-27T17:36:11.865Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573145917883",
