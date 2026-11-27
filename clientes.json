@@ -45,8 +45,8 @@
     "telefono": "573213755216",
     "nombre": "Dioselina Gracia",
     "primerContacto": "2026-11-27T22:40:33.312Z",
-    "ultimoContacto": "2026-11-27T22:44:57.740Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-27T22:45:29.312Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -153,6 +153,25 @@
         "fecha": "2026-11-27T22:44:56.897Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSNzE0MTE1OEM1MTRFRjU0REI2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No, envía info de la impresora para etiquetas",
+        "fecha": "2026-11-27T22:45:22.187Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te cuento rápido las impresoras que tenemos para etiquetas y recibos:\n\n🖨️ *Mini Impresora Bluetooth* $109.900  \n🖨️ *Mini Impresora de Etiquetas P5* $139.900 (etiquetas pequeñas)  \n🖨️ *Impresora Térmica Portátil Goojprt PT-210* $149.900 (más rápida, rollo ancho 58 mm)  \n🖨️ *Impresora Térmica Portátil de Etiquetas Clabel 221B* $155.000 (etiquetas adhesivas medianas, ideal para código y precio)\n\nTodas imprimen sin tinta, son portátiles y se conectan por Bluetooth. Perfectas para precios, códigos, stickers o guías pequeñas.",
+        "fecha": "2026-11-27T22:45:27.664Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSMDFEQjQ2Rjk2NzBDQ0YzQkMwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu nombre completo?",
+        "fecha": "2026-11-27T22:45:28.362Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjEzNzU1MjE2FQIAERgSODNDMzNFRjU3RkY2RjQwODZEAA=="
       }
     ],
     "paso": "pedido_nombre",
