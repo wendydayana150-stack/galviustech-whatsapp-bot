@@ -63,8 +63,8 @@
     "telefono": "573205944653",
     "nombre": "flor",
     "primerContacto": "2026-11-27T15:24:53.025Z",
-    "ultimoContacto": "2026-11-27T15:24:53.025Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T15:28:59.898Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,6 +97,18 @@
         "fecha": "2026-11-27T15:24:52.347Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjA1OTQ0NjUzFQIAERgSNDMyM0Q4MzVGNDFGQzgzNkU2AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Funciona en lugares dónde no dentra señal?",
+        "fecha": "2026-11-27T15:28:55.819Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem está diseñado para captar señal más fuerte y tener mejor cobertura que un celular común, especialmente en zonas rurales o fincas donde la fibra no llega. \n\nSi no hay señal de ningún operador en tu zona, lamentablemente no funcionará, porque requiere una SIM con cobertura móvil. \n\nMe cuentas dónde o en qué vereda lo usarías para confirmarte bien cómo te sirve?",
+        "fecha": "2026-11-27T15:28:59.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjA1OTQ0NjUzFQIAERgSMTdEODNDN0Y3QTJBMUJERDY4AA=="
       }
     ],
     "paso": "conversando",
@@ -117,7 +129,10 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-27T15:24:51.199Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573126135923",
