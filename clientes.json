@@ -3,8 +3,8 @@
     "telefono": "573137891399",
     "nombre": "bjj",
     "primerContacto": "2026-11-27T02:12:05.883Z",
-    "ultimoContacto": "2026-11-27T02:12:05.883Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T02:15:03.574Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-27T02:12:04.956Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTM3ODkxMzk5FQIAERgSMkQyODFDQUMxNjRCNUU2MzFDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para qué sirves",
+        "fecha": "2026-11-27T02:14:59.531Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Con los módems portátiles de GalviusTech tienes internet donde lo necesites, sin depender de fibra óptica ni instalaciones complicadas. Puedes conectar varios dispositivos al mismo tiempo y llevar tu conexión a fincas, veredas, viajes, trabajo o estudio.\n\nLa inversión para cualquiera de las versiones está en $199.900, con envío gratis en el modem 4G, y $26.000 en los otros dos.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Me cuentas en qué lugar lo usarías para recomendarte la mejor opción?",
+        "fecha": "2026-11-27T02:15:02.130Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3ODkxMzk5FQIAERgSMzZGQUU4M0ZFMTQ3M0Q2RDZGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T02:15:02.717Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTM3ODkxMzk5FQIAERgSRjlFNkZCODMyQjAwNzRCRDk3AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/5kO3L7nr2",
       "fecha": "2026-11-27T02:12:03.409Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573123737394",
