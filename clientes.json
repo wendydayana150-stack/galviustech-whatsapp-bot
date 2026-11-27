@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:29:16.014Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T20:30:14.551Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,10 +37,34 @@
         "fecha": "2026-11-27T20:29:15.236Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSODA1RUU4Nzk3QjNGQUY3ODEzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Quiero uno",
+        "fecha": "2026-11-27T20:30:09.543Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, la Impresora Térmica Portátil NETUM está perfecta para imprimir desde tu celular documentos, trabajos, facturas o guías en hojas tamaño carta, sin tinta ni cartuchos. Es pequeña, portátil y con batería que dura hasta 30 horas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión es de $249.900 con envío GRATIS y pagas al recibir. ¿Me das la dirección para preparar tu pedido? 😊",
+        "fecha": "2026-11-27T20:30:12.564Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSRjg0QTQ0RDE3NDQxQkFDMTExAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Excelente decisión! 😍🎉\n\nVamos a preparar tu impresora térmica NETUM para que puedas disfrutar de sus beneficios.\n\n🚚 *ENVÍO GRATIS*\n💵 *PAGO CONTRAENTREGA*\n\n🔥 ¡Aprovecha la promoción mientras tengamos unidades disponibles!\n\nPara empezar, ¿cuál es tu nombre completo? 😊",
+        "fecha": "2026-11-27T20:30:13.575Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQTYyQTgzQzM2OTU5QzM1RTIyAA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "impresora-termica",
+      "nombreProducto": "Impresora Térmica Portátil NETUM",
+      "precio": 249900,
+      "telefono": "573124603710"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "impresora-termica",
@@ -57,7 +81,10 @@
       "url": "https://fb.me/9E2msSPje",
       "fecha": "2026-11-27T20:29:13.918Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573118465658",
