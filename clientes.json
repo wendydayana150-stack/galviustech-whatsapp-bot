@@ -228,6 +228,13 @@
         "fecha": "2026-11-27T21:33:59.879Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSOUQ1M0Y2MjZGRTlERENCMzlBAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Impresora NETUM* ya está *casi listo para despachar* 🚚\n\n✅ Quindio\n\n💰 *$ 249.900* con *envío GRATIS* 🚚 · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-27T22:11:46.914Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI3OTE0MDQyFQIAERgSQzFGMTFDMUNDREQ4QjNBNzk4AA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -259,7 +266,9 @@
       "texto": "De dónde son"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-27T22:11:48.053Z"
     }
   },
   {
