@@ -85,8 +85,8 @@
     "telefono": "CO.2074050143296840",
     "nombre": "ALAN",
     "primerContacto": "2026-11-27T23:51:09.663Z",
-    "ultimoContacto": "2026-11-27T23:51:57.061Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-27T23:53:07.680Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -138,13 +138,25 @@
         "fecha": "2026-11-27T23:51:56.234Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjA3NDA1MDE0MzI5Njg0MBUUABEYEkY3MDUzREQ0RjlCNEQ2NDE3OQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es más potente que el teléfono y coge donde el teléfono no le llegue la señal o cómo",
+        "fecha": "2026-11-27T23:53:05.079Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, justamente el módem está diseñado para captar mejor la señal que un celular común. Su antena tiene mayor potencia y alcance, por eso va mejor en fincas, veredas y zonas rurales donde el celular suele fallar o tener señal débil.\n\n¿Cuál es el municipio o vereda donde lo usarías? Así te recomiendo el modelo ideal para que siempre tengas internet.",
+        "fecha": "2026-11-27T23:53:06.810Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjA3NDA1MDE0MzI5Njg0MBUUABEYEjFEQkZCMUVDOTZGRjAxQkMxOQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
