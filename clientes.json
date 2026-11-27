@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:31:35.812Z",
-    "mensajes": 6,
+    "ultimoContacto": "2026-11-27T20:31:52.174Z",
+    "mensajes": 7,
     "conversacion": [
       {
         "rol": "cliente",
@@ -104,6 +104,18 @@
         "fecha": "2026-11-27T20:31:34.802Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQTJDMkY1ODlBQkYwQzc0MkJDAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si",
+        "fecha": "2026-11-27T20:31:50.102Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Perfecto! Para dejarte el pedido listo solo necesito que me confirmes tu ciudad o municipio para coordinar el envío, ¿me lo puedes decir?",
+        "fecha": "2026-11-27T20:31:51.292Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMDRCNDRCOUM0REI1NTc4N0Q1AA=="
       }
     ],
     "paso": "pedido_ciudad",
