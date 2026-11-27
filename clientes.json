@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:30:43.963Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-27T20:31:15.920Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -68,15 +68,28 @@
         "fecha": "2026-11-27T20:30:42.973Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQzdFOENFNjJBRjQzQUU2MTZGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3216904745",
+        "fecha": "2026-11-27T20:31:14.649Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-27T20:31:14.650Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMzAxNjhCMzg1MTgwQzdGMjUxAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
       "telefono": "573124603710",
-      "nombreCliente": "Euclides José Mejías"
+      "nombreCliente": "Euclides José Mejías",
+      "celular": "3216904745"
     },
     "pausado": false,
     "etapaManual": null,
