@@ -1735,8 +1735,8 @@
     "telefono": "CO.1452541410323507",
     "nombre": "Desiderio ❤️",
     "primerContacto": "2026-11-27T01:28:44.239Z",
-    "ultimoContacto": "2026-11-27T12:49:54.961Z",
-    "mensajes": 4,
+    "ultimoContacto": "2026-11-27T14:23:31.564Z",
+    "mensajes": 5,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1833,13 +1833,45 @@
         "fecha": "2026-11-27T14:10:54.191Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjQ3RDFFMjdFMkQ2MzUyMzI2NwA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Dirección maps",
+        "fecha": "2026-11-27T14:23:24.353Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 5G",
+        "fecha": "2026-11-27T14:23:29.116Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEkYwNDY3QzA0NzQxMzUyNjU4NQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 5G]",
+        "fecha": "2026-11-27T14:23:29.894Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, la inversión para el *Modem WiFi portátil 5G* es de $199.900 + $26.000 de envío, con garantía de 30 días y pagas al recibir.\n\nEl pedido te llega en 1 día hábil a Medellín o en 1 a 2 días hábiles a Bogotá.\n\n¿Para qué lo vas a usar principalmente? Así te confirmo que el 5G es la mejor opción para ti y te ayudo a dejar el pedido listo.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nY dime, ¿a qué dirección te lo enviamos?",
+        "fecha": "2026-11-27T14:23:29.901Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjI0NEI2MTM2QzRBMTVGQURFQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T14:23:30.504Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjE3OTQ0MzZBNENGNjQ2ODIwQgA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-portatil-5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -1855,9 +1887,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-27T14:10:56.910Z"
+      "seguimientosEnviados": 0
     }
   },
   {
