@@ -3,8 +3,8 @@
     "telefono": "573146915277",
     "nombre": "Linda Mar Pino Cuesta",
     "primerContacto": "2026-11-27T06:25:18.159Z",
-    "ultimoContacto": "2026-11-27T06:25:18.159Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T06:25:23.367Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-27T06:25:17.167Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2OTE1Mjc3FQIAERgSRTdGNTVBMkQyNDlFMUM3NjgxAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo es el usó",
+        "fecha": "2026-11-27T06:25:19.448Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí, te explico cómo usar el módem:\n\n1. Insertas la SIM de tu operador (Claro, Movistar, Tigo o WOM).\n2. Enciendes el módem.\n3. Buscas la red WiFi que crea el módem en tus dispositivos.\n4. Conectas tu celular, computadora o tablets y listo, navegarás donde tengas señal.\n\nEs súper fácil, sin instalación complicada, y puedes conectar hasta 10 dispositivos al mismo tiempo. ¿Para qué lo necesitas principalmente, para estudiar, trabajar o tu negocio?",
+        "fecha": "2026-11-27T06:25:22.508Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2OTE1Mjc3FQIAERgSNUJCMkNCRjIxODhGODAwNDI2AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GHzHhVKo",
       "fecha": "2026-11-27T06:25:15.838Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1173694101855163",
