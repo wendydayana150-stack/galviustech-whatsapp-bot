@@ -67,8 +67,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:35:46.686Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-27T20:36:04.135Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -266,6 +266,25 @@
         "fecha": "2026-11-27T20:35:45.723Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMEM4RDE2M0ZBNzUwNkNDNDdGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que ya no",
+        "fecha": "2026-11-27T20:36:01.195Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "De acuerdo, si en algún momento quieres retomar la compra o tienes dudas, aquí estaré para ayudarte.",
+        "fecha": "2026-11-27T20:36:02.773Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQTZCQ0YzNzEwNUFCODNCNkFDAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-27T20:36:03.331Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSNUQ3QkJCRDRBQ0VDQTE2MDJEAA=="
       }
     ],
     "paso": "pedido_pago",
