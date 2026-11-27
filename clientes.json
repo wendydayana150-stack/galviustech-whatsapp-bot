@@ -67,8 +67,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:36:04.135Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-27T20:36:18.503Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -285,9 +285,21 @@
         "fecha": "2026-11-27T20:36:03.331Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSNUQ3QkJCRDRBQ0VDQTE2MDJEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es q no tengo plata",
+        "fecha": "2026-11-27T20:36:17.591Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te entiendo 😊 Puedes llevarte la *Impresora NETUM* *hoy mismo a cuotas* con *Sistecrédito* 💳\n\nSi aún no lo has usado, solo descargas la app y te registras gratis 👇\nhttps://www.sistecredito.com/descargar-app/\n\nCuando te aprueben el cupo me escribes y te dejo el pedido listo 🙌 ¿Ya tienes Sistecrédito?",
+        "fecha": "2026-11-27T20:36:17.592Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQUQ4MkQ0MzhDRUQzQUMxMkM2AA=="
       }
     ],
-    "paso": "pedido_pago",
+    "paso": "conversando",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
