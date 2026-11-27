@@ -3,8 +3,8 @@
     "telefono": "573123737394",
     "nombre": "la guariqueña",
     "primerContacto": "2026-11-27T01:50:56.717Z",
-    "ultimoContacto": "2026-11-27T01:50:56.717Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T01:52:02.479Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,32 @@
         "fecha": "2026-11-27T01:50:55.874Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTIzNzM3Mzk0FQIAERgSRjY4RDMyRTM5N0RBRkFCMDVBAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Si funciona en sonas rurales",
+        "fecha": "2026-11-27T01:51:58.310Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Sí, claro que sí. Estos módems están diseñados justamente para zonas rurales y fincas.\n\nTienen antenas potentes que captan señal mucho mejor que un celular normal, para que puedas tener internet donde sea que estés, sin depender de fibra ni instalaciones complicadas.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nLa inversión para cada modelo es de $199.900 (con envío gratis para el 4G y + $26.000 para 4G/5G o 5G). ¿En qué municipio o zona rural lo usarías? Así te recomiendo el mejor para tu caso.",
+        "fecha": "2026-11-27T01:52:00.950Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNzM3Mzk0FQIAERgSMDU4RTdGN0E2OENENjEyRDIxAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T01:52:01.511Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTIzNzM3Mzk0FQIAERgSMURCRTQ4OTkxOEI3QzVGRjkwAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +76,10 @@
       "url": "https://fb.me/5kO3L7nr2",
       "fecha": "2026-11-27T01:50:54.609Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1452541410323507",
