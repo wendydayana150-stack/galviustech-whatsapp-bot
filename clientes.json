@@ -3,8 +3,8 @@
     "telefono": "573114381127",
     "nombre": "jaziel🐣🤗🥰",
     "primerContacto": "2026-11-27T01:14:15.553Z",
-    "ultimoContacto": "2026-11-27T01:20:22.848Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-27T01:20:45.884Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -142,15 +142,28 @@
         "fecha": "2026-11-27T01:20:21.890Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTE0MzgxMTI3FQIAERgSQUZCMTA3MzRBQ0E5QjRCNDgyAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3114381127",
+        "fecha": "2026-11-27T01:20:44.925Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-27T01:20:44.926Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTE0MzgxMTI3FQIAERgSQzVEOUYzN0M3NkU1OUI2RUM3AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
       "precio": 199900,
       "telefono": "573114381127",
-      "nombreCliente": "Yara patricia prieto"
+      "nombreCliente": "Yara patricia prieto",
+      "celular": "3114381127"
     },
     "pausado": false,
     "etapaManual": null,
