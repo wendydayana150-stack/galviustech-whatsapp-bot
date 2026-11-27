@@ -3,8 +3,8 @@
     "telefono": "573046392776",
     "nombre": "Yeimi Vargas",
     "primerContacto": "2026-11-27T15:37:30.006Z",
-    "ultimoContacto": "2026-11-27T15:37:30.006Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T15:40:28.590Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,13 +37,25 @@
         "fecha": "2026-11-27T15:37:29.265Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDQ2MzkyNzc2FQIAERgSRkYyNDc0QjkxRDUxNUM5QTREAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "¡Hola! Quiero más información",
+        "fecha": "2026-11-27T15:40:20.740Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro que sí 😊\n\nEstos módems portátiles te permiten tener internet donde no llega la fibra óptica, como en fincas, veredas, o cuando viajas.\n\nConectas varios dispositivos (hasta 10) a la vez, es fácil de usar y transportar. La batería dura hasta 14 horas con una carga completa.\n\nDime, ¿para qué lo necesitas? ¿Trabajo, estudio, tu hogar o para viajar? Así te ayudo a escoger el mejor para ti.",
+        "fecha": "2026-11-27T15:40:27.691Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDQ2MzkyNzc2FQIAERgSM0IzRDMxRkREQjVCQzFENUExAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7GHzHhVKo",
       "fecha": "2026-11-27T15:37:28.278Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573122023104",
