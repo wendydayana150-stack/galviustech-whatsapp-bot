@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:33:31.379Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-27T20:34:43.115Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -171,6 +171,25 @@
         "fecha": "2026-11-27T20:33:30.304Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQzU2RjJDN0M2M0RFNTJENjU3AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es q me van a traer el pedido hasta mi vasa",
+        "fecha": "2026-11-27T20:34:39.806Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entendido, te cuento que la impresora NETUM tiene envío GRATIS y llega en 1 a 3 días hábiles a la mayoría de direcciones, pero si estás en vereda o zona rural, el pedido se deja en la oficina de la transportadora más cercana para que lo recojas.",
+        "fecha": "2026-11-27T20:34:41.601Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQ0VBQTM4MTU2OEVDOTREMjc2AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿en que barrio queda esa direccion?",
+        "fecha": "2026-11-27T20:34:42.273Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMjJGRkNDNEVERjY1OUUyMTczAA=="
       }
     ],
     "paso": "pedido_barrio",
