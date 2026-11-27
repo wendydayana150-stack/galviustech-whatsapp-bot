@@ -310,8 +310,8 @@
     "telefono": "CO.29441272162179715",
     "nombre": "fredi",
     "primerContacto": "2026-11-27T19:19:11.644Z",
-    "ultimoContacto": "2026-11-27T20:25:21.415Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-27T20:26:01.112Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -425,9 +425,28 @@
         "fecha": "2026-11-27T20:25:20.591Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBJDRjkwRDlFNzZFQkE4MzE4RUEA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Cómo así",
+        "fecha": "2026-11-27T20:25:57.804Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Te explico: con una carga completa la batería aguanta conectarte hasta 14 horas seguidas, o sea que si lo cargas en la mañana, en todo el día tienes conexión sin tener que enchufarlo. \n\nSi quieres usar internet muchos días seguidos sin cargar, tendrías que recargarlo cada día o cuando lo uses.\n\n¿En qué lugar lo vas a usar más para que te ayude a escoger bien?",
+        "fecha": "2026-11-27T20:25:59.361Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBJFNkIzRjg0MjhBQTI1NUZEQzcA"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cuando resuelvas tus dudas, ¿te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-27T20:25:59.946Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjk0NDEyNzIxNjIxNzk3MTUVFAARGBJGNEVDQTQ0M0Y1RTBERENBQ0YA"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "conversando",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
