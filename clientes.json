@@ -111,6 +111,13 @@
         "fecha": "2026-11-27T11:37:41.358Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSNzY2N0IzM0FFNEQ5RDI5RThGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n✅ Antioquia\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Para empezar, cual es tu nombre completo?",
+        "fecha": "2026-11-27T12:10:37.815Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMDIyMDk3MTI2FQIAERgSODE3QTdDNEZGNTU4OEFCOTUxAA=="
       }
     ],
     "paso": "pedido_nombre",
@@ -142,7 +149,9 @@
       "texto": "Donde están ubicados"
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-27T12:10:39.030Z"
     }
   },
   {
