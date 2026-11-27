@@ -3,8 +3,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:32:40.293Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-27T20:32:54.289Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -128,6 +128,25 @@
         "fecha": "2026-11-27T20:32:39.385Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSQTVGQkFCQTI3QzZFQUY5MkNGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Como así",
+        "fecha": "2026-11-27T20:32:51.348Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Dale, solo necesito saber la ciudad o municipio donde quieres que te enviemos la impresora NETUM para calcular la mejor opción de envío y que te llegue rápido.",
+        "fecha": "2026-11-27T20:32:52.818Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMUY3NEExRTkxMkY3MENDNEUwAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu direccion completa?",
+        "fecha": "2026-11-27T20:32:53.440Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSOUJBNDMwNDA2QTg5RjQ1N0VEAA=="
       }
     ],
     "paso": "pedido_direccion",
