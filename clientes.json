@@ -2663,8 +2663,8 @@
     "telefono": "CO.29170126012656418",
     "nombre": "舞",
     "primerContacto": "2026-11-26T01:52:02.680Z",
-    "ultimoContacto": "2026-11-26T11:44:29.015Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-27T11:28:58.508Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -2723,14 +2723,34 @@
         "fecha": "2026-11-26T12:20:37.568Z",
         "estado": "enviado",
         "wamid": "wamid.HBgUQ08uMjkxNzAxMjYwMTI2NTY0MTgVFAARGBJEMDYxQzVBMjQxREM4NjBDMDcA"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola 舞, sobre equipo de impresión térmica portátil",
+        "fecha": "2026-11-27T11:15:37.302Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjkxNzAxMjYwMTI2NTY0MTgVFAARGBIyQkEwOUEyMjUwQ0ZDRUIwRDgA"
+      },
+      {
+        "rol": "cliente",
+        "texto": "Chúpelo",
+        "fecha": "2026-11-27T11:28:57.262Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-27T11:28:57.265Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgUQ08uMjkxNzAxMjYwMTI2NTY0MTgVFAARGBIxMTczODQ3NjA4RkNERjhFMEYA"
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
       "precio": 249900,
-      "telefono": "CO.29170126012656418"
+      "telefono": "CO.29170126012656418",
+      "nombreCliente": "Chúpelo"
     },
     "pausado": false,
     "etapaManual": null,
@@ -2750,12 +2770,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-26T15:15:55.538Z",
-      "horas1": true,
-      "horas3": true,
-      "rescatePedido": true
+      "seguimientosEnviados": 0
     }
   },
   {
