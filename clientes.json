@@ -311,8 +311,8 @@
     "telefono": "573128981135",
     "nombre": "Jaime Perez",
     "primerContacto": "2026-11-27T23:08:03.673Z",
-    "ultimoContacto": "2026-11-27T23:08:03.673Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T23:49:58.504Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -345,13 +345,32 @@
         "fecha": "2026-11-27T23:08:02.604Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI4OTgxMTM1FQIAERgSODE0Q0RGQUYyNEU0MjQyMUFFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Hola y sirve para antos dispositivos es para cañasgordas Antioquia  una vereda",
+        "fecha": "2026-11-27T23:49:51.246Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, en zonas rurales como cañasgordas, Antioquia, nuestro modem está diseñado para captar mejor señal que un celular normal y conectar hasta 10 dispositivos a la vez.\n\nTe cuento las opciones con su precio e inversión:\n📶 Modem 4G (envío GRATIS) - $199.900  \n📶 Modem 4G/5G - $199.900 + $26.000 envío  \n📶 Modem 5G - $199.900 + $26.000 envío\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\nRecomiendo el 4G/5G porque funciona donde haya 4G o 5G, te asegura mejor cobertura y velocidad. ¿Lo necesitas para trabajo, estudio o casa?",
+        "fecha": "2026-11-27T23:49:56.350Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4OTgxMTM1FQIAERgSOTYwOTU0QTA1RTM0QTZCNTIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Cuál te llevas? 😊 Dime y te lo dejo listo hoy, 🔥 con 30% de descuento y pagas al recibir 🚚",
+        "fecha": "2026-11-27T23:49:57.349Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI4OTgxMTM1FQIAERgSMDBEQTEyMDZCMTdFREMzREZFAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -365,7 +384,10 @@
       "url": "https://fb.me/7G6a7zK1u",
       "fecha": "2026-11-27T23:08:01.403Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "CO.1707971680991274",
