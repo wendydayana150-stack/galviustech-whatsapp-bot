@@ -1735,8 +1735,8 @@
     "telefono": "CO.1452541410323507",
     "nombre": "Desiderio ❤️",
     "primerContacto": "2026-11-27T01:28:44.239Z",
-    "ultimoContacto": "2026-11-27T14:25:14.850Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-27T14:25:31.541Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1958,15 +1958,28 @@
         "fecha": "2026-11-27T14:25:13.834Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEkI1MzI4NEU4M0UwN0Y1OTdDRAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Desiderio Aníbal",
+        "fecha": "2026-11-27T14:25:30.417Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu numero de celular?",
+        "fecha": "2026-11-27T14:25:30.420Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTQ1MjU0MTQxMDMyMzUwNxUUABEYEjY1MDMxMjIyNkFCMDdBQ0Y1QgA="
       }
     ],
-    "paso": "pedido_nombre",
+    "paso": "pedido_celular",
     "pedido": {
       "productoId": "modem-portatil-5g",
       "nombreProducto": "Modem WiFi Portatil 5G",
       "precio": 199900,
       "telefono": "CO.1452541410323507",
-      "departamento": "Bogota"
+      "departamento": "Bogota",
+      "nombreCliente": "Desiderio Aníbal"
     },
     "pausado": false,
     "etapaManual": null,
