@@ -3,8 +3,8 @@
     "telefono": "573164660956",
     "nombre": "動物のボリス",
     "primerContacto": "2026-11-27T12:52:58.426Z",
-    "ultimoContacto": "2026-11-27T12:52:58.426Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-27T12:53:33.862Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -24,14 +24,46 @@
         "fecha": "2026-11-27T12:52:57.460Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTY0NjYwOTU2FQIAERgSRjUwOTJFMkIwQjQyRDkxMzI0AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Estoy interesado en la impresora térmica",
+        "fecha": "2026-11-27T12:53:31.977Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Impresora Térmica Portátil NETUM",
+        "fecha": "2026-11-27T12:53:31.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY0NjYwOTU2FQIAERgSMzRFNEM0MTU1RTU0RUY1OTg0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Mira cómo imprime la NETUM 🖨️ Sin tinta y en hoja tamaño carta",
+        "fecha": "2026-11-27T12:53:32.449Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY0NjYwOTU2FQIAERgSNUYwMTYwNjg1ODMwREJEOTJFAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Guion NETUM: necesidad, beneficios y oferta]",
+        "fecha": "2026-11-27T12:53:32.926Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "🖨️ *IMPRESORA TÉRMICA PORTÁTIL NETUM*\nImprime tus apuntes, documentos y trabajos *SIN TINTA* ni cartuchos, desde tu celular por Bluetooth 📱\n\n🎁 Antes ~$ 356.900~, *hoy $ 249.900*\n🚚 *ENVÍO GRATIS* · 💵 *PAGAS AL RECIBIR*\n🚨 Últimas unidades de la promoción\n\n🏷️ Para etiquetas o algo más económico, tenemos otras desde $109.900\n\n😍 Cuéntame, *¿para qué la vas a usar?*\n📚 Tareas, documentos o trabajos\n🧾 Recibos, etiquetas o guías de tu negocio",
+        "fecha": "2026-11-27T12:53:32.926Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTY0NjYwOTU2FQIAERgSRkJGOUM4Q0I3MThDNTAwQkU5AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
-    "ultimaCategoria": null,
+    "ultimoProducto": "impresora-termica",
+    "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
     "pausarSeguimiento": false,
@@ -39,7 +71,10 @@
     "esperaCompra": null,
     "interesColor": null,
     "anuncio": null,
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573146274958",
