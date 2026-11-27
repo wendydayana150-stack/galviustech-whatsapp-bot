@@ -67,8 +67,8 @@
     "telefono": "573124603710",
     "nombre": "handersoneuclides",
     "primerContacto": "2026-11-27T20:29:16.014Z",
-    "ultimoContacto": "2026-11-27T20:34:43.115Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-27T20:35:46.686Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -254,9 +254,21 @@
         "fecha": "2026-11-27T20:34:42.273Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMjJGRkNDNEVERjY1OUUyMTczAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No mentira ya no",
+        "fecha": "2026-11-27T20:35:45.721Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Por ultimo, que medio de pago prefieres? (contraentrega, transferencia, Nequi, llave Bre-B, Sistecrédito a cuotas u otro)",
+        "fecha": "2026-11-27T20:35:45.723Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI0NjAzNzEwFQIAERgSMEM4RDE2M0ZBNzUwNkNDNDdGAA=="
       }
     ],
-    "paso": "pedido_barrio",
+    "paso": "pedido_pago",
     "pedido": {
       "productoId": "impresora-termica",
       "nombreProducto": "Impresora Térmica Portátil NETUM",
@@ -266,7 +278,8 @@
       "celular": "3216904745",
       "departamento": "Vichada",
       "ciudad": "Puerto Carreño",
-      "direccion": "Calle 8"
+      "direccion": "Calle 8",
+      "barrio": "No mentira ya no"
     },
     "pausado": false,
     "etapaManual": null,
