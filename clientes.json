@@ -201,8 +201,8 @@
     "telefono": "573235842426",
     "nombre": "Jorge",
     "primerContacto": "2026-11-28T01:36:49.059Z",
-    "ultimoContacto": "2026-11-28T01:38:16.115Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-28T11:04:00.301Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -254,6 +254,18 @@
         "fecha": "2026-11-28T11:01:49.090Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1ODQyNDI2FQIAERgSQzc1OUM4ODI5REM4MEVEMDVEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Perdón pero yo estoy interesado es en un internet satelital",
+        "fecha": "2026-11-28T11:03:50.434Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Entiendo, pero justo nosotros en GalviusTech no manejamos internet satelital, solo módems WiFi portátiles que funcionan con SIM de operador móvil.\n\nSi buscas internet satelital, tendrías que buscar otro proveedor especializado en eso.\n\n¿Quieres que te muestre otras opciones que sí tenemos, como impresoras portátiles, cámaras de seguridad o lámparas solares? \nTengo varias categorías para que veas. ¿Cuál quieres conocer? \n\n📶 Módem WiFi  \n🖨️ Impresoras térmicas  \n💡 Lámparas solares  \n📹 Cámaras de seguridad  \n🎁 Combos  \n\n¿Qué te interesa?",
+        "fecha": "2026-11-28T11:03:59.332Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1ODQyNDI2FQIAERgSNTlCOUU2MEFCNzdBMTA2MDREAA=="
       }
     ],
     "paso": "conversando",
@@ -276,9 +288,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-28T11:01:58.559Z"
+      "seguimientosEnviados": 0
     }
   },
   {
