@@ -63,8 +63,8 @@
     "telefono": "573132663691",
     "nombre": "mtbduitama@hotmail.com",
     "primerContacto": "2026-11-28T11:53:09.923Z",
-    "ultimoContacto": "2026-11-28T11:53:09.923Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-28T11:59:18.214Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -97,13 +97,32 @@
         "fecha": "2026-11-28T11:53:09.217Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyNjYzNjkxFQIAERgSMERBQ0JDRTgyNTAyMDJCNjMzAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Que tipo de papel requiere?",
+        "fecha": "2026-11-28T11:59:11.984Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Los rollos térmicos de 7 metros son papel térmico especial para impresoras pequeñas de recibos, tirillas y etiquetas, como las Mini Bluetooth, P5, PT-210 y Clabel 221B. Son sin tinta y fáciles de usar. ¿Para qué impresora los necesitas o para qué uso serán?",
+        "fecha": "2026-11-28T11:59:16.572Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNjYzNjkxFQIAERgSRjgxODVEN0E1MzkzQkIyMzJGAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Video] Así llega la NETUM, con su rollo de papel incluido 📦",
+        "fecha": "2026-11-28T11:59:17.405Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyNjYzNjkxFQIAERgSREEzQkU2OEYwRjQwMTkxOURBAA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "impresora-termica",
+    "ultimoProducto": "papel-rollo-termico-7m-x1",
     "ultimaCategoria": "impresora",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -117,7 +136,10 @@
       "url": "https://fb.me/5jYxwm32h",
       "fecha": "2026-11-28T11:53:08.042Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573132107456",
