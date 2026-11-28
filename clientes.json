@@ -6811,8 +6811,8 @@
     "telefono": "CO.1173694101855163",
     "nombre": "Ivan Hernandez",
     "primerContacto": "2026-11-27T05:31:53.380Z",
-    "ultimoContacto": "2026-11-27T05:31:53.380Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-28T15:13:22.078Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6859,6 +6859,13 @@
         "fecha": "2026-11-27T12:00:39.108Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMTE3MzY5NDEwMTg1NTE2MxUUABEYEjJFNjc3RjgzMzA0MDAxNDREOQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Ivan Hernandez, sobre nuestros productos",
+        "fecha": "2026-11-28T15:13:21.127Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMTE3MzY5NDEwMTg1NTE2MxUUABEYEjc4MEEwMTAyNjdDQUJGOUQ2NAA="
       }
     ],
     "paso": "conversando",
@@ -6881,10 +6888,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-27T12:00:50.311Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-28"
   },
