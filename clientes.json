@@ -6714,8 +6714,8 @@
     "telefono": "573146915277",
     "nombre": "Linda Mar Pino Cuesta",
     "primerContacto": "2026-11-27T06:25:18.159Z",
-    "ultimoContacto": "2026-11-27T06:25:23.367Z",
-    "mensajes": 2,
+    "ultimoContacto": "2026-11-28T15:13:09.505Z",
+    "mensajes": 3,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6774,13 +6774,20 @@
         "fecha": "2026-11-27T12:00:38.233Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2OTE1Mjc3FQIAERgSNTdGNTlEQzNGOEZGOEQ5MUNCAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Linda Mar Pino Cuesta, sobre Modem 4G/5G",
+        "fecha": "2026-11-28T15:13:08.418Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2OTE1Mjc3FQIAERgSRTVFREU0MzY2RDQ4RkM2RDU1AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": "modem-4g5g",
+    "ultimoProducto": "modem-4g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -6796,10 +6803,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 2,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-27T12:00:50.311Z",
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-28"
   },
