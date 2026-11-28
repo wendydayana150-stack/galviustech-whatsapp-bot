@@ -333,9 +333,10 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
+      "seguimientosEnviados": 2,
       "horas1": true,
-      "ultimoEnvio": "2026-11-28T14:46:40.412Z"
+      "ultimoEnvio": "2026-11-28T15:49:02.293Z",
+      "horas3": true
     }
   },
   {
@@ -961,6 +962,13 @@
         "fecha": "2026-11-28T14:39:00.501Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMDJFMzJCQjRGMkQ5NEU0NTE0AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola! 😊 Quedamos hablando del Modem WiFi Portatil 4G/5G y no quise dejarte sin respuesta.\n¿Te quedó alguna duda? Cuéntame y te ayudo 🙋‍♀️",
+        "fecha": "2026-11-28T15:49:01.083Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSNjJDMzVFMDUyNjU0MTc5MzBEAA=="
       }
     ],
     "paso": "conversando",
@@ -986,7 +994,9 @@
       "texto": "Para el modem estoy ubicado en la vereda Palogrande municipio la Sierra departamento Cauca Colombia."
     },
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 1,
+      "horas1": true,
+      "ultimoEnvio": "2026-11-28T15:49:02.293Z"
     },
     "escasezFecha": "2026-11-28"
   },
