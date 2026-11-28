@@ -778,8 +778,8 @@
     "telefono": "573126283874",
     "nombre": "Alexander Pérez Jiménez👨‍🌾👒",
     "primerContacto": "2026-11-28T03:29:06.972Z",
-    "ultimoContacto": "2026-11-28T03:29:06.972Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-28T14:39:01.601Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -826,13 +826,45 @@
         "fecha": "2026-11-28T12:01:47.024Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSQkY5Mzk0RDk4NERCODExMkU1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Para el modem estoy ubicado en la vereda Palogrande municipio la Sierra departamento Cauca Colombia.",
+        "fecha": "2026-11-28T14:38:54.326Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "[Imagen] Modem 4G/5G",
+        "fecha": "2026-11-28T14:38:59.314Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMUY2N0REODVBMDczRjAzOTIzAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Envio fotos: Modem 4G/5G]",
+        "fecha": "2026-11-28T14:39:00.034Z",
+        "estado": "enviado"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, para la vereda Palogrande en La Sierra, Cauca, nuestra recomendación es el *Modem WiFi Portátil 4G/5G*.\n\nEste equipo:\n📶 Funciona bien en zonas rurales y veredas con cobertura 4G y 5G.\n✅ Te conecta hasta 10 dispositivos a la vez, ideal para familia, trabajo o estudio.\n🚀 Fácil de usar y transportar para que tengas internet estable donde estés.\n\nLa inversión es de *$199.900 + $26.000 de envío* = $225.900, pagas al recibir y tienes garantía de 30 días.\n\n🔥 Ya tiene el *30% de descuento* por promoción.\n\n¿Quieres que te lo envíe a tu dirección o prefieres recogerlo en la oficina de la transportadora?",
+        "fecha": "2026-11-28T14:39:00.040Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSQzkwN0FBRUUxMzNEMDI0NDc3AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-28T14:39:00.501Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMDJFMzJCQjRGMkQ5NEU0NTE0AA=="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
@@ -846,12 +878,12 @@
       "url": "https://fb.me/6uyNjCwgY",
       "fecha": "2026-11-28T03:29:05.015Z"
     },
-    "caliente": null,
+    "caliente": {
+      "fecha": "2026-11-28T14:38:54.326Z",
+      "texto": "Para el modem estoy ubicado en la vereda Palogrande municipio la Sierra departamento Cauca Colombia."
+    },
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-28T12:01:54.295Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-28"
   },
