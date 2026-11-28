@@ -75,8 +75,8 @@
     "telefono": "CO.2177920206942414",
     "nombre": "Jesús David 🥷🏻",
     "primerContacto": "2026-11-28T17:06:05.969Z",
-    "ultimoContacto": "2026-11-28T17:12:35.642Z",
-    "mensajes": 14,
+    "ultimoContacto": "2026-11-28T18:51:38.164Z",
+    "mensajes": 15,
     "conversacion": [
       {
         "rol": "cliente",
@@ -309,6 +309,25 @@
         "fecha": "2026-11-28T18:49:00.527Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEjkyRTE2MzdDMTRFMTA0NDg1RAA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Me puedes mandar la foto de las cositas que le quedan me hace el favor",
+        "fecha": "2026-11-28T18:51:30.076Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Claro, te envío las fotos de los modems que tenemos disponibles para que los veas:\n\n📶 Módem WiFi Portátil 4G  \n📶 Módem WiFi Portátil 4G/5G  \n📶 Módem WiFi Portátil 5G",
+        "fecha": "2026-11-28T18:51:36.287Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEjdFOUMwMzBCNzM2QTBBRjZFQQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "Ahora sí, ¿cual es tu numero de celular?",
+        "fecha": "2026-11-28T18:51:36.907Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEjgwOTYwQTU0ODIyOTU5QzI5MAA="
       }
     ],
     "paso": "pedido_celular",
@@ -332,10 +351,7 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "pedido30m": true,
-      "ultimoEnvio": "2026-11-28T18:49:02.155Z",
-      "horas1": true
+      "seguimientosEnviados": 0
     }
   },
   {
