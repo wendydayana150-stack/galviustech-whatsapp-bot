@@ -283,6 +283,13 @@
         "fecha": "2026-11-28T17:12:34.469Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEkREOEI0MUU0M0IxQzYwODk4RQA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Hola Ver! 😊 Tu *Modem 4G/5G* ya está *casi listo para despachar* 🚚\n\n✅ Ver otros\n\n💰 *$ 199.900* + $26.000 de envío · 💵 *Pagas al recibir*\n\n🔥 Quedan las *últimas unidades*, termina tu pedido antes de que se acaben.\n\n👉 Cual es tu numero de celular?",
+        "fecha": "2026-11-28T17:49:00.509Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEkZEREJEMUE3NDNCMUI2NzYyMAA="
       }
     ],
     "paso": "pedido_celular",
@@ -306,7 +313,9 @@
     "anuncio": null,
     "caliente": null,
     "recordatorios": {
-      "seguimientosEnviados": 0
+      "seguimientosEnviados": 0,
+      "pedido30m": true,
+      "ultimoEnvio": "2026-11-28T17:49:01.466Z"
     }
   },
   {
