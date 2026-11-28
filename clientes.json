@@ -892,8 +892,8 @@
     "telefono": "573126283874",
     "nombre": "Alexander Pérez Jiménez👨‍🌾👒",
     "primerContacto": "2026-11-28T03:29:06.972Z",
-    "ultimoContacto": "2026-11-28T16:19:34.794Z",
-    "mensajes": 7,
+    "ultimoContacto": "2026-11-28T16:19:58.936Z",
+    "mensajes": 8,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1048,9 +1048,21 @@
         "fecha": "2026-11-28T16:19:33.882Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSN0Q0MUU0RjQzNkRGMzQ2MTY1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3126283874",
+        "fecha": "2026-11-28T16:19:57.829Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-28T16:19:57.830Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSRUMxOTVBQ0VCODRCMzcyMDdEAA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -1058,7 +1070,8 @@
       "telefono": "573126283874",
       "departamento": "Cauca",
       "ciudad": "Palogrande Municipio",
-      "nombreCliente": "Alexander Pérez Jiménez"
+      "nombreCliente": "Alexander Pérez Jiménez",
+      "celular": "3126283874"
     },
     "pausado": false,
     "etapaManual": null,
