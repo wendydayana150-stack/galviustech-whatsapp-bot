@@ -253,8 +253,8 @@
     "telefono": "573132107456",
     "nombre": "floresjabier354marcos",
     "primerContacto": "2026-11-28T11:35:59.082Z",
-    "ultimoContacto": "2026-11-28T13:05:00.783Z",
-    "mensajes": 12,
+    "ultimoContacto": "2026-11-28T13:05:08.970Z",
+    "mensajes": 13,
     "conversacion": [
       {
         "rol": "cliente",
@@ -411,16 +411,29 @@
         "fecha": "2026-11-28T13:04:59.614Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSOEJFQTk3MTc1RjZBMDdCMkM1AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yopal Casanare",
+        "fecha": "2026-11-28T13:05:07.979Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¿En qué ciudad o municipio vives?",
+        "fecha": "2026-11-28T13:05:07.980Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSNjA4RDFDNUNDRjI5Nzg3MEVGAA=="
       }
     ],
-    "paso": "pedido_departamento",
+    "paso": "pedido_ciudad",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573132107456",
       "nombreCliente": "José Antonio Lozano",
-      "celular": "3222542062"
+      "celular": "3222542062",
+      "departamento": "Casanare"
     },
     "pausado": false,
     "etapaManual": null,
