@@ -892,8 +892,8 @@
     "telefono": "573126283874",
     "nombre": "Alexander Pérez Jiménez👨‍🌾👒",
     "primerContacto": "2026-11-28T03:29:06.972Z",
-    "ultimoContacto": "2026-11-28T16:19:58.936Z",
-    "mensajes": 8,
+    "ultimoContacto": "2026-11-28T16:20:25.851Z",
+    "mensajes": 9,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1060,9 +1060,21 @@
         "fecha": "2026-11-28T16:19:57.830Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSRUMxOTVBQ0VCODRCMzcyMDdEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Vereda Palogrande municipio la Sierra Cauca.",
+        "fecha": "2026-11-28T16:20:24.878Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que barrio queda esa direccion?",
+        "fecha": "2026-11-28T16:20:24.881Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSQjMyM0EyMUREQjQyMjU2MzExAA=="
       }
     ],
-    "paso": "pedido_direccion",
+    "paso": "pedido_barrio",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -1071,7 +1083,8 @@
       "departamento": "Cauca",
       "ciudad": "Palogrande Municipio",
       "nombreCliente": "Alexander Pérez Jiménez",
-      "celular": "3126283874"
+      "celular": "3126283874",
+      "direccion": "Vereda Palogrande municipio la Sierra Cauca."
     },
     "pausado": false,
     "etapaManual": null,
