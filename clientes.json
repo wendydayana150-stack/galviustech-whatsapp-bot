@@ -882,8 +882,8 @@
     "telefono": "573126283874",
     "nombre": "Alexander Pérez Jiménez👨‍🌾👒",
     "primerContacto": "2026-11-28T03:29:06.972Z",
-    "ultimoContacto": "2026-11-28T14:39:20.000Z",
-    "mensajes": 3,
+    "ultimoContacto": "2026-11-28T15:58:13.301Z",
+    "mensajes": 4,
     "conversacion": [
       {
         "rol": "cliente",
@@ -969,10 +969,36 @@
         "fecha": "2026-11-28T15:49:01.083Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSNjJDMzVFMDUyNjU0MTc5MzBEAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "si",
+        "fecha": "2026-11-28T15:58:02.650Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "¡Genial! 😊 Entonces te ayudo a dejar tu pedido listo para el *Modem WiFi Portátil 4G/5G*.\n\nSolo necesito que el sistema te pida tus datos para completar el envío y confirmar todo.\n\nTe lo envío a Palogrande, Cauca y pagas al recibir sin problemas. ¿Quieres que lo enviemos ya?",
+        "fecha": "2026-11-28T15:58:11.399Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMTg0Q0ZCNTFCQ0REMkVFQzcyAA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "Genial, elegiste *Modem WiFi Portatil 4G/5G* ($ 199.900) 🙌 Ya tengo tu departamento y tu ciudad, no hace falta repetirlo.\n\nSolo me falta: cual es tu nombre completo?",
+        "fecha": "2026-11-28T15:58:12.487Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMUU0RTU3RUEyRjVDMkUwOUU3AA=="
       }
     ],
-    "paso": "conversando",
-    "pedido": {},
+    "paso": "pedido_nombre",
+    "pedido": {
+      "productoId": "modem-4g5g",
+      "nombreProducto": "Modem WiFi Portatil 4G/5G",
+      "precio": 199900,
+      "telefono": "573126283874",
+      "departamento": "Cauca",
+      "ciudad": "Palogrande Municipio"
+    },
     "pausado": false,
     "etapaManual": null,
     "ultimoProducto": "modem-4g5g",
@@ -994,9 +1020,7 @@
       "texto": "Para el modem estoy ubicado en la vereda Palogrande municipio la Sierra departamento Cauca Colombia."
     },
     "recordatorios": {
-      "seguimientosEnviados": 1,
-      "horas1": true,
-      "ultimoEnvio": "2026-11-28T15:49:02.293Z"
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-28"
   },
