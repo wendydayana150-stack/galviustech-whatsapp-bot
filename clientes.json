@@ -253,8 +253,8 @@
     "telefono": "573132107456",
     "nombre": "floresjabier354marcos",
     "primerContacto": "2026-11-28T11:35:59.082Z",
-    "ultimoContacto": "2026-11-28T13:04:40.014Z",
-    "mensajes": 11,
+    "ultimoContacto": "2026-11-28T13:05:00.783Z",
+    "mensajes": 12,
     "conversacion": [
       {
         "rol": "cliente",
@@ -399,15 +399,28 @@
         "fecha": "2026-11-28T13:04:39.007Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSREJENjFGOTA5NEVBMzVBNDA4AA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "3222542062",
+        "fecha": "2026-11-28T13:04:59.613Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "En que departamento vives?",
+        "fecha": "2026-11-28T13:04:59.614Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSOEJFQTk3MTc1RjZBMDdCMkM1AA=="
       }
     ],
-    "paso": "pedido_celular",
+    "paso": "pedido_departamento",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
       "precio": 199900,
       "telefono": "573132107456",
-      "nombreCliente": "José Antonio Lozano"
+      "nombreCliente": "José Antonio Lozano",
+      "celular": "3222542062"
     },
     "pausado": false,
     "etapaManual": null,
