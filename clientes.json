@@ -6116,8 +6116,8 @@
     "telefono": "573146274958",
     "nombre": "Sandrsa",
     "primerContacto": "2026-11-27T12:43:50.127Z",
-    "ultimoContacto": "2026-11-27T12:43:50.127Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-28T15:12:31.611Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -6157,6 +6157,13 @@
         "fecha": "2026-11-27T13:50:37.787Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTQ2Mjc0OTU4FQIAERgSMzIwNDNDNkQ0NENCRTNCNjc4AA=="
+      },
+      {
+        "rol": "bot",
+        "texto": "[Plantilla reactivacion_cliente_galviustech] Hola Sandrsa, sobre Impresora NETUM",
+        "fecha": "2026-11-28T15:12:30.677Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTQ2Mjc0OTU4FQIAERgSN0Q4NjA1NTY0MEU2ODQ1Qjk0AA=="
       }
     ],
     "paso": "conversando",
@@ -6179,10 +6186,7 @@
     },
     "caliente": null,
     "recordatorios": {
-      "horas1": true,
-      "ultimoEnvio": "2026-11-27T14:50:54.212Z",
-      "seguimientosEnviados": 2,
-      "horas3": true
+      "seguimientosEnviados": 0
     },
     "escasezFecha": "2026-11-28"
   },
