@@ -892,8 +892,8 @@
     "telefono": "573126283874",
     "nombre": "Alexander Pérez Jiménez👨‍🌾👒",
     "primerContacto": "2026-11-28T03:29:06.972Z",
-    "ultimoContacto": "2026-11-28T16:22:43.242Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-28T16:22:47.361Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -1141,6 +1141,18 @@
         "fecha": "2026-11-28T16:22:42.260Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSNDExM0FENTBCODlBMDlEOERGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "No",
+        "fecha": "2026-11-28T16:22:44.909Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Perfecto, quedo atenta si necesitas más info o quieres retomar después. Recuerda que la promoción del 30% de descuento es por pocos días y las unidades son limitadas.\n\nCuando decidas, aquí estoy para ayudarte con tu pedido sin compromiso.\n\n¿Quieres que te recuerde esta oferta más adelante? 😊",
+        "fecha": "2026-11-28T16:22:46.419Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTI2MjgzODc0FQIAERgSMzYyNEIyRjRCMUUzREY3MkZFAA=="
       }
     ],
     "paso": "conversando",
@@ -1151,7 +1163,7 @@
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
-    "pausarSeguimiento": false,
+    "pausarSeguimiento": true,
     "esperandoDatosPedidoLibre": null,
     "esperaCompra": null,
     "interesColor": null,
