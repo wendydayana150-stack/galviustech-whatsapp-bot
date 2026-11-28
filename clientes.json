@@ -253,8 +253,8 @@
     "telefono": "573132107456",
     "nombre": "floresjabier354marcos",
     "primerContacto": "2026-11-28T11:35:59.082Z",
-    "ultimoContacto": "2026-11-28T13:05:08.970Z",
-    "mensajes": 13,
+    "ultimoContacto": "2026-11-28T13:05:27.758Z",
+    "mensajes": 14,
     "conversacion": [
       {
         "rol": "cliente",
@@ -423,9 +423,21 @@
         "fecha": "2026-11-28T13:05:07.980Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSNjA4RDFDNUNDRjI5Nzg3MEVGAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Yopal",
+        "fecha": "2026-11-28T13:05:26.620Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Cual es tu direccion completa?",
+        "fecha": "2026-11-28T13:05:26.622Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMTMyMTA3NDU2FQIAERgSNUYwRUJCQzNEQjM3QkI3MDRDAA=="
       }
     ],
-    "paso": "pedido_ciudad",
+    "paso": "pedido_direccion",
     "pedido": {
       "productoId": "modem-4g5g",
       "nombreProducto": "Modem WiFi Portatil 4G/5G",
@@ -433,7 +445,8 @@
       "telefono": "573132107456",
       "nombreCliente": "José Antonio Lozano",
       "celular": "3222542062",
-      "departamento": "Casanare"
+      "departamento": "Casanare",
+      "ciudad": "Yopal"
     },
     "pausado": false,
     "etapaManual": null,
