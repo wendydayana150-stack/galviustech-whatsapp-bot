@@ -3,8 +3,8 @@
     "telefono": "CO.2177920206942414",
     "nombre": "Jesús David 🥷🏻",
     "primerContacto": "2026-11-28T17:06:05.969Z",
-    "ultimoContacto": "2026-11-28T17:08:09.314Z",
-    "mensajes": 5,
+    "ultimoContacto": "2026-11-28T17:08:21.527Z",
+    "mensajes": 6,
     "conversacion": [
       {
         "rol": "cliente",
@@ -87,13 +87,32 @@
         "fecha": "2026-11-28T17:07:41.592Z",
         "estado": "enviado",
         "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEjkyNkQzNTcyMzg5NTdENzI4MQA="
+      },
+      {
+        "rol": "cliente",
+        "texto": "El que está marcado Cuánto está valiendo",
+        "fecha": "2026-11-28T17:08:17.564Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "El módem que viste marcado es el *Módem WiFi Portátil 4G/5G*. La inversión sería de $199.900 + $26.000 de envío, pagas al recibir.\n\nEste módem te da internet rápido donde haya señal 4G o 5G, conecta varios dispositivos y es muy fácil de llevar y usar.\n\n¿Me dices para qué lo usarías o dónde lo necesitas para ayudarte mejor?",
+        "fecha": "2026-11-28T17:08:19.794Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEkI1REI0MUJBMDZBRkE0RDFGRgA="
+      },
+      {
+        "rol": "bot",
+        "texto": "¿Te lo envío? 🚚 Pagas al recibir\n[Opciones: ✅ Sí, envíamelo | Ver otros]",
+        "fecha": "2026-11-28T17:08:20.376Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgTQ08uMjE3NzkyMDIwNjk0MjQxNBUUABEYEjRBNEMzNDZFMDQwNDlBM0RENQA="
       }
     ],
     "paso": "conversando",
     "pedido": {},
     "pausado": false,
     "etapaManual": null,
-    "ultimoProducto": null,
+    "ultimoProducto": "modem-4g5g",
     "ultimaCategoria": "modem",
     "necesitaAtencion": false,
     "motivoAtencion": null,
