@@ -3,8 +3,8 @@
     "telefono": "573235842426",
     "nombre": "Jorge",
     "primerContacto": "2026-11-28T01:36:49.059Z",
-    "ultimoContacto": "2026-11-28T01:36:49.059Z",
-    "mensajes": 1,
+    "ultimoContacto": "2026-11-28T01:38:16.115Z",
+    "mensajes": 2,
     "conversacion": [
       {
         "rol": "cliente",
@@ -37,6 +37,18 @@
         "fecha": "2026-11-28T01:36:48.363Z",
         "estado": "enviado",
         "wamid": "wamid.HBgMNTczMjM1ODQyNDI2FQIAERgSNzEzNzFDQzZBQTM4RjI0NjNFAA=="
+      },
+      {
+        "rol": "cliente",
+        "texto": "Es satélital",
+        "fecha": "2026-11-28T01:38:11.237Z"
+      },
+      {
+        "rol": "bot",
+        "texto": "Si en tu zona no hay señal de ningún operador y solo tienes satelital, el módem no funcionará porque requiere SIM de operador celular (Claro, Movistar, Tigo, WOM).\n\nPero dime, ¿confirmas que tu celular no tiene señal ni siquiera débil ahí? La antena del módem capta mejor que un celular normal y a veces sí encuentra señal donde el celular no.\n\n¿Quieres que te ayude a revisar opciones según tu lugar o necesitas otra cosa para conectarte?",
+        "fecha": "2026-11-28T01:38:15.298Z",
+        "estado": "enviado",
+        "wamid": "wamid.HBgMNTczMjM1ODQyNDI2FQIAERgSQTY2NzgxMThGOURDMjA1MjhBAA=="
       }
     ],
     "paso": "conversando",
@@ -57,7 +69,10 @@
       "url": "https://fb.me/7hl8U31mF",
       "fecha": "2026-11-28T01:36:47.209Z"
     },
-    "caliente": null
+    "caliente": null,
+    "recordatorios": {
+      "seguimientosEnviados": 0
+    }
   },
   {
     "telefono": "573107937952",
